@@ -1,116 +1,53 @@
 {
+  "title": "1977年普通高等学校招生全国统一考试",
+  "subtitle": "1977年江苏苏州市初试卷",
   "year": "1977",
   "slug": "jiangsu_suzhou_city",
-  "title": "1977年江苏苏州市初试卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "附加题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "附加题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
       "problems": [
         {
           "num": 1,
-          "body": "(1) 计算：$1\\div\\left(-\\frac{1}{8}\\right)^2\\times\\left(-\\frac{1}{4}\\right)^3+\\left(-1\\frac{1}{3}\\right)^2\\div\\left(\\frac{2}{3}\\right)^2$.\n\n(2) 已知：$3:x=6:y$，求 $\\frac{x}{y}$ 的值.\n\n(3) 若 $\\sqrt{(3-x)^2}=x-3$ 成立，求 $x$ 的取值范围.\n\n(4) 求函数 $y=\\frac{1}{2x^2-5x-3}$ 的自变量 $x$ 的取值范围.\n\n(5) 若 $0.0054=5.4\\times10^n$，求 $n$.\n\n(6) 解方程：$(2x-3)(x+4)=-5$.\n\n(7) 求 $\\sin(-1020^\\circ)$ 的值.\n\n(8) 已知 $\\lg2=0.3010$，$\\lg3=0.4771$，求 $\\lg1800$ 的值.\n\n(9) 求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{2n+1}{n}$ 的值.\n\n(10) 求过点 $(3,4)$ 并平行于直线 $2x+y-5=0$ 的直线方程.\n\n(11) 极坐标方程 $\\rho=3$ 表示什么曲线，并且将它化成直角坐标方程.\n\n(12) 某种反射镜面是旋转抛物面，它的镜面口直径是 $40\\mathrm{~cm}$，深度是 $5\\mathrm{~cm}$（如图），求抛物线的直角坐标方程和焦点坐标.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/jiangsu_suzhou_city/q1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<ol class=\"enumerate\"><li><p>计算：$1\\div\\left(-\\frac{1}{8}\\right)^{2}\\times\\left(-\\frac{1}{4}\\right)^{3}+\\left(-1\\frac{1}{3}\\right)^{2}\\div\\left(\\frac{2}{3}\\right)^{2}$.</p></li><li><p>已知：$3:x=6:y$，求 $\\frac{x}{y}$ 的值.</p></li><li><p>若 $\\sqrt{(3-x)^{2}}=x-3$ 成立，求 $x$ 的取值范围.</p></li><li><p>求函数 $y=\\frac{1}{2x^{2}-5x-3}$ 的自变量 $x$ 的取值范围.</p></li><li><p>若 $0.0054=5.4\\times10^{n}$，求 $n$.</p></li><li><p>解方程：$(2x-3)(x+4)=-5$.</p></li><li><p>求 $\\sin(-1020^{\\circ})$ 的值.</p></li><li><p>已知 $\\lg2=0.3010$，$\\lg3=0.4771$，求 $\\lg1800$ 的值.</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}\\frac{2n+1}{n}$ 的值.</p></li><li><p>求过点 $(3,4)$ 并平行于直线 $2x+y-5=0$ 的直线方程.</p></li><li><p>极坐标方程 $\\rho=3$ 表示什么曲线，并且将它化成直角坐标方程.</p></li><li><p>某种反射镜面是旋转抛物面，它的镜面口直径是 $40\\mathrm{~cm}$，深度是 $5\\mathrm{~cm}$（如图），求抛物线的直角坐标方程和焦点坐标.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu_suzhou_city/q1_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 将带分数化为假分数，得\r\n\n$$\n1\\div\\left(-\\frac{1}{8}\\right)^2\\times\\left(-\\frac{1}{4}\\right)^3+\\left(-\\frac{4}{3}\\right)^2\\div\\left(\\frac{2}{3}\\right)^2\r\n=1\\div\\frac{1}{64}\\times\\left(-\\frac{1}{64}\\right)+\\frac{16}{9}\\div\\frac{4}{9}\r\n=-1+4=3\n$$\n\n(2) 由比例式得 $\\frac{3}{x}=\\frac{6}{y}$，所以 $3y=6x$，即 $y=2x$. 因此 $\\frac{x}{y}=\\frac{1}{2}$.\n\n(3) 因为 $\\sqrt{(3-x)^2}=\\lvert 3-x\\rvert$，而等式右边必须满足 $x-3\\geqslant0$. 当 $x\\geqslant3$ 时，$\\lvert 3-x\\rvert=x-3$，等式成立；当 $x<3$ 时，$\\lvert 3-x\\rvert=3-x\\ne x-3$. 所以 $x$ 的取值范围是 $[3,+\\infty)$.\n\n(4) 分母不能为零，而\r\n\n$$\n2x^2-5x-3=(2x+1)(x-3)\n$$\n\r\n因此 $x\\ne-\\frac{1}{2}$ 且 $x\\ne3$，自变量 $x$ 的取值范围是 $\\left\\{x\\in\\mathbb{R}\\mid x\\ne-\\frac{1}{2},\\ x\\ne3\\right\\}$.\n\n(5) 由 $5.4\\ne0$，得\r\n\n$$\n10^n=\\frac{0.0054}{5.4}=0.001=10^{-3}\n$$\n\r\n所以 $n=-3$.\n\n(6) 原方程化为\r\n$2x^2+5x-12=-5$，$2x^2+5x-7=0$，$(2x+7)(x-1)=0$.\r\n所以 $x=1$ 或 $x=-\\frac{7}{2}$.\n\n(7) 利用正弦函数的周期性，$-1020^\\circ+3\\times360^\\circ=60^\\circ$，所以\r\n\n$$\n\\sin(-1020^\\circ)=\\sin60^\\circ=\\frac{\\sqrt{3}}{2}\n$$\n\n(8) 因为 $1800=18\\times100=2\\times3^2\\times10^2$，所以\r\n\n$$\n\\lg1800=\\lg2+2\\lg3+2=0.3010+2\\times0.4771+2=3.2552\n$$\n\n(9) 当 $n\\ne0$ 时，\r\n\n$$\n\\frac{2n+1}{n}=2+\\frac{1}{n}\n$$\n\r\n由于 $\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{n}=0$，所以\r\n\n$$\n\\displaystyle\\lim_{n\\to\\infty}\\frac{2n+1}{n}=2\n$$\n\n(10) 与直线 $2x+y-5=0$ 平行的直线可设为 $2x+y+C=0$. 将点 $(3,4)$ 代入，得 $2\\times3+4+C=0$，所以 $C=-10$. 所求直线方程为 $2x+y-10=0$.\n\n(11) 极坐标方程 $\\rho=3$ 表示以极点为圆心、半径为 $3$ 的圆. 由 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$ 以及 $x^2+y^2=\\rho^2$，得其直角坐标方程为 $x^2+y^2=9$.\n\n(12) 取抛物线顶点为原点，开口方向为 $x$ 轴正方向，则抛物线可设为 $y^2=4px$. 镜面口直径为 $40$，所以口的两个端点的纵坐标为 $20$ 和 $-20$；深度为 $5$，所以这两个端点的横坐标为 $5$. 代入抛物线方程，得 $20^2=4p\\times5$，即 $p=20$. 因此抛物线的直角坐标方程为 $y^2=80x$，焦点坐标为 $(20,0)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>将带分数化为假分数，得</p>\n$$\n1\\div\\left(-\\frac{1}{8}\\right)^{2}\\times\\left(-\\frac{1}{4}\\right)^{3}+\\left(-\\frac{4}{3}\\right)^{2}\\div\\left(\\frac{2}{3}\\right)^{2}  =1\\div\\frac{1}{64}\\times\\left(-\\frac{1}{64}\\right)+\\frac{16}{9}\\div\\frac{4}{9}=-1+4=3\n$$\n</li><li><p>由比例式得 $\\frac{3}{x}=\\frac{6}{y}$，所以 $3y=6x$，即 $y=2x$. 因此 $\\frac{x}{y}=\\frac{1}{2}$.</p></li><li><p>因为 $\\sqrt{(3-x)^{2}}=\\lvert 3-x\\rvert$，而等式右边必须满足 $x-3\\geqslant0$. 当 $x\\geqslant3$ 时，$\\lvert 3-x\\rvert=x-3$，等式成立；当 $x&#x3C;3$ 时，$\\lvert 3-x\\rvert=3-x\\ne x-3$. 所以 $x$ 的取值范围是 $[3,+\\infty)$.</p></li><li><p>分母不能为零，而</p>\n$$\n2x^{2}-5x-3=(2x+1)(x-3)\n$$\n<p>因此 $x\\ne-\\frac{1}{2}$ 且 $x\\ne3$，自变量 $x$ 的取值范围是 $\\left\\{x\\in\\mathbb{R}\\mid x\\ne-\\frac{1}{2},\\ x\\ne3\\right\\}$.</p></li><li><p>由 $5.4\\ne0$，得</p>\n$$\n10^{n}=\\frac{0.0054}{5.4}=0.001=10^{-3}\n$$\n<p>所以 $n=-3$.</p></li><li><p>原方程化为</p><p>$2x^{2}+5x-12=-5$，$2x^{2}+5x-7=0$，$(2x+7)(x-1)=0$.</p><p>所以 $x=1$ 或 $x=-\\frac{7}{2}$.</p></li><li><p>利用正弦函数的周期性，$-1020^{\\circ}+3\\times360^{\\circ}=60^{\\circ}$，所以</p>\n$$\n\\sin(-1020^{\\circ})=\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}\n$$\n</li><li><p>因为 $1800=18\\times100=2\\times3^{2}\\times10^{2}$，所以</p>\n$$\n\\lg1800=\\lg2+2\\lg3+2=0.3010+2\\times0.4771+2=3.2552\n$$\n</li><li><p>当 $n\\ne0$ 时，</p>\n$$\n\\frac{2n+1}{n}=2+\\frac{1}{n}\n$$\n<p>由于 $\\displaystyle\\lim_{n\\to\\infty}\\frac{1}{n}=0$，所以</p>\n$$\n\\displaystyle\\lim_{n\\to\\infty}\\frac{2n+1}{n}=2\n$$\n</li><li><p>与直线 $2x+y-5=0$ 平行的直线可设为 $2x+y+C=0$. 将点 $(3,4)$ 代入，得 $2\\times3+4+C=0$，所以 $C=-10$. 所求直线方程为 $2x+y-10=0$.</p></li><li><p>极坐标方程 $\\rho=3$ 表示以极点为圆心、半径为 $3$ 的圆. 由 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$ 以及 $x^{2}+y^{2}=\\rho^{2}$，得其直角坐标方程为 $x^{2}+y^{2}=9$.</p></li><li><p>取抛物线顶点为原点，开口方向为 $x$ 轴正方向，则抛物线可设为 $y^{2}=4px$. 镜面口直径为 $40$，所以口的两个端点的纵坐标为 $20$ 和 $-20$；深度为 $5$，所以这两个端点的横坐标为 $5$. 代入抛物线方程，得 $20^{2}=4p\\times5$，即 $p=20$. 因此抛物线的直角坐标方程为 $y^{2}=80x$，焦点坐标为 $(20,0)$.</p></li></ol>"
         },
         {
           "num": 2,
-          "body": "化简：$\\left[a^{-\\frac{3}{2}}b\\left(ab^{-2}\\right)^{-\\frac{1}{2}}\\right]^3$，并求当 $a=\\frac{1}{\\sqrt{2}}$，$b=\\frac{1}{\\sqrt[3]{2}}$ 时的值.",
-          "choices": [],
+          "body": "化简：$\\left[a^{-\\frac{3}{2}}b\\left(ab^{-2}\\right)^{-\\frac{1}{2}}\\right]^{3}$，并求当 $a=\\frac{1}{\\sqrt{2}}$，$b=\\frac{1}{\\sqrt[3]{2}}$ 时的值.",
+          "choices": null,
           "answer": "",
-          "solution": "因为题中给定的 $a$，$b$ 均为正数，可以使用正数幂的运算性质. 先化简括号内的式子：\r\n$\\left(ab^{-2}\\right)^{-\\frac{1}{2}}=a^{-\\frac{1}{2}}b$，$a^{-\\frac{3}{2}}b\\left(ab^{-2}\\right)^{-\\frac{1}{2}}=a^{-2}b^2$.\r\n所以原式为\r\n\n$$\n\\left(a^{-2}b^2\\right)^3=a^{-6}b^6=\\left(\\frac{b}{a}\\right)^6\n$$\n\r\n又因为 $a=2^{-\\frac{1}{2}}$，$b=2^{-\\frac{1}{3}}$，故\r\n\n$$\n\\left(\\frac{b}{a}\\right)^6\r\n=\\left(2^{-\\frac{1}{3}+\\frac{1}{2}}\\right)^6\r\n=\\left(2^{\\frac{1}{6}}\\right)^6=2\n$$\n\r\n所以化简结果为 $\\left(\\frac{b}{a}\\right)^6$，给定条件下的值为 $2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>因为题中给定的 $a$，$b$ 均为正数，可以使用正数幂的运算性质. 先化简括号内的式子：</p><p>$\\left(ab^{-2}\\right)^{-\\frac{1}{2}}=a^{-\\frac{1}{2}}b$，$a^{-\\frac{3}{2}}b\\left(ab^{-2}\\right)^{-\\frac{1}{2}}=a^{-2}b^{2}$.</p><p>所以原式为</p>\n$$\n\\left(a^{-2}b^{2}\\right)^{3}=a^{-6}b^{6}=\\left(\\frac{b}{a}\\right)^{6}\n$$\n<p>又因为 $a=2^{-\\frac{1}{2}}$，$b=2^{-\\frac{1}{3}}$，故</p>\n$$\n\\left(\\frac{b}{a}\\right)^{6}  =\\left(2^{-\\frac{1}{3}+\\frac{1}{2}}\\right)^{6}  =\\left(2^{\\frac{1}{6}}\\right)^{6}=2\n$$\n<p>所以化简结果为 $\\left(\\frac{b}{a}\\right)^{6}$，给定条件下的值为 $2$.</p>"
         },
         {
           "num": 3,
           "body": "已知 $\\cos\\theta=0.6$，并且 $\\theta$ 是第四象限的角，求 $\\sin2\\theta$ 的值.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "因为 $\\cos\\theta=0.6=\\frac{3}{5}$，且 $\\theta$ 在第四象限，所以 $\\sin\\theta<0$. 由平方关系得\r\n\n$$\n\\sin\\theta=-\\sqrt{1-\\cos^2\\theta}=-\\sqrt{1-\\left(\\frac{3}{5}\\right)^2}=-\\frac{4}{5}\n$$\n\r\n于是\r\n\n$$\n\\sin2\\theta=2\\sin\\theta\\cos\\theta=2\\times\\left(-\\frac{4}{5}\\right)\\times\\frac{3}{5}=-\\frac{24}{25}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>因为 $\\cos\\theta=0.6=\\frac{3}{5}$，且 $\\theta$ 在第四象限，所以 $\\sin\\theta&#x3C;0$. 由平方关系得</p>\n$$\n\\sin\\theta=-\\sqrt{1-\\cos^{2}\\theta}=-\\sqrt{1-\\left(\\frac{3}{5}\\right)^{2}}=-\\frac{4}{5}\n$$\n<p>于是</p>\n$$\n\\sin2\\theta=2\\sin\\theta\\cos\\theta=2\\times\\left(-\\frac{4}{5}\\right)\\times\\frac{3}{5}=-\\frac{24}{25}\n$$"
         },
         {
           "num": 4,
           "body": "将 $40$ 分成两个正数，使它们的平方和为最小，求这两个数.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设两个正数分别为 $x$ 和 $40-x$，则 $0<x<40$，它们的平方和为\r\n\n$$\nS=x^2+(40-x)^2=2x^2-80x+1600=2(x-20)^2+800\n$$\n\r\n因为 $(x-20)^2\\geqslant0$，所以 $S\\geqslant800$，当且仅当 $x=20$ 时取等号. 此时 $40-x=20$，故这两个数都是 $20$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设两个正数分别为 $x$ 和 $40-x$，则 $0&#x3C;x&#x3C;40$，它们的平方和为</p>\n$$\nS=x^{2}+(40-x)^{2}=2x^{2}-80x+1600=2(x-20)^{2}+800\n$$\n<p>因为 $(x-20)^{2}\\geqslant0$，所以 $S\\geqslant800$，当且仅当 $x=20$ 时取等号. 此时 $40-x=20$，故这两个数都是 $20$.</p>"
         },
         {
           "num": 5,
           "body": "已知 A、B 两地相距 $600\\text{ 公里}$，从 A 地开往 B 地的客车每小时比货车快 $15\\text{ 公里}$，客车比货车少用 $2$ 小时，求客车和货车的速度.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设货车的速度为 $v\\mathrm{~km/h}$，则客车的速度为 $(v+15)\\mathrm{~km/h}$，其中 $v>0$. 由客车比货车少用 $2$ 小时，得\r\n\n$$\n\\frac{600}{v}-\\frac{600}{v+15}=2\n$$\n\r\n因为 $v(v+15)>0$，所以\r\n$600\\times15=2v(v+15)$，$v^2+15v-4500=0$，$(v-60)(v+75)=0$.\r\n由 $v>0$，得 $v=60$. 因此货车的速度为 $60\\mathrm{~km/h}$，客车的速度为 $75\\mathrm{~km/h}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设货车的速度为 $v\\mathrm{~km/h}$，则客车的速度为 $(v+15)\\mathrm{~km/h}$，其中 $v>0$. 由客车比货车少用 $2$ 小时，得</p>\n$$\n\\frac{600}{v}-\\frac{600}{v+15}=2\n$$\n<p>因为 $v(v+15)>0$，所以</p><p>$600\\times15=2v(v+15)$，$v^{2}+15v-4500=0$，$(v-60)(v+75)=0$.</p><p>由 $v>0$，得 $v=60$. 因此货车的速度为 $60\\mathrm{~km/h}$，客车的速度为 $75\\mathrm{~km/h}$.</p>"
         },
         {
           "num": 6,
-          "body": "$MT$ 是 $\\odot O$ 的切线，$O$ 是圆心，$T$ 是切点，$MO$ 与 $\\odot O$ 交于 $A$ 点，已知 $MA$ 的长为 $h$，$\\odot O$ 的半径为 $r$，$TP$ 为 $MO$ 的垂线，垂足是 $P$，求 $TP$ 的长.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1977/img/jiangsu_suzhou_city/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>$MT$ 是 $\\odot O$ 的切线，$O$ 是圆心，$T$ 是切点，$MO$ 与 $\\odot O$ 交于 $A$ 点，已知 $MA$ 的长为 $h$，$\\odot O$ 的半径为 $r$，$TP$ 为 $MO$ 的垂线，垂足是 $P$，求 $TP$ 的长.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu_suzhou_city/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "由图中点的位置，$A$ 在 $M$，$O$ 之间，且 $OA=r$，所以 $MO=MA+AO=h+r$. 半径垂直于切线，故 $OT\\perp MT$，在直角三角形 $MTO$ 中，\r\n\n$$\nMT^2=MO^2-OT^2=(h+r)^2-r^2=h(h+2r)\n$$\n\r\n又因为 $TP\\perp MO$，用三角形 $MTO$ 的面积表示式得\r\n\n$$\n\\frac{1}{2}MT\\cdot OT=\\frac{1}{2}MO\\cdot TP\n$$\n\r\n代入 $OT=r$，$MO=h+r$ 以及 $MT=\\sqrt{h(h+2r)}$，得\r\n\n$$\nTP=\\frac{MT\\cdot OT}{MO}=\\frac{r\\sqrt{h(h+2r)}}{h+r}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由图中点的位置，$A$ 在 $M$，$O$ 之间，且 $OA=r$，所以 $MO=MA+AO=h+r$. 半径垂直于切线，故 $OT\\perp MT$，在直角三角形 $MTO$ 中，</p>\n$$\nMT^{2}=MO^{2}-OT^{2}=(h+r)^{2}-r^{2}=h(h+2r)\n$$\n<p>又因为 $TP\\perp MO$，用三角形 $MTO$ 的面积表示式得</p>\n$$\n\\frac{1}{2}MT\\cdot OT=\\frac{1}{2}MO\\cdot TP\n$$\n<p>代入 $OT=r$，$MO=h+r$ 以及 $MT=\\sqrt{h(h+2r)}$，得</p>\n$$\nTP=\\frac{MT\\cdot OT}{MO}=\\frac{r\\sqrt{h(h+2r)}}{h+r}\n$$"
         }
       ]
     },
@@ -119,24 +56,19 @@
       "problems": [
         {
           "num": 7,
-          "body": "如果二次方程 $(m+1)x^2+(2m-1)x+(m-1)=0$ 无实数根，求证：二次方程 $(m-3)x^2-2(m+3)x-(m+5)=0$ 一定有两个不相等的实根.",
-          "choices": [],
+          "body": "如果二次方程 $(m+1)x^{2}+(2m-1)x+(m-1)=0$ 无实数根，求证：二次方程 $(m-3)x^{2}-2(m+3)x-(m+5)=0$ 一定有两个不相等的实根.",
+          "choices": null,
           "answer": "",
-          "solution": "由第一个方程无实数根，得其判别式小于零，即\r\n\n$$\n\\Delta_1=(2m-1)^2-4(m+1)(m-1)=4m^2-4m+1-4m^2+4=5-4m<0\n$$\n\r\n所以 $m>\\frac{5}{4}$. 按题意第二个式子为二次方程，故 $m-3\\ne0$. 对第二个方程，其判别式为\r\n\n$$\n\\Delta_2=[-2(m+3)]^2-4(m-3)[-(m+5)]=8(m^2+4m-3)=8\\left((m+2)^2-7\\right)\n$$\n\r\n由于 $m>\\frac{5}{4}$，所以 $m+2>\\frac{13}{4}>\\sqrt{7}$，从而 $\\Delta_2>0$. 因此第二个二次方程的二次项系数不为零且判别式大于零，必有两个不相等的实根.\r\n\r\n这里使用了题目将第二个式子规定为“二次方程”这一条件；若只假定第一个式子为二次方程而不要求 $m\\ne3$，则 $m=3$ 时第二个式子退化为一次方程，原结论不成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由第一个方程无实数根，得其判别式小于零，即</p>\n$$\n\\Delta_{1}=(2m-1)^{2}-4(m+1)(m-1)=4m^{2}-4m+1-4m^{2}+4=5-4m&#x3C;0\n$$\n<p>所以 $m>\\frac{5}{4}$. 按题意第二个式子为二次方程，故 $m-3\\ne0$. 对第二个方程，其判别式为</p>\n$$\n\\Delta_{2}=[-2(m+3)]^{2}-4(m-3)[-(m+5)]=8(m^{2}+4m-3)=8\\left((m+2)^{2}-7\\right)\n$$\n<p>由于 $m>\\frac{5}{4}$，所以 $m+2>\\frac{13}{4}>\\sqrt{7}$，从而 $\\Delta_{2}>0$. 因此第二个二次方程的二次项系数不为零且判别式大于零，必有两个不相等的实根.</p><p>这里使用了题目将第二个式子规定为“二次方程”这一条件；若只假定第一个式子为二次方程而不要求 $m\\ne3$，则 $m=3$ 时第二个式子退化为一次方程，原结论不成立.</p>"
         },
         {
           "num": 8,
           "body": "$\\triangle ABC$ 的面积为 $10\\sqrt{3}$，周长为 $20$，并且三个内角成等差数列，求各边的长.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "不妨设 $\\angle B$ 是三个内角中的中间项，并记 $a=BC$，$b=CA$，$c=AB$. 因为三角形内角和为 $180^\\circ$，且三个内角成等差数列，所以 $\\angle B=60^\\circ$. 由面积公式得\r\n\n$$\n10\\sqrt{3}=\\frac{1}{2}ac\\sin60^\\circ=\\frac{\\sqrt{3}}{4}ac\n$$\n\r\n所以 $ac=40$. 由余弦定理，\r\n\n$$\nb^2=a^2+c^2-2ac\\cos60^\\circ=a^2+c^2-ac=(a+c)^2-3ac\n$$\n\r\n令 $s=a+c$，由周长为 $20$ 得 $b=20-s$，于是\r\n$(20-s)^2=s^2-120$，$\\Longrightarrow 400-40s+s^2=s^2-120 \\Longrightarrow 40s=520 \\Longrightarrow s=13$.\r\n因此 $b=7$，且 $a$，$c$ 是方程\r\n$t^2-13t+40=0$，$(t-5)(t-8)=0$\r\n的两个根，所以 $\\{a,c\\}=\\{5,8\\}$. 各边的长为 $5$，$7$，$8$. 验算得 $\\frac{1}{2}\\times5\\times8\\times\\sin60^\\circ=10\\sqrt{3}$，且三边满足三角形不等式，故结果成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>不妨设 $\\angle B$ 是三个内角中的中间项，并记 $a=BC$，$b=CA$，$c=AB$. 因为三角形内角和为 $180^{\\circ}$，且三个内角成等差数列，所以 $\\angle B=60^{\\circ}$. 由面积公式得</p>\n$$\n10\\sqrt{3}=\\frac{1}{2}ac\\sin60^{\\circ}=\\frac{\\sqrt{3}}{4}ac\n$$\n<p>所以 $ac=40$. 由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos60^{\\circ}=a^{2}+c^{2}-ac=(a+c)^{2}-3ac\n$$\n<p>令 $s=a+c$，由周长为 $20$ 得 $b=20-s$，于是</p><p>$(20-s)^{2}=s^{2}-120$，$\\Longrightarrow 400-40s+s^{2}=s^{2}-120 \\Longrightarrow 40s=520 \\Longrightarrow s=13$.</p><p>因此 $b=7$，且 $a$，$c$ 是方程</p><p>$t^{2}-13t+40=0$，$(t-5)(t-8)=0$</p><p>的两个根，所以 $\\{a,c\\}=\\{5,8\\}$. 各边的长为 $5$，$7$，$8$. 验算得 $\\frac{1}{2}\\times5\\times8\\times\\sin60^{\\circ}=10\\sqrt{3}$，且三边满足三角形不等式，故结果成立.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

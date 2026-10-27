@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -99,10 +100,10 @@ $ e=(c)/(a)=(sqrt(3)b)/(sqrt(2)b)=(sqrt(6))/(2) $
 
 令 $x^5=2$，则 $x=root(5, 2)>0$. 由题设，
 
-$ f(2)=f(x^5)=\l g x=\l g r o o t(5, 2)=(1)/(5)\l g2 $
+$ f(2)=f(x^5)=\l g x=\l g r o o t(5, 2)=(1)/(5)\l g 2 $
 
 故选 D.
-  #choices([$\l g2$], [$\l g32$], [$\l g(1)/(32)$], [$(1)/(5)\l g2$], cols: 4)
+  #choices([$\l g 2$], [$\l g 32$], [$\l g(1)/(32)$], [$(1)/(5)\l g 2$], cols: 4)
 ]
 
 #problem(8)[

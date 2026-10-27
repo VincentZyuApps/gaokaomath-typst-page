@@ -1,239 +1,88 @@
 {
+  "title": "2007年普通高等学校招生全国统一考试",
+  "subtitle": "2007年上海卷（秋文）",
   "year": "2007",
   "slug": "shanghai_liberal",
-  "title": "2007年上海卷（秋文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "方程 $3^{x-1} = \\frac{1}{9}$ 的解是 _______ {}.",
-          "choices": [],
-          "answer": "\\(-1\\)",
-          "solution": "因为 $\\frac{1}{9}=3^{-2}$，所以 $3^{x-1}=3^{-2}$，从而 $x-1=-2$，解得 $x=-1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "方程 $3^{x-1}= \\frac{1}{9}$ 的解是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-1$",
+          "solution": "因为 $\\frac{1}{9}=3^{-2}$，所以 $3^{x-1}=3^{-2}$，从而 $x-1=-2$，解得 $x=-1$."
         },
         {
           "num": 2,
-          "body": "函数 $f(x)=\\frac{1}{x-1}$ 的反函数 $f^{-1}(x)=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{x+1}{x}\\)（\\(x\\neq0\\)）",
-          "solution": "设 $y=f(x)=\\frac{1}{x-1}$，则 $y\\neq0$，且 $x-1=\\frac{1}{y}$，所以 $x=1+\\frac{1}{y}=\\frac{y+1}{y}$. 因而 $f^{-1}(x)=\\frac{x+1}{x}$，定义域为 $x\\neq0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $f(x)=\\frac{1}{x-1}$ 的反函数 $f^{-1}(x)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{x+1}{x}$（$x\\neq0$）",
+          "solution": "设 $y=f(x)=\\frac{1}{x-1}$，则 $y\\neq0$，且 $x-1=\\frac{1}{y}$，所以 $x=1+\\frac{1}{y}=\\frac{y+1}{y}$. 因而 $f^{-1}(x)=\\frac{x+1}{x}$，定义域为 $x\\neq0$."
         },
         {
           "num": 3,
-          "body": "直线 $4x + y - 1 = 0$ 的倾斜角 $\\theta =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\pi-\\arctan4\\)",
-          "solution": "直线方程化为 $y=-4x+1$，斜率为 $-4$. 设直线的倾斜角为 $\\theta$，则 $0\\le\\theta<\\pi$，且 $\\tan\\theta=-4$. 因为 $\\arctan4\\in\\left(0,\\frac{\\pi}{2}\\right)$，所以 $\\theta=\\pi-\\arctan4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "直线 $4x + y - 1 = 0$ 的倾斜角 $\\theta =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\pi-\\arctan4$",
+          "solution": "直线方程化为 $y=-4x+1$，斜率为 $-4$. 设直线的倾斜角为 $\\theta$，则 $0\\le\\theta&#x3C;\\pi$，且 $\\tan\\theta=-4$. 因为 $\\arctan4\\in\\left(0,\\frac{\\pi}{2}\\right)$，所以 $\\theta=\\pi-\\arctan4$."
         },
         {
           "num": 4,
-          "body": "函数 $y = \\sec x \\cdot \\cos \\left( x + \\frac{\\pi}{2} \\right)$ 的最小正周期 $T =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\pi\\)",
-          "solution": "在函数的定义域 $\\cos x\\neq0$ 上，\r\n\n$$\ny=\\sec x\\cdot\\cos\\left(x+\\frac{\\pi}{2}\\right)=\\frac{1}{\\cos x}(-\\sin x)=-\\tan x\n$$\n\r\n正切函数的最小正周期为 $\\pi$，所以该函数的最小正周期为 $T=\\pi$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y = \\sec x \\cdot \\cos \\left( x + \\frac{\\pi}{2}\\right)$ 的最小正周期 $T =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\pi$",
+          "solution": "<p>在函数的定义域 $\\cos x\\neq0$ 上，</p>\n$$\ny=\\sec x\\cdot\\cos\\left(x+\\frac{\\pi}{2}\\right)=\\frac{1}{\\cos x}(-\\sin x)=-\\tan x\n$$\n<p>正切函数的最小正周期为 $\\pi$，所以该函数的最小正周期为 $T=\\pi$.</p>"
         },
         {
           "num": 5,
-          "body": "以双曲线 $\\frac{x^2}{4} - \\frac{y^2}{5} = 1$ 的中心为顶点，且以该双曲线的右焦点为焦点的抛物线方程是 _______ {}.",
-          "choices": [],
-          "answer": "\\(y^2=12x\\)",
-          "solution": "双曲线的半实轴长为 $2$，半虚轴长为 $\\sqrt{5}$，所以其焦半距满足 $c_0^2=2^2+\\left(\\sqrt{5}\\right)^2=9$，右焦点为 $(3,0)$. 以双曲线的中心 $(0,0)$ 为顶点、以 $(3,0)$ 为焦点的抛物线满足 $p=3$，故其标准方程为 $y^2=4px=12x$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "以双曲线 $\\frac{x^{2}}{4}- \\frac{y^{2}}{5}= 1$ 的中心为顶点，且以该双曲线的右焦点为焦点的抛物线方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$y^{2}=12x$",
+          "solution": "双曲线的半实轴长为 $2$，半虚轴长为 $\\sqrt{5}$，所以其焦半距满足 $c_{0}^{2}=2^{2}+\\left(\\sqrt{5}\\right)^{2}=9$，右焦点为 $(3,0)$. 以双曲线的中心 $(0,0)$ 为顶点、以 $(3,0)$ 为焦点的抛物线满足 $p=3$，故其标准方程为 $y^{2}=4px=12x$."
         },
         {
           "num": 6,
-          "body": "若向量 $\\mathbf{a}$，$\\mathbf{b}$ 的夹角为 $60^{\\circ}$，$|\\mathbf{a}| = |\\mathbf{b}| = 1$，则 $\\mathbf{a} \\cdot (\\mathbf{a} - \\mathbf{b}) =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{1}{2}\\)",
-          "solution": "由数量积公式，\r\n\n$$\n\\mathbf{a}\\cdot(\\mathbf{a}-\\mathbf{b})=\\mathbf{a}\\cdot\\mathbf{a}-\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}|^2-|\\mathbf{a}|\\,|\\mathbf{b}|\\cos60^{\\circ}=1-\\frac{1}{2}=\\frac{1}{2}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若向量 $\\mathbf{a}$，$\\mathbf{b}$ 的夹角为 $60^{\\circ}$，$|\\mathbf{a}| = |\\mathbf{b}| = 1$，则 $\\mathbf{a}\\cdot (\\mathbf{a}- \\mathbf{b}) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{1}{2}$",
+          "solution": "<p>由数量积公式，</p>\n$$\n\\mathbf{a}\\cdot(\\mathbf{a}-\\mathbf{b})=\\mathbf{a}\\cdot\\mathbf{a}-\\mathbf{a}\\cdot\\mathbf{b}=|\\mathbf{a}|^{2}-|\\mathbf{a}|\\,|\\mathbf{b}|\\cos60^{\\circ}=1-\\frac{1}{2}=\\frac{1}{2}\n$$"
         },
         {
           "num": 7,
-          "body": "如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$\\angle ACB = 90^{\\circ}$，$AA_{1} = 2$，$AC = BC = 1$，则异面直线 $A_{1}B$ 与 $AC$ 所成角的大小是 _______ {}.（结果用反三角函数值表示）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/shanghai_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\arccos\\frac{\\sqrt{6}}{6}\\)",
-          "solution": "取 $C$ 为原点，令 $A=(1,0,0)$，$B=(0,1,0)$，则可取 $A_{1}=(1,0,2)$. 因而 $\\overrightarrow{A_{1}B}=(-1,1,-2)$，$\\overrightarrow{AC}=(-1,0,0)$.\r\n设异面直线 $A_{1}B$ 与 $AC$ 所成的锐角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{\\left|\\overrightarrow{A_{1}B}\\cdot\\overrightarrow{AC}\\right|}{|\\overrightarrow{A_{1}B}|\\,|\\overrightarrow{AC}|}=\\frac{1}{\\sqrt{6}}=\\frac{\\sqrt{6}}{6}\n$$\n\r\n所以 $\\theta=\\arccos\\frac{\\sqrt{6}}{6}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$\\angle ACB = 90^{\\circ}$，$AA_{1}= 2$，$AC = BC = 1$，则异面直线 $A_{1}B$ 与 $AC$ 所成角的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（结果用反三角函数值表示）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\arccos\\frac{\\sqrt{6}}{6}$",
+          "solution": "<p>取 $C$ 为原点，令 $A=(1,0,0)$，$B=(0,1,0)$，则可取 $A_{1}=(1,0,2)$. 因而 $\\overrightarrow{A_{1}B}=(-1,1,-2)$，$\\overrightarrow{AC}=(-1,0,0)$.</p><p>设异面直线 $A_{1}B$ 与 $AC$ 所成的锐角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\left|\\overrightarrow{A_{1}B}\\cdot\\overrightarrow{AC}\\right|}{|\\overrightarrow{A_{1}B}|\\,|\\overrightarrow{AC}|}=\\frac{1}{\\sqrt{6}}=\\frac{\\sqrt{6}}{6}\n$$\n<p>所以 $\\theta=\\arccos\\frac{\\sqrt{6}}{6}$.</p>"
         },
         {
           "num": 8,
-          "body": "某工程由 $A$，$B$，$C$，$D$ 四道工序组成，完成它们需用时间依次为 $2\\text{ 天}$，$5\\text{ 天}$，$x\\text{ 天}$，$4\\text{ 天}$. 四道工序的先后顺序及相互关系是： $A$，$B$ 可以同时开工； $A$ 完成后，$C$ 可以开工； $BC$ 完成后，$D$ 可以开工. 若该工程总时数为 $9$ 天，则完成工序 $C$ 需要的天数 $x$ 最大是 _______ {}.",
-          "choices": [],
-          "answer": "\\(3\\)",
-          "solution": "令 $A$、$B$ 同时在时刻 $0$ 开工，则工序 $A$ 在时刻 $2$ 完成，工序 $B$ 在时刻 $5$ 完成. 工序 $C$ 需在 $A$ 完成后开工，因此最早在时刻 $2$ 开工，并在时刻 $2+x$ 完成. 工序 $D$ 需在 $B$、$C$ 都完成后开工，所以工程完成时刻为\r\n\n$$\n\\max\\{5,2+x\\}+4\n$$\n\r\n由总时数为 $9$ 天，得 $\\max\\{5,2+x\\}=5$，从而 $2+x\\leqslant5$，即 $x\\leqslant3$. 因而 $x$ 的最大值为 $3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某工程由 $A$，$B$，$C$，$D$ 四道工序组成，完成它们需用时间依次为 $2\\text{ 天}$，$5\\text{ 天}$，$x\\text{ 天}$，$4\\text{ 天}$. 四道工序的先后顺序及相互关系是： $A$，$B$ 可以同时开工； $A$ 完成后，$C$ 可以开工； $BC$ 完成后，$D$ 可以开工. 若该工程总时数为 $9$ 天，则完成工序 $C$ 需要的天数 $x$ 最大是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$3$",
+          "solution": "<p>令 $A$、$B$ 同时在时刻 $0$ 开工，则工序 $A$ 在时刻 $2$ 完成，工序 $B$ 在时刻 $5$ 完成. 工序 $C$ 需在 $A$ 完成后开工，因此最早在时刻 $2$ 开工，并在时刻 $2+x$ 完成. 工序 $D$ 需在 $B$、$C$ 都完成后开工，所以工程完成时刻为</p>\n$$\n\\max\\{5,2+x\\}+4\n$$\n<p>由总时数为 $9$ 天，得 $\\max\\{5,2+x\\}=5$，从而 $2+x\\leqslant5$，即 $x\\leqslant3$. 因而 $x$ 的最大值为 $3$.</p>"
         },
         {
           "num": 9,
-          "body": "在五个数字 $1$，$2$，$3$，$4$，$5$ 中，若随机取出三个数字，则剩下两个数字都是奇数的概率是 _______ {}.（结果用数值表示）",
-          "choices": [],
-          "answer": "\\(0.3\\)",
-          "solution": "从五个数字中随机取出三个数字，共有 $\\mathrm C_5^3=10$ 种等可能结果. 若剩下的两个数字都是奇数，则剩下的两个数字应从 $1$，$3$，$5$ 中选取，共有 $\\mathrm C_3^2=3$ 种结果. 所求概率为\r\n\n$$\n\\frac{\\mathrm C_3^2}{\\mathrm C_5^3}=\\frac{3}{10}=0.3\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在五个数字 $1$，$2$，$3$，$4$，$5$ 中，若随机取出三个数字，则剩下两个数字都是奇数的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（结果用数值表示）",
+          "choices": null,
+          "answer": "$0.3$",
+          "solution": "<p>从五个数字中随机取出三个数字，共有 $\\mathrm{C}_{5}^{3}=10$ 种等可能结果. 若剩下的两个数字都是奇数，则剩下的两个数字应从 $1$，$3$，$5$ 中选取，共有 $\\mathrm{C}_{3}^{2}=3$ 种结果. 所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{3}^{2}}{\\mathrm{C}_{5}^{3}}=\\frac{3}{10}=0.3\n$$"
         },
         {
           "num": 10,
-          "body": "对于非零实数 $a$，$b$，以下四个命题都成立：\r\n\r\n\\begin{circlelist}\r\n\\item $a + \\frac{1}{a} \\neq 0$；\r\n\\item $(a + b)^2 = a^2 + 2ab + b^2$；\r\n\\item 若 $|a| = |b|$，则 $a = \\pm b$；\r\n\\item 若 $a^2 = ab$，则 $a = b$.\r\n\\end{circlelist}\r\n\r\n那么，对于非零复数 $a$，$b$，仍然成立的命题的所有序号是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\circled{2}\\circled{4}\\)",
-          "solution": "命题 $1$ 在复数范围内不一定成立. 例如取 $a=\\mathrm{i}$，则 $a+\\frac{1}{a}=\\mathrm{i}-\\mathrm{i}=0$.\r\n\r\n命题 $2$ 中，$(a+b)^2=(a+b)(a+b)=a^2+ab+ba+b^2=a^2+2ab+b^2$，所以对任意复数 $a$，$b$ 都成立.\r\n\r\n命题 $3$ 不一定成立. 例如取 $a=1$，$b=\\mathrm{i}$，则 $|a|=|b|=1$，但 $a\\neq b$ 且 $a\\neq-b$.\r\n\r\n命题 $4$ 中，由 $a^2=ab$ 得 $a(a-b)=0$. 因为 $a\\neq0$，所以 $a=b$，对任意非零复数仍成立. 因此仍然成立的命题序号为 $2$、$4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>对于非零实数 $a$，$b$，以下四个命题都成立：</p><ol class=\"enumerate\"><li><p>$a + \\frac{1}{a}\\neq 0$；</p></li><li><p>$(a + b)^{2} = a^{2} + 2ab + b^{2}$；</p></li><li><p>若 $|a| = |b|$，则 $a = \\pm b$；</p></li><li><p>若 $a^{2} = ab$，则 $a = b$.</p></li></ol><p>那么，对于非零复数 $a$，$b$，仍然成立的命题的所有序号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$②④$",
+          "solution": "<p>命题 $1$ 在复数范围内不一定成立. 例如取 $a=\\mathrm{i}$，则 $a+\\frac{1}{a}=\\mathrm{i}-\\mathrm{i}=0$.</p><p>命题 $2$ 中，$(a+b)^{2}=(a+b)(a+b)=a^{2}+ab+ba+b^{2}=a^{2}+2ab+b^{2}$，所以对任意复数 $a$，$b$ 都成立.</p><p>命题 $3$ 不一定成立. 例如取 $a=1$，$b=\\mathrm{i}$，则 $|a|=|b|=1$，但 $a\\neq b$ 且 $a\\neq-b$.</p><p>命题 $4$ 中，由 $a^{2}=ab$ 得 $a(a-b)=0$. 因为 $a\\neq0$，所以 $a=b$，对任意非零复数仍成立. 因此仍然成立的命题序号为 $2$、$4$.</p>"
         },
         {
           "num": 11,
-          "body": "如图，$AB$ 是直线 $l$ 上的两点，且 $AB = 2$. 两个半径相等的动圆分别与 $l$ 相切于 $A$，$B$ 点，$C$ 是这两个圆的公共点，则圆弧 $AC$，$CB$ 与线段 $AB$ 围成图形面积 $S$ 的取值范围是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/shanghai_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\left(0,2-\\frac{\\pi}{2}\\right]\\)",
-          "solution": "设两个圆的半径为 $r$. 取 $A=(0,0)$，$B=(2,0)$，则两个圆心可取为 $O_{1}=(0,r)$、$O_{2}=(2,r)$. 两圆有公共点的必要条件为 $r\\geqslant1$. 记 $h=\\sqrt{r^2-1}$，则图中位于两圆之间的公共点为 $C=(1,r-h)$. 令 $\\alpha=\\arcsin\\frac{1}{r}$，且 $0<\\alpha\\le\\frac{\\pi}{2}$.\r\n在等腰三角形 $O_{1}AC$ 中，圆心角 $\\angle AO_{1}C=\\alpha$. 由 $O_{1}A=(0,-r)$、$O_{1}C=(1,-h)$ 可得 $\\cos\\alpha=\\frac{h}{r}$，从而 $\\sin\\alpha=\\frac{1}{r}$. 由对称性，所围图形的面积等于三角形 $ABC$ 的面积减去两个相同的弓形面积. 其中\r\n\n$$\n\\frac{1}{2}AB\\cdot(r-h)=r-h\n$$\n\r\n每个弓形面积为扇形面积减去三角形面积，即\r\n\n$$\n\\frac{1}{2}r^2\\alpha-\\frac{1}{2}r^2\\sin\\alpha\n$$\n\r\n因此\r\n\n$$\nS=r-h-r^2\\left(\\alpha-\\sin\\alpha\\right)=2r-\\sqrt{r^2-1}-r^2\\arcsin\\frac{1}{r}\n$$\n\r\n当 $r=1$ 时，$S=2-\\frac{\\pi}{2}$. 对 $r>1$，求导得\r\n\n$$\nS'(r)=2-\\frac{r}{\\sqrt{r^2-1}}-2r\\arcsin\\frac{1}{r}+\\frac{r}{\\sqrt{r^2-1}}=2-2r\\arcsin\\frac{1}{r}<0\n$$\n\r\n其中，对 $0<u<1$，有 $(\\arcsin u)'=\\frac{1}{\\sqrt{1-u^2}}>1$，且 $\\arcsin0=0$，所以 $\\arcsin u>u$. 取 $u=\\frac{1}{r}$，即得 $r\\arcsin\\frac{1}{r}>1$. 所以 $S$ 在 $[1,+\\infty)$ 上递减. 当 $r\\to+\\infty$ 时，公共点 $C$ 的纵坐标 $r-\\sqrt{r^2-1}$ 趋于 $0$，从而 $S\\to0$. 因此\r\n\n$$\n0<S\\leqslant2-\\frac{\\pi}{2}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，$AB$ 是直线 $l$ 上的两点，且 $AB = 2$. 两个半径相等的动圆分别与 $l$ 相切于 $A$，$B$ 点，$C$ 是这两个圆的公共点，则圆弧 $AC$，$CB$ 与线段 $AB$ 围成图形面积 $S$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\left(0,2-\\frac{\\pi}{2}\\right]$",
+          "solution": "<p>设两个圆的半径为 $r$. 取 $A=(0,0)$，$B=(2,0)$，则两个圆心可取为 $O_{1}=(0,r)$、$O_{2}=(2,r)$. 两圆有公共点的必要条件为 $r\\geqslant1$. 记 $h=\\sqrt{r^{2}-1}$，则图中位于两圆之间的公共点为 $C=(1,r-h)$. 令 $\\alpha=\\arcsin\\frac{1}{r}$，且 $0&#x3C;\\alpha\\le\\frac{\\pi}{2}$.</p><p>在等腰三角形 $O_{1}AC$ 中，圆心角 $\\angle AO_{1}C=\\alpha$. 由 $O_{1}A=(0,-r)$、$O_{1}C=(1,-h)$ 可得 $\\cos\\alpha=\\frac{h}{r}$，从而 $\\sin\\alpha=\\frac{1}{r}$. 由对称性，所围图形的面积等于三角形 $ABC$ 的面积减去两个相同的弓形面积. 其中</p>\n$$\n\\frac{1}{2}AB\\cdot(r-h)=r-h\n$$\n<p>每个弓形面积为扇形面积减去三角形面积，即</p>\n$$\n\\frac{1}{2}r^{2}\\alpha-\\frac{1}{2}r^{2}\\sin\\alpha\n$$\n<p>因此</p>\n$$\nS=r-h-r^{2}\\left(\\alpha-\\sin\\alpha\\right)=2r-\\sqrt{r^{2}-1}-r^{2}\\arcsin\\frac{1}{r}\n$$\n<p>当 $r=1$ 时，$S=2-\\frac{\\pi}{2}$. 对 $r>1$，求导得</p>\n$$\nS'(r)=2-\\frac{r}{\\sqrt{r^{2}-1}}-2r\\arcsin\\frac{1}{r}+\\frac{r}{\\sqrt{r^{2}-1}}=2-2r\\arcsin\\frac{1}{r}&#x3C;0\n$$\n<p>其中，对 $0&#x3C;u&#x3C;1$，有 $(\\arcsin u)'=\\frac{1}{\\sqrt{1-u^{2}}}>1$，且 $\\arcsin0=0$，所以 $\\arcsin u>u$. 取 $u=\\frac{1}{r}$，即得 $r\\arcsin\\frac{1}{r}>1$. 所以 $S$ 在 $[1,+\\infty)$ 上递减. 当 $r\\to+\\infty$ 时，公共点 $C$ 的纵坐标 $r-\\sqrt{r^{2}-1}$ 趋于 $0$，从而 $S\\to0$. 因此</p>\n$$\n0&#x3C;S\\leqslant2-\\frac{\\pi}{2}\n$$"
         }
       ]
     },
@@ -242,7 +91,7 @@
       "problems": [
         {
           "num": 12,
-          "body": "已知 $a\\in\\mathbb{R}$，$b\\in\\mathbb{R}$，且 $2 + a\\mathrm{i}$，$b + 3\\mathrm{i}$（$\\mathrm{i}$ 是虚数单位）是一个实系数一元二次方程的两个根，那么 $a$，$b$ 的值分别是（ ）",
+          "body": "已知 $a\\in\\mathbb{R}$，$b\\in\\mathbb{R}$，且 $2 + a\\mathrm{i}$，$b + 3\\mathrm{i}$（$\\mathrm{i}$ 是虚数单位）是一个实系数一元二次方程的两个根，那么 $a$，$b$ 的值分别是（ ）",
           "choices": [
             "$a=-3$，$b=2$",
             "$a=3$，$b=-2$",
@@ -250,27 +99,23 @@
             "$a=3$，$b=2$"
           ],
           "answer": "A",
-          "solution": "实系数一元二次方程的非实根成共轭复数对. 因为 $2+a\\mathrm{i}$ 与 $b+3\\mathrm{i}$ 是两个根，所以\r\n\n$$\nb+3\\mathrm{i}=2-a\\mathrm{i}\n$$\n\r\n比较实部和虚部，得 $b=2$，$3=-a$，即 $a=-3$. 因此选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>实系数一元二次方程的非实根成共轭复数对. 因为 $2+a\\mathrm{i}$ 与 $b+3\\mathrm{i}$ 是两个根，所以</p>\n$$\nb+3\\mathrm{i}=2-a\\mathrm{i}\n$$\n<p>比较实部和虚部，得 $b=2$，$3=-a$，即 $a=-3$. 因此选 A.</p>"
         },
         {
           "num": 13,
-          "body": "圆 $x^{2} + y^{2} - 2x - 1 = 0$ 关于直线 $2x - y + 3 = 0$ 对称的圆的方程是（ ）",
+          "body": "圆 $x^{2}+ y^{2}- 2x - 1 = 0$ 关于直线 $2x - y + 3 = 0$ 对称的圆的方程是（ ）",
           "choices": [
-            "$(x + 3)^2 + (y - 2)^2 = \\frac{1}{2}$",
-            "$(x - 3)^2 + (y + 2)^2 = \\frac{1}{2}$",
-            "$(x + 3)^2 + (y - 2)^2 = 2$",
-            "$(x - 3)^2 + (y + 2)^2 = 2$"
+            "$(x + 3)^{2} + (y - 2)^{2} = \\frac{1}{2}$",
+            "$(x - 3)^{2} + (y + 2)^{2} = \\frac{1}{2}$",
+            "$(x + 3)^{2} + (y - 2)^{2} = 2$",
+            "$(x - 3)^{2} + (y + 2)^{2} = 2$"
           ],
           "answer": "C",
-          "solution": "原圆方程可化为\r\n\n$$\n(x-1)^2+y^2=2\n$$\n\r\n所以圆心为 $O=(1,0)$，半径为 $\\sqrt{2}$. 设 $O$ 关于直线 $2x-y+3=0$ 的对称点为 $O'=(x',y')$. 由点关于直线的对称公式，$x'=1-\\frac{2\\cdot2(2\\cdot1-0+3)}{2^2+(-1)^2}=-3$，$y'=0-\\frac{2\\cdot(-1)(2\\cdot1-0+3)}{2^2+(-1)^2}=2$.\r\n对称后的圆半径不变，故方程为\r\n\n$$\n(x+3)^2+(y-2)^2=2\n$$\n\r\n因此选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>原圆方程可化为</p>\n$$\n(x-1)^{2}+y^{2}=2\n$$\n<p>所以圆心为 $O=(1,0)$，半径为 $\\sqrt{2}$. 设 $O$ 关于直线 $2x-y+3=0$ 的对称点为 $O'=(x',y')$. 由点关于直线的对称公式，$x'=1-\\frac{2\\cdot2(2\\cdot1-0+3)}{2^{2}+(-1)^{2}}=-3$，$y'=0-\\frac{2\\cdot(-1)(2\\cdot1-0+3)}{2^{2}+(-1)^{2}}=2$.</p><p>对称后的圆半径不变，故方程为</p>\n$$\n(x+3)^{2}+(y-2)^{2}=2\n$$\n<p>因此选 C.</p>"
         },
         {
           "num": 14,
-          "body": "数列 $\\{a_{n}\\}$ 中， $a_{n} = \\begin{cases}\r\n\\frac{1}{n^{2}}, & 1 \\le n \\le 1000,\\\\\r\n\\frac{n^{2}}{n^{2} - 2n}, & n \\ge 1001,\r\n\\end{cases}$\r\n则数列 $\\{a_{n}\\}$ 的极限值（ ）",
+          "body": "<p>数列 $\\{a_{n}\\}$ 中， $a_{n}= \\begin{cases}\\frac{1}{n^{2}},&#x26;1 \\le n \\le 1000,\\\\  \\frac{n^{2}}{n^{2} - 2n},&#x26;n \\ge 1001,\\end{cases}$</p><p>则数列 $\\{a_{n}\\}$ 的极限值（ ）</p>",
           "choices": [
             "等于 0",
             "等于 1",
@@ -278,23 +123,19 @@
             "不存在"
           ],
           "answer": "B",
-          "solution": "前 $1000$ 项只改变数列的有限项，不影响极限. 当 $n\\geqslant1001$ 时，\r\n\n$$\na_n=\\frac{n^2}{n^2-2n}=\\frac{1}{1-\\frac{2}{n}}\n$$\n\r\n因为 $\\displaystyle\\lim_{n\\to\\infty}\\frac{2}{n}=0$，所以\r\n\n$$\n\\lim_{n\\to\\infty}a_n=\\frac{1}{1-0}=1\n$$\n\r\n因此选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>前 $1000$ 项只改变数列的有限项，不影响极限. 当 $n\\geqslant1001$ 时，</p>\n$$\na_{n}=\\frac{n^{2}}{n^{2}-2n}=\\frac{1}{1-\\frac{2}{n}}\n$$\n<p>因为 $\\displaystyle\\lim_{n\\to\\infty}\\frac{2}{n}=0$，所以</p>\n$$\n\\lim_{n\\to\\infty}a_{n}=\\frac{1}{1-0}=1\n$$\n<p>因此选 B.</p>"
         },
         {
           "num": 15,
-          "body": "设 $f(x)$ 是定义在正整数集上的函数，且 $f(x)$ 满足：“当 $f(k) \\geq k^2$ 成立时，总可推出 $f(k+1) \\geq (k+1)^2$ 成立”. 那么，下列命题总成立的是（ ）",
+          "body": "设 $f(x)$ 是定义在正整数集上的函数，且 $f(x)$ 满足：“当 $f(k) \\geq k^{2}$ 成立时，总可推出 $f(k+1) \\geq (k+1)^{2}$ 成立”. 那么，下列命题总成立的是（ ）",
           "choices": [
-            "若 $f(1) < 1$ 成立，则 $f(10) < 100$ 成立",
-            "若 $f(2) < 4$ 成立，则 $f(1) \\ge 1$ 成立",
-            "若 $f(3) \\ge 9$ 成立，则当 $k \\ge 1$ 时，均有 $f(k) \\ge k^2$ 成立",
-            "若 $f(4) \\ge 25$ 成立，则当 $k \\ge 4$ 时，均有 $f(k) \\ge k^2$ 成立"
+            "若 $f(1) &#x3C; 1$ 成立，则 $f(10) &#x3C; 100$ 成立",
+            "若 $f(2) &#x3C; 4$ 成立，则 $f(1) \\ge 1$ 成立",
+            "若 $f(3) \\ge 9$ 成立，则当 $k \\ge 1$ 时，均有 $f(k) \\ge k^{2}$ 成立",
+            "若 $f(4) \\ge 25$ 成立，则当 $k \\ge 4$ 时，均有 $f(k) \\ge k^{2}$ 成立"
           ],
           "answer": "D",
-          "solution": "记命题 $P_k$ 为 $f(k)\\ge k^2$. 题设条件是对每个正整数 $k$，均有 $P_k\\Rightarrow P_{k+1}$.\r\n\r\n若 $f(4)\\geqslant25$，则必有 $f(4)\\geqslant16=4^2$，即 $P_4$ 成立. 由题设可推出 $P_5$，再依次推出 $P_6$，$P_7$，$\\ldots$，所以当 $k\\geqslant4$ 时均有 $f(k)\\ge k^2$. 因此第四个命题总成立.\r\n\r\n其余选项均不能由题设条件推出. 对于选项 A，令 $f(1)=0$，且当 $k\\geqslant2$ 时 $f(k)=k^2$，则题设递推条件成立，但 $f(1)<1$ 且 $f(10)=100$，所以 A 不成立. 对于选项 B，令 $f(k)=0$（$k\\geqslant1$），则题设递推条件因前件永不成立而成立，但 $f(2)<4$ 且 $f(1)<1$，所以 B 不成立. 对于选项 C，令 $f(1)=f(2)=0$，且当 $k\\geqslant3$ 时 $f(k)=k^2$，则题设递推条件成立，$f(3)\\geqslant9$ 成立，但 $f(1)\\geqslant1$ 不成立，所以 C 不成立.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>记命题 $P_{k}$ 为 $f(k)\\ge k^{2}$. 题设条件是对每个正整数 $k$，均有 $P_{k}\\Rightarrow P_{k+1}$.</p><p>若 $f(4)\\geqslant25$，则必有 $f(4)\\geqslant16=4^{2}$，即 $P_{4}$ 成立. 由题设可推出 $P_{5}$，再依次推出 $P_{6}$，$P_{7}$，$\\ldots$，所以当 $k\\geqslant4$ 时均有 $f(k)\\ge k^{2}$. 因此第四个命题总成立.</p><p>其余选项均不能由题设条件推出. 对于选项 A，令 $f(1)=0$，且当 $k\\geqslant2$ 时 $f(k)=k^{2}$，则题设递推条件成立，但 $f(1)&#x3C;1$ 且 $f(10)=100$，所以 A 不成立. 对于选项 B，令 $f(k)=0$（$k\\geqslant1$），则题设递推条件因前件永不成立而成立，但 $f(2)&#x3C;4$ 且 $f(1)&#x3C;1$，所以 B 不成立. 对于选项 C，令 $f(1)=f(2)=0$，且当 $k\\geqslant3$ 时 $f(k)=k^{2}$，则题设递推条件成立，$f(3)\\geqslant9$ 成立，但 $f(1)\\geqslant1$ 不成立，所以 C 不成立.</p>"
         }
       ]
     },
@@ -303,60 +144,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "在正四棱锥 $P - ABCD$ 中，$PA = 2$，直线 $PA$ 与平面 $ABCD$ 所成的角为 $60^{\\circ}$，求正四棱锥 $P - ABCD$ 的体积 $V$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/shanghai_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>在正四棱锥 $P - ABCD$ 中，$PA = 2$，直线 $PA$ 与平面 $ABCD$ 所成的角为 $60^{\\circ}$，求正四棱锥 $P - ABCD$ 的体积 $V$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "设正四棱锥的高为 $PO$，其中 $O$ 是正方形 $ABCD$ 的中心. 连接 $AO$，则 $PO\\perp$ 平面 $ABCD$，且 $AO$ 是 $PA$ 在底面上的射影，所以 $\\angle PAO=60^{\\circ}$. 在直角三角形 $PAO$ 中，\r\n\r\n$\\sin\\angle PAO=\\frac{PO}{PA}$，$\\cos\\angle PAO=\\frac{AO}{PA}$. 因此 $PO=PA\\sin60^{\\circ}=2\\cdot\\frac{\\sqrt{3}}{2}=\\sqrt{3}$，$AO=PA\\cos60^{\\circ}=2\\cdot\\frac{1}{2}=1$.\r\n设正方形边长为 $s$，则 $AO$ 是其对角线的一半，故 $AO=\\frac{\\sqrt{2}}{2}s$，从而 $s=\\sqrt{2}$. 底面积为 $s^2=2$，所以\r\n\n$$\nV=\\frac{1}{3}s^2\\cdot PO=\\frac{1}{3}\\cdot2\\cdot\\sqrt{3}=\\frac{2\\sqrt{3}}{3}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设正四棱锥的高为 $PO$，其中 $O$ 是正方形 $ABCD$ 的中心. 连接 $AO$，则 $PO\\perp$ 平面 $ABCD$，且 $AO$ 是 $PA$ 在底面上的射影，所以 $\\angle PAO=60^{\\circ}$. 在直角三角形 $PAO$ 中，</p><p>$\\sin\\angle PAO=\\frac{PO}{PA}$，$\\cos\\angle PAO=\\frac{AO}{PA}$. 因此 $PO=PA\\sin60^{\\circ}=2\\cdot\\frac{\\sqrt{3}}{2}=\\sqrt{3}$，$AO=PA\\cos60^{\\circ}=2\\cdot\\frac{1}{2}=1$.</p><p>设正方形边长为 $s$，则 $AO$ 是其对角线的一半，故 $AO=\\frac{\\sqrt{2}}{2}s$，从而 $s=\\sqrt{2}$. 底面积为 $s^{2}=2$，所以</p>\n$$\nV=\\frac{1}{3}s^{2}\\cdot PO=\\frac{1}{3}\\cdot2\\cdot\\sqrt{3}=\\frac{2\\sqrt{3}}{3}\n$$"
         },
         {
           "num": 17,
-          "body": "在 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别是三个内角 $A$，$B$，$C$ 的对边. 若 $a = 2$，$C = \\frac{\\pi}{4}$，$\\cos \\frac{B}{2} = \\frac{2\\sqrt{5}}{5}$，求 $\\triangle ABC$ 的面积 $S$.",
-          "choices": [],
+          "body": "在 $\\triangle ABC$ 中，$a$，$b$，$c$ 分别是三个内角 $A$，$B$，$C$ 的对边. 若 $a = 2$，$C = \\frac{\\pi}{4}$，$\\cos \\frac{B}{2}= \\frac{2\\sqrt{5}}{5}$，求 $\\triangle ABC$ 的面积 $S$.",
+          "choices": null,
           "answer": "",
-          "solution": "因为 $0<B<\\pi$，所以 $0<\\frac{B}{2}<\\frac{\\pi}{2}$，从而\r\n\n$$\n\\sin\\frac{B}{2}=\\sqrt{1-\\cos^2\\frac{B}{2}}=\\sqrt{1-\\frac{4}{5}}=\\frac{\\sqrt{5}}{5}\n$$\n\r\n于是\r\n\n$$\n\\sin B=2\\sin\\frac{B}{2}\\cos\\frac{B}{2}=2\\cdot\\frac{\\sqrt{5}}{5}\\cdot\\frac{2\\sqrt{5}}{5}=\\frac{4}{5}\n$$\n\r\n\n$$\n\\cos B=2\\cos^2\\frac{B}{2}-1=2\\cdot\\frac{4}{5}-1=\\frac{3}{5}\n$$\n\r\n由 $A=\\pi-B-C$，得 $\\sin A=\\sin(B+C)$. 因此\r\n\n$$\n\\sin A=\\sin B\\cos C+\\cos B\\sin C\r\n=\\frac{4}{5}\\cdot\\frac{\\sqrt{2}}{2}+\\frac{3}{5}\\cdot\\frac{\\sqrt{2}}{2}=\\frac{7\\sqrt{2}}{10}\n$$\n\r\n由正弦定理，$\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$. 所以\r\n\n$$\nc=\\frac{a\\sin C}{\\sin A}=\\frac{2\\cdot\\frac{\\sqrt{2}}{2}}{\\frac{7\\sqrt{2}}{10}}=\\frac{10}{7}\n$$\n\r\n所以\r\n\n$$\nS=\\frac{1}{2}ac\\sin B=\\frac{1}{2}\\cdot2\\cdot\\frac{10}{7}\\cdot\\frac{4}{5}=\\frac{8}{7}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>因为 $0&#x3C;B&#x3C;\\pi$，所以 $0&#x3C;\\frac{B}{2}&#x3C;\\frac{\\pi}{2}$，从而</p>\n$$\n\\sin\\frac{B}{2}=\\sqrt{1-\\cos^{2}\\frac{B}{2}}=\\sqrt{1-\\frac{4}{5}}=\\frac{\\sqrt{5}}{5}\n$$\n<p>于是</p>\n$$\n\\sin B=2\\sin\\frac{B}{2}\\cos\\frac{B}{2}=2\\cdot\\frac{\\sqrt{5}}{5}\\cdot\\frac{2\\sqrt{5}}{5}=\\frac{4}{5}\n$$\n\n$$\n\\cos B=2\\cos^{2}\\frac{B}{2}-1=2\\cdot\\frac{4}{5}-1=\\frac{3}{5}\n$$\n<p>由 $A=\\pi-B-C$，得 $\\sin A=\\sin(B+C)$. 因此</p>\n$$\n\\sin A=\\sin B\\cos C+\\cos B\\sin C  =\\frac{4}{5}\\cdot\\frac{\\sqrt{2}}{2}+\\frac{3}{5}\\cdot\\frac{\\sqrt{2}}{2}=\\frac{7\\sqrt{2}}{10}\n$$\n<p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{c}{\\sin C}$. 所以</p>\n$$\nc=\\frac{a\\sin C}{\\sin A}=\\frac{2\\cdot\\frac{\\sqrt{2}}{2}}{\\frac{7\\sqrt{2}}{10}}=\\frac{10}{7}\n$$\n<p>所以</p>\n$$\nS=\\frac{1}{2}ac\\sin B=\\frac{1}{2}\\cdot2\\cdot\\frac{10}{7}\\cdot\\frac{4}{5}=\\frac{8}{7}\n$$"
         },
         {
           "num": 18,
-          "body": "近年来，太阳能技术运用的步伐日益加快. $2002$ 年全球太阳电池的年生产量达到 $670\\text{ 兆瓦}$，年生产量的增长率为 $34\\%$. 以后四年中，年生产量的增长率逐年递增 $2\\%$（如，$2003$ 年的年生产量的增长率为 $36\\%$）.\r\n\r\n\n(1) 求 $2006$ 年全球太阳电池的年生产量（结果精确到 $0.1\\text{ 兆瓦}$）；\n\n(2) 目前太阳电池产业存在的主要问题是市场安装量远小于生产量，$2006$ 年的实际安装量为 $1420\\text{ 兆瓦}$. 假设以后若干年内太阳电池的年生产量的增长率保持在 $42\\%$，到 $2010$ 年，要使年安装量与年生产量基本持平（即年安装量不少于年生产量的 $95\\%$），这四年中太阳电池的年安装量的平均增长率至少应达到多少（结果精确到 $0.1\\%$）？",
-          "choices": [],
+          "body": "<p>近年来，太阳能技术运用的步伐日益加快. $2002$ 年全球太阳电池的年生产量达到 $670\\text{ 兆瓦}$，年生产量的增长率为 $34\\%$. 以后四年中，年生产量的增长率逐年递增 $2\\%$（如，$2003$ 年的年生产量的增长率为 $36\\%$）.</p><ol class=\"enumerate\"><li><p>求 $2006$ 年全球太阳电池的年生产量（结果精确到 $0.1\\text{ 兆瓦}$）；</p></li><li><p>目前太阳电池产业存在的主要问题是市场安装量远小于生产量，$2006$ 年的实际安装量为 $1420\\text{ 兆瓦}$. 假设以后若干年内太阳电池的年生产量的增长率保持在 $42\\%$，到 $2010$ 年，要使年安装量与年生产量基本持平（即年安装量不少于年生产量的 $95\\%$），这四年中太阳电池的年安装量的平均增长率至少应达到多少（结果精确到 $0.1\\%$）？</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由题意，$2003$，$2004$，$2005$，$2006$ 年的年生产量增长率依次为 $36\\%$，$38\\%$，$40\\%$，$42\\%$. 设第 $n$ 年的年生产量为 $P_n$，则\r\n\n$$\nP_{2006}=670(1+0.36)(1+0.38)(1+0.40)(1+0.42)=2499.822528\\text{ 兆瓦}\n$$\n\r\n所以 $2006$ 年全球太阳电池的年生产量约为 $2499.8\\text{ 兆瓦}$.\n\n(2) 设这四年中太阳电池年安装量的平均增长率为 $r$，则 $2006$ 年至 $2010$ 年的年生产量为\r\n\n$$\nP_{2010}=P_{2006}(1+0.42)^4\n$$\n\r\n由年安装量不少于年生产量的 $95\\%$，得\r\n\n$$\n1420(1+r)^4\\geqslant0.95P_{2006}(1.42)^4\n$$\n\r\n因为 $1+r>0$，所以\r\n\n$$\nr\\ge\\sqrt[4]{\\frac{0.95\\times2499.822528\\times1.42^4}{1420}}-1\r\n\\approx0.614821\n$$\n\r\n因此平均增长率至少应达到 $61.5\\%$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由题意，$2003$，$2004$，$2005$，$2006$ 年的年生产量增长率依次为 $36\\%$，$38\\%$，$40\\%$，$42\\%$. 设第 $n$ 年的年生产量为 $P_{n}$，则</p>\n$$\nP_{2006}=670(1+0.36)(1+0.38)(1+0.40)(1+0.42)=2499.822528\\text{ 兆瓦}\n$$\n<p>所以 $2006$ 年全球太阳电池的年生产量约为 $2499.8\\text{ 兆瓦}$.</p></li><li><p>设这四年中太阳电池年安装量的平均增长率为 $r$，则 $2006$ 年至 $2010$ 年的年生产量为</p>\n$$\nP_{2010}=P_{2006}(1+0.42)^{4}\n$$\n<p>由年安装量不少于年生产量的 $95\\%$，得</p>\n$$\n1420(1+r)^{4}\\geqslant0.95P_{2006}(1.42)^{4}\n$$\n<p>因为 $1+r>0$，所以</p>\n$$\nr\\ge\\sqrt[4]{\\frac{0.95\\times2499.822528\\times1.42^{4}}{1420}}-1  \\approx0.614821\n$$\n<p>因此平均增长率至少应达到 $61.5\\%$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知函数 $f(x) = x^2 + \\frac{a}{x}$（$x \\neq 0$，常数 $a \\in \\mathbb{R}$）.\r\n\r\n\n(1) 当 $a = 2$ 时，解不等式 $f(x) - f(x - 1) > 2x - 1$；\n\n(2) 讨论函数 $f(x)$ 的奇偶性，并说明理由.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = x^{2} + \\frac{a}{x}$（$x \\neq 0$，常数 $a \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>当 $a = 2$ 时，解不等式 $f(x) - f(x - 1) > 2x - 1$；</p></li><li><p>讨论函数 $f(x)$ 的奇偶性，并说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $a=2$ 时，原不等式的定义域要求 $x\\neq0$ 且 $x-1\\neq0$，即 $x\\neq0$，$1$. 在此定义域内，\r\n\n$$\nf(x)-f(x-1)=x^2+\\frac{2}{x}-\\left((x-1)^2+\\frac{2}{x-1}\\right)=2x-1-\\frac{2}{x(x-1)}\n$$\n\r\n所以\r\n\n$$\nf(x)-f(x-1)>2x-1\\Longleftrightarrow-\\frac{2}{x(x-1)}>0\\Longleftrightarrow x(x-1)<0\n$$\n\r\n结合定义域，解得 $0<x<1$.\n\n(2) 函数定义域为 $\\{x\\in\\mathbb{R}\\mid x\\neq0\\}$，关于原点对称. 对任意 $x\\neq0$，\r\n\n$$\nf(-x)=x^2-\\frac{a}{x}\n$$\n\r\n若 $f(x)$ 为偶函数，则对任意非零 $x$ 有 $f(-x)=f(x)$，于是 $\\frac{2a}{x}=0$，从而 $a=0$. 当 $a=0$ 时，$f(x)=x^2$，确为偶函数.\r\n\r\n若 $f(x)$ 为奇函数，则应有 $f(-x)=-f(x)$，即\r\n\n$$\nx^2-\\frac{a}{x}=-x^2-\\frac{a}{x}\n$$\n\r\n从而 $2x^2=0$，这不可能对定义域内所有 $x$ 成立. 因此不存在使该函数成为奇函数的实数 $a$. 综上，当 $a=0$ 时函数为偶函数；当 $a\\neq0$ 时函数既不是奇函数也不是偶函数.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，原不等式的定义域要求 $x\\neq0$ 且 $x-1\\neq0$，即 $x\\neq0$，$1$. 在此定义域内，</p>\n$$\nf(x)-f(x-1)=x^{2}+\\frac{2}{x}-\\left((x-1)^{2}+\\frac{2}{x-1}\\right)=2x-1-\\frac{2}{x(x-1)}\n$$\n<p>所以</p>\n$$\nf(x)-f(x-1)>2x-1\\Longleftrightarrow-\\frac{2}{x(x-1)}>0\\Longleftrightarrow x(x-1)&#x3C;0\n$$\n<p>结合定义域，解得 $0&#x3C;x&#x3C;1$.</p></li><li><p>函数定义域为 $\\{x\\in\\mathbb{R}\\mid x\\neq0\\}$，关于原点对称. 对任意 $x\\neq0$，</p>\n$$\nf(-x)=x^{2}-\\frac{a}{x}\n$$\n<p>若 $f(x)$ 为偶函数，则对任意非零 $x$ 有 $f(-x)=f(x)$，于是 $\\frac{2a}{x}=0$，从而 $a=0$. 当 $a=0$ 时，$f(x)=x^{2}$，确为偶函数.</p><p>若 $f(x)$ 为奇函数，则应有 $f(-x)=-f(x)$，即</p>\n$$\nx^{2}-\\frac{a}{x}=-x^{2}-\\frac{a}{x}\n$$\n<p>从而 $2x^{2}=0$，这不可能对定义域内所有 $x$ 成立. 因此不存在使该函数成为奇函数的实数 $a$. 综上，当 $a=0$ 时函数为偶函数；当 $a\\neq0$ 时函数既不是奇函数也不是偶函数.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "如果有穷数列 $a_1$，$a_2$，$a_3$，$\\cdots$，$a_m$（$m$ 为正整数）满足条件 $a_1 = a_m$，$a_2 = a_{m-1}$，$\\cdots$，$a_m = a_1$，即 $a_i = a_{m-i+1}$（$i = 1$，$2$，$\\cdots$，$m$），我们称其为“对称数列”. 例如，数列 $1$，$2$，$5$，$2$，$1$ 与数列 $8$，$4$，$2$，$2$，$4$，$8$ 都是“对称数列”.\r\n\r\n\n(1) 设 $\\{b_n\\}$ 是项数为 $7$ 的“对称数列”，其中 $b_1$，$b_2$，$b_3$，$b_4$ 是等差数列，且 $b_1 = 2$，$b_4 = 11$. 依次写出 $\\{b_n\\}$ 的每一项；\n\n(2) 设 $\\{c_n\\}$ 是 $49$ 项的“对称数列”，其中 $c_{25}$，$c_{26}$，$\\cdots$，$c_{49}$ 是首项为 $1$，公比为 $2$ 的等比数列，求 $\\{c_n\\}$ 各项的和 $S$；\n\n(3) 设 $\\{d_n\\}$ 是 $100$ 项的“对称数列”，其中 $d_{51}$，$d_{52}$，$\\cdots$，$d_{100}$ 是首项为 $2$，公差为 $3$ 的等差数列. 求 $\\{d_n\\}$ 前 $n$ 项的和 $S_n$（$n = 1$，$2$，$\\cdots$，$100$）.",
-          "choices": [],
+          "body": "<p>如果有穷数列 $a_{1}$，$a_{2}$，$a_{3}$，$\\cdots$，$a_{m}$（$m$ 为正整数）满足条件 $a_{1} = a_{m}$，$a_{2} = a_{m-1}$，$\\cdots$，$a_{m} = a_{1}$，即 $a_{i} = a_{m-i+1}$（$i = 1$，$2$，$\\cdots$，$m$），我们称其为“对称数列”. 例如，数列 $1$，$2$，$5$，$2$，$1$ 与数列 $8$，$4$，$2$，$2$，$4$，$8$ 都是“对称数列”.</p><ol class=\"enumerate\"><li><p>设 $\\{b_{n}\\}$ 是项数为 $7$ 的“对称数列”，其中 $b_{1}$，$b_{2}$，$b_{3}$，$b_{4}$ 是等差数列，且 $b_{1} = 2$，$b_{4} = 11$. 依次写出 $\\{b_{n}\\}$ 的每一项；</p></li><li><p>设 $\\{c_{n}\\}$ 是 $49$ 项的“对称数列”，其中 $c_{25}$，$c_{26}$，$\\cdots$，$c_{49}$ 是首项为 $1$，公比为 $2$ 的等比数列，求 $\\{c_{n}\\}$ 各项的和 $S$；</p></li><li><p>设 $\\{d_{n}\\}$ 是 $100$ 项的“对称数列”，其中 $d_{51}$，$d_{52}$，$\\cdots$，$d_{100}$ 是首项为 $2$，公差为 $3$ 的等差数列. 求 $\\{d_{n}\\}$ 前 $n$ 项的和 $S_{n}$（$n = 1$，$2$，$\\cdots$，$100$）.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $b_1$，$b_2$，$b_3$，$b_4$ 所成等差数列的公差为 $d$. 由 $b_1=2$，$b_4=11$，得 $2+3d=11$，从而 $d=3$.\r\n所以 $b_1$，$b_2$，$b_3$，$b_4=2$，$5$，$8$，$11$. 由对称性，$b_5=b_3=8$，$b_6=b_2=5$，$b_7=b_1=2$，故数列各项依次为\r\n$2$，$5$，$8$，$11$，$8$，$5$，$2$.\n\n(2) 由题意，$c_{25}$，$c_{26}$，$\\ldots$，$c_{49}$ 为首项 $1$、公比 $2$ 的等比数列，所以\r\n$c_{25+k}=2^k$，（$0\\le k\\leqslant24$）.\r\n利用对称性，前 $24$ 项分别与后 $24$ 项相等，而中间项 $c_{25}=1$ 只计算一次. 因此\r\n\n$$\nS=2\\sum_{k=0}^{24}2^k-1=2\\left(2^{25}-1\\right)-1=2^{26}-3\n$$\n\n(3) 由题意，后 $50$ 项 $d_{51}$，$d_{52}$，$\\ldots$，$d_{100}$ 是首项为 $2$、公差为 $3$ 的等差数列，即\r\n$d_k=2+3(k-51)$，（$51\\le k\\leqslant100$）.\r\n由对称性，对 $1\\le i\\leqslant50$，\r\n\n$$\nd_i=d_{101-i}=2+3(50-i)=152-3i\n$$\n\r\n因此前 $50$ 项构成首项 $149$、公差 $-3$ 的等差数列. 当 $1\\le n\\leqslant50$ 时，\r\n\n$$\nS_n=\\frac{n}{2}\\left[2\\cdot149+(n-1)(-3)\\right]=\\frac{n(301-3n)}{2}\n$$\n\r\n先求前 $50$ 项和：\r\n\n$$\nS_{50}=\\frac{50}{2}(149+2)=3775\n$$\n\r\n当 $51\\le n\\leqslant100$ 时，令 $m=n-50$，则后半段取了前 $m$ 项，故\r\n\n$$\nS_n=3775+\\frac{m}{2}\\left[2\\cdot2+(m-1)3\\right]\r\n=3775+\\frac{(n-50)\\left[3(n-50)+1\\right]}{2}\n$$\n\r\n所以\r\n\n$$\nS_n=\\begin{cases}\r\n\\dfrac{n(301-3n)}{2},&1\\le n\\leqslant50,\\\\[6pt]\r\n3775+\\dfrac{(n-50)\\left[3(n-50)+1\\right]}{2},&51\\le n\\leqslant100.\r\n\\end{cases}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $b_{1}$，$b_{2}$，$b_{3}$，$b_{4}$ 所成等差数列的公差为 $d$. 由 $b_{1}=2$，$b_{4}=11$，得 $2+3d=11$，从而 $d=3$.</p><p>所以 $b_{1}$，$b_{2}$，$b_{3}$，$b_{4}=2$，$5$，$8$，$11$. 由对称性，$b_{5}=b_{3}=8$，$b_{6}=b_{2}=5$，$b_{7}=b_{1}=2$，故数列各项依次为</p><p>$2$，$5$，$8$，$11$，$8$，$5$，$2$.</p></li><li><p>由题意，$c_{25}$，$c_{26}$，$\\ldots$，$c_{49}$ 为首项 $1$、公比 $2$ 的等比数列，所以</p><p>$c_{25+k}=2^{k}$，（$0\\le k\\leqslant24$）.</p><p>利用对称性，前 $24$ 项分别与后 $24$ 项相等，而中间项 $c_{25}=1$ 只计算一次. 因此</p>\n$$\nS=2\\sum_{k=0}^{24}2^{k}-1=2\\left(2^{25}-1\\right)-1=2^{26}-3\n$$\n</li><li><p>由题意，后 $50$ 项 $d_{51}$，$d_{52}$，$\\ldots$，$d_{100}$ 是首项为 $2$、公差为 $3$ 的等差数列，即</p><p>$d_{k}=2+3(k-51)$，（$51\\le k\\leqslant100$）.</p><p>由对称性，对 $1\\le i\\leqslant50$，</p>\n$$\nd_{i}=d_{101-i}=2+3(50-i)=152-3i\n$$\n<p>因此前 $50$ 项构成首项 $149$、公差 $-3$ 的等差数列. 当 $1\\le n\\leqslant50$ 时，</p>\n$$\nS_{n}=\\frac{n}{2}\\left[2\\cdot149+(n-1)(-3)\\right]=\\frac{n(301-3n)}{2}\n$$\n<p>先求前 $50$ 项和：</p>\n$$\nS_{50}=\\frac{50}{2}(149+2)=3775\n$$\n<p>当 $51\\le n\\leqslant100$ 时，令 $m=n-50$，则后半段取了前 $m$ 项，故</p>\n$$\nS_{n}=3775+\\frac{m}{2}\\left[2\\cdot2+(m-1)3\\right]  =3775+\\frac{(n-50)\\left[3(n-50)+1\\right]}{2}\n$$\n<p>所以</p>\n$$\nS_{n}=\\begin{cases}\\dfrac{n(301-3n)}{2},&#x26;1\\le n\\leqslant50,\\\\[6pt]  3775+\\dfrac{(n-50)\\left[3(n-50)+1\\right]}{2},&#x26;51\\le n\\leqslant100.\\end{cases}\n$$\n</li></ol>"
         },
         {
           "num": 21,
-          "body": "我们把由半椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$x \\ge 0$）与半椭圆 $\\frac{y^2}{b^2} + \\frac{x^2}{c^2} = 1$（$x \\le 0$）合成的曲线称作“果圆”，其中 $a^2 = b^2 + c^2$，$a > 0$，$b > c > 0$. 如图，设点 $F_0$，$F_1$，$F_2$ 是相应椭圆的焦点，$A_1$，$A_2$ 和 $B_1$，$B_2$ 分别是“果圆”与 $x$，$y$ 轴的交点，$M$ 是线段 $A_1A_2$ 的中点.\r\n\r\n\n(1) 若 $\\triangle F_0F_1F_2$ 是边长为 $1$ 的等边三角形，求该“果圆”的方程；\n\n(2) 设 $P$ 是“果圆”的半椭圆 $\\frac{y^2}{b^2} + \\frac{x^2}{c^2} = 1$（$x \\le 0$）上任意一点. 求证：当 $|PM|$ 取得最小值时，$P$ 在点 $B_1$，$B_2$ 或 $A_1$ 处；\n\n(3) 若 $P$ 是“果圆”上任意一点，求 $|PM|$ 取得最小值时点 $P$ 的横坐标.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/shanghai_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>我们把由半椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$x \\ge 0$）与半椭圆 $\\frac{y^{2}}{b^{2}}+ \\frac{x^{2}}{c^{2}}= 1$（$x \\le 0$）合成的曲线称作“果圆”，其中 $a^{2} = b^{2} + c^{2}$，$a > 0$，$b > c > 0$. 如图，设点 $F_{0}$，$F_{1}$，$F_{2}$ 是相应椭圆的焦点，$A_{1}$，$A_{2}$ 和 $B_{1}$，$B_{2}$ 分别是“果圆”与 $x$，$y$ 轴的交点，$M$ 是线段 $A_{1}A_{2}$ 的中点.</p><ol class=\"enumerate\"><li><p>若 $\\triangle F_{0}F_{1}F_{2}$ 是边长为 $1$ 的等边三角形，求该“果圆”的方程；</p></li><li><p>设 $P$ 是“果圆”的半椭圆 $\\frac{y^{2}}{b^{2}}+ \\frac{x^{2}}{c^{2}}= 1$（$x \\le 0$）上任意一点. 求证：当 $|PM|$ 取得最小值时，$P$ 在点 $B_{1}$，$B_{2}$ 或 $A_{1}$ 处；</p></li><li><p>若 $P$ 是“果圆”上任意一点，求 $|PM|$ 取得最小值时点 $P$ 的横坐标.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "记 $d=\\sqrt{b^2-c^2}$. 右侧椭圆的焦点为 $(\\pm c,0)$，左侧椭圆的焦点为 $(0,\\pm d)$. 图中取 $F_0=(c,0)$，$F_1=(0,-d)$，$F_2=(0,d)$.\r\n又有 $A_1=(-c,0)$，$A_2=(a,0)$，且 $M=\\left(\\frac{a-c}{2},0\\right)$.\r\n\r\n\n(1) 若 $\\triangle F_0F_1F_2$ 为边长 $1$ 的等边三角形，则\r\n由 $2d=F_1F_2=1$，$c^2+d^2=F_0F_1^2=1$，得 $d=\\frac{1}{2}$，$c=\\frac{\\sqrt{3}}{2}$. 从 $b^2=c^2+d^2$ 和 $a^2=b^2+c^2$ 得 $b=1$，$a=\\frac{\\sqrt{7}}{2}$.\r\n因此该“果圆”的方程为\r\n\n$$\n\\begin{cases}\r\n\\dfrac{4x^2}{7}+y^2=1,&x\\geqslant0,\\\\[6pt]\r\n\\dfrac{4x^2}{3}+y^2=1,&x\\leqslant0.\r\n\\end{cases}\n$$\n\n(2) 设 $P=(x,y)$ 在左侧半椭圆上，则 $-c\\le x\\leqslant0$，且\r\n\n$$\ny^2=b^2\\left(1-\\frac{x^2}{c^2}\\right)\n$$\n\r\n令 $m=\\frac{a-c}{2}$，则\r\n\n$$\n|PM|^2=(x-m)^2+y^2=m^2+b^2-2mx+\\left(1-\\frac{b^2}{c^2}\\right)x^2\n$$\n\r\n由于 $b>c$，二次项系数 $1-\\frac{b^2}{c^2}<0$，所以右端是区间 $[-c,0]$ 上开口向下的二次函数，其最小值只能在端点处取得. 当 $x=-c$ 时，$P=A_1$；当 $x=0$ 时，$P=B_1$ 或 $P=B_2$. 因此，当 $|PM|$ 取得最小值时，$P$ 在 $B_1$，$B_2$ 或 $A_1$ 处.\n\n(3) 先研究右侧半椭圆. 设 $P=(x,y)$，则 $0\\le x\\le a$，且\r\n\n$$\ny^2=b^2\\left(1-\\frac{x^2}{a^2}\\right)\n$$\n\r\n于是\r\n\n$$\n|PM|^2=(x-m)^2+y^2=m^2+b^2-2mx+\\frac{c^2}{a^2}x^2\n$$\n\r\n这是开口向上的二次函数，其顶点横坐标为\r\n\n$$\nx_0=\\frac{m a^2}{c^2}=\\frac{a^2(a-c)}{2c^2}\n$$\n\r\n因为 $a>c$，所以 $x_0>0$. 又有\r\n\n$$\nx_0<a\\Longleftrightarrow a(a-c)<2c^2\\Longleftrightarrow(a-2c)(a+c)<0\\Longleftrightarrow a<2c\n$$\n\r\n\r\n当 $a<2c$ 时，$x_0\\in(0,a)$，故右侧半椭圆上的距离平方在 $x=x_0$ 处取得最小值. 与左侧半椭圆端点对应的距离相比，\r\n\n$$\n|PM|^2\\big|_{x=x_0}=m^2+b^2-\\frac{m^2a^2}{c^2}<m^2+b^2=|MB_1|^2=|MB_2|^2\n$$\n\r\n且顶点值小于端点 $x=a$ 处的值 $|MA_2|^2=|MA_1|^2$. 所以全曲线上取得最小值时，点 $P$ 的横坐标为\r\n\n$$\nx=\\frac{a^2(a-c)}{2c^2}\n$$\n\r\n\r\n当 $a\\geqslant2c$ 时，右侧半椭圆上的最小值在 $x=a$ 处取得，对应点为 $A_2$. 此时\r\n$|MA_2|^2=\\frac{(a+c)^2}{4}$，$|MB_1|^2=|MB_2|^2=\\frac{(a-c)^2}{4}+b^2$.\r\n且\r\n\n$$\n|MA_2|^2-|MB_1|^2=ac-b^2=-a^2+ac+c^2<0\n$$\n\r\n其中最后一个不等式由 $a\\geqslant2c$ 和 $a$，$c>0$ 得到. 因此此时全曲线上的最小值在 $A_1$、$A_2$ 处同时取得，点 $P$ 的横坐标为 $-c$ 或 $a$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>记 $d=\\sqrt{b^{2}-c^{2}}$. 右侧椭圆的焦点为 $(\\pm c,0)$，左侧椭圆的焦点为 $(0,\\pm d)$. 图中取 $F_{0}=(c,0)$，$F_{1}=(0,-d)$，$F_{2}=(0,d)$.</p><p>又有 $A_{1}=(-c,0)$，$A_{2}=(a,0)$，且 $M=\\left(\\frac{a-c}{2},0\\right)$.</p><ol class=\"enumerate\"><li><p>若 $\\triangle F_{0}F_{1}F_{2}$ 为边长 $1$ 的等边三角形，则</p><p>由 $2d=F_{1}F_{2}=1$，$c^{2}+d^{2}=F_{0}F_{1}^{2}=1$，得 $d=\\frac{1}{2}$，$c=\\frac{\\sqrt{3}}{2}$. 从 $b^{2}=c^{2}+d^{2}$ 和 $a^{2}=b^{2}+c^{2}$ 得 $b=1$，$a=\\frac{\\sqrt{7}}{2}$.</p><p>因此该“果圆”的方程为</p>\n$$\n\\begin{cases}\\dfrac{4x^2}{7}+y^{2}=1,&#x26;x\\geqslant0,\\\\[6pt]  \\dfrac{4x^2}{3}+y^{2}=1,&#x26;x\\leqslant0.\\end{cases}\n$$\n</li><li><p>设 $P=(x,y)$ 在左侧半椭圆上，则 $-c\\le x\\leqslant0$，且</p>\n$$\ny^{2}=b^{2}\\left(1-\\frac{x^{2}}{c^{2}}\\right)\n$$\n<p>令 $m=\\frac{a-c}{2}$，则</p>\n$$\n|PM|^{2}=(x-m)^{2}+y^{2}=m^{2}+b^{2}-2mx+\\left(1-\\frac{b^{2}}{c^{2}}\\right)x^{2}\n$$\n<p>由于 $b>c$，二次项系数 $1-\\frac{b^{2}}{c^{2}}&#x3C;0$，所以右端是区间 $[-c,0]$ 上开口向下的二次函数，其最小值只能在端点处取得. 当 $x=-c$ 时，$P=A_{1}$；当 $x=0$ 时，$P=B_{1}$ 或 $P=B_{2}$. 因此，当 $|PM|$ 取得最小值时，$P$ 在 $B_{1}$，$B_{2}$ 或 $A_{1}$ 处.</p></li><li><p>先研究右侧半椭圆. 设 $P=(x,y)$，则 $0\\le x\\le a$，且</p>\n$$\ny^{2}=b^{2}\\left(1-\\frac{x^{2}}{a^{2}}\\right)\n$$\n<p>于是</p>\n$$\n|PM|^{2}=(x-m)^{2}+y^{2}=m^{2}+b^{2}-2mx+\\frac{c^{2}}{a^{2}}x^{2}\n$$\n<p>这是开口向上的二次函数，其顶点横坐标为</p>\n$$\nx_{0}=\\frac{m a^{2}}{c^{2}}=\\frac{a^{2}(a-c)}{2c^{2}}\n$$\n<p>因为 $a>c$，所以 $x_{0}>0$. 又有</p>\n$$\nx_{0}&#x3C;a\\Longleftrightarrow a(a-c)&#x3C;2c^{2}\\Longleftrightarrow(a-2c)(a+c)&#x3C;0\\Longleftrightarrow a&#x3C;2c\n$$\n<p>当 $a&#x3C;2c$ 时，$x_{0}\\in(0,a)$，故右侧半椭圆上的距离平方在 $x=x_{0}$ 处取得最小值. 与左侧半椭圆端点对应的距离相比，</p>\n$$\n|PM|^{2}\\big|_{x=x_0}=m^{2}+b^{2}-\\frac{m^{2}a^{2}}{c^{2}}&#x3C;m^{2}+b^{2}=|MB_{1}|^{2}=|MB_{2}|^{2}\n$$\n<p>且顶点值小于端点 $x=a$ 处的值 $|MA_{2}|^{2}=|MA_{1}|^{2}$. 所以全曲线上取得最小值时，点 $P$ 的横坐标为</p>\n$$\nx=\\frac{a^{2}(a-c)}{2c^{2}}\n$$\n<p>当 $a\\geqslant2c$ 时，右侧半椭圆上的最小值在 $x=a$ 处取得，对应点为 $A_{2}$. 此时</p><p>$|MA_{2}|^{2}=\\frac{(a+c)^{2}}{4}$，$|MB_{1}|^{2}=|MB_{2}|^{2}=\\frac{(a-c)^{2}}{4}+b^{2}$.</p><p>且</p>\n$$\n|MA_{2}|^{2}-|MB_{1}|^{2}=ac-b^{2}=-a^{2}+ac+c^{2}&#x3C;0\n$$\n<p>其中最后一个不等式由 $a\\geqslant2c$ 和 $a$，$c>0$ 得到. 因此此时全曲线上的最小值在 $A_{1}$、$A_{2}$ 处同时取得，点 $P$ 的横坐标为 $-c$ 或 $a$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

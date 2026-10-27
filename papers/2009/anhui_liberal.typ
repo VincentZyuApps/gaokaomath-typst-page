@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -158,7 +159,7 @@ $M A^2=(0-1)^2+t^2+(0-2)^2=t^2+5$，$M B^2=(0-1)^2+(t+3)^2+(0-1)^2=t^2+6 t+11$.
 #answer([127])
 
 #solution[
-流程图先取 $a=1$，然后反复执行 $a\l e f t a r r o w2 a+1$，直到 $a>100$ 时输出 $a$. 设第 $k$ 次更新后的数为 $a_k$，则 $a_0=1$，且
+流程图先取 $a=1$，然后反复执行 $a\l e f t a r r o w 2 a+1$，直到 $a>100$ 时输出 $a$. 设第 $k$ 次更新后的数为 $a_k$，则 $a_0=1$，且
 $a_(k+1)=2 a_k+1$，$a_(k+1)+1=2(a_k+1)$.
 所以 $a_k+1=2^k(a_0+1)=2^(k+1)$，即 $a_k=2^(k+1)-1$. 逐次计算得 $a_5=63 <= 100$，$a_6=127>100$，故第一次满足判断条件时输出 $127$.
 ]
@@ -323,17 +324,17 @@ $454$ & $430$ \\
 \begin{tabular}{p{3.5cm}|c|p{3.5cm}}
 \multicolumn{1}{c|}{A} & & \multicolumn{1}{c}{B} \\
 \hline
-$7\e n s p a c e9$ & $35$ & \\
-$7\e n s p a c e8$ & $36$ & $3$ \\
-$5$ & $37$ & $1\e n s p a c e4$ \\
-$8$ & $38$ & $3\e n s p a c e5\e n s p a c e6$ \\
-$2\e n s p a c e9$ & $39$ & $1\e n s p a c e2\e n s p a c e4\e n s p a c e5\e n s p a c e7\e n s p a c e7$ \\
-$0\e n s p a c e5$ & $40$ & $0\e n s p a c e1\e n s p a c e1\e n s p a c e3\e n s p a c e6\e n s p a c e7$ \\
-$2\e n s p a c e4\e n s p a c e5$ & $41$ & $0\e n s p a c e2\e n s p a c e5\e n s p a c e6$ \\
-$1\e n s p a c e3\e n s p a c e3\e n s p a c e7$ & $42$ & $2$ \\
-$0\e n s p a c e0\e n s p a c e4$ & $43$ & $0$ \\
-$3\e n s p a c e5$ & $44$ & \\
-$1\e n s p a c e4$ & $45$ & \\
+$7\e n s p a c e 9$ & $35$ & \\
+$7\e n s p a c e 8$ & $36$ & $3$ \\
+$5$ & $37$ & $1\e n s p a c e 4$ \\
+$8$ & $38$ & $3\e n s p a c e 5\e n s p a c e 6$ \\
+$2\e n s p a c e 9$ & $39$ & $1\e n s p a c e 2\e n s p a c e 4\e n s p a c e 5\e n s p a c e 7\e n s p a c e 7$ \\
+$0\e n s p a c e 5$ & $40$ & $0\e n s p a c e 1\e n s p a c e 1\e n s p a c e 3\e n s p a c e 6\e n s p a c e 7$ \\
+$2\e n s p a c e 4\e n s p a c e 5$ & $41$ & $0\e n s p a c e 2\e n s p a c e 5\e n s p a c e 6$ \\
+$1\e n s p a c e 3\e n s p a c e 3\e n s p a c e 7$ & $42$ & $2$ \\
+$0\e n s p a c e 0\e n s p a c e 4$ & $43$ & $0$ \\
+$3\e n s p a c e 5$ & $44$ & \\
+$1\e n s p a c e 4$ & $45$ & \\
 \end{tabular}
 \end{center}
 + (2) 茎叶图既能保留原始数据的全部信息，又能直观表示数据的集中趋势和离散程度，便于比较两组数据的大小、分布及稳定性.

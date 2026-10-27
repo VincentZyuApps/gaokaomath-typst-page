@@ -1,150 +1,15 @@
 {
+  "title": "2013年普通高等学校招生全国统一考试",
+  "subtitle": "2013年大纲卷（理）",
   "year": "2013",
   "slug": "syllabus_science",
-  "title": "2013年大纲卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $A = \\{1, 2, 3\\}$，$B = \\{4, 5\\}$，$M = \\{x \\mid x = a + b, a \\in A, b \\in B\\}$，则 $M$ 中元素的个数为（ ）",
+          "body": "设集合 $A = \\{1, 2, 3\\}$，$B = \\{4, 5\\}$，$M = \\{x \\mid x = a + b, a \\in A, b \\in B\\}$，则 $M$ 中元素的个数为（ ）",
           "choices": [
             "$3$",
             "$4$",
@@ -152,13 +17,11 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "由题意，$a+b$ 的所有可能值为 $1+4$，$1+5$，$2+4$，$2+5$，$3+4$，$3+5$，所以 $M=\\{5,6,7,8\\}$.因此 $M$ 中有 $4$ 个不同元素，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由题意，$a+b$ 的所有可能值为 $1+4$，$1+5$，$2+4$，$2+5$，$3+4$，$3+5$，所以 $M=\\{5,6,7,8\\}$.因此 $M$ 中有 $4$ 个不同元素，故选 B."
         },
         {
           "num": 2,
-          "body": "$\\left(1 + \\sqrt{3}\\mathrm{i}\\right)^3 =$（ ）",
+          "body": "$\\left(1 + \\sqrt{3}\\mathrm{i}\\right)^{3} =$（ ）",
           "choices": [
             "$-8$",
             "$8$",
@@ -166,13 +29,11 @@
             "$8\\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "因为 $1+\\sqrt{3}\\mathrm{i}=2\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)$，所以由棣莫弗定理，$\\left(1+\\sqrt{3}\\mathrm{i}\\right)^3=2^3\\left(\\cos\\pi+\\mathrm{i}\\sin\\pi\\right)=-8$.故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $1+\\sqrt{3}\\mathrm{i}=2\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)$，所以由棣莫弗定理，$\\left(1+\\sqrt{3}\\mathrm{i}\\right)^{3}=2^{3}\\left(\\cos\\pi+\\mathrm{i}\\sin\\pi\\right)=-8$.故选 A."
         },
         {
           "num": 3,
-          "body": "已知向量 $\\mathbf{m} = (\\lambda + 1, 1)$，$\\mathbf{n} = (\\lambda + 2, 2)$，若 $(\\mathbf{m} + \\mathbf{n}) \\perp (\\mathbf{m} - \\mathbf{n})$，则 $\\lambda =$（ ）",
+          "body": "已知向量 $\\mathbf{m}= (\\lambda + 1, 1)$，$\\mathbf{n}= (\\lambda + 2, 2)$，若 $(\\mathbf{m}+ \\mathbf{n}) \\perp (\\mathbf{m}- \\mathbf{n})$，则 $\\lambda =$（ ）",
           "choices": [
             "$-4$",
             "$-3$",
@@ -180,13 +41,11 @@
             "$-1$"
           ],
           "answer": "B",
-          "solution": "由题设，$\\mathbf{m}+\\mathbf{n}=(2\\lambda+3,3)$，$\\mathbf{m}-\\mathbf{n}=(-1,-1)$.两向量垂直等价于内积为零，因此 $(2\\lambda+3)(-1)+3(-1)=0$，即 $-2\\lambda-6=0$，解得 $\\lambda=-3$.故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由题设，$\\mathbf{m}+\\mathbf{n}=(2\\lambda+3,3)$，$\\mathbf{m}-\\mathbf{n}=(-1,-1)$.两向量垂直等价于内积为零，因此 $(2\\lambda+3)(-1)+3(-1)=0$，即 $-2\\lambda-6=0$，解得 $\\lambda=-3$.故选 B."
         },
         {
           "num": 4,
-          "body": "已知函数 $f(x)$ 的定义域为 $(-1,0)$，则函数 $f(2x+1)$ 的定义域为（ ）",
+          "body": "已知函数 $f(x)$ 的定义域为 $(-1,0)$，则函数 $f(2x+1)$ 的定义域为（ ）",
           "choices": [
             "$(-1,1)$",
             "$\\left(-1,-\\frac{1}{2}\\right)$",
@@ -194,27 +53,23 @@
             "$\\left(\\frac{1}{2},1\\right)$"
           ],
           "answer": "B",
-          "solution": "要使 $f(2x+1)$ 有意义，必须有 $-1<2x+1<0$.两边同时减去 $1$，再除以正数 $2$，得 $-1<x<-\\frac{1}{2}$.因此定义域为 $\\left(-1,-\\frac{1}{2}\\right)$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "要使 $f(2x+1)$ 有意义，必须有 $-1&#x3C;2x+1&#x3C;0$.两边同时减去 $1$，再除以正数 $2$，得 $-1&#x3C;x&#x3C;-\\frac{1}{2}$.因此定义域为 $\\left(-1,-\\frac{1}{2}\\right)$，故选 B."
         },
         {
           "num": 5,
-          "body": "函数 $f(x)=\\log_2\\left(1+\\frac{1}{x}\\right)$（$x>0$）的反函数 $f^{-1}(x)=$（ ）",
+          "body": "函数 $f(x)=\\log_{2}\\left(1+\\frac{1}{x}\\right)$（$x>0$）的反函数 $f^{-1}(x)=$（ ）",
           "choices": [
-            "$\\frac{1}{2^x-1}$（$x>0$）",
-            "$\\frac{1}{2^x-1}$（$x\\neq0$）",
-            "$2^x-1$（$x\\in\\mathbb{R}$）",
-            "$2^x-1$（$x>0$）"
+            "$\\frac{1}{2^{x}-1}$（$x>0$）",
+            "$\\frac{1}{2^{x}-1}$（$x\\neq0$）",
+            "$2^{x}-1$（$x\\in\\mathbb{R}$）",
+            "$2^{x}-1$（$x>0$）"
           ],
           "answer": "A",
-          "solution": "令 $y=f(x)$，则 $2^y=1+\\frac{1}{x}$，从而 $x=\\frac{1}{2^y-1}$.当 $x>0$ 时，$1+\\frac{1}{x}>1$，故 $y>0$.交换变量名，得 $f^{-1}(x)=\\frac{1}{2^x-1}$（$x>0$）.故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "令 $y=f(x)$，则 $2^{y}=1+\\frac{1}{x}$，从而 $x=\\frac{1}{2^{y}-1}$.当 $x>0$ 时，$1+\\frac{1}{x}>1$，故 $y>0$.交换变量名，得 $f^{-1}(x)=\\frac{1}{2^{x}-1}$（$x>0$）.故选 A."
         },
         {
           "num": 6,
-          "body": "已知数列 $\\{a_n\\}$ 满足 $3a_{n+1}+a_n=0$，$a_2=-\\frac{4}{3}$，则 $\\{a_n\\}$ 的前 10 项和等于（ ）",
+          "body": "已知数列 $\\{a_{n}\\}$ 满足 $3a_{n+1}+a_{n}=0$，$a_{2}=-\\frac{4}{3}$，则 $\\{a_{n}\\}$ 的前 10 项和等于（ ）",
           "choices": [
             "$-6(1-3^{-10})$",
             "$\\frac{1}{9}(1-3^{10})$",
@@ -222,13 +77,11 @@
             "$3(1+3^{-10})$"
           ],
           "answer": "C",
-          "solution": "由递推关系得 $a_{n+1}=-\\frac{1}{3}a_n$.又由 $a_2=-\\frac{1}{3}a_1=-\\frac{4}{3}$，得 $a_1=4$.所以 $\\{a_n\\}$ 是首项为 $4$、公比为 $-\\frac{1}{3}$ 的等比数列，从而 $S_{10}=4\\frac{1-\\left(-\\frac{1}{3}\\right)^{10}}{1-\\left(-\\frac{1}{3}\\right)}=3(1-3^{-10})$.故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由递推关系得 $a_{n+1}=-\\frac{1}{3}a_{n}$.又由 $a_{2}=-\\frac{1}{3}a_{1}=-\\frac{4}{3}$，得 $a_{1}=4$.所以 $\\{a_{n}\\}$ 是首项为 $4$、公比为 $-\\frac{1}{3}$ 的等比数列，从而 $S_{10}=4\\frac{1-\\left(-\\frac{1}{3}\\right)^{10}}{1-\\left(-\\frac{1}{3}\\right)}=3(1-3^{-10})$.故选 C."
         },
         {
           "num": 7,
-          "body": "$(1+x)^8(1+y)^4$ 的展开式中 $x^2y^2$ 的系数是（ ）",
+          "body": "$(1+x)^{8}(1+y)^{4}$ 的展开式中 $x^{2}y^{2}$ 的系数是（ ）",
           "choices": [
             "$56$",
             "$84$",
@@ -236,13 +89,11 @@
             "$168$"
           ],
           "answer": "D",
-          "solution": "要得到 $x^2y^2$，必须分别从两个因式中取出 $x^2$ 和 $y^2$.由二项式定理，该项系数为 $\\mathrm C_8^2\\mathrm C_4^2=28\\times6=168$.故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "要得到 $x^{2}y^{2}$，必须分别从两个因式中取出 $x^{2}$ 和 $y^{2}$.由二项式定理，该项系数为 $\\mathrm{C}_{8}^{2}\\mathrm{C}_{4}^{2}=28\\times6=168$.故选 D."
         },
         {
           "num": 8,
-          "body": "椭圆 $C:\\frac{x^2}{4}+\\frac{y^2}{3}=1$ 的左、右顶点分别为 $A_1$，$A_2$，点 $P$ 在 $C$ 上且直线 $PA_2$ 斜率的取值范围是 $[-2,-1]$，那么直线 $PA_1$ 斜率的取值范围是（ ）",
+          "body": "椭圆 $C:\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$ 的左、右顶点分别为 $A_{1}$，$A_{2}$，点 $P$ 在 $C$ 上且直线 $PA_{2}$ 斜率的取值范围是 $[-2,-1]$，那么直线 $PA_{1}$ 斜率的取值范围是（ ）",
           "choices": [
             "$\\left[\\frac{1}{2},\\frac{3}{4}\\right]$",
             "$\\left[\\frac{3}{8},\\frac{3}{4}\\right]$",
@@ -250,13 +101,11 @@
             "$\\left[\\frac{3}{4},1\\right]$"
           ],
           "answer": "B",
-          "solution": "椭圆的左、右顶点为 $A_1=(-2,0)$，$A_2=(2,0)$.设 $P=(x,y)$，直线 $PA_1$，$PA_2$ 的斜率分别为 $k_1$，$k_2$.由椭圆方程，$y^2=3\\left(1-\\frac{x^2}{4}\\right)=\\frac{3}{4}(4-x^2)$，因此 $k_1k_2=\\frac{y^2}{(x+2)(x-2)}=-\\frac{3}{4}$.已知 $k_2\\in[-2,-1]$，故 $k_1=-\\frac{3}{4k_2}\\in\\left[\\frac{3}{8},\\frac{3}{4}\\right]$.故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "椭圆的左、右顶点为 $A_{1}=(-2,0)$，$A_{2}=(2,0)$.设 $P=(x,y)$，直线 $PA_{1}$，$PA_{2}$ 的斜率分别为 $k_{1}$，$k_{2}$.由椭圆方程，$y^{2}=3\\left(1-\\frac{x^{2}}{4}\\right)=\\frac{3}{4}(4-x^{2})$，因此 $k_{1}k_{2}=\\frac{y^{2}}{(x+2)(x-2)}=-\\frac{3}{4}$.已知 $k_{2}\\in[-2,-1]$，故 $k_{1}=-\\frac{3}{4k_{2}}\\in\\left[\\frac{3}{8},\\frac{3}{4}\\right]$.故选 B."
         },
         {
           "num": 9,
-          "body": "若函数 $f(x)=x^2+ax+\\frac{1}{x}$ 在 $\\left(\\frac{1}{2},+\\infty\\right)$ 是增函数，则 $a$ 的取值范围是（ ）",
+          "body": "若函数 $f(x)=x^{2}+ax+\\frac{1}{x}$ 在 $\\left(\\frac{1}{2},+\\infty\\right)$ 是增函数，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$[-1,0]$",
             "$[-1,+\\infty)$",
@@ -264,13 +113,11 @@
             "$[3,+\\infty)$"
           ],
           "answer": "D",
-          "solution": "在定义域上 $f'(x)=2x+a-\\frac{1}{x^2}$.令 $g(x)=\\frac{1}{x^2}-2x$，则函数递增的必要条件是对任意 $x>\\frac{1}{2}$ 有 $a\\ge g(x)$.又 $g'(x)=-\\frac{2}{x^3}-2<0$，所以 $g$ 在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上递减，且 $g(x)$ 的上确界为 $\\lim_{x\\to(\\frac{1}{2})^+}g(x)=3$.因此必要条件是 $a\\geqslant3$.反之，当 $a\\geqslant3$ 时，$g(x)<3\\le a$，所以 $f'(x)>0$，函数确实递增.故 $a\\in[3,+\\infty)$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "在定义域上 $f'(x)=2x+a-\\frac{1}{x^{2}}$.令 $g(x)=\\frac{1}{x^{2}}-2x$，则函数递增的必要条件是对任意 $x>\\frac{1}{2}$ 有 $a\\ge g(x)$.又 $g'(x)=-\\frac{2}{x^{3}}-2&#x3C;0$，所以 $g$ 在 $\\left(\\frac{1}{2},+\\infty\\right)$ 上递减，且 $g(x)$ 的上确界为 $\\lim_{x\\to(\\frac{1}{2})^+}g(x)=3$.因此必要条件是 $a\\geqslant3$.反之，当 $a\\geqslant3$ 时，$g(x)&#x3C;3\\le a$，所以 $f'(x)>0$，函数确实递增.故 $a\\in[3,+\\infty)$，选 D."
         },
         {
           "num": 10,
-          "body": "已知正四棱柱 $ABCD-A_1B_1C_1D_1$ 中，$AA_1=2AB$，则 $CD$ 与平面 $BDC_1$ 所成角的正弦值等于（ ）",
+          "body": "已知正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1}=2AB$，则 $CD$ 与平面 $BDC_{1}$ 所成角的正弦值等于（ ）",
           "choices": [
             "$\\frac{2}{3}$",
             "$\\frac{\\sqrt{3}}{3}$",
@@ -278,13 +125,11 @@
             "$\\frac{1}{3}$"
           ],
           "answer": "A",
-          "solution": "设正方形底面的边长为 $s$，建立直角坐标系，取 $A=(0,0,0)$，$B=(s,0,0)$，$D=(0,s,0)$，$C=(s,s,0)$，$C_1=(s,s,2s)$.平面 $BDC_1$ 的两个方向向量可取 $\\overrightarrow{BD}=(-s,s,0)$ 和 $\\overrightarrow{BC_1}=(0,s,2s)$，故其法向量可取 $\\mathbf{n}=\\overrightarrow{BD}\\times\\overrightarrow{BC_1}=(2s^2,2s^2,-s^2)$.直线 $CD$ 的方向向量可取 $\\mathbf{u}=(1,0,0)$.设直线与平面的夹角为 $\\theta$，则 $\\sin\\theta=\\frac{|\\mathbf{u}\\cdot\\mathbf{n}|}{|\\mathbf{u}|\\,|\\mathbf{n}|}=\\frac{2s^2}{s^2\\sqrt{4+4+1}}=\\frac{2}{3}$.故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设正方形底面的边长为 $s$，建立直角坐标系，取 $A=(0,0,0)$，$B=(s,0,0)$，$D=(0,s,0)$，$C=(s,s,0)$，$C_{1}=(s,s,2s)$.平面 $BDC_{1}$ 的两个方向向量可取 $\\overrightarrow{BD}=(-s,s,0)$ 和 $\\overrightarrow{BC_1}=(0,s,2s)$，故其法向量可取 $\\mathbf{n}=\\overrightarrow{BD}\\times\\overrightarrow{BC_1}=(2s^{2},2s^{2},-s^{2})$.直线 $CD$ 的方向向量可取 $\\mathbf{u}=(1,0,0)$.设直线与平面的夹角为 $\\theta$，则 $\\sin\\theta=\\frac{|\\mathbf{u}\\cdot\\mathbf{n}|}{|\\mathbf{u}|\\,|\\mathbf{n}|}=\\frac{2s^{2}}{s^{2}\\sqrt{4+4+1}}=\\frac{2}{3}$.故选 A."
         },
         {
           "num": 11,
-          "body": "已知抛物线 $C:y^2=8x$ 与点 $M(-2,2)$，过 $C$ 的焦点且斜率为 $k$ 的直线与 $C$ 交于 $A$，$B$ 两点. 若 $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0$，则 $k=$（ ）",
+          "body": "已知抛物线 $C:y^{2}=8x$ 与点 $M(-2,2)$，过 $C$ 的焦点且斜率为 $k$ 的直线与 $C$ 交于 $A$，$B$ 两点. 若 $\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0$，则 $k=$（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$\\frac{\\sqrt{2}}{2}$",
@@ -292,13 +137,11 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "由 $y^2=8x$ 得抛物线焦点为 $F=(2,0)$.设过焦点的直线为 $y=k(x-2)$，令 $t=x-2$，则交点对应的两个参数 $t_1$，$t_2$ 满足 $k^2t^2=8(t+2)$，即 $k^2t^2-8t-16=0$.因此 $t_1+t_2=\\frac{8}{k^2}$，$t_1t_2=-\\frac{16}{k^2}$.交点坐标为 $(t_i+2,kt_i)$，所以\r\n\n$$\n\\begin{aligned}\r\n\\overrightarrow{MA}\\cdot\\overrightarrow{MB}\r\n&=(t_1+4)(t_2+4)+(kt_1-2)(kt_2-2)\\\\\r\n&=(1+k^2)t_1t_2+(4-2k)(t_1+t_2)+20\\\\\r\n&=\\frac{4(k-2)^2}{k^2}.\r\n\\end{aligned}\n$$\n\r\n直线与抛物线有两个交点，故 $k\\neq0$.由内积为零得 $k=2$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $y^{2}=8x$ 得抛物线焦点为 $F=(2,0)$.设过焦点的直线为 $y=k(x-2)$，令 $t=x-2$，则交点对应的两个参数 $t_{1}$，$t_{2}$ 满足 $k^{2}t^{2}=8(t+2)$，即 $k^{2}t^{2}-8t-16=0$.因此 $t_{1}+t_{2}=\\frac{8}{k^{2}}$，$t_{1}t_{2}=-\\frac{16}{k^{2}}$.交点坐标为 $(t_{i}+2,kt_{i})$，所以</p>\n$$\n\\begin{aligned}\\overrightarrow{MA}\\cdot\\overrightarrow{MB}&#x26;=(t_{1}+4)(t_{2}+4)+(kt_{1}-2)(kt_{2}-2)\\\\&#x26;=(1+k^{2})t_{1}t_{2}+(4-2k)(t_{1}+t_{2})+20\\\\&#x26;=\\frac{4(k-2)^2}{k^2}.\\end{aligned}\n$$\n<p>直线与抛物线有两个交点，故 $k\\neq0$.由内积为零得 $k=2$，故选 D.</p>"
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x)=\\cos x\\sin 2x$，下列结论中错误的是（ ）",
+          "body": "已知函数 $f(x)=\\cos x\\sin 2x$，下列结论中错误的是（ ）",
           "choices": [
             "$y=f(x)$ 的图象关于点 $(\\pi,0)$ 中心对称",
             "$y=f(x)$ 的图象关于 $x=\\frac{\\pi}{2}$ 对称",
@@ -306,9 +149,7 @@
             "$f(x)$ 既是奇函数，又是周期函数"
           ],
           "answer": "C",
-          "solution": "由 $f(x)=2\\sin x\\cos^2x$，令 $t=\\sin x\\in[-1,1]$，则 $f(x)=2t(1-t^2)=2t-2t^3$.记 $g(t)=2t-2t^3$，则 $g'(t)=2-6t^2$.在 $[-1,1]$ 上，临界点为 $t=\\pm\\frac{1}{\\sqrt3}$，且 $g(-1)=g(1)=0$，所以最大值为 $g\\left(\\frac{1}{\\sqrt3}\\right)=\\frac{4}{3\\sqrt3}=\\frac{4\\sqrt3}{9}$，不是 $\\frac{\\sqrt3}{2}$，故 C 错误.\r\n\r\n又因为 $f(2\\pi-x)=-f(x)$，图象关于 $(\\pi,0)$ 中心对称；因为 $f(\\pi-x)=f(x)$，图象关于 $x=\\frac{\\pi}{2}$ 对称；因为 $f(-x)=-f(x)$，所以 $f$ 是奇函数；并且 $f(x+2\\pi)=f(x)$，所以 $f$ 是周期函数.因此其余结论正确，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $f(x)=2\\sin x\\cos^{2}x$，令 $t=\\sin x\\in[-1,1]$，则 $f(x)=2t(1-t^{2})=2t-2t^{3}$.记 $g(t)=2t-2t^{3}$，则 $g'(t)=2-6t^{2}$.在 $[-1,1]$ 上，临界点为 $t=\\pm\\frac{1}{\\sqrt{3}}$，且 $g(-1)=g(1)=0$，所以最大值为 $g\\left(\\frac{1}{\\sqrt{3}}\\right)=\\frac{4}{3\\sqrt{3}}=\\frac{4\\sqrt{3}}{9}$，不是 $\\frac{\\sqrt{3}}{2}$，故 C 错误.</p><p>又因为 $f(2\\pi-x)=-f(x)$，图象关于 $(\\pi,0)$ 中心对称；因为 $f(\\pi-x)=f(x)$，图象关于 $x=\\frac{\\pi}{2}$ 对称；因为 $f(-x)=-f(x)$，所以 $f$ 是奇函数；并且 $f(x+2\\pi)=f(x)$，所以 $f$ 是周期函数.因此其余结论正确，故选 C.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知 $\\alpha$ 是第三象限角，$\\sin\\alpha=-\\frac{1}{3}$，则 $\\cot\\alpha=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\sqrt{2}\\)",
-          "solution": "因为 $\\alpha$ 在第三象限，所以 $\\cos\\alpha<0$.由 $\\cos^2\\alpha=1-\\sin^2\\alpha=1-\\frac{1}{9}=\\frac{8}{9}$，得 $\\cos\\alpha=-\\frac{2\\sqrt2}{3}$.于是 $\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}=\\frac{-2\\frac{\\sqrt2}{3}}{-\\frac{1}{3}}=2\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\alpha$ 是第三象限角，$\\sin\\alpha=-\\frac{1}{3}$，则 $\\cot\\alpha=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2\\sqrt{2}$",
+          "solution": "因为 $\\alpha$ 在第三象限，所以 $\\cos\\alpha&#x3C;0$.由 $\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\frac{1}{9}=\\frac{8}{9}$，得 $\\cos\\alpha=-\\frac{2\\sqrt{2}}{3}$.于是 $\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}=\\frac{-2\\frac{\\sqrt{2}}{3}}{-\\frac{1}{3}}=2\\sqrt{2}$."
         },
         {
           "num": 14,
-          "body": "$6$ 个人排成一行，其中甲、乙两人不相邻的不同排法共有 _______ {} 种. （用数字作答）",
-          "choices": [],
+          "body": "$6$ 个人排成一行，其中甲、乙两人不相邻的不同排法共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种. （用数字作答）",
+          "choices": null,
           "answer": "480",
-          "solution": "$6$ 个人任意排队有 $6!$ 种.把甲、乙看成一个整体时有 $5!$ 种排列，甲、乙在整体内还有 $2!$ 种顺序，所以甲、乙相邻的排法有 $2\\times5!$ 种.因此不相邻的排法为 $6!-2\\times5!=720-240=480$ 种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$6$ 个人任意排队有 $6!$ 种.把甲、乙看成一个整体时有 $5!$ 种排列，甲、乙在整体内还有 $2!$ 种顺序，所以甲、乙相邻的排法有 $2\\times5!$ 种.因此不相邻的排法为 $6!-2\\times5!=720-240=480$ 种."
         },
         {
           "num": 15,
-          "body": "记不等式组 $\\begin{cases}\r\nx\\geqslant0,\\\\\r\nx+3y\\geqslant4,\\\\\r\n3x+y\\leqslant4\r\n\\end{cases}$ 表示的平面区域为 $D$，若直线 $y=a(x+1)$ 与 $D$ 有公共点，则 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left[\\frac{1}{2},4\\right]\\)",
-          "solution": "区域 $D$ 是三角形，其顶点为 $P=\\left(0,\\frac{4}{3}\\right)$，$Q=(0,4)$，$R=(1,1)$.直线 $y=a(x+1)$ 都经过定点 $E=(-1,0)$，所以 $a=\\frac{y}{x+1}$ 是点 $E$ 与区域内点连线的斜率.\r\n\r\n三个顶点对应的斜率分别为 $\\frac{4}{3}$，$4$，$\\frac{1}{2}$.又因为每个区域内点都是三个顶点的凸组合，且三个顶点的横坐标都不小于 $0$，所以 $\\frac{y}{x+1}$ 是这三个顶点斜率的加权平均值.因此其取值范围为 $\\left[\\frac{1}{2},4\\right]$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "记不等式组 $\\begin{cases}x\\geqslant0,\\\\  x+3y\\geqslant4,\\\\  3x+y\\leqslant4\\end{cases}$ 表示的平面区域为 $D$，若直线 $y=a(x+1)$ 与 $D$ 有公共点，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left[\\frac{1}{2},4\\right]$",
+          "solution": "<p>区域 $D$ 是三角形，其顶点为 $P=\\left(0,\\frac{4}{3}\\right)$，$Q=(0,4)$，$R=(1,1)$.直线 $y=a(x+1)$ 都经过定点 $E=(-1,0)$，所以 $a=\\frac{y}{x+1}$ 是点 $E$ 与区域内点连线的斜率.</p><p>三个顶点对应的斜率分别为 $\\frac{4}{3}$，$4$，$\\frac{1}{2}$.又因为每个区域内点都是三个顶点的凸组合，且三个顶点的横坐标都不小于 $0$，所以 $\\frac{y}{x+1}$ 是这三个顶点斜率的加权平均值.因此其取值范围为 $\\left[\\frac{1}{2},4\\right]$.</p>"
         },
         {
           "num": 16,
-          "body": "已知圆 $O$ 和圆 $K$ 是球 $O$ 的大圆和小圆，其公共弦长等于球 $O$ 的半径，$OK=\\frac{3}{2}$，且圆 $O$ 与圆 $K$ 所在的平面所成的一个二面角为 $60^{\\circ}$，则球 $O$ 的表面积等于 _______ {}.",
-          "choices": [],
-          "answer": "\\(16\\pi\\)",
-          "solution": "设球的半径为 $R$，两圆所在平面的交线为公共弦所在直线 $l$.大圆半径为 $R$，而公共弦长为 $R$，故从球心 $O$ 到 $l$ 的距离为 $h=\\sqrt{R^2-\\left(\\frac{R}{2}\\right)^2}=\\frac{\\sqrt3}{2}R$.\r\n\r\n小圆圆心 $K$ 是球心 $O$ 在小圆所在平面上的射影，所以 $OK$ 等于球心到该平面的距离.在垂直于 $l$ 的截面内，两平面的夹角为 $60^{\\circ}$，故 $OK=h\\sin60^{\\circ}=\\frac{\\sqrt3}{2}R\\cdot\\frac{\\sqrt3}{2}=\\frac{3}{4}R$.由 $OK=\\frac{3}{2}$，得 $R=2$，因此球的表面积为 $4\\pi R^2=16\\pi$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆 $O$ 和圆 $K$ 是球 $O$ 的大圆和小圆，其公共弦长等于球 $O$ 的半径，$OK=\\frac{3}{2}$，且圆 $O$ 与圆 $K$ 所在的平面所成的一个二面角为 $60^{\\circ}$，则球 $O$ 的表面积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$16\\pi$",
+          "solution": "<p>设球的半径为 $R$，两圆所在平面的交线为公共弦所在直线 $l$.大圆半径为 $R$，而公共弦长为 $R$，故从球心 $O$ 到 $l$ 的距离为 $h=\\sqrt{R^{2}-\\left(\\frac{R}{2}\\right)^{2}}=\\frac{\\sqrt{3}}{2}R$.</p><p>小圆圆心 $K$ 是球心 $O$ 在小圆所在平面上的射影，所以 $OK$ 等于球心到该平面的距离.在垂直于 $l$ 的截面内，两平面的夹角为 $60^{\\circ}$，故 $OK=h\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}R\\cdot\\frac{\\sqrt{3}}{2}=\\frac{3}{4}R$.由 $OK=\\frac{3}{2}$，得 $R=2$，因此球的表面积为 $4\\pi R^{2}=16\\pi$.</p>"
         }
       ]
     },
@@ -358,48 +191,38 @@
       "problems": [
         {
           "num": 17,
-          "body": "等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，已知 $S_3=a_2^2$，且 $S_1$，$S_2$，$S_4$ 成等比数列，求 $\\{a_n\\}$ 的通项公式.",
-          "choices": [],
+          "body": "等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $S_{3}=a_{2}^{2}$，且 $S_{1}$，$S_{2}$，$S_{4}$ 成等比数列，求 $\\{a_{n}\\}$ 的通项公式.",
+          "choices": null,
           "answer": "",
-          "solution": "设等差数列的首项为 $a_1$，公差为 $d$，则 $S_1=a_1$，$S_2=2a_1+d$，$S_3=3a_1+3d$，$S_4=4a_1+6d$.\r\n\r\n由 $S_1$，$S_2$，$S_4$ 成等比数列，得 $S_2^2=S_1S_4$，即 $(2a_1+d)^2=a_1(4a_1+6d)$，化简得 $d(d-2a_1)=0$.\r\n\r\n当 $d=0$ 时，$a_2=a_1$，由 $S_3=a_2^2$ 得 $3a_1=a_1^2$，所以 $a_1=0$ 或 $a_1=3$.若 $a_1=0$，则 $S_1=S_2=S_4=0$，相邻项之比无意义，不满足等比数列的定义，故 $a_1=3$，从而 $a_n=3$.\r\n\r\n当 $d=2a_1$ 时，$a_2=3a_1$，$S_3=9a_1$.由 $S_3=a_2^2$ 得 $9a_1=9a_1^2$，所以 $a_1=0$ 或 $a_1=1$.同样舍去全零情形，得 $a_1=1$，$d=2$，于是 $a_n=a_1+(n-1)d=2n-1$.\r\n\r\n因此 $\\{a_n\\}$ 的通项公式为 $a_n=3$ 或 $a_n=2n-1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$，则 $S_{1}=a_{1}$，$S_{2}=2a_{1}+d$，$S_{3}=3a_{1}+3d$，$S_{4}=4a_{1}+6d$.</p><p>由 $S_{1}$，$S_{2}$，$S_{4}$ 成等比数列，得 $S_{2}^{2}=S_{1}S_{4}$，即 $(2a_{1}+d)^{2}=a_{1}(4a_{1}+6d)$，化简得 $d(d-2a_{1})=0$.</p><p>当 $d=0$ 时，$a_{2}=a_{1}$，由 $S_{3}=a_{2}^{2}$ 得 $3a_{1}=a_{1}^{2}$，所以 $a_{1}=0$ 或 $a_{1}=3$.若 $a_{1}=0$，则 $S_{1}=S_{2}=S_{4}=0$，相邻项之比无意义，不满足等比数列的定义，故 $a_{1}=3$，从而 $a_{n}=3$.</p><p>当 $d=2a_{1}$ 时，$a_{2}=3a_{1}$，$S_{3}=9a_{1}$.由 $S_{3}=a_{2}^{2}$ 得 $9a_{1}=9a_{1}^{2}$，所以 $a_{1}=0$ 或 $a_{1}=1$.同样舍去全零情形，得 $a_{1}=1$，$d=2$，于是 $a_{n}=a_{1}+(n-1)d=2n-1$.</p><p>因此 $\\{a_{n}\\}$ 的通项公式为 $a_{n}=3$ 或 $a_{n}=2n-1$.</p>"
         },
         {
           "num": 18,
-          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，$(a+b+c)(a-b+c)=ac$.\r\n\r\n\n(1) 求 $B$；\n\n(2) 若 $\\sin A\\sin C=\\frac{\\sqrt{3}-1}{4}$，求 $C$.",
-          "choices": [],
+          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，$(a+b+c)(a-b+c)=ac$.</p><ol class=\"enumerate\"><li><p>求 $B$；</p></li><li><p>若 $\\sin A\\sin C=\\frac{\\sqrt{3}-1}{4}$，求 $C$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "由余弦定理 $b^2=a^2+c^2-2ac\\cos B$，且 $(a+b+c)(a-b+c)=(a+c)^2-b^2$.所以题设条件给出 $a^2+2ac+c^2-b^2=ac$，即 $2ac(1+\\cos B)=ac$.三角形三边均为正数，故 $2(1+\\cos B)=1$，从而 $\\cos B=-\\frac{1}{2}$.因为 $0<B<\\pi$，所以 $B=120^{\\circ}$.\r\n\r\n由 $A+C=60^{\\circ}$ 及积化和差公式，$\\sin A\\sin C=\\frac{\\cos(A-C)-\\cos(A+C)}{2}=\\frac{\\cos(A-C)-\\frac{1}{2}}{2}$.代入已知条件得 $\\cos(A-C)=\\frac{\\sqrt3}{2}$.又因为 $-60^{\\circ}<A-C<60^{\\circ}$，故 $A-C=\\pm30^{\\circ}$.结合 $A+C=60^{\\circ}$，得到 $(A,C)=(45^{\\circ},15^{\\circ})$ 或 $(15^{\\circ},45^{\\circ})$.因此 $C=15^{\\circ}$ 或 $C=45^{\\circ}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由余弦定理 $b^{2}=a^{2}+c^{2}-2ac\\cos B$，且 $(a+b+c)(a-b+c)=(a+c)^{2}-b^{2}$.所以题设条件给出 $a^{2}+2ac+c^{2}-b^{2}=ac$，即 $2ac(1+\\cos B)=ac$.三角形三边均为正数，故 $2(1+\\cos B)=1$，从而 $\\cos B=-\\frac{1}{2}$.因为 $0&#x3C;B&#x3C;\\pi$，所以 $B=120^{\\circ}$.</p><p>由 $A+C=60^{\\circ}$ 及积化和差公式，$\\sin A\\sin C=\\frac{\\cos(A-C)-\\cos(A+C)}{2}=\\frac{\\cos(A-C)-\\frac{1}{2}}{2}$.代入已知条件得 $\\cos(A-C)=\\frac{\\sqrt{3}}{2}$.又因为 $-60^{\\circ}&#x3C;A-C&#x3C;60^{\\circ}$，故 $A-C=\\pm30^{\\circ}$.结合 $A+C=60^{\\circ}$，得到 $(A,C)=(45^{\\circ},15^{\\circ})$ 或 $(15^{\\circ},45^{\\circ})$.因此 $C=15^{\\circ}$ 或 $C=45^{\\circ}$.</p>"
         },
         {
           "num": 19,
-          "body": "如图，四棱锥 $P-ABCD$ 中，$\\angle ABC=\\angle BAD=90^{\\circ}$，$BC=2AD$，$\\triangle PAB$ 与 $\\triangle PAD$ 都是等边三角形.\r\n\r\n\n(1) 证明：$PB\\perp CD$；\n\n(2) 求二面角 $A-PD-C$ 的大小.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/syllabus_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，四棱锥 $P-ABCD$ 中，$\\angle ABC=\\angle BAD=90^{\\circ}$，$BC=2AD$，$\\triangle PAB$ 与 $\\triangle PAD$ 都是等边三角形.</p><ol class=\"enumerate\"><li><p>证明：$PB\\perp CD$；</p></li><li><p>求二面角 $A-PD-C$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "由两个等边三角形共用边 $PA$，得 $AB=PA=AD$.几何形状在相似伸缩下不变，取 $AB=AD=2$.由 $AD\\perp AB$、$BC\\perp AB$ 以及四边形 $ABCD$ 共面，得 $AD\\parallel BC$.建立直角坐标系，取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，$C=(2,4,0)$.\r\n\r\n设 $P=(x,y,z)$.由 $PA=PB=PD=2$，比较平方距离得 $x=1$，$y=1$，再由 $PA=2$ 得 $z=\\sqrt2$，故可取 $P=(1,1,\\sqrt2)$.\r\n\r\n\n(1) 取 $\\overrightarrow{BP}=(-1,1,\\sqrt2)$，$\\overrightarrow{CD}=(-2,-2,0)$，则 $\\overrightarrow{BP}\\cdot\\overrightarrow{CD}=2-2=0$.因此 $PB\\perp CD$.\n\n(2) 设所求二面角 $A-PD-C$ 为 $\\theta$.取 $\\mathbf{d}=\\overrightarrow{PD}=(-1,1,-\\sqrt2)$，$\\mathbf{u}=\\overrightarrow{PA}=(-1,-1,-\\sqrt2)$，$\\mathbf{v}=\\overrightarrow{PC}=(1,3,-\\sqrt2)$.在垂直于棱 $PD$ 的截面内，$\\mathbf{u}$ 和 $\\mathbf{v}$ 的投影分别为\r\n\n$$\n\\mathbf{u}_{\\perp}=\\mathbf{u}-\\frac{\\mathbf{u}\\cdot\\mathbf{d}}{\\mathbf{d}\\cdot\\mathbf{d}}\\mathbf{d}=\\left(-\\frac12,-\\frac32,-\\frac{\\sqrt2}{2}\\right)\n$$\n\r\n和\r\n\n$$\n\\mathbf{v}_{\\perp}=\\mathbf{v}-\\frac{\\mathbf{v}\\cdot\\mathbf{d}}{\\mathbf{d}\\cdot\\mathbf{d}}\\mathbf{d}=(2,2,0)\n$$\n\r\n因此 $\\mathbf{u}_{\\perp}\\cdot\\mathbf{v}_{\\perp}=-4$，$|\\mathbf{u}_{\\perp}|=\\sqrt3$，$|\\mathbf{v}_{\\perp}|=2\\sqrt2$，从而 $\\cos\\theta=\\frac{-4}{\\sqrt3\\cdot2\\sqrt2}=-\\frac{\\sqrt6}{3}$.所以 $\\theta=\\arccos\\left(-\\frac{\\sqrt6}{3}\\right)=\\pi-\\arccos\\frac{\\sqrt6}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由两个等边三角形共用边 $PA$，得 $AB=PA=AD$.几何形状在相似伸缩下不变，取 $AB=AD=2$.由 $AD\\perp AB$、$BC\\perp AB$ 以及四边形 $ABCD$ 共面，得 $AD\\parallel BC$.建立直角坐标系，取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，$C=(2,4,0)$.</p><p>设 $P=(x,y,z)$.由 $PA=PB=PD=2$，比较平方距离得 $x=1$，$y=1$，再由 $PA=2$ 得 $z=\\sqrt{2}$，故可取 $P=(1,1,\\sqrt{2})$.</p><ol class=\"enumerate\"><li><p>取 $\\overrightarrow{BP}=(-1,1,\\sqrt{2})$，$\\overrightarrow{CD}=(-2,-2,0)$，则 $\\overrightarrow{BP}\\cdot\\overrightarrow{CD}=2-2=0$.因此 $PB\\perp CD$.</p></li><li><p>设所求二面角 $A-PD-C$ 为 $\\theta$.取 $\\mathbf{d}=\\overrightarrow{PD}=(-1,1,-\\sqrt{2})$，$\\mathbf{u}=\\overrightarrow{PA}=(-1,-1,-\\sqrt{2})$，$\\mathbf{v}=\\overrightarrow{PC}=(1,3,-\\sqrt{2})$.在垂直于棱 $PD$ 的截面内，$\\mathbf{u}$ 和 $\\mathbf{v}$ 的投影分别为</p>\n$$\n\\mathbf{u}_{\\perp}=\\mathbf{u}-\\frac{\\mathbf{u}\\cdot\\mathbf{d}}{\\mathbf{d}\\cdot\\mathbf{d}}\\mathbf{d}=\\left(-\\frac{1}{2},-\\frac{3}{2},-\\frac{\\sqrt{2}}{2}\\right)\n$$\n<p>和</p>\n$$\n\\mathbf{v}_{\\perp}=\\mathbf{v}-\\frac{\\mathbf{v}\\cdot\\mathbf{d}}{\\mathbf{d}\\cdot\\mathbf{d}}\\mathbf{d}=(2,2,0)\n$$\n<p>因此 $\\mathbf{u}_{\\perp}\\cdot\\mathbf{v}_{\\perp}=-4$，$|\\mathbf{u}_{\\perp}|=\\sqrt{3}$，$|\\mathbf{v}_{\\perp}|=2\\sqrt{2}$，从而 $\\cos\\theta=\\frac{-4}{\\sqrt{3}\\cdot2\\sqrt{2}}=-\\frac{\\sqrt{6}}{3}$.所以 $\\theta=\\arccos\\left(-\\frac{\\sqrt{6}}{3}\\right)=\\pi-\\arccos\\frac{\\sqrt{6}}{3}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "甲、乙、丙三人进行羽毛球练习赛，其中两人比赛，另一人当裁判. 每局比赛结束时，负的一方在下一局当裁判. 设各局中双方获胜的概率均为 $\\frac{1}{2}$，各局比赛的结果都相互独立，第 1 局甲当裁判.\r\n\r\n\n(1) 求第 4 局甲当裁判的概率；\n\n(2) $X$ 表示前 4 局中乙当裁判的次数. 求 $X$ 的数学期望.",
-          "choices": [],
+          "body": "<p>甲、乙、丙三人进行羽毛球练习赛，其中两人比赛，另一人当裁判. 每局比赛结束时，负的一方在下一局当裁判. 设各局中双方获胜的概率均为 $\\frac{1}{2}$，各局比赛的结果都相互独立，第 1 局甲当裁判.</p><ol class=\"enumerate\"><li><p>求第 4 局甲当裁判的概率；</p></li><li><p>$X$ 表示前 4 局中乙当裁判的次数. 求 $X$ 的数学期望.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "记第 $i$ 局的裁判为 $R_i$.若第 $i$ 局的裁判确定，则另外两人比赛，下一局的裁判是负者，所以对任意不同的两人 $U$，$V$，都有 $P(R_{i+1}=U\\mid R_i=V)=\\frac12$.\r\n\r\n\n(1) 已知 $P(R_1=\\text{甲})=1$，所以 $P(R_2=\\text{乙})=P(R_2=\\text{丙})=\\frac12$.于是 $P(R_3=\\text{甲})=\\frac12$，且 $P(R_3=\\text{乙})=P(R_3=\\text{丙})=\\frac14$.因此\r\n\n$$\nP(R_4=\\text{甲})=\\frac12P(R_3=\\text{乙})+\\frac12P(R_3=\\text{丙})=\\frac14\n$$\n\n(2) 由期望的线性性质，$E(X)=\\sum_{i=1}^4P(R_i=\\text{乙})$.其中 $P(R_1=\\text{乙})=0$，$P(R_2=\\text{乙})=\\frac12$，$P(R_3=\\text{乙})=\\frac14$，以及\r\n\n$$\nP(R_4=\\text{乙})=\\frac12P(R_3=\\text{甲})+\\frac12P(R_3=\\text{丙})=\\frac12\\times\\frac12+\\frac12\\times\\frac14=\\frac38\n$$\n\r\n所以 $E(X)=0+\\frac12+\\frac14+\\frac38=\\frac98$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>记第 $i$ 局的裁判为 $R_{i}$.若第 $i$ 局的裁判确定，则另外两人比赛，下一局的裁判是负者，所以对任意不同的两人 $U$，$V$，都有 $P(R_{i+1}=U\\mid R_{i}=V)=\\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>已知 $P(R_{1}=\\text{甲})=1$，所以 $P(R_{2}=\\text{乙})=P(R_{2}=\\text{丙})=\\frac{1}{2}$.于是 $P(R_{3}=\\text{甲})=\\frac{1}{2}$，且 $P(R_{3}=\\text{乙})=P(R_{3}=\\text{丙})=\\frac{1}{4}$.因此</p>\n$$\nP(R_{4}=\\text{甲})=\\frac{1}{2}P(R_{3}=\\text{乙})+\\frac{1}{2}P(R_{3}=\\text{丙})=\\frac{1}{4}\n$$\n</li><li><p>由期望的线性性质，$E(X)=\\sum_{i=1}^{4}P(R_{i}=\\text{乙})$.其中 $P(R_{1}=\\text{乙})=0$，$P(R_{2}=\\text{乙})=\\frac{1}{2}$，$P(R_{3}=\\text{乙})=\\frac{1}{4}$，以及</p>\n$$\nP(R_{4}=\\text{乙})=\\frac{1}{2}P(R_{3}=\\text{甲})+\\frac{1}{2}P(R_{3}=\\text{丙})=\\frac{1}{2}\\times\\frac{1}{2}+\\frac{1}{2}\\times\\frac{1}{4}=\\frac{3}{8}\n$$\n<p>所以 $E(X)=0+\\frac{1}{2}+\\frac{1}{4}+\\frac{3}{8}=\\frac{9}{8}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知双曲线 $C:\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$（$a>0$，$b>0$）的左、右焦点分别为 $F_1$，$F_2$，离心率为 3，直线 $y=2$ 与 $C$ 的两个交点间的距离为 $\\sqrt{6}$.\r\n\r\n\n(1) 求 $a$，$b$；\n\n(2) 设过 $F_2$ 的直线 $l$ 与 $C$ 的左、右两支分别交于 $A$，$B$ 两点，且 $|AF_1|=|BF_1|$，证明：$|AF_2|$，$|AB|$，$|BF_2|$ 成等比数列.",
-          "choices": [],
+          "body": "<p>已知双曲线 $C:\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$（$a>0$，$b>0$）的左、右焦点分别为 $F_{1}$，$F_{2}$，离心率为 3，直线 $y=2$ 与 $C$ 的两个交点间的距离为 $\\sqrt{6}$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$；</p></li><li><p>设过 $F_{2}$ 的直线 $l$ 与 $C$ 的左、右两支分别交于 $A$，$B$ 两点，且 $|AF_{1}|=|BF_{1}|$，证明：$|AF_{2}|$，$|AB|$，$|BF_{2}|$ 成等比数列.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设双曲线的焦距参数为 $c$，则 $c^2=a^2+b^2$，$\\frac{c}{a}=3$.所以 $c=3a$，$b^2=8a^2$.将 $y=2$ 代入双曲线方程，得 $\\frac{x^2}{a^2}-\\frac{4}{b^2}=1$，即 $x^2=a^2\\left(1+\\frac{4}{b^2}\\right)$.两交点的横坐标相反，故其距离为 $2a\\sqrt{1+\\frac{4}{b^2}}=\\sqrt6$.代入 $b^2=8a^2$，得 $4a^2+2=6$，所以 $a=1$，$b=2\\sqrt2$.\n\n(2) 由第一问，$F_1=(-3,0)$，$F_2=(3,0)$.设直线 $l$ 为 $y=k(x-3)$，并记它与双曲线交点的横坐标为 $x_A$，$x_B$.代入双曲线方程，得\r\n\n$$\n(8-k^2)x^2+6k^2x-(9k^2+8)=0\n$$\n\r\n因为 $A$，$B$ 在双曲线左右两支上，所以 $x_A\\ne x_B$.又由 $y^2=8(x^2-1)$，点 $(x,y)$ 到 $F_1$ 的距离平方为 $(x+3)^2+y^2=9x^2+6x+1$.条件 $|AF_1|=|BF_1|$ 给出 $9x_A^2+6x_A+1=9x_B^2+6x_B+1$，所以 $x_A+x_B=-\\frac23$.\r\n\r\n由韦达定理，$-\\frac{6k^2}{8-k^2}=-\\frac23$，解得 $k^2=\\frac45$.进一步 $x_Ax_B=-\\frac{9k^2+8}{8-k^2}=-\\frac{19}{9}$，从而 $(x_A-x_B)^2=(x_A+x_B)^2-4x_Ax_B=\\frac{80}{9}$.于是可取 $x_A=\\frac{-1-2\\sqrt5}{3}$，$x_B=\\frac{-1+2\\sqrt5}{3}$，故 $A$，$B$ 均在 $F_2$ 的左侧，且 $B$ 位于 $A$ 与 $F_2$ 之间.\r\n\r\n直线 $l$ 的方向因子为 $\\sqrt{1+k^2}=\\frac{3}{\\sqrt5}$，所以 $|AB|=\\sqrt{1+k^2}|x_A-x_B|=4$.又因为 $3-x_A>0$，$3-x_B>0$，故\r\n\n$$\n\\begin{aligned}\r\n|AF_2|\\,|BF_2|\r\n&=(1+k^2)(3-x_A)(3-x_B)\\\\\r\n&=\\frac95\\left(9-3(x_A+x_B)+x_Ax_B\\right)\\\\\r\n&=\\frac95\\left(9+2-\\frac{19}{9}\\right)=16.\r\n\\end{aligned}\n$$\n\r\n因此 $|AF_2|\\,|BF_2|=16=|AB|^2$，即 $|AF_2|$，$|AB|$，$|BF_2|$ 成等比数列.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的焦距参数为 $c$，则 $c^{2}=a^{2}+b^{2}$，$\\frac{c}{a}=3$.所以 $c=3a$，$b^{2}=8a^{2}$.将 $y=2$ 代入双曲线方程，得 $\\frac{x^{2}}{a^{2}}-\\frac{4}{b^{2}}=1$，即 $x^{2}=a^{2}\\left(1+\\frac{4}{b^{2}}\\right)$.两交点的横坐标相反，故其距离为 $2a\\sqrt{1+\\frac{4}{b^{2}}}=\\sqrt{6}$.代入 $b^{2}=8a^{2}$，得 $4a^{2}+2=6$，所以 $a=1$，$b=2\\sqrt{2}$.</p></li><li><p>由第一问，$F_{1}=(-3,0)$，$F_{2}=(3,0)$.设直线 $l$ 为 $y=k(x-3)$，并记它与双曲线交点的横坐标为 $x_{A}$，$x_{B}$.代入双曲线方程，得</p>\n$$\n(8-k^{2})x^{2}+6k^{2}x-(9k^{2}+8)=0\n$$\n<p>因为 $A$，$B$ 在双曲线左右两支上，所以 $x_{A}\\ne x_{B}$.又由 $y^{2}=8(x^{2}-1)$，点 $(x,y)$ 到 $F_{1}$ 的距离平方为 $(x+3)^{2}+y^{2}=9x^{2}+6x+1$.条件 $|AF_{1}|=|BF_{1}|$ 给出 $9x_{A}^{2}+6x_{A}+1=9x_{B}^{2}+6x_{B}+1$，所以 $x_{A}+x_{B}=-\\frac{2}{3}$.</p><p>由韦达定理，$-\\frac{6k^{2}}{8-k^{2}}=-\\frac{2}{3}$，解得 $k^{2}=\\frac{4}{5}$.进一步 $x_{A}x_{B}=-\\frac{9k^{2}+8}{8-k^{2}}=-\\frac{19}{9}$，从而 $(x_{A}-x_{B})^{2}=(x_{A}+x_{B})^{2}-4x_{A}x_{B}=\\frac{80}{9}$.于是可取 $x_{A}=\\frac{-1-2\\sqrt{5}}{3}$，$x_{B}=\\frac{-1+2\\sqrt{5}}{3}$，故 $A$，$B$ 均在 $F_{2}$ 的左侧，且 $B$ 位于 $A$ 与 $F_{2}$ 之间.</p><p>直线 $l$ 的方向因子为 $\\sqrt{1+k^{2}}=\\frac{3}{\\sqrt{5}}$，所以 $|AB|=\\sqrt{1+k^{2}}|x_{A}-x_{B}|=4$.又因为 $3-x_{A}>0$，$3-x_{B}>0$，故</p>\n$$\n\\begin{aligned}|AF_{2}|\\,|BF_{2}|&#x26;=(1+k^{2})(3-x_{A})(3-x_{B})\\\\&#x26;=\\frac{9}{5}\\left(9-3(x_{A}+x_{B})+x_{A}x_{B}\\right)\\\\&#x26;=\\frac{9}{5}\\left(9+2-\\frac{19}{9}\\right)=16.\\end{aligned}\n$$\n<p>因此 $|AF_{2}|\\,|BF_{2}|=16=|AB|^{2}$，即 $|AF_{2}|$，$|AB|$，$|BF_{2}|$ 成等比数列.</p></li></ol>"
         }
       ]
     },
@@ -408,15 +231,12 @@
       "problems": [
         {
           "num": 22,
-          "body": "已知函数 $f(x)=\\ln\\left(1+x\\right)-\\frac{x(1+\\lambda x)}{1+x}$.\r\n\r\n\n(1) 若 $x\\geqslant0$ 时 $f(x)\\leqslant0$，求 $\\lambda$ 的最小值；\n\n(2) 设数列 $\\{a_n\\}$ 的通项 $a_n=1+\\frac{1}{2}+\\frac{1}{3}+\\dots+\\frac{1}{n}$，证明：$a_{2n}-a_n+\\frac{1}{4n}>\\ln2$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=\\ln\\left(1+x\\right)-\\frac{x(1+\\lambda x)}{1+x}$.</p><ol class=\"enumerate\"><li><p>若 $x\\geqslant0$ 时 $f(x)\\leqslant0$，求 $\\lambda$ 的最小值；</p></li><li><p>设数列 $\\{a_{n}\\}$ 的通项 $a_{n}=1+\\frac{1}{2}+\\frac{1}{3}+\\dots+\\frac{1}{n}$，证明：$a_{2n}-a_{n}+\\frac{1}{4n}>\\ln2$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 在 $x\\geqslant0$ 上，\r\n\n$$\n\\begin{aligned}\r\nf'(x)\r\n&=\\frac{1}{1+x}-\\frac{1+2\\lambda x+\\lambda x^2}{(1+x)^2}\\\\\r\n&=\\frac{x(1-2\\lambda-\\lambda x)}{(1+x)^2}.\r\n\\end{aligned}\n$$\n\r\n又 $f(0)=0$.若 $\\lambda\\ge\\frac12$，则对 $x\\geqslant0$，有 $1-2\\lambda-\\lambda x\\leqslant0$，从而 $f'(x)\\leqslant0$，故 $f(x)\\le f(0)=0$.\r\n\r\n若 $\\lambda<\\frac12$，则 $1-2\\lambda>0$，所以当 $x>0$ 足够接近于 $0$ 时，$1-2\\lambda-\\lambda x>0$，从而 $f'(x)>0$，于是 $f(x)>f(0)=0$，与题设矛盾.因此 $\\lambda\\ge\\frac12$，最小值为 $\\frac12$.\n\n(2) 因为函数 $g(x)=\\frac{1}{x}$ 在 $(0,+\\infty)$ 上严格凸，所以对每个正整数 $k$，都有\r\n\n$$\n\\int_k^{k+1}\\frac{1}{x}\\,\\mathrm{d}x<\\frac12\\left(\\frac{1}{k}+\\frac{1}{k+1}\\right)\n$$\n\r\n对 $k=n$，$n+1$，$\\dots$，$2n-1$ 的不等式求和，得\r\n\n$$\n\\begin{aligned}\r\n\\ln2\r\n&=\\int_n^{2n}\\frac{1}{x}\\,\\mathrm{d}x\\\\\r\n&<\\frac{1}{2n}+\\sum_{k=n+1}^{2n-1}\\frac{1}{k}+\\frac{1}{4n}\\\\\r\n&=\\sum_{k=n+1}^{2n}\\frac{1}{k}+\\frac{1}{4n}\\\\\r\n&=a_{2n}-a_n+\\frac{1}{4n}.\r\n\\end{aligned}\n$$\n\r\n故不等式得证.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>在 $x\\geqslant0$ 上，</p>\n$$\n\\begin{aligned}f'(x)\n\n&#x26;=\\frac{1}{1+x}-\\frac{1+2\\lambda x+\\lambda x^{2}}{(1+x)^{2}}\\\\\n\n&#x26;=\\frac{x(1-2\\lambda-\\lambda x)}{(1+x)^{2}}.\\end{aligned}\n$$\n<p>又 $f(0)=0$.若 $\\lambda\\ge\\frac{1}{2}$，则对 $x\\geqslant0$，有 $1-2\\lambda-\\lambda x\\leqslant0$，从而 $f'(x)\\leqslant0$，故 $f(x)\\le f(0)=0$.</p><p>若 $\\lambda&#x3C;\\frac{1}{2}$，则 $1-2\\lambda>0$，所以当 $x>0$ 足够接近于 $0$ 时，$1-2\\lambda-\\lambda x>0$，从而 $f'(x)>0$，于是 $f(x)>f(0)=0$，与题设矛盾.因此 $\\lambda\\ge\\frac{1}{2}$，最小值为 $\\frac{1}{2}$.</p></li><li><p>因为函数 $g(x)=\\frac{1}{x}$ 在 $(0,+\\infty)$ 上严格凸，所以对每个正整数 $k$，都有</p>\n$$\n\\int_{k}^{k+1}\\frac{1}{x}\\,\\mathrm{d}x&#x3C;\\frac{1}{2}\\left(\\frac{1}{k}+\\frac{1}{k+1}\\right)\n$$\n<p>对 $k=n$，$n+1$，$\\dots$，$2n-1$ 的不等式求和，得</p>\n$$\n\\begin{aligned}\\ln2&#x26;=\\int_{n}^{2n}\\frac{1}{x}\\,\\mathrm{d}x\\\\&#x26;&#x3C;\\frac{1}{2n}+\\sum_{k=n+1}^{2n-1}\\frac{1}{k}+\\frac{1}{4n}\\\\&#x26;=\\sum_{k=n+1}^{2n}\\frac{1}{k}+\\frac{1}{4n}\\\\&#x26;=a_{2n}-a_{n}+\\frac{1}{4n}.\\end{aligned}\n$$\n<p>故不等式得证.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

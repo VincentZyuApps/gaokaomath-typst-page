@@ -1,152 +1,27 @@
 {
+  "title": "2004年普通高等学校招生全国统一考试",
+  "subtitle": "2004年北京卷（秋理）",
   "year": "2004",
   "slug": "beijing_science_autumn",
-  "title": "2004年北京卷（秋理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设全集是实数集 $\\mathbb{R}$，$M=\\{x\\mid -2\\le x\\le 2\\}$，$N=\\{x\\mid x<1\\}$，那么 $\\overline{M}\\cap N$ 等于（ ）",
+          "body": "设全集是实数集 $\\mathbb{R}$，$M=\\{x\\mid -2\\le x\\le 2\\}$，$N=\\{x\\mid x&#x3C;1\\}$，那么 $\\overline{M}\\cap N$ 等于（ ）",
           "choices": [
-            "$\\{x\\mid x<-2\\}$",
-            "$\\{x\\mid -2<x<1\\}$",
-            "$\\{x\\mid x<1\\}$",
-            "$\\{x\\mid -2\\le x<1\\}$"
+            "$\\{x\\mid x&#x3C;-2\\}$",
+            "$\\{x\\mid -2&#x3C;x&#x3C;1\\}$",
+            "$\\{x\\mid x&#x3C;1\\}$",
+            "$\\{x\\mid -2\\le x&#x3C;1\\}$"
           ],
           "answer": "A",
-          "solution": "由 $M=[-2,2]$，可得其在实数集中的补集为\r\n$\\overline{M}=(-\\infty,-2)\\cup(2,+\\infty)$. 再与 $N=(-\\infty,1)$ 相交，得到\r\n$\\overline{M}\\cap N=(-\\infty,-2)=\\{x\\mid x<-2\\}$.\r\n因此选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $M=[-2,2]$，可得其在实数集中的补集为</p><p>$\\overline{M}=(-\\infty,-2)\\cup(2,+\\infty)$. 再与 $N=(-\\infty,1)$ 相交，得到</p><p>$\\overline{M}\\cap N=(-\\infty,-2)=\\{x\\mid x&#x3C;-2\\}$.</p><p>因此选择 A.</p>"
         },
         {
           "num": 2,
-          "body": "满足条件 $\\left|z-\\mathrm{i}\\right|=\\left|3+4\\mathrm{i}\\right|$ 的复数 $z$ 在复平面上对应点的轨迹是（ ）",
+          "body": "满足条件 $\\left|z-\\mathrm{i}\\right|=\\left|3+4\\mathrm{i}\\right|$ 的复数 $z$ 在复平面上对应点的轨迹是（ ）",
           "choices": [
             "一条直线",
             "两条直线",
@@ -154,27 +29,23 @@
             "椭圆"
           ],
           "answer": "C",
-          "solution": "设 $z=u+v\\mathrm{i}$，则 $\\left|z-\\mathrm{i}\\right|$ 表示复平面上点 $(u,v)$ 到点 $(0,1)$ 的距离. 又\r\n$\\left|3+4\\mathrm{i}\\right|=\\sqrt{3^2+4^2}=5$.\r\n所以题设条件等价于点 $(u,v)$ 到点 $(0,1)$ 的距离为 $5$，其轨迹是以 $(0,1)$ 为圆心、$5$ 为半径的圆. 因此选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $z=u+v\\mathrm{i}$，则 $\\left|z-\\mathrm{i}\\right|$ 表示复平面上点 $(u,v)$ 到点 $(0,1)$ 的距离. 又</p><p>$\\left|3+4\\mathrm{i}\\right|=\\sqrt{3^{2}+4^{2}}=5$.</p><p>所以题设条件等价于点 $(u,v)$ 到点 $(0,1)$ 的距离为 $5$，其轨迹是以 $(0,1)$ 为圆心、$5$ 为半径的圆. 因此选择 C.</p>"
         },
         {
           "num": 3,
-          "body": "设 $m$，$n$ 是两条不同的直线，$\\alpha$，$\\beta$，$\\gamma$ 是三个不同的平面，给出下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $m\\perp\\alpha$，$n\\parallel\\alpha$，则 $m\\perp n$；\r\n\\item 若 $\\alpha\\parallel\\beta$，$\\beta\\parallel\\gamma$，$m\\perp\\alpha$，则 $m\\perp\\gamma$；\r\n\\item 若 $m\\parallel\\alpha$，$n\\parallel\\alpha$，则 $m\\parallel n$；\r\n\\item 若 $\\alpha\\perp\\gamma$，$\\beta\\perp\\gamma$，则 $\\alpha\\parallel\\beta$.\r\n\\end{circlelist}\r\n\r\n其中正确命题的序号是（ ）",
+          "body": "<p>设 $m$，$n$ 是两条不同的直线，$\\alpha$，$\\beta$，$\\gamma$ 是三个不同的平面，给出下列四个命题：</p><ol class=\"enumerate\"><li><p>若 $m\\perp\\alpha$，$n\\parallel\\alpha$，则 $m\\perp n$；</p></li><li><p>若 $\\alpha\\parallel\\beta$，$\\beta\\parallel\\gamma$，$m\\perp\\alpha$，则 $m\\perp\\gamma$；</p></li><li><p>若 $m\\parallel\\alpha$，$n\\parallel\\alpha$，则 $m\\parallel n$；</p></li><li><p>若 $\\alpha\\perp\\gamma$，$\\beta\\perp\\gamma$，则 $\\alpha\\parallel\\beta$.</p></li></ol><p>其中正确命题的序号是（ ）</p>",
           "choices": [
-            "\\circled{1}和\\circled{2}",
-            "\\circled{2}和\\circled{3}",
-            "\\circled{3}和\\circled{4}",
-            "\\circled{1}和\\circled{4}"
+            "①和②",
+            "②和③",
+            "③和④",
+            "①和④"
           ],
           "answer": "A",
-          "solution": "第\\circled{1}项中，$m\\perp\\alpha$，而 $n\\parallel\\alpha$，所以 $n$ 的方向与平面 $\\alpha$ 内某条直线的方向相同；垂直于平面的直线垂直于平面内的任意直线，故 $m\\perp n$. 第\\circled{1}项正确.\r\n\r\n第\\circled{2}项中，由 $\\alpha\\parallel\\beta$，$\\beta\\parallel\\gamma$ 得 $\\alpha\\parallel\\gamma$. 因为 $m\\perp\\alpha$，所以 $m\\perp\\gamma$. 第\\circled{2}项正确.\r\n\r\n第\\circled{3}项不正确. 例如取 $\\alpha$ 为水平平面，取同一高度的两条互相垂直的水平直线 $m$、$n$，则 $m\\parallel\\alpha$，$n\\parallel\\alpha$，但 $m$ 与 $n$ 不平行.\r\n\r\n第\\circled{4}项不正确. 例如取水平平面 $\\gamma$，再取两个互相垂直的竖直平面 $\\alpha$、$\\beta$，则 $\\alpha\\perp\\gamma$，$\\beta\\perp\\gamma$，但 $\\alpha$ 与 $\\beta$ 不平行.\r\n\r\n因此正确命题是第\\circled{1}、\\circled{2}项，选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>第①项中，$m\\perp\\alpha$，而 $n\\parallel\\alpha$，所以 $n$ 的方向与平面 $\\alpha$ 内某条直线的方向相同；垂直于平面的直线垂直于平面内的任意直线，故 $m\\perp n$. 第①项正确.</p><p>第②项中，由 $\\alpha\\parallel\\beta$，$\\beta\\parallel\\gamma$ 得 $\\alpha\\parallel\\gamma$. 因为 $m\\perp\\alpha$，所以 $m\\perp\\gamma$. 第②项正确.</p><p>第③项不正确. 例如取 $\\alpha$ 为水平平面，取同一高度的两条互相垂直的水平直线 $m$、$n$，则 $m\\parallel\\alpha$，$n\\parallel\\alpha$，但 $m$ 与 $n$ 不平行.</p><p>第④项不正确. 例如取水平平面 $\\gamma$，再取两个互相垂直的竖直平面 $\\alpha$、$\\beta$，则 $\\alpha\\perp\\gamma$，$\\beta\\perp\\gamma$，但 $\\alpha$ 与 $\\beta$ 不平行.</p><p>因此正确命题是第①、②项，选择 A.</p>"
         },
         {
           "num": 4,
-          "body": "如图，在正方体 $ABCD-A_1B_1C_1D_1$ 中，$P$ 是侧面 $BB_1C_1C$ 内一动点，若 $P$ 到直线 $BC$ 与直线 $C_1D_1$ 的距离相等，则动点 $P$ 的轨迹所在的曲线是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/beijing_science_autumn/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，在正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$P$ 是侧面 $BB_{1}C_{1}C$ 内一动点，若 $P$ 到直线 $BC$ 与直线 $C_{1}D_{1}$ 的距离相等，则动点 $P$ 的轨迹所在的曲线是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science_autumn/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "直线",
             "圆",
@@ -182,13 +53,11 @@
             "抛物线"
           ],
           "answer": "D",
-          "solution": "在侧面 $BB_1C_1C$ 内建立平面直角坐标系，取 $BC$ 为 $x$ 轴，取过 $B$ 且垂直于 $BC$ 的方向为 $y$ 轴. 对于侧面内的点 $P$，到直线 $BC$ 的距离就是 $P$ 的纵坐标.\r\n\r\n直线 $C_1D_1$ 垂直于侧面 $BB_1C_1C$，且与该侧面的交点为 $C_1$. 因此侧面内任意点 $P$ 到直线 $C_1D_1$ 的距离等于 $PC_1$. 题设条件于是化为\r\n$\\operatorname{dist}(P,BC)=PC_1$.\r\n这正是点 $P$ 到定点 $C_1$ 的距离等于到定直线 $BC$ 的距离，所以轨迹是以 $C_1$ 为焦点、$BC$ 为准线的抛物线的一部分. 因此选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在侧面 $BB_{1}C_{1}C$ 内建立平面直角坐标系，取 $BC$ 为 $x$ 轴，取过 $B$ 且垂直于 $BC$ 的方向为 $y$ 轴. 对于侧面内的点 $P$，到直线 $BC$ 的距离就是 $P$ 的纵坐标.</p><p>直线 $C_{1}D_{1}$ 垂直于侧面 $BB_{1}C_{1}C$，且与该侧面的交点为 $C_{1}$. 因此侧面内任意点 $P$ 到直线 $C_{1}D_{1}$ 的距离等于 $PC_{1}$. 题设条件于是化为</p><p>$\\operatorname{dist}(P,BC)=PC_{1}$.</p><p>这正是点 $P$ 到定点 $C_{1}$ 的距离等于到定直线 $BC$ 的距离，所以轨迹是以 $C_{1}$ 为焦点、$BC$ 为准线的抛物线的一部分. 因此选择 D.</p>"
         },
         {
           "num": 5,
-          "body": "函数 $f(x)=x^2-2ax-3$ 在区间 $[1,2]$ 上存在反函数的充分必要条件是（ ）",
+          "body": "函数 $f(x)=x^{2}-2ax-3$ 在区间 $[1,2]$ 上存在反函数的充分必要条件是（ ）",
           "choices": [
             "$a\\in(-\\infty,1]$",
             "$a\\in[2,+\\infty)$",
@@ -196,27 +65,23 @@
             "$a\\in(-\\infty,1]\\cup[2,+\\infty)$"
           ],
           "answer": "D",
-          "solution": "函数 $f(x)=x^2-2ax-3$ 的对称轴为 $x=a$. 若 $1<a<2$，则对称轴位于区间 $[1,2]$ 的内部，取对称轴两侧的两个不同点可得到相同的函数值，因而函数在 $[1,2]$ 上没有反函数.\r\n\r\n若 $a\\leqslant1$，则对任意 $x\\in[1,2]$，有 $f'(x)=2(x-a)\\geqslant0$，且函数在该区间上严格递增；若 $a\\geqslant2$，则 $f'(x)=2(x-a)\\leqslant0$，且函数在该区间上严格递减. 这两种情形下函数均为一一映射，存在反函数.\r\n\r\n所以充分必要条件是 $a\\in(-\\infty,1]\\cup[2,+\\infty)$，选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>函数 $f(x)=x^{2}-2ax-3$ 的对称轴为 $x=a$. 若 $1&#x3C;a&#x3C;2$，则对称轴位于区间 $[1,2]$ 的内部，取对称轴两侧的两个不同点可得到相同的函数值，因而函数在 $[1,2]$ 上没有反函数.</p><p>若 $a\\leqslant1$，则对任意 $x\\in[1,2]$，有 $f'(x)=2(x-a)\\geqslant0$，且函数在该区间上严格递增；若 $a\\geqslant2$，则 $f'(x)=2(x-a)\\leqslant0$，且函数在该区间上严格递减. 这两种情形下函数均为一一映射，存在反函数.</p><p>所以充分必要条件是 $a\\in(-\\infty,1]\\cup[2,+\\infty)$，选择 D.</p>"
         },
         {
           "num": 6,
-          "body": "已知 $a$，$b$，$c$ 满足 $c<b<a$ 且 $ac<0$，那么下列选项中一定成立的是（ ）",
+          "body": "已知 $a$，$b$，$c$ 满足 $c&#x3C;b&#x3C;a$ 且 $ac&#x3C;0$，那么下列选项中一定成立的是（ ）",
           "choices": [
             "$ab>ac$",
-            "$c(b-a)<0$",
-            "$cb^2<ab^2$",
+            "$c(b-a)&#x3C;0$",
+            "$cb^{2}&#x3C;ab^{2}$",
             "$ac(a-c)>0$"
           ],
           "answer": "A",
-          "solution": "由 $c<b<a$ 可知 $c<a$. 若 $a<0$，则 $c<a<0$，从而 $ac>0$，与 $ac<0$ 矛盾；因此 $a>0$. 再由 $b>c$，乘以正数 $a$ 得\r\n$ab>ac$.\r\n所以一定成立的是 $ab>ac$，选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $c&#x3C;b&#x3C;a$ 可知 $c&#x3C;a$. 若 $a&#x3C;0$，则 $c&#x3C;a&#x3C;0$，从而 $ac>0$，与 $ac&#x3C;0$ 矛盾；因此 $a>0$. 再由 $b>c$，乘以正数 $a$ 得</p><p>$ab>ac$.</p><p>所以一定成立的是 $ab>ac$，选择 A.</p>"
         },
         {
           "num": 7,
-          "body": "从长度分别为 $1$，$2$，$3$，$4$，$5$ 的五条线段中，任取三条的不同取法共有 $n$ 种. 在这些取法中，以取出的三条线段为边可组成的钝角三角形的个数为 $m$，则 $\\dfrac{m}{n}$ 等于（ ）",
+          "body": "从长度分别为 $1$，$2$，$3$，$4$，$5$ 的五条线段中，任取三条的不同取法共有 $n$ 种. 在这些取法中，以取出的三条线段为边可组成的钝角三角形的个数为 $m$，则 $\\dfrac{m}{n}$ 等于（ ）",
           "choices": [
             "$\\dfrac{1}{10}$",
             "$\\dfrac{1}{5}$",
@@ -224,13 +89,11 @@
             "$\\dfrac{2}{5}$"
           ],
           "answer": "B",
-          "solution": "任取三条线段，取法总数为\r\n$n=\\mathrm C_5^3=10$.\r\n按三边之和大于最长边逐一判断，三边为 $(1,2,3)$、$(1,3,4)$、$(1,4,5)$、$(2,3,5)$ 时退化，三边为 $(1,2,4)$、$(1,2,5)$、$(1,3,5)$ 时不能组成三角形. 三边为 $(2,3,4)$、$(2,4,5)$、$(3,4,5)$ 时可以组成三角形.\r\n\r\n对 $(2,3,4)$，有 $4^2>2^2+3^2$，所以是钝角三角形；对 $(2,4,5)$，有 $5^2>2^2+4^2$，所以也是钝角三角形；对 $(3,4,5)$，有 $5^2=3^2+4^2$，所以是直角三角形. 因此 $m=2$，从而 $\\frac{m}{n}=\\frac{2}{10}=\\frac15$.\r\n故选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>任取三条线段，取法总数为</p><p>$n=\\mathrm{C}_{5}^{3}=10$.</p><p>按三边之和大于最长边逐一判断，三边为 $(1,2,3)$、$(1,3,4)$、$(1,4,5)$、$(2,3,5)$ 时退化，三边为 $(1,2,4)$、$(1,2,5)$、$(1,3,5)$ 时不能组成三角形. 三边为 $(2,3,4)$、$(2,4,5)$、$(3,4,5)$ 时可以组成三角形.</p><p>对 $(2,3,4)$，有 $4^{2}>2^{2}+3^{2}$，所以是钝角三角形；对 $(2,4,5)$，有 $5^{2}>2^{2}+4^{2}$，所以也是钝角三角形；对 $(3,4,5)$，有 $5^{2}=3^{2}+4^{2}$，所以是直角三角形. 因此 $m=2$，从而 $\\frac{m}{n}=\\frac{2}{10}=\\frac{1}{5}$.</p><p>故选择 B.</p>"
         },
         {
           "num": 8,
-          "body": "函数 $f(x)=\\begin{cases}\r\nx, & x\\in P,\\\\\r\n-x, & x\\in M,\r\n\\end{cases}$ 其中 $P$，$M$ 为实数集 $\\mathbb{R}$ 的两个非空子集，又规定 $f(P)=\\{y\\mid y=f(x),x\\in P\\}$，$f(M)=\\{y\\mid y=f(x),x\\in M\\}$，给出下列四个判断：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $P\\cap M\\neq\\varnothing$，则 $f(P)\\cap f(M)\\neq\\varnothing$；\r\n\\item 若 $P\\cup M=\\mathbb{R}$，则 $f(P)\\cup f(M)=\\mathbb{R}$；\r\n\\item 若 $P\\cup M=\\mathbb{R}$，则 $f(P)\\cup f(M)=\\mathbb{R}$；\r\n\\item 若 $P\\cup M\\neq\\mathbb{R}$，则 $f(P)\\cup f(M)\\neq\\mathbb{R}$.\r\n\\end{circlelist}\r\n\r\n其中正确判断有（ ）",
+          "body": "<p>函数 $f(x)=\\begin{cases}x, &#x26; x\\in P,\\\\\n\n-x, &#x26; x\\in M,\\end{cases}$ 其中 $P$，$M$ 为实数集 $\\mathbb{R}$ 的两个非空子集，又规定 $f(P)=\\{y\\mid y=f(x),x\\in P\\}$，$f(M)=\\{y\\mid y=f(x),x\\in M\\}$，给出下列四个判断：</p><ol class=\"enumerate\"><li><p>若 $P\\cap M\\neq\\varnothing$，则 $f(P)\\cap f(M)\\neq\\varnothing$；</p></li><li><p>若 $P\\cup M=\\mathbb{R}$，则 $f(P)\\cup f(M)=\\mathbb{R}$；</p></li><li><p>若 $P\\cup M=\\mathbb{R}$，则 $f(P)\\cup f(M)=\\mathbb{R}$；</p></li><li><p>若 $P\\cup M\\neq\\mathbb{R}$，则 $f(P)\\cup f(M)\\neq\\mathbb{R}$.</p></li></ol><p>其中正确判断有（ ）</p>",
           "choices": [
             "$1$个",
             "$2$个",
@@ -238,9 +101,7 @@
             "$4$个"
           ],
           "answer": "B",
-          "solution": "由于题目给出的分段式表示一个函数，若 $x\\in P\\cap M$，则必须有 $x=-x$，所以 $P\\cap M\\subseteq\\{0\\}$.\r\n\r\n第\\circled{1}项正确. 若 $x\\in P\\cap M$，则 $f(x)\\in f(P)\\cap f(M)$，所以 $f(P)\\cap f(M)\\neq\\varnothing$.\r\n\r\n第\\circled{2}、\\circled{3}项均不正确. 取 $P=[0,+\\infty)$，$M=(-\\infty,0)$，则 $P\\cup M=\\mathbb{R}$，但 $f(P)=[0,+\\infty)$，$f(M)=(0,+\\infty)$，从而 $f(P)\\cup f(M)\\neq\\mathbb{R}$.\r\n\r\n第\\circled{4}项正确. 反设 $P\\cup M\\neq\\mathbb{R}$，但 $f(P)\\cup f(M)=\\mathbb{R}$，取 $t\\notin P\\cup M$. 因为 $f(P)=P$，所以 $t\\in f(M)$，从而 $-t\\in M$. 又因为 $-t\\in\\mathbb{R}=f(P)\\cup f(M)$，若 $-t\\in f(M)$，则 $t\\in M$，矛盾，所以 $-t\\in f(P)=P$. 于是 $-t\\in P\\cap M$，从而 $-t=0$，即 $t=0$. 但这又推出 $t\\in M$，仍与 $t\\notin P\\cup M$ 矛盾. 因此 $f(P)\\cup f(M)\\neq\\mathbb{R}$.\r\n\r\n正确判断有第\\circled{1}、\\circled{4}项，共 $2$ 个，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由于题目给出的分段式表示一个函数，若 $x\\in P\\cap M$，则必须有 $x=-x$，所以 $P\\cap M\\subseteq\\{0\\}$.</p><p>第①项正确. 若 $x\\in P\\cap M$，则 $f(x)\\in f(P)\\cap f(M)$，所以 $f(P)\\cap f(M)\\neq\\varnothing$.</p><p>第②、③项均不正确. 取 $P=[0,+\\infty)$，$M=(-\\infty,0)$，则 $P\\cup M=\\mathbb{R}$，但 $f(P)=[0,+\\infty)$，$f(M)=(0,+\\infty)$，从而 $f(P)\\cup f(M)\\neq\\mathbb{R}$.</p><p>第④项正确. 反设 $P\\cup M\\neq\\mathbb{R}$，但 $f(P)\\cup f(M)=\\mathbb{R}$，取 $t\\notin P\\cup M$. 因为 $f(P)=P$，所以 $t\\in f(M)$，从而 $-t\\in M$. 又因为 $-t\\in\\mathbb{R}=f(P)\\cup f(M)$，若 $-t\\in f(M)$，则 $t\\in M$，矛盾，所以 $-t\\in f(P)=P$. 于是 $-t\\in P\\cap M$，从而 $-t=0$，即 $t=0$. 但这又推出 $t\\in M$，仍与 $t\\notin P\\cup M$ 矛盾. 因此 $f(P)\\cup f(M)\\neq\\mathbb{R}$.</p><p>正确判断有第①、④项，共 $2$ 个，故选 B.</p>"
         }
       ]
     },
@@ -249,57 +110,45 @@
       "problems": [
         {
           "num": 9,
-          "body": "函数 $y=\\cos 2x-2\\sqrt{3}\\sin x\\cos x$ 的最小正周期是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\pi\\)",
-          "solution": "利用 $2\\sin x\\cos x=\\sin 2x$，原函数可化为\r\n$y=\\cos 2x-\\sqrt3\\sin 2x=2\\cos\\left(2x+\\frac{\\pi}{3}\\right)$.\r\n余弦函数的最小正周期为 $2\\pi$，所以 $2x$ 的系数使得原函数的最小正周期为 $\\pi$. 因此填 $\\pi$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y=\\cos 2x-2\\sqrt{3}\\sin x\\cos x$ 的最小正周期是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\pi$",
+          "solution": "<p>利用 $2\\sin x\\cos x=\\sin 2x$，原函数可化为</p><p>$y=\\cos 2x-\\sqrt{3}\\sin 2x=2\\cos\\left(2x+\\frac{\\pi}{3}\\right)$.</p><p>余弦函数的最小正周期为 $2\\pi$，所以 $2x$ 的系数使得原函数的最小正周期为 $\\pi$. 因此填 $\\pi$.</p>"
         },
         {
           "num": 10,
-          "body": "方程 $\\lg(4^x+2)=\\lg 2^x+\\lg 3$ 的解是 _______ {}.",
-          "choices": [],
-          "answer": "\\(x_1=0\\)，\\(x_2=1\\)",
-          "solution": "由于 $4^x+2>0$，$2^x>0$，对数均有意义. 由对数的运算性质，方程等价于\r\n$4^x+2=3\\cdot2^x$. 令 $t=2^x>0$，则 $4^x=t^2$，所以 $t^2-3t+2=0$，即 $(t-1)(t-2)=0$.\r\n于是 $t=1$ 或 $t=2$. 当 $t=1$ 时 $x=0$，当 $t=2$ 时 $x=1$. 因此方程的解为 $x_1=0$，$x_2=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "方程 $\\lg(4^{x}+2)=\\lg 2^{x}+\\lg 3$ 的解是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$x_{1}=0$，$x_{2}=1$",
+          "solution": "<p>由于 $4^{x}+2>0$，$2^{x}>0$，对数均有意义. 由对数的运算性质，方程等价于</p><p>$4^{x}+2=3\\cdot2^{x}$. 令 $t=2^{x}>0$，则 $4^{x}=t^{2}$，所以 $t^{2}-3t+2=0$，即 $(t-1)(t-2)=0$.</p><p>于是 $t=1$ 或 $t=2$. 当 $t=1$ 时 $x=0$，当 $t=2$ 时 $x=1$. 因此方程的解为 $x_{1}=0$，$x_{2}=1$.</p>"
         },
         {
           "num": 11,
-          "body": "某地球仪上北纬 $30^{\\circ}$ 纬线的长度为 $12\\pi\\mathrm{~cm}$，该地球仪的半径是 _______ {}$\\mathrm{~cm}$，表面积是 _______ {}$\\mathrm{~cm}^2$.",
-          "choices": [],
-          "answer": "\\(4\\sqrt{3}\\)，\\(192\\pi\\)",
-          "solution": "设地球仪的半径为 $R$. 北纬 $30^{\\circ}$ 纬线所在圆的半径等于赤道半径在该纬度方向的投影，即 $R\\cos30^{\\circ}$. 因此该纬线的长度满足\r\n$2\\pi R\\cos30^{\\circ}=12\\pi$.\r\n代入 $\\cos30^{\\circ}=\\dfrac{\\sqrt3}{2}$，得 $\\pi R\\sqrt3=12\\pi$，所以 $R=4\\sqrt3$.\r\n\r\n地球仪的表面积为 $4\\pi R^2=4\\pi(4\\sqrt3)^2=192\\pi$.\r\n所以两空分别填 $4\\sqrt3$ 和 $192\\pi$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某地球仪上北纬 $30^{\\circ}$ 纬线的长度为 $12\\pi\\mathrm{~cm}$，该地球仪的半径是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{~cm}$，表面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{~cm}^{2}$.",
+          "choices": null,
+          "answer": "$4\\sqrt{3}$，$192\\pi$",
+          "solution": "<p>设地球仪的半径为 $R$. 北纬 $30^{\\circ}$ 纬线所在圆的半径等于赤道半径在该纬度方向的投影，即 $R\\cos30^{\\circ}$. 因此该纬线的长度满足</p><p>$2\\pi R\\cos30^{\\circ}=12\\pi$.</p><p>代入 $\\cos30^{\\circ}=\\dfrac{\\sqrt{3}}{2}$，得 $\\pi R\\sqrt{3}=12\\pi$，所以 $R=4\\sqrt{3}$.</p><p>地球仪的表面积为 $4\\pi R^{2}=4\\pi(4\\sqrt{3})^{2}=192\\pi$.</p><p>所以两空分别填 $4\\sqrt{3}$ 和 $192\\pi$.</p>"
         },
         {
           "num": 12,
-          "body": "曲线 $C:\\begin{cases}\r\nx&=\\cos\\theta,\\\\\r\ny&=-1+\\sin\\theta\r\n\\end{cases}$（$\\theta$ 为参数）的普通方程是 _______ {}，如果曲线 $C$ 与直线 $x+y+a=0$ 有公共点，那么实数 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(x^2+(y+1)^2=1\\)，\\(1-\\sqrt{2}\\le a\\leqslant1+\\sqrt{2}\\)",
-          "solution": "由参数方程 $x=\\cos\\theta$，$y+1=\\sin\\theta$，消去参数得\r\n$x^2+(y+1)^2=\\cos^2\\theta+\\sin^2\\theta=1$.\r\n所以曲线 $C$ 是圆心为 $O(0,-1)$、半径为 $1$ 的圆.\r\n\r\n直线 $x+y+a=0$ 与该圆有公共点，当且仅当圆心到直线的距离不大于半径. 该距离为\r\n$\\dfrac{|0-1+a|}{\\sqrt{1^2+1^2}}=\\dfrac{|a-1|}{\\sqrt2}$. 因此\r\n$\\dfrac{|a-1|}{\\sqrt2}\\leqslant1$，即 $|a-1|\\le\\sqrt2$，所以\r\n$1-\\sqrt2\\le a\\leqslant1+\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "曲线 $C:\\begin{cases}x&#x26;=\\cos\\theta,\\\\\n\ny&#x26;=-1+\\sin\\theta\\end{cases}$（$\\theta$ 为参数）的普通方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，如果曲线 $C$ 与直线 $x+y+a=0$ 有公共点，那么实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$x^{2}+(y+1)^{2}=1$，$1-\\sqrt{2}\\le a\\leqslant1+\\sqrt{2}$",
+          "solution": "<p>由参数方程 $x=\\cos\\theta$，$y+1=\\sin\\theta$，消去参数得</p><p>$x^{2}+(y+1)^{2}=\\cos^{2}\\theta+\\sin^{2}\\theta=1$.</p><p>所以曲线 $C$ 是圆心为 $O(0,-1)$、半径为 $1$ 的圆.</p><p>直线 $x+y+a=0$ 与该圆有公共点，当且仅当圆心到直线的距离不大于半径. 该距离为</p><p>$\\dfrac{|0-1+a|}{\\sqrt{1^{2}+1^{2}}}=\\dfrac{|a-1|}{\\sqrt{2}}$. 因此</p><p>$\\dfrac{|a-1|}{\\sqrt{2}}\\leqslant1$，即 $|a-1|\\le\\sqrt{2}$，所以</p><p>$1-\\sqrt{2}\\le a\\leqslant1+\\sqrt{2}$.</p>"
         },
         {
           "num": 13,
-          "body": "在函数 $f(x)=ax^2+bx+c$ 中，若 $a$，$b$，$c$ 成等比数列且 $f(0)=-4$，则 $f(x)$ 有最 _______ {}值（填“大”或“小”），且该值为 _______ {}.",
-          "choices": [],
-          "answer": "大，\\(-3\\)",
-          "solution": "由 $f(0)=c=-4$，且 $a$，$b$，$c$ 成等比数列，得\r\n$b^2=ac=-4a$.\r\n因为 $c=-4\\neq0$，等比数列的首项 $a$ 不能为 $0$，故 $a<0$. 因此 $f(x)=ax^2+bx-4$ 是开口向下的抛物线，具有最大值.\r\n\r\n配方得 $f(x)=a\\left(x+\\frac{b}{2a}\\right)^2-4-\\frac{b^2}{4a}$. 由 $b^2=-4a$，可得 $-4-\\frac{b^2}{4a}=-4+1=-3$.\r\n所以 $f(x)$ 有最大值，最大值为 $-3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在函数 $f(x)=ax^{2}+bx+c$ 中，若 $a$，$b$，$c$ 成等比数列且 $f(0)=-4$，则 $f(x)$ 有最<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>值（填“大”或“小”），且该值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "大，$-3$",
+          "solution": "<p>由 $f(0)=c=-4$，且 $a$，$b$，$c$ 成等比数列，得</p><p>$b^{2}=ac=-4a$.</p><p>因为 $c=-4\\neq0$，等比数列的首项 $a$ 不能为 $0$，故 $a&#x3C;0$. 因此 $f(x)=ax^{2}+bx-4$ 是开口向下的抛物线，具有最大值.</p><p>配方得 $f(x)=a\\left(x+\\frac{b}{2a}\\right)^{2}-4-\\frac{b^{2}}{4a}$. 由 $b^{2}=-4a$，可得 $-4-\\frac{b^{2}}{4a}=-4+1=-3$.</p><p>所以 $f(x)$ 有最大值，最大值为 $-3$.</p>"
         },
         {
           "num": 14,
-          "body": "定义“等和数列”：在一个数列中，如果每一项与它的后一项的和都为同一个常数，那么这个数列叫做等和数列，这个常数叫做该数列的公和. 已知数列 $\\{a_n\\}$ 是等和数列，且 $a_1=2$，公和为 $5$，那么 $a_{18}$ 的值为 _______ {}，且这个数列的前 $21$ 项和 $S_{21}$ 的计算公式为 _______ {}.",
-          "choices": [],
-          "answer": "\\(3\\)，\\(S_{21}=52\\)",
-          "solution": "由等和数列的定义，任意 $n\\geqslant1$ 都有 $a_n+a_{n+1}=5$.\r\n因此 $a_2=5-a_1=3$，$a_3=5-a_2=2$，数列的各项按 $2,3$ 交替出现. 于是偶数项均为 $3$，所以\r\n$a_{18}=3$.\r\n\r\n前 $21$ 项中有 $11$ 个奇数项和 $10$ 个偶数项，故\r\n$S_{21}=11\\times2+10\\times3=52$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "定义“等和数列”：在一个数列中，如果每一项与它的后一项的和都为同一个常数，那么这个数列叫做等和数列，这个常数叫做该数列的公和. 已知数列 $\\{a_{n}\\}$ 是等和数列，且 $a_{1}=2$，公和为 $5$，那么 $a_{18}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，且这个数列的前 $21$ 项和 $S_{21}$ 的计算公式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$3$，$S_{21}=52$",
+          "solution": "<p>由等和数列的定义，任意 $n\\geqslant1$ 都有 $a_{n}+a_{n+1}=5$.</p><p>因此 $a_{2}=5-a_{1}=3$，$a_{3}=5-a_{2}=2$，数列的各项按 $2,3$ 交替出现. 于是偶数项均为 $3$，所以</p><p>$a_{18}=3$.</p><p>前 $21$ 项中有 $11$ 个奇数项和 $10$ 个偶数项，故</p><p>$S_{21}=11\\times2+10\\times3=52$.</p>"
         }
       ]
     },
@@ -309,59 +158,46 @@
         {
           "num": 15,
           "body": "在 $\\triangle ABC$ 中，$\\sin A+\\cos A=\\dfrac{\\sqrt{2}}{2}$，$AC=2$，$AB=3$，求 $\\tan A$ 的值和 $\\triangle ABC$ 的面积.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "因为 $A$ 是三角形的内角，所以 $0<A<\\pi$，从而 $\\sin A>0$. 由\r\n$(\\sin A+\\cos A)^2=\\dfrac12$，得 $1+2\\sin A\\cos A=\\dfrac12$，\r\n所以 $\\sin A\\cos A=-\\dfrac14$. 于是 $\\cos A<0$.\r\n\r\n进一步有 $(\\sin A-\\cos A)^2=1-2\\sin A\\cos A=\\dfrac32$.\r\n由于 $\\sin A>0$、$\\cos A<0$，故 $\\sin A-\\cos A>0$，从而\r\n$\\sin A-\\cos A=\\dfrac{\\sqrt6}{2}$. 与 $\\sin A+\\cos A=\\dfrac{\\sqrt2}{2}$ 联立，得\r\n$\\sin A=\\dfrac{\\sqrt2+\\sqrt6}{4}$，$\\cos A=\\dfrac{\\sqrt2-\\sqrt6}{4}$.\r\n因此\r\n\n$$\n\\tan A=\\frac{\\sin A}{\\cos A}\r\n=\\frac{\\sqrt2+\\sqrt6}{\\sqrt2-\\sqrt6}\r\n=-2-\\sqrt3\n$$\n\r\n\r\n三角形面积为\r\n\n$$\n\\left|\\triangle ABC\\right|=\\dfrac12 AB\\cdot AC\\cdot\\sin A\r\n=\\dfrac12\\cdot3\\cdot2\\cdot\\dfrac{\\sqrt2+\\sqrt6}{4}\r\n=\\dfrac{3(\\sqrt2+\\sqrt6)}{4}\n$$\n\r\n所以 $\\tan A=-2-\\sqrt3$，且 $\\triangle ABC$ 的面积为 $\\dfrac{3(\\sqrt2+\\sqrt6)}4$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>因为 $A$ 是三角形的内角，所以 $0&#x3C;A&#x3C;\\pi$，从而 $\\sin A>0$. 由</p><p>$(\\sin A+\\cos A)^{2}=\\dfrac{1}{2}$，得 $1+2\\sin A\\cos A=\\dfrac{1}{2}$，</p><p>所以 $\\sin A\\cos A=-\\dfrac{1}{4}$. 于是 $\\cos A&#x3C;0$.</p><p>进一步有 $(\\sin A-\\cos A)^{2}=1-2\\sin A\\cos A=\\dfrac{3}{2}$.</p><p>由于 $\\sin A>0$、$\\cos A&#x3C;0$，故 $\\sin A-\\cos A>0$，从而</p><p>$\\sin A-\\cos A=\\dfrac{\\sqrt{6}}{2}$. 与 $\\sin A+\\cos A=\\dfrac{\\sqrt{2}}{2}$ 联立，得</p><p>$\\sin A=\\dfrac{\\sqrt{2}+\\sqrt{6}}{4}$，$\\cos A=\\dfrac{\\sqrt{2}-\\sqrt{6}}{4}$.</p><p>因此</p>\n$$\n\\tan A=\\frac{\\sin A}{\\cos A}=\\frac{\\sqrt{2}+\\sqrt{6}}{\\sqrt{2}-\\sqrt{6}}=-2-\\sqrt{3}\n$$\n<p>三角形面积为</p>\n$$\n\\left|\\triangle ABC\\right|=\\dfrac{1}{2}AB\\cdot AC\\cdot\\sin A  =\\dfrac{1}{2}\\cdot3\\cdot2\\cdot\\dfrac{\\sqrt{2}+\\sqrt{6}}{4}=\\dfrac{3(\\sqrt{2}+\\sqrt{6})}{4}\n$$\n<p>所以 $\\tan A=-2-\\sqrt{3}$，且 $\\triangle ABC$ 的面积为 $\\dfrac{3(\\sqrt{2}+\\sqrt{6})}4$.</p>"
         },
         {
           "num": 16,
-          "body": "如图，在正三棱柱 $ABC-A_1B_1C_1$ 中，$AB=3$，$AA_1=4$，$M$ 为 $AA_1$ 的中点，$P$ 是 $BC$ 上一点，且由 $P$ 沿棱柱侧面经过棱 $CC_1$ 到 $M$ 的最短路线长为 $\\sqrt{29}$，设这条最短路线与 $CC_1$ 的交点为 $N$，求：\r\n\r\n\n(1) 该三棱柱的侧面展开图的对角线长；\n\n(2) $PC$ 和 $NC$ 的长；\n\n(3) 平面 $NMP$ 与平面 $ABC$ 所成二面角（锐角）的大小（用反三角函数表示）.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/beijing_science_autumn/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$AB=3$，$AA_{1}=4$，$M$ 为 $AA_{1}$ 的中点，$P$ 是 $BC$ 上一点，且由 $P$ 沿棱柱侧面经过棱 $CC_{1}$ 到 $M$ 的最短路线长为 $\\sqrt{29}$，设这条最短路线与 $CC_{1}$ 的交点为 $N$，求：</p><ol class=\"enumerate\"><li><p>该三棱柱的侧面展开图的对角线长；</p></li><li><p>$PC$ 和 $NC$ 的长；</p></li><li><p>平面 $NMP$ 与平面 $ABC$ 所成二面角（锐角）的大小（用反三角函数表示）.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science_autumn/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 该正三棱柱的侧面展开图是长为 $3+3+3=9$、宽为 $4$ 的矩形，故其对角线长为\r\n$\\sqrt{9^2+4^2}=\\sqrt{97}$.\n\n(2) 先把经过公共棱 $CC_1$ 的两个侧面 $BCC_1B_1$ 和 $CAA_1C_1$ 展开. 取展开图中 $CC_1$ 为纵轴，令 $C$ 为原点.\r\n可取 $B=(-3,0)$，$A=(3,0)$，$C_1=(0,4)$.\r\n因为 $M$ 是 $AA_1$ 的中点，所以 $M=(3,2)$. 设 $PC=d$，则 $P=(-d,0)$. 最短路线在展开图中是一条直线，且题设路线经过 $CC_1$，所以 $PM^2=(d+3)^2+2^2=29$. 由于 $d\\geqslant0$，得 $d+3=5$，从而 $PC=d=2$.\r\n\r\n此时 $P=(-2,0)$，$M=(3,2)$. 直线 $PM$ 的斜率为 $\\dfrac25$，它在 $x=0$ 处的纵坐标为\r\n$0+\\dfrac25(0-(-2))=\\dfrac45$，所以 $NC=\\dfrac45$.\n\n(3) 下面求二面角. 建立空间直角坐标系.\r\n取 $C=(0,0,0)$，$B=(3,0,0)$，$A=\\left(\\dfrac32,\\dfrac{3\\sqrt3}{2},0\\right)$，$A_1=\\left(\\dfrac32,\\dfrac{3\\sqrt3}{2},4\\right)$，$C_1=(0,0,4)$，其中最后一个坐标表示竖直方向.\r\n由此 $P=(2,0,0)$，$N=\\left(0,0,\\dfrac45\\right)$，$M=\\left(\\dfrac32,\\dfrac{3\\sqrt3}{2},2\\right)$.\r\n平面 $NMP$ 内的两个方向向量可以取为 $\\overrightarrow{PM}=\\left(-\\dfrac12,\\dfrac{3\\sqrt3}{2},2\\right)$，$\\overrightarrow{PN}=\\left(-2,0,\\dfrac45\\right)$.\r\n因此平面 $NMP$ 的一个法向量为\r\n\n$$\n\\mathbf{n}=\\overrightarrow{PM}\\times\\overrightarrow{PN}\r\n=\\left(\\dfrac{6\\sqrt3}{5},-\\dfrac{18}{5},3\\sqrt3\\right)\n$$\n\r\n平面 $ABC$ 的法向量可取 $\\mathbf{e}=(0,0,1)$. 设两平面所成的锐二面角为 $\\theta$，则\r\n\n$$\n\\tan\\theta\r\n=\\frac{\\sqrt{n_x^2+n_y^2}}{|n_z|}\r\n=\\frac{\\sqrt{\\left(\\dfrac{6\\sqrt3}{5}\\right)^2+\\left(-\\dfrac{18}{5}\\right)^2}}{3\\sqrt3}\r\n=\\dfrac45\n$$\n\r\n所以二面角的大小为 $\\arctan\\dfrac45$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>该正三棱柱的侧面展开图是长为 $3+3+3=9$、宽为 $4$ 的矩形，故其对角线长为</p><p>$\\sqrt{9^{2}+4^{2}}=\\sqrt{97}$.</p></li><li><p>先把经过公共棱 $CC_{1}$ 的两个侧面 $BCC_{1}B_{1}$ 和 $CAA_{1}C_{1}$ 展开. 取展开图中 $CC_{1}$ 为纵轴，令 $C$ 为原点.</p><p>可取 $B=(-3,0)$，$A=(3,0)$，$C_{1}=(0,4)$.</p><p>因为 $M$ 是 $AA_{1}$ 的中点，所以 $M=(3,2)$. 设 $PC=d$，则 $P=(-d,0)$. 最短路线在展开图中是一条直线，且题设路线经过 $CC_{1}$，所以 $PM^{2}=(d+3)^{2}+2^{2}=29$. 由于 $d\\geqslant0$，得 $d+3=5$，从而 $PC=d=2$.</p><p>此时 $P=(-2,0)$，$M=(3,2)$. 直线 $PM$ 的斜率为 $\\dfrac{2}{5}$，它在 $x=0$ 处的纵坐标为</p><p>$0+\\dfrac{2}{5}(0-(-2))=\\dfrac{4}{5}$，所以 $NC=\\dfrac{4}{5}$.</p></li><li><p>下面求二面角. 建立空间直角坐标系.</p><p>取 $C=(0,0,0)$，$B=(3,0,0)$，$A=\\left(\\dfrac{3}{2},\\dfrac{3\\sqrt{3}}{2},0\\right)$，$A_{1}=\\left(\\dfrac{3}{2},\\dfrac{3\\sqrt{3}}{2},4\\right)$，$C_{1}=(0,0,4)$，其中最后一个坐标表示竖直方向.</p><p>由此 $P=(2,0,0)$，$N=\\left(0,0,\\dfrac{4}{5}\\right)$，$M=\\left(\\dfrac{3}{2},\\dfrac{3\\sqrt{3}}{2},2\\right)$.</p><p>平面 $NMP$ 内的两个方向向量可以取为 $\\overrightarrow{PM}=\\left(-\\dfrac{1}{2},\\dfrac{3\\sqrt{3}}{2},2\\right)$，$\\overrightarrow{PN}=\\left(-2,0,\\dfrac{4}{5}\\right)$.</p><p>因此平面 $NMP$ 的一个法向量为</p>\n$$\n\\mathbf{n}=\\overrightarrow{PM}\\times\\overrightarrow{PN}=\\left(\\dfrac{6\\sqrt{3}}{5},-\\dfrac{18}{5},3\\sqrt{3}\\right)\n$$\n<p>平面 $ABC$ 的法向量可取 $\\mathbf{e}=(0,0,1)$. 设两平面所成的锐二面角为 $\\theta$，则</p>\n$$\n\\tan\\theta  =\\frac{\\sqrt{n_{x}^{2}+n_{y}^{2}}}{|n_{z}|}=\\frac{\\sqrt{\\left(\\dfrac{6\\sqrt{3}}{5}\\right)^{2}+\\left(-\\dfrac{18}{5}\\right)^{2}}}{3\\sqrt{3}}=\\dfrac{4}{5}\n$$\n<p>所以二面角的大小为 $\\arctan\\dfrac{4}{5}$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "如图，过抛物线 $y^2=2px$（$p>0$）上一点 $P(x_0,y_0)$（$y_0>0$），作两条直线分别交抛物线于 $A(x_1,y_1)$，$B(x_2,y_2)$.\r\n\r\n\n(1) 求该抛物线上纵坐标为 $\\dfrac{p}{2}$ 的点到其焦点 $F$ 的距离；\n\n(2) 当 $PA$ 与 $PB$ 的斜率存在且倾斜角互补时，求 $\\dfrac{y_1+y_2}{y_0}$ 的值，并证明直线 $AB$ 的斜率是非零常数.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/beijing_science_autumn/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，过抛物线 $y^{2}=2px$（$p>0$）上一点 $P(x_{0},y_{0})$（$y_{0}>0$），作两条直线分别交抛物线于 $A(x_{1},y_{1})$，$B(x_{2},y_{2})$.</p><ol class=\"enumerate\"><li><p>求该抛物线上纵坐标为 $\\dfrac{p}{2}$ 的点到其焦点 $F$ 的距离；</p></li><li><p>当 $PA$ 与 $PB$ 的斜率存在且倾斜角互补时，求 $\\dfrac{y_1+y_2}{y_0}$ 的值，并证明直线 $AB$ 的斜率是非零常数.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science_autumn/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 抛物线 $y^2=2px$ 可写成 $y^2=4ax$，其中 $a=\\dfrac p2$，所以其焦点为\r\n$F=\\left(\\dfrac p2,0\\right)$. 当点的纵坐标为 $\\dfrac p2$ 时，由抛物线方程得\r\n$x=\\frac{(\\frac{p}{2})^2}{2p}=\\dfrac p8$.\r\n设该点为 $Q\\left(\\dfrac p8,\\dfrac p2\\right)$. 于是\r\n\n$$\nQF=\\sqrt{\\left(\\dfrac p2-\\dfrac p8\\right)^2+\\left(\\dfrac p2\\right)^2}=\\dfrac{5p}{8}\n$$\n\r\n故该点到焦点的距离为 $\\dfrac{5p}{8}$.\n\n(2) 设直线 $PA$、$PB$ 的斜率分别为 $k_1$、$k_2$.\r\n由 $y_1^2=2px_1$ 和 $y_0^2=2px_0$，相减得\r\n$(y_1-y_0)(y_1+y_0)=2p(x_1-x_0)$.\r\n因 $PA$ 的斜率存在，$x_1\\neq x_0$，所以\r\n$k_1=\\frac{y_1-y_0}{x_1-x_0}=\\frac{2p}{y_1+y_0}$. 同样，由\r\n$y_2^2=2px_2$ 和 $y_0^2=2px_0$ 得\r\n$(y_2-y_0)(y_2+y_0)=2p(x_2-x_0)$.\r\n因 $PB$ 的斜率存在，$x_2\\neq x_0$，从而\r\n$k_2=\\frac{y_2-y_0}{x_2-x_0}=\\frac{2p}{y_2+y_0}$.\r\n两直线的倾斜角互补，故其斜率互为相反数，即 $k_1=-k_2$. 于是\r\n$\\frac{2p}{y_1+y_0}=-\\frac{2p}{y_2+y_0}$.\r\n因为 $p>0$，化简得 $y_1+y_2=-2y_0$，所以 $\\frac{y_1+y_2}{y_0}=-2$.\r\n\r\n又因为 $A\\neq B$，所以 $y_1\\neq y_2$，且\r\n\n$$\nx_1-x_2=\\frac{y_1^2-y_2^2}{2p}=\\frac{(y_1-y_2)(y_1+y_2)}{2p}\\neq0\n$$\n\r\n因此直线 $AB$ 的斜率存在，并且\r\n\n$$\nk_{AB}=\\frac{y_1-y_2}{x_1-x_2}=\\frac{2p}{y_1+y_2}=-\\frac p{y_0}\n$$\n\r\n由于 $p>0$、$y_0>0$，所以 $k_{AB}=-\\dfrac p{y_0}$ 是非零常数.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=2px$ 可写成 $y^{2}=4ax$，其中 $a=\\dfrac{p}{2}$，所以其焦点为</p><p>$F=\\left(\\dfrac{p}{2},0\\right)$. 当点的纵坐标为 $\\dfrac{p}{2}$ 时，由抛物线方程得</p><p>$x=\\frac{(\\frac{p}{2})^{2}}{2p}=\\dfrac{p}{8}$.</p><p>设该点为 $Q\\left(\\dfrac{p}{8},\\dfrac{p}{2}\\right)$. 于是</p>\n$$\nQF=\\sqrt{\\left(\\dfrac{p}{2}-\\dfrac{p}{8}\\right)^{2}+\\left(\\dfrac{p}{2}\\right)^{2}}=\\dfrac{5p}{8}\n$$\n<p>故该点到焦点的距离为 $\\dfrac{5p}{8}$.</p></li><li><p>设直线 $PA$、$PB$ 的斜率分别为 $k_{1}$、$k_{2}$.</p><p>由 $y_{1}^{2}=2px_{1}$ 和 $y_{0}^{2}=2px_{0}$，相减得</p><p>$(y_{1}-y_{0})(y_{1}+y_{0})=2p(x_{1}-x_{0})$.</p><p>因 $PA$ 的斜率存在，$x_{1}\\neq x_{0}$，所以</p><p>$k_{1}=\\frac{y_{1}-y_{0}}{x_{1}-x_{0}}=\\frac{2p}{y_{1}+y_{0}}$. 同样，由</p><p>$y_{2}^{2}=2px_{2}$ 和 $y_{0}^{2}=2px_{0}$ 得</p><p>$(y_{2}-y_{0})(y_{2}+y_{0})=2p(x_{2}-x_{0})$.</p><p>因 $PB$ 的斜率存在，$x_{2}\\neq x_{0}$，从而</p><p>$k_{2}=\\frac{y_{2}-y_{0}}{x_{2}-x_{0}}=\\frac{2p}{y_{2}+y_{0}}$.</p><p>两直线的倾斜角互补，故其斜率互为相反数，即 $k_{1}=-k_{2}$. 于是</p><p>$\\frac{2p}{y_{1}+y_{0}}=-\\frac{2p}{y_{2}+y_{0}}$.</p><p>因为 $p>0$，化简得 $y_{1}+y_{2}=-2y_{0}$，所以 $\\frac{y_{1}+y_{2}}{y_{0}}=-2$.</p><p>又因为 $A\\neq B$，所以 $y_{1}\\neq y_{2}$，且</p>\n$$\nx_{1}-x_{2}=\\frac{y_{1}^{2}-y_{2}^{2}}{2p}=\\frac{(y_{1}-y_{2})(y_{1}+y_{2})}{2p}\\neq0\n$$\n<p>因此直线 $AB$ 的斜率存在，并且</p>\n$$\nk_{AB}=\\frac{y_{1}-y_{2}}{x_{1}-x_{2}}=\\frac{2p}{y_{1}+y_{2}}=-\\frac{p}{y_{0}}\n$$\n<p>由于 $p>0$、$y_{0}>0$，所以 $k_{AB}=-\\dfrac p{y_0}$ 是非零常数.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "函数 $f(x)$ 是定义在 $[0,1]$ 上的增函数，满足 $f(x)=2f\\left(\\dfrac{x}{2}\\right)$ 且 $f(1)=1$，在每个区间 $\\left(\\dfrac{1}{2^i},\\dfrac{1}{2^{i-1}}\\right]$（$i=1$，$2$，$\\cdots$）上，$y=f(x)$ 的图象都是斜率为同一常数 $k$ 的直线的一部分.\r\n\r\n\n(1) 求 $f(0)$ 及 $f\\left(\\dfrac{1}{2}\\right)$，$f\\left(\\dfrac{1}{4}\\right)$ 的值，并归纳出 $f\\left(\\dfrac{1}{2^i}\\right)$（$i=1$，$2$，$\\cdots$）的表达式；\n\n(2) 设直线 $x=\\dfrac{1}{2^i}$，$x=\\dfrac{1}{2^{i-1}}$，$x$ 轴及 $y=f(x)$ 的图象围成的矩形的面积为 $a_i$（$i=1$，$2$，$\\cdots$），记 $S(k)=\\lim\\limits_{n\\to\\infty}(a_1+a_2+\\cdots+a_n)$，求 $S(k)$ 的表达式，并写出其定义域和最小值.",
-          "choices": [],
+          "body": "<p>函数 $f(x)$ 是定义在 $[0,1]$ 上的增函数，满足 $f(x)=2f\\left(\\dfrac{x}{2}\\right)$ 且 $f(1)=1$，在每个区间 $\\left(\\dfrac{1}{2^i},\\dfrac{1}{2^{i-1}}\\right]$（$i=1$，$2$，$\\cdots$）上，$y=f(x)$ 的图象都是斜率为同一常数 $k$ 的直线的一部分.</p><ol class=\"enumerate\"><li><p>求 $f(0)$ 及 $f\\left(\\dfrac{1}{2}\\right)$，$f\\left(\\dfrac{1}{4}\\right)$ 的值，并归纳出 $f\\left(\\dfrac{1}{2^i}\\right)$（$i=1$，$2$，$\\cdots$）的表达式；</p></li><li><p>设直线 $x=\\dfrac{1}{2^i}$，$x=\\dfrac{1}{2^{i-1}}$，$x$ 轴及 $y=f(x)$ 的图象围成的矩形的面积为 $a_{i}$（$i=1$，$2$，$\\cdots$），记 $S(k)=\\lim\\limits_{n\\to\\infty}(a_{1}+a_{2}+\\cdots+a_{n})$，求 $S(k)$ 的表达式，并写出其定义域和最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $f(x)=2f\\left(\\dfrac{x}{2}\\right)$ 取 $x=0$，得 $f(0)=2f(0)$，所以 $f(0)=0$. 取 $x=1$，得 $f(1)=2f\\left(\\dfrac12\\right)$，从而 $f\\left(\\dfrac12\\right)=\\dfrac12$. 再取 $x=\\dfrac12$，得 $f\\left(\\dfrac14\\right)=\\dfrac12f\\left(\\dfrac12\\right)=\\dfrac14$. 下面验证一般项的归纳步骤：\r\n若已知 $f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^i}$，在函数关系中取\r\n$x=\\dfrac1{2^i}$，就有\r\n$f\\left(\\dfrac1{2^{i+1}}\\right)=\\dfrac12f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^{i+1}}$.\r\n结合 $i=1$ 时的 $f\\left(\\dfrac12\\right)=\\dfrac12$，归纳得\r\n$f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^i}$，（$i=1,2,\\cdots$）.\n\n(2) 在区间 $\\left(\\dfrac1{2^i},\\dfrac1{2^{i-1}}\\right]$ 上，直线段经过点 $\\left(\\dfrac1{2^{i-1}},\\dfrac1{2^{i-1}}\\right)$，所以其表达式为\r\n$f(x)=\\dfrac1{2^{i-1}}+k\\left(x-\\dfrac1{2^{i-1}}\\right)$.\r\n当 $x$ 从右侧趋近 $\\dfrac1{2^i}$ 时，函数值趋近\r\n$\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}$.\r\n由于 $f$ 是增函数，且 $f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^i}$，当区间内的 $x$ 从右侧趋近 $\\dfrac1{2^i}$ 时，函数值不能小于端点处的函数值，因此必须有\r\n$\\dfrac1{2^i}\\le\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}$. 这给出 $k\\leqslant1$. 又因为每个区间上的图象是增函数的一段直线，其斜率必须为正数，故 $k>0$. 因此 $k$ 的定义域为 $0<k\\leqslant1$.\r\n\r\n该直线段在 $x$ 从右侧趋近 $\\dfrac1{2^i}$ 时的高度为 $\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}$，在 $x=\\dfrac1{2^{i-1}}$ 处的高度为 $\\dfrac1{2^{i-1}}$. 单点处的函数值不影响面积. 两条竖边之间的距离为 $\\dfrac1{2^{i-1}}-\\dfrac1{2^i}=\\dfrac1{2^i}$，所以\r\n\n$$\na_i=\\dfrac12\\left(\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}+\\dfrac1{2^{i-1}}\\right)\\dfrac1{2^i}\r\n=\\left(1-\\dfrac{k}{4}\\right)\\dfrac1{2^{2i-1}}\n$$\n\r\n于是\r\n\n$$\nS(k)=\\sum_{i=1}^{\\infty}a_i\r\n=\\left(1-\\dfrac{k}{4}\\right)\\sum_{i=1}^{\\infty}\\dfrac1{2^{2i-1}}\r\n=\\left(1-\\dfrac{k}{4}\\right)\\frac{\\frac{1}{2}}{1-\\frac{1}{4}}\r\n=\\dfrac23\\left(1-\\dfrac{k}{4}\\right)\n$$\n\r\n在 $0<k\\leqslant1$ 上，$S(k)$ 随 $k$ 增大而减小，因此当 $k=1$ 时取得最小值\r\n\n$$\nS_{\\min}=\\dfrac23\\left(1-\\dfrac14\\right)=\\dfrac12\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(x)=2f\\left(\\dfrac{x}{2}\\right)$ 取 $x=0$，得 $f(0)=2f(0)$，所以 $f(0)=0$. 取 $x=1$，得 $f(1)=2f\\left(\\dfrac{1}{2}\\right)$，从而 $f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{2}$. 再取 $x=\\dfrac{1}{2}$，得 $f\\left(\\dfrac{1}{4}\\right)=\\dfrac{1}{2}f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{4}$. 下面验证一般项的归纳步骤：</p><p>若已知 $f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^i}$，在函数关系中取</p><p>$x=\\dfrac1{2^i}$，就有</p><p>$f\\left(\\dfrac1{2^{i+1}}\\right)=\\dfrac{1}{2}f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^{i+1}}$.</p><p>结合 $i=1$ 时的 $f\\left(\\dfrac{1}{2}\\right)=\\dfrac{1}{2}$，归纳得</p><p>$f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^i}$，（$i=1,2,\\cdots$）.</p></li><li><p>在区间 $\\left(\\dfrac1{2^i},\\dfrac1{2^{i-1}}\\right]$ 上，直线段经过点 $\\left(\\dfrac1{2^{i-1}},\\dfrac1{2^{i-1}}\\right)$，所以其表达式为</p><p>$f(x)=\\dfrac1{2^{i-1}}+k\\left(x-\\dfrac1{2^{i-1}}\\right)$.</p><p>当 $x$ 从右侧趋近 $\\dfrac1{2^i}$ 时，函数值趋近</p><p>$\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}$.</p><p>由于 $f$ 是增函数，且 $f\\left(\\dfrac1{2^i}\\right)=\\dfrac1{2^i}$，当区间内的 $x$ 从右侧趋近 $\\dfrac1{2^i}$ 时，函数值不能小于端点处的函数值，因此必须有</p><p>$\\dfrac1{2^i}\\le\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}$. 这给出 $k\\leqslant1$. 又因为每个区间上的图象是增函数的一段直线，其斜率必须为正数，故 $k>0$. 因此 $k$ 的定义域为 $0&#x3C;k\\leqslant1$.</p><p>该直线段在 $x$ 从右侧趋近 $\\dfrac1{2^i}$ 时的高度为 $\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}$，在 $x=\\dfrac1{2^{i-1}}$ 处的高度为 $\\dfrac1{2^{i-1}}$. 单点处的函数值不影响面积. 两条竖边之间的距离为 $\\dfrac1{2^{i-1}}-\\dfrac1{2^i}=\\dfrac1{2^i}$，所以</p>\n$$\na_{i}=\\dfrac{1}{2}\\left(\\dfrac1{2^{i-1}}-\\dfrac{k}{2^i}+\\dfrac1{2^{i-1}}\\right)\\dfrac1{2^i}=\\left(1-\\dfrac{k}{4}\\right)\\dfrac1{2^{2i-1}}\n$$\n<p>于是</p>\n$$\nS(k)=\\sum_{i=1}^{\\infty}a_{i}  =\\left(1-\\dfrac{k}{4}\\right)\\sum_{i=1}^{\\infty}\\dfrac1{2^{2i-1}}=\\left(1-\\dfrac{k}{4}\\right)\\frac{\\frac{1}{2}}{1-\\frac{1}{4}}=\\dfrac{2}{3}\\left(1-\\dfrac{k}{4}\\right)\n$$\n<p>在 $0&#x3C;k\\leqslant1$ 上，$S(k)$ 随 $k$ 增大而减小，因此当 $k=1$ 时取得最小值</p>\n$$\nS_{\\min}=\\dfrac{2}{3}\\left(1-\\dfrac{1}{4}\\right)=\\dfrac{1}{2}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "某段城铁线路上依次有 $A$，$B$，$C$ 三站，$AB=15\\mathrm{~km}$，$BC=3\\mathrm{~km}$，在列车运行时刻表上，规定列车 8 时整从 $A$ 站发车，8 时 07 分到达 $B$ 站并停车 1 分钟，8 时 12 分到达 $C$ 站，在实际运行中，假设列车从 $A$ 站正点发车，在 $B$ 站停留 1 分钟，并在行驶时以同一速度 $v\\mathrm{~km/h}$ 匀速行驶，列车从 $A$ 站到达某站的时间与时刻表上相应时间之差的绝对值称为列车在该站的运行误差.\r\n\r\n\n(1) 分别写出列车在 $B$，$C$ 两站的运行误差；\n\n(2) 若要求列车在 $B$，$C$ 两站的运行误差之和不超过 2 分钟，求 $v$ 的取值范围.",
-          "choices": [],
+          "body": "<p>某段城铁线路上依次有 $A$，$B$，$C$ 三站，$AB=15\\mathrm{~km}$，$BC=3\\mathrm{~km}$，在列车运行时刻表上，规定列车 8 时整从 $A$ 站发车，8 时 07 分到达 $B$ 站并停车 1 分钟，8 时 12 分到达 $C$ 站，在实际运行中，假设列车从 $A$ 站正点发车，在 $B$ 站停留 1 分钟，并在行驶时以同一速度 $v\\mathrm{~km/h}$ 匀速行驶，列车从 $A$ 站到达某站的时间与时刻表上相应时间之差的绝对值称为列车在该站的运行误差.</p><ol class=\"enumerate\"><li><p>分别写出列车在 $B$，$C$ 两站的运行误差；</p></li><li><p>若要求列车在 $B$，$C$ 两站的运行误差之和不超过 2 分钟，求 $v$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 列车从 $A$ 到 $B$ 的实际行驶时间为 $\\dfrac{15}{v}$ 小时，即 $\\dfrac{900}{v}$ 分钟. 因此列车在 $B$ 站的运行误差为 $\\left|\\dfrac{900}{v}-7\\right|\\text{ 分钟}$.\r\n列车在 $B$ 站停留 $1$ 分钟后，再行驶 $3$ km 到达 $C$，实际到达 $C$ 的时间是出发后\r\n$\\dfrac{900}{v}+1+\\dfrac{180}{v}=\\dfrac{1080}{v}+1$ 分钟，所以列车在 $C$ 站的运行误差为 $\\left|\\dfrac{1080}{v}-11\\right|\\text{ 分钟}$.\n\n(2) 令 $u=\\dfrac{900}{v}$，则 $u>0$，且所求条件化为\r\n$\\left|u-7\\right|+\\left|\\dfrac65u-11\\right|\\leqslant2$.\r\n按 $u=7$ 和 $u=\\dfrac{55}{6}$ 分段，左边等于\r\n\n$$\n\\begin{cases}\r\n18-\\dfrac{11}{5}u,&0<u\\leqslant7,\\\\\r\n4-\\dfrac15u,&7\\le u\\le\\dfrac{55}{6},\\\\\r\n\\dfrac{11}{5}u-18,&u\\ge\\dfrac{55}{6}\r\n\\end{cases}\n$$\n\r\n在第一段上其最小值为 $\\dfrac{13}{5}$，在第二段上其最小值为 $4-\\dfrac15\\cdot\\dfrac{55}{6}=\\dfrac{13}{6}>2$.\r\n在第三段上其最小值同样为 $\\dfrac{13}{6}>2$. 因此运行误差之和的最小值为 $\\dfrac{13}{6}$ 分钟，大于 $2$ 分钟，不存在满足条件的正速度.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>列车从 $A$ 到 $B$ 的实际行驶时间为 $\\dfrac{15}{v}$ 小时，即 $\\dfrac{900}{v}$ 分钟. 因此列车在 $B$ 站的运行误差为 $\\left|\\dfrac{900}{v}-7\\right|\\text{ 分钟}$.</p><p>列车在 $B$ 站停留 $1$ 分钟后，再行驶 $3$ km 到达 $C$，实际到达 $C$ 的时间是出发后</p><p>$\\dfrac{900}{v}+1+\\dfrac{180}{v}=\\dfrac{1080}{v}+1$ 分钟，所以列车在 $C$ 站的运行误差为 $\\left|\\dfrac{1080}{v}-11\\right|\\text{ 分钟}$.</p></li><li><p>令 $u=\\dfrac{900}{v}$，则 $u>0$，且所求条件化为</p><p>$\\left|u-7\\right|+\\left|\\dfrac{6}{5}u-11\\right|\\leqslant2$.</p><p>按 $u=7$ 和 $u=\\dfrac{55}{6}$ 分段，左边等于</p>\n$$\n\\begin{cases}18-\\dfrac{11}{5}u,&#x26;0&#x3C;u\\leqslant7,\\\\  4-\\dfrac{1}{5}u,&#x26;7\\le u\\le\\dfrac{55}{6},\\\\  \\dfrac{11}{5}u-18,&#x26;u\\ge\\dfrac{55}{6}\\end{cases}\n$$\n<p>在第一段上其最小值为 $\\dfrac{13}{5}$，在第二段上其最小值为 $4-\\dfrac{1}{5}\\cdot\\dfrac{55}{6}=\\dfrac{13}{6}>2$.</p><p>在第三段上其最小值同样为 $\\dfrac{13}{6}>2$. 因此运行误差之和的最小值为 $\\dfrac{13}{6}$ 分钟，大于 $2$ 分钟，不存在满足条件的正速度.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "给定有限个正数满足条件 $T$：每个数都不大于 $50$ 且总和 $L=1275$. 现将这些数按下列要求进行分组，每组数之和不大于 $150$ 且分组的步骤是：首先，从这些数中选择这样一些数构成第一组，使得 $150$ 与这组数之和的差 $r_1$ 与所有可能的其他选择相比是最小的，$r_1$ 称为第一组余差；然后，在去掉已选入第一组的数后，对余下的数按第一组的选择方式构成第二组，这时的余差为 $r_2$；如此继续构成第三组（余差为 $r_3$），第四组（余差为 $r_4$），$\\cdots$，直至第 $N$ 组（余差为 $r_N$）把这些数全部分完为止.\r\n\r\n\n(1) 判断 $r_1$，$r_2$，$\\cdots$，$r_N$ 的大小关系，并指出除第 $N$ 组外的每组至少含有几个数；\n\n(2) 当构成第 $n$（$n<N$）组后，指出余下的每个数与 $r_n$ 的大小关系，并证明 $r_{n-1}>\\dfrac{150n-L}{n-1}$；\n\n(3) 对任何满足条件 $T$ 的有限个正数，证明：$N\\le 11$.",
-          "choices": [],
+          "body": "<p>给定有限个正数满足条件 $T$：每个数都不大于 $50$ 且总和 $L=1275$. 现将这些数按下列要求进行分组，每组数之和不大于 $150$ 且分组的步骤是：首先，从这些数中选择这样一些数构成第一组，使得 $150$ 与这组数之和的差 $r_{1}$ 与所有可能的其他选择相比是最小的，$r_{1}$ 称为第一组余差；然后，在去掉已选入第一组的数后，对余下的数按第一组的选择方式构成第二组，这时的余差为 $r_{2}$；如此继续构成第三组（余差为 $r_{3}$），第四组（余差为 $r_{4}$），$\\cdots$，直至第 $N$ 组（余差为 $r_{N}$）把这些数全部分完为止.</p><ol class=\"enumerate\"><li><p>判断 $r_{1}$，$r_{2}$，$\\cdots$，$r_{N}$ 的大小关系，并指出除第 $N$ 组外的每组至少含有几个数；</p></li><li><p>当构成第 $n$（$n&#x3C;N$）组后，指出余下的每个数与 $r_{n}$ 的大小关系，并证明 $r_{n-1}>\\dfrac{150n-L}{n-1}$；</p></li><li><p>对任何满足条件 $T$ 的有限个正数，证明：$N\\le 11$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 先注意到第 $i$ 组形成后，任意仍未分组的数 $x$ 都满足\r\n\n$$\nx>r_i\n$$\n\r\n否则若 $x\\le r_i$，就可以把 $x$ 加入第 $i$ 组，使该组的和仍不超过 $150$，并使余差变小或变为 $0$，这与第 $i$ 组的选择方式矛盾.\r\n\r\n第 $i+1$ 组的数在形成第 $i$ 组时也是可供选择的一个子集. 由于第 $i$ 组的和最大，有\r\n\n$$\n150-r_i\\geqslant150-r_{i+1}\n$$\n\r\n所以\r\n\n$$\nr_1\\le r_2\\le\\cdots\\le r_N\n$$\n\r\n若 $i<N$，第 $i$ 组之后仍有数未分组. 若第 $i$ 组含有不超过 $2$ 个数，则该组的和不超过 $100$，从而 $r_i\\geqslant50$. 但此时剩余的每个数都大于 $r_i\\geqslant50$，这与每个数不大于 $50$ 矛盾. 因此除第 $N$ 组外，每组至少含有 $3$ 个数.\n\n(2) 设 $2\\le n<N$. 第 $n$ 组形成后仍有数未分组，且余下的每个数都大于余差 $r_n$，故余下数的总和大于 $r_n$. 因此\r\n\n$$\nL-\\bigl[(150-r_1)+(150-r_2)+\\cdots+(150-r_n)\\bigr]>r_n\n$$\n\r\n整理得\r\n\n$$\nr_1+r_2+\\cdots+r_{n-1}>150n-L\n$$\n\r\n由 $r_1\\le\\cdots\\le r_{n-1}$，有\r\n\n$$\n(n-1)r_{n-1}\\ge r_1+r_2+\\cdots+r_{n-1}>150n-L\n$$\n\r\n所以\r\n\n$$\nr_{n-1}>\\dfrac{150n-L}{n-1}\n$$\n\r\n\r\n最后用反证法. 假设 $N>11$，则第 $11$ 组形成后仍有数未分组. 由上式取 $n=11$，得\r\n\n$$\nr_{10}>\\dfrac{150\\times11-1275}{10}=37.5\n$$\n\r\n又因为 $r_{11}\\ge r_{10}$，所以 $r_{11}>37.5$. 第 $11$ 组是在第 $10$ 组形成后从剩余数中选出的，而这些剩余数都大于 $r_{10}>37.5$. 又因为第 $11$ 组不是最后一组，它至少含有 $3$ 个数，因此第 $11$ 组的和大于\r\n\n$$\n37.5\\times3=112.5\n$$\n\r\n于是\r\n\n$$\nr_{11}=150-\\text{第11组数的和}<150-112.5=37.5\n$$\n\r\n这与 $r_{11}>37.5$ 矛盾. 因此\r\n\n$$\nN\\leqslant11\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>先注意到第 $i$ 组形成后，任意仍未分组的数 $x$ 都满足</p>\n$$\nx>r_{i}\n$$\n<p>否则若 $x\\le r_{i}$，就可以把 $x$ 加入第 $i$ 组，使该组的和仍不超过 $150$，并使余差变小或变为 $0$，这与第 $i$ 组的选择方式矛盾.</p><p>第 $i+1$ 组的数在形成第 $i$ 组时也是可供选择的一个子集. 由于第 $i$ 组的和最大，有</p>\n$$\n150-r_{i}\\geqslant150-r_{i+1}\n$$\n<p>所以</p>\n$$\nr_{1}\\le r_{2}\\le\\cdots\\le r_{N}\n$$\n<p>若 $i&#x3C;N$，第 $i$ 组之后仍有数未分组. 若第 $i$ 组含有不超过 $2$ 个数，则该组的和不超过 $100$，从而 $r_{i}\\geqslant50$. 但此时剩余的每个数都大于 $r_{i}\\geqslant50$，这与每个数不大于 $50$ 矛盾. 因此除第 $N$ 组外，每组至少含有 $3$ 个数.</p></li><li><p>设 $2\\le n&#x3C;N$. 第 $n$ 组形成后仍有数未分组，且余下的每个数都大于余差 $r_{n}$，故余下数的总和大于 $r_{n}$. 因此</p>\n$$\nL-\\bigl[(150-r_{1})+(150-r_{2})+\\cdots+(150-r_{n})\\bigr]>r_{n}\n$$\n<p>整理得</p>\n$$\nr_{1}+r_{2}+\\cdots+r_{n-1}>150n-L\n$$\n<p>由 $r_{1}\\le\\cdots\\le r_{n-1}$，有</p>\n$$\n(n-1)r_{n-1}\\ge r_{1}+r_{2}+\\cdots+r_{n-1}>150n-L\n$$\n<p>所以</p>\n$$\nr_{n-1}>\\dfrac{150n-L}{n-1}\n$$\n<p>最后用反证法. 假设 $N>11$，则第 $11$ 组形成后仍有数未分组. 由上式取 $n=11$，得</p>\n$$\nr_{10}>\\dfrac{150\\times11-1275}{10}=37.5\n$$\n<p>又因为 $r_{11}\\ge r_{10}$，所以 $r_{11}>37.5$. 第 $11$ 组是在第 $10$ 组形成后从剩余数中选出的，而这些剩余数都大于 $r_{10}>37.5$. 又因为第 $11$ 组不是最后一组，它至少含有 $3$ 个数，因此第 $11$ 组的和大于</p>\n$$\n37.5\\times3=112.5\n$$\n<p>于是</p>\n$$\nr_{11}=150-\\text{第11组数的和}&#x3C;150-112.5=37.5\n$$\n<p>这与 $r_{11}>37.5$ 矛盾. 因此</p>\n$$\nN\\leqslant11\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

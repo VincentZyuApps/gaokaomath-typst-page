@@ -1,150 +1,15 @@
 {
+  "title": "2008年普通高等学校招生全国统一考试",
+  "subtitle": "2008年四川延考卷（理）",
   "year": "2008",
   "slug": "sichuan_postponed_science",
-  "title": "2008年四川延考卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "集合 $A=\\{-1,0,1\\}$，$A$ 的子集中，含有元素 $0$ 的子集共有（ ）",
+          "body": "集合 $A=\\{-1,0,1\\}$，$A$ 的子集中，含有元素 $0$ 的子集共有（ ）",
           "choices": [
             "$2$ 个",
             "$4$ 个",
@@ -152,27 +17,23 @@
             "$8$ 个"
           ],
           "answer": "B",
-          "solution": "含有元素 $0$ 的子集都可由另外两个元素 $-1,1$ 是否选入独立确定，因而共有\r\n$2^2=4$ 个，分别为 $\\{0\\}$、$\\{-1,0\\}$、$\\{0,1\\}$、$\\{-1,0,1\\}$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>含有元素 $0$ 的子集都可由另外两个元素 $-1,1$ 是否选入独立确定，因而共有</p><p>$2^{2}=4$ 个，分别为 $\\{0\\}$、$\\{-1,0\\}$、$\\{0,1\\}$、$\\{-1,0,1\\}$，选 B.</p>"
         },
         {
           "num": 2,
-          "body": "已知复数 $z=\\dfrac{(3+\\mathrm{i})(3-\\mathrm{i})}{2-\\mathrm{i}}$，则 $|z|=$（ ）",
+          "body": "已知复数 $z=\\dfrac{(3+\\mathrm{i})(3-\\mathrm{i})}{2-\\mathrm{i}}$，则 $|z|=$（ ）",
           "choices": [
-            "$\\dfrac{\\sqrt5}{5}$",
-            "$\\dfrac{2\\sqrt5}{5}$",
-            "$\\sqrt5$",
-            "$2\\sqrt5$"
+            "$\\dfrac{\\sqrt{5}}{5}$",
+            "$\\dfrac{2\\sqrt{5}}{5}$",
+            "$\\sqrt{5}$",
+            "$2\\sqrt{5}$"
           ],
           "answer": "D",
-          "solution": "$$\nz=\\frac{(3+\\mathrm{i})(3-\\mathrm{i})}{2-\\mathrm{i}}=\\frac{10}{2-\\mathrm{i}}=\\frac{10(2+\\mathrm{i})}{5}=4+2\\mathrm{i}\n$$\n\r\n所以 $|z|=2\\sqrt5$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$$\nz=\\frac{(3+\\mathrm{i})(3-\\mathrm{i})}{2-\\mathrm{i}}=\\frac{10}{2-\\mathrm{i}}=\\frac{10(2+\\mathrm{i})}{5}=4+2\\mathrm{i}\n$$\n<p>所以 $|z|=2\\sqrt{5}$，选 D.</p>"
         },
         {
           "num": 3,
-          "body": "$\\left(1+\\dfrac{1}{x}\\right)(1+x)^4$ 的展开式中含 $x^2$ 项的系数为（ ）",
+          "body": "$\\left(1+\\dfrac{1}{x}\\right)(1+x)^{4}$ 的展开式中含 $x^{2}$ 项的系数为（ ）",
           "choices": [
             "$4$",
             "$6$",
@@ -180,27 +41,23 @@
             "$12$"
           ],
           "answer": "C",
-          "solution": "$\\left(1+\\frac1x\\right)(1+x)^4=\\left(1+\\frac1x\\right)(1+4x+6x^2+4x^3+x^4)$，\r\n其中 $6x^2$ 来自前面的 $1$ 与后面的 $6x^2$ 相乘，另有\r\n$4x^2$ 来自 $x^{-1}$ 与 $4x^3$ 相乘，所以含 $x^2$ 项的系数为\r\n$6+4=10$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$\\left(1+\\frac{1}{x}\\right)(1+x)^{4}=\\left(1+\\frac{1}{x}\\right)(1+4x+6x^{2}+4x^{3}+x^{4})$，</p><p>其中 $6x^{2}$ 来自前面的 $1$ 与后面的 $6x^{2}$ 相乘，另有</p><p>$4x^{2}$ 来自 $x^{-1}$ 与 $4x^{3}$ 相乘，所以含 $x^{2}$ 项的系数为</p><p>$6+4=10$，选 C.</p>"
         },
         {
           "num": 4,
-          "body": "已知 $n\\in \\mathbb{N}^*$，则不等式 $\\left|\\dfrac{2n}{n+1}-2\\right|<0.01$ 的解集为（ ）",
+          "body": "已知 $n\\in \\mathbb{N}^{*}$，则不等式 $\\left|\\dfrac{2n}{n+1}-2\\right|&#x3C;0.01$ 的解集为（ ）",
           "choices": [
-            "$\\{n\\mid n\\ge199,\\ n\\in \\mathbb{N}^*\\}$",
-            "$\\{n\\mid n\\ge200,\\ n\\in \\mathbb{N}^*\\}$",
-            "$\\{n\\mid n\\ge201,\\ n\\in \\mathbb{N}^*\\}$",
-            "$\\{n\\mid n\\ge202,\\ n\\in \\mathbb{N}^*\\}$"
+            "$\\{n\\mid n\\ge199,\\ n\\in \\mathbb{N}^{*}\\}$",
+            "$\\{n\\mid n\\ge200,\\ n\\in \\mathbb{N}^{*}\\}$",
+            "$\\{n\\mid n\\ge201,\\ n\\in \\mathbb{N}^{*}\\}$",
+            "$\\{n\\mid n\\ge202,\\ n\\in \\mathbb{N}^{*}\\}$"
           ],
           "answer": "B",
-          "solution": "$$\n\\left|\\frac{2n}{n+1}-2\\right|=\\frac{2}{n+1}<0.01\\iff n+1>200\n$$\n\r\n又 $n\\in \\mathbb{N}^*$，故 $n\\ge200$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$$\n\\left|\\frac{2n}{n+1}-2\\right|=\\frac{2}{n+1}&#x3C;0.01\\iff n+1>200\n$$\n<p>又 $n\\in \\mathbb{N}^{*}$，故 $n\\ge200$，选 B.</p>"
         },
         {
           "num": 5,
-          "body": "已知 $\\tan\\alpha=\\dfrac12$，则 $\\dfrac{(\\sin\\alpha+\\cos\\alpha)^2}{\\cos2\\alpha}=$（ ）",
+          "body": "已知 $\\tan\\alpha=\\dfrac{1}{2}$，则 $\\dfrac{(\\sin\\alpha+\\cos\\alpha)^2}{\\cos2\\alpha}=$（ ）",
           "choices": [
             "$2$",
             "$-2$",
@@ -208,107 +65,91 @@
             "$-3$"
           ],
           "answer": "C",
-          "solution": "由 $\\tan\\alpha=\\frac12$ 可知 $\\cos\\alpha\\ne0$，且\r\n$\\sin\\alpha+\\cos\\alpha=\\frac32\\cos\\alpha\\ne0$，\r\n$\\cos2\\alpha=\\cos^2\\alpha-\\sin^2\\alpha\\ne0$. 因此\r\n\n$$\n\\frac{(\\sin\\alpha+\\cos\\alpha)^2}{\\cos2\\alpha}\r\n=\\frac{(\\sin\\alpha+\\cos\\alpha)^2}{(\\cos\\alpha+\\sin\\alpha)(\\cos\\alpha-\\sin\\alpha)}\r\n=\\frac{1+\\tan\\alpha}{1-\\tan\\alpha}\r\n=\\frac{1+\\frac12}{1-\\frac12}=3\n$$\n\r\n选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $\\tan\\alpha=\\frac{1}{2}$ 可知 $\\cos\\alpha\\ne0$，且</p><p>$\\sin\\alpha+\\cos\\alpha=\\frac{3}{2}\\cos\\alpha\\ne0$，</p><p>$\\cos2\\alpha=\\cos^{2}\\alpha-\\sin^{2}\\alpha\\ne0$. 因此</p>\n$$\n\\frac{(\\sin\\alpha+\\cos\\alpha)^{2}}{\\cos2\\alpha}=\\frac{(\\sin\\alpha+\\cos\\alpha)^{2}}{(\\cos\\alpha+\\sin\\alpha)(\\cos\\alpha-\\sin\\alpha)}=\\frac{1+\\tan\\alpha}{1-\\tan\\alpha}=\\frac{1+\\frac{1}{2}}{1-\\frac{1}{2}}=3\n$$\n<p>选 C.</p>"
         },
         {
           "num": 6,
-          "body": "一个正三棱锥的底面边长等于一个球的半径，该正三棱锥的高等于这个球的直径，则球的体积与正三棱锥体积的比值为（ ）",
+          "body": "一个正三棱锥的底面边长等于一个球的半径，该正三棱锥的高等于这个球的直径，则球的体积与正三棱锥体积的比值为（ ）",
           "choices": [
-            "$\\dfrac{8\\sqrt3\\pi}{3}$",
-            "$\\dfrac{\\sqrt3\\pi}{6}$",
-            "$\\dfrac{\\sqrt3\\pi}{2}$",
-            "$8\\sqrt3\\pi$"
+            "$\\dfrac{8\\sqrt{3}\\pi}{3}$",
+            "$\\dfrac{\\sqrt{3}\\pi}{6}$",
+            "$\\dfrac{\\sqrt{3}\\pi}{2}$",
+            "$8\\sqrt{3}\\pi$"
           ],
           "answer": "A",
-          "solution": "设球的半径为 $r$. 则球的体积 $V_1=\\dfrac43\\pi r^3$，正三棱锥的底面面积 $S=\\dfrac{\\sqrt3}{4}r^2$，高 $h=2r$，所以 $V_2=\\dfrac13Sh=\\dfrac13\\cdot\\dfrac{\\sqrt3}{4}r^2\\cdot2r=\\dfrac{\\sqrt3}{6}r^3$.\r\n故 $\\dfrac{V_1}{V_2}=\\dfrac{\\frac43\\pi r^3}{\\frac{\\sqrt3}{6}r^3}=\\dfrac{8\\sqrt3\\pi}{3}$，\r\n选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设球的半径为 $r$. 则球的体积 $V_{1}=\\dfrac{4}{3}\\pi r^{3}$，正三棱锥的底面面积 $S=\\dfrac{\\sqrt{3}}{4}r^{2}$，高 $h=2r$，所以 $V_{2}=\\dfrac{1}{3}Sh=\\dfrac{1}{3}\\cdot\\dfrac{\\sqrt{3}}{4}r^{2}\\cdot2r=\\dfrac{\\sqrt{3}}{6}r^{3}$.</p><p>故 $\\dfrac{V_1}{V_2}=\\dfrac{\\frac{4}{3}\\pi r^3}{\\frac{\\sqrt{3}}{6}r^3}=\\dfrac{8\\sqrt{3}\\pi}{3}$，</p><p>选 A.</p>"
         },
         {
           "num": 7,
-          "body": "若点 $P(2,0)$ 到双曲线 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$ 的一条渐近线的距离为 $\\sqrt2$，则双曲线的离心率为（ ）\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/sichuan_postponed_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>若点 $P(2,0)$ 到双曲线 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$ 的一条渐近线的距离为 $\\sqrt{2}$，则双曲线的离心率为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_postponed_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$\\sqrt2$",
-            "$\\sqrt3$",
-            "$2\\sqrt2$",
-            "$2\\sqrt3$"
+            "$\\sqrt{2}$",
+            "$\\sqrt{3}$",
+            "$2\\sqrt{2}$",
+            "$2\\sqrt{3}$"
           ],
           "answer": "A",
-          "solution": "设渐近线与 $x$ 轴正方向的夹角为 $\\alpha$，则 $\\tan\\alpha=\\dfrac ba$. 点 $P(2,0)$ 到渐近线的距离为 $2\\sin\\alpha=\\sqrt2$，故 $\\sin\\alpha=\\dfrac{\\sqrt2}{2}$，从而 $\\alpha=45^\\circ$，于是 $\\frac{b}{a}=1$. 所以离心率\r\n$e=\\sqrt{1+\\frac{b^2}{a^2}}=\\sqrt2$，\r\n选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设渐近线与 $x$ 轴正方向的夹角为 $\\alpha$，则 $\\tan\\alpha=\\dfrac{b}{a}$. 点 $P(2,0)$ 到渐近线的距离为 $2\\sin\\alpha=\\sqrt{2}$，故 $\\sin\\alpha=\\dfrac{\\sqrt{2}}{2}$，从而 $\\alpha=45^{\\circ}$，于是 $\\frac{b}{a}=1$. 所以离心率</p><p>$e=\\sqrt{1+\\frac{b^{2}}{a^{2}}}=\\sqrt{2}$，</p><p>选 A.</p>"
         },
         {
           "num": 8,
-          "body": "在一次读书活动中，一同学从 $4$ 本不同的科技书和 $2$ 本不同的文艺书中任选 $3$ 本，则所选的书中既有科技书又有文艺书的概率为（ ）",
+          "body": "在一次读书活动中，一同学从 $4$ 本不同的科技书和 $2$ 本不同的文艺书中任选 $3$ 本，则所选的书中既有科技书又有文艺书的概率为（ ）",
           "choices": [
-            "$\\dfrac15$",
-            "$\\dfrac12$",
-            "$\\dfrac23$",
-            "$\\dfrac45$"
+            "$\\dfrac{1}{5}$",
+            "$\\dfrac{1}{2}$",
+            "$\\dfrac{2}{3}$",
+            "$\\dfrac{4}{5}$"
           ],
           "answer": "D",
-          "solution": "从 $6$ 本书中任选 $3$ 本，等可能的选法共有 $\\mathrm C_6^3$ 种. 由于文艺书只有 $2$ 本，选出的 $3$ 本不可能全是文艺书；不满足“既有科技书又有文艺书”的情形只能是 $3$ 本全为科技书，共有 $\\mathrm C_4^3$ 种. 因此所求概率为\r\n$1-\\dfrac{\\mathrm C_4^3}{\\mathrm C_6^3}=1-\\dfrac4{20}=\\dfrac45$，\r\n选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>从 $6$ 本书中任选 $3$ 本，等可能的选法共有 $\\mathrm{C}_{6}^{3}$ 种. 由于文艺书只有 $2$ 本，选出的 $3$ 本不可能全是文艺书；不满足“既有科技书又有文艺书”的情形只能是 $3$ 本全为科技书，共有 $\\mathrm{C}_{4}^{3}$ 种. 因此所求概率为</p><p>$1-\\dfrac{\\mathrm{C}_4^3}{\\mathrm{C}_6^3}=1-\\dfrac4{20}=\\dfrac{4}{5}$，</p><p>选 D.</p>"
         },
         {
           "num": 9,
-          "body": "过点 $(1,1)$ 的直线与圆 $(x-2)^2+(y-3)^2=9$ 相交于 $A$，$B$ 两点，则 $|AB|$ 的最小值为（ ）",
+          "body": "过点 $(1,1)$ 的直线与圆 $(x-2)^{2}+(y-3)^{2}=9$ 相交于 $A$，$B$ 两点，则 $|AB|$ 的最小值为（ ）",
           "choices": [
-            "$2\\sqrt3$",
+            "$2\\sqrt{3}$",
             "$4$",
-            "$2\\sqrt5$",
+            "$2\\sqrt{5}$",
             "$5$"
           ],
           "answer": "B",
-          "solution": "圆心为 $O(2,3)$，半径 $r=3$. 对过点 $P(1,1)$ 的任意直线，圆心到直线的距离 $d\\le OP=\\sqrt5$，而弦长\r\n$|AB|=2\\sqrt{r^2-d^2}$\r\n随 $d$ 增大而减小，所以当 $d$ 取最大值 $\\sqrt5$ 时，$|AB|$ 最小，故\r\n$|AB|_{\\min}=2\\sqrt{9-5}=4$，\r\n选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>圆心为 $O(2,3)$，半径 $r=3$. 对过点 $P(1,1)$ 的任意直线，圆心到直线的距离 $d\\le OP=\\sqrt{5}$，而弦长</p><p>$|AB|=2\\sqrt{r^{2}-d^{2}}$</p><p>随 $d$ 增大而减小，所以当 $d$ 取最大值 $\\sqrt{5}$ 时，$|AB|$ 最小，故</p><p>$|AB|_{\\min}=2\\sqrt{9-5}=4$，</p><p>选 B.</p>"
         },
         {
           "num": 10,
-          "body": "已知两个单位向量 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $135^\\circ$，则 $|\\mathbf{a}+\\lambda\\mathbf{b}|>1$ 的充要条件是（ ）",
+          "body": "已知两个单位向量 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $135^{\\circ}$，则 $|\\mathbf{a}+\\lambda\\mathbf{b}|>1$ 的充要条件是（ ）",
           "choices": [
-            "$\\lambda\\in(0,\\sqrt2)$",
-            "$\\lambda\\in(-\\sqrt2,0)$",
-            "$\\lambda\\in(-\\infty,0)\\cup(\\sqrt2,+\\infty)$",
-            "$\\lambda\\in(-\\infty,-\\sqrt2)\\cup(\\sqrt2,+\\infty)$"
+            "$\\lambda\\in(0,\\sqrt{2})$",
+            "$\\lambda\\in(-\\sqrt{2},0)$",
+            "$\\lambda\\in(-\\infty,0)\\cup(\\sqrt{2},+\\infty)$",
+            "$\\lambda\\in(-\\infty,-\\sqrt{2})\\cup(\\sqrt{2},+\\infty)$"
           ],
           "answer": "C",
-          "solution": "$|\\mathbf{a}+\\lambda\\mathbf{b}|^2=1+\\lambda^2+2\\lambda\\cos135^\\circ=1+\\lambda^2-\\sqrt2\\,\\lambda$.\r\n由 $|\\mathbf{a}+\\lambda\\mathbf{b}|>1$ 得 $\\lambda^2-\\sqrt2\\,\\lambda>0\\iff \\lambda(\\lambda-\\sqrt2)>0$.\r\n故 $\\lambda\\in(-\\infty,0)\\cup(\\sqrt2,+\\infty)$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$|\\mathbf{a}+\\lambda\\mathbf{b}|^{2}=1+\\lambda^{2}+2\\lambda\\cos135^{\\circ}=1+\\lambda^{2}-\\sqrt{2}\\,\\lambda$.</p><p>由 $|\\mathbf{a}+\\lambda\\mathbf{b}|>1$ 得 $\\lambda^{2}-\\sqrt{2}\\,\\lambda>0\\iff \\lambda(\\lambda-\\sqrt{2})>0$.</p><p>故 $\\lambda\\in(-\\infty,0)\\cup(\\sqrt{2},+\\infty)$，选 C.</p>"
         },
         {
           "num": 11,
-          "body": "设函数 $y=f(x)$（$x\\in \\mathbb{R}$）的图象关于直线 $x=0$ 及直线 $x=1$ 对称，且 $x\\in[0,1]$ 时，$f(x)=x^2$，则 $f\\!\\left(-\\dfrac32\\right)=$（ ）",
+          "body": "设函数 $y=f(x)$（$x\\in \\mathbb{R}$）的图象关于直线 $x=0$ 及直线 $x=1$ 对称，且 $x\\in[0,1]$ 时，$f(x)=x^{2}$，则 $f\\!\\left(-\\dfrac{3}{2}\\right)=$（ ）",
           "choices": [
-            "$\\dfrac12$",
-            "$\\dfrac14$",
-            "$\\dfrac34$",
-            "$\\dfrac94$"
+            "$\\dfrac{1}{2}$",
+            "$\\dfrac{1}{4}$",
+            "$\\dfrac{3}{4}$",
+            "$\\dfrac{9}{4}$"
           ],
           "answer": "B",
-          "solution": "由关于直线 $x=0$ 对称，得 $f\\!\\left(-\\dfrac32\\right)=f\\!\\left(\\dfrac32\\right)$. 又由关于直线 $x=1$ 对称，得 $f\\!\\left(\\dfrac32\\right)=f\\!\\left(\\dfrac12\\right)$. 因 $x\\in[0,1]$ 时 $f(x)=x^2$，所以 $f\\!\\left(-\\dfrac32\\right)=f\\!\\left(\\dfrac12\\right)=\\left(\\dfrac12\\right)^2=\\dfrac14$，\r\n选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由关于直线 $x=0$ 对称，得 $f\\!\\left(-\\dfrac{3}{2}\\right)=f\\!\\left(\\dfrac{3}{2}\\right)$. 又由关于直线 $x=1$ 对称，得 $f\\!\\left(\\dfrac{3}{2}\\right)=f\\!\\left(\\dfrac{1}{2}\\right)$. 因 $x\\in[0,1]$ 时 $f(x)=x^{2}$，所以 $f\\!\\left(-\\dfrac{3}{2}\\right)=f\\!\\left(\\dfrac{1}{2}\\right)=\\left(\\dfrac{1}{2}\\right)^{2}=\\dfrac{1}{4}$，</p><p>选 B.</p>"
         },
         {
           "num": 12,
-          "body": "一个正方体的展开图如图所示，$B$，$C$，$D$ 为原正方体的顶点，$A$ 为原正方体一条棱的中点. 在原来的正方体中，$CD$ 与 $AB$ 所成角的余弦值为（ ）\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/sichuan_postponed_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>一个正方体的展开图如图所示，$B$，$C$，$D$ 为原正方体的顶点，$A$ 为原正方体一条棱的中点. 在原来的正方体中，$CD$ 与 $AB$ 所成角的余弦值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_postponed_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$\\dfrac{\\sqrt5}{10}$",
+            "$\\dfrac{\\sqrt{5}}{10}$",
             "$\\dfrac{\\sqrt{10}}{5}$",
-            "$\\dfrac{\\sqrt5}{5}$",
+            "$\\dfrac{\\sqrt{5}}{5}$",
             "$\\dfrac{\\sqrt{10}}{10}$"
           ],
           "answer": "D",
-          "solution": "将展开图中各小正方形的边长取为 $1$. 取图中包含 $B$ 的左下方小正方形为 $z=0$ 面，并令图中向右的四个连续小正方形折叠后依次成为正方体的四个侧面；上方小正方形成为 $y=1$ 面. 于是可在棱长为 $1$ 的正方体中取坐标\r\n$B(1,1,0)$，$A(0,1,\\tfrac12)$，$C(0,0,1)$，$D(0,1,0)$. 这里 $A$ 是上方小正方形左侧棱的中点，$C$，$D$ 分别是最右侧小正方形的左下、右上顶点.\r\n\r\n因此\r\n$\\overrightarrow{AB}=(1,0,-\\tfrac12)$，$\\overrightarrow{CD}=(0,1,-1)$，从而\r\n\n$$\n\\cos\\theta=\\frac{|\\overrightarrow{AB}\\cdot\\overrightarrow{CD}|}{|\\overrightarrow{AB}|\\,|\\overrightarrow{CD}|}\r\n=\\frac{\\frac12}{\\sqrt{1+\\frac14}\\,\\sqrt2}\r\n=\\frac{\\sqrt{10}}{10}\n$$\n\r\n故余弦值为 $\\dfrac{\\sqrt{10}}{10}$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>将展开图中各小正方形的边长取为 $1$. 取图中包含 $B$ 的左下方小正方形为 $z=0$ 面，并令图中向右的四个连续小正方形折叠后依次成为正方体的四个侧面；上方小正方形成为 $y=1$ 面. 于是可在棱长为 $1$ 的正方体中取坐标</p><p>$B(1,1,0)$，$A(0,1,\\tfrac12)$，$C(0,0,1)$，$D(0,1,0)$. 这里 $A$ 是上方小正方形左侧棱的中点，$C$，$D$ 分别是最右侧小正方形的左下、右上顶点.</p><p>因此</p><p>$\\overrightarrow{AB}=(1,0,-\\tfrac12)$，$\\overrightarrow{CD}=(0,1,-1)$，从而</p>\n$$\n\\cos\\theta=\\frac{|\\overrightarrow{AB}\\cdot\\overrightarrow{CD}|}{|\\overrightarrow{AB}|\\,|\\overrightarrow{CD}|}=\\frac{\\frac{1}{2}}{\\sqrt{1+\\frac{1}{4}}\\,\\sqrt{2}}=\\frac{\\sqrt{10}}{10}\n$$\n<p>故余弦值为 $\\dfrac{\\sqrt{10}}{10}$，选 D.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "函数 $y=\\mathrm{e}^{x+1}-1$（$x\\in \\mathbb{R}$）的反函数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\ln(x+1)-1\\)",
-          "solution": "设 $y=\\mathrm{e}^{x+1}-1$，则 $\\mathrm{e}^{x+1}=y+1$，从而 $x=\\ln(y+1)-1$. 故反函数为\r\n$y=\\ln(x+1)-1$（$x>-1$）.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y=\\mathrm{e}^{x+1}-1$（$x\\in \\mathbb{R}$）的反函数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\ln(x+1)-1$",
+          "solution": "<p>设 $y=\\mathrm{e}^{x+1}-1$，则 $\\mathrm{e}^{x+1}=y+1$，从而 $x=\\ln(y+1)-1$. 故反函数为</p><p>$y=\\ln(x+1)-1$（$x>-1$）.</p>"
         },
         {
           "num": 14,
-          "body": "设等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，且 $S_5=a_5$. 若 $a_4\\neq0$，则 $\\dfrac{a_7}{a_4}=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(3\\)",
-          "solution": "设等差数列首项为 $a$，公差为 $d$. 由 $S_5=a_5$ 得\r\n$5a+10d=a+4d\\iff 2a+3d=0$.\r\n故 $a=-\\dfrac32d$，从而\r\n$a_4=a+3d=\\dfrac32d$，$a_7=a+6d=\\dfrac92d$.\r\n题设 $a_4\\ne0$ 保证 $d\\ne0$，所以\r\n$\\dfrac{a_7}{a_4}=\\dfrac{\\frac92d}{\\frac32d}=3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，且 $S_{5}=a_{5}$. 若 $a_{4}\\neq0$，则 $\\dfrac{a_7}{a_4}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$3$",
+          "solution": "<p>设等差数列首项为 $a$，公差为 $d$. 由 $S_{5}=a_{5}$ 得</p><p>$5a+10d=a+4d\\iff 2a+3d=0$.</p><p>故 $a=-\\dfrac{3}{2}d$，从而</p><p>$a_{4}=a+3d=\\dfrac{3}{2}d$，$a_{7}=a+6d=\\dfrac{9}{2}d$.</p><p>题设 $a_{4}\\ne0$ 保证 $d\\ne0$，所以</p><p>$\\dfrac{a_7}{a_4}=\\dfrac{\\frac{9}{2}d}{\\frac{3}{2}d}=3$.</p>"
         },
         {
           "num": 15,
-          "body": "已知函数 $f(x)=\\sin\\!\\left(\\omega x-\\dfrac{\\pi}{6}\\right)$（$\\omega>0$）在 $\\left(0,\\dfrac{4\\pi}{3}\\right)$ 单调增加，在 $\\left(\\dfrac{4\\pi}{3},2\\pi\\right)$ 单调减少，则 $\\omega=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac12\\)",
-          "solution": "因为函数在 $x=\\dfrac{4\\pi}{3}$ 处由增变减，所以存在 $k\\in\\mathbb{Z}$，使\r\n$\\omega\\cdot\\dfrac{4\\pi}{3}-\\dfrac{\\pi}{6}=2k\\pi+\\dfrac{\\pi}{2}$，即 $\\omega=\\dfrac32k+\\dfrac12$.\r\n又 $\\omega>0$，故 $k\\ge0$. 若 $k\\ge1$，则函数的周期\r\n$T=\\dfrac{2\\pi}{\\omega}\\le\\pi<\\dfrac{4\\pi}{3}$. 此时可以取\r\n$0<x<\\dfrac{4\\pi}{3}-T$，则 $x$，$x+T\\in\\left(0,\\dfrac{4\\pi}{3}\\right)$，但\r\n$f(x+T)=f(x)$. 不可能在该区间严格单调增加. 因此 $k=0$，解得\r\n$\\omega=\\dfrac12$. 反之，此时 $f'(x)=\\dfrac12\\cos\\left(\\dfrac{x}{2}-\\dfrac{\\pi}{6}\\right)$，在 $0<x<\\dfrac{4\\pi}{3}$ 时余弦为正，在 $\\dfrac{4\\pi}{3}<x<2\\pi$ 时余弦为负，确实满足题设的增减性. 故 $\\omega=\\dfrac12$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知函数 $f(x)=\\sin\\!\\left(\\omega x-\\dfrac{\\pi}{6}\\right)$（$\\omega>0$）在 $\\left(0,\\dfrac{4\\pi}{3}\\right)$ 单调增加，在 $\\left(\\dfrac{4\\pi}{3},2\\pi\\right)$ 单调减少，则 $\\omega=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\dfrac{1}{2}$",
+          "solution": "<p>因为函数在 $x=\\dfrac{4\\pi}{3}$ 处由增变减，所以存在 $k\\in\\mathbb{Z}$，使</p><p>$\\omega\\cdot\\dfrac{4\\pi}{3}-\\dfrac{\\pi}{6}=2k\\pi+\\dfrac{\\pi}{2}$，即 $\\omega=\\dfrac{3}{2}k+\\dfrac{1}{2}$.</p><p>又 $\\omega>0$，故 $k\\ge0$. 若 $k\\ge1$，则函数的周期</p><p>$T=\\dfrac{2\\pi}{\\omega}\\le\\pi&#x3C;\\dfrac{4\\pi}{3}$. 此时可以取</p><p>$0&#x3C;x&#x3C;\\dfrac{4\\pi}{3}-T$，则 $x$，$x+T\\in\\left(0,\\dfrac{4\\pi}{3}\\right)$，但</p><p>$f(x+T)=f(x)$. 不可能在该区间严格单调增加. 因此 $k=0$，解得</p><p>$\\omega=\\dfrac{1}{2}$. 反之，此时 $f'(x)=\\dfrac{1}{2}\\cos\\left(\\dfrac{x}{2}-\\dfrac{\\pi}{6}\\right)$，在 $0&#x3C;x&#x3C;\\dfrac{4\\pi}{3}$ 时余弦为正，在 $\\dfrac{4\\pi}{3}&#x3C;x&#x3C;2\\pi$ 时余弦为负，确实满足题设的增减性. 故 $\\omega=\\dfrac{1}{2}$.</p>"
         },
         {
           "num": 16,
-          "body": "已知 $\\angle AOB=90^\\circ$，$C$ 为空间中一点，且 $\\angle AOC=\\angle BOC=60^\\circ$，则直线 $OC$ 与平面 $AOB$ 所成角的正弦值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac{\\sqrt2}{2}\\)",
-          "solution": "作点 $C$ 在平面 $AOB$ 内的射影为 $D$. 由于 $CD\\perp$ 平面 $AOB$，有\r\n$\\overrightarrow{OA}\\cdot\\overrightarrow{OC}=\\overrightarrow{OA}\\cdot\\overrightarrow{OD}$ 以及\r\n$\\overrightarrow{OB}\\cdot\\overrightarrow{OC}=\\overrightarrow{OB}\\cdot\\overrightarrow{OD}$.\r\n设 $OA=m$，$OB=n$，$OC=r$. 由\r\n$\\angle AOC=\\angle BOC=60^\\circ$，得\r\n$\\overrightarrow{OA}\\cdot\\overrightarrow{OC}=\\dfrac{mr}{2}$，\r\n$\\overrightarrow{OB}\\cdot\\overrightarrow{OC}=\\dfrac{nr}{2}$. 因而\r\n$\\cos\\angle AOD=\\dfrac{r}{2OD}=\\cos\\angle BOD$，所以 $OD$ 是\r\n$\\angle AOB$ 的平分线.\r\n设 $E$ 为 $D$ 到 $OA$ 的垂足，则 $DE\\perp OA$. 由三垂线定理，\r\n$CE\\perp OE$，且 $\\angle COE=\\angle COA=60^\\circ$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/sichuan_postponed_science/q16_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设 $DE=t>0$. 因为 $OD$ 是 $90^\\circ$ 角的平分线，所以 $OE=DE=t$，从而\r\n$OD=\\sqrt{OE^2+DE^2}=\\sqrt2t$. 在直角三角形 $OCE$ 中，\r\n$\\angle COE=60^\\circ$，故 $OC=2OE=2t$，于是\r\n$CD=\\sqrt{OC^2-OD^2}=\\sqrt2t$.\r\n因此直线 $OC$ 与平面 $AOB$ 所成角的正弦值为\r\n$\\sin\\angle COD=\\dfrac{CD}{OC}=\\dfrac{\\sqrt2}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\angle AOB=90^{\\circ}$，$C$ 为空间中一点，且 $\\angle AOC=\\angle BOC=60^{\\circ}$，则直线 $OC$ 与平面 $AOB$ 所成角的正弦值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\dfrac{\\sqrt{2}}{2}$",
+          "solution": "<p>作点 $C$ 在平面 $AOB$ 内的射影为 $D$. 由于 $CD\\perp$ 平面 $AOB$，有</p><p>$\\overrightarrow{OA}\\cdot\\overrightarrow{OC}=\\overrightarrow{OA}\\cdot\\overrightarrow{OD}$ 以及</p><p>$\\overrightarrow{OB}\\cdot\\overrightarrow{OC}=\\overrightarrow{OB}\\cdot\\overrightarrow{OD}$.</p><p>设 $OA=m$，$OB=n$，$OC=r$. 由</p><p>$\\angle AOC=\\angle BOC=60^{\\circ}$，得</p><p>$\\overrightarrow{OA}\\cdot\\overrightarrow{OC}=\\dfrac{mr}{2}$，</p><p>$\\overrightarrow{OB}\\cdot\\overrightarrow{OC}=\\dfrac{nr}{2}$. 因而</p><p>$\\cos\\angle AOD=\\dfrac{r}{2OD}=\\cos\\angle BOD$，所以 $OD$ 是</p><p>$\\angle AOB$ 的平分线.</p><p>设 $E$ 为 $D$ 到 $OA$ 的垂足，则 $DE\\perp OA$. 由三垂线定理，</p><p>$CE\\perp OE$，且 $\\angle COE=\\angle COA=60^{\\circ}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_postponed_science/q16_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设 $DE=t>0$. 因为 $OD$ 是 $90^{\\circ}$ 角的平分线，所以 $OE=DE=t$，从而</p><p>$OD=\\sqrt{OE^{2}+DE^{2}}=\\sqrt{2}t$. 在直角三角形 $OCE$ 中，</p><p>$\\angle COE=60^{\\circ}$，故 $OC=2OE=2t$，于是</p><p>$CD=\\sqrt{OC^{2}-OD^{2}}=\\sqrt{2}t$.</p><p>因此直线 $OC$ 与平面 $AOB$ 所成角的正弦值为</p><p>$\\sin\\angle COD=\\dfrac{CD}{OC}=\\dfrac{\\sqrt{2}}{2}$.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 对边的边长分别是 $a$，$b$，$c$，已知 $a^2+c^2=2b^2$.\r\n\r\n\n(1) 若 $B=\\dfrac{\\pi}{4}$，且 $A$ 为钝角，求内角 $A$ 与 $C$ 的大小；\n\n(2) 若 $b=2$，求 $\\triangle ABC$ 面积的最大值.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 对边的边长分别是 $a$，$b$，$c$，已知 $a^{2}+c^{2}=2b^{2}$.</p><ol class=\"enumerate\"><li><p>若 $B=\\dfrac{\\pi}{4}$，且 $A$ 为钝角，求内角 $A$ 与 $C$ 的大小；</p></li><li><p>若 $b=2$，求 $\\triangle ABC$ 面积的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由正弦定理及条件，得 $\\sin^2A+\\sin^2C=2\\sin^2B=1$. 故 $\\sin^2C=\\cos^2A$. 又 $A$ 为钝角，所以 $\\sin C=-\\cos A$. 由 $A+C=\\pi-\\dfrac{\\pi}{4}=\\dfrac{3\\pi}{4}$ 且 $A$ 为钝角，得 $0<C<\\dfrac{\\pi}{4}$，进而\r\n$\\sin C=\\sin\\!\\left(\\dfrac{\\pi}{4}-C\\right)$. 由于正弦函数在 $\\left(0,\\dfrac{\\pi}{2}\\right)$ 上单调增加，所以 $C=\\dfrac{\\pi}{8}$，从而 $A=\\dfrac{5\\pi}{8}$.\n\n(2) 由余弦定理及条件 $a^2+c^2=2b^2$，有\r\n$b^2=\\dfrac12(a^2+c^2)$，$\\cos B=\\dfrac{a^2+c^2}{4ac}\\ge\\dfrac12$. 因为 $0<B<\\pi$，所以 $0<B\\le\\dfrac\\pi3$，从而 $\\sin B\\le\\dfrac{\\sqrt3}{2}$. 而 $S_{\\triangle ABC}=\\dfrac12ac\\sin B$. 又 $a^2+c^2=8$，所以 $ac\\le4$. 当 $a=c=2$ 时，上述等号同时成立，故 $S_{\\max}=\\dfrac12\\cdot4\\cdot\\dfrac{\\sqrt3}{2}=\\sqrt3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理及条件，得 $\\sin^{2}A+\\sin^{2}C=2\\sin^{2}B=1$. 故 $\\sin^{2}C=\\cos^{2}A$. 又 $A$ 为钝角，所以 $\\sin C=-\\cos A$. 由 $A+C=\\pi-\\dfrac{\\pi}{4}=\\dfrac{3\\pi}{4}$ 且 $A$ 为钝角，得 $0&#x3C;C&#x3C;\\dfrac{\\pi}{4}$，进而</p><p>$\\sin C=\\sin\\!\\left(\\dfrac{\\pi}{4}-C\\right)$. 由于正弦函数在 $\\left(0,\\dfrac{\\pi}{2}\\right)$ 上单调增加，所以 $C=\\dfrac{\\pi}{8}$，从而 $A=\\dfrac{5\\pi}{8}$.</p></li><li><p>由余弦定理及条件 $a^{2}+c^{2}=2b^{2}$，有</p><p>$b^{2}=\\dfrac{1}{2}(a^{2}+c^{2})$，$\\cos B=\\dfrac{a^2+c^2}{4ac}\\ge\\dfrac{1}{2}$. 因为 $0&#x3C;B&#x3C;\\pi$，所以 $0&#x3C;B\\le\\dfrac\\pi3$，从而 $\\sin B\\le\\dfrac{\\sqrt{3}}{2}$. 而 $S_{\\triangle ABC}=\\dfrac{1}{2}ac\\sin B$. 又 $a^{2}+c^{2}=8$，所以 $ac\\le4$. 当 $a=c=2$ 时，上述等号同时成立，故 $S_{\\max}=\\dfrac{1}{2}\\cdot4\\cdot\\dfrac{\\sqrt{3}}{2}=\\sqrt{3}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "一条生产线上生产的产品按质量情况分为三类：A 类，B 类，C 类. 检验员定时从该生产线上任取 $2$ 件产品进行一次抽检，若发现其中含有 C 类产品或 $2$ 件都是 B 类产品，就需要调整设备，否则不需要调整. 已知该生产线上生产的每件产品为 A 类品，B 类品和 C 类品的概率分别为 $0.9$，$0.05$ 和 $0.05$，且各件产品的质量情况互不影响.\r\n\r\n\n(1) 求在一次抽检后，设备不需要调整的概率；\n\n(2) 若检验员一天抽检 $3$ 次，以 $\\xi$ 表示一天中需要调整设备的次数，求 $\\xi$ 的分布列和数学期望.",
-          "choices": [],
+          "body": "<p>一条生产线上生产的产品按质量情况分为三类：A 类，B 类，C 类. 检验员定时从该生产线上任取 $2$ 件产品进行一次抽检，若发现其中含有 C 类产品或 $2$ 件都是 B 类产品，就需要调整设备，否则不需要调整. 已知该生产线上生产的每件产品为 A 类品，B 类品和 C 类品的概率分别为 $0.9$，$0.05$ 和 $0.05$，且各件产品的质量情况互不影响.</p><ol class=\"enumerate\"><li><p>求在一次抽检后，设备不需要调整的概率；</p></li><li><p>若检验员一天抽检 $3$ 次，以 $\\xi$ 表示一天中需要调整设备的次数，求 $\\xi$ 的分布列和数学期望.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 记第 $i$ 件产品为 A 类、B 类的事件分别为 $A_i$、$B_i$，并记一次抽检后不需要调整设备的事件为 $E$.\r\n不需要调整的情形只有“两件都是 A 类”或“一件 A 类、一件 B 类”，这些情形互斥，因此\r\n$E=(A_1\\cap A_2)\\cup(A_1\\cap B_2)\\cup(B_1\\cap A_2)$，从而\r\n$P(E)=0.9^2+2\\cdot0.9\\cdot0.05=0.9$.\n\n(2) 一次抽检需要调整设备的概率为 $p=1-0.9=0.1$. 三次抽检相互独立，故\r\n$\\xi\\sim B(3,0.1)$，并且对 $k=0$，$1$，$2$，$3$，\r\n$P(\\xi=k)=\\mathrm C_3^k(0.1)^k(0.9)^{3-k}$. 因此\r\n\r\n\\noindent\\makebox[\\linewidth][c]{%\r\n\\begin{tabular}{c|cccc}\r\n$\\xi$ & $0$ & $1$ & $2$ & $3$\\\\ \\hline\r\n$P(\\xi=k)$ & $0.729$ & $0.243$ & $0.027$ & $0.001$\r\n\\end{tabular}%\r\n}\r\n\r\n且 $E(\\xi)=3\\times0.1=0.3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>记第 $i$ 件产品为 A 类、B 类的事件分别为 $A_{i}$、$B_{i}$，并记一次抽检后不需要调整设备的事件为 $E$.</p><p>不需要调整的情形只有“两件都是 A 类”或“一件 A 类、一件 B 类”，这些情形互斥，因此</p><p>$E=(A_{1}\\cap A_{2})\\cup(A_{1}\\cap B_{2})\\cup(B_{1}\\cap A_{2})$，从而</p><p>$P(E)=0.9^{2}+2\\cdot0.9\\cdot0.05=0.9$.</p></li><li><p>一次抽检需要调整设备的概率为 $p=1-0.9=0.1$. 三次抽检相互独立，故</p><p>$\\xi\\sim B(3,0.1)$，并且对 $k=0$，$1$，$2$，$3$，</p><p>$P(\\xi=k)=\\mathrm{C}_{3}^{k}(0.1)^{k}(0.9)^{3-k}$. 因此</p><p><span class=\"latex-box\" style=\"display: inline-block;\"><br></span></p><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P(\\xi=k)$ </td><td style=\"text-align: center\"> $0.729$ </td><td style=\"text-align: center\"> $0.243$ </td><td style=\"text-align: center\"> $0.027$ </td><td style=\"text-align: center\"> $0.001$</td></tr></tbody></table><br><p></p><p>且 $E(\\xi)=3\\times0.1=0.3$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，一张平行四边形的硬纸片 $ABC_0D$ 中，$AD=BD=1$，$AB=\\sqrt2$. 沿它的对角线 $BD$ 把 $\\triangle BDC_0$ 折起，使点 $C_0$ 到达平面 $ABC_0D$ 外点 $C$ 的位置.\r\n\r\n\n(1) 证明：平面 $ABC_0D\\perp$ 平面 $CBC_0$；\n\n(2) 如果 $\\triangle ABC$ 为等腰三角形，求二面角 $A-BD-C$ 的大小.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/sichuan_postponed_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，一张平行四边形的硬纸片 $ABC_{0}D$ 中，$AD=BD=1$，$AB=\\sqrt{2}$. 沿它的对角线 $BD$ 把 $\\triangle BDC_{0}$ 折起，使点 $C_{0}$ 到达平面 $ABC_{0}D$ 外点 $C$ 的位置.</p><ol class=\"enumerate\"><li><p>证明：平面 $ABC_{0}D\\perp$ 平面 $CBC_{0}$；</p></li><li><p>如果 $\\triangle ABC$ 为等腰三角形，求二面角 $A-BD-C$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_postponed_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $AD=BC_0=BD=1$，$AB=C_0D=\\sqrt2$，所以 $\\angle DBC_0=90^\\circ$，$\\angle ADB=90^\\circ$.\r\n在折叠过程中，$\\angle DBC=\\angle DBC_0=90^\\circ$，所以 $DB\\perp BC$，又 $DB\\perp BC_0$，故 $DB\\perp$ 平面 $CBC_0$.\r\n又 $DB\\subset$ 平面 $ABC_0D$，所以平面 $ABC_0D\\perp$ 平面 $CBC_0$.\n\n(2) 以 $D$ 为坐标原点，射线 $DA$，$DB$ 分别为 $x$ 轴正半轴和 $y$ 轴正半轴，建立如图的空间直角坐标系 $D-xyz$. 取垂直于平面 $ABC_0D$ 且使 $C$ 的 $z$ 坐标为正的方向为 $z$ 轴正方向.\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/sichuan_postponed_science/q19_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n则 $A(1,0,0)$，$B(0,1,0)$，$D(0,0,0)$.\r\n由前一小问，$BC\\perp BD$，且折叠不改变 $BC$ 的长度，所以可设点 $C$ 的坐标为 $(x,1,z)$，其中 $z>0$，并有 $x^2+z^2=1$. 因为 $AB=\\sqrt2$，$BC=1$，三角形 $ABC$ 为等腰三角形时只能有 $AC=1$ 或 $AC=\\sqrt2$.\r\n\r\n若 $AC=1$，则 $(x-1)^2+1+z^2=1$，结合 $x^2+z^2=1$ 得 $x=1$，$z=0$，这与 $C$ 在平面 $ABC_0D$ 外矛盾. 因而 $AC=\\sqrt2$，从而 $(x-1)^2+1+z^2=2$. 联立两式得 $x=\\dfrac12$，$z=\\dfrac{\\sqrt3}{2}$，故\r\n点 $C$ 的坐标为 $\\left(\\dfrac12,1,\\dfrac{\\sqrt3}{2}\\right)$.\r\n\r\n在底面中 $DA\\perp BD$，且 $BC\\perp BD$，所以 $\\overrightarrow{DA}$ 与 $\\overrightarrow{BC}$ 的夹角即为二面角 $A-BD-C$ 的平面角.\r\n又 $\\overrightarrow{DA}=(1,0,0)$，$\\overrightarrow{BC}=\\left(\\dfrac12,0,\\dfrac{\\sqrt3}{2}\\right)$，所以\r\n\n$$\n\\cos\\angle(\\overrightarrow{DA},\\overrightarrow{BC})=\\dfrac{\\overrightarrow{DA}\\cdot\\overrightarrow{BC}}{\\left|\\overrightarrow{DA}\\right|\\left|\\overrightarrow{BC}\\right|}=\\dfrac12\n$$\n\r\n故 $\\angle(\\overrightarrow{DA},\\overrightarrow{BC})=60^\\circ$，即二面角 $A-BD-C$ 的大小为 $60^\\circ$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $AD=BC_{0}=BD=1$，$AB=C_{0}D=\\sqrt{2}$，所以 $\\angle DBC_{0}=90^{\\circ}$，$\\angle ADB=90^{\\circ}$.</p><p>在折叠过程中，$\\angle DBC=\\angle DBC_{0}=90^{\\circ}$，所以 $DB\\perp BC$，又 $DB\\perp BC_{0}$，故 $DB\\perp$ 平面 $CBC_{0}$.</p><p>又 $DB\\subset$ 平面 $ABC_{0}D$，所以平面 $ABC_{0}D\\perp$ 平面 $CBC_{0}$.</p></li><li><p>以 $D$ 为坐标原点，射线 $DA$，$DB$ 分别为 $x$ 轴正半轴和 $y$ 轴正半轴，建立如图的空间直角坐标系 $D-xyz$. 取垂直于平面 $ABC_{0}D$ 且使 $C$ 的 $z$ 坐标为正的方向为 $z$ 轴正方向.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_postponed_science/q19_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>则 $A(1,0,0)$，$B(0,1,0)$，$D(0,0,0)$.</p><p>由前一小问，$BC\\perp BD$，且折叠不改变 $BC$ 的长度，所以可设点 $C$ 的坐标为 $(x,1,z)$，其中 $z>0$，并有 $x^{2}+z^{2}=1$. 因为 $AB=\\sqrt{2}$，$BC=1$，三角形 $ABC$ 为等腰三角形时只能有 $AC=1$ 或 $AC=\\sqrt{2}$.</p><p>若 $AC=1$，则 $(x-1)^{2}+1+z^{2}=1$，结合 $x^{2}+z^{2}=1$ 得 $x=1$，$z=0$，这与 $C$ 在平面 $ABC_{0}D$ 外矛盾. 因而 $AC=\\sqrt{2}$，从而 $(x-1)^{2}+1+z^{2}=2$. 联立两式得 $x=\\dfrac{1}{2}$，$z=\\dfrac{\\sqrt{3}}{2}$，故</p><p>点 $C$ 的坐标为 $\\left(\\dfrac{1}{2},1,\\dfrac{\\sqrt{3}}{2}\\right)$.</p><p>在底面中 $DA\\perp BD$，且 $BC\\perp BD$，所以 $\\overrightarrow{DA}$ 与 $\\overrightarrow{BC}$ 的夹角即为二面角 $A-BD-C$ 的平面角.</p><p>又 $\\overrightarrow{DA}=(1,0,0)$，$\\overrightarrow{BC}=\\left(\\dfrac{1}{2},0,\\dfrac{\\sqrt{3}}{2}\\right)$，所以</p>\n$$\n\\cos\\angle(\\overrightarrow{DA},\\overrightarrow{BC})=\\dfrac{\\overrightarrow{DA}\\cdot\\overrightarrow{BC}}{\\left|\\overrightarrow{DA}\\right|\\left|\\overrightarrow{BC}\\right|}=\\dfrac{1}{2}\n$$\n<p>故 $\\angle(\\overrightarrow{DA},\\overrightarrow{BC})=60^{\\circ}$，即二面角 $A-BD-C$ 的大小为 $60^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "在数列 $\\{a_n\\}$ 中，$a_1=1$，$2a_{n+1}=\\left(1+\\dfrac1n\\right)^2a_n$.\r\n\r\n\n(1) 求 $\\{a_n\\}$ 的通项公式；\n\n(2) 令 $b_n=a_{n+1}-\\dfrac12a_n$，求数列 $\\{b_n\\}$ 的前 $n$ 项和 $S_n$；\n\n(3) 求数列 $\\{a_n\\}$ 的前 $n$ 项和 $T_n$.",
-          "choices": [],
+          "body": "<p>在数列 $\\{a_{n}\\}$ 中，$a_{1}=1$，$2a_{n+1}=\\left(1+\\dfrac{1}{n}\\right)^{2}a_{n}$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>令 $b_{n}=a_{n+1}-\\dfrac{1}{2}a_{n}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $S_{n}$；</p></li><li><p>求数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由条件得 $\\dfrac{a_{n+1}}{(n+1)^2}=\\dfrac12\\cdot\\dfrac{a_n}{n^2}$. 又 $n=1$ 时，$\\dfrac{a_1}{1^2}=1$，故数列 $\\left\\{\\dfrac{a_n}{n^2}\\right\\}$ 构成首项为 $1$，公比为 $\\dfrac12$ 的等比数列. 从而 $\\dfrac{a_n}{n^2}=\\dfrac1{2^{\\,n-1}}$，$a_n=\\dfrac{n^2}{2^{\\,n-1}}$.\n\n(2) $$\nb_n=a_{n+1}-\\dfrac12a_n=\\dfrac{(n+1)^2}{2^n}-\\dfrac{n^2}{2^n}=\\dfrac{2n+1}{2^n}.\n$$\n\r\n所以 $S_n=\\dfrac32+\\dfrac5{2^2}+\\cdots+\\dfrac{2n+1}{2^n}$. 又 $\\dfrac12S_n=\\dfrac3{2^2}+\\dfrac5{2^3}+\\cdots+\\dfrac{2n-1}{2^n}+\\dfrac{2n+1}{2^{n+1}}$，两式相减得\r\n$\\dfrac12S_n=\\dfrac32+2\\left(\\dfrac1{2^2}+\\dfrac1{2^3}+\\cdots+\\dfrac1{2^n}\\right)-\\dfrac{2n+1}{2^{n+1}}$.\r\n其中 $\\dfrac1{2^2}+\\cdots+\\dfrac1{2^n}=\\dfrac12-\\dfrac1{2^n}$，所以\r\n$\\dfrac12S_n=\\dfrac52-\\dfrac{2n+5}{2^{n+1}}$，即 $S_n=5-\\dfrac{2n+5}{2^n}$.\n\n(3) 由 $S_n=(a_2+a_3+\\cdots+a_{n+1})-\\dfrac12(a_1+a_2+\\cdots+a_n)$ 得 $T_n-a_1+a_{n+1}-\\dfrac12T_n=S_n$. 所以 $T_n=2S_n+2a_1-2a_{n+1}=12-\\dfrac{n^2+4n+6}{2^{n-1}}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由条件得 $\\dfrac{a_{n+1}}{(n+1)^2}=\\dfrac{1}{2}\\cdot\\dfrac{a_n}{n^2}$. 又 $n=1$ 时，$\\dfrac{a_1}{1^2}=1$，故数列 $\\left\\{\\dfrac{a_n}{n^2}\\right\\}$ 构成首项为 $1$，公比为 $\\dfrac{1}{2}$ 的等比数列. 从而 $\\dfrac{a_n}{n^2}=\\dfrac1{2^{\\,n-1}}$，$a_{n}=\\dfrac{n^2}{2^{\\,n-1}}$.</p></li><li>\n$$\nb_{n}=a_{n+1}-\\dfrac{1}{2}a_{n}=\\dfrac{(n+1)^2}{2^n}-\\dfrac{n^2}{2^n}=\\dfrac{2n+1}{2^n}.\n$$\n<p>所以 $S_{n}=\\dfrac{3}{2}+\\dfrac5{2^2}+\\cdots+\\dfrac{2n+1}{2^n}$. 又 $\\dfrac{1}{2}S_{n}=\\dfrac3{2^2}+\\dfrac5{2^3}+\\cdots+\\dfrac{2n-1}{2^n}+\\dfrac{2n+1}{2^{n+1}}$，两式相减得</p><p>$\\dfrac{1}{2}S_{n}=\\dfrac{3}{2}+2\\left(\\dfrac1{2^2}+\\dfrac1{2^3}+\\cdots+\\dfrac1{2^n}\\right)-\\dfrac{2n+1}{2^{n+1}}$.</p><p>其中 $\\dfrac1{2^2}+\\cdots+\\dfrac1{2^n}=\\dfrac{1}{2}-\\dfrac1{2^n}$，所以</p><p>$\\dfrac{1}{2}S_{n}=\\dfrac{5}{2}-\\dfrac{2n+5}{2^{n+1}}$，即 $S_{n}=5-\\dfrac{2n+5}{2^n}$.</p></li><li><p>由 $S_{n}=(a_{2}+a_{3}+\\cdots+a_{n+1})-\\dfrac{1}{2}(a_{1}+a_{2}+\\cdots+a_{n})$ 得 $T_{n}-a_{1}+a_{n+1}-\\dfrac{1}{2}T_{n}=S_{n}$. 所以 $T_{n}=2S_{n}+2a_{1}-2a_{n+1}=12-\\dfrac{n^2+4n+6}{2^{n-1}}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知椭圆 $C_1$ 的中心和抛物线 $C_2$ 的顶点都在坐标原点 $O$，$C_1$ 和 $C_2$ 有公共焦点 $F$，点 $F$ 在 $x$ 轴正半轴上，且 $C_1$ 的长轴长，短轴长及点 $F$ 到 $C_1$ 右准线的距离成等比数列.\r\n\r\n\n(1) 当 $C_2$ 的准线与 $C_1$ 右准线间的距离为 $15$ 时，求 $C_1$ 及 $C_2$ 的方程；\n\n(2) 设过点 $F$ 且斜率为 $1$ 的直线 $l$ 交 $C_1$ 于 $P$，$Q$ 两点，交 $C_2$ 于 $M$，$N$ 两点. 当 $|PQ|=\\dfrac{36}{7}$ 时，求 $|MN|$ 的值.",
-          "choices": [],
+          "body": "<p>已知椭圆 $C_{1}$ 的中心和抛物线 $C_{2}$ 的顶点都在坐标原点 $O$，$C_{1}$ 和 $C_{2}$ 有公共焦点 $F$，点 $F$ 在 $x$ 轴正半轴上，且 $C_{1}$ 的长轴长，短轴长及点 $F$ 到 $C_{1}$ 右准线的距离成等比数列.</p><ol class=\"enumerate\"><li><p>当 $C_{2}$ 的准线与 $C_{1}$ 右准线间的距离为 $15$ 时，求 $C_{1}$ 及 $C_{2}$ 的方程；</p></li><li><p>设过点 $F$ 且斜率为 $1$ 的直线 $l$ 交 $C_{1}$ 于 $P$，$Q$ 两点，交 $C_{2}$ 于 $M$，$N$ 两点. 当 $|PQ|=\\dfrac{36}{7}$ 时，求 $|MN|$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $C_1:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$），其半焦距为 $c$（$c>0$）. 则 $a^2=b^2+c^2$，且公共焦点为 $F(c,0)$，所以 $C_2:y^2=4cx$.\r\n$C_1$ 的长轴长、短轴长分别为 $2a$，$2b$，右准线为 $x=\\dfrac{a^2}{c}$，故点 $F$ 到右准线的距离为 $\\dfrac{a^2}{c}-c$. 等比条件给出\r\n$4b^2=2a\\left(\\dfrac{a^2}{c}-c\\right)=2a\\cdot\\dfrac{b^2}{c}$.\r\n由于 $b>0$，约去 $b^2$ 得 $a=2c$. 此时 $C_1$ 的右准线为 $x=4c$，而 $C_2$ 的准线为 $x=-c$，两者距离为 $5c=15$，所以 $c=3$，$a=6$，\r\n$b=\\sqrt{a^2-c^2}=3\\sqrt3$. 从而\r\n$C_1:\\dfrac{x^2}{36}+\\dfrac{y^2}{27}=1$，$C_2:y^2=12x$.\n\n(2) 由题设知 $l:y=x-c$. 设椭圆交点为 $P(x_1,y_1)$，$Q(x_2,y_2)$，抛物线交点为 $M(x_3,y_3)$，$N(x_4,y_4)$. 由前一小问知 $C_1:\\dfrac{x^2}{4c^2}+\\dfrac{y^2}{3c^2}=1$，即 $3x^2+4y^2=12c^2$. 代入直线方程得\r\n\\examdisplaycases{}{\r\n3x^2+4y^2=12c^2,\\\\\r\ny=x-c\r\n}\r\n即 $x_1$，$x_2$ 满足\r\n$7x^2-8cx-8c^2=0$. 该方程的判别式为 $288c^2$，所以\r\n$\\lvert x_1-x_2\\rvert=\\dfrac{\\sqrt{288}c}{7}=\\dfrac{12\\sqrt2}{7}c$. 由于直线斜率为 $1$，\r\n\\examdisplaychain{\r\n|PQ|&=\\sqrt{(x_1-x_2)^2+(y_1-y_2)^2}\\\\\r\n&=\\sqrt2\\,|x_1-x_2|\\\\\r\n&=\\frac{24}{7}c.\r\n}\r\n由条件 $|PQ|=\\dfrac{36}{7}$，得 $c=\\dfrac32$，故 $C_2:y^2=6x$. 由\r\n\\examdisplaycases{}{\r\ny^2=6x,\\\\\r\ny=x-\\dfrac32\r\n}\r\n得 $x^2-9x+\\dfrac94=0$，所以 $x_3+x_4=9$. 将该二次式记为 $g(x)$，则\r\n$g(c)=g\\left(\\dfrac32\\right)<0$，故焦点横坐标 $c$ 位于两根 $x_3$，$x_4$ 之间，点 $F$ 在线段 $MN$ 内.\r\n又对抛物线上的点 $(x,y)$，有\r\n$MF^2=(x-c)^2+y^2=(x-c)^2+4cx=(x+c)^2$，且 $x+c>0$，所以 $MF=x+c$.\r\n因此 $|MN|=|MF|+|FN|=x_3+x_4+2c=9+3=12$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $C_{1}:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$），其半焦距为 $c$（$c>0$）. 则 $a^{2}=b^{2}+c^{2}$，且公共焦点为 $F(c,0)$，所以 $C_{2}:y^{2}=4cx$.</p><p>$C_{1}$ 的长轴长、短轴长分别为 $2a$，$2b$，右准线为 $x=\\dfrac{a^2}{c}$，故点 $F$ 到右准线的距离为 $\\dfrac{a^2}{c}-c$. 等比条件给出</p><p>$4b^{2}=2a\\left(\\dfrac{a^2}{c}-c\\right)=2a\\cdot\\dfrac{b^2}{c}$.</p><p>由于 $b>0$，约去 $b^{2}$ 得 $a=2c$. 此时 $C_{1}$ 的右准线为 $x=4c$，而 $C_{2}$ 的准线为 $x=-c$，两者距离为 $5c=15$，所以 $c=3$，$a=6$，</p><p>$b=\\sqrt{a^{2}-c^{2}}=3\\sqrt{3}$. 从而</p><p>$C_{1}:\\dfrac{x^2}{36}+\\dfrac{y^2}{27}=1$，$C_{2}:y^{2}=12x$.</p></li><li><p>由题设知 $l:y=x-c$. 设椭圆交点为 $P(x_{1},y_{1})$，$Q(x_{2},y_{2})$，抛物线交点为 $M(x_{3},y_{3})$，$N(x_{4},y_{4})$. 由前一小问知 $C_{1}:\\dfrac{x^2}{4c^2}+\\dfrac{y^2}{3c^2}=1$，即 $3x^{2}+4y^{2}=12c^{2}$. 代入直线方程得</p><p><span class=\"macro macro-examdisplaycases\"></span><br>3x^2+4y^2=12c^2,<br class=\"linebreak\"><br>y=x-c<br></p><p>即 $x_{1}$，$x_{2}$ 满足</p><p>$7x^{2}-8cx-8c^{2}=0$. 该方程的判别式为 $288c^{2}$，所以</p><p>$\\lvert x_{1}-x_{2}\\rvert=\\dfrac{\\sqrt{288}c}{7}=\\dfrac{12\\sqrt{2}}{7}c$. 由于直线斜率为 $1$，</p><p><span class=\"macro macro-examdisplaychain\"></span><br>|PQ|&#x26;=<span class=\"macro macro-sqrt\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">(x_{1}-x_{2})^{2}+(y_{1}-y_{2})^{2}</span></span><br class=\"linebreak\"><br>&#x26;=<span class=\"macro macro-sqrt\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">2</span></span> |x_1-x_2|<br class=\"linebreak\"><br>&#x26;=<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">24</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">7</span></span>c.<br></p><p>由条件 $|PQ|=\\dfrac{36}{7}$，得 $c=\\dfrac{3}{2}$，故 $C_{2}:y^{2}=6x$. 由</p><p><span class=\"macro macro-examdisplaycases\"></span><br>y^2=6x,<br class=\"linebreak\"><br>y=x-<span class=\"macro macro-dfrac\"></span>32<br></p><p>得 $x^{2}-9x+\\dfrac{9}{4}=0$，所以 $x_{3}+x_{4}=9$. 将该二次式记为 $g(x)$，则</p><p>$g(c)=g\\left(\\dfrac{3}{2}\\right)&#x3C;0$，故焦点横坐标 $c$ 位于两根 $x_{3}$，$x_{4}$ 之间，点 $F$ 在线段 $MN$ 内.</p><p>又对抛物线上的点 $(x,y)$，有</p><p>$MF^{2}=(x-c)^{2}+y^{2}=(x-c)^{2}+4cx=(x+c)^{2}$，且 $x+c>0$，所以 $MF=x+c$.</p><p>因此 $|MN|=|MF|+|FN|=x_{3}+x_{4}+2c=9+3=12$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "设函数 $f(x)=\\dfrac{2x+1}{x^2+2}$.\r\n\r\n\n(1) 求 $f(x)$ 的单调区间和极值；\n\n(2) 若对一切 $x\\in \\mathbb{R}$，$-3\\le af(x)+b\\le3$，求 $a-b$ 的最大值.",
-          "choices": [],
+          "body": "<p>设函数 $f(x)=\\dfrac{2x+1}{x^2+2}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间和极值；</p></li><li><p>若对一切 $x\\in \\mathbb{R}$，$-3\\le af(x)+b\\le3$，求 $a-b$ 的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由求导得 $f'(x)=\\frac{2(x^2+2)-2x(2x+1)}{(x^2+2)^2}=\\frac{-2(x+2)(x-1)}{(x^2+2)^2}$.\r\n当 $x\\in(-2,1)$ 时，$f'(x)>0$；当 $x\\in(-\\infty,-2)\\cup(1,+\\infty)$ 时，$f'(x)<0$. 故 $f(x)$ 在 $(-2,1)$ 单调增加，在 $(-\\infty,-2)\\cup(1,+\\infty)$ 单调减少. 又\r\n$\\displaystyle\\lim_{x\\to-\\infty}f(x)=\\lim_{x\\to+\\infty}f(x)=0$，且\r\n$f(-2)=-\\dfrac12$，$f(1)=1$，所以 $f(x)$ 的极小值为 $-\\dfrac12$，极大值为 $1$.\n\n(2) 由前一小问知 $f(x)\\in\\left[-\\dfrac12,1\\right]$. 因此对一切 $x\\in \\mathbb{R}$，$-3\\le af(x)+b\\le3$ 的充要条件是\r\n\\examdisplaycases{}{\r\n-3\\le-\\dfrac12 a+b\\le3,\\\\\r\n-3\\le a+b\\le3\r\n}\r\n令 $u=a+b$，$v=-\\dfrac12a+b$，则上述条件等价于\r\n$u$，$v\\in[-3,3]$. 解这个线性变换得\r\n$a=\\dfrac23(u-v)$，$b=\\dfrac13(u+2v)$，所以\r\n$a-b=\\dfrac{u-4v}{3}$.\r\n由于 $u\\le3$、$v\\ge-3$，有\r\n$a-b=\\dfrac{u-4v}{3}\\le\\dfrac{3-4(-3)}{3}=5$.\r\n当 $u=3$，$v=-3$ 时，$a=4$，$b=-1$，且确实满足端点条件，故上界可以取得，\r\n$a-b$ 的最大值为 $5$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由求导得 $f'(x)=\\frac{2(x^{2}+2)-2x(2x+1)}{(x^{2}+2)^{2}}=\\frac{-2(x+2)(x-1)}{(x^{2}+2)^{2}}$.</p><p>当 $x\\in(-2,1)$ 时，$f'(x)>0$；当 $x\\in(-\\infty,-2)\\cup(1,+\\infty)$ 时，$f'(x)&#x3C;0$. 故 $f(x)$ 在 $(-2,1)$ 单调增加，在 $(-\\infty,-2)\\cup(1,+\\infty)$ 单调减少. 又</p><p>$\\displaystyle\\lim_{x\\to-\\infty}f(x)=\\lim_{x\\to+\\infty}f(x)=0$，且</p><p>$f(-2)=-\\dfrac{1}{2}$，$f(1)=1$，所以 $f(x)$ 的极小值为 $-\\dfrac{1}{2}$，极大值为 $1$.</p></li><li><p>由前一小问知 $f(x)\\in\\left[-\\dfrac{1}{2},1\\right]$. 因此对一切 $x\\in \\mathbb{R}$，$-3\\le af(x)+b\\le3$ 的充要条件是</p><p><span class=\"macro macro-examdisplaycases\"></span><br>-3<span class=\"macro macro-le\"></span>-<span class=\"macro macro-dfrac\"></span>12 a+b<span class=\"macro macro-le\"></span>3,<br class=\"linebreak\"><br>-3<span class=\"macro macro-le\"></span> a+b<span class=\"macro macro-le\"></span>3<br></p><p>令 $u=a+b$，$v=-\\dfrac{1}{2}a+b$，则上述条件等价于</p><p>$u$，$v\\in[-3,3]$. 解这个线性变换得</p><p>$a=\\dfrac{2}{3}(u-v)$，$b=\\dfrac{1}{3}(u+2v)$，所以</p><p>$a-b=\\dfrac{u-4v}{3}$.</p><p>由于 $u\\le3$、$v\\ge-3$，有</p><p>$a-b=\\dfrac{u-4v}{3}\\le\\dfrac{3-4(-3)}{3}=5$.</p><p>当 $u=3$，$v=-3$ 时，$a=4$，$b=-1$，且确实满足端点条件，故上界可以取得，</p><p>$a-b$ 的最大值为 $5$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

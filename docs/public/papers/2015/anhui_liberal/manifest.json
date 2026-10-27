@@ -1,144 +1,15 @@
 {
+  "title": "2015年普通高等学校招生全国统一考试",
+  "subtitle": "2015年安徽卷（文）",
   "year": "2015",
   "slug": "anhui_liberal",
-  "title": "2015年安徽卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设 $i$ 是虚数单位，则复数 $(1 - \\mathrm{i})(1 + 2\\mathrm{i}) =$（ ）\r\n\r\n\r\nC\r\n\r\n利用 $\\mathrm{i}^2=-1$，直接展开得\r\n\n$$\n(1-\\mathrm{i})(1+2\\mathrm{i})=1+2\\mathrm{i}-\\mathrm{i}-2\\mathrm{i}^2=1+\\mathrm{i}+2=3+\\mathrm{i}\n$$\n\r\n所以应选 C.",
+          "body": "<p>设 $i$ 是虚数单位，则复数 $(1 - \\mathrm{i})(1 + 2\\mathrm{i}) =$（ ）</p><p>C</p><p>利用 $\\mathrm{i}^{2}=-1$，直接展开得</p>\n$$\n(1-\\mathrm{i})(1+2\\mathrm{i})=1+2\\mathrm{i}-\\mathrm{i}-2\\mathrm{i}^{2}=1+\\mathrm{i}+2=3+\\mathrm{i}\n$$\n<p>所以应选 C.</p>",
           "choices": [
             "$3 + 3\\mathrm{i}$",
             "$-1 + 3\\mathrm{i}$",
@@ -146,13 +17,11 @@
             "$-1 + \\mathrm{i}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 2,
-          "body": "设全集 $U = \\{1, 2, 3, 4, 5, 6\\}$，$A = \\{1, 2\\}$，$B = \\{2, 3, 4\\}$，则 $A \\cap (\\complement_U B) =$（ ）\r\n\r\n\r\nB\r\n\r\n在全集 $U$ 中去掉集合 $B$ 的元素，得到 $\\complement_U B=\\{1,5,6\\}$. 因而\r\n\n$$\nA\\cap(\\complement_U B)=\\{1,2\\}\\cap\\{1,5,6\\}=\\{1\\}\n$$\n\r\n所以应选 B.",
+          "body": "<p>设全集 $U = \\{1, 2, 3, 4, 5, 6\\}$，$A = \\{1, 2\\}$，$B = \\{2, 3, 4\\}$，则 $A \\cap (\\complement_{U} B) =$（ ）</p><p>B</p><p>在全集 $U$ 中去掉集合 $B$ 的元素，得到 $\\complement_{U} B=\\{1,5,6\\}$. 因而</p>\n$$\nA\\cap(\\complement_{U} B)=\\{1,2\\}\\cap\\{1,5,6\\}=\\{1\\}\n$$\n<p>所以应选 B.</p>",
           "choices": [
             "$\\{1, 2, 5, 6\\}$",
             "$\\{1\\}$",
@@ -160,13 +29,11 @@
             "$\\{1, 2, 3, 4\\}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 3,
-          "body": "设 $p: x < 3$，$q: -1 < x < 3$，则 $p$ 是 $q$ 成立的（ ）\r\n\r\n\r\nC\r\n\r\n若 $q$ 成立，则 $-1<x<3$，必有 $p$ 成立，因此 $p$ 是 $q$ 成立的必要条件. 但 $p$ 成立不一定有 $q$ 成立，例如 $x=-2$ 时 $p$ 成立而 $q$ 不成立，所以 $p$ 不是充分条件. 因此 $p$ 是 $q$ 成立的必要不充分条件，应选 C.",
+          "body": "<p>设 $p: x &#x3C; 3$，$q: -1 &#x3C; x &#x3C; 3$，则 $p$ 是 $q$ 成立的（ ）</p><p>C</p><p>若 $q$ 成立，则 $-1&#x3C;x&#x3C;3$，必有 $p$ 成立，因此 $p$ 是 $q$ 成立的必要条件. 但 $p$ 成立不一定有 $q$ 成立，例如 $x=-2$ 时 $p$ 成立而 $q$ 不成立，所以 $p$ 不是充分条件. 因此 $p$ 是 $q$ 成立的必要不充分条件，应选 C.</p>",
           "choices": [
             "充分必要条件",
             "充分不必要条件",
@@ -174,27 +41,23 @@
             "既不充分也不必要条件"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 4,
-          "body": "下列函数中，既是偶函数又存在零点的是（ ）\r\n\r\n\r\nA\r\n\r\n函数 $y=\\cos x$ 的定义域为 $\\mathbb{R}$，且 $\\cos(-x)=\\cos x$，所以它是偶函数；又 $\\cos\\frac{\\pi}{2}=0$，所以它存在零点. 函数 $y=\\sin x$ 满足 $\\sin(-x)=-\\sin x$，是奇函数；函数 $y=\\ln x$ 的定义域为 $(0,+\\infty)$，不是关于原点对称的集合，不是偶函数；函数 $y=x^2+1$ 虽为偶函数，但对任意实数 $x$ 都有 $x^2+1>0$，没有零点. 所以应选 A.",
+          "body": "<p>下列函数中，既是偶函数又存在零点的是（ ）</p><p>A</p><p>函数 $y=\\cos x$ 的定义域为 $\\mathbb{R}$，且 $\\cos(-x)=\\cos x$，所以它是偶函数；又 $\\cos\\frac{\\pi}{2}=0$，所以它存在零点. 函数 $y=\\sin x$ 满足 $\\sin(-x)=-\\sin x$，是奇函数；函数 $y=\\ln x$ 的定义域为 $(0,+\\infty)$，不是关于原点对称的集合，不是偶函数；函数 $y=x^{2}+1$ 虽为偶函数，但对任意实数 $x$ 都有 $x^{2}+1>0$，没有零点. 所以应选 A.</p>",
           "choices": [
             "$y = \\cos x$",
             "$y = \\sin x$",
             "$y = \\ln x$",
-            "$y = x^{2} + 1$"
+            "$y = x^{2}+ 1$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 5,
-          "body": "已知 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx - y \\ge 0,\\\\\r\nx + y - 4 \\le 0,\\\\\r\ny \\ge 1,\r\n\\end{cases}$，则 $z = -2x + y$ 的最大值是（ ）\r\n\r\n\r\nA\r\n\r\n由约束条件得 $x\\ge y$ 且 $y\\geqslant1$. 因为 $z=-2x+y$，对固定的 $y$，当 $x$ 取允许的最小值时 $z$ 最大；而 $x\\ge y$，所以\r\n\n$$\nz=-2x+y\\le-2y+y=-y\\le-1\n$$\n\r\n取 $x=y=1$ 时，三个约束条件分别取值为 $0$、$-2$、$1$，均满足，且 $z=-1$. 因而最大值为 $-1$，应选 A.",
+          "body": "<p>已知 $x$，$y$ 满足约束条件 $\\begin{cases}x - y \\ge 0,\\\\\n\nx + y - 4 \\le 0,\\\\\n\ny \\ge 1,\\end{cases}$，则 $z = -2x + y$ 的最大值是（ ）</p><p>A</p><p>由约束条件得 $x\\ge y$ 且 $y\\geqslant1$. 因为 $z=-2x+y$，对固定的 $y$，当 $x$ 取允许的最小值时 $z$ 最大；而 $x\\ge y$，所以</p>\n$$\nz=-2x+y\\le-2y+y=-y\\le-1\n$$\n<p>取 $x=y=1$ 时，三个约束条件分别取值为 $0$、$-2$、$1$，均满足，且 $z=-1$. 因而最大值为 $-1$，应选 A.</p>",
           "choices": [
             "$-1$",
             "$-2$",
@@ -202,27 +65,23 @@
             "1"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 6,
-          "body": "下列双曲线中，渐近线方程为 $y = \\pm 2x$ 的是（ ）\r\n\r\n\r\nA\r\n\r\n双曲线 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$ 的渐近线为 $y=\\pm\\frac{b}{a}x$. 选项 A 可写成 $\\frac{x^2}{1^2}-\\frac{y^2}{2^2}=1$，其渐近线为 $y=\\pm2x$. 其余选项对应的 $\\frac{b}{a}$ 分别为 $\\frac12$、$\\sqrt2$、$\\frac{1}{\\sqrt2}$，均不等于 $2$. 所以应选 A.",
+          "body": "<p>下列双曲线中，渐近线方程为 $y = \\pm 2x$ 的是（ ）</p><p>A</p><p>双曲线 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$ 的渐近线为 $y=\\pm\\frac{b}{a}x$. 选项 A 可写成 $\\frac{x^{2}}{1^{2}}-\\frac{y^{2}}{2^{2}}=1$，其渐近线为 $y=\\pm2x$. 其余选项对应的 $\\frac{b}{a}$ 分别为 $\\frac{1}{2}$、$\\sqrt{2}$、$\\frac{1}{\\sqrt{2}}$，均不等于 $2$. 所以应选 A.</p>",
           "choices": [
-            "$x^{2} - \\frac{y^{2}}{4} = 1$",
-            "$\\frac{x^2}{4} - y^2 = 1$",
-            "$x^{2} - \\frac{y^{2}}{2} = 1$",
-            "$\\frac{x^2}{2} - y^2 = 1$"
+            "$x^{2}- \\frac{y^{2}}{4}= 1$",
+            "$\\frac{x^{2}}{4}- y^{2} = 1$",
+            "$x^{2}- \\frac{y^{2}}{2}= 1$",
+            "$\\frac{x^{2}}{2}- y^{2} = 1$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 7,
-          "body": "执行如图所示的程序框图（算法流程图），输出的 $n$ 为（ ）\r\n\r\n\\texfigure[max width=0.52\\linewidth]{img_repaint/2015/anhui_liberal/q7_fig1.tex}\r\n\r\n\r\nB\r\n\r\n程序开始时 $a=1$，$n=1$. 第一次判断中，$|1-1.414|=0.414\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1}=1.5$，并令 $n=2$.\r\n\r\n第二次判断中，$|1.5-1.414|=0.086\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.5}=1.4$，并令 $n=3$.\r\n\r\n第三次判断中，$|1.4-1.414|=0.014\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.4}=1+\\frac{5}{12}=\\frac{17}{12}$，并令 $n=4$.\r\n\r\n此时\r\n\n$$\n\\left|\\frac{17}{12}-1.414\\right|=\\left|\\frac{17}{12}-\\frac{707}{500}\\right|=\\frac{1}{375}<0.005\n$$\n\r\n满足停止条件，程序输出 $n=4$. 所以应选 B.",
+          "body": "<p>执行如图所示的程序框图（算法流程图），输出的 $n$ 为（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.52<span class=\"macro macro-linewidth\"></span>]img_repaint/2015/anhui_liberal/q7_fig1.tex</p><p>B</p><p>程序开始时 $a=1$，$n=1$. 第一次判断中，$|1-1.414|=0.414\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1}=1.5$，并令 $n=2$.</p><p>第二次判断中，$|1.5-1.414|=0.086\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.5}=1.4$，并令 $n=3$.</p><p>第三次判断中，$|1.4-1.414|=0.014\\geqslant0.005$，所以更新得 $a=1+\\frac{1}{1+1.4}=1+\\frac{5}{12}=\\frac{17}{12}$，并令 $n=4$.</p><p>此时</p>\n$$\n\\left|\\frac{17}{12}-1.414\\right|=\\left|\\frac{17}{12}-\\frac{707}{500}\\right|=\\frac{1}{375}&#x3C;0.005\n$$\n<p>满足停止条件，程序输出 $n=4$. 所以应选 B.</p>",
           "choices": [
             "$3$",
             "$4$",
@@ -230,13 +89,11 @@
             "$6$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 8,
-          "body": "直线 $3x + 4y = b$ 与圆 $x^{2} + y^{2} - 2x - 2y + 1 = 0$ 相切，则 $b$ 的值是（ ）\r\n\r\n\r\nD\r\n\r\n将圆的方程配方，得\r\n\n$$\n(x-1)^2+(y-1)^2=1\n$$\n\r\n所以圆心为 $(1,1)$，半径为 $1$. 圆心到直线 $3x+4y-b=0$ 的距离为\r\n\n$$\n\\frac{|3\\cdot1+4\\cdot1-b|}{\\sqrt{3^2+4^2}}=\\frac{|7-b|}{5}\n$$\n\r\n相切时该距离等于半径，故 $|7-b|=5$，从而 $b=2$ 或 $b=12$. 所以应选 D.",
+          "body": "<p>直线 $3x + 4y = b$ 与圆 $x^{2}+ y^{2}- 2x - 2y + 1 = 0$ 相切，则 $b$ 的值是（ ）</p><p>D</p><p>将圆的方程配方，得</p>\n$$\n(x-1)^{2}+(y-1)^{2}=1\n$$\n<p>所以圆心为 $(1,1)$，半径为 $1$. 圆心到直线 $3x+4y-b=0$ 的距离为</p>\n$$\n\\frac{|3\\cdot1+4\\cdot1-b|}{\\sqrt{3^{2}+4^{2}}}=\\frac{|7-b|}{5}\n$$\n<p>相切时该距离等于半径，故 $|7-b|=5$，从而 $b=2$ 或 $b=12$. 所以应选 D.</p>",
           "choices": [
             "$-2$ 或 $12$",
             "$2$ 或 $-12$",
@@ -244,13 +101,11 @@
             "$2$ 或 $12$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 9,
-          "body": "一个四面体的三视图如图所示，则该四面体的表面积是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/anhui_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\r\nB\r\n\r\n根据三视图建立直角坐标系，可取四面体的四个顶点为\r\n$A=(-1,0,0)$、$B=(1,0,0)$、$C=(0,1,0)$、$P=(0,0,1)$.\r\n在正视图中，$A$，$B$ 的投影为底边两端，$P$ 的投影为顶点，$C$ 的投影为底边中点；在侧视图中，$A$，$B$ 的投影重合，$C$ 与该投影的水平距离为 $1$，$P$ 与该投影的竖直距离为 $1$；俯视图也与上述坐标投影一致，因此该坐标模型与三视图一致.\r\n\r\n由坐标可得 $AB=2$，且 $AC=BC=AP=BP=CP=\\sqrt2$. 三角形 $ABC$ 和 $PAB$ 的底边都为 $2$，对应高都为 $1$，所以\r\n\n$$\nS_{ABC}=S_{PAB}=\\frac12\\times2\\times1=1\n$$\n\r\n三角形 $PAC$ 和 $PBC$ 的三边都为 $\\sqrt2$，均为等边三角形，故\r\n\n$$\nS_{PAC}=S_{PBC}=\\frac{\\sqrt3}{4}(\\sqrt2)^2=\\frac{\\sqrt3}{2}\n$$\n\r\n所以四面体的表面积为\r\n\n$$\nS=1+1+\\frac{\\sqrt3}{2}+\\frac{\\sqrt3}{2}=2+\\sqrt3\n$$\n\r\n因此应选 B.",
+          "body": "<p>一个四面体的三视图如图所示，则该四面体的表面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>B</p><p>根据三视图建立直角坐标系，可取四面体的四个顶点为</p><p>$A=(-1,0,0)$、$B=(1,0,0)$、$C=(0,1,0)$、$P=(0,0,1)$.</p><p>在正视图中，$A$，$B$ 的投影为底边两端，$P$ 的投影为顶点，$C$ 的投影为底边中点；在侧视图中，$A$，$B$ 的投影重合，$C$ 与该投影的水平距离为 $1$，$P$ 与该投影的竖直距离为 $1$；俯视图也与上述坐标投影一致，因此该坐标模型与三视图一致.</p><p>由坐标可得 $AB=2$，且 $AC=BC=AP=BP=CP=\\sqrt{2}$. 三角形 $ABC$ 和 $PAB$ 的底边都为 $2$，对应高都为 $1$，所以</p>\n$$\nS_{ABC}=S_{PAB}=\\frac{1}{2}\\times2\\times1=1\n$$\n<p>三角形 $PAC$ 和 $PBC$ 的三边都为 $\\sqrt{2}$，均为等边三角形，故</p>\n$$\nS_{PAC}=S_{PBC}=\\frac{\\sqrt{3}}{4}(\\sqrt{2})^{2}=\\frac{\\sqrt{3}}{2}\n$$\n<p>所以四面体的表面积为</p>\n$$\nS=1+1+\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{3}}{2}=2+\\sqrt{3}\n$$\n<p>因此应选 B.</p>",
           "choices": [
             "$1 + \\sqrt{3}$",
             "$2 + \\sqrt{3}$",
@@ -258,23 +113,19 @@
             "$2\\sqrt{2}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 10,
-          "body": "函数 $f(x) = ax^3 + bx^2 + cx + d$ 的图象如图所示，则下列结论成立的是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/anhui_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\r\nA\r\n\r\n由图象右端向上，知三次项系数 $a>0$. 设两个极值点的横坐标为 $x_1$、$x_2$，由图可知 $0<x_1<x_2$. 因为\r\n\n$$\nf'(x)=3ax^2+2bx+c\n$$\n\r\n且 $x_1$，$x_2$ 是方程 $f'(x)=0$ 的两个根，所以\r\n\n$$\nx_1+x_2=-\\frac{2b}{3a}>0\n$$\n\r\n结合 $a>0$，得 $b<0$. 图象在 $x=0$ 处递增，所以 $c=f'(0)>0$；又图象与 $y$ 轴的交点在 $x$ 轴上方，所以 $d=f(0)>0$. 因此只有选项 A 成立.",
+          "body": "<p>函数 $f(x) = ax^{3} + bx^{2} + cx + d$ 的图象如图所示，则下列结论成立的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>A</p><p>由图象右端向上，知三次项系数 $a>0$. 设两个极值点的横坐标为 $x_{1}$、$x_{2}$，由图可知 $0&#x3C;x_{1}&#x3C;x_{2}$. 因为</p>\n$$\nf'(x)=3ax^{2}+2bx+c\n$$\n<p>且 $x_{1}$，$x_{2}$ 是方程 $f'(x)=0$ 的两个根，所以</p>\n$$\nx_{1}+x_{2}=-\\frac{2b}{3a}>0\n$$\n<p>结合 $a>0$，得 $b&#x3C;0$. 图象在 $x=0$ 处递增，所以 $c=f'(0)>0$；又图象与 $y$ 轴的交点在 $x$ 轴上方，所以 $d=f(0)>0$. 因此只有选项 A 成立.</p>",
           "choices": [
-            "$a > 0$，$b < 0$，$c > 0$，$d > 0$",
-            "$a > 0$，$b < 0$，$c < 0$，$d > 0$",
-            "$a < 0$，$b < 0$，$c > 0$，$d > 0$",
-            "$a > 0$，$b > 0$，$c > 0$，$d < 0$"
+            "$a > 0$，$b &#x3C; 0$，$c > 0$，$d > 0$",
+            "$a > 0$，$b &#x3C; 0$，$c &#x3C; 0$，$d > 0$",
+            "$a &#x3C; 0$，$b &#x3C; 0$，$c > 0$，$d > 0$",
+            "$a > 0$，$b > 0$，$c > 0$，$d &#x3C; 0$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -283,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "计算： $\\lg\\frac{5}{2}+2\\lg2-\\left(\\frac{1}{2}\\right)^{-1}=$ _______ {}.\r\n\r\n$-1$\r\n\r\n由对数运算性质，\r\n\n$$\n\\lg\\frac52+2\\lg2=\\lg\\frac52+\\lg4=\\lg10=1\n$$\n\r\n又 $\\left(\\frac12\\right)^{-1}=2$，所以原式的值为 $1-2=-1$.",
-          "choices": [],
+          "body": "<p>计算： $\\lg\\frac{5}{2}+2\\lg2-\\left(\\frac{1}{2}\\right)^{-1}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$-1$</p><p>由对数运算性质，</p>\n$$\n\\lg\\frac{5}{2}+2\\lg2=\\lg\\frac{5}{2}+\\lg4=\\lg10=1\n$$\n<p>又 $\\left(\\frac{1}{2}\\right)^{-1}=2$，所以原式的值为 $1-2=-1$.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 12,
-          "body": "在 $\\triangle ABC$ 中，$AB = \\sqrt{6}$，$\\angle A = 75^{\\circ}$，$\\angle B = 45^{\\circ}$，则 $AC =$ _______ {}.\r\n\r\n$2$\r\n\r\n三角形内角和给出 $\\angle C=180^{\\circ}-75^{\\circ}-45^{\\circ}=60^{\\circ}$. 由正弦定理，\r\n\n$$\n\\frac{AC}{\\sin45^{\\circ}}=\\frac{AB}{\\sin60^{\\circ}}\n$$\n\r\n所以\r\n\n$$\nAC=\\sqrt6\\frac{\\sin45^{\\circ}}{\\sin60^{\\circ}}\r\n=\\sqrt6\\frac{\\frac{\\sqrt2}{2}}{\\frac{\\sqrt3}{2}}=2\n$$",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，$AB = \\sqrt{6}$，$\\angle A = 75^{\\circ}$，$\\angle B = 45^{\\circ}$，则 $AC =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$2$</p><p>三角形内角和给出 $\\angle C=180^{\\circ}-75^{\\circ}-45^{\\circ}=60^{\\circ}$. 由正弦定理，</p>\n$$\n\\frac{AC}{\\sin45^{\\circ}}=\\frac{AB}{\\sin60^{\\circ}}\n$$\n<p>所以</p>\n$$\nAC=\\sqrt{6}\\frac{\\sin45^{\\circ}}{\\sin60^{\\circ}}=\\sqrt{6}\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{3}}{2}}=2\n$$",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 13,
-          "body": "已知数列 $\\{a_{n}\\}$ 中，$a_{1}=1$，$a_{n}=a_{n-1}+\\frac{1}{2}$（$n\\geqslant2$），则数列 $\\{a_{n}\\}$ 的前 $9$ 项和等于 _______ {}.\r\n\r\n$27$\r\n\r\n由递推式可知 $a_n-a_{n-1}=\\frac12$，所以 $\\{a_n\\}$ 是首项为 $1$、公差为 $\\frac12$ 的等差数列. 因而\r\n\n$$\na_n=1+(n-1)\\frac12=\\frac{n+1}{2}\n$$\n\r\n特别地，$a_9=5$. 于是前 $9$ 项和为\r\n\n$$\nS_9=\\frac{9(a_1+a_9)}{2}=\\frac{9(1+5)}{2}=27\n$$",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 中，$a_{1}=1$，$a_{n}=a_{n-1}+\\frac{1}{2}$（$n\\geqslant2$），则数列 $\\{a_{n}\\}$ 的前 $9$ 项和等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$27$</p><p>由递推式可知 $a_{n}-a_{n-1}=\\frac{1}{2}$，所以 $\\{a_{n}\\}$ 是首项为 $1$、公差为 $\\frac{1}{2}$ 的等差数列. 因而</p>\n$$\na_{n}=1+(n-1)\\frac{1}{2}=\\frac{n+1}{2}\n$$\n<p>特别地，$a_{9}=5$. 于是前 $9$ 项和为</p>\n$$\nS_{9}=\\frac{9(a_{1}+a_{9})}{2}=\\frac{9(1+5)}{2}=27\n$$",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 14,
-          "body": "在平面直角坐标系 $xOy$ 中，若直线 $y = 2a$ 与函数 $y = |x - a| - 1$ 的图象只有一个交点，则 $a$ 的值为 _______ {}.\r\n\r\n$-\\frac{1}{2}$\r\n\r\n联立直线与函数图象的方程，得\r\n\n$$\n2a=|x-a|-1\n$$\n\r\n即 $|x-a|=2a+1$. 若 $2a+1>0$，则 $x-a=\\pm(2a+1)$，有两个不同的交点；若 $2a+1<0$，则绝对值方程无解；只有 $2a+1=0$ 时，方程有唯一解 $x=a$. 因此\r\n\n$$\na=-\\frac12\n$$",
-          "choices": [],
+          "body": "<p>在平面直角坐标系 $xOy$ 中，若直线 $y = 2a$ 与函数 $y = |x - a| - 1$ 的图象只有一个交点，则 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$-\\frac{1}{2}$</p><p>联立直线与函数图象的方程，得</p>\n$$\n2a=|x-a|-1\n$$\n<p>即 $|x-a|=2a+1$. 若 $2a+1>0$，则 $x-a=\\pm(2a+1)$，有两个不同的交点；若 $2a+1&#x3C;0$，则绝对值方程无解；只有 $2a+1=0$ 时，方程有唯一解 $x=a$. 因此</p>\n$$\na=-\\frac{1}{2}\n$$",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 15,
-          "body": "$\\triangle ABC$ 是边长为 $2$ 的等边三角形，已知向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\overrightarrow{AB} = 2\\mathbf{a}$，$\\overrightarrow{AC} = 2\\mathbf{a} + \\mathbf{b}$. 则下列结论中正确的是 _______ {}. （写出所有正确结论的序号）\r\n\r\n\\begin{circlelist}\r\n\\item $\\mathbf{a}$ 为单位向量；\r\n\\item $\\mathbf{b}$ 为单位向量；\r\n\\item $\\mathbf{a}\\perp\\mathbf{b}$；\r\n\\item $\\mathbf{b}\\parallel\\overrightarrow{BC}$；\r\n\\item $\\left(4\\mathbf{a}+\\mathbf{b}\\right)\\perp\\overrightarrow{BC}$.\r\n\\end{circlelist}\r\n\r\n$\\circled{1}\\circled{4}\\circled{5}$\r\n\r\n因为 $ABC$ 是边长为 $2$ 的等边三角形，所以 $|\\overrightarrow{AB}|=|\\overrightarrow{AC}|=|\\overrightarrow{BC}|=2$. 由 $\\overrightarrow{AB}=2\\mathbf{a}$，得 $|\\mathbf{a}|=1$，结论$\\circled{1}$正确.\r\n\r\n又\r\n\n$$\n\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}=\\mathbf{b}\n$$\n\r\n所以 $|\\mathbf{b}|=2$，结论$\\circled{2}$错误，且 $\\mathbf{b}\\parallel\\overrightarrow{BC}$，结论$\\circled{4}$正确.\r\n\r\n由 $|2\\mathbf{a}+\\mathbf{b}|=|\\overrightarrow{AC}|=2$，平方得\r\n\n$$\n4|\\mathbf{a}|^2+4\\mathbf{a}\\cdot\\mathbf{b}+|\\mathbf{b}|^2=4\n$$\n\r\n代入 $|\\mathbf{a}|=1$、$|\\mathbf{b}|=2$，得到 $\\mathbf{a}\\cdot\\mathbf{b}=-1\\ne0$，所以结论$\\circled{3}$错误. 最后\r\n\n$$\n\\left(4\\mathbf{a}+\\mathbf{b}\\right)\\cdot\\overrightarrow{BC}\r\n=\\left(4\\mathbf{a}+\\mathbf{b}\\right)\\cdot\\mathbf{b}\r\n=4(-1)+2^2=0\n$$\n\r\n故结论$\\circled{5}$正确. 所有正确结论的序号为 $\\circled{1}$、$\\circled{4}$、$\\circled{5}$.",
-          "choices": [],
+          "body": "<p>$\\triangle ABC$ 是边长为 $2$ 的等边三角形，已知向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\overrightarrow{AB}= 2\\mathbf{a}$，$\\overrightarrow{AC}= 2\\mathbf{a}+ \\mathbf{b}$. 则下列结论中正确的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （写出所有正确结论的序号）</p><ol class=\"enumerate\"><li><p>$\\mathbf{a}$ 为单位向量；</p></li><li><p>$\\mathbf{b}$ 为单位向量；</p></li><li><p>$\\mathbf{a}\\perp\\mathbf{b}$；</p></li><li><p>$\\mathbf{b}\\parallel\\overrightarrow{BC}$；</p></li><li><p>$\\left(4\\mathbf{a}+\\mathbf{b}\\right)\\perp\\overrightarrow{BC}$.</p></li></ol><p>$①④⑤$</p><p>因为 $ABC$ 是边长为 $2$ 的等边三角形，所以 $|\\overrightarrow{AB}|=|\\overrightarrow{AC}|=|\\overrightarrow{BC}|=2$. 由 $\\overrightarrow{AB}=2\\mathbf{a}$，得 $|\\mathbf{a}|=1$，结论$①$正确.</p><p>又</p>\n$$\n\\overrightarrow{BC}=\\overrightarrow{AC}-\\overrightarrow{AB}=\\mathbf{b}\n$$\n<p>所以 $|\\mathbf{b}|=2$，结论$②$错误，且 $\\mathbf{b}\\parallel\\overrightarrow{BC}$，结论$④$正确.</p><p>由 $|2\\mathbf{a}+\\mathbf{b}|=|\\overrightarrow{AC}|=2$，平方得</p>\n$$\n4|\\mathbf{a}|^{2}+4\\mathbf{a}\\cdot\\mathbf{b}+|\\mathbf{b}|^{2}=4\n$$\n<p>代入 $|\\mathbf{a}|=1$、$|\\mathbf{b}|=2$，得到 $\\mathbf{a}\\cdot\\mathbf{b}=-1\\ne0$，所以结论$③$错误. 最后</p>\n$$\n\\left(4\\mathbf{a}+\\mathbf{b}\\right)\\cdot\\overrightarrow{BC}=\\left(4\\mathbf{a}+\\mathbf{b}\\right)\\cdot\\mathbf{b}  =4(-1)+2^{2}=0\n$$\n<p>故结论$⑤$正确. 所有正确结论的序号为 $①$、$④$、$⑤$.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -333,60 +174,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "已知函数 $f(x) = (\\sin x + \\cos x)^2 + \\cos 2x$.\r\n\n(1) 求 $f(x)$ 最小正周期；\n\n(2) 求 $f(x)$ 在区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 上的最大值和最小值.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = (\\sin x + \\cos x)^{2} + \\cos 2x$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 最小正周期；</p></li><li><p>求 $f(x)$ 在区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 上的最大值和最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 利用二倍角公式，\r\n\n$$\n(\\sin x+\\cos x)^2=\\sin^2x+2\\sin x\\cos x+\\cos^2x=1+\\sin2x\n$$\n\r\n因此\r\n\n$$\nf(x)=1+\\sin2x+\\cos2x=1+\\sqrt2\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n\r\n正弦函数的最小正周期为 $2\\pi$，故上式中因变量的系数为 $2$，从而 $f(x)$ 的最小正周期为 $T=\\frac{2\\pi}{2}=\\pi$.\n\n(2) 当 $x\\in\\left[0,\\frac\\pi2\\right]$ 时，令 $t=2x+\\frac\\pi4$，则 $t\\in\\left[\\frac\\pi4,\\frac{5\\pi}4\\right]$. 在此区间内，正弦函数的最大值为 $1$，在 $t=\\frac\\pi2$，即 $x=\\frac\\pi8$ 时取得；最小值为 $-\\frac{\\sqrt2}{2}$，在 $t=\\frac{5\\pi}4$，即 $x=\\frac\\pi2$ 时取得. 所以 $f_{\\max}=1+\\sqrt2$，且\r\n\n$$\nf_{\\min}=1+\\sqrt2\\left(-\\frac{\\sqrt2}{2}\\right)=0\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>利用二倍角公式，</p>\n$$\n(\\sin x+\\cos x)^{2}=\\sin^{2}x+2\\sin x\\cos x+\\cos^{2}x=1+\\sin2x\n$$\n<p>因此</p>\n$$\nf(x)=1+\\sin2x+\\cos2x=1+\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>正弦函数的最小正周期为 $2\\pi$，故上式中因变量的系数为 $2$，从而 $f(x)$ 的最小正周期为 $T=\\frac{2\\pi}{2}=\\pi$.</p></li><li><p>当 $x\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，令 $t=2x+\\frac{\\pi}{4}$，则 $t\\in\\left[\\frac{\\pi}{4},\\frac{5\\pi}{4}\\right]$. 在此区间内，正弦函数的最大值为 $1$，在 $t=\\frac{\\pi}{2}$，即 $x=\\frac{\\pi}{8}$ 时取得；最小值为 $-\\frac{\\sqrt{2}}{2}$，在 $t=\\frac{5\\pi}{4}$，即 $x=\\frac{\\pi}{2}$ 时取得. 所以 $f_{\\max}=1+\\sqrt{2}$，且</p>\n$$\nf_{\\min}=1+\\sqrt{2}\\left(-\\frac{\\sqrt{2}}{2}\\right)=0\n$$\n</li></ol>"
         },
         {
           "num": 17,
-          "body": "某企业为了了解下属某部门对本企业职工的服务情况，随机访问 $50\\text{ 名}$ 职工，根据这 $50\\text{ 名}$ 职工对该部门的评分，绘制频率分布直方图（如图所示），其中样本数据分组区间为：$\\left[40,50\\right)$，$\\left[50,60\\right)$，…，$\\left[80,90\\right)$，$\\left[90,100\\right]$.\r\n\r\n\n(1) 求频率分布直方图中 $a$ 的值；\n\n(2) 估计该企业的职工对该部门评分不低于 $80$ 的概率；\n\n(3) 从评分在 $\\left[40,60\\right)$ 的受访职工中，随机抽取 $2\\text{ 人}$，求此 $2$ 人评分都在 $\\left[40,50\\right)$ 的概率.\n\r\n\r\n\\texfigure[float=inline,max width=0.42\\linewidth]{img_repaint/2015/anhui_liberal/q17_fig1.tex}",
-          "choices": [],
+          "body": "<p>某企业为了了解下属某部门对本企业职工的服务情况，随机访问 $50\\text{ 名}$ 职工，根据这 $50\\text{ 名}$ 职工对该部门的评分，绘制频率分布直方图（如图所示），其中样本数据分组区间为：$\\left[40,50\\right)$，$\\left[50,60\\right)$，…，$\\left[80,90\\right)$，$\\left[90,100\\right]$.</p><ol class=\"enumerate\"><li><p>求频率分布直方图中 $a$ 的值；</p></li><li><p>估计该企业的职工对该部门评分不低于 $80$ 的概率；</p></li><li><p>从评分在 $\\left[40,60\\right)$ 的受访职工中，随机抽取 $2\\text{ 人}$，求此 $2$ 人评分都在 $\\left[40,50\\right)$ 的概率.</p></li></ol><p><span class=\"macro macro-texfigure\"></span>[float=inline,max width=0.42<span class=\"macro macro-linewidth\"></span>]img_repaint/2015/anhui_liberal/q17_fig1.tex</p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 每个小矩形的面积表示该组频率，所有组频率之和为 $1$. 组距为 $10$，故\r\n\n$$\n10\\left(0.004+a+0.022+0.028+0.022+0.018\\right)=1\n$$\n\r\n解得 $a=0.006$.\n\n(2) 评分不低于 $80$ 的频率为\r\n\n$$\n10\\times0.022+10\\times0.018=0.4\n$$\n\r\n因此估计该企业职工评分不低于 $80$ 的概率为 $0.4$.\n\n(3) 评分在 $\\left[40,50\\right)$ 内的职工人数为 $50\\times10\\times0.004=2$，评分在 $\\left[50,60\\right)$ 内的职工人数为 $50\\times10\\times0.006=3$. 因此评分在 $\\left[40,60\\right)$ 内共有 $5$ 人. 从这 $5$ 人中抽取 $2$ 人，所有等可能的结果数为 $\\mathrm C_5^2$，其中两人都来自 $\\left[40,50\\right)$ 的结果数为 $\\mathrm C_2^2$. 所求概率为\r\n\n$$\nP=\\frac{\\mathrm C_2^2}{\\mathrm C_5^2}=\\frac{1}{10}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>每个小矩形的面积表示该组频率，所有组频率之和为 $1$. 组距为 $10$，故</p>\n$$\n10\\left(0.004+a+0.022+0.028+0.022+0.018\\right)=1\n$$\n<p>解得 $a=0.006$.</p></li><li><p>评分不低于 $80$ 的频率为</p>\n$$\n10\\times0.022+10\\times0.018=0.4\n$$\n<p>因此估计该企业职工评分不低于 $80$ 的概率为 $0.4$.</p></li><li><p>评分在 $\\left[40,50\\right)$ 内的职工人数为 $50\\times10\\times0.004=2$，评分在 $\\left[50,60\\right)$ 内的职工人数为 $50\\times10\\times0.006=3$. 因此评分在 $\\left[40,60\\right)$ 内共有 $5$ 人. 从这 $5$ 人中抽取 $2$ 人，所有等可能的结果数为 $\\mathrm{C}_{5}^{2}$，其中两人都来自 $\\left[40,50\\right)$ 的结果数为 $\\mathrm{C}_{2}^{2}$. 所求概率为</p>\n$$\nP=\\frac{\\mathrm{C}_{2}^{2}}{\\mathrm{C}_{5}^{2}}=\\frac{1}{10}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "已知数列 $\\{a_{n}\\}$ 是递增的等比数列，且 $a_{1} + a_{4} = 9$，$a_{2}a_{3} = 8$.\r\n\n(1) 求数列 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 设 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和，$b_{n} = \\frac{a_{n+1}}{S_{n} S_{n+1}}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 是递增的等比数列，且 $a_{1}+ a_{4}= 9$，$a_{2}a_{3}= 8$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和，$b_{n}= \\frac{a_{n+1}}{S_{n}S_{n+1}}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设等比数列的公比为 $q$. 由等比数列性质，\r\n\n$$\na_2a_3=a_1q\\cdot a_1q^2=a_1^2q^3=a_1a_4=8\n$$\n\r\n因此 $a_1$ 和 $a_4$ 是方程\r\n\n$$\nt^2-(a_1+a_4)t+a_1a_4=t^2-9t+8=0\n$$\n\r\n的两个根，解得 $\\{a_1,a_4\\}=\\{1,8\\}$. 数列递增，所以 $a_1<a_4$，从而 $a_1=1$、$a_4=8$. 于是 $q^3=\\frac{a_4}{a_1}=8$，得到 $q=2$，故\r\n\n$$\na_n=a_1q^{n-1}=2^{n-1}\n$$\n\n(2) 由通项公式，\r\n\n$$\nS_n=1+2+\\cdots+2^{n-1}=2^n-1\n$$\n\r\n又因为 $a_{n+1}=S_{n+1}-S_n$，所以\r\n\n$$\nb_n=\\frac{S_{n+1}-S_n}{S_nS_{n+1}}=\\frac1{S_n}-\\frac1{S_{n+1}}\n$$\n\r\n裂项相消得\r\n\n$$\nT_n=\\sum_{k=1}^n b_k\r\n=\\left(\\frac1{S_1}-\\frac1{S_2}\\right)+\\cdots+\\left(\\frac1{S_n}-\\frac1{S_{n+1}}\\right)\r\n=1-\\frac1{S_{n+1}}\r\n=1-\\frac1{2^{n+1}-1}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的公比为 $q$. 由等比数列性质，</p>\n$$\na_{2}a_{3}=a_{1}q\\cdot a_{1}q^{2}=a_{1}^{2}q^{3}=a_{1}a_{4}=8\n$$\n<p>因此 $a_{1}$ 和 $a_{4}$ 是方程</p>\n$$\nt^{2}-(a_{1}+a_{4})t+a_{1}a_{4}=t^{2}-9t+8=0\n$$\n<p>的两个根，解得 $\\{a_{1},a_{4}\\}=\\{1,8\\}$. 数列递增，所以 $a_{1}&#x3C;a_{4}$，从而 $a_{1}=1$、$a_{4}=8$. 于是 $q^{3}=\\frac{a_{4}}{a_{1}}=8$，得到 $q=2$，故</p>\n$$\na_{n}=a_{1}q^{n-1}=2^{n-1}\n$$\n</li><li><p>由通项公式，</p>\n$$\nS_{n}=1+2+\\cdots+2^{n-1}=2^{n}-1\n$$\n<p>又因为 $a_{n+1}=S_{n+1}-S_{n}$，所以</p>\n$$\nb_{n}=\\frac{S_{n+1}-S_{n}}{S_{n}S_{n+1}}=\\frac{1}{S_{n}}-\\frac{1}{S_{n+1}}\n$$\n<p>裂项相消得</p>\n$$\nT_{n}=\\sum_{k=1}^{n} b_{k}  =\\left(\\frac{1}{S_{1}}-\\frac{1}{S_{2}}\\right)+\\cdots+\\left(\\frac{1}{S_{n}}-\\frac{1}{S_{n+1}}\\right)  =1-\\frac{1}{S_{n+1}}=1-\\frac{1}{2^{n+1}-1}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，三棱锥 $P-ABC$ 中，$PA \\perp$ 平面 $ABC$，$PA = 1$，$AB = 1$，$AC = 2$，$\\angle BAC = 60^\\circ$.\r\n\n(1) 求三棱锥 $P-ABC$ 的体积；\n\n(2) 证明：在线段 $PC$ 上存在点 $M$，使得 $AC \\perp BM$，并求 $\\frac{PM}{MC}$ 的值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2015/img/anhui_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，三棱锥 $P-ABC$ 中，$PA \\perp$ 平面 $ABC$，$PA = 1$，$AB = 1$，$AC = 2$，$\\angle BAC = 60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>求三棱锥 $P-ABC$ 的体积；</p></li><li><p>证明：在线段 $PC$ 上存在点 $M$，使得 $AC \\perp BM$，并求 $\\frac{PM}{MC}$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 底面三角形 $ABC$ 的面积为\r\n\n$$\nS_{\\triangle ABC}=\\frac12\\times AB\\times AC\\times\\sin\\angle BAC\r\n=\\frac12\\times1\\times2\\times\\sin60^\\circ=\\frac{\\sqrt3}{2}\n$$\n\r\n由 $PA\\perp$ 平面 $ABC$，知 $PA=1$ 是三棱锥的高，所以\r\n\n$$\nV=\\frac13S_{\\triangle ABC}\\cdot PA=\\frac13\\times\\frac{\\sqrt3}{2}\\times1=\\frac{\\sqrt3}{6}\n$$\n\n(2) 建立空间直角坐标系，取 $A$ 为原点，$AC$ 所在直线为 $x$ 轴，平面 $ABC$ 为 $xOy$ 平面，且 $P$ 在 $z$ 轴正半轴上. 则\r\n\n$$\nC=(2,0,0)\n$$\n\r\n并且 $P=(0,0,1)$.\r\n由 $AB=1$、$\\angle BAC=60^\\circ$，可取\r\n\n$$\nB=\\left(\\frac12,\\frac{\\sqrt3}{2},0\\right)\n$$\n\r\n设 $M$ 在线段 $PC$ 上，令 $t=\\frac{PM}{PC}$，则 $0\\leq t\\leq1$，且\r\n\n$$\nM=P+t(C-P)=(2t,0,1-t)\n$$\n\r\n于是 $\\overrightarrow{AC}=(2,0,0)$，\r\n$\\overrightarrow{BM}=\\left(2t-\\frac12,-\\frac{\\sqrt3}{2},1-t\\right)$.\r\n因此\r\n\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BM}=2\\left(2t-\\frac12\\right)=4t-1\n$$\n\r\n取 $t=\\frac14$，则 $M$ 在线段 $PC$ 上且 $\\overrightarrow{AC}\\cdot\\overrightarrow{BM}=0$，所以 $AC\\perp BM$. 此时\r\n\n$$\n\\frac{PM}{MC}=\\frac{t}{1-t}=\\frac{\\frac{1}{4}}{\\frac{3}{4}}=\\frac13\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>底面三角形 $ABC$ 的面积为</p>\n$$\nS_{\\triangle ABC}=\\frac{1}{2}\\times AB\\times AC\\times\\sin\\angle BAC  =\\frac{1}{2}\\times1\\times2\\times\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}\n$$\n<p>由 $PA\\perp$ 平面 $ABC$，知 $PA=1$ 是三棱锥的高，所以</p>\n$$\nV=\\frac{1}{3}S_{\\triangle ABC}\\cdot PA=\\frac{1}{3}\\times\\frac{\\sqrt{3}}{2}\\times1=\\frac{\\sqrt{3}}{6}\n$$\n</li><li><p>建立空间直角坐标系，取 $A$ 为原点，$AC$ 所在直线为 $x$ 轴，平面 $ABC$ 为 $xOy$ 平面，且 $P$ 在 $z$ 轴正半轴上. 则</p>\n$$\nC=(2,0,0)\n$$\n<p>并且 $P=(0,0,1)$.</p><p>由 $AB=1$、$\\angle BAC=60^{\\circ}$，可取</p>\n$$\nB=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)\n$$\n<p>设 $M$ 在线段 $PC$ 上，令 $t=\\frac{PM}{PC}$，则 $0\\leq t\\leq1$，且</p>\n$$\nM=P+t(C-P)=(2t,0,1-t)\n$$\n<p>于是 $\\overrightarrow{AC}=(2,0,0)$，</p><p>$\\overrightarrow{BM}=\\left(2t-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},1-t\\right)$.</p><p>因此</p>\n$$\n\\overrightarrow{AC}\\cdot\\overrightarrow{BM}=2\\left(2t-\\frac{1}{2}\\right)=4t-1\n$$\n<p>取 $t=\\frac{1}{4}$，则 $M$ 在线段 $PC$ 上且 $\\overrightarrow{AC}\\cdot\\overrightarrow{BM}=0$，所以 $AC\\perp BM$. 此时</p>\n$$\n\\frac{PM}{MC}=\\frac{t}{1-t}=\\frac{\\frac{1}{4}}{\\frac{3}{4}}=\\frac{1}{3}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "设椭圆 $E$ 的方程为 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$），点 $O$ 为坐标原点，点 $A$ 的坐标为 $(a, 0)$，点 $B$ 的坐标为 $(0, b)$，点 $M$ 在线段 $AB$ 上，满足 $|BM| = 2|MA|$，直线 $OM$ 的斜率为 $\\frac{\\sqrt{5}}{10}$.\r\n\n(1) 求 $E$ 的离心率 $e$；\n\n(2) 设点 $C$ 的坐标为 $(0, -b)$，$N$ 为线段 $AC$ 的中点，证明：$MN \\perp AB$.",
-          "choices": [],
+          "body": "<p>设椭圆 $E$ 的方程为 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$），点 $O$ 为坐标原点，点 $A$ 的坐标为 $(a, 0)$，点 $B$ 的坐标为 $(0, b)$，点 $M$ 在线段 $AB$ 上，满足 $|BM| = 2|MA|$，直线 $OM$ 的斜率为 $\\frac{\\sqrt{5}}{10}$.</p><ol class=\"enumerate\"><li><p>求 $E$ 的离心率 $e$；</p></li><li><p>设点 $C$ 的坐标为 $(0, -b)$，$N$ 为线段 $AC$ 的中点，证明：$MN \\perp AB$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $|BM|=2|MA|$，所以 $AM:MB=1:2$. 由内分点公式，\r\n\n$$\nM=A+\\frac13(B-A)=\\left(\\frac{2a}{3},\\frac{b}{3}\\right)\n$$\n\r\n故直线 $OM$ 的斜率为 $\\frac{\\frac{b}{3}}{2\\frac{a}{3}}=\\frac{b}{2a}$. 由题意\r\n$\\frac{b}{2a}=\\frac{\\sqrt5}{10}$，$\\frac ba=\\frac{\\sqrt5}{5}$，$\\frac{b^2}{a^2}=\\frac15$.\r\n椭圆的半焦距满足 $c^2=a^2-b^2$，所以\r\n\n$$\ne=\\frac ca=\\sqrt{1-\\frac{b^2}{a^2}}=\\sqrt{1-\\frac15}=\\frac{2\\sqrt5}{5}\n$$\n\n(2) 由 $C=(0,-b)$ 且 $N$ 为 $AC$ 的中点，得\r\n\n$$\nN=\\left(\\frac a2,-\\frac b2\\right)\n$$\n\r\n因此 $\\overrightarrow{MN}=N-M=\\left(-\\frac a6,-\\frac{5b}{6}\\right)$.\r\n又 $\\overrightarrow{AB}=B-A=(-a,b)$. 因而\r\n\n$$\n\\overrightarrow{MN}\\cdot\\overrightarrow{AB}\r\n=\\frac{a^2}{6}-\\frac{5b^2}{6}\r\n=\\frac{a^2-5b^2}{6}=0\n$$\n\r\n其中最后一步使用了 $b^2=\\frac{a^2}{5}$. 所以 $MN\\perp AB$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $|BM|=2|MA|$，所以 $AM:MB=1:2$. 由内分点公式，</p>\n$$\nM=A+\\frac{1}{3}(B-A)=\\left(\\frac{2a}{3},\\frac{b}{3}\\right)\n$$\n<p>故直线 $OM$ 的斜率为 $\\frac{\\frac{b}{3}}{2\\frac{a}{3}}=\\frac{b}{2a}$. 由题意</p><p>$\\frac{b}{2a}=\\frac{\\sqrt{5}}{10}$，$\\frac{b}{a}=\\frac{\\sqrt{5}}{5}$，$\\frac{b^{2}}{a^{2}}=\\frac{1}{5}$.</p><p>椭圆的半焦距满足 $c^{2}=a^{2}-b^{2}$，所以</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1-\\frac{b^{2}}{a^{2}}}=\\sqrt{1-\\frac{1}{5}}=\\frac{2\\sqrt{5}}{5}\n$$\n</li><li><p>由 $C=(0,-b)$ 且 $N$ 为 $AC$ 的中点，得</p>\n$$\nN=\\left(\\frac{a}{2},-\\frac{b}{2}\\right)\n$$\n<p>因此 $\\overrightarrow{MN}=N-M=\\left(-\\frac{a}{6},-\\frac{5b}{6}\\right)$.</p><p>又 $\\overrightarrow{AB}=B-A=(-a,b)$. 因而</p>\n$$\n\\overrightarrow{MN}\\cdot\\overrightarrow{AB}=\\frac{a^{2}}{6}-\\frac{5b^{2}}{6}=\\frac{a^{2}-5b^{2}}{6}=0\n$$\n<p>其中最后一步使用了 $b^{2}=\\frac{a^{2}}{5}$. 所以 $MN\\perp AB$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知函数 $f(x) = \\frac{ax}{(x + r)^2}$（$a > 0$，$r > 0$）.\r\n\n(1) 求 $f(x)$ 的定义域，并讨论 $f(x)$ 的单调性；\n\n(2) 若 $\\frac{a}{r} = 400$，求 $f(x)$ 在 $(0, +\\infty)$ 内的极值.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\frac{ax}{(x + r)^{2}}$（$a > 0$，$r > 0$）.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的定义域，并讨论 $f(x)$ 的单调性；</p></li><li><p>若 $\\frac{a}{r}= 400$，求 $f(x)$ 在 $(0, +\\infty)$ 内的极值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 分母不能为零，所以定义域为 $\\mathbb{R}\\setminus\\{-r\\}=(-\\infty,-r)\\cup(-r,+\\infty)$. 求导得\r\n\n$$\nf'(x)=\\frac{a(x+r)^2-2ax(x+r)}{(x+r)^4}=\\frac{a(r-x)}{(x+r)^3}\n$$\n\r\n因为 $a>0$，分类讨论符号：当 $x\\in(-\\infty,-r)$ 时，$r-x>0$、$(x+r)^3<0$，故 $f'(x)<0$；当 $x\\in(-r,r)$ 时，二者均为正，故 $f'(x)>0$；当 $x\\in(r,+\\infty)$ 时，$r-x<0$、$(x+r)^3>0$，故 $f'(x)<0$. 因此 $f(x)$ 在 $(-\\infty,-r)$ 和 $(r,+\\infty)$ 上单调递减，在 $(-r,r)$ 上单调递增.\n\n(2) 在 $(0,+\\infty)$ 内，函数在 $(0,r)$ 上递增，在 $(r,+\\infty)$ 上递减，所以在 $x=r$ 处取得极大值. 该极大值为\r\n\n$$\nf(r)=\\frac{ar}{(2r)^2}=\\frac{a}{4r}=\\frac14\\frac ar=100\n$$\n\r\n又因为 $x\\to0^+$ 或 $x\\to+\\infty$ 时 $f(x)\\to0$，但 $0\\notin(0,+\\infty)$，所以在该开区间内没有最小值.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>分母不能为零，所以定义域为 $\\mathbb{R}\\setminus\\{-r\\}=(-\\infty,-r)\\cup(-r,+\\infty)$. 求导得</p>\n$$\nf'(x)=\\frac{a(x+r)^{2}-2ax(x+r)}{(x+r)^{4}}=\\frac{a(r-x)}{(x+r)^{3}}\n$$\n<p>因为 $a>0$，分类讨论符号：当 $x\\in(-\\infty,-r)$ 时，$r-x>0$、$(x+r)^{3}&#x3C;0$，故 $f'(x)&#x3C;0$；当 $x\\in(-r,r)$ 时，二者均为正，故 $f'(x)>0$；当 $x\\in(r,+\\infty)$ 时，$r-x&#x3C;0$、$(x+r)^{3}>0$，故 $f'(x)&#x3C;0$. 因此 $f(x)$ 在 $(-\\infty,-r)$ 和 $(r,+\\infty)$ 上单调递减，在 $(-r,r)$ 上单调递增.</p></li><li><p>在 $(0,+\\infty)$ 内，函数在 $(0,r)$ 上递增，在 $(r,+\\infty)$ 上递减，所以在 $x=r$ 处取得极大值. 该极大值为</p>\n$$\nf(r)=\\frac{ar}{(2r)^{2}}=\\frac{a}{4r}=\\frac{1}{4}\\frac{a}{r}=100\n$$\n<p>又因为 $x\\to0^{+}$ 或 $x\\to+\\infty$ 时 $f(x)\\to0$，但 $0\\notin(0,+\\infty)$，所以在该开区间内没有最小值.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

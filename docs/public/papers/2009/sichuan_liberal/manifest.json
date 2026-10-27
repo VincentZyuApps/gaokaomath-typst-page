@@ -1,178 +1,39 @@
 {
+  "title": "2009年普通高等学校招生全国统一考试",
+  "subtitle": "2009年四川卷（文）",
   "year": "2009",
   "slug": "sichuan_liberal",
-  "title": "2009年四川卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $S = \\{x \\mid |x| < 5\\}$，$T = \\{x \\mid (x + 7)(x - 3) < 0\\}$，则 $S \\cap T =$（ ）",
+          "body": "设集合 $S = \\{x \\mid |x| &#x3C; 5\\}$，$T = \\{x \\mid (x + 7)(x - 3) &#x3C; 0\\}$，则 $S \\cap T =$（ ）",
           "choices": [
-            "$\\{x\\mid -7 < x < -5\\}$",
-            "$\\{x\\mid 3 < x < 5\\}$",
-            "$\\{x\\mid -5 < x < 3\\}$",
-            "$\\{x\\mid -7 < x < 5\\}$"
+            "$\\{x\\mid -7 &#x3C; x &#x3C; -5\\}$",
+            "$\\{x\\mid 3 &#x3C; x &#x3C; 5\\}$",
+            "$\\{x\\mid -5 &#x3C; x &#x3C; 3\\}$",
+            "$\\{x\\mid -7 &#x3C; x &#x3C; 5\\}$"
           ],
           "answer": "C",
-          "solution": "由 $|x|<5$，得 $-5<x<5$，所以 $S=(-5,5)$. 又因为\r\n$(x+7)(x-3)<0$ 的解集为 $-7<x<3$，所以 $T=(-7,3)$. 因此\r\n$S\\cap T=(-5,3)$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $|x|&#x3C;5$，得 $-5&#x3C;x&#x3C;5$，所以 $S=(-5,5)$. 又因为</p><p>$(x+7)(x-3)&#x3C;0$ 的解集为 $-7&#x3C;x&#x3C;3$，所以 $T=(-7,3)$. 因此</p><p>$S\\cap T=(-5,3)$，故选 C.</p>"
         },
         {
           "num": 2,
-          "body": "函数 $y = 2^{x + 1}$（$x \\in \\mathbb{R}$）的反函数是（ ）",
+          "body": "函数 $y = 2^{x + 1}$（$x \\in \\mathbb{R}$）的反函数是（ ）",
           "choices": [
-            "$y = 1 + \\log_2 x$（$x > 0$）",
-            "$y = \\log_2(x - 1)$（$x > 1$）",
-            "$y = -1 + \\log_2 x$（$x > 0$）",
-            "$y = \\log_2(x + 1)$（$x > -1$）"
+            "$y = 1 + \\log_{2} x$（$x > 0$）",
+            "$y = \\log_{2}(x - 1)$（$x > 1$）",
+            "$y = -1 + \\log_{2} x$（$x > 0$）",
+            "$y = \\log_{2}(x + 1)$（$x > -1$）"
           ],
           "answer": "C",
-          "solution": "由 $y=2^{x+1}$ 交换 $x$，$y$，得 $x=2^{y+1}$. 因为原函数的值域为\r\n$x>0$，所以 $y+1=\\log_2x$，即反函数为\r\n$y=\\log_2x-1$（$x>0$），故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $y=2^{x+1}$ 交换 $x$，$y$，得 $x=2^{y+1}$. 因为原函数的值域为</p><p>$x>0$，所以 $y+1=\\log_{2}x$，即反函数为</p><p>$y=\\log_{2}x-1$（$x>0$），故选 C.</p>"
         },
         {
           "num": 3,
-          "body": "等差数列 $\\{a_n\\}$ 的公差不为零，首项 $a_1 = 1$，$a_2$ 是 $a_1$ 和 $a_5$ 的等比中项，则数列 $\\{a_n\\}$ 的前 10 项之和是（ ）",
+          "body": "等差数列 $\\{a_{n}\\}$ 的公差不为零，首项 $a_{1} = 1$，$a_{2}$ 是 $a_{1}$ 和 $a_{5}$ 的等比中项，则数列 $\\{a_{n}\\}$ 的前 10 项之和是（ ）",
           "choices": [
             "$90$",
             "$100$",
@@ -180,13 +41,11 @@
             "$190$"
           ],
           "answer": "B",
-          "solution": "设等差数列的公差为 $d$，则\r\n$a_2=1+d$，$a_5=1+4d$. 由 $a_2$ 是 $(a_1,a_5)$ 的等比中项，得\r\n\n$$\n(1+d)^2=a_1a_5=1+4d\n$$\n\r\n因此 $d(d-2)=0$. 因 $d\\ne0$，所以 $d=2$. 于是\r\n\n$$\nS_{10}=\\frac{10}{2}\\bigl(2a_1+9d\\bigr)=5(2+18)=100\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的公差为 $d$，则</p><p>$a_{2}=1+d$，$a_{5}=1+4d$. 由 $a_{2}$ 是 $(a_{1},a_{5})$ 的等比中项，得</p>\n$$\n(1+d)^{2}=a_{1}a_{5}=1+4d\n$$\n<p>因此 $d(d-2)=0$. 因 $d\\ne0$，所以 $d=2$. 于是</p>\n$$\nS_{10}=\\frac{10}{2}\\bigl(2a_{1}+9d\\bigr)=5(2+18)=100\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 4,
-          "body": "已知函数 $f(x) = \\sin\\left(x - \\frac{\\pi}{2}\\right)$（$x \\in \\mathbb{R}$），下面结论错误的是（ ）",
+          "body": "已知函数 $f(x) = \\sin\\left(x - \\frac{\\pi}{2}\\right)$（$x \\in \\mathbb{R}$），下面结论错误的是（ ）",
           "choices": [
             "函数 $f(x)$ 的最小正周期为 $2\\pi$",
             "函数 $f(x)$ 在区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 上是增函数",
@@ -194,13 +53,11 @@
             "函数 $f(x)$ 是奇函数"
           ],
           "answer": "D",
-          "solution": "$f(x)=\\sin\\left(x-\\frac{\\pi}{2}\\right)=-\\cos x$. 因此其最小正周期为\r\n$2\\pi$. 在 $\\left[0,\\frac{\\pi}{2}\\right]$ 内，$f'(x)=\\sin x$，除端点外均为正，故函数在该区间上是增函数.\r\n\r\n又有 $f(-x)=-\\cos(-x)=-\\cos x=f(x)$，所以图象关于直线 $x=0$ 对称；但\r\n$f(0)=-1\\ne0$，函数不可能是奇函数. 因此错误的结论是 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$f(x)=\\sin\\left(x-\\frac{\\pi}{2}\\right)=-\\cos x$. 因此其最小正周期为</p><p>$2\\pi$. 在 $\\left[0,\\frac{\\pi}{2}\\right]$ 内，$f'(x)=\\sin x$，除端点外均为正，故函数在该区间上是增函数.</p><p>又有 $f(-x)=-\\cos(-x)=-\\cos x=f(x)$，所以图象关于直线 $x=0$ 对称；但</p><p>$f(0)=-1\\ne0$，函数不可能是奇函数. 因此错误的结论是 D.</p>"
         },
         {
           "num": 5,
-          "body": "设矩形的长为 $a$，宽为 $b$，其比满足 $b : a = \\frac{\\sqrt{5} - 1}{2} \\approx 0.618$，这种矩形给人以美感，称为黄金矩形. 黄金矩形常应用于工艺品设计中. 下面是某工艺品厂随机抽取两个批次的初加工矩形宽度与长度的比值样本：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n甲批次： & $0.598$ & $0.625$ & $0.628$ & $0.595$ & $0.639$ \\\\\r\n乙批次： & $0.618$ & $0.613$ & $0.592$ & $0.622$ & $0.620$\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n根据上述两个样本来估计两个批次的总体平均数，与标准值 $0.618$ 比较，正确结论是（ ）",
+          "body": "<p>设矩形的长为 $a$，宽为 $b$，其比满足 $b : a = \\frac{\\sqrt{5} - 1}{2}\\approx 0.618$，这种矩形给人以美感，称为黄金矩形. 黄金矩形常应用于工艺品设计中. 下面是某工艺品厂随机抽取两个批次的初加工矩形宽度与长度的比值样本：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">甲批次： </td><td style=\"text-align: center\"> $0.598$ </td><td style=\"text-align: center\"> $0.625$ </td><td style=\"text-align: center\"> $0.628$ </td><td style=\"text-align: center\"> $0.595$ </td><td style=\"text-align: center\"> $0.639$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>乙批次： </td><td style=\"text-align: center\"> $0.618$ </td><td style=\"text-align: center\"> $0.613$ </td><td style=\"text-align: center\"> $0.592$ </td><td style=\"text-align: center\"> $0.622$ </td><td style=\"text-align: center\"> $0.620$</td></tr></tbody></table></center><p>根据上述两个样本来估计两个批次的总体平均数，与标准值 $0.618$ 比较，正确结论是（ ）</p>",
           "choices": [
             "甲批次的总体平均数与标准值更接近",
             "乙批次的总体平均数与标准值更接近",
@@ -208,13 +65,11 @@
             "两个批次总体平均数与标准值接近程度不能确定"
           ],
           "answer": "A",
-          "solution": "甲批次样本平均数为\r\n\n$$\n\\bar{x}_{\\text{甲}}=\\frac{0.598+0.625+0.628+0.595+0.639}{5}=0.617\n$$\n\r\n乙批次样本平均数为\r\n\n$$\n\\bar{x}_{\\text{乙}}=\\frac{0.618+0.613+0.592+0.622+0.620}{5}=0.613\n$$\n\r\n它们与标准值 $0.618$ 的距离分别为 $0.001$ 和 $0.005$，所以甲批次的总体平均数估计值更接近标准值，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>甲批次样本平均数为</p>\n$$\n\\bar{x}_{\\text{甲}}=\\frac{0.598+0.625+0.628+0.595+0.639}{5}=0.617\n$$\n<p>乙批次样本平均数为</p>\n$$\n\\bar{x}_{\\text{乙}}=\\frac{0.618+0.613+0.592+0.622+0.620}{5}=0.613\n$$\n<p>它们与标准值 $0.618$ 的距离分别为 $0.001$ 和 $0.005$，所以甲批次的总体平均数估计值更接近标准值，故选 A.</p>"
         },
         {
           "num": 6,
-          "body": "如图，已知六棱锥 $P - ABCDEF$ 的底面是正六边形，$PA \\perp$ 平面 $ABC$，$PA = 2AB$，则下列结论正确的是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/sichuan_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，已知六棱锥 $P - ABCDEF$ 的底面是正六边形，$PA \\perp$ 平面 $ABC$，$PA = 2AB$，则下列结论正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$PB \\perp AD$",
             "平面 $PAB \\perp$ 平面 $PBC$",
@@ -222,13 +77,11 @@
             "直线 $PD$ 与平面 $ABC$ 所成的角为 $45^{\\circ}$"
           ],
           "answer": "D",
-          "solution": "令正六边形边长为 $1$，取底面为 $z=0$ 平面，并设\r\n$A=(1,0,0)$，$B=\\left(\\frac12,\\frac{\\sqrt3}{2},0\\right)$，$C=\\left(-\\frac12,\\frac{\\sqrt3}{2},0\\right)$\r\n$D=(-1,0,0)$，$E=\\left(-\\frac12,-\\frac{\\sqrt3}{2},0\\right)$，$P=(1,0,2)$.\r\n则\r\n$\\overrightarrow{PB}=\\left(-\\frac12,\\frac{\\sqrt3}{2},-2\\right)$，$\\overrightarrow{AD}=(-2,0,0)$\r\n两向量内积为 $1$，所以 $PB$ 不垂直于 $AD$. 平面 $PAB$、$PBC$ 的法向量可分别取\r\n$(\\sqrt3,1,0)$，$\\left(0,2,\\frac{\\sqrt3}{2}\\right)$\r\n其内积为 $2\\ne0$，所以两平面不垂直. 平面 $PAE$ 的法向量可取\r\n\n$$\n\\overrightarrow{AP}\\times\\overrightarrow{AE}=(\\sqrt3,-3,0)\n$$\n\r\n而 $\\overrightarrow{BC}=(-1,0,0)$ 与该法向量内积为 $-\\sqrt3\\ne0$，故 $BC$ 不平行于平面 $PAE$.\r\n\r\n点 $D$ 到平面 $ABC$ 的正投影为 $D$，而 $P$ 到该平面的正投影为 $A$. 因此直线 $PD$ 与平面 $ABC$ 所成角 $\\theta$ 满足\r\n\n$$\n\\tan\\theta=\\frac{PA}{AD}=\\frac{2}{2}=1\n$$\n\r\n所以 $\\theta=45^{\\circ}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令正六边形边长为 $1$，取底面为 $z=0$ 平面，并设</p><p>$A=(1,0,0)$，$B=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$，$C=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$</p><p>$D=(-1,0,0)$，$E=\\left(-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},0\\right)$，$P=(1,0,2)$.</p><p>则</p><p>$\\overrightarrow{PB}=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},-2\\right)$，$\\overrightarrow{AD}=(-2,0,0)$</p><p>两向量内积为 $1$，所以 $PB$ 不垂直于 $AD$. 平面 $PAB$、$PBC$ 的法向量可分别取</p><p>$(\\sqrt{3},1,0)$，$\\left(0,2,\\frac{\\sqrt{3}}{2}\\right)$</p><p>其内积为 $2\\ne0$，所以两平面不垂直. 平面 $PAE$ 的法向量可取</p>\n$$\n\\overrightarrow{AP}\\times\\overrightarrow{AE}=(\\sqrt{3},-3,0)\n$$\n<p>而 $\\overrightarrow{BC}=(-1,0,0)$ 与该法向量内积为 $-\\sqrt{3}\\ne0$，故 $BC$ 不平行于平面 $PAE$.</p><p>点 $D$ 到平面 $ABC$ 的正投影为 $D$，而 $P$ 到该平面的正投影为 $A$. 因此直线 $PD$ 与平面 $ABC$ 所成角 $\\theta$ 满足</p>\n$$\n\\tan\\theta=\\frac{PA}{AD}=\\frac{2}{2}=1\n$$\n<p>所以 $\\theta=45^{\\circ}$，故选 D.</p>"
         },
         {
           "num": 7,
-          "body": "已知 $a$，$b$，$c$，$d$ 为实数，且 $c > d$. 则“$a > b$”是“$a - c > b - d$”的（ ）",
+          "body": "已知 $a$，$b$，$c$，$d$ 为实数，且 $c > d$. 则“$a > b$”是“$a - c > b - d$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -236,13 +89,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "由 $a-c>b-d$，移项得 $a-b>c-d$. 因 $c>d$，所以 $c-d>0$，从而必有\r\n$a-b>0$，即 $a>b$. 因此“$a>b$”是“$a-c>b-d$”的必要条件.\r\n\r\n但 $a>b$ 不一定推出 $a-b>c-d$. 例如取 $a-b=1$、$c-d=2$，前者成立而后者不成立，所以不是充分条件. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $a-c>b-d$，移项得 $a-b>c-d$. 因 $c>d$，所以 $c-d>0$，从而必有</p><p>$a-b>0$，即 $a>b$. 因此“$a>b$”是“$a-c>b-d$”的必要条件.</p><p>但 $a>b$ 不一定推出 $a-b>c-d$. 例如取 $a-b=1$、$c-d=2$，前者成立而后者不成立，所以不是充分条件. 故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "已知双曲线 $\\frac{x^2}{2} - \\frac{y^2}{b^2} = 1$（$b > 0$）的左，右焦点分别为 $F_1$，$F_2$，其一条渐近线方程为 $y = x$，点 $P(\\sqrt{3}, y_0)$ 在该双曲线上，则 $\\overrightarrow{PF_1} \\cdot \\overrightarrow{PF_2} =$（ ）",
+          "body": "已知双曲线 $\\frac{x^{2}}{2}- \\frac{y^{2}}{b^{2}}= 1$（$b > 0$）的左，右焦点分别为 $F_{1}$，$F_{2}$，其一条渐近线方程为 $y = x$，点 $P(\\sqrt{3}, y_{0})$ 在该双曲线上，则 $\\overrightarrow{PF_1}\\cdot \\overrightarrow{PF_2}=$（ ）",
           "choices": [
             "$-12$",
             "$-2$",
@@ -250,13 +101,11 @@
             "4"
           ],
           "answer": "C",
-          "solution": "双曲线的渐近线为 $y=\\pm\\frac{b}{\\sqrt2}x$. 由其中一条渐近线为 $y=x$，得\r\n$b=\\sqrt2$. 于是焦半距\r\n$c=\\sqrt{2+b^2}=2$，故\r\n$F_1=(-2,0)$，$F_2=(2,0)$.\r\n\r\n点 $P(\\sqrt3,y_0)$ 在双曲线上，故\r\n$\\frac{3}{2}-\\frac{y_0^2}{2}=1$，$y_0^2=1$.\r\n从而\r\n\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}\r\n=(-2-\\sqrt3)(2-\\sqrt3)+y_0^2=-1+1=0\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线的渐近线为 $y=\\pm\\frac{b}{\\sqrt{2}}x$. 由其中一条渐近线为 $y=x$，得</p><p>$b=\\sqrt{2}$. 于是焦半距</p><p>$c=\\sqrt{2+b^{2}}=2$，故</p><p>$F_{1}=(-2,0)$，$F_{2}=(2,0)$.</p><p>点 $P(\\sqrt{3},y_{0})$ 在双曲线上，故</p><p>$\\frac{3}{2}-\\frac{y_{0}^{2}}{2}=1$，$y_{0}^{2}=1$.</p><p>从而</p>\n$$\n\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=(-2-\\sqrt{3})(2-\\sqrt{3})+y_{0}^{2}=-1+1=0\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 9,
-          "body": "如图，在半径为 3 的球面上有 $A$，$B$，$C$ 三点，$\\angle ABC = 90^{\\circ}$，$BA = BC$，球心 $O$ 到平面 $ABC$ 的距离是 $\\frac{3\\sqrt{2}}{2}$，则 $B$，$C$ 两点的球面距离是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/sichuan_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，在半径为 3 的球面上有 $A$，$B$，$C$ 三点，$\\angle ABC = 90^{\\circ}$，$BA = BC$，球心 $O$ 到平面 $ABC$ 的距离是 $\\frac{3\\sqrt{2}}{2}$，则 $B$，$C$ 两点的球面距离是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{\\pi}{3}$",
             "$\\pi$",
@@ -264,13 +113,11 @@
             "$2\\pi$"
           ],
           "answer": "B",
-          "solution": "平面 $ABC$ 截球所得圆的半径为\r\n\n$$\nr=\\sqrt{3^2-\\left(\\frac{3\\sqrt2}{2}\\right)^2}=\\frac{3\\sqrt2}{2}\n$$\n\r\n三角形 $ABC$ 是直角三角形，故其外接圆圆心为斜边 $AC$ 的中点，外接圆半径为 $r$. 因此\r\n$AC=2r=3\\sqrt2$，又因 $BA=BC$，得 $BC=3$.\r\n\r\n设弧 $BC$ 所对的圆心角为 $\\theta$，则弦长公式给出\r\n$3=2\\cdot3\\sin\\frac{\\theta}{2}$，$0<\\theta\\le\\pi$，\r\n所以 $\\theta=\\frac{\\pi}{3}$. 球面距离等于半径乘以对应的劣弧圆心角，故球面距离为\r\n$3\\cdot\\frac{\\pi}{3}=\\pi$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>平面 $ABC$ 截球所得圆的半径为</p>\n$$\nr=\\sqrt{3^{2}-\\left(\\frac{3\\sqrt{2}}{2}\\right)^{2}}=\\frac{3\\sqrt{2}}{2}\n$$\n<p>三角形 $ABC$ 是直角三角形，故其外接圆圆心为斜边 $AC$ 的中点，外接圆半径为 $r$. 因此</p><p>$AC=2r=3\\sqrt{2}$，又因 $BA=BC$，得 $BC=3$.</p><p>设弧 $BC$ 所对的圆心角为 $\\theta$，则弦长公式给出</p><p>$3=2\\cdot3\\sin\\frac{\\theta}{2}$，$0&#x3C;\\theta\\le\\pi$，</p><p>所以 $\\theta=\\frac{\\pi}{3}$. 球面距离等于半径乘以对应的劣弧圆心角，故球面距离为</p><p>$3\\cdot\\frac{\\pi}{3}=\\pi$，选 B.</p>"
         },
         {
           "num": 10,
-          "body": "某企业生产甲，乙两种产品，已知生产每吨甲产品要用 $A$ 原料 $3\\text{ 吨}$，$B$ 原料 $2\\text{ 吨}$；生产每吨乙产品要用 $A$ 原料 $1\\text{ 吨}$，$B$ 原料 $3\\text{ 吨}$. 销售每吨甲产品可获得利润 $5\\text{ 万元}$，每吨乙产品可获得利润 $3\\text{ 万元}$. 该企业在一个生产周期内消耗 $A$ 原料不超过 $13\\text{ 吨}$，$B$ 原料不超过 $18\\text{ 吨}$，那么该企业可获得最大利润是（ ）",
+          "body": "某企业生产甲，乙两种产品，已知生产每吨甲产品要用 $A$ 原料 $3\\text{ 吨}$，$B$ 原料 $2\\text{ 吨}$；生产每吨乙产品要用 $A$ 原料 $1\\text{ 吨}$，$B$ 原料 $3\\text{ 吨}$. 销售每吨甲产品可获得利润 $5\\text{ 万元}$，每吨乙产品可获得利润 $3\\text{ 万元}$. 该企业在一个生产周期内消耗 $A$ 原料不超过 $13\\text{ 吨}$，$B$ 原料不超过 $18\\text{ 吨}$，那么该企业可获得最大利润是（ ）",
           "choices": [
             "$12\\text{ 万元}$",
             "$20\\text{ 万元}$",
@@ -278,13 +125,11 @@
             "$27\\text{ 万元}$"
           ],
           "answer": "D",
-          "solution": "设生产甲、乙产品的吨数分别为 $x$，$y$，则 $x\\ge0$，$y\\ge0$，并且\r\n$3x+y\\le13$，$2x+3y\\le18$.\r\n利润为 $z=5x+3y$. 可行域的顶点为\r\n$(0,0)$、$\\left(\\frac{13}{3},0\\right)$、$(0,6)$ 以及两条约束边界的交点\r\n$(3,4)$.\r\n\r\n在这些顶点处，利润分别为 $0$、$\\frac{65}{3}$、$18$、$27$. 最大值为 $27$，故选 D，即最大利润为 $27\\text{ 万元}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设生产甲、乙产品的吨数分别为 $x$，$y$，则 $x\\ge0$，$y\\ge0$，并且</p><p>$3x+y\\le13$，$2x+3y\\le18$.</p><p>利润为 $z=5x+3y$. 可行域的顶点为</p><p>$(0,0)$、$\\left(\\frac{13}{3},0\\right)$、$(0,6)$ 以及两条约束边界的交点</p><p>$(3,4)$.</p><p>在这些顶点处，利润分别为 $0$、$\\frac{65}{3}$、$18$、$27$. 最大值为 $27$，故选 D，即最大利润为 $27\\text{ 万元}$.</p>"
         },
         {
           "num": 11,
-          "body": "$2$ 位男生和 $3$ 位女生共 $5$ 位同学站成一排，若男生甲不站两端，$3$ 位女生中有且只有两位女生相邻，则不同排法的种数是（ ）",
+          "body": "$2$ 位男生和 $3$ 位女生共 $5$ 位同学站成一排，若男生甲不站两端，$3$ 位女生中有且只有两位女生相邻，则不同排法的种数是（ ）",
           "choices": [
             "$60$",
             "$48$",
@@ -292,13 +137,11 @@
             "$36$"
           ],
           "answer": "B",
-          "solution": "先只看女生所占的三个位置. 五个位置中，恰有一对相邻女生的三位置集合为\r\n$\\{1,2,4\\}$，$\\ \\{1,2,5\\}$，$\\ \\{1,3,4\\}$，$\\ \\{1,4,5\\}$，$\\ \\{2,3,5\\}$，$\\ \\{2,4,5\\}$.\r\n集合 $\\{1,3,5\\}$ 没有相邻女生，而三个连续位置会产生两对相邻女生，均不符合题意.\r\n\r\n对上述六种位置，男生甲、乙所占位置中甲不在两端的排法数依次为\r\n$1$，$2$，$1$，$2$，$1$，$1$，合计 $8$ 种. 每种男生位置安排下，三位女生可任意排列，有\r\n$3!=6$ 种，所以总排法数为 $8\\times6=48$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>先只看女生所占的三个位置. 五个位置中，恰有一对相邻女生的三位置集合为</p><p>$\\{1,2,4\\}$，$\\ \\{1,2,5\\}$，$\\ \\{1,3,4\\}$，$\\ \\{1,4,5\\}$，$\\ \\{2,3,5\\}$，$\\ \\{2,4,5\\}$.</p><p>集合 $\\{1,3,5\\}$ 没有相邻女生，而三个连续位置会产生两对相邻女生，均不符合题意.</p><p>对上述六种位置，男生甲、乙所占位置中甲不在两端的排法数依次为</p><p>$1$，$2$，$1$，$2$，$1$，$1$，合计 $8$ 种. 每种男生位置安排下，三位女生可任意排列，有</p><p>$3!=6$ 种，所以总排法数为 $8\\times6=48$，故选 B.</p>"
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x)$ 是定义在实数集 $\\mathbb{R}$ 上的不恒为零的偶函数，且对任意实数 $x$ 都有 $x f(x + 1) = (1 + x)f(x)$，则 $f\\left(f\\left(\\frac{5}{2}\\right)\\right)$ 的值是（ ）",
+          "body": "已知函数 $f(x)$ 是定义在实数集 $\\mathbb{R}$ 上的不恒为零的偶函数，且对任意实数 $x$ 都有 $x f(x + 1) = (1 + x)f(x)$，则 $f\\left(f\\left(\\frac{5}{2}\\right)\\right)$ 的值是（ ）",
           "choices": [
             "0",
             "$\\frac{1}{2}$",
@@ -306,9 +149,7 @@
             "$\\frac{5}{2}$"
           ],
           "answer": "A",
-          "solution": "令题设关系中的 $x=-\\frac12$，得\r\n\n$$\n-\\frac12f\\left(\\frac12\\right)=\\frac12f\\left(-\\frac12\\right)\n$$\n\r\n因 $f$ 为偶函数，右端等于 $\\frac12f(\\frac12)$，所以\r\n$f(\\frac12)=0$. 再令 $x=\\frac12$，得\r\n\n$$\n\\frac12f\\left(\\frac32\\right)=\\frac32f\\left(\\frac12\\right)=0\n$$\n\r\n从而 $f(\\frac32)=0$. 再令 $x=\\frac32$，得\r\n\n$$\n\\frac32f\\left(\\frac52\\right)=\\frac52f\\left(\\frac32\\right)=0\n$$\n\r\n从而 $f(\\frac52)=0$. 最后令 $x=0$，原关系给出\r\n$f(0)=0$. 因此\r\n\n$$\nf\\left(f\\left(\\frac52\\right)\\right)=f(0)=0\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令题设关系中的 $x=-\\frac{1}{2}$，得</p>\n$$\n-\\frac{1}{2}f\\left(\\frac{1}{2}\\right)=\\frac{1}{2}f\\left(-\\frac{1}{2}\\right)\n$$\n<p>因 $f$ 为偶函数，右端等于 $\\frac{1}{2}f(\\frac{1}{2})$，所以</p><p>$f(\\frac{1}{2})=0$. 再令 $x=\\frac{1}{2}$，得</p>\n$$\n\\frac{1}{2}f\\left(\\frac{3}{2}\\right)=\\frac{3}{2}f\\left(\\frac{1}{2}\\right)=0\n$$\n<p>从而 $f(\\frac{3}{2})=0$. 再令 $x=\\frac{3}{2}$，得</p>\n$$\n\\frac{3}{2}f\\left(\\frac{5}{2}\\right)=\\frac{5}{2}f\\left(\\frac{3}{2}\\right)=0\n$$\n<p>从而 $f(\\frac{5}{2})=0$. 最后令 $x=0$，原关系给出</p><p>$f(0)=0$. 因此</p>\n$$\nf\\left(f\\left(\\frac{5}{2}\\right)\\right)=f(0)=0\n$$\n<p>故选 A.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "抛物线 $y^{2} = 4x$ 的焦点到准线的距离是 _______ {}.",
-          "choices": [],
+          "body": "抛物线 $y^{2}= 4x$ 的焦点到准线的距离是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "2",
-          "solution": "抛物线标准方程为 $y^2=2px$. 与 $y^2=4x$ 比较得 $p=2$，焦点为\r\n$(1,0)$，准线为 $x=-1$. 焦点到准线的距离为 $1-(-1)=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>抛物线标准方程为 $y^{2}=2px$. 与 $y^{2}=4x$ 比较得 $p=2$，焦点为</p><p>$(1,0)$，准线为 $x=-1$. 焦点到准线的距离为 $1-(-1)=2$.</p>"
         },
         {
           "num": 14,
-          "body": "$\\left(2x - \\frac{1}{2x}\\right)^6$ 的展开式的常数项是 _______ {}.（用数字作答）",
-          "choices": [],
-          "answer": "\\(-20\\)",
-          "solution": "展开式通项中，若从六个因式中取 $k$ 个 $-\\frac{1}{2x}$，则 $x$ 的次数为\r\n$6-2k$. 常数项要求 $6-2k=0$，所以 $k=3$. 因此常数项为\r\n\n$$\n\\mathrm C_6^3(2x)^3\\left(-\\frac{1}{2x}\\right)^3=-20\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\left(2x - \\frac{1}{2x}\\right)^{6}$ 的展开式的常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（用数字作答）",
+          "choices": null,
+          "answer": "$-20$",
+          "solution": "<p>展开式通项中，若从六个因式中取 $k$ 个 $-\\frac{1}{2x}$，则 $x$ 的次数为</p><p>$6-2k$. 常数项要求 $6-2k=0$，所以 $k=3$. 因此常数项为</p>\n$$\n\\mathrm{C}_{6}^{3}(2x)^{3}\\left(-\\frac{1}{2x}\\right)^{3}=-20\n$$"
         },
         {
           "num": 15,
-          "body": "如图，已知正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 的各条棱长都相等，$M$ 是侧棱 $CC_{1}$ 的中点，则异面直线 $AB_{1}$ 和 $BM$ 所成的角的大小是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/sichuan_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(90^{\\circ}\\)",
-          "solution": "取棱长为 $1$，建立直角坐标系，令\r\n$A=(0,0,0)$，$B=(1,0,0)$，$B_1=(1,0,1)$，$C=\\left(\\frac12,\\frac{\\sqrt3}{2},0\\right)$.\r\n因 $M$ 是 $CC_1$ 的中点，故\r\n\n$$\nM=\\left(\\frac12,\\frac{\\sqrt3}{2},\\frac12\\right)\n$$\n\r\n于是可取两异面直线的方向向量\r\n$\\overrightarrow{AB_1}=(1,0,1)$，$\\overrightarrow{BM}=\\left(-\\frac12,\\frac{\\sqrt3}{2},\\frac12\\right)$.\r\n其内积为 $-\\frac12+\\frac12=0$，所以两直线所成的角为 $90^{\\circ}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，已知正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 的各条棱长都相等，$M$ 是侧棱 $CC_{1}$ 的中点，则异面直线 $AB_{1}$ 和 $BM$ 所成的角的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$90^{\\circ}$",
+          "solution": "<p>取棱长为 $1$，建立直角坐标系，令</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$B_{1}=(1,0,1)$，$C=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><p>因 $M$ 是 $CC_{1}$ 的中点，故</p>\n$$\nM=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},\\frac{1}{2}\\right)\n$$\n<p>于是可取两异面直线的方向向量</p><p>$\\overrightarrow{AB_1}=(1,0,1)$，$\\overrightarrow{BM}=\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},\\frac{1}{2}\\right)$.</p><p>其内积为 $-\\frac{1}{2}+\\frac{1}{2}=0$，所以两直线所成的角为 $90^{\\circ}$.</p>"
         },
         {
           "num": 16,
-          "body": "设 $V$ 是已知平面 $M$ 上所有向量的集合. 对于映射 $f: V \\to V$，$\\mathbf{a} \\in V$，记 $\\mathbf{a}$ 的象为 $f(\\mathbf{a})$. 若映射 $f: V \\to V$ 满足：对所有 $\\mathbf{a}$，$\\mathbf{b} \\in V$ 及任意实数 $\\lambda$，$\\mu$ 都有 $f(\\lambda\\mathbf{a} + \\mu\\mathbf{b}) = \\lambda f(\\mathbf{a}) + \\mu f(\\mathbf{b})$，则 $f$ 称为平面 $M$ 上的线性变换. 现有下列命题：\r\n\r\n\\begin{circlelist}\r\n\\item 设 $f$ 是平面 $M$ 上的线性变换，则 $f(\\mathbf{a}+\\mathbf{b}) = f(\\mathbf{a}) + f(\\mathbf{b})$；\r\n\\item 若 $\\mathbf{e}$ 是平面 $M$ 上的单位向量，对 $\\mathbf{a} \\in V$，设 $f(\\mathbf{a}) = \\mathbf{a} + \\mathbf{e}$，则 $f$ 是平面 $M$ 上的线性变换；\r\n\\item 对 $\\mathbf{a} \\in V$，设 $f(\\mathbf{a}) = -\\mathbf{a}$，则 $f$ 是平面 $M$ 上的线性变换；\r\n\\item 设 $f$ 是平面 $M$ 上的线性变换，$\\mathbf{a} \\in V$，则对任意实数 $k$ 均有 $f(k\\mathbf{a}) = kf(\\mathbf{a})$.\r\n\\end{circlelist}\r\n\r\n其中真命题是 _______ {}.（写出所有真命题的序号）",
-          "choices": [],
+          "body": "<p>设 $V$ 是已知平面 $M$ 上所有向量的集合. 对于映射 $f: V \\to V$，$\\mathbf{a}\\in V$，记 $\\mathbf{a}$ 的象为 $f(\\mathbf{a})$. 若映射 $f: V \\to V$ 满足：对所有 $\\mathbf{a}$，$\\mathbf{b}\\in V$ 及任意实数 $\\lambda$，$\\mu$ 都有 $f(\\lambda\\mathbf{a}+ \\mu\\mathbf{b}) = \\lambda f(\\mathbf{a}) + \\mu f(\\mathbf{b})$，则 $f$ 称为平面 $M$ 上的线性变换. 现有下列命题：</p><ol class=\"enumerate\"><li><p>设 $f$ 是平面 $M$ 上的线性变换，则 $f(\\mathbf{a}+\\mathbf{b}) = f(\\mathbf{a}) + f(\\mathbf{b})$；</p></li><li><p>若 $\\mathbf{e}$ 是平面 $M$ 上的单位向量，对 $\\mathbf{a}\\in V$，设 $f(\\mathbf{a}) = \\mathbf{a}+ \\mathbf{e}$，则 $f$ 是平面 $M$ 上的线性变换；</p></li><li><p>对 $\\mathbf{a}\\in V$，设 $f(\\mathbf{a}) = -\\mathbf{a}$，则 $f$ 是平面 $M$ 上的线性变换；</p></li><li><p>设 $f$ 是平面 $M$ 上的线性变换，$\\mathbf{a}\\in V$，则对任意实数 $k$ 均有 $f(k\\mathbf{a}) = kf(\\mathbf{a})$.</p></li></ol><p>其中真命题是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有真命题的序号）</p>",
+          "choices": null,
           "answer": "134",
-          "solution": "在定义式中取 $\\lambda=\\mu=1$，可得\r\n$f(\\mathbf{a}+\\mathbf{b})=f(\\mathbf{a})+f(\\mathbf{b})$，所以命题 $1$ 正确.\r\n\r\n若定义 $f(\\mathbf{a})=\\mathbf{a}+\\mathbf{e}$，则 $f(\\bs0)=\\mathbf{e}\\ne\\bs0$，而线性变换必满足\r\n$f(\\bs0)=\\bs0$，所以命题 $2$ 错误.\r\n\r\n若定义 $f(\\mathbf{a})=-\\mathbf{a}$，则对任意 $\\lambda$，$\\mu$ 有\r\n\n$$\nf(\\lambda\\mathbf{a}+\\mu\\mathbf{b})=-(\\lambda\\mathbf{a}+\\mu\\mathbf{b})\r\n=\\lambda f(\\mathbf{a})+\\mu f(\\mathbf{b})\n$$\n\r\n所以命题 $3$ 正确.\r\n\r\n在定义式中取 $\\mu=0$、$\\lambda=k$，得到\r\n$f(k\\mathbf{a})=kf(\\mathbf{a})$，所以命题 $4$ 正确. 故所有真命题的序号为 $134$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在定义式中取 $\\lambda=\\mu=1$，可得</p><p>$f(\\mathbf{a}+\\mathbf{b})=f(\\mathbf{a})+f(\\mathbf{b})$，所以命题 $1$ 正确.</p><p>若定义 $f(\\mathbf{a})=\\mathbf{a}+\\mathbf{e}$，则 $f(\\mathbf{0})=\\mathbf{e}\\ne\\mathbf{0}$，而线性变换必满足</p><p>$f(\\mathbf{0})=\\mathbf{0}$，所以命题 $2$ 错误.</p><p>若定义 $f(\\mathbf{a})=-\\mathbf{a}$，则对任意 $\\lambda$，$\\mu$ 有</p>\n$$\nf(\\lambda\\mathbf{a}+\\mu\\mathbf{b})=-(\\lambda\\mathbf{a}+\\mu\\mathbf{b})  =\\lambda f(\\mathbf{a})+\\mu f(\\mathbf{b})\n$$\n<p>所以命题 $3$ 正确.</p><p>在定义式中取 $\\mu=0$、$\\lambda=k$，得到</p><p>$f(k\\mathbf{a})=kf(\\mathbf{a})$，所以命题 $4$ 正确. 故所有真命题的序号为 $134$.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "在 $\\triangle ABC$ 中，$A$，$B$ 为锐角，角 $A$，$B$，$C$ 所对应的边分别为 $a$，$b$，$c$，且 $\\sin A = \\frac{\\sqrt{5}}{5}$，$\\sin B = \\frac{\\sqrt{10}}{10}$.\r\n\r\n\n(1) 求 $A + B$ 的值；\n\n(2) 若 $a - b = \\sqrt{2} - 1$，求 $a$，$b$，$c$ 的值.\n\r\n\n(1) 因 $A$、$B$ 为锐角，得\r\n$\\cos A=\\sqrt{1-\\sin^2A}=\\frac{2\\sqrt5}{5}$，$\\cos B=\\sqrt{1-\\sin^2B}=\\frac{3\\sqrt{10}}{10}$.\r\n于是\r\n\n$$\n\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B\r\n=\\frac{2\\sqrt5}{5}\\cdot\\frac{3\\sqrt{10}}{10}\r\n-\\frac{\\sqrt5}{5}\\cdot\\frac{\\sqrt{10}}{10}\r\n=\\frac{\\sqrt2}{2}\n$$\n\r\n又 $0<A+B<\\pi$，所以 $A+B=\\frac{\\pi}{4}$.\n\n(2) 由正弦定理，$a:b=\\sin A:\\sin B=\\sqrt2:1$，故可设 $a=\\sqrt2 b$. 由\r\n$a-b=\\sqrt2-1$，得\r\n\n$$\n(\\sqrt2-1)b=\\sqrt2-1\n$$\n\r\n所以 $b=1$，$a=\\sqrt2$. 由第（1）问，\r\n$C=\\pi-(A+B)=\\frac{3\\pi}{4}$. 再次由正弦定理，\r\n\n$$\n\\frac{c}{b}=\\frac{\\sin C}{\\sin B}\r\n=\\frac{\\frac{\\sqrt2}{2}}{\\frac{\\sqrt{10}}{10}}=\\sqrt5\n$$\n\r\n故 $c=\\sqrt5$.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，$A$，$B$ 为锐角，角 $A$，$B$，$C$ 所对应的边分别为 $a$，$b$，$c$，且 $\\sin A = \\frac{\\sqrt{5}}{5}$，$\\sin B = \\frac{\\sqrt{10}}{10}$.</p><ol class=\"enumerate\"><li><p>求 $A + B$ 的值；</p></li><li><p>若 $a - b = \\sqrt{2}- 1$，求 $a$，$b$，$c$ 的值.</p></li></ol><ol class=\"enumerate\"><li><p>因 $A$、$B$ 为锐角，得</p><p>$\\cos A=\\sqrt{1-\\sin^{2}A}=\\frac{2\\sqrt{5}}{5}$，$\\cos B=\\sqrt{1-\\sin^{2}B}=\\frac{3\\sqrt{10}}{10}$.</p><p>于是</p>\n$$\n\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B  =\\frac{2\\sqrt{5}}{5}\\cdot\\frac{3\\sqrt{10}}{10}-\\frac{\\sqrt{5}}{5}\\cdot\\frac{\\sqrt{10}}{10}=\\frac{\\sqrt{2}}{2}\n$$\n<p>又 $0&#x3C;A+B&#x3C;\\pi$，所以 $A+B=\\frac{\\pi}{4}$.</p></li><li><p>由正弦定理，$a:b=\\sin A:\\sin B=\\sqrt{2}:1$，故可设 $a=\\sqrt{2}b$. 由</p><p>$a-b=\\sqrt{2}-1$，得</p>\n$$\n(\\sqrt{2}-1)b=\\sqrt{2}-1\n$$\n<p>所以 $b=1$，$a=\\sqrt{2}$. 由第（1）问，</p><p>$C=\\pi-(A+B)=\\frac{3\\pi}{4}$. 再次由正弦定理，</p>\n$$\n\\frac{c}{b}=\\frac{\\sin C}{\\sin B}=\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{10}}{10}}=\\sqrt{5}\n$$\n<p>故 $c=\\sqrt{5}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 18,
-          "body": "为振兴旅游业，四川省 2009 年面向国内发行总量为 2000 万张的熊猫优惠卡，向省外人士发行的是熊猫金卡（简称金卡），向省内人士发行的是熊猫银卡（简称银卡）. 某旅游公司组织了一个有 $36$ 名游客的旅游团到四川名胜旅游，其中 $\\frac{3}{4}$ 是省外游客，其余是省内游客. 在省外游客中有 $\\frac{1}{3}$ 持金卡，在省内游客中有 $\\frac{2}{3}$ 持银卡.\r\n\r\n\n(1) 在该团中随机采访 2 名游客，求恰有 1 人持银卡的概率；\n\n(2) 在该团中随机采访 2 名游客，求其中持金卡与持银卡人数相等的概率.\n\r\n\n(1) 省外游客有 $36\\times\\frac34=27$ 人，其中持金卡的有\r\n$27\\times\\frac13=9$ 人. 省内游客有 $9$ 人，其中持银卡的有\r\n$9\\times\\frac23=6$ 人. 因此全团持银卡的有 $6$ 人，不持银卡的有 $30$ 人.\r\n随机采访两人时，恰有一人持银卡的概率为\r\n\n$$\n\\frac{\\mathrm C_6^1\\mathrm C_{30}^1}{\\mathrm C_{36}^2}\r\n=\\frac{180}{630}=\\frac27\n$$\n\n(2) 全团持金卡 $9$ 人，持银卡 $6$ 人，既不持金卡也不持银卡的有\r\n$36-9-6=21$ 人. 两人中金卡、银卡人数相等时，只有“一人持金卡且一人持银卡”或“两人均不持这两种卡”两种情形，故所求概率为\r\n\n$$\n\\frac{9\\times6+\\mathrm C_{21}^2}{\\mathrm C_{36}^2}\r\n=\\frac{54+210}{630}=\\frac{44}{105}\n$$",
-          "choices": [],
+          "body": "<p>为振兴旅游业，四川省 2009 年面向国内发行总量为 2000 万张的熊猫优惠卡，向省外人士发行的是熊猫金卡（简称金卡），向省内人士发行的是熊猫银卡（简称银卡）. 某旅游公司组织了一个有 $36$ 名游客的旅游团到四川名胜旅游，其中 $\\frac{3}{4}$ 是省外游客，其余是省内游客. 在省外游客中有 $\\frac{1}{3}$ 持金卡，在省内游客中有 $\\frac{2}{3}$ 持银卡.</p><ol class=\"enumerate\"><li><p>在该团中随机采访 2 名游客，求恰有 1 人持银卡的概率；</p></li><li><p>在该团中随机采访 2 名游客，求其中持金卡与持银卡人数相等的概率.</p></li></ol><ol class=\"enumerate\"><li><p>省外游客有 $36\\times\\frac{3}{4}=27$ 人，其中持金卡的有</p><p>$27\\times\\frac{1}{3}=9$ 人. 省内游客有 $9$ 人，其中持银卡的有</p><p>$9\\times\\frac{2}{3}=6$ 人. 因此全团持银卡的有 $6$ 人，不持银卡的有 $30$ 人.</p><p>随机采访两人时，恰有一人持银卡的概率为</p>\n$$\n\\frac{\\mathrm{C}_{6}^{1}\\mathrm{C}_{30}^{1}}{\\mathrm{C}_{36}^{2}}=\\frac{180}{630}=\\frac{2}{7}\n$$\n</li><li><p>全团持金卡 $9$ 人，持银卡 $6$ 人，既不持金卡也不持银卡的有</p><p>$36-9-6=21$ 人. 两人中金卡、银卡人数相等时，只有“一人持金卡且一人持银卡”或“两人均不持这两种卡”两种情形，故所求概率为</p>\n$$\n\\frac{9\\times6+\\mathrm{C}_{21}^{2}}{\\mathrm{C}_{36}^{2}}=\\frac{54+210}{630}=\\frac{44}{105}\n$$\n</li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 19,
-          "body": "如图，正方形 $ABCD$ 所在平面与平面四边形 $ABEF$ 所在平面互相垂直，$\\triangle ABE$ 是等腰直角三角形，$AB = AE$，$FA = FE$，$\\angle AEF = 45^{\\circ}$.\r\n\r\n\n(1) 求证： $EF \\perp$ 平面 $BCE$；\n\n(2) 设线段 $CD$，$AE$ 的中点分别为 $P$，$M$，求证： $PM \\parallel$ 平面 $BCE$；\n\n(3) 求二面角 $F - BD - A$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/sichuan_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\n(1) 在正方形所在平面内，$BC\\perp AB$. 又两平面的交线为 $AB$，且两平面互相垂直，所以\r\n$BC\\perp$ 平面 $ABEF$，从而 $BC\\perp EF$.\r\n\r\n因 $\\triangle ABE$ 是等腰直角三角形且 $AB=AE$，其直角在 $A$，故\r\n$\\angle AEB=45^{\\circ}$. 在平面 $ABEF$ 内，题设又给出\r\n$\\angle AEF=45^{\\circ}$. 由于 $ABEF$ 是非退化四边形，$EF$ 不与 $EB$\r\n重合，因此 $EF$ 取的是 $EA$ 的另一侧射线，从而\r\n$\\angle BEF=90^{\\circ}$，即 $BE\\perp EF$. 直线 $BC$、$BE$ 相交且都在平面 $BCE$ 内，$EF$ 同时垂直于它们，所以\r\n$EF\\perp$ 平面 $BCE$.\n\n(2) 取 $AB=1$，建立空间直角坐标系，使\r\n$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$\r\n$E=(0,0,1)$，$F=\\left(-\\frac12,0,\\frac12\\right)$.\r\n这些坐标满足题设的垂直、等腰直角及等腰条件. 设 $N$ 为 $BE$ 的中点，则\r\n$P=\\left(\\frac12,1,0\\right)$，$M=\\left(0,0,\\frac12\\right)$，$N=\\left(\\frac12,0,\\frac12\\right)$.\r\n于是\r\n\n$$\n\\overrightarrow{PM}=\\left(-\\frac12,-1,\\frac12\\right)\r\n=\\overrightarrow{CN}\n$$\n\r\n所以 $PM\\parallel CN$. 又平面 $BCE$ 的方程为 $x+z=1$，而\r\n$P$ 的坐标满足 $x+z=\\frac12$，故 $P\\notin$ 平面 $BCE$. 因此\r\n$PM\\parallel$ 平面 $BCE$.\n\n(3) 在上述坐标系中，平面 $ABD$ 的方程为 $z=0$. 平面 $FBD$ 内两条相交向量可取\r\n$\\overrightarrow{BD}=(-1,1,0)$，$\\overrightarrow{BF}=\\left(-\\frac32,0,\\frac12\\right)$.\r\n故其法向量可取\r\n\n$$\n\\overrightarrow{BD}\\times\\overrightarrow{BF}=\\left(\\frac12,\\frac12,\\frac32\\right)\n$$\n\r\n而平面 $ABD$ 的法向量为 $(0,0,1)$. 设二面角 $F-BD-A$ 的大小为 $\\theta$，取其锐角，则\r\n\n$$\n\\tan\\theta=\\frac{\\sqrt{1^2+1^2}}{3}=\\frac{\\sqrt2}{3}\n$$\n\r\n所以 $\\theta=\\arctan\\frac{\\sqrt2}{3}$.",
-          "choices": [],
+          "body": "<p>如图，正方形 $ABCD$ 所在平面与平面四边形 $ABEF$ 所在平面互相垂直，$\\triangle ABE$ 是等腰直角三角形，$AB = AE$，$FA = FE$，$\\angle AEF = 45^{\\circ}$.</p><ol class=\"enumerate\"><li><p>求证： $EF \\perp$ 平面 $BCE$；</p></li><li><p>设线段 $CD$，$AE$ 的中点分别为 $P$，$M$，求证： $PM \\parallel$ 平面 $BCE$；</p></li><li><p>求二面角 $F - BD - A$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/sichuan_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>在正方形所在平面内，$BC\\perp AB$. 又两平面的交线为 $AB$，且两平面互相垂直，所以</p><p>$BC\\perp$ 平面 $ABEF$，从而 $BC\\perp EF$.</p><p>因 $\\triangle ABE$ 是等腰直角三角形且 $AB=AE$，其直角在 $A$，故</p><p>$\\angle AEB=45^{\\circ}$. 在平面 $ABEF$ 内，题设又给出</p><p>$\\angle AEF=45^{\\circ}$. 由于 $ABEF$ 是非退化四边形，$EF$ 不与 $EB$</p><p>重合，因此 $EF$ 取的是 $EA$ 的另一侧射线，从而</p><p>$\\angle BEF=90^{\\circ}$，即 $BE\\perp EF$. 直线 $BC$、$BE$ 相交且都在平面 $BCE$ 内，$EF$ 同时垂直于它们，所以</p><p>$EF\\perp$ 平面 $BCE$.</p></li><li><p>取 $AB=1$，建立空间直角坐标系，使</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$</p><p>$E=(0,0,1)$，$F=\\left(-\\frac{1}{2},0,\\frac{1}{2}\\right)$.</p><p>这些坐标满足题设的垂直、等腰直角及等腰条件. 设 $N$ 为 $BE$ 的中点，则</p><p>$P=\\left(\\frac{1}{2},1,0\\right)$，$M=\\left(0,0,\\frac{1}{2}\\right)$，$N=\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$.</p><p>于是</p>\n$$\n\\overrightarrow{PM}=\\left(-\\frac{1}{2},-1,\\frac{1}{2}\\right)  =\\overrightarrow{CN}\n$$\n<p>所以 $PM\\parallel CN$. 又平面 $BCE$ 的方程为 $x+z=1$，而</p><p>$P$ 的坐标满足 $x+z=\\frac{1}{2}$，故 $P\\notin$ 平面 $BCE$. 因此</p><p>$PM\\parallel$ 平面 $BCE$.</p></li><li><p>在上述坐标系中，平面 $ABD$ 的方程为 $z=0$. 平面 $FBD$ 内两条相交向量可取</p><p>$\\overrightarrow{BD}=(-1,1,0)$，$\\overrightarrow{BF}=\\left(-\\frac{3}{2},0,\\frac{1}{2}\\right)$.</p><p>故其法向量可取</p>\n$$\n\\overrightarrow{BD}\\times\\overrightarrow{BF}=\\left(\\frac{1}{2},\\frac{1}{2},\\frac{3}{2}\\right)\n$$\n<p>而平面 $ABD$ 的法向量为 $(0,0,1)$. 设二面角 $F-BD-A$ 的大小为 $\\theta$，取其锐角，则</p>\n$$\n\\tan\\theta=\\frac{\\sqrt{1^{2}+1^{2}}}{3}=\\frac{\\sqrt{2}}{3}\n$$\n<p>所以 $\\theta=\\arctan\\frac{\\sqrt{2}}{3}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 20,
-          "body": "已知函数 $f(x) = x^3 + 2bx^2 + cx - 2$ 的图象在与 $x$ 轴交点处的切线方程是 $y = 5x - 10$.\r\n\r\n\n(1) 求函数 $f(x)$ 的解析式；\n\n(2) 设函数 $g(x) = f(x) + \\frac{1}{3}mx$，若 $g(x)$ 的极值存在，求实数 $m$ 的取值范围以及函数 $g(x)$ 取得极值时对应的自变量 $x$ 的值.\n\r\n\n(1) 切线 $y=5x-10$ 与 $x$ 轴交于 $(2,0)$，所以函数图象与 $x$ 轴的交点为 $(2,0)$，即\r\n$f(2)=0$. 切线斜率为 $5$，故 $f'(2)=5$. 由\r\n$f(2)=8+8b+2c-2=0$，$f'(2)=12+8b+c=5$\r\n得到\r\n$4b+c=-3$，$8b+c=-7$.\r\n解得 $b=-1$，$c=1$，所以\r\n\n$$\nf(x)=x^3-2x^2+x-2\n$$\n\n(2) $$\ng'(x)=3x^2-4x+1+\\frac{m}{3}\n$$\n\r\n要使三次函数 $g$ 有极大值和极小值，导函数必须有两个不相等的实根，即\r\n\n$$\n\\Delta=(-4)^2-4\\cdot3\\left(1+\\frac{m}{3}\\right)=4(1-m)>0\n$$\n\r\n故 $m<1$. 此时导函数的两个零点为\r\n$x=\\frac{2-\\sqrt{1-m}}{3}$，$x=\\frac{2+\\sqrt{1-m}}{3}$.\r\n因二次导函数首项系数为正，较小的根处导函数由正变负，取得极大值；较大的根处导函数由负变正，取得极小值. 因此前者对应极大值，后者对应极小值.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = x^{3} + 2bx^{2} + cx - 2$ 的图象在与 $x$ 轴交点处的切线方程是 $y = 5x - 10$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的解析式；</p></li><li><p>设函数 $g(x) = f(x) + \\frac{1}{3}mx$，若 $g(x)$ 的极值存在，求实数 $m$ 的取值范围以及函数 $g(x)$ 取得极值时对应的自变量 $x$ 的值.</p></li></ol><ol class=\"enumerate\"><li><p>切线 $y=5x-10$ 与 $x$ 轴交于 $(2,0)$，所以函数图象与 $x$ 轴的交点为 $(2,0)$，即</p><p>$f(2)=0$. 切线斜率为 $5$，故 $f'(2)=5$. 由</p><p>$f(2)=8+8b+2c-2=0$，$f'(2)=12+8b+c=5$</p><p>得到</p><p>$4b+c=-3$，$8b+c=-7$.</p><p>解得 $b=-1$，$c=1$，所以</p>\n$$\nf(x)=x^{3}-2x^{2}+x-2\n$$\n</li><li>\n$$\ng'(x)=3x^{2}-4x+1+\\frac{m}{3}\n$$\n<p>要使三次函数 $g$ 有极大值和极小值，导函数必须有两个不相等的实根，即</p>\n$$\n\\Delta=(-4)^{2}-4\\cdot3\\left(1+\\frac{m}{3}\\right)=4(1-m)>0\n$$\n<p>故 $m&#x3C;1$. 此时导函数的两个零点为</p><p>$x=\\frac{2-\\sqrt{1-m}}{3}$，$x=\\frac{2+\\sqrt{1-m}}{3}$.</p><p>因二次导函数首项系数为正，较小的根处导函数由正变负，取得极大值；较大的根处导函数由负变正，取得极小值. 因此前者对应极大值，后者对应极小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 21,
-          "body": "已知椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的左，右焦点分别为 $F_1$，$F_2$，离心率 $e = \\frac{\\sqrt{2}}{2}$，右准线方程为 $x = 2$.\r\n\r\n\n(1) 求椭圆的标准方程；\n\n(2) 过点 $F_{1}$ 的直线 $l$ 与该椭圆交于 $M$，$N$ 两点，且 $\\left|\\overrightarrow{F_2M} + \\overrightarrow{F_2N}\\right| = \\frac{2\\sqrt{26}}{3}$，求直线 $l$ 的方程.\n\r\n\n(1) 由离心率 $e=\\frac ca=\\frac{\\sqrt2}{2}$，右准线为\r\n$x=\\frac ae=2$，得 $a=\\sqrt2$，$c=ae=1$. 于是\r\n$b^2=a^2-c^2=1$，椭圆的标准方程为\r\n\n$$\n\\frac{x^2}{2}+y^2=1\n$$\n\n(2) 已知 $F_1=(-1,0)$. 若直线 $l$ 不是竖直线，设其方程为\r\n$y=k(x+1)$. 令交点 $M$，$N$ 的横坐标分别为 $x_1$，$x_2$，代入椭圆方程得\r\n\n$$\n(1+2k^2)x^2+4k^2x+2k^2-2=0\n$$\n\r\n由韦达定理，\r\n$x_1+x_2=-\\frac{4k^2}{1+2k^2}$，$y_1+y_2=k(x_1+x_2+2)=\\frac{2k}{1+2k^2}$.\r\n因 $F_2=(1,0)$，所以\r\n\n$$\n\\overrightarrow{F_2M}+\\overrightarrow{F_2N}\r\n=\\left(x_1+x_2-2,y_1+y_2\\right)\n$$\n\r\n从而\r\n\n$$\n\\left|\\overrightarrow{F_2M}+\\overrightarrow{F_2N}\\right|^2\r\n=\\frac{4(4k^2+1)^2+4k^2}{(1+2k^2)^2}\n$$\n\r\n根据题设，该式等于 $\\left(\\frac{2\\sqrt{26}}{3}\\right)^2=\\frac{104}{9}$，整理得\r\n$40k^4-23k^2-17=0$，$(k^2-1)(40k^2+17)=0$.\r\n所以 $k^2=1$，即 $k=1$ 或 $k=-1$. 还需讨论过 $F_1$ 的竖直线\r\n$x=-1$. 此时交点为\r\n$M=(-1,\\frac{\\sqrt2}{2})$、$N=(-1,-\\frac{\\sqrt2}{2})$，从而\r\n$\\left|\\overrightarrow{F_2M}+\\overrightarrow{F_2N}\\right|=4\\ne\\frac{2\\sqrt{26}}{3}$，不符合题设.\r\n因此\r\n\n$$\nl:y=x+1 \\text{或}  l:y=-x-1\n$$",
-          "choices": [],
+          "body": "<p>已知椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的左，右焦点分别为 $F_{1}$，$F_{2}$，离心率 $e = \\frac{\\sqrt{2}}{2}$，右准线方程为 $x = 2$.</p><ol class=\"enumerate\"><li><p>求椭圆的标准方程；</p></li><li><p>过点 $F_{1}$ 的直线 $l$ 与该椭圆交于 $M$，$N$ 两点，且 $\\left|\\overrightarrow{F_2M}+ \\overrightarrow{F_2N}\\right| = \\frac{2\\sqrt{26}}{3}$，求直线 $l$ 的方程.</p></li></ol><ol class=\"enumerate\"><li><p>由离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$，右准线为</p><p>$x=\\frac{a}{e}=2$，得 $a=\\sqrt{2}$，$c=ae=1$. 于是</p><p>$b^{2}=a^{2}-c^{2}=1$，椭圆的标准方程为</p>\n$$\n\\frac{x^{2}}{2}+y^{2}=1\n$$\n</li><li><p>已知 $F_{1}=(-1,0)$. 若直线 $l$ 不是竖直线，设其方程为</p><p>$y=k(x+1)$. 令交点 $M$，$N$ 的横坐标分别为 $x_{1}$，$x_{2}$，代入椭圆方程得</p>\n$$\n(1+2k^{2})x^{2}+4k^{2}x+2k^{2}-2=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=-\\frac{4k^{2}}{1+2k^{2}}$，$y_{1}+y_{2}=k(x_{1}+x_{2}+2)=\\frac{2k}{1+2k^{2}}$.</p><p>因 $F_{2}=(1,0)$，所以</p>\n$$\n\\overrightarrow{F_2M}+\\overrightarrow{F_2N}=\\left(x_{1}+x_{2}-2,y_{1}+y_{2}\\right)\n$$\n<p>从而</p>\n$$\n\\left|\\overrightarrow{F_2M}+\\overrightarrow{F_2N}\\right|^{2}  =\\frac{4(4k^{2}+1)^{2}+4k^{2}}{(1+2k^{2})^{2}}\n$$\n<p>根据题设，该式等于 $\\left(\\frac{2\\sqrt{26}}{3}\\right)^{2}=\\frac{104}{9}$，整理得</p><p>$40k^{4}-23k^{2}-17=0$，$(k^{2}-1)(40k^{2}+17)=0$.</p><p>所以 $k^{2}=1$，即 $k=1$ 或 $k=-1$. 还需讨论过 $F_{1}$ 的竖直线</p><p>$x=-1$. 此时交点为</p><p>$M=(-1,\\frac{\\sqrt{2}}{2})$、$N=(-1,-\\frac{\\sqrt{2}}{2})$，从而</p><p>$\\left|\\overrightarrow{F_2M}+\\overrightarrow{F_2N}\\right|=4\\ne\\frac{2\\sqrt{26}}{3}$，不符合题设.</p><p>因此</p>\n$$\nl:y=x+1 \\text{或}  l:y=-x-1\n$$\n</li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 22,
-          "body": "设数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，对任意的正整数 $n$，都有 $a_n = 5S_n + 1$ 成立，记 $b_n = \\frac{4 + a_n}{1 - a_n}$（$n \\in \\mathbf{N}^{*}$）.\r\n\r\n\n(1) 求数列 $\\{a_n\\}$ 与数列 $\\{b_n\\}$ 的通项公式；\n\n(2) 设数列 $\\{b_n\\}$ 的前 $n$ 项和为 $R_n$，是否存在正整数 $k$，使得 $R_n \\ge 4k$ 成立？若存在，找出一个正整数 $k$；若不存在，请说明理由；\n\n(3) 记 $c_n = b_{2n} - b_{2n-1}$（$n \\in \\mathbf{N}^{*}$），设数列 $\\{c_n\\}$ 的前 $n$ 项和为 $T_n$，求证：对任意正整数 $n$ 都有 $T_n < \\frac{3}{2}$.\n\r\n\n(1) 当 $n=1$ 时，$S_1=a_1$，所以\r\n$a_1=5a_1+1$，$a_1=-\\frac14$.\r\n又由 $S_{n+1}=S_n+a_{n+1}$ 及题设，得\r\n\n$$\na_{n+1}=5S_{n+1}+1=5S_n+5a_{n+1}+1\n$$\n\r\n即 $-4a_{n+1}=5S_n+1=a_n$. 因此\r\n$a_{n+1}=-\\frac14a_n$，$a_n=\\left(-\\frac14\\right)^n$.\r\n代入 $b_n=\\frac{4+a_n}{1-a_n}$，得\r\n\n$$\nb_n=\\frac{4+\\left(-\\frac14\\right)^n}{1-\\left(-\\frac14\\right)^n}\n$$\n\n(2) 由 $a_1=-\\frac14$，得\r\n\n$$\nb_1=\\frac{4-\\frac14}{1+\\frac14}=3\n$$\n\r\n若存在正整数 $k$ 使任意正整数 $n$ 都有 $R_n\\ge4k$，取 $n=1$ 将得到\r\n$3=R_1\\ge4k\\ge4$，矛盾. 因此不存在这样的正整数 $k$.\n\n(3) 令 $u_n=\\left(\\frac14\\right)^{2n}$，则\r\n$a_{2n}=u_n$，$a_{2n-1}=-4u_n$，从而\r\n$b_{2n}=\\frac{4+u_n}{1-u_n}$，$b_{2n-1}=\\frac{4-4u_n}{1+4u_n}$.\r\n所以\r\n\n$$\nc_n=b_{2n}-b_{2n-1}\r\n=\\frac{25u_n}{(1-u_n)(1+4u_n)}\n$$\n\r\n因 $0<u_n\\le\\frac1{16}$，有\r\n$(1-u_n)(1+4u_n)=1+u_n(3-4u_n)>1$，故\r\n$0<c_n<25u_n$. 当 $n=1$ 时，直接计算得\r\n$c_1=\\frac43<\\frac32$. 当 $n\\ge2$ 时，\r\n\n$$\nT_n=c_1+\\sum_{j=2}^{n}c_j\r\n<\\frac43+25\\sum_{j=2}^{\\infty}\\left(\\frac1{16}\\right)^j\r\n=\\frac43+\\frac5{48}=\\frac{23}{16}<\\frac32\n$$\n\r\n因此对任意正整数 $n$，都有 $T_n<\\frac32$.",
-          "choices": [],
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，对任意的正整数 $n$，都有 $a_{n} = 5S_{n} + 1$ 成立，记 $b_{n} = \\frac{4 + a_{n}}{1 - a_{n}}$（$n \\in \\mathbf{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 与数列 $\\{b_{n}\\}$ 的通项公式；</p></li><li><p>设数列 $\\{b_{n}\\}$ 的前 $n$ 项和为 $R_{n}$，是否存在正整数 $k$，使得 $R_{n} \\ge 4k$ 成立？若存在，找出一个正整数 $k$；若不存在，请说明理由；</p></li><li><p>记 $c_{n} = b_{2n}- b_{2n-1}$（$n \\in \\mathbf{N}^{*}$），设数列 $\\{c_{n}\\}$ 的前 $n$ 项和为 $T_{n}$，求证：对任意正整数 $n$ 都有 $T_{n} &#x3C; \\frac{3}{2}$.</p></li></ol><ol class=\"enumerate\"><li><p>当 $n=1$ 时，$S_{1}=a_{1}$，所以</p><p>$a_{1}=5a_{1}+1$，$a_{1}=-\\frac{1}{4}$.</p><p>又由 $S_{n+1}=S_{n}+a_{n+1}$ 及题设，得</p>\n$$\na_{n+1}=5S_{n+1}+1=5S_{n}+5a_{n+1}+1\n$$\n<p>即 $-4a_{n+1}=5S_{n}+1=a_{n}$. 因此</p><p>$a_{n+1}=-\\frac{1}{4}a_{n}$，$a_{n}=\\left(-\\frac{1}{4}\\right)^{n}$.</p><p>代入 $b_{n}=\\frac{4+a_{n}}{1-a_{n}}$，得</p>\n$$\nb_{n}=\\frac{4+\\left(-\\frac{1}{4}\\right)^{n}}{1-\\left(-\\frac{1}{4}\\right)^{n}}\n$$\n</li><li><p>由 $a_{1}=-\\frac{1}{4}$，得</p>\n$$\nb_{1}=\\frac{4-\\frac{1}{4}}{1+\\frac{1}{4}}=3\n$$\n<p>若存在正整数 $k$ 使任意正整数 $n$ 都有 $R_{n}\\ge4k$，取 $n=1$ 将得到</p><p>$3=R_{1}\\ge4k\\ge4$，矛盾. 因此不存在这样的正整数 $k$.</p></li><li><p>令 $u_{n}=\\left(\\frac{1}{4}\\right)^{2n}$，则</p><p>$a_{2n}=u_{n}$，$a_{2n-1}=-4u_{n}$，从而</p><p>$b_{2n}=\\frac{4+u_{n}}{1-u_{n}}$，$b_{2n-1}=\\frac{4-4u_{n}}{1+4u_{n}}$.</p><p>所以</p>\n$$\nc_{n}=b_{2n}-b_{2n-1}=\\frac{25u_{n}}{(1-u_{n})(1+4u_{n})}\n$$\n<p>因 $0&#x3C;u_{n}\\le\\frac{1}{16}$，有</p><p>$(1-u_{n})(1+4u_{n})=1+u_{n}(3-4u_{n})>1$，故</p><p>$0&#x3C;c_{n}&#x3C;25u_{n}$. 当 $n=1$ 时，直接计算得</p><p>$c_{1}=\\frac{4}{3}&#x3C;\\frac{3}{2}$. 当 $n\\ge2$ 时，</p>\n$$\nT_{n}=c_{1}+\\sum_{j=2}^{n}c_{j}  &#x3C;\\frac{4}{3}+25\\sum_{j=2}^{\\infty}\\left(\\frac{1}{16}\\right)^{j}  =\\frac{4}{3}+\\frac{5}{48}=\\frac{23}{16}&#x3C;\\frac{3}{2}\n$$\n<p>因此对任意正整数 $n$，都有 $T_{n}&#x3C;\\frac{3}{2}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

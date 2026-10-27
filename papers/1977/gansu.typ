@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,178 +11,166 @@
 #part-header("解答题")
 
 #problem(1)[
-用 $>$，$<$，$=$ 号分别把下列各组数连接起来：
+用 #mi(`>`)，#mi(`<`)，#mi(`=`) 号分别把下列各组数连接起来：
 
 
-+ (1) $0.25+3(1)/(8)$ 与 $| -3.375 |$；
-+ (2) $( (sqrt(3))/(3)-(1)/(sqrt(3)))^3$ 与 $( -3 )^0$；
-+ (3) $-\l g 0.01$ 与 $log _4 (1)/(16)$；
-+ (4) $tan 44 ""^ degree$ 与 $cot 44^ degree$.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #solution[
-+ (1) $0.25=(1)/(4)$，且 $3(1)/(8)=(25)/(8)$，所以
-    $0.25+3(1)/(8)=(1)/(4)+(25)/(8)=(27)/(8)=3.375$；又
-    $|-3.375|=3.375$. 因而
-    $0.25+3(1)/(8)=|-3.375|$.
-+ (2) 因为 $(1)/(sqrt(3))=(sqrt(3))/(3)$，所以
-    $((sqrt(3))/(3)-(1)/(sqrt(3)))^3=0^3=0$；又
-    $(-3)^0=1$. 因此
-    $((sqrt(3))/(3)-(1)/(sqrt(3)))^3<(-3)^0$.
-+ (3) $0.01=10^(-2)$，故 $-\l g0.01=-(-2)=2$. 又
-    $(1)/(16)=4^(-2)$，故 $log _4(1)/(16)=-2$. 因此
-    $-\l g0.01> log _4(1)/(16)$.
-+ (4) 在第一象限内，$cot 44^ degree = tan (90^ degree -44^ degree )= tan 46 ""^ degree$. 正切函数在第一象限内单调递增，且 $44^ degree <46^ degree$，所以
-    $tan 44 ""^ degree < tan 46 ""^ degree = cot 44^ degree$.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #problem(2)[
 解答下列各题：
 
 
-+ (1) 计算：$(2 a)/(a-3 b)-(6 a b-24 b^2)/(a^2-7 a b+12 b^2)$.
-+ (2) 化简：$(( a^((8)/(5))b^(-(6)/(5)) )^(-(1)/(2))root(5, a^4))/(root(5, b^3))$.
-+ (3) 证明：$(2 cot x)/(1+ cot ""^2 x)= sin 2 x$.
-+ (4) 求函数 $y=(1)/(2)x^2+3 x+9$ 的极值.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #solution[
-+ (1) 分母不为零要求
-    $a-3 b != 0$ 且
-    $a^2-7 a b+12 b^2=(a-3 b)(a-4 b) != 0$，即 $a != 3 b$ 且 $a != 4 b$. 在此条件下，
-    
-$ "原式"=(2 a)/(a-3 b)-(6 b(a-4 b))/((a-3 b)(a-4 b))=(2 a)/(a-3 b)-(6 b)/(a-3 b)=(2(a-3 b))/(a-3 b)=2 $
-+ (2) 按分数指数幂的通常定义，题式有意义时 $a>0$，$b>0$. 由
-    $root(5, a^4)=a^((4)/(5))$、$root(5, b^3)=b^((3)/(5))$，并使用正数幂的运算法则，得
-    
-$ (( a^((8)/(5)){b}^(-(6)/(5)) )^(-(1)/(2))a^((4)/(5)))/(b^((3)/(5)))=(a^(-(4)/(5)){b}^((3)/(5))a^((4)/(5)))/(b^((3)/(5)))=1 $
-+ (3) 在等式有意义的范围内，$sin x != 0$，并且
-    $1+ cot ""^(2) x=1+(cos ""^(2) x)/(sin ""^(2) x)=(sin ""^(2) x+ cos ""^(2) x)/(sin ""^(2) x)=(1)/(sin ""^(2) x)$. 因而
-    
-$ (2 cot x)/(1+ cot ""^(2) x)=(2(cos x)/(sin x))/((1)/(sin ""^(2) x))=2 sin x cos x= sin 2 x $
-
-    所以 $(2 cot x)/(1+ cot ""^(2) x)= sin 2 x$.
-+ (4) 配方得
-    
-$ y=(1)/(2)x^2+3 x+9=(1)/(2)(x^2+6 x)+9=(1)/(2)(x+3)^2+(9)/(2) $
-
-    因为 $(x+3)^2 >= 0$，所以当 $x=-3$ 时，$y$ 取得最小值 $(9)/(2)$. 该二次函数开口向上，在 $RR$ 上没有最大值.
++ (1) 
++ (2) 
++ (3)
 ]
 
 #problem(3)[
-$A D$ 是 $triangle A B C$ 外接圆的直径，$A D=6$，$angle D A C= angle A B C$，求 $A C$（精确到 $0.01$）.
+#mi(`AD`) 是 #mi(`\triangle ABC`) 外接圆的直径，#mi(`AD=6`)，#mi(`\angle DAC=\angle ABC`)，求 #mi(`AC`)（精确到 #mi(`0.01`)）.
 
-
-#align(center)[#image("/papers/1977/img/gansu/q3_fig1.png", width: 36%)]
+[width=0.36\linewidth]img/1977/gansu/q3_fig1.png
 ]
 
 #solution[
-连接 $C D$. 因为 $A D$ 是圆的直径，所以由直径所对的圆周角为直角，得 $angle A C D=90^ degree$. 又因为 $angle A D C$ 与 $angle A B C$ 同对弦 $A C$，所以 $angle A D C= angle A B C$. 结合已知 $angle A B C= angle D A C$，得到 $angle A D C= angle D A C$. 因此 $triangle A D C$ 是等腰直角三角形，斜边 $A D=6$，故
+连接 #mi(`CD`). 因为 #mi(`AD`) 是圆的直径，所以由直径所对的圆周角为直角，得 #mi(`\angle ACD=90^{\circ}`). 又因为 #mi(`\angle ADC`) 与 #mi(`\angle ABC`) 同对弦 #mi(`AC`)，所以 #mi(`\angle ADC=\angle ABC`). 结合已知 #mi(`\angle ABC=\angle DAC`)，得到 #mi(`\angle ADC=\angle DAC`). 因此 #mi(`\triangle ADC`) 是等腰直角三角形，斜边 #mi(`AD=6`)，故
 
-$ A C=A D sin 45 ""^ degree =6 dot (sqrt(2))/(2)=3 sqrt(2) approx 4 .2426 $
 
-所以 $A C approx 4 .24$.
+#align(center)[#mitex(`
+AC=AD\sin45^{\circ}=6\cdot\frac{\sqrt{2}}{2}=3\sqrt{2}\approx4.2426
+`)]
+
+
+所以 #mi(`AC\approx4.24`).
 ]
 
 #problem(4)[
-在 $triangle A B C$ 中，$angle A=30^ degree$，$angle B- angle C=60^ degree$，$B C=2$，求 $A C$（用根式表示）.
+在 #mi(`\triangle ABC`) 中，#mi(`\angle A=30^{\circ}`)，#mi(`\angle B-\angle C=60^{\circ}`)，#mi(`BC=2`)，求 #mi(`AC`)（用根式表示）.
 
-
-#align(center)[#image("/papers/1977/img/gansu/q4_fig1.png", width: 52%)]
+[max width=0.52\linewidth]img/1977/gansu/q4_fig1.png
 ]
 
 #solution[
-三角形内角和给出 $angle B+ angle C=180^ degree -30^ degree =150^ degree$. 联立
-$angle B+ angle C=150^ degree$ 与 $angle B- angle C=60^ degree$，得
-$angle B=105^ degree$，$angle C=45^ degree$. 由正弦定理，
-$(A C)/(sin B)=(B C)/(sin A)$，$A C=(2 sin 105 ""^ degree)/(sin 30 ""^ degree)=4 sin 105 ""^ degree$.
+三角形内角和给出 #mi(`\angle B+\angle C=180^{\circ}-30^{\circ}=150^{\circ}`). 联立
+
+#mi(`\angle B+\angle C=150^{\circ}`) 与 #mi(`\angle B-\angle C=60^{\circ}`)，得
+
+#mi(`\angle B=105^{\circ}`)，#mi(`\angle C=45^{\circ}`). 由正弦定理，
+
+#mi(`\frac{AC}{\sin B}=\frac{BC}{\sin A}`)，#mi(`AC=\frac{2\sin105^{\circ}}{\sin30^{\circ}}=4\sin105^{\circ}`).
+
 再由和角公式，
 
-$ sin 105 ""^ degree = sin (60^ degree +45^ degree ) = sin 60 ""^ degree cos 45 ""^ degree + cos 60 ""^ degree sin 45 ""^ degree =(sqrt(6)+sqrt(2))/(4) $
 
-所以 $A C=sqrt(6)+sqrt(2)$.
+#align(center)[#mitex(`
+\sin105^{\circ}=\sin\left(60^{\circ}+45^{\circ}\right)  =\sin60^{\circ}\cos45^{\circ}+\cos60^{\circ}\sin45^{\circ}  =\frac{\sqrt{6}+\sqrt{2}}{4}
+`)]
+
+
+所以 #mi(`AC=\sqrt{6}+\sqrt{2}`).
 ]
 
 #problem(5)[
-某生产队现已平整土地 $100" 亩"$，计划两年后平整土地的总面积要在 $225" 亩"$ 以上，求每年平均增长率.
+某生产队现已平整土地 #mi(`100\text{ \text{亩}}`)，计划两年后平整土地的总面积要在 #mi(`225\text{ \text{亩}}`) 以上，求每年平均增长率.
 ]
 
 #solution[
-原题没有说明“现已平整土地 $100" 亩"$”是本年内新平整的面积还是截至目前的累计面积，也没有明确“两年后平整土地的总面积”是两年后的年平整面积还是累计面积，因此严格按原题不能唯一确定增长率.
+原题没有说明“现已平整土地 #mi(`100\text{ \text{亩}}`)”是本年内新平整的面积还是截至目前的累计面积，也没有明确“两年后平整土地的总面积”是两年后的年平整面积还是累计面积，因此严格按原题不能唯一确定增长率.
 
-若按通常的意图，将今年的平整面积作为基数，并将“两年后”理解为两年后的年平整面积，设每年平均增长率为 $x$，则 $x >= 0$. 按原题解答给出的修订读法，并将“达到 $225" 亩"$ 以上”按严格超过理解，则
+若按通常的意图，将今年的平整面积作为基数，并将“两年后”理解为两年后的年平整面积，设每年平均增长率为 #mi(`x`)，则 #mi(`x\geqslant0`). 按原题解答给出的修订读法，并将“达到 #mi(`225\text{ \text{亩}}`) 以上”按严格超过理解，则
 
-$ 100(1+x)^2>225 $
 
-于是 $1+x>(3)/(2)$，从而 $x>(1)/(2)=50\%$. 若按通常“不小于”的语义理解“以上”，则不等号应为 $>=$，得到 $x >= 50 \%$. 因此原题的文字不能唯一确定增长率；按原题解答给出的修订读法，结论为每年平均增长率大于 $50\%$.
+#align(center)[#mitex(`
+100\left(1+x\right)^{2}>225
+`)]
+
+
+于是 #mi(`1+x>\frac{3}{2}`)，从而 #mi(`x>\frac{1}{2}=50\%`). 若按通常“不小于”的语义理解“以上”，则不等号应为 #mi(`\ge`)，得到 #mi(`x\geqslant50\%`). 因此原题的文字不能唯一确定增长率；按原题解答给出的修订读法，结论为每年平均增长率大于 #mi(`50\%`).
 ]
 
 #problem(6)[
-右图的二视图表示什么形体？用直径为 $40" 毫米"$ 的圆柱形钢材锻压这样一个工件，需截取多长一段钢材？
+右图的二视图表示什么形体？用直径为 #mi(`40\text{ \text{毫米}}`) 的圆柱形钢材锻压这样一个工件，需截取多长一段钢材？
 
-
-#align(center)[#image("/papers/1977/img/gansu/q6_fig1.png", width: 44%)]
+[max width=0.44\linewidth]img/1977/gansu/q6_fig1.png
 ]
 
 #solution[
-由二视图可知，这个工件是一个圆台. 轴向截面中，上、下底面直径分别为 $20" 毫米"$ 和 $60" 毫米"$，所以两底面半径分别为
-$r_1=10" 毫米"$、$r_2=30" 毫米"$. 由图中母线与底面成 $45^ degree$，且两底面半径之差为 $20" 毫米"$，圆台高为
+由二视图可知，这个工件是一个圆台. 轴向截面中，上、下底面直径分别为 #mi(`20\text{ \text{毫米}}`) 和 #mi(`60\text{ \text{毫米}}`)，所以两底面半径分别为
 
-$ h=(r_2-r_1) tan 45 ""^ degree =20" 毫米" $
+#mi(`r_{1}=10\text{ \text{毫米}}`)、#mi(`r_{2}=30\text{ \text{毫米}}`). 由图中母线与底面成 #mi(`45^{\circ}`)，且两底面半径之差为 #mi(`20\text{ \text{毫米}}`)，圆台高为
+
+
+#align(center)[#mitex(`
+h=\left(r_{2}-r_{1}\right)\tan45^{\circ}=20\text{ \text{毫米}}
+`)]
+
 
 圆台体积为
 
-$ V=(1)/(3) pi h(r_1^2+r_(1) r_2+r_2^2) =(1)/(3) pi times 20 (10^2+10 times 30 +30^2) =(26000 pi)/(3)" 毫米"^3 $
 
-设需截取长度为 $l" 毫米"$ 的圆柱形钢材. 锻压过程中体积不变，故
+#align(center)[#mitex(`
+V=\frac{1}{3}\pi h\left(r_{1}^{2}+r_{1}r_{2}+r_{2}^{2}\right)  =\frac{1}{3}\pi\times20\left(10^{2}+10\times30+30^{2}\right)  =\frac{26000\pi}{3}\text{ \text{毫米}}^{3}
+`)]
 
-$ pi ((40)/(2))^(2) l=(26000 pi)/(3) $
+
+设需截取长度为 #mi(`l\text{ \text{毫米}}`) 的圆柱形钢材. 锻压过程中体积不变，故
+
+
+#align(center)[#mitex(`
+\pi\left(\frac{40}{2}\right)^{2}l=\frac{26000\pi}{3}
+`)]
+
 
 解得
 
-$ l=(26000)/(3 times 20 ""^2)=(65)/(3)" 毫米" approx 21 .7" 毫米" $
 
-所以需截取约 $21.7" 毫米"$ 长的钢材.
+#align(center)[#mitex(`
+l=\frac{26000}{3\times20^{2}}=\frac{65}{3}\text{ \text{毫米}}\approx21.7\text{ \text{毫米}}
+`)]
+
+
+所以需截取约 #mi(`21.7\text{ \text{毫米}}`) 长的钢材.
 ]
 
 #problem(7)[
-一条直线通过 $( 3,0 )$，并且和直线 $y=-2 x+9$ 垂直，求这条直线与直线 $2 y+5 x=3$ 的交点的坐标.
+一条直线通过 #mi(`\left( 3,0 \right)`)，并且和直线 #mi(`y=-2x+9`) 垂直，求这条直线与直线 #mi(`2y+5x=3`) 的交点的坐标.
 ]
 
 #solution[
-直线 $y=-2 x+9$ 的斜率为 $-2$，所以与它垂直的直线斜率为 $(1)/(2)$. 所求直线经过 $(3,0)$，故其方程为
-$y-0=(1)/(2)(x-3)$，$x-2 y=3$.
-设交点为 $(x,y)$，则它满足
+直线 #mi(`y=-2x+9`) 的斜率为 #mi(`-2`)，所以与它垂直的直线斜率为 #mi(`\frac{1}{2}`). 所求直线经过 #mi(`(3,0)`)，故其方程为
 
-$ \b e g i n{c a s e s} x-2 y=3,\\ 2 y+5 x=3. \e n d{c a s e s} $
+#mi(`y-0=\frac{1}{2}\left(x-3\right)`)，#mi(`x-2y=3`).
 
-两式相加得 $6 x=6$，所以 $x=1$. 代入 $x-2 y=3$，得 $1-2 y=3$，即 $y=-1$. 因此交点坐标为 $(1,-1)$.
+设交点为 #mi(`(x,y)`)，则它满足
+
+
+#align(center)[#mitex(`
+\begin{cases}x-2y=3,\\  2y+5x=3.\end{cases}
+`)]
+
+
+两式相加得 #mi(`6x=6`)，所以 #mi(`x=1`). 代入 #mi(`x-2y=3`)，得 #mi(`1-2y=3`)，即 #mi(`y=-1`). 因此交点坐标为 #mi(`(1,-1)`).
 ]
 
 #problem(8)[
-+ (1) 已知 $(d y)/(d x)=x e ""^x+2 cos x+3 x^2$，求 $y$.
-+ (2) 过点 $P( 4,0 )$ 向曲线 $x^2+y^2=1$ 作切线，求切线方程.
++ (1)
 ]
 
 #solution[
-+ (1) 对等式两边关于 $x$ 积分，得
-    
-$ y= integral (x e ""^x+2 cos x+3 x^2) \m a t h r m d x $
-
-    分别计算各项：分部积分给出
-    $integral x e ""^x \m a t h r m d x=x e ""^x- integral e ""^x \m a t h r m d x= e ""^x(x-1)$，另有
-    $integral 2 cos x \m a t h r m d x=2 sin x$、$integral 3 x^2 \m a t h r m d x=x^3$. 因此
-    
-$ y= e ""^x(x-1)+2 sin x+x^3+C $
-
-    其中 $C$ 是任意常数.
-+ (2) 设切点为 $T(x_0,y_0)$. 因为圆心为原点，半径 $O T$ 垂直于切线，所以切线方程为
-    
-$ x_(0) x+y_(0) y=x_0^2+y_0^2=1 $
-
-    又因为 $T$ 在圆 $x^2+y^2=1$ 上，所以 $x_0^2+y_0^2=1$. 点 $P(4,0)$ 在切线上，代入切线方程得 $4 x_0=1$，即 $x_0=(1)/(4)$. 于是
-$y_0^2=1-((1)/(4))^2=(15)/(16)$，$y_0= +- \f r a c{sqrt(15)}4$.
-    两个切点为 $((1)/(4),\f r a c{sqrt(15)}4)$ 和 $((1)/(4),-\f r a c{sqrt(15)}4)$. 分别代入 $x_(0) x+y_(0) y=1$，得到两条切线
-$x+sqrt(15)y=4$，$x-sqrt(15)y=4$.
++ (1)
 ]
 

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,166 +11,216 @@
 #part-header("单选题")
 
 #problem(1)[
-已知集合 $M=\{-2,-1,0,1,2\}$，$N=\{x | x^2-x-6 >= 0 \}$，则 $M inter N=$（ ）
-  #choices([$\{-2,-1,0,1\}$], [$\{0,1,2\}$], [$\{-2\}$], [$\{2\}$], cols: 4)
+已知集合 #mi(`M=\{-2,-1,0,1,2\}`)，#mi(`N=\{x\mid x^{2}-x-6\ge 0\}`)，则 #mi(`M\cap N=`)（ ）
+  #choices([#mi(`\{-2,-1,0,1\}`)], [#mi(`\{0,1,2\}`)], [#mi(`\{-2\}`)], [#mi(`\{2\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
 由
-$x^2-x-6 >= 0 <=> (x+2)(x-3) >= 0 <=> x <= -2 "\ 或\ "x >= 3$，
-得 $N=(- oo ,-2] union [3,+ oo )$. 因此
-$M inter N=\{-2\}$.
+
+#mi(`x^{2}-x-6\ge 0 \iff (x+2)(x-3)\ge 0 \iff x\le -2 \text{\ \text{或}\ }x\ge 3`)，
+
+得 #mi(`N=(-\infty,-2]\cup[3,+\infty)`). 因此
+
+#mi(`M\cap N=\{-2\}`).
+
 故选 C.
 ]
 
 #problem(2)[
-已知 $z=(1- i)/(2+2 i)$，则 $z-\overline z=$（ ）
-  #choices([$- i$], [$i$], [$0$], [$1$], cols: 4)
+已知 #mi(`z=\frac{1-\mathrm{i}}{2+2\mathrm{i}}`)，则 #mi(`z-\overline z=`)（ ）
+  #choices([#mi(`-\mathrm{i}`)], [#mi(`\mathrm{i}`)], [#mi(`0`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
 化简得
-$z=((1- i )(2-2 i ))/((2+2 i )(2-2 i ))=(-4 i)/(8)=-(i)/(2)$，
-所以 $\overline z=(i)/(2)$. 故
-$z-\overline z=-(i)/(2)-(i)/(2)=- i$.
+
+#mi(`z=\frac{(1-\mathrm{i})(2-2\mathrm{i})}{(2+2\mathrm{i})(2-2\mathrm{i})}=\frac{-4\mathrm{i}}{8}=-\frac{\mathrm{i}}{2}`)，
+
+所以 #mi(`\overline z=\frac{\mathrm{i}}{2}`). 故
+
+#mi(`z-\overline z=-\frac{\mathrm{i}}{2}-\frac{\mathrm{i}}{2}=-\mathrm{i}`).
+
 故选 A.
 ]
 
 #problem(3)[
-已知向量 $bold(a)=(1,1)$，$bold(b)=(1,-1)$，若 $(bold(a)+\l a m b d a b o l d(b)) bot (bold(a)+\m u b o l d(b))$，则（ ）
-  #choices([$lambda + mu =1$], [$lambda + mu =-1$], [$lambda mu =1$], [$lambda mu =-1$], cols: 2)
+已知向量 #mi(`\mathbf{a}=(1,1)`)，#mi(`\mathbf{b}=(1,-1)`)，若 #mi(`(\mathbf{a}+\lambda\mathbf{b})\perp(\mathbf{a}+\mu\mathbf{b})`)，则（ ）
+  #choices([#mi(`\lambda+\mu=1`)], [#mi(`\lambda+\mu=-1`)], [#mi(`\lambda\mu=1`)], [#mi(`\lambda\mu=-1`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
 由垂直得
-$(bold(a)+\l a m b d a b o l d(b)) dot (bold(a)+\m u b o l d(b))=0$.
+
+#mi(`(\mathbf{a}+\lambda\mathbf{b})\cdot(\mathbf{a}+\mu\mathbf{b})=0`).
+
 又
-$bold(a)\c d o t b o l d(a)=2$，$bold(b)\c d o t b o l d(b)=2$，$bold(a)\c d o t b o l d(b)=0$，
+
+#mi(`\mathbf{a}\cdot\mathbf{a}=2`)，#mi(`\mathbf{b}\cdot\mathbf{b}=2`)，#mi(`\mathbf{a}\cdot\mathbf{b}=0`)，
+
 所以
-$2+2 lambda mu =0$，
-故 $lambda mu =-1$. 故选 D.
+
+#mi(`2+2\lambda\mu=0`)，
+
+故 #mi(`\lambda\mu=-1`). 故选 D.
 ]
 
 #problem(4)[
-设函数 $f(x)=2^(x(x-a))$ 在区间 $(0,1)$ 单调递减，则 $a$ 的取值范围是（ ）
-  #choices([$(- oo ,-2]$], [$[-2,0)$], [$(0,2]$], [$[2,+ oo )$], cols: 4)
+设函数 #mi(`f(x)=2^{x(x-a)}`) 在区间 #mi(`(0,1)`) 单调递减，则 #mi(`a`) 的取值范围是（ ）
+  #choices([#mi(`(-\infty,-2]`)], [#mi(`[-2,0)`)], [#mi(`(0,2]`)], [#mi(`[2,+\infty)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-因为 $y=2^u$ 在 $RR$ 上单调递增，所以只需
-$u=x(x-a)=x^2-a x$
-在 $(0,1)$ 上单调递减. 其对称轴为
-$x=(a)/(2)$.
-要使抛物线在 $(0,1)$ 上整体递减，应有 $(a)/(2) >= 1$. 故
-$a >= 2$.
+因为 #mi(`y=2^{u}`) 在 #mi(`\mathbb{R}`) 上单调递增，所以只需
 
+#mi(`u=x(x-a)=x^{2}-ax`)
 
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q4_solution_fig1.png", width: 42%)]
+在 #mi(`(0,1)`) 上单调递减. 其对称轴为
 
+#mi(`x=\frac{a}{2}`).
+
+要使抛物线在 #mi(`(0,1)`) 上整体递减，应有 #mi(`\frac{a}{2}\ge 1`). 故
+
+#mi(`a\ge 2`).
+
+[max width=0.42\linewidth]img/2023/new_gaokao_paper_1/q4_solution_fig1.png
 
 故选 D.
 ]
 
 #problem(5)[
-设椭圆 $C_1:(x^2)/(a^2)+y^2=1$（$a>1$），$C_2:(x^2)/(4)+y^2=1$ 的离心率分别为 $e_1$，$e_2$，若 $e_2=sqrt(3)e_1$，则 $a=$（ ）
-  #choices([$(2 sqrt(3))/(3)$], [$sqrt(2)$], [$sqrt(3)$], [$sqrt(6)$], cols: 2)
+设椭圆 #mi(`C_{1}:\frac{x^{2}}{a^{2}}+y^{2}=1`)（#mi(`a>1`)），#mi(`C_{2}:\frac{x^{2}}{4}+y^{2}=1`) 的离心率分别为 #mi(`e_{1}`)，#mi(`e_{2}`)，若 #mi(`e_{2}=\sqrt{3}\,e_{1}`)，则 #mi(`a=`)（ ）
+  #choices([#mi(`\frac{2\sqrt{3}}{3}`)], [#mi(`\sqrt{2}`)], [#mi(`\sqrt{3}`)], [#mi(`\sqrt{6}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
 由椭圆离心率公式，
-$e_1=(sqrt(a^2-1))/(a)$，$e_2=(sqrt(4-1))/(2)=(sqrt(3))/(2)$.
-由 $e_2=sqrt(3)e_1$ 得
-$(sqrt(3))/(2)=sqrt(3) dot (sqrt(a^2-1))/(a)$，
+
+#mi(`e_{1}=\frac{\sqrt{a^{2}-1}}{a}`)，#mi(`e_{2}=\frac{\sqrt{4-1}}{2}=\frac{\sqrt{3}}{2}`).
+
+由 #mi(`e_{2}=\sqrt{3}\,e_{1}`) 得
+
+#mi(`\frac{\sqrt{3}}{2}=\sqrt{3}\cdot\frac{\sqrt{a^{2}-1}}{a}`)，
+
 即
-$(1)/(2)=(sqrt(a^2-1))/(a)$.
+
+#mi(`\frac{1}{2}=\frac{\sqrt{a^{2}-1}}{a}`).
+
 解得
-$a=(2 sqrt(3))/(3)$.
+
+#mi(`a=\frac{2\sqrt{3}}{3}`).
+
 故选 A.
 ]
 
 #problem(6)[
-过点 $(0,-2)$ 与圆 $x^2+y^2-4 x-1=0$ 相切的两直线的夹角为 $alpha$，则 $sin alpha =$（ ）
-  #choices([$1$], [$(sqrt(15))/(4)$], [$(sqrt(10))/(4)$], [$(sqrt(6))/(4)$], cols: 2)
+过点 #mi(`(0,-2)`) 与圆 #mi(`x^{2}+y^{2}-4x-1=0`) 相切的两直线的夹角为 #mi(`\alpha`)，则 #mi(`\sin\alpha=`)（ ）
+  #choices([#mi(`1`)], [#mi(`\frac{\sqrt{15}}{4}`)], [#mi(`\frac{\sqrt{10}}{4}`)], [#mi(`\frac{\sqrt{6}}{4}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
 圆可化为
-$(x-2)^2+y^2=5$，
-故圆心 $C(2,0)$，半径 $r=sqrt(5)$. 记 $P(0,-2)$，切点为 $A$，$B$. 由图可知
-$sin alpha = sin angle A P B$.
-在直角三角形 $P A C$ 中，
-$P C=2 sqrt(2)$，$A C=sqrt(5)$，$P A=sqrt(P C^2-A C^2)=sqrt(3)$.
+
+#mi(`(x-2)^{2}+y^{2}=5`)，
+
+故圆心 #mi(`C(2,0)`)，半径 #mi(`r=\sqrt{5}`). 记 #mi(`P(0,-2)`)，切点为 #mi(`A`)，#mi(`B`). 由图可知
+
+#mi(`\sin\alpha=\sin\angle APB`).
+
+在直角三角形 #mi(`PAC`) 中，
+
+#mi(`PC=2\sqrt{2}`)，#mi(`AC=\sqrt{5}`)，#mi(`PA=\sqrt{PC^{2}-AC^{2}}=\sqrt{3}`).
+
 所以
-$cos angle A P C=(sqrt(3))/(2 sqrt(2))$，$sin angle A P C=(sqrt(5))/(2 sqrt(2))$.
-又 $angle A P B=2 angle A P C$，故
 
-$ sin alpha = sin 2 angle A P C=2 sin angle A P C cos angle A P C=(sqrt(15))/(4) $
+#mi(`\cos\angle APC=\frac{\sqrt{3}}{2\sqrt{2}}`)，#mi(`\sin\angle APC=\frac{\sqrt{5}}{2\sqrt{2}}`).
+
+又 #mi(`\angle APB=2\angle APC`)，故
 
 
+#align(center)[#mitex(`
+\sin\alpha=\sin 2\angle APC=2\sin\angle APC\cos\angle APC=\frac{\sqrt{15}}{4}
+`)]
 
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q6_solution_fig1.png", width: 42%)]
 
+[max width=0.42\linewidth]img/2023/new_gaokao_paper_1/q6_solution_fig1.png
 
 故选 B.
 ]
 
 #problem(7)[
-记 $S_n$ 为数列 $\{a_n\}$ 的前 $n$ 项和. 设甲：$\{a_n\}$ 为等差数列，乙：$\{(S_n)/(n)\}$ 为等差数列，则（ ）
+记 #mi(`S_{n}`) 为数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和. 设甲：#mi(`\{a_{n}\}`) 为等差数列，乙：#mi(`\left\{\frac{S_{n}}{n}\right\}`) 为等差数列，则（ ）
   #choices([甲是乙的充分条件但不是必要条件], [甲是乙的必要条件但不是充分条件], [甲是乙的充要条件], [甲既不是乙的充分条件也不是乙的必要条件], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-若 $\{a_n\}$ 为等差数列，则
-$S_n=A n^2+B n$，
+若 #mi(`\{a_{n}\}`) 为等差数列，则
+
+#mi(`S_{n}=An^{2}+Bn`)，
+
 从而
-$(S_n)/(n)=A n+B$，
+
+#mi(`\frac{S_{n}}{n}=An+B`)，
+
 故乙成立.
 
-反过来，若 $\{(S_n)/(n)\}$ 为等差数列，可设
-$(S_n)/(n)=p n+q$，
+反过来，若 #mi(`\left\{\frac{S_{n}}{n}\right\}`) 为等差数列，可设
+
+#mi(`\frac{S_{n}}{n}=pn+q`)，
+
 则
-$S_n=p n^2+q n$，
-满足等差数列前 $n$ 项和的形式特征，因此 $\{a_n\}$ 为等差数列. 故甲，乙互为充要条件. 故选 C.
+
+#mi(`S_{n}=pn^{2}+qn`)，
+
+满足等差数列前 #mi(`n`) 项和的形式特征，因此 #mi(`\{a_{n}\}`) 为等差数列. 故甲，乙互为充要条件. 故选 C.
 ]
 
 #problem(8)[
-已知 $sin ( alpha - beta )=(1)/(3)$，$cos alpha sin beta =(1)/(6)$，则 $cos (2 alpha +2 beta )=$（ ）
-  #choices([$(7)/(9)$], [$(1)/(9)$], [$-(1)/(9)$], [$-(7)/(9)$], cols: 4)
+已知 #mi(`\sin(\alpha-\beta)=\frac{1}{3}`)，#mi(`\cos\alpha\sin\beta=\frac{1}{6}`)，则 #mi(`\cos(2\alpha+2\beta)=`)（ ）
+  #choices([#mi(`\frac{7}{9}`)], [#mi(`\frac{1}{9}`)], [#mi(`-\frac{1}{9}`)], [#mi(`-\frac{7}{9}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
 由
-$sin ( alpha - beta )= sin alpha cos beta - cos alpha sin beta =(1)/(3)$
-及 $cos alpha sin beta =(1)/(6)$，得
-$sin alpha cos beta =(1)/(2)$.
+
+#mi(`\sin(\alpha-\beta)=\sin\alpha\cos\beta-\cos\alpha\sin\beta=\frac{1}{3}`)
+
+及 #mi(`\cos\alpha\sin\beta=\frac{1}{6}`)，得
+
+#mi(`\sin\alpha\cos\beta=\frac{1}{2}`).
+
 所以
-$sin ( alpha + beta )= sin alpha cos beta + cos alpha sin beta =(1)/(2)+(1)/(6)=(2)/(3)$.
+
+#mi(`\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta=\frac{1}{2}+\frac{1}{6}=\frac{2}{3}`).
+
 故
-$cos (2 alpha +2 beta )=1-2 sin ""^2( alpha + beta )=1-2 dot ((2)/(3))^2=(1)/(9)$.
+
+#mi(`\cos(2\alpha+2\beta)=1-2\sin^{2}(\alpha+\beta)=1-2\cdot\left(\frac{2}{3}\right)^{2}=\frac{1}{9}`).
+
 故选 B.
 ]
 
 #part-header("多选题")
 
 #problem(9)[
-有一组样本数据 $x_1$，$x_2$，$...$，$x_6$，其中 $x_1$ 是最小值，$x_6$ 是最大值，则（ ）
-  #choices([$x_2,x_3,x_4,x_5$ 的平均数等于 $x_1,x_2, ... ,x_6$ 的平均数], [$x_2$，$x_3$，$x_4$，$x_5$ 的中位数等于 $x_1$，$x_2$，$...$，$x_6$ 的中位数], [$x_2$，$x_3$，$x_4$，$x_5$ 的标准差不小于 $x_1$，$x_2$，$...$，$x_6$ 的标准差], [$x_2$，$x_3$，$x_4$，$x_5$ 的极差不大于 $x_1$，$x_2$，$...$，$x_6$ 的极差], cols: 1)
+有一组样本数据 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{6}`)，其中 #mi(`x_{1}`) 是最小值，#mi(`x_{6}`) 是最大值，则（ ）
+  #choices([#mi(`x_{2},x_{3},x_{4},x_{5}`) 的平均数等于 #mi(`x_{1},x_{2},\dots,x_{6}`) 的平均数], [#mi(`x_{2}`)，#mi(`x_{3}`)，#mi(`x_{4}`)，#mi(`x_{5}`) 的中位数等于 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{6}`) 的中位数], [#mi(`x_{2}`)，#mi(`x_{3}`)，#mi(`x_{4}`)，#mi(`x_{5}`) 的标准差不小于 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{6}`) 的标准差], [#mi(`x_{2}`)，#mi(`x_{3}`)，#mi(`x_{4}`)，#mi(`x_{5}`) 的极差不大于 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\dots`)，#mi(`x_{6}`) 的极差], cols: 1)
 ]
 
 #answer([BD])
@@ -178,114 +228,150 @@ $cos (2 alpha +2 beta )=1-2 sin ""^2( alpha + beta )=1-2 dot ((2)/(3))^2=(1)/(9)
 #solution[
 A 不一定成立，去掉最小值和最大值后平均数可能改变.
 
-设数据按从小到大排列，则 $6$ 个数据的中位数与中间 $4$ 个数据的中位数都为
-$(x_3+x_4)/(2)$，
+设数据按从小到大排列，则 #mi(`6`) 个数据的中位数与中间 #mi(`4`) 个数据的中位数都为
+
+#mi(`\frac{x_{3}+x_{4}}{2}`)，
+
 故 B 正确.
 
 C 不一定成立，去掉离平均数较远的两端点后，标准差可能减小.
 
 又
-$(x_6-x_1)-(x_5-x_2)=(x_6-x_5)+(x_2-x_1) >= 0$，
+
+#mi(`(x_{6}-x_{1})-(x_{5}-x_{2})=(x_{6}-x_{5})+(x_{2}-x_{1})\ge 0`)，
+
 故
-$x_5-x_2 <= x_6-x_1$.
+
+#mi(`x_{5}-x_{2}\le x_{6}-x_{1}`).
+
 所以 D 正确. 故选 BD.
 ]
 
 #problem(10)[
-噪声污染问题越来越受到重视. 用声压级来度量噪声的强度，定义声压级 $L_P=20\l g(p)/(p_0)$，其中常数 $p_0$（$p_0>0$） 是听觉下限阈值，$p$ 是实际声压. 下表为不同声源的声压级：
+噪声污染问题越来越受到重视. 用声压级来度量噪声的强度，定义声压级 #mi(`L_{P}=20\lg\frac{p}{p_{0}}`)，其中常数 #mi(`p_{0}`)（#mi(`p_{0}>0`)） 是听觉下限阈值，#mi(`p`) 是实际声压. 下表为不同声源的声压级：
 
-\begin{center}
-\begin{tabular}{|c|c|c|}
 \hline
+
 声源 & 与声源的距离/m & 声压级/dB \\
-\hline
-燃油汽车 & 10 & 60\textasciitilde90 \\
-\hline
-混合动力汽车 & 10 & 50\textasciitilde60 \\
-\hline
-电动汽车 & 10 & 40 \\
-\hline
-\end{tabular}
-\end{center}
 
-已知在距离燃油汽车，混合动力汽车，电动汽车 $10"m"$ 处测得实际声压分别为 $p_1$，$p_2$，$p_3$，则（ ）
-  #choices([$p_1 >= p_2$], [$p_2>10 p_3$], [$p_3=100 p_0$], [$p_1 <= 100 p_2$], cols: 2)
+\hline
+
+燃油汽车 & 10 & 60\textasciitilde90 \\
+
+\hline
+
+混合动力汽车 & 10 & 50\textasciitilde60 \\
+
+\hline
+
+电动汽车 & 10 & 40 \\
+
+\hline
+
+已知在距离燃油汽车，混合动力汽车，电动汽车 #mi(`10\text{m}`) 处测得实际声压分别为 #mi(`p_{1}`)，#mi(`p_{2}`)，#mi(`p_{3}`)，则（ ）
+  #choices([#mi(`p_{1}\ge p_{2}`)], [#mi(`p_{2}>10p_{3}`)], [#mi(`p_{3}=100p_{0}`)], [#mi(`p_{1}\le 100p_{2}`)], cols: 2)
 ]
 
 #answer([ACD])
 
 #solution[
 由
-$L_P=20\l g(p)/(p_0)$
+
+#mi(`L_{P}=20\lg\frac{p}{p_{0}}`)
+
 得
-$p=p_0 dot 10 ""^((L_P)/(20))$.
+
+#mi(`p=p_{0}\cdot 10^{\frac{L_{P}}{20}}`).
+
 因此声压级越大，实际声压越大，A 正确.
 
 对电动汽车，有
-$p_3=p_0 dot 10 ""^((40)/(20))=100 p_0$，
+
+#mi(`p_{3}=p_{0}\cdot 10^{\frac{40}{20}}=100p_{0}`)，
+
 故 C 正确.
 
 对混合动力汽车，
-$p_0 dot 10 ""^((50)/(20)) <= p_2 <= p_0 dot 10 ""^((60)/(20))$，
+
+#mi(`p_{0}\cdot 10^{\frac{50}{20}}\le p_{2}\le p_{0}\cdot 10^{\frac{60}{20}}`)，
+
 即
-$100 sqrt(10)p_0 <= p_2 <= 1000 p_0$，
-故 $p_2 <= 10 p_3$，所以 B 错误.
+
+#mi(`100\sqrt{10}\,p_{0}\le p_{2}\le 1000p_{0}`)，
+
+故 #mi(`p_{2}\le 10p_{3}`)，所以 B 错误.
 
 对燃油汽车，
-$p_0 dot 10 ""^((60)/(20)) <= p_1 <= p_0 dot 10 ""^((90)/(20))$，
+
+#mi(`p_{0}\cdot 10^{\frac{60}{20}}\le p_{1}\le p_{0}\cdot 10^{\frac{90}{20}}`)，
+
 即
-$1000 p_0 <= p_1 <= 10000 sqrt(10)p_0$.
-而 $100 p_2$ 的范围覆盖该区间，故 $p_1 <= 100 p_2$，D 正确. 故选 ACD.
+
+#mi(`1000p_{0}\le p_{1}\le 10000\sqrt{10}\,p_{0}`).
+
+而 #mi(`100p_{2}`) 的范围覆盖该区间，故 #mi(`p_{1}\le 100p_{2}`)，D 正确. 故选 ACD.
 ]
 
 #problem(11)[
-已知函数 $f(x)$ 的定义域为 $RR$，且 $f(x y)=y^(2) f(x)+x^(2) f(y)$，则（ ）
-  #choices([$f(0)=0$], [$f(1)=0$], [$f(x)$ 是偶函数], [$x=0$ 为 $f(x)$ 的极小值点], cols: 2)
+已知函数 #mi(`f(x)`) 的定义域为 #mi(`\mathbb{R}`)，且 #mi(`f(xy)=y^{2}f(x)+x^{2}f(y)`)，则（ ）
+  #choices([#mi(`f(0)=0`)], [#mi(`f(1)=0`)], [#mi(`f(x)`) 是偶函数], [#mi(`x=0`) 为 #mi(`f(x)`) 的极小值点], cols: 2)
 ]
 
 #answer([ABC])
 
 #solution[
-令 $x=y=0$，得
-$f(0)=0$.
-令 $x=y=1$，得
-$f(1)=2 f(1)$，
-故 $f(1)=0$.
+令 #mi(`x=y=0`)，得
 
-令 $y=-1$，得
-$f(-x)=f(x)+x^(2) f(-1)$.
-再令 $x=y=-1$，得
-$f(1)=2 f(-1)$，
-由 $f(1)=0$ 得 $f(-1)=0$，从而
-$f(-x)=f(x)$.
-故 $f$ 为偶函数.
+#mi(`f(0)=0`).
 
-D 不一定成立，例如零函数满足题意，但 $x=0$ 不是它的极小值点. 故选 ABC.
+令 #mi(`x=y=1`)，得
+
+#mi(`f(1)=2f(1)`)，
+
+故 #mi(`f(1)=0`).
+
+令 #mi(`y=-1`)，得
+
+#mi(`f(-x)=f(x)+x^{2}f(-1)`).
+
+再令 #mi(`x=y=-1`)，得
+
+#mi(`f(1)=2f(-1)`)，
+
+由 #mi(`f(1)=0`) 得 #mi(`f(-1)=0`)，从而
+
+#mi(`f(-x)=f(x)`).
+
+故 #mi(`f`) 为偶函数.
+
+D 不一定成立，例如零函数满足题意，但 #mi(`x=0`) 不是它的极小值点. 故选 ABC.
 ]
 
 #problem(12)[
-下列物体中，能够被整体放入棱长为 $1$（单位：m）的正方体容器（容器壁厚度忽略不计）内的有（ ）
-  #choices([直径为 $0.99"m"$ 的球体], [所有棱长均为 $1.4"m"$ 的正四面体], [底面直径为 $0.01"m"$，高为 $1.8"m"$ 的圆柱体], [底面直径为 $1.2"m"$，高为 $0.01"m"$ 的圆柱体], cols: 1)
+下列物体中，能够被整体放入棱长为 #mi(`1`)（单位：m）的正方体容器（容器壁厚度忽略不计）内的有（ ）
+  #choices([直径为 #mi(`0.99\text{m}`) 的球体], [所有棱长均为 #mi(`1.4\text{m}`) 的正四面体], [底面直径为 #mi(`0.01\text{m}`)，高为 #mi(`1.8\text{m}`) 的圆柱体], [底面直径为 #mi(`1.2\text{m}`)，高为 #mi(`0.01\text{m}`) 的圆柱体], cols: 1)
 ]
 
 #answer([ABD])
 
 #solution[
-A 项，因为正方体的内切球直径为 $1"m"$，所以直径为 $0.99"m"$ 的球体可以放入正方体容器，故 A 项正确；
+A 项，因为正方体的内切球直径为 #mi(`1\text{m}`)，所以直径为 #mi(`0.99\text{m}`) 的球体可以放入正方体容器，故 A 项正确；
 
-B 项，看到正方体和正四面体，要想到由正方体的面对角线可以构成正四面体，如图，蓝色正四面体的棱长为 $sqrt(2)$，比 $1.4$ 大，从而所有棱长均为 $1.4"m"$ 的正四面体可以放入正方体容器，故 B 项正确；
+B 项，看到正方体和正四面体，要想到由正方体的面对角线可以构成正四面体，如图，蓝色正四面体的棱长为 #mi(`\sqrt{2}`)，比 #mi(`1.4`) 大，从而所有棱长均为 #mi(`1.4\text{m}`) 的正四面体可以放入正方体容器，故 B 项正确；
 
-C 项，注意到底面直径很小，圆柱很细长，不妨将其近似成线段，故先看 $1.8"m"$ 的线段能否放入正方体. 如图，正方体的棱长为 $1$，则正方体表面上任意两点之间距离的最大值为 $sqrt(3)<1.8$，所以高为 $1.8"m"$ 的圆柱体不可能放入该正方体，故 C 项错误；
+C 项，注意到底面直径很小，圆柱很细长，不妨将其近似成线段，故先看 #mi(`1.8\text{m}`) 的线段能否放入正方体. 如图，正方体的棱长为 #mi(`1`)，则正方体表面上任意两点之间距离的最大值为 #mi(`\sqrt{3}<1.8`)，所以高为 #mi(`1.8\text{m}`) 的圆柱体不可能放入该正方体，故 C 项错误；
 
-D 项，注意到圆柱的高很小，不妨将圆柱近似看成圆，故先分析直径为 $1.2"m"$ 的圆能否放入正方体. 为了研究这一问题，我们先找正方体尽可能大的截面. 如图，$E$，$F$，$G$，$H$，$I$，$J$ 分别为所在棱的中点，则 $E F G H I J$ 是边长为 $(sqrt(2))/(2)$ 的正六边形，其内切圆如图，其中 $K$ 为 $H I$ 中点，则内切圆半径
-$r=O K=(sqrt(2))/(2) times (sqrt(3))/(2)=(sqrt(6))/(4)$，
+D 项，注意到圆柱的高很小，不妨将圆柱近似看成圆，故先分析直径为 #mi(`1.2\text{m}`) 的圆能否放入正方体. 为了研究这一问题，我们先找正方体尽可能大的截面. 如图，#mi(`E`)，#mi(`F`)，#mi(`G`)，#mi(`H`)，#mi(`I`)，#mi(`J`) 分别为所在棱的中点，则 #mi(`EFGHIJ`) 是边长为 #mi(`\frac{\sqrt{2}}{2}`) 的正六边形，其内切圆如图，其中 #mi(`K`) 为 #mi(`HI`) 中点，则内切圆半径
+
+#mi(`r=OK=\frac{\sqrt{2}}{2}\times\frac{\sqrt{3}}{2}=\frac{\sqrt{6}}{4}`)，
+
 直径
-$2 r=(sqrt(6))/(2)>1.2$，
-所以可以想象，底面直径为 $1.2"m"$，高为 $0.01"m"$ 的圆柱体能够放进正方体容器，故 D 项正确.
 
+#mi(`2r=\frac{\sqrt{6}}{2}>1.2`)，
 
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q12_solution_fig1.png", width: 62%)]
+所以可以想象，底面直径为 #mi(`1.2\text{m}`)，高为 #mi(`0.01\text{m}`) 的圆柱体能够放进正方体容器，故 D 项正确.
 
+[max width=0.62\linewidth]img/2023/new_gaokao_paper_1/q12_solution_fig1.png
 
 故选 ABD.
 ]
@@ -293,348 +379,210 @@ $2 r=(sqrt(6))/(2)>1.2$，
 #part-header("填空题")
 
 #problem(13)[
-某学校开设了 $4$ 门体育类选修课和 $4$ 门艺术类选修课. 学生需从这 $8$ 门课中选 $2$ 门或 $3$ 门课，并且每类选修课至少选 $1$ 门，则不同的选课方案共有#blank(){}种. （用数字作答）
+某学校开设了 #mi(`4`) 门体育类选修课和 #mi(`4`) 门艺术类选修课. 学生需从这 #mi(`8`) 门课中选 #mi(`2`) 门或 #mi(`3`) 门课，并且每类选修课至少选 #mi(`1`) 门，则不同的选课方案共有\underline{\hspace{2.5em}}种. （用数字作答）
 ]
 
 #answer([64])
 
 #solution[
-若选 $2$ 门，只能体育类，艺术类各选 $1$ 门，共
-$\binom41\binom41=16$
+若选 #mi(`2`) 门，只能体育类，艺术类各选 #mi(`1`) 门，共
+
+#mi(`\binom41\binom41=16`)
+
 种.
 
-若选 $3$ 门，可分为“体 $1$ 艺 $2$”或“体 $2$ 艺 $1$”两类，共
-$\binom41\binom42+\binom42\binom41=48$
+若选 #mi(`3`) 门，可分为“体 #mi(`1`) 艺 #mi(`2`)”或“体 #mi(`2`) 艺 #mi(`1`)”两类，共
+
+#mi(`\binom41\binom42+\binom42\binom41=48`)
+
 种.
 
 故总数为
-$16+48=64$.
+
+#mi(`16+48=64`).
 ]
 
 #problem(14)[
-在正四棱台 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$A B=2$，$A_(1) B_1=1$，$A A_1=sqrt(2)$，则该棱台的体积为#blank(){}.
+在正四棱台 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AB=2`)，#mi(`A_{1}B_{1}=1`)，#mi(`AA_{1}=\sqrt{2}`)，则该棱台的体积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(7 sqrt(6))/(6)$])
+#answer([#mi(`\dfrac{7\sqrt{6}}{6}`)])
 
 #solution[
 体积公式为
-$V=(1)/(3)(S+S'+sqrt(S S'))h$，
-故只需求高 $h$.
-在截面 $A A_(1) C_(1) C$ 中，作 $A_(1) E bot A C$，$C_(1) F bot A C$. 则
-$E F=A_(1) C_1=sqrt(2)$，$A C=2 sqrt(2)$.
+
+#mi(`V=\frac{1}{3}\bigl(S+S'+\sqrt{SS'}\bigr)h`)，
+
+故只需求高 #mi(`h`).
+
+在截面 #mi(`AA_{1}C_{1}C`) 中，作 #mi(`A_{1}E\perp AC`)，#mi(`C_{1}F\perp AC`). 则
+
+#mi(`EF=A_{1}C_{1}=\sqrt{2}`)，#mi(`AC=2\sqrt{2}`).
+
 所以
-$A E=(A C-E F)/(2)=(sqrt(2))/(2)$.
-由 $A A_1=sqrt(2)$ 得
 
-$ h=A_(1) E=sqrt(A A_1^2-A E^2)=sqrt(2-(1)/(2))=sqrt((3)/(2))=(sqrt(6))/(2) $
+#mi(`AE=\frac{AC-EF}{2}=\frac{\sqrt{2}}{2}`).
+
+由 #mi(`AA_{1}=\sqrt{2}`) 得
 
 
+#align(center)[#mitex(`
+h=A_{1}E=\sqrt{AA_{1}^{2}-AE^{2}}=\sqrt{2-\frac{1}{2}}=\sqrt{\frac{3}{2}}=\frac{\sqrt{6}}{2}
+`)]
 
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q14_solution_fig1.png", width: 50%)]
 
+[max width=0.5\linewidth]img/2023/new_gaokao_paper_1/q14_solution_fig1.png
 
 又上，下底面积分别为
-$S'=1$，$S=4$，
+
+#mi(`S'=1`)，#mi(`S=4`)，
+
 故
-$V=(1)/(3)(4+1+2) dot (sqrt(6))/(2)=(7 sqrt(6))/(6)$.
+
+#mi(`V=\frac{1}{3}(4+1+2)\cdot\frac{\sqrt{6}}{2}=\frac{7\sqrt{6}}{6}`).
 ]
 
 #problem(15)[
-已知函数 $f(x)= cos omega x-1$（$omega >0$） 在区间 $[0,2 pi ]$ 上有且仅有 $3$ 个零点，则 $omega$ 的取值范围是#blank(){}.
+已知函数 #mi(`f(x)=\cos\omega x-1`)（#mi(`\omega>0`)） 在区间 #mi(`[0,2\pi]`) 上有且仅有 #mi(`3`) 个零点，则 #mi(`\omega`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[2,3)$])
+#answer([#mi(`[2,3)`)])
 
 #solution[
-由 $f(x)=0$ 得
-$cos omega x=1$.
-所以问题等价于 $y= cos omega x$ 在 $[0,2 pi ]$ 上恰有 $3$ 个最大值点. 由图可知应有
-$(4 pi)/(omega) <= 2 pi <(6 pi)/(omega)$.
+由 #mi(`f(x)=0`) 得
+
+#mi(`\cos\omega x=1`).
+
+所以问题等价于 #mi(`y=\cos\omega x`) 在 #mi(`[0,2\pi]`) 上恰有 #mi(`3`) 个最大值点. 由图可知应有
+
+#mi(`\frac{4\pi}{\omega}\le 2\pi<\frac{6\pi}{\omega}`).
+
 解得
-$2 <= omega <3$.
 
+#mi(`2\le \omega<3`).
 
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q15_solution_fig1.png", width: 60%)]
+[max width=0.6\linewidth]img/2023/new_gaokao_paper_1/q15_solution_fig1.png
 ]
 
 #problem(16)[
-已知双曲线 $C:(x^2)/(a^2)-(y^2)/(b^2)=1$（$a>0$，$b>0$） 的左，右焦点分别为 $F_1$，$F_2$. 点 $A$ 在 $C$ 上，点 $B$ 在 $y$ 轴上，$F_(1) A bot F_(1) B$，$arrow(F_(2) A)=-(2)/(3)arrow(F_(2) B)$，则 $C$ 的离心率为#blank(){}.
+已知双曲线 #mi(`C:\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`)（#mi(`a>0`)，#mi(`b>0`)） 的左，右焦点分别为 #mi(`F_{1}`)，#mi(`F_{2}`). 点 #mi(`A`) 在 #mi(`C`) 上，点 #mi(`B`) 在 #mi(`y`) 轴上，#mi(`F_{1}A\perp F_{1}B`)，#mi(`\overrightarrow{F_2A}=-\frac{2}{3}\overrightarrow{F_2B}`)，则 #mi(`C`) 的离心率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3 sqrt(5))/(5)$])
+#answer([#mi(`\dfrac{3\sqrt{5}}{5}`)])
 
 #solution[
-设 $A F_2=2 m$. 由
-$arrow(F_(2) A)=-(2)/(3)arrow(F_(2) B)$
-可得 $B F_2=3 m$，于是
-$A B=A F_2+B F_2=5 m$.
-又由对称性 $B F_1=B F_2=3 m$. 因为 $F_(1) A bot F_(1) B$，故
-$A F_1=sqrt(A B^2-B F_1^2)=4 m$.
-点 $A$ 在双曲线右支上，所以
-$A F_1-A F_2=2 a$，
+设 #mi(`AF_{2}=2m`). 由
+
+#mi(`\overrightarrow{F_2A}=-\frac{2}{3}\overrightarrow{F_2B}`)
+
+可得 #mi(`BF_{2}=3m`)，于是
+
+#mi(`AB=AF_{2}+BF_{2}=5m`).
+
+又由对称性 #mi(`BF_{1}=BF_{2}=3m`). 因为 #mi(`F_{1}A\perp F_{1}B`)，故
+
+#mi(`AF_{1}=\sqrt{AB^{2}-BF_{1}^{2}}=4m`).
+
+点 #mi(`A`) 在双曲线右支上，所以
+
+#mi(`AF_{1}-AF_{2}=2a`)，
+
 即
-$4 m-2 m=2 a$，
-故 $m=a$.
-在 $triangle B F_(1) F_2$ 中，
-$cos angle F_(1) B F_2=(B F_1^2+B F_2^2-F_(1) F_2^2)/(2 B F_1 dot B F_2)=(9 a^2-2 c^2)/(9 a^2)$.
+
+#mi(`4m-2m=2a`)，
+
+故 #mi(`m=a`).
+
+在 #mi(`\triangle BF_{1}F_{2}`) 中，
+
+#mi(`\cos\angle F_{1}BF_{2}=\frac{BF_{1}^{2}+BF_{2}^{2}-F_{1}F_{2}^{2}}{2BF_{1}\cdot BF_{2}}=\frac{9a^{2}-2c^{2}}{9a^{2}}`).
+
 而
-$cos angle A B F_1=(B F_1)/(A B)=(3)/(5)$.
-由图知 $angle A B F_1= angle F_(1) B F_2$，故
-$(9 a^2-2 c^2)/(9 a^2)=(3)/(5)$.
+
+#mi(`\cos\angle ABF_{1}=\frac{BF_{1}}{AB}=\frac{3}{5}`).
+
+由图知 #mi(`\angle ABF_{1}=\angle F_{1}BF_{2}`)，故
+
+#mi(`\frac{9a^{2}-2c^{2}}{9a^{2}}=\frac{3}{5}`).
+
 解得
-$(c)/(a)=(3 sqrt(5))/(5)$.
 
+#mi(`\frac{c}{a}=\frac{3\sqrt{5}}{5}`).
 
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q16_solution_fig1.png", width: 50%)]
+[max width=0.5\linewidth]img/2023/new_gaokao_paper_1/q16_solution_fig1.png
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知在 $triangle A B C$ 中，$A+B=3 C$，$2 sin (A-C)= sin B$.
+已知在 #mi(`\triangle ABC`) 中，#mi(`A+B=3C`)，#mi(`2\sin(A-C)=\sin B`).
 
-+ (1) 求 $sin A$；
-+ (2) 设 $A B=5$，求 $A B$ 边上的高.
+
++ (1)
 ]
 
 #solution[
-+ (1) 因为
-$A+B= pi -C=3 C$，
-故
-$C=(pi)/(4)$，$B=(3 pi)/(4)-A$.
-要求的是 $sin A$，故用 $C=(pi)/(4)$ 和 $A+B=(3 pi)/(4)$ 将 $2 sin (A-C)= sin B$ 消元，把变量统一成 $A$.
-代入 $2 sin (A-C)= sin B$，得
-$2 sin (A-(pi)/(4))= sin ((3 pi)/(4)-A)$.
-所以
-$2( sin A cos (pi)/(4)- cos A sin (pi)/(4))= sin (3 pi)/(4) cos A- cos (3 pi)/(4) sin A$，
-整理得
-$cos A=(1)/(3) sin A$.
-由
-$sin ""^(2) A+ cos ""^(2) A=1$
-得
-$sin ""^(2) A+(1)/(9) sin ""^(2) A=1$，
-故
-$sin A= +- (3 sqrt(10))/(10)$.
-结合 $0<A< pi$ 可得
-$sin A=(3 sqrt(10))/(10)$.
-+ (2) 设内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，则 $c=A B=5$. 如图，$A B$ 边上的高 $C D=a sin B$.
-
-已知 $A$，$C$，故 $sin B$ 可用内角和为 $pi$ 来求：
-$sin B= sin ((3 pi)/(4)-A)=(sqrt(2))/(2) cos A+(sqrt(2))/(2) sin A=(2)/(sqrt(5))$.
-再求 $a$，已知条件有 $C$，$c$，$sin A$，故用正弦定理求 $a$. 由正弦定理，
-$(a)/(sin A)=(c)/(sin C)$，
-得
-$a=(c sin A)/(sin C)=(5 dot (3 sqrt(10))/(10))/((sqrt(2))/(2))=3 sqrt(5)$.
-因此
-$C D=a sin B=3 sqrt(5) dot (2)/(sqrt(5))=6$.
-
-
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q17_solution_fig1.png", width: 42%)]
++ (1)
 ]
 
 #problem(18)[
-如图，在正四棱柱 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$A B=2$，$A A_1=4$. 点 $A_2$，$B_2$，$C_2$，$D_2$ 分别在棱 $A A_1$，$B B_1$，$CC_1$，$D D_1$ 上，且 $A A_2=1$，$B B_2=D D_2=2$，$CC_2=3$.
+如图，在正四棱柱 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AB=2`)，#mi(`AA_{1}=4`). 点 #mi(`A_{2}`)，#mi(`B_{2}`)，#mi(`C_{2}`)，#mi(`D_{2}`) 分别在棱 #mi(`AA_{1}`)，#mi(`BB_{1}`)，#mi(`CC_{1}`)，#mi(`DD_{1}`) 上，且 #mi(`AA_{2}=1`)，#mi(`BB_{2}=DD_{2}=2`)，#mi(`CC_{2}=3`).
 
 
-+ (1) 证明：$B_(2) C_2 parallel A_(2) D_2$；
-+ (2) 点 $P$ 在棱 $B B_1$ 上，当二面角 $P-A_(2) C_2-D_2$ 为 $150^ degree$ 时，求 $B_(2) P$.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q18_fig1.png", width: 42%)]
+[max width=0.42\linewidth]img/2023/new_gaokao_paper_1/q18_fig1.png
 ]
 
 #solution[
-+ (1) 以 C 为原点建立空间直角坐标系，如图可取
-$B_2(0,2,2)$，$C_2(0,0,3)$，$A_2(2,2,1)$，$D_2(2,0,2)$.
-于是
-$arrow(B_(2) C_2)=(0,-2,1)$，$arrow(A_(2) D_2)=(0,-2,1)$.
-故 $B_(2) C_2 parallel A_(2) D_2$.
-+ (2) 设
-$P(0,2,a)$（$0 <= a <= 4$）.
-则平面 $P A_(2) C_2$ 的一个法向量可取
-$bold(m)=(1-a,a-3,-2)$，
-平面 $A_(2) C_(2) D_2$ 的一个法向量可取
-$bold(n)=(1,1,2)$.
-因为二面角 $P-A_(2) C_2-D_2$ 为 $150^ degree$，故法向量夹角的锐角为 $30^ degree$，从而
-$(|bold(m){ dot } bold(n)|)/(|bold(m)||bold(n)|)=(sqrt(3))/(2)$.
-而
-$bold(m) dot bold(n)=(1-a)+(a-3)-4=-6$，
-且
-$|bold(n)|=sqrt(6)$.
-于是
-$(6)/(sqrt((1-a)^2+(a-3)^2+4) dot sqrt(6))=(sqrt(3))/(2)$.
-解得
-$a=1"\ 或\ "3$.
-所以
-$B_(2) P=|a-2|=1$.
-
-
-#align(center)[#image("/papers/2023/img/new_gaokao_paper_1/q18_solution_fig1.png", width: 42%)]
++ (1)
 ]
 
 #problem(19)[
-已知函数 $f(x)=a( e ""^x+a)-x$.
+已知函数 #mi(`f(x)=a(\mathrm{e}^{x}+a)-x`).
 
-+ (1) 讨论 $f(x)$ 的单调性；
-+ (2) 证明：当 $a>0$ 时，$f(x)>2 ln a+(3)/(2)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) $f'(x)=a e ""^x-1$.
-当 $a <= 0$ 时，$f'(x)<0$，故 $f$ 在 $RR$ 上单调递减.
-
-当 $a>0$ 时，
-$f'(x)=0 <=> x= ln (1)/(a)$.
-因此 $f$ 在 $(- oo , ln (1)/(a))$ 上单调递减，在 $( ln (1)/(a),+ oo )$ 上单调递增.
-+ (2) 由上一项知，当 $a>0$ 时，$f$ 的最小值为
-$f( ln (1)/(a)) =a((1)/(a)+a)- ln (1)/(a)=1+a^2+ ln a$.
-故只需证明
-$1+a^2+ ln a>2 ln a+(3)/(2)$，
-即
-$a^2- ln a-(1)/(2)>0$.
-令
-$g(a)=a^2- ln a-(1)/(2)$（$a>0$），
-则
-$g'(a)=2 a-(1)/(a)=(2 a^2-1)/(a)$.
-所以 $g(a)$ 在 $(0,(sqrt(2))/(2))$ 上单调递减，在 $((sqrt(2))/(2),+ oo )$ 上单调递增.
-故
-$g(a) >= g((sqrt(2))/(2)) =(1)/(2)- ln (sqrt(2))/(2)-(1)/(2)=- ln (sqrt(2))/(2)>0$.
-所以
-$f(x) >= f( ln (1)/(a))>2 ln a+(3)/(2)$.
++ (1)
 ]
 
 #problem(20)[
-设等差数列 $\{a_n\}$ 的公差为 $d$，且 $d>1$. 令 $b_n=(n^2+n)/(a_n)$，记 $S_n$，$T_n$ 分别为数列 $\{a_n\}$，$\{b_n\}$ 的前 $n$ 项和.
+设等差数列 #mi(`\{a_{n}\}`) 的公差为 #mi(`d`)，且 #mi(`d>1`). 令 #mi(`b_{n}=\frac{n^{2}+n}{a_{n}}`)，记 #mi(`S_{n}`)，#mi(`T_{n}`) 分别为数列 #mi(`\{a_{n}\}`)，#mi(`\{b_{n}\}`) 的前 #mi(`n`) 项和.
 
-+ (1) 若 $3 a_2=3 a_1+a_3$，$S_3+T_3=21$，求 $\{a_n\}$ 的通项公式；
-+ (2) 若 $\{b_n\}$ 为等差数列，且 $S_(99)-T_(99)=99$，求 $d$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由
-$3 a_2=3 a_1+a_3$
-得
-$3(a_1+d)=3 a_1+(a_1+2 d)$，
-故
-$a_1=d$.
-又
-$S_3=3 a_1+3 d$，$T_3=(2)/(a_1)+(6)/(a_1+d)+(12)/(a_1+2 d)$.
-代入 $a_1=d$ 与 $S_3+T_3=21$，可得
-$2 d+(3)/(d)=7$.
-解得
-$d=3"\ 或\ "(1)/(2)$.
-由 $d>1$，知 $d=3$，于是 $a_1=3$，故
-$a_n=a_1+(n-1)d=3 n$.
-+ (2) 若 $\{b_n\}$ 为等差数列，则
-$2 b_2=b_1+b_3$.
-代入
-$b_1=(2)/(a_1)$，$b_2=(6)/(a_1+d)$，$b_3=(12)/(a_1+2 d)$，
-化简得
-$(a_1-d)(a_1-2 d)=0$.
-故分两种情况：
-
-若 $a_1=d$，则 $a_n=n d$，从而 $S_n=(n(n+1))/(2)d$，$b_n=(n+1)/(d)$，$T_n=(n(n+3))/(2 d)$.
-代入 $S_(99)-T_(99)=99$，得
-$99 dot 50 d-(99 dot 51)/(d)=99$.
-解得
-$d=(51)/(50)"\ 或\ "-1$.
-由 $d>1$，得
-$d=(51)/(50)$.
-
-若 $a_1=2 d$，则
-$a_n=a_1+(n-1)d=(n+1)d$，从而 $S_n=(n(a_1+a_n))/(2)=(n(n+3))/(2)d$，$b_n=(n^2+n)/((n+1)d)=(n)/(d)$，且
-
-$ T_n=(n(b_1+b_n))/(2)=(n((1)/(d)+(n)/(d)))/(2)=(n(n+1))/(2 d) $
-
-代入 $S_(99)-T_(99)=99$，得
-$99 dot 51 d-(99 dot 50)/(d)=99$.
-解得
-$d=-(50)/(51)"\ 或\ "1$.
-均不满足 $d>1$，舍去.
-
-综上，
-$d=(51)/(50)$.
++ (1)
 ]
 
 #problem(21)[
-甲乙两人投篮，每次由其中一人投篮，规则如下：若命中则此人继续投篮，若未命中则换为对方投篮. 无论之前投篮情况如何，甲每次投篮的命中率均为 $0.6$，乙每次投篮的命中率均为 $0.8$. 由抽签确定第一次投篮的人选，第一次投篮的人是甲，乙的概率各为 $0.5$.
+甲乙两人投篮，每次由其中一人投篮，规则如下：若命中则此人继续投篮，若未命中则换为对方投篮. 无论之前投篮情况如何，甲每次投篮的命中率均为 #mi(`0.6`)，乙每次投篮的命中率均为 #mi(`0.8`). 由抽签确定第一次投篮的人选，第一次投篮的人是甲，乙的概率各为 #mi(`0.5`).
 
-+ (1) 求第二次投篮的人是乙的概率；
-+ (2) 求第 $i$ 次投篮的人是甲的概率；
-+ (3) 已知：若随机变量 $X_i$ 服从两点分布，且 $P(X_i=1)=1-P(X_i=0)=q_i$，$\ i=1$，$2$，$...$，$n$，则 $E(sum_(i=1)^n X_i)=sum_(i=1)^n q_i$.
-记前 $n$ 次（即从第 $1$ 次到第 $n$ 次）投篮中甲投篮的次数为 $Y$，求 $E(Y)$.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 记“第 $i$ 次投篮的人是甲”为事件 $A_i$. 则
-$P(A_1)=(1)/(2)$.
-第二次投篮的人是乙，当且仅当“第一次是甲且甲未中”或“第一次是乙且乙命中”，故
-$P("第2次是乙") =(1)/(2)(1-0.6)+(1)/(2) dot 0 .8 =0.6$.
-+ (2) 当 $i >= 2$ 时，由全概率公式，
-$P(A_i)=P(A_(i-1)) dot 0 .6+[1-P(A_(i-1))] dot 0 .2 =(2)/(5)P(A_(i-1))+(1)/(5)$.
-令
-$u_i=P(A_i)-(1)/(3)$，
-则
-$u_i=(2)/(5)u_(i-1)$.
-又
-$u_1=(1)/(2)-(1)/(3)=(1)/(6)$，
-故
-$u_i=(1)/(6)((2)/(5))^(i-1)$.
-因此
-$P(A_i)=(1)/(3)+(1)/(6)((2)/(5))^(i-1)$.
-+ (3) 设随机变量
-
-$ X_i=\b e g i n{c a s e s} 1,&"第 "i" 次是甲投篮",\\ 0,&"第 "i" 次是乙投篮". \e n d{c a s e s} $
-
-则
-$Y=X_1+X_2+ dots.c +X_n$，
-从而
-$E(Y)=sum_(i=1)^n E(X_i)=sum_(i=1)^n P(A_i)$.
-代入上一项中的结果，
-
-$ E(Y)=sum_(i=1)^n[(1)/(3)+(1)/(6)((2)/(5))^(i-1)]=(n)/(3)+(1)/(6) dot (1-((2)/(5))^n)/(1-(2)/(5)) $
-
-故
-$E(Y)=(n)/(3)+(5)/(18)[1-((2)/(5))^n]$.
++ (1) 
++ (2)
 ]
 
 #problem(22)[
-在直角坐标系 $x O y$ 中，点 $P$ 到 $x$ 轴的距离等于点 $P$ 到点 $(0,(1)/(2))$ 的距离，记动点 $P$ 的轨迹为 $W$.
+在直角坐标系 #mi(`xOy`) 中，点 #mi(`P`) 到 #mi(`x`) 轴的距离等于点 #mi(`P`) 到点 #mi(`(0,\frac{1}{2})`) 的距离，记动点 #mi(`P`) 的轨迹为 #mi(`W`).
 
-+ (1) 求 $W$ 的方程；
-+ (2) 已知矩形 $A B C D$ 有三个顶点在 $W$ 上，证明：矩形 $A B C D$ 的周长大于 $3 sqrt(3)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由题意得 $W$ 为抛物线，且准线为 $y=0$，焦点为 $(0,(1)/(2))$. 这是由标准抛物线方程 $x^2=2 p y$ 向上平移 $(1)/(4)$ 个单位得到的，故可设为
-$x^2=2 p y-(1)/(4)$.
-因为焦点到准线的距离为 $p$，所以 $p=(1)/(2)$，故
-$W:\ x^2=y-(1)/(4)$.
-+ (2) 不妨设 $A$，$B$，$C$ 在抛物线上，且 $A B bot B C$，所以
-$(y_B-y_C)/(x_B-x_C) dot (y_B-y_A)/(x_B-x_A)=-1$
-化简为
-$(x_B+x_A)(x_B+x_C)=-1$.
-令
-$x_B+x_A=m$，$x_B+x_C=-(1)/(m)$.
-由对称性可设 $|m| <= 1$. 则
-$(1)/(2) dot "周长"=A B+B C$.
-由
-$y=x^2+(1)/(4)$
-及距离公式，可得
-$A B+B C=sqrt((y_A-y_B)^2+(x_A-x_B)^2)+sqrt((y_C-y_B)^2+(x_C-x_B)^2)$
-$=|x_A-x_B|\c d o t s q r t(1+m^2)+(|x_C-x_B|)/(|m|)\c d o t s q r t(1+m^2)$
-$>= sqrt(1+m^2) dot (|x_A-x_B|+|x_C-x_B|)$
-$>= sqrt(1+m^2) dot |x_A-x_C|$
-$=sqrt(1+m^2) dot |m+(1)/(m)| =sqrt(((1+m^2)^3)/(m^2))$.
-令
-$phi (t)=((1+t)^3)/(t)$（$0<t <= 1$），
-其中 $t=m^2$. 则
-$phi '(t)=((t+1)^2(2 t-1))/(t^2)$.
-所以 $phi (t) >= phi ((1)/(2))=(27)/(4)$. 故
-$(1)/(2) dot "周长"> sqrt((27)/(4))=(3 sqrt(3))/(2)$.
-于是
-$"周长">3 sqrt(3)$.
++ (1)
 ]
 

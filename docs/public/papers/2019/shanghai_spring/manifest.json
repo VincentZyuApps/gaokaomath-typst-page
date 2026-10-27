@@ -1,242 +1,95 @@
 {
+  "title": "2019年普通高等学校招生全国统一考试",
+  "subtitle": "2019年上海卷（春）",
   "year": "2019",
   "slug": "shanghai_spring",
-  "title": "2019年上海卷（春）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{1,2,3,4,5\\}$，$B=\\{3,5,6\\}$，则 $A\\cap B=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\{3,5\\}\\)",
-          "solution": "由交集的定义可知，$A\\cap B$ 由两集合共同含有的元素组成. 因为 $A=\\{1,2,3,4,5\\}$，$B=\\{3,5,6\\}$，所以 $A\\cap B=\\{3,5\\}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知集合 $A=\\{1,2,3,4,5\\}$，$B=\\{3,5,6\\}$，则 $A\\cap B=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\{3,5\\}$",
+          "solution": "由交集的定义可知，$A\\cap B$ 由两集合共同含有的元素组成. 因为 $A=\\{1,2,3,4,5\\}$，$B=\\{3,5,6\\}$，所以 $A\\cap B=\\{3,5\\}$."
         },
         {
           "num": 2,
-          "body": "计算 $\\displaystyle\\lim_{n\\to\\infty}\\dfrac{2n^2-3n+1}{n^2-4n+1}=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "将分子分母同除以 $n^2$，得\r\n$\\displaystyle\\lim_{n\\to\\infty}\\frac{2n^2-3n+1}{n^2-4n+1}=\\displaystyle\\lim_{n\\to\\infty}\\frac{2-\\frac3n+\\frac1{n^2}}{1-\\frac4n+\\frac1{n^2}}=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "计算 $\\displaystyle\\lim_{n\\to\\infty}\\dfrac{2n^2-3n+1}{n^2-4n+1}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "<p>将分子分母同除以 $n^{2}$，得</p><p>$\\displaystyle\\lim_{n\\to\\infty}\\frac{2n^{2}-3n+1}{n^{2}-4n+1}=\\displaystyle\\lim_{n\\to\\infty}\\frac{2-\\frac{3}{n}+\\frac{1}{n^{2}}}{1-\\frac{4}{n}+\\frac{1}{n^{2}}}=2$.</p>"
         },
         {
           "num": 3,
-          "body": "不等式 $|x+1|<5$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\((-6,4)\\)",
-          "solution": "由 $|x+1|<5$ 得 $-5<x+1<5$，解得 $-6<x<4$，所以解集为 $(-6,4)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "不等式 $|x+1|&#x3C;5$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-6,4)$",
+          "solution": "由 $|x+1|&#x3C;5$ 得 $-5&#x3C;x+1&#x3C;5$，解得 $-6&#x3C;x&#x3C;4$，所以解集为 $(-6,4)$."
         },
         {
           "num": 4,
-          "body": "函数 $f(x)=x^2$（$x>0$）的反函数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(y=\\sqrt{x}\\)，\\(\\,x>0\\)",
-          "solution": "因为 $f(x)=x^2$（$x>0$） 的值域为 $(0,+\\infty)$，设 $y=x^2$ 则 $x=\\sqrt{y}$. 交换变量后，反函数为 $y=\\sqrt{x}$，$\\,x>0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $f(x)=x^{2}$（$x>0$）的反函数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$y=\\sqrt{x}$，$\\,x>0$",
+          "solution": "因为 $f(x)=x^{2}$（$x>0$） 的值域为 $(0,+\\infty)$，设 $y=x^{2}$ 则 $x=\\sqrt{y}$. 交换变量后，反函数为 $y=\\sqrt{x}$，$\\,x>0$."
         },
         {
           "num": 5,
-          "body": "设 $i$ 为虚数单位，$3z-i=6+5i$，则 $|z|$ 的值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\sqrt2\\)",
-          "solution": "由 $3z-i=6+5i$ 得 $3z=6+6i$，故 $z=2+2i$. 于是\r\n$|z|=\\sqrt{2^2+2^2}=2\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $i$ 为虚数单位，$3z-i=6+5i$，则 $|z|$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2\\sqrt{2}$",
+          "solution": "<p>由 $3z-i=6+5i$ 得 $3z=6+6i$，故 $z=2+2i$. 于是</p><p>$|z|=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}$.</p>"
         },
         {
           "num": 6,
-          "body": "已知 $\\begin{cases}\r\n2x+2y=-1,\\\\\r\n4x+a^2y=a,\r\n\\end{cases}$ 当方程有无穷多解时，$a$ 的值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(-2\\)",
-          "solution": "方程有无穷多解时，两方程应表示同一个一次方程组. 把第二个方程同除以 2，得 $2x+\\dfrac{a^2}{2}y=\\dfrac a2$. 与 $2x+2y=-1$ 比较系数，得到 $\\dfrac{a^2}{2}=2$ 且 $\\dfrac a2=-1$，所以 $a=-2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\begin{cases}2x+2y=-1,\\\\  4x+a^{2}y=a,\\end{cases}$ 当方程有无穷多解时，$a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-2$",
+          "solution": "方程有无穷多解时，两方程应表示同一个一次方程组. 把第二个方程同除以 2，得 $2x+\\dfrac{a^2}{2}y=\\dfrac{a}{2}$. 与 $2x+2y=-1$ 比较系数，得到 $\\dfrac{a^2}{2}=2$ 且 $\\dfrac{a}{2}=-1$，所以 $a=-2$."
         },
         {
           "num": 7,
-          "body": "在 $\\left(x+\\dfrac{1}{\\sqrt{x}}\\right)^6$ 的二项展开式中，常数项的值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(15\\)",
-          "solution": "展开 $\\left(x+\\dfrac1{\\sqrt x}\\right)^6$ 的通项为 $\\mathrm C_6^r x^{6-r}\\left(\\dfrac1{\\sqrt x}\\right)^r=\\mathrm C_6^r x^{6-\\frac{3r}{2}}$.\r\n常数项对应指数 $6-\\dfrac{3r}{2}=0$，解得 $r=4$. 故常数项为 $\\mathrm C_6^4=15$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $\\left(x+\\dfrac{1}{\\sqrt{x}}\\right)^{6}$ 的二项展开式中，常数项的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$15$",
+          "solution": "<p>展开 $\\left(x+\\dfrac1{\\sqrt{x}}\\right)^{6}$ 的通项为 $\\mathrm{C}_{6}^{r} x^{6-r}\\left(\\dfrac1{\\sqrt{x}}\\right)^{r}=\\mathrm{C}_{6}^{r} x^{6-\\frac{3r}{2}}$.</p><p>常数项对应指数 $6-\\dfrac{3r}{2}=0$，解得 $r=4$. 故常数项为 $\\mathrm{C}_{6}^{4}=15$.</p>"
         },
         {
           "num": 8,
-          "body": "在 $\\triangle ABC$ 中，$AC=3$，$3\\sin A=2\\sin B$，且 $\\cos C=\\dfrac14$，则 $AB=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt{10}\\)",
-          "solution": "由正弦定理，\r\n$\\frac{BC}{\\sin A}=\\frac{AC}{\\sin B}$.\r\n又已知 $3\\sin A=2\\sin B$，所以 $BC=\\dfrac23AC=2$. 再由余弦定理，\r\n\n$$\nAB^2=AC^2+BC^2-2\\cdot AC\\cdot BC\\cos C\r\n=9+4-2\\cdot3\\cdot2\\cdot\\dfrac14=10\n$$\n\r\n因此 $AB=\\sqrt{10}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $\\triangle ABC$ 中，$AC=3$，$3\\sin A=2\\sin B$，且 $\\cos C=\\dfrac{1}{4}$，则 $AB=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{10}$",
+          "solution": "<p>由正弦定理，</p><p>$\\frac{BC}{\\sin A}=\\frac{AC}{\\sin B}$.</p><p>又已知 $3\\sin A=2\\sin B$，所以 $BC=\\dfrac{2}{3}AC=2$. 再由余弦定理，</p>\n$$\nAB^{2}=AC^{2}+BC^{2}-2\\cdot AC\\cdot BC\\cos C  =9+4-2\\cdot3\\cdot2\\cdot\\dfrac{1}{4}=10\n$$\n<p>因此 $AB=\\sqrt{10}$.</p>"
         },
         {
           "num": 9,
-          "body": "首届中国国际进口博览会在上海举行，某高校拟派 4 人参加连续 5 天的志愿者活动，其中甲连续参加 2 天，其他人各参加 1 天，则不同的安排方法有 _______ {}种（结果用数值表示）.",
-          "choices": [],
-          "answer": "\\(24\\)",
-          "solution": "先安排甲连续参加 2 天. 这样的起始位置共有 4 种. 确定甲后，剩下 3 人分别安排在余下 3 天中，共有 $\\mathrm A_3^3=6$ 种排法. 故总数为 $4\\times 6=24$ 种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "首届中国国际进口博览会在上海举行，某高校拟派 4 人参加连续 5 天的志愿者活动，其中甲连续参加 2 天，其他人各参加 1 天，则不同的安排方法有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>种（结果用数值表示）.",
+          "choices": null,
+          "answer": "$24$",
+          "solution": "先安排甲连续参加 2 天. 这样的起始位置共有 4 种. 确定甲后，剩下 3 人分别安排在余下 3 天中，共有 $\\mathrm{A}_{3}^{3}=6$ 种排法. 故总数为 $4\\times 6=24$ 种."
         },
         {
           "num": 10,
-          "body": "如图，已知正方形 $OABC$，其中 $OA=a$（$a>1$），函数 $y=3x^2$ 交 $BC$ 于点 $P$，函数 $y=x^{-\\frac{1}{2}}$ 交 $AB$ 于点 $Q$，当 $|AQ|+|CP|$ 最小时，则 $a$ 的值为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/shanghai_spring/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\sqrt3\\)",
-          "solution": "由图可知，$O=(0,0)$，$A=(a,0)$，$B=(a,a)$，$C=(0,a)$. 函数 $y=3x^2$ 与 $BC$ 交于 $P$，所以 $P\\bigl(\\sqrt{\\frac{a}{3}},a\\bigr)$；函数 $y=x^{-\\frac{1}{2}}$ 与 $AB$ 交于 $Q$，所以 $Q\\bigl(a,\\frac{1}{\\sqrt a}\\bigr)$. 因此\r\n$|CP|=\\sqrt{\\frac a3}$，$|AQ|=\\frac1{\\sqrt a}$，\r\n从而\r\n\n$$\n|AQ|+|CP|=\\frac{\\sqrt a}{\\sqrt3}+\\frac1{\\sqrt a}\\ge 2\\sqrt{\\frac{\\sqrt a}{\\sqrt3}\\cdot\\frac1{\\sqrt a}}=\\frac{2}{\\sqrt[4]{3}}\n$$\n\r\n当且仅当 $\\dfrac{\\sqrt a}{\\sqrt3}=\\dfrac1{\\sqrt a}$，即 $a=\\sqrt3$ 时取等号，所以所求为 $\\sqrt3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，已知正方形 $OABC$，其中 $OA=a$（$a>1$），函数 $y=3x^{2}$ 交 $BC$ 于点 $P$，函数 $y=x^{-\\frac{1}{2}}$ 交 $AB$ 于点 $Q$，当 $|AQ|+|CP|$ 最小时，则 $a$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\sqrt{3}$",
+          "solution": "<p>由图可知，$O=(0,0)$，$A=(a,0)$，$B=(a,a)$，$C=(0,a)$. 函数 $y=3x^{2}$ 与 $BC$ 交于 $P$，所以 $P\\bigl(\\sqrt{\\frac{a}{3}},a\\bigr)$；函数 $y=x^{-\\frac{1}{2}}$ 与 $AB$ 交于 $Q$，所以 $Q\\bigl(a,\\frac{1}{\\sqrt{a}}\\bigr)$. 因此</p><p>$|CP|=\\sqrt{\\frac{a}{3}}$，$|AQ|=\\frac{1}{\\sqrt{a}}$，</p><p>从而</p>\n$$\n|AQ|+|CP|=\\frac{\\sqrt{a}}{\\sqrt{3}}+\\frac{1}{\\sqrt{a}}\\ge 2\\sqrt{\\frac{\\sqrt{a}}{\\sqrt{3}}\\cdot\\frac{1}{\\sqrt{a}}}=\\frac{2}{\\sqrt[4]{3}}\n$$\n<p>当且仅当 $\\dfrac{\\sqrt{a}}{\\sqrt{3}}=\\dfrac1{\\sqrt{a}}$，即 $a=\\sqrt{3}$ 时取等号，所以所求为 $\\sqrt{3}$.</p>"
         },
         {
           "num": 11,
-          "body": "在椭圆 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$ 上任意一点 $P$，$Q$ 与 $P$ 关于 $x$ 轴对称，若有 $\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_2P}\\le1$，则 $\\overrightarrow{F_1P}$ 与 $\\overrightarrow{F_2Q}$ 的夹角范围为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left[\\pi-\\arccos\\dfrac13,\\pi\\right]\\)",
-          "solution": "设椭圆焦点为 $F_1(-\\sqrt2,0)$，$F_2(\\sqrt2,0)$，且 $P(x,y)$ 在椭圆上，$Q(x,-y)$. 由\r\n\n$$\n\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_2P}\r\n=(x+\\sqrt2,y)\\cdot(x-\\sqrt2,y)=x^2+y^2-2\\le 1\n$$\n\r\n并结合椭圆方程 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$，可得 $y^2\\in[1,2]$.\r\n又 $\\overrightarrow{F_2Q}=(x-\\sqrt2,-y)$，所以夹角 $\\theta$ 满足\r\n\n$$\n\\cos\\theta\r\n=\\frac{(x+\\sqrt2)(x-\\sqrt2)-y^2}{\\sqrt{(x+\\sqrt2)^2+y^2}\\sqrt{(x-\\sqrt2)^2+y^2}}\r\n=\\frac{2-3y^2}{y^2+2}\n$$\n\r\n当 $y^2\\in[1,2]$ 时，$\\cos\\theta\\in[-1,-\\tfrac13]$，故\r\n$\\theta\\in\\left[\\pi-\\arccos\\dfrac13,\\pi\\right]$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在椭圆 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$ 上任意一点 $P$，$Q$ 与 $P$ 关于 $x$ 轴对称，若有 $\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_2P}\\le1$，则 $\\overrightarrow{F_1P}$ 与 $\\overrightarrow{F_2Q}$ 的夹角范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left[\\pi-\\arccos\\dfrac{1}{3},\\pi\\right]$",
+          "solution": "<p>设椭圆焦点为 $F_{1}(-\\sqrt{2},0)$，$F_{2}(\\sqrt{2},0)$，且 $P(x,y)$ 在椭圆上，$Q(x,-y)$. 由</p>\n$$\n\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_2P}=(x+\\sqrt{2},y)\\cdot(x-\\sqrt{2},y)=x^{2}+y^{2}-2\\le 1\n$$\n<p>并结合椭圆方程 $\\dfrac{x^2}{4}+\\dfrac{y^2}{2}=1$，可得 $y^{2}\\in[1,2]$.</p><p>又 $\\overrightarrow{F_2Q}=(x-\\sqrt{2},-y)$，所以夹角 $\\theta$ 满足</p>\n$$\n\\cos\\theta  =\\frac{(x+\\sqrt{2})(x-\\sqrt{2})-y^{2}}{\\sqrt{(x+\\sqrt{2})^{2}+y^{2}}\\sqrt{(x-\\sqrt{2})^{2}+y^{2}}}=\\frac{2-3y^{2}}{y^{2}+2}\n$$\n<p>当 $y^{2}\\in[1,2]$ 时，$\\cos\\theta\\in[-1,-\\tfrac13]$，故</p><p>$\\theta\\in\\left[\\pi-\\arccos\\dfrac{1}{3},\\pi\\right]$.</p>"
         },
         {
           "num": 12,
-          "body": "已知集合 $A=[t,t+1]\\cup[t+4,t+9]$，$0\\notin A$，存在正数 $\\lambda$，使得对任意 $a\\in A$，都有 $\\dfrac{\\lambda}{a}\\in A$，则 $t$ 的值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\) 或 \\(-3\\)",
-          "solution": "因为 $\\lambda>0$，且要求对任意 $a\\in A$ 都有 $\\dfrac{\\lambda}{a}\\in A$，所以 $A$ 在取倒数后仍要落回原来的两个区间中. 先根据 $0\\notin A$ 分情况讨论：\r\n\r\n若 $t>0$，则 $A\\subset(0,+\\infty)$. 这时 $\\dfrac{\\lambda}{a}\\in A$ 会把 $[t,t+1]$ 与 $[t+4,t+9]$ 对应起来，整理得 $\\lambda=t(t+9)=(t+1)(t+4)$，解得 $t=1$.\r\n\r\n若 $t<-9$，则 $A\\subset(-\\infty,0)$. 此时取倒数后的区间对应关系与 $t>0$ 时一致，整理后仍得到 $t=1$，不合题意.\r\n\r\n若 $-4<t<-1$，则 $[t,t+1]$ 与 $[t+4,t+9]$ 分居零点两侧，整理得 $\\lambda=t(t+1)=(t+4)(t+9)$，解得 $t=-3$.\r\n\r\n所以 $t=1$ 或 $-3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知集合 $A=[t,t+1]\\cup[t+4,t+9]$，$0\\notin A$，存在正数 $\\lambda$，使得对任意 $a\\in A$，都有 $\\dfrac{\\lambda}{a}\\in A$，则 $t$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$ 或 $-3$",
+          "solution": "<p>因为 $\\lambda>0$，且要求对任意 $a\\in A$ 都有 $\\dfrac{\\lambda}{a}\\in A$，所以 $A$ 在取倒数后仍要落回原来的两个区间中. 先根据 $0\\notin A$ 分情况讨论：</p><p>若 $t>0$，则 $A\\subset(0,+\\infty)$. 这时 $\\dfrac{\\lambda}{a}\\in A$ 会把 $[t,t+1]$ 与 $[t+4,t+9]$ 对应起来，整理得 $\\lambda=t(t+9)=(t+1)(t+4)$，解得 $t=1$.</p><p>若 $t&#x3C;-9$，则 $A\\subset(-\\infty,0)$. 此时取倒数后的区间对应关系与 $t>0$ 时一致，整理后仍得到 $t=1$，不合题意.</p><p>若 $-4&#x3C;t&#x3C;-1$，则 $[t,t+1]$ 与 $[t+4,t+9]$ 分居零点两侧，整理得 $\\lambda=t(t+1)=(t+4)(t+9)$，解得 $t=-3$.</p><p>所以 $t=1$ 或 $-3$.</p>"
         }
       ]
     },
@@ -247,19 +100,17 @@
           "num": 13,
           "body": "下列函数中，值域为 $[0,+\\infty)$ 的是",
           "choices": [
-            "$y=2^x$",
+            "$y=2^{x}$",
             "$y=x^{\\frac{1}{2}}$",
             "$y=\\tan x$",
             "$y=\\cos x$"
           ],
           "answer": "B",
-          "solution": "逐项判断值域：$y=2^x$ 的值域是 $(0,+\\infty)$，$y=x^{\\frac{1}{2}}$ 的值域是 $[0,+\\infty)$，$y=\\tan x$ 的值域是 $\\mathbb{R}$，$y=\\cos x$ 的值域是 $[-1,1]$. 因此选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "逐项判断值域：$y=2^{x}$ 的值域是 $(0,+\\infty)$，$y=x^{\\frac{1}{2}}$ 的值域是 $[0,+\\infty)$，$y=\\tan x$ 的值域是 $\\mathbb{R}$，$y=\\cos x$ 的值域是 $[-1,1]$. 因此选 B."
         },
         {
           "num": 14,
-          "body": "已知 $a$，$b\\in\\mathbb{R}$，则“$a^2>b^2$”是“$|a|>|b|$”的",
+          "body": "已知 $a$，$b\\in\\mathbb{R}$，则“$a^{2}>b^{2}$”是“$|a|>|b|$”的",
           "choices": [
             "充分非必要条件",
             "必要非充分条件",
@@ -267,13 +118,11 @@
             "既非充分又非必要条件"
           ],
           "answer": "C",
-          "solution": "由 $a^2>b^2$ 可得 $|a|>|b|$；反过来，若 $|a|>|b|$，平方后仍得 $a^2>b^2$. 所以“$a^2>b^2$”与“$|a|>|b|$”等价，故它是“$|a|>|b|$”的充要条件，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $a^{2}>b^{2}$ 可得 $|a|>|b|$；反过来，若 $|a|>|b|$，平方后仍得 $a^{2}>b^{2}$. 所以“$a^{2}>b^{2}$”与“$|a|>|b|$”等价，故它是“$|a|>|b|$”的充要条件，选 C."
         },
         {
           "num": 15,
-          "body": "已知平面 $\\alpha$，$\\beta$，$\\gamma$ 两两垂直，直线 $a$，$b$，$c$ 满足 $a\\subset\\alpha$，$b\\subset\\beta$，$c\\subset\\gamma$，则直线 $a$，$b$，$c$ 不可能满足以下哪种关系（ ）",
+          "body": "已知平面 $\\alpha$，$\\beta$，$\\gamma$ 两两垂直，直线 $a$，$b$，$c$ 满足 $a\\subset\\alpha$，$b\\subset\\beta$，$c\\subset\\gamma$，则直线 $a$，$b$，$c$ 不可能满足以下哪种关系（ ）",
           "choices": [
             "两两垂直",
             "两两异面",
@@ -281,13 +130,11 @@
             "两两平行"
           ],
           "answer": "D",
-          "solution": "对 A，取三条分别沿三条互相垂直方向的直线即可，能够两两垂直；对 B，可构造三条空间异面直线；对 C，也可以构造三条两两相交的直线. 若三条直线两两平行，设 $l=\\alpha\\cap\\beta$，则由 $a\\parallel b$ 可知 $a\\parallel l$，$b\\parallel l$，再由 $a\\parallel b\\parallel c$ 得 $c\\parallel l$. 但 $c\\subset\\gamma$，而 $\\gamma$ 与 $\\alpha$，$\\beta$ 两两垂直，$l$ 不可能与 $\\gamma$ 平行，矛盾，所以 D 不可能.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "对 A，取三条分别沿三条互相垂直方向的直线即可，能够两两垂直；对 B，可构造三条空间异面直线；对 C，也可以构造三条两两相交的直线. 若三条直线两两平行，设 $l=\\alpha\\cap\\beta$，则由 $a\\parallel b$ 可知 $a\\parallel l$，$b\\parallel l$，再由 $a\\parallel b\\parallel c$ 得 $c\\parallel l$. 但 $c\\subset\\gamma$，而 $\\gamma$ 与 $\\alpha$，$\\beta$ 两两垂直，$l$ 不可能与 $\\gamma$ 平行，矛盾，所以 D 不可能."
         },
         {
           "num": 16,
-          "body": "以 $(a_1,0)$，$(a_2,0)$ 为圆心的两圆均过 $(1,0)$，与 $y$ 轴正半轴分别交于 $(0,y_1)$，$(0,y_2)$，且满足 $\\ln y_1+\\ln y_2=0$，则点 $\\left(\\dfrac1{a_1},\\dfrac1{a_2}\\right)$ 的轨迹是",
+          "body": "以 $(a_{1},0)$，$(a_{2},0)$ 为圆心的两圆均过 $(1,0)$，与 $y$ 轴正半轴分别交于 $(0,y_{1})$，$(0,y_{2})$，且满足 $\\ln y_{1}+\\ln y_{2}=0$，则点 $\\left(\\dfrac1{a_1},\\dfrac1{a_2}\\right)$ 的轨迹是",
           "choices": [
             "直线",
             "圆",
@@ -295,9 +142,7 @@
             "双曲线"
           ],
           "answer": "A",
-          "solution": "设两圆分别以 $(a_1,0)$，$(a_2,0)$ 为圆心，且都过 $(1,0)$. 由圆的半径关系，\r\n$y_1^2=(1-a_1)^2-a_1^2=1-2a_1$，$y_2^2=(1-a_2)^2-a_2^2=1-2a_2$.\r\n又 $\\ln y_1+\\ln y_2=0$，所以 $y_1y_2=1$. 于是\r\n$(1-2a_1)(1-2a_2)=1$，\r\n化简得 $2a_1a_2=a_1+a_2$，即\r\n$\\frac1{a_1}+\\frac1{a_2}=2$.\r\n令 $x=\\dfrac1{a_1}$，$y=\\dfrac1{a_2}$，则轨迹方程为 $x+y=2$，所以选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设两圆分别以 $(a_{1},0)$，$(a_{2},0)$ 为圆心，且都过 $(1,0)$. 由圆的半径关系，</p><p>$y_{1}^{2}=(1-a_{1})^{2}-a_{1}^{2}=1-2a_{1}$，$y_{2}^{2}=(1-a_{2})^{2}-a_{2}^{2}=1-2a_{2}$.</p><p>又 $\\ln y_{1}+\\ln y_{2}=0$，所以 $y_{1}y_{2}=1$. 于是</p><p>$(1-2a_{1})(1-2a_{2})=1$，</p><p>化简得 $2a_{1}a_{2}=a_{1}+a_{2}$，即</p><p>$\\frac{1}{a_{1}}+\\frac{1}{a_{2}}=2$.</p><p>令 $x=\\dfrac1{a_1}$，$y=\\dfrac1{a_2}$，则轨迹方程为 $x+y=2$，所以选 A.</p>"
         }
       ]
     },
@@ -306,42 +151,33 @@
       "problems": [
         {
           "num": 17,
-          "body": "如图，在正三棱锥 $P-ABC$ 中，$PA=PB=PC=2$，$AB=BC=AC=\\sqrt3$.\r\n\r\n\n(1) 若 $PB$ 的中点为 $M$，$BC$ 的中点为 $N$，求 $AC$ 与 $MN$ 的夹角；\n\n(2) 求 $P-ABC$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/shanghai_spring/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在正三棱锥 $P-ABC$ 中，$PA=PB=PC=2$，$AB=BC=AC=\\sqrt{3}$.</p><ol class=\"enumerate\"><li><p>若 $PB$ 的中点为 $M$，$BC$ 的中点为 $N$，求 $AC$ 与 $MN$ 的夹角；</p></li><li><p>求 $P-ABC$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $M$ 是 $PB$ 的中点，$N$ 是 $BC$ 的中点，所以在三角形 $PBC$ 中，$MN\\parallel PC$. 因此 $AC$ 与 $MN$ 的夹角就是 $AC$ 与 $PC$ 的夹角，即 $\\angle PCA$.\r\n在三角形 $PCA$ 中，由余弦定理得\r\n\n$$\n\\cos\\angle PCA=\\frac{PC^2+AC^2-PA^2}{2\\cdot PC\\cdot AC}\r\n=\\frac{4+3-4}{2\\cdot2\\cdot\\sqrt3}\r\n=\\frac{\\sqrt3}{4}\n$$\n\r\n故所求角为 $\\arccos\\dfrac{\\sqrt3}{4}$.\n\n(2) 正三棱锥的顶点 $P$ 在底面正三角形 $ABC$ 的中心 $O$ 的垂线上. 底面边长为 $\\sqrt3$，其外接圆半径 $OA=1$. 由 $PA=2$ 得\r\n$PO=\\sqrt{PA^2-OA^2}=\\sqrt{4-1}=\\sqrt3$.\r\n又 $S_{\\triangle ABC}=\\dfrac{\\sqrt3}{4}\\cdot(\\sqrt3)^2=\\dfrac{3\\sqrt3}{4}$，所以 $V_{P-ABC}=\\frac13 S_{\\triangle ABC}\\cdot PO=\\frac13\\cdot\\frac{3\\sqrt3}{4}\\cdot\\sqrt3=\\frac34$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$M$ 是 $PB$ 的中点，$N$ 是 $BC$ 的中点，所以在三角形 $PBC$ 中，$MN\\parallel PC$. 因此 $AC$ 与 $MN$ 的夹角就是 $AC$ 与 $PC$ 的夹角，即 $\\angle PCA$.</p><p>在三角形 $PCA$ 中，由余弦定理得</p>\n$$\n\\cos\\angle PCA=\\frac{PC^{2}+AC^{2}-PA^{2}}{2\\cdot PC\\cdot AC}=\\frac{4+3-4}{2\\cdot2\\cdot\\sqrt{3}}=\\frac{\\sqrt{3}}{4}\n$$\n<p>故所求角为 $\\arccos\\dfrac{\\sqrt{3}}{4}$.</p></li><li><p>正三棱锥的顶点 $P$ 在底面正三角形 $ABC$ 的中心 $O$ 的垂线上. 底面边长为 $\\sqrt{3}$，其外接圆半径 $OA=1$. 由 $PA=2$ 得</p><p>$PO=\\sqrt{PA^{2}-OA^{2}}=\\sqrt{4-1}=\\sqrt{3}$.</p><p>又 $S_{\\triangle ABC}=\\dfrac{\\sqrt{3}}{4}\\cdot(\\sqrt{3})^{2}=\\dfrac{3\\sqrt{3}}{4}$，所以 $V_{P-ABC}=\\frac{1}{3}S_{\\triangle ABC}\\cdot PO=\\frac{1}{3}\\cdot\\frac{3\\sqrt{3}}{4}\\cdot\\sqrt{3}=\\frac{3}{4}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "已知数列 $\\{a_n\\}$，$a_1=3$，前 $n$ 项和为 $S_n$.\r\n\r\n\n(1) 若 $\\{a_n\\}$ 为等差数列，且 $a_4=15$，求 $S_n$；\n\n(2) 若 $\\{a_n\\}$ 为等比数列，且 $\\displaystyle\\lim_{n\\to\\infty}S_n<12$，求公比 $q$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$，$a_{1}=3$，前 $n$ 项和为 $S_{n}$.</p><ol class=\"enumerate\"><li><p>若 $\\{a_{n}\\}$ 为等差数列，且 $a_{4}=15$，求 $S_{n}$；</p></li><li><p>若 $\\{a_{n}\\}$ 为等比数列，且 $\\displaystyle\\lim_{n\\to\\infty}S_{n}&#x3C;12$，求公比 $q$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $a_4=a_1+3d=15$ 且 $a_1=3$，得 $d=4$. 于是\r\n\n$$\nS_n=\\frac n2\\bigl(2a_1+(n-1)d\\bigr)\r\n=\\frac n2\\bigl(6+4n-4\\bigr)\r\n=2n^2+n\n$$\n\n(2) 等比数列前 $n$ 项和为 $S_n=\\dfrac{a_1(1-q^n)}{1-q}=\\dfrac{3(1-q^n)}{1-q}$. 要使 $\\displaystyle\\lim_{n\\to\\infty}S_n<12$，先要有 $|q|<1$，再由\r\n$\\displaystyle\\lim_{n\\to\\infty}S_n=\\frac3{1-q}<12$\r\n得 $\\dfrac1{1-q}<4$，即 $q<\\dfrac34$. 综合起来，$q\\in(-1,0)\\cup\\left(0,\\dfrac34\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{4}=a_{1}+3d=15$ 且 $a_{1}=3$，得 $d=4$. 于是</p>\n$$\nS_{n}=\\frac{n}{2}\\bigl(2a_{1}+(n-1)d\\bigr)  =\\frac{n}{2}\\bigl(6+4n-4\\bigr)  =2n^{2}+n\n$$\n</li><li><p>等比数列前 $n$ 项和为 $S_{n}=\\dfrac{a_1(1-q^n)}{1-q}=\\dfrac{3(1-q^n)}{1-q}$. 要使 $\\displaystyle\\lim_{n\\to\\infty}S_{n}&#x3C;12$，先要有 $|q|&#x3C;1$，再由</p><p>$\\displaystyle\\lim_{n\\to\\infty}S_{n}=\\frac{3}{1-q}&#x3C;12$</p><p>得 $\\dfrac1{1-q}&#x3C;4$，即 $q&#x3C;\\dfrac{3}{4}$. 综合起来，$q\\in(-1,0)\\cup\\left(0,\\dfrac{3}{4}\\right)$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知抛物线方程 $y^2=4x$，$F$ 为焦点，$P$ 为抛物线准线上一点，$Q$ 为线段 $PF$ 与抛物线的交点，定义：$d(P)=\\dfrac{|PF|}{|FQ|}$.\r\n\r\n\n(1) 当 $P\\left(-1,-\\dfrac83\\right)$ 时，求 $d(P)$；\n\n(2) 证明：存在常数 $a$，使得 $2d(P)=|PF|+a$；\n\n(3) $P_1$，$P_2$，$P_3$ 为抛物线准线上三点，且 $|P_1P_2|=|P_2P_3|$，判断 $d(P_1)+d(P_3)$ 与 $2d(P_2)$ 的关系.",
-          "choices": [],
+          "body": "<p>已知抛物线方程 $y^{2}=4x$，$F$ 为焦点，$P$ 为抛物线准线上一点，$Q$ 为线段 $PF$ 与抛物线的交点，定义：$d(P)=\\dfrac{|PF|}{|FQ|}$.</p><ol class=\"enumerate\"><li><p>当 $P\\left(-1,-\\dfrac{8}{3}\\right)$ 时，求 $d(P)$；</p></li><li><p>证明：存在常数 $a$，使得 $2d(P)=|PF|+a$；</p></li><li><p>$P_{1}$，$P_{2}$，$P_{3}$ 为抛物线准线上三点，且 $|P_{1}P_{2}|=|P_{2}P_{3}|$，判断 $d(P_{1})+d(P_{3})$ 与 $2d(P_{2})$ 的关系.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 抛物线 $y^2=4x$ 的焦点为 $F(1,0)$，准线为 $x=-1$. 点 $P\\left(-1,-\\dfrac83\\right)$ 在准线上，直线 $PF$ 的斜率为 $\\dfrac43$，故其方程为 $y=\\dfrac43(x-1)$. 与抛物线联立可得交点 $Q\\left(\\dfrac14,-1\\right)$. 于是\r\n$|PF|=\\sqrt{(1+1)^2+\\left(0+\\frac83\\right)^2}=\\frac{10}{3}$，$|FQ|=\\sqrt{\\left(1-\\frac14\\right)^2+(0+1)^2}=\\frac54$.\r\n所以 $d(P)=\\dfrac{|PF|}{|FQ|}=\\dfrac83$.\n\n(2) 设 $P=(-1,s)$. 将线段 $FP$ 参数化为 $(X,Y)=(1-2u,su)$（$0\\le u\\le1$），代入 $Y^2=4X$ 得\r\n$s^2u^2=4(1-2u)$.\r\n对应于交点 $Q$ 的参数 $u$ 为 $\\dfrac{2}{\\sqrt{s^2+4}+2}$，因此 $|FQ|=u|PF|$，从而\r\n\n$$\nd(P)=\\frac{|PF|}{|FQ|}=\\frac{1}{u}=\\frac{\\sqrt{s^2+4}+2}{2}=\\frac{|PF|+2}{2}\n$$\n\r\n故可取 $a=2$.\n\n(3) 设 $P_i=(-1,y_i)$（$i=1$，$2$，$3$）. 由 $|P_1P_2|=|P_2P_3|$ 可知 $P_2$ 是 $P_1$，$P_3$ 的中点，所以 $y_2=\\dfrac{y_1+y_3}{2}$. 由（2）知\r\n$d(P_i)=\\frac{\\sqrt{y_i^2+4}+2}{2}$.\r\n于是只需证明 $\\sqrt{y_1^2+4}+\\sqrt{y_3^2+4}>2\\sqrt{y_2^2+4}$. 这可由函数 $\\sqrt{y^2+4}$ 的严格凸性得到，因此\r\n$d(P_1)+d(P_3)>2d(P_2)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=4x$ 的焦点为 $F(1,0)$，准线为 $x=-1$. 点 $P\\left(-1,-\\dfrac{8}{3}\\right)$ 在准线上，直线 $PF$ 的斜率为 $\\dfrac{4}{3}$，故其方程为 $y=\\dfrac{4}{3}(x-1)$. 与抛物线联立可得交点 $Q\\left(\\dfrac{1}{4},-1\\right)$. 于是</p><p>$|PF|=\\sqrt{(1+1)^{2}+\\left(0+\\frac{8}{3}\\right)^{2}}=\\frac{10}{3}$，$|FQ|=\\sqrt{\\left(1-\\frac{1}{4}\\right)^{2}+(0+1)^{2}}=\\frac{5}{4}$.</p><p>所以 $d(P)=\\dfrac{|PF|}{|FQ|}=\\dfrac{8}{3}$.</p></li><li><p>设 $P=(-1,s)$. 将线段 $FP$ 参数化为 $(X,Y)=(1-2u,su)$（$0\\le u\\le1$），代入 $Y^{2}=4X$ 得</p><p>$s^{2}u^{2}=4(1-2u)$.</p><p>对应于交点 $Q$ 的参数 $u$ 为 $\\dfrac{2}{\\sqrt{s^{2}+4}+2}$，因此 $|FQ|=u|PF|$，从而</p>\n$$\nd(P)=\\frac{|PF|}{|FQ|}=\\frac{1}{u}=\\frac{\\sqrt{s^{2}+4}+2}{2}=\\frac{|PF|+2}{2}\n$$\n<p>故可取 $a=2$.</p></li><li><p>设 $P_{i}=(-1,y_{i})$（$i=1$，$2$，$3$）. 由 $|P_{1}P_{2}|=|P_{2}P_{3}|$ 可知 $P_{2}$ 是 $P_{1}$，$P_{3}$ 的中点，所以 $y_{2}=\\dfrac{y_1+y_3}{2}$. 由（2）知</p><p>$d(P_{i})=\\frac{\\sqrt{y_{i}^{2}+4}+2}{2}$.</p><p>于是只需证明 $\\sqrt{y_{1}^{2}+4}+\\sqrt{y_{3}^{2}+4}>2\\sqrt{y_{2}^{2}+4}$. 这可由函数 $\\sqrt{y^{2}+4}$ 的严格凸性得到，因此</p><p>$d(P_{1})+d(P_{3})>2d(P_{2})$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知等差数列 $\\{a_n\\}$ 的公差 $d\\in(0,\\pi]$，数列 $\\{b_n\\}$ 满足 $b_n=\\sin(a_n)$，集合 $S=\\{x\\mid x=b_n,n\\in\\mathbb{N}^*\\}$.\r\n\r\n\n(1) 若 $a_1=0$，$d=\\dfrac{2\\pi}{3}$，求集合 $S$；\n\n(2) 若 $a_1=\\dfrac{\\pi}{2}$，求 $d$ 使得集合 $S$ 恰好有两个元素；\n\n(3) 若集合 $S$ 恰好有三个元素：$b_{n+T}=b_n$，$T$ 是不超过 7 的正整数，求 $T$ 的所有可能的值.",
-          "choices": [],
+          "body": "<p>已知等差数列 $\\{a_{n}\\}$ 的公差 $d\\in(0,\\pi]$，数列 $\\{b_{n}\\}$ 满足 $b_{n}=\\sin(a_{n})$，集合 $S=\\{x\\mid x=b_{n},n\\in\\mathbb{N}^{*}\\}$.</p><ol class=\"enumerate\"><li><p>若 $a_{1}=0$，$d=\\dfrac{2\\pi}{3}$，求集合 $S$；</p></li><li><p>若 $a_{1}=\\dfrac{\\pi}{2}$，求 $d$ 使得集合 $S$ 恰好有两个元素；</p></li><li><p>若集合 $S$ 恰好有三个元素：$b_{n+T}=b_{n}$，$T$ 是不超过 7 的正整数，求 $T$ 的所有可能的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $a_1=0$，$d=\\dfrac{2\\pi}{3}$ 时，\r\n$b_1=\\sin0=0$，$b_2=\\sin\\dfrac{2\\pi}{3}=\\dfrac{\\sqrt3}{2}$，$b_3=\\sin\\dfrac{4\\pi}{3}=-\\dfrac{\\sqrt3}{2}$.\r\n由正弦函数的周期性，之后的值重复出现，所以\r\n$S=\\left\\{-\\dfrac{\\sqrt3}{2},0,\\dfrac{\\sqrt3}{2}\\right\\}$.\n\n(2) 若 $S$ 恰有两个元素，则前三项中必须有一对相等. 这里 $b_1=\\sin\\dfrac\\pi2=1$，而\r\n$b_2=\\sin\\left(\\frac\\pi2+d\\right)$，$b_3=\\sin\\left(\\frac\\pi2+2d\\right)$.\r\n由于 $d>0$，$b_1=b_2$ 不可能. 若 $b_1=b_3$，则 $\\cos 2d=1$，得 $d=\\pi$；若 $b_2=b_3$，则 $\\cos d=\\cos 2d$，得 $d=\\dfrac{2\\pi}{3}$. 当 $d=\\pi$ 时，$S=\\{1,-1\\}$；当 $d=\\dfrac{2\\pi}{3}$ 时，$S=\\{1,-\\dfrac12\\}$. 故 $d=\\dfrac{2\\pi}{3}$ 或 $\\pi$.\n\n(3) 因为 $S$ 恰有三个元素，所以 $T\\ge3$. 当 $T=3$，$4$，$5$，$6$ 时，都可以分别构造出符合条件的等差正弦序列：$T=3$ 可取 $a_1=0$，$d=\\dfrac{2\\pi}{3}$；$T=4$ 可取 $a_1=0$，$d=\\dfrac\\pi2$；$T=5$ 可取 $a_1=\\dfrac\\pi{10}$，$d=\\dfrac{2\\pi}{5}$；$T=6$ 可取 $a_1=0$，$d=\\dfrac\\pi3$，均得到恰有三个元素的集合 $S$. 若 $T=7$，由于等式对所有 $n$ 成立且 $d>0$，只能有 $7d=2k\\pi$，其中 $k=1$，$2$，$3$. 此时前 7 项对应模 $2\\pi$ 两两不同的 7 个角，而每个正弦值至多对应模 $2\\pi$ 的两个角，所以前 7 项至少有 4 个不同的值，不可能恰有三个元素. 故 $T$ 的所有可能值为 $3$，$4$，$5$，$6$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$a_{1}=0$，$d=\\dfrac{2\\pi}{3}$ 时，</p><p>$b_{1}=\\sin0=0$，$b_{2}=\\sin\\dfrac{2\\pi}{3}=\\dfrac{\\sqrt{3}}{2}$，$b_{3}=\\sin\\dfrac{4\\pi}{3}=-\\dfrac{\\sqrt{3}}{2}$.</p><p>由正弦函数的周期性，之后的值重复出现，所以</p><p>$S=\\left\\{-\\dfrac{\\sqrt{3}}{2},0,\\dfrac{\\sqrt{3}}{2}\\right\\}$.</p></li><li><p>若 $S$ 恰有两个元素，则前三项中必须有一对相等. 这里 $b_{1}=\\sin\\dfrac\\pi2=1$，而</p><p>$b_{2}=\\sin\\left(\\frac{\\pi}{2}+d\\right)$，$b_{3}=\\sin\\left(\\frac{\\pi}{2}+2d\\right)$.</p><p>由于 $d>0$，$b_{1}=b_{2}$ 不可能. 若 $b_{1}=b_{3}$，则 $\\cos 2d=1$，得 $d=\\pi$；若 $b_{2}=b_{3}$，则 $\\cos d=\\cos 2d$，得 $d=\\dfrac{2\\pi}{3}$. 当 $d=\\pi$ 时，$S=\\{1,-1\\}$；当 $d=\\dfrac{2\\pi}{3}$ 时，$S=\\{1,-\\dfrac{1}{2}\\}$. 故 $d=\\dfrac{2\\pi}{3}$ 或 $\\pi$.</p></li><li><p>因为 $S$ 恰有三个元素，所以 $T\\ge3$. 当 $T=3$，$4$，$5$，$6$ 时，都可以分别构造出符合条件的等差正弦序列：$T=3$ 可取 $a_{1}=0$，$d=\\dfrac{2\\pi}{3}$；$T=4$ 可取 $a_{1}=0$，$d=\\dfrac\\pi2$；$T=5$ 可取 $a_{1}=\\dfrac\\pi{10}$，$d=\\dfrac{2\\pi}{5}$；$T=6$ 可取 $a_{1}=0$，$d=\\dfrac\\pi3$，均得到恰有三个元素的集合 $S$. 若 $T=7$，由于等式对所有 $n$ 成立且 $d>0$，只能有 $7d=2k\\pi$，其中 $k=1$，$2$，$3$. 此时前 7 项对应模 $2\\pi$ 两两不同的 7 个角，而每个正弦值至多对应模 $2\\pi$ 的两个角，所以前 7 项至少有 4 个不同的值，不可能恰有三个元素. 故 $T$ 的所有可能值为 $3$，$4$，$5$，$6$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

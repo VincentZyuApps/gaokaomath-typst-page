@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -66,10 +67,10 @@ $2 sin x- cos x\l e q s l a n t s q r t(2^2+(-1)^2)sqrt(sin ""^(2) x+ cos ""^(2)
 不等式 $(1)/(x)< 1$ 的解集为#blank(){}.
 ]
 
-#answer([$\{x | x<0" 或 "x>1\}$])
+#answer([$\{x | x<0" "或" "x>1\}$])
 
 #solution[
-定义域要求 $x\n e q0$. 移项通分得 $(1-x)/(x)<0$，临界点为 $0$，$1$. 在 $(- oo ,0)$ 上分子为正、分母为负，商为负；在 $(0,1)$ 上商为正；在 $(1,+ oo )$ 上分子为负、分母为正，商为负. 因此解集为 $(- oo ,0) union (1,+ oo )$.
+定义域要求 $x\n e q 0$. 移项通分得 $(1-x)/(x)<0$，临界点为 $0$，$1$. 在 $(- oo ,0)$ 上分子为正、分母为负，商为负；在 $(0,1)$ 上商为正；在 $(1,+ oo )$ 上分子为负、分母为正，商为负. 因此解集为 $(- oo ,0) union (1,+ oo )$.
 ]
 
 #problem(7)[
@@ -206,7 +207,7 @@ $sin x=0$ 的解为 $x=k pi$，$k in ZZ$，所以 $E=\{k pi | k in ZZ \}$. $sin 
 
 #solution[
 取平面内任意原点 $O$. 由 $arrow(M A_i)=arrow(O A_i)-arrow(O M)$，原条件等价于
-$arrow(O A_1)+arrow(O A_2)+arrow(O A_3)+arrow(O A_4)-4 arrow(O M)=\o v e r r i g h t a r r o w0$. 因而
+$arrow(O A_1)+arrow(O A_2)+arrow(O A_3)+arrow(O A_4)-4 arrow(O M)=\o v e r r i g h t a r r o w 0$. 因而
 $arrow(O M)=(1)/(4)(arrow(O A_1)+arrow(O A_2)+arrow(O A_3)+arrow(O A_4))$，右端唯一确定. 这是四个点的位置向量的平均，仍在该平面内，所以恰有一个点 $M$ 满足条件，选 B.
 ]
 
@@ -258,7 +259,7 @@ $V=(1)/(6)|\b e g i n{v m a t r i x}1&0&1\\0&1&1\\-2&-2&0\e n d{v m a t r i x}|=
 #solution[
 + (1) 当 $a>0$，$b>0$ 时，$2^x$ 与 $3^x$ 均在 $RR$ 上递增，正系数倍仍递增，所以 $f(x)$ 在 $RR$ 上单调递增. 当 $a<0$，$b<0$ 时，两个正的递增函数分别乘以负数后均递减，所以 $f(x)$ 在 $RR$ 上单调递减.
 + (2) 有
-$f(x+1)-f(x)=a2^x+b3^x=2^x(a+2 b((3)/(2))^x)$. 因为 $2^x>0$，故只需讨论 $a+2 b((3)/(2))^x>0$.
+$f(x+1)-f(x)=a 2^x+b 3^x=2^x(a+2 b((3)/(2))^x)$. 因为 $2^x>0$，故只需讨论 $a+2 b((3)/(2))^x>0$.
 
 当 $a>0$，$b<0$ 时，移项并除以负数 $2 b$，不等号方向改变，得
 $((3)/(2))^x<-(a)/(2 b)$. 右端为正，且 $(3)/(2)>1$，所以 $x< log _((3)/(2))(-(a)/(2 b))$.

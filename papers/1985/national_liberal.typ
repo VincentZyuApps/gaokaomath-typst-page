@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -81,7 +82,7 @@ B
 $(24-6)+24+(24-6)+(24-6)=78$.
 
 所以应选 B.
-  #choices([$96" 个"$], [$78" 个"$], [$72" 个"$], [$64" 个"$], cols: 4)
+  #choices([$96" "个""$], [$78" "个""$], [$72" "个""$], [$64" "个""$], cols: 4)
 ]
 
 #part-header("解答题")
@@ -255,9 +256,9 @@ $x'=-2-(2 dot 3 (-25))/(25)=4$.
 #solution[
 当 $0<q<1$ 时，
 
-$S_n=(1-q^n)/(1-q)$，所以 $T_n=(S_n)/(S_(n+1))=(1-q^n)/(1-q^(n+1))\l o n g r i g h t a r r o w1$.
+$S_n=(1-q^n)/(1-q)$，所以 $T_n=(S_n)/(S_(n+1))=(1-q^n)/(1-q^(n+1))\l o n g r i g h t a r r o w 1$.
 
-当 $q=1$ 时，$S_n=n$，所以 $T_n=(n)/(n+1)\l o n g r i g h t a r r o w1$.
+当 $q=1$ 时，$S_n=n$，所以 $T_n=(n)/(n+1)\l o n g r i g h t a r r o w 1$.
 
 当 $q>1$ 时，
 

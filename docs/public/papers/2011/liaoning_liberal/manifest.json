@@ -1,176 +1,27 @@
 {
+  "title": "2011年普通高等学校招生全国统一考试",
+  "subtitle": "2011年辽宁卷（文）",
   "year": "2011",
   "slug": "liaoning_liberal",
-  "title": "2011年辽宁卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 24,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{x \\mid x > 1\\}$，$B = \\{x \\mid -1 < x < 2\\}$，则 $A \\cap B =$（ ）",
+          "body": "已知集合 $A = \\{x \\mid x > 1\\}$，$B = \\{x \\mid -1 &#x3C; x &#x3C; 2\\}$，则 $A \\cap B =$（ ）",
           "choices": [
-            "$\\{x\\mid -1 < x < 2\\}$",
+            "$\\{x\\mid -1 &#x3C; x &#x3C; 2\\}$",
             "$\\{x \\mid x > -1\\}$",
-            "$\\{x \\mid -1 < x < 1\\}$",
-            "$\\{x \\mid 1 < x < 2\\}$"
+            "$\\{x \\mid -1 &#x3C; x &#x3C; 1\\}$",
+            "$\\{x \\mid 1 &#x3C; x &#x3C; 2\\}$"
           ],
           "answer": "D",
-          "solution": "由交集定义，元素必须同时满足 $x>1$ 与 $-1<x<2$，所以 $1<x<2$.因而 $A\\cap B=\\{x\\mid 1<x<2\\}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由交集定义，元素必须同时满足 $x>1$ 与 $-1&#x3C;x&#x3C;2$，所以 $1&#x3C;x&#x3C;2$.因而 $A\\cap B=\\{x\\mid 1&#x3C;x&#x3C;2\\}$，故选 D."
         },
         {
           "num": 2,
-          "body": "$\\mathrm{i}$ 为虚数单位，$\\frac{1}{\\mathrm{i}} + \\frac{1}{\\mathrm{i}^{3}} + \\frac{1}{\\mathrm{i}^{5}} + \\frac{1}{\\mathrm{i}^{7}} =$（ ）",
+          "body": "$\\mathrm{i}$ 为虚数单位，$\\frac{1}{\\mathrm{i}}+ \\frac{1}{\\mathrm{i}^{3}}+ \\frac{1}{\\mathrm{i}^{5}}+ \\frac{1}{\\mathrm{i}^{7}}=$（ ）",
           "choices": [
             "$0$",
             "$2\\mathrm{i}$",
@@ -178,13 +29,11 @@
             "$4\\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "因为 $\\mathrm{i}^2=-1$，所以 $\\mathrm{i}^3=-\\mathrm{i}$，$\\ \\mathrm{i}^5=\\mathrm{i}$，$\\ \\mathrm{i}^7=-\\mathrm{i}$.于是\r\n$\\displaystyle \\frac{1}{\\mathrm{i}}+\\frac{1}{\\mathrm{i}^3}+\\frac{1}{\\mathrm{i}^5}+\\frac{1}{\\mathrm{i}^7}\r\n=-\\mathrm{i}+\\mathrm{i}-\\mathrm{i}+\\mathrm{i}=0$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $\\mathrm{i}^{2}=-1$，所以 $\\mathrm{i}^{3}=-\\mathrm{i}$，$\\ \\mathrm{i}^{5}=\\mathrm{i}$，$\\ \\mathrm{i}^{7}=-\\mathrm{i}$.于是</p><p>$\\displaystyle \\frac{1}{\\mathrm{i}}+\\frac{1}{\\mathrm{i}^{3}}+\\frac{1}{\\mathrm{i}^{5}}+\\frac{1}{\\mathrm{i}^{7}}=-\\mathrm{i}+\\mathrm{i}-\\mathrm{i}+\\mathrm{i}=0$，故选 A.</p>"
         },
         {
           "num": 3,
-          "body": "已知向量 $\\mathbf{a} = (2,1)$，$\\mathbf{b} = (-1,k)$，$\\mathbf{a} \\cdot (2\\mathbf{a} - \\mathbf{b}) = 0$，则 $k =$（ ）",
+          "body": "已知向量 $\\mathbf{a}= (2,1)$，$\\mathbf{b}= (-1,k)$，$\\mathbf{a}\\cdot (2\\mathbf{a}- \\mathbf{b}) = 0$，则 $k =$（ ）",
           "choices": [
             "$-12$",
             "$-6$",
@@ -192,27 +41,23 @@
             "$12$"
           ],
           "answer": "D",
-          "solution": "由 $2\\mathbf{a}-\\mathbf{b}=(4,2)-(-1,k)=(5,2-k)$，得\r\n$\\mathbf{a}\\cdot(2\\mathbf{a}-\\mathbf{b})=(2,1)\\cdot(5,2-k)=10+2-k=12-k$.题设内积为 $0$，故 $k=12$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $2\\mathbf{a}-\\mathbf{b}=(4,2)-(-1,k)=(5,2-k)$，得</p><p>$\\mathbf{a}\\cdot(2\\mathbf{a}-\\mathbf{b})=(2,1)\\cdot(5,2-k)=10+2-k=12-k$.题设内积为 $0$，故 $k=12$，选 D.</p>"
         },
         {
           "num": 4,
-          "body": "已知命题 $p: \\exists n \\in \\mathbb{N}$，$2^n > 1000$，则 $\\neg p$ 为（ ）",
+          "body": "已知命题 $p: \\exists n \\in \\mathbb{N}$，$2^{n} > 1000$，则 $\\neg p$ 为（ ）",
           "choices": [
             "$\\forall n\\in \\mathbb{N},2^{n}\\le 1000$",
-            "$\\forall n\\in \\mathbb{N}$，$2^n >1000$",
-            "$\\exists n\\in \\mathbb{N}$，$2^n\\le 1000$",
-            "$\\exists n\\in \\mathbb{N}$，$2^n < 1000$"
+            "$\\forall n\\in \\mathbb{N}$，$2^{n} >1000$",
+            "$\\exists n\\in \\mathbb{N}$，$2^{n}\\le 1000$",
+            "$\\exists n\\in \\mathbb{N}$，$2^{n} &#x3C; 1000$"
           ],
           "answer": "A",
-          "solution": "命题“存在 $n\\in\\mathbb{N}$，使 $2^n>1000$”的否定是“对任意 $n\\in\\mathbb{N}$，都有 $2^n\\leqslant1000$”.故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "命题“存在 $n\\in\\mathbb{N}$，使 $2^{n}>1000$”的否定是“对任意 $n\\in\\mathbb{N}$，都有 $2^{n}\\leqslant1000$”.故选 A."
         },
         {
           "num": 5,
-          "body": "若等比数列 $\\{a_{n}\\}$ 满足 $a_{n}a_{n + 1} = 16^{n}$，则公比为（ ）",
+          "body": "若等比数列 $\\{a_{n}\\}$ 满足 $a_{n}a_{n + 1}= 16^{n}$，则公比为（ ）",
           "choices": [
             "$2$",
             "$4$",
@@ -220,13 +65,11 @@
             "$16$"
           ],
           "answer": "B",
-          "solution": "设等比数列的公比为 $q$.由 $a_n=a_1q^{n-1}$，有\r\n$\\displaystyle a_na_{n+1}=a_1^2q^{2n-1}=16^n$.分别写出 $n+1$ 和 $n$ 时的等式并相除，得 $q^2=16$.再由 $n=1$ 时 $a_1^2q=16>0$，且 $a_1\\neq0$，可知 $q>0$，所以 $q=4$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等比数列的公比为 $q$.由 $a_{n}=a_{1}q^{n-1}$，有</p><p>$\\displaystyle a_{n}a_{n+1}=a_{1}^{2}q^{2n-1}=16^{n}$.分别写出 $n+1$ 和 $n$ 时的等式并相除，得 $q^{2}=16$.再由 $n=1$ 时 $a_{1}^{2}q=16>0$，且 $a_{1}\\neq0$，可知 $q>0$，所以 $q=4$，选 B.</p>"
         },
         {
           "num": 6,
-          "body": "若函数 $f(x) = \\frac{x}{(2x + 1)(x - a)}$ 为奇函数，则 $a =$（ ）",
+          "body": "若函数 $f(x) = \\frac{x}{(2x + 1)(x - a)}$ 为奇函数，则 $a =$（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$\\frac{2}{3}$",
@@ -234,13 +77,11 @@
             "$1$"
           ],
           "answer": "A",
-          "solution": "分母的零点为 $-\\tfrac12$ 和 $a$.奇函数的定义域关于原点对称，因此\r\n$\\{-\\tfrac12,a\\}=\\{\\tfrac12,-a\\}$，从而 $a=\\tfrac12$.此时\r\n$\\displaystyle (2x+1)(x-\\tfrac12)=2x^2-\\tfrac12$ 是偶函数，故\r\n$\\displaystyle f(-x)=\\frac{-x}{2x^2-\\tfrac12}=-f(x)$.所以 $f(x)$ 为奇函数，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分母的零点为 $-\\tfrac12$ 和 $a$.奇函数的定义域关于原点对称，因此</p><p>$\\{-\\tfrac12,a\\}=\\{\\tfrac12,-a\\}$，从而 $a=\\tfrac12$.此时</p><p>$\\displaystyle (2x+1)(x-\\tfrac12)=2x^{2}-\\tfrac12$ 是偶函数，故</p><p>$\\displaystyle f(-x)=\\frac{-x}{2x^{2}-\\tfrac12}=-f(x)$.所以 $f(x)$ 为奇函数，选 A.</p>"
         },
         {
           "num": 7,
-          "body": "已知 $F$ 是抛物线 $y^{2}=x$ 的焦点，$A$，$B$ 是该抛物线上的两点，$|AF|+|BF|=3$，则线段 $AB$ 的中点到 $y$ 轴的距离为（ ）",
+          "body": "已知 $F$ 是抛物线 $y^{2}=x$ 的焦点，$A$，$B$ 是该抛物线上的两点，$|AF|+|BF|=3$，则线段 $AB$ 的中点到 $y$ 轴的距离为（ ）",
           "choices": [
             "$\\frac{3}{4}$",
             "$1$",
@@ -248,13 +89,11 @@
             "$\\frac{7}{4}$"
           ],
           "answer": "C",
-          "solution": "抛物线 $y^2=x$ 可写为 $y^2=4px$，所以 $p=\\tfrac14$，焦点为 $F(\\tfrac14,0)$.设 $A(x_1,y_1)$、$B(x_2,y_2)$ 在抛物线上，则\r\n$\\displaystyle |AF|^2=(x_1-\\tfrac14)^2+y_1^2=(x_1+\\tfrac14)^2$，且 $x_1\\geq0$，从而 $|AF|=x_1+\\tfrac14$，同理 $|BF|=x_2+\\tfrac14$.由 $|AF|+|BF|=3$，得 $x_1+x_2=\\tfrac52$.弦 $AB$ 中点的横坐标为 $\\tfrac54$，所以其中点到 $y$ 轴的距离为 $\\tfrac54$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>抛物线 $y^{2}=x$ 可写为 $y^{2}=4px$，所以 $p=\\tfrac14$，焦点为 $F(\\tfrac14,0)$.设 $A(x_{1},y_{1})$、$B(x_{2},y_{2})$ 在抛物线上，则</p><p>$\\displaystyle |AF|^{2}=(x_{1}-\\tfrac14)^{2}+y_{1}^{2}=(x_{1}+\\tfrac14)^{2}$，且 $x_{1}\\geq0$，从而 $|AF|=x_{1}+\\tfrac14$，同理 $|BF|=x_{2}+\\tfrac14$.由 $|AF|+|BF|=3$，得 $x_{1}+x_{2}=\\tfrac52$.弦 $AB$ 中点的横坐标为 $\\tfrac54$，所以其中点到 $y$ 轴的距离为 $\\tfrac54$，故选 C.</p>"
         },
         {
           "num": 8,
-          "body": "一个正三棱柱的侧棱长和底面边长相等，体积为 $2\\sqrt{3}$，它的三视图中的俯视图如图所示，左视图是一个矩形，则这个矩形的面积是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/liaoning_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>一个正三棱柱的侧棱长和底面边长相等，体积为 $2\\sqrt{3}$，它的三视图中的俯视图如图所示，左视图是一个矩形，则这个矩形的面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$4$",
             "$2\\sqrt{3}$",
@@ -262,13 +101,11 @@
             "$\\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "设正三棱柱的底面边长为 $a$，则侧棱长和高也为 $a$.底面是边长为 $a$ 的正三角形，面积为 $\\tfrac{\\sqrt3}{4}a^2$，所以\r\n$\\displaystyle 2\\sqrt3=V=\\frac{\\sqrt3}{4}a^3$，得 $a=2$.俯视图给出底面正三角形，左视图的两条边分别为高 $2$ 和正三角形的高 $\\sqrt3$，故矩形面积为 $2\\sqrt3$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正三棱柱的底面边长为 $a$，则侧棱长和高也为 $a$.底面是边长为 $a$ 的正三角形，面积为 $\\tfrac{\\sqrt{3}}{4}a^{2}$，所以</p><p>$\\displaystyle 2\\sqrt{3}=V=\\frac{\\sqrt{3}}{4}a^{3}$，得 $a=2$.俯视图给出底面正三角形，左视图的两条边分别为高 $2$ 和正三角形的高 $\\sqrt{3}$，故矩形面积为 $2\\sqrt{3}$，选 B.</p>"
         },
         {
           "num": 9,
-          "body": "执行下面的程序框图，如果输入的 $n$ 是 4，则输出的 $p$ 是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/liaoning_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>执行下面的程序框图，如果输入的 $n$ 是 4，则输出的 $p$ 是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$8$",
             "$5$",
@@ -276,13 +113,11 @@
             "$2$"
           ],
           "answer": "C",
-          "solution": "初始 $s=0$，$t=1$，$k=1$.第一次循环 $p=s+t=1$，更新为 $(s,t,k)=(1,1,2)$；第二次循环 $p=2$，更新为 $(1,2,3)$；第三次循环 $p=3$，更新为 $(2,3,4)$.此时 $k<n$ 不成立，输出 $p=3$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "初始 $s=0$，$t=1$，$k=1$.第一次循环 $p=s+t=1$，更新为 $(s,t,k)=(1,1,2)$；第二次循环 $p=2$，更新为 $(1,2,3)$；第三次循环 $p=3$，更新为 $(2,3,4)$.此时 $k&#x3C;n$ 不成立，输出 $p=3$，故选 C."
         },
         {
           "num": 10,
-          "body": "已知球的直径 $SC = 4$，$A$，$B$ 是该球球面上的两点，$AB = 2$，$\\angle ASC = \\angle BSC = 45^\\circ$，则棱锥 $S-ABC$ 的体积为（ ）",
+          "body": "已知球的直径 $SC = 4$，$A$，$B$ 是该球球面上的两点，$AB = 2$，$\\angle ASC = \\angle BSC = 45^{\\circ}$，则棱锥 $S-ABC$ 的体积为（ ）",
           "choices": [
             "$\\frac{\\sqrt{3}}{3}$",
             "$\\frac{2\\sqrt{3}}{3}$",
@@ -290,13 +125,11 @@
             "$\\frac{5\\sqrt{3}}{3}$"
           ],
           "answer": "C",
-          "solution": "取 $S=(0,0,0)$、$C=(4,0,0)$.因为 $SC$ 是球的直径，$\\angle SAC=90^\\circ$；又 $\\angle ASC=45^\\circ$，所以 $\\triangle SAC$ 为等腰直角三角形，$SA=AC=2\\sqrt2$，且 $A$ 在 $SC$ 上的投影横坐标为 $2$，到 $SC$ 的距离为 $2$.点 $B$ 同样满足这两个条件.在垂直于 $SC$ 的平面内建立直角坐标，使 $A=(2,2,0)$，设 $B=(2,u,v)$.由 $B$ 到 $SC$ 的距离为 $2$ 及 $AB=2$，有\r\n$\\displaystyle u^2+v^2=4$，$(u-2)^2+v^2=4$，两式相减得 $u=1$，再得 $v=\\pm\\sqrt3$.旋转坐标方向可取 $v=\\sqrt3$，故 $B=(2,1,\\sqrt3)$.因此\r\n$\\displaystyle V_{S-ABC}=\\frac16\\left|\\det\\begin{pmatrix}2&2&0\\\\2&1&\\sqrt3\\\\4&0&0\\end{pmatrix}\\right|\r\n=\\frac{4\\sqrt3}{3}$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>取 $S=(0,0,0)$、$C=(4,0,0)$.因为 $SC$ 是球的直径，$\\angle SAC=90^{\\circ}$；又 $\\angle ASC=45^{\\circ}$，所以 $\\triangle SAC$ 为等腰直角三角形，$SA=AC=2\\sqrt{2}$，且 $A$ 在 $SC$ 上的投影横坐标为 $2$，到 $SC$ 的距离为 $2$.点 $B$ 同样满足这两个条件.在垂直于 $SC$ 的平面内建立直角坐标，使 $A=(2,2,0)$，设 $B=(2,u,v)$.由 $B$ 到 $SC$ 的距离为 $2$ 及 $AB=2$，有</p><p>$\\displaystyle u^{2}+v^{2}=4$，$(u-2)^{2}+v^{2}=4$，两式相减得 $u=1$，再得 $v=\\pm\\sqrt{3}$.旋转坐标方向可取 $v=\\sqrt{3}$，故 $B=(2,1,\\sqrt{3})$.因此</p><p>$\\displaystyle V_{S-ABC}=\\frac{1}{6}\\left|\\det\\begin{pmatrix}2&#x26;2&#x26;0\\\\2&#x26;1&#x26;\\sqrt{3}\\\\4&#x26;0&#x26;0\\end{pmatrix}\\right|  =\\frac{4\\sqrt{3}}{3}$，故选 C.</p>"
         },
         {
           "num": 11,
-          "body": "$f(x)$ 的定义域为 $\\mathbb{R}$，$f(-1) = 2$，对任意 $x \\in \\mathbb{R}$，$f'(x) > 2$，则 $f(x) > 2x + 4$ 的解集为（ ）",
+          "body": "$f(x)$ 的定义域为 $\\mathbb{R}$，$f(-1) = 2$，对任意 $x \\in \\mathbb{R}$，$f'(x) > 2$，则 $f(x) > 2x + 4$ 的解集为（ ）",
           "choices": [
             "$(-1,1)$",
             "$(-1,+\\infty)$",
@@ -304,13 +137,11 @@
             "$(-\\infty,+\\infty)$"
           ],
           "answer": "B",
-          "solution": "令 $g(x)=f(x)-(2x+4)$，则 $g'(x)=f'(x)-2>0$，所以 $g$ 在 $\\mathbb{R}$ 上严格递增.又\r\n$\\displaystyle g(-1)=f(-1)-2(-1)-4=2+2-4=0$.因此 $g(x)>0$ 当且仅当 $x>-1$，即 $f(x)>2x+4$ 的解集为 $(-1,+\\infty)$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $g(x)=f(x)-(2x+4)$，则 $g'(x)=f'(x)-2>0$，所以 $g$ 在 $\\mathbb{R}$ 上严格递增.又</p><p>$\\displaystyle g(-1)=f(-1)-2(-1)-4=2+2-4=0$.因此 $g(x)>0$ 当且仅当 $x>-1$，即 $f(x)>2x+4$ 的解集为 $(-1,+\\infty)$，选 B.</p>"
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x) = A \\tan(\\omega x + \\varphi)$（$\\omega > 0$，$|\\varphi| < \\frac{\\pi}{2}$），$y = f(x)$ 的部分图象如图，则 $f\\left(\\frac{\\pi}{24}\\right) =$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/liaoning_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>已知函数 $f(x) = A \\tan(\\omega x + \\varphi)$（$\\omega > 0$，$|\\varphi| &#x3C; \\frac{\\pi}{2}$），$y = f(x)$ 的部分图象如图，则 $f\\left(\\frac{\\pi}{24}\\right) =$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$2 + \\sqrt{3}$",
             "$\\sqrt{3}$",
@@ -318,9 +149,7 @@
             "$2 - \\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "由图可知，$x=\\frac{\\pi}{8}$ 是一条竖直渐近线，$x=\\frac{3\\pi}{8}$ 是图像与 $x$ 轴的交点.正切函数从渐近线到零点的水平距离为 $\\tfrac{\\pi}{2\\omega}$，因而\r\n$\\displaystyle \\frac{3\\pi}{8}-\\frac{\\pi}{8}=\\frac{\\pi}{4}=\\frac{\\pi}{2\\omega}$，得 $\\omega=2$.又在 $x=\\frac{\\pi}{8}$ 处有 $2\\cdot\\frac{\\pi}{8}+\\varphi=\\frac{\\pi}{2}$ 的渐近线，结合 $|\\varphi|<\\frac{\\pi}{2}$ 得 $\\varphi=\\frac{\\pi}{4}$.由图知 $f(0)=1$，故 $A\\tan\\frac{\\pi}{4}=A=1$.因此\r\n$\\displaystyle f\\left(\\frac{\\pi}{24}\\right)=\\tan\\left(2\\cdot\\frac{\\pi}{24}+\\frac{\\pi}{4}\\right)\r\n=\\tan\\frac{\\pi}{3}=\\sqrt3$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由图可知，$x=\\frac{\\pi}{8}$ 是一条竖直渐近线，$x=\\frac{3\\pi}{8}$ 是图像与 $x$ 轴的交点.正切函数从渐近线到零点的水平距离为 $\\tfrac{\\pi}{2\\omega}$，因而</p><p>$\\displaystyle \\frac{3\\pi}{8}-\\frac{\\pi}{8}=\\frac{\\pi}{4}=\\frac{\\pi}{2\\omega}$，得 $\\omega=2$.又在 $x=\\frac{\\pi}{8}$ 处有 $2\\cdot\\frac{\\pi}{8}+\\varphi=\\frac{\\pi}{2}$ 的渐近线，结合 $|\\varphi|&#x3C;\\frac{\\pi}{2}$ 得 $\\varphi=\\frac{\\pi}{4}$.由图知 $f(0)=1$，故 $A\\tan\\frac{\\pi}{4}=A=1$.因此</p><p>$\\displaystyle f\\left(\\frac{\\pi}{24}\\right)=\\tan\\left(2\\cdot\\frac{\\pi}{24}+\\frac{\\pi}{4}\\right)  =\\tan\\frac{\\pi}{3}=\\sqrt{3}$，故选 B.</p>"
         }
       ]
     },
@@ -329,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知圆 $C$ 经过 $A(5,1)$，$B(1,3)$ 两点，圆心在 $x$ 轴上，则 $C$ 的方程为 _______ {}.",
-          "choices": [],
-          "answer": "\\((x-2)^2+y^2=10\\)",
-          "solution": "设圆心为 $(h,0)$，半径为 $r$.由 $A(5,1)$、$B(1,3)$ 在圆上，\r\n$\\displaystyle (5-h)^2+1=(1-h)^2+9$.展开化简得 $h=2$，再代入得\r\n$\\displaystyle r^2=(5-2)^2+1=10$.所以圆的方程为 $(x-2)^2+y^2=10$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆 $C$ 经过 $A(5,1)$，$B(1,3)$ 两点，圆心在 $x$ 轴上，则 $C$ 的方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(x-2)^{2}+y^{2}=10$",
+          "solution": "<p>设圆心为 $(h,0)$，半径为 $r$.由 $A(5,1)$、$B(1,3)$ 在圆上，</p><p>$\\displaystyle (5-h)^{2}+1=(1-h)^{2}+9$.展开化简得 $h=2$，再代入得</p><p>$\\displaystyle r^{2}=(5-2)^{2}+1=10$.所以圆的方程为 $(x-2)^{2}+y^{2}=10$.</p>"
         },
         {
           "num": 14,
-          "body": "调查了某地若干户家庭的年收入 $x$（单位：万元）和年饮食支出 $y$（单位：万元）. 调查显示年收入 $x$ 与年饮食支出 $y$ 具有线性相关关系，并由调查数据得到 $y$ 对 $x$ 的回归直线方程：$\\hat{y} = 0.254x + 0.321$. 由回归直线方程可知，家庭年收入每增加 $1$ 万元，年饮食支出平均增加 _______ {} 万元.",
-          "choices": [],
-          "answer": "\\(0.254\\)",
-          "solution": "回归直线 $\\hat y=0.254x+0.321$ 的斜率为 $0.254$.收入 $x$ 增加 $1$ 万元时，预测饮食支出的增加量为斜率，即 $0.254$ 万元.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "调查了某地若干户家庭的年收入 $x$（单位：万元）和年饮食支出 $y$（单位：万元）. 调查显示年收入 $x$ 与年饮食支出 $y$ 具有线性相关关系，并由调查数据得到 $y$ 对 $x$ 的回归直线方程：$\\hat{y}= 0.254x + 0.321$. 由回归直线方程可知，家庭年收入每增加 $1$ 万元，年饮食支出平均增加<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 万元.",
+          "choices": null,
+          "answer": "$0.254$",
+          "solution": "回归直线 $\\hat y=0.254x+0.321$ 的斜率为 $0.254$.收入 $x$ 增加 $1$ 万元时，预测饮食支出的增加量为斜率，即 $0.254$ 万元."
         },
         {
           "num": 15,
-          "body": "$S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和，$S_{2} = S_{6}$，$a_{4} = 1$，则 $a_{5} =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-1\\)",
-          "solution": "设等差数列首项为 $a_1$，公差为 $d$.由\r\n$\\displaystyle S_2=2a_1+d$，\r\n$\\displaystyle S_6=\\frac62(2a_1+5d)=6a_1+15d$，以及 $S_2=S_6$，得\r\n$\\displaystyle 2a_1+7d=0$.又 $a_4=a_1+3d=1$.代入 $a_1=-\\tfrac72d$，得 $-\\tfrac12d=1$，所以 $d=-2$，$a_1=7$.因此 $a_5=a_1+4d=7-8=-1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和，$S_{2}= S_{6}$，$a_{4}= 1$，则 $a_{5}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-1$",
+          "solution": "<p>设等差数列首项为 $a_{1}$，公差为 $d$.由</p><p>$\\displaystyle S_{2}=2a_{1}+d$，</p><p>$\\displaystyle S_{6}=\\frac{6}{2}(2a_{1}+5d)=6a_{1}+15d$，以及 $S_{2}=S_{6}$，得</p><p>$\\displaystyle 2a_{1}+7d=0$.又 $a_{4}=a_{1}+3d=1$.代入 $a_{1}=-\\tfrac72d$，得 $-\\tfrac12d=1$，所以 $d=-2$，$a_{1}=7$.因此 $a_{5}=a_{1}+4d=7-8=-1$.</p>"
         },
         {
           "num": 16,
-          "body": "已知函数 $f(x) = \\mathrm{e}^{x} - 2x + a$ 有零点，则 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\((-\\infty,2\\ln 2-2]\\)",
-          "solution": "令 $g(x)=\\mathrm{e}^x-2x$，则 $g'(x)=\\mathrm{e}^x-2$.函数在 $x=\\ln2$ 左侧递减、右侧递增，故最小值为\r\n$\\displaystyle g(\\ln2)=2-2\\ln2$.又 $g(x)\\to+\\infty$ 当 $x\\to\\pm\\infty$，所以 $\\mathrm{e}^x-2x+a=0$ 有实根当且仅当最小值不大于 $0$，即\r\n$\\displaystyle 2-2\\ln2+a\\leq0$.故 $a\\in(-\\infty,2\\ln2-2]$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知函数 $f(x) = \\mathrm{e}^{x}- 2x + a$ 有零点，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-\\infty,2\\ln 2-2]$",
+          "solution": "<p>令 $g(x)=\\mathrm{e}^{x}-2x$，则 $g'(x)=\\mathrm{e}^{x}-2$.函数在 $x=\\ln2$ 左侧递减、右侧递增，故最小值为</p><p>$\\displaystyle g(\\ln2)=2-2\\ln2$.又 $g(x)\\to+\\infty$ 当 $x\\to\\pm\\infty$，所以 $\\mathrm{e}^{x}-2x+a=0$ 有实根当且仅当最小值不大于 $0$，即</p><p>$\\displaystyle 2-2\\ln2+a\\leq0$.故 $a\\in(-\\infty,2\\ln2-2]$.</p>"
         }
       ]
     },
@@ -370,48 +191,38 @@
       "problems": [
         {
           "num": 17,
-          "body": "$\\triangle ABC$ 的三个内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，$a \\sin A \\sin B + b \\cos^{2} A = \\sqrt{2}a$.\r\n\n(1) 求 $\\frac{b}{a}$；\n\n(2) 若 $c^{2} = b^{2} + \\sqrt{3}a^{2}$，求 $B$.",
-          "choices": [],
+          "body": "<p>$\\triangle ABC$ 的三个内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，$a \\sin A \\sin B + b \\cos^{2}A = \\sqrt{2}a$.</p><ol class=\"enumerate\"><li><p>求 $\\frac{b}{a}$；</p></li><li><p>若 $c^{2}= b^{2}+ \\sqrt{3}a^{2}$，求 $B$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由正弦定理，$\\displaystyle \\frac{b}{a}=\\frac{\\sin B}{\\sin A}$.将题设等式两边同除以 $a$，并代入上式，得\r\n$\\displaystyle \\sin A\\sin B+\\frac{\\sin B}{\\sin A}\\cos^2A\r\n=\\frac{\\sin B}{\\sin A}(\\sin^2A+\\cos^2A)\r\n=\\frac{\\sin B}{\\sin A}=\\sqrt2$.所以 $\\displaystyle \\frac ba=\\sqrt2$.\n\n(2) 由上一问 $b^2=2a^2$，故题设给出\r\n$\\displaystyle c^2=(2+\\sqrt3)a^2$.由余弦定理，\r\n$\\displaystyle \\cos B=\\frac{a^2+c^2-b^2}{2ac}\r\n=\\frac{(1+\\sqrt3)a^2}{2a^2\\sqrt{2+\\sqrt3}}\r\n=\\frac{\\sqrt2}{2}$，其中用了 $(1+\\sqrt3)^2=2(2+\\sqrt3)$.因 $B$ 是三角形内角且余弦为正，故 $B=45^\\circ$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\displaystyle \\frac{b}{a}=\\frac{\\sin B}{\\sin A}$.将题设等式两边同除以 $a$，并代入上式，得</p><p>$\\displaystyle \\sin A\\sin B+\\frac{\\sin B}{\\sin A}\\cos^{2}A  =\\frac{\\sin B}{\\sin A}(\\sin^{2}A+\\cos^{2}A)  =\\frac{\\sin B}{\\sin A}=\\sqrt{2}$.所以 $\\displaystyle \\frac{b}{a}=\\sqrt{2}$.</p></li><li><p>由上一问 $b^{2}=2a^{2}$，故题设给出</p><p>$\\displaystyle c^{2}=(2+\\sqrt{3})a^{2}$.由余弦定理，</p><p>$\\displaystyle \\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2ac}=\\frac{(1+\\sqrt{3})a^{2}}{2a^{2}\\sqrt{2+\\sqrt{3}}}=\\frac{\\sqrt{2}}{2}$，其中用了 $(1+\\sqrt{3})^{2}=2(2+\\sqrt{3})$.因 $B$ 是三角形内角且余弦为正，故 $B=45^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，四边形 $ABCD$ 为正方形，$QA \\perp$ 平面 $ABCD$，$PD \\parallel QA$，$QA = AB = \\frac{1}{2}PD$.\r\n\n(1) 证明：$PQ \\perp$ 平面 $DCQ$；\n\n(2) 求棱锥 $Q-ABCD$ 的体积与棱锥 $P-DCQ$ 的体积比值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/liaoning_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，四边形 $ABCD$ 为正方形，$QA \\perp$ 平面 $ABCD$，$PD \\parallel QA$，$QA = AB = \\frac{1}{2}PD$.</p><ol class=\"enumerate\"><li><p>证明：$PQ \\perp$ 平面 $DCQ$；</p></li><li><p>求棱锥 $Q-ABCD$ 的体积与棱锥 $P-DCQ$ 的体积比值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 令 $a=AB=QA$，建立空间直角坐标系，取\r\n$\\displaystyle A=(0,0,0)$，$B=(a,0,0)$，$C=(a,a,0)$，$D=(0,a,0)$，$Q=(0,0,a)$.由 $PD\\parallel QA$、$PD=2a$ 及图示位置，可取 $P=(0,a,2a)$.于是\r\n$\\displaystyle \\overrightarrow{PQ}=(0,-a,-a)$，$\\overrightarrow{DC}=(a,0,0)$，$\\overrightarrow{DQ}=(0,-a,a)$.\r\n从而 $\\overrightarrow{PQ}\\cdot\\overrightarrow{DC}=0$，$\\overrightarrow{PQ}\\cdot\\overrightarrow{DQ}=0$.直线 $DC$，$DQ$ 相交于 $D$ 且在平面 $DCQ$ 内，所以 $PQ\\perp$ 平面 $DCQ$.\n\n(2) $\\displaystyle V_{Q-ABCD}=\\frac13a^2\\cdot a=\\frac{a^3}{3}$.又 $DC=a$，$DQ=\\sqrt2a$，所以\r\n$\\displaystyle S_{\\triangle DCQ}=\\frac12a\\cdot\\sqrt2a=\\frac{\\sqrt2}{2}a^2$，且 $PQ=\\sqrt2a$.因此\r\n$\\displaystyle V_{P-DCQ}=\\frac13\\cdot\\frac{\\sqrt2}{2}a^2\\cdot\\sqrt2a=\\frac{a^3}{3}$，所求体积比为 $1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>令 $a=AB=QA$，建立空间直角坐标系，取</p><p>$\\displaystyle A=(0,0,0)$，$B=(a,0,0)$，$C=(a,a,0)$，$D=(0,a,0)$，$Q=(0,0,a)$.由 $PD\\parallel QA$、$PD=2a$ 及图示位置，可取 $P=(0,a,2a)$.于是</p><p>$\\displaystyle \\overrightarrow{PQ}=(0,-a,-a)$，$\\overrightarrow{DC}=(a,0,0)$，$\\overrightarrow{DQ}=(0,-a,a)$.</p><p>从而 $\\overrightarrow{PQ}\\cdot\\overrightarrow{DC}=0$，$\\overrightarrow{PQ}\\cdot\\overrightarrow{DQ}=0$.直线 $DC$，$DQ$ 相交于 $D$ 且在平面 $DCQ$ 内，所以 $PQ\\perp$ 平面 $DCQ$.</p></li><li><p>$\\displaystyle V_{Q-ABCD}=\\frac{1}{3}a^{2}\\cdot a=\\frac{a^{3}}{3}$.又 $DC=a$，$DQ=\\sqrt{2}a$，所以</p><p>$\\displaystyle S_{\\triangle DCQ}=\\frac{1}{2}a\\cdot\\sqrt{2}a=\\frac{\\sqrt{2}}{2}a^{2}$，且 $PQ=\\sqrt{2}a$.因此</p><p>$\\displaystyle V_{P-DCQ}=\\frac{1}{3}\\cdot\\frac{\\sqrt{2}}{2}a^{2}\\cdot\\sqrt{2}a=\\frac{a^{3}}{3}$，所求体积比为 $1$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "某农场计划种植某种新作物，为此对这种作物的两个品种（分别称为品种甲和品种乙）进行田间试验，选取两大块地. 每大块地分成 $n$ 小块地. 在总共 $2n$ 小块地中，随机选 $n$ 小块地种植品种甲，另外 $n$ 小块地种植品种乙.\r\n\n(1) 假设 $n = 2$，求第一大块地都种植品种甲的概率；\n\n(2) 试验时每大块地分成 $8$ 小块，即 $n = 8$，试验结束后得到品种甲和品种乙在各小块地上的每公顷产量（单位：$\\mathrm{kg/hm^2}$）如下表：\r\n\\begin{center}\r\n\\begin{tabular}{c|cccccccc}\r\n\\hline\r\n品种甲 & $403$ & $397$ & $390$ & $404$ & $388$ & $400$ & $412$ & $406$ \\\\\r\n\\hline\r\n品种乙 & $419$ & $403$ & $412$ & $418$ & $408$ & $423$ & $400$ & $413$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n分别求品种甲和品种乙每公顷产量的样本平均数和样本方差；根据试验结果，你应该种植哪一品种？\n\r\n\r\n附：样本数据 $x_{1}$，$x_{2}$，$\\cdots$，$x_{n}$ 的样本方差 $s^{2} = \\frac{1}{n}[(x_{1} - \\overline{x})^{2} + (x_{2} - \\overline{x})^{2} + \\cdots + (x_{n} - \\overline{x})^{2}]$，其中 $\\overline{x}$ 为样本平均数.",
-          "choices": [],
+          "body": "<p>某农场计划种植某种新作物，为此对这种作物的两个品种（分别称为品种甲和品种乙）进行田间试验，选取两大块地. 每大块地分成 $n$ 小块地. 在总共 $2n$ 小块地中，随机选 $n$ 小块地种植品种甲，另外 $n$ 小块地种植品种乙.</p><ol class=\"enumerate\"><li><p>假设 $n = 2$，求第一大块地都种植品种甲的概率；</p></li><li><p>试验时每大块地分成 $8$ 小块，即 $n = 8$，试验结束后得到品种甲和品种乙在各小块地上的每公顷产量（单位：$\\mathrm{kg/hm^2}$）如下表：</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>品种甲 </td><td style=\"text-align: center\"> $403$ </td><td style=\"text-align: center\"> $397$ </td><td style=\"text-align: center\"> $390$ </td><td style=\"text-align: center\"> $404$ </td><td style=\"text-align: center\"> $388$ </td><td style=\"text-align: center\"> $400$ </td><td style=\"text-align: center\"> $412$ </td><td style=\"text-align: center\"> $406$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>品种乙 </td><td style=\"text-align: center\"> $419$ </td><td style=\"text-align: center\"> $403$ </td><td style=\"text-align: center\"> $412$ </td><td style=\"text-align: center\"> $418$ </td><td style=\"text-align: center\"> $408$ </td><td style=\"text-align: center\"> $423$ </td><td style=\"text-align: center\"> $400$ </td><td style=\"text-align: center\"> $413$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p><p>分别求品种甲和品种乙每公顷产量的样本平均数和样本方差；根据试验结果，你应该种植哪一品种？</p></li></ol><p>附：样本数据 $x_{1}$，$x_{2}$，$\\cdots$，$x_{n}$ 的样本方差 $s^{2}= \\frac{1}{n}[(x_{1}- \\overline{x})^{2}+ (x_{2}- \\overline{x})^{2}+ \\cdots + (x_{n}- \\overline{x})^{2}]$，其中 $\\overline{x}$ 为样本平均数.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $n=2$ 时，设第一大块地中的两个小块编号为 $1,2$，第二大块地中的两个小块编号为 $3,4$.从四个小块中任选两个种植品种甲，共有 $\\mathrm C_4^2=6$ 种等可能结果；第一大块地都种植品种甲只有选取 $\\{1,2\\}$ 这一种结果，所以所求概率为 $\\displaystyle \\frac{1}{\\mathrm C_4^2}=\\frac16$.\n\n(2) 品种甲的样本平均数为\r\n$\\displaystyle \\overline{x}=\\frac{403+397+390+404+388+400+412+406}{8}=400$.\r\n其离均差平方和为\r\n$\\displaystyle 3^2+(-3)^2+(-10)^2+4^2+(-12)^2+0^2+12^2+6^2=458$，所以样本方差\r\n$\\displaystyle s_x^2=\\frac{458}{8}=57.25$.\r\n\r\n品种乙的样本平均数为\r\n$\\displaystyle \\overline{y}=\\frac{419+403+412+418+408+423+400+413}{8}=412$.\r\n其离均差平方和为\r\n$\\displaystyle 7^2+(-9)^2+0^2+6^2+(-4)^2+11^2+(-12)^2+1^2=448$，所以样本方差\r\n$\\displaystyle s_y^2=\\frac{448}{8}=56$.\r\n品种乙的样本平均数 $412>400$，且 $s_y^2<s_x^2$，说明其平均产量更高、波动更小，故应选择品种乙.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，设第一大块地中的两个小块编号为 $1,2$，第二大块地中的两个小块编号为 $3,4$.从四个小块中任选两个种植品种甲，共有 $\\mathrm{C}_{4}^{2}=6$ 种等可能结果；第一大块地都种植品种甲只有选取 $\\{1,2\\}$ 这一种结果，所以所求概率为 $\\displaystyle \\frac{1}{\\mathrm{C}_{4}^{2}}=\\frac{1}{6}$.</p></li><li><p>品种甲的样本平均数为</p><p>$\\displaystyle \\overline{x}=\\frac{403+397+390+404+388+400+412+406}{8}=400$.</p><p>其离均差平方和为</p><p>$\\displaystyle 3^{2}+(-3)^{2}+(-10)^{2}+4^{2}+(-12)^{2}+0^{2}+12^{2}+6^{2}=458$，所以样本方差</p><p>$\\displaystyle s_{x}^{2}=\\frac{458}{8}=57.25$.</p><p>品种乙的样本平均数为</p><p>$\\displaystyle \\overline{y}=\\frac{419+403+412+418+408+423+400+413}{8}=412$.</p><p>其离均差平方和为</p><p>$\\displaystyle 7^{2}+(-9)^{2}+0^{2}+6^{2}+(-4)^{2}+11^{2}+(-12)^{2}+1^{2}=448$，所以样本方差</p><p>$\\displaystyle s_{y}^{2}=\\frac{448}{8}=56$.</p><p>品种乙的样本平均数 $412>400$，且 $s_{y}^{2}&#x3C;s_{x}^{2}$，说明其平均产量更高、波动更小，故应选择品种乙.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设函数 $f(x) = x + ax^{2} + b \\ln x$，曲线 $y = f(x)$ 过 $P(1,0)$，且在 $P$ 点处的切线斜率为 $2$.\r\n\n(1) 求 $a$，$b$ 的值；\n\n(2) 证明：$f(x) \\le 2x - 2$.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = x + ax^{2}+ b \\ln x$，曲线 $y = f(x)$ 过 $P(1,0)$，且在 $P$ 点处的切线斜率为 $2$.</p><ol class=\"enumerate\"><li><p>求 $a$，$b$ 的值；</p></li><li><p>证明：$f(x) \\le 2x - 2$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $f(1)=0$，得 $1+a=0$，所以 $a=-1$.又\r\n$\\displaystyle f'(x)=1+2ax+\\frac{b}{x}$，由 $f'(1)=2$ 得 $1+2a+b=2$，所以 $b=3$.\n\n(2) 此时 $f(x)=x-x^2+3\\ln x$，定义域为 $x>0$.令\r\n$\\displaystyle h(x)=2x-2-f(x)=x^2+x-2-3\\ln x$，则\r\n$\\displaystyle h'(x)=2x+1-\\frac3x=\\frac{(2x+3)(x-1)}x$.\r\n当 $0<x<1$ 时 $h'(x)<0$，当 $x>1$ 时 $h'(x)>0$，所以 $h$ 在 $x=1$ 处取得最小值.又 $h(1)=0$，故 $h(x)\\geq0$，即 $f(x)\\leq2x-2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(1)=0$，得 $1+a=0$，所以 $a=-1$.又</p><p>$\\displaystyle f'(x)=1+2ax+\\frac{b}{x}$，由 $f'(1)=2$ 得 $1+2a+b=2$，所以 $b=3$.</p></li><li><p>此时 $f(x)=x-x^{2}+3\\ln x$，定义域为 $x>0$.令</p><p>$\\displaystyle h(x)=2x-2-f(x)=x^{2}+x-2-3\\ln x$，则</p><p>$\\displaystyle h'(x)=2x+1-\\frac{3}{x}=\\frac{(2x+3)(x-1)}{x}$.</p><p>当 $0&#x3C;x&#x3C;1$ 时 $h'(x)&#x3C;0$，当 $x>1$ 时 $h'(x)>0$，所以 $h$ 在 $x=1$ 处取得最小值.又 $h(1)=0$，故 $h(x)\\geq0$，即 $f(x)\\leq2x-2$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "如图，已知椭圆 $C_{1}$ 的中心在原点 $O$，长轴左，右端点 $M$，$N$ 在 $x$ 轴上，椭圆 $C_{2}$ 的短轴为 $MN$，且 $C_{1}$，$C_{2}$ 的离心率都为 $e$. 直线 $l \\perp MN$，$l$ 与 $C_{1}$ 交于两点，与 $C_{2}$ 交于两点，这四点按纵坐标从大到小依次为 $A$，$B$，$C$，$D$.\r\n\n(1) 设 $e = \\frac{1}{2}$，求 $|BC|$ 与 $|AD|$ 的比值；\n\n(2) 当 $e$ 变化时，是否存在直线 $l$，使得 $BO \\parallel AN$，并说明理由.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/liaoning_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，已知椭圆 $C_{1}$ 的中心在原点 $O$，长轴左，右端点 $M$，$N$ 在 $x$ 轴上，椭圆 $C_{2}$ 的短轴为 $MN$，且 $C_{1}$，$C_{2}$ 的离心率都为 $e$. 直线 $l \\perp MN$，$l$ 与 $C_{1}$ 交于两点，与 $C_{2}$ 交于两点，这四点按纵坐标从大到小依次为 $A$，$B$，$C$，$D$.</p><ol class=\"enumerate\"><li><p>设 $e = \\frac{1}{2}$，求 $|BC|$ 与 $|AD|$ 的比值；</p></li><li><p>当 $e$ 变化时，是否存在直线 $l$，使得 $BO \\parallel AN$，并说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $C_1$ 的长半轴、短半轴分别为 $a$，$b$，则\r\n$\\displaystyle e^2=1-\\frac{b^2}{a^2}$.因为 $MN$ 是 $C_2$ 的短轴，且两椭圆离心率相同，可设\r\n$\\displaystyle C_1:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1, \r\nC_2:\\frac{x^2}{a^2}+\\frac{b^2y^2}{a^4}=1$.\r\n设 $l:x=t$，其中 $|t|<a$，并令 $A$，$B$ 为上方两个交点，则\r\n$\\displaystyle y_A=\\frac ab\\sqrt{a^2-t^2}, \r\ny_B=\\frac ba\\sqrt{a^2-t^2}$.由关于 $x$ 轴的对称性，\r\n$\\displaystyle |AD|=2y_A$，$|BC|=2y_B$，故\r\n$\\displaystyle \\frac{|BC|}{|AD|}=\\frac{b^2}{a^2}=1-e^2=\\frac34$.\n\n(2) 设 $O=(0,0)$，$N=(a,0)$.当 $t=0$ 时，$BO$ 为竖直线而 $AN$ 不是竖直线，不满足平行；因此取 $t\\neq0$.由\r\n$\\displaystyle B=\\left(t,\\frac ba\\sqrt{a^2-t^2}\\right), \r\nA=\\left(t,\\frac ab\\sqrt{a^2-t^2}\\right)$，条件 $BO\\parallel AN$ 等价于斜率相等：\r\n$\\displaystyle \\frac{(\\frac{b}{a})\\sqrt{a^2-t^2}}{t}\r\n=\\frac{(\\frac{a}{b})\\sqrt{a^2-t^2}}{t-a}$.\r\n解得\r\n$\\displaystyle t=-\\frac{ab^2}{a^2-b^2}\r\n=-a\\frac{1-e^2}{e^2}$.要使直线与椭圆有两个交点，须 $|t|<a$，这等价于\r\n$\\displaystyle \\frac{1-e^2}{e^2}<1$，即 $e>\\frac{\\sqrt2}{2}$.结合 $0<e<1$，当 $0<e\\le\\frac{\\sqrt2}{2}$ 时不存在，当 $\\frac{\\sqrt2}{2}<e<1$ 时存在.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $C_{1}$ 的长半轴、短半轴分别为 $a$，$b$，则</p><p>$\\displaystyle e^{2}=1-\\frac{b^{2}}{a^{2}}$.因为 $MN$ 是 $C_{2}$ 的短轴，且两椭圆离心率相同，可设</p><p>$\\displaystyle C_{1}:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1,   C_{2}:\\frac{x^{2}}{a^{2}}+\\frac{b^{2}y^{2}}{a^{4}}=1$.</p><p>设 $l:x=t$，其中 $|t|&#x3C;a$，并令 $A$，$B$ 为上方两个交点，则</p><p>$\\displaystyle y_{A}=\\frac{a}{b}\\sqrt{a^{2}-t^{2}},   y_{B}=\\frac{b}{a}\\sqrt{a^{2}-t^{2}}$.由关于 $x$ 轴的对称性，</p><p>$\\displaystyle |AD|=2y_{A}$，$|BC|=2y_{B}$，故</p><p>$\\displaystyle \\frac{|BC|}{|AD|}=\\frac{b^{2}}{a^{2}}=1-e^{2}=\\frac{3}{4}$.</p></li><li><p>设 $O=(0,0)$，$N=(a,0)$.当 $t=0$ 时，$BO$ 为竖直线而 $AN$ 不是竖直线，不满足平行；因此取 $t\\neq0$.由</p><p>$\\displaystyle B=\\left(t,\\frac{b}{a}\\sqrt{a^{2}-t^{2}}\\right),   A=\\left(t,\\frac{a}{b}\\sqrt{a^{2}-t^{2}}\\right)$，条件 $BO\\parallel AN$ 等价于斜率相等：</p><p>$\\displaystyle \\frac{(\\frac{b}{a})\\sqrt{a^{2}-t^{2}}}{t}=\\frac{(\\frac{a}{b})\\sqrt{a^{2}-t^{2}}}{t-a}$.</p><p>解得</p><p>$\\displaystyle t=-\\frac{ab^{2}}{a^{2}-b^{2}}=-a\\frac{1-e^{2}}{e^{2}}$.要使直线与椭圆有两个交点，须 $|t|&#x3C;a$，这等价于</p><p>$\\displaystyle \\frac{1-e^{2}}{e^{2}}&#x3C;1$，即 $e>\\frac{\\sqrt{2}}{2}$.结合 $0&#x3C;e&#x3C;1$，当 $0&#x3C;e\\le\\frac{\\sqrt{2}}{2}$ 时不存在，当 $\\frac{\\sqrt{2}}{2}&#x3C;e&#x3C;1$ 时存在.</p></li></ol>"
         }
       ]
     },
@@ -420,33 +231,26 @@
       "problems": [
         {
           "num": 22,
-          "body": "如图，$A$，$B$，$C$，$D$ 四点在同一圆上，$AD$ 的延长线与 $BC$ 的延长线交于 $E$ 点，且 $EC = ED$.\r\n\n(1) 证明： $CD \\parallel AB$；\n\n(2) 延长 $CD$ 到 $F$，延长 $DC$ 到 $G$，使得 $EF = EG$，证明： $A$，$B$，$G$，$F$ 四点共圆.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/liaoning_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，$A$，$B$，$C$，$D$ 四点在同一圆上，$AD$ 的延长线与 $BC$ 的延长线交于 $E$ 点，且 $EC = ED$.</p><ol class=\"enumerate\"><li><p>证明： $CD \\parallel AB$；</p></li><li><p>延长 $CD$ 到 $F$，延长 $DC$ 到 $G$，使得 $EF = EG$，证明： $A$，$B$，$G$，$F$ 四点共圆.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $EC=ED$，所以 $\\angle EDC=\\angle ECD$.又 $A$，$D$，$E$ 共线、$B$，$C$，$E$ 共线，在圆 $ABCD$ 中，$\\angle ADC+\\angle ABC=180^\\circ$，而 $\\angle EDC$ 与 $\\angle ADC$ 互为补角，$\\angle EBA=\\angle ABC$，故 $\\angle EDC=\\angle EBA$.于是 $\\angle ECD=\\angle EBA$，结合 $E$，$C$，$B$ 共线可得 $CD\\parallel AB$.\n\n(2) 由 $CD\\parallel AB$，且 $A$，$D$，$E$ 共线、$B$，$C$，$E$ 共线，三角形 $EDC$ 与三角形 $EAB$ 相似.因 $ED=EC$，对应边相等，得 $EA=EB$.\r\n\r\n建立直角坐标系，使 $CD$ 为 $x$ 轴.由 $EC=ED$，可设\r\n$\\displaystyle E=(0,h)$，$D=(-c,0)$，$C=(c,0)$.由 $EA=EB$ 且 $AB\\parallel CD$，可设\r\n$\\displaystyle A=(-u,v)$，$B=(u,v)$.又 $F$，$D$，$C$，$G$ 共线且 $EF=EG$，可设\r\n$\\displaystyle F=(-w,0)$，$G=(w,0)$.\r\n令 $\\displaystyle \\mu=-w^2$，$\\lambda=\\frac{w^2-u^2-v^2}{v}$.则\r\n$\\displaystyle x^2+y^2+\\lambda y+\\mu=0$ 是一个圆的方程.对 $F$，$G$，左边分别为 $w^2+\\mu=0$；对 $A$，$B$，左边均为 $u^2+v^2+\\lambda v+\\mu=0$.因此 $A$，$B$，$F$，$G$ 都在此圆上，故四点共圆.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $EC=ED$，所以 $\\angle EDC=\\angle ECD$.又 $A$，$D$，$E$ 共线、$B$，$C$，$E$ 共线，在圆 $ABCD$ 中，$\\angle ADC+\\angle ABC=180^{\\circ}$，而 $\\angle EDC$ 与 $\\angle ADC$ 互为补角，$\\angle EBA=\\angle ABC$，故 $\\angle EDC=\\angle EBA$.于是 $\\angle ECD=\\angle EBA$，结合 $E$，$C$，$B$ 共线可得 $CD\\parallel AB$.</p></li><li><p>由 $CD\\parallel AB$，且 $A$，$D$，$E$ 共线、$B$，$C$，$E$ 共线，三角形 $EDC$ 与三角形 $EAB$ 相似.因 $ED=EC$，对应边相等，得 $EA=EB$.</p><p>建立直角坐标系，使 $CD$ 为 $x$ 轴.由 $EC=ED$，可设</p><p>$\\displaystyle E=(0,h)$，$D=(-c,0)$，$C=(c,0)$.由 $EA=EB$ 且 $AB\\parallel CD$，可设</p><p>$\\displaystyle A=(-u,v)$，$B=(u,v)$.又 $F$，$D$，$C$，$G$ 共线且 $EF=EG$，可设</p><p>$\\displaystyle F=(-w,0)$，$G=(w,0)$.</p><p>令 $\\displaystyle \\mu=-w^{2}$，$\\lambda=\\frac{w^{2}-u^{2}-v^{2}}{v}$.则</p><p>$\\displaystyle x^{2}+y^{2}+\\lambda y+\\mu=0$ 是一个圆的方程.对 $F$，$G$，左边分别为 $w^{2}+\\mu=0$；对 $A$，$B$，左边均为 $u^{2}+v^{2}+\\lambda v+\\mu=0$.因此 $A$，$B$，$F$，$G$ 都在此圆上，故四点共圆.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "在平面直角坐标系 $xOy$ 中，曲线 $C_{1}$ 的参数方程为 $\\begin{cases}\r\nx = \\cos \\varphi,\\\\\r\ny = \\sin \\varphi,\r\n\\end{cases}$（$\\varphi$ 为参数）. 曲线 $C_{2}$ 的参数方程为 $\\begin{cases}\r\nx = a\\cos \\varphi,\\\\\r\ny = b\\sin \\varphi,\r\n\\end{cases}$（$a > b > 0$，$\\varphi$ 为参数）. 在以 $O$ 为极点，$x$ 轴的正半轴为极轴的极坐标系中，射线 $l: \\theta = \\alpha$ 与 $C_{1}$，$C_{2}$ 各有一个交点. 当 $\\alpha = 0$ 时，这两个交点间的距离为 $2$，当 $\\alpha = \\frac{\\pi}{2}$ 时，这两个交点重合.\r\n\n(1) 分别说明 $C_{1}$，$C_{2}$ 是什么曲线，并求出 $a$ 与 $b$ 的值；\n\n(2) 设当 $\\alpha = \\frac{\\pi}{4}$ 时，$l$ 与 $C_{1}$，$C_{2}$ 的交点分别为 $A_{1}$，$B_{1}$，当 $\\alpha = -\\frac{\\pi}{4}$ 时，$l$ 与 $C_{1}$，$C_{2}$ 的交点分别为 $A_{2}$，$B_{2}$，求四边形 $A_{1}A_{2}B_{2}B_{1}$ 的面积.",
-          "choices": [],
+          "body": "<p>在平面直角坐标系 $xOy$ 中，曲线 $C_{1}$ 的参数方程为 $\\begin{cases}x = \\cos \\varphi,\\\\\n\ny = \\sin \\varphi,\\end{cases}$（$\\varphi$ 为参数）. 曲线 $C_{2}$ 的参数方程为 $\\begin{cases}x = a\\cos \\varphi,\\\\\n\ny = b\\sin \\varphi,\\end{cases}$（$a > b > 0$，$\\varphi$ 为参数）. 在以 $O$ 为极点，$x$ 轴的正半轴为极轴的极坐标系中，射线 $l: \\theta = \\alpha$ 与 $C_{1}$，$C_{2}$ 各有一个交点. 当 $\\alpha = 0$ 时，这两个交点间的距离为 $2$，当 $\\alpha = \\frac{\\pi}{2}$ 时，这两个交点重合.</p><ol class=\"enumerate\"><li><p>分别说明 $C_{1}$，$C_{2}$ 是什么曲线，并求出 $a$ 与 $b$ 的值；</p></li><li><p>设当 $\\alpha = \\frac{\\pi}{4}$ 时，$l$ 与 $C_{1}$，$C_{2}$ 的交点分别为 $A_{1}$，$B_{1}$，当 $\\alpha = -\\frac{\\pi}{4}$ 时，$l$ 与 $C_{1}$，$C_{2}$ 的交点分别为 $A_{2}$，$B_{2}$，求四边形 $A_{1}A_{2}B_{2}B_{1}$ 的面积.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $C_1$ 满足 $x^2+y^2=1$，所以是以 $O$ 为圆心、半径 $1$ 的圆；$C_2$ 满足\r\n$\\displaystyle \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，所以是椭圆.射线 $\\theta=0$ 与两曲线的交点为 $(1,0)$、$(a,0)$，距离为 $2$，故 $a=3$.射线 $\\theta=\\tfrac{\\pi}{2}$ 与两曲线的交点为 $(0,1)$、$(0,b)$，两点重合，故 $b=1$.\n\n(2) 此时 $C_1:x^2+y^2=1$，$C_2:\\tfrac{x^2}{9}+y^2=1$.当 $\\alpha=\\tfrac{\\pi}{4}$ 时，令两交点的横坐标分别为 $r$，$s$，则\r\n$\\displaystyle r=\\frac{\\sqrt2}{2}$，$\\frac{s^2}{9}+s^2=1$，所以 $\\displaystyle s=\\frac{3}{\\sqrt{10}}$.当 $\\alpha=-\\tfrac{\\pi}{4}$ 时，交点分别是关于 $x$ 轴的对称点，四边形 $A_1A_2B_2B_1$ 是两条竖直边长分别为 $2r$，$2s$、间距为 $s-r$ 的梯形.因此面积为\r\n$\\displaystyle \\frac{2r+2s}{2}(s-r)=s^2-r^2=\\frac9{10}-\\frac12=\\frac25$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$C_{1}$ 满足 $x^{2}+y^{2}=1$，所以是以 $O$ 为圆心、半径 $1$ 的圆；$C_{2}$ 满足</p><p>$\\displaystyle \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，所以是椭圆.射线 $\\theta=0$ 与两曲线的交点为 $(1,0)$、$(a,0)$，距离为 $2$，故 $a=3$.射线 $\\theta=\\tfrac{\\pi}{2}$ 与两曲线的交点为 $(0,1)$、$(0,b)$，两点重合，故 $b=1$.</p></li><li><p>此时 $C_{1}:x^{2}+y^{2}=1$，$C_{2}:\\tfrac{x^2}{9}+y^{2}=1$.当 $\\alpha=\\tfrac{\\pi}{4}$ 时，令两交点的横坐标分别为 $r$，$s$，则</p><p>$\\displaystyle r=\\frac{\\sqrt{2}}{2}$，$\\frac{s^{2}}{9}+s^{2}=1$，所以 $\\displaystyle s=\\frac{3}{\\sqrt{10}}$.当 $\\alpha=-\\tfrac{\\pi}{4}$ 时，交点分别是关于 $x$ 轴的对称点，四边形 $A_{1}A_{2}B_{2}B_{1}$ 是两条竖直边长分别为 $2r$，$2s$、间距为 $s-r$ 的梯形.因此面积为</p><p>$\\displaystyle \\frac{2r+2s}{2}(s-r)=s^{2}-r^{2}=\\frac{9}{10}-\\frac{1}{2}=\\frac{2}{5}$.</p></li></ol>"
         },
         {
           "num": 24,
-          "body": "已知函数 $f(x) = |x - 2| - |x - 5|$.\r\n\n(1) 证明： $-3 \\le f(x) \\le 3$；\n\n(2) 求不等式 $f(x) \\ge x^{2} - 8x + 15$ 的解集.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = |x - 2| - |x - 5|$.</p><ol class=\"enumerate\"><li><p>证明： $-3 \\le f(x) \\le 3$；</p></li><li><p>求不等式 $f(x) \\ge x^{2}- 8x + 15$ 的解集.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由三角不等式\r\n$\\displaystyle |x-2|\\leq|x-5|+3$，得 $f(x)\\leq3$；由\r\n$\\displaystyle |x-5|\\leq|x-2|+3$，得 $f(x)\\geq-3$.所以 $-3\\leq f(x)\\leq3$.\n\n(2) 按 $x=2$，$5$ 分段：\r\n$\\displaystyle f(x)=\\begin{cases}\r\n-3,&x\\leq2,\\\\\r\n2x-7,&2<x<5,\\\\\r\n3,&x\\geq5.\r\n\\end{cases}$\r\n当 $x\\leq2$ 时，不等式化为 $x^2-8x+18\\leq0$，判别式为 $-8<0$，无解.\r\n当 $2<x<5$ 时，不等式化为 $x^2-10x+22\\leq0$，故 $5-\\sqrt3\\leq x\\leq5+\\sqrt3$，与本区间交得 $[5-\\sqrt3,5)$.\r\n当 $x\\geq5$ 时，不等式化为 $x^2-8x+12\\leq0$，故 $2\\leq x\\leq6$，与本区间交得 $[5,6]$.合并得解集 $[5-\\sqrt3,6]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由三角不等式</p><p>$\\displaystyle |x-2|\\leq|x-5|+3$，得 $f(x)\\leq3$；由</p><p>$\\displaystyle |x-5|\\leq|x-2|+3$，得 $f(x)\\geq-3$.所以 $-3\\leq f(x)\\leq3$.</p></li><li><p>按 $x=2$，$5$ 分段：</p><p>$\\displaystyle f(x)=\\begin{cases}-3,&#x26;x\\leq2,\\\\  2x-7,&#x26;2&#x3C;x&#x3C;5,\\\\  3,&#x26;x\\geq5.\\end{cases}$</p><p>当 $x\\leq2$ 时，不等式化为 $x^{2}-8x+18\\leq0$，判别式为 $-8&#x3C;0$，无解.</p><p>当 $2&#x3C;x&#x3C;5$ 时，不等式化为 $x^{2}-10x+22\\leq0$，故 $5-\\sqrt{3}\\leq x\\leq5+\\sqrt{3}$，与本区间交得 $[5-\\sqrt{3},5)$.</p><p>当 $x\\geq5$ 时，不等式化为 $x^{2}-8x+12\\leq0$，故 $2\\leq x\\leq6$，与本区间交得 $[5,6]$.合并得解集 $[5-\\sqrt{3},6]$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

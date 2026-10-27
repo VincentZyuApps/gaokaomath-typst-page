@@ -1,59 +1,8 @@
 {
+  "title": "1958年普通高等学校招生全国统一考试",
+  "subtitle": "1958年湖南卷",
   "year": "1958",
   "slug": "hunan",
-  "title": "1958年湖南卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
@@ -61,77 +10,60 @@
         {
           "num": 1,
           "body": "不用除法证明 $\\left(2+x\\right)^{2n-1}+x^{2n-1}+x+1$ 能被 $x+1$ 整除（$n$ 为正整数）.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "令 $f(x)=\\left(2+x\\right)^{2n-1}+x^{2n-1}+x+1$. 因为 $n$ 为正整数，所以 $2n-1$ 是奇数. 代入 $x=-1$，得\r\n\n$$\nf(-1)=\\left(2-1\\right)^{2n-1}+\\left(-1\\right)^{2n-1}-1+1=1-1-1+1=0\n$$\n\r\n根据因式定理，多项式 $f(x)$ 在 $x=-1$ 时的值为零，等价于一次式 $x-(-1)=x+1$ 是 $f(x)$ 的因式. 因此原式能被 $x+1$ 整除，且上述证明没有使用多项式除法.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>令 $f(x)=\\left(2+x\\right)^{2n-1}+x^{2n-1}+x+1$. 因为 $n$ 为正整数，所以 $2n-1$ 是奇数. 代入 $x=-1$，得</p>\n$$\nf(-1)=\\left(2-1\\right)^{2n-1}+\\left(-1\\right)^{2n-1}-1+1=1-1-1+1=0\n$$\n<p>根据因式定理，多项式 $f(x)$ 在 $x=-1$ 时的值为零，等价于一次式 $x-(-1)=x+1$ 是 $f(x)$ 的因式. 因此原式能被 $x+1$ 整除，且上述证明没有使用多项式除法.</p>"
         },
         {
           "num": 2,
           "body": "不解方程 $6x^{2}-x-2=0$，求作一个二次方程，使它的根是原方程的根的倒数.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设原方程的两个根为 $x_{1}$，$x_{2}$. 由根与系数的关系，\r\n$x_{1}+x_{2}=\\frac{1}{6}$，$x_{1}x_{2}=-\\frac{1}{3}$.\r\n因为 $x_{1}x_{2}\\ne0$，所以两个根均不为零. 令它们的倒数分别为 $y_{1}=\\frac{1}{x_{1}}$，$y_{2}=\\frac{1}{x_{2}}$，则\r\n$y_{1}+y_{2}=\\frac{x_{1}+x_{2}}{x_{1}x_{2}}=\\frac{\\frac{1}{6}}{-\\frac{1}{3}}=-\\frac{1}{2}$，$y_{1}y_{2}=\\frac{1}{x_{1}x_{2}}=\\frac{1}{-\\frac{1}{3}}=-3$.\r\n以 $y_{1}$，$y_{2}$ 为根的二次方程应为\r\n\n$$\ny^{2}-\\left(y_{1}+y_{2}\\right)y+y_{1}y_{2}=0\n$$\n\r\n代入上面求出的和与积，得\r\n\n$$\ny^{2}+\\frac{1}{2}y-3=0\n$$\n\r\n将方程两边同乘以 $2$，再把未知数改记为 $x$，得到所求方程\r\n\n$$\n2x^{2}+x-6=0\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设原方程的两个根为 $x_{1}$，$x_{2}$. 由根与系数的关系，</p><p>$x_{1}+x_{2}=\\frac{1}{6}$，$x_{1}x_{2}=-\\frac{1}{3}$.</p><p>因为 $x_{1}x_{2}\\ne0$，所以两个根均不为零. 令它们的倒数分别为 $y_{1}=\\frac{1}{x_{1}}$，$y_{2}=\\frac{1}{x_{2}}$，则</p><p>$y_{1}+y_{2}=\\frac{x_{1}+x_{2}}{x_{1}x_{2}}=\\frac{\\frac{1}{6}}{-\\frac{1}{3}}=-\\frac{1}{2}$，$y_{1}y_{2}=\\frac{1}{x_{1}x_{2}}=\\frac{1}{-\\frac{1}{3}}=-3$.</p><p>以 $y_{1}$，$y_{2}$ 为根的二次方程应为</p>\n$$\ny^{2}-\\left(y_{1}+y_{2}\\right)y+y_{1}y_{2}=0\n$$\n<p>代入上面求出的和与积，得</p>\n$$\ny^{2}+\\frac{1}{2}y-3=0\n$$\n<p>将方程两边同乘以 $2$，再把未知数改记为 $x$，得到所求方程</p>\n$$\n2x^{2}+x-6=0\n$$"
         },
         {
           "num": 3,
           "body": "求证 $\\sin75^{\\circ}=\\frac{1}{4}\\left(\\sqrt{6}+\\sqrt{2}\\right)$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "由正弦的和角公式，\r\n\n$$\n\\sin75^{\\circ}=\\sin\\left(45^{\\circ}+30^{\\circ}\\right)=\\sin45^{\\circ}\\cos30^{\\circ}+\\cos45^{\\circ}\\sin30^{\\circ}\n$$\n\r\n又因为 $\\sin45^{\\circ}=\\cos45^{\\circ}=\\frac{\\sqrt{2}}{2}$，$\\cos30^{\\circ}=\\frac{\\sqrt{3}}{2}$，$\\sin30^{\\circ}=\\frac{1}{2}$，所以\r\n\n$$\n\\sin75^{\\circ}=\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}=\\frac{\\sqrt{6}}{4}+\\frac{\\sqrt{2}}{4}=\\frac{1}{4}\\left(\\sqrt{6}+\\sqrt{2}\\right)\n$$\n\r\n故等式成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由正弦的和角公式，</p>\n$$\n\\sin75^{\\circ}=\\sin\\left(45^{\\circ}+30^{\\circ}\\right)=\\sin45^{\\circ}\\cos30^{\\circ}+\\cos45^{\\circ}\\sin30^{\\circ}\n$$\n<p>又因为 $\\sin45^{\\circ}=\\cos45^{\\circ}=\\frac{\\sqrt{2}}{2}$，$\\cos30^{\\circ}=\\frac{\\sqrt{3}}{2}$，$\\sin30^{\\circ}=\\frac{1}{2}$，所以</p>\n$$\n\\sin75^{\\circ}=\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}=\\frac{\\sqrt{6}}{4}+\\frac{\\sqrt{2}}{4}=\\frac{1}{4}\\left(\\sqrt{6}+\\sqrt{2}\\right)\n$$\n<p>故等式成立.</p>"
         },
         {
           "num": 4,
           "body": "证明：设三角形的三个角成等差数列，最大角与最小角相差 $30^{\\circ}$，则其三边之比顺次等于 $2\\sqrt{2}$，$2\\sqrt{3}$，$\\sqrt{6}+\\sqrt{2}$ 之比.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "将三角形的三个角按从小到大记为 $A$，$B$，$C$. 因为三个角成等差数列，所以 $A+C=2B$. 又因为 $A+B+C=180^{\\circ}$，所以 $3B=180^{\\circ}$，即 $B=60^{\\circ}$. 由最大角与最小角相差 $30^{\\circ}$，得 $C-A=30^{\\circ}$. 因而\r\n$A+C=180^{\\circ}-B=120^{\\circ}$，$C-A=30^{\\circ}$.\r\n两式相加、相减，得到 $C=75^{\\circ}$，$A=45^{\\circ}$.\r\n\r\n设 $a$，$b$，$c$ 分别为角 $A$，$B$，$C$ 所对的边. 由正弦定理，\r\n\n$$\na:b:c=\\sin45^{\\circ}:\\sin60^{\\circ}:\\sin75^{\\circ}\n$$\n\r\n其中 $\\sin45^{\\circ}=\\frac{\\sqrt{2}}{2}$，$\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}$，并且由和角公式\r\n\n$$\n\\sin75^{\\circ}=\\sin\\left(45^{\\circ}+30^{\\circ}\\right)=\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\n$$\n\r\n所以\r\n\n$$\na:b:c=\\frac{\\sqrt{2}}{2}:\\frac{\\sqrt{3}}{2}:\\frac{\\sqrt{6}+\\sqrt{2}}{4}=2\\sqrt{2}:2\\sqrt{3}:\\left(\\sqrt{6}+\\sqrt{2}\\right)\n$$\n\r\n这正是题目所要求的三边之比.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hunan/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>将三角形的三个角按从小到大记为 $A$，$B$，$C$. 因为三个角成等差数列，所以 $A+C=2B$. 又因为 $A+B+C=180^{\\circ}$，所以 $3B=180^{\\circ}$，即 $B=60^{\\circ}$. 由最大角与最小角相差 $30^{\\circ}$，得 $C-A=30^{\\circ}$. 因而</p><p>$A+C=180^{\\circ}-B=120^{\\circ}$，$C-A=30^{\\circ}$.</p><p>两式相加、相减，得到 $C=75^{\\circ}$，$A=45^{\\circ}$.</p><p>设 $a$，$b$，$c$ 分别为角 $A$，$B$，$C$ 所对的边. 由正弦定理，</p>\n$$\na:b:c=\\sin45^{\\circ}:\\sin60^{\\circ}:\\sin75^{\\circ}\n$$\n<p>其中 $\\sin45^{\\circ}=\\frac{\\sqrt{2}}{2}$，$\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}$，并且由和角公式</p>\n$$\n\\sin75^{\\circ}=\\sin\\left(45^{\\circ}+30^{\\circ}\\right)=\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{3}}{2}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{1}{2}=\\frac{\\sqrt{6}+\\sqrt{2}}{4}\n$$\n<p>所以</p>\n$$\na:b:c=\\frac{\\sqrt{2}}{2}:\\frac{\\sqrt{3}}{2}:\\frac{\\sqrt{6}+\\sqrt{2}}{4}=2\\sqrt{2}:2\\sqrt{3}:\\left(\\sqrt{6}+\\sqrt{2}\\right)\n$$\n<p>这正是题目所要求的三边之比.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 5,
           "body": "一矩形内接于圆，它的面积是 $48\\mathrm{~cm}^{2}$，圆半径是 $5\\mathrm{~cm}$，求矩形的两邻边.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hunan/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设矩形的两邻边为 $AB=x$，$BC=y$，其中 $x>0$，$y>0$. 矩形的两条对角线相等且互相平分，所以外接圆的圆心是两条对角线的交点，$AC$ 是圆的直径. 因此\r\n\n$$\nAC=2\\times5\\mathrm{~cm}=10\\mathrm{~cm}\n$$\n\r\n由矩形面积和勾股定理，分别得到\r\n$xy=48$，$x^{2}+y^{2}=AC^{2}=100$.\r\n于是\r\n\n$$\n(x+y)^{2}=x^{2}+2xy+y^{2}=100+2\\times48=196\n$$\n\r\n因为 $x>0$，$y>0$，所以 $x+y>0$，从而 $x+y=14$. 因此 $x$，$y$ 是方程\r\n\n$$\nt^{2}-14t+48=0\n$$\n\r\n的两个根. 因式分解得\r\n\n$$\n(t-6)(t-8)=0\n$$\n\r\n故 $\\{x,y\\}=\\{6,8\\}$. 所以矩形的两邻边为 $6\\mathrm{~cm}$ 和 $8\\mathrm{~cm}$，顺序可以互换.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设矩形的两邻边为 $AB=x$，$BC=y$，其中 $x>0$，$y>0$. 矩形的两条对角线相等且互相平分，所以外接圆的圆心是两条对角线的交点，$AC$ 是圆的直径. 因此</p>\n$$\nAC=2\\times5\\mathrm{~cm}=10\\mathrm{~cm}\n$$\n<p>由矩形面积和勾股定理，分别得到</p><p>$xy=48$，$x^{2}+y^{2}=AC^{2}=100$.</p><p>于是</p>\n$$\n(x+y)^{2}=x^{2}+2xy+y^{2}=100+2\\times48=196\n$$\n<p>因为 $x>0$，$y>0$，所以 $x+y>0$，从而 $x+y=14$. 因此 $x$，$y$ 是方程</p>\n$$\nt^{2}-14t+48=0\n$$\n<p>的两个根. 因式分解得</p>\n$$\n(t-6)(t-8)=0\n$$\n<p>故 $\\{x,y\\}=\\{6,8\\}$. 所以矩形的两邻边为 $6\\mathrm{~cm}$ 和 $8\\mathrm{~cm}$，顺序可以互换.</p>"
         },
         {
           "num": 6,
           "body": "设 $AD$，$BE$ 是由圆 $O$ 的直径 $AB$ 两端点所引的切线，$DE$ 是过圆上任意一点 $F$ 的切线，此切线与 $AD$，$BE$ 交于 $D$ 及 $E$，求证：$AB\\cdot BE=OF^{2}$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hunan/q6_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n先核对题面中的等式. 原件的题干印作 $AB\\cdot BE=OF^{2}$，但同页原解答的末行印作 $AD\\cdot BE=OF^{2}$. 前一个等式按题面构型并不恒成立：取 $F$ 为与直径 $AB$ 垂直的直径端点，记 $OF=r$. 建立直角坐标系，使 $O$ 为原点，$OF$ 为负的横轴方向，则可取\r\n$A=(0,r)$，$B=(0,-r)$，$F=(-r,0)$.\r\n三点处的切线分别为 $y=r$，$y=-r$，$x=-r$，所以 $D=(-r,r)$，$E=(-r,-r)$. 从而 $AD=BE=OF=r$，而 $AB=2r$，所以\r\n\n$$\nAB\\cdot BE=2r^{2}\\ne r^{2}=OF^{2}\n$$\n\r\n因此原题的题干与原解答存在客观冲突，不能把题干中的 $AB\\cdot BE=OF^{2}$ 当作恒成立命题. 下面完整证明原解答末行给出的正确关系 $AD\\cdot BE=OF^{2}$.\r\n\r\n半径垂直于切线，所以 $OA\\perp AD$，$OF\\perp DE$，$OB\\perp BE$. 从同一点向圆所作的两条切线长相等，故\r\n$DA=DF$，$EB=EF$.\r\n考虑直角三角形 $AOD$ 与 $FOD$. 它们有公共斜边 $OD$，且 $OA=OF$ 都是圆的半径，所以两三角形全等，从而 $OD$ 平分 $\\angle AOF$，即\r\n\n$$\n\\angle AOD=\\frac{1}{2}\\angle AOF\n$$\n\r\n同理，直角三角形 $BOE$ 与 $FOE$ 全等，故 $OE$ 平分 $\\angle BOF$，即\r\n\n$$\n\\angle BOE=\\frac{1}{2}\\angle BOF\n$$\n\r\n由于 $A$，$O$，$B$ 共线，$\\angle AOF+\\angle BOF=180^{\\circ}$. 因此\r\n\n$$\n\\angle BOE=90^{\\circ}-\\angle AOD\n$$\n\r\n又因为 $\\angle OBE=90^{\\circ}$，在直角三角形 $BOE$ 中有\r\n\n$$\n\\angle BEO=90^{\\circ}-\\angle BOE=\\angle AOD\n$$\n\r\n所以直角三角形 $AOD$ 与 $BOE$ 相似，对应关系为 $A\\leftrightarrow B$，$O\\leftrightarrow E$，$D\\leftrightarrow O$. 于是\r\n\n$$\n\\frac{AD}{BO}=\\frac{AO}{BE}\n$$\n\r\n从而\r\n\n$$\nAD\\cdot BE=AO\\cdot BO=OF^{2}\n$$\n\r\n故由题面所给的 $AB\\cdot BE=OF^{2}$ 不能得到证明；能够由该构型恒成立并由原解答证明的是 $AD\\cdot BE=OF^{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan/q6_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>先核对题面中的等式. 原件的题干印作 $AB\\cdot BE=OF^{2}$，但同页原解答的末行印作 $AD\\cdot BE=OF^{2}$. 前一个等式按题面构型并不恒成立：取 $F$ 为与直径 $AB$ 垂直的直径端点，记 $OF=r$. 建立直角坐标系，使 $O$ 为原点，$OF$ 为负的横轴方向，则可取</p><p>$A=(0,r)$，$B=(0,-r)$，$F=(-r,0)$.</p><p>三点处的切线分别为 $y=r$，$y=-r$，$x=-r$，所以 $D=(-r,r)$，$E=(-r,-r)$. 从而 $AD=BE=OF=r$，而 $AB=2r$，所以</p>\n$$\nAB\\cdot BE=2r^{2}\\ne r^{2}=OF^{2}\n$$\n<p>因此原题的题干与原解答存在客观冲突，不能把题干中的 $AB\\cdot BE=OF^{2}$ 当作恒成立命题. 下面完整证明原解答末行给出的正确关系 $AD\\cdot BE=OF^{2}$.</p><p>半径垂直于切线，所以 $OA\\perp AD$，$OF\\perp DE$，$OB\\perp BE$. 从同一点向圆所作的两条切线长相等，故</p><p>$DA=DF$，$EB=EF$.</p><p>考虑直角三角形 $AOD$ 与 $FOD$. 它们有公共斜边 $OD$，且 $OA=OF$ 都是圆的半径，所以两三角形全等，从而 $OD$ 平分 $\\angle AOF$，即</p>\n$$\n\\angle AOD=\\frac{1}{2}\\angle AOF\n$$\n<p>同理，直角三角形 $BOE$ 与 $FOE$ 全等，故 $OE$ 平分 $\\angle BOF$，即</p>\n$$\n\\angle BOE=\\frac{1}{2}\\angle BOF\n$$\n<p>由于 $A$，$O$，$B$ 共线，$\\angle AOF+\\angle BOF=180^{\\circ}$. 因此</p>\n$$\n\\angle BOE=90^{\\circ}-\\angle AOD\n$$\n<p>又因为 $\\angle OBE=90^{\\circ}$，在直角三角形 $BOE$ 中有</p>\n$$\n\\angle BEO=90^{\\circ}-\\angle BOE=\\angle AOD\n$$\n<p>所以直角三角形 $AOD$ 与 $BOE$ 相似，对应关系为 $A\\leftrightarrow B$，$O\\leftrightarrow E$，$D\\leftrightarrow O$. 于是</p>\n$$\n\\frac{AD}{BO}=\\frac{AO}{BE}\n$$\n<p>从而</p>\n$$\nAD\\cdot BE=AO\\cdot BO=OF^{2}\n$$\n<p>故由题面所给的 $AB\\cdot BE=OF^{2}$ 不能得到证明；能够由该构型恒成立并由原解答证明的是 $AD\\cdot BE=OF^{2}$.</p>"
         },
         {
           "num": 7,
           "body": "正六棱锥底面的边长是 $4\\mathrm{~cm}$，侧面与底面所成二面角等于 $45^{\\circ}$，求这棱锥体的体积.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hunan/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设正六棱锥为 $P\\text{-}ABCDEF$，底面中心为 $O$，高为 $PO$. 在底面内过 $O$ 作 $OM\\perp AB$，垂足为 $M$，并连接 $OA$，$OB$，$PM$. 因为 $PO\\perp$ 底面，且 $OM\\perp AB$，由三垂线定理得 $PM\\perp AB$. 所以 $\\angle PMO$ 是侧面与底面所成二面角的平面角，从而\r\n\n$$\n\\angle PMO=45^{\\circ}\n$$\n\r\n正六边形可分成六个全等的正三角形，因此\r\n$OA=OB=AB=4\\mathrm{~cm}$，$AM=MB=2\\mathrm{~cm}$.\r\n在直角三角形 $BOM$ 中，由勾股定理\r\n\n$$\nOM=\\sqrt{OB^{2}-MB^{2}}=\\sqrt{4^{2}-2^{2}}=2\\sqrt{3}\\mathrm{~cm}\n$$\n\r\n又因为 $PO\\perp$ 底面，所以 $PO\\perp OM$，三角形 $POM$ 在 $O$ 处为直角. 已知 $\\angle PMO=45^{\\circ}$，所以另一个锐角 $\\angle OPM=45^{\\circ}$，从而\r\n\n$$\nPO=OM=2\\sqrt{3}\\mathrm{~cm}\n$$\n\r\n底面正六边形的面积为六个三角形 $AOB$ 的面积之和，即\r\n\n$$\nS_{\\text{底}}=6\\times\\frac{1}{2}\\times AB\\times OM=6\\times\\frac{1}{2}\\times4\\times2\\sqrt{3}=24\\sqrt{3}\\mathrm{~cm}^{2}\n$$\n\r\n所以棱锥体积为\r\n\n$$\nV=\\frac{1}{3}S_{\\text{底}}\\cdot PO=\\frac{1}{3}\\times24\\sqrt{3}\\times2\\sqrt{3}=48\\mathrm{~cm}^{3}\n$$\n\r\n故棱锥体积为 $48\\mathrm{~cm}^{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设正六棱锥为 $P\\text{-}ABCDEF$，底面中心为 $O$，高为 $PO$. 在底面内过 $O$ 作 $OM\\perp AB$，垂足为 $M$，并连接 $OA$，$OB$，$PM$. 因为 $PO\\perp$ 底面，且 $OM\\perp AB$，由三垂线定理得 $PM\\perp AB$. 所以 $\\angle PMO$ 是侧面与底面所成二面角的平面角，从而</p>\n$$\n\\angle PMO=45^{\\circ}\n$$\n<p>正六边形可分成六个全等的正三角形，因此</p><p>$OA=OB=AB=4\\mathrm{~cm}$，$AM=MB=2\\mathrm{~cm}$.</p><p>在直角三角形 $BOM$ 中，由勾股定理</p>\n$$\nOM=\\sqrt{OB^{2}-MB^{2}}=\\sqrt{4^{2}-2^{2}}=2\\sqrt{3}\\mathrm{~cm}\n$$\n<p>又因为 $PO\\perp$ 底面，所以 $PO\\perp OM$，三角形 $POM$ 在 $O$ 处为直角. 已知 $\\angle PMO=45^{\\circ}$，所以另一个锐角 $\\angle OPM=45^{\\circ}$，从而</p>\n$$\nPO=OM=2\\sqrt{3}\\mathrm{~cm}\n$$\n<p>底面正六边形的面积为六个三角形 $AOB$ 的面积之和，即</p>\n$$\nS_{\\text{底}}=6\\times\\frac{1}{2}\\times AB\\times OM=6\\times\\frac{1}{2}\\times4\\times2\\sqrt{3}=24\\sqrt{3}\\mathrm{~cm}^{2}\n$$\n<p>所以棱锥体积为</p>\n$$\nV=\\frac{1}{3}S_{\\text{底}}\\cdot PO=\\frac{1}{3}\\times24\\sqrt{3}\\times2\\sqrt{3}=48\\mathrm{~cm}^{3}\n$$\n<p>故棱锥体积为 $48\\mathrm{~cm}^{3}$.</p>"
         },
         {
           "num": 8,
           "body": "证明二面角的平分面内任意一点到这二面角的两个面的距离相等.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hunan/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设二面角的两个面为平面 $M$，平面 $N$，棱为 $BC$，平分面为平面 $P$. 在平面 $P$ 内取任意一点 $A$，从 $A$ 向平面 $M$，平面 $N$ 分别作垂线，垂足为 $D$，$E$，于是\r\n$AD\\perp\\text{平面 }M$，$AE\\perp\\text{平面 }N$.\r\n在平面 $P$ 内过 $A$ 作 $AF\\perp BC$，其中 $F\\in BC$. 因为 $BC$ 同时在平面 $M$ 和平面 $N$ 内，所以 $AD\\perp BC$，$AE\\perp BC$. 过点 $A$ 且含有直线 $AD$ 和 $AE$ 的截面平面垂直于 $BC$，它与 $BC$ 的交点就是 $F$，故 $A$，$D$，$E$，$F$ 共面.\r\n\r\n在这个截面平面内，$DF$ 是平面 $M$ 的截线，$EF$ 是平面 $N$ 的截线，$AF$ 是平面 $P$ 的截线. 因为平面 $P$ 是原二面角的平分面，所以 $AF$ 平分截面内的角 $DFE$，从而\r\n\n$$\n\\angle DFA=\\angle AFE\n$$\n\r\n又因为 $AD\\perp$ 平面 $M$，$DF\\subset$ 平面 $M$，以及 $AE\\perp$ 平面 $N$，$EF\\subset$ 平面 $N$，所以\r\n\n$$\n\\angle ADF=\\angle AEF=90^{\\circ}\n$$\n\r\n因此直角三角形 $ADF$ 与 $AEF$ 有公共斜边 $AF$，且有一个锐角相等，故两三角形全等. 对应的直角边相等，即\r\n\n$$\nAD=AE\n$$\n\r\n而 $AD$，$AE$ 分别是点 $A$ 到两个面的距离，所以二面角的平分面内任意一点到二面角两个面的距离相等.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设二面角的两个面为平面 $M$，平面 $N$，棱为 $BC$，平分面为平面 $P$. 在平面 $P$ 内取任意一点 $A$，从 $A$ 向平面 $M$，平面 $N$ 分别作垂线，垂足为 $D$，$E$，于是</p><p>$AD\\perp\\text{平面 }M$，$AE\\perp\\text{平面 }N$.</p><p>在平面 $P$ 内过 $A$ 作 $AF\\perp BC$，其中 $F\\in BC$. 因为 $BC$ 同时在平面 $M$ 和平面 $N$ 内，所以 $AD\\perp BC$，$AE\\perp BC$. 过点 $A$ 且含有直线 $AD$ 和 $AE$ 的截面平面垂直于 $BC$，它与 $BC$ 的交点就是 $F$，故 $A$，$D$，$E$，$F$ 共面.</p><p>在这个截面平面内，$DF$ 是平面 $M$ 的截线，$EF$ 是平面 $N$ 的截线，$AF$ 是平面 $P$ 的截线. 因为平面 $P$ 是原二面角的平分面，所以 $AF$ 平分截面内的角 $DFE$，从而</p>\n$$\n\\angle DFA=\\angle AFE\n$$\n<p>又因为 $AD\\perp$ 平面 $M$，$DF\\subset$ 平面 $M$，以及 $AE\\perp$ 平面 $N$，$EF\\subset$ 平面 $N$，所以</p>\n$$\n\\angle ADF=\\angle AEF=90^{\\circ}\n$$\n<p>因此直角三角形 $ADF$ 与 $AEF$ 有公共斜边 $AF$，且有一个锐角相等，故两三角形全等. 对应的直角边相等，即</p>\n$$\nAD=AE\n$$\n<p>而 $AD$，$AE$ 分别是点 $A$ 到两个面的距离，所以二面角的平分面内任意一点到二面角两个面的距离相等.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

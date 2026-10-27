@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,462 +11,425 @@
 #part-header("单选题")
 
 #problem(1)[
-若集合 $A = \{x | -2 <= x <= 3 \}$，$B = \{x | x < -1" 或 "x > 4\}$，则集合 $A inter B$ 等于（ ）
-  #choices([$\{x | x <= 3 "\ 或\ "x > 4\}$], [$\{x | -1 < x <= 3 \}$], [$\{x | 3 <= x < 4\}$], [$\{x | -2 <= x < -1\}$], cols: 2)
+若集合 #mi(`A = \{x \mid -2 \le x \le 3\}`)，#mi(`B = \{x \mid x < -1\text{ \text{或} }x > 4\}`)，则集合 #mi(`A \cap B`) 等于（ ）
+  #choices([#mi(`\{x\mid x\le 3\text{\ \text{或}\ }x > 4\}`)], [#mi(`\{x\mid -1 < x\le 3\}`)], [#mi(`\{x\mid 3\le x < 4\}`)], [#mi(`\{x\mid -2\le x < -1\}`)], cols: 1)
 ]
 
 #answer([D.])
 
 #solution[
-由 $A$ 的定义，$x$ 必须满足 $-2 <= x <= 3$；由 $B$ 的定义，$x<-1$ 或 $x>4$. 在 $[-2,3]$ 内不可能有 $x>4$，所以
+由 #mi(`A`) 的定义，#mi(`x`) 必须满足 #mi(`-2\le x\leqslant3`)；由 #mi(`B`) 的定义，#mi(`x<-1`) 或 #mi(`x>4`). 在 #mi(`[-2,3]`) 内不可能有 #mi(`x>4`)，所以
 
-$ A inter B=\{x | -2 <= x <= 3 \} inter \{x | x<-1\}=\{x | -2 <= x<-1\} $
+
+#align(center)[#mitex(`
+A\cap B=\{x\mid -2\le x\leqslant3\}\cap\{x\mid x<-1\}=\{x\mid -2\le x<-1\}
+`)]
+
 
 因此选 D.
 ]
 
 #problem(2)[
-若 $a = log _3 pi < b = log _7 6$，$c = log _2 0.8$，则（ ）
-  #choices([$a > b > c$], [$b > a > c$], [$c > a > b$], [$b > c > a$], cols: 4)
+若 #mi(`a = \log_{3} \pi < b = \log_{7} 6`)，#mi(`c = \log_{2} 0.8`)，则（ ）
+  #choices([#mi(`a > b > c`)], [#mi(`b > a > c`)], [#mi(`c > a > b`)], [#mi(`b > c > a`)], cols: 2)
 ]
 
 #answer([A.])
 
 #solution[
-因为 $pi >3$，且对数函数 $log _3 x$ 在正数范围内递增，所以
-$a= log _3 pi > log _3 3=1$. 又因为 $0<6<7$，所以
-$0<b= log _7 6<1$. 最后 $0<0.8<1$，从而 $c= log _2 0.8<0$. 因此
-$a>b>c$，选 A.
+因为 #mi(`\pi>3`)，且对数函数 #mi(`\log_{3} x`) 在正数范围内递增，所以
+
+#mi(`a=\log_{3}\pi>\log_{3} 3=1`). 又因为 #mi(`0<6<7`)，所以
+
+#mi(`0<b=\log_{7} 6<1`). 最后 #mi(`0<0.8<1`)，从而 #mi(`c=\log_{2} 0.8<0`). 因此
+
+#mi(`a>b>c`)，选 A.
 ]
 
 #problem(3)[
-“双曲线的方程为 $(x^(2))/(9)-(y^(2))/(16)=1$ ”是“双曲线的准线方程为 $x= +- (9)/(5)$ ”的（ ）
+“双曲线的方程为 #mi(`\frac{x^{2}}{9}-\frac{y^{2}}{16}=1`) ”是“双曲线的准线方程为 #mi(`x=\pm\frac{9}{5}`) ”的（ ）
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #answer([A.])
 
 #solution[
-对双曲线 $(x^2)/(a^2)-(y^2)/(b^2)=1$，有
-$c^2=a^2+b^2$、$e=(c)/(a)$，其准线为 $x= +- (a)/(e)$. 对于题给双曲线，
-$a=3$，$b=4$，$c=5$，故 $e=(5)/(3)$，准线为
+对双曲线 #mi(`\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1`)，有
 
-$ x= +- (a)/(e)= +- (3)/((5)/(3))= +- (9)/(5) $
+#mi(`c^{2}=a^{2}+b^{2}`)、#mi(`e=\dfrac{c}{a}`)，其准线为 #mi(`x=\pm\dfrac{a}{e}`). 对于题给双曲线，
+
+#mi(`a=3`)，#mi(`b=4`)，#mi(`c=5`)，故 #mi(`e=\dfrac{5}{3}`)，准线为
+
+
+#align(center)[#mitex(`
+x=\pm\frac{a}{e}=\pm\frac{3}{\frac{5}{3}}=\pm\frac{9}{5}
+`)]
+
 
 所以前一个命题能推出后一个命题. 反过来，双曲线
 
-$ (x^2)/(36)-(y^2)/(364)=1 $
 
-其中 $c=sqrt(36+364)=20$，离心率为 $e=(20)/(6)$，其准线也是
-$x= +- (6)/((20)/(6))= +- (9)/(5)$，但它不是题给双曲线. 因此后一个命题不能推出前一个命题，选 A.
+#align(center)[#mitex(`
+\frac{x^{2}}{36}-\frac{y^{2}}{364}=1
+`)]
+
+
+其中 #mi(`c=\sqrt{36+364}=20`)，离心率为 #mi(`e=\frac{20}{6}`)，其准线也是
+
+#mi(`x=\pm\dfrac{6}{\frac{20}{6}}=\pm\dfrac{9}{5}`)，但它不是题给双曲线. 因此后一个命题不能推出前一个命题，选 A.
 ]
 
 #problem(4)[
-已知 $triangle A B C$ 中，$a = sqrt(2)$，$b = sqrt(3)$，$B = 60^( degree )$，那么角 $A$ 等于（ ）
-  #choices([$135^( degree )$], [$90^( degree )$], [$45^( degree )$], [$30^( degree )$], cols: 2)
+已知 #mi(`\triangle ABC`) 中，#mi(`a = \sqrt{2}`)，#mi(`b = \sqrt{3}`)，#mi(`B = 60^{\circ}`)，那么角 #mi(`A`) 等于（ ）
+  #choices([#mi(`135^{\circ}`)], [#mi(`90^{\circ}`)], [#mi(`45^{\circ}`)], [#mi(`30^{\circ}`)], cols: 2)
 ]
 
 #answer([C.])
 
 #solution[
 由正弦定理，
-$(a)/(sin A)=(b)/(sin B)$，$sin A=(a sin B)/(b)=(sqrt(2) dot (sqrt(3))/(2))/(sqrt(3))=(sqrt(2))/(2)$.
-所以 $A=45^( degree )$ 或 $135^( degree )$. 但三角形内角和要求
-$A+B<180^( degree )$，故 $A<120^( degree )$，排除 $135^( degree )$，得到
-$A=45^( degree )$，选 C.
+
+#mi(`\frac{a}{\sin A}=\frac{b}{\sin B}`)，#mi(`\sin A=\frac{a\sin B}{b}=\frac{\sqrt{2}\cdot\frac{\sqrt{3}}{2}}{\sqrt{3}}=\frac{\sqrt{2}}{2}`).
+
+所以 #mi(`A=45^{\circ}`) 或 #mi(`135^{\circ}`). 但三角形内角和要求
+
+#mi(`A+B<180^{\circ}`)，故 #mi(`A<120^{\circ}`)，排除 #mi(`135^{\circ}`)，得到
+
+#mi(`A=45^{\circ}`)，选 C.
 ]
 
 #problem(5)[
-函数 $f(x) = (x - 1)^2 + 1$（$x < 1$）的反函数为（ ）
-  #choices([$f^(-1)(x) = 1 + sqrt(x - 1)$（$x > 1$）], [$f^(-1)(x) = 1 - sqrt(x - 1)$（$x > 1$）], [$f^(-1)(x) = 1 + sqrt(x - 1)$（$x >= 1$）], [$f^(-1)(x) = 1 - sqrt(x - 1)$（$x >= 1$）], cols: 1)
+函数 #mi(`f(x) = (x - 1)^{2} + 1`)（#mi(`x < 1`)）的反函数为（ ）
+  #choices([#mi(`f^{-1}(x) = 1 + \sqrt{x - 1}`)（#mi(`x > 1`)）], [#mi(`f^{-1}(x) = 1 - \sqrt{x - 1}`)（#mi(`x > 1`)）], [#mi(`f^{-1}(x) = 1 + \sqrt{x - 1}`)（#mi(`x \ge 1`)）], [#mi(`f^{-1}(x) = 1 - \sqrt{x - 1}`)（#mi(`x \ge 1`)）], cols: 1)
 ]
 
 #answer([B.])
 
 #solution[
-令 $y=(x-1)^2+1$，则 $y-1=(x-1)^2$. 原函数的定义域为 $x<1$，因此只能取
-$x-1=-sqrt(y-1)$，从而
+令 #mi(`y=(x-1)^{2}+1`)，则 #mi(`y-1=(x-1)^{2}`). 原函数的定义域为 #mi(`x<1`)，因此只能取
 
-$ x=1-sqrt(y-1) $
+#mi(`x-1=-\sqrt{y-1}`)，从而
 
-当 $x<1$ 时，$y>1$，所以反函数为
-$f^(-1)(x)=1-sqrt(x-1)$（$x>1$），选 B.
+
+#align(center)[#mitex(`
+x=1-\sqrt{y-1}
+`)]
+
+
+当 #mi(`x<1`) 时，#mi(`y>1`)，所以反函数为
+
+#mi(`f^{-1}(x)=1-\sqrt{x-1}`)（#mi(`x>1`)），选 B.
 ]
 
 #problem(6)[
-若实数 $x$，$y$ 满足 $\b e g i n{c a s e s} x - y + 1 >= 0 ,\\ x + y >= 0 ,\\ x <= 0 , \e n d{c a s e s}$ 则 $z = x + 2 y$ 的最小值是（ ）
-  #choices([0], [$(1)/(2)$], [1], [2], cols: 4)
+若实数 #mi(`x`)，#mi(`y`) 满足 #mi(`\begin{cases}x - y + 1 \ge 0,\\
+
+x + y \ge 0,\\
+
+x \le 0,\end{cases}`) 则 #mi(`z = x + 2y`) 的最小值是（ ）
+  #choices([0], [#mi(`\frac{1}{2}`)], [1], [2], cols: 2)
 ]
 
 #answer([A.])
 
 #solution[
 由约束条件得
-$y <= x+1$，$y >= -x$，$x <= 0$.
-要使可行的 $y$ 存在，必须有 $-x <= x+1$，即 $x >= -(1)/(2)$. 因此
-$-(1)/(2) <= x <= 0$. 对固定的 $x$，由于 $z=x+2 y$ 随 $y$ 增大而增大，故取最小的 $y=-x$，得到
 
-$ z=x+2(-x)=-x $
+#mi(`y\le x+1`)，#mi(`y\ge-x`)，#mi(`x\leqslant0`).
 
-在 $[-(1)/(2),0]$ 上，$-x$ 的最小值在 $x=0$ 时取得，且为 $0$，选 A.
+要使可行的 #mi(`y`) 存在，必须有 #mi(`-x\le x+1`)，即 #mi(`x\ge-\frac{1}{2}`). 因此
+
+#mi(`-\frac{1}{2}\le x\leqslant0`). 对固定的 #mi(`x`)，由于 #mi(`z=x+2y`) 随 #mi(`y`) 增大而增大，故取最小的 #mi(`y=-x`)，得到
+
+
+#align(center)[#mitex(`
+z=x+2(-x)=-x
+`)]
+
+
+在 #mi(`[-\frac{1}{2},0]`) 上，#mi(`-x`) 的最小值在 #mi(`x=0`) 时取得，且为 #mi(`0`)，选 A.
 ]
 
 #problem(7)[
-已知等差数列 $\{a_(n)\}$ 中，$a_(2) = 6$，$a_(5) = 15$，若 $b_(n) = a_(2 n)$，则数列 $\{b_(n)\}$ 的前5项和等于（ ）
+已知等差数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{2}= 6`)，#mi(`a_{5}= 15`)，若 #mi(`b_{n}= a_{2n}`)，则数列 #mi(`\{b_{n}\}`) 的前5项和等于（ ）
   #choices([30], [45], [90], [186], cols: 4)
 ]
 
 #answer([C.])
 
 #solution[
-设等差数列的公差为 $d$，则
-$a_5-a_2=3 d=15-6=9$，$d=3$.
-于是 $a_2=6$，且
-$b_1$，$b_2$，$b_3$，$b_4$，$b_5=a_2$，$a_4$，$a_6$，$a_8$，$a_(10)=6$，$12$，$18$，$24$，$30$.
+设等差数列的公差为 #mi(`d`)，则
+
+#mi(`a_{5}-a_{2}=3d=15-6=9`)，#mi(`d=3`).
+
+于是 #mi(`a_{2}=6`)，且
+
+#mi(`b_{1}`)，#mi(`b_{2}`)，#mi(`b_{3}`)，#mi(`b_{4}`)，#mi(`b_{5}=a_{2}`)，#mi(`a_{4}`)，#mi(`a_{6}`)，#mi(`a_{8}`)，#mi(`a_{10}=6`)，#mi(`12`)，#mi(`18`)，#mi(`24`)，#mi(`30`).
+
 故前5项和为
 
-$ 6+12+18+24+30=90 $
+
+#align(center)[#mitex(`
+6+12+18+24+30=90
+`)]
+
 
 选 C.
 ]
 
 #problem(8)[
-如图，动点 $P$ 在正方体 $A B C D - A_(1)B_(1)C_(1)D_(1)$ 的对角线 $B D_(1)$ 上. 过点 $P$ 作垂直于平面 $B B_(1)D_(1)D$ 的直线，与正方体表面相交于 $M N$. 设 $B P = x$，$M N = y$，则函数 $y = f(x)$ 的图象大致是（ ）
+如图，动点 #mi(`P`) 在正方体 #mi(`ABCD - A_{1}B_{1}C_{1}D_{1}`) 的对角线 #mi(`BD_{1}`) 上. 过点 #mi(`P`) 作垂直于平面 #mi(`BB_{1}D_{1}D`) 的直线，与正方体表面相交于 #mi(`MN`). 设 #mi(`BP = x`)，#mi(`MN = y`)，则函数 #mi(`y = f(x)`) 的图象大致是（ ）
 
-
-#align(center)[#image("/papers/2008/img/beijing_liberal/q8_fig1.png", width: 42%)]
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/beijing_liberal/q8_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/beijing_liberal/q8_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/beijing_liberal/q8_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2008/img/beijing_liberal/q8_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+[max width=0.42\linewidth]img/2008/beijing_liberal/q8_fig1.png
+  #choices([[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optA.png], [[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optB.png], [[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optC.png], [[width=0.15\paperwidth]img/2008/beijing_liberal/q8_optD.png], cols: 1)
 ]
 
 #answer([B.])
 
 #solution[
-将正方体棱长取为 $1$，建立坐标系，令 $A=(0,0,0)$，$B=(1,0,0)$，$D=(0,1,0)$，$D_1=(0,1,1)$.
-设 $P$ 将线段 $B D_1$ 按比例 $t$ 分割，其中 $0 <= t <= 1$，则
-$P=(1-t,t,t)$，$B P=sqrt(3)t$.
-平面 $B B_(1) D_(1) D$ 的方程为 $x+y=1$，所以过 $P$ 的垂线方向可取 $(1,1,0)$. 该直线上的点可写为
+将正方体棱长取为 #mi(`1`)，建立坐标系，令 #mi(`A=(0,0,0)`)，#mi(`B=(1,0,0)`)，#mi(`D=(0,1,0)`)，#mi(`D_{1}=(0,1,1)`).
 
-$ P+s(1,1,0)=(1-t+s,t+s,t) $
+设 #mi(`P`) 将线段 #mi(`BD_{1}`) 按比例 #mi(`t`) 分割，其中 #mi(`0\le t\leqslant1`)，则
 
-要使点在正方体内，参数必须同时满足 $t-1 <= s <= t$ 和 $-t <= s <= 1 -t$.
-当 $0 <= t <= (1)/(2)$ 时，参数区间为 $[-t,t]$，故
-$M N=2 t s q r t(2)$；当 $(1)/(2) <= t <= 1$ 时，参数区间为 $[t-1,1-t]$，故
-$M N=2(1-t)sqrt(2)$. 因此 $y$ 随 $x=sqrt(3)t$ 先线性增加，在中点达到最大值，再线性减少到 $0$，图象为三角形折线，选 B.
+#mi(`P=(1-t,t,t)`)，#mi(`BP=\sqrt{3}t`).
+
+平面 #mi(`BB_{1}D_{1}D`) 的方程为 #mi(`x+y=1`)，所以过 #mi(`P`) 的垂线方向可取 #mi(`(1,1,0)`). 该直线上的点可写为
+
+
+#align(center)[#mitex(`
+P+s(1,1,0)=(1-t+s,t+s,t)
+`)]
+
+
+要使点在正方体内，参数必须同时满足 #mi(`t-1\le s\le t`) 和 #mi(`-t\le s\leqslant1-t`).
+
+当 #mi(`0\le t\le\frac{1}{2}`) 时，参数区间为 #mi(`[-t,t]`)，故
+
+#mi(`MN=2t\sqrt{2}`)；当 #mi(`\frac{1}{2}\le t\leqslant1`) 时，参数区间为 #mi(`[t-1,1-t]`)，故
+
+#mi(`MN=2(1-t)\sqrt{2}`). 因此 #mi(`y`) 随 #mi(`x=\sqrt{3}t`) 先线性增加，在中点达到最大值，再线性减少到 #mi(`0`)，图象为三角形折线，选 B.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-若角 $alpha$ 的终边经过点 $P(1, -2)$，则 $tan 2 alpha$ 的值为#blank(){}.
+若角 #mi(`\alpha`) 的终边经过点 #mi(`P(1, -2)`)，则 #mi(`\tan 2\alpha`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(4)/(3)$.])
+#answer([#mi(`\frac{4}{3}`).])
 
 #solution[
-由终边上的点 $P(1,-2)$ 得 $tan alpha =-2$. 利用正切二倍角公式，
+由终边上的点 #mi(`P(1,-2)`) 得 #mi(`\tan\alpha=-2`). 利用正切二倍角公式，
 
-$ tan 2 alpha =(2 tan alpha)/(1- tan ""^2 alpha)=(2(-2))/(1-(-2)^2)=(-4)/(-3)=(4)/(3) $
+
+#align(center)[#mitex(`
+\tan2\alpha=\frac{2\tan\alpha}{1-\tan^{2}\alpha}=\frac{2(-2)}{1-(-2)^{2}}=\frac{-4}{-3}=\frac{4}{3}
+`)]
 ]
 
 #problem(10)[
-不等式 $(x - 1)/(x + 2)> 1$ 的解集是#blank(){}.
+不等式 #mi(`\frac{x - 1}{x + 2}> 1`) 的解集是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$x < -2$.])
+#answer([#mi(`x < -2`).])
 
 #solution[
-先注意定义域为 $x != -2$. 移项并通分，得
+先注意定义域为 #mi(`x\ne-2`). 移项并通分，得
 
-$ (x-1)/(x+2)-1=(x-1-(x+2))/(x+2)=(-3)/(x+2)>0 $
 
-由于分子 $-3<0$，分式为正当且仅当分母为负，即 $x+2<0$. 故解集为
-$x<-2$.
+#align(center)[#mitex(`
+\frac{x-1}{x+2}-1=\frac{x-1-(x+2)}{x+2}=\frac{-3}{x+2}>0
+`)]
+
+
+由于分子 #mi(`-3<0`)，分式为正当且仅当分母为负，即 #mi(`x+2<0`). 故解集为
+
+#mi(`x<-2`).
 ]
 
 #problem(11)[
-已知向量 $bold(a)$ 与 $bold(b)$ 的夹角为 $120^( degree )$，且 $|bold(a)| = |bold(b)| = 4$，那么 $bold(a) dot bold(b)$ 的值为#blank(){}.
+已知向量 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`120^{\circ}`)，且 #mi(`|\mathbf{a}| = |\mathbf{b}| = 4`)，那么 #mi(`\mathbf{a}\cdot \mathbf{b}`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$-8$.])
+#answer([#mi(`-8`).])
 
 #solution[
 由数量积公式，
 
-$ bold(a)\c d o t b o l d(b)=|bold(a)| |bold(b)| cos 120 ""^( degree ) =4 dot 4 dot (-(1)/(2))=-8 $
+
+#align(center)[#mitex(`
+\mathbf{a}\cdot\mathbf{b}=|\mathbf{a}|\,|\mathbf{b}|\cos120^{\circ}=4\cdot4\cdot\left(-\frac{1}{2}\right)=-8
+`)]
 ]
 
 #problem(12)[
-$(x^(2) + (1)/(x^(3)))^(5)$ 的展开式中常数项为#blank(){}；各项系数之和为#blank(){}. （用数字作答）
+#mi(`\left(x^{2}+ \frac{1}{x^{3}}\right)^{5}`) 的展开式中常数项为\underline{\hspace{2.5em}}；各项系数之和为\underline{\hspace{2.5em}}. （用数字作答）
 ]
 
-#answer([$10$，$32$.])
+#answer([#mi(`10`)，#mi(`32`).])
 
 #solution[
-展开式的通项可取 $(1)/(x^3)$ 的 $k$ 次，写成
-$C_5^k(x^2)^(5-k)((1)/(x^3))^k =C_5^k x^(10-5 k)$，$k=0$，$1$，$\l d o t s$，$5$.
-常数项要求 $10-5 k=0$，故 $k=2$，其系数为
-$C_5^2=10$. 各项系数之和等于令 $x=1$ 时的展开式值，因而为
+展开式的通项可取 #mi(`\dfrac1{x^3}`) 的 #mi(`k`) 次，写成
 
-$ (1+1)^5=32 $
+#mi(`\mathrm{C}_{5}^{k}(x^{2})^{5-k}\left(\frac{1}{x^{3}}\right)^{k} =\mathrm{C}_{5}^{k} x^{10-5k}`)，#mi(`k=0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`5`).
+
+常数项要求 #mi(`10-5k=0`)，故 #mi(`k=2`)，其系数为
+
+#mi(`\mathrm{C}_{5}^{2}=10`). 各项系数之和等于令 #mi(`x=1`) 时的展开式值，因而为
+
+
+#align(center)[#mitex(`
+\left(1+1\right)^{5}=32
+`)]
 ]
 
 #problem(13)[
-如图，函数 $f(x)$ 的图象是折线段 $A B C$，其中 $A$，$B$，$C$ 的坐标分别为 $(0,4)$，$(2,0)$，$(6,4)$，则 $f(f(0)) =$#blank(){}；函数 $f(x)$ 在 $x = 1$ 处的导数 $f'(1) =$#blank(){}.
+如图，函数 #mi(`f(x)`) 的图象是折线段 #mi(`ABC`)，其中 #mi(`A`)，#mi(`B`)，#mi(`C`) 的坐标分别为 #mi(`(0,4)`)，#mi(`(2,0)`)，#mi(`(6,4)`)，则 #mi(`f(f(0)) =`)\underline{\hspace{2.5em}}；函数 #mi(`f(x)`) 在 #mi(`x = 1`) 处的导数 #mi(`f'(1) =`)\underline{\hspace{2.5em}}.
 
-
-#align(center)[#image("/papers/2008/img/beijing_liberal/q13_fig1.png", width: 42%)]
+[max width=0.42\linewidth]img/2008/beijing_liberal/q13_fig1.png
 ]
 
-#answer([$2$，$-2$.])
+#answer([#mi(`2`)，#mi(`-2`).])
 
 #solution[
-由点 $A=(0,4)$ 得 $f(0)=4$. 在线段 $B C$ 上，斜率为
+由点 #mi(`A=(0,4)`) 得 #mi(`f(0)=4`). 在线段 #mi(`BC`) 上，斜率为
 
-$ (4-0)/(6-2)=1 $
 
-所以 $f(x)=x-2$（$2 <= x <= 6$），从而
-$f(f(0))=f(4)=4-2=2$. 在线段 $A B$ 上，斜率为
+#align(center)[#mitex(`
+\frac{4-0}{6-2}=1
+`)]
 
-$ f'(1)=(0-4)/(2-0)=-2 $
+
+所以 #mi(`f(x)=x-2`)（#mi(`2\le x\leqslant6`)），从而
+
+#mi(`f(f(0))=f(4)=4-2=2`). 在线段 #mi(`AB`) 上，斜率为
+
+
+#align(center)[#mitex(`
+f'(1)=\frac{0-4}{2-0}=-2
+`)]
 ]
 
 #problem(14)[
-已知函数 $f(x) = x^2 - cos x$，对于 $[-(pi)/(2), (pi)/(2)]$ 上的任意 $x_1$，$x_2$，有如下条件：
+已知函数 #mi(`f(x) = x^{2} - \cos x`)，对于 #mi(`\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]`) 上的任意 #mi(`x_{1}`)，#mi(`x_{2}`)，有如下条件：
 
-\begin{circlelist}
-\item $x_1 > x_2$；
-\item $x_1^2 > x_2^2$；
-\item $|x_1| > x_2$.
-\end{circlelist}
 
-其中能使 $f(x_1) > f(x_2)$ 恒成立的条件序号是#blank(){}.
++ (1) #mi(`x_{1} > x_{2}`)；
++ (2) #mi(`x_{1}^{2} > x_{2}^{2}`)；
++ (3) #mi(`|x_{1}| > x_{2}`).
 
-某校数学课外小组在坐标纸上为学校的一块空地设计植树方案如下：第 $k$ 棵树种植在点 $P_k(x_k,y_k)$ 处，其中 $x_1=1$，$y_1=1$. 当 $k >= 2$ 时，
-$\b e g i n{c a s e s} x_k=x_(k-1)+1-5[T((k-1)/(5))-T((k-2)/(5))],\\ y_k=y_(k-1)+T((k-1)/(5))-T((k-2)/(5)). \e n d{c a s e s}$
 
-$T(a)$ 表示非负实数 $a$ 的整数部分，例如 $T(2.6)=2$，$T(0.2)=0$. 按此方案，第6棵树种植点的坐标应为#blank(){}；第2008棵树种植点的坐标应为#blank(){}.
+
+其中能使 #mi(`f(x_{1}) > f(x_{2})`) 恒成立的条件序号是\underline{\hspace{2.5em}}.
+
+某校数学课外小组在坐标纸上为学校的一块空地设计植树方案如下：第 #mi(`k`) 棵树种植在点 #mi(`P_{k}(x_{k},y_{k})`) 处，其中 #mi(`x_{1}=1`)，#mi(`y_{1}=1`). 当 #mi(`k\geqslant2`) 时，
+
+#mi(`\begin{cases}x_{k}=x_{k-1}+1-5\left[T\left(\dfrac{k-1}{5}\right)-T\left(\dfrac{k-2}{5}\right)\right],\\  y_{k}=y_{k-1}+T\left(\dfrac{k-1}{5}\right)-T\left(\dfrac{k-2}{5}\right).\end{cases}`)
+
+#mi(`T(a)`) 表示非负实数 #mi(`a`) 的整数部分，例如 #mi(`T(2.6)=2`)，#mi(`T(0.2)=0`). 按此方案，第6棵树种植点的坐标应为\underline{\hspace{2.5em}}；第2008棵树种植点的坐标应为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$"[2]"$，$(1,2)$，$(3,402)$.])
+#answer([#mi(`②`)，#mi(`(1,2)`)，#mi(`(3,402)`).])
 
 #solution[
 先处理函数部分. 因为
 
-$ f'(x)=2 x+ sin x $
 
-当 $x>0$ 时 $2 x+ sin x>0$，当 $x<0$ 时 $2 x+ sin x<0$，所以 $f$ 在 $[-(pi)/(2),0]$ 上递减，在 $[0,(pi)/(2)]$ 上递增. 又 $f(-x)=f(x)$，故在给定区间内，$f(x)$ 随 $|x|$ 严格增大.
+#align(center)[#mitex(`
+f'(x)=2x+\sin x
+`)]
 
-第2个条件等价于 $|x_1|>|x_2|$，因此必有 $f(x_1)>f(x_2)$. 第1个条件和第3个条件都不能保证这一点，例如取 $x_1=0$，$x_2=-1$，此时两条件分别满足 $x_1>x_2$ 与 $|x_1|>x_2$，但 $|x_1|<|x_2|$，从而 $f(x_1)<f(x_2)$. 所以应选第2个条件.
 
-植树部分中，令 $d_k=T((k-1)/(5))-T((k-2)/(5))$（$k >= 2$）. 由于 $T$ 表示非负实数的整数部分，当且仅当 $k\equiv1\p m o d 5$ 时 $d_k=1$，其余情形 $d_k=0$. 由递推式逐项累加，
+当 #mi(`x>0`) 时 #mi(`2x+\sin x>0`)，当 #mi(`x<0`) 时 #mi(`2x+\sin x<0`)，所以 #mi(`f`) 在 #mi(`[-\frac{\pi}{2},0]`) 上递减，在 #mi(`[0,\frac{\pi}{2}]`) 上递增. 又 #mi(`f(-x)=f(x)`)，故在给定区间内，#mi(`f(x)`) 随 #mi(`|x|`) 严格增大.
 
-$ sum_(j=2)^(k)d_j=T((k-1)/(5)) $
+第2个条件等价于 #mi(`|x_{1}|>|x_{2}|`)，因此必有 #mi(`f(x_{1})>f(x_{2})`). 第1个条件和第3个条件都不能保证这一点，例如取 #mi(`x_{1}=0`)，#mi(`x_{2}=-1`)，此时两条件分别满足 #mi(`x_{1}>x_{2}`) 与 #mi(`|x_{1}|>x_{2}`)，但 #mi(`|x_{1}|<|x_{2}|`)，从而 #mi(`f(x_{1})<f(x_{2})`). 所以应选第2个条件.
+
+植树部分中，令 #mi(`d_{k}=T\left(\dfrac{k-1}{5}\right)-T\left(\dfrac{k-2}{5}\right)`)（#mi(`k\geqslant2`)）. 由于 #mi(`T`) 表示非负实数的整数部分，当且仅当 #mi(`k\equiv1\pmod 5`) 时 #mi(`d_{k}=1`)，其余情形 #mi(`d_{k}=0`). 由递推式逐项累加，
+
+
+#align(center)[#mitex(`
+\sum_{j=2}^{k}d_{j}=T\left(\dfrac{k-1}{5}\right)
+`)]
+
 
 从而
-$x_k=1+sum_(j=2)^(k)(1-5 d_j)=k-5 T((k-1)/(5))$，$y_k=1+sum_(j=2)^(k)d_j=1+T((k-1)/(5))$.
-当 $k=6$ 时，$T((5)/(5))=1$，所以 $x_6=6-5=1$，$y_6=1+1=2$，第6棵树的坐标为 $(1,2)$. 当 $k=2008$ 时，$T((2007)/(5))=401$，所以 $x_(2008)=2008-5 times 401 =3$，$y_(2008)=1+401=402$，第2008棵树的坐标为 $(3,402)$.
+
+#mi(`x_{k}=1+\sum_{j=2}^{k}(1-5d_{j})=k-5T\left(\dfrac{k-1}{5}\right)`)，#mi(`y_{k}=1+\sum_{j=2}^{k}d_{j}=1+T\left(\dfrac{k-1}{5}\right)`).
+
+当 #mi(`k=6`) 时，#mi(`T(\frac{5}{5})=1`)，所以 #mi(`x_{6}=6-5=1`)，#mi(`y_{6}=1+1=2`)，第6棵树的坐标为 #mi(`(1,2)`). 当 #mi(`k=2008`) 时，#mi(`T(\frac{2007}{5})=401`)，所以 #mi(`x_{2008}=2008-5\times401=3`)，#mi(`y_{2008}=1+401=402`)，第2008棵树的坐标为 #mi(`(3,402)`).
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-已知函数 $f(x) = sin ""^2 omega x + sqrt(3) sin omega x sin ( omega x + (pi)/(2))$（$omega > 0$）的最小正周期为 $pi$.
+已知函数 #mi(`f(x) = \sin^{2}\omega x + \sqrt{3}\sin \omega x\sin \left(\omega x + \frac{\pi}{2}\right)`)（#mi(`\omega > 0`)）的最小正周期为 #mi(`\pi`).
 
 
-+ (1) 求 $omega$ 的值；
-+ (2) 求函数 $f(x)$ 在区间 $[0, (2 pi)/(3)]$ 上的取值范围.
++ (1)
 ]
 
 #solution[
-+ (1) 令 $t= omega x$. 由 $sin (t+(pi)/(2))= cos t$，有
-
-$ f(x)= sin ""^(2) t+sqrt(3) sin t cos t =(1)/(2)-(1)/(2) cos 2 t+(sqrt(3))/(2) sin 2 t =(1)/(2)+ sin (2 t-(pi)/(6)) $
-
-这是关于 $x$ 的正弦型函数，其最小正周期为 $(2 pi)/(2 omega)=(\p)/(i) omega$. 由题设 $(\p)/(i) omega = pi$，得 $omega =1$.
-+ (2) 此时
-
-$ f(x)=(1)/(2)+ sin (2 x-(pi)/(6)) $
-
-当 $0 <= x <= (2 pi)/(3)$ 时，
-
-$ -(pi)/(6) <= 2 x-(pi)/(6) <= (7 pi)/(6) $
-
-该区间包含正弦函数取最大值 $1$ 的点 $(pi)/(2)$，但不包含取最小值 $-1$ 的点 $(3 pi)/(2)$；两端点的正弦值均为 $-(1)/(2)$，故正弦值范围为 $[-(1)/(2),1]$. 因此
-
-$ f(x) in [(1)/(2)-(1)/(2),(1)/(2)+1]=[0,(3)/(2)] $
++ (1)
 ]
 
 #problem(16)[
-如图，在三棱锥 $P - A B C$ 中，$A C = B C = 2$，$angle A C B = 90^ degree$，$A P = B P = A B$，$P C bot A C$.
+如图，在三棱锥 #mi(`P - ABC`) 中，#mi(`AC = BC = 2`)，#mi(`\angle ACB = 90^{\circ}`)，#mi(`AP = BP = AB`)，#mi(`PC \perp AC`).
 
 
-+ (1) 求证：$P C bot A B$；
-+ (2) 求二面角 $B - A P - C$ 的大小.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2008/img/beijing_liberal/q16_fig1.png", width: 42%)]
+[max width=0.42\linewidth]img/2008/beijing_liberal/q16_fig1.png
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，令 $C=(0,0,0)$，$A=(2,0,0)$，$B=(0,2,0)$.
-由 $P C bot A C$，设 $P=(0,u,v)$. 又因为 $A P=B P$，有
-$A P^2=4+u^2+v^2$，$B P^2=(u-2)^2+v^2$.
-令两式相等，得
-$4+u^2+v^2=u^2-4 u+4+v^2$，$u=0$.
-所以 $P=(0,0,v)$. 于是 $arrow(P C)=(0,0,-v)$，而
-$arrow(A B)=(-2,2,0)$，故
-
-$ arrow(P C)\c d o t a r r o w(A B)=0 $
-
-因此 $P C bot A B$.
-+ (2) 由 $A C=2$，$angle A C B=90^ degree$，得 $A B=2 sqrt(2)$. 又 $A P=A B=2 sqrt(2)$，所以
-$A P^2=A C^2+C P^2=8$，所以 $C P=2$，即 $v= +- 2$. 取 $P=(0,0,2)$；若 $v=-2$，下述法向量的第三个分量变号，所得二面角相同. 平面 $C A P$ 的方程为 $y=0$，可取法向量 $bold(n)_2=(0,1,0)$；平面 $B A P$ 经过 $A=(2,0,0)$、$B=(0,2,0)$、$P=(0,0,2)$，方程为 $x+y+z=2$，可取法向量 $bold(n)_1=(1,1,1)$.
-
-$ cos theta =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1| |bold(n)_2|)=(1)/(sqrt(3))=(sqrt(3))/(3) $
-
-故二面角 $B-A P-C$ 的大小为
-$arccos (sqrt(3))/(3)$.
++ (1)
 ]
 
 #problem(17)[
-已知函数 $f(x) = x^3 + a x^2 + 3 b x + c$（$b != 0$），且 $g(x) = f(x) - 2$ 是奇函数.
+已知函数 #mi(`f(x) = x^{3} + ax^{2} + 3bx + c`)（#mi(`b \neq 0`)），且 #mi(`g(x) = f(x) - 2`) 是奇函数.
 
 
-+ (1) 求 $a$，$c$ 的值；
-+ (2) 求函数 $f(x)$ 的单调区间.
++ (1)
 ]
 
 #solution[
-+ (1) $ g(x)=x^3+a x^2+3 b x+c-2 $
-
-奇函数的偶次项系数及常数项都必须为零，因此 $a=0$，$c-2=0$，即 $c=2$.
-+ (2) 此时 $f(x)=x^3+3 b x+2$，所以
-
-$ f'(x)=3 x^2+3 b=3(x^2+b) $
-
-当 $b>0$ 时，$x^2+b>0$ 对任意实数 $x$ 成立，故 $f$ 在 $RR$ 上单调递增.
-
-当 $b<0$ 时，令 $f'(x)=0$，得 $x=\p m s q r t(-b)$. 在
-$(- oo ,-sqrt(-b))$ 和 $(sqrt(-b),+ oo )$ 上 $f'(x)>0$，在
-$(-sqrt(-b),sqrt(-b))$ 上 $f'(x)<0$. 所以函数在前两个区间上单调递增，在中间区间上单调递减.
++ (1)
 ]
 
 #problem(18)[
-甲，乙等五名奥运志愿者被随机地分到 $A$，$B$，$C$，$D$ 四个不同的岗位服务. 每个岗位至少有一名志愿者.
+甲，乙等五名奥运志愿者被随机地分到 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 四个不同的岗位服务. 每个岗位至少有一名志愿者.
 
 
-+ (1) 求甲，乙两人同时参加 A 岗位服务的概率；
-+ (2) 求甲，乙两人不在同一个岗位服务的概率.
++ (1)
 ]
 
 #solution[
-+ (1) 由于四个岗位都有人，五人分配的岗位人数只能是 $2$，$1$，$1$，$1$. 满足每个岗位至少一人的分配总数为：先选出同岗的两人，再选其岗位并安排其余三人，故
-
-$ C_5^2 dot 4 dot 3 !=240 $
-
-甲、乙同时在 A 岗位时，另外三人必须分别在 B、C、D 岗位，分配数为 $3!=6$. 所以所求概率为
-
-$ (6)/(240)=(1)/(40) $
-+ (2) 甲、乙在同一岗位时，先选这个岗位，再将其余三人分别安排到另外三个岗位，分配数为
-
-$ 4 dot 3 !=24 $
-
-故甲、乙在同一岗位的概率为 $(24)/(240)=(1)/(10)$，不在同一岗位的概率为
-
-$ 1-(1)/(10)=(9)/(10) $
++ (1)
 ]
 
 #problem(19)[
-已知 $triangle A B C$ 的顶点 $A$，$B$ 在椭圆 $x^(2) + 3 y^(2) = 4$ 上，$C$ 在直线 $l: y = x + 2$ 上，且 $A B parallel l$.
+已知 #mi(`\triangle ABC`) 的顶点 #mi(`A`)，#mi(`B`) 在椭圆 #mi(`x^{2}+ 3y^{2}= 4`) 上，#mi(`C`) 在直线 #mi(`l: y = x + 2`) 上，且 #mi(`AB \parallel l`).
 
 
-+ (1) 当 $A B$ 边通过坐标原点 $O$ 时，求 $A B$ 的长及 $triangle A B C$ 的面积；
-+ (2) 当 $angle A B C = 90^( degree )$，且斜边 $A C$ 的长最大时，求 $A B$ 所在直线的方程.
++ (1)
 ]
 
 #solution[
-+ (1) 因为 $A B parallel l$，所以 $A B$ 的斜率为 $1$. 又因其过原点，直线 $A B$ 为 $y=x$. 代入椭圆方程得
-$x^2+3 x^2=4$，$x= +- 1$.
-故两端点为 $(1,1)$、$(-1,-1)$，从而
-
-$ A B=sqrt((2)^2+(2)^2)=2 sqrt(2) $
-
-直线 $A B$ 为 $y-x=0$，直线 $l$ 为 $y-x=2$，两平行线间的距离为 $(2)/(sqrt(2))=sqrt(2)$. 因此
-
-$ S_( triangle A B C)=(1)/(2) dot 2 sqrt(2)\c d o t s q r t(2)=2 $
-+ (2) 设 $A B$ 所在直线为 $y=x+k$. 将其代入椭圆方程，得到交点横坐标满足
-
-$ x^2+3(x+k)^2=4 $
-
-两根之差的平方为 $(16-3 k^2)/(4)$，所以
-
-$ A B^2=2 dot (16-3 k^2)/(4)=(16-3 k^2)/(2) $
-
-因为 $angle A B C=90^ degree$，且 $A B$ 斜率为 $1$，所以 $B C$ 斜率为 $-1$. 设 $B=(x_B,x_B+k)$，则过 $B$ 且垂直于 $A B$ 的直线与 $l:y=x+2$ 的交点为 $C$，解得
-
-$ C=(x_B+(k)/(2)-1,\ x_B+(k)/(2)+1) $
-
-因此
-
-$ B C^2=2((k)/(2)-1)^2=((k-2)^2)/(2) $
-
-由勾股定理，
-
-$ A C^2=A B^2+B C^2 =(16-3 k^2+(k-2)^2)/(2)=11-(k+1)^2 $
-
-故 $A C$ 最大当且仅当 $k=-1$，此时所求直线为
-
-$ y=x-1 $
++ (1)
 ]
 
 #problem(20)[
-数列 $\{a_(n)\}$ 满足 $a_1 = 1$，$a_(n+1) = (n^2 + n - lambda )a_n$（$n = 1$，$2$，$dots.c$），$lambda$ 是常数.
+数列 #mi(`\{a_{n}\}`) 满足 #mi(`a_{1} = 1`)，#mi(`a_{n+1}= (n^{2} + n - \lambda)a_{n}`)（#mi(`n = 1`)，#mi(`2`)，#mi(`\cdots`)），#mi(`\lambda`) 是常数.
 
 
-+ (1) 当 $a_(2) = -1$ 时，求 $lambda$ 及 $a_(3)$ 的值；
-+ (2) 数列 $\{a_n\}$ 是否可能为等差数列？若可能，求出它的通项公式；若不可能，说明理由；
-+ (3) 求 $lambda$ 的取值范围，使得存在正整数 $m$，当 $n > m$ 时总有 $a_(n) < 0$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 取 $n=1$，得
-
-$ a_2=(2- lambda )a_1=2- lambda =-1 $
-
-所以 $lambda =3$. 再取 $n=2$，
-
-$ a_3=(6- lambda )a_2=(6-3)(-1)=-3 $
-+ (2) 若数列为等差数列，设公差为 $d$. 由 $a_1=1$ 及递推式，
-$a_2=2- lambda$，$d=a_2-a_1=1- lambda$.
-等差数列还应满足 $a_3=1+2 d=3-2 lambda$，而递推式给出
-
-$ a_3=(6- lambda )(2- lambda ) $
-
-令两式相等，得
-$(6- lambda )(2- lambda )=3-2 lambda$，$( lambda -3)^2=0$，
-故只能有 $lambda =3$. 但此时
-$a_1=1$，$a_2=-1$，$a_3=-3$，公差为 $-2$，而
-
-$ a_4=(12-3)a_3=9(-3)=-27 != -5=a_3-2 $
-
-矛盾. 因此该数列不可能为等差数列.
-+ (3) 由递推式
-$a_n=prod_(j=1)^(n-1)(j(j+1)- lambda )$，$n >= 2$.
-当 $j$ 足够大时，因子 $j(j+1)- lambda$ 为正. 若 $lambda <= 0$，所有因子均为正，数列不可能最终为负. 若 $lambda =j(j+1)$ 对某个正整数 $j$ 成立，则从 $a_(j+1)$ 起各项为零，不满足严格小于零；这些端点也必须排除.
-
-设恰有 $r$ 个因子 $j(j+1)- lambda$ 为负，则
-
-$ r(r+1)< lambda <(r+1)(r+2) $
-
-且在最后一个负因子之后所有因子均为正，所以数列最终符号为 $(-1)^r$. 要使最终各项为负，必须且只须 $r$ 为奇数. 令 $r=2 k-1$，其中 $k in NN ""^*$，便得到
-
-$ (2 k-1)(2 k)< lambda <(2 k)(2 k+1) $
-
-即
-
-$ lambda in \b i g c u p_(k in NN ""^*)(4 k^2-2 k, 4 k^2+2 k) $
-
-在这些区间内，取 $m=2 k$ 即可保证对所有 $n>m$ 有 $a_n<0$；反之不满足奇数个负因子或落在端点时，都不可能最终严格为负.
++ (1) 
++ (2)
 ]
 

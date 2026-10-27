@@ -31,6 +31,11 @@
   "dependencies": {
     "@myriaddreamin/typst-ts-renderer": "^0.7.0",
     "@myriaddreamin/typst.ts": "^0.7.0",
+    "@unified-latex/unified-latex-to-hast": "^1.8.4",
+    "@unified-latex/unified-latex-util-parse": "^1.8.4",
+    "@unified-latex/unified-latex-util-print-raw": "^1.8.4",
+    "@unified-latex/unified-latex-util-visit": "^1.8.4",
+    "hast-util-to-html": "^9.0.5",
     "katex": "^0.19.0"
   }
 }

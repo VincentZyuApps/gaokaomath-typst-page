@@ -1,150 +1,15 @@
 {
+  "title": "2006年普通高等学校招生全国统一考试",
+  "subtitle": "2006年全国II卷（文）",
   "year": "2006",
   "slug": "national_paper_2_liberal",
-  "title": "2006年全国II卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知向量 $\\mathbf{a} = (4, 2)$，向量 $\\mathbf{b} = (x, 3)$，且 $\\mathbf{a} \\parallel \\mathbf{b}$，则 $x =$（ ）",
+          "body": "已知向量 $\\mathbf{a}= (4, 2)$，向量 $\\mathbf{b}= (x, 3)$，且 $\\mathbf{a}\\parallel \\mathbf{b}$，则 $x =$（ ）",
           "choices": [
             "$9$",
             "$6$",
@@ -152,27 +17,23 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "向量平行的充要条件是其坐标对应成比例，因此\r\n$4\\times3-2x=0$，解得 $x=6$.故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>向量平行的充要条件是其坐标对应成比例，因此</p><p>$4\\times3-2x=0$，解得 $x=6$.故选 B.</p>"
         },
         {
           "num": 2,
-          "body": "已知集合 $M = \\{x \\mid x < 3\\}$，$N = \\{x \\mid \\log_2 x > 1\\}$，则 $M \\cap N =$（ ）",
+          "body": "已知集合 $M = \\{x \\mid x &#x3C; 3\\}$，$N = \\{x \\mid \\log_{2} x > 1\\}$，则 $M \\cap N =$（ ）",
           "choices": [
             "$\\varnothing$",
-            "$\\{x \\mid 0 < x < 3\\}$",
-            "$\\{x \\mid 1 < x < 3\\}$",
-            "$\\{x\\mid 2 < x < 3\\}$"
+            "$\\{x \\mid 0 &#x3C; x &#x3C; 3\\}$",
+            "$\\{x \\mid 1 &#x3C; x &#x3C; 3\\}$",
+            "$\\{x\\mid 2 &#x3C; x &#x3C; 3\\}$"
           ],
           "answer": "D",
-          "solution": "由对数的定义域，必须有 $x>0$.因为底数 $2>1$，函数 $\\log_{2}x$ 在定义域上单调递增，所以\r\n$\\log_{2}x>1\\iff x>2$.与 $x<3$ 合并得\r\n$M\\cap N=\\{x\\mid2<x<3\\}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由对数的定义域，必须有 $x>0$.因为底数 $2>1$，函数 $\\log_{2}x$ 在定义域上单调递增，所以</p><p>$\\log_{2}x>1\\iff x>2$.与 $x&#x3C;3$ 合并得</p><p>$M\\cap N=\\{x\\mid2&#x3C;x&#x3C;3\\}$，故选 D.</p>"
         },
         {
           "num": 3,
-          "body": "函数 $y = \\sin 2x \\cos 2x$ 的最小正周期是（ ）",
+          "body": "函数 $y = \\sin 2x \\cos 2x$ 的最小正周期是（ ）",
           "choices": [
             "$2\\pi$",
             "$4\\pi$",
@@ -180,13 +41,11 @@
             "$\\frac{\\pi}{2}$"
           ],
           "answer": "D",
-          "solution": "利用二倍角公式，\r\n$\\sin2x\\cos2x=\\frac12\\sin4x$.函数 $\\sin4x$ 的最小正周期为 $\\frac{\\pi}{2}$，乘以非零常数不改变周期，所以原函数的最小正周期为 $\\frac{\\pi}{2}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>利用二倍角公式，</p><p>$\\sin2x\\cos2x=\\frac{1}{2}\\sin4x$.函数 $\\sin4x$ 的最小正周期为 $\\frac{\\pi}{2}$，乘以非零常数不改变周期，所以原函数的最小正周期为 $\\frac{\\pi}{2}$，故选 D.</p>"
         },
         {
           "num": 4,
-          "body": "如果函数 $y = f(x)$ 的图象与函数 $y = 3 - 2x$ 的图象关于坐标原点对称，则 $y = f(x)$ 的表达式为（ ）",
+          "body": "如果函数 $y = f(x)$ 的图象与函数 $y = 3 - 2x$ 的图象关于坐标原点对称，则 $y = f(x)$ 的表达式为（ ）",
           "choices": [
             "$y = 2x - 3$",
             "$y = 2x + 3$",
@@ -194,13 +53,11 @@
             "$y = -2x - 3$"
           ],
           "answer": "D",
-          "solution": "直线 $y=3-2x$ 上任一点可记为 $(t,3-2t)$.关于原点对称后得到\r\n$(-t,-3+2t)$.令 $X=-t$，则其纵坐标为 $-3-2X$，所以对称图象的方程为\r\n$y=-2x-3$.故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>直线 $y=3-2x$ 上任一点可记为 $(t,3-2t)$.关于原点对称后得到</p><p>$(-t,-3+2t)$.令 $X=-t$，则其纵坐标为 $-3-2X$，所以对称图象的方程为</p><p>$y=-2x-3$.故选 D.</p>"
         },
         {
           "num": 5,
-          "body": "已知 $\\triangle ABC$ 的顶点 $B$，$C$ 在椭圆 $\\frac{x^2}{3} + y^2 = 1$ 上，顶点 $A$ 是椭圆的一个焦点，且椭圆的另外一个焦点在 $BC$ 边上，则 $\\triangle ABC$ 的周长是（ ）",
+          "body": "已知 $\\triangle ABC$ 的顶点 $B$，$C$ 在椭圆 $\\frac{x^{2}}{3}+ y^{2} = 1$ 上，顶点 $A$ 是椭圆的一个焦点，且椭圆的另外一个焦点在 $BC$ 边上，则 $\\triangle ABC$ 的周长是（ ）",
           "choices": [
             "$2\\sqrt{3}$",
             "$6$",
@@ -208,13 +65,11 @@
             "$12$"
           ],
           "answer": "C",
-          "solution": "椭圆 $\\frac{x^{2}}{3}+y^{2}=1$ 的长半轴为 $a=\\sqrt3$，短半轴为 $b=1$，焦半距\r\n$c=\\sqrt{a^{2}-b^{2}}=\\sqrt2$.设椭圆的两个焦点分别为 $A$、$A'$，且 $A'$ 在线段 $BC$ 上.\r\n由椭圆定义，$AB+BA'=2a=2\\sqrt3$；因为 $C$ 也在该椭圆上，且 $A$、$A'$ 是椭圆的两个焦点，所以 $AC+CA'=2a=2\\sqrt3$.又因为 $A'$ 在线段 $BC$ 上，$BC=BA'+A'C$，故\r\n\n$$\nAB+BC+CA=AB+BA'+A'C+CA=4\\sqrt3\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>椭圆 $\\frac{x^{2}}{3}+y^{2}=1$ 的长半轴为 $a=\\sqrt{3}$，短半轴为 $b=1$，焦半距</p><p>$c=\\sqrt{a^{2}-b^{2}}=\\sqrt{2}$.设椭圆的两个焦点分别为 $A$、$A'$，且 $A'$ 在线段 $BC$ 上.</p><p>由椭圆定义，$AB+BA'=2a=2\\sqrt{3}$；因为 $C$ 也在该椭圆上，且 $A$、$A'$ 是椭圆的两个焦点，所以 $AC+CA'=2a=2\\sqrt{3}$.又因为 $A'$ 在线段 $BC$ 上，$BC=BA'+A'C$，故</p>\n$$\nAB+BC+CA=AB+BA'+A'C+CA=4\\sqrt{3}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 6,
-          "body": "已知等差数列 $\\{a_{n}\\}$ 中，$a_{2} = 7$，$a_{4} = 15$. 则前 $10$ 项的和 $S_{10} =$（ ）",
+          "body": "已知等差数列 $\\{a_{n}\\}$ 中，$a_{2}= 7$，$a_{4}= 15$. 则前 $10$ 项的和 $S_{10}=$（ ）",
           "choices": [
             "$100$",
             "$210$",
@@ -222,13 +77,11 @@
             "$400$"
           ],
           "answer": "B",
-          "solution": "设等差数列的首项为 $a_{1}$，公差为 $d$.由\r\n$a_{2}=a_{1}+d=7$，$a_{4}=a_{1}+3d=15$，相减得 $2d=8$，所以 $d=4$，$a_{1}=3$.因此\r\n\n$$\nS_{10}=\\frac{10}{2}\\bigl(2a_{1}+9d\\bigr)=5(6+36)=210\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$.由</p><p>$a_{2}=a_{1}+d=7$，$a_{4}=a_{1}+3d=15$，相减得 $2d=8$，所以 $d=4$，$a_{1}=3$.因此</p>\n$$\nS_{10}=\\frac{10}{2}\\bigl(2a_{1}+9d\\bigr)=5(6+36)=210\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 7,
-          "body": "如图，平面 $\\alpha \\perp$ 平面 $\\beta$，$A \\in \\alpha$，$B \\in \\beta$，$AB$ 与两平面 $\\alpha$，$\\beta$ 所成的角分别为 $\\frac{\\pi}{4}$ 和 $\\frac{\\pi}{6}$，过 $A$，$B$ 分别作两平面交线的垂线，垂足为 $A'$，$B'$，若 $AB = 12$，则 $A'B' =$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/national_paper_2_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，平面 $\\alpha \\perp$ 平面 $\\beta$，$A \\in \\alpha$，$B \\in \\beta$，$AB$ 与两平面 $\\alpha$，$\\beta$ 所成的角分别为 $\\frac{\\pi}{4}$ 和 $\\frac{\\pi}{6}$，过 $A$，$B$ 分别作两平面交线的垂线，垂足为 $A'$，$B'$，若 $AB = 12$，则 $A'B' =$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$4$",
             "$6$",
@@ -236,13 +89,11 @@
             "$9$"
           ],
           "answer": "B",
-          "solution": "设两平面的交线为 $l$，建立直角坐标系，使 $l$ 为 $x$ 轴，$\\alpha$ 为 $xOy$ 平面，$\\beta$ 为 $xOz$ 平面.设\r\n$A=(a,b,0)$，$B=(c,0,d)$，则 $A'=(a,0,0)$，$B'=(c,0,0)$，所以 $A'B'=|c-a|$.\r\n\r\n向量 $\\overrightarrow{AB}=(c-a,-b,d)$，且 $AB=12$.直线与平面所成角的正弦等于方向向量在平面法向方向上的分量与向量长度之比，因此\r\n\n$$\n\\frac{|d|}{12}=\\sin\\frac{\\pi}{4}\n$$\n\r\n\n$$\n\\frac{|b|}{12}=\\sin\\frac{\\pi}{6}\n$$\n\r\n从而 $d^{2}=72$，$b^{2}=36$.再由 $AB^{2}=(c-a)^{2}+b^{2}+d^{2}=144$，得\r\n\n$$\n(c-a)^{2}=144-36-72=36\n$$\n\r\n所以 $A'B'=|c-a|=6$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设两平面的交线为 $l$，建立直角坐标系，使 $l$ 为 $x$ 轴，$\\alpha$ 为 $xOy$ 平面，$\\beta$ 为 $xOz$ 平面.设</p><p>$A=(a,b,0)$，$B=(c,0,d)$，则 $A'=(a,0,0)$，$B'=(c,0,0)$，所以 $A'B'=|c-a|$.</p><p>向量 $\\overrightarrow{AB}=(c-a,-b,d)$，且 $AB=12$.直线与平面所成角的正弦等于方向向量在平面法向方向上的分量与向量长度之比，因此</p>\n$$\n\\frac{|d|}{12}=\\sin\\frac{\\pi}{4}\n$$\n\n$$\n\\frac{|b|}{12}=\\sin\\frac{\\pi}{6}\n$$\n<p>从而 $d^{2}=72$，$b^{2}=36$.再由 $AB^{2}=(c-a)^{2}+b^{2}+d^{2}=144$，得</p>\n$$\n(c-a)^{2}=144-36-72=36\n$$\n<p>所以 $A'B'=|c-a|=6$，故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "已知函数 $f(x) = \\ln x + 1$（$x > 0$），则 $f(x)$ 的反函数为（ ）",
+          "body": "已知函数 $f(x) = \\ln x + 1$（$x > 0$），则 $f(x)$ 的反函数为（ ）",
           "choices": [
             "$y = \\mathrm{e}^{x + 1}$（$x \\in \\mathbb{R}$）",
             "$y = \\mathrm{e}^{x - 1}$（$x \\in \\mathbb{R}$）",
@@ -250,13 +101,11 @@
             "$y = \\mathrm{e}^{x - 1}$（$x > 1$）"
           ],
           "answer": "B",
-          "solution": "令 $y=\\ln x+1$，则 $\\ln x=y-1$，从而 $x=\\mathrm{e}^{y-1}$.交换变量得反函数\r\n$y=\\mathrm{e}^{x-1}$.原函数的值域为 $\\mathbb{R}$，所以反函数定义域为 $\\mathbb{R}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $y=\\ln x+1$，则 $\\ln x=y-1$，从而 $x=\\mathrm{e}^{y-1}$.交换变量得反函数</p><p>$y=\\mathrm{e}^{x-1}$.原函数的值域为 $\\mathbb{R}$，所以反函数定义域为 $\\mathbb{R}$，故选 B.</p>"
         },
         {
           "num": 9,
-          "body": "已知双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ 的一条渐近线方程为 $y = \\frac{4}{3} x$，则双曲线的离心率为（ ）",
+          "body": "已知双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$ 的一条渐近线方程为 $y = \\frac{4}{3}x$，则双曲线的离心率为（ ）",
           "choices": [
             "$\\frac{5}{3}$",
             "$\\frac{4}{3}$",
@@ -264,13 +113,11 @@
             "$\\frac{3}{2}$"
           ],
           "answer": "A",
-          "solution": "双曲线的渐近线为 $y=\\pm\\frac{b}{a}x$，所以\r\n$\\frac{b}{a}=\\frac43$.又 $c^{2}=a^{2}+b^{2}$，故离心率\r\n\n$$\ne=\\frac ca=\\sqrt{1+\\frac{b^{2}}{a^{2}}}=\\sqrt{1+\\frac{16}{9}}=\\frac53\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线的渐近线为 $y=\\pm\\frac{b}{a}x$，所以</p><p>$\\frac{b}{a}=\\frac{4}{3}$.又 $c^{2}=a^{2}+b^{2}$，故离心率</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1+\\frac{b^{2}}{a^{2}}}=\\sqrt{1+\\frac{16}{9}}=\\frac{5}{3}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 10,
-          "body": "若 $f(\\sin x) = 3 - \\cos 2x$，则 $f(\\cos x) =$（ ）",
+          "body": "若 $f(\\sin x) = 3 - \\cos 2x$，则 $f(\\cos x) =$（ ）",
           "choices": [
             "$3 - \\cos 2x$",
             "$3 - \\sin 2x$",
@@ -278,13 +125,11 @@
             "$3 + \\sin 2x$"
           ],
           "answer": "C",
-          "solution": "由 $\\cos2x=1-2\\sin^{2}x$，得\r\n\n$$\nf(\\sin x)=3-(1-2\\sin^{2}x)=2+2\\sin^{2}x\n$$\n\r\n因此对任意 $t\\in[-1,1]$，有 $f(t)=2+2t^{2}$.代入 $t=\\cos x$，\r\n\n$$\nf(\\cos x)=2+2\\cos^{2}x=3+\\cos2x\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $\\cos2x=1-2\\sin^{2}x$，得</p>\n$$\nf(\\sin x)=3-(1-2\\sin^{2}x)=2+2\\sin^{2}x\n$$\n<p>因此对任意 $t\\in[-1,1]$，有 $f(t)=2+2t^{2}$.代入 $t=\\cos x$，</p>\n$$\nf(\\cos x)=2+2\\cos^{2}x=3+\\cos2x\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 11,
-          "body": "过点 $(-1,0)$ 作抛物线 $y = x^{2} + x + 1$ 的切线，则其中一条切线为（ ）",
+          "body": "过点 $(-1,0)$ 作抛物线 $y = x^{2}+ x + 1$ 的切线，则其中一条切线为（ ）",
           "choices": [
             "$2x + y + 2 = 0$",
             "$3x - y + 3 = 0$",
@@ -292,13 +137,11 @@
             "$x - y + 1 = 0$"
           ],
           "answer": "D",
-          "solution": "设切点为 $T(t,t^{2}+t+1)$.抛物线在该点的切线斜率为 $2t+1$，切线方程为\r\n\n$$\ny-(t^{2}+t+1)=(2t+1)(x-t)\n$$\n\r\n即 $y=(2t+1)x+1-t^{2}$.因为切线过 $(-1,0)$，所以\r\n\n$$\n0=-(2t+1)+1-t^{2}=-t(t+2)\n$$\n\r\n从而 $t=0$ 或 $t=-2$.当 $t=0$ 时，切线为 $y=x+1$，即\r\n$x-y+1=0$，对应选项 D.因此故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设切点为 $T(t,t^{2}+t+1)$.抛物线在该点的切线斜率为 $2t+1$，切线方程为</p>\n$$\ny-(t^{2}+t+1)=(2t+1)(x-t)\n$$\n<p>即 $y=(2t+1)x+1-t^{2}$.因为切线过 $(-1,0)$，所以</p>\n$$\n0=-(2t+1)+1-t^{2}=-t(t+2)\n$$\n<p>从而 $t=0$ 或 $t=-2$.当 $t=0$ 时，切线为 $y=x+1$，即</p><p>$x-y+1=0$，对应选项 D.因此故选 D.</p>"
         },
         {
           "num": 12,
-          "body": "$5\\text{ 名}$志愿者分到$3\\text{ 所}$学校支教，要求每所学校至少去$1\\text{ 名}$志愿者，则不同的分法共有（ ）",
+          "body": "$5\\text{ 名}$志愿者分到$3\\text{ 所}$学校支教，要求每所学校至少去$1\\text{ 名}$志愿者，则不同的分法共有（ ）",
           "choices": [
             "$150\\text{ 种}$",
             "$180\\text{ 种}$",
@@ -306,9 +149,7 @@
             "$280\\text{ 种}$"
           ],
           "answer": "A",
-          "solution": "$5\\text{ 名}$志愿者分到 $3\\text{ 所}$有标号的学校，先用容斥原理计算每所学校至少 $1\\text{ 人}$ 的分法数.总分法为 $3^{5}$；指定一所学校无人有 $2^{5}$ 种，共有 $\\mathrm C_{3}^{1}2^{5}$ 种；指定两所学校无人有 $1^{5}$ 种，共有 $\\mathrm C_{3}^{2}$ 种.因此所求分法数为\r\n\n$$\n3^{5}-\\mathrm C_{3}^{1}2^{5}+\\mathrm C_{3}^{2}1^{5}=243-96+3=150\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$5\\text{ 名}$志愿者分到 $3\\text{ 所}$有标号的学校，先用容斥原理计算每所学校至少 $1\\text{ 人}$ 的分法数.总分法为 $3^{5}$；指定一所学校无人有 $2^{5}$ 种，共有 $\\mathrm{C}_{3}^{1}2^{5}$ 种；指定两所学校无人有 $1^{5}$ 种，共有 $\\mathrm{C}_{3}^{2}$ 种.因此所求分法数为</p>\n$$\n3^{5}-\\mathrm{C}_{3}^{1}2^{5}+\\mathrm{C}_{3}^{2}1^{5}=243-96+3=150\n$$\n<p>故选 A.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "在 $\\left(x^{4} + \\frac{1}{x}\\right)^{10}$ 的展开式中常数项是 _______ {}.（用数字作答）",
-          "choices": [],
+          "body": "在 $\\left(x^{4}+ \\frac{1}{x}\\right)^{10}$ 的展开式中常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（用数字作答）",
+          "choices": null,
           "answer": "45",
-          "solution": "展开式的通项为\r\n\n$$\n\\mathrm C_{10}^{k}(x^{4})^{10-k}\\left(\\frac1x\\right)^{k}=\\mathrm C_{10}^{k}x^{40-5k}\n$$\n\r\n要得到常数项，必须有 $40-5k=0$，所以 $k=8$.因此常数项为\r\n$\\mathrm C_{10}^{8}=\\mathrm C_{10}^{2}=45$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{10}^{k}(x^{4})^{10-k}\\left(\\frac{1}{x}\\right)^{k}=\\mathrm{C}_{10}^{k}x^{40-5k}\n$$\n<p>要得到常数项，必须有 $40-5k=0$，所以 $k=8$.因此常数项为</p><p>$\\mathrm{C}_{10}^{8}=\\mathrm{C}_{10}^{2}=45$.</p>"
         },
         {
           "num": 14,
-          "body": "已知圆 $O_{1}$ 是半径为 $R$ 的球 $O$ 的小圆，若圆 $O_{1}$ 的面积与球 $O$ 的表面积的比值为 $\\frac{2}{9}$，则线段 $OO_{1}$ 与 $R$ 的比值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{1}{3}\\)",
-          "solution": "设小圆的半径为 $r$，圆心距 $OO_{1}=d$.小圆所在平面与球心的距离为 $d$，故\r\n$r^{2}+d^{2}=R^{2}$.由面积与表面积的比值得\r\n\n$$\n\\frac{\\pi r^{2}}{4\\pi R^{2}}=\\frac29\n$$\n\r\n从而 $r^{2}=\\frac89R^{2}$，于是\r\n\n$$\nd^{2}=R^{2}-r^{2}=\\frac19R^{2}\n$$\n\r\n因为长度为正，故 $\\frac{OO_{1}}{R}=\\frac dR=\\frac13$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆 $O_{1}$ 是半径为 $R$ 的球 $O$ 的小圆，若圆 $O_{1}$ 的面积与球 $O$ 的表面积的比值为 $\\frac{2}{9}$，则线段 $OO_{1}$ 与 $R$ 的比值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{1}{3}$",
+          "solution": "<p>设小圆的半径为 $r$，圆心距 $OO_{1}=d$.小圆所在平面与球心的距离为 $d$，故</p><p>$r^{2}+d^{2}=R^{2}$.由面积与表面积的比值得</p>\n$$\n\\frac{\\pi r^{2}}{4\\pi R^{2}}=\\frac{2}{9}\n$$\n<p>从而 $r^{2}=\\frac{8}{9}R^{2}$，于是</p>\n$$\nd^{2}=R^{2}-r^{2}=\\frac{1}{9}R^{2}\n$$\n<p>因为长度为正，故 $\\frac{OO_{1}}{R}=\\frac{d}{R}=\\frac{1}{3}$.</p>"
         },
         {
           "num": 15,
-          "body": "过点 $(1, \\sqrt{2})$ 的直线 $l$ 将圆 $(x - 2)^2 + y^2 = 4$ 分成两段弧，当劣弧所对的圆心角最小时，直线 $l$ 的斜率 $k =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{\\sqrt{2}}{2}\\)",
-          "solution": "设圆心为 $O=(2,0)$，半径为 $r=2$，并记 $P=(1,\\sqrt2)$.由于\r\n\n$$\nOP^{2}=(1-2)^{2}+(\\sqrt2)^{2}=3<4=r^{2}\n$$\n\r\n所以 $P$ 在圆内.设过 $P$ 的直线 $l$ 截圆所得的弦长为 $L$，圆心 $O$ 到直线 $l$ 的距离为 $d$，则\r\n\n$$\nL=2\\sqrt{r^{2}-d^{2}}\n$$\n\r\n劣弧所对的圆心角随弦长 $L$ 增大而增大，因此要使该圆心角最小，只需使 $L$ 最小，也就是使 $d$ 最大.对所有过 $P$ 的直线，$d\\leq OP$，且当且仅当 $l\\perp OP$ 时取等号，所以所求直线满足 $l\\perp OP$.\r\n半径 $OP$ 的斜率为\r\n\n$$\nk_{OP}=\\frac{\\sqrt2-0}{1-2}=-\\sqrt2\n$$\n\r\n因为 $l\\perp OP$，所以\r\n\n$$\nk(-\\sqrt2)=-1\n$$\n\r\n解得 $k=\\frac{\\sqrt2}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "过点 $(1, \\sqrt{2})$ 的直线 $l$ 将圆 $(x - 2)^{2} + y^{2} = 4$ 分成两段弧，当劣弧所对的圆心角最小时，直线 $l$ 的斜率 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{\\sqrt{2}}{2}$",
+          "solution": "<p>设圆心为 $O=(2,0)$，半径为 $r=2$，并记 $P=(1,\\sqrt{2})$.由于</p>\n$$\nOP^{2}=(1-2)^{2}+(\\sqrt{2})^{2}=3&#x3C;4=r^{2}\n$$\n<p>所以 $P$ 在圆内.设过 $P$ 的直线 $l$ 截圆所得的弦长为 $L$，圆心 $O$ 到直线 $l$ 的距离为 $d$，则</p>\n$$\nL=2\\sqrt{r^{2}-d^{2}}\n$$\n<p>劣弧所对的圆心角随弦长 $L$ 增大而增大，因此要使该圆心角最小，只需使 $L$ 最小，也就是使 $d$ 最大.对所有过 $P$ 的直线，$d\\leq OP$，且当且仅当 $l\\perp OP$ 时取等号，所以所求直线满足 $l\\perp OP$.</p><p>半径 $OP$ 的斜率为</p>\n$$\nk_{OP}=\\frac{\\sqrt{2}-0}{1-2}=-\\sqrt{2}\n$$\n<p>因为 $l\\perp OP$，所以</p>\n$$\nk(-\\sqrt{2})=-1\n$$\n<p>解得 $k=\\frac{\\sqrt{2}}{2}$.</p>"
         },
         {
           "num": 16,
-          "body": "一个社会调查机构就某地居民的月收入调查了$10000\\text{ 人}$，并根据所得数据画了样本的频率分布直方图（如图）.\r\n\r\n为了分析居民的收入与年龄，学历，职业等方面的关系，要从这$10000\\text{ 人}$中再用分层抽样方法抽出$100\\text{ 人}$作进一步调查，则在 $[2500, 3000)\\text{ 元}$ 月收入段应抽出 _______ {}$\\text{ 人}$.\r\n\r\n\\begin{center}\r\n\\texfigure[max width=0.78\\linewidth]{img_repaint/2006/national_paper_2_liberal/q16_fig1.tex}\r\n\\end{center}",
-          "choices": [],
+          "body": "<p>一个社会调查机构就某地居民的月收入调查了$10000\\text{ 人}$，并根据所得数据画了样本的频率分布直方图（如图）.</p><p>为了分析居民的收入与年龄，学历，职业等方面的关系，要从这$10000\\text{ 人}$中再用分层抽样方法抽出$100\\text{ 人}$作进一步调查，则在 $[2500, 3000)\\text{ 元}$ 月收入段应抽出<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{ 人}$.</p><center class=\"center\"><span class=\"macro macro-texfigure\"></span>[max width=0.78<span class=\"macro macro-linewidth\"></span>]img_repaint/2006/national_paper_2_liberal/q16_fig1.tex</center>",
+          "choices": null,
           "answer": "25",
-          "solution": "在 $[2500,3000)\\text{ 元}$收入段，直方图的高为 $0.0005$，组距为 $500\\text{ 元}$，所以该组的频率为\r\n\n$$\n0.0005\\times500=0.25\n$$\n\r\n该组人数为 $10000\\times0.25=2500$，即 $2500\\text{ 人}$.分层抽样抽取总人数的比例为 $\\frac{100}{10000}=\\frac1{100}$，所以应抽取\r\n\n$$\n2500\\times\\frac1{100}=25\n$$\n\r\n人.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在 $[2500,3000)\\text{ 元}$收入段，直方图的高为 $0.0005$，组距为 $500\\text{ 元}$，所以该组的频率为</p>\n$$\n0.0005\\times500=0.25\n$$\n<p>该组人数为 $10000\\times0.25=2500$，即 $2500\\text{ 人}$.分层抽样抽取总人数的比例为 $\\frac{100}{10000}=\\frac{1}{100}$，所以应抽取</p>\n$$\n2500\\times\\frac{1}{100}=25\n$$\n<p>人.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知 $\\triangle ABC$ 中，$\\angle B = 45^{\\circ}$，$AC = \\sqrt{10}$，$\\cos C = \\frac{2\\sqrt{5}}{5}$.\r\n\r\n\n(1) 求 $BC$ 边的长.\n\n(2) 记 $AB$ 的中点为 $D$，求中线 $CD$ 的长度.",
-          "choices": [],
+          "body": "<p>已知 $\\triangle ABC$ 中，$\\angle B = 45^{\\circ}$，$AC = \\sqrt{10}$，$\\cos C = \\frac{2\\sqrt{5}}{5}$.</p><ol class=\"enumerate\"><li><p>求 $BC$ 边的长.</p></li><li><p>记 $AB$ 的中点为 $D$，求中线 $CD$ 的长度.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $a=BC$，$b=CA$，$c=AB$.由 $\\cos C=\\frac{2\\sqrt5}{5}$ 及 $C$ 为三角形内角，得\r\n\n$$\n\\sin C=\\sqrt{1-\\cos^{2}C}=\\sqrt{1-\\frac45}=\\frac{\\sqrt5}{5}\n$$\n\r\n又 $B=45^{\\circ}$，所以\r\n\n$$\n\\sin A=\\sin(B+C)=\\sin B\\cos C+\\cos B\\sin C\r\n=\\frac{\\sqrt2}{2}\\cdot\\frac{2\\sqrt5}{5}+\\frac{\\sqrt2}{2}\\cdot\\frac{\\sqrt5}{5}\r\n=\\frac{3\\sqrt{10}}{10}\n$$\n\r\n由正弦定理，\r\n\n$$\n\\frac{a}{\\sin A}=\\frac{b}{\\sin B}\n$$\n\r\n所以 $a=\\sqrt{10}\\cdot\\frac{3\\sqrt{10}}{10}\\cdot\\frac{2}{\\sqrt2}=3\\sqrt2$.\r\n故 $BC=3\\sqrt2$.\n\n(2) 由正弦定理，\r\n\n$$\n\\frac{c}{\\sin C}=\\frac{b}{\\sin B}\n$$\n\r\n所以 $c=\\sqrt{10}\\cdot\\frac{\\sqrt5}{5}\\cdot\\frac{2}{\\sqrt2}=2$.\r\n设 $D$ 为 $AB$ 的中点，则中线公式给出\r\n\n$$\nCD^{2}=\\frac{2a^{2}+2b^{2}-c^{2}}{4}\r\n=\\frac{2(3\\sqrt2)^{2}+2(\\sqrt{10})^{2}-2^{2}}{4}\r\n=13\n$$\n\r\n所以 $CD=\\sqrt{13}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $a=BC$，$b=CA$，$c=AB$.由 $\\cos C=\\frac{2\\sqrt{5}}{5}$ 及 $C$ 为三角形内角，得</p>\n$$\n\\sin C=\\sqrt{1-\\cos^{2}C}=\\sqrt{1-\\frac{4}{5}}=\\frac{\\sqrt{5}}{5}\n$$\n<p>又 $B=45^{\\circ}$，所以</p>\n$$\n\\sin A=\\sin(B+C)=\\sin B\\cos C+\\cos B\\sin C  =\\frac{\\sqrt{2}}{2}\\cdot\\frac{2\\sqrt{5}}{5}+\\frac{\\sqrt{2}}{2}\\cdot\\frac{\\sqrt{5}}{5}=\\frac{3\\sqrt{10}}{10}\n$$\n<p>由正弦定理，</p>\n$$\n\\frac{a}{\\sin A}=\\frac{b}{\\sin B}\n$$\n<p>所以 $a=\\sqrt{10}\\cdot\\frac{3\\sqrt{10}}{10}\\cdot\\frac{2}{\\sqrt{2}}=3\\sqrt{2}$.</p><p>故 $BC=3\\sqrt{2}$.</p></li><li><p>由正弦定理，</p>\n$$\n\\frac{c}{\\sin C}=\\frac{b}{\\sin B}\n$$\n<p>所以 $c=\\sqrt{10}\\cdot\\frac{\\sqrt{5}}{5}\\cdot\\frac{2}{\\sqrt{2}}=2$.</p><p>设 $D$ 为 $AB$ 的中点，则中线公式给出</p>\n$$\nCD^{2}=\\frac{2a^{2}+2b^{2}-c^{2}}{4}=\\frac{2(3\\sqrt{2})^{2}+2(\\sqrt{10})^{2}-2^{2}}{4}=13\n$$\n<p>所以 $CD=\\sqrt{13}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "若等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $S_{4} = 1$，$S_{8} = 17$，求 $\\{a_{n}\\}$ 的通项公式.",
-          "choices": [],
+          "body": "若等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $S_{4}= 1$，$S_{8}= 17$，求 $\\{a_{n}\\}$ 的通项公式.",
+          "choices": null,
           "answer": "",
-          "solution": "设等比数列的首项为 $a_1$，公比为 $q$.若 $q=1$，则 $S_8=2S_4=2$，与 $S_8=17$ 矛盾，所以 $q\\ne1$.由等比数列前 $n$ 项和公式，\r\n\n$$\nS_4=\\frac{a_1(1-q^4)}{1-q}=1\n$$\n\r\n\n$$\nS_8=\\frac{a_1(1-q^8)}{1-q}=17\n$$\n\r\n又 $S_8=S_4+q^4S_4$，故\r\n\n$$\n1+q^4=17\n$$\n\r\n所以 $q^4=16$.\r\n因此 $q=2$ 或 $q=-2$.\r\n\r\n当 $q=2$ 时，由 $S_4=a_1(1+2+4+8)=15a_1=1$，得 $a_1=\\frac1{15}$，所以\r\n\n$$\na_n=a_1q^{n-1}=\\frac{2^{n-1}}{15}\n$$\n\r\n\r\n当 $q=-2$ 时，由 $S_4=a_1(1-2+4-8)=-5a_1=1$，得 $a_1=-\\frac15$，所以\r\n\n$$\na_n=a_1q^{n-1}=-\\frac{(-2)^{n-1}}5=\\frac{(-1)^n2^{n-1}}5\n$$\n\r\n故数列通项为上述两种情形之一.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q$.若 $q=1$，则 $S_{8}=2S_{4}=2$，与 $S_{8}=17$ 矛盾，所以 $q\\ne1$.由等比数列前 $n$ 项和公式，</p>\n$$\nS_{4}=\\frac{a_{1}(1-q^{4})}{1-q}=1\n$$\n\n$$\nS_{8}=\\frac{a_{1}(1-q^{8})}{1-q}=17\n$$\n<p>又 $S_{8}=S_{4}+q^{4}S_{4}$，故</p>\n$$\n1+q^{4}=17\n$$\n<p>所以 $q^{4}=16$.</p><p>因此 $q=2$ 或 $q=-2$.</p><p>当 $q=2$ 时，由 $S_{4}=a_{1}(1+2+4+8)=15a_{1}=1$，得 $a_{1}=\\frac{1}{15}$，所以</p>\n$$\na_{n}=a_{1}q^{n-1}=\\frac{2^{n-1}}{15}\n$$\n<p>当 $q=-2$ 时，由 $S_{4}=a_{1}(1-2+4-8)=-5a_{1}=1$，得 $a_{1}=-\\frac{1}{5}$，所以</p>\n$$\na_{n}=a_{1}q^{n-1}=-\\frac{(-2)^{n-1}}{5}=\\frac{(-1)^{n}2^{n-1}}{5}\n$$\n<p>故数列通项为上述两种情形之一.</p>"
         },
         {
           "num": 19,
-          "body": "某批产品成箱包装，每箱$5\\text{ 件}$，一用户在购进该批产品前先取出$3\\text{ 箱}$，再从每箱中任意取出$2\\text{ 件}$产品进行检验. 设取出的第一，二，三箱中分别有$0\\text{ 件}$，$1\\text{ 件}$，$2\\text{ 件}$二等品，其余为一等品.\r\n\r\n\n(1) 求抽检的$6\\text{ 件}$产品中恰有一件二等品的概率.\n\n(2) 若抽检的$6\\text{ 件}$产品中有$2\\text{ 件}$或$2\\text{ 件以上}$二等品，用户就拒绝购买这批产品，求这批产品被用户拒绝购买的概率.",
-          "choices": [],
+          "body": "<p>某批产品成箱包装，每箱$5\\text{ 件}$，一用户在购进该批产品前先取出$3\\text{ 箱}$，再从每箱中任意取出$2\\text{ 件}$产品进行检验. 设取出的第一，二，三箱中分别有$0\\text{ 件}$，$1\\text{ 件}$，$2\\text{ 件}$二等品，其余为一等品.</p><ol class=\"enumerate\"><li><p>求抽检的$6\\text{ 件}$产品中恰有一件二等品的概率.</p></li><li><p>若抽检的$6\\text{ 件}$产品中有$2\\text{ 件}$或$2\\text{ 件以上}$二等品，用户就拒绝购买这批产品，求这批产品被用户拒绝购买的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设从第$2$箱抽出的二等品数为 $X$，从第$3$箱抽出的二等品数为 $Y$.第$2$箱有 $1\\text{ 件}$二等品、$4\\text{ 件}$一等品，抽取 $2\\text{ 件}$，所以\r\n\n$$\nP(X=0)=\\frac{\\mathrm C_{4}^{2}}{\\mathrm C_{5}^{2}}=\\frac35\n$$\n\r\n\n$$\nP(X=1)=\\frac{\\mathrm C_{1}^{1}\\mathrm C_{4}^{1}}{\\mathrm C_{5}^{2}}=\\frac25\n$$\n\r\n第$3$箱有 $2\\text{ 件}$二等品、$3\\text{ 件}$一等品，所以\r\n\n$$\nP(Y=0)=\\frac{\\mathrm C_{3}^{2}}{\\mathrm C_{5}^{2}}=\\frac3{10}\n$$\n\r\n\n$$\nP(Y=1)=\\frac{\\mathrm C_{2}^{1}\\mathrm C_{3}^{1}}{\\mathrm C_{5}^{2}}=\\frac35\n$$\n\r\n\n$$\nP(Y=2)=\\frac{\\mathrm C_{2}^{2}}{\\mathrm C_{5}^{2}}=\\frac1{10}\n$$\n\r\n第一箱没有二等品，故抽检的二等品总数为 $\\xi=X+Y$.于是\r\n\n$$\nP(\\xi=0)=P(X=0,Y=0)=\\frac35\\cdot\\frac3{10}=\\frac9{50}\n$$\n\r\n\n$$\nP(\\xi=1)=P(X=0,Y=1)+P(X=1,Y=0)\r\n=\\frac35\\cdot\\frac35+\\frac25\\cdot\\frac3{10}=\\frac{12}{25}\n$$\n\r\n\n$$\nP(\\xi=2)=P(X=0,Y=2)+P(X=1,Y=1)\r\n=\\frac35\\cdot\\frac1{10}+\\frac25\\cdot\\frac35=\\frac3{10}\n$$\n\r\n\n$$\nP(\\xi=3)=P(X=1,Y=2)=\\frac25\\cdot\\frac1{10}=\\frac1{25}\n$$\n\r\n这些概率之和为 $1$，所以抽检的 $6\\text{ 件}$产品中恰有一件二等品的概率为 $\\frac{12}{25}$.\n\n(2) 用户拒绝购买当且仅当 $\\xi\\ge2$，所以拒绝购买的概率为\r\n\n$$\nP(\\xi\\ge2)=P(\\xi=2)+P(\\xi=3)=\\frac3{10}+\\frac1{25}=\\frac{17}{50}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设从第$2$箱抽出的二等品数为 $X$，从第$3$箱抽出的二等品数为 $Y$.第$2$箱有 $1\\text{ 件}$二等品、$4\\text{ 件}$一等品，抽取 $2\\text{ 件}$，所以</p>\n$$\nP(X=0)=\\frac{\\mathrm{C}_{4}^{2}}{\\mathrm{C}_{5}^{2}}=\\frac{3}{5}\n$$\n\n$$\nP(X=1)=\\frac{\\mathrm{C}_{1}^{1}\\mathrm{C}_{4}^{1}}{\\mathrm{C}_{5}^{2}}=\\frac{2}{5}\n$$\n<p>第$3$箱有 $2\\text{ 件}$二等品、$3\\text{ 件}$一等品，所以</p>\n$$\nP(Y=0)=\\frac{\\mathrm{C}_{3}^{2}}{\\mathrm{C}_{5}^{2}}=\\frac{3}{10}\n$$\n\n$$\nP(Y=1)=\\frac{\\mathrm{C}_{2}^{1}\\mathrm{C}_{3}^{1}}{\\mathrm{C}_{5}^{2}}=\\frac{3}{5}\n$$\n\n$$\nP(Y=2)=\\frac{\\mathrm{C}_{2}^{2}}{\\mathrm{C}_{5}^{2}}=\\frac{1}{10}\n$$\n<p>第一箱没有二等品，故抽检的二等品总数为 $\\xi=X+Y$.于是</p>\n$$\nP(\\xi=0)=P(X=0,Y=0)=\\frac{3}{5}\\cdot\\frac{3}{10}=\\frac{9}{50}\n$$\n\n$$\nP(\\xi=1)=P(X=0,Y=1)+P(X=1,Y=0)  =\\frac{3}{5}\\cdot\\frac{3}{5}+\\frac{2}{5}\\cdot\\frac{3}{10}=\\frac{12}{25}\n$$\n\n$$\nP(\\xi=2)=P(X=0,Y=2)+P(X=1,Y=1)  =\\frac{3}{5}\\cdot\\frac{1}{10}+\\frac{2}{5}\\cdot\\frac{3}{5}=\\frac{3}{10}\n$$\n\n$$\nP(\\xi=3)=P(X=1,Y=2)=\\frac{2}{5}\\cdot\\frac{1}{10}=\\frac{1}{25}\n$$\n<p>这些概率之和为 $1$，所以抽检的 $6\\text{ 件}$产品中恰有一件二等品的概率为 $\\frac{12}{25}$.</p></li><li><p>用户拒绝购买当且仅当 $\\xi\\ge2$，所以拒绝购买的概率为</p>\n$$\nP(\\xi\\ge2)=P(\\xi=2)+P(\\xi=3)=\\frac{3}{10}+\\frac{1}{25}=\\frac{17}{50}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = BC$，$D$，$E$ 分别为 $BB_{1}$，$AC_{1}$ 的中点.\r\n\r\n\n(1) 证明：$ED$ 为异面直线 $BB_{1}$ 与 $AC_{1}$ 的公垂线.\n\n(2) 设 $AA_{1} = AC = \\sqrt{2} AB$，求二面角 $A_{1} - AD - C_{1}$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/national_paper_2_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = BC$，$D$，$E$ 分别为 $BB_{1}$，$AC_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$ED$ 为异面直线 $BB_{1}$ 与 $AC_{1}$ 的公垂线.</p></li><li><p>设 $AA_{1}= AC = \\sqrt{2}AB$，求二面角 $A_{1}- AD - C_{1}$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_2_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $\\overrightarrow{BA}=\\mathbf{u}$，$\\overrightarrow{BC}=\\mathbf{v}$，$\\overrightarrow{BB_{1}}=\\mathbf{w}$.由于是直三棱柱，$\\mathbf{w}\\perp\\mathbf{u}$，$\\mathbf{w}\\perp\\mathbf{v}$；又 $AB=BC$，所以 $|\\mathbf{u}|=|\\mathbf{v}|$.取 $B$ 为原点，则 $A=\\mathbf{u}$，$C=\\mathbf{v}$，$B_{1}=\\mathbf{w}$，$A_{1}=\\mathbf{u}+\\mathbf{w}$，$C_{1}=\\mathbf{v}+\\mathbf{w}$.\r\n由中点公式，$D=\\frac{\\mathbf{w}}{2}$，$E=\\frac{\\mathbf{u}+\\mathbf{v}+\\mathbf{w}}{2}$，\r\n所以\r\n\n$$\n\\overrightarrow{DE}=\\frac{\\mathbf{u}+\\mathbf{v}}{2}\n$$\n\r\n于是\r\n\n$$\n\\overrightarrow{DE}\\cdot\\overrightarrow{BB_{1}}\r\n=\\frac{\\mathbf{u}+\\mathbf{v}}{2}\\cdot\\mathbf{w}=0\n$$\n\r\n又\r\n\n$$\n\\overrightarrow{DE}\\cdot\\overrightarrow{AC_{1}}\r\n=\\frac{\\mathbf{u}+\\mathbf{v}}{2}\\cdot(\\mathbf{v}+\\mathbf{w}-\\mathbf{u})\r\n=\\frac{|\\mathbf{v}|^{2}-|\\mathbf{u}|^{2}}{2}=0\n$$\n\r\n因此 $ED\\perp BB_{1}$，且 $ED\\perp AC_{1}$.由于 $D\\in BB_{1}$，$E\\in AC_{1}$，所以 $ED$ 是两异面直线 $BB_{1}$ 与 $AC_{1}$ 的公垂线.\n\n(2) 令 $AB=BC=s>0$.由 $AC=\\sqrt2s$ 及余弦定理，\r\n\n$$\n(\\sqrt2s)^{2}=s^{2}+s^{2}-2s^{2}\\cos\\angle ABC\n$$\n\r\n故 $\\cos\\angle ABC=0$，即 $\\angle ABC=90^{\\circ}$.建立直角坐标系，取\r\n$A=(0,0,0)$，$B=(s,0,0)$，$C=(s,s,0)$.\r\n又 $AA_{1}=\\sqrt2s$，故\r\n$A_{1}=(0,0,\\sqrt2s)$，$C_{1}=(s,s,\\sqrt2s)$，$D=\\left(s,0,\\frac{\\sqrt2s}{2}\\right)$.\r\n记\r\n$\\mathbf{d}=\\overrightarrow{AD}=\\left(s,0,\\frac{\\sqrt2s}{2}\\right)$，$\\mathbf{a}=\\overrightarrow{AA_{1}}=(0,0,\\sqrt2s)$，$\\mathbf{c}=\\overrightarrow{AC_{1}}=(s,s,\\sqrt2s)$.\r\n平面 $A_{1}AD$ 与平面 $C_{1}AD$ 的法向量可分别取\r\n\n$$\n\\mathbf{n}_{1}=\\mathbf{d}\\times\\mathbf{a}=(0,-\\sqrt2s^{2},0)\n$$\n\r\n\n$$\n\\mathbf{n}_{2}=\\mathbf{d}\\times\\mathbf{c}\r\n=\\left(-\\frac{\\sqrt2s^{2}}2,-\\frac{\\sqrt2s^{2}}2,s^{2}\\right)\n$$\n\r\n因此\r\n\n$$\n\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=s^{4}\n$$\n\r\n\n$$\n|\\mathbf{n}_{1}|=|\\mathbf{n}_{2}|=\\sqrt2s^{2}\n$$\n\r\n设二面角 $A_{1}-AD-C_{1}$ 的平面角为 $\\theta$，取锐角，则\r\n\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}\r\n=\\frac12\n$$\n\r\n所以 $\\theta=60^{\\circ}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $\\overrightarrow{BA}=\\mathbf{u}$，$\\overrightarrow{BC}=\\mathbf{v}$，$\\overrightarrow{BB_{1}}=\\mathbf{w}$.由于是直三棱柱，$\\mathbf{w}\\perp\\mathbf{u}$，$\\mathbf{w}\\perp\\mathbf{v}$；又 $AB=BC$，所以 $|\\mathbf{u}|=|\\mathbf{v}|$.取 $B$ 为原点，则 $A=\\mathbf{u}$，$C=\\mathbf{v}$，$B_{1}=\\mathbf{w}$，$A_{1}=\\mathbf{u}+\\mathbf{w}$，$C_{1}=\\mathbf{v}+\\mathbf{w}$.</p><p>由中点公式，$D=\\frac{\\mathbf{w}}{2}$，$E=\\frac{\\mathbf{u}+\\mathbf{v}+\\mathbf{w}}{2}$，</p><p>所以</p>\n$$\n\\overrightarrow{DE}=\\frac{\\mathbf{u}+\\mathbf{v}}{2}\n$$\n<p>于是</p>\n$$\n\\overrightarrow{DE}\\cdot\\overrightarrow{BB_{1}}=\\frac{\\mathbf{u}+\\mathbf{v}}{2}\\cdot\\mathbf{w}=0\n$$\n<p>又</p>\n$$\n\\overrightarrow{DE}\\cdot\\overrightarrow{AC_{1}}=\\frac{\\mathbf{u}+\\mathbf{v}}{2}\\cdot(\\mathbf{v}+\\mathbf{w}-\\mathbf{u})  =\\frac{|\\mathbf{v}|^{2}-|\\mathbf{u}|^{2}}{2}=0\n$$\n<p>因此 $ED\\perp BB_{1}$，且 $ED\\perp AC_{1}$.由于 $D\\in BB_{1}$，$E\\in AC_{1}$，所以 $ED$ 是两异面直线 $BB_{1}$ 与 $AC_{1}$ 的公垂线.</p></li><li><p>令 $AB=BC=s>0$.由 $AC=\\sqrt{2}s$ 及余弦定理，</p>\n$$\n(\\sqrt{2}s)^{2}=s^{2}+s^{2}-2s^{2}\\cos\\angle ABC\n$$\n<p>故 $\\cos\\angle ABC=0$，即 $\\angle ABC=90^{\\circ}$.建立直角坐标系，取</p><p>$A=(0,0,0)$，$B=(s,0,0)$，$C=(s,s,0)$.</p><p>又 $AA_{1}=\\sqrt{2}s$，故</p><p>$A_{1}=(0,0,\\sqrt{2}s)$，$C_{1}=(s,s,\\sqrt{2}s)$，$D=\\left(s,0,\\frac{\\sqrt{2}s}{2}\\right)$.</p><p>记</p><p>$\\mathbf{d}=\\overrightarrow{AD}=\\left(s,0,\\frac{\\sqrt{2}s}{2}\\right)$，$\\mathbf{a}=\\overrightarrow{AA_{1}}=(0,0,\\sqrt{2}s)$，$\\mathbf{c}=\\overrightarrow{AC_{1}}=(s,s,\\sqrt{2}s)$.</p><p>平面 $A_{1}AD$ 与平面 $C_{1}AD$ 的法向量可分别取</p>\n$$\n\\mathbf{n}_{1}=\\mathbf{d}\\times\\mathbf{a}=(0,-\\sqrt{2}s^{2},0)\n$$\n\n$$\n\\mathbf{n}_{2}=\\mathbf{d}\\times\\mathbf{c}=\\left(-\\frac{\\sqrt{2}s^{2}}{2},-\\frac{\\sqrt{2}s^{2}}{2},s^{2}\\right)\n$$\n<p>因此</p>\n$$\n\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=s^{4}\n$$\n\n$$\n|\\mathbf{n}_{1}|=|\\mathbf{n}_{2}|=\\sqrt{2}s^{2}\n$$\n<p>设二面角 $A_{1}-AD-C_{1}$ 的平面角为 $\\theta$，取锐角，则</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{1}{2}\n$$\n<p>所以 $\\theta=60^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知 $a \\in \\mathbb{R}$，二次函数 $f(x) = ax^2 - 2x - 2a$. 设不等式 $f(x) > 0$ 的解集为 $A$，又知集合 $B = \\{x \\mid 1 < x < 3\\}$. 若 $A \\cap B \\neq \\emptyset$，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "已知 $a \\in \\mathbb{R}$，二次函数 $f(x) = ax^{2} - 2x - 2a$. 设不等式 $f(x) > 0$ 的解集为 $A$，又知集合 $B = \\{x \\mid 1 &#x3C; x &#x3C; 3\\}$. 若 $A \\cap B \\neq \\emptyset$，求 $a$ 的取值范围.",
+          "choices": null,
           "answer": "",
-          "solution": "条件 $A\\cap B\\ne\\emptyset$ 等价于存在 $x\\in(1,3)$，使\r\n\n$$\nf(x)=a(x^{2}-2)-2x>0\n$$\n\r\n分情况讨论 $x^{2}-2$ 的符号.\r\n\r\n当 $1<x<\\sqrt2$ 时，$x^{2}-2<0$，不等式等价于\r\n\n$$\na<\\frac{2x}{x^{2}-2}\n$$\n\r\n令 $h(x)=\\frac{2x}{x^{2}-2}$，则\r\n\n$$\nh'(x)=\\frac{-2(x^{2}+2)}{(x^{2}-2)^{2}}<0\n$$\n\r\n因此 $h(x)$ 在 $(1,\\sqrt2)$ 上递减，并且\r\n\n$$\n\\lim_{x\\to1^{+}}h(x)=-2\n$$\n\r\n\n$$\n\\lim_{x\\to\\sqrt2^{-}}h(x)=-\\infty\n$$\n\r\n所以此区间内存在满足不等式的 $x$，当且仅当 $a<-2$.\r\n\r\n当 $x=\\sqrt2$ 时，$f(x)=-2\\sqrt2<0$，不满足条件.\r\n\r\n当 $\\sqrt2<x<3$ 时，$x^{2}-2>0$，不等式等价于\r\n\n$$\na>\\frac{2x}{x^{2}-2}=h(x)\n$$\n\r\n函数 $h(x)$ 仍然递减，且\r\n\n$$\n\\lim_{x\\to\\sqrt2^{+}}h(x)=+\\infty\n$$\n\r\n\n$$\n\\lim_{x\\to3^{-}}h(x)=\\frac67\n$$\n\r\n故此区间内存在满足不等式的 $x$，当且仅当 $a>\\frac67$.\r\n\r\n综上，$a$ 的取值范围为\r\n\n$$\na\\in(-\\infty,-2)\\cup\\left(\\frac67,+\\infty\\right)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>条件 $A\\cap B\\ne\\emptyset$ 等价于存在 $x\\in(1,3)$，使</p>\n$$\nf(x)=a(x^{2}-2)-2x>0\n$$\n<p>分情况讨论 $x^{2}-2$ 的符号.</p><p>当 $1&#x3C;x&#x3C;\\sqrt{2}$ 时，$x^{2}-2&#x3C;0$，不等式等价于</p>\n$$\na&#x3C;\\frac{2x}{x^{2}-2}\n$$\n<p>令 $h(x)=\\frac{2x}{x^{2}-2}$，则</p>\n$$\nh'(x)=\\frac{-2(x^{2}+2)}{(x^{2}-2)^{2}}&#x3C;0\n$$\n<p>因此 $h(x)$ 在 $(1,\\sqrt{2})$ 上递减，并且</p>\n$$\n\\lim_{x\\to1^{+}}h(x)=-2\n$$\n\n$$\n\\lim_{x\\to\\sqrt{2}^{-}}h(x)=-\\infty\n$$\n<p>所以此区间内存在满足不等式的 $x$，当且仅当 $a&#x3C;-2$.</p><p>当 $x=\\sqrt{2}$ 时，$f(x)=-2\\sqrt{2}&#x3C;0$，不满足条件.</p><p>当 $\\sqrt{2}&#x3C;x&#x3C;3$ 时，$x^{2}-2>0$，不等式等价于</p>\n$$\na>\\frac{2x}{x^{2}-2}=h(x)\n$$\n<p>函数 $h(x)$ 仍然递减，且</p>\n$$\n\\lim_{x\\to\\sqrt{2}^{+}}h(x)=+\\infty\n$$\n\n$$\n\\lim_{x\\to3^{-}}h(x)=\\frac{6}{7}\n$$\n<p>故此区间内存在满足不等式的 $x$，当且仅当 $a>\\frac{6}{7}$.</p><p>综上，$a$ 的取值范围为</p>\n$$\na\\in(-\\infty,-2)\\cup\\left(\\frac{6}{7},+\\infty\\right)\n$$"
         },
         {
           "num": 22,
-          "body": "已知抛物线 $x^{2} = 4y$ 的焦点为 $F$，$A$，$B$ 是抛物线上的两动点，且 $\\overrightarrow{AF} = \\lambda \\overrightarrow{FB}$（$\\lambda > 0$）. 过 $A$，$B$ 两点分别作抛物线的切线，设其交点为 $M$.\r\n\r\n\n(1) 证明 $\\overrightarrow{FM} \\cdot \\overrightarrow{AB}$ 为定值.\n\n(2) 设 $\\triangle ABM$ 的面积为 $S$，写出 $S = f(\\lambda)$ 的表达式，并求 $S$ 的最小值.",
-          "choices": [],
+          "body": "<p>已知抛物线 $x^{2}= 4y$ 的焦点为 $F$，$A$，$B$ 是抛物线上的两动点，且 $\\overrightarrow{AF}= \\lambda \\overrightarrow{FB}$（$\\lambda > 0$）. 过 $A$，$B$ 两点分别作抛物线的切线，设其交点为 $M$.</p><ol class=\"enumerate\"><li><p>证明 $\\overrightarrow{FM}\\cdot \\overrightarrow{AB}$ 为定值.</p></li><li><p>设 $\\triangle ABM$ 的面积为 $S$，写出 $S = f(\\lambda)$ 的表达式，并求 $S$ 的最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $A=(u,\\tfrac{u^{2}}4)$，$B=(v,\\tfrac{v^{2}}4)$，$F=(0,1)$.\r\n由 $\\overrightarrow{AF}=\\lambda\\overrightarrow{FB}$，得\r\n\n$$\n\\left(-u,1-\\frac{u^{2}}4\\right)\r\n=\\lambda\\left(v,\\frac{v^{2}}4-1\\right)\n$$\n\r\n比较横坐标，得 $u+\\lambda v=0$，即 $v=-\\frac{u}{\\lambda}$.代入纵坐标关系，得\r\n\n$$\n1-\\frac{u^{2}}4=\\frac{u^{2}}{4\\lambda}-\\lambda\n$$\n\r\n整理并利用 $\\lambda>0$，得\r\n\n$$\n(1+\\lambda)\\left(1-\\frac{u^{2}}{4\\lambda}\\right)=0\n$$\n\r\n所以 $u^{2}=4\\lambda$，从而 $v^{2}=\\frac{4}{\\lambda}$，$uv=-4$.\r\n\r\n抛物线 $x^{2}=4y$ 在参数点 $(t,\\frac{t^{2}}4)$ 处的切线方程为\r\n\n$$\ny=\\frac t2x-\\frac{t^{2}}4\n$$\n\r\n两条切线对应 $t=u$ 和 $t=v$，联立得交点\r\n\n$$\nM=\\left(\\frac{u+v}{2},\\frac{uv}{4}\\right)\r\n=\\left(\\frac{u+v}{2},-1\\right)\n$$\n\r\n于是\r\n\n$$\n\\overrightarrow{FM}=\\left(\\frac{u+v}{2},-2\\right)\n$$\n\r\n而\r\n\n$$\n\\overrightarrow{AB}\r\n=\\left(v-u,\\frac{v^{2}-u^{2}}4\\right)\r\n=\\left(v-u,\\frac{(v-u)(u+v)}4\\right)\n$$\n\r\n因此\r\n\n$$\n\\overrightarrow{FM}\\cdot\\overrightarrow{AB}\r\n=(v-u)\\left(\\frac{u+v}{2}-\\frac{u+v}{2}\\right)=0\n$$\n\r\n故该点积为定值 $0$.\n\n(2) 由\r\n\n$$\n\\overrightarrow{AB}\r\n=\\left(v-u,\\frac{(v-u)(u+v)}4\\right)\n$$\n\r\n\n$$\n\\overrightarrow{AM}\r\n=\\left(\\frac{v-u}{2},\\frac{u(v-u)}4\\right)\n$$\n\r\n得\r\n\n$$\n2S=\\left|\\det(\\overrightarrow{AB},\\overrightarrow{AM})\\right|\r\n=\\left|\\frac{(v-u)^{2}u}{4}\r\n-\\frac{(v-u)^{2}(u+v)}8\\right|\r\n=\\left|\\frac{(v-u)^{2}(2u-u-v)}8\\right|\r\n=\\frac{|v-u|^{3}}8\n$$\n\r\n所以\r\n\n$$\nS=\\frac{|v-u|^{3}}{16}\n$$\n\r\n又 $u^{2}=4\\lambda$，$v=-\\frac{u}{\\lambda}$，故\r\n\n$$\n|v-u|=|u|\\left(1+\\frac{1}{\\lambda}\\right)\r\n=2\\sqrt\\lambda\\left(1+\\frac{1}{\\lambda}\\right)\r\n=2\\left(\\sqrt\\lambda+\\frac1{\\sqrt\\lambda}\\right)\n$$\n\r\n因此 $S=f(\\lambda)=\\frac12\\left(\\sqrt\\lambda+\\frac1{\\sqrt\\lambda}\\right)^{3}$，且 $\\lambda>0$.\r\n由均值不等式，\r\n\n$$\n\\sqrt\\lambda+\\frac1{\\sqrt\\lambda}\\ge2\n$$\n\r\n等号当且仅当 $\\lambda=1$.所以\r\n\n$$\nS\\ge\\frac12\\cdot2^{3}=4\n$$\n\r\n即 $S$ 的最小值为 $4$，此时 $\\lambda=1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $A=(u,\\tfrac{u^{2}}4)$，$B=(v,\\tfrac{v^{2}}4)$，$F=(0,1)$.</p><p>由 $\\overrightarrow{AF}=\\lambda\\overrightarrow{FB}$，得</p>\n$$\n\\left(-u,1-\\frac{u^{2}}{4}\\right)  =\\lambda\\left(v,\\frac{v^{2}}{4}-1\\right)\n$$\n<p>比较横坐标，得 $u+\\lambda v=0$，即 $v=-\\frac{u}{\\lambda}$.代入纵坐标关系，得</p>\n$$\n1-\\frac{u^{2}}{4}=\\frac{u^{2}}{4\\lambda}-\\lambda\n$$\n<p>整理并利用 $\\lambda>0$，得</p>\n$$\n(1+\\lambda)\\left(1-\\frac{u^{2}}{4\\lambda}\\right)=0\n$$\n<p>所以 $u^{2}=4\\lambda$，从而 $v^{2}=\\frac{4}{\\lambda}$，$uv=-4$.</p><p>抛物线 $x^{2}=4y$ 在参数点 $(t,\\frac{t^{2}}{4})$ 处的切线方程为</p>\n$$\ny=\\frac{t}{2}x-\\frac{t^{2}}{4}\n$$\n<p>两条切线对应 $t=u$ 和 $t=v$，联立得交点</p>\n$$\nM=\\left(\\frac{u+v}{2},\\frac{uv}{4}\\right)  =\\left(\\frac{u+v}{2},-1\\right)\n$$\n<p>于是</p>\n$$\n\\overrightarrow{FM}=\\left(\\frac{u+v}{2},-2\\right)\n$$\n<p>而</p>\n$$\n\\overrightarrow{AB}=\\left(v-u,\\frac{v^{2}-u^{2}}{4}\\right)  =\\left(v-u,\\frac{(v-u)(u+v)}{4}\\right)\n$$\n<p>因此</p>\n$$\n\\overrightarrow{FM}\\cdot\\overrightarrow{AB}=(v-u)\\left(\\frac{u+v}{2}-\\frac{u+v}{2}\\right)=0\n$$\n<p>故该点积为定值 $0$.</p></li><li><p>由</p>\n$$\n\\overrightarrow{AB}=\\left(v-u,\\frac{(v-u)(u+v)}{4}\\right)\n$$\n\n$$\n\\overrightarrow{AM}=\\left(\\frac{v-u}{2},\\frac{u(v-u)}{4}\\right)\n$$\n<p>得</p>\n$$\n2S=\\left|\\det(\\overrightarrow{AB},\\overrightarrow{AM})\\right|  =\\left|\\frac{(v-u)^{2}u}{4}-\\frac{(v-u)^{2}(u+v)}{8}\\right|  =\\left|\\frac{(v-u)^{2}(2u-u-v)}{8}\\right|  =\\frac{|v-u|^{3}}{8}\n$$\n<p>所以</p>\n$$\nS=\\frac{|v-u|^{3}}{16}\n$$\n<p>又 $u^{2}=4\\lambda$，$v=-\\frac{u}{\\lambda}$，故</p>\n$$\n|v-u|=|u|\\left(1+\\frac{1}{\\lambda}\\right)  =2\\sqrt{\\lambda}\\left(1+\\frac{1}{\\lambda}\\right)  =2\\left(\\sqrt{\\lambda}+\\frac{1}{\\sqrt{\\lambda}}\\right)\n$$\n<p>因此 $S=f(\\lambda)=\\frac{1}{2}\\left(\\sqrt{\\lambda}+\\frac{1}{\\sqrt{\\lambda}}\\right)^{3}$，且 $\\lambda>0$.</p><p>由均值不等式，</p>\n$$\n\\sqrt{\\lambda}+\\frac{1}{\\sqrt{\\lambda}}\\ge2\n$$\n<p>等号当且仅当 $\\lambda=1$.所以</p>\n$$\nS\\ge\\frac{1}{2}\\cdot2^{3}=4\n$$\n<p>即 $S$ 的最小值为 $4$，此时 $\\lambda=1$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

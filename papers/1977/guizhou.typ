@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,285 +11,441 @@
 #part-header("解答题")
 
 #problem(1)[
-将下式化成最简形式：$\sqrt[4]{a^(-2)b^3} dot \sqrt[3]{a^(4) b^(-2)}\div\sqrt[6]{a^(5) b^(-2)}$.
+将下式化成最简形式：#mi(`\sqrt[4]{a^{-2}b^{3}}\cdot\sqrt[3]{a^{4}b^{-2}}\div\sqrt[6]{a^{5}b^{-2}}`).
 ]
 
 #solution[
-在实数范围内，原式有意义且分母不为零时，因式中含有 $a^(-2)$ 和 $b^(-2)$，知 $a\n e q0$，$b\n e q0$. 四次根式要求 $a^(-2)b^3 >= 0$，从而 $b>0$；六次根式要求 $a^(5) b^(-2) >= 0$，从而 $a>0$. 因此可以使用正数幂的运算律，将各根式化为十二次根式，得
+在实数范围内，原式有意义且分母不为零时，因式中含有 #mi(`a^{-2}`) 和 #mi(`b^{-2}`)，知 #mi(`a\neq0`)，#mi(`b\neq0`). 四次根式要求 #mi(`a^{-2}b^{3}\geqslant0`)，从而 #mi(`b>0`)；六次根式要求 #mi(`a^{5}b^{-2}\geqslant0`)，从而 #mi(`a>0`). 因此可以使用正数幂的运算律，将各根式化为十二次根式，得
 
-$ \b e g i n{a l i g n e d} "原式"&=(\sqrt[12]{a^(-6){b}^9} dot \sqrt[12]{a^(16)b^(-8)})/(\sqrt[12]{a^(10)b^(-4)})\\ &=\sqrt[12]{(a^(-6){b}^9 dot a^(16)b^(-8))/(a^(10)b^(-4))} =\sqrt[12]{(a^(10){b})/(a^(10)b^(-4))} =root(12, b^5). \e n d{a l i g n e d} $
+
+#align(center)[#mitex(`
+\begin{aligned}\text{\text{原式}}
+
+&=\frac{\sqrt[12]{a^{-6}b^{9}}\cdot\sqrt[12]{a^{16}b^{-8}}}{\sqrt[12]{a^{10}b^{-4}}} \\
+
+&=\sqrt[12]{\frac{a^{-6}b^{9}\cdot a^{16}b^{-8}}{a^{10}b^{-4}}}
+
+=\sqrt[12]{\frac{a^{10}b}{a^{10}b^{-4}}}
+
+=\sqrt[12]{b^{5}}.\end{aligned}
+`)]
 ]
 
 #problem(2)[
-将下式化成最简形式：$log _2 cos (pi)/(4)- log _2 sin (pi)/(6)$.
+将下式化成最简形式：#mi(`\log_{2}\cos\frac{\pi}{4}-\log_{2}\sin\frac{\pi}{6}`).
 ]
 
 #solution[
-因为 $cos (pi)/(4)=(sqrt(2))/(2)=2^(-(1)/(2))>0$，$sin (pi)/(6)=(1)/(2)=2^(-1)>0$，所以两个对数都有意义. 代入对数的幂运算公式，得
+因为 #mi(`\cos\frac{\pi}{4}=\frac{\sqrt{2}}{2}=2^{-\frac{1}{2}}>0`)，#mi(`\sin\frac{\pi}{6}=\frac{1}{2}=2^{-1}>0`)，所以两个对数都有意义. 代入对数的幂运算公式，得
 
-$ "原式"= log _2 2^(-(1)/(2))- log _2 2^(-1) =-(1)/(2)-(-1)=(1)/(2) $
+
+#align(center)[#mitex(`
+\text{\text{原式}}=\log_{2} 2^{-\frac{1}{2}}-\log_{2} 2^{-1}=-\frac{1}{2}-(-1)=\frac{1}{2}
+`)]
 ]
 
 #problem(3)[
-已知 $tan alpha =(2 a b)/(a^2-b^2)$，求 $sin alpha$.
+已知 #mi(`\tan\alpha=\dfrac{2ab}{a^2-b^2}`)，求 #mi(`\sin\alpha`).
 ]
 
 #solution[
-由题意知 $a^2-b^2\n e q0$. 先由平方关系计算余弦的平方：
+由题意知 #mi(`a^{2}-b^{2}\neq0`). 先由平方关系计算余弦的平方：
 
-$ \b e g i n{a l i g n e d} cos ""^2 alpha &=(1)/(1+ tan ""^2 alpha)=(1)/(1+(4 a^(2) b^2)/((a^2-b^2)^2))\\ &=((a^2-b^2)^2)/((a^2-b^2)^2+4 a^(2) b^2)=((a^2-b^2)^2)/((a^2+b^2)^2). \e n d{a l i g n e d} $
 
-由于 $a^2+b^2>0$，可写成
-$cos alpha =\v a r e p s i l o n(a^2-b^2)/(a^2+b^2)$，$\v a r e p s i l o n in \{1,-1\}$.
+#align(center)[#mitex(`
+\begin{aligned}\cos^{2}\alpha&=\frac{1}{1+\tan^2\alpha}=\frac{1}{1+\dfrac{4a^2b^2}{(a^2-b^2)^2}}\\&=\frac{(a^2-b^2)^2}{(a^2-b^2)^2+4a^2b^2}=\frac{(a^2-b^2)^2}{(a^2+b^2)^2}.\end{aligned}
+`)]
+
+
+由于 #mi(`a^{2}+b^{2}>0`)，可写成
+
+#mi(`\cos\alpha=\varepsilon\frac{a^{2}-b^{2}}{a^{2}+b^{2}}`)，#mi(`\varepsilon\in\{1,-1\}`).
+
 于是
 
-$ sin alpha = tan alpha cos alpha =(2 a b)/(a^2-b^2) dot \v a r e p s i l o n(a^2-b^2)/(a^2+b^2)=\v a r e p s i l o n(2 a b)/(a^2+b^2) $
 
-因此，在未给出 $alpha$ 所在象限时，$sin alpha = +- (2 a b)/(a^2+b^2)$；若已知象限，则按象限确定正负号.
+#align(center)[#mitex(`
+\sin\alpha=\tan\alpha\cos\alpha  =\frac{2ab}{a^{2}-b^{2}}\cdot\varepsilon\frac{a^{2}-b^{2}}{a^{2}+b^{2}}=\varepsilon\frac{2ab}{a^{2}+b^{2}}
+`)]
+
+
+因此，在未给出 #mi(`\alpha`) 所在象限时，#mi(`\sin\alpha=\pm\dfrac{2ab}{a^2+b^2}`)；若已知象限，则按象限确定正负号.
 ]
 
 #problem(4)[
-已知 $m+(1)/(m)=2$，求
+已知 #mi(`m+\dfrac{1}{m}=2`)，求
 
 
-+ (1) $m^2+(1)/(m^2)=?$；
-+ (2) $m^3+(1)/(m^3)=?$.
++ (1)
 ]
 
 #solution[
-因为分式有意义，所以 $m\n e q0$. 将已知等式乘以 $m$，得
+因为分式有意义，所以 #mi(`m\neq0`). 将已知等式乘以 #mi(`m`)，得
 
-$ m^2-2 m+1=0 $
 
-即 $(m-1)^2=0$，所以 $m=1$. 因而
+#align(center)[#mitex(`
+m^{2}-2m+1=0
+`)]
 
-+ (1) $m^2+(1)/(m^2)=1^2+(1)/(1^2)=2$；
-+ (2) $m^3+(1)/(m^3)=1^3+(1)/(1^3)=2$.
+
+即 #mi(`(m-1)^{2}=0`)，所以 #mi(`m=1`). 因而
+
+
++ (1)
 ]
 
 #problem(5)[
-以直角三角形 $A B C$ 的一直角边 $A B$ 为直径作圆，此圆与斜边 $A C$ 交于 $D$，过 $D$ 引圆的切线交 $B C$ 于 $E$. 试证 $E B=C E$.
+以直角三角形 #mi(`ABC`) 的一直角边 #mi(`AB`) 为直径作圆，此圆与斜边 #mi(`AC`) 交于 #mi(`D`)，过 #mi(`D`) 引圆的切线交 #mi(`BC`) 于 #mi(`E`). 试证 #mi(`EB=CE`).
 
-
-#align(center)[#image("/papers/1977/img/guizhou/q5_fig1.png", width: 5.8cm)]
+[max width=5.8cm]img/1977/guizhou/q5_fig1.png
 ]
 
 #solution[
-连接 $B D$. 因为 $A B$ 是圆的直径且 $D$ 在圆上，由圆周角定理，$angle A D B=90^ degree$. 又因 $A$，$D$，$C$ 共线，所以 $angle C D B=90^ degree$.
+连接 #mi(`BD`). 因为 #mi(`AB`) 是圆的直径且 #mi(`D`) 在圆上，由圆周角定理，#mi(`\angle ADB=90^{\circ}`). 又因 #mi(`A`)，#mi(`D`)，#mi(`C`) 共线，所以 #mi(`\angle CDB=90^{\circ}`).
 
-由 $angle A B C=90^ degree$，知 $A B bot B C$. 圆心在直径 $A B$ 的中点上，故半径在 $B$ 点与直线 $B C$ 垂直，$B E$ 是圆在 $B$ 点的切线. 题设中的 $D E$ 也是切线，因此从圆外一点 $E$ 引圆的两条切线，切线段相等，即
+由 #mi(`\angle ABC=90^{\circ}`)，知 #mi(`AB\perp BC`). 圆心在直径 #mi(`AB`) 的中点上，故半径在 #mi(`B`) 点与直线 #mi(`BC`) 垂直，#mi(`BE`) 是圆在 #mi(`B`) 点的切线. 题设中的 #mi(`DE`) 也是切线，因此从圆外一点 #mi(`E`) 引圆的两条切线，切线段相等，即
 
-$ E D=E B $
 
-于是三角形 $E D B$ 为等腰三角形，设
+#align(center)[#mitex(`
+ED=EB
+`)]
 
-$ angle E D B= angle D B E= delta $
 
-再设 $angle C D E= gamma$，$angle D C E= eta$. 由于 $angle C D B=90^ degree$，有 $gamma + delta =90^ degree$；由于 $C$，$E$，$B$ 共线，且三角形 $C D B$ 在 $D$ 点直角，有 $eta + delta =90^ degree$. 因此 $gamma = eta$，三角形 $C D E$ 的两角相等，从而
+于是三角形 #mi(`EDB`) 为等腰三角形，设
 
-$ C E=E D $
 
-结合 $E D=E B$，得到 $E B=C E$.
+#align(center)[#mitex(`
+\angle EDB=\angle DBE=\delta
+`)]
+
+
+再设 #mi(`\angle CDE=\gamma`)，#mi(`\angle DCE=\eta`). 由于 #mi(`\angle CDB=90^{\circ}`)，有 #mi(`\gamma+\delta=90^{\circ}`)；由于 #mi(`C`)，#mi(`E`)，#mi(`B`) 共线，且三角形 #mi(`CDB`) 在 #mi(`D`) 点直角，有 #mi(`\eta+\delta=90^{\circ}`). 因此 #mi(`\gamma=\eta`)，三角形 #mi(`CDE`) 的两角相等，从而
+
+
+#align(center)[#mitex(`
+CE=ED
+`)]
+
+
+结合 #mi(`ED=EB`)，得到 #mi(`EB=CE`).
 ]
 
 #problem(6)[
-求到点 $A(1,2)$ 和点 $B(4,1)$ 等距离的点的轨迹方程.
+求到点 #mi(`A\left(1,2\right)`) 和点 #mi(`B\left(4,1\right)`) 等距离的点的轨迹方程.
 ]
 
 #solution[
-设动点为 $P(x,y)$. 由等距条件，
+设动点为 #mi(`P(x,y)`). 由等距条件，
 
-$ P A=P B $
+
+#align(center)[#mitex(`
+PA=PB
+`)]
+
 
 使用两点间距离公式，得
 
-$ sqrt((x-1)^2+(y-2)^2)=sqrt((x-4)^2+(y-1)^2) $
+
+#align(center)[#mitex(`
+\sqrt{(x-1)^{2}+(y-2)^{2}}=\sqrt{(x-4)^{2}+(y-1)^{2}}
+`)]
+
 
 两边均为非负数，可以平方，得到
 
-$ (x-1)^2+(y-2)^2=(x-4)^2+(y-1)^2 $
+
+#align(center)[#mitex(`
+(x-1)^{2}+(y-2)^{2}=(x-4)^{2}+(y-1)^{2}
+`)]
+
 
 展开并整理：
 
-$ x^2-2 x+1+y^2-4 y+4=x^2-8 x+16+y^2-2 y+1 $
 
-所以 $6 x-2 y-12=0$，即
+#align(center)[#mitex(`
+x^{2}-2x+1+y^{2}-4y+4=x^{2}-8x+16+y^{2}-2y+1
+`)]
 
-$ 3 x-y-6=0 $
 
-因此所求轨迹是直线 $3 x-y-6=0$，也可写成 $y=3 x-6$.
+所以 #mi(`6x-2y-12=0`)，即
+
+
+#align(center)[#mitex(`
+3x-y-6=0
+`)]
+
+
+因此所求轨迹是直线 #mi(`3x-y-6=0`)，也可写成 #mi(`y=3x-6`).
 ]
 
 #problem(7)[
-用长 $8~m$ 的木料做一矩形窗框，问长和宽如何选择，才能使窗子透过的光线最多？
+用长 #mi(`8\mathrm{~m}`) 的木料做一矩形窗框，问长和宽如何选择，才能使窗子透过的光线最多？
 ]
 
 #solution[
-设矩形窗子的宽为 $x~m$，长为 $y~m$，其中 $x>0$，$y>0$. 木料长度等于窗框周长，所以
-$2(x+y)=8$，$y=4-x$，$0<x<4$.
+设矩形窗子的宽为 #mi(`x\mathrm{~m}`)，长为 #mi(`y\mathrm{~m}`)，其中 #mi(`x>0`)，#mi(`y>0`). 木料长度等于窗框周长，所以
+
+#mi(`2(x+y)=8`)，#mi(`y=4-x`)，#mi(`0<x<4`).
+
 窗子透过的光线多少与窗子的面积成正比，故只需使面积
 
-$ S=x y=x(4-x)=-(x-2)^2+4 $
 
-最大. 因为 $-(x-2)^2 <= 0$，且当且仅当 $x=2$ 时取等号，所以 $S$ 的最大值为 $4~m^2$. 此时 $y=4-x=2$.
+#align(center)[#mitex(`
+S=xy=x(4-x)=-(x-2)^{2}+4
+`)]
 
-因此长和宽都应取 $2~m$，窗子为边长 $2~m$ 的正方形.
+
+最大. 因为 #mi(`-(x-2)^{2}\leqslant0`)，且当且仅当 #mi(`x=2`) 时取等号，所以 #mi(`S`) 的最大值为 #mi(`4\mathrm{~m^2}`). 此时 #mi(`y=4-x=2`).
+
+因此长和宽都应取 #mi(`2\mathrm{~m}`)，窗子为边长 #mi(`2\mathrm{~m}`) 的正方形.
 ]
 
 #problem(8)[
-求 $\lim\l i m i t s_(n -> oo ) sin a(1+ cos a+ cos ""^(2) a+ dots.c + cos ""^(n) a)$（其中 $a$ 为任意实常数，$0<a<(pi)/(2)$）.
+求 #mi(`\displaystyle\lim\limits_{n\to\infty}\sin a\left(1+\cos a+\cos^{2}a+\cdots+\cos^{n}a\right)`)（其中 #mi(`a`) 为任意实常数，#mi(`0<a<\dfrac{\pi}{2}`)）.
 ]
 
 #solution[
-由 $0<a<(pi)/(2)$，有 $0< cos a<1$. 对有限项等比数列求和，
+由 #mi(`0<a<\dfrac{\pi}{2}`)，有 #mi(`0<\cos a<1`). 对有限项等比数列求和，
 
-$ 1+ cos a+ cos ""^(2) a+ dots.c + cos ""^(n) a=(1- cos ""^(n+1){a})/(1- cos a) $
 
-由于 $0< cos a<1$，所以 $\lim\l i m i t s_(n -> oo ) cos ""^(n+1)a=0$. 因而
+#align(center)[#mitex(`
+1+\cos a+\cos^{2}a+\cdots+\cos^{n}a=\frac{1-\cos^{n+1}a}{1-\cos a}
+`)]
 
-$ \b e g i n{a l i g n e d} "原式"&=\lim\l i m i t s_(n -> oo )(sin a(1- cos ""^(n+1){a}))/(1- cos a)\\ &=(sin a)/(1- cos a)=(1+ cos a)/(sin a)= cot (a)/(2). \e n d{a l i g n e d} $
+
+由于 #mi(`0<\cos a<1`)，所以 #mi(`\displaystyle\lim\limits_{n\to\infty}\cos^{n+1}a=0`). 因而
+
+
+#align(center)[#mitex(`
+\begin{aligned}\text{\text{原式}}&=\lim\limits_{n\to\infty}\frac{\sin a\left(1-\cos^{n+1}a\right)}{1-\cos a}\\&=\frac{\sin a}{1-\cos a}=\frac{1+\cos a}{\sin a}=\cot\frac{a}{2}.\end{aligned}
+`)]
 ]
 
 #problem(9)[
-已知方程 $x^2+p x+q=0$ 的两个根为 $tan alpha$ 与 $tan beta$，求 $sin ""^2( alpha + beta )+p sin ( alpha + beta ) cos ( alpha + beta )+q cos ""^2( alpha + beta )$ 的值（其中 $p$，$q$ 为任意实常数）.
+已知方程 #mi(`x^{2}+px+q=0`) 的两个根为 #mi(`\tan\alpha`) 与 #mi(`\tan\beta`)，求 #mi(`\sin^{2}\left(\alpha+\beta\right)+p\sin\left(\alpha+\beta\right)\cos\left(\alpha+\beta\right)+q\cos^{2}\left(\alpha+\beta\right)`) 的值（其中 #mi(`p`)，#mi(`q`) 为任意实常数）.
 ]
 
 #solution[
-令 $u= tan alpha$，$v= tan beta$. 由根与系数的关系，
-$u+v=-p$，$u v=q$.
-记 $S= alpha + beta$. 先讨论 $q\n e q1$ 的情形. 因为 $tan alpha$ 与 $tan beta$ 有意义，$cos alpha cos beta \n e q0$，且
+令 #mi(`u=\tan\alpha`)，#mi(`v=\tan\beta`). 由根与系数的关系，
 
-$ cos S= cos alpha cos beta (1-u v)= cos alpha cos beta (1-q)\n e q0 $
+#mi(`u+v=-p`)，#mi(`uv=q`).
 
-故 $tan S$ 有意义，并且
+记 #mi(`S=\alpha+\beta`). 先讨论 #mi(`q\neq1`) 的情形. 因为 #mi(`\tan\alpha`) 与 #mi(`\tan\beta`) 有意义，#mi(`\cos\alpha\cos\beta\neq0`)，且
 
-$ tan S=(u+v)/(1-u v)=-(p)/(1-q) $
+
+#align(center)[#mitex(`
+\cos S=\cos\alpha\cos\beta(1-uv)=\cos\alpha\cos\beta(1-q)\neq0
+`)]
+
+
+故 #mi(`\tan S`) 有意义，并且
+
+
+#align(center)[#mitex(`
+\tan S=\frac{u+v}{1-uv}=-\frac{p}{1-q}
+`)]
+
 
 原式可写为
 
-$ cos ""^(2) S( tan ""^(2) S+p tan S+q) $
 
-又 $cos ""^(2) S=(1)/(1+ tan ""^(2) S)$，所以
+#align(center)[#mitex(`
+\cos^{2}S\left(\tan^{2}S+p\tan S+q\right)
+`)]
 
-$ "原式"=(tan ""^(2) S+p tan S+q)/(1+ tan ""^(2) S) $
 
-代入 $tan S=-(p)/(1-q)$，分子为
+又 #mi(`\cos^{2}S=\dfrac{1}{1+\tan^2S}`)，所以
 
-$ (p^2)/((1-q)^2)-(p^2)/(1-q)+q =(q(p^2+(1-q)^2))/((1-q)^2) $
+
+#align(center)[#mitex(`
+\text{\text{原式}}=\frac{\tan^{2}S+p\tan S+q}{1+\tan^{2}S}
+`)]
+
+
+代入 #mi(`\tan S=-\dfrac{p}{1-q}`)，分子为
+
+
+#align(center)[#mitex(`
+\frac{p^{2}}{(1-q)^{2}}-\frac{p^{2}}{1-q}+q  =\frac{q\left(p^{2}+(1-q)^{2}\right)}{(1-q)^{2}}
+`)]
+
 
 而分母为
 
-$ 1+(p^2)/((1-q)^2)=(p^2+(1-q)^2)/((1-q)^2) $
 
-由于 $q\n e q1$，有 $p^2+(1-q)^2>0$，所以约去相同因子后，原式等于 $q$.
+#align(center)[#mitex(`
+1+\frac{p^{2}}{(1-q)^{2}}=\frac{p^{2}+(1-q)^{2}}{(1-q)^{2}}
+`)]
 
-当 $q=1$ 时，$u v=1$，从而 $cos S= cos alpha cos beta (1-u v)=0$. 此时 $sin ""^(2) S=1$，且含有 $cos S$ 的另外两项均为零，所以原式仍为 $1=q$.
 
-综上，所求值为 $q$.
+由于 #mi(`q\neq1`)，有 #mi(`p^{2}+(1-q)^{2}>0`)，所以约去相同因子后，原式等于 #mi(`q`).
+
+当 #mi(`q=1`) 时，#mi(`uv=1`)，从而 #mi(`\cos S=\cos\alpha\cos\beta(1-uv)=0`). 此时 #mi(`\sin^{2}S=1`)，且含有 #mi(`\cos S`) 的另外两项均为零，所以原式仍为 #mi(`1=q`).
+
+综上，所求值为 #mi(`q`).
 ]
 
 #problem(10)[
-设有直线 $L$ 与曲线 $c$：$L:y=a x-1$，$c:r sin theta = sin 2 theta$. 问 $L$ 与 $c$ 在什么条件下相交，相切或不相交？
+设有直线 #mi(`L`) 与曲线 #mi(`c`)：#mi(`L:y=ax-1`)，#mi(`c:r\sin\theta=\sin2\theta`). 问 #mi(`L`) 与 #mi(`c`) 在什么条件下相交，相切或不相交？
 ]
 
 #solution[
-在非原点处，由极坐标与直角坐标的关系 $x=r cos theta$，$y=r sin theta$，$r^2=x^2+y^2$，原极坐标方程给出
-
-$ y=r sin theta =2 sin theta cos theta =(2 x y)/(x^2+y^2) $
-
-原点也满足原极坐标方程（取 $theta =0$）. 因此不能约去 $y$，否则会漏掉 $y=0$ 这一整支. 两边相乘并整理，得
-
-$ y(x^2+y^2-2 x)=0 $
-
-所以曲线 $c$ 是两部分的并集：
-$c_1:y=0$，$c_2:x^2+y^2-2 x=0, "即"(x-1)^2+y^2=1$.
-
-先考察直线 $L$ 与 $c_1$ 的关系. 当 $a=0$ 时，$L:y=-1$，它与 $c_1$ 不相交；当 $a\n e q0$ 时，令 $y=0$，得交点
-
-$ P((1)/(a),0) $
+在非原点处，由极坐标与直角坐标的关系 #mi(`x=r\cos\theta`)，#mi(`y=r\sin\theta`)，#mi(`r^{2}=x^{2}+y^{2}`)，原极坐标方程给出
 
 
-再考察直线 $L$ 与圆 $c_2$ 的关系. 代入圆方程，得
+#align(center)[#mitex(`
+y=r\sin\theta=2\sin\theta\cos\theta=\frac{2xy}{x^{2}+y^{2}}
+`)]
 
-$ (x-1)^2+(a x-1)^2=1 $
+
+原点也满足原极坐标方程（取 #mi(`\theta=0`)）. 因此不能约去 #mi(`y`)，否则会漏掉 #mi(`y=0`) 这一整支. 两边相乘并整理，得
+
+
+#align(center)[#mitex(`
+y\left(x^{2}+y^{2}-2x\right)=0
+`)]
+
+
+所以曲线 #mi(`c`) 是两部分的并集：
+
+#mi(`c_{1}:y=0`)，#mi(`c_{2}:x^{2}+y^{2}-2x=0,\qquad\text{\text{即}}\quad (x-1)^{2}+y^{2}=1`).
+
+先考察直线 #mi(`L`) 与 #mi(`c_{1}`) 的关系. 当 #mi(`a=0`) 时，#mi(`L:y=-1`)，它与 #mi(`c_{1}`) 不相交；当 #mi(`a\neq0`) 时，令 #mi(`y=0`)，得交点
+
+
+#align(center)[#mitex(`
+P\left(\frac{1}{a},0\right)
+`)]
+
+
+再考察直线 #mi(`L`) 与圆 #mi(`c_{2}`) 的关系. 代入圆方程，得
+
+
+#align(center)[#mitex(`
+(x-1)^{2}+(ax-1)^{2}=1
+`)]
+
 
 即
 
-$ (1+a^2)x^2-2(a+1)x+1=0 $
+
+#align(center)[#mitex(`
+(1+a^{2})x^{2}-2(a+1)x+1=0
+`)]
+
 
 其判别式为
 
-$ Delta =[-2(a+1)]^2-4(1+a^2)=8 a $
 
-因此，当 $a>0$ 时，直线与圆有两个交点；当 $a=0$ 时，直线与圆相切于 $(1,-1)$；当 $a<0$ 时，直线与圆没有交点.
+#align(center)[#mitex(`
+\Delta=\left[-2(a+1)\right]^{2}-4(1+a^{2})=8a
+`)]
+
+
+因此，当 #mi(`a>0`) 时，直线与圆有两个交点；当 #mi(`a=0`) 时，直线与圆相切于 #mi(`(1,-1)`)；当 #mi(`a<0`) 时，直线与圆没有交点.
 
 合并两部分可得：
 
-+ (1) 当 $a<0$ 时，$L$ 与 $c$ 在 $((1)/(a),0)$ 相交，且不与圆支相交；
-+ (2) 当 $a=0$ 时，$L$ 与 $c$ 相切于 $(1,-1)$；
-+ (3) 当 $a>0$ 时，$L$ 与圆支有两个交点，并且还与 $y=0$ 有交点 $((1)/(a),0)$. 当 $a=(1)/(2)$ 时，该点是圆支交点 $(2,0)$ 之一，故共有两个不同交点；当 $a>0$ 且 $a != (1)/(2)$ 时，共有三个不同交点.
 
-因此，按原极坐标方程的完整轨迹理解，$a\n e q0$ 时均有相交情形，$a=0$ 时相切，没有不相交的情形. 约去 $y$ 只能得到圆支，不能据此代替原曲线的完整分类.
++ (1) 
++ (2) 
+
+
+
+因此，按原极坐标方程的完整轨迹理解，#mi(`a\neq0`) 时均有相交情形，#mi(`a=0`) 时相切，没有不相交的情形. 约去 #mi(`y`) 只能得到圆支，不能据此代替原曲线的完整分类.
 ]
 
 #part-header("参考题")
 
 #problem(11)[
-设某平板上任意一点的电势由 $E= ln rho$ 给出（$rho >= 1$），这里 $rho$ 是以原点为起点的矢径. 求在点 $rho =5$，$theta = arcsin 0.8$ 处，沿此点至 $rho =10$，$theta =(pi)/(2)$ 的方向 $E$ 的变化率.
+设某平板上任意一点的电势由 #mi(`E=\ln\rho`) 给出（#mi(`\rho\geqslant1`)），这里 #mi(`\rho`) 是以原点为起点的矢径. 求在点 #mi(`\rho=5`)，#mi(`\theta=\arcsin0.8`) 处，沿此点至 #mi(`\rho=10`)，#mi(`\theta=\dfrac{\pi}{2}`) 的方向 #mi(`E`) 的变化率.
 ]
 
 #solution[
-因为 $theta = arcsin 0.8$ 是第一象限角，所以 $sin theta =0.8$，$cos theta =0.6$. 起点的直角坐标为
+因为 #mi(`\theta=\arcsin0.8`) 是第一象限角，所以 #mi(`\sin\theta=0.8`)，#mi(`\cos\theta=0.6`). 起点的直角坐标为
 
-$ P=(5 cos theta ,5 sin theta )=(3,4) $
+
+#align(center)[#mitex(`
+P=(5\cos\theta,5\sin\theta)=(3,4)
+`)]
+
 
 终点的直角坐标为
 
-$ Q=(10 cos (pi)/(2),10 sin (pi)/(2))=(0,10) $
+
+#align(center)[#mitex(`
+Q=\left(10\cos\frac{\pi}{2},10\sin\frac{\pi}{2}\right)=(0,10)
+`)]
 
 
+[width=4.2cm]img/1977/guizhou/q11_solution_fig1.png
 
-#align(center)[#image("/papers/1977/img/guizhou/q11_solution_fig1.png", width: 4.2cm)]
+把 #mi(`E=\ln\rho`) 写成直角坐标函数，得
 
 
-把 $E= ln rho$ 写成直角坐标函数，得
+#align(center)[#mitex(`
+E(x,y)=\ln\sqrt{x^{2}+y^{2}}
+`)]
 
-$ E(x,y)=\l n s q r t(x^2+y^2) $
 
 因此
-$(\partial E)/(\partial x)=(x)/(x^2+y^2)$，$(\partial E)/(\partial y)=(y)/(x^2+y^2)$.
-从 $P$ 指向 $Q$ 的方向向量为
-$arrow(P Q)=(-3,6)$，$|arrow(P Q)|=3 sqrt(5)$，
+
+#mi(`\frac{\partial E}{\partial x}=\frac{x}{x^{2}+y^{2}}`)，#mi(`\frac{\partial E}{\partial y}=\frac{y}{x^{2}+y^{2}}`).
+
+从 #mi(`P`) 指向 #mi(`Q`) 的方向向量为
+
+#mi(`\overrightarrow{PQ}=(-3,6)`)，#mi(`\left|\overrightarrow{PQ}\right|=3\sqrt{5}`)，
+
 所以对应的单位方向向量为
 
-$ bold(u)=(arrow(P Q))/(|arrow(P Q)|)=(-(1)/(sqrt(5)),(2)/(sqrt(5))) $
+
+#align(center)[#mitex(`
+\mathbf{u}=\frac{\overrightarrow{PQ}}{\left|\overrightarrow{PQ}\right|}=\left(-\frac{1}{\sqrt{5}},\frac{2}{\sqrt{5}}\right)
+`)]
+
 
 于是，方向导数为
 
-$ \b e g i n{a l i g n e d} D_(bold(u))E(P) &=((\partial E)/(\partial x),(\partial E)/(\partial y))_((3,4))\c d o t b o l d(u)\\ &=((3)/(25),(4)/(25)) dot (-(1)/(sqrt(5)),(2)/(sqrt(5))) =(sqrt(5))/(25). \e n d{a l i g n e d} $
 
-因此，所求变化率为 $(sqrt(5))/(25)$.
+#align(center)[#mitex(`
+\begin{aligned}D_{\mathbf{u}}E(P)&=\left(\frac{\partial E}{\partial x},\frac{\partial E}{\partial y}\right)_{(3,4)}\cdot\mathbf{u}\\&=\left(\frac{3}{25},\frac{4}{25}\right)\cdot\left(-\frac{1}{\sqrt{5}},\frac{2}{\sqrt{5}}\right)  =\frac{\sqrt{5}}{25}.\end{aligned}
+`)]
+
+
+因此，所求变化率为 #mi(`\dfrac{\sqrt{5}}{25}`).
 ]
 
 #problem(12)[
-证明 $S_1=1$，$S_2=1+(1)/(2^2)$，$S_3=1+(1)/(2^2)+(1)/(3^2)$，$\l d o t s$，$S_n=1+(1)/(2^2)+(1)/(3^2)+ dots.c +(1)/(n^2)$，$\l d o t s$ 是收敛数列.
+证明 #mi(`S_{1}=1`)，#mi(`S_{2}=1+\dfrac{1}{2^2}`)，#mi(`S_{3}=1+\dfrac{1}{2^2}+\dfrac{1}{3^2}`)，#mi(`\ldots`)，#mi(`S_{n}=1+\dfrac{1}{2^2}+\dfrac{1}{3^2}+\cdots+\dfrac{1}{n^2}`)，#mi(`\ldots`) 是收敛数列.
 ]
 
 #solution[
-对任意 $n >= 1$，有
+对任意 #mi(`n\geqslant1`)，有
 
-$ S_(n+1)-S_n=(1)/((n+1)^2)>0 $
 
-所以数列 $\{S_n\}$ 单调递增.
+#align(center)[#mitex(`
+S_{n+1}-S_{n}=\frac{1}{(n+1)^{2}}>0
+`)]
 
-当 $n >= 2$ 时，对每个 $k=2$，$3$，$\l d o t s$，$n$，都有 $k^2>k(k-1)>0$，从而
 
-$ (1)/(k^2)<(1)/(k(k-1))=(1)/(k-1)-(1)/(k) $
+所以数列 #mi(`\{S_{n}\}`) 单调递增.
+
+当 #mi(`n\geqslant2`) 时，对每个 #mi(`k=2`)，#mi(`3`)，#mi(`\ldots`)，#mi(`n`)，都有 #mi(`k^{2}>k(k-1)>0`)，从而
+
+
+#align(center)[#mitex(`
+\frac{1}{k^{2}}<\frac{1}{k(k-1)}=\frac{1}{k-1}-\frac{1}{k}
+`)]
+
 
 因此
 
-$ \b e g i n{a l i g n e d} S_n &=1+sum_(k=2)^(n)(1)/(k^2)<1+sum_(k=2)^(n)((1)/(k-1)-(1)/(k)) \\ &=1+(1-(1)/(2))+((1)/(2)-(1)/(3))+ dots.c +((1)/(n-1)-(1)/(n)) \\ &=2-(1)/(n)<2. \e n d{a l i g n e d} $
 
-而 $S_1=1<2$，所以整个数列有上界 $2$. 单调递增且有上界的数列必收敛，故 $\{S_n\}$ 是收敛数列.
+#align(center)[#mitex(`
+\begin{aligned}S_{n}&=1+\sum_{k=2}^{n}\frac{1}{k^2}<1+\sum_{k=2}^{n}\left(\frac{1}{k-1}-\frac{1}{k}\right) \\&=1+\left(1-\frac{1}{2}\right)+\left(\frac{1}{2}-\frac{1}{3}\right)+\cdots+\left(\frac{1}{n-1}-\frac{1}{n}\right) \\&=2-\frac{1}{n}<2.\end{aligned}
+`)]
+
+
+而 #mi(`S_{1}=1<2`)，所以整个数列有上界 #mi(`2`). 单调递增且有上界的数列必收敛，故 #mi(`\{S_{n}\}`) 是收敛数列.
 ]
 

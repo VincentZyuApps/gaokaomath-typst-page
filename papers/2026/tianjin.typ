@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -66,7 +67,7 @@
 
 #problem(5)[
 正方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，错误的是（ ）
-  #choices([$A C parallel A_(1) C_1$], [$CC_1 bot "面"A B C$], [$A C D_1 parallel "面"A_(1) C_(1) B$], [$A D D_1 bot "面"A C D_1$], cols: 1)
+  #choices([$A C parallel A_(1) C_1$], [$CC_1 bot ""面""A B C$], [$A C D_1 parallel ""面""A_(1) C_(1) B$], [$A D D_1 bot ""面""A C D_1$], cols: 1)
 ]
 
 #answer([D])
@@ -74,9 +75,9 @@
 #solution[
 取正方体的棱长为 $1$，建立坐标系，可设 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$A_1(0,0,1)$，$B_1(1,0,1)$，$C_1(1,1,1)$，$D_1(0,1,1)$.
 选项 A 中，$arrow(A C)=( 1,1,0 )$，$arrow(A_(1) C_1)=( 1,1,0 )$，所以 $A C parallel A_(1) C_1$，正确.
-选项 B 中，$CC_1$ 垂直于底面内两条相交直线 $B C$ 与 $C D$，所以 $CC_1 bot "面"A B C$，正确.
-选项 C 中，$arrow(A C)=( 1,1,0 )$，$arrow(A D_1)=( 0,1,1 )$，所以平面 $A C D_1$ 的一个法向量可取为 $arrow(A C) times arrow(A D_1)=( 1,-1,1 )$. 又 $arrow(A_(1) C_1)=( 1,1,0 )$，$arrow(A_(1) B)=( 1,0,-1 )$，故平面 $A_(1) C_(1) B$ 的一个法向量可取为 $arrow(A_(1) C_1) times arrow(A_(1) B)=( -1,1,-1 )$. 两个法向量平行，所以 $"面"A C D_1 parallel "面"A_(1) C_(1) B$，正确.
-选项 D 中，平面 $A D D_1$ 是平面 $x=0$，其法向量可取为 $( 1,0,0 )$. 由于 $( 1,0,0 ) dot ( 1,-1,1 )=1 != 0$，所以 $"面"A D D_1$ 与 $"面"A C D_1$ 不垂直. 因而错误的是 D.
+选项 B 中，$CC_1$ 垂直于底面内两条相交直线 $B C$ 与 $C D$，所以 $CC_1 bot ""面""A B C$，正确.
+选项 C 中，$arrow(A C)=( 1,1,0 )$，$arrow(A D_1)=( 0,1,1 )$，所以平面 $A C D_1$ 的一个法向量可取为 $arrow(A C) times arrow(A D_1)=( 1,-1,1 )$. 又 $arrow(A_(1) C_1)=( 1,1,0 )$，$arrow(A_(1) B)=( 1,0,-1 )$，故平面 $A_(1) C_(1) B$ 的一个法向量可取为 $arrow(A_(1) C_1) times arrow(A_(1) B)=( -1,1,-1 )$. 两个法向量平行，所以 $""面""A C D_1 parallel ""面""A_(1) C_(1) B$，正确.
+选项 D 中，平面 $A D D_1$ 是平面 $x=0$，其法向量可取为 $( 1,0,0 )$. 由于 $( 1,0,0 ) dot ( 1,-1,1 )=1 != 0$，所以 $""面""A D D_1$ 与 $""面""A C D_1$ 不垂直. 因而错误的是 D.
 故选 D.
 ]
 
@@ -258,7 +259,7 @@ $(x+2 y)^4$ 展开式中 $x^(3) y$ 的系数为#blank(){}.
 在长方体 $A B C D-A_(1) B_(1) C_(1) D_1$ 中，$A B=2$，$A A_1=3$，$A D=4$，$A_(1) E=3 E D_1$，$2 C_(1) F=F C$.
 
 
-+ (1) 求证：$B D bot "面"C E F$；
++ (1) 求证：$B D bot ""面""C E F$；
 + (2) 求面 $A E F$ 与面 $C E F$ 的夹角的余弦值；
 + (3) 求三棱锥 $A-C E F$ 的体积.
 
@@ -270,12 +271,12 @@ $(x+2 y)^4$ 展开式中 $x^(3) y$ 的系数为#blank(){}.
 #solution[
 + (1) 以 $A$ 为原点，分别以 $arrow(A B)$，$arrow(A D)$，$arrow(A A_1)$ 所在方向为 $x$ 轴，$y$ 轴，$z$ 轴，建立空间直角坐标系，则 $A(0,0,0)$，$B(2,0,0)$，$D(0,4,0)$，$C(2,4,0)$，$A_1(0,0,3)$，$C_1(2,4,3)$，$D_1(0,4,3)$.
 由 $A_(1) E=3 E D_1$ 知 $E$ 将 $A_(1) D_1$ 按 $3:1$ 分点，所以 $E(0,3,3)$. 由 $2 C_(1) F=F C$ 知 $C_(1) F:F C=1:2$，所以 $F(2,4,2)$.
-于是 $arrow(B D)=( -2,4,0 )$，$arrow(C E)=( -2,-1,3 )$，$arrow(C F)=( 0,0,2 )$. 计算得 $arrow(C E) times arrow(C F)=( -2,4,0 )$. 这说明 $arrow(B D)$ 与平面 $C E F$ 的一个法向量平行，所以 $B D bot "面"C E F$.
+于是 $arrow(B D)=( -2,4,0 )$，$arrow(C E)=( -2,-1,3 )$，$arrow(C F)=( 0,0,2 )$. 计算得 $arrow(C E) times arrow(C F)=( -2,4,0 )$. 这说明 $arrow(B D)$ 与平面 $C E F$ 的一个法向量平行，所以 $B D bot ""面""C E F$.
 + (2) 面 $C E F$ 的一个法向量可取为 $bold(n)_1=arrow(C E) times arrow(C F)=( -2,4,0 )$.
 又 $arrow(A E)=( 0,3,3 )$，$arrow(A F)=( 2,4,2 )$，所以面 $A E F$ 的一个法向量可取为 $bold(n)_2=arrow(A E) times arrow(A F)=( -6,6,-6 )$.
 设两平面的夹角为 $theta$，则 $cos theta =(| bold(n)_1 dot bold(n)_2 |)/(|bold(n)_1| dot |bold(n)_2|)$. 计算得 $bold(n)_1 dot bold(n)_2=( -2 )( -6 )+4 dot 6 =36$，且 $|bold(n)_1|=sqrt(20)=2 sqrt(5)$，$|bold(n)_2|=sqrt(108)=6 sqrt(3)$. 因此 $cos theta =(36)/(2 sqrt(5) dot 6 sqrt(3))=(sqrt(15))/(5)$.
-+ (3) 三棱锥 $A-C E F$ 的体积为 $V=(1)/(6)| \det ( arrow(A C),arrow(A E),arrow(A F)) |$. 其中 $arrow(A C)=( 2,4,0 )$，$arrow(A E)=( 0,3,3 )$，$arrow(A F)=( 2,4,2 )$. 于是
-$\det ( arrow(A C),arrow(A E),arrow(A F)) = \b e g i n{v m a t r i x} 2&4&0\\ 0&3&3\\ 2&4&2 \e n d{v m a t r i x} =12$，
++ (3) 三棱锥 $A-C E F$ 的体积为 $V=(1)/(6)| det ( arrow(A C),arrow(A E),arrow(A F)) |$. 其中 $arrow(A C)=( 2,4,0 )$，$arrow(A E)=( 0,3,3 )$，$arrow(A F)=( 2,4,2 )$. 于是
+$det ( arrow(A C),arrow(A E),arrow(A F)) = \b e g i n{v m a t r i x} 2&4&0\\ 0&3&3\\ 2&4&2 \e n d{v m a t r i x} =12$，
 所以 $V=(12)/(6)=2$.
 ]
 
@@ -304,7 +305,7 @@ $\det ( arrow(A C),arrow(A E),arrow(A F)) = \b e g i n{v m a t r i x} 2&4&0\\ 0&
 
 
 + (1) 求数列 $\{a_n\}$，$\{b_n\}$ 的通项公式；
-+ (2) 记 $E_n=\{ x in RR | x <= n,\ exists k in NN ""^*,\ x=a_k"\ 或\ "x=b_k \}$，记 $c_n$ 为 $E_n$ 中的元素个数.
++ (2) 记 $E_n=\{ x in RR | x <= n,\ exists k in NN ""^*,\ x=a_k"\ "或"\ "x=b_k \}$，记 $c_n$ 为 $E_n$ 中的元素个数.
 
     \begin{enumerate}
 + (3) 求 $c_(3^n)$；
@@ -340,12 +341,12 @@ $ T_1=sum_(k=1)^(K)[ -( 2 k-1 )( k-1 )+2 k^2 ] =sum_(k=1)^(K)( 3 k-1 ) $
 
 再求 $T_2$. 仍按奇偶配对，$T_2=sum_(k=1)^(K)[ -( 2 k-1 )+2 k ]=sum_(k=1)^(K)1=K=(3^n-1)/(2)$.
 
-最后求 $T_3$. 对于 $j=0$，$1$，$dots.c$，$n-1$，当 $3^j <= m <= 3 ""^(j+1)-1$ 时，有 $\l f l o o r log _3 m \r f l o o r =j$. 所以 $T_3=sum_(j=0)^(n-1)j s u m_(m=3^j)^(3^(j+1)-1)( -1 )^m m$. 注意到 $sum_(m=1)^(2 r)( -1 )^m m=r$，而 $3^j-1$ 与 $3^(j+1)-1$ 都是偶数，因此 $sum_(m=3^j)^(3^(j+1)-1)( -1 )^m m=(3^(j+1)-1)/(2)-(3^j-1)/(2)=3^j$. 故 $T_3=sum_(j=0)^(n-1)j dot 3 ""^j$，这是等比型求和，结果为 $T_3=(3-n3^n+( n-1 )3^(n+1))/(4)$.
+最后求 $T_3$. 对于 $j=0$，$1$，$dots.c$，$n-1$，当 $3^j <= m <= 3 ""^(j+1)-1$ 时，有 $\l f l o o r log _3 m \r f l o o r =j$. 所以 $T_3=sum_(j=0)^(n-1)j s u m_(m=3^j)^(3^(j+1)-1)( -1 )^m m$. 注意到 $sum_(m=1)^(2 r)( -1 )^m m=r$，而 $3^j-1$ 与 $3^(j+1)-1$ 都是偶数，因此 $sum_(m=3^j)^(3^(j+1)-1)( -1 )^m m=(3^(j+1)-1)/(2)-(3^j-1)/(2)=3^j$. 故 $T_3=sum_(j=0)^(n-1)j dot 3 ""^j$，这是等比型求和，结果为 $T_3=(3-n 3^n+( n-1 )3^(n+1))/(4)$.
 
 于是
 $T_1+T_2=(( 3^n-1 )( 3^(n+1)-1 ))/(8)+(3^n-1)/(2)=(3( 3^(2 n)-1 ))/(8)$，
 所以
-$S=2[ (3( 3^(2 n)-1 ))/(8)+(3-n3^n+( n-1 )3^(n+1))/(4)]$
+$S=2[ (3( 3^(2 n)-1 ))/(8)+(3-n 3^n+( n-1 )3^(n+1))/(4)]$
 化简得 $S=(3^(2 n+1)+( 4 n-6 )3^n+3)/(4)$.
 
 故

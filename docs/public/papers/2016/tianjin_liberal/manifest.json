@@ -1,138 +1,15 @@
 {
+  "title": "2016年普通高等学校招生全国统一考试",
+  "subtitle": "2016年天津卷（文）",
   "year": "2016",
   "slug": "tianjin_liberal",
-  "title": "2016年天津卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{1,2,3\\}$，$B=\\{y\\mid y=2x-1,\\ x\\in A\\}$，则 $A\\cap B=$（ ）",
+          "body": "已知集合 $A=\\{1,2,3\\}$，$B=\\{y\\mid y=2x-1,\\ x\\in A\\}$，则 $A\\cap B=$（ ）",
           "choices": [
             "$\\{1,3\\}$",
             "$\\{1,2\\}$",
@@ -140,55 +17,47 @@
             "$\\{1,2,3\\}$"
           ],
           "answer": "A",
-          "solution": "由 $x\\in A$ 可得 $x=1$，$2$，$3$，所以\r\n$B=\\{2\\times1-1,2\\times2-1,2\\times3-1\\}=\\{1,3,5\\}$. 因此\r\n$A\\cap B=\\{1,3\\}$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $x\\in A$ 可得 $x=1$，$2$，$3$，所以</p><p>$B=\\{2\\times1-1,2\\times2-1,2\\times3-1\\}=\\{1,3,5\\}$. 因此</p><p>$A\\cap B=\\{1,3\\}$，选 A.</p>"
         },
         {
           "num": 2,
-          "body": "甲，乙两人下棋，两人下成和棋的概率是 $\\frac12$，甲获胜的概率是 $\\frac13$，则甲不输的概率为（ ）",
+          "body": "甲，乙两人下棋，两人下成和棋的概率是 $\\frac{1}{2}$，甲获胜的概率是 $\\frac{1}{3}$，则甲不输的概率为（ ）",
           "choices": [
-            "$\\frac56$",
-            "$\\frac25$",
-            "$\\frac16$",
-            "$\\frac13$"
+            "$\\frac{5}{6}$",
+            "$\\frac{2}{5}$",
+            "$\\frac{1}{6}$",
+            "$\\frac{1}{3}$"
           ],
           "answer": "A",
-          "solution": "甲不输包含甲获胜和两人和棋这两种互斥情况，所以甲不输的概率为\r\n$\\dfrac13+\\dfrac12=\\dfrac56$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>甲不输包含甲获胜和两人和棋这两种互斥情况，所以甲不输的概率为</p><p>$\\dfrac{1}{3}+\\dfrac{1}{2}=\\dfrac{5}{6}$，选 A.</p>"
         },
         {
           "num": 3,
-          "body": "将一个长方体沿相邻三个面的对角线截去一个棱锥，得到的几何体的正视图与俯视图如图所示，则该几何体的侧（左）视图为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q3_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>将一个长方体沿相邻三个面的对角线截去一个棱锥，得到的几何体的正视图与俯视图如图所示，则该几何体的侧（左）视图为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q3_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q3_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q3_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q3_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin_liberal/q3_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin_liberal/q3_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin_liberal/q3_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/tianjin_liberal/q3_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "正视图中的截面线段连接矩形的左上顶点和右下顶点，俯视图中的截面线段连接矩形的左下顶点和右上顶点. 将同一截面线段投影到左视图后，其两个端点分别落在左视图矩形的左上、右下位置；从左侧观察时该线段位于实体的后方，应画成虚线. 因此侧（左）视图为选项 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "正视图中的截面线段连接矩形的左上顶点和右下顶点，俯视图中的截面线段连接矩形的左下顶点和右上顶点. 将同一截面线段投影到左视图后，其两个端点分别落在左视图矩形的左上、右下位置；从左侧观察时该线段位于实体的后方，应画成虚线. 因此侧（左）视图为选项 B."
         },
         {
           "num": 4,
-          "body": "已知双曲线 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$（$a>0$，$b>0$）的焦距为 $2\\sqrt5$，且双曲线的一条渐近线与直线 $2x+y=0$ 垂直，则双曲线的方程为（ ）",
+          "body": "已知双曲线 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}=1$（$a>0$，$b>0$）的焦距为 $2\\sqrt{5}$，且双曲线的一条渐近线与直线 $2x+y=0$ 垂直，则双曲线的方程为（ ）",
           "choices": [
-            "$\\dfrac{x^2}{4}-y^2=1$",
-            "$x^2-\\dfrac{y^2}{4}=1$",
+            "$\\dfrac{x^2}{4}-y^{2}=1$",
+            "$x^{2}-\\dfrac{y^2}{4}=1$",
             "$\\dfrac{3x^2}{20}-\\dfrac{3y^2}{5}=1$",
             "$\\dfrac{3x^2}{5}-\\dfrac{3y^2}{20}=1$"
           ],
           "answer": "A",
-          "solution": "双曲线的焦距为 $2\\sqrt5$，故焦半距 $c=\\sqrt5$，从而\r\n$a^2+b^2=c^2=5$. 双曲线的渐近线斜率为 $\\pm\\dfrac ba$，而直线\r\n$2x+y=0$ 的斜率为 $-2$. 与该直线垂直的渐近线斜率为 $\\dfrac12$，所以\r\n$\\dfrac ba=\\dfrac12$. 于是 $b^2=\\dfrac{a^2}{4}$，代入\r\n$a^2+b^2=5$ 得 $a^2=4$，$b^2=1$. 因此双曲线方程为\r\n$\\dfrac{x^2}{4}-y^2=1$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线的焦距为 $2\\sqrt{5}$，故焦半距 $c=\\sqrt{5}$，从而</p><p>$a^{2}+b^{2}=c^{2}=5$. 双曲线的渐近线斜率为 $\\pm\\dfrac{b}{a}$，而直线</p><p>$2x+y=0$ 的斜率为 $-2$. 与该直线垂直的渐近线斜率为 $\\dfrac{1}{2}$，所以</p><p>$\\dfrac{b}{a}=\\dfrac{1}{2}$. 于是 $b^{2}=\\dfrac{a^2}{4}$，代入</p><p>$a^{2}+b^{2}=5$ 得 $a^{2}=4$，$b^{2}=1$. 因此双曲线方程为</p><p>$\\dfrac{x^2}{4}-y^{2}=1$，选 A.</p>"
         },
         {
           "num": 5,
-          "body": "设 $x>0$，$y\\in \\mathbb{R}$，则“$x>y$”是“$x>|y|$”的（ ）",
+          "body": "设 $x>0$，$y\\in \\mathbb{R}$，则“$x>y$”是“$x>|y|$”的（ ）",
           "choices": [
             "充要条件",
             "充分不必要条件",
@@ -196,51 +65,43 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "若 $x>|y|$，则 $|y|\\ge y$，从而 $x>y$，所以“$x>|y|$”是“$x>y$”的充分条件.\r\n反之不成立，例如 $x=1$，$y=-2$ 时 $x>y$，但 $x>|y|$ 不成立. 因此“$x>y$”是“$x>|y|$”的必要而不充分条件，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若 $x>|y|$，则 $|y|\\ge y$，从而 $x>y$，所以“$x>|y|$”是“$x>y$”的充分条件.</p><p>反之不成立，例如 $x=1$，$y=-2$ 时 $x>y$，但 $x>|y|$ 不成立. 因此“$x>y$”是“$x>|y|$”的必要而不充分条件，选 C.</p>"
         },
         {
           "num": 6,
-          "body": "已知 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，且在区间 $\\left( -\\infty,0 \\right)$ 上单调递增，若实数 $a$ 满足 $f\\left( 2^{|a-1|} \\right)>f\\left( -\\sqrt2 \\right)$，则 $a$ 的取值范围是（ ）",
+          "body": "已知 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，且在区间 $\\left( -\\infty,0 \\right)$ 上单调递增，若实数 $a$ 满足 $f\\left( 2^{|a-1|}\\right)>f\\left( -\\sqrt{2}\\right)$，则 $a$ 的取值范围是（ ）",
           "choices": [
-            "$\\left( -\\infty,\\frac12 \\right)$",
-            "$\\left( -\\infty,\\frac12 \\right)\\cup\\left( \\frac32,+\\infty \\right)$",
-            "$\\left( \\frac12,\\frac32 \\right)$",
-            "$\\left( \\frac32,+\\infty \\right)$"
+            "$\\left( -\\infty,\\frac{1}{2}\\right)$",
+            "$\\left( -\\infty,\\frac{1}{2}\\right)\\cup\\left( \\frac{3}{2},+\\infty \\right)$",
+            "$\\left( \\frac{1}{2},\\frac{3}{2}\\right)$",
+            "$\\left( \\frac{3}{2},+\\infty \\right)$"
           ],
           "answer": "C",
-          "solution": "令 $u=2^{|a-1|}>0$. 由 $f$ 为偶函数，$f(u)=f(-u)$. 在\r\n$(-\\infty,0)$ 上 $f$ 单调递增，因此\r\n\n$$\nf(u)>f(-\\sqrt2)\\iff f(-u)>f(-\\sqrt2)\\iff -u>-\\sqrt2\n$$\n\r\n所以 $u<\\sqrt2$，即\r\n$2^{|a-1|}<2^{\\frac{1}{2}}$. 由于底数 $2>1$，有\r\n$|a-1|<\\dfrac12$，故\r\n$\\dfrac12<a<\\dfrac32$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $u=2^{|a-1|}>0$. 由 $f$ 为偶函数，$f(u)=f(-u)$. 在</p><p>$(-\\infty,0)$ 上 $f$ 单调递增，因此</p>\n$$\nf(u)>f(-\\sqrt{2})\\iff f(-u)>f(-\\sqrt{2})\\iff -u>-\\sqrt{2}\n$$\n<p>所以 $u&#x3C;\\sqrt{2}$，即</p><p>$2^{|a-1|}&#x3C;2^{\\frac{1}{2}}$. 由于底数 $2>1$，有</p><p>$|a-1|&#x3C;\\dfrac{1}{2}$，故</p><p>$\\dfrac{1}{2}&#x3C;a&#x3C;\\dfrac{3}{2}$，选 C.</p>"
         },
         {
           "num": 7,
-          "body": "已知 $\\triangle ABC$ 是边长为 $1$ 的等边三角形，点 $D$，$E$ 分别是边 $AB$，$BC$ 的中点，连接 $DE$ 并延长到点 $F$，使得 $DE=2EF$，则 $\\overrightarrow{AF}\\cdot\\overrightarrow{BC}$ 的值为（ ）",
+          "body": "已知 $\\triangle ABC$ 是边长为 $1$ 的等边三角形，点 $D$，$E$ 分别是边 $AB$，$BC$ 的中点，连接 $DE$ 并延长到点 $F$，使得 $DE=2EF$，则 $\\overrightarrow{AF}\\cdot\\overrightarrow{BC}$ 的值为（ ）",
           "choices": [
-            "$-\\frac58$",
-            "$\\frac18$",
-            "$\\frac14$",
+            "$-\\frac{5}{8}$",
+            "$\\frac{1}{8}$",
+            "$\\frac{1}{4}$",
             "$\\frac{11}{8}$"
           ],
           "answer": "B",
-          "solution": "建立平面直角坐标系，取 $A=(0,0)$，$B=(1,0)$，\r\n$C=\\left(\\dfrac12,\\dfrac{\\sqrt3}{2}\\right)$. 则\r\n$D=\\left(\\dfrac12,0\\right)$，$E=\\left(\\dfrac34,\\dfrac{\\sqrt3}{4}\\right)$，\r\n因此\r\n$\\overrightarrow{DE}=\\left(\\dfrac14,\\dfrac{\\sqrt3}{4}\\right)$. 由 $DE=2EF$ 且 $DE$ 延长到 $F$，得\r\n$\\overrightarrow{EF}=\\dfrac12\\overrightarrow{DE}$，从而\r\n$F=\\left(\\dfrac78,\\dfrac{3\\sqrt3}{8}\\right)$. 于是\r\n$\\overrightarrow{AF}=\\left(\\dfrac78,\\dfrac{3\\sqrt3}{8}\\right)$，$\\overrightarrow{BC}=\\left(-\\dfrac12,\\dfrac{\\sqrt3}{2}\\right)$.\r\n\n$$\n\\overrightarrow{AF}\\cdot\\overrightarrow{BC}\r\n=-\\dfrac{7}{16}+\\dfrac{9}{16}=\\dfrac18\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>建立平面直角坐标系，取 $A=(0,0)$，$B=(1,0)$，</p><p>$C=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right)$. 则</p><p>$D=\\left(\\dfrac{1}{2},0\\right)$，$E=\\left(\\dfrac{3}{4},\\dfrac{\\sqrt{3}}{4}\\right)$，</p><p>因此</p><p>$\\overrightarrow{DE}=\\left(\\dfrac{1}{4},\\dfrac{\\sqrt{3}}{4}\\right)$. 由 $DE=2EF$ 且 $DE$ 延长到 $F$，得</p><p>$\\overrightarrow{EF}=\\dfrac{1}{2}\\overrightarrow{DE}$，从而</p><p>$F=\\left(\\dfrac{7}{8},\\dfrac{3\\sqrt{3}}{8}\\right)$. 于是</p><p>$\\overrightarrow{AF}=\\left(\\dfrac{7}{8},\\dfrac{3\\sqrt{3}}{8}\\right)$，$\\overrightarrow{BC}=\\left(-\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right)$.</p>\n$$\n\\overrightarrow{AF}\\cdot\\overrightarrow{BC}=-\\dfrac{7}{16}+\\dfrac{9}{16}=\\dfrac{1}{8}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "已知函数 $f(x)=\\sin^2\\frac{\\omega x}{2}+\\frac12\\sin\\omega x-\\frac12$（$\\omega>0$，$x\\in \\mathbb{R}$），若 $f(x)$ 在区间 $\\left( \\pi,2\\pi \\right)$ 内没有零点，则 $\\omega$ 的取值范围是（ ）",
+          "body": "已知函数 $f(x)=\\sin^{2}\\frac{\\omega x}{2}+\\frac{1}{2}\\sin\\omega x-\\frac{1}{2}$（$\\omega>0$，$x\\in \\mathbb{R}$），若 $f(x)$ 在区间 $\\left( \\pi,2\\pi \\right)$ 内没有零点，则 $\\omega$ 的取值范围是（ ）",
           "choices": [
-            "$\\left( 0,\\frac18 \\right]$",
-            "$\\left( 0,\\frac14 \\right]\\cup\\left[ \\frac58,1 \\right)$",
-            "$\\left( 0,\\frac58 \\right]$",
-            "$\\left( 0,\\frac18 \\right]\\cup\\left[ \\frac14,\\frac58 \\right]$"
+            "$\\left( 0,\\frac{1}{8}\\right]$",
+            "$\\left( 0,\\frac{1}{4}\\right]\\cup\\left[ \\frac{5}{8},1 \\right)$",
+            "$\\left( 0,\\frac{5}{8}\\right]$",
+            "$\\left( 0,\\frac{1}{8}\\right]\\cup\\left[ \\frac{1}{4},\\frac{5}{8}\\right]$"
           ],
           "answer": "D",
-          "solution": "利用 $\\sin^2\\dfrac{\\omega x}{2}=\\dfrac{1-\\cos\\omega x}{2}$，得\r\n\n$$\nf(x)=\\dfrac{\\sin\\omega x-\\cos\\omega x}{2}\n$$\n\r\n所以 $f(x)=0$ 等价于\r\n$\\tan\\omega x=1$，即存在整数 $k$ 使\r\n$\\omega x=\\dfrac\\pi4+k\\pi$. 令 $t=\\dfrac{\\omega x}{\\pi}$，当\r\n$x\\in(\\pi,2\\pi)$ 时 $t\\in(\\omega,2\\omega)$. 因此题意等价于开区间\r\n$(\\omega,2\\omega)$ 不含形如 $\\dfrac14+k$ 的数.\r\n\r\n当 $0<\\omega\\le\\dfrac18$ 时，\r\n$(\\omega,2\\omega)\\subset(0,\\dfrac14]$，不含 $\\dfrac14$. 当\r\n$\\dfrac18<\\omega<\\dfrac14$ 时，$\\dfrac14\\in(\\omega,2\\omega)$.\r\n当 $\\dfrac14\\le\\omega\\le\\dfrac58$ 时，\r\n$(\\omega,2\\omega)\\subset[\\dfrac14,\\dfrac54]$，两端的可能零点只在开区间外，且区间内不含其他零点.\r\n当 $\\dfrac58<\\omega<\\dfrac54$ 时，$\\dfrac54\\in(\\omega,2\\omega)$. 当\r\n$\\omega\\ge\\dfrac54$ 时，令 $k=\\lfloor\\omega-\\dfrac14\\rfloor+1$，则\r\n$\\omega<\\dfrac14+k\\le\\omega+1<2\\omega$，所以\r\n$\\dfrac14+k\\in(\\omega,2\\omega)$.\r\n因此\r\n$\\omega\\in\\left(0,\\dfrac18\\right]\\cup\\left[\\dfrac14,\\dfrac58\\right]$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>利用 $\\sin^{2}\\dfrac{\\omega x}{2}=\\dfrac{1-\\cos\\omega x}{2}$，得</p>\n$$\nf(x)=\\dfrac{\\sin\\omega x-\\cos\\omega x}{2}\n$$\n<p>所以 $f(x)=0$ 等价于</p><p>$\\tan\\omega x=1$，即存在整数 $k$ 使</p><p>$\\omega x=\\dfrac\\pi4+k\\pi$. 令 $t=\\dfrac{\\omega x}{\\pi}$，当</p><p>$x\\in(\\pi,2\\pi)$ 时 $t\\in(\\omega,2\\omega)$. 因此题意等价于开区间</p><p>$(\\omega,2\\omega)$ 不含形如 $\\dfrac{1}{4}+k$ 的数.</p><p>当 $0&#x3C;\\omega\\le\\dfrac{1}{8}$ 时，</p><p>$(\\omega,2\\omega)\\subset(0,\\dfrac{1}{4}]$，不含 $\\dfrac{1}{4}$. 当</p><p>$\\dfrac{1}{8}&#x3C;\\omega&#x3C;\\dfrac{1}{4}$ 时，$\\dfrac{1}{4}\\in(\\omega,2\\omega)$.</p><p>当 $\\dfrac{1}{4}\\le\\omega\\le\\dfrac{5}{8}$ 时，</p><p>$(\\omega,2\\omega)\\subset[\\dfrac{1}{4},\\dfrac{5}{4}]$，两端的可能零点只在开区间外，且区间内不含其他零点.</p><p>当 $\\dfrac{5}{8}&#x3C;\\omega&#x3C;\\dfrac{5}{4}$ 时，$\\dfrac{5}{4}\\in(\\omega,2\\omega)$. 当</p><p>$\\omega\\ge\\dfrac{5}{4}$ 时，令 $k=\\lfloor\\omega-\\dfrac{1}{4}\\rfloor+1$，则</p><p>$\\omega&#x3C;\\dfrac{1}{4}+k\\le\\omega+1&#x3C;2\\omega$，所以</p><p>$\\dfrac{1}{4}+k\\in(\\omega,2\\omega)$.</p><p>因此</p><p>$\\omega\\in\\left(0,\\dfrac{1}{8}\\right]\\cup\\left[\\dfrac{1}{4},\\dfrac{5}{8}\\right]$，选 D.</p>"
         }
       ]
     },
@@ -249,57 +110,45 @@
       "problems": [
         {
           "num": 9,
-          "body": "$\\mathrm{i}$ 是虚数单位，复数 $z$ 满足 $\\left( 1+\\mathrm{i} \\right)z=2$，则 $z$ 的实部为 _______ {}.",
-          "choices": [],
+          "body": "$\\mathrm{i}$ 是虚数单位，复数 $z$ 满足 $\\left( 1+\\mathrm{i}\\right)z=2$，则 $z$ 的实部为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "1",
-          "solution": "由\r\n\n$$\nz=\\dfrac{2}{1+\\mathrm{i}}=\\dfrac{2(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=1-\\mathrm{i}\n$$\n\r\n可知 $z$ 的实部为 $1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由</p>\n$$\nz=\\dfrac{2}{1+\\mathrm{i}}=\\dfrac{2(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=1-\\mathrm{i}\n$$\n<p>可知 $z$ 的实部为 $1$.</p>"
         },
         {
           "num": 10,
-          "body": "已知函数 $f(x)=\\left( 2x+1 \\right)\\mathrm{e}^x$，$f'(x)$ 为 $f(x)$ 的导函数，则 $f'(0)$ 的值为 _______ {}.",
-          "choices": [],
+          "body": "已知函数 $f(x)=\\left( 2x+1 \\right)\\mathrm{e}^{x}$，$f'(x)$ 为 $f(x)$ 的导函数，则 $f'(0)$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "3",
-          "solution": "由乘积求导法则，\r\n$f'(x)=2\\mathrm{e}^x+(2x+1)\\mathrm{e}^x=(2x+3)\\mathrm{e}^x$. 所以\r\n$f'(0)=3\\mathrm{e}^0=3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由乘积求导法则，</p><p>$f'(x)=2\\mathrm{e}^{x}+(2x+1)\\mathrm{e}^{x}=(2x+3)\\mathrm{e}^{x}$. 所以</p><p>$f'(0)=3\\mathrm{e}^{0}=3$.</p>"
         },
         {
           "num": 11,
-          "body": "阅读如图所示的程序框图，运行相应的程序，则输出 $S$ 的值为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>阅读如图所示的程序框图，运行相应的程序，则输出 $S$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "4",
-          "solution": "按程序逐次运行：初始 $S=4$，$n=1$. 第一次判断 $S<6$，所以\r\n$S=2S=8$，再令 $n=2$；第二次判断 $S\\geqslant6$，所以\r\n$S=S-6=2$，再令 $n=3$；第三次判断 $S<6$，所以\r\n$S=2S=4$，再令 $n=4$. 此时 $n>3$，程序输出 $S=4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按程序逐次运行：初始 $S=4$，$n=1$. 第一次判断 $S&#x3C;6$，所以</p><p>$S=2S=8$，再令 $n=2$；第二次判断 $S\\geqslant6$，所以</p><p>$S=S-6=2$，再令 $n=3$；第三次判断 $S&#x3C;6$，所以</p><p>$S=2S=4$，再令 $n=4$. 此时 $n>3$，程序输出 $S=4$.</p>"
         },
         {
           "num": 12,
-          "body": "已知圆 $C$ 的圆心在 $x$ 轴正半轴上，点 $M\\left( 0,\\sqrt5 \\right)$ 在圆 $C$ 上，且圆心到直线 $2x-y=0$ 的距离为 $\\frac{4\\sqrt5}{5}$，则圆 $C$ 的方程为 _______ {}.",
-          "choices": [],
-          "answer": "\\( (x-2)^2+y^2=9 \\)",
-          "solution": "设圆心为 $C=(r,0)$，其中 $r>0$. 由 $M=(0,\\sqrt5)$ 在圆上，圆的半径平方为\r\n$r^2+5$. 又圆心到直线 $2x-y=0$ 的距离为\r\n\n$$\n\\dfrac{|2r|}{\\sqrt{2^2+(-1)^2}}=\\dfrac{2r}{\\sqrt5}=\\dfrac{4\\sqrt5}{5}=\\dfrac4{\\sqrt5}\n$$\n\r\n所以 $r=2$，半径平方为 $2^2+5=9$. 因此圆 $C$ 的方程为\r\n$(x-2)^2+y^2=9$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆 $C$ 的圆心在 $x$ 轴正半轴上，点 $M\\left( 0,\\sqrt{5}\\right)$ 在圆 $C$ 上，且圆心到直线 $2x-y=0$ 的距离为 $\\frac{4\\sqrt{5}}{5}$，则圆 $C$ 的方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(x-2)^{2}+y^{2}=9$",
+          "solution": "<p>设圆心为 $C=(r,0)$，其中 $r>0$. 由 $M=(0,\\sqrt{5})$ 在圆上，圆的半径平方为</p><p>$r^{2}+5$. 又圆心到直线 $2x-y=0$ 的距离为</p>\n$$\n\\dfrac{|2r|}{\\sqrt{2^{2}+(-1)^{2}}}=\\dfrac{2r}{\\sqrt{5}}=\\dfrac{4\\sqrt{5}}{5}=\\dfrac4{\\sqrt{5}}\n$$\n<p>所以 $r=2$，半径平方为 $2^{2}+5=9$. 因此圆 $C$ 的方程为</p><p>$(x-2)^{2}+y^{2}=9$.</p>"
         },
         {
           "num": 13,
-          "body": "如图，$AB$ 是圆的直径，弦 $CD$ 与 $AB$ 相交于点 $E$，$BE=2AE=2$，$BD=ED$，则线段 $CE$ 的长为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac{2\\sqrt3}{3}\\)",
-          "solution": "由 $BE=2AE=2$，得 $AE=1$，$BE=2$. 取 $E$ 为原点，令\r\n$A=(-1,0)$，$B=(2,0)$. 因 $AB$ 是直径，圆的方程为\r\n\n$$\n(x+1)(x-2)+y^2=0\n$$\n\r\n即 $x^2-x+y^2-2=0$. 又 $BD=ED$，所以 $D$ 在 $BE$ 的垂直平分线上，故 $D=(1,y)$. 代入圆方程得 $y^2=2$，从而\r\n$ED=\\sqrt{1^2+2}=\\sqrt3$.\r\n\r\n由相交弦定理，\r\n$EA\\cdot EB=EC\\cdot ED$，所以\r\n\n$$\nEC=\\dfrac{1\\times2}{\\sqrt3}=\\dfrac{2\\sqrt3}{3}\n$$\n\r\n故线段 $CE$ 的长为 $\\dfrac{2\\sqrt3}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，$AB$ 是圆的直径，弦 $CD$ 与 $AB$ 相交于点 $E$，$BE=2AE=2$，$BD=ED$，则线段 $CE$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{2\\sqrt{3}}{3}$",
+          "solution": "<p>由 $BE=2AE=2$，得 $AE=1$，$BE=2$. 取 $E$ 为原点，令</p><p>$A=(-1,0)$，$B=(2,0)$. 因 $AB$ 是直径，圆的方程为</p>\n$$\n(x+1)(x-2)+y^{2}=0\n$$\n<p>即 $x^{2}-x+y^{2}-2=0$. 又 $BD=ED$，所以 $D$ 在 $BE$ 的垂直平分线上，故 $D=(1,y)$. 代入圆方程得 $y^{2}=2$，从而</p><p>$ED=\\sqrt{1^{2}+2}=\\sqrt{3}$.</p><p>由相交弦定理，</p><p>$EA\\cdot EB=EC\\cdot ED$，所以</p>\n$$\nEC=\\dfrac{1\\times2}{\\sqrt{3}}=\\dfrac{2\\sqrt{3}}{3}\n$$\n<p>故线段 $CE$ 的长为 $\\dfrac{2\\sqrt{3}}{3}$.</p>"
         },
         {
           "num": 14,
-          "body": "已知函数\r\n$f(x)=\\begin{cases}\r\nx^2+\\left( 4a-3 \\right)x+3a, & x<0,\\\\\r\n\\log_a\\left( x+1 \\right)+1, & x\\ge 0\r\n\\end{cases}$\r\n（$a>0$，且 $a\\ne 1$）在 $\\mathbb{R}$ 上单调递减，且关于 $x$ 的方程 $|f(x)|=2-\\frac{x}{3}$ 恰有两个不相等的实数解，则 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left[\\frac13,\\frac23\\right)\\)",
-          "solution": "记 $p(x)=x^2+(4a-3)x+3a$，$q(x)=\\log_a(x+1)+1$. 在 $x<0$ 时，\r\n$p'(x)=2x+4a-3$. 要使 $p$ 在 $(-\\infty,0)$ 上递减，需\r\n$a\\le\\dfrac34$；在 $x\\geqslant0$ 时，$q$ 递减要求 $0<a<1$. 此外，为保证跨过 $0$ 仍递减，需\r\n$\\displaystyle\\lim_{x\\to0^-}p(x)=3a\\ge q(0)=1$，即 $a\\ge\\dfrac13$. 反之在\r\n$\\dfrac13\\le a\\le\\dfrac34$ 时，上述条件均成立，所以\r\n\n$$\n\\dfrac13\\le a\\le\\dfrac34\n$$\n\r\n\r\n在这个范围内，若 $x<0$，则 $p(x)>0$，方程化为\r\n\n$$\nh(x)=x^2+\\left(4a-\\dfrac83\\right)x+3a-2=0\n$$\n\r\n当 $a<\\dfrac23$ 时，$h(0)<0$，且二次项系数为正、常数项为负，所以恰有一个负根；当 $a=\\dfrac23$ 时 $h(x)=x^2$，没有负根；当 $a>\\dfrac23$ 时，\r\n\n$$\n\\Delta=\\dfrac49(36a^2-75a+34)\r\n=\\dfrac49\\cdot36\\left(a-\\dfrac23\\right)\\left(a-\\dfrac{17}{12}\\right)<0\n$$\n\r\n没有实根. 因此负半轴贡献一个解当且仅当\r\n$\\dfrac13\\le a<\\dfrac23$.\r\n\r\n再看 $x\\geqslant0$. 当 $q(x)\\geqslant0$ 时，由 $0<a<1$ 得\r\n$0\\le x\\le a^{-1}-1\\leqslant2$，从而\r\n$|q(x)|=q(x)\\leqslant1<2-\\dfrac{x}{3}$，没有解. 当 $q(x)<0$ 时，令\r\n\n$$\nG(x)=q(x)+2-\\dfrac{x}{3}=\\log_a(x+1)+3-\\dfrac{x}{3}\n$$\n\r\n因为 $a<1$，有\r\n$G'(x)=\\dfrac{1}{(x+1)\\ln a}-\\dfrac13<0$. 在\r\n$x_0=a^{-1}-1$ 处 $G(x_0)=2-\\dfrac{x_0}{3}>0$. 又因\r\n$a\\ge\\dfrac13$，有 $a^{-1}\\leqslant3<7$，且 $0<a<1$，所以\r\n$\\log_a7<\\log_a(a^{-1})=-1$，即 $G(6)=\\log_a7+1<0$. 因此由连续性和严格递减性，正半轴恰有一个解.\r\n\r\n综上，原方程恰有两个不相等的实数解当且仅当\r\n$a\\in\\left[\\dfrac13,\\dfrac23\\right)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知函数</p><p>$f(x)=\\begin{cases}x^{2}+\\left( 4a-3 \\right)x+3a,&#x26;x&#x3C;0,\\\\  \\log_{a}\\left( x+1 \\right)+1,&#x26;x\\ge 0\\end{cases}$</p><p>（$a>0$，且 $a\\ne 1$）在 $\\mathbb{R}$ 上单调递减，且关于 $x$ 的方程 $|f(x)|=2-\\frac{x}{3}$ 恰有两个不相等的实数解，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$\\left[\\frac{1}{3},\\frac{2}{3}\\right)$",
+          "solution": "<p>记 $p(x)=x^{2}+(4a-3)x+3a$，$q(x)=\\log_{a}(x+1)+1$. 在 $x&#x3C;0$ 时，</p><p>$p'(x)=2x+4a-3$. 要使 $p$ 在 $(-\\infty,0)$ 上递减，需</p><p>$a\\le\\dfrac{3}{4}$；在 $x\\geqslant0$ 时，$q$ 递减要求 $0&#x3C;a&#x3C;1$. 此外，为保证跨过 $0$ 仍递减，需</p><p>$\\displaystyle\\lim_{x\\to0^-}p(x)=3a\\ge q(0)=1$，即 $a\\ge\\dfrac{1}{3}$. 反之在</p><p>$\\dfrac{1}{3}\\le a\\le\\dfrac{3}{4}$ 时，上述条件均成立，所以</p>\n$$\n\\dfrac{1}{3}\\le a\\le\\dfrac{3}{4}\n$$\n<p>在这个范围内，若 $x&#x3C;0$，则 $p(x)>0$，方程化为</p>\n$$\nh(x)=x^{2}+\\left(4a-\\dfrac{8}{3}\\right)x+3a-2=0\n$$\n<p>当 $a&#x3C;\\dfrac{2}{3}$ 时，$h(0)&#x3C;0$，且二次项系数为正、常数项为负，所以恰有一个负根；当 $a=\\dfrac{2}{3}$ 时 $h(x)=x^{2}$，没有负根；当 $a>\\dfrac{2}{3}$ 时，</p>\n$$\n\\Delta=\\dfrac{4}{9}(36a^{2}-75a+34)  =\\dfrac{4}{9}\\cdot36\\left(a-\\dfrac{2}{3}\\right)\\left(a-\\dfrac{17}{12}\\right)&#x3C;0\n$$\n<p>没有实根. 因此负半轴贡献一个解当且仅当</p><p>$\\dfrac{1}{3}\\le a&#x3C;\\dfrac{2}{3}$.</p><p>再看 $x\\geqslant0$. 当 $q(x)\\geqslant0$ 时，由 $0&#x3C;a&#x3C;1$ 得</p><p>$0\\le x\\le a^{-1}-1\\leqslant2$，从而</p><p>$|q(x)|=q(x)\\leqslant1&#x3C;2-\\dfrac{x}{3}$，没有解. 当 $q(x)&#x3C;0$ 时，令</p>\n$$\nG(x)=q(x)+2-\\dfrac{x}{3}=\\log_{a}(x+1)+3-\\dfrac{x}{3}\n$$\n<p>因为 $a&#x3C;1$，有</p><p>$G'(x)=\\dfrac{1}{(x+1)\\ln a}-\\dfrac{1}{3}&#x3C;0$. 在</p><p>$x_{0}=a^{-1}-1$ 处 $G(x_{0})=2-\\dfrac{x_0}{3}>0$. 又因</p><p>$a\\ge\\dfrac{1}{3}$，有 $a^{-1}\\leqslant3&#x3C;7$，且 $0&#x3C;a&#x3C;1$，所以</p><p>$\\log_{a}7&#x3C;\\log_{a}(a^{-1})=-1$，即 $G(6)=\\log_{a}7+1&#x3C;0$. 因此由连续性和严格递减性，正半轴恰有一个解.</p><p>综上，原方程恰有两个不相等的实数解当且仅当</p><p>$a\\in\\left[\\dfrac{1}{3},\\dfrac{2}{3}\\right)$.</p>"
         }
       ]
     },
@@ -308,60 +157,47 @@
       "problems": [
         {
           "num": 15,
-          "body": "在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，已知 $a\\sin 2B=\\sqrt3 b\\sin A$.\r\n\r\n\n(1) 求 $B$；\n\n(2) 已知 $\\cos A=\\dfrac13$，求 $\\sin C$ 的值.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，已知 $a\\sin 2B=\\sqrt{3}b\\sin A$.</p><ol class=\"enumerate\"><li><p>求 $B$；</p></li><li><p>已知 $\\cos A=\\dfrac{1}{3}$，求 $\\sin C$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$，所以\r\n$a=\\dfrac{b\\sin A}{\\sin B}$. 代入已知等式并利用\r\n$\\sin 2B=2\\sin B\\cos B$，得\r\n\n$$\n\\dfrac{b\\sin A}{\\sin B}\\cdot2\\sin B\\cos B\r\n=\\sqrt3\\,b\\sin A\n$$\n\r\n由于 $b>0$ 且 $0<A<\\pi$，可约去 $b\\sin A$，得到\r\n$2\\cos B=\\sqrt3$. 三角形内角满足 $0<B<\\pi$，故\r\n$B=\\dfrac{\\pi}{6}$.\r\n\r\n又已知 $\\cos A=\\dfrac13$，且 $0<A<\\pi$，所以\r\n$\\sin A=\\sqrt{1-\\cos^2A}=\\dfrac{2\\sqrt2}{3}$. 由\r\n$C=\\pi-A-B$，有\r\n\n$$\n\\sin C=\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B\r\n=\\dfrac{2\\sqrt2}{3}\\cdot\\dfrac{\\sqrt3}{2}\r\n+\\dfrac13\\cdot\\dfrac12\r\n=\\dfrac{2\\sqrt6+1}{6}\n$$\n\r\n因此 $B=\\dfrac{\\pi}{6}$，$\\sin C=\\dfrac{2\\sqrt6+1}{6}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由正弦定理，$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$，所以</p><p>$a=\\dfrac{b\\sin A}{\\sin B}$. 代入已知等式并利用</p><p>$\\sin 2B=2\\sin B\\cos B$，得</p>\n$$\n\\dfrac{b\\sin A}{\\sin B}\\cdot2\\sin B\\cos B  =\\sqrt{3}\\,b\\sin A\n$$\n<p>由于 $b>0$ 且 $0&#x3C;A&#x3C;\\pi$，可约去 $b\\sin A$，得到</p><p>$2\\cos B=\\sqrt{3}$. 三角形内角满足 $0&#x3C;B&#x3C;\\pi$，故</p><p>$B=\\dfrac{\\pi}{6}$.</p><p>又已知 $\\cos A=\\dfrac{1}{3}$，且 $0&#x3C;A&#x3C;\\pi$，所以</p><p>$\\sin A=\\sqrt{1-\\cos^{2}A}=\\dfrac{2\\sqrt{2}}{3}$. 由</p><p>$C=\\pi-A-B$，有</p>\n$$\n\\sin C=\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B  =\\dfrac{2\\sqrt{2}}{3}\\cdot\\dfrac{\\sqrt{3}}{2}+\\dfrac{1}{3}\\cdot\\dfrac{1}{2}=\\dfrac{2\\sqrt{6}+1}{6}\n$$\n<p>因此 $B=\\dfrac{\\pi}{6}$，$\\sin C=\\dfrac{2\\sqrt{6}+1}{6}$.</p>"
         },
         {
           "num": 16,
-          "body": "某化工厂生产甲，乙两种混合肥料，需要 $A$，$B$，$C$ 三种主要原料，生产 1 车皮甲种肥料和生产 1 车皮乙种肥料所需三种原料的吨数如表所示：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|}\r\n\\hline\r\n\\begin{tabular}{c}原料\\\\肥料\\end{tabular} & $A$ & $B$ & $C$ \\\\\r\n\\hline\r\n甲 & 4 & 8 & 3 \\\\\r\n乙 & 5 & 5 & 10 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n现有 $A$ 种原料 200 吨，$B$ 种原料 360 吨，$C$ 种原料 300 吨，在此基础上生产甲，乙两种肥料. 已知生产 1 车皮甲种肥料，产生的利润为 2 万元；生产 1 车皮乙种肥料，产生的利润为 3 万元. 分别用 $x$，$y$ 表示计划生产甲，乙两种肥料的车皮数.\r\n\r\n\n(1) 用 $x$，$y$ 列出满足生产条件的数学关系式，并画出相应的平面区域；\n\n(2) 问分别生产甲，乙两种肥料各多少车皮，能够产生最大的利润？并求出此最大利润.",
-          "choices": [],
+          "body": "<p>某化工厂生产甲，乙两种混合肥料，需要 $A$，$B$，$C$ 三种主要原料，生产 1 车皮甲种肥料和生产 1 车皮乙种肥料所需三种原料的吨数如表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\">原料</td></tr><tr><td style=\"text-align: center\">肥料</td></tr></tbody></table> </td><td style=\"text-align: center; border-right: 1px solid\"> $A$ </td><td style=\"text-align: center; border-right: 1px solid\"> $B$ </td><td style=\"text-align: center; border-right: 1px solid\"> $C$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>甲 </td><td style=\"text-align: center; border-right: 1px solid\"> 4 </td><td style=\"text-align: center; border-right: 1px solid\"> 8 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>乙 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 10 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>现有 $A$ 种原料 200 吨，$B$ 种原料 360 吨，$C$ 种原料 300 吨，在此基础上生产甲，乙两种肥料. 已知生产 1 车皮甲种肥料，产生的利润为 2 万元；生产 1 车皮乙种肥料，产生的利润为 3 万元. 分别用 $x$，$y$ 表示计划生产甲，乙两种肥料的车皮数.</p><ol class=\"enumerate\"><li><p>用 $x$，$y$ 列出满足生产条件的数学关系式，并画出相应的平面区域；</p></li><li><p>问分别生产甲，乙两种肥料各多少车皮，能够产生最大的利润？并求出此最大利润.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由三种原料的用量限制以及 $x$，$y\\geqslant0$，可得可行域满足\r\n\n$$\n\\begin{cases}\r\n4x+5y\\leqslant200,\\\\\r\n8x+5y\\leqslant360,\\\\\r\n3x+10y\\leqslant300,\\\\\r\nx\\geqslant0,\\\\\r\ny\\geqslant0.\r\n\\end{cases}\n$$\n\r\n三条资源约束直线在坐标轴上的截距分别为\r\n$(50,0)$，$(0,40)$、$(45,0)$，$(0,72)$、$(100,0)$，$(0,30)$，所以坐标轴上的可行顶点为\r\n$(45,0)$ 和 $(0,30)$. 三条直线两两相交时，第一、二条给出\r\n$4x+5y=200$，$8x+5y=360$，相减得 $x=40$，代回得 $y=8$，即\r\n$(40,8)$；第一、三条给出\r\n$4x+5y=200$，$3x+10y=300$，将第一式乘 $2$ 后相减得 $x=20$，代回得 $y=24$，即\r\n$(20,24)$. 第二、三条的交点为\r\n$\\left(\\dfrac{420}{13},\\dfrac{264}{13}\\right)$，但在该点\r\n$4x+5y=\\dfrac{3000}{13}>200$，不满足第一条约束. 因此可行域的顶点依次为\r\n$(0,0)$，$(45,0)$，$(40,8)$，$(20,24)$，$(0,30)$，\r\n因此相应平面区域是第一象限内由这五个顶点围成的五边形，边界依次落在\r\n$y=0$、$8x+5y=360$、$4x+5y=200$、$3x+10y=300$、$x=0$ 上.\n\n(2) 设利润为 $P$ 万元，则\r\n$P=2x+3y$. 在可行域的各顶点处计算：\r\n$P(0,0)=0$，$P(45,0)=90$，$P(40,8)=104$，$P(20,24)=112$，$P(0,30)=90$\r\n线性目标函数在多边形可行域上的最大值必在顶点取得，所以最大利润为\r\n$112$ 万元，此时应生产甲 $20$ 车皮、乙 $24$ 车皮.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由三种原料的用量限制以及 $x$，$y\\geqslant0$，可得可行域满足</p>\n$$\n\\begin{cases}4x+5y\\leqslant200,\\\\  8x+5y\\leqslant360,\\\\  3x+10y\\leqslant300,\\\\  x\\geqslant0,\\\\  y\\geqslant0.\\end{cases}\n$$\n<p>三条资源约束直线在坐标轴上的截距分别为</p><p>$(50,0)$，$(0,40)$、$(45,0)$，$(0,72)$、$(100,0)$，$(0,30)$，所以坐标轴上的可行顶点为</p><p>$(45,0)$ 和 $(0,30)$. 三条直线两两相交时，第一、二条给出</p><p>$4x+5y=200$，$8x+5y=360$，相减得 $x=40$，代回得 $y=8$，即</p><p>$(40,8)$；第一、三条给出</p><p>$4x+5y=200$，$3x+10y=300$，将第一式乘 $2$ 后相减得 $x=20$，代回得 $y=24$，即</p><p>$(20,24)$. 第二、三条的交点为</p><p>$\\left(\\dfrac{420}{13},\\dfrac{264}{13}\\right)$，但在该点</p><p>$4x+5y=\\dfrac{3000}{13}>200$，不满足第一条约束. 因此可行域的顶点依次为</p><p>$(0,0)$，$(45,0)$，$(40,8)$，$(20,24)$，$(0,30)$，</p><p>因此相应平面区域是第一象限内由这五个顶点围成的五边形，边界依次落在</p><p>$y=0$、$8x+5y=360$、$4x+5y=200$、$3x+10y=300$、$x=0$ 上.</p></li><li><p>设利润为 $P$ 万元，则</p><p>$P=2x+3y$. 在可行域的各顶点处计算：</p><p>$P(0,0)=0$，$P(45,0)=90$，$P(40,8)=104$，$P(20,24)=112$，$P(0,30)=90$</p><p>线性目标函数在多边形可行域上的最大值必在顶点取得，所以最大利润为</p><p>$112$ 万元，此时应生产甲 $20$ 车皮、乙 $24$ 车皮.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "如图，四边形 $ABCD$ 是平行四边形，平面 $AED \\perp$ 平面 $ABCD$，$EF\\parallel AB$，$AB=2$，$DE=3$，$BC=EF=1$，$AE=\\sqrt6$，$\\angle BAD=60^\\circ$，$G$ 为 $BC$ 的中点.\r\n\r\n\n(1) 求证：$FG\\parallel$ 平面 $BED$；\n\n(2) 求证：平面 $BED \\perp$ 平面 $AED$；\n\n(3) 求直线 $EF$ 与平面 $BED$ 所成角的正弦值.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，四边形 $ABCD$ 是平行四边形，平面 $AED \\perp$ 平面 $ABCD$，$EF\\parallel AB$，$AB=2$，$DE=3$，$BC=EF=1$，$AE=\\sqrt{6}$，$\\angle BAD=60^{\\circ}$，$G$ 为 $BC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$FG\\parallel$ 平面 $BED$；</p></li><li><p>求证：平面 $BED \\perp$ 平面 $AED$；</p></li><li><p>求直线 $EF$ 与平面 $BED$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 建立直角坐标系，使底面 $ABCD$ 为 $z=0$ 平面，取\r\n$A=(0,0,0)$，$B=(2,0,0)$，$D=\\left(\\dfrac12,\\dfrac{\\sqrt3}{2},0\\right)$，$C=\\left(\\dfrac52,\\dfrac{\\sqrt3}{2},0\\right)$\r\n设 $E$ 在平面 $AED$ 内的坐标为\r\n$\\left(\\dfrac t2,\\dfrac{\\sqrt3t}{2},z\\right)$. 由\r\n$AE=\\sqrt6$，$DE=3$，$AD=1$，有\r\n$t^2+z^2=6$，$(t-1)^2+z^2=9$\r\n两式相减得 $t=-1$，再由第一式得 $z^2=5$. 按图取\r\n$E=\\left(-\\dfrac12,-\\dfrac{\\sqrt3}{2},\\sqrt5\\right)$. 由于\r\n$EF\\parallel AB$、$EF=1$，取\r\n$F=\\left(\\dfrac12,-\\dfrac{\\sqrt3}{2},\\sqrt5\\right)$，且\r\n\n$$\nG=\\dfrac{B+C}{2}\r\n=\\left(\\dfrac94,\\dfrac{\\sqrt3}{4},0\\right)\n$$\n\r\n于是\r\n$\\overrightarrow{BD}=\\left(-\\dfrac32,\\dfrac{\\sqrt3}{2},0\\right)$，$\\overrightarrow{BE}=\\left(-\\dfrac52,-\\dfrac{\\sqrt3}{2},\\sqrt5\\right)$\r\n\n$$\n\\overrightarrow{FG}\r\n=\\left(\\dfrac74,\\dfrac{3\\sqrt3}{4},-\\sqrt5\\right)\r\n=\\dfrac12\\overrightarrow{BD}-\\overrightarrow{BE}\n$$\n\r\n所以 $\\overrightarrow{FG}$ 与平面 $BED$ 内两条相交直线的方向向量共面，即\r\n$FG$ 的方向平行于平面 $BED$. 又\r\n\n$$\n\\left(\\overrightarrow{BD}\\times\\overrightarrow{BE}\\right)\r\n\\cdot\\overrightarrow{BF}=\\dfrac{\\sqrt{15}}{2}\\ne0\n$$\n\r\n故 $F\\notin$ 平面 $BED$，从而 $FG\\parallel$ 平面 $BED$.\n\n(2) 由上述坐标，\r\n$\\overrightarrow{AD}=\\left(\\dfrac12,\\dfrac{\\sqrt3}{2},0\\right)$，$\\overrightarrow{AE}=\\left(-\\dfrac12,-\\dfrac{\\sqrt3}{2},\\sqrt5\\right)$.\r\n直接计算得\r\n$\\overrightarrow{BD}\\cdot\\overrightarrow{AD}=0$，$\\overrightarrow{BD}\\cdot\\overrightarrow{AE}=0$.\r\n直线 $AD$，$AE$ 是平面 $AED$ 内相交的两条直线，所以\r\n$BD\\perp$ 平面 $AED$. 又 $BD\\subset$ 平面 $BED$，因此\r\n平面 $BED\\perp$ 平面 $AED$.\n\n(3) 设直线 $EF$ 与平面 $BED$ 所成的角为 $\\theta$. 取\r\n$H$ 为 $A$ 到 $DE$ 的垂足. 由于两平面交于 $DE$，且\r\n$AED\\perp BED$，有 $AH\\perp$ 平面 $BED$. 又 $EF\\parallel AB$，所以\r\n$\\theta$ 等于直线 $AB$ 与平面 $BED$ 所成的角，即\r\n$\\theta=\\angle ABH$.\r\n\r\n在三角形 $ADE$ 中，由余弦定理，\r\n\n$$\n\\cos\\angle ADE\r\n=\\dfrac{AD^2+DE^2-AE^2}{2AD\\cdot DE}\r\n=\\dfrac{1+9-6}{2\\times1\\times3}\r\n=\\dfrac23\n$$\n\r\n所以 $\\sin\\angle ADE=\\dfrac{\\sqrt5}{3}$，从而\r\n$AH=AD\\sin\\angle ADE=\\dfrac{\\sqrt5}{3}$. 在直角三角形\r\n$AHB$ 中，$AB=2$，故\r\n\n$$\n\\sin\\theta=\\sin\\angle ABH=\\dfrac{AH}{AB}\r\n=\\dfrac{\\sqrt5}{6}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>建立直角坐标系，使底面 $ABCD$ 为 $z=0$ 平面，取</p><p>$A=(0,0,0)$，$B=(2,0,0)$，$D=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$，$C=\\left(\\dfrac{5}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$</p><p>设 $E$ 在平面 $AED$ 内的坐标为</p><p>$\\left(\\dfrac{t}{2},\\dfrac{\\sqrt{3}t}{2},z\\right)$. 由</p><p>$AE=\\sqrt{6}$，$DE=3$，$AD=1$，有</p><p>$t^{2}+z^{2}=6$，$(t-1)^{2}+z^{2}=9$</p><p>两式相减得 $t=-1$，再由第一式得 $z^{2}=5$. 按图取</p><p>$E=\\left(-\\dfrac{1}{2},-\\dfrac{\\sqrt{3}}{2},\\sqrt{5}\\right)$. 由于</p><p>$EF\\parallel AB$、$EF=1$，取</p><p>$F=\\left(\\dfrac{1}{2},-\\dfrac{\\sqrt{3}}{2},\\sqrt{5}\\right)$，且</p>\n$$\nG=\\dfrac{B+C}{2}=\\left(\\dfrac{9}{4},\\dfrac{\\sqrt{3}}{4},0\\right)\n$$\n<p>于是</p><p>$\\overrightarrow{BD}=\\left(-\\dfrac{3}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$，$\\overrightarrow{BE}=\\left(-\\dfrac{5}{2},-\\dfrac{\\sqrt{3}}{2},\\sqrt{5}\\right)$</p>\n$$\n\\overrightarrow{FG}=\\left(\\dfrac{7}{4},\\dfrac{3\\sqrt{3}}{4},-\\sqrt{5}\\right)  =\\dfrac{1}{2}\\overrightarrow{BD}-\\overrightarrow{BE}\n$$\n<p>所以 $\\overrightarrow{FG}$ 与平面 $BED$ 内两条相交直线的方向向量共面，即</p><p>$FG$ 的方向平行于平面 $BED$. 又</p>\n$$\n\\left(\\overrightarrow{BD}\\times\\overrightarrow{BE}\\right)  \\cdot\\overrightarrow{BF}=\\dfrac{\\sqrt{15}}{2}\\ne0\n$$\n<p>故 $F\\notin$ 平面 $BED$，从而 $FG\\parallel$ 平面 $BED$.</p></li><li><p>由上述坐标，</p><p>$\\overrightarrow{AD}=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$，$\\overrightarrow{AE}=\\left(-\\dfrac{1}{2},-\\dfrac{\\sqrt{3}}{2},\\sqrt{5}\\right)$.</p><p>直接计算得</p><p>$\\overrightarrow{BD}\\cdot\\overrightarrow{AD}=0$，$\\overrightarrow{BD}\\cdot\\overrightarrow{AE}=0$.</p><p>直线 $AD$，$AE$ 是平面 $AED$ 内相交的两条直线，所以</p><p>$BD\\perp$ 平面 $AED$. 又 $BD\\subset$ 平面 $BED$，因此</p><p>平面 $BED\\perp$ 平面 $AED$.</p></li><li><p>设直线 $EF$ 与平面 $BED$ 所成的角为 $\\theta$. 取</p><p>$H$ 为 $A$ 到 $DE$ 的垂足. 由于两平面交于 $DE$，且</p><p>$AED\\perp BED$，有 $AH\\perp$ 平面 $BED$. 又 $EF\\parallel AB$，所以</p><p>$\\theta$ 等于直线 $AB$ 与平面 $BED$ 所成的角，即</p><p>$\\theta=\\angle ABH$.</p><p>在三角形 $ADE$ 中，由余弦定理，</p>\n$$\n\\cos\\angle ADE  =\\dfrac{AD^2+DE^2-AE^2}{2AD\\cdot DE}=\\dfrac{1+9-6}{2\\times1\\times3}=\\dfrac{2}{3}\n$$\n<p>所以 $\\sin\\angle ADE=\\dfrac{\\sqrt{5}}{3}$，从而</p><p>$AH=AD\\sin\\angle ADE=\\dfrac{\\sqrt{5}}{3}$. 在直角三角形</p><p>$AHB$ 中，$AB=2$，故</p>\n$$\n\\sin\\theta=\\sin\\angle ABH=\\dfrac{AH}{AB}=\\dfrac{\\sqrt{5}}{6}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "已知 $\\{a_n\\}$ 是等比数列，前 $n$ 项和为 $S_n$（$n\\in \\mathbb{N}^*$），且 $\\dfrac{1}{a_1}-\\dfrac{1}{a_2}=\\dfrac{2}{a_3}$，$S_6=63$.\r\n\r\n\n(1) 求 $\\{a_n\\}$ 的通项公式；\n\n(2) 若对任意的 $n\\in \\mathbb{N}^*$，$b_n$ 是 $\\log_2 a_n$ 和 $\\log_2 a_{n+1}$ 的等差中项，求数列 $\\{(-1)^n b_n^2\\}$ 的前 $2n$ 项和.",
-          "choices": [],
+          "body": "<p>已知 $\\{a_{n}\\}$ 是等比数列，前 $n$ 项和为 $S_{n}$（$n\\in \\mathbb{N}^{*}$），且 $\\dfrac{1}{a_1}-\\dfrac{1}{a_2}=\\dfrac{2}{a_3}$，$S_{6}=63$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若对任意的 $n\\in \\mathbb{N}^{*}$，$b_{n}$ 是 $\\log_{2} a_{n}$ 和 $\\log_{2} a_{n+1}$ 的等差中项，求数列 $\\{(-1)^{n} b_{n}^{2}\\}$ 的前 $2n$ 项和.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设等比数列的首项为 $a_1$，公比为 $q$. 则\r\n$a_2=a_1q$，$a_3=a_1q^2$，由已知\r\n\n$$\n\\dfrac1{a_1}-\\dfrac1{a_1q}=\\dfrac2{a_1q^2}\n$$\n\r\n乘以 $a_1q^2$ 得 $q^2-q=2$，即\r\n$(q-2)(q+1)=0$，所以 $q=2$ 或 $q=-1$. 若 $q=-1$，则\r\n$S_6=0$，与 $S_6=63$ 矛盾，故 $q=2$. 于是\r\n\n$$\nS_6=a_1(1+2+\\cdots+2^5)=63a_1=63\n$$\n\r\n所以 $a_1=1$，从而\r\n$a_n=2^{n-1}$.\n\n(2) 因为 $b_n$ 是 $\\log_2a_n$ 与 $\\log_2a_{n+1}$ 的等差中项，\r\n\n$$\nb_n=\\dfrac{\\log_2a_n+\\log_2a_{n+1}}2\r\n=\\dfrac{n-1+n}{2}=n-\\dfrac12\n$$\n\r\n设所求前 $2n$ 项和为 $T_{2n}$，两项一组配对，得\r\n\n$$\nT_{2n}=\\sum_{j=1}^{n}\\left[-\\left(2j-\\dfrac32\\right)^2\r\n+\\left(2j-\\dfrac12\\right)^2\\right]\r\n=\\sum_{j=1}^{n}(4j-2)=2n^2\n$$\n\r\n故前 $2n$ 项和为 $2n^2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设等比数列的首项为 $a_{1}$，公比为 $q$. 则</p><p>$a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$，由已知</p>\n$$\n\\dfrac1{a_1}-\\dfrac1{a_1q}=\\dfrac2{a_1q^2}\n$$\n<p>乘以 $a_{1}q^{2}$ 得 $q^{2}-q=2$，即</p><p>$(q-2)(q+1)=0$，所以 $q=2$ 或 $q=-1$. 若 $q=-1$，则</p><p>$S_{6}=0$，与 $S_{6}=63$ 矛盾，故 $q=2$. 于是</p>\n$$\nS_{6}=a_{1}(1+2+\\cdots+2^{5})=63a_{1}=63\n$$\n<p>所以 $a_{1}=1$，从而</p><p>$a_{n}=2^{n-1}$.</p></li><li><p>因为 $b_{n}$ 是 $\\log_{2}a_{n}$ 与 $\\log_{2}a_{n+1}$ 的等差中项，</p>\n$$\nb_{n}=\\dfrac{\\log_2a_n+\\log_2a_{n+1}}2  =\\dfrac{n-1+n}{2}=n-\\dfrac{1}{2}\n$$\n<p>设所求前 $2n$ 项和为 $T_{2n}$，两项一组配对，得</p>\n$$\nT_{2n}=\\sum_{j=1}^{n}\\left[-\\left(2j-\\dfrac{3}{2}\\right)^{2}  +\\left(2j-\\dfrac{1}{2}\\right)^{2}\\right]  =\\sum_{j=1}^{n}(4j-2)=2n^{2}\n$$\n<p>故前 $2n$ 项和为 $2n^{2}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "设椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{3}=1$（$a>\\sqrt3$）的右焦点为 $F$，右顶点为 $A$，已知 $\\dfrac1{|OF|}+\\dfrac1{|OA|}=\\dfrac{3e}{|FA|}$，其中 $O$ 为原点，$e$ 为椭圆的离心率.\r\n\r\n\n(1) 求椭圆的方程；\n\n(2) 设过点 $A$ 的直线 $l$ 与椭圆交于 $B$（$B$ 不在 $x$ 轴上），垂直于 $l$ 的直线与 $l$ 交于点 $M$，与 $y$ 轴交于点 $H$，若 $BF\\perp HF$，且 $\\angle MOA=\\angle MAO$，求直线 $l$ 的斜率.",
-          "choices": [],
+          "body": "<p>设椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{3}=1$（$a>\\sqrt{3}$）的右焦点为 $F$，右顶点为 $A$，已知 $\\dfrac1{|OF|}+\\dfrac1{|OA|}=\\dfrac{3e}{|FA|}$，其中 $O$ 为原点，$e$ 为椭圆的离心率.</p><ol class=\"enumerate\"><li><p>求椭圆的方程；</p></li><li><p>设过点 $A$ 的直线 $l$ 与椭圆交于 $B$（$B$ 不在 $x$ 轴上），垂直于 $l$ 的直线与 $l$ 交于点 $M$，与 $y$ 轴交于点 $H$，若 $BF\\perp HF$，且 $\\angle MOA=\\angle MAO$，求直线 $l$ 的斜率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设椭圆的半长轴为 $a$，半短轴为 $\\sqrt3$，则\r\n$c=\\sqrt{a^2-3}$，且 $e=\\dfrac ca$. 由\r\n$OF=c$，$OA=a$，$FA=a-c$，已知条件化为\r\n\n$$\n\\dfrac1c+\\dfrac1a=\\dfrac{3c}{a(a-c)}\n$$\n\r\n两边同乘 $ac(a-c)$，得\r\n$a^2-c^2=3c^2$，即 $a^2=4c^2$. 结合\r\n$a^2-c^2=3$，得 $c^2=1$，$a^2=4$. 所以椭圆方程为\r\n\n$$\n\\dfrac{x^2}{4}+\\dfrac{y^2}{3}=1\n$$\n\n(2) 设直线 $l$ 的斜率为 $k$. 因 $B$ 不在 $x$ 轴上，$k\\ne0$，且\r\n$l:y=k(x-2)$. 将其代入椭圆方程，除去对应于 $A$ 的根 $x=2$，得到\r\n$x_B=\\dfrac{8k^2-6}{3+4k^2}$，$y_B=-\\dfrac{12k}{3+4k^2}$\r\n直线 $l$ 的垂线过 $M$，且 $\\angle MOA=\\angle MAO$. 在三角形\r\n$MOA$ 中，等角所对的边相等，即 $OM=AM$. 若\r\n$M=(x_M,y_M)$，则\r\n\n$$\nx_M^2+y_M^2=(x_M-2)^2+y_M^2\n$$\n\r\n所以 $x_M=1$，又 $M\\in l$，故 $M=(1,-k)$. 过 $M$ 的垂线斜率为\r\n$-\\dfrac1k$，因此它与 $y$ 轴的交点为\r\n\n$$\nH=\\left(0,\\dfrac1k-k\\right)\n$$\n\r\n由 $BF\\perp HF$，且 $F=(1,0)$，有\r\n\n$$\n(x_B-1,y_B)\\cdot\\left(-1,\\dfrac1k-k\\right)=0\n$$\n\r\n代入 $x_B$，$y_B$ 得\r\n\n$$\n\\dfrac{4k^2-9}{3+4k^2}\r\n=\\dfrac{12(k^2-1)}{3+4k^2}\n$$\n\r\n于是 $12k^2-12=4k^2-9$，即 $k^2=\\dfrac38$. 因此\r\n\n$$\nk=\\pm\\sqrt{\\dfrac38}=\\pm\\dfrac{\\sqrt6}{4}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半长轴为 $a$，半短轴为 $\\sqrt{3}$，则</p><p>$c=\\sqrt{a^{2}-3}$，且 $e=\\dfrac{c}{a}$. 由</p><p>$OF=c$，$OA=a$，$FA=a-c$，已知条件化为</p>\n$$\n\\dfrac{1}{c}+\\dfrac{1}{a}=\\dfrac{3c}{a(a-c)}\n$$\n<p>两边同乘 $ac(a-c)$，得</p><p>$a^{2}-c^{2}=3c^{2}$，即 $a^{2}=4c^{2}$. 结合</p><p>$a^{2}-c^{2}=3$，得 $c^{2}=1$，$a^{2}=4$. 所以椭圆方程为</p>\n$$\n\\dfrac{x^2}{4}+\\dfrac{y^2}{3}=1\n$$\n</li><li><p>设直线 $l$ 的斜率为 $k$. 因 $B$ 不在 $x$ 轴上，$k\\ne0$，且</p><p>$l:y=k(x-2)$. 将其代入椭圆方程，除去对应于 $A$ 的根 $x=2$，得到</p><p>$x_{B}=\\dfrac{8k^2-6}{3+4k^2}$，$y_{B}=-\\dfrac{12k}{3+4k^2}$</p><p>直线 $l$ 的垂线过 $M$，且 $\\angle MOA=\\angle MAO$. 在三角形</p><p>$MOA$ 中，等角所对的边相等，即 $OM=AM$. 若</p><p>$M=(x_{M},y_{M})$，则</p>\n$$\nx_{M}^{2}+y_{M}^{2}=(x_{M}-2)^{2}+y_{M}^{2}\n$$\n<p>所以 $x_{M}=1$，又 $M\\in l$，故 $M=(1,-k)$. 过 $M$ 的垂线斜率为</p><p>$-\\dfrac{1}{k}$，因此它与 $y$ 轴的交点为</p>\n$$\nH=\\left(0,\\dfrac{1}{k}-k\\right)\n$$\n<p>由 $BF\\perp HF$，且 $F=(1,0)$，有</p>\n$$\n(x_{B}-1,y_{B})\\cdot\\left(-1,\\dfrac{1}{k}-k\\right)=0\n$$\n<p>代入 $x_{B}$，$y_{B}$ 得</p>\n$$\n\\dfrac{4k^2-9}{3+4k^2}=\\dfrac{12(k^2-1)}{3+4k^2}\n$$\n<p>于是 $12k^{2}-12=4k^{2}-9$，即 $k^{2}=\\dfrac{3}{8}$. 因此</p>\n$$\nk=\\pm\\sqrt{\\dfrac{3}{8}}=\\pm\\dfrac{\\sqrt{6}}{4}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "设函数 $f(x)=x^3-ax-b$，$x\\in \\mathbb{R}$，其中 $a$，$b\\in \\mathbb{R}$.\r\n\r\n\n(1) 求 $f(x)$ 的单调区间；\n\n(2) 若 $f(x)$ 存在极值点 $x_0$，且 $f(x_1)=f(x_0)$，其中 $x_1\\ne x_0$，求证：$x_1+2x_0=0$；\n\n(3) 设 $a>0$，函数 $g(x)=|f(x)|$，求证：$g(x)$ 在区间 $[-1,1]$ 上的最大值不小于 $\\dfrac14$.",
-          "choices": [],
+          "body": "<p>设函数 $f(x)=x^{3}-ax-b$，$x\\in \\mathbb{R}$，其中 $a$，$b\\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的单调区间；</p></li><li><p>若 $f(x)$ 存在极值点 $x_{0}$，且 $f(x_{1})=f(x_{0})$，其中 $x_{1}\\ne x_{0}$，求证：$x_{1}+2x_{0}=0$；</p></li><li><p>设 $a>0$，函数 $g(x)=|f(x)|$，求证：$g(x)$ 在区间 $[-1,1]$ 上的最大值不小于 $\\dfrac{1}{4}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $f'(x)=3x^2-a$. 当 $a\\leqslant0$ 时，$f'(x)\\geqslant0$，所以\r\n$f(x)$ 在 $\\mathbb{R}$ 上单调递增. 当 $a>0$ 时，令\r\n$r=\\sqrt{\\dfrac a3}=\\dfrac{\\sqrt{3a}}3$，则\r\n$f'(x)>0$（$x\\in(-\\infty,-r)\\cup(r,+\\infty)$），$f'(x)<0$（$x\\in(-r,r)$），\r\n所以 $f$ 在 $(-\\infty,-r)$ 和 $(r,+\\infty)$ 上单调递增，在\r\n$(-r,r)$ 上单调递减.\n\n(2) $x_0$ 是极值点，所以 $f'(x_0)=0$，即\r\n$a=3x_0^2$. 由 $f(x_1)=f(x_0)$，得\r\n\n$$\n(x_1-x_0)(x_1^2+x_1x_0+x_0^2-a)=0\n$$\n\r\n因 $x_1\\ne x_0$，所以\r\n$x_1^2+x_1x_0+x_0^2=3x_0^2$，即\r\n\n$$\n(x_1-x_0)(x_1+2x_0)=0\n$$\n\r\n再次利用 $x_1\\ne x_0$，得到 $x_1+2x_0=0$.\n\n(3) 对任意 $x\\in[0,1]$，有\r\n\n$$\nf(x)-f(-x)=2(x^3-ax)\n$$\n\r\n设 $M=\\max_{-1\\le t\\leqslant1}|f(t)|$，则\r\n$2M\\ge|f(x)-f(-x)|$，从而\r\n\n$$\nM\\ge|x^3-ax|\n$$\n\r\n分情况取 $x$：\r\n\r\n当 $0<a\\le\\dfrac34$ 时，取 $x=1$，则\r\n\n$$\n|x^3-ax|=1-a\\ge\\dfrac14\n$$\n\r\n当 $\\dfrac34<a<\\dfrac54$ 时，取\r\n$x=\\sqrt{\\dfrac a3}\\in(0,1)$，则\r\n\n$$\n|x^3-ax|\r\n=\\left|\\dfrac a3\\sqrt{\\dfrac a3}-a\\sqrt{\\dfrac a3}\\right|\r\n=\\dfrac{2a^{\\frac{3}{2}}}{3\\sqrt3}\r\n>\\dfrac14\n$$\n\r\n当 $a\\ge\\dfrac54$ 时，仍取 $x=1$，得到\r\n\n$$\n|x^3-ax|=a-1\\ge\\dfrac14\n$$\n\r\n因此无论 $a>0$ 取何值，都有\r\n\n$$\n\\max_{-1\\le x\\leqslant1}g(x)=M\\ge\\dfrac14\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-a$. 当 $a\\leqslant0$ 时，$f'(x)\\geqslant0$，所以</p><p>$f(x)$ 在 $\\mathbb{R}$ 上单调递增. 当 $a>0$ 时，令</p><p>$r=\\sqrt{\\dfrac{a}{3}}=\\dfrac{\\sqrt{3a}}3$，则</p><p>$f'(x)>0$（$x\\in(-\\infty,-r)\\cup(r,+\\infty)$），$f'(x)&#x3C;0$（$x\\in(-r,r)$），</p><p>所以 $f$ 在 $(-\\infty,-r)$ 和 $(r,+\\infty)$ 上单调递增，在</p><p>$(-r,r)$ 上单调递减.</p></li><li><p>$x_{0}$ 是极值点，所以 $f'(x_{0})=0$，即</p><p>$a=3x_{0}^{2}$. 由 $f(x_{1})=f(x_{0})$，得</p>\n$$\n(x_{1}-x_{0})(x_{1}^{2}+x_{1}x_{0}+x_{0}^{2}-a)=0\n$$\n<p>因 $x_{1}\\ne x_{0}$，所以</p><p>$x_{1}^{2}+x_{1}x_{0}+x_{0}^{2}=3x_{0}^{2}$，即</p>\n$$\n(x_{1}-x_{0})(x_{1}+2x_{0})=0\n$$\n<p>再次利用 $x_{1}\\ne x_{0}$，得到 $x_{1}+2x_{0}=0$.</p></li><li><p>对任意 $x\\in[0,1]$，有</p>\n$$\nf(x)-f(-x)=2(x^{3}-ax)\n$$\n<p>设 $M=\\max_{-1\\le t\\leqslant1}|f(t)|$，则</p><p>$2M\\ge|f(x)-f(-x)|$，从而</p>\n$$\nM\\ge|x^{3}-ax|\n$$\n<p>分情况取 $x$：</p><p>当 $0&#x3C;a\\le\\dfrac{3}{4}$ 时，取 $x=1$，则</p>\n$$\n|x^{3}-ax|=1-a\\ge\\dfrac{1}{4}\n$$\n<p>当 $\\dfrac{3}{4}&#x3C;a&#x3C;\\dfrac{5}{4}$ 时，取</p><p>$x=\\sqrt{\\dfrac{a}{3}}\\in(0,1)$，则</p>\n$$\n|x^{3}-ax|  =\\left|\\dfrac{a}{3}\\sqrt{\\dfrac{a}{3}}-a\\sqrt{\\dfrac{a}{3}}\\right|  =\\dfrac{2a^{\\frac{3}{2}}}{3\\sqrt{3}}>\\dfrac{1}{4}\n$$\n<p>当 $a\\ge\\dfrac{5}{4}$ 时，仍取 $x=1$，得到</p>\n$$\n|x^{3}-ax|=a-1\\ge\\dfrac{1}{4}\n$$\n<p>因此无论 $a>0$ 取何值，都有</p>\n$$\n\\max_{-1\\le x\\leqslant1}g(x)=M\\ge\\dfrac{1}{4}\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

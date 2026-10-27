@@ -1,156 +1,15 @@
 {
+  "title": "2019年普通高等学校招生全国统一考试",
+  "subtitle": "2019年全国III卷（文）",
   "year": "2019",
   "slug": "national_paper_3_liberal",
-  "title": "2019年全国III卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{-1,0,1,2\\}$，$B=\\{x\\mid x^2\\le1\\}$，则 $A\\cap B=$（ ）",
+          "body": "已知集合 $A=\\{-1,0,1,2\\}$，$B=\\{x\\mid x^{2}\\le1\\}$，则 $A\\cap B=$（ ）",
           "choices": [
             "$\\{-1,0,1\\}$",
             "$\\{0,1\\}$",
@@ -158,13 +17,11 @@
             "$\\{0,1,2\\}$"
           ],
           "answer": "A",
-          "solution": "由 $x^2\\le1$ 得 $-1\\le x\\le1$，所以 $B=\\{x\\mid -1\\le x\\le1\\}$. 因此 $A\\cap B=\\{-1,0,1\\}$. 故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $x^{2}\\le1$ 得 $-1\\le x\\le1$，所以 $B=\\{x\\mid -1\\le x\\le1\\}$. 因此 $A\\cap B=\\{-1,0,1\\}$. 故选 A."
         },
         {
           "num": 2,
-          "body": "若 $z(1+\\mathrm{i})=2\\mathrm{i}$，则 $z=$（ ）",
+          "body": "若 $z(1+\\mathrm{i})=2\\mathrm{i}$，则 $z=$（ ）",
           "choices": [
             "$-1-\\mathrm{i}$",
             "$-1+\\mathrm{i}$",
@@ -172,27 +29,23 @@
             "$1+\\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "由 $z(1+\\mathrm{i})=2\\mathrm{i}$，得 $z=\\dfrac{2\\mathrm{i}}{1+\\mathrm{i}}=\\dfrac{2\\mathrm{i}(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=1+\\mathrm{i}$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $z(1+\\mathrm{i})=2\\mathrm{i}$，得 $z=\\dfrac{2\\mathrm{i}}{1+\\mathrm{i}}=\\dfrac{2\\mathrm{i}(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=1+\\mathrm{i}$. 故选 D."
         },
         {
           "num": 3,
-          "body": "两位男同学和两位女同学随机排成一列，则两位女同学相邻的概率是（ ）",
+          "body": "两位男同学和两位女同学随机排成一列，则两位女同学相邻的概率是（ ）",
           "choices": [
-            "$\\dfrac16$",
-            "$\\dfrac14$",
-            "$\\dfrac13$",
-            "$\\dfrac12$"
+            "$\\dfrac{1}{6}$",
+            "$\\dfrac{1}{4}$",
+            "$\\dfrac{1}{3}$",
+            "$\\dfrac{1}{2}$"
           ],
           "answer": "D",
-          "solution": "将两位女同学捆绑为一个整体，与两位男同学共看成 $3$ 个元素，则满足条件的排列数为 $A_3^3\\cdot A_2^2=12$. 总排列数为 $A_4^4=24$. 所以所求概率为 $\\dfrac{12}{24}=\\dfrac12$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "将两位女同学捆绑为一个整体，与两位男同学共看成 $3$ 个元素，则满足条件的排列数为 $A_{3}^{3}\\cdot A_{2}^{2}=12$. 总排列数为 $A_{4}^{4}=24$. 所以所求概率为 $\\dfrac{12}{24}=\\dfrac{1}{2}$. 故选 D."
         },
         {
           "num": 4,
-          "body": "《西游记》《三国演义》《水浒传》和《红楼梦》是中国古典文学瑰宝，并称为中国古典小说四大名著. 某中学为了解本校学生阅读四大名著的情况，随机调查了 $100$ 位学生，其中阅读过《西游记》或《红楼梦》的学生共有 $90$ 位，阅读过《红楼梦》的学生共有 $80$ 位，阅读过《西游记》且阅读过《红楼梦》的学生共有 $60$ 位，则该校阅读过《西游记》的学生人数与该学校学生总数比值的估计值为（ ）",
+          "body": "《西游记》《三国演义》《水浒传》和《红楼梦》是中国古典文学瑰宝，并称为中国古典小说四大名著. 某中学为了解本校学生阅读四大名著的情况，随机调查了 $100$ 位学生，其中阅读过《西游记》或《红楼梦》的学生共有 $90$ 位，阅读过《红楼梦》的学生共有 $80$ 位，阅读过《西游记》且阅读过《红楼梦》的学生共有 $60$ 位，则该校阅读过《西游记》的学生人数与该学校学生总数比值的估计值为（ ）",
           "choices": [
             "$0.5$",
             "$0.6$",
@@ -200,13 +53,11 @@
             "$0.8$"
           ],
           "answer": "C",
-          "solution": "设阅读过《西游记》的学生人数为 $x$，则 $x+80-60=90$，所以 $x=70$. 所求估计值为 $\\dfrac{70}{100}=0.7$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设阅读过《西游记》的学生人数为 $x$，则 $x+80-60=90$，所以 $x=70$. 所求估计值为 $\\dfrac{70}{100}=0.7$. 故选 C."
         },
         {
           "num": 5,
-          "body": "函数 $f(x)=2\\sin x-\\sin2x$ 在 $[0,2\\pi]$ 的零点个数为（ ）",
+          "body": "函数 $f(x)=2\\sin x-\\sin2x$ 在 $[0,2\\pi]$ 的零点个数为（ ）",
           "choices": [
             "$2$",
             "$3$",
@@ -214,13 +65,11 @@
             "$5$"
           ],
           "answer": "B",
-          "solution": "因为 $f(x)=2\\sin x-\\sin2x=2\\sin x(1-\\cos x)$，所以零点满足 $\\sin x=0$ 或 $\\cos x=1$. 在 $[0,2\\pi]$ 上零点为 $0$，$\\pi$，$2\\pi$，共有 $3$ 个. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $f(x)=2\\sin x-\\sin2x=2\\sin x(1-\\cos x)$，所以零点满足 $\\sin x=0$ 或 $\\cos x=1$. 在 $[0,2\\pi]$ 上零点为 $0$，$\\pi$，$2\\pi$，共有 $3$ 个. 故选 B."
         },
         {
           "num": 6,
-          "body": "已知各项均为正数的等比数列 $\\{a_n\\}$ 的前 $4$ 项和为 $15$，且 $a_5=3a_3+4a_1$，则 $a_3=$（ ）",
+          "body": "已知各项均为正数的等比数列 $\\{a_{n}\\}$ 的前 $4$ 项和为 $15$，且 $a_{5}=3a_{3}+4a_{1}$，则 $a_{3}=$（ ）",
           "choices": [
             "$16$",
             "$8$",
@@ -228,13 +77,11 @@
             "$2$"
           ],
           "answer": "C",
-          "solution": "设公比为 $q>0$，首项为 $a_1=a$. 由 $a_5=3a_3+4a_1$ 得 $aq^4=3aq^2+4a$，即 $q^4-3q^2-4=0$. 解得 $q^2=4$，所以 $q=2$. 又 $a(1+q+q^2+q^3)=15$，即 $15a=15$，得 $a=1$. 因此 $a_3=aq^2=4$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设公比为 $q>0$，首项为 $a_{1}=a$. 由 $a_{5}=3a_{3}+4a_{1}$ 得 $aq^{4}=3aq^{2}+4a$，即 $q^{4}-3q^{2}-4=0$. 解得 $q^{2}=4$，所以 $q=2$. 又 $a(1+q+q^{2}+q^{3})=15$，即 $15a=15$，得 $a=1$. 因此 $a_{3}=aq^{2}=4$. 故选 C."
         },
         {
           "num": 7,
-          "body": "已知曲线 $y=a\\mathrm{e}^x+x\\ln x$ 在点 $(1,a\\mathrm{e})$ 处的切线方程为 $y=2x+b$，则（ ）",
+          "body": "已知曲线 $y=a\\mathrm{e}^{x}+x\\ln x$ 在点 $(1,a\\mathrm{e})$ 处的切线方程为 $y=2x+b$，则（ ）",
           "choices": [
             "$a=\\mathrm{e}$，$b=-1$",
             "$a=\\mathrm{e}$，$b=1$",
@@ -242,13 +89,11 @@
             "$a=\\mathrm{e}^{-1}$，$b=-1$"
           ],
           "answer": "D",
-          "solution": "设 $f(x)=a\\mathrm{e}^x+x\\ln x$，则 $f'(x)=a\\mathrm{e}^x+\\ln x+1$. 切线斜率为 $2$，所以 $f'(1)=a\\mathrm{e}+1=2$，得 $a=\\mathrm{e}^{-1}$. 又切点 $(1,a\\mathrm{e})=(1,1)$，代入切线方程 $y=2x+b$ 得 $1=2+b$，所以 $b=-1$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设 $f(x)=a\\mathrm{e}^{x}+x\\ln x$，则 $f'(x)=a\\mathrm{e}^{x}+\\ln x+1$. 切线斜率为 $2$，所以 $f'(1)=a\\mathrm{e}+1=2$，得 $a=\\mathrm{e}^{-1}$. 又切点 $(1,a\\mathrm{e})=(1,1)$，代入切线方程 $y=2x+b$ 得 $1=2+b$，所以 $b=-1$. 故选 D."
         },
         {
           "num": 8,
-          "body": "如图，点 $N$ 为正方形 $ABCD$ 的中心，$\\triangle ECD$ 为正三角形，平面 $ECD\\perp$ 平面 $ABCD$，$M$ 是线段 $ED$ 的中点，则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/national_paper_3_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，点 $N$ 为正方形 $ABCD$ 的中心，$\\triangle ECD$ 为正三角形，平面 $ECD\\perp$ 平面 $ABCD$，$M$ 是线段 $ED$ 的中点，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$BM=EN$，且直线 $BM,EN$ 是相交直线",
             "$BM\\ne EN$，且直线 $BM$，$EN$ 是相交直线",
@@ -256,13 +101,11 @@
             "$BM\\ne EN$，且直线 $BM$，$EN$ 是异面直线"
           ],
           "answer": "B",
-          "solution": "因为点 $N$ 为正方形 $ABCD$ 的中心，$M$ 是线段 $ED$ 的中点，所以 $BM$ 是 $\\triangle BDE$ 中 $DE$ 边上的中线，$EN$ 是 $\\triangle BDE$ 中 $BD$ 边上的中线，因此直线 $BM$ 与 $EN$ 是相交直线.\r\n\r\n设 $DE=a$，则由 $\\triangle ECD$ 为正三角形可得 $CD=CE=a$. 又 $ABCD$ 为正方形，所以 $BD=\\sqrt2\\,a$. 因为平面 $ECD\\perp$ 平面 $ABCD$，且交线为 $CD$，所以 $CE\\perp BC$. 于是 $BE=\\sqrt{BC^2+CE^2}=\\sqrt{a^2+a^2}=\\sqrt2\\,a$.\r\n\r\n在 $\\triangle BDE$ 中，$BM=\\dfrac12\\sqrt{2BD^2+2BE^2-DE^2}=\\dfrac{\\sqrt7}{2}a$，而 $EN=\\dfrac12\\sqrt{2BE^2+2DE^2-BD^2}=a$. 所以 $BM\\ne EN$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为点 $N$ 为正方形 $ABCD$ 的中心，$M$ 是线段 $ED$ 的中点，所以 $BM$ 是 $\\triangle BDE$ 中 $DE$ 边上的中线，$EN$ 是 $\\triangle BDE$ 中 $BD$ 边上的中线，因此直线 $BM$ 与 $EN$ 是相交直线.</p><p>设 $DE=a$，则由 $\\triangle ECD$ 为正三角形可得 $CD=CE=a$. 又 $ABCD$ 为正方形，所以 $BD=\\sqrt{2}\\,a$. 因为平面 $ECD\\perp$ 平面 $ABCD$，且交线为 $CD$，所以 $CE\\perp BC$. 于是 $BE=\\sqrt{BC^{2}+CE^{2}}=\\sqrt{a^{2}+a^{2}}=\\sqrt{2}\\,a$.</p><p>在 $\\triangle BDE$ 中，$BM=\\dfrac{1}{2}\\sqrt{2BD^{2}+2BE^{2}-DE^{2}}=\\dfrac{\\sqrt{7}}{2}a$，而 $EN=\\dfrac{1}{2}\\sqrt{2BE^{2}+2DE^{2}-BD^{2}}=a$. 所以 $BM\\ne EN$. 故选 B.</p>"
         },
         {
           "num": 9,
-          "body": "执行如图的程序框图，如果输入的 $\\varepsilon$ 为 $0.01$，则输出 $s$ 的值等于（ ）\r\n\r\n\\begin{center}\r\n\\texfigure[max width=0.33\\linewidth]{img_repaint/2019/national_paper_3_liberal/q9_fig1.tex}\r\n\\end{center}",
+          "body": "<p>执行如图的程序框图，如果输入的 $\\varepsilon$ 为 $0.01$，则输出 $s$ 的值等于（ ）</p><center class=\"center\"><span class=\"macro macro-texfigure\"></span>[max width=0.33<span class=\"macro macro-linewidth\"></span>]img_repaint/2019/national_paper_3_liberal/q9_fig1.tex</center>",
           "choices": [
             "$2-\\dfrac1{2^4}$",
             "$2-\\dfrac1{2^5}$",
@@ -270,51 +113,43 @@
             "$2-\\dfrac1{2^7}$"
           ],
           "answer": "C",
-          "solution": "循环过程给出 $s=1+\\dfrac12+\\dfrac1{2^2}+\\cdots+\\dfrac1{2^5}$，且此时下一次的 $x=\\dfrac1{2^6}<0.01$. 因此 $s=2-\\dfrac1{2^6}$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "循环过程给出 $s=1+\\dfrac{1}{2}+\\dfrac1{2^2}+\\cdots+\\dfrac1{2^5}$，且此时下一次的 $x=\\dfrac1{2^6}&#x3C;0.01$. 因此 $s=2-\\dfrac1{2^6}$. 故选 C."
         },
         {
           "num": 10,
-          "body": "已知 $F$ 是双曲线 $C:\\dfrac{x^2}{4}-\\dfrac{y^2}{5}=1$ 的一个焦点，点 $P$ 在 $C$ 上，$O$ 为坐标原点. 若 $|OP|=|OF|$，则 $\\triangle OPF$ 的面积为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/national_paper_3_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>已知 $F$ 是双曲线 $C:\\dfrac{x^2}{4}-\\dfrac{y^2}{5}=1$ 的一个焦点，点 $P$ 在 $C$ 上，$O$ 为坐标原点. 若 $|OP|=|OF|$，则 $\\triangle OPF$ 的面积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_liberal/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$\\dfrac32$",
-            "$\\dfrac52$",
-            "$\\dfrac72$",
-            "$\\dfrac92$"
+            "$\\dfrac{3}{2}$",
+            "$\\dfrac{5}{2}$",
+            "$\\dfrac{7}{2}$",
+            "$\\dfrac{9}{2}$"
           ],
           "answer": "B",
-          "solution": "由双曲线方程知焦点 $F=(3,0)$，又 $|OP|=|OF|=3$，所以 $P$ 在圆 $x^2+y^2=9$ 上. 联立 $\\begin{cases}\r\n\\dfrac{x^2}{4}-\\dfrac{y^2}{5}=1,\\\\\r\nx^2+y^2=9,\r\n\\end{cases}$，得 $P$ 的纵坐标为 $\\dfrac53$. 于是 $S_{\\triangle OPF}=\\dfrac12\\cdot OF\\cdot \\text{高}=\\dfrac12\\cdot3\\cdot\\dfrac53=\\dfrac52$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由双曲线方程知焦点 $F=(3,0)$，又 $|OP|=|OF|=3$，所以 $P$ 在圆 $x^{2}+y^{2}=9$ 上. 联立 $\\begin{cases}\\dfrac{x^2}{4}-\\dfrac{y^2}{5}=1,\\\\  x^{2}+y^{2}=9,\\end{cases}$，得 $P$ 的纵坐标为 $\\dfrac{5}{3}$. 于是 $S_{\\triangle OPF}=\\dfrac{1}{2}\\cdot OF\\cdot \\text{高}=\\dfrac{1}{2}\\cdot3\\cdot\\dfrac{5}{3}=\\dfrac{5}{2}$. 故选 B."
         },
         {
           "num": 11,
-          "body": "记不等式组 $x+y\\ge6$，$2x-y>0$ 表示的平面区域为 $D$. 命题 $p$：$\\exists (x,y)\\in D$，$2x+y\\ge9$；命题 $q$：$\\forall (x,y)\\in D$，$2x+y\\le12$. 下面给出了四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item $p\\vee q$；\r\n\\item $\\neg p\\vee q$；\r\n\\item $p\\wedge\\neg q$；\r\n\\item $\\neg p\\wedge\\neg q$.\r\n\\end{circlelist}\r\n\r\n这四个命题中，所有真命题的编号是（ ）",
+          "body": "<p>记不等式组 $x+y\\ge6$，$2x-y>0$ 表示的平面区域为 $D$. 命题 $p$：$\\exists (x,y)\\in D$，$2x+y\\ge9$；命题 $q$：$\\forall (x,y)\\in D$，$2x+y\\le12$. 下面给出了四个命题：</p><ol class=\"enumerate\"><li><p>$p\\vee q$；</p></li><li><p>$\\neg p\\vee q$；</p></li><li><p>$p\\wedge\\neg q$；</p></li><li><p>$\\neg p\\wedge\\neg q$.</p></li></ol><p>这四个命题中，所有真命题的编号是（ ）</p>",
           "choices": [
-            "$\\circled{1}\\circled{3}$",
-            "$\\circled{1}\\circled{2}$",
-            "$\\circled{2}\\circled{3}$",
-            "$\\circled{3}\\circled{4}$"
+            "$①③$",
+            "$①②$",
+            "$②③$",
+            "$③④$"
           ],
           "answer": "A",
-          "solution": "由区域 $D$ 可判断命题 $p$ 为真，命题 $q$ 为假，所以 $\\neg p$ 为假，$\\neg q$ 为真. 于是第 $1$ 个与第 $3$ 个命题为真，其余为假. 故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由区域 $D$ 可判断命题 $p$ 为真，命题 $q$ 为假，所以 $\\neg p$ 为假，$\\neg q$ 为真. 于是第 $1$ 个与第 $3$ 个命题为真，其余为假. 故选 A."
         },
         {
           "num": 12,
-          "body": "设 $f(x)$ 是定义域为 $\\mathbb{R}$ 的偶函数，且在 $(0,+\\infty)$ 单调递减，则（ ）",
+          "body": "设 $f(x)$ 是定义域为 $\\mathbb{R}$ 的偶函数，且在 $(0,+\\infty)$ 单调递减，则（ ）",
           "choices": [
-            "$f\\!\\left(\\log_3\\frac14\\right)>f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)$",
-            "$f\\!\\left(\\log_3\\frac14\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(2^{-\\frac{3}{2}}\\right)$",
-            "$f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(\\log_3\\frac14\\right)$",
-            "$f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(\\log_3\\frac14\\right)$"
+            "$f\\!\\left(\\log_{3}\\frac{1}{4}\\right)>f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)$",
+            "$f\\!\\left(\\log_{3}\\frac{1}{4}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(2^{-\\frac{3}{2}}\\right)$",
+            "$f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(\\log_{3}\\frac{1}{4}\\right)$",
+            "$f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(\\log_{3}\\frac{1}{4}\\right)$"
           ],
           "answer": "C",
-          "solution": "因为 $f$ 是偶函数，所以 $f\\!\\left(\\log_3\\dfrac14\\right)=f\\!\\left(\\log_3 4\\right)$. 又因为 $0<2^{-\\frac{3}{2}}<2^{-\\frac{2}{3}}<1<\\log_3 4$，且 $f(x)$ 在 $(0,+\\infty)$ 单调递减，所以 $f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(\\log_3\\dfrac14\\right)$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $f$ 是偶函数，所以 $f\\!\\left(\\log_{3}\\dfrac{1}{4}\\right)=f\\!\\left(\\log_{3} 4\\right)$. 又因为 $0&#x3C;2^{-\\frac{3}{2}}&#x3C;2^{-\\frac{2}{3}}&#x3C;1&#x3C;\\log_{3} 4$，且 $f(x)$ 在 $(0,+\\infty)$ 单调递减，所以 $f\\!\\left(2^{-\\frac{3}{2}}\\right)>f\\!\\left(2^{-\\frac{2}{3}}\\right)>f\\!\\left(\\log_{3}\\dfrac{1}{4}\\right)$. 故选 C."
         }
       ]
     },
@@ -323,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知向量 $\\mathbf{a}=(2,2)$，$\\mathbf{b}=(-8,6)$，则 $\\cos\\langle\\mathbf{a},\\mathbf{b}\\rangle=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-\\dfrac{\\sqrt2}{10}\\)",
-          "solution": "由数量积公式，$\\mathbf{a}\\cdot\\mathbf{b}=2\\times(-8)+2\\times6=-4$，$|\\mathbf{a}|=\\sqrt{2^2+2^2}=2\\sqrt2$，$|\\mathbf{b}|=\\sqrt{(-8)^2+6^2}=10$. 所以 $\\cos\\langle\\mathbf{a},\\mathbf{b}\\rangle=\\dfrac{-4}{2\\sqrt2\\cdot10}=-\\dfrac{\\sqrt2}{10}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知向量 $\\mathbf{a}=(2,2)$，$\\mathbf{b}=(-8,6)$，则 $\\cos\\langle\\mathbf{a},\\mathbf{b}\\rangle=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-\\dfrac{\\sqrt{2}}{10}$",
+          "solution": "由数量积公式，$\\mathbf{a}\\cdot\\mathbf{b}=2\\times(-8)+2\\times6=-4$，$|\\mathbf{a}|=\\sqrt{2^{2}+2^{2}}=2\\sqrt{2}$，$|\\mathbf{b}|=\\sqrt{(-8)^{2}+6^{2}}=10$. 所以 $\\cos\\langle\\mathbf{a},\\mathbf{b}\\rangle=\\dfrac{-4}{2\\sqrt{2}\\cdot10}=-\\dfrac{\\sqrt{2}}{10}$."
         },
         {
           "num": 14,
-          "body": "记 $S_n$ 为等差数列 $\\{a_n\\}$ 的前 $n$ 项和. 若 $a_3=5$，$a_7=13$，则 $S_{10}=$ _______ {}.",
-          "choices": [],
+          "body": "记 $S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和. 若 $a_{3}=5$，$a_{7}=13$，则 $S_{10}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "100",
-          "solution": "由 $d=\\dfrac{a_7-a_3}{7-3}=\\dfrac{13-5}{4}=2$，得 $a_1=a_3-2d=5-4=1$. 于是 $S_{10}=\\dfrac{10(a_1+a_{10})}{2}=\\dfrac{10(1+19)}{2}=100$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $d=\\dfrac{a_7-a_3}{7-3}=\\dfrac{13-5}{4}=2$，得 $a_{1}=a_{3}-2d=5-4=1$. 于是 $S_{10}=\\dfrac{10(a_1+a_{10})}{2}=\\dfrac{10(1+19)}{2}=100$."
         },
         {
           "num": 15,
-          "body": "设 $F_1$，$F_2$ 为椭圆 $C:\\dfrac{x^2}{36}+\\dfrac{y^2}{20}=1$ 的两个焦点，$M$ 为 $C$ 上一点且在第一象限. 若 $\\triangle MF_1F_2$ 为等腰三角形，则 $M$ 的坐标为 _______ {}.",
-          "choices": [],
-          "answer": "\\((3,\\sqrt{15})\\)",
-          "solution": "设 $M=(m,n)$，且 $m$，$n>0$. 椭圆 $C$ 的 $a=6$，$b=2\\sqrt5$，$c=4$，$e=\\dfrac ca=\\dfrac23$. 由于 $M$ 为 $C$ 上一点且在第一象限，可得 $|MF_1|>|MF_2|$. 又 $\\triangle MF_1F_2$ 为等腰三角形，所以可能有 $|MF_1|=2c$ 或 $|MF_2|=2c$.\r\n\r\n由椭圆的焦半径公式，$|MF_1|=a+em=6+\\dfrac23 m$，$|MF_2|=a-em=6-\\dfrac23 m$. 若 $6+\\dfrac23 m=8$，则 $m=3$，代入椭圆方程得 $n=\\sqrt{15}$. 若 $6-\\dfrac23 m=8$，则 $m=-3<0$，舍去.\r\n\r\n故 $M=(3,\\sqrt{15})$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $F_{1}$，$F_{2}$ 为椭圆 $C:\\dfrac{x^2}{36}+\\dfrac{y^2}{20}=1$ 的两个焦点，$M$ 为 $C$ 上一点且在第一象限. 若 $\\triangle MF_{1}F_{2}$ 为等腰三角形，则 $M$ 的坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(3,\\sqrt{15})$",
+          "solution": "<p>设 $M=(m,n)$，且 $m$，$n>0$. 椭圆 $C$ 的 $a=6$，$b=2\\sqrt{5}$，$c=4$，$e=\\dfrac{c}{a}=\\dfrac{2}{3}$. 由于 $M$ 为 $C$ 上一点且在第一象限，可得 $|MF_{1}|>|MF_{2}|$. 又 $\\triangle MF_{1}F_{2}$ 为等腰三角形，所以可能有 $|MF_{1}|=2c$ 或 $|MF_{2}|=2c$.</p><p>由椭圆的焦半径公式，$|MF_{1}|=a+em=6+\\dfrac{2}{3}m$，$|MF_{2}|=a-em=6-\\dfrac{2}{3}m$. 若 $6+\\dfrac{2}{3}m=8$，则 $m=3$，代入椭圆方程得 $n=\\sqrt{15}$. 若 $6-\\dfrac{2}{3}m=8$，则 $m=-3&#x3C;0$，舍去.</p><p>故 $M=(3,\\sqrt{15})$.</p>"
         },
         {
           "num": 16,
-          "body": "学生到工厂劳动实践，利用 $3D$ 打印技术制作模型. 如图，该模型为长方体 $ABCD-A_1B_1C_1D_1$ 挖去四棱锥 $O-EFGH$ 后所得的几何体，其中 $O$ 为长方体的中心，$E$，$F$，$G$，$H$ 分别为所在棱的中点，$AB=BC=6\\mathrm{~cm}$，$AA_1=4\\mathrm{~cm}$. $3D$ 打印所用原料密度为 $0.9\\mathrm{~g/cm^3}$. 不考虑打印损耗，制作该模型所需原料的质量为 _______ {}$\\mathrm{g}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/national_paper_3_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>学生到工厂劳动实践，利用 $3D$ 打印技术制作模型. 如图，该模型为长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 挖去四棱锥 $O-EFGH$ 后所得的几何体，其中 $O$ 为长方体的中心，$E$，$F$，$G$，$H$ 分别为所在棱的中点，$AB=BC=6\\mathrm{~cm}$，$AA_{1}=4\\mathrm{~cm}$. $3D$ 打印所用原料密度为 $0.9\\mathrm{~g/cm^3}$. 不考虑打印损耗，制作该模型所需原料的质量为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{g}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "118.8",
-          "solution": "该模型为长方体 $ABCD-A_1B_1C_1D_1$ 挖去四棱锥 $O-EFGH$ 后所得的几何体，其中 $O$ 为长方体的中心，$E$，$F$，$G$，$H$ 分别为所在棱的中点，$AB=BC=6\\mathrm{~cm}$，$AA_1=4\\mathrm{~cm}$.\r\n因此该模型的体积为 $V_{ABCD-A_1B_1C_1D_1}-V_{O-EFGH}=6\\times6\\times4-\\dfrac13\\left(4\\times6-4\\times\\dfrac12\\times3\\times2\\right)\\times3=144-12=132\\mathrm{~cm^3}$. 因为 $3D$ 打印所用原料密度为 $0.9\\mathrm{~g/cm^3}$，不考虑打印损耗，所以制作该模型所需原料的质量为 $132\\times0.9=118.8\\mathrm{~g}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>该模型为长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 挖去四棱锥 $O-EFGH$ 后所得的几何体，其中 $O$ 为长方体的中心，$E$，$F$，$G$，$H$ 分别为所在棱的中点，$AB=BC=6\\mathrm{~cm}$，$AA_{1}=4\\mathrm{~cm}$.</p><p>因此该模型的体积为 $V_{ABCD-A_1B_1C_1D_1}-V_{O-EFGH}=6\\times6\\times4-\\dfrac{1}{3}\\left(4\\times6-4\\times\\dfrac{1}{2}\\times3\\times2\\right)\\times3=144-12=132\\mathrm{~cm^3}$. 因为 $3D$ 打印所用原料密度为 $0.9\\mathrm{~g/cm^3}$，不考虑打印损耗，所以制作该模型所需原料的质量为 $132\\times0.9=118.8\\mathrm{~g}$.</p>"
         }
       ]
     },
@@ -364,48 +191,38 @@
       "problems": [
         {
           "num": 17,
-          "body": "为了解甲，乙两种离子在小鼠体内的残留程度，进行如下试验：将 $200$ 只小鼠随机分成 $A$，$B$ 两组，每组 $100$ 只，其中 $A$ 组小鼠给服甲离子溶液，$B$ 组小鼠给服乙离子溶液. 每只小鼠给服的溶液体积相同，摩尔浓度相同. 经过一段时间后用某种科学方法测算出残留在小鼠体内离子的百分比. 根据试验数据分别得到如图直方图：\r\n\r\n记 $C$ 为事件：“乙离子残留在体内的百分比不低于 $5.5$”，根据直方图得到 $P(C)$ 的估计值为 $0.70$.\r\n\r\n\n(1) 求乙离子残留百分比直方图中 $a$，$b$ 的值；\n\n(2) 分别估计甲，乙离子残留百分比的平均值（同一组中的数据用该组区间的中点值为代表）.\n\r\n\r\n\\begin{center}\r\n\\texfigure[max width=\\linewidth]{img_repaint/2019/national_paper_3_liberal/q17_fig1.tex}\r\n\\end{center}",
-          "choices": [],
+          "body": "<p>为了解甲，乙两种离子在小鼠体内的残留程度，进行如下试验：将 $200$ 只小鼠随机分成 $A$，$B$ 两组，每组 $100$ 只，其中 $A$ 组小鼠给服甲离子溶液，$B$ 组小鼠给服乙离子溶液. 每只小鼠给服的溶液体积相同，摩尔浓度相同. 经过一段时间后用某种科学方法测算出残留在小鼠体内离子的百分比. 根据试验数据分别得到如图直方图：</p><p>记 $C$ 为事件：“乙离子残留在体内的百分比不低于 $5.5$”，根据直方图得到 $P(C)$ 的估计值为 $0.70$.</p><ol class=\"enumerate\"><li><p>求乙离子残留百分比直方图中 $a$，$b$ 的值；</p></li><li><p>分别估计甲，乙离子残留百分比的平均值（同一组中的数据用该组区间的中点值为代表）.</p></li></ol><center class=\"center\"><span class=\"macro macro-texfigure\"></span>[max width=<span class=\"macro macro-linewidth\"></span>]img_repaint/2019/national_paper_3_liberal/q17_fig1.tex</center>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $C$ 为事件：“乙离子残留在体内的百分比不低于 $5.5$”，根据直方图得到 $P(C)$ 的估计值为 $0.70$.\r\n则由频率分布直方图得 $\\begin{cases}\r\na+0.20+0.15=0.70,\\\\\r\n0.05+b+0.15=1-0.70,\r\n\\end{cases}$，解得乙离子残留百分比直方图中 $a=0.35$，$b=0.10$.\n\n(2) 估计甲离子残留百分比的平均值为 $2\\times0.15+3\\times0.20+4\\times0.30+5\\times0.20+6\\times0.10+7\\times0.05=4.05$. 乙离子残留百分比的平均值为 $3\\times0.05+4\\times0.10+5\\times0.15+6\\times0.35+7\\times0.20+8\\times0.15=6.00$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$C$ 为事件：“乙离子残留在体内的百分比不低于 $5.5$”，根据直方图得到 $P(C)$ 的估计值为 $0.70$.</p><p>则由频率分布直方图得 $\\begin{cases}a+0.20+0.15=0.70,\\\\  0.05+b+0.15=1-0.70,\\end{cases}$，解得乙离子残留百分比直方图中 $a=0.35$，$b=0.10$.</p></li><li><p>估计甲离子残留百分比的平均值为 $2\\times0.15+3\\times0.20+4\\times0.30+5\\times0.20+6\\times0.10+7\\times0.05=4.05$. 乙离子残留百分比的平均值为 $3\\times0.05+4\\times0.10+5\\times0.15+6\\times0.35+7\\times0.20+8\\times0.15=6.00$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $a\\sin\\frac{A+C}{2}=b\\sin A$.\r\n\r\n\n(1) 求 $B$；\n\n(2) 若 $\\triangle ABC$ 为锐角三角形，且 $c=1$，求 $\\triangle ABC$ 面积的取值范围.",
-          "choices": [],
+          "body": "<p>$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $a\\sin\\frac{A+C}{2}=b\\sin A$.</p><ol class=\"enumerate\"><li><p>求 $B$；</p></li><li><p>若 $\\triangle ABC$ 为锐角三角形，且 $c=1$，求 $\\triangle ABC$ 面积的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $A+B+C=\\pi$，可得 $\\dfrac{A+C}{2}=\\dfrac{\\pi-B}{2}$. 因此 $a\\sin\\dfrac{A+C}{2}=b\\sin A$，即 $a\\sin\\dfrac{\\pi-B}{2}=a\\cos\\dfrac B2=b\\sin A$. 由正弦定理，$a=2R\\sin A$，$b=2R\\sin B$，所以 $\\sin A\\cos\\dfrac B2=\\sin B\\sin A=2\\sin\\dfrac B2\\cos\\dfrac B2\\sin A$. 因为 $\\sin A>0$，所以 $\\cos\\dfrac B2=2\\sin\\dfrac B2\\cos\\dfrac B2$. 若 $\\cos\\dfrac B2=0$，则 $B=(2k+1)\\pi$（$k\\in\\mathbb{Z}$）不成立；因此 $\\sin\\dfrac B2=\\dfrac12$. 又 $0<B<\\pi$，故 $B=\\dfrac{\\pi}{3}$.\n\n(2) 若 $\\triangle ABC$ 为锐角三角形，且 $c=1$，由余弦定理可得 $b=\\sqrt{a^2+1-2a\\cos\\dfrac{\\pi}{3}}=\\sqrt{a^2-a+1}$. 由 $\\triangle ABC$ 为锐角三角形，可得 $a^2+a^2-a+1>1$，$1+a^2-a+1>a^2$，解得 $\\dfrac12<a<2$. 于是 $S_{\\triangle ABC}=\\dfrac12 a\\cdot1\\cdot\\sin\\dfrac{\\pi}{3}=\\dfrac{\\sqrt3}{4}a$，故 $S_{\\triangle ABC}\\in\\left(\\dfrac{\\sqrt3}{8},\\dfrac{\\sqrt3}{2}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $A+B+C=\\pi$，可得 $\\dfrac{A+C}{2}=\\dfrac{\\pi-B}{2}$. 因此 $a\\sin\\dfrac{A+C}{2}=b\\sin A$，即 $a\\sin\\dfrac{\\pi-B}{2}=a\\cos\\dfrac{B}{2}=b\\sin A$. 由正弦定理，$a=2R\\sin A$，$b=2R\\sin B$，所以 $\\sin A\\cos\\dfrac{B}{2}=\\sin B\\sin A=2\\sin\\dfrac{B}{2}\\cos\\dfrac{B}{2}\\sin A$. 因为 $\\sin A>0$，所以 $\\cos\\dfrac{B}{2}=2\\sin\\dfrac{B}{2}\\cos\\dfrac{B}{2}$. 若 $\\cos\\dfrac{B}{2}=0$，则 $B=(2k+1)\\pi$（$k\\in\\mathbb{Z}$）不成立；因此 $\\sin\\dfrac{B}{2}=\\dfrac{1}{2}$. 又 $0&#x3C;B&#x3C;\\pi$，故 $B=\\dfrac{\\pi}{3}$.</p></li><li><p>若 $\\triangle ABC$ 为锐角三角形，且 $c=1$，由余弦定理可得 $b=\\sqrt{a^{2}+1-2a\\cos\\dfrac{\\pi}{3}}=\\sqrt{a^{2}-a+1}$. 由 $\\triangle ABC$ 为锐角三角形，可得 $a^{2}+a^{2}-a+1>1$，$1+a^{2}-a+1>a^{2}$，解得 $\\dfrac{1}{2}&#x3C;a&#x3C;2$. 于是 $S_{\\triangle ABC}=\\dfrac{1}{2}a\\cdot1\\cdot\\sin\\dfrac{\\pi}{3}=\\dfrac{\\sqrt{3}}{4}a$，故 $S_{\\triangle ABC}\\in\\left(\\dfrac{\\sqrt{3}}{8},\\dfrac{\\sqrt{3}}{2}\\right)$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "图 1 是由矩形 $ADEB$，$\\mathrm{Rt}\\triangle ABC$ 和菱形 $BFGC$ 组成的一个平面图形，其中 $AB=1$，$BE=BF=2$，$\\angle FBC=60^\\circ$. 将其沿 $AB$，$BC$ 折起使得 $BE$ 与 $BF$ 重合，连结 $DG$，如图 2.\r\n\r\n\n(1) 证明：图 2 中的 $A$，$C$，$G$，$D$ 四点共面，且平面 $ABC\\perp$ 平面 $BCGE$；\n\n(2) 求图 2 中的四边形 $ACGD$ 的面积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/national_paper_3_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>图 1 是由矩形 $ADEB$，$\\mathrm{Rt}\\triangle ABC$ 和菱形 $BFGC$ 组成的一个平面图形，其中 $AB=1$，$BE=BF=2$，$\\angle FBC=60^{\\circ}$. 将其沿 $AB$，$BC$ 折起使得 $BE$ 与 $BF$ 重合，连结 $DG$，如图 2.</p><ol class=\"enumerate\"><li><p>证明：图 2 中的 $A$，$C$，$G$，$D$ 四点共面，且平面 $ABC\\perp$ 平面 $BCGE$；</p></li><li><p>求图 2 中的四边形 $ACGD$ 的面积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 证明：由已知可得 $AD\\parallel BE$，$CG\\parallel BE$，即有 $AD\\parallel CG$.\r\n则 $AD$，$CG$ 确定一个平面，从而 $A$，$C$，$G$，$D$ 四点共面.\r\n由四边形 $ABED$ 为矩形，可得 $AB\\perp BE$.\r\n由 $\\triangle ABC$ 为直角三角形，可得 $AB\\perp BC$.\r\n又 $BC\\cap BE=B$，所以 $AB\\perp$ 平面 $BCGE$.\r\n因为 $AB\\subset$ 平面 $ABC$，故平面 $ABC\\perp$ 平面 $BCGE$.\n\n(2) 连接 $BG$，$AG$.\r\n由 $AB\\perp$ 平面 $BCGE$，可得 $AB\\perp BG$.\r\n在 $\\triangle BCG$ 中，$BC=CG=2$，$\\angle BCG=120^\\circ$，可得 $BG=2BC\\sin60^\\circ=2\\sqrt3$. 从而 $AG=\\sqrt{AB^2+BG^2}=\\sqrt{13}$. 在 $\\triangle ACG$ 中，$AC=\\sqrt5$，$CG=2$，$AG=\\sqrt{13}$，故 $\\cos\\angle ACG=\\dfrac{AC^2+CG^2-AG^2}{2\\cdot AC\\cdot CG}=\\dfrac{5+4-13}{2\\cdot2\\cdot\\sqrt5}=-\\dfrac1{\\sqrt5}$，所以 $\\sin\\angle ACG=\\dfrac2{\\sqrt5}$. 于是平行四边形 $ACGD$ 的面积为 $2\\times\\sqrt5\\times\\dfrac2{\\sqrt5}=4$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>证明：由已知可得 $AD\\parallel BE$，$CG\\parallel BE$，即有 $AD\\parallel CG$.</p><p>则 $AD$，$CG$ 确定一个平面，从而 $A$，$C$，$G$，$D$ 四点共面.</p><p>由四边形 $ABED$ 为矩形，可得 $AB\\perp BE$.</p><p>由 $\\triangle ABC$ 为直角三角形，可得 $AB\\perp BC$.</p><p>又 $BC\\cap BE=B$，所以 $AB\\perp$ 平面 $BCGE$.</p><p>因为 $AB\\subset$ 平面 $ABC$，故平面 $ABC\\perp$ 平面 $BCGE$.</p></li><li><p>连接 $BG$，$AG$.</p><p>由 $AB\\perp$ 平面 $BCGE$，可得 $AB\\perp BG$.</p><p>在 $\\triangle BCG$ 中，$BC=CG=2$，$\\angle BCG=120^{\\circ}$，可得 $BG=2BC\\sin60^{\\circ}=2\\sqrt{3}$. 从而 $AG=\\sqrt{AB^{2}+BG^{2}}=\\sqrt{13}$. 在 $\\triangle ACG$ 中，$AC=\\sqrt{5}$，$CG=2$，$AG=\\sqrt{13}$，故 $\\cos\\angle ACG=\\dfrac{AC^2+CG^2-AG^2}{2\\cdot AC\\cdot CG}=\\dfrac{5+4-13}{2\\cdot2\\cdot\\sqrt{5}}=-\\dfrac1{\\sqrt{5}}$，所以 $\\sin\\angle ACG=\\dfrac2{\\sqrt{5}}$. 于是平行四边形 $ACGD$ 的面积为 $2\\times\\sqrt{5}\\times\\dfrac2{\\sqrt{5}}=4$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知函数 $f(x)=2x^3-ax^2+2$.\r\n\r\n\n(1) 讨论 $f(x)$ 的单调性；\n\n(2) 当 $0<a<3$ 时，记 $f(x)$ 在区间 $[0,1]$ 的最大值为 $M$，最小值为 $m$，求 $M-m$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=2x^{3}-ax^{2}+2$.</p><ol class=\"enumerate\"><li><p>讨论 $f(x)$ 的单调性；</p></li><li><p>当 $0&#x3C;a&#x3C;3$ 时，记 $f(x)$ 在区间 $[0,1]$ 的最大值为 $M$，最小值为 $m$，求 $M-m$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $f'(x)=6x^2-2ax=2x(3x-a)$.\r\n令 $f'(x)=0$，得 $x=0$ 或 $x=\\dfrac a3$.\r\n若 $a>0$，则当 $x\\in(-\\infty,0)\\cup\\left(\\dfrac a3,+\\infty\\right)$ 时，$f'(x)>0$；当 $x\\in\\left(0,\\dfrac a3\\right)$ 时，$f'(x)<0$.\r\n故 $f(x)$ 在 $(-\\infty,0)$，$\\left(\\dfrac a3,+\\infty\\right)$ 上单调递增，在 $\\left(0,\\dfrac a3\\right)$ 上单调递减.\r\n\r\n若 $a=0$，则 $f(x)$ 在 $(-\\infty,+\\infty)$ 上单调递增.\r\n\r\n若 $a<0$，则当 $x\\in\\left(-\\infty,\\dfrac a3\\right)\\cup(0,+\\infty)$ 时，$f'(x)>0$；当 $x\\in\\left(\\dfrac a3,0\\right)$ 时，$f'(x)<0$.\r\n故 $f(x)$ 在 $\\left(-\\infty,\\dfrac a3\\right)$，$(0,+\\infty)$ 上单调递增，在 $\\left(\\dfrac a3,0\\right)$ 上单调递减.\n\n(2) 当 $0<a<3$ 时，由（1）知，$f(x)$ 在 $\\left(0,\\dfrac a3\\right)$ 上单调递减，在 $\\left(\\dfrac a3,1\\right)$ 上单调递增.\r\n因此 $f(x)$ 在区间 $[0,1]$ 的最小值为 $f\\!\\left(\\frac a3\\right)=2-\\frac{a^3}{27}$，最大值为 $f(0)=2$ 或 $f(1)=4-a$.\r\n于是 $m=2-\\dfrac{a^3}{27}$，$M=\\begin{cases}\r\n4-a, & 0<a<2,\\\\\r\n2, & 2\\le a<3.\r\n\\end{cases}$.\r\n故 $M-m=\\begin{cases}\r\n2-a+\\dfrac{a^3}{27}, & 0<a<2,\\\\[6pt]\r\n\\dfrac{a^3}{27}, & 2\\le a<3.\r\n\\end{cases}$.\r\n\r\n当 $0<a<2$ 时，$2-a+\\dfrac{a^3}{27}$ 单调递减，所以 $M-m$ 的取值范围是 $\\left(\\dfrac{8}{27},2\\right)$.\r\n\r\n当 $2\\le a<3$ 时，$\\dfrac{a^3}{27}$ 单调递增，所以 $M-m$ 的取值范围是 $\\left[\\dfrac{8}{27},1\\right)$.\r\n\r\n综上，$M-m\\in\\left[\\frac{8}{27},2\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=6x^{2}-2ax=2x(3x-a)$.</p><p>令 $f'(x)=0$，得 $x=0$ 或 $x=\\dfrac{a}{3}$.</p><p>若 $a>0$，则当 $x\\in(-\\infty,0)\\cup\\left(\\dfrac{a}{3},+\\infty\\right)$ 时，$f'(x)>0$；当 $x\\in\\left(0,\\dfrac{a}{3}\\right)$ 时，$f'(x)&#x3C;0$.</p><p>故 $f(x)$ 在 $(-\\infty,0)$，$\\left(\\dfrac{a}{3},+\\infty\\right)$ 上单调递增，在 $\\left(0,\\dfrac{a}{3}\\right)$ 上单调递减.</p><p>若 $a=0$，则 $f(x)$ 在 $(-\\infty,+\\infty)$ 上单调递增.</p><p>若 $a&#x3C;0$，则当 $x\\in\\left(-\\infty,\\dfrac{a}{3}\\right)\\cup(0,+\\infty)$ 时，$f'(x)>0$；当 $x\\in\\left(\\dfrac{a}{3},0\\right)$ 时，$f'(x)&#x3C;0$.</p><p>故 $f(x)$ 在 $\\left(-\\infty,\\dfrac{a}{3}\\right)$，$(0,+\\infty)$ 上单调递增，在 $\\left(\\dfrac{a}{3},0\\right)$ 上单调递减.</p></li><li><p>当 $0&#x3C;a&#x3C;3$ 时，由（1）知，$f(x)$ 在 $\\left(0,\\dfrac{a}{3}\\right)$ 上单调递减，在 $\\left(\\dfrac{a}{3},1\\right)$ 上单调递增.</p><p>因此 $f(x)$ 在区间 $[0,1]$ 的最小值为 $f\\!\\left(\\frac{a}{3}\\right)=2-\\frac{a^{3}}{27}$，最大值为 $f(0)=2$ 或 $f(1)=4-a$.</p><p>于是 $m=2-\\dfrac{a^3}{27}$，$M=\\begin{cases}4-a,&#x26;0&#x3C;a&#x3C;2,\\\\  2,&#x26;2\\le a&#x3C;3.\\end{cases}$.</p><p>故 $M-m=\\begin{cases}2-a+\\dfrac{a^3}{27},&#x26;0&#x3C;a&#x3C;2,\\\\[6pt]  \\dfrac{a^3}{27},&#x26;2\\le a&#x3C;3.\\end{cases}$.</p><p>当 $0&#x3C;a&#x3C;2$ 时，$2-a+\\dfrac{a^3}{27}$ 单调递减，所以 $M-m$ 的取值范围是 $\\left(\\dfrac{8}{27},2\\right)$.</p><p>当 $2\\le a&#x3C;3$ 时，$\\dfrac{a^3}{27}$ 单调递增，所以 $M-m$ 的取值范围是 $\\left[\\dfrac{8}{27},1\\right)$.</p><p>综上，$M-m\\in\\left[\\frac{8}{27},2\\right)$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知曲线 $C:y=\\dfrac{x^2}{2}$，$D$ 为直线 $y=-\\dfrac12$ 上的动点，过 $D$ 作 $C$ 的两条切线，切点分别为 $A$，$B$.\r\n\r\n\n(1) 证明：直线 $AB$ 过定点；\n\n(2) 若以 $E\\left(0,\\dfrac52\\right)$ 为圆心的圆与直线 $AB$ 相切，且切点为线段 $AB$ 的中点，求该圆的方程.",
-          "choices": [],
+          "body": "<p>已知曲线 $C:y=\\dfrac{x^2}{2}$，$D$ 为直线 $y=-\\dfrac{1}{2}$ 上的动点，过 $D$ 作 $C$ 的两条切线，切点分别为 $A$，$B$.</p><ol class=\"enumerate\"><li><p>证明：直线 $AB$ 过定点；</p></li><li><p>若以 $E\\left(0,\\dfrac{5}{2}\\right)$ 为圆心的圆与直线 $AB$ 相切，且切点为线段 $AB$ 的中点，求该圆的方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 证明：设 $D(t,-\\dfrac12)$，$A(x_1,y_1)$，则 $x_1^2=2y_1$. 由于 $y'=x$，所以切线 $DA$ 的斜率为 $x_1$，故 $\\dfrac{y_1+\\frac12}{x_1-t}=x_1$，整理得 $2tx_1-2y_1+1=0$. 设 $B(x_2,y_2)$，则 $x_2^2=2y_2$. 由于切线 $DB$ 的斜率为 $x_2$，所以 $\\dfrac{y_2+\\frac12}{x_2-t}=x_2$，整理得 $2tx_2-2y_2+1=0$. 因此直线 $AB$ 的方程为 $2tx-2y+1=0$. 所以直线 $AB$ 过定点 $\\left(0,\\frac12\\right)$.\n\n(2) 由（1）得直线 $AB$ 的方程为 $y=tx+\\frac12$. 由 $\\begin{cases}\r\ny=tx+\\dfrac12,\\\\\r\ny=\\dfrac{x^2}{2},\r\n\\end{cases}$ 可得 $x^2-2tx-1=0$. 于是 $x_1+x_2=2t$，$y_1+y_2=t(x_1+x_2)+1=2t^2+1$. 设 $M$ 为线段 $AB$ 的中点，则 $M\\left(t,t^2+\\frac12\\right)$. 由于 $\\overrightarrow{EM}\\perp\\overrightarrow{AB}$，而 $\\overrightarrow{EM}=\\left(t,t^2-2\\right)$，$\\overrightarrow{AB}$ 与向量 $(1,t)$ 平行，因此 $t+\\left(t^2-2\\right)t=0$，解得 $t=0$ 或 $t=\\pm1$.\r\n\r\n当 $t=0$ 时，$|EM|=2$，所求圆的方程为 $x^2+\\left(y-\\frac52\\right)^2=4$.\r\n\r\n当 $t=\\pm1$ 时，$|EM|=\\sqrt2$，所求圆的方程为 $x^2+\\left(y-\\frac52\\right)^2=2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>证明：设 $D(t,-\\dfrac{1}{2})$，$A(x_{1},y_{1})$，则 $x_{1}^{2}=2y_{1}$. 由于 $y'=x$，所以切线 $DA$ 的斜率为 $x_{1}$，故 $\\dfrac{y_1+\\frac{1}{2}}{x_1-t}=x_{1}$，整理得 $2tx_{1}-2y_{1}+1=0$. 设 $B(x_{2},y_{2})$，则 $x_{2}^{2}=2y_{2}$. 由于切线 $DB$ 的斜率为 $x_{2}$，所以 $\\dfrac{y_2+\\frac{1}{2}}{x_2-t}=x_{2}$，整理得 $2tx_{2}-2y_{2}+1=0$. 因此直线 $AB$ 的方程为 $2tx-2y+1=0$. 所以直线 $AB$ 过定点 $\\left(0,\\frac{1}{2}\\right)$.</p></li><li><p>由（1）得直线 $AB$ 的方程为 $y=tx+\\frac{1}{2}$. 由 $\\begin{cases}y=tx+\\dfrac{1}{2},\\\\  y=\\dfrac{x^2}{2},\\end{cases}$ 可得 $x^{2}-2tx-1=0$. 于是 $x_{1}+x_{2}=2t$，$y_{1}+y_{2}=t(x_{1}+x_{2})+1=2t^{2}+1$. 设 $M$ 为线段 $AB$ 的中点，则 $M\\left(t,t^{2}+\\frac{1}{2}\\right)$. 由于 $\\overrightarrow{EM}\\perp\\overrightarrow{AB}$，而 $\\overrightarrow{EM}=\\left(t,t^{2}-2\\right)$，$\\overrightarrow{AB}$ 与向量 $(1,t)$ 平行，因此 $t+\\left(t^{2}-2\\right)t=0$，解得 $t=0$ 或 $t=\\pm1$.</p><p>当 $t=0$ 时，$|EM|=2$，所求圆的方程为 $x^{2}+\\left(y-\\frac{5}{2}\\right)^{2}=4$.</p><p>当 $t=\\pm1$ 时，$|EM|=\\sqrt{2}$，所求圆的方程为 $x^{2}+\\left(y-\\frac{5}{2}\\right)^{2}=2$.</p></li></ol>"
         }
       ]
     },
@@ -414,24 +231,19 @@
       "problems": [
         {
           "num": 22,
-          "body": "如图，在极坐标系 $Ox$ 中，$A(2,0)$，$B\\left(\\sqrt2,\\frac{\\pi}{4}\\right)$，$C\\left(\\sqrt2,\\frac{3\\pi}{4}\\right)$，$D(2,\\pi)$，弧 $\\widehat{AB}$，$\\widehat{BC}$，$\\widehat{CD}$ 所在圆的圆心分别是 $(1,0)$，$\\left(1,\\frac{\\pi}{2}\\right)$，$(1,\\pi)$，曲线 $M_1$ 是弧 $\\widehat{AB}$，曲线 $M_2$ 是弧 $\\widehat{BC}$，曲线 $M_3$ 是弧 $\\widehat{CD}$.\r\n\r\n\n(1) 分别写出 $M_1$，$M_2$，$M_3$ 的极坐标方程；\n\n(2) 曲线 $M$ 由 $M_1$，$M_2$，$M_3$ 构成，若点 $P$ 在 $M$ 上，且 $|OP|=\\sqrt3$，求 $P$ 的极坐标.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/national_paper_3_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在极坐标系 $Ox$ 中，$A(2,0)$，$B\\left(\\sqrt{2},\\frac{\\pi}{4}\\right)$，$C\\left(\\sqrt{2},\\frac{3\\pi}{4}\\right)$，$D(2,\\pi)$，弧 $\\widehat{AB}$，$\\widehat{BC}$，$\\widehat{CD}$ 所在圆的圆心分别是 $(1,0)$，$\\left(1,\\frac{\\pi}{2}\\right)$，$(1,\\pi)$，曲线 $M_{1}$ 是弧 $\\widehat{AB}$，曲线 $M_{2}$ 是弧 $\\widehat{BC}$，曲线 $M_{3}$ 是弧 $\\widehat{CD}$.</p><ol class=\"enumerate\"><li><p>分别写出 $M_{1}$，$M_{2}$，$M_{3}$ 的极坐标方程；</p></li><li><p>曲线 $M$ 由 $M_{1}$，$M_{2}$，$M_{3}$ 构成，若点 $P$ 在 $M$ 上，且 $|OP|=\\sqrt{3}$，求 $P$ 的极坐标.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由题设可得，弧 $\\widehat{AB}$，$\\widehat{BC}$，$\\widehat{CD}$ 所在圆的极坐标方程分别为 $\\rho=2\\cos\\theta$，$\\rho=2\\sin\\theta$，$\\rho=-2\\cos\\theta$. 因此 $M_1:\\rho=2\\cos\\theta$（$0\\le\\theta\\le\\dfrac{\\pi}{4}$），$M_2:\\rho=2\\sin\\theta$（$\\dfrac{\\pi}{4}\\le\\theta\\le\\dfrac{3\\pi}{4}$），$M_3:\\rho=-2\\cos\\theta$（$\\dfrac{3\\pi}{4}\\le\\theta\\le\\pi$）.\n\n(2) 设 $P(\\rho,\\theta)$，由题设及（1）知：\r\n若 $0\\le\\theta\\le\\dfrac{\\pi}{4}$，由 $2\\cos\\theta=\\sqrt3$ 得 $\\cos\\theta=\\dfrac{\\sqrt3}{2}$，从而 $\\theta=\\dfrac{\\pi}{6}$.\r\n\r\n若 $\\dfrac{\\pi}{4}\\le\\theta\\le\\dfrac{3\\pi}{4}$，由 $2\\sin\\theta=\\sqrt3$ 得 $\\sin\\theta=\\dfrac{\\sqrt3}{2}$，从而 $\\theta=\\dfrac{\\pi}{3}$或$\\dfrac{2\\pi}{3}$.\r\n\r\n若 $\\dfrac{3\\pi}{4}\\le\\theta\\le\\pi$，由 $-2\\cos\\theta=\\sqrt3$ 得 $\\cos\\theta=-\\dfrac{\\sqrt3}{2}$，从而 $\\theta=\\dfrac{5\\pi}{6}$.\r\n\r\n综上，$P$ 的极坐标为 $\\left(\\sqrt3,\\dfrac{\\pi}{6}\\right)$，$\\left(\\sqrt3,\\dfrac{\\pi}{3}\\right)$，$\\left(\\sqrt3,\\dfrac{2\\pi}{3}\\right)$，$\\left(\\sqrt3,\\dfrac{5\\pi}{6}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由题设可得，弧 $\\widehat{AB}$，$\\widehat{BC}$，$\\widehat{CD}$ 所在圆的极坐标方程分别为 $\\rho=2\\cos\\theta$，$\\rho=2\\sin\\theta$，$\\rho=-2\\cos\\theta$. 因此 $M_{1}:\\rho=2\\cos\\theta$（$0\\le\\theta\\le\\dfrac{\\pi}{4}$），$M_{2}:\\rho=2\\sin\\theta$（$\\dfrac{\\pi}{4}\\le\\theta\\le\\dfrac{3\\pi}{4}$），$M_{3}:\\rho=-2\\cos\\theta$（$\\dfrac{3\\pi}{4}\\le\\theta\\le\\pi$）.</p></li><li><p>设 $P(\\rho,\\theta)$，由题设及（1）知：</p><p>若 $0\\le\\theta\\le\\dfrac{\\pi}{4}$，由 $2\\cos\\theta=\\sqrt{3}$ 得 $\\cos\\theta=\\dfrac{\\sqrt{3}}{2}$，从而 $\\theta=\\dfrac{\\pi}{6}$.</p><p>若 $\\dfrac{\\pi}{4}\\le\\theta\\le\\dfrac{3\\pi}{4}$，由 $2\\sin\\theta=\\sqrt{3}$ 得 $\\sin\\theta=\\dfrac{\\sqrt{3}}{2}$，从而 $\\theta=\\dfrac{\\pi}{3}$或$\\dfrac{2\\pi}{3}$.</p><p>若 $\\dfrac{3\\pi}{4}\\le\\theta\\le\\pi$，由 $-2\\cos\\theta=\\sqrt{3}$ 得 $\\cos\\theta=-\\dfrac{\\sqrt{3}}{2}$，从而 $\\theta=\\dfrac{5\\pi}{6}$.</p><p>综上，$P$ 的极坐标为 $\\left(\\sqrt{3},\\dfrac{\\pi}{6}\\right)$，$\\left(\\sqrt{3},\\dfrac{\\pi}{3}\\right)$，$\\left(\\sqrt{3},\\dfrac{2\\pi}{3}\\right)$，$\\left(\\sqrt{3},\\dfrac{5\\pi}{6}\\right)$.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "设 $x$，$y$，$z\\in\\mathbb{R}$，且 $x+y+z=1$.\r\n\r\n\n(1) 求 $(x-1)^2+(y+1)^2+(z+1)^2$ 的最小值；\n\n(2) 若 $(x-2)^2+(y-1)^2+(z-a)^2\\ge\\dfrac13$ 成立，证明：$a\\le-3$ 或 $a\\ge-1$.",
-          "choices": [],
+          "body": "<p>设 $x$，$y$，$z\\in\\mathbb{R}$，且 $x+y+z=1$.</p><ol class=\"enumerate\"><li><p>求 $(x-1)^{2}+(y+1)^{2}+(z+1)^{2}$ 的最小值；</p></li><li><p>若 $(x-2)^{2}+(y-1)^{2}+(z-a)^{2}\\ge\\dfrac{1}{3}$ 成立，证明：$a\\le-3$ 或 $a\\ge-1$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $x$，$y$，$z\\in\\mathbb{R}$，且 $x+y+z=1$，应用柯西不等式可得 $(1^2+1^2+1^2)\\bigl[(x-1)^2+(y+1)^2+(z+1)^2\\bigr]\\ge(x-1+y+1+z+1)^2=4$，因此 $(x-1)^2+(y+1)^2+(z+1)^2\\ge\\dfrac43$. 所以最小值为 $\\dfrac43$.\n\n(2) 由 $x+y+z=1$，应用柯西不等式可得 $(1^2+1^2+1^2)\\bigl[(x-2)^2+(y-1)^2+(z-a)^2\\bigr]\\ge(x-2+y-1+z-a)^2=(a+2)^2$，因此 $(x-2)^2+(y-1)^2+(z-a)^2\\ge\\dfrac{(a+2)^2}{3}$.\r\n即 $(x-2)^2+(y-1)^2+(z-a)^2$ 的最小值为 $\\dfrac{(a+2)^2}{3}$.\r\n由题意可得 $\\dfrac{(a+2)^2}{3}\\ge\\dfrac13$，解得 $a\\ge-1$ 或 $a\\le-3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $x$，$y$，$z\\in\\mathbb{R}$，且 $x+y+z=1$，应用柯西不等式可得 $(1^{2}+1^{2}+1^{2})\\bigl[(x-1)^{2}+(y+1)^{2}+(z+1)^{2}\\bigr]\\ge(x-1+y+1+z+1)^{2}=4$，因此 $(x-1)^{2}+(y+1)^{2}+(z+1)^{2}\\ge\\dfrac{4}{3}$. 所以最小值为 $\\dfrac{4}{3}$.</p></li><li><p>由 $x+y+z=1$，应用柯西不等式可得 $(1^{2}+1^{2}+1^{2})\\bigl[(x-2)^{2}+(y-1)^{2}+(z-a)^{2}\\bigr]\\ge(x-2+y-1+z-a)^{2}=(a+2)^{2}$，因此 $(x-2)^{2}+(y-1)^{2}+(z-a)^{2}\\ge\\dfrac{(a+2)^2}{3}$.</p><p>即 $(x-2)^{2}+(y-1)^{2}+(z-a)^{2}$ 的最小值为 $\\dfrac{(a+2)^2}{3}$.</p><p>由题意可得 $\\dfrac{(a+2)^2}{3}\\ge\\dfrac{1}{3}$，解得 $a\\ge-1$ 或 $a\\le-3$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

@@ -1,138 +1,15 @@
 {
+  "title": "2012年普通高等学校招生全国统一考试",
+  "subtitle": "2012年北京卷（文）",
   "year": "2012",
   "slug": "beijing_liberal",
-  "title": "2012年北京卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{x \\in \\mathbb{R} \\mid 3x + 2 > 0\\}$，$B = \\{x \\in \\mathbb{R} \\mid (x + 1)(x - 3) > 0\\}$，则 $A \\cap B =$（ ）",
+          "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid 3x + 2 > 0\\}$，$B = \\{x \\in \\mathbb{R}\\mid (x + 1)(x - 3) > 0\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$(-\\infty, -1)$",
             "$\\left(-1, -\\frac{2}{3}\\right)$",
@@ -140,13 +17,11 @@
             "$(3, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "由 $3x+2>0$ 得 $x>-\\frac{2}{3}$；由 $(x+1)(x-3)>0$ 得 $x<-1$ 或 $x>3$. 因而 $A\\cap B=(3,+\\infty)$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $3x+2>0$ 得 $x>-\\frac{2}{3}$；由 $(x+1)(x-3)>0$ 得 $x&#x3C;-1$ 或 $x>3$. 因而 $A\\cap B=(3,+\\infty)$，故选 D."
         },
         {
           "num": 2,
-          "body": "在复平面内，复数 $\\frac{10\\mathrm{i}}{3 + \\mathrm{i}}$ 对应的点的坐标为（ ）",
+          "body": "在复平面内，复数 $\\frac{10\\mathrm{i}}{3 + \\mathrm{i}}$ 对应的点的坐标为（ ）",
           "choices": [
             "$(1,3)$",
             "$(3,1)$",
@@ -154,13 +29,11 @@
             "$(3,-1)$"
           ],
           "answer": "A",
-          "solution": "将分式的分子、分母同乘 $3-\\mathrm{i}$，得\r\n$\\dfrac{10\\mathrm{i}}{3+\\mathrm{i}}=\\dfrac{10\\mathrm{i}(3-\\mathrm{i})}{(3+\\mathrm{i})(3-\\mathrm{i})}=\\dfrac{30\\mathrm{i}-10\\mathrm{i}^2}{10}=1+3\\mathrm{i}$.\r\n所以该复数在复平面内对应的点为 $(1,3)$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>将分式的分子、分母同乘 $3-\\mathrm{i}$，得</p><p>$\\dfrac{10\\mathrm{i}}{3+\\mathrm{i}}=\\dfrac{10\\mathrm{i}(3-\\mathrm{i})}{(3+\\mathrm{i})(3-\\mathrm{i})}=\\dfrac{30\\mathrm{i}-10\\mathrm{i}^2}{10}=1+3\\mathrm{i}$.</p><p>所以该复数在复平面内对应的点为 $(1,3)$，故选 A.</p>"
         },
         {
           "num": 3,
-          "body": "设不等式组\r\n\\examdisplaycases{}{\r\n0 \\leqslant x \\leqslant 2,\\\\\r\n0 \\leqslant y \\leqslant 2\r\n}\r\n\r\n表示的平面区域为 $D$. 在区域 $D$ 内随机取一个点，则此点到坐标原点的距离大于 $2$ 的概率是（ ）",
+          "body": "<p>设不等式组</p><p><span class=\"macro macro-examdisplaycases\"></span><br>0 <span class=\"macro macro-le\"></span> x <span class=\"macro macro-le\"></span> 2,<br class=\"linebreak\"><br>0 <span class=\"macro macro-le\"></span> y <span class=\"macro macro-le\"></span> 2<br></p><p>表示的平面区域为 $D$. 在区域 $D$ 内随机取一个点，则此点到坐标原点的距离大于 $2$ 的概率是（ ）</p>",
           "choices": [
             "$\\frac{\\pi}{4}$",
             "$\\frac{\\pi - 2}{2}$",
@@ -168,13 +41,11 @@
             "$\\frac{4 - \\pi}{4}$"
           ],
           "answer": "D",
-          "solution": "区域 $D$ 是边长为 $2$ 的正方形，面积为 $4$. 在该正方形内，到原点距离不大于 $2$ 的部分是半径为 $2$ 的四分之一圆，面积为 $\\frac{1}{4}\\pi\\cdot2^2=\\pi$. 因而到原点距离大于 $2$ 的部分面积为 $4-\\pi$，其边界不影响几何概率，所以所求概率为 $\\dfrac{4-\\pi}{4}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "区域 $D$ 是边长为 $2$ 的正方形，面积为 $4$. 在该正方形内，到原点距离不大于 $2$ 的部分是半径为 $2$ 的四分之一圆，面积为 $\\frac{1}{4}\\pi\\cdot2^{2}=\\pi$. 因而到原点距离大于 $2$ 的部分面积为 $4-\\pi$，其边界不影响几何概率，所以所求概率为 $\\dfrac{4-\\pi}{4}$，故选 D."
         },
         {
           "num": 4,
-          "body": "执行如图所示的程序框图，输出的 $S$ 值为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>执行如图所示的程序框图，输出的 $S$ 值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$2$",
             "$4$",
@@ -182,13 +53,11 @@
             "$16$"
           ],
           "answer": "C",
-          "solution": "按照框图，初始时 $k=0$，$S=1$. 每次先计算 $S\\leftarrow S\\cdot2^k$，再计算 $k\\leftarrow k+1$，循环条件为 $k<3$. 三次循环依次得到\r\n$(S,k)=(1,1)$、$(2,2)$、$(8,3)$.\r\n此时 $k<3$ 不成立，输出 $S=8$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按照框图，初始时 $k=0$，$S=1$. 每次先计算 $S\\leftarrow S\\cdot2^{k}$，再计算 $k\\leftarrow k+1$，循环条件为 $k&#x3C;3$. 三次循环依次得到</p><p>$(S,k)=(1,1)$、$(2,2)$、$(8,3)$.</p><p>此时 $k&#x3C;3$ 不成立，输出 $S=8$，故选 C.</p>"
         },
         {
           "num": 5,
-          "body": "函数 $f(x) = x^{\\frac{1}{2}} - \\left(\\frac{1}{2}\\right)^x$ 的零点个数为（ ）",
+          "body": "函数 $f(x) = x^{\\frac{1}{2}}- \\left(\\frac{1}{2}\\right)^{x}$ 的零点个数为（ ）",
           "choices": [
             "$0$",
             "$1$",
@@ -196,27 +65,23 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "函数定义域为 $[0,+\\infty)$. 在此区间上，$\\sqrt{x}$ 严格递增，而 $-\\left(\\frac{1}{2}\\right)^x$ 也严格递增，因此 $f(x)$ 严格递增，至多有一个零点. 又\r\n$f\\left(\\frac{1}{2}\\right)=\\sqrt{\\frac{1}{2}}-\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}=0$，所以零点恰有一个，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>函数定义域为 $[0,+\\infty)$. 在此区间上，$\\sqrt{x}$ 严格递增，而 $-\\left(\\frac{1}{2}\\right)^{x}$ 也严格递增，因此 $f(x)$ 严格递增，至多有一个零点. 又</p><p>$f\\left(\\frac{1}{2}\\right)=\\sqrt{\\frac{1}{2}}-\\left(\\frac{1}{2}\\right)^{\\frac{1}{2}}=0$，所以零点恰有一个，故选 B.</p>"
         },
         {
           "num": 6,
-          "body": "已知 $\\{a_n\\}$ 为等比数列，下面结论中正确的是（ ）",
+          "body": "已知 $\\{a_{n}\\}$ 为等比数列，下面结论中正确的是（ ）",
           "choices": [
-            "$a_{1} + a_{3} \\ge 2a_{2}$",
-            "$a_{1}^{2} + a_{3}^{2} \\ge 2a_{2}^{2}$",
+            "$a_{1}+ a_{3}\\ge 2a_{2}$",
+            "$a_{1}^{2}+ a_{3}^{2}\\ge 2a_{2}^{2}$",
             "$\\text{若 }a_{1}=a_{3}\\text{，则 }a_{1}=a_{2}$",
             "$\\text{若 }a_{3}>a_{1}\\text{，则 }a_{4}>a_{2}$"
           ],
           "answer": "B",
-          "solution": "设等比数列的公比为 $q$，则 $a_2=a_1q$，$a_3=a_1q^2$. 对选项 B，有\r\n$a_1^2+a_3^2-2a_2^2=a_1^2(1+q^4-2q^2)=a_1^2(q^2-1)^2\\geqslant0$，所以 B 正确.\r\n\r\n选项 A 不恒成立，例如取 $a_1=-1$，$q=2$，则 $a_1+a_3=-5<-4=2a_2$. 选项 C 中取 $a_1=1$，$q=-1$，有 $a_1=a_3=1$，但 $a_2=-1\\ne a_1$. 选项 D 中取 $a_1=1$，$q=-2$，有 $a_3=4>a_1$，但 $a_4-a_2=a_1q(q^2-1)=-6<0$，即 $a_4<a_2$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等比数列的公比为 $q$，则 $a_{2}=a_{1}q$，$a_{3}=a_{1}q^{2}$. 对选项 B，有</p><p>$a_{1}^{2}+a_{3}^{2}-2a_{2}^{2}=a_{1}^{2}(1+q^{4}-2q^{2})=a_{1}^{2}(q^{2}-1)^{2}\\geqslant0$，所以 B 正确.</p><p>选项 A 不恒成立，例如取 $a_{1}=-1$，$q=2$，则 $a_{1}+a_{3}=-5&#x3C;-4=2a_{2}$. 选项 C 中取 $a_{1}=1$，$q=-1$，有 $a_{1}=a_{3}=1$，但 $a_{2}=-1\\ne a_{1}$. 选项 D 中取 $a_{1}=1$，$q=-2$，有 $a_{3}=4>a_{1}$，但 $a_{4}-a_{2}=a_{1}q(q^{2}-1)=-6&#x3C;0$，即 $a_{4}&#x3C;a_{2}$. 故选 B.</p>"
         },
         {
           "num": 7,
-          "body": "某三棱锥的三视图如图所示，该三棱锥的表面积是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>某三棱锥的三视图如图所示，该三棱锥的表面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$28 + 6\\sqrt{5}$",
             "$30 + 6\\sqrt{5}$",
@@ -224,13 +89,11 @@
             "$60 + 12\\sqrt{5}$"
           ],
           "answer": "B",
-          "solution": "按三视图中各顶点的对应位置记底面顶点为 $B$，$C$，$D$，并记顶点 $A$ 在底边 $BC$ 上的正投影为 $H$. 由俯视图，\r\n$\\angle BCD=90^\\circ$，$BC=2+3=5$，$CD=4$，所以\r\n$S_{BCD}=\\frac{1}{2}\\cdot5\\cdot4=10$，且\r\n$BD=\\sqrt{5^2+4^2}=\\sqrt{41}$.\r\n\r\n正视图给出 $BH=2$，$HC=3$，以及 $AH=4$. 因此\r\n$AB=\\sqrt{BH^2+AH^2}=\\sqrt{2^2+4^2}=2\\sqrt{5}$，\r\n$AC=\\sqrt{HC^2+AH^2}=\\sqrt{3^2+4^2}=5$，并且\r\n$S_{ABC}=\\frac{1}{2}\\cdot BC\\cdot AH=\\frac{1}{2}\\cdot5\\cdot4=10$.\r\n\r\n由三视图中 $A$、$C$ 的侧向投影重合，而 $CD$ 沿侧向，得 $AC\\perp CD$. 所以\r\n$S_{ACD}=\\frac{1}{2}\\cdot AC\\cdot CD=\\frac{1}{2}\\cdot5\\cdot4=10$.\r\n\r\n俯视图中 $H$ 与 $D$ 的水平投影两条直角边分别为 $HC=3$ 和 $CD=4$，故 $AD$ 的水平投影长为\r\n$\\sqrt{3^2+4^2}=5$. 结合正视图中 $A$ 与底面的高差为 $4$，得\r\n$AD=\\sqrt{5^2+4^2}=\\sqrt{41}=BD$. 因而三角形 $ABD$ 为等腰三角形，取 $AB$ 为底边，其高为\r\n$\\sqrt{AD^2-\\left(\\frac{AB}{2}\\right)^2}=\\sqrt{41-5}=6$，从而\r\n$S_{ABD}=\\frac{1}{2}\\cdot2\\sqrt{5}\\cdot6=6\\sqrt{5}$.\r\n\r\n所以三棱锥的表面积为\r\n$S=S_{BCD}+S_{ABC}+S_{ACD}+S_{ABD}=10+10+10+6\\sqrt{5}=30+6\\sqrt{5}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按三视图中各顶点的对应位置记底面顶点为 $B$，$C$，$D$，并记顶点 $A$ 在底边 $BC$ 上的正投影为 $H$. 由俯视图，</p><p>$\\angle BCD=90^{\\circ}$，$BC=2+3=5$，$CD=4$，所以</p><p>$S_{BCD}=\\frac{1}{2}\\cdot5\\cdot4=10$，且</p><p>$BD=\\sqrt{5^{2}+4^{2}}=\\sqrt{41}$.</p><p>正视图给出 $BH=2$，$HC=3$，以及 $AH=4$. 因此</p><p>$AB=\\sqrt{BH^{2}+AH^{2}}=\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}$，</p><p>$AC=\\sqrt{HC^{2}+AH^{2}}=\\sqrt{3^{2}+4^{2}}=5$，并且</p><p>$S_{ABC}=\\frac{1}{2}\\cdot BC\\cdot AH=\\frac{1}{2}\\cdot5\\cdot4=10$.</p><p>由三视图中 $A$、$C$ 的侧向投影重合，而 $CD$ 沿侧向，得 $AC\\perp CD$. 所以</p><p>$S_{ACD}=\\frac{1}{2}\\cdot AC\\cdot CD=\\frac{1}{2}\\cdot5\\cdot4=10$.</p><p>俯视图中 $H$ 与 $D$ 的水平投影两条直角边分别为 $HC=3$ 和 $CD=4$，故 $AD$ 的水平投影长为</p><p>$\\sqrt{3^{2}+4^{2}}=5$. 结合正视图中 $A$ 与底面的高差为 $4$，得</p><p>$AD=\\sqrt{5^{2}+4^{2}}=\\sqrt{41}=BD$. 因而三角形 $ABD$ 为等腰三角形，取 $AB$ 为底边，其高为</p><p>$\\sqrt{AD^{2}-\\left(\\frac{AB}{2}\\right)^{2}}=\\sqrt{41-5}=6$，从而</p><p>$S_{ABD}=\\frac{1}{2}\\cdot2\\sqrt{5}\\cdot6=6\\sqrt{5}$.</p><p>所以三棱锥的表面积为</p><p>$S=S_{BCD}+S_{ABC}+S_{ACD}+S_{ABD}=10+10+10+6\\sqrt{5}=30+6\\sqrt{5}$，故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "某果树前 $n$ 年的总产量 $S_n$ 与 $n$ 之间的关系如图所示. 从目前记录的结果看，前 $m$ 年的年平均产量最高，$m$ 的值为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>某果树前 $n$ 年的总产量 $S_{n}$ 与 $n$ 之间的关系如图所示. 从目前记录的结果看，前 $m$ 年的年平均产量最高，$m$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "5",
             "7",
@@ -238,9 +101,7 @@
             "11"
           ],
           "answer": "C",
-          "solution": "图中横坐标为 $n$，纵坐标为前 $n$ 年总产量 $S_n$. 因而前 $n$ 年的年平均产量为 $\\frac{S_n}{n}$，这正是原点 $O$ 与图中点 $P_n(n,S_n)$ 所连直线的斜率.\r\n\r\n题目给出的候选值为 $5$，$7$，$9$，$11$. 分别比较 $OP_5$、$OP_7$、$OP_9$、$OP_{11}$ 的斜率，由图可见 $OP_9$ 最陡，即 $\\frac{S_9}{9}$ 最大. 所以前 $9$ 年的年平均产量最高，故 $m=9$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>图中横坐标为 $n$，纵坐标为前 $n$ 年总产量 $S_{n}$. 因而前 $n$ 年的年平均产量为 $\\frac{S_{n}}{n}$，这正是原点 $O$ 与图中点 $P_{n}(n,S_{n})$ 所连直线的斜率.</p><p>题目给出的候选值为 $5$，$7$，$9$，$11$. 分别比较 $OP_{5}$、$OP_{7}$、$OP_{9}$、$OP_{11}$ 的斜率，由图可见 $OP_{9}$ 最陡，即 $\\frac{S_{9}}{9}$ 最大. 所以前 $9$ 年的年平均产量最高，故 $m=9$，选 C.</p>"
         }
       ]
     },
@@ -249,57 +110,45 @@
       "problems": [
         {
           "num": 9,
-          "body": "直线 $y = x$ 被圆 $x^2 + (y - 2)^2 = 4$ 截得的弦长为 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\sqrt{2}\\)",
-          "solution": "圆心为 $O(0,2)$，半径为 $2$. 圆心到直线 $y=x$，即 $x-y=0$ 的距离为\r\n$d=\\dfrac{|0-2|}{\\sqrt{1^2+(-1)^2}}=\\sqrt{2}$. 设弦的中点为 $H$，则 $OH\\perp$ 弦，半弦长为\r\n$\\sqrt{2^2-d^2}=\\sqrt{4-2}=\\sqrt{2}$，所以弦长为 $2\\sqrt{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "直线 $y = x$ 被圆 $x^{2} + (y - 2)^{2} = 4$ 截得的弦长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2\\sqrt{2}$",
+          "solution": "<p>圆心为 $O(0,2)$，半径为 $2$. 圆心到直线 $y=x$，即 $x-y=0$ 的距离为</p><p>$d=\\dfrac{|0-2|}{\\sqrt{1^{2}+(-1)^{2}}}=\\sqrt{2}$. 设弦的中点为 $H$，则 $OH\\perp$ 弦，半弦长为</p><p>$\\sqrt{2^{2}-d^{2}}=\\sqrt{4-2}=\\sqrt{2}$，所以弦长为 $2\\sqrt{2}$.</p>"
         },
         {
           "num": 10,
-          "body": "已知 $\\{a_n\\}$ 为等差数列，$S_n$ 为其前 $n$ 项和，若 $a_1 = \\frac{1}{2}$，$S_2 = a_3$，则 $a_2=$ _______ {}；$S_n=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)；\\(\\frac{n(n+1)}{4}\\)",
-          "solution": "设等差数列的公差为 $d$，则 $a_2=\\frac{1}{2}+d$，$a_3=\\frac{1}{2}+2d$. 由 $S_2=a_3$ 得\r\n$\\frac{1}{2}+\\left(\\frac{1}{2}+d\\right)=\\frac{1}{2}+2d$，从而 $d=\\frac{1}{2}$，故 $a_2=1$. 又\r\n$S_n=\\frac{n}{2}\\left[2a_1+(n-1)d\\right]=\\frac{n}{2}\\left[1+\\frac{n-1}{2}\\right]=\\frac{n(n+1)}{4}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\{a_{n}\\}$ 为等差数列，$S_{n}$ 为其前 $n$ 项和，若 $a_{1} = \\frac{1}{2}$，$S_{2} = a_{3}$，则 $a_{2}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；$S_{n}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$；$\\frac{n(n+1)}{4}$",
+          "solution": "<p>设等差数列的公差为 $d$，则 $a_{2}=\\frac{1}{2}+d$，$a_{3}=\\frac{1}{2}+2d$. 由 $S_{2}=a_{3}$ 得</p><p>$\\frac{1}{2}+\\left(\\frac{1}{2}+d\\right)=\\frac{1}{2}+2d$，从而 $d=\\frac{1}{2}$，故 $a_{2}=1$. 又</p><p>$S_{n}=\\frac{n}{2}\\left[2a_{1}+(n-1)d\\right]=\\frac{n}{2}\\left[1+\\frac{n-1}{2}\\right]=\\frac{n(n+1)}{4}$.</p>"
         },
         {
           "num": 11,
-          "body": "在 $\\triangle ABC$ 中，若 $a = 3$，$b = \\sqrt{3}$，$\\angle A = \\frac{\\pi}{3}$，则 $\\angle C$ 的大小为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{\\pi}{2}\\)",
-          "solution": "由正弦定理，$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}$，所以\r\n$\\sin B=\\dfrac{b\\sin A}{a}=\\dfrac{\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}}{3}=\\frac{1}{2}$.\r\n由三角形内角和 $A+B<\\pi$，得 $B<\\frac{2\\pi}{3}$，所以在满足 $\\sin B=\\frac{1}{2}$ 的两个可能值中只能取 $B=\\frac{\\pi}{6}$，不能取 $\\frac{5\\pi}{6}$. 因此\r\n$C=\\pi-A-B=\\pi-\\frac{\\pi}{3}-\\frac{\\pi}{6}=\\frac{\\pi}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $\\triangle ABC$ 中，若 $a = 3$，$b = \\sqrt{3}$，$\\angle A = \\frac{\\pi}{3}$，则 $\\angle C$ 的大小为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{\\pi}{2}$",
+          "solution": "<p>由正弦定理，$\\dfrac{b}{\\sin B}=\\dfrac{a}{\\sin A}$，所以</p><p>$\\sin B=\\dfrac{b\\sin A}{a}=\\dfrac{\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}}{3}=\\frac{1}{2}$.</p><p>由三角形内角和 $A+B&#x3C;\\pi$，得 $B&#x3C;\\frac{2\\pi}{3}$，所以在满足 $\\sin B=\\frac{1}{2}$ 的两个可能值中只能取 $B=\\frac{\\pi}{6}$，不能取 $\\frac{5\\pi}{6}$. 因此</p><p>$C=\\pi-A-B=\\pi-\\frac{\\pi}{3}-\\frac{\\pi}{6}=\\frac{\\pi}{2}$.</p>"
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x) = \\lg x$. 若 $f(ab) = 1$，则 $f(a^2) + f(b^2)=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "由 $f(ab)=1$ 得 $\\lg(ab)=1$. 由于相关对数有意义，$a^2$，$b^2$ 为正，且\r\n$f(a^2)+f(b^2)=\\lg(a^2)+\\lg(b^2)=\\lg\\left((ab)^2\\right)=2\\lg(ab)=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知函数 $f(x) = \\lg x$. 若 $f(ab) = 1$，则 $f(a^{2}) + f(b^{2})=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "<p>由 $f(ab)=1$ 得 $\\lg(ab)=1$. 由于相关对数有意义，$a^{2}$，$b^{2}$ 为正，且</p><p>$f(a^{2})+f(b^{2})=\\lg(a^{2})+\\lg(b^{2})=\\lg\\left((ab)^{2}\\right)=2\\lg(ab)=2$.</p>"
         },
         {
           "num": 13,
-          "body": "已知正方形 $ABCD$ 的边长为 $1$，点 $E$ 是 $AB$ 边上的动点，则 $\\overrightarrow{DE} \\cdot \\overrightarrow{CB}$ 的值为 _______ {}；$\\overrightarrow{DE} \\cdot \\overrightarrow{DC}$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)；\\(1\\)",
-          "solution": "建立直角坐标系，取 $A(0,0)$，$B(1,0)$，$C(1,1)$，$D(0,1)$，设 $E(t,0)$，其中 $0\\le t\\leqslant1$. 则\r\n$\\overrightarrow{DE}=(t,-1)$，$\\overrightarrow{CB}=(0,-1)$，$\\overrightarrow{DC}=(1,0)$.\r\n因此 $\\overrightarrow{DE}\\cdot\\overrightarrow{CB}=1$，且 $\\overrightarrow{DE}\\cdot\\overrightarrow{DC}=t\\leqslant1$，当 $E=B$（即 $t=1$）时取到最大值 $1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知正方形 $ABCD$ 的边长为 $1$，点 $E$ 是 $AB$ 边上的动点，则 $\\overrightarrow{DE}\\cdot \\overrightarrow{CB}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；$\\overrightarrow{DE}\\cdot \\overrightarrow{DC}$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$；$1$",
+          "solution": "<p>建立直角坐标系，取 $A(0,0)$，$B(1,0)$，$C(1,1)$，$D(0,1)$，设 $E(t,0)$，其中 $0\\le t\\leqslant1$. 则</p><p>$\\overrightarrow{DE}=(t,-1)$，$\\overrightarrow{CB}=(0,-1)$，$\\overrightarrow{DC}=(1,0)$.</p><p>因此 $\\overrightarrow{DE}\\cdot\\overrightarrow{CB}=1$，且 $\\overrightarrow{DE}\\cdot\\overrightarrow{DC}=t\\leqslant1$，当 $E=B$（即 $t=1$）时取到最大值 $1$.</p>"
         },
         {
           "num": 14,
-          "body": "已知 $f(x) = m(x - 2m)(x + m + 3)$，$g(x) = 2^{x} - 2$. 若 $\\forall x \\in \\mathbb{R}$，$f(x) < 0$ 或 $g(x) < 0$，则 $m$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\((-4,0)\\)",
-          "solution": "因为 $g(x)=2^x-2$，所以 $g(x)<0$ 当且仅当 $x<1$. 因而题设条件等价于对一切 $x\\geqslant1$ 都有 $f(x)<0$.\r\n\r\n若 $m=0$，则 $f(x)=0$，不满足严格不等式；若 $m>0$，则 $f(x)\\to+\\infty$（$x\\to+\\infty$），也不可能在 $[1,+\\infty)$ 上恒为负. 故必须有 $m<0$.\r\n\r\n此时 $f(x)$ 是开口向下的二次函数，两个零点为 $2m$ 和 $-m-3$. 要使 $x\\geqslant1$ 时严格有 $f(x)<0$，两个零点都必须小于 $1$. 条件 $2m<1$ 在 $m<0$ 时自动成立，而 $-m-3<1$ 等价于 $m>-4$. 所以 $m\\in(-4,0)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $f(x) = m(x - 2m)(x + m + 3)$，$g(x) = 2^{x}- 2$. 若 $\\forall x \\in \\mathbb{R}$，$f(x) &#x3C; 0$ 或 $g(x) &#x3C; 0$，则 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-4,0)$",
+          "solution": "<p>因为 $g(x)=2^{x}-2$，所以 $g(x)&#x3C;0$ 当且仅当 $x&#x3C;1$. 因而题设条件等价于对一切 $x\\geqslant1$ 都有 $f(x)&#x3C;0$.</p><p>若 $m=0$，则 $f(x)=0$，不满足严格不等式；若 $m>0$，则 $f(x)\\to+\\infty$（$x\\to+\\infty$），也不可能在 $[1,+\\infty)$ 上恒为负. 故必须有 $m&#x3C;0$.</p><p>此时 $f(x)$ 是开口向下的二次函数，两个零点为 $2m$ 和 $-m-3$. 要使 $x\\geqslant1$ 时严格有 $f(x)&#x3C;0$，两个零点都必须小于 $1$. 条件 $2m&#x3C;1$ 在 $m&#x3C;0$ 时自动成立，而 $-m-3&#x3C;1$ 等价于 $m>-4$. 所以 $m\\in(-4,0)$.</p>"
         }
       ]
     },
@@ -308,60 +157,47 @@
       "problems": [
         {
           "num": 15,
-          "body": "已知函数 $f(x) = \\dfrac{(\\sin x - \\cos x)\\sin 2x}{\\sin x}$.\r\n\n(1) 求 $f(x)$ 的定义域及最小正周期；\n\n(2) 求 $f(x)$ 的单调递减区间.\n\r\n\n(1) 由分母不能为零，得 $\\sin x\\ne0$，所以定义域为\r\n$\\{x\\mid x\\ne k\\pi,\\ k\\in\\mathbb{Z}\\}$. 在此定义域内，利用 $\\sin2x=2\\sin x\\cos x$，得\r\n\n$$\nf(x)=2\\cos x(\\sin x-\\cos x)=\\sin2x-\\cos2x-1\r\n=\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right)-1\n$$\n\r\n化简式的周期为 $\\pi$，所以 $\\pi$ 是原函数的一个正周期. 另一方面，原函数的定义域排除了恰为 $\\{k\\pi\\mid k\\in\\mathbb{Z}\\}$ 的点；若 $T$ 是原函数的周期，则平移 $T$ 必须把这组不可取点保持不变，从而 $T$ 必须是 $\\pi$ 的整数倍. 因此原函数的最小正周期为 $\\pi$.\n\n(2) 由上式可得 $f'(x)=2\\sqrt{2}\\cos\\left(2x-\\frac{\\pi}{4}\\right)$. 函数递减时\r\n\n$$\n\\cos\\left(2x-\\frac{\\pi}{4}\\right)<0\n$$\n\r\n即存在 $k\\in\\mathbb{Z}$，使\r\n\n$$\n2k\\pi+\\frac{\\pi}{2}<2x-\\frac{\\pi}{4}<2k\\pi+\\frac{3\\pi}{2}\n$$\n\r\n解得 $k\\pi+\\frac{3\\pi}{8}<x<k\\pi+\\frac{7\\pi}{8}$. 端点处导数为零，但函数在端点及其间的每一点均有定义，故可将递减区间写成相应闭区间；这些区间也不包含被排除的 $k\\pi$. 所以单调递减区间为\r\n$\\left[k\\pi+\\frac{3\\pi}{8},k\\pi+\\frac{7\\pi}{8}\\right]$（$k\\in\\mathbb{Z}$）.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\dfrac{(\\sin x - \\cos x)\\sin 2x}{\\sin x}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的定义域及最小正周期；</p></li><li><p>求 $f(x)$ 的单调递减区间.</p></li></ol><ol class=\"enumerate\"><li><p>由分母不能为零，得 $\\sin x\\ne0$，所以定义域为</p><p>$\\{x\\mid x\\ne k\\pi,\\ k\\in\\mathbb{Z}\\}$. 在此定义域内，利用 $\\sin2x=2\\sin x\\cos x$，得</p>\n$$\nf(x)=2\\cos x(\\sin x-\\cos x)=\\sin2x-\\cos2x-1  =\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right)-1\n$$\n<p>化简式的周期为 $\\pi$，所以 $\\pi$ 是原函数的一个正周期. 另一方面，原函数的定义域排除了恰为 $\\{k\\pi\\mid k\\in\\mathbb{Z}\\}$ 的点；若 $T$ 是原函数的周期，则平移 $T$ 必须把这组不可取点保持不变，从而 $T$ 必须是 $\\pi$ 的整数倍. 因此原函数的最小正周期为 $\\pi$.</p></li><li><p>由上式可得 $f'(x)=2\\sqrt{2}\\cos\\left(2x-\\frac{\\pi}{4}\\right)$. 函数递减时</p>\n$$\n\\cos\\left(2x-\\frac{\\pi}{4}\\right)&#x3C;0\n$$\n<p>即存在 $k\\in\\mathbb{Z}$，使</p>\n$$\n2k\\pi+\\frac{\\pi}{2}&#x3C;2x-\\frac{\\pi}{4}&#x3C;2k\\pi+\\frac{3\\pi}{2}\n$$\n<p>解得 $k\\pi+\\frac{3\\pi}{8}&#x3C;x&#x3C;k\\pi+\\frac{7\\pi}{8}$. 端点处导数为零，但函数在端点及其间的每一点均有定义，故可将递减区间写成相应闭区间；这些区间也不包含被排除的 $k\\pi$. 所以单调递减区间为</p><p>$\\left[k\\pi+\\frac{3\\pi}{8},k\\pi+\\frac{7\\pi}{8}\\right]$（$k\\in\\mathbb{Z}$）.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 16,
-          "body": "如图 1，在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C = 90^\\circ$，$D$，$E$ 分别是 $AC$，$AB$ 的中点，点 $F$ 为线段 $CD$ 上的一点，将 $\\triangle ADE$ 沿 $DE$ 折起到 $\\triangle A_1DE$ 的位置，使 $A_1F \\perp CD$，如图 2.\r\n\r\n\n(1) 求证：$DE\\parallel\\text{平面 }A_1CB$；\n\n(2) 求证：$A_1F\\perp BE$；\n\n(3) 线段 $A_1B$ 上是否存在点 $Q$，使 $A_1C\\perp\\text{平面 }DEQ$？说明理由.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\n(1) 因为 $D$，$E$ 分别是 $AC$，$AB$ 的中点，所以在折叠前 $DE\\parallel BC$，折叠后 $DE$ 和 $BC$ 的位置均不变，仍有 $DE\\parallel BC$. 又 $BC\\subset\\text{平面 }A_1CB$. 只需证明 $DE$ 不在该平面内.\r\n\r\n若 $DE\\subset\\text{平面 }A_1CB$，则平面 $A_1CB$ 与折叠前的平面 $ABC$ 都含有两条互相平行且不重合的直线 $DE$ 和 $BC$，从而两平面重合，故 $A_1\\in\\text{平面 }ABC$. 由于 $DE\\perp AC$，且 $D$ 是 $AC$ 的中点，点 $A$ 绕折痕 $DE$ 后仍落在平面 $ABC$ 内时只能处于原位置 $A$ 或关于 $DE$ 的对称位置 $C$. 这两种情形下 $A_1F$ 均与 $CD$ 共线或退化，不可能满足 $A_1F\\perp CD$. 因此 $DE\\not\\subset\\text{平面 }A_1CB$，所以 $DE\\parallel\\text{平面 }A_1CB$.\n\n(2) 由 $AC\\perp BC$ 且 $DE\\parallel BC$，得 $DE\\perp AC$，从而 $DE\\perp CD$. 折叠保持折痕 $DE$ 与边 $AD$ 的夹角，所以 $DE\\perp A_1D$. 直线 $A_1D$ 与 $DC$ 在 $D$ 处相交，且都在平面 $A_1DC$ 内，故 $DE\\perp\\text{平面 }A_1DC$. 因为 $F\\in CD$，所以 $A_1F\\subset\\text{平面 }A_1DC$，从而 $DE\\perp A_1F$.\r\n\r\n已知 $A_1F\\perp CD$. 过 $F$ 作直线 $\\ell\\parallel DE$. 直线 $\\ell$ 和 $CD$ 是平面 $BCDE$ 内过 $F$ 的两条相交直线，且 $A_1F\\perp\\ell$、$A_1F\\perp CD$，所以 $A_1F\\perp\\text{平面 }BCDE$. 由于 $BE\\subset\\text{平面 }BCDE$，故 $A_1F\\perp BE$.\n\n(3) 取 $P$，$Q$ 分别为 $A_1C$，$A_1B$ 的中点. 在三角形 $A_1CB$ 中，$PQ\\parallel CB$，而 $DE\\parallel CB$，所以 $PQ\\parallel DE$. 平面 $DEQ$ 含有过 $Q$ 且平行于 $DE$ 的直线 $PQ$，故 $P\\in\\text{平面 }DEQ$，从而平面 $DEQ=\\text{平面 }DEP$.\r\n\r\n折叠保持长度，且 $D$ 是 $AC$ 的中点，所以 $A_1D=AD=DC$. 因而三角形 $A_1DC$ 是以 $A_1C$ 为底边的等腰三角形；$P$ 是底边 $A_1C$ 的中点，所以 $DP\\perp A_1C$. 由上一步知 $DE\\perp\\text{平面 }A_1DC$，故 $DE\\perp A_1C$. 又 $PQ\\parallel DE$，所以 $PQ\\perp A_1C$. 直线 $DP$ 与 $PQ$ 在 $P$ 处相交，且均在平面 $DEP$ 内，因此 $A_1C\\perp\\text{平面 }DEP=\\text{平面 }DEQ$. 所以存在这样的点 $Q$，可取 $Q$ 为 $A_1B$ 的中点.",
-          "choices": [],
+          "body": "<p>如图 1，在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C = 90^{\\circ}$，$D$，$E$ 分别是 $AC$，$AB$ 的中点，点 $F$ 为线段 $CD$ 上的一点，将 $\\triangle ADE$ 沿 $DE$ 折起到 $\\triangle A_{1}DE$ 的位置，使 $A_{1}F \\perp CD$，如图 2.</p><ol class=\"enumerate\"><li><p>求证：$DE\\parallel\\text{平面 }A_{1}CB$；</p></li><li><p>求证：$A_{1}F\\perp BE$；</p></li><li><p>线段 $A_{1}B$ 上是否存在点 $Q$，使 $A_{1}C\\perp\\text{平面 }DEQ$？说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>因为 $D$，$E$ 分别是 $AC$，$AB$ 的中点，所以在折叠前 $DE\\parallel BC$，折叠后 $DE$ 和 $BC$ 的位置均不变，仍有 $DE\\parallel BC$. 又 $BC\\subset\\text{平面 }A_{1}CB$. 只需证明 $DE$ 不在该平面内.</p><p>若 $DE\\subset\\text{平面 }A_{1}CB$，则平面 $A_{1}CB$ 与折叠前的平面 $ABC$ 都含有两条互相平行且不重合的直线 $DE$ 和 $BC$，从而两平面重合，故 $A_{1}\\in\\text{平面 }ABC$. 由于 $DE\\perp AC$，且 $D$ 是 $AC$ 的中点，点 $A$ 绕折痕 $DE$ 后仍落在平面 $ABC$ 内时只能处于原位置 $A$ 或关于 $DE$ 的对称位置 $C$. 这两种情形下 $A_{1}F$ 均与 $CD$ 共线或退化，不可能满足 $A_{1}F\\perp CD$. 因此 $DE\\not\\subset\\text{平面 }A_{1}CB$，所以 $DE\\parallel\\text{平面 }A_{1}CB$.</p></li><li><p>由 $AC\\perp BC$ 且 $DE\\parallel BC$，得 $DE\\perp AC$，从而 $DE\\perp CD$. 折叠保持折痕 $DE$ 与边 $AD$ 的夹角，所以 $DE\\perp A_{1}D$. 直线 $A_{1}D$ 与 $DC$ 在 $D$ 处相交，且都在平面 $A_{1}DC$ 内，故 $DE\\perp\\text{平面 }A_{1}DC$. 因为 $F\\in CD$，所以 $A_{1}F\\subset\\text{平面 }A_{1}DC$，从而 $DE\\perp A_{1}F$.</p><p>已知 $A_{1}F\\perp CD$. 过 $F$ 作直线 $\\ell\\parallel DE$. 直线 $\\ell$ 和 $CD$ 是平面 $BCDE$ 内过 $F$ 的两条相交直线，且 $A_{1}F\\perp\\ell$、$A_{1}F\\perp CD$，所以 $A_{1}F\\perp\\text{平面 }BCDE$. 由于 $BE\\subset\\text{平面 }BCDE$，故 $A_{1}F\\perp BE$.</p></li><li><p>取 $P$，$Q$ 分别为 $A_{1}C$，$A_{1}B$ 的中点. 在三角形 $A_{1}CB$ 中，$PQ\\parallel CB$，而 $DE\\parallel CB$，所以 $PQ\\parallel DE$. 平面 $DEQ$ 含有过 $Q$ 且平行于 $DE$ 的直线 $PQ$，故 $P\\in\\text{平面 }DEQ$，从而平面 $DEQ=\\text{平面 }DEP$.</p><p>折叠保持长度，且 $D$ 是 $AC$ 的中点，所以 $A_{1}D=AD=DC$. 因而三角形 $A_{1}DC$ 是以 $A_{1}C$ 为底边的等腰三角形；$P$ 是底边 $A_{1}C$ 的中点，所以 $DP\\perp A_{1}C$. 由上一步知 $DE\\perp\\text{平面 }A_{1}DC$，故 $DE\\perp A_{1}C$. 又 $PQ\\parallel DE$，所以 $PQ\\perp A_{1}C$. 直线 $DP$ 与 $PQ$ 在 $P$ 处相交，且均在平面 $DEP$ 内，因此 $A_{1}C\\perp\\text{平面 }DEP=\\text{平面 }DEQ$. 所以存在这样的点 $Q$，可取 $Q$ 为 $A_{1}B$ 的中点.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 17,
-          "body": "近年来，某市为促进生活垃圾的分类处理，将生活垃圾分为厨余垃圾，可回收物和其他垃圾三类，并分别设置了相应的垃圾箱. 为调查居民生活垃圾分类投放情况，现随机抽取了该市三类垃圾箱中总计 $1000\\text{ 吨}$ 生活垃圾，数据统计如下（单位：吨）：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n & “厨余垃圾”箱 & “可回收物”箱 & “其他垃圾”箱 \\\\\r\n\\hline\r\n厨余垃圾 & 400 & 100 & 100 \\\\\r\n可回收物 & 30 & 240 & 30 \\\\\r\n其他垃圾 & 20 & 20 & 60\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 试估计厨余垃圾投放正确的概率；\n\n(2) 试估计生活垃圾投放错误的概率；\n\n(3) 假设厨余垃圾在“厨余垃圾”箱，“可回收物”箱，“其他垃圾”箱的投放量分别为 $a$，$b$，$c$，其中 $a > 0$，$a + b + c = 600$. 当数据 $a$，$b$，$c$ 的方差 $s^2$ 最大时，写出 $a$，$b$，$c$ 的值（结论不要求证明），并求此时 $s^2$ 的值.\n\r\n\r\n（注：$s^2 = \\frac{1}{n}\\left[(x_1 - \\overline{x})^2 + (x_2 - \\overline{x})^2 + \\cdots + (x_n - \\overline{x})^2\\right]$，其中 $\\overline{x}$ 为 $x_1$，$x_2$，$\\cdots$，$x_n$ 的平均数）\r\n\r\n\n(1) 三类厨余垃圾共 $400+100+100=600$ 吨，其中正确投放到“厨余垃圾”箱的有 $400$ 吨，所以估计正确投放的概率为 $\\dfrac{400}{600}=\\dfrac{2}{3}$.\n\n(2) 投放错误的垃圾量是所有非对角线数据之和，即\r\n$100+100+30+30+20+20=300$ 吨. 因而估计生活垃圾投放错误的概率为 $\\dfrac{300}{1000}=\\dfrac{3}{10}$.\n\n(3) 由于 $a$，$b$，$c$ 是投放量，$b$，$c\\geqslant0$. 它们的平均数为 $\\bar{x}=\\dfrac{a+b+c}{3}=200$，所以\r\n\n$$\ns^2=\\frac{1}{3}\\left[(a-200)^2+(b-200)^2+(c-200)^2\\right]\r\n=\\frac{a^2+b^2+c^2-120000}{3}\n$$\n\r\n在 $a$，$b$，$c\\geqslant0$ 且 $a+b+c=600$ 时，\r\n$a^2+b^2+c^2\\le(a+b+c)^2=360000$，等号当且仅当其中两个数为零. 结合 $a>0$，方差最大时 $a=600$，$b=c=0$，并且\r\n$s^2=\\dfrac{360000-120000}{3}=80000$.",
-          "choices": [],
+          "body": "<p>近年来，某市为促进生活垃圾的分类处理，将生活垃圾分为厨余垃圾，可回收物和其他垃圾三类，并分别设置了相应的垃圾箱. 为调查居民生活垃圾分类投放情况，现随机抽取了该市三类垃圾箱中总计 $1000\\text{ 吨}$ 生活垃圾，数据统计如下（单位：吨）：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> “厨余垃圾”箱 </td><td style=\"text-align: center\"> “可回收物”箱 </td><td style=\"text-align: center\"> “其他垃圾”箱 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>厨余垃圾 </td><td style=\"text-align: center\"> 400 </td><td style=\"text-align: center\"> 100 </td><td style=\"text-align: center\"> 100 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>可回收物 </td><td style=\"text-align: center\"> 30 </td><td style=\"text-align: center\"> 240 </td><td style=\"text-align: center\"> 30 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>其他垃圾 </td><td style=\"text-align: center\"> 20 </td><td style=\"text-align: center\"> 20 </td><td style=\"text-align: center\"> 60</td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>试估计厨余垃圾投放正确的概率；</p></li><li><p>试估计生活垃圾投放错误的概率；</p></li><li><p>假设厨余垃圾在“厨余垃圾”箱，“可回收物”箱，“其他垃圾”箱的投放量分别为 $a$，$b$，$c$，其中 $a > 0$，$a + b + c = 600$. 当数据 $a$，$b$，$c$ 的方差 $s^{2}$ 最大时，写出 $a$，$b$，$c$ 的值（结论不要求证明），并求此时 $s^{2}$ 的值.</p></li></ol><p>（注：$s^{2} = \\frac{1}{n}\\left[(x_{1} - \\overline{x})^{2} + (x_{2} - \\overline{x})^{2} + \\cdots + (x_{n} - \\overline{x})^{2}\\right]$，其中 $\\overline{x}$ 为 $x_{1}$，$x_{2}$，$\\cdots$，$x_{n}$ 的平均数）</p><ol class=\"enumerate\"><li><p>三类厨余垃圾共 $400+100+100=600$ 吨，其中正确投放到“厨余垃圾”箱的有 $400$ 吨，所以估计正确投放的概率为 $\\dfrac{400}{600}=\\dfrac{2}{3}$.</p></li><li><p>投放错误的垃圾量是所有非对角线数据之和，即</p><p>$100+100+30+30+20+20=300$ 吨. 因而估计生活垃圾投放错误的概率为 $\\dfrac{300}{1000}=\\dfrac{3}{10}$.</p></li><li><p>由于 $a$，$b$，$c$ 是投放量，$b$，$c\\geqslant0$. 它们的平均数为 $\\bar{x}=\\dfrac{a+b+c}{3}=200$，所以</p>\n$$\ns^{2}=\\frac{1}{3}\\left[(a-200)^{2}+(b-200)^{2}+(c-200)^{2}\\right]  =\\frac{a^{2}+b^{2}+c^{2}-120000}{3}\n$$\n<p>在 $a$，$b$，$c\\geqslant0$ 且 $a+b+c=600$ 时，</p><p>$a^{2}+b^{2}+c^{2}\\le(a+b+c)^{2}=360000$，等号当且仅当其中两个数为零. 结合 $a>0$，方差最大时 $a=600$，$b=c=0$，并且</p><p>$s^{2}=\\dfrac{360000-120000}{3}=80000$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 18,
-          "body": "已知函数 $f(x) = ax^2 + 1$ （$a > 0$），$g(x) = x^3 + bx$.\r\n\n(1) 若曲线 $y = f(x)$ 与曲线 $y = g(x)$ 在它们的交点 $(1, c)$ 处具有公共切线，求 $a$，$b$ 的值；\n\n(2) 当 $a = 3$，$b = -9$ 时，若函数 $f(x) + g(x)$ 在区间 $[k, 2]$ 上的最大值为 28，求 $k$ 的取值范围.\n\r\n\n(1) 因为 $(1,c)$ 同时在两条曲线上，所以 $a+1=c=1+b$，从而 $a=b$. 两条曲线在该点具有公共切线，说明导数值相等，即\r\n$f'(1)=2a$，$g'(1)=3+b$，所以 $2a=3+b$. 联立 $a=b$ 得 $a=b=3$.\n\n(2) 令 $h(x)=f(x)+g(x)=x^3+3x^2-9x+1$，则\r\n$h'(x)=3x^2+6x-9=3(x+3)(x-1)$. 因此 $h$ 在 $(-\\infty,-3)$ 上递增，在 $(-3,1)$ 上递减，在 $(1,+\\infty)$ 上递增. 又\r\n$h(-3)=28$，$h(1)=-4$，$h(2)=3$.\r\n区间 $[k,2]$ 要有意义，需 $k\\leqslant2$. 当 $k\\le-3$ 时，区间 $[k,2]$ 包含 $x=-3$，且由上述单调性，$h(x)$ 在该区间上的最大值为 $h(-3)=28$. 当 $-3<k\\leqslant2$ 时，区间不含 $-3$，在 $[k,1]$ 上函数递减、在 $[1,2]$ 上函数递增，且 $h(k)<28$、$h(2)=3<28$，故最大值严格小于 $28$. 所以 $k\\in(-\\infty,-3]$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = ax^{2} + 1$ （$a > 0$），$g(x) = x^{3} + bx$.</p><ol class=\"enumerate\"><li><p>若曲线 $y = f(x)$ 与曲线 $y = g(x)$ 在它们的交点 $(1, c)$ 处具有公共切线，求 $a$，$b$ 的值；</p></li><li><p>当 $a = 3$，$b = -9$ 时，若函数 $f(x) + g(x)$ 在区间 $[k, 2]$ 上的最大值为 28，求 $k$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>因为 $(1,c)$ 同时在两条曲线上，所以 $a+1=c=1+b$，从而 $a=b$. 两条曲线在该点具有公共切线，说明导数值相等，即</p><p>$f'(1)=2a$，$g'(1)=3+b$，所以 $2a=3+b$. 联立 $a=b$ 得 $a=b=3$.</p></li><li><p>令 $h(x)=f(x)+g(x)=x^{3}+3x^{2}-9x+1$，则</p><p>$h'(x)=3x^{2}+6x-9=3(x+3)(x-1)$. 因此 $h$ 在 $(-\\infty,-3)$ 上递增，在 $(-3,1)$ 上递减，在 $(1,+\\infty)$ 上递增. 又</p><p>$h(-3)=28$，$h(1)=-4$，$h(2)=3$.</p><p>区间 $[k,2]$ 要有意义，需 $k\\leqslant2$. 当 $k\\le-3$ 时，区间 $[k,2]$ 包含 $x=-3$，且由上述单调性，$h(x)$ 在该区间上的最大值为 $h(-3)=28$. 当 $-3&#x3C;k\\leqslant2$ 时，区间不含 $-3$，在 $[k,1]$ 上函数递减、在 $[1,2]$ 上函数递增，且 $h(k)&#x3C;28$、$h(2)=3&#x3C;28$，故最大值严格小于 $28$. 所以 $k\\in(-\\infty,-3]$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 19,
-          "body": "已知椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ （$a > b > 0$）的一个顶点为 $A(2, 0)$，离心率为 $\\frac{\\sqrt{2}}{2}$，直线 $y = k(x - 1)$ 与椭圆 $C$ 交于不同的两点 $M$，$N$.\r\n\r\n\n(1) 求椭圆 $C$ 的方程；\n\n(2) 当 $\\triangle AMN$ 的面积为 $\\frac{\\sqrt{10}}{3}$ 时，求 $k$ 的值.\n\r\n\n(1) 由于 $A(2,0)$ 是长轴顶点，所以 $a=2$. 设焦半距为 $c$，由离心率\r\n$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$ 得 $c=\\sqrt{2}$. 再由 $b^2=a^2-c^2$，得 $b^2=4-2=2$. 所以椭圆方程为\r\n$\\frac{x^2}{4}+\\frac{y^2}{2}=1$.\n\n(2) 令 $M(x_1,y_1)$，$N(x_2,y_2)$. 将 $y=k(x-1)$ 代入椭圆方程，得到\r\n\n$$\n(1+2k^2)x^2-4k^2x+2k^2-4=0\n$$\n\r\n因此\r\n\n$$\n|x_1-x_2|=\\frac{\\sqrt{(-4k^2)^2-4(1+2k^2)(2k^2-4)}}{1+2k^2}\r\n=\\frac{2\\sqrt{6k^2+4}}{1+2k^2}\n$$\n\r\n线段 $MN$ 在直线 $y=k(x-1)$ 上，所以\r\n$|MN|=|x_1-x_2|\\sqrt{1+k^2}$. 点 $A(2,0)$ 到该直线的距离为\r\n$\\dfrac{|2k-k|}{\\sqrt{1+k^2}}=\\dfrac{|k|}{\\sqrt{1+k^2}}$. 从而\r\n\n$$\n[\\triangle AMN]=\\frac{1}{2}|MN|\\cdot\\frac{|k|}{\\sqrt{1+k^2}}\r\n=\\frac{|k|\\sqrt{6k^2+4}}{1+2k^2}\n$$\n\r\n令 $u=k^2$，由题设面积得\r\n\n$$\n\\frac{u(6u+4)}{(1+2u)^2}=\\frac{10}{9}\n$$\n\r\n即 $7u^2-2u-5=0$. 因而 $u=1$ 或 $u=-\\frac{5}{7}$. 因为 $u=k^2\\geqslant0$，所以 $u=1$，故 $k=\\pm1$.",
-          "choices": [],
+          "body": "<p>已知椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的一个顶点为 $A(2, 0)$，离心率为 $\\frac{\\sqrt{2}}{2}$，直线 $y = k(x - 1)$ 与椭圆 $C$ 交于不同的两点 $M$，$N$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>当 $\\triangle AMN$ 的面积为 $\\frac{\\sqrt{10}}{3}$ 时，求 $k$ 的值.</p></li></ol><ol class=\"enumerate\"><li><p>由于 $A(2,0)$ 是长轴顶点，所以 $a=2$. 设焦半距为 $c$，由离心率</p><p>$e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$ 得 $c=\\sqrt{2}$. 再由 $b^{2}=a^{2}-c^{2}$，得 $b^{2}=4-2=2$. 所以椭圆方程为</p><p>$\\frac{x^{2}}{4}+\\frac{y^{2}}{2}=1$.</p></li><li><p>令 $M(x_{1},y_{1})$，$N(x_{2},y_{2})$. 将 $y=k(x-1)$ 代入椭圆方程，得到</p>\n$$\n(1+2k^{2})x^{2}-4k^{2}x+2k^{2}-4=0\n$$\n<p>因此</p>\n$$\n|x_{1}-x_{2}|=\\frac{\\sqrt{(-4k^{2})^{2}-4(1+2k^{2})(2k^{2}-4)}}{1+2k^{2}}=\\frac{2\\sqrt{6k^{2}+4}}{1+2k^{2}}\n$$\n<p>线段 $MN$ 在直线 $y=k(x-1)$ 上，所以</p><p>$|MN|=|x_{1}-x_{2}|\\sqrt{1+k^{2}}$. 点 $A(2,0)$ 到该直线的距离为</p><p>$\\dfrac{|2k-k|}{\\sqrt{1+k^{2}}}=\\dfrac{|k|}{\\sqrt{1+k^{2}}}$. 从而</p>\n$$\n[\\triangle AMN]=\\frac{1}{2}|MN|\\cdot\\frac{|k|}{\\sqrt{1+k^{2}}}=\\frac{|k|\\sqrt{6k^2+4}}{1+2k^{2}}\n$$\n<p>令 $u=k^{2}$，由题设面积得</p>\n$$\n\\frac{u(6u+4)}{(1+2u)^{2}}=\\frac{10}{9}\n$$\n<p>即 $7u^{2}-2u-5=0$. 因而 $u=1$ 或 $u=-\\frac{5}{7}$. 因为 $u=k^{2}\\geqslant0$，所以 $u=1$，故 $k=\\pm1$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 20,
-          "body": "设 $A$ 是如下形式的 2 行 3 列的数表，\r\n\r\n\\examdisplayarray{}{ccc}{\r\na & b & c \\\\\r\nd & e & f\r\n}{}\r\n\r\n满足性质 $P$：$a$，$b$，$c$，$d$，$e$，$f \\in [-1, 1]$，且 $a + b + c + d + e + f = 0$.\r\n记 $r_i(A)$ 为 $A$ 的第 $i$ 行各数之和 （$i = 1$，$2$），$c_j(A)$ 为 $A$ 的第 $j$ 列各数之和 （$j = 1$，$2$，$3$）；记 $k(A)$ 为 $|r_1(A)|$，$|r_2(A)|$，$|c_1(A)|$，$|c_2(A)|$，$|c_3(A)|$ 中的最小值.\r\n\r\n\n(1) 对如下数表 $A$，求 $k(A)$ 的值；\r\n\r\n\\examdisplayarray{}{ccc}{\r\n1 & 1 & -0.8 \\\\\r\n0.1 & -0.3 & -1\r\n}{}\n\n(2) 设数表 $A$ 形如\r\n\r\n\\examdisplayarray{}{ccc}{\r\n1 & 1 & -1 - 2d \\\\\r\nd & d & -1\r\n}{}\r\n\r\n其中 $-1 \\le d \\le 0$. 求 $k(A)$ 的最大值；\n\n(3) 对所有满足性质 $P$ 的 2 行 3 列的数表 $A$，求 $k(A)$ 的最大值.\n\r\n\n(1) 该数表的两行和分别为 $1.2$ 和 $-1.2$，三列和分别为 $1.1$，$0.7$ 和 $-1.8$. 所以\r\n$k(A)=\\min\\{1.2,1.2,1.1,0.7,1.8\\}=0.7$.\n\n(2) 该数表的行和、列和分别为\r\n$r_1=1-2d$，$r_2=-1+2d$，$c_1=c_2=1+d$，$c_3=-2-2d$. 因为 $-1\\le d\\leqslant0$，有\r\n$|r_1|=|r_2|=1-2d\\geqslant1+d\\geqslant0$，且 $|c_3|=2(1+d)\\geqslant1+d$. 因此 $k(A)=1+d$，其最大值在 $d=0$ 时取得，最大值为 $1$.\n\n(3) 交换两行、交换三列以及同时将全部元素变号，都不改变 $k(A)$. 三个列和的总和为零，所以至少有两个列和同为非负数或同为非正数；通过交换列并在必要时将全部元素变号，可设所选两列为 $c_1\\geqslant0$、$c_2\\geqslant0$. 再交换两行，可设 $r_1\\geqslant0$. 因而\r\n$k(A)\\le r_1$，$k(A)\\le c_1$，$k(A)\\le c_2$，从而\r\n\n$$\n3k(A)\\le r_1+c_1+c_2\r\n=(a+b+c)+(a+d)+(b+e)\r\n=a+b-f\\leqslant3\n$$\n\r\n所以 $k(A)\\leqslant1$. 第（2）问取 $d=0$ 时，数表仍满足性质 $P$，且 $k(A)=1$，故所有满足性质 $P$ 的数表中 $k(A)$ 的最大值为 $1$.",
-          "choices": [],
+          "body": "<p>设 $A$ 是如下形式的 2 行 3 列的数表，</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>a &#x26; b &#x26; c <br class=\"linebreak\"><br>d &#x26; e &#x26; f<br></p><p>满足性质 $P$：$a$，$b$，$c$，$d$，$e$，$f \\in [-1, 1]$，且 $a + b + c + d + e + f = 0$.</p><p>记 $r_{i}(A)$ 为 $A$ 的第 $i$ 行各数之和 （$i = 1$，$2$），$c_{j}(A)$ 为 $A$ 的第 $j$ 列各数之和 （$j = 1$，$2$，$3$）；记 $k(A)$ 为 $|r_{1}(A)|$，$|r_{2}(A)|$，$|c_{1}(A)|$，$|c_{2}(A)|$，$|c_{3}(A)|$ 中的最小值.</p><ol class=\"enumerate\"><li><p>对如下数表 $A$，求 $k(A)$ 的值；</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>1 &#x26; 1 &#x26; -0.8 <br class=\"linebreak\"><br>0.1 &#x26; -0.3 &#x26; -1<br></p></li><li><p>设数表 $A$ 形如</p><p><span class=\"macro macro-examdisplayarray\"></span>ccc<br>1 &#x26; 1 &#x26; -1 - 2d <br class=\"linebreak\"><br>d &#x26; d &#x26; -1<br></p><p>其中 $-1 \\le d \\le 0$. 求 $k(A)$ 的最大值；</p></li><li><p>对所有满足性质 $P$ 的 2 行 3 列的数表 $A$，求 $k(A)$ 的最大值.</p></li></ol><ol class=\"enumerate\"><li><p>该数表的两行和分别为 $1.2$ 和 $-1.2$，三列和分别为 $1.1$，$0.7$ 和 $-1.8$. 所以</p><p>$k(A)=\\min\\{1.2,1.2,1.1,0.7,1.8\\}=0.7$.</p></li><li><p>该数表的行和、列和分别为</p><p>$r_{1}=1-2d$，$r_{2}=-1+2d$，$c_{1}=c_{2}=1+d$，$c_{3}=-2-2d$. 因为 $-1\\le d\\leqslant0$，有</p><p>$|r_{1}|=|r_{2}|=1-2d\\geqslant1+d\\geqslant0$，且 $|c_{3}|=2(1+d)\\geqslant1+d$. 因此 $k(A)=1+d$，其最大值在 $d=0$ 时取得，最大值为 $1$.</p></li><li><p>交换两行、交换三列以及同时将全部元素变号，都不改变 $k(A)$. 三个列和的总和为零，所以至少有两个列和同为非负数或同为非正数；通过交换列并在必要时将全部元素变号，可设所选两列为 $c_{1}\\geqslant0$、$c_{2}\\geqslant0$. 再交换两行，可设 $r_{1}\\geqslant0$. 因而</p><p>$k(A)\\le r_{1}$，$k(A)\\le c_{1}$，$k(A)\\le c_{2}$，从而</p>\n$$\n3k(A)\\le r_{1}+c_{1}+c_{2}  =(a+b+c)+(a+d)+(b+e)  =a+b-f\\leqslant3\n$$\n<p>所以 $k(A)\\leqslant1$. 第（2）问取 $d=0$ 时，数表仍满足性质 $P$，且 $k(A)=1$，故所有满足性质 $P$ 的数表中 $k(A)$ 的最大值为 $1$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

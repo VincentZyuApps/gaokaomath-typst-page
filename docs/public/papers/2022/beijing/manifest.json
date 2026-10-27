@@ -1,144 +1,15 @@
 {
+  "title": "2022年普通高等学校招生全国统一考试",
+  "subtitle": "2022年北京卷",
   "year": "2022",
   "slug": "beijing",
-  "title": "2022年北京卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知全集 $U=\\{x\\mid -3<x<3\\}$，集合 $A=\\{x\\mid -2<x\\le 1\\}$，则 $C_UA=$（ ）.",
+          "body": "已知全集 $U=\\{x\\mid -3&#x3C;x&#x3C;3\\}$，集合 $A=\\{x\\mid -2&#x3C;x\\le 1\\}$，则 $C_{U}A=$（ ）.",
           "choices": [
             "$(-2,1]$",
             "$(-3,-2)\\cup[1,3)$",
@@ -146,13 +17,11 @@
             "$(-3,-2]\\cup(1,3)$"
           ],
           "answer": "D",
-          "solution": "由补集的定义，$C_UA=\\{x\\mid -3<x<3\\text{ 且 }x\\notin A\\}=(-3,-2]\\cup(1,3)$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由补集的定义，$C_{U}A=\\{x\\mid -3&#x3C;x&#x3C;3\\text{ 且 }x\\notin A\\}=(-3,-2]\\cup(1,3)$，故选 D."
         },
         {
           "num": 2,
-          "body": "若复数 $z$ 满足 $\\mathrm{i} z=3-4\\mathrm{i}$，则 $|z|=$（ ）.",
+          "body": "若复数 $z$ 满足 $\\mathrm{i}z=3-4\\mathrm{i}$，则 $|z|=$（ ）.",
           "choices": [
             "1",
             "5",
@@ -160,41 +29,35 @@
             "25"
           ],
           "answer": "B",
-          "solution": "由 $\\mathrm{i} z=3-4\\mathrm{i}$ 得 $z=\\dfrac{3-4\\mathrm{i}}{\\mathrm{i}}=\\dfrac{(3-4\\mathrm{i})(-\\mathrm{i})}{\\mathrm{i}\\cdot(-\\mathrm{i})}=-4-3\\mathrm{i}$，所以 $|z|=\\sqrt{(-4)^2+(-3)^2}=5$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $\\mathrm{i}z=3-4\\mathrm{i}$ 得 $z=\\dfrac{3-4\\mathrm{i}}{\\mathrm{i}}=\\dfrac{(3-4\\mathrm{i})(-\\mathrm{i})}{\\mathrm{i}\\cdot(-\\mathrm{i})}=-4-3\\mathrm{i}$，所以 $|z|=\\sqrt{(-4)^{2}+(-3)^{2}}=5$，故选 B."
         },
         {
           "num": 3,
-          "body": "若直线 $2x+y-1=0$ 是圆 $(x-a)^2+y^2=1$ 的一条对称轴，则 $a=$（ ）.",
+          "body": "若直线 $2x+y-1=0$ 是圆 $(x-a)^{2}+y^{2}=1$ 的一条对称轴，则 $a=$（ ）.",
           "choices": [
-            "$\\frac12$",
-            "$-\\frac12$",
+            "$\\frac{1}{2}$",
+            "$-\\frac{1}{2}$",
             "1",
             "$-1$"
           ],
           "answer": "A",
-          "solution": "圆的圆心为 $(a,0)$. 因为直线 $2x+y-1=0$ 是圆的对称轴，所以它过圆心，得 $2a-1=0$，即 $a=\\dfrac12$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "圆的圆心为 $(a,0)$. 因为直线 $2x+y-1=0$ 是圆的对称轴，所以它过圆心，得 $2a-1=0$，即 $a=\\dfrac{1}{2}$，故选 A."
         },
         {
           "num": 4,
-          "body": "已知函数 $f(x)=\\dfrac{1}{1+2^x}$，则对任意实数 $x$，有（ ）.",
+          "body": "已知函数 $f(x)=\\dfrac{1}{1+2^x}$，则对任意实数 $x$，有（ ）.",
           "choices": [
             "$f(-x)+f(x)=0$",
             "$f(-x)-f(x)=0$",
             "$f(-x)+f(x)=1$",
-            "$f(-x)-f(x)=\\frac13$"
+            "$f(-x)-f(x)=\\frac{1}{3}$"
           ],
           "answer": "C",
-          "solution": "$f(-x)=\\dfrac{1}{1+2^{-x}}=\\dfrac{2^x}{1+2^x}$，所以 $f(x)+f(-x)=\\dfrac{1}{1+2^x}+\\dfrac{2^x}{1+2^x}=1$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$f(-x)=\\dfrac{1}{1+2^{-x}}=\\dfrac{2^x}{1+2^x}$，所以 $f(x)+f(-x)=\\dfrac{1}{1+2^x}+\\dfrac{2^x}{1+2^x}=1$，故选 C."
         },
         {
           "num": 5,
-          "body": "已知函数 $f(x)=\\cos^2x-\\sin^2x$，则（ ）.",
+          "body": "已知函数 $f(x)=\\cos^{2}x-\\sin^{2}x$，则（ ）.",
           "choices": [
             "$f(x)$ 在 $\\left(-\\frac{\\pi}{2},-\\frac{\\pi}{6}\\right)$ 上单调递减",
             "$f(x)$ 在 $\\left(-\\frac{\\pi}{4},\\frac{\\pi}{12}\\right)$ 上单调递增",
@@ -202,13 +65,11 @@
             "$f(x)$ 在 $\\left(\\frac{\\pi}{4},\\frac{7\\pi}{12}\\right)$ 上单调递增"
           ],
           "answer": "C",
-          "solution": "$f(x)=\\cos^2x-\\sin^2x=\\cos2x$. 当 $x\\in\\left(0,\\dfrac\\pi3\\right)$ 时，$2x\\in\\left(0,\\dfrac{2\\pi}3\\right)$，余弦函数在该区间上单调递减，所以 $f(x)$ 在 $\\left(0,\\dfrac\\pi3\\right)$ 上单调递减，C 正确. 逐一检验：在 $\\left(-\\dfrac\\pi2,-\\dfrac\\pi6\\right)$ 上 $2x\\in\\left(-\\pi,-\\dfrac\\pi3\\right)$，$f(x)$ 单调递增，A 错误；在 $\\left(-\\dfrac\\pi4,\\dfrac\\pi{12}\\right)$ 上 $2x\\in\\left(-\\dfrac\\pi2,\\dfrac\\pi6\\right)$，先增后减，B 错误；在 $\\left(\\dfrac\\pi4,\\dfrac{7\\pi}{12}\\right)$ 上 $2x\\in\\left(\\dfrac\\pi2,\\dfrac{7\\pi}6\\right)$，先减后增，D 错误. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$f(x)=\\cos^{2}x-\\sin^{2}x=\\cos2x$. 当 $x\\in\\left(0,\\dfrac\\pi3\\right)$ 时，$2x\\in\\left(0,\\dfrac{2\\pi}3\\right)$，余弦函数在该区间上单调递减，所以 $f(x)$ 在 $\\left(0,\\dfrac\\pi3\\right)$ 上单调递减，C 正确. 逐一检验：在 $\\left(-\\dfrac\\pi2,-\\dfrac\\pi6\\right)$ 上 $2x\\in\\left(-\\pi,-\\dfrac\\pi3\\right)$，$f(x)$ 单调递增，A 错误；在 $\\left(-\\dfrac\\pi4,\\dfrac\\pi{12}\\right)$ 上 $2x\\in\\left(-\\dfrac\\pi2,\\dfrac\\pi6\\right)$，先增后减，B 错误；在 $\\left(\\dfrac\\pi4,\\dfrac{7\\pi}{12}\\right)$ 上 $2x\\in\\left(\\dfrac\\pi2,\\dfrac{7\\pi}6\\right)$，先减后增，D 错误. 故选 C."
         },
         {
           "num": 6,
-          "body": "设 $\\{a_n\\}$ 是公差不为 0 的无穷等差数列，则“$\\{a_n\\}$ 为递增数列”是“存在正整数 $N_0$，当 $n>N_0$ 时，$a_n>0$”的（ ）.",
+          "body": "设 $\\{a_{n}\\}$ 是公差不为 0 的无穷等差数列，则“$\\{a_{n}\\}$ 为递增数列”是“存在正整数 $N_{0}$，当 $n>N_{0}$ 时，$a_{n}>0$”的（ ）.",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -216,13 +77,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "若 $\\{a_n\\}$ 为递增数列，则公差 $d>0$，当 $n$ 充分大时 $a_n=a_1+(n-1)d>0$，充分性成立. 反之，若存在 $N_0$，当 $n>N_0$ 时 $a_n>0$，则必有 $d\\ge0$；又公差不为 $0$，所以 $d>0$，$\\{a_n\\}$ 递增，必要性也成立. 因此是充分必要条件，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若 $\\{a_{n}\\}$ 为递增数列，则公差 $d>0$，当 $n$ 充分大时 $a_{n}=a_{1}+(n-1)d>0$，充分性成立. 反之，若存在 $N_{0}$，当 $n>N_{0}$ 时 $a_{n}>0$，则必有 $d\\ge0$；又公差不为 $0$，所以 $d>0$，$\\{a_{n}\\}$ 递增，必要性也成立. 因此是充分必要条件，故选 C."
         },
         {
           "num": 7,
-          "body": "在北京冬奥会上，国家速滑馆“冰丝带”使用高效环保的二氧化碳跨临界直冷制冰技术，为实现绿色冬奥作出了贡献. 如图描述了一定条件下二氧化碳所处的状态与 $T$ 和 $\\lg P$ 的关系，其中 $T$ 表示温度，单位是 $\\mathrm{K}$；$P$ 表示压强，单位是 $\\mathrm{bar}$. 下列结论中正确的是（ ）.\r\n\r\n\\begin{center}\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/beijing/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\end{center}",
+          "body": "<p>在北京冬奥会上，国家速滑馆“冰丝带”使用高效环保的二氧化碳跨临界直冷制冰技术，为实现绿色冬奥作出了贡献. 如图描述了一定条件下二氧化碳所处的状态与 $T$ 和 $\\lg P$ 的关系，其中 $T$ 表示温度，单位是 $\\mathrm{K}$；$P$ 表示压强，单位是 $\\mathrm{bar}$. 下列结论中正确的是（ ）.</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": [
             "当 $T=220$，$P=1026$ 时，二氧化碳处于液态",
             "当 $T=270$，$P=128$ 时，二氧化碳处于气态",
@@ -230,13 +89,11 @@
             "当 $T=360$，$P=729$ 时，二氧化碳处于超临界状态"
           ],
           "answer": "D",
-          "solution": "由图知临界点在两条虚线交点处，其右上方为超临界状态. A 中 $T=220$，$\\lg P\\approx3.0$ 落在固态区；B 中 $T=270$，$\\lg P\\approx2.1$ 落在液态区；C 中 $T=300$ 尚未达到临界温度，仍为液态；D 中 $T=360$，$\\lg P=\\lg729\\approx2.86$，位于临界点右上方，处于超临界状态. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由图知临界点在两条虚线交点处，其右上方为超临界状态. A 中 $T=220$，$\\lg P\\approx3.0$ 落在固态区；B 中 $T=270$，$\\lg P\\approx2.1$ 落在液态区；C 中 $T=300$ 尚未达到临界温度，仍为液态；D 中 $T=360$，$\\lg P=\\lg729\\approx2.86$，位于临界点右上方，处于超临界状态. 故选 D."
         },
         {
           "num": 8,
-          "body": "若 $(2x-1)^4=a_4x^4+a_3x^3+a_2x^2+a_1x+a_0$，则 $a_0+a_2+a_4=$（ ）.",
+          "body": "若 $(2x-1)^{4}=a_{4}x^{4}+a_{3}x^{3}+a_{2}x^{2}+a_{1}x+a_{0}$，则 $a_{0}+a_{2}+a_{4}=$（ ）.",
           "choices": [
             "40",
             "41",
@@ -244,13 +101,11 @@
             "$-41$"
           ],
           "answer": "B",
-          "solution": "令 $x=1$，得 $a_0+a_1+a_2+a_3+a_4=(2-1)^4=1$；令 $x=-1$，得 $a_0-a_1+a_2-a_3+a_4=(-2-1)^4=81$. 两式相加得 $2(a_0+a_2+a_4)=82$，所以 $a_0+a_2+a_4=41$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "令 $x=1$，得 $a_{0}+a_{1}+a_{2}+a_{3}+a_{4}=(2-1)^{4}=1$；令 $x=-1$，得 $a_{0}-a_{1}+a_{2}-a_{3}+a_{4}=(-2-1)^{4}=81$. 两式相加得 $2(a_{0}+a_{2}+a_{4})=82$，所以 $a_{0}+a_{2}+a_{4}=41$，故选 B."
         },
         {
           "num": 9,
-          "body": "已知正三棱锥 $P-ABC$ 的六条棱长均为 6，$S$ 是 $\\triangle ABC$ 及其内部的点构成的集合. 设集合 $T=\\{Q\\in S\\mid PQ\\le 5\\}$，则 $T$ 表示的区域的面积为（ ）.",
+          "body": "已知正三棱锥 $P-ABC$ 的六条棱长均为 6，$S$ 是 $\\triangle ABC$ 及其内部的点构成的集合. 设集合 $T=\\{Q\\in S\\mid PQ\\le 5\\}$，则 $T$ 表示的区域的面积为（ ）.",
           "choices": [
             "$\\frac{3\\pi}{4}$",
             "$\\pi$",
@@ -258,13 +113,11 @@
             "$3\\pi$"
           ],
           "answer": "B",
-          "solution": "设正三棱锥 $P-ABC$ 的顶点 $P$ 在底面 $ABC$ 内的射影为 $O$，则 $O$ 为正三角形 $ABC$ 的中心. 由六条棱长均为 $6$ 得 $OC=\\dfrac{6}{\\sqrt3}=2\\sqrt3$，$PO=\\sqrt{6^2-(2\\sqrt3)^2}=2\\sqrt6$. 对底面内一点 $Q$，$PQ^2=PO^2+OQ^2=24+OQ^2$，故 $PQ\\le5$ 等价于 $OQ\\le1$. 因为 $O$ 到底面各边的距离为 $\\sqrt3>1$，单位圆完全落在正三角形内部，所以 $T$ 的面积为 $\\pi$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设正三棱锥 $P-ABC$ 的顶点 $P$ 在底面 $ABC$ 内的射影为 $O$，则 $O$ 为正三角形 $ABC$ 的中心. 由六条棱长均为 $6$ 得 $OC=\\dfrac{6}{\\sqrt{3}}=2\\sqrt{3}$，$PO=\\sqrt{6^{2}-(2\\sqrt{3})^{2}}=2\\sqrt{6}$. 对底面内一点 $Q$，$PQ^{2}=PO^{2}+OQ^{2}=24+OQ^{2}$，故 $PQ\\le5$ 等价于 $OQ\\le1$. 因为 $O$ 到底面各边的距离为 $\\sqrt{3}>1$，单位圆完全落在正三角形内部，所以 $T$ 的面积为 $\\pi$，故选 B."
         },
         {
           "num": 10,
-          "body": "在 $\\triangle ABC$ 中，$AC=3$，$BC=4$，$\\angle C=90^\\circ$. $P$ 为 $\\triangle ABC$ 所在平面内的动点，且 $PC=1$，则 $\\overrightarrow{PA}\\cdot \\overrightarrow{PB}$ 的取值范围是（ ）.",
+          "body": "在 $\\triangle ABC$ 中，$AC=3$，$BC=4$，$\\angle C=90^{\\circ}$. $P$ 为 $\\triangle ABC$ 所在平面内的动点，且 $PC=1$，则 $\\overrightarrow{PA}\\cdot \\overrightarrow{PB}$ 的取值范围是（ ）.",
           "choices": [
             "$[-5,3]$",
             "$[-3,5]$",
@@ -272,9 +125,7 @@
             "$[-4,6]$"
           ],
           "answer": "D",
-          "solution": "以 $C$ 为原点，$CA$，$CB$ 所在直线分别为 $x$ 轴、$y$ 轴建立坐标系，则 $A(3,0)$，$B(0,4)$. 设 $P(x,y)$，由 $PC=1$ 得 $x^2+y^2=1$. 于是 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(3-x,-y)\\cdot(-x,4-y)=x^2+y^2-3x-4y=1-3x-4y$. 因为 $-5\\le3x+4y\\le5$，所以 $-4\\le1-3x-4y\\le6$，即取值范围为 $[-4,6]$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "以 $C$ 为原点，$CA$，$CB$ 所在直线分别为 $x$ 轴、$y$ 轴建立坐标系，则 $A(3,0)$，$B(0,4)$. 设 $P(x,y)$，由 $PC=1$ 得 $x^{2}+y^{2}=1$. 于是 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(3-x,-y)\\cdot(-x,4-y)=x^{2}+y^{2}-3x-4y=1-3x-4y$. 因为 $-5\\le3x+4y\\le5$，所以 $-4\\le1-3x-4y\\le6$，即取值范围为 $[-4,6]$，故选 D."
         }
       ]
     },
@@ -283,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "函数 $f(x)=\\dfrac{1}{x}+\\sqrt{1-x}$ 的定义域是 _______ {}.",
-          "choices": [],
-          "answer": "\\((-\\infty,0)\\cup(0,1]\\)",
-          "solution": "由题意 $x\\ne0$ 且 $1-x\\ge0$，即 $x\\le1$ 且 $x\\ne0$，所以定义域为 $(-\\infty,0)\\cup(0,1]$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $f(x)=\\dfrac{1}{x}+\\sqrt{1-x}$ 的定义域是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-\\infty,0)\\cup(0,1]$",
+          "solution": "由题意 $x\\ne0$ 且 $1-x\\ge0$，即 $x\\le1$ 且 $x\\ne0$，所以定义域为 $(-\\infty,0)\\cup(0,1]$."
         },
         {
           "num": 12,
-          "body": "已知双曲线 $y^2+\\dfrac{x^2}{m}=1$ 的渐近线方程为 $y=\\pm \\dfrac{\\sqrt3}{3}x$，则 $m=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-3\\)",
-          "solution": "由 $y^2+\\dfrac{x^2}{m}=1$ 表示双曲线知 $m<0$，其渐近线为 $y=\\pm\\dfrac{1}{\\sqrt{-m}}x$. 与 $y=\\pm\\dfrac{\\sqrt3}{3}x$ 比较得 $\\dfrac{1}{\\sqrt{-m}}=\\dfrac{\\sqrt3}{3}$，所以 $\\sqrt{-m}=\\sqrt3$，$m=-3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知双曲线 $y^{2}+\\dfrac{x^2}{m}=1$ 的渐近线方程为 $y=\\pm \\dfrac{\\sqrt{3}}{3}x$，则 $m=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-3$",
+          "solution": "由 $y^{2}+\\dfrac{x^2}{m}=1$ 表示双曲线知 $m&#x3C;0$，其渐近线为 $y=\\pm\\dfrac{1}{\\sqrt{-m}}x$. 与 $y=\\pm\\dfrac{\\sqrt{3}}{3}x$ 比较得 $\\dfrac{1}{\\sqrt{-m}}=\\dfrac{\\sqrt{3}}{3}$，所以 $\\sqrt{-m}=\\sqrt{3}$，$m=-3$."
         },
         {
           "num": 13,
-          "body": "若函数 $f(x)=A\\sin x-\\sqrt3\\cos x$ 的一个零点为 $\\dfrac{\\pi}{3}$，则 $A=$ _______ {}；$f\\left(\\dfrac{\\pi}{12}\\right)=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)；\\(-\\sqrt{2}\\)",
-          "solution": "由 $\\dfrac\\pi3$ 是 $f(x)$ 的零点得 $A\\sin\\dfrac\\pi3-\\sqrt3\\cos\\dfrac\\pi3=0$，即 $\\dfrac{\\sqrt3}{2}A-\\dfrac{\\sqrt3}{2}=0$，所以 $A=1$. 于是 $f\\left(\\dfrac\\pi{12}\\right)=\\sin\\dfrac\\pi{12}-\\sqrt3\\cos\\dfrac\\pi{12}=2\\sin\\left(\\dfrac\\pi{12}-\\dfrac\\pi3\\right)=2\\sin\\left(-\\dfrac\\pi4\\right)=-\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若函数 $f(x)=A\\sin x-\\sqrt{3}\\cos x$ 的一个零点为 $\\dfrac{\\pi}{3}$，则 $A=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；$f\\left(\\dfrac{\\pi}{12}\\right)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$；$-\\sqrt{2}$",
+          "solution": "由 $\\dfrac\\pi3$ 是 $f(x)$ 的零点得 $A\\sin\\dfrac\\pi3-\\sqrt{3}\\cos\\dfrac\\pi3=0$，即 $\\dfrac{\\sqrt{3}}{2}A-\\dfrac{\\sqrt{3}}{2}=0$，所以 $A=1$. 于是 $f\\left(\\dfrac\\pi{12}\\right)=\\sin\\dfrac\\pi{12}-\\sqrt{3}\\cos\\dfrac\\pi{12}=2\\sin\\left(\\dfrac\\pi{12}-\\dfrac\\pi3\\right)=2\\sin\\left(-\\dfrac\\pi4\\right)=-\\sqrt{2}$."
         },
         {
           "num": 14,
-          "body": "设函数 $f(x)=\\begin{cases}\r\n-ax+1,&x<a,\\\\\r\n\\left(x-2\\right)^2,&x\\ge a\r\n\\end{cases}$，若 $f(x)$ 存在最小值，则 $a$ 的一个取值为 _______ {}；$a$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(0\\)（答案不唯一）；\\(1\\)",
-          "solution": "当 $x<a$ 时 $f(x)=-ax+1$；当 $x\\ge a$ 时 $f(x)=(x-2)^2$. 若 $a<0$，则左支趋于 $-\\infty$，无最小值；若 $a>1$，则左支在 $x\\to a^-$ 时趋于 $1-a^2<0$ 且取不到，也无最小值；当 $0\\le a\\le1$ 时，最小值在 $x=2$ 处取得，为 $0$. 所以 $a$ 的一个取值可为 $0$，$a$ 的最大值为 $1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设函数 $f(x)=\\begin{cases}-ax+1,&#x26;x&#x3C;a,\\\\  \\left(x-2\\right)^{2},&#x26;x\\ge a\\end{cases}$，若 $f(x)$ 存在最小值，则 $a$ 的一个取值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；$a$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$0$（答案不唯一）；$1$",
+          "solution": "当 $x&#x3C;a$ 时 $f(x)=-ax+1$；当 $x\\ge a$ 时 $f(x)=(x-2)^{2}$. 若 $a&#x3C;0$，则左支趋于 $-\\infty$，无最小值；若 $a>1$，则左支在 $x\\to a^{-}$ 时趋于 $1-a^{2}&#x3C;0$ 且取不到，也无最小值；当 $0\\le a\\le1$ 时，最小值在 $x=2$ 处取得，为 $0$. 所以 $a$ 的一个取值可为 $0$，$a$ 的最大值为 $1$."
         },
         {
           "num": 15,
-          "body": "已知数列 $\\{a_n\\}$ 各项均为正数，其前 $n$ 项和 $S_n$ 满足 $a_nS_n=9$（$n=1$，$2$，$\\dots$）. 给出下列四个结论：\r\n\r\n\\begin{circlelist}\r\n\\item $\\{a_n\\}$ 的第 2 项小于 3；\r\n\r\n\\item $\\{a_n\\}$ 为等比数列；\r\n\r\n\\item $\\{a_n\\}$ 为递减数列；\r\n\r\n\\item $\\{a_n\\}$ 中存在小于 $\\dfrac{1}{100}$ 的项.\r\n\\end{circlelist}\r\n\r\n其中所有正确结论的序号是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\circled{1}\\circled{3}\\circled{4}\\)",
-          "solution": "因为 $a_n>0$，故 $S_n$ 单调递增，从而 $a_n=\\dfrac9{S_n}$ 单调递减，③ 正确. 又 $a_1=3$，由 $a_2(3+a_2)=9$ 解得 $a_2=\\dfrac{3\\sqrt5-3}{2}\\approx1.85<3$，① 正确；由 $a_1$，$a_2$，$a_3$ 相邻两项之比不同知 $\\{a_n\\}$ 不是等比数列，② 错误. 若 $\\{a_n\\}$ 不趋于 $0$，设 $a_n\\to L>0$，则 $S_n=\\dfrac9{a_n}\\to\\dfrac9L$ 收敛，于是 $a_n=S_n-S_{n-1}\\to0$，矛盾，所以 $a_n\\to0$，存在小于 $\\dfrac1{100}$ 的项，④ 正确. 综上正确的是 $\\circled{1}\\circled{3}\\circled{4}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 各项均为正数，其前 $n$ 项和 $S_{n}$ 满足 $a_{n}S_{n}=9$（$n=1$，$2$，$\\dots$）. 给出下列四个结论：</p><ol class=\"enumerate\"><li><p>$\\{a_{n}\\}$ 的第 2 项小于 3；</p></li><li><p>$\\{a_{n}\\}$ 为等比数列；</p></li><li><p>$\\{a_{n}\\}$ 为递减数列；</p></li><li><p>$\\{a_{n}\\}$ 中存在小于 $\\dfrac{1}{100}$ 的项.</p></li></ol><p>其中所有正确结论的序号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$①③④$",
+          "solution": "因为 $a_{n}>0$，故 $S_{n}$ 单调递增，从而 $a_{n}=\\dfrac9{S_n}$ 单调递减，③ 正确. 又 $a_{1}=3$，由 $a_{2}(3+a_{2})=9$ 解得 $a_{2}=\\dfrac{3\\sqrt{5}-3}{2}\\approx1.85&#x3C;3$，① 正确；由 $a_{1}$，$a_{2}$，$a_{3}$ 相邻两项之比不同知 $\\{a_{n}\\}$ 不是等比数列，② 错误. 若 $\\{a_{n}\\}$ 不趋于 $0$，设 $a_{n}\\to L>0$，则 $S_{n}=\\dfrac9{a_n}\\to\\dfrac{9}{L}$ 收敛，于是 $a_{n}=S_{n}-S_{n-1}\\to0$，矛盾，所以 $a_{n}\\to0$，存在小于 $\\dfrac1{100}$ 的项，④ 正确. 综上正确的是 $①③④$."
         }
       ]
     },
@@ -333,60 +174,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "在 $\\triangle ABC$ 中，$\\sin 2C=\\sqrt3\\sin C$.\r\n\r\n\n(1) 求 $\\angle C$；\n\n(2) 若 $b=6$，且 $\\triangle ABC$ 的面积为 $6\\sqrt3$，求 $\\triangle ABC$ 的周长.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，$\\sin 2C=\\sqrt{3}\\sin C$.</p><ol class=\"enumerate\"><li><p>求 $\\angle C$；</p></li><li><p>若 $b=6$，且 $\\triangle ABC$ 的面积为 $6\\sqrt{3}$，求 $\\triangle ABC$ 的周长.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $C$ 是三角形的内角，所以 $0<C<\\pi$，从而 $\\sin C>0$. 由\r\n\n$$\n\\sin 2C=2\\sin C\\cos C=\\sqrt3\\sin C\n$$\n\r\n得 $2\\cos C=\\sqrt3$，所以\r\n\n$$\n\\angle C=\\dfrac{\\pi}{6}\n$$\n\n(2) 设 $a=BC$，$c=AB$. 由三角形面积公式，\r\n\n$$\n6\\sqrt3=\\dfrac12ab\\sin C=\\dfrac12\\cdot a\\cdot6\\cdot\\dfrac12\n$$\n\r\n所以 $a=4\\sqrt3$. 再由余弦定理，\r\n\n$$\nc^2=a^2+b^2-2ab\\cos C\r\n=(4\\sqrt3)^2+6^2-2\\cdot4\\sqrt3\\cdot6\\cdot\\dfrac{\\sqrt3}{2}=12\n$$\n\r\n故 $c=2\\sqrt3$. 因此 $\\triangle ABC$ 的周长为\r\n\n$$\na+b+c=4\\sqrt3+6+2\\sqrt3=6+6\\sqrt3\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $C$ 是三角形的内角，所以 $0&#x3C;C&#x3C;\\pi$，从而 $\\sin C>0$. 由</p>\n$$\n\\sin 2C=2\\sin C\\cos C=\\sqrt{3}\\sin C\n$$\n<p>得 $2\\cos C=\\sqrt{3}$，所以</p>\n$$\n\\angle C=\\dfrac{\\pi}{6}\n$$\n</li><li><p>设 $a=BC$，$c=AB$. 由三角形面积公式，</p>\n$$\n6\\sqrt{3}=\\dfrac{1}{2}ab\\sin C=\\dfrac{1}{2}\\cdot a\\cdot6\\cdot\\dfrac{1}{2}\n$$\n<p>所以 $a=4\\sqrt{3}$. 再由余弦定理，</p>\n$$\nc^{2}=a^{2}+b^{2}-2ab\\cos C  =(4\\sqrt{3})^{2}+6^{2}-2\\cdot4\\sqrt{3}\\cdot6\\cdot\\dfrac{\\sqrt{3}}{2}=12\n$$\n<p>故 $c=2\\sqrt{3}$. 因此 $\\triangle ABC$ 的周长为</p>\n$$\na+b+c=4\\sqrt{3}+6+2\\sqrt{3}=6+6\\sqrt{3}\n$$\n</li></ol>"
         },
         {
           "num": 17,
-          "body": "如图，在三棱柱 $ABC-A_1B_1C_1$ 中，侧面 $BCC_1B_1$ 为正方形，平面 $BCC_1B_1\\perp$ 平面 $ABB_1A_1$，$AB=BC=2$，$M$，$N$ 分别为 $A_1B_1$，$AC$ 的中点.\r\n\r\n\r\n\r\n\n(1) 求证：$MN\\parallel$ 平面 $BCC_1B_1$；\n\n(2) 再从下列两个条件中选择一个作为已知，求直线 $AB$ 与平面 $BMN$ 所成角的正弦值.\r\n\r\n\\begin{circlelist}\n\n(3) $AB\\perp MN$；\n\n(4) $BM=MN$.\r\n\\end{circlelist}\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/beijing/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，侧面 $BCC_{1}B_{1}$ 为正方形，平面 $BCC_{1}B_{1}\\perp$ 平面 $ABB_{1}A_{1}$，$AB=BC=2$，$M$，$N$ 分别为 $A_{1}B_{1}$，$AC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$MN\\parallel$ 平面 $BCC_{1}B_{1}$；</p></li><li><p>再从下列两个条件中选择一个作为已知，求直线 $AB$ 与平面 $BMN$ 所成角的正弦值.</p><p></p><ol class=\"enumerate\"><li><p>$AB\\perp MN$；</p></li><li><p>$BM=MN$.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 以 $B$ 为原点，分别以 $BC$ 和 $BB_1$ 所在直线为 $x$ 轴和 $z$ 轴，建立空间直角坐标系. 由侧面 $BCC_1B_1$ 为边长 $2$ 的正方形，且两个平面垂直，可取\r\n$B(0,0,0)$，$C(2,0,0)$，$B_1(0,0,2)$，$C_1(2,0,2)$.\r\n平面 $ABB_1A_1$ 为平面 $x=0$，设 $A=(0,u,v)$. 由 $AB=2$ 得 $u^2+v^2=4$，又因为是三棱柱，所以 $A_1=(0,u,v+2)$. 因而\r\n$M=\\left(0,\\dfrac{u}{2},\\dfrac{v}{2}+2\\right)$，$N=\\left(1,\\dfrac{u}{2},\\dfrac{v}{2}\\right)$.\r\n所以 $\\overrightarrow{MN}=(1,0,-2)$. 而平面 $BCC_1B_1$ 的方程为 $y=0$，故 $MN\\parallel$ 平面 $BCC_1B_1$.\n\n(2) 令 $h=\\dfrac{u}{2}$，$w=\\dfrac{v}{2}$，则 $h^2+w^2=1$，且\r\n$M=(0,h,w+2)$，$N=(1,h,w)$.\r\n取平面 $BMN$ 的一个法向量\r\n\n$$\n\\mathbf{n}=\\overrightarrow{BM}\\times\\overrightarrow{BN}=(-2h,w+2,-h)\n$$\n\r\n直线 $AB$ 的方向向量可取 $\\overrightarrow{BA}=(0,2h,2w)$，于是直线 $AB$ 与平面 $BMN$ 所成角 $\\theta$ 满足\r\n\n$$\n\\sin\\theta=\\dfrac{\\left|\\overrightarrow{BA}\\cdot\\mathbf{n}\\right|}{\\left|\\overrightarrow{BA}\\right|\\left|\\mathbf{n}\\right|}\r\n=\\dfrac{2|h|}{\\sqrt{5h^2+(w+2)^2}}\n$$\n\r\n\r\n若选择条件$\\circled{1}$，则\r\n\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{MN}=(0,2h,2w)\\cdot(1,0,-2)=-4w=0\n$$\n\r\n所以 $w=0$，再由 $h^2+w^2=1$ 得 $h^2=1$. 因此\r\n\n$$\n\\sin\\theta=\\dfrac{2}{\\sqrt{5+4}}=\\dfrac{2}{3}\n$$\n\r\n\r\n若选择条件$\\circled{2}$，则\r\n$|BM|^2=h^2+(w+2)^2=5+4w$，$|MN|^2=1+4=5$.\r\n由 $BM=MN$ 得 $w=0$，再由 $h^2+w^2=1$ 得 $h^2=1$. 同理\r\n\n$$\n\\sin\\theta=\\dfrac{2}{3}\n$$\n\r\n因此，在两种条件下所求正弦值均为 $\\dfrac{2}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>以 $B$ 为原点，分别以 $BC$ 和 $BB_{1}$ 所在直线为 $x$ 轴和 $z$ 轴，建立空间直角坐标系. 由侧面 $BCC_{1}B_{1}$ 为边长 $2$ 的正方形，且两个平面垂直，可取</p><p>$B(0,0,0)$，$C(2,0,0)$，$B_{1}(0,0,2)$，$C_{1}(2,0,2)$.</p><p>平面 $ABB_{1}A_{1}$ 为平面 $x=0$，设 $A=(0,u,v)$. 由 $AB=2$ 得 $u^{2}+v^{2}=4$，又因为是三棱柱，所以 $A_{1}=(0,u,v+2)$. 因而</p><p>$M=\\left(0,\\dfrac{u}{2},\\dfrac{v}{2}+2\\right)$，$N=\\left(1,\\dfrac{u}{2},\\dfrac{v}{2}\\right)$.</p><p>所以 $\\overrightarrow{MN}=(1,0,-2)$. 而平面 $BCC_{1}B_{1}$ 的方程为 $y=0$，故 $MN\\parallel$ 平面 $BCC_{1}B_{1}$.</p></li><li><p>令 $h=\\dfrac{u}{2}$，$w=\\dfrac{v}{2}$，则 $h^{2}+w^{2}=1$，且</p><p>$M=(0,h,w+2)$，$N=(1,h,w)$.</p><p>取平面 $BMN$ 的一个法向量</p>\n$$\n\\mathbf{n}=\\overrightarrow{BM}\\times\\overrightarrow{BN}=(-2h,w+2,-h)\n$$\n<p>直线 $AB$ 的方向向量可取 $\\overrightarrow{BA}=(0,2h,2w)$，于是直线 $AB$ 与平面 $BMN$ 所成角 $\\theta$ 满足</p>\n$$\n\\sin\\theta=\\dfrac{\\left|\\overrightarrow{BA}\\cdot\\mathbf{n}\\right|}{\\left|\\overrightarrow{BA}\\right|\\left|\\mathbf{n}\\right|}=\\dfrac{2|h|}{\\sqrt{5h^{2}+(w+2)^{2}}}\n$$\n<p>若选择条件$①$，则</p>\n$$\n\\overrightarrow{BA}\\cdot\\overrightarrow{MN}=(0,2h,2w)\\cdot(1,0,-2)=-4w=0\n$$\n<p>所以 $w=0$，再由 $h^{2}+w^{2}=1$ 得 $h^{2}=1$. 因此</p>\n$$\n\\sin\\theta=\\dfrac{2}{\\sqrt{5+4}}=\\dfrac{2}{3}\n$$\n<p>若选择条件$②$，则</p><p>$|BM|^{2}=h^{2}+(w+2)^{2}=5+4w$，$|MN|^{2}=1+4=5$.</p><p>由 $BM=MN$ 得 $w=0$，再由 $h^{2}+w^{2}=1$ 得 $h^{2}=1$. 同理</p>\n$$\n\\sin\\theta=\\dfrac{2}{3}\n$$\n<p>因此，在两种条件下所求正弦值均为 $\\dfrac{2}{3}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "在校运动会上，只有甲，乙，丙三名同学参加铅球比赛，比赛成绩达到 $9.50\\text{ m}$ 以上（含 $9.50\\text{ m}$）的同学将获得优秀奖. 为预测获得优秀奖的人数及冠军得主，收集了甲，乙，丙以往的比赛成绩，并整理得到如下数据（单位：$\\mathrm{m}$）：\r\n\r\n甲：$9.80$，$9.70$，$9.55$，$9.54$，$9.48$，$9.42$，$9.40$，$9.35$，$9.30$，$9.25$；\r\n\r\n乙：$9.78$，$9.56$，$9.51$，$9.36$，$9.32$，$9.23$；\r\n\r\n丙：$9.85$，$9.65$，$9.20$，$9.16$.\r\n\r\n假设用频率估计概率，且甲，乙，丙的比赛成绩相互独立.\r\n\r\n\n(1) 估计甲在校运动会铅球比赛中获得优秀奖的概率；\n\n(2) 设 $X$ 是甲，乙，丙在校运动会铅球比赛中获得优秀奖的总人数，估计 $X$ 的数学期望 $E(X)$；\n\n(3) 在校运动会铅球比赛中，甲，乙，丙谁获得冠军的概率估计值最大？（结论不要求证明）.",
-          "choices": [],
+          "body": "<p>在校运动会上，只有甲，乙，丙三名同学参加铅球比赛，比赛成绩达到 $9.50\\text{ m}$ 以上（含 $9.50\\text{ m}$）的同学将获得优秀奖. 为预测获得优秀奖的人数及冠军得主，收集了甲，乙，丙以往的比赛成绩，并整理得到如下数据（单位：$\\mathrm{m}$）：</p><p>甲：$9.80$，$9.70$，$9.55$，$9.54$，$9.48$，$9.42$，$9.40$，$9.35$，$9.30$，$9.25$；</p><p>乙：$9.78$，$9.56$，$9.51$，$9.36$，$9.32$，$9.23$；</p><p>丙：$9.85$，$9.65$，$9.20$，$9.16$.</p><p>假设用频率估计概率，且甲，乙，丙的比赛成绩相互独立.</p><ol class=\"enumerate\"><li><p>估计甲在校运动会铅球比赛中获得优秀奖的概率；</p></li><li><p>设 $X$ 是甲，乙，丙在校运动会铅球比赛中获得优秀奖的总人数，估计 $X$ 的数学期望 $E(X)$；</p></li><li><p>在校运动会铅球比赛中，甲，乙，丙谁获得冠军的概率估计值最大？（结论不要求证明）.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 甲以往的 $10$ 次成绩中，有 $4$ 次达到 $9.50\\text{ m}$ 以上，因此估计甲获得优秀奖的概率为\r\n\n$$\nP_A=\\dfrac{4}{10}=0.4\n$$\n\n(2) 乙和丙获得优秀奖的概率估计值分别为\r\n$P_B=\\dfrac{3}{6}=\\dfrac12$，$P_C=\\dfrac{2}{4}=\\dfrac12$.\r\n令 $I_A$，$I_B$，$I_C$ 分别表示甲，乙，丙获得优秀奖的指示变量，则\r\n\n$$\nX=I_A+I_B+I_C\n$$\n\r\n由数学期望的线性性质，\r\n\n$$\nE(X)=E(I_A)+E(I_B)+E(I_C)=P_A+P_B+P_C\r\n=0.4+\\dfrac12+\\dfrac12=\\dfrac75\n$$\n\n(3) 三人的历史最好成绩分别为 $9.80\\text{ m}$，$9.78\\text{ m}$，$9.85\\text{ m}$，其中丙的历史最好成绩最高，因此估计丙获得冠军的概率最大.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>甲以往的 $10$ 次成绩中，有 $4$ 次达到 $9.50\\text{ m}$ 以上，因此估计甲获得优秀奖的概率为</p>\n$$\nP_{A}=\\dfrac{4}{10}=0.4\n$$\n</li><li><p>乙和丙获得优秀奖的概率估计值分别为</p><p>$P_{B}=\\dfrac{3}{6}=\\dfrac{1}{2}$，$P_{C}=\\dfrac{2}{4}=\\dfrac{1}{2}$.</p><p>令 $I_{A}$，$I_{B}$，$I_{C}$ 分别表示甲，乙，丙获得优秀奖的指示变量，则</p>\n$$\nX=I_{A}+I_{B}+I_{C}\n$$\n<p>由数学期望的线性性质，</p>\n$$\nE(X)=E(I_{A})+E(I_{B})+E(I_{C})=P_{A}+P_{B}+P_{C}  =0.4+\\dfrac{1}{2}+\\dfrac{1}{2}=\\dfrac{7}{5}\n$$\n</li><li><p>三人的历史最好成绩分别为 $9.80\\text{ m}$，$9.78\\text{ m}$，$9.85\\text{ m}$，其中丙的历史最好成绩最高，因此估计丙获得冠军的概率最大.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知椭圆 $E:\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$）的一个顶点为 $A(0,1)$，焦距为 $2\\sqrt3$.\r\n\r\n\n(1) 求椭圆 $E$ 的方程；\n\n(2) 过点 $P(-2,1)$ 作斜率为 $k$ 的直线与椭圆 $E$ 交于不同的两点 $B$，$C$，直线 $AB$，$AC$ 分别与 $x$ 轴交于点 $M$，$N$. 当 $|MN|=2$ 时，求 $k$ 的值.",
-          "choices": [],
+          "body": "<p>已知椭圆 $E:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$（$a>b>0$）的一个顶点为 $A(0,1)$，焦距为 $2\\sqrt{3}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $E$ 的方程；</p></li><li><p>过点 $P(-2,1)$ 作斜率为 $k$ 的直线与椭圆 $E$ 交于不同的两点 $B$，$C$，直线 $AB$，$AC$ 分别与 $x$ 轴交于点 $M$，$N$. 当 $|MN|=2$ 时，求 $k$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 椭圆的短半轴为 $b$，由顶点 $A(0,1)$ 得 $b=1$. 设半焦距为 $c$，由焦距为 $2\\sqrt3$ 得 $c=\\sqrt3$. 又 $a^2=b^2+c^2$，所以 $a^2=4$. 因而椭圆 $E$ 的方程为\r\n\n$$\n\\dfrac{x^2}{4}+y^2=1\n$$\n\n(2) 设过点 $P(-2,1)$ 的直线为\r\n\n$$\ny-1=k(x+2)\n$$\n\r\n即 $y=kx+2k+1$. 将其代入椭圆方程，得交点横坐标 $x_1$，$x_2$ 满足\r\n\n$$\n(1+4k^2)x^2+8k(2k+1)x+16k(k+1)=0\n$$\n\r\n因为交于不同的两点，判别式为\r\n\n$$\n\\Delta=\\left[8k(2k+1)\\right]^2-4(1+4k^2)\\cdot16k(k+1)=-64k>0\n$$\n\r\n所以 $k<0$. 由韦达定理，\r\n$x_1+x_2=-\\dfrac{8k(2k+1)}{1+4k^2}$，$x_1x_2=\\dfrac{16k(k+1)}{1+4k^2}$.\r\n从而\r\n\n$$\n(x_1+2)(x_2+2)=x_1x_2+2(x_1+x_2)+4=\\dfrac{4}{1+4k^2}\n$$\n\r\n\r\n设相应的交点为 $B(x_1,y_1)$，$C(x_2,y_2)$. 过 $A(0,1)$ 与 $(x_i,y_i)$ 的直线在 $x$ 轴上的截距记为 $u_i$，则\r\n\n$$\nu_i=\\dfrac{x_i}{1-y_i}=-\\dfrac{x_i}{k(x_i+2)}\n$$\n\r\n因此\r\n\n$$\n|MN|=|u_1-u_2|=\\dfrac{2|x_1-x_2|}{|k|(x_1+2)(x_2+2)}\n$$\n\r\n又由判别式得 $|x_1-x_2|=\\dfrac{\\sqrt{\\Delta}}{1+4k^2}=\\dfrac{8\\sqrt{-k}}{1+4k^2}$. 代入上式得\r\n\n$$\n|MN|=\\dfrac{4\\sqrt{-k}}{|k|}=\\dfrac{4}{\\sqrt{-k}}\n$$\n\r\n由 $|MN|=2$，得 $\\sqrt{-k}=2$，所以 $k=-4$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆的短半轴为 $b$，由顶点 $A(0,1)$ 得 $b=1$. 设半焦距为 $c$，由焦距为 $2\\sqrt{3}$ 得 $c=\\sqrt{3}$. 又 $a^{2}=b^{2}+c^{2}$，所以 $a^{2}=4$. 因而椭圆 $E$ 的方程为</p>\n$$\n\\dfrac{x^2}{4}+y^{2}=1\n$$\n</li><li><p>设过点 $P(-2,1)$ 的直线为</p>\n$$\ny-1=k(x+2)\n$$\n<p>即 $y=kx+2k+1$. 将其代入椭圆方程，得交点横坐标 $x_{1}$，$x_{2}$ 满足</p>\n$$\n(1+4k^{2})x^{2}+8k(2k+1)x+16k(k+1)=0\n$$\n<p>因为交于不同的两点，判别式为</p>\n$$\n\\Delta=\\left[8k(2k+1)\\right]^{2}-4(1+4k^{2})\\cdot16k(k+1)=-64k>0\n$$\n<p>所以 $k&#x3C;0$. 由韦达定理，</p><p>$x_{1}+x_{2}=-\\dfrac{8k(2k+1)}{1+4k^2}$，$x_{1}x_{2}=\\dfrac{16k(k+1)}{1+4k^2}$.</p><p>从而</p>\n$$\n(x_{1}+2)(x_{2}+2)=x_{1}x_{2}+2(x_{1}+x_{2})+4=\\dfrac{4}{1+4k^2}\n$$\n<p>设相应的交点为 $B(x_{1},y_{1})$，$C(x_{2},y_{2})$. 过 $A(0,1)$ 与 $(x_{i},y_{i})$ 的直线在 $x$ 轴上的截距记为 $u_{i}$，则</p>\n$$\nu_{i}=\\dfrac{x_i}{1-y_i}=-\\dfrac{x_i}{k(x_i+2)}\n$$\n<p>因此</p>\n$$\n|MN|=|u_{1}-u_{2}|=\\dfrac{2|x_1-x_2|}{|k|(x_1+2)(x_2+2)}\n$$\n<p>又由判别式得 $|x_{1}-x_{2}|=\\dfrac{\\sqrt{\\Delta}}{1+4k^2}=\\dfrac{8\\sqrt{-k}}{1+4k^2}$. 代入上式得</p>\n$$\n|MN|=\\dfrac{4\\sqrt{-k}}{|k|}=\\dfrac{4}{\\sqrt{-k}}\n$$\n<p>由 $|MN|=2$，得 $\\sqrt{-k}=2$，所以 $k=-4$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知函数 $f(x)=\\mathrm{e}^x\\ln(1+x)$.\r\n\r\n\n(1) 求曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；\n\n(2) 设 $g(x)=f'(x)$，讨论函数 $g(x)$ 在 $[0,+\\infty)$ 上的单调性；\n\n(3) 证明：对任意的 $s$，$t\\in(0,+\\infty)$，有 $f(s+t)>f(s)+f(t)$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=\\mathrm{e}^{x}\\ln(1+x)$.</p><ol class=\"enumerate\"><li><p>求曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；</p></li><li><p>设 $g(x)=f'(x)$，讨论函数 $g(x)$ 在 $[0,+\\infty)$ 上的单调性；</p></li><li><p>证明：对任意的 $s$，$t\\in(0,+\\infty)$，有 $f(s+t)>f(s)+f(t)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由\r\n$f(0)=0$，$f'(x)=\\mathrm{e}^x\\left(\\ln(1+x)+\\dfrac{1}{1+x}\\right)$\r\n得 $f'(0)=1$. 因此曲线在点 $(0,f(0))=(0,0)$ 处的切线方程为\r\n\n$$\ny-0=1(x-0)\n$$\n\r\n即 $y=x$.\n\n(2) 由 $g(x)=f'(x)$，得\r\n\n$$\ng'(x)=f''(x)=\\mathrm{e}^x\\left(\\ln(1+x)+\\dfrac{2}{1+x}-\\dfrac{1}{(1+x)^2}\\right)\n$$\n\r\n令 $H(x)=\\ln(1+x)+\\dfrac{2}{1+x}-\\dfrac{1}{(1+x)^2}$. 当 $x\\geq0$ 时，\r\n$H(0)=0$，$H'(x)=\\dfrac{x^2+1}{(1+x)^3}>0$.\r\n所以 $H(x)\\geq0$，从而 $g'(x)\\geq0$. 因此 $g(x)$ 在 $[0,+\\infty)$ 上单调递增.\n\n(3) 固定 $s\\in(0,+\\infty)$，令\r\n$F(t)=f(s+t)-f(s)-f(t)$，$t\\geq0$.\r\n因为 $f(0)=0$，所以 $F(0)=0$. 又由第（2）问知 $g$ 在 $[0,+\\infty)$ 上严格递增，故对 $t\\geq0$，\r\n\n$$\nF'(t)=g(s+t)-g(t)>0\n$$\n\r\n所以当 $t>0$ 时，$F(t)>F(0)=0$，即\r\n\n$$\nf(s+t)>f(s)+f(t)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由</p><p>$f(0)=0$，$f'(x)=\\mathrm{e}^{x}\\left(\\ln(1+x)+\\dfrac{1}{1+x}\\right)$</p><p>得 $f'(0)=1$. 因此曲线在点 $(0,f(0))=(0,0)$ 处的切线方程为</p>\n$$\ny-0=1(x-0)\n$$\n<p>即 $y=x$.</p></li><li><p>由 $g(x)=f'(x)$，得</p>\n$$\ng'(x)=f''(x)=\\mathrm{e}^{x}\\left(\\ln(1+x)+\\dfrac{2}{1+x}-\\dfrac{1}{(1+x)^2}\\right)\n$$\n<p>令 $H(x)=\\ln(1+x)+\\dfrac{2}{1+x}-\\dfrac{1}{(1+x)^2}$. 当 $x\\geq0$ 时，</p><p>$H(0)=0$，$H'(x)=\\dfrac{x^2+1}{(1+x)^3}>0$.</p><p>所以 $H(x)\\geq0$，从而 $g'(x)\\geq0$. 因此 $g(x)$ 在 $[0,+\\infty)$ 上单调递增.</p></li><li><p>固定 $s\\in(0,+\\infty)$，令</p><p>$F(t)=f(s+t)-f(s)-f(t)$，$t\\geq0$.</p><p>因为 $f(0)=0$，所以 $F(0)=0$. 又由第（2）问知 $g$ 在 $[0,+\\infty)$ 上严格递增，故对 $t\\geq0$，</p>\n$$\nF'(t)=g(s+t)-g(t)>0\n$$\n<p>所以当 $t>0$ 时，$F(t)>F(0)=0$，即</p>\n$$\nf(s+t)>f(s)+f(t)\n$$\n</li></ol>"
         },
         {
           "num": 21,
-          "body": "已知 $Q:a_1$，$a_2$，$\\dots$，$a_k$ 为有穷整数数列. 给定正整数 $m$，若对任意的 $n\\in\\{1,2,\\dots,m\\}$，在 $Q$ 中存在 $a_i$，$a_{i+1}$，$\\dots$，$a_{i+j}$（$j\\ge 0$），使得 $a_i+a_{i+1}+\\dots+a_{i+j}=n$，则称 $Q$ 为 $m$-连续可表数列.\r\n\r\n\n(1) 判断 $Q:2$，$1$，$4$ 是否为 5-连续可表数列？是否为 6-连续可表数列？说明理由；\n\n(2) 若 $Q:a_1$，$a_2$，$\\dots$，$a_k$ 为 8-连续可表数列，求证：$k$ 的最小值为 4；\n\n(3) 若 $Q:a_1$，$a_2$，$\\dots$，$a_k$ 为 20-连续可表数列，且 $a_1+a_2+\\dots+a_k<20$，求证：$k\\ge 7$.",
-          "choices": [],
+          "body": "<p>已知 $Q:a_{1}$，$a_{2}$，$\\dots$，$a_{k}$ 为有穷整数数列. 给定正整数 $m$，若对任意的 $n\\in\\{1,2,\\dots,m\\}$，在 $Q$ 中存在 $a_{i}$，$a_{i+1}$，$\\dots$，$a_{i+j}$（$j\\ge 0$），使得 $a_{i}+a_{i+1}+\\dots+a_{i+j}=n$，则称 $Q$ 为 $m$-连续可表数列.</p><ol class=\"enumerate\"><li><p>判断 $Q:2$，$1$，$4$ 是否为 5-连续可表数列？是否为 6-连续可表数列？说明理由；</p></li><li><p>若 $Q:a_{1}$，$a_{2}$，$\\dots$，$a_{k}$ 为 8-连续可表数列，求证：$k$ 的最小值为 4；</p></li><li><p>若 $Q:a_{1}$，$a_{2}$，$\\dots$，$a_{k}$ 为 20-连续可表数列，且 $a_{1}+a_{2}+\\dots+a_{k}&#x3C;20$，求证：$k\\ge 7$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由定义，数列 $Q:2$，$1$，$4$ 的非空连续子段的和为\r\n$2$，$1$，$4$，$2+1=3$，$1+4=5$，$2+1+4=7$.\r\n其中包含 $1$，$2$，$3$，$4$，$5$，所以 $Q:2$，$1$，$4$ 是 $5$-连续可表数列；但这些连续子段的和中没有 $6$，所以它不是 $6$-连续可表数列.\n\n(2) 长度为 $k$ 的数列至多有\r\n\n$$\n1+2+\\cdots+k=\\dfrac{k(k+1)}{2}\n$$\n\r\n个非空连续子段. 若 $k\\leq3$，则连续子段数不超过 $6$，不可能表示 $1$，$2$，$\\dots$，$8$ 这 $8$ 个互不相同的整数，所以 $k\\geq4$.\r\n\r\n取数列 $Q:1$，$1$，$3$，$3$，其连续子段的和中有\r\n$1$，$1+1=2$，$3=3$，$1+1+3=5$，$1+3=4$，$3+3=6$，$1+3+3=7$，$1+1+3+3=8$.\r\n再由上述连续子段的和可知 $1$，$2$，$\\dots$，$8$ 均可表示. 因而 $k=4$ 时确实存在 $8$-连续可表数列，$k$ 的最小值为 $4$.\n\n(3) 若 $k\\leq5$，非空连续子段数至多为 $15$，小于需要表示的 $20$ 个整数，所以只需排除 $k=6$.\r\n\r\n假设 $k=6$. 此时共有 $\\dfrac{6\\cdot7}{2}=21$ 个非空连续子段，其中整个数列作为一个连续子段，其和满足\r\n\n$$\na_1+a_2+\\cdots+a_6<20\n$$\n\r\n不能表示整数 $20$. 因此其余 $20$ 个真子段必须恰好表示 $1$，$2$，$\\dots$，$20$，每个真子段的和都是正整数.\r\n\r\n特别地，每个单项子段都是上述真子段，所以 $a_i>0$（$i=1$，$2$，$\\dots$，$6$）. 于是任意连续子段的和都不超过全体各项的和，而全体各项的和小于 $20$，这与必须表示 $20$ 矛盾. 所以 $k\\ne6$，从而 $k\\geq7$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由定义，数列 $Q:2$，$1$，$4$ 的非空连续子段的和为</p><p>$2$，$1$，$4$，$2+1=3$，$1+4=5$，$2+1+4=7$.</p><p>其中包含 $1$，$2$，$3$，$4$，$5$，所以 $Q:2$，$1$，$4$ 是 $5$-连续可表数列；但这些连续子段的和中没有 $6$，所以它不是 $6$-连续可表数列.</p></li><li><p>长度为 $k$ 的数列至多有</p>\n$$\n1+2+\\cdots+k=\\dfrac{k(k+1)}{2}\n$$\n<p>个非空连续子段. 若 $k\\leq3$，则连续子段数不超过 $6$，不可能表示 $1$，$2$，$\\dots$，$8$ 这 $8$ 个互不相同的整数，所以 $k\\geq4$.</p><p>取数列 $Q:1$，$1$，$3$，$3$，其连续子段的和中有</p><p>$1$，$1+1=2$，$3=3$，$1+1+3=5$，$1+3=4$，$3+3=6$，$1+3+3=7$，$1+1+3+3=8$.</p><p>再由上述连续子段的和可知 $1$，$2$，$\\dots$，$8$ 均可表示. 因而 $k=4$ 时确实存在 $8$-连续可表数列，$k$ 的最小值为 $4$.</p></li><li><p>若 $k\\leq5$，非空连续子段数至多为 $15$，小于需要表示的 $20$ 个整数，所以只需排除 $k=6$.</p><p>假设 $k=6$. 此时共有 $\\dfrac{6\\cdot7}{2}=21$ 个非空连续子段，其中整个数列作为一个连续子段，其和满足</p>\n$$\na_{1}+a_{2}+\\cdots+a_{6}&#x3C;20\n$$\n<p>不能表示整数 $20$. 因此其余 $20$ 个真子段必须恰好表示 $1$，$2$，$\\dots$，$20$，每个真子段的和都是正整数.</p><p>特别地，每个单项子段都是上述真子段，所以 $a_{i}>0$（$i=1$，$2$，$\\dots$，$6$）. 于是任意连续子段的和都不超过全体各项的和，而全体各项的和小于 $20$，这与必须表示 $20$ 矛盾. 所以 $k\\ne6$，从而 $k\\geq7$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

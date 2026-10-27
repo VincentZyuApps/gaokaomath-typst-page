@@ -1,164 +1,27 @@
 {
+  "title": "2005年普通高等学校招生全国统一考试",
+  "subtitle": "2005年重庆卷（理）",
   "year": "2005",
   "slug": "chongqing_science",
-  "title": "2005年重庆卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "圆 $(x + 2)^{2} + y^{2} = 5$ 关于原点 $(0,0)$ 对称的圆的方程为（ ）",
+          "body": "圆 $(x + 2)^{2}+ y^{2}= 5$ 关于原点 $(0,0)$ 对称的圆的方程为（ ）",
           "choices": [
-            "$(x - 2)^{2} + y^{2} = 5$",
-            "$x^{2} + (y - 2)^{2} = 5$",
-            "$(x + 2)^{2} + (y + 2)^{2} = 5$",
-            "$x^{2} + (y + 2)^{2} = 5$"
+            "$(x - 2)^{2}+ y^{2}= 5$",
+            "$x^{2}+ (y - 2)^{2}= 5$",
+            "$(x + 2)^{2}+ (y + 2)^{2}= 5$",
+            "$x^{2}+ (y + 2)^{2}= 5$"
           ],
           "answer": "A",
-          "solution": "原圆的圆心为 $(-2,0)$，半径的平方为 $5$. 关于原点对称后，圆心变为 $(2,0)$，半径不变，因此所求圆的方程为 $(x-2)^2+y^2=5$.\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>原圆的圆心为 $(-2,0)$，半径的平方为 $5$. 关于原点对称后，圆心变为 $(2,0)$，半径不变，因此所求圆的方程为 $(x-2)^{2}+y^{2}=5$.</p><p>故选 A.</p>"
         },
         {
           "num": 2,
-          "body": "$\\left(\\frac{1 + \\mathrm{i}}{1 - \\mathrm{i}}\\right)^{2005} =$（ ）",
+          "body": "$\\left(\\frac{1 + \\mathrm{i}}{1 - \\mathrm{i}}\\right)^{2005}=$（ ）",
           "choices": [
             "$\\mathrm{i}$",
             "$-\\mathrm{i}$",
@@ -166,13 +29,11 @@
             "$-2^{2005}$"
           ],
           "answer": "A",
-          "solution": "$$\n\\frac{1+\\mathrm{i}}{1-\\mathrm{i}}=\\frac{(1+\\mathrm{i})^2}{(1-\\mathrm{i})(1+\\mathrm{i})}\r\n=\\frac{1+2\\mathrm{i}+\\mathrm{i}^2}{1-\\mathrm{i}^2}=\\frac{2\\mathrm{i}}{2}=\\mathrm{i}\n$$\n\r\n又 $2005=4\\times501+1$，所以\r\n\n$$\n\\left(\\frac{1+\\mathrm{i}}{1-\\mathrm{i}}\\right)^{2005}\r\n=\\mathrm{i}^{2005}=\\left(\\mathrm{i}^4\\right)^{501}\\mathrm{i}=\\mathrm{i}\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$$\n\\frac{1+\\mathrm{i}}{1-\\mathrm{i}}=\\frac{(1+\\mathrm{i})^{2}}{(1-\\mathrm{i})(1+\\mathrm{i})}=\\frac{1+2\\mathrm{i}+\\mathrm{i}^{2}}{1-\\mathrm{i}^{2}}=\\frac{2\\mathrm{i}}{2}=\\mathrm{i}\n$$\n<p>又 $2005=4\\times501+1$，所以</p>\n$$\n\\left(\\frac{1+\\mathrm{i}}{1-\\mathrm{i}}\\right)^{2005}=\\mathrm{i}^{2005}=\\left(\\mathrm{i}^{4}\\right)^{501}\\mathrm{i}=\\mathrm{i}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 3,
-          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，在 $(- \\infty, 0]$ 上是减函数，且 $f(2) = 0$，则使得 $f(x) < 0$ 的 $x$ 的取值范围是（ ）",
+          "body": "若函数 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，在 $(- \\infty, 0]$ 上是减函数，且 $f(2) = 0$，则使得 $f(x) &#x3C; 0$ 的 $x$ 的取值范围是（ ）",
           "choices": [
             "$(-\\infty, 2)$",
             "$(2, +\\infty)$",
@@ -180,27 +41,23 @@
             "$(-2, 2)$"
           ],
           "answer": "D",
-          "solution": "由偶函数性质，$f(-2)=f(2)=0$. 因为 $f(x)$ 在 $(-\\infty,0]$ 上是减函数，所以当 $-2<x\\leqslant0$ 时，$f(x)<f(-2)=0$，\r\n而当 $x<-2$ 时，$f(x)>f(-2)=0$. 再由偶性 $f(x)=f(-x)$，可知当 $0<x<2$ 时也有 $f(x)<0$，且 $x=\\pm2$ 时函数值为 $0$. 因此\r\n$f(x)<0\\Longleftrightarrow -2<x<2$.\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由偶函数性质，$f(-2)=f(2)=0$. 因为 $f(x)$ 在 $(-\\infty,0]$ 上是减函数，所以当 $-2&#x3C;x\\leqslant0$ 时，$f(x)&#x3C;f(-2)=0$，</p><p>而当 $x&#x3C;-2$ 时，$f(x)>f(-2)=0$. 再由偶性 $f(x)=f(-x)$，可知当 $0&#x3C;x&#x3C;2$ 时也有 $f(x)&#x3C;0$，且 $x=\\pm2$ 时函数值为 $0$. 因此</p><p>$f(x)&#x3C;0\\Longleftrightarrow -2&#x3C;x&#x3C;2$.</p><p>故选 D.</p>"
         },
         {
           "num": 4,
-          "body": "已知 $A(3,1)$， $B(6,1)$， $C(4,3)$，$D$ 为线段 $BC$ 的中点，则向量 $\\overrightarrow{AC}$ 与 $\\overrightarrow{DA}$ 的夹角为（ ）",
+          "body": "已知 $A(3,1)$， $B(6,1)$， $C(4,3)$，$D$ 为线段 $BC$ 的中点，则向量 $\\overrightarrow{AC}$ 与 $\\overrightarrow{DA}$ 的夹角为（ ）",
           "choices": [
-            "$\\frac{\\pi}{2} - \\arccos \\frac{4}{5}$",
+            "$\\frac{\\pi}{2}- \\arccos \\frac{4}{5}$",
             "$\\arccos \\frac{4}{5}$",
             "$\\arccos \\left(-\\frac{4}{5}\\right)$",
             "$-\\arccos \\left(-\\frac{4}{5}\\right)$"
           ],
           "answer": "C",
-          "solution": "由 $D$ 为 $BC$ 的中点，得 $D\\left(\\frac{6+4}{2},\\frac{1+3}{2}\\right)=(5,2)$. 于是 $\\overrightarrow{AC}=(1,2)$，$\\overrightarrow{DA}=(-2,-1)$.\r\n设两向量的夹角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{\\overrightarrow{AC}\\cdot\\overrightarrow{DA}}\r\n{|\\overrightarrow{AC}|\\,|\\overrightarrow{DA}|}\r\n=\\frac{-2-2}{\\sqrt5\\,\\sqrt5}=-\\frac45\n$$\n\r\n因为 $0\\le\\theta\\le\\pi$，所以\r\n$\\theta=\\arccos\\left(-\\frac45\\right)$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $D$ 为 $BC$ 的中点，得 $D\\left(\\frac{6+4}{2},\\frac{1+3}{2}\\right)=(5,2)$. 于是 $\\overrightarrow{AC}=(1,2)$，$\\overrightarrow{DA}=(-2,-1)$.</p><p>设两向量的夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\overrightarrow{AC}\\cdot\\overrightarrow{DA}}{|\\overrightarrow{AC}|\\,|\\overrightarrow{DA}|}=\\frac{-2-2}{\\sqrt{5}\\,\\sqrt{5}}=-\\frac{4}{5}\n$$\n<p>因为 $0\\le\\theta\\le\\pi$，所以</p><p>$\\theta=\\arccos\\left(-\\frac{4}{5}\\right)$. 故选 C.</p>"
         },
         {
           "num": 5,
-          "body": "若 $x$，$y$ 是正数，则 $\\left(x + \\frac{1}{2y}\\right)^2 + \\left(y + \\frac{1}{2x}\\right)^2$ 的最小值是（ ）",
+          "body": "若 $x$，$y$ 是正数，则 $\\left(x + \\frac{1}{2y}\\right)^{2} + \\left(y + \\frac{1}{2x}\\right)^{2}$ 的最小值是（ ）",
           "choices": [
             "$3$",
             "$\\frac{7}{2}$",
@@ -208,13 +65,11 @@
             "$\\frac{9}{2}$"
           ],
           "answer": "C",
-          "solution": "令 $u=x+\\frac{1}{2y}$，$v=y+\\frac{1}{2x}$.\r\n由 $x>0$，$y>0$，有 $u>0$，$v>0$，且\r\n\n$$\nuv=xy+1+\\frac{1}{4xy}\r\n\\geqslant2\\sqrt{xy\\cdot\\frac{1}{4xy}}+1=2\n$$\n\r\n因此 $u^2+v^2\\geqslant2uv\\geqslant4$.\r\n当 $xy=\\frac12$ 且 $u=v$ 时可取等号；在 $xy=\\frac12$ 的条件下，\r\n\n$$\nu-v=x-y+\\frac{1}{2y}-\\frac{1}{2x}=2(x-y)\n$$\n\r\n所以 $u=v$ 等价于 $x=y$. 取 $x=y=\\frac{1}{\\sqrt2}$ 时等号成立，故最小值为 $4$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $u=x+\\frac{1}{2y}$，$v=y+\\frac{1}{2x}$.</p><p>由 $x>0$，$y>0$，有 $u>0$，$v>0$，且</p>\n$$\nuv=xy+1+\\frac{1}{4xy}\\geqslant2\\sqrt{xy\\cdot\\frac{1}{4xy}}+1=2\n$$\n<p>因此 $u^{2}+v^{2}\\geqslant2uv\\geqslant4$.</p><p>当 $xy=\\frac{1}{2}$ 且 $u=v$ 时可取等号；在 $xy=\\frac{1}{2}$ 的条件下，</p>\n$$\nu-v=x-y+\\frac{1}{2y}-\\frac{1}{2x}=2(x-y)\n$$\n<p>所以 $u=v$ 等价于 $x=y$. 取 $x=y=\\frac{1}{\\sqrt{2}}$ 时等号成立，故最小值为 $4$. 故选 C.</p>"
         },
         {
           "num": 6,
-          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，若 $p: \\sin \\alpha < \\sin (\\alpha + \\beta)$，$q: \\alpha + \\beta < \\frac{\\pi}{2}$，则 $p$ 是 $q$ 的（ ）",
+          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，若 $p: \\sin \\alpha &#x3C; \\sin (\\alpha + \\beta)$，$q: \\alpha + \\beta &#x3C; \\frac{\\pi}{2}$，则 $p$ 是 $q$ 的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -222,13 +77,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "由正弦差公式，$\\sin(\\alpha+\\beta)-\\sin\\alpha=2\\cos\\left(\\alpha+\\frac{\\beta}{2}\\right)\\sin\\frac{\\beta}{2}$.\r\n由于 $\\beta$ 为锐角，$\\sin\\frac{\\beta}{2}>0$，且 $0<\\alpha+\\frac{\\beta}{2}<\\frac{3\\pi}{4}$，所以\r\n$p\\Longleftrightarrow \\alpha+\\frac{\\beta}{2}<\\frac{\\pi}{2}$.\r\n若 $q$ 成立，则 $\\alpha+\\frac{\\beta}{2}<\\alpha+\\beta<\\frac{\\pi}{2}$，故 $q\\Rightarrow p$. 取 $\\alpha=\\frac{\\pi}{3}$，$\\beta=\\frac{\\pi}{6}$，则 $p$ 成立而 $q$ 不成立. 因此 $p$ 是 $q$ 的必要而不充分条件，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由正弦差公式，$\\sin(\\alpha+\\beta)-\\sin\\alpha=2\\cos\\left(\\alpha+\\frac{\\beta}{2}\\right)\\sin\\frac{\\beta}{2}$.</p><p>由于 $\\beta$ 为锐角，$\\sin\\frac{\\beta}{2}>0$，且 $0&#x3C;\\alpha+\\frac{\\beta}{2}&#x3C;\\frac{3\\pi}{4}$，所以</p><p>$p\\Longleftrightarrow \\alpha+\\frac{\\beta}{2}&#x3C;\\frac{\\pi}{2}$.</p><p>若 $q$ 成立，则 $\\alpha+\\frac{\\beta}{2}&#x3C;\\alpha+\\beta&#x3C;\\frac{\\pi}{2}$，故 $q\\Rightarrow p$. 取 $\\alpha=\\frac{\\pi}{3}$，$\\beta=\\frac{\\pi}{6}$，则 $p$ 成立而 $q$ 不成立. 因此 $p$ 是 $q$ 的必要而不充分条件，选 B.</p>"
         },
         {
           "num": 7,
-          "body": "对于不重合的两个平面 $\\alpha$ 与 $\\beta$，给定下列条件：\r\n\r\n\\begin{circlelist}\r\n\\item 存在平面 $\\gamma$，使得 $\\alpha$，$\\beta$ 都垂直于 $\\gamma$；\r\n\\item 存在平面 $\\gamma$，使得 $\\alpha$，$\\beta$ 都平行于 $\\gamma$；\r\n\\item $\\alpha$ 内有不共线的三点到 $\\beta$ 的距离相等；\r\n\\item 存在异面直线 $l$，$m$，使得 $l \\parallel \\alpha$，$l \\parallel \\beta$，$m \\parallel \\alpha$，$m \\parallel \\beta$.\r\n\\end{circlelist}\r\n\r\n其中，可以判定 $\\alpha$ 与 $\\beta$ 平行的条件有（ ）",
+          "body": "<p>对于不重合的两个平面 $\\alpha$ 与 $\\beta$，给定下列条件：</p><ol class=\"enumerate\"><li><p>存在平面 $\\gamma$，使得 $\\alpha$，$\\beta$ 都垂直于 $\\gamma$；</p></li><li><p>存在平面 $\\gamma$，使得 $\\alpha$，$\\beta$ 都平行于 $\\gamma$；</p></li><li><p>$\\alpha$ 内有不共线的三点到 $\\beta$ 的距离相等；</p></li><li><p>存在异面直线 $l$，$m$，使得 $l \\parallel \\alpha$，$l \\parallel \\beta$，$m \\parallel \\alpha$，$m \\parallel \\beta$.</p></li></ol><p>其中，可以判定 $\\alpha$ 与 $\\beta$ 平行的条件有（ ）</p>",
           "choices": [
             "$1$ 个",
             "$2$ 个",
@@ -236,13 +89,11 @@
             "$4$ 个"
           ],
           "answer": "B",
-          "solution": "条件 1 不能判定两平面平行. 例如取两个相交的竖直平面 $x=0$、$y=0$，它们都垂直于水平面 $z=0$.\r\n\r\n条件 2 可以判定平行：两个不重合且都平行于同一平面的平面具有相同的法向方向，因此二者平行.\r\n\r\n条件 3 不能判定平行. 取 $\\alpha:z=0$，$\\beta:x=0$，则 $\\alpha$ 与 $\\beta$ 相交. 但 $\\alpha$ 内的三点 $(1,0,0)$，$(1,1,0)$，$(-1,0,0)$ 不共线，且它们到 $\\beta$ 的距离都等于 $1$.\r\n\r\n若 $\\alpha$ 与 $\\beta$ 不平行，则它们的方向平面的交集只有一条方向直线. 于是，既平行于 $\\alpha$ 又平行于 $\\beta$ 的任意两条直线必相互平行，不可能异面. 因而条件 4 能判定 $\\alpha\\parallel\\beta$.\r\n\r\n所以可以判定两平面平行的条件有条件 2 和条件 4，共 $2$ 个. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>条件 1 不能判定两平面平行. 例如取两个相交的竖直平面 $x=0$、$y=0$，它们都垂直于水平面 $z=0$.</p><p>条件 2 可以判定平行：两个不重合且都平行于同一平面的平面具有相同的法向方向，因此二者平行.</p><p>条件 3 不能判定平行. 取 $\\alpha:z=0$，$\\beta:x=0$，则 $\\alpha$ 与 $\\beta$ 相交. 但 $\\alpha$ 内的三点 $(1,0,0)$，$(1,1,0)$，$(-1,0,0)$ 不共线，且它们到 $\\beta$ 的距离都等于 $1$.</p><p>若 $\\alpha$ 与 $\\beta$ 不平行，则它们的方向平面的交集只有一条方向直线. 于是，既平行于 $\\alpha$ 又平行于 $\\beta$ 的任意两条直线必相互平行，不可能异面. 因而条件 4 能判定 $\\alpha\\parallel\\beta$.</p><p>所以可以判定两平面平行的条件有条件 2 和条件 4，共 $2$ 个. 故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "若 $\\left(2x - \\frac{1}{x}\\right)^n$ 展开式中含 $\\frac{1}{x^2}$ 项的系数与含 $\\frac{1}{x^4}$ 项的系数之比为$-5$，则 $n$ 等于（ ）",
+          "body": "若 $\\left(2x - \\frac{1}{x}\\right)^{n}$ 展开式中含 $\\frac{1}{x^{2}}$ 项的系数与含 $\\frac{1}{x^{4}}$ 项的系数之比为$-5$，则 $n$ 等于（ ）",
           "choices": [
             "4",
             "6",
@@ -250,27 +101,18 @@
             "10"
           ],
           "answer": "B",
-          "solution": "展开式的通项为\r\n\n$$\n\\mathrm C_n^k(2x)^{n-k}\\left(-\\frac1x\\right)^k\r\n=\\mathrm C_n^k2^{n-k}(-1)^k x^{n-2k}\n$$\n\r\n含 $x^{-2}$ 的项对应 $n-2k=-2\\Longrightarrow k=\\frac{n+2}{2}$，含 $x^{-4}$ 的项对应 $n-2k=-4\\Longrightarrow k=\\frac{n+4}{2}$.\r\n令 $k_1=\\frac{n+2}{2}$，则第二项对应 $k_1+1$. 两项系数之比为\r\n\n$$\n\\frac{\\mathrm C_n^{k_1}2^{n-k_1}(-1)^{k_1}}\r\n{\\mathrm C_n^{k_1+1}2^{n-k_1-1}(-1)^{k_1+1}}\r\n=-2\\frac{\\mathrm C_n^{k_1}}{\\mathrm C_n^{k_1+1}}\r\n=-2\\frac{k_1+1}{n-k_1}\r\n=-2\\frac{n+4}{n-2}\n$$\n\r\n由题意\r\n\n$$\n-2\\frac{n+4}{n-2}=-5\n$$\n\r\n解得 $n=6$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{n}^{k}(2x)^{n-k}\\left(-\\frac{1}{x}\\right)^{k}  =\\mathrm{C}_{n}^{k}2^{n-k}(-1)^{k} x^{n-2k}\n$$\n<p>含 $x^{-2}$ 的项对应 $n-2k=-2\\Longrightarrow k=\\frac{n+2}{2}$，含 $x^{-4}$ 的项对应 $n-2k=-4\\Longrightarrow k=\\frac{n+4}{2}$.</p><p>令 $k_{1}=\\frac{n+2}{2}$，则第二项对应 $k_{1}+1$. 两项系数之比为</p>\n$$\n\\frac{\\mathrm{C}_{n}^{k_1}2^{n-k_1}(-1)^{k_1}}{\\mathrm{C}_{n}^{k_1+1}2^{n-k_1-1}(-1)^{k_1+1}}=-2\\frac{\\mathrm{C}_{n}^{k_1}}{\\mathrm{C}_{n}^{k_1+1}}=-2\\frac{k_{1}+1}{n-k_{1}}=-2\\frac{n+4}{n-2}\n$$\n<p>由题意</p>\n$$\n-2\\frac{n+4}{n-2}=-5\n$$\n<p>解得 $n=6$. 故选 B.</p>"
         },
         {
           "num": 9,
-          "body": "若动点 $(x, y)$ 在曲线 $\\frac{x^2}{4} + \\frac{y^2}{b^2} = 1$（$b > 0$）上变化，则 $x^2 + 2y$ 的最大值为（ ）\r\n\r\n\\frac{b^2}{4} + 4, & 0 < b < 2,\\\\\r\n2b, & b \\geqslant 2.\r\n\\end{cases}\\)}\r\n    {$\\frac{b^{2}}{4} + 4$}\r\n    {2b}",
-          "choices": [
-            "\\(\\begin{cases",
-            "b^2}{4",
-            "cases}\\)",
-            "\\(\\begin{cases"
-          ],
+          "body": "<p>若动点 $(x, y)$ 在曲线 $\\frac{x^{2}}{4}+ \\frac{y^{2}}{b^{2}}= 1$（$b > 0$）上变化，则 $x^{2} + 2y$ 的最大值为（ ）</p><p><span class=\"macro macro-end\"></span>cases<span class=\"macro macro-)\"></span>}</p><p>$\\begin{cases}\\frac{b^2}{4}+ 4,&#x26;0 &#x3C; b &#x3C; 2,\\\\  2b,&#x26;b \\ge 2.\\end{cases}$</p><p>$\\frac{b^{2}}{4}+ 4$</p><p>2b</p>",
+          "choices": null,
           "answer": "A",
-          "solution": "由椭圆方程可得 $y\\in[-b,b]$，且\r\n\n$$\nx^2=4\\left(1-\\frac{y^2}{b^2}\\right)\n$$\n\r\n因此\r\n\n$$\nx^2+2y=4-\\frac4{b^2}y^2+2y\r\n=4+\\frac{b^2}{4}-\\frac4{b^2}\\left(y-\\frac{b^2}{4}\\right)^2\n$$\n\r\n当 $0<b<4$ 时，$\\frac{b^2}{4}\\in(0,b)$，平方项可以取 $0$，最大值为 $\\frac{b^2}{4}+4$. 当 $b\\geqslant4$ 时，$\\frac{b^2}{4}\\ge b$，上式在区间 $[-b,b]$ 上的最大值在 $y=b$ 处取得，此时 $x=0$，最大值为 $2b$. 当 $b=4$ 时两式同为 $8$. 故最大值为\r\n\n$$\n\\begin{cases}\r\n\\dfrac{b^2}{4}+4, & 0<b<4,\\\\\r\n2b, & b\\geqslant4,\r\n\\end{cases}\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由椭圆方程可得 $y\\in[-b,b]$，且</p>\n$$\nx^{2}=4\\left(1-\\frac{y^{2}}{b^{2}}\\right)\n$$\n<p>因此</p>\n$$\nx^{2}+2y=4-\\frac{4}{b^{2}}y^{2}+2y  =4+\\frac{b^{2}}{4}-\\frac{4}{b^{2}}\\left(y-\\frac{b^{2}}{4}\\right)^{2}\n$$\n<p>当 $0&#x3C;b&#x3C;4$ 时，$\\frac{b^{2}}{4}\\in(0,b)$，平方项可以取 $0$，最大值为 $\\frac{b^{2}}{4}+4$. 当 $b\\geqslant4$ 时，$\\frac{b^{2}}{4}\\ge b$，上式在区间 $[-b,b]$ 上的最大值在 $y=b$ 处取得，此时 $x=0$，最大值为 $2b$. 当 $b=4$ 时两式同为 $8$. 故最大值为</p>\n$$\n\\begin{cases}\\dfrac{b^2}{4}+4,&#x26;0&#x3C;b&#x3C;4,\\\\  2b,&#x26;b\\geqslant4,\\end{cases}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 10,
-          "body": "在体积为 $1$ 的三棱锥 $A-BCD$ 侧棱 $AB$，$AC$，$AD$ 上分别取点 $E$，$F$，$G$，使 $AE:EB = AF:FC = AG:GD = 2:1$，记 $O$ 为三平面 $BCG$，$CDE$，$DBF$ 的交点，则三棱锥 $O-BCD$ 的体积等于（ ）",
+          "body": "在体积为 $1$ 的三棱锥 $A-BCD$ 侧棱 $AB$，$AC$，$AD$ 上分别取点 $E$，$F$，$G$，使 $AE:EB = AF:FC = AG:GD = 2:1$，记 $O$ 为三平面 $BCG$，$CDE$，$DBF$ 的交点，则三棱锥 $O-BCD$ 的体积等于（ ）",
           "choices": [
             "$\\frac{1}{9}$",
             "$\\frac{1}{8}$",
@@ -278,9 +120,7 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "C",
-          "solution": "用 $A$，$B$，$C$，$D$ 的重心坐标表示空间中的点，坐标分量之和为 $1$. 由内分比条件，$E=\\left(\\frac13,\\frac23,0,0\\right)$，$F=\\left(\\frac13,0,\\frac23,0\\right)$，$G=\\left(\\frac13,0,0,\\frac23\\right)$.\r\n设 $O$ 的重心坐标为 $(u,v,w,z)$. 平面 $BCG$ 上的点满足 $z=2u$，平面 $CDE$ 上的点满足 $v=2u$，平面 $DBF$ 上的点满足 $w=2u$. 因为 $O$ 是这三个平面的交点，所以 $v=w=z=2u$.\r\n再由重心坐标分量之和为 $1$，得\r\n\n$$\nu+v+w+z=u+2u+2u+2u=7u=1\n$$\n\r\n从而 $u=\\frac17$.\r\n\r\n点的重心坐标中 $A$ 的分量等于该点到平面 $BCD$ 的高与 $A$ 到平面 $BCD$ 的高之比，因此 $\\frac{V_{O-BCD}}{V_{A-BCD}}=\\frac17$.\r\n已知 $V_{A-BCD}=1$，所以 $V_{O-BCD}=\\frac17$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>用 $A$，$B$，$C$，$D$ 的重心坐标表示空间中的点，坐标分量之和为 $1$. 由内分比条件，$E=\\left(\\frac{1}{3},\\frac{2}{3},0,0\\right)$，$F=\\left(\\frac{1}{3},0,\\frac{2}{3},0\\right)$，$G=\\left(\\frac{1}{3},0,0,\\frac{2}{3}\\right)$.</p><p>设 $O$ 的重心坐标为 $(u,v,w,z)$. 平面 $BCG$ 上的点满足 $z=2u$，平面 $CDE$ 上的点满足 $v=2u$，平面 $DBF$ 上的点满足 $w=2u$. 因为 $O$ 是这三个平面的交点，所以 $v=w=z=2u$.</p><p>再由重心坐标分量之和为 $1$，得</p>\n$$\nu+v+w+z=u+2u+2u+2u=7u=1\n$$\n<p>从而 $u=\\frac{1}{7}$.</p><p>点的重心坐标中 $A$ 的分量等于该点到平面 $BCD$ 的高与 $A$ 到平面 $BCD$ 的高之比，因此 $\\frac{V_{O-BCD}}{V_{A-BCD}}=\\frac{1}{7}$.</p><p>已知 $V_{A-BCD}=1$，所以 $V_{O-BCD}=\\frac{1}{7}$. 故选 C.</p>"
         }
       ]
     },
@@ -289,57 +129,45 @@
       "problems": [
         {
           "num": 11,
-          "body": "已知集合 $A = \\{x \\in \\mathbb{R} \\mid x^2 - x - 6 < 0\\}$，集合 $B = \\{x \\in \\mathbb{R} \\mid |x - 2| < 2\\}$，则 $A \\cap B =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\{x\\mid 0<x<3\\}\\)",
-          "solution": "由 $x^2-x-6=(x-3)(x+2)$，得 $A=(-2,3)$. 又由 $|x-2|<2$，得 $0<x<4$，\r\n所以\r\n\n$$\nA\\cap B=(-2,3)\\cap(0,4)=(0,3)\n$$\n\r\n故 $A\\cap B=\\{x\\in\\mathbb{R}\\mid0<x<3\\}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid x^{2} - x - 6 &#x3C; 0\\}$，集合 $B = \\{x \\in \\mathbb{R}\\mid |x - 2| &#x3C; 2\\}$，则 $A \\cap B =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\{x\\mid 0&#x3C;x&#x3C;3\\}$",
+          "solution": "<p>由 $x^{2}-x-6=(x-3)(x+2)$，得 $A=(-2,3)$. 又由 $|x-2|&#x3C;2$，得 $0&#x3C;x&#x3C;4$，</p><p>所以</p>\n$$\nA\\cap B=(-2,3)\\cap(0,4)=(0,3)\n$$\n<p>故 $A\\cap B=\\{x\\in\\mathbb{R}\\mid0&#x3C;x&#x3C;3\\}$.</p>"
         },
         {
           "num": 12,
-          "body": "曲线 $y = x^{3}$ 在点 $(a, a^{3})$ （$a \\neq 0$）处的切线与 $x$ 轴、直线 $x = a$ 所围成的三角形的面积为 $\\frac{1}{6}$，则 $a =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\pm 1\\)",
-          "solution": "曲线 $y=x^3$ 在 $x=a$ 处的导数为 $3a^2$，故切线方程为 $y-a^3=3a^2(x-a)$，\r\n即 $y=3a^2x-2a^3$. 切线与 $x$ 轴的交点横坐标满足 $0=3a^2x-2a^3$. 由于 $a\\ne0$，得 $x=\\frac{2a}{3}$. 直线 $x=a$ 与 $x$ 轴的交点为 $(a,0)$，与切线的交点为 $(a,a^3)$. 因而三角形的底边长为\r\n\n$$\n\\left|a-\\frac{2a}{3}\\right|=\\frac{|a|}{3}\n$$\n\r\n高为 $|a^3|$，所以\r\n\n$$\n\\frac12\\cdot\\frac{|a|}{3}\\cdot|a^3|=\\frac{|a|^4}{6}=\\frac16\n$$\n\r\n于是 $|a|=1$，即 $a=\\pm1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "曲线 $y = x^{3}$ 在点 $(a, a^{3})$ （$a \\neq 0$）处的切线与 $x$ 轴、直线 $x = a$ 所围成的三角形的面积为 $\\frac{1}{6}$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\pm 1$",
+          "solution": "<p>曲线 $y=x^{3}$ 在 $x=a$ 处的导数为 $3a^{2}$，故切线方程为 $y-a^{3}=3a^{2}(x-a)$，</p><p>即 $y=3a^{2}x-2a^{3}$. 切线与 $x$ 轴的交点横坐标满足 $0=3a^{2}x-2a^{3}$. 由于 $a\\ne0$，得 $x=\\frac{2a}{3}$. 直线 $x=a$ 与 $x$ 轴的交点为 $(a,0)$，与切线的交点为 $(a,a^{3})$. 因而三角形的底边长为</p>\n$$\n\\left|a-\\frac{2a}{3}\\right|=\\frac{|a|}{3}\n$$\n<p>高为 $|a^{3}|$，所以</p>\n$$\n\\frac{1}{2}\\cdot\\frac{|a|}{3}\\cdot|a^{3}|=\\frac{|a|^{4}}{6}=\\frac{1}{6}\n$$\n<p>于是 $|a|=1$，即 $a=\\pm1$.</p>"
         },
         {
           "num": 13,
-          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，且 $\\cos (\\alpha + \\beta) = \\sin (\\alpha - \\beta)$，则 $\\tan \\alpha =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)",
-          "solution": "将等式两边展开，得 $\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta$. 移项并因式分解，得到 $(\\cos\\alpha-\\sin\\alpha)(\\cos\\beta+\\sin\\beta)=0$.\r\n因为 $\\beta$ 为锐角，所以 $\\cos\\beta+\\sin\\beta>0$，从而 $\\cos\\alpha=\\sin\\alpha$. 又 $\\alpha$ 为锐角，故 $\\alpha=\\frac\\pi4$，所以 $\\tan\\alpha=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\alpha$，$\\beta$ 均为锐角，且 $\\cos (\\alpha + \\beta) = \\sin (\\alpha - \\beta)$，则 $\\tan \\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$",
+          "solution": "<p>将等式两边展开，得 $\\cos\\alpha\\cos\\beta-\\sin\\alpha\\sin\\beta=\\sin\\alpha\\cos\\beta-\\cos\\alpha\\sin\\beta$. 移项并因式分解，得到 $(\\cos\\alpha-\\sin\\alpha)(\\cos\\beta+\\sin\\beta)=0$.</p><p>因为 $\\beta$ 为锐角，所以 $\\cos\\beta+\\sin\\beta>0$，从而 $\\cos\\alpha=\\sin\\alpha$. 又 $\\alpha$ 为锐角，故 $\\alpha=\\frac{\\pi}{4}$，所以 $\\tan\\alpha=1$.</p>"
         },
         {
           "num": 14,
-          "body": "$\\displaystyle\\lim_{n\\to \\infty}\\frac{2^{3n} - 3^{2n + 1}}{2^{3n} + 3^{2n}} =$ _______ {}",
-          "choices": [],
-          "answer": "\\(-3\\)",
-          "solution": "分子、分母同除以 $3^{2n}=9^n$，得 $\\frac{\\left(\\frac89\\right)^n-3}{\\left(\\frac89\\right)^n+1}$.\r\n因为 $0<\\frac89<1$，所以 $\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac89\\right)^n=0$. 因而原极限为 $\\frac{0-3}{0+1}=-3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\displaystyle\\lim_{n\\to \\infty}\\frac{2^{3n}- 3^{2n + 1}}{2^{3n}+ 3^{2n}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>",
+          "choices": null,
+          "answer": "$-3$",
+          "solution": "<p>分子、分母同除以 $3^{2n}=9^{n}$，得 $\\frac{\\left(\\frac{8}{9}\\right)^{n}-3}{\\left(\\frac{8}{9}\\right)^{n}+1}$.</p><p>因为 $0&#x3C;\\frac{8}{9}&#x3C;1$，所以 $\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac{8}{9}\\right)^{n}=0$. 因而原极限为 $\\frac{0-3}{0+1}=-3$.</p>"
         },
         {
           "num": 15,
-          "body": "某轻轨列车有 $4$ 节车厢，现有 $6$ 位乘客准备乘坐，设每一位乘客进入每节车厢是等可能的，则这 $6$ 位乘客进入各节车厢的人数恰好为 $0$，$1$，$2$，$3$ 的概率为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{45}{128}\\)",
-          "solution": "每位乘客有 $4$ 种选择，且选择相互独立，所以所有进入方式共有 $4^6$ 种等可能结果. 若四节车厢人数恰为 $0$，$1$，$2$，$3$，先安排这四个数字到四节车厢，有 $4!$ 种方法；对固定的车厢人数分配，安排 $6$ 位有区别的乘客的方法为\r\n$\\frac{6!}{0!1!2!3!}$.\r\n因此所求概率为\r\n\n$$\n\\frac{4!\\cdot\\dfrac{6!}{0!1!2!3!}}{4^6}\r\n=\\frac{24\\cdot60}{4096}\r\n=\\frac{45}{128}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某轻轨列车有 $4$ 节车厢，现有 $6$ 位乘客准备乘坐，设每一位乘客进入每节车厢是等可能的，则这 $6$ 位乘客进入各节车厢的人数恰好为 $0$，$1$，$2$，$3$ 的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{45}{128}$",
+          "solution": "<p>每位乘客有 $4$ 种选择，且选择相互独立，所以所有进入方式共有 $4^{6}$ 种等可能结果. 若四节车厢人数恰为 $0$，$1$，$2$，$3$，先安排这四个数字到四节车厢，有 $4!$ 种方法；对固定的车厢人数分配，安排 $6$ 位有区别的乘客的方法为</p><p>$\\frac{6!}{0!1!2!3!}$.</p><p>因此所求概率为</p>\n$$\n\\frac{4!\\cdot\\dfrac{6!}{0!1!2!3!}}{4^{6}}=\\frac{24\\cdot60}{4096}=\\frac{45}{128}\n$$"
         },
         {
           "num": 16,
-          "body": "连接抛物线上任意四点组成的四边形可能是 _______ {}.（填写所有正确选项的序号）\r\n\r\n\\begin{circlelist}\r\n\\item 菱形；\r\n\\item 有$3$条边相等的四边形；\r\n\\item 梯形；\r\n\\item 平行四边形；\r\n\\item 有一组对角相等的四边形.\r\n\\end{circlelist}",
-          "choices": [],
-          "answer": "\\(\\circled{2}\\circled{3}\\circled{5}\\)",
-          "solution": "取抛物线 $y=x^2$ 上的点 $P(t)=(t,t^2)$. 当 $u\\ne v$ 时，弦 $P(u)P(v)$ 的斜率为\r\n$\\frac{v^2-u^2}{v-u}=u+v$.\r\n\r\n先说明平行四边形不可能. 若四点 $P(u)$，$P(v)$，$P(w)$，$P(z)$ 按顺序组成平行四边形，则两条对角线互相平分，从而\r\n$u+w=v+z$，$u^2+w^2=v^2+z^2$.\r\n由这两个等式可得 $uw=vz$. 因此 $u$，$v$ 与 $w$，$z$ 是同一个二次方程的两根，四个参数中必有重复，不能得到四个不同的点. 所以选项 $\\circled{4}$ 不可能，选项 $\\circled{1}$ 也不可能，因为菱形是平行四边形.\r\n\r\n选项 $\\circled{2}$ 可以实现. 取\r\n$A=P\\left(-\\frac{11}{12}\\right)$，$B=P\\left(-\\frac5{12}\\right)$，$C=P\\left(\\frac5{12}\\right)$，$D=P\\left(\\frac{11}{12}\\right)$.\r\n按 $A$，$B$，$C$，$D$ 顺序连接，有\r\n$AB=CD=\\frac56$，$BC=\\frac56$，$AD=\\frac{11}{6}$，\r\n所以有三条边相等.\r\n\r\n选项 $\\circled{3}$ 可以实现. 取\r\n$A=P(-2)$，$B=P(1)$，$C=P(0)$，$D=P(-1)$.\r\n因为 $AB$ 和 $CD$ 的斜率分别为 $-2+1=-1$ 与 $0+(-1)=-1$，所以 $AB\\parallel CD$，得到梯形.\r\n\r\n选项 $\\circled{5}$ 也可以实现. 取 $A=P(0)$，$B=P(2)$，作线段 $AB$ 的垂直平分线. 该直线为\r\n$y=-\\frac12x+\\frac52$，\r\n与抛物线交于两点 $C$，$D$，其横坐标是方程\r\n$2x^2+x-5=0$\r\n的两个不同实根. 由于 $C$，$D$ 在 $AB$ 的垂直平分线上，\r\n$AC=BC$，$AD=BD$.\r\n在四边形 $A-C-B-D$ 中，三角形 $ACD$ 与 $BCD$ 的三边分别相等，故二者全等，从而\r\n$\\angle CAD=\\angle CBD$.\r\n这正是该四边形的一组对角相等.\r\n\r\n所以正确选项为 $\\circled{2}\\circled{3}\\circled{5}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>连接抛物线上任意四点组成的四边形可能是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（填写所有正确选项的序号）</p><ol class=\"enumerate\"><li><p>菱形；</p></li><li><p>有$3$条边相等的四边形；</p></li><li><p>梯形；</p></li><li><p>平行四边形；</p></li><li><p>有一组对角相等的四边形.</p></li></ol>",
+          "choices": null,
+          "answer": "$②③⑤$",
+          "solution": "<p>取抛物线 $y=x^{2}$ 上的点 $P(t)=(t,t^{2})$. 当 $u\\ne v$ 时，弦 $P(u)P(v)$ 的斜率为</p><p>$\\frac{v^{2}-u^{2}}{v-u}=u+v$.</p><p>先说明平行四边形不可能. 若四点 $P(u)$，$P(v)$，$P(w)$，$P(z)$ 按顺序组成平行四边形，则两条对角线互相平分，从而</p><p>$u+w=v+z$，$u^{2}+w^{2}=v^{2}+z^{2}$.</p><p>由这两个等式可得 $uw=vz$. 因此 $u$，$v$ 与 $w$，$z$ 是同一个二次方程的两根，四个参数中必有重复，不能得到四个不同的点. 所以选项 $④$ 不可能，选项 $①$ 也不可能，因为菱形是平行四边形.</p><p>选项 $②$ 可以实现. 取</p><p>$A=P\\left(-\\frac{11}{12}\\right)$，$B=P\\left(-\\frac{5}{12}\\right)$，$C=P\\left(\\frac{5}{12}\\right)$，$D=P\\left(\\frac{11}{12}\\right)$.</p><p>按 $A$，$B$，$C$，$D$ 顺序连接，有</p><p>$AB=CD=\\frac{5}{6}$，$BC=\\frac{5}{6}$，$AD=\\frac{11}{6}$，</p><p>所以有三条边相等.</p><p>选项 $③$ 可以实现. 取</p><p>$A=P(-2)$，$B=P(1)$，$C=P(0)$，$D=P(-1)$.</p><p>因为 $AB$ 和 $CD$ 的斜率分别为 $-2+1=-1$ 与 $0+(-1)=-1$，所以 $AB\\parallel CD$，得到梯形.</p><p>选项 $⑤$ 也可以实现. 取 $A=P(0)$，$B=P(2)$，作线段 $AB$ 的垂直平分线. 该直线为</p><p>$y=-\\frac{1}{2}x+\\frac{5}{2}$，</p><p>与抛物线交于两点 $C$，$D$，其横坐标是方程</p><p>$2x^{2}+x-5=0$</p><p>的两个不同实根. 由于 $C$，$D$ 在 $AB$ 的垂直平分线上，</p><p>$AC=BC$，$AD=BD$.</p><p>在四边形 $A-C-B-D$ 中，三角形 $ACD$ 与 $BCD$ 的三边分别相等，故二者全等，从而</p><p>$\\angle CAD=\\angle CBD$.</p><p>这正是该四边形的一组对角相等.</p><p>所以正确选项为 $②③⑤$.</p>"
         }
       ]
     },
@@ -348,60 +176,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "若函数 $f(x) = \\frac{1 + \\cos 2x}{4\\sin\\left(\\frac{\\pi}{2} + x\\right)} - a\\sin \\frac{x}{2}\\cos \\left(\\pi - \\frac{x}{2}\\right)$ 的最大值为$2$，试确定常数 $a$ 的值.",
-          "choices": [],
+          "body": "若函数 $f(x) = \\frac{1 + \\cos 2x}{4\\sin\\left(\\frac{\\pi}{2} + x\\right)}- a\\sin \\frac{x}{2}\\cos \\left(\\pi - \\frac{x}{2}\\right)$ 的最大值为$2$，试确定常数 $a$ 的值.",
+          "choices": null,
           "answer": "",
-          "solution": "原函数的定义域满足 $\\cos x\\ne0$. 在此定义域内，\r\n\n$$\n\\frac{1+\\cos2x}{4\\sin\\left(\\frac{\\pi}{2}+x\\right)}=\\frac{2\\cos^{2}x}{4\\cos x}=\\frac{1}{2}\\cos x\n$$\n\r\n又 $\\cos\\left(\\pi-\\frac{x}{2}\\right)=-\\cos\\frac{x}{2}$，所以\r\n\n$$\nf(x)=\\frac{1}{2}\\cos x+a\\sin\\frac{x}{2}\\cos\\frac{x}{2}=\\frac{\\cos x+a\\sin x}{2}\n$$\n\r\n由柯西不等式，\r\n\n$$\nf(x)=\\frac{1}{2}(1,a)\\cdot(\\cos x,\\sin x)\\le\\frac{1}{2}\\sqrt{1+a^{2}}\n$$\n\r\n当 $\\cos x=\\frac{1}{\\sqrt{1+a^{2}}}$，$\\sin x=\\frac{a}{\\sqrt{1+a^{2}}}$ 时等号成立，且此时 $\\cos x\\ne0$，故上界就是最大值. 因此\r\n由 $\\frac{1}{2}\\sqrt{1+a^{2}}=2\\Longrightarrow a^{2}=15$，从而 $a=\\pm\\sqrt{15}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>原函数的定义域满足 $\\cos x\\ne0$. 在此定义域内，</p>\n$$\n\\frac{1+\\cos2x}{4\\sin\\left(\\frac{\\pi}{2}+x\\right)}=\\frac{2\\cos^{2}x}{4\\cos x}=\\frac{1}{2}\\cos x\n$$\n<p>又 $\\cos\\left(\\pi-\\frac{x}{2}\\right)=-\\cos\\frac{x}{2}$，所以</p>\n$$\nf(x)=\\frac{1}{2}\\cos x+a\\sin\\frac{x}{2}\\cos\\frac{x}{2}=\\frac{\\cos x+a\\sin x}{2}\n$$\n<p>由柯西不等式，</p>\n$$\nf(x)=\\frac{1}{2}(1,a)\\cdot(\\cos x,\\sin x)\\le\\frac{1}{2}\\sqrt{1+a^{2}}\n$$\n<p>当 $\\cos x=\\frac{1}{\\sqrt{1+a^{2}}}$，$\\sin x=\\frac{a}{\\sqrt{1+a^{2}}}$ 时等号成立，且此时 $\\cos x\\ne0$，故上界就是最大值. 因此</p><p>由 $\\frac{1}{2}\\sqrt{1+a^{2}}=2\\Longrightarrow a^{2}=15$，从而 $a=\\pm\\sqrt{15}$.</p>"
         },
         {
           "num": 18,
-          "body": "在一次购物抽奖活动中，假设某 $10$ 张券中有一等奖券 $1$ 张，可获价值 $50\\text{ 元}$ 的奖品；有二等奖券 $3$ 张，每张可获价值 $10\\text{ 元}$ 的奖品；其余 $6$ 张没有奖，某顾客从此 $10$ 张券中任抽 $2$ 张，求：\r\n\r\n\n(1) 该顾客中奖的概率；\n\n(2) 该顾客获得的奖品总价值 $\\xi\\text{（元）}$ 的概率分布列和期望 $E(\\xi)$.",
-          "choices": [],
+          "body": "<p>在一次购物抽奖活动中，假设某 $10$ 张券中有一等奖券 $1$ 张，可获价值 $50\\text{ 元}$ 的奖品；有二等奖券 $3$ 张，每张可获价值 $10\\text{ 元}$ 的奖品；其余 $6$ 张没有奖，某顾客从此 $10$ 张券中任抽 $2$ 张，求：</p><ol class=\"enumerate\"><li><p>该顾客中奖的概率；</p></li><li><p>该顾客获得的奖品总价值 $\\xi\\text{（元）}$ 的概率分布列和期望 $E(\\xi)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 从 $10$ 张券中任取 $2$ 张共有 $\\mathrm C_{10}^{2}=45$ 种等可能结果. 没有中奖的结果有 $\\mathrm C_{6}^{2}=15$ 种，所以该顾客中奖的概率为 $1-\\frac{\\mathrm C_{6}^{2}}{\\mathrm C_{10}^{2}}=1-\\frac{15}{45}=\\frac{2}{3}$.\n\n(2) 随机变量 $\\xi$ 的可能取值为 $0$，$10$，$20$，$50$，$60$. 分别计算得 $P(\\xi=0)=\\frac{\\mathrm C_{6}^{2}}{\\mathrm C_{10}^{2}}=\\frac{15}{45}$，$P(\\xi=10)=\\frac{\\mathrm C_{3}^{1}\\mathrm C_{6}^{1}}{\\mathrm C_{10}^{2}}=\\frac{18}{45}$，$P(\\xi=20)=\\frac{\\mathrm C_{3}^{2}}{\\mathrm C_{10}^{2}}=\\frac{3}{45}$，$P(\\xi=50)=\\frac{\\mathrm C_{6}^{1}}{\\mathrm C_{10}^{2}}=\\frac{6}{45}$，$P(\\xi=60)=\\frac{\\mathrm C_{3}^{1}}{\\mathrm C_{10}^{2}}=\\frac{3}{45}$.\r\n\r\n故 $\\xi$ 的分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n$\\xi$ & $0$ & $10$ & $20$ & $50$ & $60$ \\\\\r\n\\hline\r\n$P$ & $\\dfrac{15}{45}$ & $\\dfrac{18}{45}$ & $\\dfrac{3}{45}$ & $\\dfrac{6}{45}$ & $\\dfrac{3}{45}$\r\n\\end{tabular}\r\n\\end{center}\r\n于是\r\n\n$$\nE(\\xi)=0\\cdot\\frac{15}{45}+10\\cdot\\frac{18}{45}+20\\cdot\\frac{3}{45}+50\\cdot\\frac{6}{45}+60\\cdot\\frac{3}{45}=16\n$$\n\r\n所以 $E(\\xi)=16$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>从 $10$ 张券中任取 $2$ 张共有 $\\mathrm{C}_{10}^{2}=45$ 种等可能结果. 没有中奖的结果有 $\\mathrm{C}_{6}^{2}=15$ 种，所以该顾客中奖的概率为 $1-\\frac{\\mathrm{C}_{6}^{2}}{\\mathrm{C}_{10}^{2}}=1-\\frac{15}{45}=\\frac{2}{3}$.</p></li><li><p>随机变量 $\\xi$ 的可能取值为 $0$，$10$，$20$，$50$，$60$. 分别计算得 $P(\\xi=0)=\\frac{\\mathrm{C}_{6}^{2}}{\\mathrm{C}_{10}^{2}}=\\frac{15}{45}$，$P(\\xi=10)=\\frac{\\mathrm{C}_{3}^{1}\\mathrm{C}_{6}^{1}}{\\mathrm{C}_{10}^{2}}=\\frac{18}{45}$，$P(\\xi=20)=\\frac{\\mathrm{C}_{3}^{2}}{\\mathrm{C}_{10}^{2}}=\\frac{3}{45}$，$P(\\xi=50)=\\frac{\\mathrm{C}_{6}^{1}}{\\mathrm{C}_{10}^{2}}=\\frac{6}{45}$，$P(\\xi=60)=\\frac{\\mathrm{C}_{3}^{1}}{\\mathrm{C}_{10}^{2}}=\\frac{3}{45}$.</p><p>故 $\\xi$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $10$ </td><td style=\"text-align: center\"> $20$ </td><td style=\"text-align: center\"> $50$ </td><td style=\"text-align: center\"> $60$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac{15}{45}$ </td><td style=\"text-align: center\"> $\\dfrac{18}{45}$ </td><td style=\"text-align: center\"> $\\dfrac{3}{45}$ </td><td style=\"text-align: center\"> $\\dfrac{6}{45}$ </td><td style=\"text-align: center\"> $\\dfrac{3}{45}$</td></tr></tbody></table></center><p></p><p>于是</p>\n$$\nE(\\xi)=0\\cdot\\frac{15}{45}+10\\cdot\\frac{18}{45}+20\\cdot\\frac{3}{45}+50\\cdot\\frac{6}{45}+60\\cdot\\frac{3}{45}=16\n$$\n<p>所以 $E(\\xi)=16$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知 $a \\in \\mathbb{R}$，讨论函数 $f(x) = \\mathrm{e}^{x}(x^{2} + ax + a + 1)$ 的极值点的个数.",
-          "choices": [],
+          "body": "已知 $a \\in \\mathbb{R}$，讨论函数 $f(x) = \\mathrm{e}^{x}(x^{2}+ ax + a + 1)$ 的极值点的个数.",
+          "choices": null,
           "answer": "",
-          "solution": "令 $g(x)=x^{2}+ax+a+1$，则\r\n\n$$\nf'(x)=\\mathrm{e}^{x}\\bigl(g(x)+g'(x)\\bigr)=\\mathrm{e}^{x}\\left[x^{2}+(a+2)x+2a+1\\right]\n$$\n\r\n由于 $\\mathrm{e}^{x}>0$，$f'(x)$ 的符号由 $h(x)=x^{2}+(a+2)x+2a+1$ 决定. 其判别式为 $\\Delta=(a+2)^{2}-4(2a+1)=a(a-4)$.\r\n当 $a<0$ 或 $a>4$ 时，$\\Delta>0$，$h(x)$ 有两个不等实根，且开口向上，因此 $f'(x)$ 的符号依次为正、负、正，函数有一个极大值点和一个极小值点，共 $2$ 个极值点.\r\n\r\n当 $0<a<4$ 时，$\\Delta<0$，又二次项系数为正，所以 $h(x)>0$，函数没有极值点. 当 $a=0$ 或 $a=4$ 时，分别有 $h(x)=(x+1)^{2}$ 或 $h(x)=(x+3)^{2}$，\r\n$f'(x)$ 不变号，也没有极值点.\r\n\r\n所以极值点的个数为\r\n\n$$\n\\begin{cases}\r\n2, & a<0\\ \\text{或}\\ a>4,\\\\\r\n0, & 0\\le a\\leqslant4\r\n\\end{cases}\n$$\n\r\n故极值点的个数按 $a$ 分为上述两种情况.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>令 $g(x)=x^{2}+ax+a+1$，则</p>\n$$\nf'(x)=\\mathrm{e}^{x}\\bigl(g(x)+g'(x)\\bigr)=\\mathrm{e}^{x}\\left[x^{2}+(a+2)x+2a+1\\right]\n$$\n<p>由于 $\\mathrm{e}^{x}>0$，$f'(x)$ 的符号由 $h(x)=x^{2}+(a+2)x+2a+1$ 决定. 其判别式为 $\\Delta=(a+2)^{2}-4(2a+1)=a(a-4)$.</p><p>当 $a&#x3C;0$ 或 $a>4$ 时，$\\Delta>0$，$h(x)$ 有两个不等实根，且开口向上，因此 $f'(x)$ 的符号依次为正、负、正，函数有一个极大值点和一个极小值点，共 $2$ 个极值点.</p><p>当 $0&#x3C;a&#x3C;4$ 时，$\\Delta&#x3C;0$，又二次项系数为正，所以 $h(x)>0$，函数没有极值点. 当 $a=0$ 或 $a=4$ 时，分别有 $h(x)=(x+1)^{2}$ 或 $h(x)=(x+3)^{2}$，</p><p>$f'(x)$ 不变号，也没有极值点.</p><p>所以极值点的个数为</p>\n$$\n\\begin{cases}2, &#x26; a&#x3C;0\\ \\text{或}\\ a>4,\\\\\n\n0, &#x26; 0\\le a\\leqslant4\\end{cases}\n$$\n<p>故极值点的个数按 $a$ 分为上述两种情况.</p>"
         },
         {
           "num": 20,
-          "body": "如图，在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB \\perp$ 侧面 $BB_{1}C_{1}C$，$E$ 为棱 $CC_{1}$ 上异于 $C$，$C_{1}$ 的一点，$EA \\perp EB_{1}$，已知 $AB = \\sqrt{2}$，$BB_{1} = 2$，$BC = 1$，$\\angle BCC_{1} = \\frac{\\pi}{3}$，求：\r\n\r\n\n(1) 异面直线 $AB$ 与 $EB_{1}$ 的距离；\n\n(2) 二面角 $A - EB_{1} - A_{1}$ 的平面角的正切值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/chongqing_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB \\perp$ 侧面 $BB_{1}C_{1}C$，$E$ 为棱 $CC_{1}$ 上异于 $C$，$C_{1}$ 的一点，$EA \\perp EB_{1}$，已知 $AB = \\sqrt{2}$，$BB_{1}= 2$，$BC = 1$，$\\angle BCC_{1}= \\frac{\\pi}{3}$，求：</p><ol class=\"enumerate\"><li><p>异面直线 $AB$ 与 $EB_{1}$ 的距离；</p></li><li><p>二面角 $A - EB_{1}- A_{1}$ 的平面角的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立直角坐标系，令 $B=(0,0,0)$，$C=(1,0,0)$，并令 $z$ 轴垂直于侧面 $BB_{1}C_{1}C$，则 $A=(0,0,\\sqrt{2})$.\r\n设棱柱的平移向量为 $\\overrightarrow{BB_{1}}=\\overrightarrow{CC_{1}}=(u,v,0)$. 由 $|\\overrightarrow{CC_{1}}|=2$ 以及 $\\angle BCC_{1}=\\frac{\\pi}{3}$，有 $(-1,0,0)\\cdot(u,v,0)=2\\cos\\frac{\\pi}{3}=1$，$u^{2}+v^{2}=4$.\r\n取 $v>0$，得 $(u,v)=(-1,\\sqrt{3})$，从而 $B_{1}=(-1,\\sqrt{3},0)$，$C_{1}=(0,\\sqrt{3},0)$，$A_{1}=(-1,\\sqrt{3},\\sqrt{2})$. 设 $E=(1-t)C+tC_{1}=(1-t,\\sqrt{3}t,0)$，其中 $0<t<1$. 由 $EA\\perp EB_{1}$，\r\n\n$$\n\\overrightarrow{EA}\\cdot\\overrightarrow{EB_{1}}=(t-1)(t-2)-3t(1-t)=4t^{2}-6t+2=0\n$$\n\r\n所以 $(2t-1)(t-1)=0$. 因 $E\\ne C_{1}$，故 $t=\\frac12$，即 $E=\\left(\\frac12,\\frac{\\sqrt{3}}2,0\\right)$.\r\n\r\n\n(1) 取 $AB$ 和 $EB_{1}$ 的方向向量 $\\mathbf{u}=(0,0,\\sqrt{2})$，$\\mathbf{v}=\\left(-\\frac32,\\frac{\\sqrt{3}}2,0\\right)$. 由此 $\\mathbf{u}\\times\\mathbf{v}=\\left(-\\frac{\\sqrt{6}}2,-\\frac{3\\sqrt{2}}2,0\\right)$，$\\left|\\mathbf{u}\\times\\mathbf{v}\\right|=\\sqrt{6}$.\r\n因此两异面直线的距离为\r\n\n$$\nd=\\frac{\\left|\\overrightarrow{BE}\\cdot(\\mathbf{u}\\times\\mathbf{v})\\right|}{\\left|\\mathbf{u}\\times\\mathbf{v}\\right|}\r\n=\\frac{\\left|\\left(\\frac12,\\frac{\\sqrt{3}}2,0\\right)\\cdot\\left(-\\frac{\\sqrt{6}}2,-\\frac{3\\sqrt{2}}2,0\\right)\\right|}{\\sqrt{6}}=1\n$$\n\r\n所以两异面直线 $AB$ 与 $EB_{1}$ 的距离为 $1$.\n\n(2) 设平面 $AEB_{1}$，$A_{1}EB_{1}$ 的法向量分别为\r\n\n$$\n\\mathbf{n}_{1}=\\overrightarrow{EA}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}2,-\\frac{3\\sqrt{2}}2,-\\sqrt{3}\\right)\n$$\n\r\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{EA_{1}}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}2,-\\frac{3\\sqrt{2}}2,0\\right)\n$$\n\r\n若二面角的平面角为 $\\theta$，则\r\n\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}_{1}\\times\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}=\\frac{3\\sqrt{2}}{6}=\\frac{\\sqrt{2}}2\n$$\n\r\n所以二面角的平面角的正切值为 $\\frac{\\sqrt{2}}2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立直角坐标系，令 $B=(0,0,0)$，$C=(1,0,0)$，并令 $z$ 轴垂直于侧面 $BB_{1}C_{1}C$，则 $A=(0,0,\\sqrt{2})$.</p><p>设棱柱的平移向量为 $\\overrightarrow{BB_{1}}=\\overrightarrow{CC_{1}}=(u,v,0)$. 由 $|\\overrightarrow{CC_{1}}|=2$ 以及 $\\angle BCC_{1}=\\frac{\\pi}{3}$，有 $(-1,0,0)\\cdot(u,v,0)=2\\cos\\frac{\\pi}{3}=1$，$u^{2}+v^{2}=4$.</p><p>取 $v>0$，得 $(u,v)=(-1,\\sqrt{3})$，从而 $B_{1}=(-1,\\sqrt{3},0)$，$C_{1}=(0,\\sqrt{3},0)$，$A_{1}=(-1,\\sqrt{3},\\sqrt{2})$. 设 $E=(1-t)C+tC_{1}=(1-t,\\sqrt{3}t,0)$，其中 $0&#x3C;t&#x3C;1$. 由 $EA\\perp EB_{1}$，</p>\n$$\n\\overrightarrow{EA}\\cdot\\overrightarrow{EB_{1}}=(t-1)(t-2)-3t(1-t)=4t^{2}-6t+2=0\n$$\n<p>所以 $(2t-1)(t-1)=0$. 因 $E\\ne C_{1}$，故 $t=\\frac{1}{2}$，即 $E=\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$.</p><ol class=\"enumerate\"><li><p>取 $AB$ 和 $EB_{1}$ 的方向向量 $\\mathbf{u}=(0,0,\\sqrt{2})$，$\\mathbf{v}=\\left(-\\frac{3}{2},\\frac{\\sqrt{3}}{2},0\\right)$. 由此 $\\mathbf{u}\\times\\mathbf{v}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)$，$\\left|\\mathbf{u}\\times\\mathbf{v}\\right|=\\sqrt{6}$.</p><p>因此两异面直线的距离为</p>\n$$\nd=\\frac{\\left|\\overrightarrow{BE}\\cdot(\\mathbf{u}\\times\\mathbf{v})\\right|}{\\left|\\mathbf{u}\\times\\mathbf{v}\\right|}=\\frac{\\left|\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)\\cdot\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)\\right|}{\\sqrt{6}}=1\n$$\n<p>所以两异面直线 $AB$ 与 $EB_{1}$ 的距离为 $1$.</p></li><li><p>设平面 $AEB_{1}$，$A_{1}EB_{1}$ 的法向量分别为</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{EA}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},-\\sqrt{3}\\right)\n$$\n\n$$\n\\mathbf{n}_{2}=\\overrightarrow{EA_{1}}\\times\\overrightarrow{EB_{1}}=\\left(-\\frac{\\sqrt{6}}{2},-\\frac{3\\sqrt{2}}{2},0\\right)\n$$\n<p>若二面角的平面角为 $\\theta$，则</p>\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}_{1}\\times\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}=\\frac{3\\sqrt{2}}{6}=\\frac{\\sqrt{2}}{2}\n$$\n<p>所以二面角的平面角的正切值为 $\\frac{\\sqrt{2}}{2}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知椭圆 $C_1$ 的方程为 $\\frac{x^2}{4} + y^2 = 1$，双曲线 $C_2$ 的左、右焦点分别为 $C_1$ 的左、右顶点，而 $C_2$ 的左、右顶点分别是 $C_1$ 的左、右焦点.\r\n\r\n\n(1) 求双曲线 $C_2$ 的方程.\n\n(2) 若直线 $l: y = kx + \\sqrt{2}$ 与椭圆 $C_1$ 及双曲线 $C_2$ 都恒有两个不同的交点，且 $l$ 与 $C_2$ 的两个交点 $A$ 和 $B$ 满足 $\\overrightarrow{OA} \\cdot \\overrightarrow{OB} < 6$ （其中 $O$ 为原点），求 $k$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知椭圆 $C_{1}$ 的方程为 $\\frac{x^{2}}{4}+ y^{2} = 1$，双曲线 $C_{2}$ 的左、右焦点分别为 $C_{1}$ 的左、右顶点，而 $C_{2}$ 的左、右顶点分别是 $C_{1}$ 的左、右焦点.</p><ol class=\"enumerate\"><li><p>求双曲线 $C_{2}$ 的方程.</p></li><li><p>若直线 $l: y = kx + \\sqrt{2}$ 与椭圆 $C_{1}$ 及双曲线 $C_{2}$ 都恒有两个不同的交点，且 $l$ 与 $C_{2}$ 的两个交点 $A$ 和 $B$ 满足 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}&#x3C; 6$ （其中 $O$ 为原点），求 $k$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 椭圆 $C_{1}$ 的长半轴为 $2$，焦半距为 $\\sqrt{3}$. 因此双曲线 $C_{2}$ 的焦半距为 $2$，实半轴为 $\\sqrt{3}$，虚半轴满足\r\n$b^{2}=2^{2}-(\\sqrt{3})^{2}=1$，故 $C_{2}:\\frac{x^{2}}{3}-y^{2}=1$.\n\n(2) 直线 $l$ 与椭圆的交点横坐标满足\r\n$\\left(k^{2}+\\frac14\\right)x^{2}+2\\sqrt{2}kx+1=0$，\r\n其判别式为 $4k^{2}-1$，所以与椭圆有两个不同交点的条件是 $|k|>\\frac12$.\r\n\r\n直线 $l$ 与双曲线的交点横坐标满足\r\n$\\left(\\frac13-k^{2}\\right)x^{2}-2\\sqrt{2}kx-3=0$，\r\n其判别式为 $4(1-k^{2})$，且二次项系数不能为零. 因此与双曲线有两个不同交点的条件是\r\n$|k|<1$，$k^{2}\\ne\\frac13$.\r\n\r\n设 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，记 $D=1-3k^{2}$. 由上面的双曲线交点方程及韦达定理，\r\n$x_{1}+x_{2}=\\frac{6\\sqrt{2}k}{D}$，$x_{1}x_{2}=-\\frac{9}{D}$.\r\n又 $y_i=kx_i+\\sqrt{2}$，所以\r\n\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}\r\n=x_{1}x_{2}+y_{1}y_{2}\r\n=(1+k^{2})x_{1}x_{2}+\\sqrt{2}k(x_{1}+x_{2})+2\r\n=-\\frac{7+3k^{2}}{1-3k^{2}}\n$$\n\r\n令 $t=k^{2}$. 结合交点条件，有 $\\frac14<t<1$，且 $t\\ne\\frac13$. 当 $\\frac14<t<\\frac13$ 时，上式小于 $0$，自然小于 $6$；当 $\\frac13<t<1$ 时，条件\r\n$\\frac{7+3t}{3t-1}<6$\r\n等价于 $t>\\frac{13}{15}$. 因此\r\n\n$$\nk^{2}\\in\\left(\\frac14,\\frac13\\right)\\cup\\left(\\frac{13}{15},1\\right)\n$$\n\r\n即\r\n\n$$\nk\\in\\left(-1,-\\sqrt{\\frac{13}{15}}\\right)\\cup\\left(-\\frac{1}{\\sqrt{3}},-\\frac12\\right)\\cup\\left(\\frac12,\\frac{1}{\\sqrt{3}}\\right)\\cup\\left(\\sqrt{\\frac{13}{15}},1\\right)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆 $C_{1}$ 的长半轴为 $2$，焦半距为 $\\sqrt{3}$. 因此双曲线 $C_{2}$ 的焦半距为 $2$，实半轴为 $\\sqrt{3}$，虚半轴满足</p><p>$b^{2}=2^{2}-(\\sqrt{3})^{2}=1$，故 $C_{2}:\\frac{x^{2}}{3}-y^{2}=1$.</p></li><li><p>直线 $l$ 与椭圆的交点横坐标满足</p><p>$\\left(k^{2}+\\frac{1}{4}\\right)x^{2}+2\\sqrt{2}kx+1=0$，</p><p>其判别式为 $4k^{2}-1$，所以与椭圆有两个不同交点的条件是 $|k|>\\frac{1}{2}$.</p><p>直线 $l$ 与双曲线的交点横坐标满足</p><p>$\\left(\\frac{1}{3}-k^{2}\\right)x^{2}-2\\sqrt{2}kx-3=0$，</p><p>其判别式为 $4(1-k^{2})$，且二次项系数不能为零. 因此与双曲线有两个不同交点的条件是</p><p>$|k|&#x3C;1$，$k^{2}\\ne\\frac{1}{3}$.</p><p>设 $A$，$B$ 的横坐标分别为 $x_{1}$，$x_{2}$，记 $D=1-3k^{2}$. 由上面的双曲线交点方程及韦达定理，</p><p>$x_{1}+x_{2}=\\frac{6\\sqrt{2}k}{D}$，$x_{1}x_{2}=-\\frac{9}{D}$.</p><p>又 $y_{i}=kx_{i}+\\sqrt{2}$，所以</p>\n$$\n\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=x_{1}x_{2}+y_{1}y_{2}=(1+k^{2})x_{1}x_{2}+\\sqrt{2}k(x_{1}+x_{2})+2  =-\\frac{7+3k^{2}}{1-3k^{2}}\n$$\n<p>令 $t=k^{2}$. 结合交点条件，有 $\\frac{1}{4}&#x3C;t&#x3C;1$，且 $t\\ne\\frac{1}{3}$. 当 $\\frac{1}{4}&#x3C;t&#x3C;\\frac{1}{3}$ 时，上式小于 $0$，自然小于 $6$；当 $\\frac{1}{3}&#x3C;t&#x3C;1$ 时，条件</p><p>$\\frac{7+3t}{3t-1}&#x3C;6$</p><p>等价于 $t>\\frac{13}{15}$. 因此</p>\n$$\nk^{2}\\in\\left(\\frac{1}{4},\\frac{1}{3}\\right)\\cup\\left(\\frac{13}{15},1\\right)\n$$\n<p>即</p>\n$$\nk\\in\\left(-1,-\\sqrt{\\frac{13}{15}}\\right)\\cup\\left(-\\frac{1}{\\sqrt{3}},-\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},\\frac{1}{\\sqrt{3}}\\right)\\cup\\left(\\sqrt{\\frac{13}{15}},1\\right)\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "数列 $\\{a_{n}\\}$ 满足 $a_1 = 1$ 且 $a_{n + 1} = \\left(1 + \\frac{1}{n^2 + n}\\right)a_n + \\frac{1}{2^n}$ （$n \\ge 1$）.\r\n\r\n\n(1) 用数学归纳法证明： $a_{n} \\ge 2$ （$n \\ge 2$）；\n\n(2) 已知不等式 $\\ln(1+x) < x$ 对 $x > 0$ 成立，证明 $a_{n}<\\mathrm{e}^{2}$ （$n\\geqslant1$），其中无理数 $\\mathrm{e} = 2.71828\\cdots$.",
-          "choices": [],
+          "body": "<p>数列 $\\{a_{n}\\}$ 满足 $a_{1} = 1$ 且 $a_{n + 1}= \\left(1 + \\frac{1}{n^{2} + n}\\right)a_{n} + \\frac{1}{2^{n}}$ （$n \\ge 1$）.</p><ol class=\"enumerate\"><li><p>用数学归纳法证明： $a_{n}\\ge 2$ （$n \\ge 2$）；</p></li><li><p>已知不等式 $\\ln(1+x) &#x3C; x$ 对 $x > 0$ 成立，证明 $a_{n}&#x3C;\\mathrm{e}^{2}$ （$n\\geqslant1$），其中无理数 $\\mathrm{e}= 2.71828\\cdots$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $n=2$ 时，由递推式得\r\n\n$$\na_{2}=\\left(1+\\frac{1}{1^{2}+1}\\right)a_{1}+\\frac12=\\frac32+\\frac12=2\n$$\n\r\n假设 $n\\geqslant2$ 时 $a_{n}\\geqslant2$，则\r\n\n$$\na_{n+1}=\\left(1+\\frac{1}{n^{2}+n}\\right)a_{n}+\\frac{1}{2^{n}}\r\n\\geqslant2\\left(1+\\frac{1}{n^{2}+n}\\right)+\\frac{1}{2^{n}}>2\n$$\n\r\n所以由数学归纳法，$a_{n}\\geqslant2$ 对一切 $n\\geqslant2$ 成立.\n\n(2) 令 $p_{1}=1$，$p_{n}=\\prod_{j=1}^{n-1}\\left(1+\\frac{1}{j^{2}+j}\\right)$（$n\\geqslant2$）.\r\n将递推式除以 $p_{n+1}$，得\r\n\n$$\n\\frac{a_{n+1}}{p_{n+1}}=\\frac{a_{n}}{p_{n}}+\\frac{1}{2^{n}p_{n+1}}\n$$\n\r\n逐项相加，得到\r\n\n$$\n\\frac{a_{n}}{p_{n}}=1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}p_{j+1}}<1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}}<2\n$$\n\r\n其中 $p_{j+1}>1$. 另一方面，由题设不等式，\r\n\n$$\n\\ln p_{n}\r\n=\\sum_{j=1}^{n-1}\\ln\\left(1+\\frac{1}{j^{2}+j}\\right)\r\n<\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}\n$$\n\r\n\r\n又\r\n\n$$\n\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}\r\n=\\sum_{j=1}^{n-1}\\left(\\frac1j-\\frac{1}{j+1}\\right)=1-\\frac1n<1\n$$\n\r\n因此 $p_{n}<\\mathrm{e}$，从而\r\n\n$$\na_{n}<2p_{n}<2\\mathrm{e}<\\mathrm{e}^{2}\n$$\n\r\n因为 $\\mathrm{e}>2$. 故 $a_{n}<\\mathrm{e}^{2}$ 对一切 $n\\geqslant1$ 成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $n=2$ 时，由递推式得</p>\n$$\na_{2}=\\left(1+\\frac{1}{1^{2}+1}\\right)a_{1}+\\frac{1}{2}=\\frac{3}{2}+\\frac{1}{2}=2\n$$\n<p>假设 $n\\geqslant2$ 时 $a_{n}\\geqslant2$，则</p>\n$$\na_{n+1}=\\left(1+\\frac{1}{n^{2}+n}\\right)a_{n}+\\frac{1}{2^{n}}\\geqslant2\\left(1+\\frac{1}{n^{2}+n}\\right)+\\frac{1}{2^{n}}>2\n$$\n<p>所以由数学归纳法，$a_{n}\\geqslant2$ 对一切 $n\\geqslant2$ 成立.</p></li><li><p>令 $p_{1}=1$，$p_{n}=\\prod_{j=1}^{n-1}\\left(1+\\frac{1}{j^{2}+j}\\right)$（$n\\geqslant2$）.</p><p>将递推式除以 $p_{n+1}$，得</p>\n$$\n\\frac{a_{n+1}}{p_{n+1}}=\\frac{a_{n}}{p_{n}}+\\frac{1}{2^{n}p_{n+1}}\n$$\n<p>逐项相加，得到</p>\n$$\n\\frac{a_{n}}{p_{n}}=1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}p_{j+1}}&#x3C;1+\\sum_{j=1}^{n-1}\\frac{1}{2^{j}}&#x3C;2\n$$\n<p>其中 $p_{j+1}>1$. 另一方面，由题设不等式，</p>\n$$\n\\ln p_{n}=\\sum_{j=1}^{n-1}\\ln\\left(1+\\frac{1}{j^{2}+j}\\right)  &#x3C;\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}\n$$\n<p>又</p>\n$$\n\\sum_{j=1}^{n-1}\\frac{1}{j^{2}+j}=\\sum_{j=1}^{n-1}\\left(\\frac{1}{j}-\\frac{1}{j+1}\\right)=1-\\frac{1}{n}&#x3C;1\n$$\n<p>因此 $p_{n}&#x3C;\\mathrm{e}$，从而</p>\n$$\na_{n}&#x3C;2p_{n}&#x3C;2\\mathrm{e}&#x3C;\\mathrm{e}^{2}\n$$\n<p>因为 $\\mathrm{e}>2$. 故 $a_{n}&#x3C;\\mathrm{e}^{2}$ 对一切 $n\\geqslant1$ 成立.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

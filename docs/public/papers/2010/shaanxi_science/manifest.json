@@ -1,170 +1,27 @@
 {
+  "title": "2010年普通高等学校招生全国统一考试",
+  "subtitle": "2010年陕西卷（理）",
   "year": "2010",
   "slug": "shaanxi_science",
-  "title": "2010年陕西卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "选做题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "选做题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "选做题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "集合 $A = \\{x \\mid -1 \\le x \\le 2\\}$，$B = \\{x \\mid x < 1\\}$，则 $A \\cap (\\complement_{\\mathbb{R}} B) =$（ ）",
+          "body": "集合 $A = \\{x \\mid -1 \\le x \\le 2\\}$，$B = \\{x \\mid x &#x3C; 1\\}$，则 $A \\cap (\\complement_{\\mathbb{R}}B) =$（ ）",
           "choices": [
             "$\\{x \\mid x > 1\\}$",
             "$\\{x \\mid x \\ge 1\\}$",
-            "$\\{x\\mid 1 < x\\le 2\\}$",
+            "$\\{x\\mid 1 &#x3C; x\\le 2\\}$",
             "$\\{x\\mid 1\\le x\\le 2\\}$"
           ],
           "answer": "D",
-          "solution": "由 $B=\\{x\\mid x<1\\}$，可得 $\\complement_{\\mathbb{R}}B=\\{x\\mid x\\geqslant1\\}$. 因此 $A\\cap(\\complement_{\\mathbb{R}}B)=\\{x\\mid1\\le x\\leqslant2\\}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $B=\\{x\\mid x&#x3C;1\\}$，可得 $\\complement_{\\mathbb{R}}B=\\{x\\mid x\\geqslant1\\}$. 因此 $A\\cap(\\complement_{\\mathbb{R}}B)=\\{x\\mid1\\le x\\leqslant2\\}$，故选 D."
         },
         {
           "num": 2,
-          "body": "复数 $z = \\frac{1}{1 + \\mathrm{i}}$ 在复平面上对应的点位于（ ）",
+          "body": "复数 $z = \\frac{1}{1 + \\mathrm{i}}$ 在复平面上对应的点位于（ ）",
           "choices": [
             "第一象限",
             "第二象限",
@@ -172,13 +29,11 @@
             "第四象限"
           ],
           "answer": "D",
-          "solution": "分母有理化得 $z=\\frac{1-\\mathrm{i}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac12-\\frac12\\mathrm{i}$. 因此复数对应点的横坐标为正、纵坐标为负，位于第四象限，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "分母有理化得 $z=\\frac{1-\\mathrm{i}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{1}{2}-\\frac{1}{2}\\mathrm{i}$. 因此复数对应点的横坐标为正、纵坐标为负，位于第四象限，故选 D."
         },
         {
           "num": 3,
-          "body": "对于函数 $f(x) = 2\\sin x\\cos x$，下列选项中正确的是（ ）",
+          "body": "对于函数 $f(x) = 2\\sin x\\cos x$，下列选项中正确的是（ ）",
           "choices": [
             "对于 $f(x)$ 在 $\\left(\\frac{\\pi}{4}, \\frac{\\pi}{2}\\right)$ 上是递增的",
             "$f(x)$ 的图象关于原点对称",
@@ -186,13 +41,11 @@
             "$f(x)$ 的最大值为 $2$"
           ],
           "answer": "B",
-          "solution": "由 $f(x)=\\sin2x$，得 $f(-x)=-f(x)$，所以函数图象关于原点对称，选项 B 正确. 在 $\\left(\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)$ 上，$2x\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，函数 $\\sin2x$ 递减；函数的最小正周期为 $\\pi$，最大值为 $1$，故其余选项均不正确.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $f(x)=\\sin2x$，得 $f(-x)=-f(x)$，所以函数图象关于原点对称，选项 B 正确. 在 $\\left(\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)$ 上，$2x\\in\\left(\\frac{\\pi}{2},\\pi\\right)$，函数 $\\sin2x$ 递减；函数的最小正周期为 $\\pi$，最大值为 $1$，故其余选项均不正确."
         },
         {
           "num": 4,
-          "body": "$\\left(x + \\frac{a}{x}\\right)^5$（$x\\in \\mathbb{R}$）展开式中 $x^{3}$ 的系数为 $10$，则实数 $a$ 等于（ ）",
+          "body": "$\\left(x + \\frac{a}{x}\\right)^{5}$（$x\\in \\mathbb{R}$）展开式中 $x^{3}$ 的系数为 $10$，则实数 $a$ 等于（ ）",
           "choices": [
             "$-1$",
             "$\\frac{1}{2}$",
@@ -200,13 +53,11 @@
             "$2$"
           ],
           "answer": "D",
-          "solution": "展开式通项中，若从 $\\frac{a}{x}$ 中取 $k$ 次，从 $x$ 中取 $5-k$ 次，则幂为 $x^{5-2k}$. 要得到 $x^3$，必须有 $5-2k=3$，所以 $k=1$. 因而 $x^3$ 的系数为 $\\mathrm C_5^1a=5a$. 由 $5a=10$，得 $a=2$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "展开式通项中，若从 $\\frac{a}{x}$ 中取 $k$ 次，从 $x$ 中取 $5-k$ 次，则幂为 $x^{5-2k}$. 要得到 $x^{3}$，必须有 $5-2k=3$，所以 $k=1$. 因而 $x^{3}$ 的系数为 $\\mathrm{C}_{5}^{1}a=5a$. 由 $5a=10$，得 $a=2$，故选 D."
         },
         {
           "num": 5,
-          "body": "已知函数 $f(x) = \\begin{cases}\r\n2^x + 1, & x < 1,\\\\\r\nx^2 + ax, & x \\ge 1.\r\n\\end{cases}$ 若 $f(f(0)) = 4a$，则实数 $a$ 等于（ ）",
+          "body": "已知函数 $f(x) = \\begin{cases}2^{x} + 1,&#x26;x &#x3C; 1,\\\\  x^{2} + ax,&#x26;x \\ge 1.\\end{cases}$ 若 $f(f(0)) = 4a$，则实数 $a$ 等于（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$\\frac{4}{5}$",
@@ -214,27 +65,23 @@
             "$9$"
           ],
           "answer": "C",
-          "solution": "因为 $0<1$，所以 $f(0)=2^0+1=2$. 又因为 $2\\geqslant1$，所以 $f(f(0))=f(2)=2^2+2a=4+2a$. 由题设 $4+2a=4a$，解得 $a=2$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $0&#x3C;1$，所以 $f(0)=2^{0}+1=2$. 又因为 $2\\geqslant1$，所以 $f(f(0))=f(2)=2^{2}+2a=4+2a$. 由题设 $4+2a=4a$，解得 $a=2$，故选 C."
         },
         {
           "num": 6,
-          "body": "如图所示是求样本 $x_{1}$，$x_{2}$，$\\cdots$，$x_{10}$ 平均数 $\\overline{x}$ 的程序框图，图中空白框中应填入的内容为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图所示是求样本 $x_{1}$，$x_{2}$，$\\cdots$，$x_{10}$ 平均数 $\\overline{x}$ 的程序框图，图中空白框中应填入的内容为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$S = S + x_{n}$",
-            "$S = S + \\frac{x_n}{n}$",
+            "$S = S + \\frac{x_{n}}{n}$",
             "$S = S + n$",
             "$S = S + \\frac{1}{n}$"
           ],
           "answer": "A",
-          "solution": "程序开始时令 $S=0$，每次循环把当前输入的样本值 $x_n$ 累加到 $S$ 中，然后令 $n$ 增加 $1$. 当输入完 $x_1$、$x_2$、$\\cdots$、$x_{10}$ 后，必须有 $S=x_1+x_2+\\cdots+x_{10}$，最后才能通过 $\\overline{x}=\\frac{S}{n}$ 求平均数. 因此空白框应填 $S=S+x_n$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "程序开始时令 $S=0$，每次循环把当前输入的样本值 $x_{n}$ 累加到 $S$ 中，然后令 $n$ 增加 $1$. 当输入完 $x_{1}$、$x_{2}$、$\\cdots$、$x_{10}$ 后，必须有 $S=x_{1}+x_{2}+\\cdots+x_{10}$，最后才能通过 $\\overline{x}=\\frac{S}{n}$ 求平均数. 因此空白框应填 $S=S+x_{n}$，故选 A."
         },
         {
           "num": 7,
-          "body": "若某空间几何体的三视图如图所示，则该几何体的体积是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>若某空间几何体的三视图如图所示，则该几何体的体积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{1}{3}$",
             "$\\frac{2}{3}$",
@@ -242,13 +89,11 @@
             "$2$"
           ],
           "answer": "C",
-          "solution": "由左视图可知，该几何体的一个垂直截面是直角三角形，两条直角边长分别为 $1$ 和 $\\sqrt{2}$；由主视图和俯视图可知，沿棱柱方向的长度为 $\\sqrt{2}$. 因此该几何体是直三棱柱，体积为\r\n\n$$\nV=\\frac12\\times1\\times\\sqrt{2}\\times\\sqrt{2}=1\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由左视图可知，该几何体的一个垂直截面是直角三角形，两条直角边长分别为 $1$ 和 $\\sqrt{2}$；由主视图和俯视图可知，沿棱柱方向的长度为 $\\sqrt{2}$. 因此该几何体是直三棱柱，体积为</p>\n$$\nV=\\frac{1}{2}\\times1\\times\\sqrt{2}\\times\\sqrt{2}=1\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 8,
-          "body": "已知抛物线 $y^2 = 2px$（$p > 0$）的准线与圆 $x^2 + y^2 - 6x - 7 = 0$ 相切，则 $p$ 的值为（ ）",
+          "body": "已知抛物线 $y^{2} = 2px$（$p > 0$）的准线与圆 $x^{2} + y^{2} - 6x - 7 = 0$ 相切，则 $p$ 的值为（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$1$",
@@ -256,13 +101,11 @@
             "$4$"
           ],
           "answer": "C",
-          "solution": "抛物线 $y^2=2px$ 的准线为 $x=-\\frac p2$. 圆的方程可化为 $(x-3)^2+y^2=16$，所以圆心为 $(3,0)$，半径为 $4$. 准线与圆相切时，圆心到准线的距离等于半径，即 $3+\\frac p2=4$. 因而 $p=2$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 圆的方程可化为 $(x-3)^{2}+y^{2}=16$，所以圆心为 $(3,0)$，半径为 $4$. 准线与圆相切时，圆心到准线的距离等于半径，即 $3+\\frac{p}{2}=4$. 因而 $p=2$，故选 C."
         },
         {
           "num": 9,
-          "body": "对于数列 $\\{a_n\\}$，“$a_{n+1} > |a_n|$（$n = 1$，$2$，$\\cdots$）”是“$\\{a_n\\}$ 为递增数列”的（ ）",
+          "body": "对于数列 $\\{a_{n}\\}$，“$a_{n+1}> |a_{n}|$（$n = 1$，$2$，$\\cdots$）”是“$\\{a_{n}\\}$ 为递增数列”的（ ）",
           "choices": [
             "必要不充分条件",
             "充分不必要条件",
@@ -270,13 +113,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "若对任意正整数 $n$ 都有 $a_{n+1}>|a_n|$，则 $|a_n|\\ge a_n$，从而 $a_{n+1}>a_n$，所以数列必为递增数列. 反之不成立，例如取 $a_n=-\\frac1n$，则 $a_{n+1}>a_n$，数列递增，但 $a_2=-\\frac12\\not>|a_1|=1$. 因此该条件是充分不必要条件，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若对任意正整数 $n$ 都有 $a_{n+1}>|a_{n}|$，则 $|a_{n}|\\ge a_{n}$，从而 $a_{n+1}>a_{n}$，所以数列必为递增数列. 反之不成立，例如取 $a_{n}=-\\frac{1}{n}$，则 $a_{n+1}>a_{n}$，数列递增，但 $a_{2}=-\\frac{1}{2}\\not>|a_{1}|=1$. 因此该条件是充分不必要条件，故选 B."
         },
         {
           "num": 10,
-          "body": "某学校要召开学生代表大会，规定各班每 $10$ 人推选一名代表，当各班人数除以 $10$ 的余数大于 $6$ 时再增选一名代表. 那么，各班可推选代表人数 $y$ 与该班人数 $x$ 之间的函数关系用取整函数 $y = [x]$（$[x]$ 表示不大于 $x$ 的最大整数）可以表示为（ ）",
+          "body": "某学校要召开学生代表大会，规定各班每 $10$ 人推选一名代表，当各班人数除以 $10$ 的余数大于 $6$ 时再增选一名代表. 那么，各班可推选代表人数 $y$ 与该班人数 $x$ 之间的函数关系用取整函数 $y = [x]$（$[x]$ 表示不大于 $x$ 的最大整数）可以表示为（ ）",
           "choices": [
             "$y = \\left[\\frac{x}{10}\\right]$",
             "$y = \\left[\\frac{x + 3}{10}\\right]$",
@@ -284,9 +125,7 @@
             "$y = \\left[\\frac{x + 5}{10}\\right]$"
           ],
           "answer": "B",
-          "solution": "设 $x=10k+r$，其中 $k$ 为非负整数，$0\\le r\\leqslant9$. 当 $0\\le r\\leqslant6$ 时，代表数为 $k$；当 $7\\le r\\leqslant9$ 时，代表数为 $k+1$. 而 $\\left[\\frac{x+3}{10}\\right]=\\left[k+\\frac{r+3}{10}\\right]$ 在前一种情形等于 $k$，在后一种情形等于 $k+1$，正好符合规定. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设 $x=10k+r$，其中 $k$ 为非负整数，$0\\le r\\leqslant9$. 当 $0\\le r\\leqslant6$ 时，代表数为 $k$；当 $7\\le r\\leqslant9$ 时，代表数为 $k+1$. 而 $\\left[\\frac{x+3}{10}\\right]=\\left[k+\\frac{r+3}{10}\\right]$ 在前一种情形等于 $k$，在后一种情形等于 $k+1$，正好符合规定. 故选 B."
         }
       ]
     },
@@ -295,39 +134,31 @@
       "problems": [
         {
           "num": 11,
-          "body": "已知向量 $\\mathbf{a} = (2, -1)$，$\\mathbf{b} = (-1, m)$，$\\mathbf{c} = (-1, 2)$. 若 $(\\mathbf{a} + \\mathbf{b}) \\parallel \\mathbf{c}$，则 $m =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-1\\)",
-          "solution": "由 $\\mathbf{a}+\\mathbf{b}=(1,m-1)$. 因为 $(\\mathbf{a}+\\mathbf{b})\\parallel\\mathbf{c}$，所以两向量的行列式为零，即 $\\begin{vmatrix}1&m-1\\\\-1&2\\end{vmatrix}=2+(m-1)=m+1=0$. 因此 $m=-1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知向量 $\\mathbf{a}= (2, -1)$，$\\mathbf{b}= (-1, m)$，$\\mathbf{c}= (-1, 2)$. 若 $(\\mathbf{a}+ \\mathbf{b}) \\parallel \\mathbf{c}$，则 $m =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-1$",
+          "solution": "由 $\\mathbf{a}+\\mathbf{b}=(1,m-1)$. 因为 $(\\mathbf{a}+\\mathbf{b})\\parallel\\mathbf{c}$，所以两向量的行列式为零，即 $\\begin{vmatrix}1&#x26;m-1\\\\-1&#x26;2\\end{vmatrix}=2+(m-1)=m+1=0$. 因此 $m=-1$."
         },
         {
           "num": 12,
-          "body": "观察下列等式：$1^3 + 2^3 = 3^2$，$1^3 + 2^3 + 3^3 = 6^2$，$1^3 + 2^3 + 3^3 + 4^3 = 10^2$，$\\cdots$，根据上述规律，第五个等式为 _______ {}.",
-          "choices": [],
-          "answer": "\\(1^3 + 2^3 + 3^3 + 4^3 + 5^3 + 6^3 = 21^2\\)",
-          "solution": "对任意正整数 $k$，有\r\n\n$$\n\\left(\\frac{k(k+1)}2\\right)^2-\\left(\\frac{(k-1)k}2\\right)^2\r\n=\\left(\\frac{k(k+1)}2-\\frac{(k-1)k}2\\right)\r\n\\left(\\frac{k(k+1)}2+\\frac{(k-1)k}2\\right)=k\\cdot k^2=k^3\n$$\n\r\n从 $k=1$ 到 $n$ 求和，上式右端构成紧密相消，因而\r\n\n$$\n1^3+2^3+\\cdots+n^3\r\n=\\left(\\frac{n(n+1)}2\\right)^2-\\left(\\frac{1\\cdot0}2\\right)^2\r\n=\\left(\\frac{n(n+1)}2\\right)^2\n$$\n\r\n题中第一个等式对应 $n=2$，所以第五个等式对应 $n=6$. 此时 $1+2+\\cdots+6=21$，故第五个等式为 $1^3+2^3+3^3+4^3+5^3+6^3=21^2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "观察下列等式：$1^{3} + 2^{3} = 3^{2}$，$1^{3} + 2^{3} + 3^{3} = 6^{2}$，$1^{3} + 2^{3} + 3^{3} + 4^{3} = 10^{2}$，$\\cdots$，根据上述规律，第五个等式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1^{3} + 2^{3} + 3^{3} + 4^{3} + 5^{3} + 6^{3} = 21^{2}$",
+          "solution": "<p>对任意正整数 $k$，有</p>\n$$\n\\left(\\frac{k(k+1)}{2}\\right)^{2}-\\left(\\frac{(k-1)k}{2}\\right)^{2}  =\\left(\\frac{k(k+1)}{2}-\\frac{(k-1)k}{2}\\right)  \\left(\\frac{k(k+1)}{2}+\\frac{(k-1)k}{2}\\right)=k\\cdot k^{2}=k^{3}\n$$\n<p>从 $k=1$ 到 $n$ 求和，上式右端构成紧密相消，因而</p>\n$$\n1^{3}+2^{3}+\\cdots+n^{3}  =\\left(\\frac{n(n+1)}{2}\\right)^{2}-\\left(\\frac{1\\cdot0}{2}\\right)^{2}  =\\left(\\frac{n(n+1)}{2}\\right)^{2}\n$$\n<p>题中第一个等式对应 $n=2$，所以第五个等式对应 $n=6$. 此时 $1+2+\\cdots+6=21$，故第五个等式为 $1^{3}+2^{3}+3^{3}+4^{3}+5^{3}+6^{3}=21^{2}$.</p>"
         },
         {
           "num": 13,
-          "body": "从如图所示的长方形区域内任取一个点 $M(x, y)$，则点 $M$ 取自阴影部分的概率为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac{2}{3}\\)",
-          "solution": "由图可知，长方形区域为 $0\\le x\\le 1$，$0\\le y\\le 3$，其面积为 $3$. 阴影部分是长方形中曲线 $y=3x^2$ 右侧的部分，因此阴影面积为\r\n\n$$\n3-\\int_0^1 3x^2\\,\\mathrm{d}x=3-\\left.x^3\\right|_0^1=2\n$$\n\r\n所以点 $M$ 取自阴影部分的概率为 $\\frac{2}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>从如图所示的长方形区域内任取一个点 $M(x, y)$，则点 $M$ 取自阴影部分的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{2}{3}$",
+          "solution": "<p>由图可知，长方形区域为 $0\\le x\\le 1$，$0\\le y\\le 3$，其面积为 $3$. 阴影部分是长方形中曲线 $y=3x^{2}$ 右侧的部分，因此阴影面积为</p>\n$$\n3-\\int_{0}^{1} 3x^{2}\\,\\mathrm{d}x=3-\\left.x^{3}\\right|_{0}^{1}=2\n$$\n<p>所以点 $M$ 取自阴影部分的概率为 $\\frac{2}{3}$.</p>"
         },
         {
           "num": 14,
-          "body": "铁矿石 $A$ 和 $B$ 的含铁率 $a$，冶炼每万吨铁矿石的 $\\mathrm{CO}_2$ 排放量 $b$ 及每万吨铁矿石的价格 $c$ 如下表：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|}\r\n\\hline\r\n & $a$ & $b$（万吨） & $c$（百万元） \\\\\r\n\\hline\r\n$A$ & $50\\%$ & $1$ & $3$ \\\\\r\n\\hline\r\n$B$ & $70\\%$ & $0.5$ & $6$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n某冶炼厂至少要生产 $1.9$ 万吨铁，若要求 $\\mathrm{CO}_2$ 的排放量不超过 $2$ 万吨，则购买铁矿石的最少费用为 _______ {} 百万元.",
-          "choices": [],
+          "body": "<p>铁矿石 $A$ 和 $B$ 的含铁率 $a$，冶炼每万吨铁矿石的 $\\mathrm{CO}_{2}$ 排放量 $b$ 及每万吨铁矿石的价格 $c$ 如下表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> $a$ </td><td style=\"text-align: center; border-right: 1px solid\"> $b$（万吨） </td><td style=\"text-align: center; border-right: 1px solid\"> $c$（百万元） </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$A$ </td><td style=\"text-align: center; border-right: 1px solid\"> $50\\%$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$B$ </td><td style=\"text-align: center; border-right: 1px solid\"> $70\\%$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.5$ </td><td style=\"text-align: center; border-right: 1px solid\"> $6$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>某冶炼厂至少要生产 $1.9$ 万吨铁，若要求 $\\mathrm{CO}_{2}$ 的排放量不超过 $2$ 万吨，则购买铁矿石的最少费用为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 百万元.</p>",
+          "choices": null,
           "answer": "15",
-          "solution": "设购买铁矿石 $A$、$B$ 各 $x$、$y$ 万吨，则 $x\\geqslant0$，$y\\geqslant0$，并且 $\\frac12x+\\frac7{10}y\\ge\\frac{19}{10}$，$x+\\frac12y\\leqslant2$. 购买费用为 $3x+6y$ 百万元.\r\n\r\n对任意满足约束条件的 $x$、$y$，有\r\n\n$$\n3x+6y-15=10\\left(\\frac12x+\\frac7{10}y-\\frac{19}{10}\\right)+2\\left(2-x-\\frac12y\\right)\\geqslant0\n$$\n\r\n所以购买费用不小于 $15$ 百万元. 取 $x=1$、$y=2$ 时，产铁量为 $\\frac12+\\frac7{10}\\times2=1.9$ 万吨，排放量为 $1+\\frac12\\times2=2$ 万吨，满足全部条件，且费用为 $3+6\\times2=15$ 百万元. 因此最少费用为 $15$ 百万元.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设购买铁矿石 $A$、$B$ 各 $x$、$y$ 万吨，则 $x\\geqslant0$，$y\\geqslant0$，并且 $\\frac{1}{2}x+\\frac{7}{10}y\\ge\\frac{19}{10}$，$x+\\frac{1}{2}y\\leqslant2$. 购买费用为 $3x+6y$ 百万元.</p><p>对任意满足约束条件的 $x$、$y$，有</p>\n$$\n3x+6y-15=10\\left(\\frac{1}{2}x+\\frac{7}{10}y-\\frac{19}{10}\\right)+2\\left(2-x-\\frac{1}{2}y\\right)\\geqslant0\n$$\n<p>所以购买费用不小于 $15$ 百万元. 取 $x=1$、$y=2$ 时，产铁量为 $\\frac{1}{2}+\\frac{7}{10}\\times2=1.9$ 万吨，排放量为 $1+\\frac{1}{2}\\times2=2$ 万吨，满足全部条件，且费用为 $3+6\\times2=15$ 百万元. 因此最少费用为 $15$ 百万元.</p>"
         }
       ]
     },
@@ -336,30 +167,24 @@
       "problems": [
         {
           "num": 15,
-          "body": "不等式 $|x + 3| - |x - 2| \\ge 3$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\{x \\mid x \\ge 1\\}\\)",
-          "solution": "按 $x$ 与 $-3$、$2$ 的大小规律分段讨论. 当 $x<-3$ 时，原式等于 $-5<3$；当 $-3\\le x<2$ 时，原式等于 $2x+1$，故需 $x\\geqslant1$；当 $x\\geqslant2$ 时，原式等于 $5$，恒大于等于 $3$. 合并各段可得解集为 $\\{x\\mid x\\geqslant1\\}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "不等式 $|x + 3| - |x - 2| \\ge 3$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\{x \\mid x \\ge 1\\}$",
+          "solution": "按 $x$ 与 $-3$、$2$ 的大小规律分段讨论. 当 $x&#x3C;-3$ 时，原式等于 $-5&#x3C;3$；当 $-3\\le x&#x3C;2$ 时，原式等于 $2x+1$，故需 $x\\geqslant1$；当 $x\\geqslant2$ 时，原式等于 $5$，恒大于等于 $3$. 合并各段可得解集为 $\\{x\\mid x\\geqslant1\\}$."
         },
         {
           "num": 16,
-          "body": "如图，已知 $\\mathrm{Rt}\\triangle ABC$ 的两条直角边 $AC$，$BC$ 的长分别为 $3\\,\\mathrm{cm}$，$4\\,\\mathrm{cm}$，以 $AC$ 为直径的圆与 $AB$ 交于点 $D$，则 $\\frac{BD}{DA} =$ _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac{16}{9}\\)",
-          "solution": "由勾股定理，$AB=\\sqrt{AC^2+BC^2}=\\sqrt{3^2+4^2}=5$. 因为 $D$ 在以 $AC$ 为直径的圆上，所以由圆周角定理得 $\\angle ADC=90^\\circ$，即 $CD\\perp AB$. 在直角三角形 $ABC$ 中，利用斜边上的高的射影定理，得 $AC^2=AB\\cdot AD$，$BC^2=AB\\cdot BD$. 因而 $AD=\\frac95$，$BD=\\frac{16}{5}$，所以 $\\frac{BD}{DA}=\\frac{16}{9}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，已知 $\\mathrm{Rt}\\triangle ABC$ 的两条直角边 $AC$，$BC$ 的长分别为 $3\\,\\mathrm{cm}$，$4\\,\\mathrm{cm}$，以 $AC$ 为直径的圆与 $AB$ 交于点 $D$，则 $\\frac{BD}{DA}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{16}{9}$",
+          "solution": "由勾股定理，$AB=\\sqrt{AC^{2}+BC^{2}}=\\sqrt{3^{2}+4^{2}}=5$. 因为 $D$ 在以 $AC$ 为直径的圆上，所以由圆周角定理得 $\\angle ADC=90^{\\circ}$，即 $CD\\perp AB$. 在直角三角形 $ABC$ 中，利用斜边上的高的射影定理，得 $AC^{2}=AB\\cdot AD$，$BC^{2}=AB\\cdot BD$. 因而 $AD=\\frac{9}{5}$，$BD=\\frac{16}{5}$，所以 $\\frac{BD}{DA}=\\frac{16}{9}$."
         },
         {
           "num": 17,
-          "body": "已知圆 $C$ 的参数方程为 $x = \\cos \\alpha$，$y = 1 + \\sin \\alpha$（$\\alpha$ 为参数），以原点为极点，$x$ 轴正半轴为极轴建立极坐标系. 直线 $l$ 的极坐标方程为 $\\rho\\sin\\theta = 1$，则直线 $l$ 与圆 $C$ 的交点的直角坐标为 _______ {}.",
-          "choices": [],
-          "answer": "\\((-1,1)\\)，\\((1,1)\\)",
-          "solution": "由参数方程消去参数 $\\alpha$，得 $x^2+(y-1)^2=\\cos^2\\alpha+\\sin^2\\alpha=1$. 在极坐标中 $y=\\rho\\sin\\theta$，所以直线 $\\rho\\sin\\theta=1$ 即为直线 $y=1$. 联立圆的方程与直线方程，得 $x^2=1$，从而交点的直角坐标为 $(-1,1)$，$(1,1)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆 $C$ 的参数方程为 $x = \\cos \\alpha$，$y = 1 + \\sin \\alpha$（$\\alpha$ 为参数），以原点为极点，$x$ 轴正半轴为极轴建立极坐标系. 直线 $l$ 的极坐标方程为 $\\rho\\sin\\theta = 1$，则直线 $l$ 与圆 $C$ 的交点的直角坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-1,1)$，$(1,1)$",
+          "solution": "由参数方程消去参数 $\\alpha$，得 $x^{2}+(y-1)^{2}=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1$. 在极坐标中 $y=\\rho\\sin\\theta$，所以直线 $\\rho\\sin\\theta=1$ 即为直线 $y=1$. 联立圆的方程与直线方程，得 $x^{2}=1$，从而交点的直角坐标为 $(-1,1)$，$(1,1)$."
         }
       ]
     },
@@ -368,60 +193,47 @@
       "problems": [
         {
           "num": 18,
-          "body": "已知 $\\{a_n\\}$ 是公差不为零的等差数列，$a_1 = 1$ 且 $a_1$，$a_3$，$a_9$ 成等比数列.\r\n\r\n\n(1) 求数列 $\\{a_n\\}$ 的通项；\n\n(2) 求数列 $\\{2^{a_n}\\}$ 的前 $n$ 项和 $S_n$.",
-          "choices": [],
+          "body": "<p>已知 $\\{a_{n}\\}$ 是公差不为零的等差数列，$a_{1} = 1$ 且 $a_{1}$，$a_{3}$，$a_{9}$ 成等比数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项；</p></li><li><p>求数列 $\\{2^{a_n}\\}$ 的前 $n$ 项和 $S_{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设等差数列 $\\{a_n\\}$ 的公差为 $d$，则 $d\\ne0$，且 $a_n=1+(n-1)d$. 因此 $a_3=1+2d$，$a_9=1+8d$. 由 $a_1$，$a_3$，$a_9$ 成等比数列，得\r\n\n$$\n(1+2d)^2=1\\cdot(1+8d)\n$$\n\r\n化简得 $4d^2-4d=0$，即 $4d(d-1)=0$. 由于 $d\\ne0$，所以 $d=1$，从而\r\n\n$$\na_n=1+(n-1)=n\n$$\n\r\n\r\n于是 $2^{a_n}=2^n$. 设其前 $n$ 项和为 $S_n$，则\r\n\n$$\nS_n=2+2^2+\\cdots+2^n\n$$\n\r\n两边乘以 $2$，得 $2S_n=2^2+2^3+\\cdots+2^{n+1}$. 两式相减，得 $S_n=2^{n+1}-2$.\r\n所以数列 $\\{a_n\\}$ 的通项为 $a_n=n$，数列 $\\{2^{a_n}\\}$ 的前 $n$ 项和为 $S_n=2^{n+1}-2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设等差数列 $\\{a_{n}\\}$ 的公差为 $d$，则 $d\\ne0$，且 $a_{n}=1+(n-1)d$. 因此 $a_{3}=1+2d$，$a_{9}=1+8d$. 由 $a_{1}$，$a_{3}$，$a_{9}$ 成等比数列，得</p>\n$$\n(1+2d)^{2}=1\\cdot(1+8d)\n$$\n<p>化简得 $4d^{2}-4d=0$，即 $4d(d-1)=0$. 由于 $d\\ne0$，所以 $d=1$，从而</p>\n$$\na_{n}=1+(n-1)=n\n$$\n<p>于是 $2^{a_n}=2^{n}$. 设其前 $n$ 项和为 $S_{n}$，则</p>\n$$\nS_{n}=2+2^{2}+\\cdots+2^{n}\n$$\n<p>两边乘以 $2$，得 $2S_{n}=2^{2}+2^{3}+\\cdots+2^{n+1}$. 两式相减，得 $S_{n}=2^{n+1}-2$.</p><p>所以数列 $\\{a_{n}\\}$ 的通项为 $a_{n}=n$，数列 $\\{2^{a_n}\\}$ 的前 $n$ 项和为 $S_{n}=2^{n+1}-2$.</p>"
         },
         {
           "num": 19,
-          "body": "如图，$A$，$B$ 是海面上位于东西方向相距 $5(3 + \\sqrt{3})$ 海里的两个观测点. 现位于 $A$ 点北偏东 $45^\\circ$，$B$ 点北偏西 $60^\\circ$ 的 $D$ 点有一艘轮船发出求救信号，位于 $B$ 点南偏西 $60^\\circ$ 且与 $B$ 点相距 $20\\sqrt{3}$ 海里的 $C$ 点的救援船立即前往营救，其航行速度为 $30$ 海里/小时，该救援船到达 $D$ 点需要多长时间？\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，$A$，$B$ 是海面上位于东西方向相距 $5(3 + \\sqrt{3})$ 海里的两个观测点. 现位于 $A$ 点北偏东 $45^{\\circ}$，$B$ 点北偏西 $60^{\\circ}$ 的 $D$ 点有一艘轮船发出求救信号，位于 $B$ 点南偏西 $60^{\\circ}$ 且与 $B$ 点相距 $20\\sqrt{3}$ 海里的 $C$ 点的救援船立即前往营救，其航行速度为 $30$ 海里/小时，该救援船到达 $D$ 点需要多长时间？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "取东西方向为 $x$ 轴，南北方向为 $y$ 轴正方向，设 $A=(0,0)$，$B=(L,0)$，其中 $L=5(3+\\sqrt{3})$. 由于 $D$ 在 $A$ 点北偏东 $45^\\circ$ 方向上，直线 $AD$ 的方程为 $y=x$. 由于 $D$ 在 $B$ 点北偏西 $60^\\circ$ 方向上，直线 $BD$ 与负 $x$ 轴的夹角为 $30^\\circ$，故其方程为 $y=\\frac{L-x}{\\sqrt{3}}$. 联立得\r\n\n$$\nx=\\frac{L-x}{\\sqrt{3}}=\\frac{L}{1+\\sqrt{3}}=5\\sqrt{3}\n$$\n\r\n所以 $D=(5\\sqrt{3},5\\sqrt{3})$.\r\n\r\n从 $B$ 点南偏西 $60^\\circ$ 方向为标准方向角 $210^\\circ$，且 $BC=20\\sqrt{3}$，因此\r\n\n$$\n\\overrightarrow{BC}=20\\sqrt{3}(\\cos210^\\circ,\\sin210^\\circ)=(-30,-10\\sqrt{3})\n$$\n\r\n从而 $C=(L-30,-10\\sqrt{3})=(5\\sqrt{3}-15,-10\\sqrt{3})$. 于是\r\n\n$$\nCD^2=\\left[5\\sqrt{3}-(5\\sqrt{3}-15)\\right]^2+\\left[5\\sqrt{3}-(-10\\sqrt{3})\\right]^2=15^2+(15\\sqrt{3})^2=900\n$$\n\r\n即 $CD=30$ 海里. 救援船的航行速度为 $30$ 海里/小时，所以到达 $D$ 点所需时间为 $\\frac{30}{30}=1$ 小时.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>取东西方向为 $x$ 轴，南北方向为 $y$ 轴正方向，设 $A=(0,0)$，$B=(L,0)$，其中 $L=5(3+\\sqrt{3})$. 由于 $D$ 在 $A$ 点北偏东 $45^{\\circ}$ 方向上，直线 $AD$ 的方程为 $y=x$. 由于 $D$ 在 $B$ 点北偏西 $60^{\\circ}$ 方向上，直线 $BD$ 与负 $x$ 轴的夹角为 $30^{\\circ}$，故其方程为 $y=\\frac{L-x}{\\sqrt{3}}$. 联立得</p>\n$$\nx=\\frac{L-x}{\\sqrt{3}}=\\frac{L}{1+\\sqrt{3}}=5\\sqrt{3}\n$$\n<p>所以 $D=(5\\sqrt{3},5\\sqrt{3})$.</p><p>从 $B$ 点南偏西 $60^{\\circ}$ 方向为标准方向角 $210^{\\circ}$，且 $BC=20\\sqrt{3}$，因此</p>\n$$\n\\overrightarrow{BC}=20\\sqrt{3}(\\cos210^{\\circ},\\sin210^{\\circ})=(-30,-10\\sqrt{3})\n$$\n<p>从而 $C=(L-30,-10\\sqrt{3})=(5\\sqrt{3}-15,-10\\sqrt{3})$. 于是</p>\n$$\nCD^{2}=\\left[5\\sqrt{3}-(5\\sqrt{3}-15)\\right]^{2}+\\left[5\\sqrt{3}-(-10\\sqrt{3})\\right]^{2}=15^{2}+(15\\sqrt{3})^{2}=900\n$$\n<p>即 $CD=30$ 海里. 救援船的航行速度为 $30$ 海里/小时，所以到达 $D$ 点所需时间为 $\\frac{30}{30}=1$ 小时.</p>"
         },
         {
           "num": 20,
-          "body": "如图，在四棱锥 $P - ABCD$ 中，底面 $ABCD$ 是矩形，$PA \\perp$ 平面 $ABCD$，$AP = AB = 2$，$BC = 2\\sqrt{2}$，$E$，$F$ 分别是 $AD$，$PC$ 的中点.\r\n\r\n\n(1) 证明：$PC \\perp$ 平面 $BEF$；\n\n(2) 求平面 $BEF$ 与平面 $BAP$ 夹角的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在四棱锥 $P - ABCD$ 中，底面 $ABCD$ 是矩形，$PA \\perp$ 平面 $ABCD$，$AP = AB = 2$，$BC = 2\\sqrt{2}$，$E$，$F$ 分别是 $AD$，$PC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$PC \\perp$ 平面 $BEF$；</p></li><li><p>求平面 $BEF$ 与平面 $BAP$ 夹角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立空间直角坐标系，取 $A$ 为原点，令 $AB$、$AD$、$AP$ 分别沿 $x$、$y$、$z$ 轴正方向，则\r\n分别有 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2\\sqrt{2},0)$，$C=(2,2\\sqrt{2},0)$，$P=(0,0,2)$.\r\n因此 $E=(0,\\sqrt{2},0)$，$F=(1,\\sqrt{2},1)$.\r\n\r\n\n(1) 有 $\\overrightarrow{PC}=(2,2\\sqrt{2},-2)$，$\\overrightarrow{BE}=(-2,\\sqrt{2},0)$，$\\overrightarrow{BF}=(-1,\\sqrt{2},1)$.\r\n于是 $\\overrightarrow{PC}\\cdot\\overrightarrow{BE}=-4+4=0$，$\\overrightarrow{PC}\\cdot\\overrightarrow{BF}=-2+4-2=0$.\r\n直线 $BE$ 与 $BF$ 相交于 $B$，且 $BE$、$BF$ 都在平面 $BEF$ 内；又因 $F$ 是 $PC$ 的中点，直线 $PC$ 与平面 $BEF$ 相交于 $F$. 因此由直线与平面垂直的判定定理，$PC\\perp$ 平面 $BEF$.\n\n(2) 平面 $BAP$ 的方程为 $y=0$，可取其一个法向量为 $\\mathbf{n}_1=(0,1,0)$. 平面 $BEF$ 的一个法向量为\r\n\n$$\n\\mathbf{n}_2=\\overrightarrow{BE}\\times\\overrightarrow{BF}=(\\sqrt{2},2,-\\sqrt{2})\n$$\n\r\n设两平面的夹角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\frac{2}{\\sqrt{2+4+2}}=\\frac{1}{\\sqrt{2}}\n$$\n\r\n由于平面夹角取锐角或直角，故 $\\theta=45^\\circ$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立空间直角坐标系，取 $A$ 为原点，令 $AB$、$AD$、$AP$ 分别沿 $x$、$y$、$z$ 轴正方向，则</p><p>分别有 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2\\sqrt{2},0)$，$C=(2,2\\sqrt{2},0)$，$P=(0,0,2)$.</p><p>因此 $E=(0,\\sqrt{2},0)$，$F=(1,\\sqrt{2},1)$.</p><ol class=\"enumerate\"><li><p>有 $\\overrightarrow{PC}=(2,2\\sqrt{2},-2)$，$\\overrightarrow{BE}=(-2,\\sqrt{2},0)$，$\\overrightarrow{BF}=(-1,\\sqrt{2},1)$.</p><p>于是 $\\overrightarrow{PC}\\cdot\\overrightarrow{BE}=-4+4=0$，$\\overrightarrow{PC}\\cdot\\overrightarrow{BF}=-2+4-2=0$.</p><p>直线 $BE$ 与 $BF$ 相交于 $B$，且 $BE$、$BF$ 都在平面 $BEF$ 内；又因 $F$ 是 $PC$ 的中点，直线 $PC$ 与平面 $BEF$ 相交于 $F$. 因此由直线与平面垂直的判定定理，$PC\\perp$ 平面 $BEF$.</p></li><li><p>平面 $BAP$ 的方程为 $y=0$，可取其一个法向量为 $\\mathbf{n}_{1}=(0,1,0)$. 平面 $BEF$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{BE}\\times\\overrightarrow{BF}=(\\sqrt{2},2,-\\sqrt{2})\n$$\n<p>设两平面的夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{2+4+2}}=\\frac{1}{\\sqrt{2}}\n$$\n<p>由于平面夹角取锐角或直角，故 $\\theta=45^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "为了解学生身高情况，某校以 $10\\%$ 的比例对全校 $700$ 名学生按性别进行分层抽样调查，测得身高情况的统计图如下：\r\n\r\n\n(1) 估计该校男生的人数；\n\n(2) 估计该校学生身高在 $170 \\sim 185\\,\\mathrm{cm}$ 之间的概率；\n\n(3) 从样本中身高在 $165 \\sim 180\\,\\mathrm{cm}$ 之间的女生中任选 $2$ 人，求至少有 $1$ 人身高在 $170 \\sim 180\\,\\mathrm{cm}$ 之间的概率.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>为了解学生身高情况，某校以 $10\\%$ 的比例对全校 $700$ 名学生按性别进行分层抽样调查，测得身高情况的统计图如下：</p><ol class=\"enumerate\"><li><p>估计该校男生的人数；</p></li><li><p>估计该校学生身高在 $170 \\sim 185\\,\\mathrm{cm}$ 之间的概率；</p></li><li><p>从样本中身高在 $165 \\sim 180\\,\\mathrm{cm}$ 之间的女生中任选 $2$ 人，求至少有 $1$ 人身高在 $170 \\sim 180\\,\\mathrm{cm}$ 之间的概率.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由统计图可知，男生样本在各身高区间内的频数依次为 $2$，$5$，$14$，$13$，$4$，$2$，所以男生样本数为 $40$. 由于按 $10\\%$ 的比例抽样，估计该校男生人数为 $\\frac{40}{10\\%}=400$ 人.\n\n(2) 女生样本在各身高区间内的频数依次为 $1$，$7$，$12$，$6$，$3$，$1$，所以女生样本数为 $30$，样本总数为 $40+30=70$. 身高在 $170\\sim185\\,\\mathrm{cm}$ 之间的学生样本数为\r\n\n$$\n(14+13+4)+(12+6+3)=52\n$$\n\r\n因此估计该校学生身高在 $170\\sim185\\,\\mathrm{cm}$ 之间的概率为 $\\frac{52}{70}=\\frac{26}{35}$.\n\n(3) 女生样本中身高在 $165\\sim180\\,\\mathrm{cm}$ 之间的共有 $7+12+6=25$ 人，其中身高在 $170\\sim180\\,\\mathrm{cm}$ 之间的有 $12+6=18$ 人，身高在 $165\\sim170\\,\\mathrm{cm}$ 之间的有 $7$ 人. 从这 $25$ 人中任选 $2$ 人，至少有 $1$ 人身高在 $170\\sim180\\,\\mathrm{cm}$ 之间的概率为\r\n\n$$\n1-\\frac{\\mathrm C_7^2}{\\mathrm C_{25}^2}=1-\\frac{21}{300}=\\frac{93}{100}\n$$\n\r\n所以三问的结果分别为 $400$ 人，$\\frac{26}{35}$，$\\frac{93}{100}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由统计图可知，男生样本在各身高区间内的频数依次为 $2$，$5$，$14$，$13$，$4$，$2$，所以男生样本数为 $40$. 由于按 $10\\%$ 的比例抽样，估计该校男生人数为 $\\frac{40}{10\\%}=400$ 人.</p></li><li><p>女生样本在各身高区间内的频数依次为 $1$，$7$，$12$，$6$，$3$，$1$，所以女生样本数为 $30$，样本总数为 $40+30=70$. 身高在 $170\\sim185\\,\\mathrm{cm}$ 之间的学生样本数为</p>\n$$\n(14+13+4)+(12+6+3)=52\n$$\n<p>因此估计该校学生身高在 $170\\sim185\\,\\mathrm{cm}$ 之间的概率为 $\\frac{52}{70}=\\frac{26}{35}$.</p></li><li><p>女生样本中身高在 $165\\sim180\\,\\mathrm{cm}$ 之间的共有 $7+12+6=25$ 人，其中身高在 $170\\sim180\\,\\mathrm{cm}$ 之间的有 $12+6=18$ 人，身高在 $165\\sim170\\,\\mathrm{cm}$ 之间的有 $7$ 人. 从这 $25$ 人中任选 $2$ 人，至少有 $1$ 人身高在 $170\\sim180\\,\\mathrm{cm}$ 之间的概率为</p>\n$$\n1-\\frac{\\mathrm{C}_{7}^{2}}{\\mathrm{C}_{25}^{2}}=1-\\frac{21}{300}=\\frac{93}{100}\n$$\n<p>所以三问的结果分别为 $400$ 人，$\\frac{26}{35}$，$\\frac{93}{100}$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "如图，椭圆 $C : \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ 的顶点为 $A_1$，$A_2$，$B_1$，$B_2$，焦点为 $F_1$，$F_2$，$|A_1B_1| = \\sqrt{7}$，$S_{\\square A_1B_1A_2B_2} = 2S_{\\square B_1F_1B_2F_2}$.\r\n\r\n\n(1) 求椭圆 $C$ 的方程；\n\n(2) 设 $n$ 是过原点的直线，$l$ 是与 $n$ 垂直相交于 $P$ 点，与椭圆相交于 $A$，$B$ 两点的直线，$\\overline{OP} = 1$. 是否存在上述直线 $l$ 使 $\\overrightarrow{AP} \\cdot \\overrightarrow{PB} = 1$ 成立？若存在，求出直线 $l$ 的方程；若不存在，请说明理由.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/shaanxi_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，椭圆 $C : \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ 的顶点为 $A_{1}$，$A_{2}$，$B_{1}$，$B_{2}$，焦点为 $F_{1}$，$F_{2}$，$|A_{1}B_{1}| = \\sqrt{7}$，$S_{\\square A_1B_1A_2B_2}= 2S_{\\square B_1F_1B_2F_2}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>设 $n$ 是过原点的直线，$l$ 是与 $n$ 垂直相交于 $P$ 点，与椭圆相交于 $A$，$B$ 两点的直线，$\\overline{OP}= 1$. 是否存在上述直线 $l$ 使 $\\overrightarrow{AP}\\cdot \\overrightarrow{PB}= 1$ 成立？若存在，求出直线 $l$ 的方程；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "设椭圆的半焦距为 $c$，则 $c^2=a^2-b^2$. 由椭圆顶点和焦点的位置，四边形 $A_1B_1A_2B_2$ 的两条对角线长分别为 $2a$、$2b$，四边形 $B_1F_1B_2F_2$ 的两条对角线长分别为 $2b$、$2c$. 因此\r\n\n$$\n|A_1B_1|^2=a^2+b^2=7\n$$\n\r\n且 $S_{\\square A_1B_1A_2B_2}=2ab$，$S_{\\square B_1F_1B_2F_2}=2bc$.\r\n由题设面积关系得 $2ab=2\\cdot2bc$，所以 $a=2c$. 结合 $c^2=a^2-b^2$，得 $a^2=4(a^2-b^2)$，即 $b^2=\\frac{3}{4}a^2$. 再由 $a^2+b^2=7$，得 $a^2=4$，$b^2=3$.\r\n所以椭圆 $C$ 的方程为\r\n\n$$\n\\frac{x^2}{4}+\\frac{y^2}{3}=1\n$$\n\r\n\r\n\n(1) 设 $P=(p,q)$. 由 $\\overline{OP}=1$，得 $p^2+q^2=1$. 取 $\\mathbf{e}=(-q,p)$，则 $\\mathbf{e}$ 是与 $\\overrightarrow{OP}$ 垂直的单位向量，直线 $l$ 可表示为\r\n\n$$\n(x,y)=(p,q)+t\\mathbf{e}=(p-tq,q+tp)\n$$\n\r\n又因为\r\n\n$$\n\\frac{p^2}{4}+\\frac{q^2}{3}\\le\\frac{p^2+q^2}{3}=\\frac13<1\n$$\n\r\n所以 $P$ 在椭圆内部，$l$ 与椭圆有两个交点. 设它们对应的参数为 $t_1<0<t_2$，并令 $A=P+t_1\\mathbf{e}$，$B=P+t_2\\mathbf{e}$. 代入椭圆方程得\r\n\n$$\n\\left(\\frac{q^2}{4}+\\frac{p^2}{3}\\right)t^2+\\frac{pq}{6}t+\\left(\\frac{p^2}{4}+\\frac{q^2}{3}-1\\right)=0\n$$\n\r\n由韦达定理，\r\n\n$$\nt_1t_2=\\frac{\\frac{p^2}{4}+\\frac{q^2}{3}-1}{\\frac{q^2}{4}+\\frac{p^2}{3}}\n$$\n\r\n又因为 $\\mathbf{e}$ 是单位向量，有\r\n\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{PB}=(-t_1\\mathbf{e})\\cdot(t_2\\mathbf{e})=-t_1t_2=\\frac{1-\\frac{p^2}{4}-\\frac{q^2}{3}}{\\frac{q^2}{4}+\\frac{p^2}{3}}\n$$\n\r\n若 $\\overrightarrow{AP}\\cdot\\overrightarrow{PB}=1$，则\r\n\n$$\n1-\\frac{p^2}{4}-\\frac{q^2}{3}=\\frac{q^2}{4}+\\frac{p^2}{3}\n$$\n\r\n即\r\n\n$$\n1=\\frac{p^2+q^2}{4}+\\frac{p^2+q^2}{3}=\\frac7{12}\n$$\n\r\n矛盾. 因此不存在满足条件的直线 $l$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设椭圆的半焦距为 $c$，则 $c^{2}=a^{2}-b^{2}$. 由椭圆顶点和焦点的位置，四边形 $A_{1}B_{1}A_{2}B_{2}$ 的两条对角线长分别为 $2a$、$2b$，四边形 $B_{1}F_{1}B_{2}F_{2}$ 的两条对角线长分别为 $2b$、$2c$. 因此</p>\n$$\n|A_{1}B_{1}|^{2}=a^{2}+b^{2}=7\n$$\n<p>且 $S_{\\square A_1B_1A_2B_2}=2ab$，$S_{\\square B_1F_1B_2F_2}=2bc$.</p><p>由题设面积关系得 $2ab=2\\cdot2bc$，所以 $a=2c$. 结合 $c^{2}=a^{2}-b^{2}$，得 $a^{2}=4(a^{2}-b^{2})$，即 $b^{2}=\\frac{3}{4}a^{2}$. 再由 $a^{2}+b^{2}=7$，得 $a^{2}=4$，$b^{2}=3$.</p><p>所以椭圆 $C$ 的方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n<ol class=\"enumerate\"><li><p>设 $P=(p,q)$. 由 $\\overline{OP}=1$，得 $p^{2}+q^{2}=1$. 取 $\\mathbf{e}=(-q,p)$，则 $\\mathbf{e}$ 是与 $\\overrightarrow{OP}$ 垂直的单位向量，直线 $l$ 可表示为</p>\n$$\n(x,y)=(p,q)+t\\mathbf{e}=(p-tq,q+tp)\n$$\n<p>又因为</p>\n$$\n\\frac{p^{2}}{4}+\\frac{q^{2}}{3}\\le\\frac{p^{2}+q^{2}}{3}=\\frac{1}{3}&#x3C;1\n$$\n<p>所以 $P$ 在椭圆内部，$l$ 与椭圆有两个交点. 设它们对应的参数为 $t_{1}&#x3C;0&#x3C;t_{2}$，并令 $A=P+t_{1}\\mathbf{e}$，$B=P+t_{2}\\mathbf{e}$. 代入椭圆方程得</p>\n$$\n\\left(\\frac{q^{2}}{4}+\\frac{p^{2}}{3}\\right)t^{2}+\\frac{pq}{6}t+\\left(\\frac{p^{2}}{4}+\\frac{q^{2}}{3}-1\\right)=0\n$$\n<p>由韦达定理，</p>\n$$\nt_{1}t_{2}=\\frac{\\frac{p^{2}}{4}+\\frac{q^{2}}{3}-1}{\\frac{q^{2}}{4}+\\frac{p^{2}}{3}}\n$$\n<p>又因为 $\\mathbf{e}$ 是单位向量，有</p>\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{PB}=(-t_{1}\\mathbf{e})\\cdot(t_{2}\\mathbf{e})=-t_{1}t_{2}=\\frac{1-\\frac{p^{2}}{4}-\\frac{q^{2}}{3}}{\\frac{q^{2}}{4}+\\frac{p^{2}}{3}}\n$$\n<p>若 $\\overrightarrow{AP}\\cdot\\overrightarrow{PB}=1$，则</p>\n$$\n1-\\frac{p^{2}}{4}-\\frac{q^{2}}{3}=\\frac{q^{2}}{4}+\\frac{p^{2}}{3}\n$$\n<p>即</p>\n$$\n1=\\frac{p^{2}+q^{2}}{4}+\\frac{p^{2}+q^{2}}{3}=\\frac{7}{12}\n$$\n<p>矛盾. 因此不存在满足条件的直线 $l$.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "已知函数 $f(x) = \\sqrt{x}$，$g(x) = a\\ln x$，$a \\in \\mathbb{R}$.\r\n\r\n\n(1) 若曲线 $y = f(x)$ 与曲线 $y = g(x)$ 相交，且在交点处有共同的切线，求 $a$ 的值和该切线方程；\n\n(2) 设函数 $h(x) = f(x) - g(x)$，当 $h(x)$ 存在最小值时，求其最小值 $\\varphi(a)$ 的解析式；\n\n(3) 对第 $2$ 问中的 $\\varphi(a)$ 和任意的 $a > 0$，$b > 0$，证明：$\\varphi'\\left(\\frac{a + b}{2}\\right) \\le \\frac{\\varphi'(a) + \\varphi'(b)}{2} \\le \\varphi'\\left(\\frac{2ab}{a + b}\\right)$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\sqrt{x}$，$g(x) = a\\ln x$，$a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若曲线 $y = f(x)$ 与曲线 $y = g(x)$ 相交，且在交点处有共同的切线，求 $a$ 的值和该切线方程；</p></li><li><p>设函数 $h(x) = f(x) - g(x)$，当 $h(x)$ 存在最小值时，求其最小值 $\\varphi(a)$ 的解析式；</p></li><li><p>对第 $2$ 问中的 $\\varphi(a)$ 和任意的 $a > 0$，$b > 0$，证明：$\\varphi'\\left(\\frac{a + b}{2}\\right) \\le \\frac{\\varphi'(a) + \\varphi'(b)}{2}\\le \\varphi'\\left(\\frac{2ab}{a + b}\\right)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设两曲线的交点横坐标为 $t$，则 $t>0$，并且交点处的纵坐标相等、切线斜率相等，所以 $\\sqrt{t}=a\\ln t$，且 $\\frac{1}{2\\sqrt{t}}=\\frac{a}{t}$.\r\n由第二个等式得 $a=\\frac{\\sqrt{t}}{2}$. 代入第一个等式，得 $\\sqrt{t}=\\frac{\\sqrt{t}}{2}\\ln t$. 因 $t>0$，所以 $\\ln t=2$，即 $t=\\mathrm{e}^2$，从而 $a=\\frac{\\mathrm{e}}{2}$.\r\n交点为 $(\\mathrm{e}^2,\\mathrm{e})$，共同切线的斜率为 $\\frac{1}{2\\mathrm{e}}$，故切线方程为\r\n\n$$\ny-\\mathrm{e}=\\frac{1}{2\\mathrm{e}}(x-\\mathrm{e}^2)\n$$\n\r\n即 $x-2\\mathrm{e} y+\\mathrm{e}^2=0$.\n\n(2) 函数 $h$ 的定义域为 $x>0$，且\r\n\n$$\nh'(x)=\\frac{1}{2\\sqrt{x}}-\\frac{a}{x}=\\frac{\\sqrt{x}-2a}{2x}\n$$\n\r\n当 $a>0$ 时，$h'(x)<0$（$0<x<4a^2$），$h'(x)>0$（$x>4a^2$），所以 $h$ 在 $x=4a^2$ 处取得最小值. 此外，$h(x)\\to+\\infty$（$x\\to0^+$）且 $h(x)\\to+\\infty$（$x\\to+\\infty$），故这是定义域上的全局最小值. 此时\r\n\n$$\n\\varphi(a)=h(4a^2)=2a-a\\ln(4a^2)=2a\\left(1-\\ln(2a)\\right)\n$$\n\r\n当 $a=0$ 时，$h(x)=\\sqrt{x}$，虽有 $h(x)\\to0$（$x\\to0^+$），但 $x=0$ 不在定义域内，故不存在最小值. 当 $a<0$ 时，$h(x)=\\sqrt{x}+|a|\\ln x$，且 $h(x)\\to-\\infty$（$x\\to0^+$），也不存在最小值. 因此 $h(x)$ 存在最小值的条件是 $a>0$，此时 $\\varphi(a)=2a\\left(1-\\ln(2a)\\right)$.\n\n(3) 由上式，在 $a>0$ 时\r\n\n$$\n\\varphi'(x)=-2\\ln(2x)\n$$\n\r\n于是 $\\varphi'\\left(\\frac{a+b}{2}\\right)=-2\\ln(a+b)$，且 $\\frac{\\varphi'(a)+\\varphi'(b)}{2}=-\\ln(4ab)$.\r\n\n$$\n\\varphi'\\left(\\frac{2ab}{a+b}\\right)=-2\\ln\\left(\\frac{4ab}{a+b}\\right)\n$$\n\r\n由基本不等式 $(a+b)^2\\geqslant4ab$，并注意到各量均为正数，有\r\n\n$$\n-2\\ln(a+b)\\le-\\ln(4ab)\n$$\n\r\n又因为\r\n\n$$\n4ab\\ge\\left(\\frac{4ab}{a+b}\\right)^2\n$$\n\r\n所以\r\n\n$$\n-\\ln(4ab)\\le-2\\ln\\left(\\frac{4ab}{a+b}\\right)\n$$\n\r\n将上述三式分别代回，即得\r\n\n$$\n\\varphi'\\left(\\frac{a+b}{2}\\right)\\le\\frac{\\varphi'(a)+\\varphi'(b)}{2}\\le\\varphi'\\left(\\frac{2ab}{a+b}\\right)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设两曲线的交点横坐标为 $t$，则 $t>0$，并且交点处的纵坐标相等、切线斜率相等，所以 $\\sqrt{t}=a\\ln t$，且 $\\frac{1}{2\\sqrt{t}}=\\frac{a}{t}$.</p><p>由第二个等式得 $a=\\frac{\\sqrt{t}}{2}$. 代入第一个等式，得 $\\sqrt{t}=\\frac{\\sqrt{t}}{2}\\ln t$. 因 $t>0$，所以 $\\ln t=2$，即 $t=\\mathrm{e}^{2}$，从而 $a=\\frac{\\mathrm{e}}{2}$.</p><p>交点为 $(\\mathrm{e}^{2},\\mathrm{e})$，共同切线的斜率为 $\\frac{1}{2\\mathrm{e}}$，故切线方程为</p>\n$$\ny-\\mathrm{e}=\\frac{1}{2\\mathrm{e}}(x-\\mathrm{e}^{2})\n$$\n<p>即 $x-2\\mathrm{e}y+\\mathrm{e}^{2}=0$.</p></li><li><p>函数 $h$ 的定义域为 $x>0$，且</p>\n$$\nh'(x)=\\frac{1}{2\\sqrt{x}}-\\frac{a}{x}=\\frac{\\sqrt{x}-2a}{2x}\n$$\n<p>当 $a>0$ 时，$h'(x)&#x3C;0$（$0&#x3C;x&#x3C;4a^{2}$），$h'(x)>0$（$x>4a^{2}$），所以 $h$ 在 $x=4a^{2}$ 处取得最小值. 此外，$h(x)\\to+\\infty$（$x\\to0^{+}$）且 $h(x)\\to+\\infty$（$x\\to+\\infty$），故这是定义域上的全局最小值. 此时</p>\n$$\n\\varphi(a)=h(4a^{2})=2a-a\\ln(4a^{2})=2a\\left(1-\\ln(2a)\\right)\n$$\n<p>当 $a=0$ 时，$h(x)=\\sqrt{x}$，虽有 $h(x)\\to0$（$x\\to0^{+}$），但 $x=0$ 不在定义域内，故不存在最小值. 当 $a&#x3C;0$ 时，$h(x)=\\sqrt{x}+|a|\\ln x$，且 $h(x)\\to-\\infty$（$x\\to0^{+}$），也不存在最小值. 因此 $h(x)$ 存在最小值的条件是 $a>0$，此时 $\\varphi(a)=2a\\left(1-\\ln(2a)\\right)$.</p></li><li><p>由上式，在 $a>0$ 时</p>\n$$\n\\varphi'(x)=-2\\ln(2x)\n$$\n<p>于是 $\\varphi'\\left(\\frac{a+b}{2}\\right)=-2\\ln(a+b)$，且 $\\frac{\\varphi'(a)+\\varphi'(b)}{2}=-\\ln(4ab)$.</p>\n$$\n\\varphi'\\left(\\frac{2ab}{a+b}\\right)=-2\\ln\\left(\\frac{4ab}{a+b}\\right)\n$$\n<p>由基本不等式 $(a+b)^{2}\\geqslant4ab$，并注意到各量均为正数，有</p>\n$$\n-2\\ln(a+b)\\le-\\ln(4ab)\n$$\n<p>又因为</p>\n$$\n4ab\\ge\\left(\\frac{4ab}{a+b}\\right)^{2}\n$$\n<p>所以</p>\n$$\n-\\ln(4ab)\\le-2\\ln\\left(\\frac{4ab}{a+b}\\right)\n$$\n<p>将上述三式分别代回，即得</p>\n$$\n\\varphi'\\left(\\frac{a+b}{2}\\right)\\le\\frac{\\varphi'(a)+\\varphi'(b)}{2}\\le\\varphi'\\left(\\frac{2ab}{a+b}\\right)\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -271,7 +272,7 @@ $\l v e r t b o l d(v)|=\l v e r t b o l d(v)-bold(u)|$，所以 $bold(u)\c d o 
 $bold(u)\c d o t b o l d(w)=\l v e r t b o l d(u)|\l v e r t b o l d(w)| cos 60 ""^ degree =(1)/(2)\l v e r t b o l d(u)|^2$. 因此
 $bold(u)\c d o t a r r o w(A_(1) C)=bold(u) dot (bold(v)-bold(w))=0$，故 $A B bot A_(1) C$.
 + (2) 取 $A$ 为坐标原点，令 $B=(2,0,0)$，$C=(1,sqrt(3),0)$. 因为 $A A_1=A B=2$ 且 $angle B A A_1=60^ degree$，可设 $A_1=(1,u,v)$，并由 $A A_1=2$ 得 $u^2+v^2=3$. 又 $A_(1) C=sqrt(6)$，所以
-$\d i s p l a y s t y l e6=(1-1)^2+(sqrt(3)-u)^2+v^2=3-2 sqrt(3)u+u^2+v^2=6-2 sqrt(3)u$，从而 $u=0$，再得 $| v|=sqrt(3)$. 于是三棱柱的高为 $sqrt(3)$. 底面 $A B C$ 为边长 $2$ 的等边三角形，面积为 $(sqrt(3))/(4) times 2 ""^2=sqrt(3)$，故体积为 $sqrt(3)\t i m e s s q r t(3)=3$.
+$\d i s p l a y s t y l e 6=(1-1)^2+(sqrt(3)-u)^2+v^2=3-2 sqrt(3)u+u^2+v^2=6-2 sqrt(3)u$，从而 $u=0$，再得 $| v|=sqrt(3)$. 于是三棱柱的高为 $sqrt(3)$. 底面 $A B C$ 为边长 $2$ 的等边三角形，面积为 $(sqrt(3))/(4) times 2 ""^2=sqrt(3)$，故体积为 $sqrt(3)\t i m e s s q r t(3)=3$.
 ]
 
 #problem(20)[

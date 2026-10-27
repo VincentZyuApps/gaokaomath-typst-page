@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,23 +11,27 @@
 #part-header("单选题")
 
 #problem(1)[
-集合 $P = \{x | x^2 - 16 < 0\}$，$Q = \{x | x = 2 n, n in ZZ \}$，则 $P inter Q =$（ ）
-  #choices([$\{-2, 2\}$], [$\{-2, 2, -4, 4\}$], [$\{-2, 0, 2\}$], [$\{-2, 2, 0, -4, 4\}$], cols: 2)
+集合 #mi(`P = \{x \mid x^{2} - 16 < 0\}`)，#mi(`Q = \{x \mid x = 2n, n \in \mathbb{Z}\}`)，则 #mi(`P \cap Q =`)（ ）
+  #choices([#mi(`\{-2, 2\}`)], [#mi(`\{-2, 2, -4, 4\}`)], [#mi(`\{-2, 0, 2\}`)], [#mi(`\{-2, 2, 0, -4, 4\}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-由 $x^2-16<0$，得 $-4<x<4$，所以 $P=(-4,4)$. 又 $Q$ 是全体偶整数构成的集合，因此
+由 #mi(`x^{2}-16<0`)，得 #mi(`-4<x<4`)，所以 #mi(`P=(-4,4)`). 又 #mi(`Q`) 是全体偶整数构成的集合，因此
 
-$ P inter Q=\{-2,0,2\} $
+
+#align(center)[#mitex(`
+P\cap Q=\{-2,0,2\}
+`)]
+
 
 故选 C.
 ]
 
 #problem(2)[
-已知非零向量 $bold(a)$，$bold(b)$，若 $bold(a)+ 2 bold(b)$ 与 $bold(a)- 2 bold(b)$ 互相垂直，则 $(|bold(a)|)/(|bold(b)|)=$（ ）
-  #choices([$(1)/(4)$], [$4$], [$(1)/(2)$], [$2$], cols: 4)
+已知非零向量 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`)，若 #mi(`\mathbf{a}+ 2\mathbf{b}`) 与 #mi(`\mathbf{a}- 2\mathbf{b}`) 互相垂直，则 #mi(`\frac{|\mathbf{a}|}{|\mathbf{b}|}=`)（ ）
+  #choices([#mi(`\frac{1}{4}`)], [#mi(`4`)], [#mi(`\frac{1}{2}`)], [#mi(`2`)], cols: 2)
 ]
 
 #answer([D])
@@ -35,82 +39,111 @@ $ P inter Q=\{-2,0,2\} $
 #solution[
 由题设两向量互相垂直，有
 
-$ (bold(a)+2 bold(b)) dot (bold(a)-2 bold(b))=0 $
+
+#align(center)[#mitex(`
+(\mathbf{a}+2\mathbf{b})\cdot(\mathbf{a}-2\mathbf{b})=0
+`)]
+
 
 展开并利用数量积的交换律，得
 
-$ |bold(a)|^2-4|bold(b)|^2=0 $
 
-由于 $bold(a)$，$bold(b)$ 均为非零向量，故 $|bold(a)|=2|bold(b)|$，从而
+#align(center)[#mitex(`
+|\mathbf{a}|^{2}-4|\mathbf{b}|^{2}=0
+`)]
 
-$ (|bold(a)|)/(|bold(b)|)=2 $
+
+由于 #mi(`\mathbf{a}`)，#mi(`\mathbf{b}`) 均为非零向量，故 #mi(`|\mathbf{a}|=2|\mathbf{b}|`)，从而
+
+
+#align(center)[#mitex(`
+\frac{|\mathbf{a}|}{|\mathbf{b}|}=2
+`)]
+
 
 故选 D.
 ]
 
 #problem(3)[
-已知 $sin 2 alpha = (2)/(3)$，$alpha in (0, pi )$，则 $sin alpha + cos alpha =$（ ）
-  #choices([$(sqrt(15))/(3)$], [$-(sqrt(15))/(3)$], [$(5)/(3)$], [$-(5)/(3)$], cols: 2)
+已知 #mi(`\sin 2\alpha = \frac{2}{3}`)，#mi(`\alpha \in (0, \pi)`)，则 #mi(`\sin \alpha + \cos \alpha =`)（ ）
+  #choices([#mi(`\frac{\sqrt{15}}{3}`)], [#mi(`-\frac{\sqrt{15}}{3}`)], [#mi(`\frac{5}{3}`)], [#mi(`-\frac{5}{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-因为 $alpha in (0, pi )$，所以 $2 alpha in (0,2 pi )$. 又 $sin 2 alpha =(2)/(3)>0$，故 $2 alpha in (0, pi )$，即 $alpha in (0,(pi)/(2))$. 因此 $sin alpha + cos alpha >0$. 由
+因为 #mi(`\alpha\in(0,\pi)`)，所以 #mi(`2\alpha\in(0,2\pi)`). 又 #mi(`\sin 2\alpha=\frac{2}{3}>0`)，故 #mi(`2\alpha\in(0,\pi)`)，即 #mi(`\alpha\in(0,\frac{\pi}{2})`). 因此 #mi(`\sin\alpha+\cos\alpha>0`). 由
 
-$ ( sin alpha + cos alpha )^2 = sin ""^2 alpha + cos ""^2 alpha +2 sin alpha cos alpha =1+ sin 2 alpha =(5)/(3) $
+
+#align(center)[#mitex(`
+(\sin\alpha+\cos\alpha)^{2}  =\sin^{2}\alpha+\cos^{2}\alpha+2\sin\alpha\cos\alpha  =1+\sin 2\alpha  =\frac{5}{3}
+`)]
+
 
 得
 
-$ sin alpha + cos alpha =sqrt((5)/(3))=(sqrt(15))/(3) $
+
+#align(center)[#mitex(`
+\sin\alpha+\cos\alpha=\sqrt{\frac{5}{3}}=\frac{\sqrt{15}}{3}
+`)]
+
 
 故选 A.
 ]
 
 #problem(4)[
-在等比数列 $\{a_(n)\}$ 中，$a_(1) = 1$，$a_(10) = 3$，则 $a_(2)a_(3)a_(4)a_(5)a_(6)a_(7)a_(8)a_(9) =$（ ）
-  #choices([$81$], [$27 root(5, 27)$], [$sqrt(3)$], [$243$], cols: 2)
+在等比数列 #mi(`\{a_{n}\}`) 中，#mi(`a_{1}= 1`)，#mi(`a_{10}= 3`)，则 #mi(`a_{2}a_{3}a_{4}a_{5}a_{6}a_{7}a_{8}a_{9}=`)（ ）
+  #choices([#mi(`81`)], [#mi(`27\sqrt[5]{27}`)], [#mi(`\sqrt{3}`)], [#mi(`243`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-设等比数列的公比为 $q$. 由 $a_1=1$ 及 $a_(10)=3$，有
+设等比数列的公比为 #mi(`q`). 由 #mi(`a_{1}=1`) 及 #mi(`a_{10}=3`)，有
 
-$ q^9=3 $
+
+#align(center)[#mitex(`
+q^{9}=3
+`)]
+
 
 所求乘积为
 
-$ a_(2) a_3 dots.c a_9 =q^(1+2+ dots.c +8) =q^(36) =(q^9)^4 =3^4=81 $
+
+#align(center)[#mitex(`
+a_{2}a_{3}\cdots a_{9}  =q^{1+2+\cdots+8}=q^{36}=(q^{9})^{4}  =3^{4}=81
+`)]
+
 
 故选 A.
 ]
 
 #problem(5)[
-甲： $A_(1)$， $A_(2)$ 是互斥事件；乙： $A_(1)$， $A_(2)$ 是对立事件，那么（ ）
+甲： #mi(`A_{1}`)， #mi(`A_{2}`) 是互斥事件；乙： #mi(`A_{1}`)， #mi(`A_{2}`) 是对立事件，那么（ ）
   #choices([甲是乙的充分条件但不是必要条件], [甲是乙的必要条件但不是充分条件], [甲是乙的充要条件], [甲既不是乙的充分条件，也不是乙的必要条件], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-对立事件一定互斥，因为对立事件满足 $A_1 inter A_2= emptyset$. 但是互斥事件只要求不能同时发生，还可能存在既不发生 $A_1$ 也不发生 $A_2$ 的第三种结果，因而不一定是对立事件. 例如样本空间含有三个基本结果，$A_1$ 和 $A_2$ 分别只含其中两个不同的基本结果时，它们互斥但不对立.
+对立事件一定互斥，因为对立事件满足 #mi(`A_{1}\cap A_{2}=\varnothing`). 但是互斥事件只要求不能同时发生，还可能存在既不发生 #mi(`A_{1}`) 也不发生 #mi(`A_{2}`) 的第三种结果，因而不一定是对立事件. 例如样本空间含有三个基本结果，#mi(`A_{1}`) 和 #mi(`A_{2}`) 分别只含其中两个不同的基本结果时，它们互斥但不对立.
 
 所以“甲是乙的必要条件但不是充分条件”，故选 B.
 ]
 
 #problem(6)[
-关于直线 $m$，$n$ 与平面 $alpha$，$beta$，有以下四个命题：
+关于直线 #mi(`m`)，#mi(`n`) 与平面 #mi(`\alpha`)，#mi(`\beta`)，有以下四个命题：
 
-\begin{circlelist}
-\item 若 $m parallel alpha$，$n parallel beta$ 且 $alpha parallel beta$，则 $m parallel n$；
-\item 若 $m bot alpha$，$n bot beta$ 且 $alpha bot beta$，则 $m bot n$；
-\item 若 $m bot alpha$，$n parallel beta$ 且 $alpha parallel beta$，则 $m bot n$；
-\item 若 $m parallel alpha$，$n bot beta$ 且 $alpha bot beta$，则 $m parallel n$.
-\end{circlelist}
+
++ (1) 若 #mi(`m \parallel \alpha`)，#mi(`n \parallel \beta`) 且 #mi(`\alpha \parallel \beta`)，则 #mi(`m \parallel n`)；
++ (2) 若 #mi(`m \perp \alpha`)，#mi(`n \perp \beta`) 且 #mi(`\alpha \perp \beta`)，则 #mi(`m \perp n`)；
++ (3) 若 #mi(`m \perp \alpha`)，#mi(`n \parallel \beta`) 且 #mi(`\alpha \parallel \beta`)，则 #mi(`m \perp n`)；
++ (4) 若 #mi(`m \parallel \alpha`)，#mi(`n \perp \beta`) 且 #mi(`\alpha \perp \beta`)，则 #mi(`m \parallel n`).
+
+
 
 其中真命题的序号是（ ）
-  #choices(["①""②"], ["③""④"], ["①""④"], ["②""③"], cols: 4)
+  #choices([①②], [③④], [①④], [②③], cols: 4)
 ]
 
 #answer([D])
@@ -118,110 +151,157 @@ $ a_(2) a_3 dots.c a_9 =q^(1+2+ dots.c +8) =q^(36) =(q^9)^4 =3^4=81 $
 #solution[
 逐一判断如下.
 
-命题 $"[1]"$ 不正确. 若两平面平行，分别平行于这两个平面的两条直线的方向可以不同，因此不能推出 $m parallel n$.
+命题 #mi(`①`) 不正确. 若两平面平行，分别平行于这两个平面的两条直线的方向可以不同，因此不能推出 #mi(`m\parallel n`).
 
-命题 $"[2]"$ 正确. 两条分别垂直于两个平面的直线的方向分别与两个平面的法向量平行；而两互相垂直的平面的法向量互相垂直，所以 $m bot n$.
+命题 #mi(`②`) 正确. 两条分别垂直于两个平面的直线的方向分别与两个平面的法向量平行；而两互相垂直的平面的法向量互相垂直，所以 #mi(`m\perp n`).
 
-命题 $"[3]"$ 正确. 由 $m bot alpha$ 且 $alpha parallel beta$，可得 $m bot beta$；又 $n parallel beta$，所以 $m bot n$.
+命题 #mi(`③`) 正确. 由 #mi(`m\perp\alpha`) 且 #mi(`\alpha\parallel\beta`)，可得 #mi(`m\perp\beta`)；又 #mi(`n\parallel\beta`)，所以 #mi(`m\perp n`).
 
-命题 $"[4]"$ 不正确. 由 $n bot beta$ 且 $alpha bot beta$，只能得到 $n$ 的方向与平面 $alpha$ 平行；而 $m parallel alpha$ 只说明 $m$ 的方向在平面 $alpha$ 的方向范围内，不能推出 $m parallel n$.
+命题 #mi(`④`) 不正确. 由 #mi(`n\perp\beta`) 且 #mi(`\alpha\perp\beta`)，只能得到 #mi(`n`) 的方向与平面 #mi(`\alpha`) 平行；而 #mi(`m\parallel\alpha`) 只说明 #mi(`m`) 的方向在平面 #mi(`\alpha`) 的方向范围内，不能推出 #mi(`m\parallel n`).
 
-因此真命题的序号是 $"[2]"$$"[3]"$，故选 D.
+因此真命题的序号是 #mi(`②`)#mi(`③`)，故选 D.
 ]
 
 #problem(7)[
-设 $f(x) = \l g (2 + x)/(2 - x)$，则 $f((x)/(2)) + f((2)/(x))$ 的定义域为（ ）
-  #choices([$(-4,0) union (0,4)$], [$(-4, - 1) union (1,4)$], [$(-2, - 1) union (1,2)$], [$(-4, - 2) union (2,4)$], cols: 2)
+设 #mi(`f(x) = \lg \frac{2 + x}{2 - x}`)，则 #mi(`f\left(\frac{x}{2}\right) + f\left(\frac{2}{x}\right)`) 的定义域为（ ）
+  #choices([#mi(`(-4,0)\cup (0,4)`)], [#mi(`(-4, - 1)\cup (1,4)`)], [#mi(`(-2, - 1)\cup (1,2)`)], [#mi(`(-4, - 2)\cup (2,4)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-函数 $f(t)$ 有意义的条件是
+函数 #mi(`f(t)`) 有意义的条件是
 
-$ (2+t)/(2-t)>0 $
 
-且分母不为零. 由于分子、分母同号的条件给出 $-2<t<2$，故 $f(t)$ 的定义域为 $(-2,2)$.
+#align(center)[#mitex(`
+\frac{2+t}{2-t}>0
+`)]
 
-对 $f((x)/(2))$，有
 
-$ -2<(x)/(2)<2 <=> -4<x<4 $
+且分母不为零. 由于分子、分母同号的条件给出 #mi(`-2<t<2`)，故 #mi(`f(t)`) 的定义域为 #mi(`(-2,2)`).
 
-对 $f((2)/(x))$，先要求 $x != 0$，再有
+对 #mi(`f(\frac{x}{2})`)，有
 
-$ -2<(2)/(x)<2 <=> x<-1\ "或"\ x>1 $
+
+#align(center)[#mitex(`
+-2<\frac{x}{2}<2\quad\Longleftrightarrow\quad -4<x<4
+`)]
+
+
+对 #mi(`f(\frac{2}{x})`)，先要求 #mi(`x\ne0`)，再有
+
+
+#align(center)[#mitex(`
+-2<\frac{2}{x}<2  \quad\Longleftrightarrow\quad x<-1\ \text{\text{或}}\ x>1
+`)]
+
 
 两条件取交集，得到定义域
 
-$ (-4,-1) union (1,4) $
+
+#align(center)[#mitex(`
+(-4,-1)\cup(1,4)
+`)]
+
 
 故选 B.
 ]
 
 #problem(8)[
-在 $(sqrt(x)- (1)/(root(3, x)))^(24)$ 的展开式中，$x$ 的幂的指数是整数的项共有（ ）
-  #choices([$3$ 项], [$4$ 项], [$5$ 项], [$9$ 项], cols: 4)
+在 #mi(`\left(\sqrt{x}- \frac{1}{\sqrt[3]{x}}\right)^{24}`) 的展开式中，#mi(`x`) 的幂的指数是整数的项共有（ ）
+  #choices([#mi(`3`) 项], [#mi(`4`) 项], [#mi(`5`) 项], [#mi(`9`) 项], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由于式中含有 $sqrt(x)$，且含有 $(1)/(root(3, x))$，展开前需有 $x>0$. 在二项式展开式中，若从第一项取 $k$ 次、从第二项取 $24-k$ 次，则该项中 $x$ 的幂为
+由于式中含有 #mi(`\sqrt{x}`)，且含有 #mi(`\frac{1}{\sqrt[3]{x}}`)，展开前需有 #mi(`x>0`). 在二项式展开式中，若从第一项取 #mi(`k`) 次、从第二项取 #mi(`24-k`) 次，则该项中 #mi(`x`) 的幂为
 
-$ (sqrt(x))^k(-(1)/(root(3, x)))^(24-k) $
+
+#align(center)[#mitex(`
+\left(\sqrt{x}\right)^{k}\left(-\frac{1}{\sqrt[3]{x}}\right)^{24-k}
+`)]
+
 
 其指数为
 
-$ (k)/(2)-(24-k)/(3)=(5 k-48)/(6) $
 
-该指数为整数，当且仅当 $5 k-48$ 被 $6$ 整除. 因为 $5\equiv-1\p m o d 6$，所以这等价于 $k\equiv0\p m o d6$. 在 $0 <= k <= 24$ 中，满足条件的 $k$ 为
-$k=0$，$6$，$12$，$18$，$24$
-共有 $5$ 个，因此共有 $5$ 项. 故选 C.
+#align(center)[#mitex(`
+\frac{k}{2}-\frac{24-k}{3}=\frac{5k-48}{6}
+`)]
+
+
+该指数为整数，当且仅当 #mi(`5k-48`) 被 #mi(`6`) 整除. 因为 #mi(`5\equiv-1\pmod 6`)，所以这等价于 #mi(`k\equiv0\pmod6`). 在 #mi(`0\le k\leqslant24`) 中，满足条件的 #mi(`k`) 为
+
+#mi(`k=0`)，#mi(`6`)，#mi(`12`)，#mi(`18`)，#mi(`24`)
+
+共有 #mi(`5`) 个，因此共有 #mi(`5`) 项. 故选 C.
 ]
 
 #problem(9)[
-设过点 $P(x, y)$ 的直线分别与 $x$ 轴的正半轴和 $y$ 轴的正半轴交于 $A$，$B$ 两点，点 $Q$ 与点 $P$ 关于 $y$ 轴对称，$O$ 为坐标原点，若 $arrow(B P)= 2 arrow(P A)$ 且 $arrow(O Q) dot arrow(A B)= 1$，则点 $P$ 的轨迹方程是（ ）
-  #choices([$3 x^(2) + (3)/(2)y^(2) = 1$（$x > 0$，$y > 0$）], [$3 x^(2) - (3)/(2)y^(2) = 1$（$x > 0$，$y > 0$）], [$(3)/(2)x^2 - 3 y^2 = 1$（$x > 0$，$y > 0$）], [$(3)/(2)x^2 + 3 y^2 = 1$（$x > 0$，$y > 0$）], cols: 1)
+设过点 #mi(`P(x, y)`) 的直线分别与 #mi(`x`) 轴的正半轴和 #mi(`y`) 轴的正半轴交于 #mi(`A`)，#mi(`B`) 两点，点 #mi(`Q`) 与点 #mi(`P`) 关于 #mi(`y`) 轴对称，#mi(`O`) 为坐标原点，若 #mi(`\overrightarrow{BP}= 2\overrightarrow{PA}`) 且 #mi(`\overrightarrow{OQ}\cdot \overrightarrow{AB}= 1`)，则点 #mi(`P`) 的轨迹方程是（ ）
+  #choices([#mi(`3x^{2}+ \frac{3}{2}y^{2}= 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], [#mi(`3x^{2}- \frac{3}{2}y^{2}= 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], [#mi(`\frac{3}{2}x^{2} - 3y^{2} = 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], [#mi(`\frac{3}{2}x^{2} + 3y^{2} = 1`)（#mi(`x > 0`)，#mi(`y > 0`)）], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-设 $A=(u,0)$，$B=(0,v)$，其中 $u>0$，$v>0$. 由
+设 #mi(`A=(u,0)`)，#mi(`B=(0,v)`)，其中 #mi(`u>0`)，#mi(`v>0`). 由
 
-$ arrow(B P)=2 arrow(P A) $
+
+#align(center)[#mitex(`
+\overrightarrow{BP}=2\overrightarrow{PA}
+`)]
+
 
 得
 
-$ P-B=2(A-P) <=> 3 P=2 A+B $
+
+#align(center)[#mitex(`
+P-B=2(A-P)\quad\Longleftrightarrow\quad 3P=2A+B
+`)]
+
 
 因此
 
-$ P=((2 u)/(3),(v)/(3)) $
 
-从而 $u=(3 x)/(2)$，$v=3 y$，且 $x>0$，$y>0$. 又因为 $Q$ 关于 $y$ 轴与 $P$ 对称，所以 $Q=(-x,y)$. 于是
-$arrow(O Q)=(-x,y)$，$arrow(A B)=B-A=(-(3 x)/(2),3 y)$
+#align(center)[#mitex(`
+P=\left(\frac{2u}{3},\frac{v}{3}\right)
+`)]
+
+
+从而 #mi(`u=\frac{3x}{2}`)，#mi(`v=3y`)，且 #mi(`x>0`)，#mi(`y>0`). 又因为 #mi(`Q`) 关于 #mi(`y`) 轴与 #mi(`P`) 对称，所以 #mi(`Q=(-x,y)`). 于是
+
+#mi(`\overrightarrow{OQ}=(-x,y)`)，#mi(`\overrightarrow{AB}=B-A=\left(-\frac{3x}{2},3y\right)`)
+
 由数量积条件
 
-$ arrow(O Q)\c d o t a r r o w(A B)=(-x)(-(3 x)/(2))+y(3 y)=1 $
+
+#align(center)[#mitex(`
+\overrightarrow{OQ}\cdot\overrightarrow{AB}=(-x)\left(-\frac{3x}{2}\right)+y(3y)=1
+`)]
+
 
 得到
-$(3)/(2)x^2+3 y^2=1$，$x>0$，$\ y>0$，
+
+#mi(`\frac{3}{2}x^{2}+3y^{2}=1`)，#mi(`x>0`)，#mi(`\ y>0`)，
+
 故选 D.
 ]
 
 #problem(10)[
-关于 $x$ 的方程 $(x^(2) - 1)^(2) - |x^(2) - 1| + k = 0$，给出下列四个命题：
+关于 #mi(`x`) 的方程 #mi(`(x^{2}- 1)^{2}- |x^{2}- 1| + k = 0`)，给出下列四个命题：
 
-\begin{circlelist}
-\item 存在实数 $k$，使得方程恰有 $2$ 个不同的实根；
-\item 存在实数 $k$，使得方程恰有 $4$ 个不同的实根；
-\item 存在实数 $k$，使得方程恰有 $5$ 个不同的实根；
-\item 存在实数 $k$，使得方程恰有 $8$ 个不同的实根.
-\end{circlelist}
+
++ (1) 存在实数 #mi(`k`)，使得方程恰有 #mi(`2`) 个不同的实根；
++ (2) 存在实数 #mi(`k`)，使得方程恰有 #mi(`4`) 个不同的实根；
++ (3) 存在实数 #mi(`k`)，使得方程恰有 #mi(`5`) 个不同的实根；
++ (4) 存在实数 #mi(`k`)，使得方程恰有 #mi(`8`) 个不同的实根.
+
+
 
 其中假命题的个数是（ ）
-  #choices([$0$], [$1$], [$2$], [$3$], cols: 4)
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`2`)], [#mi(`3`)], cols: 4)
 ]
 
 #answer([A])
@@ -229,370 +309,481 @@ $(3)/(2)x^2+3 y^2=1$，$x>0$，$\ y>0$，
 #solution[
 令
 
-$ t=|x^2-1| >= 0 $
+
+#align(center)[#mitex(`
+t=|x^{2}-1|\geqslant0
+`)]
+
 
 原方程化为
 
-$ t^2-t+k=0 $
 
-对于每个给定的 $t$，当 $t=0$ 时有 $x= +- 1$，产生 $2$ 个根；当 $0<t<1$ 时，$x^2=1+t$ 或 $x^2=1-t$，产生 $4$ 个根；当 $t=1$ 时，$x^2=0$ 或 $x^2=2$，产生 $3$ 个根；当 $t>1$ 时只有 $x^2=1+t$，产生 $2$ 个根.
+#align(center)[#mitex(`
+t^{2}-t+k=0
+`)]
+
+
+对于每个给定的 #mi(`t`)，当 #mi(`t=0`) 时有 #mi(`x=\pm1`)，产生 #mi(`2`) 个根；当 #mi(`0<t<1`) 时，#mi(`x^{2}=1+t`) 或 #mi(`x^{2}=1-t`)，产生 #mi(`4`) 个根；当 #mi(`t=1`) 时，#mi(`x^{2}=0`) 或 #mi(`x^{2}=2`)，产生 #mi(`3`) 个根；当 #mi(`t>1`) 时只有 #mi(`x^{2}=1+t`)，产生 #mi(`2`) 个根.
 
 分别取值即可验证四个命题均为真：
 
-$ \b e g i n{a l i g n e d} k=-1&: t=(1+sqrt(5))/(2)>1, "实根个数为 "2;\\ k=(1)/(4)&: t=(1)/(2), "实根个数为 "4;\\ k=0&: t=0,1, "实根个数为 "2+3=5;\\ k=(1)/(8)&: t=\f r a c{1\p m s q r t((1)/(2))}2 in (0,1), "实根个数为 "4+4=8. \e n d{a l i g n e d} $
 
-其中 $k=0$ 时，$t=0$ 产生 $2$ 个根，$t=1$ 对应 $x=0$，$\p m s q r t(2)$，产生 $3$ 个根，故共 $5$ 个根. 因此四个命题都是真命题，假命题的个数为 $0$. 故选 A.
+#align(center)[#mitex(`
+\begin{aligned}k=-1&:\quad t=\frac{1+\sqrt{5}}{2}>1,\quad \text{\text{实根个数为} }2;\\  k=\frac{1}{4}&:\quad t=\frac{1}{2},\quad \text{\text{实根个数为} }4;\\  k=0&:\quad t=0,1,\quad \text{\text{实根个数为} }2+3=5;\\  k=\frac{1}{8}&:\quad t=\frac{1\pm\sqrt{\frac{1}{2}}}{2}\in(0,1),\quad \text{\text{实根个数为} }4+4=8.\end{aligned}
+`)]
+
+
+其中 #mi(`k=0`) 时，#mi(`t=0`) 产生 #mi(`2`) 个根，#mi(`t=1`) 对应 #mi(`x=0`)，#mi(`\pm\sqrt{2}`)，产生 #mi(`3`) 个根，故共 #mi(`5`) 个根. 因此四个命题都是真命题，假命题的个数为 #mi(`0`). 故选 A.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-在 $triangle A B C$ 中，已知 $a = (4 sqrt(3))/(3)$，$b = 4$，$A = 30^( degree )$，则 $sin B =\f i l l i n b l a n k{}$.
+在 #mi(`\triangle ABC`) 中，已知 #mi(`a = \frac{4\sqrt{3}}{3}`)，#mi(`b = 4`)，#mi(`A = 30^{\circ}`)，则 #mi(`\sin B =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(sqrt(3))/(2)$])
+#answer([#mi(`\frac{\sqrt{3}}{2}`)])
 
 #solution[
 由正弦定理，
 
-$ (a)/(sin A)=(b)/(sin B) $
+
+#align(center)[#mitex(`
+\frac{a}{\sin A}=\frac{b}{\sin B}
+`)]
+
 
 所以
 
-$ sin B=(b sin A)/(a)=(4 dot (1)/(2))/((4 sqrt(3))/(3))=(sqrt(3))/(2) $
 
-故填 $(sqrt(3))/(2)$.
+#align(center)[#mitex(`
+\sin B=\frac{b\sin A}{a}=\frac{4\cdot\frac{1}{2}}{\frac{4\sqrt{3}}{3}}=\frac{\sqrt{3}}{2}
+`)]
+
+
+故填 #mi(`\frac{\sqrt{3}}{2}`).
 ]
 
 #problem(12)[
-接种某疫苗后，出现发热反应的概率为 $0.80$，现有 $5$ 人接种该疫苗，至少有 $3$ 人出现发热反应的概率为#blank(){}.（精确到 $0.01$）
+接种某疫苗后，出现发热反应的概率为 #mi(`0.80`)，现有 #mi(`5`) 人接种该疫苗，至少有 #mi(`3`) 人出现发热反应的概率为\underline{\hspace{2.5em}}.（精确到 #mi(`0.01`)）
 ]
 
 #answer([0.94])
 
 #solution[
-设出现发热反应的人数为 $X$，则 $X tilde B(5,0.8)$，不出现发热反应的概率为 $0.2$. 至少有 $3$ 人发热的概率为
+设出现发热反应的人数为 #mi(`X`)，则 #mi(`X\sim B(5,0.8)`)，不出现发热反应的概率为 #mi(`0.2`). 至少有 #mi(`3`) 人发热的概率为
 
-$ \b e g i n{a l i g n e d} P(X >= 3 ) &=C_5^3(0.8)^3(0.2)^2+C_5^4(0.8)^4(0.2)+(0.8)^5\\ &=10 times 0 .512 times 0 .04+5 times 0 .4096 times 0 .2+0.32768\\ &=0.2048+0.4096+0.32768\\ &=0.94208. \e n d{a l i g n e d} $
 
-精确到 $0.01$ 得 $0.94$.
+#align(center)[#mitex(`
+\begin{aligned}P(X\geqslant3)&=\mathrm{C}_{5}^{3}(0.8)^{3}(0.2)^{2}+\mathrm{C}_{5}^{4}(0.8)^{4}(0.2)+(0.8)^{5}\\&=10\times0.512\times0.04+5\times0.4096\times0.2+0.32768\\&=0.2048+0.4096+0.32768\\&=0.94208.\end{aligned}
+`)]
+
+
+精确到 #mi(`0.01`) 得 #mi(`0.94`).
 ]
 
 #problem(13)[
-若直线 $y = k x + 2$ 与圆 $(x - 2)^2 + (y - 3)^2 = 1$ 有两个不同的交点，则 $k$ 的取值范围是#blank(){}.
+若直线 #mi(`y = kx + 2`) 与圆 #mi(`(x - 2)^{2} + (y - 3)^{2} = 1`) 有两个不同的交点，则 #mi(`k`) 的取值范围是\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(0,(4)/(3))$])
+#answer([#mi(`\left(0,\frac{4}{3}\right)`)])
 
 #solution[
-圆心为 $(2,3)$，半径为 $1$. 直线写成
+圆心为 #mi(`(2,3)`)，半径为 #mi(`1`). 直线写成
 
-$ k x-y+2=0 $
+
+#align(center)[#mitex(`
+kx-y+2=0
+`)]
+
 
 直线与圆有两个不同的交点，当且仅当圆心到直线的距离小于半径，即
 
-$ (|2 k-3+2|)/(sqrt(k^2+1))<1 $
+
+#align(center)[#mitex(`
+\frac{|2k-3+2|}{\sqrt{k^{2}+1}}<1
+`)]
+
 
 化简得
 
-$ (|2 k-1|)/(sqrt(k^2+1))<1 <=> (2 k-1)^2<k^2+1 $
+
+#align(center)[#mitex(`
+\frac{|2k-1|}{\sqrt{k^{2}+1}}<1  \quad\Longleftrightarrow\quad  (2k-1)^{2}<k^{2}+1
+`)]
+
 
 因此
 
-$ 3 k^2-4 k<0 <=> 0<k<(4)/(3) $
 
-故填 $(0,(4)/(3))$.
+#align(center)[#mitex(`
+3k^{2}-4k<0  \quad\Longleftrightarrow\quad  0<k<\frac{4}{3}
+`)]
+
+
+故填 #mi(`\left(0,\frac{4}{3}\right)`).
 ]
 
 #problem(14)[
-安排 $5$ 名歌手的演出顺序时，要求某名歌手不第一个出场，另一名歌手不最后一个出场，不同排法的总数是#blank(){}.（用数字作答）
+安排 #mi(`5`) 名歌手的演出顺序时，要求某名歌手不第一个出场，另一名歌手不最后一个出场，不同排法的总数是\underline{\hspace{2.5em}}.（用数字作答）
 ]
 
 #answer([78])
 
 #solution[
-先不加限制地排列 $5$ 名歌手，共有 $5!=120$ 种. 设第一位受限制的歌手为 $A$，第二位受限制的歌手为 $B$. 不符合“$A$ 不第一个”的排法有 $4!=24$ 种；不符合“$B$ 不最后”的排法有 $4!=24$ 种；同时出现这两种不符合情形时，首位固定为 $A$、末位固定为 $B$，中间三人有 $3!=6$ 种排法.
+先不加限制地排列 #mi(`5`) 名歌手，共有 #mi(`5!=120`) 种. 设第一位受限制的歌手为 #mi(`A`)，第二位受限制的歌手为 #mi(`B`). 不符合“#mi(`A`) 不第一个”的排法有 #mi(`4!=24`) 种；不符合“#mi(`B`) 不最后”的排法有 #mi(`4!=24`) 种；同时出现这两种不符合情形时，首位固定为 #mi(`A`)、末位固定为 #mi(`B`)，中间三人有 #mi(`3!=6`) 种排法.
 
 由容斥原理，符合要求的排法数为
 
-$ 5!-4!-4!+3!=120-24-24+6=78 $
 
-故填 $78$.
+#align(center)[#mitex(`
+5!-4!-4!+3!=120-24-24+6=78
+`)]
+
+
+故填 #mi(`78`).
 ]
 
 #problem(15)[
-半径为 $r$ 的圆的面积 $S(r) = pi r^2$，周长 $C(r) = 2 pi r$，若将 $r$ 看作 $(0, + oo )$ 上的变量，则 $( pi r^2)^\p r i m e = 2 pi r$ $"[1]"$，
-$"[1]"$式可以用语言叙述为：圆的面积函数的导数等于圆的周长函数.
-对于半径为 $R$ 的球，若将 $R$ 看作 $(0, + oo )$ 上的变量，请你写出类似于
-$"[1]"$的式子：#blank(){} $"[2]"$，
-$"[2]"$式可以用语言叙述为：#blank(){}.
+半径为 #mi(`r`) 的圆的面积 #mi(`S(r) = \pi r^{2}`)，周长 #mi(`C(r) = 2\pi r`)，若将 #mi(`r`) 看作 #mi(`(0, +\infty)`) 上的变量，则 #mi(`(\pi r^{2})^{\prime} = 2\pi r`) #mi(`①`)，
+
+#mi(`①`)式可以用语言叙述为：圆的面积函数的导数等于圆的周长函数.
+
+对于半径为 #mi(`R`) 的球，若将 #mi(`R`) 看作 #mi(`(0, +\infty)`) 上的变量，请你写出类似于
+
+#mi(`①`)的式子：\underline{\hspace{2.5em}} #mi(`②`)，
+
+#mi(`②`)式可以用语言叙述为：\underline{\hspace{2.5em}}.
 ]
 
-#answer([$((4)/(3) pi R^3)^\p r i m e = 4 pi R^2$；球的体积函数的导数等于球的表面积函数.])
+#answer([#mi(`\left(\frac{4}{3}\pi R^{3}\right)^{\prime} = 4\pi R^{2}`)；球的体积函数的导数等于球的表面积函数.])
 
 #solution[
-半径为 $R$ 的球的体积函数和表面积函数分别为
-$V(R)=(4)/(3) pi R^3$，$S(R)=4 pi R^2$
+半径为 #mi(`R`) 的球的体积函数和表面积函数分别为
+
+#mi(`V(R)=\frac{4}{3}\pi R^{3}`)，#mi(`S(R)=4\pi R^{2}`)
+
 对体积函数求导，得
 
-$ ((4)/(3) pi R^3)'=4 pi R^2 $
 
-因此所求类似式为 $((4)/(3) pi R^3)'=4 pi R^2$，其语言叙述为：球的体积函数的导数等于球的表面积函数.
+#align(center)[#mitex(`
+\left(\frac{4}{3}\pi R^{3}\right)'=4\pi R^{2}
+`)]
+
+
+因此所求类似式为 #mi(`\left(\frac{4}{3}\pi R^{3}\right)'=4\pi R^{2}`)，其语言叙述为：球的体积函数的导数等于球的表面积函数.
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-设向量 $bold(a)= ( sin x, cos x)$，$bold(b)= ( cos x, cos x)$，$x in RR$. 函数 $f(x) = bold(a) dot (bold(a)+ bold(b))$.
+设向量 #mi(`\mathbf{a}= (\sin x, \cos x)`)，#mi(`\mathbf{b}= (\cos x, \cos x)`)，#mi(`x \in \mathbb{R}`). 函数 #mi(`f(x) = \mathbf{a}\cdot (\mathbf{a}+ \mathbf{b})`).
 
 
-+ (1) 求函数 $f(x)$ 的最大值与最小正周期；
-+ (2) 求使不等式 $f(x) >= (3)/(2)$ 成立的 $x$ 的取值集.
++ (1)
 ]
 
 #solution[
 由向量的数量积，
 
-$ \b e g i n{a l i g n e d} f(x) &=( sin x, cos x) dot ( sin x+ cos x,2 cos x)\\ &= sin ""^(2) x+ sin x cos x+2 cos ""^(2) x\\ &=(3)/(2)+(1)/(2)( sin 2 x+ cos 2 x)\\ &=(3)/(2)+(sqrt(2))/(2) sin (2 x+(pi)/(4)). \e n d{a l i g n e d} $
+
+#align(center)[#mitex(`
+\begin{aligned}f(x)&=(\sin x,\cos x)\cdot(\sin x+\cos x,2\cos x)\\&=\sin^{2}x+\sin x\cos x+2\cos^{2}x\\&=\frac{3}{2}+\frac{1}{2}(\sin 2x+\cos 2x)\\&=\frac{3}{2}+\frac{\sqrt{2}}{2}\sin\left(2x+\frac{\pi}{4}\right).\end{aligned}
+`)]
 
 
 
-+ (1) 因为 $-1 <= sin (2 x+(pi)/(4)) <= 1$，所以
-
-$ (3)/(2)-(sqrt(2))/(2) <= f(x) <= (3)/(2)+(sqrt(2))/(2) $
-
-故 $f(x)$ 的最大值为 $(3)/(2)+(sqrt(2))/(2)$. 由于 $sin (2 x+(pi)/(4))$ 的最小正周期为 $pi$，且系数不改变周期，故 $f(x)$ 的最小正周期为 $pi$.
-+ (2) 不等式 $f(x) >= (3)/(2)$ 等价于
-
-$ sin (2 x+(pi)/(4)) >= 0 $
-
-因此存在 $k in ZZ$，使得
-
-$ 2 k pi <= 2 x+(pi)/(4) <= (2 k+1) pi $
-
-解得
-
-$ k pi -(pi)/(8) <= x <= k pi +(3 pi)/(8) $
-
-所以 $x$ 的取值集为
-
-$ \{x\m i d d l e|k pi -(pi)/(8) <= x <= k pi +(3 pi)/(8),\ k in ZZ \} $
++ (1)
 ]
 
 #problem(17)[
-某单位最近组织了一次健身活动，活动分为登山组和游泳组，且每个职工至多参加了其中一组. 在参加活动的职工中，青年占 $42.5\%$，中年占 $47.5\%$，老年占 $10\%$. 登山组的职工占参加活动总人数的 $(1)/(4)$，且该组中，青年占 $50\%$，中年占 $40\%$，老年占 $10\%$. 为了了解各组不同年龄层次职工对本次活动的满意程度，现用分层抽样的方法从参加活动的全体职工中抽取一个容量为 $200$ 的样本. 试确定：
+某单位最近组织了一次健身活动，活动分为登山组和游泳组，且每个职工至多参加了其中一组. 在参加活动的职工中，青年占 #mi(`42.5\%`)，中年占 #mi(`47.5\%`)，老年占 #mi(`10\%`). 登山组的职工占参加活动总人数的 #mi(`\frac{1}{4}`)，且该组中，青年占 #mi(`50\%`)，中年占 #mi(`40\%`)，老年占 #mi(`10\%`). 为了了解各组不同年龄层次职工对本次活动的满意程度，现用分层抽样的方法从参加活动的全体职工中抽取一个容量为 #mi(`200`) 的样本. 试确定：
 
 
-+ (1) 游泳组中，青年人，中年人，老年人分别所占的比例；
-+ (2) 游泳组中，青年人，中年人，老年人分别应抽取的人数.
++ (1)
 ]
 
 #solution[
-设参加活动的职工总人数为 $N$. 则登山组人数为 $(N)/(4)$，游泳组人数为 $(3 N)/(4)$. 全体职工中青年、中年、老年人数分别为 $0.425 N$、$0.475 N$、$0.1 N$. 登山组中三类职工人数分别为
-$0.5 times (N)/(4)=0.125 N$，$0.4 times (N)/(4)=0.1 N$，$0.1 times (N)/(4)=0.025 N$，
+设参加活动的职工总人数为 #mi(`N`). 则登山组人数为 #mi(`\frac{N}{4}`)，游泳组人数为 #mi(`\frac{3N}{4}`). 全体职工中青年、中年、老年人数分别为 #mi(`0.425N`)、#mi(`0.475N`)、#mi(`0.1N`). 登山组中三类职工人数分别为
+
+#mi(`0.5\times\frac{N}{4}=0.125N`)，#mi(`0.4\times\frac{N}{4}=0.1N`)，#mi(`0.1\times\frac{N}{4}=0.025N`)，
+
 所以游泳组中三类职工人数分别为
-$0.425 N-0.125 N=0.3 N$，$0.475 N-0.1 N=0.375 N$，$0.1 N-0.025 N=0.075 N$
+
+#mi(`0.425N-0.125N=0.3N`)，#mi(`0.475N-0.1N=0.375N`)，#mi(`0.1N-0.025N=0.075N`)
 
 
-+ (1) 游泳组总人数为 $(3 N)/(4)=0.75 N$，故游泳组中青年、中年、老年分别所占的比例为
-$(0.3 N)/(0.75 N)=40\%$，$(0.375 N)/(0.75 N)=50\%$，$(0.075 N)/(0.75 N)=10\%$
-+ (2) 分层抽样时，各层抽取人数与该层职工总人数成比例. 以参加活动的全体职工为总体，容量为 $200$，所以游泳组中青年、中年、老年分别应抽取
-$200 times 0 .3(N)/(N)=60$，$200 times 0 .375(N)/(N)=75$，$200 times 0 .075(N)/(N)=15$
-人.
++ (1)
 ]
 
 #problem(18)[
-如图，已知正三棱柱 $A B C - A_(1)B_(1)C_(1)$ 的侧棱长和底面边长均为 $1$，$M$ 是底面 $B C$ 边上的中点，$N$ 是侧棱 $CC_(1)$ 上的点，且 $C N = 2 C_(1)N$.
+如图，已知正三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 的侧棱长和底面边长均为 #mi(`1`)，#mi(`M`) 是底面 #mi(`BC`) 边上的中点，#mi(`N`) 是侧棱 #mi(`CC_{1}`) 上的点，且 #mi(`CN = 2C_{1}N`).
 
 
-+ (1) 求二面角 $B_(1) - A M - N$ 的平面角的余弦值；
-+ (2) 求点 $B_(1)$ 到平面 $A M N$ 的距离.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2006/img/hubei_liberal/q18_fig1.png", width: 44%)]
+[max width=0.44\linewidth]img/2006/hubei_liberal/q18_fig1.png
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，取
-$B=(-(1)/(2),0,0)$，$C=((1)/(2),0,0)$，$A=(0,(sqrt(3))/(2),0)$
-并令正三棱柱的侧棱方向为 $z$ 轴正方向. 于是
-$M=(0,0,0)$，$B_1=(-(1)/(2),0,1)$
-由 $C N=2 C_(1) N$ 及 $CC_1=1$，得 $C_(1) N=(1)/(3)$，所以
-
-$ N=((1)/(2),0,(2)/(3)) $
-
-
-平面 $A M B_1$ 内的两个不共线方向向量可取
-$arrow(M A)=(0,(sqrt(3))/(2),0)$，$arrow(M B_1)=(-(1)/(2),0,1)$
-由它们的叉积可取平面 $A M B_1$ 的一个法向量为
-
-$ bold(n)_1=(2,0,1) $
-
-同理，平面 $A M N$ 内的两个不共线方向向量为
-$arrow(M A)=(0,(sqrt(3))/(2),0)$，$arrow(M N)=((1)/(2),0,(2)/(3))$
-可取其法向量为
-
-$ bold(n)_2=(4,0,-3) $
-
-所以二面角的平面角的余弦值为
-
-$ (|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1||bold(n)_2|)=(|2 times 4 +1 times (-3)|)/(sqrt(2^2+1^2)sqrt(4^2+(-3)^2))=(5)/(sqrt(5) dot 5)=(sqrt(5))/(5) $
-+ (2) 由法向量 $bold(n)_2=(4,0,-3)$，平面 $A M N$ 的方程为
-
-$ 4 x-3 z=0 $
-
-因为平面经过原点 $M$. 因此点 $B_1$ 到平面 $A M N$ 的距离为
-
-$ (|4(-(1)/(2))-3 times 1 |)/(sqrt(4^2+(-3)^2))=(5)/(5)=1 $
++ (1)
 ]
 
 #problem(19)[
-设函数 $f(x) = x^3 - a x^2 + b x + c$ 在 $x = 1$ 处取得极值 $-2$，试用 $c$ 表示 $a$ 和 $b$，并求 $f(x)$ 的单调区间.
+设函数 #mi(`f(x) = x^{3} - ax^{2} + bx + c`) 在 #mi(`x = 1`) 处取得极值 #mi(`-2`)，试用 #mi(`c`) 表示 #mi(`a`) 和 #mi(`b`)，并求 #mi(`f(x)`) 的单调区间.
 ]
 
 #solution[
-因为 $f(1)=-2$，所以
+因为 #mi(`f(1)=-2`)，所以
 
-$ 1-a+b+c=-2 $
 
-又因为 $f(x)$ 在 $x=1$ 处取得极值，故 $f'(1)=0$. 而
+#align(center)[#mitex(`
+1-a+b+c=-2
+`)]
 
-$ f'(x)=3 x^2-2 a x+b $
+
+又因为 #mi(`f(x)`) 在 #mi(`x=1`) 处取得极值，故 #mi(`f'(1)=0`). 而
+
+
+#align(center)[#mitex(`
+f'(x)=3x^{2}-2ax+b
+`)]
+
 
 所以
 
-$ 3-2 a+b=0 $
 
-联立两式，先由第二式得 $b=2 a-3$，代入第一式得
+#align(center)[#mitex(`
+3-2a+b=0
+`)]
 
-$ 1-a+2 a-3+c=-2 $
+
+联立两式，先由第二式得 #mi(`b=2a-3`)，代入第一式得
+
+
+#align(center)[#mitex(`
+1-a+2a-3+c=-2
+`)]
+
 
 从而
-$a=-c$，$b=-2 c-3$
+
+#mi(`a=-c`)，#mi(`b=-2c-3`)
 
 代入导函数，得
 
-$ f'(x)=3 x^2+2 c x-2 c-3 =(x-1)(3 x+2 c+3) $
+
+#align(center)[#mitex(`
+f'(x)=3x^{2}+2cx-2c-3  =(x-1)(3x+2c+3)
+`)]
+
 
 另一个临界点为
 
-$ r=-(2 c+3)/(3) $
 
-若 $c=-3$，则 $r=1$，此时 $f'(x)=3(x-1)^2$，导函数在 $x=1$ 两侧均为正，函数在该点不取得极值，故必须有 $c != -3$.
-
-当 $c<-3$ 时，$r>1$. 此时由 $f'(x)=(x-1)(3 x+2 c+3)$ 的符号可知，$f(x)$ 在 $(- oo ,1]$ 和 $[r,+ oo )$ 上单调增加，在 $[1,r]$ 上单调减少，即
-
-$ \b e g i n{c a s e s} "在 "(- oo ,1]" 和 "[-(2 c+3)/(3),+ oo )" 上单调增加",\\ "在 "[1,-(2 c+3)/(3)]" 上单调减少". \e n d{c a s e s} $
+#align(center)[#mitex(`
+r=-\frac{2c+3}{3}
+`)]
 
 
-当 $c>-3$ 时，$r<1$. 此时函数在 $(- oo ,r]$ 和 $[1,+ oo )$ 上单调增加，在 $[r,1]$ 上单调减少，即
+若 #mi(`c=-3`)，则 #mi(`r=1`)，此时 #mi(`f'(x)=3(x-1)^{2}`)，导函数在 #mi(`x=1`) 两侧均为正，函数在该点不取得极值，故必须有 #mi(`c\ne-3`).
 
-$ \b e g i n{c a s e s} "在 "(- oo ,-(2 c+3)/(3)]" 和 "[1,+ oo )" 上单调增加",\\ "在 "[-(2 c+3)/(3),1]" 上单调减少". \e n d{c a s e s} $
+当 #mi(`c<-3`) 时，#mi(`r>1`). 此时由 #mi(`f'(x)=(x-1)(3x+2c+3)`) 的符号可知，#mi(`f(x)`) 在 #mi(`(-\infty,1]`) 和 #mi(`[r,+\infty)`) 上单调增加，在 #mi(`[1,r]`) 上单调减少，即
+
+
+#align(center)[#mitex(`
+\begin{cases}\text{\text{在} }(-\infty,1]\text{ \text{和} }\left[-\dfrac{2c+3}{3},+\infty\right)\text{ \text{上单调增加}},\\
+
+\text{\text{在} }\left[1,-\dfrac{2c+3}{3}\right]\text{ \text{上单调减少}}.\end{cases}
+`)]
+
+
+当 #mi(`c>-3`) 时，#mi(`r<1`). 此时函数在 #mi(`(-\infty,r]`) 和 #mi(`[1,+\infty)`) 上单调增加，在 #mi(`[r,1]`) 上单调减少，即
+
+
+#align(center)[#mitex(`
+\begin{cases}\text{\text{在} }\left(-\infty,-\dfrac{2c+3}{3}\right]\text{ \text{和} }[1,+\infty)\text{ \text{上单调增加}},\\
+
+\text{\text{在} }\left[-\dfrac{2c+3}{3},1\right]\text{ \text{上单调减少}}.\end{cases}
+`)]
 ]
 
 #problem(20)[
-设数列 $\{a_(n)\}$ 的前 $n$ 项和为 $S_(n)$，点 $(n, (S_(n))/(n))$（$n in NN ""^(*)$）均在函数 $y = 3 x - 2$ 的图像上.
+设数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和为 #mi(`S_{n}`)，点 #mi(`\left(n, \frac{S_{n}}{n}\right)`)（#mi(`n \in \mathbb{N}^{*}`)）均在函数 #mi(`y = 3x - 2`) 的图像上.
 
 
-+ (1) 求数列 $\{a_(n)\}$ 的通项公式；
-+ (2) 设 $b_n = (3)/(a_n a_(n+1))$，$T_n$ 是数列 $\{b_n\}$ 的前 $n$ 项和，求使得 $T_n < (m)/(20)$ 的所有 $n in bold(N)^*$ 都成立的最小正整数 $m$.
++ (1)
 ]
 
 #solution[
-由点 $(n,(S_n)/(n))$ 在直线 $y=3 x-2$ 上，得
-$(S_n)/(n)=3 n-2$，$S_n=3 n^2-2 n$
-当 $n=1$ 时，$S_1=1$，所以 $a_1=1$. 当 $n >= 2$ 时，
+由点 #mi(`\left(n,\frac{S_{n}}{n}\right)`) 在直线 #mi(`y=3x-2`) 上，得
 
-$ \b e g i n{a l i g n e d} a_n &=S_n-S_(n-1)\\ &=(3 n^2-2 n)-(3(n-1)^2-2(n-1))\\ &=6 n-5. \e n d{a l i g n e d} $
+#mi(`\frac{S_{n}}{n}=3n-2`)，#mi(`S_{n}=3n^{2}-2n`)
 
-当 $n=1$ 时，$6 n-5=1=a_1$，故
-$a_n=6 n-5$，$n in NN ""^(*)$，
+当 #mi(`n=1`) 时，#mi(`S_{1}=1`)，所以 #mi(`a_{1}=1`). 当 #mi(`n\geqslant2`) 时，
+
+
+#align(center)[#mitex(`
+\begin{aligned}a_{n}&=S_{n}-S_{n-1}\\&=(3n^{2}-2n)-\bigl(3(n-1)^{2}-2(n-1)\bigr)\\&=6n-5.\end{aligned}
+`)]
+
+
+当 #mi(`n=1`) 时，#mi(`6n-5=1=a_{1}`)，故
+
+#mi(`a_{n}=6n-5`)，#mi(`n\in\mathbb{N}^{*}`)，
 
 由此
 
-$ b_n=(3)/((6 n-5)(6 n+1))=(1)/(2)((1)/(6 n-5)-(1)/(6 n+1)) $
+
+#align(center)[#mitex(`
+b_{n}=\frac{3}{(6n-5)(6n+1)}=\frac{1}{2}\left(\frac{1}{6n-5}-\frac{1}{6n+1}\right)
+`)]
+
 
 所以
 
-$ \b e g i n{a l i g n e d} T_n &=(1)/(2)sum_(k=1)^(n)((1)/(6 k-5)-(1)/(6 k+1))\\ &=(1)/(2)(1-(1)/(6 n+1))\\ &=(3 n)/(6 n+1). \e n d{a l i g n e d} $
+
+#align(center)[#mitex(`
+\begin{aligned}T_{n}&=\frac{1}{2}\sum_{k=1}^{n}\left(\frac{1}{6k-5}-\frac{1}{6k+1}\right)\\&=\frac{1}{2}\left(1-\frac{1}{6n+1}\right)\\&=\frac{3n}{6n+1}.\end{aligned}
+`)]
+
 
 显然
 
-$ T_n=(3 n)/(6 n+1)<(1)/(2)=(10)/(20) $
 
-对一切 $n in NN ""^(*)$ 成立，因此 $m=10$ 满足条件. 另一方面，若 $m <= 9$，取 $n=2$，则
+#align(center)[#mitex(`
+T_{n}=\frac{3n}{6n+1}<\frac{1}{2}=\frac{10}{20}
+`)]
 
-$ T_2=(6)/(13)>(9)/(20) >= (m)/(20) $
+
+对一切 #mi(`n\in\mathbb{N}^{*}`) 成立，因此 #mi(`m=10`) 满足条件. 另一方面，若 #mi(`m\leqslant9`)，取 #mi(`n=2`)，则
+
+
+#align(center)[#mitex(`
+T_{2}=\frac{6}{13}>\frac{9}{20}\ge\frac{m}{20}
+`)]
+
 
 不满足题设不等式. 因此所求最小正整数为
 
-$ m=10 $
+
+#align(center)[#mitex(`
+m=10
+`)]
 ]
 
 #problem(21)[
-设 $A$，$B$ 分别为椭圆 $(x^2)/(a^2)+ (y^2)/(b^2)= 1$（$a > 0$，$b > 0$）的左，右顶点，椭圆长半轴的长等于焦距，且 $x = 4$ 为它的右准线.
+设 #mi(`A`)，#mi(`B`) 分别为椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > 0`)，#mi(`b > 0`)）的左，右顶点，椭圆长半轴的长等于焦距，且 #mi(`x = 4`) 为它的右准线.
 
 
-+ (1) 求椭圆的方程；
-+ (2) 设 $P$ 为右准线上不同于点 $(4,0)$ 的任意一点. 若直线 $A P$，$B P$ 分别与椭圆相交于异于 $A$，$B$ 的点 $M$，$N$，证明点 $B$ 在以 $M N$ 为直径的圆内.
++ (1)
 ]
 
 #solution[
-设椭圆的半焦距为 $c$，则焦距为 $2 c$. 由“长半轴长等于焦距”，得
+设椭圆的半焦距为 #mi(`c`)，则焦距为 #mi(`2c`). 由“长半轴长等于焦距”，得
 
-$ a=2 c $
 
-右准线方程为 $x=(a^2)/(c)$，又右准线为 $x=4$，所以
+#align(center)[#mitex(`
+a=2c
+`)]
 
-$ (a^2)/(c)=4 $
 
-联立 $a=2 c$，得 $4 c=4$，从而 $c=1$，$a=2$. 又
+右准线方程为 #mi(`x=\frac{a^{2}}{c}`)，又右准线为 #mi(`x=4`)，所以
 
-$ b^2=a^2-c^2=4-1=3 $
+
+#align(center)[#mitex(`
+\frac{a^{2}}{c}=4
+`)]
+
+
+联立 #mi(`a=2c`)，得 #mi(`4c=4`)，从而 #mi(`c=1`)，#mi(`a=2`). 又
+
+
+#align(center)[#mitex(`
+b^{2}=a^{2}-c^{2}=4-1=3
+`)]
+
 
 所以椭圆方程为
 
-$ (x^2)/(4)+(y^2)/(3)=1 $
+
+#align(center)[#mitex(`
+\frac{x^{2}}{4}+\frac{y^{2}}{3}=1
+`)]
 
 
-设 $P=(4,t)$，其中 $t != 0$，且 $A=(-2,0)$，$B=(2,0)$. 直线 $A P$ 上的点可参数表示为
+设 #mi(`P=(4,t)`)，其中 #mi(`t\ne0`)，且 #mi(`A=(-2,0)`)，#mi(`B=(2,0)`). 直线 #mi(`AP`) 上的点可参数表示为
 
-$ X=A+ lambda (P-A)=(-2+6 lambda , lambda t) $
+
+#align(center)[#mitex(`
+X=A+\lambda(P-A)=(-2+6\lambda,\lambda t)
+`)]
+
 
 将其代入椭圆方程，得
 
-$ ((-2+6 lambda )^2)/(4)+(lambda ""^(2) t^2)/(3)=1 $
 
-其中 $lambda =0$ 对应点 $A$，另一个交点 $M$ 对应
+#align(center)[#mitex(`
+\frac{(-2+6\lambda)^{2}}{4}+\frac{\lambda^{2}t^{2}}{3}=1
+`)]
 
-$ lambda =(18)/(t^2+27) $
+
+其中 #mi(`\lambda=0`) 对应点 #mi(`A`)，另一个交点 #mi(`M`) 对应
+
+
+#align(center)[#mitex(`
+\lambda=\frac{18}{t^{2}+27}
+`)]
+
 
 因此
 
-$ M=(-2+(108)/(t^2+27),(18 t)/(t^2+27)) $
+
+#align(center)[#mitex(`
+M=\left(-2+\frac{108}{t^{2}+27},\frac{18t}{t^{2}+27}\right)
+`)]
 
 
-同理，直线 $B P$ 上的点可参数表示为
+同理，直线 #mi(`BP`) 上的点可参数表示为
 
-$ Y=B+ mu (P-B)=(2+2 mu , mu t) $
 
-代入椭圆方程，其中 $mu =0$ 对应点 $B$，另一个交点 $N$ 对应
+#align(center)[#mitex(`
+Y=B+\mu(P-B)=(2+2\mu,\mu t)
+`)]
 
-$ mu =-(6)/(t^2+3)<0 $
 
-所以射线 $B N$ 与射线 $B P$ 方向相反.
+代入椭圆方程，其中 #mi(`\mu=0`) 对应点 #mi(`B`)，另一个交点 #mi(`N`) 对应
 
-考察点 $B$ 处的角. 由
-$arrow(B M)=(-4+6 lambda , lambda t)$，$arrow(B P)=(2,t)$
-以及 $lambda =(18)/(t^2+27)$，有
 
-$ \b e g i n{a l i g n e d} arrow(B M)\c d o t a r r o w(B P)&=(-4+6 lambda ) dot 2 + lambda t^2\\ &=-8+ lambda (12+t^2)\\ &=(10 t^2)/(t^2+27)>0. \e n d{a l i g n e d} $
+#align(center)[#mitex(`
+\mu=-\frac{6}{t^{2}+3}<0
+`)]
 
-故 $angle M B P$ 为锐角. 由于射线 $B N$ 与射线 $B P$ 方向相反，所以
 
-$ angle M B N= pi - angle M B P>(pi)/(2) $
+所以射线 #mi(`BN`) 与射线 #mi(`BP`) 方向相反.
 
-根据直径所对的圆周角为直角，角大于直角时顶点在以对应弦为直径的圆内，故点 $B$ 在以 $M N$ 为直径的圆内.
+考察点 #mi(`B`) 处的角. 由
+
+#mi(`\overrightarrow{BM}=(-4+6\lambda,\lambda t)`)，#mi(`\overrightarrow{BP}=(2,t)`)
+
+以及 #mi(`\lambda=\frac{18}{t^{2}+27}`)，有
+
+
+#align(center)[#mitex(`
+\begin{aligned}\overrightarrow{BM}\cdot\overrightarrow{BP}&=(-4+6\lambda)\cdot2+\lambda t^{2}\\&=-8+\lambda(12+t^{2})\\&=\frac{10t^2}{t^2+27}>0.\end{aligned}
+`)]
+
+
+故 #mi(`\angle MBP`) 为锐角. 由于射线 #mi(`BN`) 与射线 #mi(`BP`) 方向相反，所以
+
+
+#align(center)[#mitex(`
+\angle MBN=\pi-\angle MBP>\frac{\pi}{2}
+`)]
+
+
+根据直径所对的圆周角为直角，角大于直角时顶点在以对应弦为直径的圆内，故点 #mi(`B`) 在以 #mi(`MN`) 为直径的圆内.
 ]
 

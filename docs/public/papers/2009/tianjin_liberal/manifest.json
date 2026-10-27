@@ -1,150 +1,15 @@
 {
+  "title": "2009年普通高等学校招生全国统一考试",
+  "subtitle": "2009年天津卷（文）",
   "year": "2009",
   "slug": "tianjin_liberal",
-  "title": "2009年天津卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "$\\mathrm{i}$ 是虚数单位，$\\frac{5\\mathrm{i}}{2 - \\mathrm{i}} =$（ ）",
+          "body": "$\\mathrm{i}$ 是虚数单位，$\\frac{5\\mathrm{i}}{2 - \\mathrm{i}}=$（ ）",
           "choices": [
             "$1 + 2\\mathrm{i}$",
             "$-1 - 2\\mathrm{i}$",
@@ -152,13 +17,11 @@
             "$-1 + 2\\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "分子、分母同乘以分母的共轭复数，得\r\n\n$$\n\\frac{5\\mathrm{i}}{2-\\mathrm{i}}=\\frac{5\\mathrm{i}(2+\\mathrm{i})}{(2-\\mathrm{i})(2+\\mathrm{i})}=\\frac{-5+10\\mathrm{i}}{5}=-1+2\\mathrm{i}\n$$\n\r\n因此选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分子、分母同乘以分母的共轭复数，得</p>\n$$\n\\frac{5\\mathrm{i}}{2-\\mathrm{i}}=\\frac{5\\mathrm{i}(2+\\mathrm{i})}{(2-\\mathrm{i})(2+\\mathrm{i})}=\\frac{-5+10\\mathrm{i}}{5}=-1+2\\mathrm{i}\n$$\n<p>因此选 D.</p>"
         },
         {
           "num": 2,
-          "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx + y \\ge 3,\\\\\r\nx - y \\ge -1,\\\\\r\n2x - y \\le 3.\r\n\\end{cases}$ 则目标函数 $z = 2x + 3y$ 的最小值为（ ）",
+          "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}x + y \\ge 3,\\\\  x - y \\ge -1,\\\\  2x - y \\le 3.\\end{cases}$ 则目标函数 $z = 2x + 3y$ 的最小值为（ ）",
           "choices": [
             "6",
             "7",
@@ -166,13 +29,11 @@
             "23"
           ],
           "answer": "B",
-          "solution": "可行域的三个顶点分别由边界直线两两相交得到：\r\n$(1,2)$，$(2,1)$，$(4,5)$.\r\n具体地，前三组边界方程分别为\r\n$x+y=3$，$\\ x-y=-1;$，$x+y=3$，$\\ 2x-y=3;$，$x-y=-1$，$\\ 2x-y=3$.\r\n可行域是这三个顶点组成的三角形，线性目标函数在其顶点处取得最值.在三个顶点处，$z$ 的值依次为 $8$，$7$，$23$，所以最小值为 $7$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>可行域的三个顶点分别由边界直线两两相交得到：</p><p>$(1,2)$，$(2,1)$，$(4,5)$.</p><p>具体地，前三组边界方程分别为</p><p>$x+y=3$，$\\ x-y=-1;$，$x+y=3$，$\\ 2x-y=3;$，$x-y=-1$，$\\ 2x-y=3$.</p><p>可行域是这三个顶点组成的三角形，线性目标函数在其顶点处取得最值.在三个顶点处，$z$ 的值依次为 $8$，$7$，$23$，所以最小值为 $7$，选 B.</p>"
         },
         {
           "num": 3,
-          "body": "设 $x \\in \\mathbb{R}$，则 $x = 1$ 是“$x^3 = x$”的（ ）",
+          "body": "设 $x \\in \\mathbb{R}$，则 $x = 1$ 是“$x^{3} = x$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -180,41 +41,35 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "当 $x=1$ 时，确有 $x^3=x$，所以“$x=1$”是“$x^3=x$”的充分条件.另一方面，$x^3=x$ 的解为 $x=-1$，$0$，$1$，不能推出 $x=1$，故不是必要条件.因此选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "当 $x=1$ 时，确有 $x^{3}=x$，所以“$x=1$”是“$x^{3}=x$”的充分条件.另一方面，$x^{3}=x$ 的解为 $x=-1$，$0$，$1$，不能推出 $x=1$，故不是必要条件.因此选 A."
         },
         {
           "num": 4,
-          "body": "设双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$ （$a > 0$，$b > 0$）的虚轴长为 2，焦距为 $2\\sqrt{3}$，则双曲线的渐近线方程为（ ）",
+          "body": "设双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$ （$a > 0$，$b > 0$）的虚轴长为 2，焦距为 $2\\sqrt{3}$，则双曲线的渐近线方程为（ ）",
           "choices": [
-            "$y = \\pm \\sqrt{2} x$",
+            "$y = \\pm \\sqrt{2}x$",
             "$y = \\pm 2x$",
-            "$y = \\pm \\frac{\\sqrt{2}}{2} x$",
-            "$y = \\pm \\frac{1}{2} x$"
+            "$y = \\pm \\frac{\\sqrt{2}}{2}x$",
+            "$y = \\pm \\frac{1}{2}x$"
           ],
           "answer": "C",
-          "solution": "虚轴长为 $2b=2$，所以 $b=1$.焦距为 $2c=2\\sqrt{3}$，所以 $c=\\sqrt{3}$.由双曲线关系 $c^2=a^2+b^2$，得 $a=\\sqrt{2}$.其渐近线为\r\n\n$$\ny=\\pm\\frac{b}{a}x=\\pm\\frac{\\sqrt{2}}{2}x\n$$\n\r\n因此选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>虚轴长为 $2b=2$，所以 $b=1$.焦距为 $2c=2\\sqrt{3}$，所以 $c=\\sqrt{3}$.由双曲线关系 $c^{2}=a^{2}+b^{2}$，得 $a=\\sqrt{2}$.其渐近线为</p>\n$$\ny=\\pm\\frac{b}{a}x=\\pm\\frac{\\sqrt{2}}{2}x\n$$\n<p>因此选 C.</p>"
         },
         {
           "num": 5,
-          "body": "设 $a = \\log_{\\frac{1}{3}} 2$，$b = \\log_{\\frac{1}{2}} \\frac{1}{3}$，$c = \\left(\\frac{1}{2}\\right)^{0.3}$，则（ ）",
+          "body": "设 $a = \\log_{\\frac{1}{3}}2$，$b = \\log_{\\frac{1}{2}}\\frac{1}{3}$，$c = \\left(\\frac{1}{2}\\right)^{0.3}$，则（ ）",
           "choices": [
-            "$a < b < c$",
-            "$a < c < b$",
-            "$b < c < a$",
-            "$b < a < c$"
+            "$a &#x3C; b &#x3C; c$",
+            "$a &#x3C; c &#x3C; b$",
+            "$b &#x3C; c &#x3C; a$",
+            "$b &#x3C; a &#x3C; c$"
           ],
           "answer": "B",
-          "solution": "因为 $0<\\frac13<1$，所以 $a=\\log_{\\frac{1}{3}}2<0$.又因为 $0<c<1$，故 $a<c$.此外\r\n\n$$\nb=\\log_{\\frac{1}{2}}\\frac13=\\log_2 3>1>c\n$$\n\r\n所以 $a<c<b$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $0&#x3C;\\frac{1}{3}&#x3C;1$，所以 $a=\\log_{\\frac{1}{3}}2&#x3C;0$.又因为 $0&#x3C;c&#x3C;1$，故 $a&#x3C;c$.此外</p>\n$$\nb=\\log_{\\frac{1}{2}}\\frac{1}{3}=\\log_{2} 3>1>c\n$$\n<p>所以 $a&#x3C;c&#x3C;b$，选 B.</p>"
         },
         {
           "num": 6,
-          "body": "阅读如图的程序框图，则输出的 $S$ =（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/tianjin_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>阅读如图的程序框图，则输出的 $S$ =（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "14",
             "20",
@@ -222,13 +77,11 @@
             "55"
           ],
           "answer": "C",
-          "solution": "初始时 $S=0$，$i=1$.每次循环先执行 $S=S+i^2$，再执行 $i=i+1$，当 $i>4$ 时停止.因此依次累加\r\n\n$$\n1^2+2^2+3^2+4^2=30\n$$\n\r\n故输出 $S=30$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>初始时 $S=0$，$i=1$.每次循环先执行 $S=S+i^{2}$，再执行 $i=i+1$，当 $i>4$ 时停止.因此依次累加</p>\n$$\n1^{2}+2^{2}+3^{2}+4^{2}=30\n$$\n<p>故输出 $S=30$，选 C.</p>"
         },
         {
           "num": 7,
-          "body": "已知函数 $f(x) = \\sin \\left( \\omega x + \\frac{\\pi}{4} \\right)$ （$x \\in \\mathbb{R}$，$\\omega > 0$）的最小正周期为 $\\pi$. 将 $y = f(x)$ 的图象向左平移 $\\left| \\varphi \\right|$ 个单位长度，所得图象关于 $y$ 轴对称，则 $\\varphi$ 的一个值是（ ）",
+          "body": "已知函数 $f(x) = \\sin \\left( \\omega x + \\frac{\\pi}{4}\\right)$ （$x \\in \\mathbb{R}$，$\\omega > 0$）的最小正周期为 $\\pi$. 将 $y = f(x)$ 的图象向左平移 $\\left| \\varphi \\right|$ 个单位长度，所得图象关于 $y$ 轴对称，则 $\\varphi$ 的一个值是（ ）",
           "choices": [
             "$\\frac{\\pi}{2}$",
             "$\\frac{3\\pi}{8}$",
@@ -236,13 +89,11 @@
             "$\\frac{\\pi}{8}$"
           ],
           "answer": "D",
-          "solution": "由周期公式 $\\frac{2\\pi}{\\omega}=\\pi$，得 $\\omega=2$.向左平移 $\\left|\\varphi\\right|$ 后，函数变为\r\n\n$$\ng(x)=\\sin\\left(2x+2\\left|\\varphi\\right|+\\frac{\\pi}{4}\\right)\n$$\n\r\n要使 $g$ 关于 $y$ 轴对称，展开正弦后 $\\sin 2x$ 的系数必须为零，即\r\n\n$$\n\\cos\\left(2\\left|\\varphi\\right|+\\frac{\\pi}{4}\\right)=0\n$$\n\r\n取 $2\\left|\\varphi\\right|+\\frac{\\pi}{4}=\\frac{\\pi}{2}$，得 $\\left|\\varphi\\right|=\\frac{\\pi}{8}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由周期公式 $\\frac{2\\pi}{\\omega}=\\pi$，得 $\\omega=2$.向左平移 $\\left|\\varphi\\right|$ 后，函数变为</p>\n$$\ng(x)=\\sin\\left(2x+2\\left|\\varphi\\right|+\\frac{\\pi}{4}\\right)\n$$\n<p>要使 $g$ 关于 $y$ 轴对称，展开正弦后 $\\sin 2x$ 的系数必须为零，即</p>\n$$\n\\cos\\left(2\\left|\\varphi\\right|+\\frac{\\pi}{4}\\right)=0\n$$\n<p>取 $2\\left|\\varphi\\right|+\\frac{\\pi}{4}=\\frac{\\pi}{2}$，得 $\\left|\\varphi\\right|=\\frac{\\pi}{8}$，故选 D.</p>"
         },
         {
           "num": 8,
-          "body": "设函数 $f(x) = \\begin{cases}\r\nx^2 - 4x + 6, & x \\ge 0,\\\\\r\nx + 6, & x < 0,\r\n\\end{cases}$ 则不等式 $f(x) > f(1)$ 的解集是（ ）",
+          "body": "设函数 $f(x) = \\begin{cases}x^{2} - 4x + 6,&#x26;x \\ge 0,\\\\  x + 6,&#x26;x &#x3C; 0,\\end{cases}$ 则不等式 $f(x) > f(1)$ 的解集是（ ）",
           "choices": [
             "$(-3,1)\\cup (3, + \\infty)$",
             "$(-3,1)\\cup (2, + \\infty)$",
@@ -250,13 +101,11 @@
             "$(-\\infty, -3) \\cup (1, 3)$"
           ],
           "answer": "A",
-          "solution": "先算得 $f(1)=3$.当 $x\\geqslant0$ 时，\r\n\n$$\nx^2-4x+6>3\\Longleftrightarrow (x-1)(x-3)>0\n$$\n\r\n故得到 $[0,1)\\cup(3,+\\infty)$.当 $x<0$ 时，$x+6>3$ 等价于 $-3<x<0$.合并两种情形，解集为 $(-3,1)\\cup(3,+\\infty)$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>先算得 $f(1)=3$.当 $x\\geqslant0$ 时，</p>\n$$\nx^{2}-4x+6>3\\Longleftrightarrow (x-1)(x-3)>0\n$$\n<p>故得到 $[0,1)\\cup(3,+\\infty)$.当 $x&#x3C;0$ 时，$x+6>3$ 等价于 $-3&#x3C;x&#x3C;0$.合并两种情形，解集为 $(-3,1)\\cup(3,+\\infty)$，选 A.</p>"
         },
         {
           "num": 9,
-          "body": "设 $x$，$y \\in \\mathbb{R}$，$a > 1$，$b > 1$. 若 $a^x = b^y = 3$，$a + b = 2\\sqrt{3}$，则 $\\frac{1}{x} + \\frac{1}{y}$ 的最大值为（ ）",
+          "body": "设 $x$，$y \\in \\mathbb{R}$，$a > 1$，$b > 1$. 若 $a^{x} = b^{y} = 3$，$a + b = 2\\sqrt{3}$，则 $\\frac{1}{x}+ \\frac{1}{y}$ 的最大值为（ ）",
           "choices": [
             "2",
             "$\\frac{3}{2}$",
@@ -264,23 +113,19 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "C",
-          "solution": "由 $a$，$b>1$ 及 $a^x=b^y=3$，知 $x$，$y>0$，且\r\n$\\frac1x=\\log_3a$，$\\frac1y=\\log_3b$.\r\n因此\r\n\n$$\n\\frac1x+\\frac1y=\\log_3(ab)\\le\\log_3\\left(\\frac{a+b}{2}\\right)^2=\\log_3 3=1\n$$\n\r\n当且仅当 $a=b=\\sqrt3$ 时取等号，所以最大值为 $1$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $a$，$b>1$ 及 $a^{x}=b^{y}=3$，知 $x$，$y>0$，且</p><p>$\\frac{1}{x}=\\log_{3}a$，$\\frac{1}{y}=\\log_{3}b$.</p><p>因此</p>\n$$\n\\frac{1}{x}+\\frac{1}{y}=\\log_{3}(ab)\\le\\log_{3}\\left(\\frac{a+b}{2}\\right)^{2}=\\log_{3} 3=1\n$$\n<p>当且仅当 $a=b=\\sqrt{3}$ 时取等号，所以最大值为 $1$，选 C.</p>"
         },
         {
           "num": 10,
-          "body": "设函数 $f(x)$ 在 $\\mathbb{R}$ 上的导函数为 $f'(x)$，且 $2f(x) + xf'(x) > x^2$. 下面的不等式在 $\\mathbb{R}$ 内恒成立的是（ ）",
+          "body": "设函数 $f(x)$ 在 $\\mathbb{R}$ 上的导函数为 $f'(x)$，且 $2f(x) + xf'(x) > x^{2}$. 下面的不等式在 $\\mathbb{R}$ 内恒成立的是（ ）",
           "choices": [
             "$f(x) > 0$",
-            "$f(x) < 0$",
+            "$f(x) &#x3C; 0$",
             "$f(x) > x$",
-            "$f(x) < x$"
+            "$f(x) &#x3C; x$"
           ],
           "answer": "A",
-          "solution": "令 $g(x)=x^2f(x)$，则\r\n\n$$\ng'(x)=x\\bigl(2f(x)+xf'(x)\\bigr)\n$$\n\r\n当 $x>0$ 时，$g'(x)>x^3$，从 $0$ 积分到 $x$，得\r\n\n$$\nx^2f(x)=g(x)>\\int_0^x t^3\\,\\mathrm{d}t=\\frac{x^4}{4}\n$$\n\r\n所以 $f(x)>\\frac{x^2}{4}>0$.当 $x<0$ 时，$g'(x)<x^3$，从 $x$ 积分到 $0$，得\r\n\n$$\n-x^2f(x)=g(0)-g(x)<\\int_x^0t^3\\,\\mathrm{d}t=-\\frac{x^4}{4}\n$$\n\r\n同样得到 $f(x)>\\frac{x^2}{4}>0$.在 $x=0$ 时，原不等式给出 $2f(0)>0$.故恒有 $f(x)>0$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $g(x)=x^{2}f(x)$，则</p>\n$$\ng'(x)=x\\bigl(2f(x)+xf'(x)\\bigr)\n$$\n<p>当 $x>0$ 时，$g'(x)>x^{3}$，从 $0$ 积分到 $x$，得</p>\n$$\nx^{2}f(x)=g(x)>\\int_{0}^{x} t^{3}\\,\\mathrm{d}t=\\frac{x^{4}}{4}\n$$\n<p>所以 $f(x)>\\frac{x^{2}}{4}>0$.当 $x&#x3C;0$ 时，$g'(x)&#x3C;x^{3}$，从 $x$ 积分到 $0$，得</p>\n$$\n-x^{2}f(x)=g(0)-g(x)&#x3C;\\int_{x}^{0}t^{3}\\,\\mathrm{d}t=-\\frac{x^{4}}{4}\n$$\n<p>同样得到 $f(x)>\\frac{x^{2}}{4}>0$.在 $x=0$ 时，原不等式给出 $2f(0)>0$.故恒有 $f(x)>0$，选 A.</p>"
         }
       ]
     },
@@ -289,57 +134,45 @@
       "problems": [
         {
           "num": 11,
-          "body": "如图，$AA_{1}$ 与 $BB_{1}$ 相交于点 $O$，$AB \\parallel A_{1}B_{1}$ 且 $AB = \\frac{1}{2} A_{1}B_{1}$，若 $\\triangle AOB$ 的外接圆直径为 1，则 $\\triangle A_{1}OB_{1}$ 的外接圆直径为 _______ {}.\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/tianjin_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，$AA_{1}$ 与 $BB_{1}$ 相交于点 $O$，$AB \\parallel A_{1}B_{1}$ 且 $AB = \\frac{1}{2}A_{1}B_{1}$，若 $\\triangle AOB$ 的外接圆直径为 1，则 $\\triangle A_{1}OB_{1}$ 的外接圆直径为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "2",
-          "solution": "由 $AB\\parallel A_1B_1$，且 $AA_1$、$BB_1$ 相交于 $O$，有对顶角 $\\angle AOB=\\angle A_1OB_1$，以及由平行线得到的对应角相等，故 $\\triangle AOB\\sim\\triangle A_1OB_1$，相似比为\r\n\n$$\n\\frac{A_1B_1}{AB}=2\n$$\n\r\n外接圆直径也按相似比放大，所以所求直径为 $2\\times1=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $AB\\parallel A_{1}B_{1}$，且 $AA_{1}$、$BB_{1}$ 相交于 $O$，有对顶角 $\\angle AOB=\\angle A_{1}OB_{1}$，以及由平行线得到的对应角相等，故 $\\triangle AOB\\sim\\triangle A_{1}OB_{1}$，相似比为</p>\n$$\n\\frac{A_{1}B_{1}}{AB}=2\n$$\n<p>外接圆直径也按相似比放大，所以所求直径为 $2\\times1=2$.</p>"
         },
         {
           "num": 12,
-          "body": "如图是一个几何体的三视图，若它的体积是 $3 \\sqrt{3}$，则 $a =$ _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/tianjin_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\sqrt{3}\\)",
-          "solution": "由三视图可知该几何体为底面是等腰三角形的直三棱柱，棱柱长为 $3$，三角形底边为 $2$，底边上的高为 $a$.因此\r\n\n$$\nV=\\frac12\\times2\\times a\\times3=3a\n$$\n\r\n由 $3a=3\\sqrt3$，得 $a=\\sqrt3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图是一个几何体的三视图，若它的体积是 $3 \\sqrt{3}$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\sqrt{3}$",
+          "solution": "<p>由三视图可知该几何体为底面是等腰三角形的直三棱柱，棱柱长为 $3$，三角形底边为 $2$，底边上的高为 $a$.因此</p>\n$$\nV=\\frac{1}{2}\\times2\\times a\\times3=3a\n$$\n<p>由 $3a=3\\sqrt{3}$，得 $a=\\sqrt{3}$.</p>"
         },
         {
           "num": 13,
-          "body": "设全集 $U = A \\cup B = \\{x \\in \\mathbb{N}^{*} \\mid \\lg x < 1\\}$，若 $A \\cap (\\complement_U B) = \\{m \\mid m = 2n + 1, n = 0, 1, 2, 3, 4\\}$，则集合 $B =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\{2,4,6,8\\}\\)",
-          "solution": "由 $\\lg x<1$ 且 $x\\in\\mathbb{N}^*$，得 $U=\\{1,2,3,4,5,6,7,8,9\\}$.已知\r\n\n$$\nA\\cap(\\complement_U B)=\\{1,3,5,7,9\\}\n$$\n\r\n所以奇数属于 $A$ 且不属于 $B$.对任一偶数 $x$，由 $A\\cup B=U$ 知 $x\\in A$ 或 $x\\in B$.若 $x\\in A$，又因 $x$ 不在已知的交集中 $A\\cap(\\complement_U B)$，可知 $x\\notin\\complement_U B$，从而 $x\\in B$；若 $x\\notin A$，则由并集条件直接有 $x\\in B$.因此所有偶数都属于 $B$，而奇数都不属于 $B$，故\r\n\n$$\nB=\\{2,4,6,8\\}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设全集 $U = A \\cup B = \\{x \\in \\mathbb{N}^{*}\\mid \\lg x &#x3C; 1\\}$，若 $A \\cap (\\complement_{U} B) = \\{m \\mid m = 2n + 1, n = 0, 1, 2, 3, 4\\}$，则集合 $B =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\{2,4,6,8\\}$",
+          "solution": "<p>由 $\\lg x&#x3C;1$ 且 $x\\in\\mathbb{N}^{*}$，得 $U=\\{1,2,3,4,5,6,7,8,9\\}$.已知</p>\n$$\nA\\cap(\\complement_{U} B)=\\{1,3,5,7,9\\}\n$$\n<p>所以奇数属于 $A$ 且不属于 $B$.对任一偶数 $x$，由 $A\\cup B=U$ 知 $x\\in A$ 或 $x\\in B$.若 $x\\in A$，又因 $x$ 不在已知的交集中 $A\\cap(\\complement_{U} B)$，可知 $x\\notin\\complement_{U} B$，从而 $x\\in B$；若 $x\\notin A$，则由并集条件直接有 $x\\in B$.因此所有偶数都属于 $B$，而奇数都不属于 $B$，故</p>\n$$\nB=\\{2,4,6,8\\}\n$$"
         },
         {
           "num": 14,
-          "body": "若圆 $x^{2} + y^{2} = 4$ 与圆 $x^{2} + y^{2} + 2ay - 6 = 0$ （$a > 0$）的公共弦的长为 $2\\sqrt{3}$，则 $a =$ _______ {}.",
-          "choices": [],
+          "body": "若圆 $x^{2}+ y^{2}= 4$ 与圆 $x^{2}+ y^{2}+ 2ay - 6 = 0$ （$a > 0$）的公共弦的长为 $2\\sqrt{3}$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "1",
-          "solution": "两圆方程相减，得公共弦所在直线\r\n$2ay-2=0$，$y=\\frac1a$.\r\n该直线到圆心 $(0,0)$ 的距离为 $\\frac1a$，而第一个圆的半径为 $2$.由弦长公式\r\n\n$$\n2\\sqrt{2^2-\\left(\\frac1a\\right)^2}=2\\sqrt3\n$$\n\r\n得 $4-\\frac{1}{a^2}=3$，从而 $a^2=1$.结合 $a>0$，得 $a=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>两圆方程相减，得公共弦所在直线</p><p>$2ay-2=0$，$y=\\frac{1}{a}$.</p><p>该直线到圆心 $(0,0)$ 的距离为 $\\frac{1}{a}$，而第一个圆的半径为 $2$.由弦长公式</p>\n$$\n2\\sqrt{2^{2}-\\left(\\frac{1}{a}\\right)^{2}}=2\\sqrt{3}\n$$\n<p>得 $4-\\frac{1}{a^{2}}=3$，从而 $a^{2}=1$.结合 $a>0$，得 $a=1$.</p>"
         },
         {
           "num": 15,
-          "body": "若等边 $\\triangle ABC$ 的边长为 $2\\sqrt{3}$，平面内一点 $M$ 满足 $\\overrightarrow{CM} = \\frac{1}{6}\\overrightarrow{CB} + \\frac{2}{3}\\overrightarrow{CA}$，则 $\\overrightarrow{MA} \\cdot \\overrightarrow{MB} =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-2\\)",
-          "solution": "取直角坐标系使 $C=(0,0)$，$A=(2\\sqrt3,0)$，$B=(\\sqrt3,3)$.则\r\n\n$$\nM=\\frac16B+\\frac23A=\\left(\\frac{3\\sqrt3}{2},\\frac12\\right)\n$$\n\r\n于是\r\n$\\overrightarrow{MA}=\\left(\\frac{\\sqrt3}{2},-\\frac12\\right)$，$\\overrightarrow{MB}=\\left(-\\frac{\\sqrt3}{2},\\frac52\\right)$，\r\n从而\r\n\n$$\n\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=-\\frac34-\\frac54=-2\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若等边 $\\triangle ABC$ 的边长为 $2\\sqrt{3}$，平面内一点 $M$ 满足 $\\overrightarrow{CM}= \\frac{1}{6}\\overrightarrow{CB}+ \\frac{2}{3}\\overrightarrow{CA}$，则 $\\overrightarrow{MA}\\cdot \\overrightarrow{MB}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-2$",
+          "solution": "<p>取直角坐标系使 $C=(0,0)$，$A=(2\\sqrt{3},0)$，$B=(\\sqrt{3},3)$.则</p>\n$$\nM=\\frac{1}{6}B+\\frac{2}{3}A=\\left(\\frac{3\\sqrt{3}}{2},\\frac{1}{2}\\right)\n$$\n<p>于是</p><p>$\\overrightarrow{MA}=\\left(\\frac{\\sqrt{3}}{2},-\\frac{1}{2}\\right)$，$\\overrightarrow{MB}=\\left(-\\frac{\\sqrt{3}}{2},\\frac{5}{2}\\right)$，</p><p>从而</p>\n$$\n\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=-\\frac{3}{4}-\\frac{5}{4}=-2\n$$"
         },
         {
           "num": 16,
-          "body": "若关于 $x$ 的不等式 $(2x - 1)^2 < ax^2$ 的解集中的整数恰好有3个，则实数 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left(\\frac{25}{9},\\frac{49}{16}\\right]\\)",
-          "solution": "当 $a\\leqslant0$ 时不等式无解.当 $a>4$ 时，对充分大的正整数 $x$ 有 $(2-\\frac{1}{x})^2<a$，解集中有无穷多个整数；当 $a=4$ 时，所有正整数都满足不等式.因此恰有3个整数解时必有 $0<a<4$.\r\n$(2x-1)^2-4x^2=1-4x>0$，（$x<0$），\r\n所以在 $a<4$ 时不存在负整数解；$x=0$ 也不满足不等式.对正整数 $x$，不等式等价于\r\n\n$$\na>\\left(2-\\frac1x\\right)^2\n$$\n\r\n数列 $\\left(2-\\frac1x\\right)^2$ 随正整数 $x$ 严格递增.要使恰有 $x=1$，$2$，$3$ 三个正整数解，必须且只需\r\n\n$$\n\\left(2-\\frac13\\right)^2<a\\le\\left(2-\\frac14\\right)^2\n$$\n\r\n即\r\n\n$$\na\\in\\left(\\frac{25}{9},\\frac{49}{16}\\right]\n$$\n\r\n上端点取等时 $x=4$ 为等号，不属于严格不等式的解集，故上端点应取到.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若关于 $x$ 的不等式 $(2x - 1)^{2} &#x3C; ax^{2}$ 的解集中的整数恰好有3个，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left(\\frac{25}{9},\\frac{49}{16}\\right]$",
+          "solution": "<p>当 $a\\leqslant0$ 时不等式无解.当 $a>4$ 时，对充分大的正整数 $x$ 有 $(2-\\frac{1}{x})^{2}&#x3C;a$，解集中有无穷多个整数；当 $a=4$ 时，所有正整数都满足不等式.因此恰有3个整数解时必有 $0&#x3C;a&#x3C;4$.</p><p>$(2x-1)^{2}-4x^{2}=1-4x>0$，（$x&#x3C;0$），</p><p>所以在 $a&#x3C;4$ 时不存在负整数解；$x=0$ 也不满足不等式.对正整数 $x$，不等式等价于</p>\n$$\na>\\left(2-\\frac{1}{x}\\right)^{2}\n$$\n<p>数列 $\\left(2-\\frac{1}{x}\\right)^{2}$ 随正整数 $x$ 严格递增.要使恰有 $x=1$，$2$，$3$ 三个正整数解，必须且只需</p>\n$$\n\\left(2-\\frac{1}{3}\\right)^{2}&#x3C;a\\le\\left(2-\\frac{1}{4}\\right)^{2}\n$$\n<p>即</p>\n$$\na\\in\\left(\\frac{25}{9},\\frac{49}{16}\\right]\n$$\n<p>上端点取等时 $x=4$ 为等号，不属于严格不等式的解集，故上端点应取到.</p>"
         }
       ]
     },
@@ -348,60 +181,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "在 $\\triangle ABC$ 中，$BC = \\sqrt{5}$，$AC = 3$，$\\sin C = 2\\sin A$.\r\n\n(1) 求 $AB$ 的值；\n\n(2) 求 $\\sin\\left(2A-\\frac{\\pi}{4}\\right)$ 的值.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，$BC = \\sqrt{5}$，$AC = 3$，$\\sin C = 2\\sin A$.</p><ol class=\"enumerate\"><li><p>求 $AB$ 的值；</p></li><li><p>求 $\\sin\\left(2A-\\frac{\\pi}{4}\\right)$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由正弦定理，\r\n\n$$\n\\frac{AB}{\\sin C}=\\frac{BC}{\\sin A}\n$$\n\r\n结合 $\\sin C=2\\sin A$ 和 $BC=\\sqrt5$，得 $AB=2\\sqrt5$.\n\n(2) 由余弦定理，\r\n\n$$\n\\cos A=\\frac{AC^2+AB^2-BC^2}{2\\,AC\\,AB}=\\frac{9+20-5}{12\\sqrt5}=\\frac{2\\sqrt5}{5}\n$$\n\r\n因为 $A$ 是三角形内角，$\\sin A=\\frac{\\sqrt5}{5}$.因此\r\n$\\sin2A=2\\sin A\\cos A=\\frac45$，$\\cos2A=\\cos^2A-\\sin^2A=\\frac35$.\r\n所以\r\n\n$$\n\\sin\\left(2A-\\frac\\pi4\\right)=\\frac{\\sqrt2}{2}(\\sin2A-\\cos2A)=\\frac{\\sqrt2}{10}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，</p>\n$$\n\\frac{AB}{\\sin C}=\\frac{BC}{\\sin A}\n$$\n<p>结合 $\\sin C=2\\sin A$ 和 $BC=\\sqrt{5}$，得 $AB=2\\sqrt{5}$.</p></li><li><p>由余弦定理，</p>\n$$\n\\cos A=\\frac{AC^{2}+AB^{2}-BC^{2}}{2\\,AC\\,AB}=\\frac{9+20-5}{12\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}\n$$\n<p>因为 $A$ 是三角形内角，$\\sin A=\\frac{\\sqrt{5}}{5}$.因此</p><p>$\\sin2A=2\\sin A\\cos A=\\frac{4}{5}$，$\\cos2A=\\cos^{2}A-\\sin^{2}A=\\frac{3}{5}$.</p><p>所以</p>\n$$\n\\sin\\left(2A-\\frac{\\pi}{4}\\right)=\\frac{\\sqrt{2}}{2}(\\sin2A-\\cos2A)=\\frac{\\sqrt{2}}{10}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "为了了解某工厂开展群众体育活动的情况，拟采用分层抽样的方法从 $A$，$B$，$C$ 三个区中抽取 7 个工厂进行调查，已知 $A$，$B$，$C$ 区中分别有 18，27，18 个工厂.\r\n\n(1) 求从 $A$，$B$，$C$ 区中分别抽取的工厂个数；\n\n(2) 若从抽取的 7 个工厂中随机抽取 2 个进行调查结果的对比，用列举法计算这 2 个工厂中至少有 1 个来自 $A$ 区的概率.",
-          "choices": [],
+          "body": "<p>为了了解某工厂开展群众体育活动的情况，拟采用分层抽样的方法从 $A$，$B$，$C$ 三个区中抽取 7 个工厂进行调查，已知 $A$，$B$，$C$ 区中分别有 18，27，18 个工厂.</p><ol class=\"enumerate\"><li><p>求从 $A$，$B$，$C$ 区中分别抽取的工厂个数；</p></li><li><p>若从抽取的 7 个工厂中随机抽取 2 个进行调查结果的对比，用列举法计算这 2 个工厂中至少有 1 个来自 $A$ 区的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 三个区工厂总数为 $18+27+18=63$，抽样比例为 $\\frac{7}{63}=\\frac{1}{9}$，所以分别抽取 $2$，$3$，$2$ 个工厂.\n\n(2) 将抽取的工厂记为 $A_1$，$A_2$，$B_1$，$B_2$，$B_3$，$C_1$，$C_2$.任取两个工厂共有 $\\mathrm C_7^2=21$ 种等可能结果.含有至少一个 $A$ 区工厂的结果可明确列为\r\n$\\{A_1,A_2\\}$，$\\ \\{A_1,B_1\\}$，$\\ \\{A_1,B_2\\}$，$\\ \\{A_1,B_3\\}$，$\\ \\{A_1,C_1\\}$，$\\ \\{A_1,C_2\\}$\r\n$\\{A_2,B_1\\}$，$\\ \\{A_2,B_2\\}$，$\\ \\{A_2,B_3\\}$，$\\ \\{A_2,C_1\\}$，$\\ \\{A_2,C_2\\}$.\r\n共 $11$ 种，因此所求概率为\r\n\n$$\n\\frac{11}{21}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>三个区工厂总数为 $18+27+18=63$，抽样比例为 $\\frac{7}{63}=\\frac{1}{9}$，所以分别抽取 $2$，$3$，$2$ 个工厂.</p></li><li><p>将抽取的工厂记为 $A_{1}$，$A_{2}$，$B_{1}$，$B_{2}$，$B_{3}$，$C_{1}$，$C_{2}$.任取两个工厂共有 $\\mathrm{C}_{7}^{2}=21$ 种等可能结果.含有至少一个 $A$ 区工厂的结果可明确列为</p><p>$\\{A_{1},A_{2}\\}$，$\\ \\{A_{1},B_{1}\\}$，$\\ \\{A_{1},B_{2}\\}$，$\\ \\{A_{1},B_{3}\\}$，$\\ \\{A_{1},C_{1}\\}$，$\\ \\{A_{1},C_{2}\\}$</p><p>$\\{A_{2},B_{1}\\}$，$\\ \\{A_{2},B_{2}\\}$，$\\ \\{A_{2},B_{3}\\}$，$\\ \\{A_{2},C_{1}\\}$，$\\ \\{A_{2},C_{2}\\}$.</p><p>共 $11$ 种，因此所求概率为</p>\n$$\n\\frac{11}{21}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，在四棱锥 $P-ABCD$ 中，$PD \\perp$ 平面 $ABCD$，$AD \\perp CD$，且 $DB$ 平分 $\\angle ADC$，$E$ 为 $PC$ 的中点，$AD = CD = 1$，$DB = 2\\sqrt{2}$.\r\n\n(1) 证明 $PA \\parallel$ 平面 $BDE$；\n\n(2) 证明 $AC \\perp$ 平面 $PBD$；\n\n(3) 求直线 $BC$ 与平面 $PBD$ 所成的角的正切值.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/tianjin_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在四棱锥 $P-ABCD$ 中，$PD \\perp$ 平面 $ABCD$，$AD \\perp CD$，且 $DB$ 平分 $\\angle ADC$，$E$ 为 $PC$ 的中点，$AD = CD = 1$，$DB = 2\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>证明 $PA \\parallel$ 平面 $BDE$；</p></li><li><p>证明 $AC \\perp$ 平面 $PBD$；</p></li><li><p>求直线 $BC$ 与平面 $PBD$ 所成的角的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立空间直角坐标系，使 $D=(0,0,0)$，$DB$ 在 $x$ 轴上，底面为 $z=0$.由于 $AD\\perp CD$ 且 $DB$ 平分直角 $\\angle ADC$，可取\r\n$A=\\left(\\frac1{\\sqrt2},\\frac1{\\sqrt2},0\\right)$，$C=\\left(\\frac1{\\sqrt2},-\\frac1{\\sqrt2},0\\right)$，$B=(2\\sqrt2,0,0)$，$P=(0,0,h)$\r\n其中 $h>0$.又因为 $E$ 是 $PC$ 的中点，\r\n\n$$\nE=\\left(\\frac1{2\\sqrt2},-\\frac1{2\\sqrt2},\\frac h2\\right)\n$$\n\r\n\r\n\n(1) 有\r\n$\\overrightarrow{PA}=\\left(\\frac1{\\sqrt2},\\frac1{\\sqrt2},-h\\right)$，$\\overrightarrow{DB}=(2\\sqrt2,0,0)$，$\\overrightarrow{DE}=\\left(\\frac1{2\\sqrt2},-\\frac1{2\\sqrt2},\\frac h2\\right)$.\r\n直接计算得\r\n\n$$\n\\overrightarrow{PA}=\\frac12\\overrightarrow{DB}-2\\overrightarrow{DE}\n$$\n\r\n所以直线 $PA$ 的方向向量在平面 $BDE$ 内.若 $A=\\alpha\\overrightarrow{DB}+\\beta\\overrightarrow{DE}$，由其 $z$ 坐标为零可得 $\\beta \\frac{h}{2}=0$，从而 $\\beta=0$，但此时右端的 $y$ 坐标为零而 $A$ 的 $y$ 坐标为 $\\frac{1}{\\sqrt2}$，矛盾，故 $A$ 不在该平面内.因此 $PA\\parallel$ 平面 $BDE$.\n\n(2) $\\overrightarrow{AC}=(0,-\\sqrt2,0)$，而\r\n$\\overrightarrow{AC}\\cdot\\overrightarrow{DB}=0$，$\\overrightarrow{AC}\\cdot\\overrightarrow{DP}=0$.\r\n直线 $DB$、$DP$ 是平面 $PBD$ 内相交的两条直线，因此 $AC\\perp$ 平面 $PBD$.\n\n(3) 平面 $PBD$ 为 $y=0$.向量\r\n\n$$\n\\overrightarrow{BC}=\\left(-\\frac3{\\sqrt2},-\\frac1{\\sqrt2},0\\right)\n$$\n\r\n在该平面内的投影长度为 $\\frac{3}{\\sqrt2}$，垂直于该平面的分量长度为 $\\frac{1}{\\sqrt2}$.设直线与平面所成的角为 $\\theta$，则\r\n\n$$\n\\tan\\theta=\\frac{\\frac{1}{\\sqrt2}}{\\frac{3}{\\sqrt2}}=\\frac13\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立空间直角坐标系，使 $D=(0,0,0)$，$DB$ 在 $x$ 轴上，底面为 $z=0$.由于 $AD\\perp CD$ 且 $DB$ 平分直角 $\\angle ADC$，可取</p><p>$A=\\left(\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}},0\\right)$，$C=\\left(\\frac{1}{\\sqrt{2}},-\\frac{1}{\\sqrt{2}},0\\right)$，$B=(2\\sqrt{2},0,0)$，$P=(0,0,h)$</p><p>其中 $h>0$.又因为 $E$ 是 $PC$ 的中点，</p>\n$$\nE=\\left(\\frac{1}{2\\sqrt{2}},-\\frac{1}{2\\sqrt{2}},\\frac{h}{2}\\right)\n$$\n<ol class=\"enumerate\"><li><p>有</p><p>$\\overrightarrow{PA}=\\left(\\frac{1}{\\sqrt{2}},\\frac{1}{\\sqrt{2}},-h\\right)$，$\\overrightarrow{DB}=(2\\sqrt{2},0,0)$，$\\overrightarrow{DE}=\\left(\\frac{1}{2\\sqrt{2}},-\\frac{1}{2\\sqrt{2}},\\frac{h}{2}\\right)$.</p><p>直接计算得</p>\n$$\n\\overrightarrow{PA}=\\frac{1}{2}\\overrightarrow{DB}-2\\overrightarrow{DE}\n$$\n<p>所以直线 $PA$ 的方向向量在平面 $BDE$ 内.若 $A=\\alpha\\overrightarrow{DB}+\\beta\\overrightarrow{DE}$，由其 $z$ 坐标为零可得 $\\beta \\frac{h}{2}=0$，从而 $\\beta=0$，但此时右端的 $y$ 坐标为零而 $A$ 的 $y$ 坐标为 $\\frac{1}{\\sqrt{2}}$，矛盾，故 $A$ 不在该平面内.因此 $PA\\parallel$ 平面 $BDE$.</p></li><li><p>$\\overrightarrow{AC}=(0,-\\sqrt{2},0)$，而</p><p>$\\overrightarrow{AC}\\cdot\\overrightarrow{DB}=0$，$\\overrightarrow{AC}\\cdot\\overrightarrow{DP}=0$.</p><p>直线 $DB$、$DP$ 是平面 $PBD$ 内相交的两条直线，因此 $AC\\perp$ 平面 $PBD$.</p></li><li><p>平面 $PBD$ 为 $y=0$.向量</p>\n$$\n\\overrightarrow{BC}=\\left(-\\frac{3}{\\sqrt{2}},-\\frac{1}{\\sqrt{2}},0\\right)\n$$\n<p>在该平面内的投影长度为 $\\frac{3}{\\sqrt{2}}$，垂直于该平面的分量长度为 $\\frac{1}{\\sqrt{2}}$.设直线与平面所成的角为 $\\theta$，则</p>\n$$\n\\tan\\theta=\\frac{\\frac{1}{\\sqrt{2}}}{\\frac{3}{\\sqrt{2}}}=\\frac{1}{3}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "已知等差数列 $\\{a_{n}\\}$ 的公差 $d$ 不为 0，设 $S_{n} = a_{1} + a_{2}q + \\dots +a_{n}q^{n - 1}$，$T_{n} = a_{1} - a_{2}q + \\dots +( -1)^{n - 1}a_{n}q^{n - 1}$，$q\\neq 0$，$n\\in \\mathbb{N}^{*}$.\r\n\n(1) 若 $q = 1$，$a_{1} = 1$，$S_{3} = 15$，求数列 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 若 $a_{1} = d$，$S_{1}$，$S_{2}$，$S_{3}$ 成等比数列，求 $q$ 的值.\n\n(3) 若 $q \\neq \\pm 1$，证明 $(1 - q)S_{2n} - (1 + q)T_{2n} = \\frac{2dq(1 - q^{2n})}{1 - q^2}$，$n \\in \\mathbb{N}^{*}$.",
-          "choices": [],
+          "body": "<p>已知等差数列 $\\{a_{n}\\}$ 的公差 $d$ 不为 0，设 $S_{n}= a_{1}+ a_{2}q + \\dots +a_{n}q^{n - 1}$，$T_{n}= a_{1}- a_{2}q + \\dots +( -1)^{n - 1}a_{n}q^{n - 1}$，$q\\neq 0$，$n\\in \\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>若 $q = 1$，$a_{1}= 1$，$S_{3}= 15$，求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若 $a_{1}= d$，$S_{1}$，$S_{2}$，$S_{3}$ 成等比数列，求 $q$ 的值.</p></li><li><p>若 $q \\neq \\pm 1$，证明 $(1 - q)S_{2n}- (1 + q)T_{2n}= \\frac{2dq(1 - q^{2n})}{1 - q^{2}}$，$n \\in \\mathbb{N}^{*}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设公差为 $d$，则\r\n\n$$\nS_3=1+(1+d)+(1+2d)=3+3d=15\n$$\n\r\n所以 $d=4$，从而 $a_n=1+(n-1)4=4n-3$.\n\n(2) 由 $a_1=d$，得 $a_2=2d$，$a_3=3d$.于是\r\n$S_1=d$，$S_2=d(1+2q)$，$S_3=d(1+2q+3q^2)$.\r\n等比关系给出 $S_2^2=S_1S_3$.因 $d\\ne0$，约去 $d^2$ 得\r\n\n$$\n(1+2q)^2=1+2q+3q^2\r\n\\Longrightarrow q(q+2)=0\n$$\n\r\n结合 $q\\ne0$，得 $q=-2$.\n\n(3) 将 $S_{2n}$、$T_{2n}$ 按奇偶项分组，有\r\n\n$$\nS_{2n}=\\sum_{r=1}^{n}\\left(a_{2r-1}q^{2r-2}+a_{2r}q^{2r-1}\\right)\n$$\n\r\n\n$$\nT_{2n}=\\sum_{r=1}^{n}\\left(a_{2r-1}q^{2r-2}-a_{2r}q^{2r-1}\\right)\n$$\n\r\n因此\r\n\n$$\n(1-q)S_{2n}-(1+q)T_{2n}\r\n=2d\\sum_{r=1}^n q^{2r-1}\r\n=2dq\\sum_{r=0}^{n-1}q^{2r}\r\n=\\frac{2dq(1-q^{2n})}{1-q^2}\n$$\n\r\n这里使用了等差数列关系 $a_{2r}-a_{2r-1}=d$. 由于 $q\\ne\\pm1$，等比数列求和公式可用，结论成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设公差为 $d$，则</p>\n$$\nS_{3}=1+(1+d)+(1+2d)=3+3d=15\n$$\n<p>所以 $d=4$，从而 $a_{n}=1+(n-1)4=4n-3$.</p></li><li><p>由 $a_{1}=d$，得 $a_{2}=2d$，$a_{3}=3d$.于是</p><p>$S_{1}=d$，$S_{2}=d(1+2q)$，$S_{3}=d(1+2q+3q^{2})$.</p><p>等比关系给出 $S_{2}^{2}=S_{1}S_{3}$.因 $d\\ne0$，约去 $d^{2}$ 得</p>\n$$\n(1+2q)^{2}=1+2q+3q^{2}  \\Longrightarrow q(q+2)=0\n$$\n<p>结合 $q\\ne0$，得 $q=-2$.</p></li><li><p>将 $S_{2n}$、$T_{2n}$ 按奇偶项分组，有</p>\n$$\nS_{2n}=\\sum_{r=1}^{n}\\left(a_{2r-1}q^{2r-2}+a_{2r}q^{2r-1}\\right)\n$$\n\n$$\nT_{2n}=\\sum_{r=1}^{n}\\left(a_{2r-1}q^{2r-2}-a_{2r}q^{2r-1}\\right)\n$$\n<p>因此</p>\n$$\n(1-q)S_{2n}-(1+q)T_{2n}=2d\\sum_{r=1}^{n} q^{2r-1}=2dq\\sum_{r=0}^{n-1}q^{2r}=\\frac{2dq(1-q^{2n})}{1-q^{2}}\n$$\n<p>这里使用了等差数列关系 $a_{2r}-a_{2r-1}=d$. 由于 $q\\ne\\pm1$，等比数列求和公式可用，结论成立.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "设函数 $f(x) = -\\frac{1}{3} x^3 + x^2 + (m^2 - 1)x$（$x \\in \\mathbb{R}$），其中 $m > 0$.\r\n\n(1) 当 $m = 1$ 时，求曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线的斜率；\n\n(2) 求函数的单调区间与极值；\n\n(3) 已知函数 $f(x)$ 有三个互不相同的零点 $0$，$x_1$，$x_2$，且 $x_1 < x_2$. 若对任意的 $x \\in [x_1, x_2]$，$f(x) > f(1)$ 恒成立，求 $m$ 的取值范围.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = -\\frac{1}{3}x^{3} + x^{2} + (m^{2} - 1)x$（$x \\in \\mathbb{R}$），其中 $m > 0$.</p><ol class=\"enumerate\"><li><p>当 $m = 1$ 时，求曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线的斜率；</p></li><li><p>求函数的单调区间与极值；</p></li><li><p>已知函数 $f(x)$ 有三个互不相同的零点 $0$，$x_{1}$，$x_{2}$，且 $x_{1} &#x3C; x_{2}$. 若对任意的 $x \\in [x_{1}, x_{2}]$，$f(x) > f(1)$ 恒成立，求 $m$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $m=1$ 时，$f'(x)=-x^2+2x$，所以切线斜率为 $f'(1)=1$.\n\n(2) $$\nf'(x)=-x^2+2x+m^2-1=m^2-(x-1)^2\n$$\n\r\n因此 $f'(x)<0$ 于 $(-\\infty,1-m)$ 和 $(1+m,+\\infty)$，$f'(x)>0$ 于 $(1-m,1+m)$.所以函数在前两个区间内分别为减函数，在中间区间内为增函数；在 $x=1-m$ 处取得极小值，在 $x=1+m$ 处取得极大值.代入得\r\n$f(1-m)=-\\frac23m^3+m^2-\\frac13$，$f(1+m)=\\frac23m^3+m^2-\\frac13$.\n\n(3) 因为\r\n\n$$\nf(x)=-\\frac13x\\bigl(x^2-3x+3-3m^2\\bigr)\n$$\n\r\n所以另外两个零点是\r\n\n$$\nx_{1,2}=\\frac{3\\mp\\sqrt{12m^2-3}}2\n$$\n\r\n三个零点互不相同首先要求 $m>\\frac12$，且 $m\\ne1$.\r\n\r\n若 $m>1$，则 $x_1<0<x_2$，而题设区间包含零点端点，端点处 $f(x_i)=0$，同时 $f(1)=m^2-\\frac13>0$，不可能有 $f(x_i)>f(1)$.因此必须有 $m<1$.此时 $x_1$，$x_2>0$.在 $[x_1,x_2]$ 上，因\r\n\n$$\nf(x)=-\\frac13x(x-x_1)(x-x_2)\\geqslant0\n$$\n\r\n所以题设恒不等式成立的充要条件是 $f(1)<0$.又\r\n\n$$\nf(1)=m^2-\\frac13\n$$\n\r\n故\r\n\n$$\n\\frac12<m<\\frac{\\sqrt3}{3}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$m=1$ 时，$f'(x)=-x^{2}+2x$，所以切线斜率为 $f'(1)=1$.</p></li><li>\n$$\nf'(x)=-x^{2}+2x+m^{2}-1=m^{2}-(x-1)^{2}\n$$\n<p>因此 $f'(x)&#x3C;0$ 于 $(-\\infty,1-m)$ 和 $(1+m,+\\infty)$，$f'(x)>0$ 于 $(1-m,1+m)$.所以函数在前两个区间内分别为减函数，在中间区间内为增函数；在 $x=1-m$ 处取得极小值，在 $x=1+m$ 处取得极大值.代入得</p><p>$f(1-m)=-\\frac{2}{3}m^{3}+m^{2}-\\frac{1}{3}$，$f(1+m)=\\frac{2}{3}m^{3}+m^{2}-\\frac{1}{3}$.</p></li><li><p>因为</p>\n$$\nf(x)=-\\frac{1}{3}x\\bigl(x^{2}-3x+3-3m^{2}\\bigr)\n$$\n<p>所以另外两个零点是</p>\n$$\nx_{1,2}=\\frac{3\\mp\\sqrt{12m^{2}-3}}{2}\n$$\n<p>三个零点互不相同首先要求 $m>\\frac{1}{2}$，且 $m\\ne1$.</p><p>若 $m>1$，则 $x_{1}&#x3C;0&#x3C;x_{2}$，而题设区间包含零点端点，端点处 $f(x_{i})=0$，同时 $f(1)=m^{2}-\\frac{1}{3}>0$，不可能有 $f(x_{i})>f(1)$.因此必须有 $m&#x3C;1$.此时 $x_{1}$，$x_{2}>0$.在 $[x_{1},x_{2}]$ 上，因</p>\n$$\nf(x)=-\\frac{1}{3}x(x-x_{1})(x-x_{2})\\geqslant0\n$$\n<p>所以题设恒不等式成立的充要条件是 $f(1)&#x3C;0$.又</p>\n$$\nf(1)=m^{2}-\\frac{1}{3}\n$$\n<p>故</p>\n$$\n\\frac{1}{2}&#x3C;m&#x3C;\\frac{\\sqrt{3}}{3}\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "已知椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ （$a > b > 0$）的两个焦点分别为 $F_1(-c,0)$ 和 $F_2(c,0)$（$c > 0$），过点 $E\\left(\\frac{a^2}{c}, 0\\right)$ 的直线与椭圆相交于 $A$，$B$ 两点，且 $F_1A \\parallel F_2B$，$|F_1A| = 2|F_2B|$.\r\n\n(1) 求椭圆的离心率；\n\n(2) 求直线 $AB$ 的斜率；\n\n(3) 设点 $C$ 与点 $A$ 关于坐标原点对称，直线 $F_{2}B$ 上有一点 $H(m, n)$（$m \\neq 0$）在 $\\triangle AF_{1}C$ 的外接圆上，求 $\\frac{n}{m}$ 的值.",
-          "choices": [],
+          "body": "<p>已知椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的两个焦点分别为 $F_{1}(-c,0)$ 和 $F_{2}(c,0)$（$c > 0$），过点 $E\\left(\\frac{a^{2}}{c}, 0\\right)$ 的直线与椭圆相交于 $A$，$B$ 两点，且 $F_{1}A \\parallel F_{2}B$，$|F_{1}A| = 2|F_{2}B|$.</p><ol class=\"enumerate\"><li><p>求椭圆的离心率；</p></li><li><p>求直线 $AB$ 的斜率；</p></li><li><p>设点 $C$ 与点 $A$ 关于坐标原点对称，直线 $F_{2}B$ 上有一点 $H(m, n)$（$m \\neq 0$）在 $\\triangle AF_{1}C$ 的外接圆上，求 $\\frac{n}{m}$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $\\overrightarrow{F_1A}\\parallel\\overrightarrow{F_2B}$ 且长度比为 $2$，设\r\n$\\overrightarrow{F_1A}=\\lambda\\overrightarrow{F_2B}$，$|\\lambda|=2$.\r\n写 $A=(x_A,y_A)$、$B=(x_B,y_B)$，则\r\n\n$$\nA=\\lambda B-(\\lambda+1)(c,0)\n$$\n\r\n从而直线 $AB$ 与 $x$ 轴的交点横坐标为\r\n\n$$\nx_E=\\frac{x_Ay_B-x_By_A}{y_B-y_A}=\\frac{\\lambda+1}{\\lambda-1}c\n$$\n\r\n若 $y_A=y_B$，由 $y_A=\\lambda y_B$ 及 $\\lambda\\ne1$ 可得 $y_A=y_B=0$.此时 $A$、$B$ 是椭圆在 $x$ 轴上的两个交点，且 $\\lvert F_1A\\rvert=\\lvert F_2B\\rvert$，与题设矛盾，故 $y_A\\ne y_B$，上式有意义.若 $\\lambda=-2$，则 $x_E=\\frac{c}{3}<c$，与 $x_E=\\frac{a^2}{c}>c$ 矛盾.因此 $\\lambda=2$，于是 $x_E=3c$.由 $x_E=\\frac{a^2}{c}$，得 $a^2=3c^2$，所以离心率为\r\n\n$$\ne=\\frac ca=\\frac{\\sqrt3}{3}\n$$\n\n(2) 由 $b^2=a^2-c^2=2c^2$，椭圆方程化为\r\n\n$$\n2x^2+3y^2=6c^2\n$$\n\r\n由 $\\overrightarrow{F_1A}=2\\overrightarrow{F_2B}$ 还得到 $B$ 是线段 $AE$ 的中点.设直线 $AB$ 为\r\n\n$$\ny=k(x-3c)\n$$\n\r\n并设 $A=(x_1,y_1)$、$B=(x_2,y_2)$.联立直线与椭圆方程，得\r\n\n$$\n(2+3k^2)x^2-18k^2cx+(27k^2-6)c^2=0\n$$\n\r\n由韦达定理，\r\n$x_1+x_2=\\frac{18k^2c}{2+3k^2}$，$x_1x_2=\\frac{(27k^2-6)c^2}{2+3k^2}$.\r\n又因 $B$ 是 $AE$ 的中点，$x_1+3c=2x_2$，故\r\n$x_1=\\frac{(9k^2-2)c}{2+3k^2}$，$x_2=\\frac{(9k^2+2)c}{2+3k^2}$.\r\n代入积的关系并约去 $c^2$，得\r\n\n$$\n\\frac{81k^4-4}{(2+3k^2)^2}=\\frac{27k^2-6}{2+3k^2}\n$$\n\r\n即 $36k^2=8$.因此\r\n\n$$\nk=\\pm\\frac{\\sqrt2}{3}\n$$\n\n(3) 先取 $k=-\\frac{\\sqrt2}{3}$.由上面的根式可得\r\n$A=(0,\\sqrt2c)$，$B=\\left(\\frac{3c}{2},\\frac{\\sqrt2c}{2}\\right)$，$C=(0,-\\sqrt2c)$.\r\n$A$，$C$ 关于 $x$ 轴对称，所以 $\\triangle AF_1C$ 的外接圆圆心在 $x$ 轴上.设圆心为 $(u,0)$，由它到 $F_1(-c,0)$ 和 $A(0,\\sqrt2c)$ 的距离相等，得 $u=\\frac{c}{2}$，外接圆方程为\r\n\n$$\n\\left(x-\\frac c2\\right)^2+y^2=\\frac{9c^2}{4}\n$$\n\r\n直线 $F_2B$ 的方程为 $y=\\sqrt2(x-c)$.因此 $H(m,n)$ 满足\r\n\n$$\n\\begin{cases}\r\n\\left(m-\\frac c2\\right)^2+n^2=\\dfrac{9c^2}{4},\\\\\r\nn=\\sqrt2(m-c).\r\n\\end{cases}\n$$\n\r\n代入并整理得 $m(3m-5c)=0$.由 $m\\ne0$，得\r\n$m=\\frac{5c}{3}$，$n=\\frac{2\\sqrt2c}{3}$，$\\frac nm=\\frac{2\\sqrt2}{5}$.\r\n当 $k=\\frac{\\sqrt2}{3}$ 时，图形关于 $x$ 轴对称，所对应的 $\\frac{n}{m}$ 为 $-2\\frac{\\sqrt2}{5}$.因此按题面未限定 $A$ 所在半平面时，所有可能值为\r\n\n$$\n\\frac nm=\\pm\\frac{2\\sqrt2}{5}\n$$\n\r\n若按通常解答约定取 $k<0$，则取正值 $2\\frac{\\sqrt2}{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $\\overrightarrow{F_1A}\\parallel\\overrightarrow{F_2B}$ 且长度比为 $2$，设</p><p>$\\overrightarrow{F_1A}=\\lambda\\overrightarrow{F_2B}$，$|\\lambda|=2$.</p><p>写 $A=(x_{A},y_{A})$、$B=(x_{B},y_{B})$，则</p>\n$$\nA=\\lambda B-(\\lambda+1)(c,0)\n$$\n<p>从而直线 $AB$ 与 $x$ 轴的交点横坐标为</p>\n$$\nx_{E}=\\frac{x_{A}y_{B}-x_{B}y_{A}}{y_{B}-y_{A}}=\\frac{\\lambda+1}{\\lambda-1}c\n$$\n<p>若 $y_{A}=y_{B}$，由 $y_{A}=\\lambda y_{B}$ 及 $\\lambda\\ne1$ 可得 $y_{A}=y_{B}=0$.此时 $A$、$B$ 是椭圆在 $x$ 轴上的两个交点，且 $\\lvert F_{1}A\\rvert=\\lvert F_{2}B\\rvert$，与题设矛盾，故 $y_{A}\\ne y_{B}$，上式有意义.若 $\\lambda=-2$，则 $x_{E}=\\frac{c}{3}&#x3C;c$，与 $x_{E}=\\frac{a^{2}}{c}>c$ 矛盾.因此 $\\lambda=2$，于是 $x_{E}=3c$.由 $x_{E}=\\frac{a^{2}}{c}$，得 $a^{2}=3c^{2}$，所以离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>由 $b^{2}=a^{2}-c^{2}=2c^{2}$，椭圆方程化为</p>\n$$\n2x^{2}+3y^{2}=6c^{2}\n$$\n<p>由 $\\overrightarrow{F_1A}=2\\overrightarrow{F_2B}$ 还得到 $B$ 是线段 $AE$ 的中点.设直线 $AB$ 为</p>\n$$\ny=k(x-3c)\n$$\n<p>并设 $A=(x_{1},y_{1})$、$B=(x_{2},y_{2})$.联立直线与椭圆方程，得</p>\n$$\n(2+3k^{2})x^{2}-18k^{2}cx+(27k^{2}-6)c^{2}=0\n$$\n<p>由韦达定理，</p><p>$x_{1}+x_{2}=\\frac{18k^{2}c}{2+3k^{2}}$，$x_{1}x_{2}=\\frac{(27k^{2}-6)c^{2}}{2+3k^{2}}$.</p><p>又因 $B$ 是 $AE$ 的中点，$x_{1}+3c=2x_{2}$，故</p><p>$x_{1}=\\frac{(9k^{2}-2)c}{2+3k^{2}}$，$x_{2}=\\frac{(9k^{2}+2)c}{2+3k^{2}}$.</p><p>代入积的关系并约去 $c^{2}$，得</p>\n$$\n\\frac{81k^{4}-4}{(2+3k^{2})^{2}}=\\frac{27k^{2}-6}{2+3k^{2}}\n$$\n<p>即 $36k^{2}=8$.因此</p>\n$$\nk=\\pm\\frac{\\sqrt{2}}{3}\n$$\n</li><li><p>先取 $k=-\\frac{\\sqrt{2}}{3}$.由上面的根式可得</p><p>$A=(0,\\sqrt{2}c)$，$B=\\left(\\frac{3c}{2},\\frac{\\sqrt{2}c}{2}\\right)$，$C=(0,-\\sqrt{2}c)$.</p><p>$A$，$C$ 关于 $x$ 轴对称，所以 $\\triangle AF_{1}C$ 的外接圆圆心在 $x$ 轴上.设圆心为 $(u,0)$，由它到 $F_{1}(-c,0)$ 和 $A(0,\\sqrt{2}c)$ 的距离相等，得 $u=\\frac{c}{2}$，外接圆方程为</p>\n$$\n\\left(x-\\frac{c}{2}\\right)^{2}+y^{2}=\\frac{9c^{2}}{4}\n$$\n<p>直线 $F_{2}B$ 的方程为 $y=\\sqrt{2}(x-c)$.因此 $H(m,n)$ 满足</p>\n$$\n\\begin{cases}\\left(m-\\frac{c}{2}\\right)^{2}+n^{2}=\\dfrac{9c^2}{4},\\\\  n=\\sqrt{2}(m-c).\\end{cases}\n$$\n<p>代入并整理得 $m(3m-5c)=0$.由 $m\\ne0$，得</p><p>$m=\\frac{5c}{3}$，$n=\\frac{2\\sqrt{2}c}{3}$，$\\frac{n}{m}=\\frac{2\\sqrt{2}}{5}$.</p><p>当 $k=\\frac{\\sqrt{2}}{3}$ 时，图形关于 $x$ 轴对称，所对应的 $\\frac{n}{m}$ 为 $-2\\frac{\\sqrt{2}}{5}$.因此按题面未限定 $A$ 所在半平面时，所有可能值为</p>\n$$\n\\frac{n}{m}=\\pm\\frac{2\\sqrt{2}}{5}\n$$\n<p>若按通常解答约定取 $k&#x3C;0$，则取正值 $2\\frac{\\sqrt{2}}{5}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

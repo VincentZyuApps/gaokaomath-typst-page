@@ -1,150 +1,15 @@
 {
+  "title": "2001年普通高等学校招生全国统一考试",
+  "subtitle": "2001年大纲卷（理）",
   "year": "2001",
   "slug": "syllabus_science",
-  "title": "2001年大纲卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若 $\\sin \\theta \\cos \\theta > 0$，则 $\\theta$ 在（ ）",
+          "body": "若 $\\sin \\theta \\cos \\theta > 0$，则 $\\theta$ 在（ ）",
           "choices": [
             "第一、二象限",
             "第一、三象限",
@@ -152,27 +17,23 @@
             "第二、四象限"
           ],
           "answer": "B",
-          "solution": "当 $\\sin\\theta>0$ 且 $\\cos\\theta>0$ 时，$\\theta$ 在第一象限；当 $\\sin\\theta<0$ 且 $\\cos\\theta<0$ 时，$\\theta$ 在第三象限. 故 $\\theta$ 在第一、三象限，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "当 $\\sin\\theta>0$ 且 $\\cos\\theta>0$ 时，$\\theta$ 在第一象限；当 $\\sin\\theta&#x3C;0$ 且 $\\cos\\theta&#x3C;0$ 时，$\\theta$ 在第三象限. 故 $\\theta$ 在第一、三象限，选 B."
         },
         {
           "num": 2,
-          "body": "过点 $A(1, -1)$，$B(-1, 1)$ 且圆心在直线 $x + y - 2 = 0$ 上的圆的方程是（ ）",
+          "body": "过点 $A(1, -1)$，$B(-1, 1)$ 且圆心在直线 $x + y - 2 = 0$ 上的圆的方程是（ ）",
           "choices": [
-            "$(x - 3)^2 + (y + 1)^2 = 4$",
-            "$(x + 3)^{2} + (y - 1)^{2} = 4$",
-            "$(x - 1)^{2} + (y - 1)^{2} = 4$",
-            "$(x + 1)^{2} + (y + 1)^{2} = 4$"
+            "$(x - 3)^{2} + (y + 1)^{2} = 4$",
+            "$(x + 3)^{2}+ (y - 1)^{2}= 4$",
+            "$(x - 1)^{2}+ (y - 1)^{2}= 4$",
+            "$(x + 1)^{2}+ (y + 1)^{2}= 4$"
           ],
           "answer": "C",
-          "solution": "设圆心为 $O_0(h,k)$. 因为圆经过 $A(1,-1)$，$B(-1,1)$，所以\r\n\n$$\n(h-1)^2+(k+1)^2=(h+1)^2+(k-1)^2\n$$\n\r\n化简得 $h=k$. 又因为圆心在直线 $x+y-2=0$ 上，所以 $h+k=2$，从而 $h=k=1$. 圆的半径满足\r\n\n$$\nr^2=(1-1)^2+(1+1)^2=4\n$$\n\r\n故圆的方程为 $(x-1)^2+(y-1)^2=4$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设圆心为 $O_{0}(h,k)$. 因为圆经过 $A(1,-1)$，$B(-1,1)$，所以</p>\n$$\n(h-1)^{2}+(k+1)^{2}=(h+1)^{2}+(k-1)^{2}\n$$\n<p>化简得 $h=k$. 又因为圆心在直线 $x+y-2=0$ 上，所以 $h+k=2$，从而 $h=k=1$. 圆的半径满足</p>\n$$\nr^{2}=(1-1)^{2}+(1+1)^{2}=4\n$$\n<p>故圆的方程为 $(x-1)^{2}+(y-1)^{2}=4$，选 C.</p>"
         },
         {
           "num": 3,
-          "body": "设 $\\{a_{n}\\}$ 是递增等差数列，前三项的和为 12，前三项的积为 48，则它的首项是（ ）",
+          "body": "设 $\\{a_{n}\\}$ 是递增等差数列，前三项的和为 12，前三项的积为 48，则它的首项是（ ）",
           "choices": [
             "1",
             "2",
@@ -180,13 +41,11 @@
             "6"
           ],
           "answer": "B",
-          "solution": "设等差数列的首项为 $a$，公差为 $d$，则 $d>0$，且前三项为 $a$，$a+d$，$a+2d$. 由前三项的和得\r\n\n$$\n3(a+d)=12\n$$\n\r\n所以 $a+d=4$. 由前三项的积得\r\n\n$$\na(a+d)(a+2d)=4a(8-a)=48\n$$\n\r\n即 $a^2-8a+12=0$，所以 $a=2$ 或 $a=6$. 由于 $d=4-a>0$，只能取 $a=2$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的首项为 $a$，公差为 $d$，则 $d>0$，且前三项为 $a$，$a+d$，$a+2d$. 由前三项的和得</p>\n$$\n3(a+d)=12\n$$\n<p>所以 $a+d=4$. 由前三项的积得</p>\n$$\na(a+d)(a+2d)=4a(8-a)=48\n$$\n<p>即 $a^{2}-8a+12=0$，所以 $a=2$ 或 $a=6$. 由于 $d=4-a>0$，只能取 $a=2$，选 B.</p>"
         },
         {
           "num": 4,
-          "body": "若定义在区间 $(-1,0)$ 内的函数 $f(x) = \\log_{2a}(x + 1)$ 满足 $f(x) > 0$，则 $a$ 的取值范围是（ ）",
+          "body": "若定义在区间 $(-1,0)$ 内的函数 $f(x) = \\log_{2a}(x + 1)$ 满足 $f(x) > 0$，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$\\left(0, \\frac{1}{2}\\right)$",
             "$\\left(0, \\frac{1}{2}\\right]$",
@@ -194,27 +53,23 @@
             "$(0, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "当 $-1<x<0$ 时，$0<x+1<1$. 要使 $f(x)=\\log_{2a}(x+1)$ 在整个区间上有定义，必须有 $2a>0$ 且 $2a\\ne1$. 对于 $0<t<1$，不等式 $\\log_{2a}t>0$ 成立当且仅当底数满足 $0<2a<1$. 因此\r\n\n$$\n0<a<\\frac12\n$$\n\r\n选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>当 $-1&#x3C;x&#x3C;0$ 时，$0&#x3C;x+1&#x3C;1$. 要使 $f(x)=\\log_{2a}(x+1)$ 在整个区间上有定义，必须有 $2a>0$ 且 $2a\\ne1$. 对于 $0&#x3C;t&#x3C;1$，不等式 $\\log_{2a}t>0$ 成立当且仅当底数满足 $0&#x3C;2a&#x3C;1$. 因此</p>\n$$\n0&#x3C;a&#x3C;\\frac{1}{2}\n$$\n<p>选 A.</p>"
         },
         {
           "num": 5,
-          "body": "极坐标方程 $\\rho = 2\\sin \\left(\\theta + \\frac{\\pi}{4}\\right)$ 的图形是（ ）",
+          "body": "极坐标方程 $\\rho = 2\\sin \\left(\\theta + \\frac{\\pi}{4}\\right)$ 的图形是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2001/img/syllabus_science/q5_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2001/img/syllabus_science/q5_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2001/img/syllabus_science/q5_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2001/img/syllabus_science/q5_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q5_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q5_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q5_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/syllabus_science/q5_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "由极坐标关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，有\r\n\n$$\n\\rho^2=2\\rho\\sin\\left(\\theta+\\frac\\pi4\\right)=\\sqrt2\\rho(\\sin\\theta+\\cos\\theta)=\\sqrt2(x+y)\n$$\n\r\n所以\r\n$x^2+y^2=\\sqrt2(x+y)$，$\\left(x-\\frac1{\\sqrt2}\\right)^2+\\left(y-\\frac1{\\sqrt2}\\right)^2=1$.\r\n这是圆心在第一象限、半径为 $1$，且经过原点的圆，其图形对应选项 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由极坐标关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，有</p>\n$$\n\\rho^{2}=2\\rho\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)=\\sqrt{2}\\rho(\\sin\\theta+\\cos\\theta)=\\sqrt{2}(x+y)\n$$\n<p>所以</p><p>$x^{2}+y^{2}=\\sqrt{2}(x+y)$，$\\left(x-\\frac{1}{\\sqrt{2}}\\right)^{2}+\\left(y-\\frac{1}{\\sqrt{2}}\\right)^{2}=1$.</p><p>这是圆心在第一象限、半径为 $1$，且经过原点的圆，其图形对应选项 C.</p>"
         },
         {
           "num": 6,
-          "body": "函数 $y = \\cos x + 1$（$-\\pi \\le x \\le 0$）的反函数是（ ）",
+          "body": "函数 $y = \\cos x + 1$（$-\\pi \\le x \\le 0$）的反函数是（ ）",
           "choices": [
             "$y = -\\arccos (x - 1)$（$0\\le x\\le 2$）",
             "$y = \\pi -\\arccos (x - 1)$（$0\\le x\\le 2$）",
@@ -222,13 +77,11 @@
             "$y = \\pi +\\arccos (x - 1)$（$0\\le x\\le 2$）"
           ],
           "answer": "A",
-          "solution": "在区间 $[-\\pi,0]$ 上，$\\cos x$ 单调递增，且 $y=\\cos x+1$ 的值域为 $[0,2]$. 由 $y=\\cos x+1$ 得 $\\cos x=y-1$，而反函数的自变量取值在 $[0,2]$ 内，原函数的函数值取值在 $[-\\pi,0]$ 内，因此\r\n\n$$\nx=-\\arccos(y-1)\n$$\n\r\n交换自变量与函数值，反函数为\r\n$y=-\\arccos(x-1)$，$0\\le x\\leqslant2$\r\n选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在区间 $[-\\pi,0]$ 上，$\\cos x$ 单调递增，且 $y=\\cos x+1$ 的值域为 $[0,2]$. 由 $y=\\cos x+1$ 得 $\\cos x=y-1$，而反函数的自变量取值在 $[0,2]$ 内，原函数的函数值取值在 $[-\\pi,0]$ 内，因此</p>\n$$\nx=-\\arccos(y-1)\n$$\n<p>交换自变量与函数值，反函数为</p><p>$y=-\\arccos(x-1)$，$0\\le x\\leqslant2$</p><p>选 A.</p>"
         },
         {
           "num": 7,
-          "body": "若椭圆经过原点，且焦点为 $F_{1}(1,0)$，$F_{2}(3,0)$，则其离心率为（ ）",
+          "body": "若椭圆经过原点，且焦点为 $F_{1}(1,0)$，$F_{2}(3,0)$，则其离心率为（ ）",
           "choices": [
             "$\\frac{3}{4}$",
             "$\\frac{2}{3}$",
@@ -236,27 +89,23 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "C",
-          "solution": "椭圆的两个焦点为 $F_1(1,0)$，$F_2(3,0)$，所以椭圆中心为 $(2,0)$，焦半距为 $c=1$. 原点在椭圆上，故原点到两个焦点的距离之和为\r\n\n$$\n2a=\\sqrt{(0-1)^2}+\\sqrt{(0-3)^2}=1+3=4\n$$\n\r\n从而 $a=2$. 因此离心率为\r\n\n$$\ne=\\frac ca=\\frac12\n$$\n\r\n选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>椭圆的两个焦点为 $F_{1}(1,0)$，$F_{2}(3,0)$，所以椭圆中心为 $(2,0)$，焦半距为 $c=1$. 原点在椭圆上，故原点到两个焦点的距离之和为</p>\n$$\n2a=\\sqrt{(0-1)^{2}}+\\sqrt{(0-3)^{2}}=1+3=4\n$$\n<p>从而 $a=2$. 因此离心率为</p>\n$$\ne=\\frac{c}{a}=\\frac{1}{2}\n$$\n<p>选 C.</p>"
         },
         {
           "num": 8,
-          "body": "若 $0 < \\alpha < \\beta < \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
+          "body": "若 $0 &#x3C; \\alpha &#x3C; \\beta &#x3C; \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
           "choices": [
             "$a > b$",
-            "$a < b$",
-            "$ab < 1$",
+            "$a &#x3C; b$",
+            "$ab &#x3C; 1$",
             "$ab > 2$"
           ],
           "answer": "B",
-          "solution": "令 $h(x)=\\sin x+\\cos x$，则\r\n\n$$\nh'(x)=\\cos x-\\sin x\n$$\n\r\n当 $0<x<\\frac\\pi4$ 时，$\\cos x>\\sin x$，所以 $h'(x)>0$，即 $h(x)$ 在 $\\left(0,\\frac\\pi4\\right)$ 上单调递增. 由 $\\alpha<\\beta$ 得\r\n\n$$\na=h(\\alpha)<h(\\beta)=b\n$$\n\r\n并且由 $h(0)=1$、$h\\left(\\frac\\pi4\\right)=\\sqrt2$ 及严格递增性，得\r\n\n$$\n1<a<b<\\sqrt2\n$$\n\r\n所以 $ab>1$ 且 $ab<2$. 因此只有选项 B 正确.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $h(x)=\\sin x+\\cos x$，则</p>\n$$\nh'(x)=\\cos x-\\sin x\n$$\n<p>当 $0&#x3C;x&#x3C;\\frac{\\pi}{4}$ 时，$\\cos x>\\sin x$，所以 $h'(x)>0$，即 $h(x)$ 在 $\\left(0,\\frac{\\pi}{4}\\right)$ 上单调递增. 由 $\\alpha&#x3C;\\beta$ 得</p>\n$$\na=h(\\alpha)&#x3C;h(\\beta)=b\n$$\n<p>并且由 $h(0)=1$、$h\\left(\\frac{\\pi}{4}\\right)=\\sqrt{2}$ 及严格递增性，得</p>\n$$\n1&#x3C;a&#x3C;b&#x3C;\\sqrt{2}\n$$\n<p>所以 $ab>1$ 且 $ab&#x3C;2$. 因此只有选项 B 正确.</p>"
         },
         {
           "num": 9,
-          "body": "在正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，若 $AB = \\sqrt{2} BB_{1}$，则 $AB_{1}$ 与 $C_{1}B$ 所成的角的大小为（ ）",
+          "body": "在正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，若 $AB = \\sqrt{2}BB_{1}$，则 $AB_{1}$ 与 $C_{1}B$ 所成的角的大小为（ ）",
           "choices": [
             "$60^{\\circ}$",
             "$90^{\\circ}$",
@@ -264,41 +113,35 @@
             "$120^{\\circ}$"
           ],
           "answer": "B",
-          "solution": "设正三棱柱的底面边长为 $s$，高为 $h$. 由题意 $s=\\sqrt2h$，即 $h^2=\\frac{s^2}{2}$. 取 $B$ 为原点，令\r\n$A=(s,0,0)$，$C=\\left(\\frac s2,\\frac{\\sqrt3s}{2},0\\right)$，$B_1=(0,0,h)$\r\n则 $C_1=\\left(\\frac s2,\\frac{\\sqrt3s}{2},h\\right)$. 取两直线方向向量\r\n$\\overrightarrow{AB_1}=(-s,0,h)$，$\\overrightarrow{BC_1}=\\left(\\frac s2,\\frac{\\sqrt3s}{2},h\\right)$.\r\n它们的数量积为\r\n\n$$\n\\overrightarrow{AB_1}\\cdot\\overrightarrow{BC_1}=-\\frac{s^2}{2}+h^2=0\n$$\n\r\n因此 $AB_1\\perp C_1B$，所成的角为 $90^{\\circ}$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正三棱柱的底面边长为 $s$，高为 $h$. 由题意 $s=\\sqrt{2}h$，即 $h^{2}=\\frac{s^{2}}{2}$. 取 $B$ 为原点，令</p><p>$A=(s,0,0)$，$C=\\left(\\frac{s}{2},\\frac{\\sqrt{3}s}{2},0\\right)$，$B_{1}=(0,0,h)$</p><p>则 $C_{1}=\\left(\\frac{s}{2},\\frac{\\sqrt{3}s}{2},h\\right)$. 取两直线方向向量</p><p>$\\overrightarrow{AB_1}=(-s,0,h)$，$\\overrightarrow{BC_1}=\\left(\\frac{s}{2},\\frac{\\sqrt{3}s}{2},h\\right)$.</p><p>它们的数量积为</p>\n$$\n\\overrightarrow{AB_1}\\cdot\\overrightarrow{BC_1}=-\\frac{s^{2}}{2}+h^{2}=0\n$$\n<p>因此 $AB_{1}\\perp C_{1}B$，所成的角为 $90^{\\circ}$，选 B.</p>"
         },
         {
           "num": 10,
-          "body": "设 $f(x)$，$g(x)$ 都是单调函数，有如下四个命题中，正确的命题是\r\n\r\n\\begin{circlelist}\r\n\\item 若 $f(x)$ 单调递增，$g(x)$ 单调递增，则 $f(x) - g(x)$ 单调递增；\r\n\\item 若 $f(x)$ 单调递增，$g(x)$ 单调递减，则 $f(x)-g(x)$ 单调递增；\r\n\\item 若 $f(x)$ 单调递减，$g(x)$ 单调递增，则 $f(x)-g(x)$ 单调递减；\r\n\\item 若 $f(x)$ 单调递减，$g(x)$ 单调递减，则 $f(x)-g(x)$ 单调递减.\r\n\\end{circlelist}\r\n\r\n（ ）",
+          "body": "<p>设 $f(x)$，$g(x)$ 都是单调函数，有如下四个命题中，正确的命题是</p><ol class=\"enumerate\"><li><p>若 $f(x)$ 单调递增，$g(x)$ 单调递增，则 $f(x) - g(x)$ 单调递增；</p></li><li><p>若 $f(x)$ 单调递增，$g(x)$ 单调递减，则 $f(x)-g(x)$ 单调递增；</p></li><li><p>若 $f(x)$ 单调递减，$g(x)$ 单调递增，则 $f(x)-g(x)$ 单调递减；</p></li><li><p>若 $f(x)$ 单调递减，$g(x)$ 单调递减，则 $f(x)-g(x)$ 单调递减.</p></li></ol><p>（ ）</p>",
           "choices": [
-            "\\circled{1}\\circled{3}",
-            "\\circled{1}\\circled{4}",
-            "\\circled{2}\\circled{3}",
-            "\\circled{2}\\circled{4}"
+            "①③",
+            "①④",
+            "②③",
+            "②④"
           ],
           "answer": "C",
-          "solution": "设 $x_1<x_2$，记 $h(x)=f(x)-g(x)$. 若 $f$ 单调递增、$g$ 单调递减，则\r\n\n$$\nh(x_2)-h(x_1)=\\bigl(f(x_2)-f(x_1)\\bigr)+\\bigl(g(x_1)-g(x_2)\\bigr)\\geqslant0\n$$\n\r\n所以 $h$ 单调递增，命题\\circled{2}正确. 若 $f$ 单调递减、$g$ 单调递增，则\r\n\n$$\nh(x_2)-h(x_1)=\\bigl(f(x_2)-f(x_1)\\bigr)-\\bigl(g(x_2)-g(x_1)\\bigr)\\leqslant0\n$$\n\r\n所以 $h$ 单调递减，命题\\circled{3}正确.\r\n\r\n命题\\circled{1}和命题\\circled{4}均不一定成立. 例如，取 $f(x)=x$，$g(x)=2x$，则二者都递增而 $f(x)-g(x)=-x$ 递减；取 $f(x)=-x$，$g(x)=-2x$，则二者都递减而 $f(x)-g(x)=x$ 递增. 因此正确的命题为\\circled{2}\\circled{3}，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $x_{1}&#x3C;x_{2}$，记 $h(x)=f(x)-g(x)$. 若 $f$ 单调递增、$g$ 单调递减，则</p>\n$$\nh(x_{2})-h(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)+\\bigl(g(x_{1})-g(x_{2})\\bigr)\\geqslant0\n$$\n<p>所以 $h$ 单调递增，命题②正确. 若 $f$ 单调递减、$g$ 单调递增，则</p>\n$$\nh(x_{2})-h(x_{1})=\\bigl(f(x_{2})-f(x_{1})\\bigr)-\\bigl(g(x_{2})-g(x_{1})\\bigr)\\leqslant0\n$$\n<p>所以 $h$ 单调递减，命题③正确.</p><p>命题①和命题④均不一定成立. 例如，取 $f(x)=x$，$g(x)=2x$，则二者都递增而 $f(x)-g(x)=-x$ 递减；取 $f(x)=-x$，$g(x)=-2x$，则二者都递减而 $f(x)-g(x)=x$ 递增. 因此正确的命题为②③，选 C.</p>"
         },
         {
           "num": 11,
-          "body": "一间民房的屋顶有如图三种不同的盖法，分别是：\r\n\r\n\\begin{circlelist}\r\n\\item 单向倾斜；\r\n\\item 双向倾斜；\r\n\\item 四向倾斜.\r\n\\end{circlelist}\r\n\r\n记三种盖法屋顶面积分别为 $P_{1}$，$P_{2}$，$P_{3}$. 若屋顶斜面与水平面所成的角都是 $\\alpha$，则（ ）\r\n\r\n\\begin{center}\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/syllabus_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\end{center}",
+          "body": "<p>一间民房的屋顶有如图三种不同的盖法，分别是：</p><ol class=\"enumerate\"><li><p>单向倾斜；</p></li><li><p>双向倾斜；</p></li><li><p>四向倾斜.</p></li></ol><p>记三种盖法屋顶面积分别为 $P_{1}$，$P_{2}$，$P_{3}$. 若屋顶斜面与水平面所成的角都是 $\\alpha$，则（ ）</p><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
           "choices": [
-            "$P_{3} > P_{2} > P_{1}$",
-            "$P_{3} > P_{2} = P_{1}$",
-            "$P_{3} = P_{2} > P_{1}$",
-            "$P_{3} = P_{2} = P_{1}$"
+            "$P_{3}> P_{2}> P_{1}$",
+            "$P_{3}> P_{2}= P_{1}$",
+            "$P_{3}= P_{2}> P_{1}$",
+            "$P_{3}= P_{2}= P_{1}$"
           ],
           "answer": "D",
-          "solution": "设三种屋顶的水平投影都是同一个屋顶平面，记其面积为 $S$. 每个斜面与水平面所成的角都为 $\\alpha$，所以每个斜面的水平投影面积等于该斜面面积乘以 $\\cos\\alpha$. 将同一种盖法的各个斜面面积相加，均有\r\n$P_i\\cos\\alpha=S$，（$i=1,2,3$）.\r\n由于 $\\cos\\alpha>0$，得到\r\n\n$$\nP_1=P_2=P_3\n$$\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设三种屋顶的水平投影都是同一个屋顶平面，记其面积为 $S$. 每个斜面与水平面所成的角都为 $\\alpha$，所以每个斜面的水平投影面积等于该斜面面积乘以 $\\cos\\alpha$. 将同一种盖法的各个斜面面积相加，均有</p><p>$P_{i}\\cos\\alpha=S$，（$i=1,2,3$）.</p><p>由于 $\\cos\\alpha>0$，得到</p>\n$$\nP_{1}=P_{2}=P_{3}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 12,
-          "body": "如图，小圆圈表示网络的结点，结点之间的连线表示它们有网线相联. 连线标注的数字表示该段网线单位时间内可以通过的最大信息量. 现从结点 $A$ 向结点 $B$ 传递信息，信息可以分开沿不同的路线同时传递. 则单位时间内传递的最大信息量为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/syllabus_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，小圆圈表示网络的结点，结点之间的连线表示它们有网线相联. 连线标注的数字表示该段网线单位时间内可以通过的最大信息量. 现从结点 $A$ 向结点 $B$ 传递信息，信息可以分开沿不同的路线同时传递. 则单位时间内传递的最大信息量为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "26",
             "24",
@@ -306,9 +149,7 @@
             "19"
           ],
           "answer": "D",
-          "solution": "从 $B$ 到 $A$ 的上方两条支路分别受到容量 $3$ 和 $4$ 的边限制，合计至多传递 $3+4=7$. 这两条支路汇合后通向 $A$ 的边容量为 $12$，因此不会限制这 $7$ 个单位的信息. 中间支路的容量受标为 $7$ 和 $6$ 的两条边共同限制，至多传递 $6$；下方支路的容量受标为 $6$ 的边限制，至多传递 $6$. 所以总流量至多为\r\n\n$$\n7+6+6=19\n$$\n\r\n沿上方两条支路分别传递 $3$ 和 $4$，沿中间支路传递 $6$，沿下方支路传递 $6$，各边容量均不超限，确实可以达到 $19$. 故最大信息量为 $19$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>从 $B$ 到 $A$ 的上方两条支路分别受到容量 $3$ 和 $4$ 的边限制，合计至多传递 $3+4=7$. 这两条支路汇合后通向 $A$ 的边容量为 $12$，因此不会限制这 $7$ 个单位的信息. 中间支路的容量受标为 $7$ 和 $6$ 的两条边共同限制，至多传递 $6$；下方支路的容量受标为 $6$ 的边限制，至多传递 $6$. 所以总流量至多为</p>\n$$\n7+6+6=19\n$$\n<p>沿上方两条支路分别传递 $3$ 和 $4$，沿中间支路传递 $6$，沿下方支路传递 $6$，各边容量均不超限，确实可以达到 $19$. 故最大信息量为 $19$，选 D.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "若一个圆锥的轴截面是等边三角形，其面积为 $\\sqrt{3}$，则这个圆锥的侧面积是 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\pi\\)",
-          "solution": "设圆锥的底面半径为 $r$，母线长为 $l$. 轴截面为等边三角形时，轴截面的底边为圆锥底面的直径，所以 $l=2r$. 轴截面面积为\r\n\n$$\n\\frac{\\sqrt3}{4}(2r)^2=\\sqrt3r^2=\\sqrt3\n$$\n\r\n故 $r=1$，从而 $l=2$. 圆锥的侧面积为\r\n\n$$\n\\pi rl=\\pi\\cdot1\\cdot2=2\\pi\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若一个圆锥的轴截面是等边三角形，其面积为 $\\sqrt{3}$，则这个圆锥的侧面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2\\pi$",
+          "solution": "<p>设圆锥的底面半径为 $r$，母线长为 $l$. 轴截面为等边三角形时，轴截面的底边为圆锥底面的直径，所以 $l=2r$. 轴截面面积为</p>\n$$\n\\frac{\\sqrt{3}}{4}(2r)^{2}=\\sqrt{3}r^{2}=\\sqrt{3}\n$$\n<p>故 $r=1$，从而 $l=2$. 圆锥的侧面积为</p>\n$$\n\\pi rl=\\pi\\cdot1\\cdot2=2\\pi\n$$"
         },
         {
           "num": 14,
-          "body": "双曲线 $\\frac{x^2}{9} - \\frac{y^2}{16} = 1$ 的两个焦点为 $F_{1}$，$F_{2}$，点 $P$ 在双曲线上，若 $PF_{1} \\perp PF_{2}$，则点 $P$ 到 $x$ 轴的距离为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{16}{5}\\)",
-          "solution": "双曲线的参数为 $a=3$，$b=4$，所以 $c=\\sqrt{a^2+b^2}=5$，焦点为 $(-5,0)$ 和 $(5,0)$. 设 $P(x,y)$，则\r\n$\\overrightarrow{PF_1}=(-x-5,-y)$，$\\overrightarrow{PF_2}=(5-x,-y)$.\r\n由 $PF_1\\perp PF_2$，得\r\n$(x+5)(x-5)+y^2=0$，$x^2+y^2=25$.\r\n另一方面，双曲线方程可写为 $16x^2-9y^2=144$. 代入 $x^2=25-y^2$，得\r\n$16(25-y^2)-9y^2=144$，$25y^2=256$.\r\n因此点 $P$ 到 $x$ 轴的距离为 $|y|=\\frac{16}{5}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "双曲线 $\\frac{x^{2}}{9}- \\frac{y^{2}}{16}= 1$ 的两个焦点为 $F_{1}$，$F_{2}$，点 $P$ 在双曲线上，若 $PF_{1}\\perp PF_{2}$，则点 $P$ 到 $x$ 轴的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{16}{5}$",
+          "solution": "<p>双曲线的参数为 $a=3$，$b=4$，所以 $c=\\sqrt{a^{2}+b^{2}}=5$，焦点为 $(-5,0)$ 和 $(5,0)$. 设 $P(x,y)$，则</p><p>$\\overrightarrow{PF_1}=(-x-5,-y)$，$\\overrightarrow{PF_2}=(5-x,-y)$.</p><p>由 $PF_{1}\\perp PF_{2}$，得</p><p>$(x+5)(x-5)+y^{2}=0$，$x^{2}+y^{2}=25$.</p><p>另一方面，双曲线方程可写为 $16x^{2}-9y^{2}=144$. 代入 $x^{2}=25-y^{2}$，得</p><p>$16(25-y^{2})-9y^{2}=144$，$25y^{2}=256$.</p><p>因此点 $P$ 到 $x$ 轴的距离为 $|y|=\\frac{16}{5}$.</p>"
         },
         {
           "num": 15,
-          "body": "设 $\\{a_{n}\\}$ 是公比为 $q$ 的等比数列，$S_{n}$ 是它的前 $n$ 项和. 若 $\\{S_{n}\\}$ 是等差数列，则 $q =$ _______ {}.",
-          "choices": [],
+          "body": "设 $\\{a_{n}\\}$ 是公比为 $q$ 的等比数列，$S_{n}$ 是它的前 $n$ 项和. 若 $\\{S_{n}\\}$ 是等差数列，则 $q =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "1",
-          "solution": "设等比数列首项为 $a_1$，公比为 $q$. 由\r\n$S_1=a_1$，$S_2=a_1(1+q)$，$S_3=a_1(1+q+q^2)$\r\n以及 $\\{S_n\\}$ 为等差数列，知 $S_1+S_3=2S_2$. 因此\r\n\n$$\na_1\\bigl[1+(1+q+q^2)-2(1+q)\\bigr]=0\n$$\n\r\n即 $a_1q(q-1)=0$. 等比数列的首项及公比满足定义中的非零条件，所以 $a_1\\ne0$，$q\\ne0$，从而 $q=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等比数列首项为 $a_{1}$，公比为 $q$. 由</p><p>$S_{1}=a_{1}$，$S_{2}=a_{1}(1+q)$，$S_{3}=a_{1}(1+q+q^{2})$</p><p>以及 $\\{S_{n}\\}$ 为等差数列，知 $S_{1}+S_{3}=2S_{2}$. 因此</p>\n$$\na_{1}\\bigl[1+(1+q+q^{2})-2(1+q)\\bigr]=0\n$$\n<p>即 $a_{1}q(q-1)=0$. 等比数列的首项及公比满足定义中的非零条件，所以 $a_{1}\\ne0$，$q\\ne0$，从而 $q=1$.</p>"
         },
         {
           "num": 16,
-          "body": "圆周上有 $2n$ 个等分点（$n > 1$），以其中三个点为顶点的直角三角形的个数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(2n(n-1)\\)",
-          "solution": "圆周上三个等分点所成的三角形为直角三角形，当且仅当其斜边是该圆的直径. $2n$ 个等分点中共有 $n$ 对互为对径点，即有 $n$ 条直径. 每确定一条直径作为斜边，还可从其余 $2n-2$ 个等分点中任取一个作为第三个顶点，并且每个直角三角形只有一条直径作为斜边. 因此直角三角形的个数为\r\n\n$$\nn(2n-2)=2n(n-1)\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "圆周上有 $2n$ 个等分点（$n > 1$），以其中三个点为顶点的直角三角形的个数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2n(n-1)$",
+          "solution": "<p>圆周上三个等分点所成的三角形为直角三角形，当且仅当其斜边是该圆的直径. $2n$ 个等分点中共有 $n$ 对互为对径点，即有 $n$ 条直径. 每确定一条直径作为斜边，还可从其余 $2n-2$ 个等分点中任取一个作为第三个顶点，并且每个直角三角形只有一条直径作为斜边. 因此直角三角形的个数为</p>\n$$\nn(2n-2)=2n(n-1)\n$$"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "如图，在底面是直角梯形的四棱锥 $S - ABCD$ 中，$\\angle ABC = 90^{\\circ}$，$SA \\perp$ 面 $ABCD$，$SA = AB = BC = 1$，$AD = \\frac{1}{2}$.\r\n\r\n\n(1) 求四棱锥 $S - ABCD$ 的体积；\n\n(2) 求面 $SCD$ 与面 $SBA$ 所成的二面角的正切值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/syllabus_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在底面是直角梯形的四棱锥 $S - ABCD$ 中，$\\angle ABC = 90^{\\circ}$，$SA \\perp$ 面 $ABCD$，$SA = AB = BC = 1$，$AD = \\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>求四棱锥 $S - ABCD$ 的体积；</p></li><li><p>求面 $SCD$ 与面 $SBA$ 所成的二面角的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为底面是直角梯形，且 $AD\\parallel BC$，所以 $AB$ 是梯形的高，从而底面面积为\r\n\n$$\nS_{ABCD}=\\frac{AD+BC}{2}\\cdot AB=\\frac{\\frac12+1}{2}\\cdot1=\\frac34\n$$\n\r\n又因为 $SA\\perp$ 面 $ABCD$，所以四棱锥的高为 $SA=1$，因此\r\n\n$$\nV_{S-ABCD}=\\frac13S_{ABCD}\\cdot SA=\\frac13\\cdot\\frac34\\cdot1=\\frac14\n$$\n\n(2) 建立空间直角坐标系，取 $A(0,0,0)$，$B(0,1,0)$，$C(1,1,0)$，$D\\left(\\frac12,0,0\\right)$，$S(0,0,1)$. 则平面 $SBA$ 的一个法向量为 $\\mathbf{n}_1=(1,0,0)$，又 $\\overrightarrow{SC}=(1,1,-1)$，$\\overrightarrow{SD}=\\left(\\frac12,0,-1\\right)$，所以平面 $SCD$ 的一个法向量可取\r\n\n$$\n\\mathbf{n}_2=2\\left(\\overrightarrow{SC}\\times\\overrightarrow{SD}\\right)=(2,-1,1)\n$$\n\r\n设两平面所成的锐二面角为 $\\varphi$，则\r\n\n$$\n\\cos\\varphi=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\frac{2}{\\sqrt6}=\\sqrt{\\frac23}\n$$\n\r\n于是\r\n\n$$\n\\tan\\varphi=\\frac{\\sqrt{1-\\cos^2\\varphi}}{\\cos\\varphi}=\\frac{1}{\\sqrt2}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为底面是直角梯形，且 $AD\\parallel BC$，所以 $AB$ 是梯形的高，从而底面面积为</p>\n$$\nS_{ABCD}=\\frac{AD+BC}{2}\\cdot AB=\\frac{\\frac{1}{2}+1}{2}\\cdot1=\\frac{3}{4}\n$$\n<p>又因为 $SA\\perp$ 面 $ABCD$，所以四棱锥的高为 $SA=1$，因此</p>\n$$\nV_{S-ABCD}=\\frac{1}{3}S_{ABCD}\\cdot SA=\\frac{1}{3}\\cdot\\frac{3}{4}\\cdot1=\\frac{1}{4}\n$$\n</li><li><p>建立空间直角坐标系，取 $A(0,0,0)$，$B(0,1,0)$，$C(1,1,0)$，$D\\left(\\frac{1}{2},0,0\\right)$，$S(0,0,1)$. 则平面 $SBA$ 的一个法向量为 $\\mathbf{n}_{1}=(1,0,0)$，又 $\\overrightarrow{SC}=(1,1,-1)$，$\\overrightarrow{SD}=\\left(\\frac{1}{2},0,-1\\right)$，所以平面 $SCD$ 的一个法向量可取</p>\n$$\n\\mathbf{n}_{2}=2\\left(\\overrightarrow{SC}\\times\\overrightarrow{SD}\\right)=(2,-1,1)\n$$\n<p>设两平面所成的锐二面角为 $\\varphi$，则</p>\n$$\n\\cos\\varphi=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{6}}=\\sqrt{\\frac{2}{3}}\n$$\n<p>于是</p>\n$$\n\\tan\\varphi=\\frac{\\sqrt{1-\\cos^{2}\\varphi}}{\\cos\\varphi}=\\frac{1}{\\sqrt{2}}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "已知复数 $z_{1} = \\mathrm{i}(1 - \\mathrm{i})^{3}$.\r\n\r\n\n(1) 求 $\\arg z_{1}$ 及 $|z_{1}|$；\n\n(2) 当复数 $z$ 满足 $|z| = 1$，求 $|z - z_1|$ 的最大值.",
-          "choices": [],
+          "body": "<p>已知复数 $z_{1}= \\mathrm{i}(1 - \\mathrm{i})^{3}$.</p><ol class=\"enumerate\"><li><p>求 $\\arg z_{1}$ 及 $|z_{1}|$；</p></li><li><p>当复数 $z$ 满足 $|z| = 1$，求 $|z - z_{1}|$ 的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 先计算得 $(1-\\mathrm{i})^2=-2\\mathrm{i}$，从而 $(1-\\mathrm{i})^3=(-2\\mathrm{i})(1-\\mathrm{i})=-2-2\\mathrm{i}$. 所以\r\n\n$$\nz_1=\\mathrm{i}(-2-2\\mathrm{i})=2-2\\mathrm{i}=2\\sqrt2\\left(\\cos\\left(-\\frac\\pi4\\right)+\\mathrm{i}\\sin\\left(-\\frac\\pi4\\right)\\right)\n$$\n\r\n因此 $\\arg z_1=-\\frac\\pi4+2k\\pi$（$k\\in\\mathbb{Z}$），主值为 $-\\frac\\pi4$，且 $|z_1|=2\\sqrt2$.\n\n(2) 由三角不等式，$|z-z_1|\\le |z|+|z_1|=1+2\\sqrt2$. 当 $z=-\\dfrac{z_1}{|z_1|}=\\dfrac{-1+\\mathrm{i}}{\\sqrt2}$ 时，$|z|=1$，且 $z$ 与 $-z_1$ 同向，三角不等式取等号. 所以 $|z-z_1|$ 的最大值为 $1+2\\sqrt2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>先计算得 $(1-\\mathrm{i})^{2}=-2\\mathrm{i}$，从而 $(1-\\mathrm{i})^{3}=(-2\\mathrm{i})(1-\\mathrm{i})=-2-2\\mathrm{i}$. 所以</p>\n$$\nz_{1}=\\mathrm{i}(-2-2\\mathrm{i})=2-2\\mathrm{i}=2\\sqrt{2}\\left(\\cos\\left(-\\frac{\\pi}{4}\\right)+\\mathrm{i}\\sin\\left(-\\frac{\\pi}{4}\\right)\\right)\n$$\n<p>因此 $\\arg z_{1}=-\\frac{\\pi}{4}+2k\\pi$（$k\\in\\mathbb{Z}$），主值为 $-\\frac{\\pi}{4}$，且 $|z_{1}|=2\\sqrt{2}$.</p></li><li><p>由三角不等式，$|z-z_{1}|\\le |z|+|z_{1}|=1+2\\sqrt{2}$. 当 $z=-\\dfrac{z_1}{|z_1|}=\\dfrac{-1+\\mathrm{i}}{\\sqrt{2}}$ 时，$|z|=1$，且 $z$ 与 $-z_{1}$ 同向，三角不等式取等号. 所以 $|z-z_{1}|$ 的最大值为 $1+2\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "设抛物线 $y^{2} = 2px$（$p > 0$）的焦点为 $F$，经过点 $F$ 的直线交抛物线于 $A$，$B$ 两点，点 $C$ 在抛物线的准线上，且 $BC \\parallel x$ 轴. 证明直线 $AC$ 经过原点 $O$.",
-          "choices": [],
+          "body": "设抛物线 $y^{2}= 2px$（$p > 0$）的焦点为 $F$，经过点 $F$ 的直线交抛物线于 $A$，$B$ 两点，点 $C$ 在抛物线的准线上，且 $BC \\parallel x$ 轴. 证明直线 $AC$ 经过原点 $O$.",
+          "choices": null,
           "answer": "",
-          "solution": "令 $u$，$v$ 分别为点 $A$，$B$ 在抛物线参数表示中的参数. 令 $a=\\frac p2$，则抛物线可表示为\r\n\n$$\n(x,y)=(at^2,2at)=\\left(\\frac p2t^2,pt\\right)\n$$\n\r\n其焦点为 $F(a,0)$，准线为 $x=-a$，因而 $A=(au^2,2au)$，$B=(av^2,2av)$.\r\n由于 $A$，$B$，$F$ 共线，有\r\n\n$$\n\\begin{vmatrix}\r\nau^2-a & 2au\\\\\r\nav^2-a & 2av\r\n\\end{vmatrix}=0\n$$\n\r\n化简得 $a^2(u-v)(uv+1)=0$. 因为 $a>0$ 且 $A\\ne B$，所以 $uv=-1$.\r\n\r\n由 $BC\\parallel x$ 轴，点 $C$ 与点 $B$ 的纵坐标相同；又 $C$ 在准线上，所以 $C=(-a,2av)$. 于是\r\n\n$$\n\\begin{vmatrix}\r\nau^2 & 2au\\\\\r\n-a & 2av\r\n\\end{vmatrix}=2a^2u(uv+1)=0\n$$\n\r\n这说明向量 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OC}$ 共线，故直线 $AC$ 经过原点 $O$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>令 $u$，$v$ 分别为点 $A$，$B$ 在抛物线参数表示中的参数. 令 $a=\\frac{p}{2}$，则抛物线可表示为</p>\n$$\n(x,y)=(at^{2},2at)=\\left(\\frac{p}{2}t^{2},pt\\right)\n$$\n<p>其焦点为 $F(a,0)$，准线为 $x=-a$，因而 $A=(au^{2},2au)$，$B=(av^{2},2av)$.</p><p>由于 $A$，$B$，$F$ 共线，有</p>\n$$\n\\begin{vmatrix}au^{2}-a&#x26;2au\\\\  av^{2}-a&#x26;2av\\end{vmatrix}=0\n$$\n<p>化简得 $a^{2}(u-v)(uv+1)=0$. 因为 $a>0$ 且 $A\\ne B$，所以 $uv=-1$.</p><p>由 $BC\\parallel x$ 轴，点 $C$ 与点 $B$ 的纵坐标相同；又 $C$ 在准线上，所以 $C=(-a,2av)$. 于是</p>\n$$\n\\begin{vmatrix}au^{2}&#x26;2au\\\\  -a&#x26;2av\\end{vmatrix}=2a^{2}u(uv+1)=0\n$$\n<p>这说明向量 $\\overrightarrow{OA}$ 与 $\\overrightarrow{OC}$ 共线，故直线 $AC$ 经过原点 $O$.</p>"
         },
         {
           "num": 20,
-          "body": "已知 $i$，$m$，$n$ 是正整数，且 $1 < i \\le m < n$.\r\n\r\n\n(1) 证明： $n^i \\mathrm A_{m}^{i} < m^i \\mathrm A_{n}^{i}$；\n\n(2) 证明： $(1+m)^{n}>(1+n)^{m}$.",
-          "choices": [],
+          "body": "<p>已知 $i$，$m$，$n$ 是正整数，且 $1 &#x3C; i \\le m &#x3C; n$.</p><ol class=\"enumerate\"><li><p>证明： $n^{i} \\mathrm{A}_{m}^{i}&#x3C; m^{i} \\mathrm{A}_{n}^{i}$；</p></li><li><p>证明： $(1+m)^{n}>(1+n)^{m}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 按排列数的定义，$\\displaystyle\\frac{\\mathrm A_m^i}{m^i}=\\prod_{k=0}^{i-1}\\frac{m-k}{m}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{m}\\right)$，同理 $\\displaystyle\\frac{\\mathrm A_n^i}{n^i}=\\prod_{k=0}^{i-1}\\frac{n-k}{n}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{n}\\right)$. 对每个 $k=1$，$2$，$\\ldots$，$i-1$，由 $m<n$ 得 $1-\\frac{k}{m}<1-\\frac{k}{n}$. 又因为 $i\\le m<n$，上述各因子均为正；并且 $i>1$ 保证至少有一个严格不等号，所以\r\n\n$$\n\\frac{\\mathrm A_m^i}{m^i}<\\frac{\\mathrm A_n^i}{n^i}\\Longrightarrow n^i\\mathrm A_m^i<m^i\\mathrm A_n^i\n$$\n\n(2) 由二项式定理，\r\n$(1+m)^n=\\sum_{i=0}^{n}\\mathrm C_n^i m^i$，$(1+n)^m=\\sum_{i=0}^{m}\\mathrm C_m^i n^i$.\r\n由第（1）问及 $\\mathrm C_k^i=\\dfrac{\\mathrm A_k^i}{i!}$，对于 $2\\le i\\le m$，有\r\n\n$$\nn^i\\mathrm A_m^i<m^i\\mathrm A_n^i\r\n\\Longrightarrow\r\nn^i\\mathrm C_m^i<m^i\\mathrm C_n^i\n$$\n\r\n当 $i=0$ 时两边相应的项都为 $1$，当 $i=1$ 时两边相应的项都为 $mn$；而左边还含有 $i=m+1$，$\\ldots$，$n$ 的正项. 因此逐项比较可得\r\n\n$$\n(1+n)^m<(1+m)^n\n$$\n\r\n即 $(1+m)^n>(1+n)^m$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>按排列数的定义，$\\displaystyle\\frac{\\mathrm{A}_{m}^{i}}{m^{i}}=\\prod_{k=0}^{i-1}\\frac{m-k}{m}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{m}\\right)$，同理 $\\displaystyle\\frac{\\mathrm{A}_{n}^{i}}{n^{i}}=\\prod_{k=0}^{i-1}\\frac{n-k}{n}=\\prod_{k=1}^{i-1}\\left(1-\\frac{k}{n}\\right)$. 对每个 $k=1$，$2$，$\\ldots$，$i-1$，由 $m&#x3C;n$ 得 $1-\\frac{k}{m}&#x3C;1-\\frac{k}{n}$. 又因为 $i\\le m&#x3C;n$，上述各因子均为正；并且 $i>1$ 保证至少有一个严格不等号，所以</p>\n$$\n\\frac{\\mathrm{A}_{m}^{i}}{m^{i}}&#x3C;\\frac{\\mathrm{A}_{n}^{i}}{n^{i}}\\Longrightarrow n^{i}\\mathrm{A}_{m}^{i}&#x3C;m^{i}\\mathrm{A}_{n}^{i}\n$$\n</li><li><p>由二项式定理，</p><p>$(1+m)^{n}=\\sum_{i=0}^{n}\\mathrm{C}_{n}^{i} m^{i}$，$(1+n)^{m}=\\sum_{i=0}^{m}\\mathrm{C}_{m}^{i} n^{i}$.</p><p>由第（1）问及 $\\mathrm{C}_{k}^{i}=\\dfrac{\\mathrm{A}_k^i}{i!}$，对于 $2\\le i\\le m$，有</p>\n$$\nn^{i}\\mathrm{A}_{m}^{i}&#x3C;m^{i}\\mathrm{A}_{n}^{i}  \\Longrightarrow  n^{i}\\mathrm{C}_{m}^{i}&#x3C;m^{i}\\mathrm{C}_{n}^{i}\n$$\n<p>当 $i=0$ 时两边相应的项都为 $1$，当 $i=1$ 时两边相应的项都为 $mn$；而左边还含有 $i=m+1$，$\\ldots$，$n$ 的正项. 因此逐项比较可得</p>\n$$\n(1+n)^{m}&#x3C;(1+m)^{n}\n$$\n<p>即 $(1+m)^{n}>(1+n)^{m}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "从社会效益和经济效益出发，某地投入资金进行生态环境建设，并以此发展旅游产业. 根据规划，本年度投入 $800\\text{ 万元}$，以后每年投入将比上年减少 $\\frac{1}{5}$. 本年度当地旅游业收入估计为 $400\\text{ 万元}$，由于该项建设对旅游业的促进作用，预计今后的旅游业收入每年会比上年增加 $\\frac{1}{4}$.\r\n\r\n\n(1) 设 $n$ 年内（本年度为第一年）总投入为 $a_{n}\\text{ 万元}$，旅游业总收入为 $b_{n}\\text{ 万元}$. 写出 $a_{n}$，$b_{n}$ 的表达式；\n\n(2) 至少经过几年旅游业的总收入才能超过总投入？",
-          "choices": [],
+          "body": "<p>从社会效益和经济效益出发，某地投入资金进行生态环境建设，并以此发展旅游产业. 根据规划，本年度投入 $800\\text{ 万元}$，以后每年投入将比上年减少 $\\frac{1}{5}$. 本年度当地旅游业收入估计为 $400\\text{ 万元}$，由于该项建设对旅游业的促进作用，预计今后的旅游业收入每年会比上年增加 $\\frac{1}{4}$.</p><ol class=\"enumerate\"><li><p>设 $n$ 年内（本年度为第一年）总投入为 $a_{n}\\text{ 万元}$，旅游业总收入为 $b_{n}\\text{ 万元}$. 写出 $a_{n}$，$b_{n}$ 的表达式；</p></li><li><p>至少经过几年旅游业的总收入才能超过总投入？</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 每年投入构成首项为 $800$，公比为 $\\frac45$ 的等比数列，所以\r\n\n$$\na_n=800\\frac{1-\\left(\\frac45\\right)^n}{1-\\frac45}=4000\\left[1-\\left(\\frac45\\right)^n\\right]\n$$\n\r\n每年旅游业收入构成首项为 $400$，公比为 $\\frac54$ 的等比数列，所以\r\n\n$$\nb_n=400\\frac{\\left(\\frac54\\right)^n-1}{\\frac54-1}=1600\\left[\\left(\\frac54\\right)^n-1\\right]\n$$\n\n(2) 令 $t=\\left(\\frac54\\right)^n>1$，则 $\\left(\\frac45\\right)^n=\\frac1t$. 条件 $b_n>a_n$ 等价于\r\n\n$$\n1600(t-1)>4000\\left(1-\\frac1t\\right)\r\n\\Longleftrightarrow (t-1)(4t-10)>0\n$$\n\r\n由于 $t>1$，所以必须有 $t>\\frac52$，即\r\n\n$$\n\\left(\\frac54\\right)^n>\\frac52\n$$\n\r\n又 $\\left(\\frac54\\right)^4=\\frac{625}{256}<\\frac52$，而\r\n$\\left(\\frac54\\right)^5=\\frac{3125}{1024}>\\frac52$，\r\n故至少经过 $5$ 年旅游业的总收入才能超过总投入.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>每年投入构成首项为 $800$，公比为 $\\frac{4}{5}$ 的等比数列，所以</p>\n$$\na_{n}=800\\frac{1-\\left(\\frac{4}{5}\\right)^{n}}{1-\\frac{4}{5}}=4000\\left[1-\\left(\\frac{4}{5}\\right)^{n}\\right]\n$$\n<p>每年旅游业收入构成首项为 $400$，公比为 $\\frac{5}{4}$ 的等比数列，所以</p>\n$$\nb_{n}=400\\frac{\\left(\\frac{5}{4}\\right)^{n}-1}{\\frac{5}{4}-1}=1600\\left[\\left(\\frac{5}{4}\\right)^{n}-1\\right]\n$$\n</li><li><p>令 $t=\\left(\\frac{5}{4}\\right)^{n}>1$，则 $\\left(\\frac{4}{5}\\right)^{n}=\\frac{1}{t}$. 条件 $b_{n}>a_{n}$ 等价于</p>\n$$\n1600(t-1)>4000\\left(1-\\frac{1}{t}\\right)  \\Longleftrightarrow (t-1)(4t-10)>0\n$$\n<p>由于 $t>1$，所以必须有 $t>\\frac{5}{2}$，即</p>\n$$\n\\left(\\frac{5}{4}\\right)^{n}>\\frac{5}{2}\n$$\n<p>又 $\\left(\\frac{5}{4}\\right)^{4}=\\frac{625}{256}&#x3C;\\frac{5}{2}$，而</p><p>$\\left(\\frac{5}{4}\\right)^{5}=\\frac{3125}{1024}>\\frac{5}{2}$，</p><p>故至少经过 $5$ 年旅游业的总收入才能超过总投入.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "设 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，其图象关于直线 $x = 1$ 对称，对任意 $x_{1}$，$x_{2} \\in \\left[0, \\frac{1}{2}\\right]$，都有 $f(x_{1} + x_{2}) = f(x_{1}) \\cdot f(x_{2})$，且 $f(1) = a > 0$.\r\n\r\n\n(1) 求 $f\\left(\\frac{1}{2}\\right)$，$f\\left(\\frac{1}{4}\\right)$；\n\n(2) 证明： $f(x)$ 是周期函数；\n\n(3) 记 $a_{n} = f\\left(2n + \\frac{1}{2n}\\right)$，求 $\\displaystyle\\lim_{n \\to \\infty}(\\ln a_{n})$.",
-          "choices": [],
+          "body": "<p>设 $f(x)$ 是定义在 $\\mathbb{R}$ 上的偶函数，其图象关于直线 $x = 1$ 对称，对任意 $x_{1}$，$x_{2}\\in \\left[0, \\frac{1}{2}\\right]$，都有 $f(x_{1}+ x_{2}) = f(x_{1}) \\cdot f(x_{2})$，且 $f(1) = a > 0$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(\\frac{1}{2}\\right)$，$f\\left(\\frac{1}{4}\\right)$；</p></li><li><p>证明： $f(x)$ 是周期函数；</p></li><li><p>记 $a_{n}= f\\left(2n + \\frac{1}{2n}\\right)$，求 $\\displaystyle\\lim_{n \\to \\infty}(\\ln a_{n})$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取 $x_1=x_2=\\frac12$，由已知得 $f(1)=f\\left(\\frac12\\right)^2=a$. 对任意 $x\\in\\left[0,\\frac12\\right]$，取 $x_1=x_2=\\frac{x}{2}$，则 $f(x)=f\\left(\\frac{x}{2}\\right)^2\\geqslant0$，因此 $f\\left(\\frac12\\right)=\\sqrt a$. 再取 $x_1=x_2=\\frac14$，得 $f\\left(\\frac12\\right)=f\\left(\\frac14\\right)^2$. 结合 $f\\left(\\frac14\\right)\\geqslant0$，可得 $f\\left(\\frac14\\right)=a^{\\frac{1}{4}}$. 又由 $f\\left(\\frac12\\right)=f(0)f\\left(\\frac12\\right)$ 以及 $f\\left(\\frac12\\right)>0$，得 $f(0)=1$.\n\n(2) 由图象关于直线 $x=1$ 对称，$f(x)=f(2-x)$. 又因为 $f$ 是偶函数，$f(2-x)=f(-(2-x))=f(x-2)$. 所以对任意 $x\\in\\mathbb{R}$，都有 $f(x)=f(x-2)$，即 $f(x)$ 是以 $2$ 为一个周期的周期函数.\n\n(3) 由周期性，$a_n=f\\left(2n+\\frac{1}{2n}\\right)=f\\left(\\frac{1}{2n}\\right)$. 反复使用已知的乘法关系，在 $k=1$，$2$，$\\ldots$，$n$ 时均有 $f\\left(\\frac{k}{2n}\\right)=f\\left(\\frac{k-1}{2n}\\right)f\\left(\\frac{1}{2n}\\right)$，其中两个自变量都属于 $\\left[0,\\frac12\\right]$. 因而 $f\\left(\\frac12\\right)=f\\left(\\frac{1}{2n}\\right)^n$. 由第（1）问，左边为 $\\sqrt a>0$，且 $f\\left(\\frac{1}{2n}\\right)\\geqslant0$，所以 $f\\left(\\frac{1}{2n}\\right)=a^{\\frac{1}{(2n)}}$. 于是\r\n\n$$\n\\ln a_n=\\frac{\\ln a}{2n}\\longrightarrow0\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取 $x_{1}=x_{2}=\\frac{1}{2}$，由已知得 $f(1)=f\\left(\\frac{1}{2}\\right)^{2}=a$. 对任意 $x\\in\\left[0,\\frac{1}{2}\\right]$，取 $x_{1}=x_{2}=\\frac{x}{2}$，则 $f(x)=f\\left(\\frac{x}{2}\\right)^{2}\\geqslant0$，因此 $f\\left(\\frac{1}{2}\\right)=\\sqrt{a}$. 再取 $x_{1}=x_{2}=\\frac{1}{4}$，得 $f\\left(\\frac{1}{2}\\right)=f\\left(\\frac{1}{4}\\right)^{2}$. 结合 $f\\left(\\frac{1}{4}\\right)\\geqslant0$，可得 $f\\left(\\frac{1}{4}\\right)=a^{\\frac{1}{4}}$. 又由 $f\\left(\\frac{1}{2}\\right)=f(0)f\\left(\\frac{1}{2}\\right)$ 以及 $f\\left(\\frac{1}{2}\\right)>0$，得 $f(0)=1$.</p></li><li><p>由图象关于直线 $x=1$ 对称，$f(x)=f(2-x)$. 又因为 $f$ 是偶函数，$f(2-x)=f(-(2-x))=f(x-2)$. 所以对任意 $x\\in\\mathbb{R}$，都有 $f(x)=f(x-2)$，即 $f(x)$ 是以 $2$ 为一个周期的周期函数.</p></li><li><p>由周期性，$a_{n}=f\\left(2n+\\frac{1}{2n}\\right)=f\\left(\\frac{1}{2n}\\right)$. 反复使用已知的乘法关系，在 $k=1$，$2$，$\\ldots$，$n$ 时均有 $f\\left(\\frac{k}{2n}\\right)=f\\left(\\frac{k-1}{2n}\\right)f\\left(\\frac{1}{2n}\\right)$，其中两个自变量都属于 $\\left[0,\\frac{1}{2}\\right]$. 因而 $f\\left(\\frac{1}{2}\\right)=f\\left(\\frac{1}{2n}\\right)^{n}$. 由第（1）问，左边为 $\\sqrt{a}>0$，且 $f\\left(\\frac{1}{2n}\\right)\\geqslant0$，所以 $f\\left(\\frac{1}{2n}\\right)=a^{\\frac{1}{(2n)}}$. 于是</p>\n$$\n\\ln a_{n}=\\frac{\\ln a}{2n}\\longrightarrow0\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

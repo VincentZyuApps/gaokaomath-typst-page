@@ -1,150 +1,15 @@
 {
+  "title": "2011年普通高等学校招生全国统一考试",
+  "subtitle": "2011年大纲卷（理）",
   "year": "2011",
   "slug": "syllabus_science",
-  "title": "2011年大纲卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "复数 $z = 1 + \\mathrm{i}$，$\\overline{z}$ 为 $z$ 的共轭复数. 则 $z\\overline{z} - z - 1 =$（ ）",
+          "body": "复数 $z = 1 + \\mathrm{i}$，$\\overline{z}$ 为 $z$ 的共轭复数. 则 $z\\overline{z}- z - 1 =$（ ）",
           "choices": [
             "$-2\\mathrm{i}$",
             "$-\\mathrm{i}$",
@@ -152,41 +17,35 @@
             "$2\\mathrm{i}$"
           ],
           "answer": "B",
-          "solution": "$\\overline{z}=1-\\mathrm{i}$，所以\r\n\n$$\nz\\overline{z}=(1+\\mathrm{i})(1-\\mathrm{i})=1-\\mathrm{i}^2=2\n$$\n\r\n因此\r\n\n$$\nz\\overline{z}-z-1=2-(1+\\mathrm{i})-1=-\\mathrm{i}\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$\\overline{z}=1-\\mathrm{i}$，所以</p>\n$$\nz\\overline{z}=(1+\\mathrm{i})(1-\\mathrm{i})=1-\\mathrm{i}^{2}=2\n$$\n<p>因此</p>\n$$\nz\\overline{z}-z-1=2-(1+\\mathrm{i})-1=-\\mathrm{i}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 2,
-          "body": "函数 $y = 2\\sqrt{x}$ （$x \\ge 0$）的反函数为（ ）",
+          "body": "函数 $y = 2\\sqrt{x}$ （$x \\ge 0$）的反函数为（ ）",
           "choices": [
-            "$y = \\frac{x^2}{4}$（$x \\in \\mathbb{R}$）",
-            "$y = \\frac{x^2}{4}$（$x \\ge 0$）",
+            "$y = \\frac{x^{2}}{4}$（$x \\in \\mathbb{R}$）",
+            "$y = \\frac{x^{2}}{4}$（$x \\ge 0$）",
             "$y = 4x^{2}$（$x \\in \\mathbb{R}$）",
             "$y = 4x^{2}$（$x \\ge 0$）"
           ],
           "answer": "B",
-          "solution": "由原函数的定义域为$x\\geqslant0$，且$y=2\\sqrt{x}\\geqslant0$，解得\r\n$x=\\frac{y^2}{4}$，$y\\geqslant0$.\r\n交换$x$，$y$并注明反函数的定义域，得反函数为\r\n$y=\\frac{x^2}{4}$，$x\\geqslant0$.\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由原函数的定义域为$x\\geqslant0$，且$y=2\\sqrt{x}\\geqslant0$，解得</p><p>$x=\\frac{y^{2}}{4}$，$y\\geqslant0$.</p><p>交换$x$，$y$并注明反函数的定义域，得反函数为</p><p>$y=\\frac{x^{2}}{4}$，$x\\geqslant0$.</p><p>故选 B.</p>"
         },
         {
           "num": 3,
-          "body": "下面四个条件中，使 $a > b$ 成立的充分而不必要的条件是（ ）",
+          "body": "下面四个条件中，使 $a > b$ 成立的充分而不必要的条件是（ ）",
           "choices": [
             "$a > b + 1$",
             "$a > b - 1$",
-            "$a^2 > b^2$",
-            "$a^3 > b^3$"
+            "$a^{2} > b^{2}$",
+            "$a^{3} > b^{3}$"
           ],
           "answer": "A",
-          "solution": "选项 A 给出$a-b>1>0$，所以一定有$a>b$；但例如取$a=b+\\frac12$，有$a>b$而不满足选项 A，故它不是必要条件.\r\n\r\n选项 B 不能推出$a>b$，例如取$a=b-\\frac12$；选项 C 不能推出$a>b$，例如取$a=-2$，$b=1$；选项 D 中函数$y=x^3$在$\\mathbb{R}$上严格递增，因此$a^3>b^3$与$a>b$等价，是必要条件.\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>选项 A 给出$a-b>1>0$，所以一定有$a>b$；但例如取$a=b+\\frac{1}{2}$，有$a>b$而不满足选项 A，故它不是必要条件.</p><p>选项 B 不能推出$a>b$，例如取$a=b-\\frac{1}{2}$；选项 C 不能推出$a>b$，例如取$a=-2$，$b=1$；选项 D 中函数$y=x^{3}$在$\\mathbb{R}$上严格递增，因此$a^{3}>b^{3}$与$a>b$等价，是必要条件.</p><p>故选 A.</p>"
         },
         {
           "num": 4,
-          "body": "设 $S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和，若 $a_{1} = 1$，公差 $d = 2$，$S_{k+2} - S_{k} = 24$，则 $k =$（ ）",
+          "body": "设 $S_{n}$ 为等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和，若 $a_{1}= 1$，公差 $d = 2$，$S_{k+2}- S_{k}= 24$，则 $k =$（ ）",
           "choices": [
             "$8$",
             "$7$",
@@ -194,13 +53,11 @@
             "$5$"
           ],
           "answer": "D",
-          "solution": "等差数列的通项为\r\n\n$$\na_n=a_1+(n-1)d=1+2(n-1)=2n-1\n$$\n\r\n又$S_{k+2}-S_k=a_{k+1}+a_{k+2}$，所以\r\n\n$$\n24=(2k+1)+(2k+3)=4k+4\n$$\n\r\n解得$k=5$.\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>等差数列的通项为</p>\n$$\na_{n}=a_{1}+(n-1)d=1+2(n-1)=2n-1\n$$\n<p>又$S_{k+2}-S_{k}=a_{k+1}+a_{k+2}$，所以</p>\n$$\n24=(2k+1)+(2k+3)=4k+4\n$$\n<p>解得$k=5$.</p><p>故选 D.</p>"
         },
         {
           "num": 5,
-          "body": "设函数 $f(x) = \\cos \\omega x$ （$\\omega > 0$），将 $y = f(x)$ 的图象向右平移 $\\frac{\\pi}{3}$ 个单位长度后，所得的图象与原图象重合，则 $\\omega$ 的最小值等于（ ）",
+          "body": "设函数 $f(x) = \\cos \\omega x$ （$\\omega > 0$），将 $y = f(x)$ 的图象向右平移 $\\frac{\\pi}{3}$ 个单位长度后，所得的图象与原图象重合，则 $\\omega$ 的最小值等于（ ）",
           "choices": [
             "$\\frac{1}{3}$",
             "$3$",
@@ -208,13 +65,11 @@
             "$9$"
           ],
           "answer": "C",
-          "solution": "将图象向右平移$\\frac{\\pi}{3}$后，函数变为\r\n\n$$\ny=\\cos\\omega\\left(x-\\frac{\\pi}{3}\\right)\n$$\n\r\n要与原图象重合，平移量必须是函数周期的正整数倍，因此存在正整数$m$，使\r\n\n$$\n\\frac{\\pi}{3}=m\\frac{2\\pi}{\\omega}\n$$\n\r\n于是$\\omega=6m$，在$\\omega>0$下最小值为$6$.\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>将图象向右平移$\\frac{\\pi}{3}$后，函数变为</p>\n$$\ny=\\cos\\omega\\left(x-\\frac{\\pi}{3}\\right)\n$$\n<p>要与原图象重合，平移量必须是函数周期的正整数倍，因此存在正整数$m$，使</p>\n$$\n\\frac{\\pi}{3}=m\\frac{2\\pi}{\\omega}\n$$\n<p>于是$\\omega=6m$，在$\\omega>0$下最小值为$6$.</p><p>故选 C.</p>"
         },
         {
           "num": 6,
-          "body": "已知直二面角 $\\alpha - l - \\beta$，点 $A \\in \\alpha$，$AC \\perp l$，$C$ 为垂足，$B \\in \\beta$，$BD \\perp l$，$D$ 为垂足. 若 $AB = 2$，$AC = BD = 1$，则 $D$ 到平面 $ABC$ 的距离等于（ ）",
+          "body": "已知直二面角 $\\alpha - l - \\beta$，点 $A \\in \\alpha$，$AC \\perp l$，$C$ 为垂足，$B \\in \\beta$，$BD \\perp l$，$D$ 为垂足. 若 $AB = 2$，$AC = BD = 1$，则 $D$ 到平面 $ABC$ 的距离等于（ ）",
           "choices": [
             "$\\frac{\\sqrt{2}}{3}$",
             "$\\frac{\\sqrt{3}}{3}$",
@@ -222,13 +77,11 @@
             "$1$"
           ],
           "answer": "C",
-          "solution": "取直二面角的棱$l$为$x$轴，令$\\alpha$为$xy$平面，$\\beta$为$xz$平面. 设\r\n$C=(0,0,0)$，$A=(0,1,0)$，$D=(t,0,0)$，$B=(t,0,1)$.\r\n这些坐标满足$AC=BD=1$，且由$AB=2$得\r\n$t^2+1^2+1^2=4$，$t^2=2$.\r\n平面$ABC$的一个法向量为$(1,0,-t)$，故其方程为$x-tz=0$. 于是点$D=(t,0,0)$到该平面的距离为\r\n\n$$\n\\frac{|t|}{\\sqrt{1+t^2}}=\\frac{\\sqrt2}{\\sqrt3}=\\frac{\\sqrt6}{3}\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>取直二面角的棱$l$为$x$轴，令$\\alpha$为$xy$平面，$\\beta$为$xz$平面. 设</p><p>$C=(0,0,0)$，$A=(0,1,0)$，$D=(t,0,0)$，$B=(t,0,1)$.</p><p>这些坐标满足$AC=BD=1$，且由$AB=2$得</p><p>$t^{2}+1^{2}+1^{2}=4$，$t^{2}=2$.</p><p>平面$ABC$的一个法向量为$(1,0,-t)$，故其方程为$x-tz=0$. 于是点$D=(t,0,0)$到该平面的距离为</p>\n$$\n\\frac{|t|}{\\sqrt{1+t^{2}}}=\\frac{\\sqrt{2}}{\\sqrt{3}}=\\frac{\\sqrt{6}}{3}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 7,
-          "body": "某同学有同样的画册 $2$ 本，同样的集邮册 $3$ 本，从中取出 $4$ 本赠送给 $4$ 位朋友，每位朋友 $1$ 本，则不同的赠送方法共有（ ）",
+          "body": "某同学有同样的画册 $2$ 本，同样的集邮册 $3$ 本，从中取出 $4$ 本赠送给 $4$ 位朋友，每位朋友 $1$ 本，则不同的赠送方法共有（ ）",
           "choices": [
             "$4$ 种",
             "$10$ 种",
@@ -236,13 +89,11 @@
             "$20$ 种"
           ],
           "answer": "B",
-          "solution": "设取出的画册本数为$r$. 因为画册有$2$本、集邮册有$3$本，且一共取出$4$本，所以只能有两种情况：\r\n\r\n当$r=1$时，取$1$本画册和$3$本集邮册，只需从$4$位朋友中选出接受画册的朋友，方法数为$\\mathrm C_4^1=4$.\r\n\r\n当$r=2$时，取$2$本画册和$2$本集邮册，只需从$4$位朋友中选出接受画册的两位朋友，方法数为$\\mathrm C_4^2=6$.\r\n\r\n两类情况互不相容，故总方法数为$4+6=10$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设取出的画册本数为$r$. 因为画册有$2$本、集邮册有$3$本，且一共取出$4$本，所以只能有两种情况：</p><p>当$r=1$时，取$1$本画册和$3$本集邮册，只需从$4$位朋友中选出接受画册的朋友，方法数为$\\mathrm{C}_{4}^{1}=4$.</p><p>当$r=2$时，取$2$本画册和$2$本集邮册，只需从$4$位朋友中选出接受画册的两位朋友，方法数为$\\mathrm{C}_{4}^{2}=6$.</p><p>两类情况互不相容，故总方法数为$4+6=10$. 故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "曲线 $y = \\mathrm{e}^{-2x} + 1$ 在点 $(0,2)$ 处的切线与直线 $y = 0$ 和 $y = x$ 围成的三角形的面积为（ ）",
+          "body": "曲线 $y = \\mathrm{e}^{-2x}+ 1$ 在点 $(0,2)$ 处的切线与直线 $y = 0$ 和 $y = x$ 围成的三角形的面积为（ ）",
           "choices": [
             "$\\frac{1}{3}$",
             "$\\frac{1}{2}$",
@@ -250,13 +101,11 @@
             "$1$"
           ],
           "answer": "A",
-          "solution": "令$g(x)=\\mathrm{e}^{-2x}+1$，则$g'(x)=-2\\mathrm{e}^{-2x}$，所以在$(0,2)$处的切线斜率为$-2$，切线方程为\r\n$y-2=-2x$，$y=-2x+2$.\r\n它与$y=0$交于$(1,0)$，与$y=x$交于$\\left(\\frac23,\\frac23\\right)$，而$y=0$与$y=x$交于原点. 因此三角形以$y=0$上的线段为底，底长为$1$，高为$\\frac23$，面积为\r\n\n$$\n\\frac12\\times1\\times\\frac23=\\frac13\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令$g(x)=\\mathrm{e}^{-2x}+1$，则$g'(x)=-2\\mathrm{e}^{-2x}$，所以在$(0,2)$处的切线斜率为$-2$，切线方程为</p><p>$y-2=-2x$，$y=-2x+2$.</p><p>它与$y=0$交于$(1,0)$，与$y=x$交于$\\left(\\frac{2}{3},\\frac{2}{3}\\right)$，而$y=0$与$y=x$交于原点. 因此三角形以$y=0$上的线段为底，底长为$1$，高为$\\frac{2}{3}$，面积为</p>\n$$\n\\frac{1}{2}\\times1\\times\\frac{2}{3}=\\frac{1}{3}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 9,
-          "body": "设 $f(x)$ 是周期为 $2$ 的奇函数，当 $0 \\le x \\le 1$ 时，$f(x) = 2x(1 - x)$，则 $f\\left(-\\frac{5}{2}\\right) =$（ ）",
+          "body": "设 $f(x)$ 是周期为 $2$ 的奇函数，当 $0 \\le x \\le 1$ 时，$f(x) = 2x(1 - x)$，则 $f\\left(-\\frac{5}{2}\\right) =$（ ）",
           "choices": [
             "$-\\frac{1}{2}$",
             "$-\\frac{1}{4}$",
@@ -264,13 +113,11 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "A",
-          "solution": "利用周期性，\r\n\n$$\nf\\left(-\\frac52\\right)=f\\left(-\\frac12\\right)\n$$\n\r\n再利用奇函数的性质，得\r\n\n$$\nf\\left(-\\frac12\\right)=-f\\left(\\frac12\\right)=-2\\times\\frac12\\left(1-\\frac12\\right)=-\\frac12\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>利用周期性，</p>\n$$\nf\\left(-\\frac{5}{2}\\right)=f\\left(-\\frac{1}{2}\\right)\n$$\n<p>再利用奇函数的性质，得</p>\n$$\nf\\left(-\\frac{1}{2}\\right)=-f\\left(\\frac{1}{2}\\right)=-2\\times\\frac{1}{2}\\left(1-\\frac{1}{2}\\right)=-\\frac{1}{2}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 10,
-          "body": "已知抛物线 $C: y^{2} = 4x$ 的焦点为 $F$，直线 $y = 2x - 4$ 与 $C$ 交于 $A$，$B$ 两点，则 $\\cos \\angle AFB =$（ ）",
+          "body": "已知抛物线 $C: y^{2}= 4x$ 的焦点为 $F$，直线 $y = 2x - 4$ 与 $C$ 交于 $A$，$B$ 两点，则 $\\cos \\angle AFB =$（ ）",
           "choices": [
             "$\\frac{4}{5}$",
             "$\\frac{3}{5}$",
@@ -278,13 +125,11 @@
             "$-\\frac{4}{5}$"
           ],
           "answer": "D",
-          "solution": "由$y^2=4x$可知抛物线的焦点为$F=(1,0)$. 联立直线与抛物线，得\r\n\n$$\n(2x-4)^2=4x\r\n\\Longleftrightarrow x^2-5x+4=0\n$$\n\r\n所以交点的横坐标为$1$，$4$，相应两点为$(1,-2)$和$(4,4)$. 不妨设$A=(1,-2)$，$B=(4,4)$，则\r\n$\\overrightarrow{FA}=(0,-2)$，$\\overrightarrow{FB}=(3,4)$.\r\n于是\r\n\n$$\n\\cos\\angle AFB\r\n=\\frac{\\overrightarrow{FA}\\cdot\\overrightarrow{FB}}{|\\overrightarrow{FA}|\\,|\\overrightarrow{FB}|}\r\n=\\frac{-8}{2\\times5}=-\\frac45\n$$\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由$y^{2}=4x$可知抛物线的焦点为$F=(1,0)$. 联立直线与抛物线，得</p>\n$$\n(2x-4)^{2}=4x  \\Longleftrightarrow x^{2}-5x+4=0\n$$\n<p>所以交点的横坐标为$1$，$4$，相应两点为$(1,-2)$和$(4,4)$. 不妨设$A=(1,-2)$，$B=(4,4)$，则</p><p>$\\overrightarrow{FA}=(0,-2)$，$\\overrightarrow{FB}=(3,4)$.</p><p>于是</p>\n$$\n\\cos\\angle AFB  =\\frac{\\overrightarrow{FA}\\cdot\\overrightarrow{FB}}{|\\overrightarrow{FA}|\\,|\\overrightarrow{FB}|}=\\frac{-8}{2\\times5}=-\\frac{4}{5}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 11,
-          "body": "已知平面 $\\alpha$ 截一球面得圆 $M$，过圆心 $M$ 且与 $\\alpha$ 成 $60^{\\circ}$ 二面角的平面 $\\beta$ 截该球面得圆 $N$. 若该球面的半径为 $4$，圆 $M$ 的面积为 $4\\pi$，则圆 $N$ 的面积为（ ）",
+          "body": "已知平面 $\\alpha$ 截一球面得圆 $M$，过圆心 $M$ 且与 $\\alpha$ 成 $60^{\\circ}$ 二面角的平面 $\\beta$ 截该球面得圆 $N$. 若该球面的半径为 $4$，圆 $M$ 的面积为 $4\\pi$，则圆 $N$ 的面积为（ ）",
           "choices": [
             "$7\\pi$",
             "$9\\pi$",
@@ -292,13 +137,11 @@
             "$13\\pi$"
           ],
           "answer": "D",
-          "solution": "设球心为$O$. 圆$M$的面积为$4\\pi$，故其半径为$2$. 由于球心到截面$\\alpha$的垂线经过圆心$M$，有\r\n\n$$\nOM=\\sqrt{4^2-2^2}=2\\sqrt3\n$$\n\r\n平面$\\beta$经过$M$，且与$\\alpha$成$60^\\circ$二面角. 在垂直于两平面交线的截面内，点$O$到平面$\\beta$的距离为\r\n\n$$\nd=OM\\cos60^\\circ=\\sqrt3\n$$\n\r\n因此圆$N$的半径满足\r\n\n$$\nr_N^2=4^2-d^2=16-3=13\n$$\n\r\n从而圆$N$的面积为$13\\pi$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设球心为$O$. 圆$M$的面积为$4\\pi$，故其半径为$2$. 由于球心到截面$\\alpha$的垂线经过圆心$M$，有</p>\n$$\nOM=\\sqrt{4^{2}-2^{2}}=2\\sqrt{3}\n$$\n<p>平面$\\beta$经过$M$，且与$\\alpha$成$60^{\\circ}$二面角. 在垂直于两平面交线的截面内，点$O$到平面$\\beta$的距离为</p>\n$$\nd=OM\\cos60^{\\circ}=\\sqrt{3}\n$$\n<p>因此圆$N$的半径满足</p>\n$$\nr_{N}^{2}=4^{2}-d^{2}=16-3=13\n$$\n<p>从而圆$N$的面积为$13\\pi$. 故选 D.</p>"
         },
         {
           "num": 12,
-          "body": "设向量 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 满足 $|\\mathbf{a}| = |\\mathbf{b}| = 1$，$\\mathbf{a} \\cdot \\mathbf{b} = -\\frac{1}{2}$，$\\langle \\mathbf{a} - \\mathbf{c}, \\mathbf{b} - \\mathbf{c} \\rangle = 60^\\circ$，则 $|\\mathbf{c}|$ 的最大值等于（ ）",
+          "body": "设向量 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 满足 $|\\mathbf{a}| = |\\mathbf{b}| = 1$，$\\mathbf{a}\\cdot \\mathbf{b}= -\\frac{1}{2}$，$\\langle \\mathbf{a}- \\mathbf{c}, \\mathbf{b}- \\mathbf{c}\\rangle = 60^{\\circ}$，则 $|\\mathbf{c}|$ 的最大值等于（ ）",
           "choices": [
             "$2$",
             "$\\sqrt{3}$",
@@ -306,9 +149,7 @@
             "$1$"
           ],
           "answer": "A",
-          "solution": "把向量$\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$的终点分别记为点$A$，$B$，$C$，起点均为原点$O$. 由题设\r\n\n$$\n|AB|=|\\mathbf{a}-\\mathbf{b}|=\\sqrt{|\\mathbf{a}|^2+|\\mathbf{b}|^2-2\\mathbf{a}\\cdot\\mathbf{b}}=\\sqrt3\n$$\n\r\n又$\\angle ACB=60^\\circ$，所以三角形$ABC$的外接圆半径为\r\n\n$$\nR=\\frac{|AB|}{2\\sin60^\\circ}=1\n$$\n\r\n经过固定弦$AB$且半径为$1$的两个圆，其圆心分别为$O$和点$O'$，其中点$O'$的向量为$\\mathbf{a}+\\mathbf{b}$，因为\r\n$|O'A|=|\\mathbf{b}|=1$，$|O'B|=|\\mathbf{a}|=1$.\r\n若$C$在以$O$为圆心的圆上，则$|\\mathbf{c}|=1$；若$C$在以$O'$为圆心的圆上，则\r\n\n$$\n|\\mathbf{c}|\\le|\\mathbf{a}+\\mathbf{b}|+1\n$$\n\r\n而\r\n\n$$\n|\\mathbf{a}+\\mathbf{b}|=\\sqrt{1+1+2\\left(-\\frac12\\right)}=1\n$$\n\r\n故总有$|\\mathbf{c}|\\leqslant2$. 取$\\mathbf{c}=2(\\mathbf{a}+\\mathbf{b})$时，$|\\mathbf{c}|=2$，且\r\n$(\\mathbf{a}-\\mathbf{c})\\cdot(\\mathbf{b}-\\mathbf{c})=\\frac32$，$|\\mathbf{a}-\\mathbf{c}|=|\\mathbf{b}-\\mathbf{c}|=\\sqrt3$，\r\n所以两向量夹角的余弦为$\\frac{\\frac{3}{2}}{3}=\\frac12$，确为$60^\\circ$. 因而$|\\mathbf{c}|$的最大值为$2$.\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>把向量$\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$的终点分别记为点$A$，$B$，$C$，起点均为原点$O$. 由题设</p>\n$$\n|AB|=|\\mathbf{a}-\\mathbf{b}|=\\sqrt{|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}-2\\mathbf{a}\\cdot\\mathbf{b}}=\\sqrt{3}\n$$\n<p>又$\\angle ACB=60^{\\circ}$，所以三角形$ABC$的外接圆半径为</p>\n$$\nR=\\frac{|AB|}{2\\sin60^{\\circ}}=1\n$$\n<p>经过固定弦$AB$且半径为$1$的两个圆，其圆心分别为$O$和点$O'$，其中点$O'$的向量为$\\mathbf{a}+\\mathbf{b}$，因为</p><p>$|O'A|=|\\mathbf{b}|=1$，$|O'B|=|\\mathbf{a}|=1$.</p><p>若$C$在以$O$为圆心的圆上，则$|\\mathbf{c}|=1$；若$C$在以$O'$为圆心的圆上，则</p>\n$$\n|\\mathbf{c}|\\le|\\mathbf{a}+\\mathbf{b}|+1\n$$\n<p>而</p>\n$$\n|\\mathbf{a}+\\mathbf{b}|=\\sqrt{1+1+2\\left(-\\frac{1}{2}\\right)}=1\n$$\n<p>故总有$|\\mathbf{c}|\\leqslant2$. 取$\\mathbf{c}=2(\\mathbf{a}+\\mathbf{b})$时，$|\\mathbf{c}|=2$，且</p><p>$(\\mathbf{a}-\\mathbf{c})\\cdot(\\mathbf{b}-\\mathbf{c})=\\frac{3}{2}$，$|\\mathbf{a}-\\mathbf{c}|=|\\mathbf{b}-\\mathbf{c}|=\\sqrt{3}$，</p><p>所以两向量夹角的余弦为$\\frac{\\frac{3}{2}}{3}=\\frac{1}{2}$，确为$60^{\\circ}$. 因而$|\\mathbf{c}|$的最大值为$2$.</p><p>故选 A.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "$(1 - \\sqrt{x})^{20}$ 的二项展开式中，$x$ 的系数与 $x^9$ 的系数之差为 _______ {}.",
-          "choices": [],
+          "body": "$(1 - \\sqrt{x})^{20}$ 的二项展开式中，$x$ 的系数与 $x^{9}$ 的系数之差为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "0",
-          "solution": "二项式展开的通项为\r\n$T_{r+1}=\\mathrm C_{20}^{r}(-1)^r x^{\\frac{r}{2}}$，$r=0$，$1$，$\\ldots$，$20$.\r\n当指数为$1$时，$r=2$，故$x$的系数为$\\mathrm C_{20}^{2}=190$；当指数为$9$时，$r=18$，故$x^9$的系数为$\\mathrm C_{20}^{18}=190$. 两者之差为$0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>二项式展开的通项为</p><p>$T_{r+1}=\\mathrm{C}_{20}^{r}(-1)^{r} x^{\\frac{r}{2}}$，$r=0$，$1$，$\\ldots$，$20$.</p><p>当指数为$1$时，$r=2$，故$x$的系数为$\\mathrm{C}_{20}^{2}=190$；当指数为$9$时，$r=18$，故$x^{9}$的系数为$\\mathrm{C}_{20}^{18}=190$. 两者之差为$0$.</p>"
         },
         {
           "num": 14,
-          "body": "已知 $\\alpha \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，$\\sin \\alpha = \\frac{\\sqrt{5}}{5}$，则 $\\tan 2\\alpha =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-\\frac{4}{3}\\)",
-          "solution": "因为$\\alpha$在第二象限，故\r\n\n$$\n\\cos\\alpha=-\\sqrt{1-\\sin^2\\alpha}=-\\sqrt{1-\\frac15}=-\\frac{2\\sqrt5}{5}\n$$\n\r\n从而$\\tan\\alpha=-\\frac12$. 因此\r\n\n$$\n\\tan2\\alpha=\\frac{2\\tan\\alpha}{1-\\tan^2\\alpha}\r\n=\\frac{-1}{1-\\frac14}=-\\frac43\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\alpha \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$，$\\sin \\alpha = \\frac{\\sqrt{5}}{5}$，则 $\\tan 2\\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-\\frac{4}{3}$",
+          "solution": "<p>因为$\\alpha$在第二象限，故</p>\n$$\n\\cos\\alpha=-\\sqrt{1-\\sin^{2}\\alpha}=-\\sqrt{1-\\frac{1}{5}}=-\\frac{2\\sqrt{5}}{5}\n$$\n<p>从而$\\tan\\alpha=-\\frac{1}{2}$. 因此</p>\n$$\n\\tan2\\alpha=\\frac{2\\tan\\alpha}{1-\\tan^{2}\\alpha}=\\frac{-1}{1-\\frac{1}{4}}=-\\frac{4}{3}\n$$"
         },
         {
           "num": 15,
-          "body": "已知 $F_{1}$，$F_{2}$ 分别为双曲线 $C: \\frac{x^{2}}{9} - \\frac{y^{2}}{27} = 1$ 的左，右焦点，点 $A \\in C$，点 $M$ 的坐标为 $(2,0)$，$AM$ 为 $\\angle F_{1}AF_{2}$ 的平分线. 则 $|AF_{2}| =$ _______ {}.",
-          "choices": [],
+          "body": "已知 $F_{1}$，$F_{2}$ 分别为双曲线 $C: \\frac{x^{2}}{9}- \\frac{y^{2}}{27}= 1$ 的左，右焦点，点 $A \\in C$，点 $M$ 的坐标为 $(2,0)$，$AM$ 为 $\\angle F_{1}AF_{2}$ 的平分线. 则 $|AF_{2}| =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "6",
-          "solution": "双曲线的实半轴为$a=3$，故焦半距为\r\n\n$$\nc=\\sqrt{a^2+27}=\\sqrt{9+27}=6\n$$\n\r\n所以$F_1=(-6,0)$，$F_2=(6,0)$. 点$M=(2,0)$在线段$F_1F_2$上，且\r\n$F_1M=8$，$MF_2=4$.\r\n由三角形$AF_1F_2$的内角平分线定理，\r\n\n$$\n\\frac{|AF_1|}{|AF_2|}=\\frac{F_1M}{MF_2}=2\n$$\n\r\n即$|AF_1|=2|AF_2|$. 又双曲线的定义给出\r\n\n$$\n|AF_1|-|AF_2|=2a=6\n$$\n\r\n联立得$|AF_2|=6$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线的实半轴为$a=3$，故焦半距为</p>\n$$\nc=\\sqrt{a^{2}+27}=\\sqrt{9+27}=6\n$$\n<p>所以$F_{1}=(-6,0)$，$F_{2}=(6,0)$. 点$M=(2,0)$在线段$F_{1}F_{2}$上，且</p><p>$F_{1}M=8$，$MF_{2}=4$.</p><p>由三角形$AF_{1}F_{2}$的内角平分线定理，</p>\n$$\n\\frac{|AF_{1}|}{|AF_{2}|}=\\frac{F_{1}M}{MF_{2}}=2\n$$\n<p>即$|AF_{1}|=2|AF_{2}|$. 又双曲线的定义给出</p>\n$$\n|AF_{1}|-|AF_{2}|=2a=6\n$$\n<p>联立得$|AF_{2}|=6$.</p>"
         },
         {
           "num": 16,
-          "body": "已知点 $E$，$F$ 分别在正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的棱 $BB_{1}$，$CC_{1}$ 上，且 $B_{1}E = 2EB$，$CF = 2FC_{1}$，则面 $AEF$ 与面 $ABC$ 所成的二面角的正切值等于 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{\\sqrt{2}}{3}\\)",
-          "solution": "设正方体棱长为$1$，建立空间直角坐标系：\r\n$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$\r\n并令竖直方向为$z$轴. 由$B_1E=2EB$得$EB=\\frac13$，由$CF=2FC_1$得$CF=\\frac23$，所以\r\n$E=\\left(1,0,\\frac13\\right)$，$F=\\left(1,1,\\frac23\\right)$.\r\n平面$AEF$内的两个相交向量为\r\n$\\overrightarrow{AE}=\\left(1,0,\\frac13\\right)$，$\\overrightarrow{AF}=\\left(1,1,\\frac23\\right)$，\r\n故其法向量可取\r\n\n$$\n\\mathbf{n}=\\overrightarrow{AE}\\times\\overrightarrow{AF}=\\left(-\\frac13,-\\frac13,1\\right)\n$$\n\r\n平面$ABC$的法向量为$\\mathbf{m}=(0,0,1)$. 设两平面的锐二面角为$\\theta$，则\r\n\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}\\times\\mathbf{m}|}{|\\mathbf{n}\\cdot\\mathbf{m}|}\r\n=\\frac{\\sqrt{\\frac19+\\frac19}}{1}=\\frac{\\sqrt2}{3}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知点 $E$，$F$ 分别在正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的棱 $BB_{1}$，$CC_{1}$ 上，且 $B_{1}E = 2EB$，$CF = 2FC_{1}$，则面 $AEF$ 与面 $ABC$ 所成的二面角的正切值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{\\sqrt{2}}{3}$",
+          "solution": "<p>设正方体棱长为$1$，建立空间直角坐标系：</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$</p><p>并令竖直方向为$z$轴. 由$B_{1}E=2EB$得$EB=\\frac{1}{3}$，由$CF=2FC_{1}$得$CF=\\frac{2}{3}$，所以</p><p>$E=\\left(1,0,\\frac{1}{3}\\right)$，$F=\\left(1,1,\\frac{2}{3}\\right)$.</p><p>平面$AEF$内的两个相交向量为</p><p>$\\overrightarrow{AE}=\\left(1,0,\\frac{1}{3}\\right)$，$\\overrightarrow{AF}=\\left(1,1,\\frac{2}{3}\\right)$，</p><p>故其法向量可取</p>\n$$\n\\mathbf{n}=\\overrightarrow{AE}\\times\\overrightarrow{AF}=\\left(-\\frac{1}{3},-\\frac{1}{3},1\\right)\n$$\n<p>平面$ABC$的法向量为$\\mathbf{m}=(0,0,1)$. 设两平面的锐二面角为$\\theta$，则</p>\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}\\times\\mathbf{m}|}{|\\mathbf{n}\\cdot\\mathbf{m}|}=\\frac{\\sqrt{\\frac{1}{9}+\\frac{1}{9}}}{1}=\\frac{\\sqrt{2}}{3}\n$$"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $A - C = 90^{\\circ}$，$a + c = \\sqrt{2} b$，求 $C$.",
-          "choices": [],
+          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $A - C = 90^{\\circ}$，$a + c = \\sqrt{2}b$，求 $C$.",
+          "choices": null,
           "answer": "",
-          "solution": "由三角形内角和及 $A-C=90^{\\circ}$，得 $A=C+90^{\\circ}$，$B=90^{\\circ}-2C$，所以 $0<C<45^{\\circ}$. 根据正弦定理，条件 $a+c=\\sqrt{2}b$ 等价于\r\n\n$$\n\\sin A+\\sin C=\\sqrt{2}\\sin B\n$$\n\r\n代入 $A=C+90^{\\circ}$ 和 $B=90^{\\circ}-2C$，得 $\\cos C+\\sin C=\\sqrt{2}\\cos 2C$，即\r\n\n$$\n\\cos\\left(C-45^{\\circ}\\right)=\\cos 2C\n$$\n\r\n因为 $C-45^{\\circ}\\in(-45^{\\circ},0)$，而 $2C\\in(0,90^{\\circ})$，两角的余弦相等时只能有 $C-45^{\\circ}=-2C$. 因此 $3C=45^{\\circ}$，故 $C=15^{\\circ}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由三角形内角和及 $A-C=90^{\\circ}$，得 $A=C+90^{\\circ}$，$B=90^{\\circ}-2C$，所以 $0&#x3C;C&#x3C;45^{\\circ}$. 根据正弦定理，条件 $a+c=\\sqrt{2}b$ 等价于</p>\n$$\n\\sin A+\\sin C=\\sqrt{2}\\sin B\n$$\n<p>代入 $A=C+90^{\\circ}$ 和 $B=90^{\\circ}-2C$，得 $\\cos C+\\sin C=\\sqrt{2}\\cos 2C$，即</p>\n$$\n\\cos\\left(C-45^{\\circ}\\right)=\\cos 2C\n$$\n<p>因为 $C-45^{\\circ}\\in(-45^{\\circ},0)$，而 $2C\\in(0,90^{\\circ})$，两角的余弦相等时只能有 $C-45^{\\circ}=-2C$. 因此 $3C=45^{\\circ}$，故 $C=15^{\\circ}$.</p>"
         },
         {
           "num": 18,
-          "body": "根据以往统计资料，某地车主购买甲种保险的概率为 $0.5$，购买乙种保险但不购买甲种保险的概率为 $0.3$. 设各车主购买保险相互独立.\r\n\n(1) 求该地 $1$ 位车主至少购买甲，乙两种保险中的 $1$ 种的概率；\n\n(2) $X$ 表示该地的 $100$ 位车主中，甲，乙两种保险都不购买的车主数. 求 $X$ 的期望.",
-          "choices": [],
+          "body": "<p>根据以往统计资料，某地车主购买甲种保险的概率为 $0.5$，购买乙种保险但不购买甲种保险的概率为 $0.3$. 设各车主购买保险相互独立.</p><ol class=\"enumerate\"><li><p>求该地 $1$ 位车主至少购买甲，乙两种保险中的 $1$ 种的概率；</p></li><li><p>$X$ 表示该地的 $100$ 位车主中，甲，乙两种保险都不购买的车主数. 求 $X$ 的期望.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设事件 $A$ 为车主购买甲种保险，事件 $B$ 为车主购买乙种保险. 题设给出 $P(A)=0.5$，$P(B\\cap A^{\\mathrm c})=0.3$.\r\n\r\n\n(1) 事件“至少购买一种保险”可以分解为互不相容的事件 $A$ 和 $B\\cap A^{\\mathrm c}$，所以所求概率为 $P(A)+P(B\\cap A^{\\mathrm c})=0.5+0.3=0.8$.\n\n(2) 一位车主两种保险都不购买的概率为\r\n\n$$\nP(A^{\\mathrm c}\\cap B^{\\mathrm c})=1-P(A)-P(B\\cap A^{\\mathrm c})=1-0.5-0.3=0.2\n$$\n\r\n由于各车主购买保险相互独立，$X$ 服从参数为 $100$，$0.2$ 的二项分布，因此\r\n\n$$\nE(X)=100\\times0.2=20\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设事件 $A$ 为车主购买甲种保险，事件 $B$ 为车主购买乙种保险. 题设给出 $P(A)=0.5$，$P(B\\cap A^{\\mathrm{c}})=0.3$.</p><ol class=\"enumerate\"><li><p>事件“至少购买一种保险”可以分解为互不相容的事件 $A$ 和 $B\\cap A^{\\mathrm{c}}$，所以所求概率为 $P(A)+P(B\\cap A^{\\mathrm{c}})=0.5+0.3=0.8$.</p></li><li><p>一位车主两种保险都不购买的概率为</p>\n$$\nP(A^{\\mathrm{c}}\\cap B^{\\mathrm{c}})=1-P(A)-P(B\\cap A^{\\mathrm{c}})=1-0.5-0.3=0.2\n$$\n<p>由于各车主购买保险相互独立，$X$ 服从参数为 $100$，$0.2$ 的二项分布，因此</p>\n$$\nE(X)=100\\times0.2=20\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，四棱锥 $S - ABCD$ 中，$AB \\parallel CD$，$BC \\perp CD$，侧面 $SAB$ 为等边三角形. $AB = BC = 2$，$CD = SD = 1$.\r\n\n(1) 证明： $SD \\perp$ 平面 $SAB$；\n\n(2) 求 $AB$ 与平面 $SBC$ 所成角的正弦值.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/syllabus_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，四棱锥 $S - ABCD$ 中，$AB \\parallel CD$，$BC \\perp CD$，侧面 $SAB$ 为等边三角形. $AB = BC = 2$，$CD = SD = 1$.</p><ol class=\"enumerate\"><li><p>证明： $SD \\perp$ 平面 $SAB$；</p></li><li><p>求 $AB$ 与平面 $SBC$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "取底面 $ABCD$ 所在平面为 $z=0$，建立直角坐标系，使得\r\n$D=(0,0,0)$，$C=(1,0,0)$，$B=(1,2,0)$，$A=(-1,2,0)$.\r\n设 $S=(u,v,w)$，由侧面 $SAB$ 为边长为 $2$ 的等边三角形，得 $SA=SB=2$. 于是\r\n\n$$\n(u+1)^2+(v-2)^2+w^2=(u-1)^2+(v-2)^2+w^2\n$$\n\r\n从而 $u=0$. 又因为 $SD=1$，$SA=2$，所以\r\n\n$$\n\\begin{cases}\r\nv^2+w^2=1,\\\\\r\n1+(v-2)^2+w^2=4.\r\n\\end{cases}\n$$\n\r\n两式相减得 $v=\\frac12$，再由 $v^2+w^2=1$ 且取 $w>0$，得 $w=\\frac{\\sqrt{3}}2$. 因而 $S=\\left(0,\\frac12,\\frac{\\sqrt{3}}2\\right)$.\r\n\r\n\n(1) 有 $\\overrightarrow{DS}=\\left(0,\\frac12,\\frac{\\sqrt{3}}2\\right)$，$\\overrightarrow{AB}=(2,0,0)$，$\\overrightarrow{AS}=\\left(1,-\\frac32,\\frac{\\sqrt{3}}2\\right)$. 直接计算得 $\\overrightarrow{DS}\\cdot\\overrightarrow{AB}=0$，且 $\\overrightarrow{DS}\\cdot\\overrightarrow{AS}=-\\frac34+\\frac34=0$. 由于 $AB$ 与 $AS$ 是平面 $SAB$ 内相交的两条直线，所以 $DS\\perp$ 平面 $SAB$，即 $SD\\perp$ 平面 $SAB$.\n\n(2) 取 $\\overrightarrow{SB}=\\left(1,\\frac32,-\\frac{\\sqrt{3}}2\\right)$，$\\overrightarrow{SC}=\\left(1,-\\frac12,-\\frac{\\sqrt{3}}2\\right)$，则平面 $SBC$ 的一个法向量为\r\n\n$$\n\\mathbf{n}=\\overrightarrow{SB}\\times\\overrightarrow{SC}=(-\\sqrt{3},0,-2)\n$$\n\r\n设 $AB$ 与平面 $SBC$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{AB}\\cdot\\mathbf{n}|}{|\\overrightarrow{AB}|\\,|\\mathbf{n}|}=\\frac{2\\sqrt{3}}{2\\sqrt{7}}=\\frac{\\sqrt{21}}7\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>取底面 $ABCD$ 所在平面为 $z=0$，建立直角坐标系，使得</p><p>$D=(0,0,0)$，$C=(1,0,0)$，$B=(1,2,0)$，$A=(-1,2,0)$.</p><p>设 $S=(u,v,w)$，由侧面 $SAB$ 为边长为 $2$ 的等边三角形，得 $SA=SB=2$. 于是</p>\n$$\n(u+1)^{2}+(v-2)^{2}+w^{2}=(u-1)^{2}+(v-2)^{2}+w^{2}\n$$\n<p>从而 $u=0$. 又因为 $SD=1$，$SA=2$，所以</p>\n$$\n\\begin{cases}v^{2}+w^{2}=1,\\\\  1+(v-2)^{2}+w^{2}=4.\\end{cases}\n$$\n<p>两式相减得 $v=\\frac{1}{2}$，再由 $v^{2}+w^{2}=1$ 且取 $w>0$，得 $w=\\frac{\\sqrt{3}}{2}$. 因而 $S=\\left(0,\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$.</p><ol class=\"enumerate\"><li><p>有 $\\overrightarrow{DS}=\\left(0,\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{AB}=(2,0,0)$，$\\overrightarrow{AS}=\\left(1,-\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right)$. 直接计算得 $\\overrightarrow{DS}\\cdot\\overrightarrow{AB}=0$，且 $\\overrightarrow{DS}\\cdot\\overrightarrow{AS}=-\\frac{3}{4}+\\frac{3}{4}=0$. 由于 $AB$ 与 $AS$ 是平面 $SAB$ 内相交的两条直线，所以 $DS\\perp$ 平面 $SAB$，即 $SD\\perp$ 平面 $SAB$.</p></li><li><p>取 $\\overrightarrow{SB}=\\left(1,\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{SC}=\\left(1,-\\frac{1}{2},-\\frac{\\sqrt{3}}{2}\\right)$，则平面 $SBC$ 的一个法向量为</p>\n$$\n\\mathbf{n}=\\overrightarrow{SB}\\times\\overrightarrow{SC}=(-\\sqrt{3},0,-2)\n$$\n<p>设 $AB$ 与平面 $SBC$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{AB}\\cdot\\mathbf{n}|}{|\\overrightarrow{AB}|\\,|\\mathbf{n}|}=\\frac{2\\sqrt{3}}{2\\sqrt{7}}=\\frac{\\sqrt{21}}{7}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "设数列 $\\{a_{n}\\}$ 满足 $a_1 = 0$ 且 $\\frac{1}{1 - a_{n + 1}} -\\frac{1}{1 - a_n} = 1$.\r\n\n(1) 求 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 设 $b_n = \\frac{1 - \\sqrt{a_{n+1}}}{\\sqrt{n}}$，记 $S_n = \\sum_{k=1}^{n} b_k$，证明：$S_n < 1$.",
-          "choices": [],
+          "body": "<p>设数列 $\\{a_{n}\\}$ 满足 $a_{1} = 0$ 且 $\\frac{1}{1 - a_{n + 1}}-\\frac{1}{1 - a_{n}}= 1$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n} = \\frac{1 - \\sqrt{a_{n+1}}}{\\sqrt{n}}$，记 $S_{n} = \\sum_{k=1}^{n}b_{k}$，证明：$S_{n} &#x3C; 1$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "令 $c_n=\\frac{1}{1-a_n}$，则 $c_1=1$，且题设递推式给出 $c_{n+1}-c_n=1$. 因此 $\\{c_n\\}$ 是首项为 $1$、公差为 $1$ 的等差数列，故 $c_n=n$，从而\r\n\n$$\na_n=1-\\frac1n=\\frac{n-1}{n}\n$$\n\r\n\r\n由此 $a_{n+1}=\\frac{n}{n+1}$，所以\r\n\n$$\nb_n=\\frac{1-\\sqrt{\\frac{n}{n+1}}}{\\sqrt n}=\\frac{\\sqrt{n+1}-\\sqrt n}{\\sqrt n\\sqrt{n+1}}=\\frac1{\\sqrt n}-\\frac1{\\sqrt{n+1}}\n$$\n\r\n于是\r\n\n$$\nS_n=\\sum_{k=1}^n\\left(\\frac1{\\sqrt k}-\\frac1{\\sqrt{k+1}}\\right)=1-\\frac1{\\sqrt{n+1}}<1\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>令 $c_{n}=\\frac{1}{1-a_{n}}$，则 $c_{1}=1$，且题设递推式给出 $c_{n+1}-c_{n}=1$. 因此 $\\{c_{n}\\}$ 是首项为 $1$、公差为 $1$ 的等差数列，故 $c_{n}=n$，从而</p>\n$$\na_{n}=1-\\frac{1}{n}=\\frac{n-1}{n}\n$$\n<p>由此 $a_{n+1}=\\frac{n}{n+1}$，所以</p>\n$$\nb_{n}=\\frac{1-\\sqrt{\\frac{n}{n+1}}}{\\sqrt{n}}=\\frac{\\sqrt{n+1}-\\sqrt{n}}{\\sqrt{n}\\sqrt{n+1}}=\\frac{1}{\\sqrt{n}}-\\frac{1}{\\sqrt{n+1}}\n$$\n<p>于是</p>\n$$\nS_{n}=\\sum_{k=1}^{n}\\left(\\frac{1}{\\sqrt{k}}-\\frac{1}{\\sqrt{k+1}}\\right)=1-\\frac{1}{\\sqrt{n+1}}&#x3C;1\n$$"
         },
         {
           "num": 21,
-          "body": "已知 $O$ 为坐标原点，$F$ 为椭圆 $C: x^2 + \\frac{y^2}{2} = 1$ 在 $y$ 轴正半轴上的焦点，过 $F$ 且斜率为 $-\\sqrt{2}$ 的直线 $l$ 与 $C$ 交于 $A$，$B$ 两点，点 $P$ 满足 $\\overrightarrow{OA} + \\overrightarrow{OB} + \\overrightarrow{OP} = 0$.\r\n\n(1) 证明：点 $P$ 在 $C$ 上；\n\n(2) 设点 $P$ 关于点 $O$ 的对称点为 $Q$，证明： $A$，$P$，$B$，$Q$ 四点在同一圆上.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/syllabus_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>已知 $O$ 为坐标原点，$F$ 为椭圆 $C: x^{2} + \\frac{y^{2}}{2}= 1$ 在 $y$ 轴正半轴上的焦点，过 $F$ 且斜率为 $-\\sqrt{2}$ 的直线 $l$ 与 $C$ 交于 $A$，$B$ 两点，点 $P$ 满足 $\\overrightarrow{OA}+ \\overrightarrow{OB}+ \\overrightarrow{OP}= 0$.</p><ol class=\"enumerate\"><li><p>证明：点 $P$ 在 $C$ 上；</p></li><li><p>设点 $P$ 关于点 $O$ 的对称点为 $Q$，证明： $A$，$P$，$B$，$Q$ 四点在同一圆上.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "椭圆 $C$ 的长半轴平方为 $2$，短半轴平方为 $1$，所以焦距的一半为 $\\sqrt{2-1}=1$，且 $F=(0,1)$. 直线 $l$ 的方程为 $y=1-\\sqrt{2}x$.\r\n\r\n\n(1) 设 $A=(x_1,y_1)$，$B=(x_2,y_2)$. 将直线方程代入椭圆方程，得\r\n\n$$\nx^2+\\frac{(1-\\sqrt{2}x)^2}{2}=1 \\Longleftrightarrow  4x^2-2\\sqrt{2}x-1=0\n$$\n\r\n由韦达定理，$x_1+x_2=\\frac{\\sqrt{2}}2$. 又 $y_i=1-\\sqrt{2}x_i$，所以 $y_1+y_2=1$. 根据向量关系，点 $P$ 的坐标为\r\n\n$$\nP=\\left(-(x_1+x_2),-(y_1+y_2)\\right)=\\left(-\\frac{\\sqrt{2}}2,-1\\right)\n$$\n\r\n代入椭圆方程，得 $\\left(-\\frac{\\sqrt{2}}2\\right)^2+\\frac{(-1)^2}{2}=\\frac12+\\frac12=1$，故点 $P$ 在 $C$ 上.\n\n(2) 由前一项知点 $Q=\\left(\\frac{\\sqrt{2}}2,1\\right)$. 考虑圆 $\\Gamma: x^2+y^2+\\frac{\\sqrt{2}}4x-\\frac14y-\\frac32=0$.\r\n其圆心为 $\\left(-\\frac{\\sqrt{2}}8,\\frac18\\right)$，半径平方为 $\\frac{99}{64}>0$，所以确为一个圆. 对于直线 $l$ 上的点 $(x,1-\\sqrt{2}x)$，圆 $\\Gamma$ 的左端化为\r\n\n$$\n3x^2-\\frac{3\\sqrt{2}}2x-\\frac34=\\frac34\\left(4x^2-2\\sqrt{2}x-1\\right)\n$$\n\r\n因此交点 $A$，$B$ 均在圆 $\\Gamma$ 上. 对点 $P$ 和 $Q$ 分别代入圆方程，线性项分别为 $-\\frac14+\\frac14=0$ 和 $\\frac14-\\frac14=0$，且 $x^2+y^2=\\frac32$，故 $P$，$Q$ 也在圆 $\\Gamma$ 上. 所以 $A$，$P$，$B$，$Q$ 四点在同一圆上.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>椭圆 $C$ 的长半轴平方为 $2$，短半轴平方为 $1$，所以焦距的一半为 $\\sqrt{2-1}=1$，且 $F=(0,1)$. 直线 $l$ 的方程为 $y=1-\\sqrt{2}x$.</p><ol class=\"enumerate\"><li><p>设 $A=(x_{1},y_{1})$，$B=(x_{2},y_{2})$. 将直线方程代入椭圆方程，得</p>\n$$\nx^{2}+\\frac{(1-\\sqrt{2}x)^{2}}{2}=1 \\Longleftrightarrow  4x^{2}-2\\sqrt{2}x-1=0\n$$\n<p>由韦达定理，$x_{1}+x_{2}=\\frac{\\sqrt{2}}{2}$. 又 $y_{i}=1-\\sqrt{2}x_{i}$，所以 $y_{1}+y_{2}=1$. 根据向量关系，点 $P$ 的坐标为</p>\n$$\nP=\\left(-(x_{1}+x_{2}),-(y_{1}+y_{2})\\right)=\\left(-\\frac{\\sqrt{2}}{2},-1\\right)\n$$\n<p>代入椭圆方程，得 $\\left(-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{(-1)^{2}}{2}=\\frac{1}{2}+\\frac{1}{2}=1$，故点 $P$ 在 $C$ 上.</p></li><li><p>由前一项知点 $Q=\\left(\\frac{\\sqrt{2}}{2},1\\right)$. 考虑圆 $\\Gamma: x^{2}+y^{2}+\\frac{\\sqrt{2}}{4}x-\\frac{1}{4}y-\\frac{3}{2}=0$.</p><p>其圆心为 $\\left(-\\frac{\\sqrt{2}}{8},\\frac{1}{8}\\right)$，半径平方为 $\\frac{99}{64}>0$，所以确为一个圆. 对于直线 $l$ 上的点 $(x,1-\\sqrt{2}x)$，圆 $\\Gamma$ 的左端化为</p>\n$$\n3x^{2}-\\frac{3\\sqrt{2}}{2}x-\\frac{3}{4}=\\frac{3}{4}\\left(4x^{2}-2\\sqrt{2}x-1\\right)\n$$\n<p>因此交点 $A$，$B$ 均在圆 $\\Gamma$ 上. 对点 $P$ 和 $Q$ 分别代入圆方程，线性项分别为 $-\\frac{1}{4}+\\frac{1}{4}=0$ 和 $\\frac{1}{4}-\\frac{1}{4}=0$，且 $x^{2}+y^{2}=\\frac{3}{2}$，故 $P$，$Q$ 也在圆 $\\Gamma$ 上. 所以 $A$，$P$，$B$，$Q$ 四点在同一圆上.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "(1) 设函数 $f(x) = \\ln (1 + x) - \\frac{2x}{x + 2}$. 证明：当 $x > 0$ 时，$f(x) > 0$；\n\n(2) 从编号 $1$ 到 $100$ 的 $100$ 张卡片中每次随机抽取一张，然后放回，用这种方式连续抽取 $20$ 次. 设抽得的 $20$ 个号码互不相同的概率为 $p$. 证明：$p < \\left(\\frac{9}{10}\\right)^{19} < \\frac{1}{\\mathrm{e}^2}$.",
-          "choices": [],
+          "body": "<ol class=\"enumerate\"><li><p>设函数 $f(x) = \\ln (1 + x) - \\frac{2x}{x + 2}$. 证明：当 $x > 0$ 时，$f(x) > 0$；</p></li><li><p>从编号 $1$ 到 $100$ 的 $100$ 张卡片中每次随机抽取一张，然后放回，用这种方式连续抽取 $20$ 次. 设抽得的 $20$ 个号码互不相同的概率为 $p$. 证明：$p &#x3C; \\left(\\frac{9}{10}\\right)^{19}&#x3C; \\frac{1}{\\mathrm{e}^{2}}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 函数的定义域为 $x>-1$，且 $f(0)=0$. 对 $x>-1$ 求导，得\r\n\n$$\nf'(x)=\\frac1{1+x}-\\frac4{(x+2)^2}=\\frac{x^2}{(x+1)(x+2)^2}\n$$\n\r\n当 $x>0$ 时，分子 $x^2>0$，分母 $(x+1)(x+2)^2>0$，所以 $f'(x)>0$. 因而 $f(x)$ 在 $(0,+\\infty)$ 上单调递增，故对任意 $x>0$，有 $f(x)>f(0)=0$.\n\n(2) 连续抽取且每次放回时，第一次抽取没有限制，后面第 $k+1$ 次抽取要避开前面已经抽到的 $k$ 个号码，因此\r\n\n$$\np=\\frac{100}{100}\\cdot\\frac{99}{100}\\cdot\\frac{98}{100}\\cdots\\frac{81}{100}=\\prod_{k=1}^{19}\\left(1-\\frac{k}{100}\\right)\n$$\n\r\n对 $k=1$，$2$，$\\ldots$，$9$，将第 $k$ 个因子和第 $20-k$ 个因子配对，有\r\n\n$$\n\\left(1-\\frac{k}{100}\\right)\\left(1-\\frac{20-k}{100}\\right)\r\n=\\left(\\frac9{10}+\\frac{10-k}{100}\\right)\\left(\\frac9{10}-\\frac{10-k}{100}\\right)<\\left(\\frac9{10}\\right)^2\n$$\n\r\n中间因子为 $1-\\frac{10}{100}=\\frac9{10}$，所以 $p<\\left(\\frac9{10}\\right)^{19}$.\r\n\r\n由第（1）问已证结论，取 $x=\\frac19$，得\r\n\n$$\n\\ln\\frac{10}{9}>\\frac{2\\cdot\\frac19}{2+\\frac19}=\\frac2{19}\n$$\n\r\n于是 $19\\ln\\frac9{10}=-19\\ln\\frac{10}{9}<-2$. 由于指数函数单调递增，得到 $\\left(\\frac9{10}\\right)^{19}<\\mathrm{e}^{-2}=\\frac1{\\mathrm{e}^2}$. 综上，$p < \\left(\\frac9{10}\\right)^{19} < \\frac1{\\mathrm{e}^2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>函数的定义域为 $x>-1$，且 $f(0)=0$. 对 $x>-1$ 求导，得</p>\n$$\nf'(x)=\\frac{1}{1+x}-\\frac{4}{(x+2)^{2}}=\\frac{x^{2}}{(x+1)(x+2)^{2}}\n$$\n<p>当 $x>0$ 时，分子 $x^{2}>0$，分母 $(x+1)(x+2)^{2}>0$，所以 $f'(x)>0$. 因而 $f(x)$ 在 $(0,+\\infty)$ 上单调递增，故对任意 $x>0$，有 $f(x)>f(0)=0$.</p></li><li><p>连续抽取且每次放回时，第一次抽取没有限制，后面第 $k+1$ 次抽取要避开前面已经抽到的 $k$ 个号码，因此</p>\n$$\np=\\frac{100}{100}\\cdot\\frac{99}{100}\\cdot\\frac{98}{100}\\cdots\\frac{81}{100}=\\prod_{k=1}^{19}\\left(1-\\frac{k}{100}\\right)\n$$\n<p>对 $k=1$，$2$，$\\ldots$，$9$，将第 $k$ 个因子和第 $20-k$ 个因子配对，有</p>\n$$\n\\left(1-\\frac{k}{100}\\right)\\left(1-\\frac{20-k}{100}\\right)  =\\left(\\frac{9}{10}+\\frac{10-k}{100}\\right)\\left(\\frac{9}{10}-\\frac{10-k}{100}\\right)&#x3C;\\left(\\frac{9}{10}\\right)^{2}\n$$\n<p>中间因子为 $1-\\frac{10}{100}=\\frac{9}{10}$，所以 $p&#x3C;\\left(\\frac{9}{10}\\right)^{19}$.</p><p>由第（1）问已证结论，取 $x=\\frac{1}{9}$，得</p>\n$$\n\\ln\\frac{10}{9}>\\frac{2\\cdot\\frac{1}{9}}{2+\\frac{1}{9}}=\\frac{2}{19}\n$$\n<p>于是 $19\\ln\\frac{9}{10}=-19\\ln\\frac{10}{9}&#x3C;-2$. 由于指数函数单调递增，得到 $\\left(\\frac{9}{10}\\right)^{19}&#x3C;\\mathrm{e}^{-2}=\\frac{1}{\\mathrm{e}^{2}}$. 综上，$p &#x3C; \\left(\\frac{9}{10}\\right)^{19}&#x3C; \\frac{1}{\\mathrm{e}^{2}}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

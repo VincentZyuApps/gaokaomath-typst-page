@@ -1,197 +1,97 @@
 {
+  "title": "1977年普通高等学校招生全国统一考试",
+  "subtitle": "1977年江苏南通市初试卷",
   "year": "1977",
   "slug": "jiangsu_nantong_city",
-  "title": "1977年江苏南通市初试卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
       "problems": [
         {
           "num": 1,
-          "body": "化简，计算：\r\n\r\n\n(1) $\\dfrac{-2mn}{m-3n}\\sqrt{\\dfrac{\\left(m+3n\\right)^2}{2mn}}-6$（$0<m<3n$）；\n\n(2) $\\left(\\dfrac14\\right)^{-1.5}\\cdot\\left[\\left(\\dfrac7{11}\\right)^0\\right]^{-3}-\\left(\\dfrac35\\right)^{-2}\\div\\left(2\\dfrac79\\right)^{\\frac12}$.",
-          "choices": [],
+          "body": "<p>化简，计算：</p><ol class=\"enumerate\"><li><p>$\\dfrac{-2mn}{m-3n}\\sqrt{\\dfrac{\\left(m+3n\\right)^2}{2mn}}-6$（$0&#x3C;m&#x3C;3n$）；</p></li><li><p>$\\left(\\dfrac{1}{4}\\right)^{-1.5}\\cdot\\left[\\left(\\dfrac7{11}\\right)^{0}\\right]^{-3}-\\left(\\dfrac{3}{5}\\right)^{-2}\\div\\left(2\\dfrac{7}{9}\\right)^{\\frac{1}{2}}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $0<m<3n$ 可得 $n>\\dfrac{m}{3}>0$，所以 $2mn>0$，且 $m+3n>0$. 因而 $\\sqrt{\\dfrac{\\left(m+3n\\right)^2}{2mn}}=\\dfrac{m+3n}{\\sqrt{2mn}}$. 又因为 $m-3n<0$，所以原式为\r\n\n$$\n\\dfrac{-2mn}{m-3n}\\sqrt{\\dfrac{\\left(m+3n\\right)^2}{2mn}}-6\r\n=\\dfrac{2mn}{3n-m}\\cdot\\dfrac{m+3n}{\\sqrt{2mn}}-6\r\n=\\dfrac{\\left(m+3n\\right)\\sqrt{2mn}}{3n-m}-6\n$$\n\n(2) 先将小数指数和带分数化为分数，得 $1.5=\\dfrac32$，$2\\dfrac79=\\dfrac{25}{9}$. 由于 $\\left(\\dfrac7{11}\\right)^0=1$，且 $\\sqrt{\\dfrac{25}{9}}=\\dfrac53$，所以\r\n\n$$\n\\left(\\dfrac14\\right)^{-1.5}\\left[\\left(\\dfrac7{11}\\right)^0\\right]^{-3}-\\left(\\dfrac35\\right)^{-2}\\div\\left(2\\dfrac79\\right)^{\\frac12}\r\n=4^{\\frac32}\\cdot1^{-3}-\\left(\\dfrac53\\right)^2\\div\\sqrt{\\dfrac{25}{9}}\r\n=8-\\dfrac{25}{9}\\div\\dfrac53\r\n=8-\\dfrac{25}{9}\\cdot\\dfrac35=\\dfrac{19}{3}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $0&#x3C;m&#x3C;3n$ 可得 $n>\\dfrac{m}{3}>0$，所以 $2mn>0$，且 $m+3n>0$. 因而 $\\sqrt{\\dfrac{\\left(m+3n\\right)^2}{2mn}}=\\dfrac{m+3n}{\\sqrt{2mn}}$. 又因为 $m-3n&#x3C;0$，所以原式为</p>\n$$\n\\dfrac{-2mn}{m-3n}\\sqrt{\\dfrac{\\left(m+3n\\right)^2}{2mn}}-6  =\\dfrac{2mn}{3n-m}\\cdot\\dfrac{m+3n}{\\sqrt{2mn}}-6  =\\dfrac{\\left(m+3n\\right)\\sqrt{2mn}}{3n-m}-6\n$$\n</li><li><p>先将小数指数和带分数化为分数，得 $1.5=\\dfrac{3}{2}$，$2\\dfrac{7}{9}=\\dfrac{25}{9}$. 由于 $\\left(\\dfrac7{11}\\right)^{0}=1$，且 $\\sqrt{\\dfrac{25}{9}}=\\dfrac{5}{3}$，所以</p>\n$$\n\\left(\\dfrac{1}{4}\\right)^{-1.5}\\left[\\left(\\dfrac7{11}\\right)^{0}\\right]^{-3}-\\left(\\dfrac{3}{5}\\right)^{-2}\\div\\left(2\\dfrac{7}{9}\\right)^{\\frac{1}{2}}=4^{\\frac{3}{2}}\\cdot1^{-3}-\\left(\\dfrac{5}{3}\\right)^{2}\\div\\sqrt{\\dfrac{25}{9}}=8-\\dfrac{25}{9}\\div\\dfrac{5}{3}=8-\\dfrac{25}{9}\\cdot\\dfrac{3}{5}=\\dfrac{19}{3}\n$$\n</li></ol>"
         },
         {
           "num": 2,
-          "body": "在实数范围内分解因式：\r\n\r\n\n(1) $a^4-10a^2+16$；\n\n(2) $x^2-4xy+4y^2-3x+6y+2$.",
-          "choices": [],
+          "body": "<p>在实数范围内分解因式：</p><ol class=\"enumerate\"><li><p>$a^{4}-10a^{2}+16$；</p></li><li><p>$x^{2}-4xy+4y^{2}-3x+6y+2$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 令 $u=a^2$，则\r\n\n$$\na^4-10a^2+16=u^2-10u+16=\\left(u-2\\right)\\left(u-8\\right)\n$$\n\r\n代回 $u=a^2$，并在实数范围内继续分解，得\r\n\n$$\na^4-10a^2+16=\\left(a^2-2\\right)\\left(a^2-8\\right)\r\n=\\left(a-\\sqrt2\\right)\\left(a+\\sqrt2\\right)\\left(a-2\\sqrt2\\right)\\left(a+2\\sqrt2\\right)\n$$\n\n(2) 将含有 $x$，$y$ 的项按 $x-2y$ 重新组合，得\r\n\n$$\nx^2-4xy+4y^2-3x+6y+2\r\n=\\left(x-2y\\right)^2-3\\left(x-2y\\right)+2\n$$\n\r\n令 $v=x-2y$，则\r\n\n$$\nv^2-3v+2=\\left(v-1\\right)\\left(v-2\\right)\n$$\n\r\n代回 $v=x-2y$，得\r\n\n$$\nx^2-4xy+4y^2-3x+6y+2=\\left(x-2y-1\\right)\\left(x-2y-2\\right)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>令 $u=a^{2}$，则</p>\n$$\na^{4}-10a^{2}+16=u^{2}-10u+16=\\left(u-2\\right)\\left(u-8\\right)\n$$\n<p>代回 $u=a^{2}$，并在实数范围内继续分解，得</p>\n$$\na^{4}-10a^{2}+16=\\left(a^{2}-2\\right)\\left(a^{2}-8\\right)  =\\left(a-\\sqrt{2}\\right)\\left(a+\\sqrt{2}\\right)\\left(a-2\\sqrt{2}\\right)\\left(a+2\\sqrt{2}\\right)\n$$\n</li><li><p>将含有 $x$，$y$ 的项按 $x-2y$ 重新组合，得</p>\n$$\nx^{2}-4xy+4y^{2}-3x+6y+2  =\\left(x-2y\\right)^{2}-3\\left(x-2y\\right)+2\n$$\n<p>令 $v=x-2y$，则</p>\n$$\nv^{2}-3v+2=\\left(v-1\\right)\\left(v-2\\right)\n$$\n<p>代回 $v=x-2y$，得</p>\n$$\nx^{2}-4xy+4y^{2}-3x+6y+2=\\left(x-2y-1\\right)\\left(x-2y-2\\right)\n$$\n</li></ol>"
         },
         {
           "num": 3,
-          "body": "求 $x$：\r\n\r\n\n(1) $\\dfrac{2x+1}{x-3}-\\dfrac{5x-11}{x^2-4x+3}=\\dfrac3{x-1}$.\n\n(2) $\\sqrt{2x-4}-\\sqrt{x+5}=1$.\n\n(3) $\\log_{x-1}\\left(2x^2-3x-1\\right)=2$.",
-          "choices": [],
+          "body": "<p>求 $x$：</p><ol class=\"enumerate\"><li><p>$\\dfrac{2x+1}{x-3}-\\dfrac{5x-11}{x^2-4x+3}=\\dfrac3{x-1}$.</p></li><li><p>$\\sqrt{2x-4}-\\sqrt{x+5}=1$.</p></li><li><p>$\\log_{x-1}\\left(2x^{2}-3x-1\\right)=2$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为分母中出现 $x-3$ 和 $x^2-4x+3$，且 $x^2-4x+3=\\left(x-1\\right)\\left(x-3\\right)$，所以原方程的定义域为 $x\\ne1$，$3$. 在这个条件下，两边同乘 $\\left(x-1\\right)\\left(x-3\\right)$，得到\r\n\n$$\n\\left(2x+1\\right)\\left(x-1\\right)-\\left(5x-11\\right)=3\\left(x-3\\right)\n$$\n\r\n展开并移项，得\r\n$2x^2-6x+10=3x-9$，$2x^2-9x+19=0$.\r\n这个二次方程的判别式为 $\\Delta=(-9)^2-4\\times2\\times19=81-152=-71<0$，所以它没有实数根，原方程无实数解.\n\n(2) 两个根式都有意义，首先要求 $2x-4\\geqslant0$，即 $x\\geqslant2$. 移项得 $\\sqrt{2x-4}=1+\\sqrt{x+5}$. 两边非负，可以平方，得 $2x-4=1+x+5+2\\sqrt{x+5}$，即 $x-10=2\\sqrt{x+5}$. 右端非负，所以还必须有 $x\\geqslant10$. 在此条件下再次平方，得\r\n$\\left(x-10\\right)^2=4\\left(x+5\\right)$，$x^2-24x+80=0$.\r\n解得 $x=4$ 或 $x=20$. 结合 $x\\geqslant10$ 只保留 $x=20$，并检验 $\\sqrt{2\\times20-4}-\\sqrt{20+5}=6-5=1$，因此原方程的解为 $x=20$.\n\n(3) 对数底数的条件为 $x-1>0$ 且 $x-1\\ne1$，即 $x>1$ 且 $x\\ne2$. 真数还必须为正. 方程 $2x^2-3x-1=0$ 的根为 $x=\\dfrac{3\\pm\\sqrt{17}}{4}$. 在 $x>1$ 的范围内，真数为正还要求 $x>\\dfrac{3+\\sqrt{17}}4$. 在这些定义域条件下，由对数定义，原方程等价于 $2x^2-3x-1=\\left(x-1\\right)^2$. 整理得 $x^2-x-2=0$，即 $\\left(x-2\\right)\\left(x+1\\right)=0$，所以候选值为 $x=2$，$-1$. 但 $x=2$ 时底数为 $1$，$x=-1$ 时底数为负数，二者均不在定义域内，因此原方程无实数解.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为分母中出现 $x-3$ 和 $x^{2}-4x+3$，且 $x^{2}-4x+3=\\left(x-1\\right)\\left(x-3\\right)$，所以原方程的定义域为 $x\\ne1$，$3$. 在这个条件下，两边同乘 $\\left(x-1\\right)\\left(x-3\\right)$，得到</p>\n$$\n\\left(2x+1\\right)\\left(x-1\\right)-\\left(5x-11\\right)=3\\left(x-3\\right)\n$$\n<p>展开并移项，得</p><p>$2x^{2}-6x+10=3x-9$，$2x^{2}-9x+19=0$.</p><p>这个二次方程的判别式为 $\\Delta=(-9)^{2}-4\\times2\\times19=81-152=-71&#x3C;0$，所以它没有实数根，原方程无实数解.</p></li><li><p>两个根式都有意义，首先要求 $2x-4\\geqslant0$，即 $x\\geqslant2$. 移项得 $\\sqrt{2x-4}=1+\\sqrt{x+5}$. 两边非负，可以平方，得 $2x-4=1+x+5+2\\sqrt{x+5}$，即 $x-10=2\\sqrt{x+5}$. 右端非负，所以还必须有 $x\\geqslant10$. 在此条件下再次平方，得</p><p>$\\left(x-10\\right)^{2}=4\\left(x+5\\right)$，$x^{2}-24x+80=0$.</p><p>解得 $x=4$ 或 $x=20$. 结合 $x\\geqslant10$ 只保留 $x=20$，并检验 $\\sqrt{2\\times20-4}-\\sqrt{20+5}=6-5=1$，因此原方程的解为 $x=20$.</p></li><li><p>对数底数的条件为 $x-1>0$ 且 $x-1\\ne1$，即 $x>1$ 且 $x\\ne2$. 真数还必须为正. 方程 $2x^{2}-3x-1=0$ 的根为 $x=\\dfrac{3\\pm\\sqrt{17}}{4}$. 在 $x>1$ 的范围内，真数为正还要求 $x>\\dfrac{3+\\sqrt{17}}4$. 在这些定义域条件下，由对数定义，原方程等价于 $2x^{2}-3x-1=\\left(x-1\\right)^{2}$. 整理得 $x^{2}-x-2=0$，即 $\\left(x-2\\right)\\left(x+1\\right)=0$，所以候选值为 $x=2$，$-1$. 但 $x=2$ 时底数为 $1$，$x=-1$ 时底数为负数，二者均不在定义域内，因此原方程无实数解.</p></li></ol>"
         },
         {
           "num": 4,
-          "body": "求下列函数的定义域：\r\n\r\n\n(1) $y=\\dfrac1{1-\\sqrt{x-1}}$；\n\n(2) $y=\\lg\\left(\\tan x\\right)$.",
-          "choices": [],
+          "body": "<p>求下列函数的定义域：</p><ol class=\"enumerate\"><li><p>$y=\\dfrac1{1-\\sqrt{x-1}}$；</p></li><li><p>$y=\\lg\\left(\\tan x\\right)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 根式有意义要求 $x-1\\geqslant0$，即 $x\\geqslant1$. 同时分母不能为零，故 $1-\\sqrt{x-1}\\ne0$，这等价于 $\\sqrt{x-1}\\ne1$，即 $x\\ne2$. 因此定义域为 $x\\geqslant1$ 且 $x\\ne2$，也可写为 $[1,2)\\cup(2,+\\infty)$.\n\n(2) $\\lg$ 的真数必须为正，因此要求 $\\tan x>0$. 这个条件同时排除了正切函数无定义的点. 正切函数在每个周期内为正的区间是\r\n$\\left(k\\pi,k\\pi+\\dfrac\\pi2\\right)$，$k\\in\\mathbb{Z}$.\r\n所以定义域为\r\n\n$$\n\\bigcup_{k\\in\\mathbb{Z}}\\left(k\\pi,k\\pi+\\dfrac\\pi2\\right)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>根式有意义要求 $x-1\\geqslant0$，即 $x\\geqslant1$. 同时分母不能为零，故 $1-\\sqrt{x-1}\\ne0$，这等价于 $\\sqrt{x-1}\\ne1$，即 $x\\ne2$. 因此定义域为 $x\\geqslant1$ 且 $x\\ne2$，也可写为 $[1,2)\\cup(2,+\\infty)$.</p></li><li><p>$\\lg$ 的真数必须为正，因此要求 $\\tan x>0$. 这个条件同时排除了正切函数无定义的点. 正切函数在每个周期内为正的区间是</p><p>$\\left(k\\pi,k\\pi+\\dfrac\\pi2\\right)$，$k\\in\\mathbb{Z}$.</p><p>所以定义域为</p>\n$$\n\\bigcup_{k\\in\\mathbb{Z}}\\left(k\\pi,k\\pi+\\dfrac\\pi2\\right)\n$$\n</li></ol>"
         },
         {
           "num": 5,
-          "body": "不查表：\r\n\r\n\n(1) 求 $4^{1-\\log_2\\dfrac25+\\log_2\\sqrt2}$.\n\n(2) 解三角形：已知 $\\triangle ABC$ 中，$\\angle B=120^\\circ$，$\\angle C=15^\\circ$，$b=100$，求 $c$（可用根式表示结果）.\n\n(3) 将直角坐标方程 $x^2-y^2=a^2$ 化成极坐标方程.",
-          "choices": [],
+          "body": "<p>不查表：</p><ol class=\"enumerate\"><li><p>求 $4^{1-\\log_2\\dfrac{2}{5}+\\log_2\\sqrt{2}}$.</p></li><li><p>解三角形：已知 $\\triangle ABC$ 中，$\\angle B=120^{\\circ}$，$\\angle C=15^{\\circ}$，$b=100$，求 $c$（可用根式表示结果）.</p></li><li><p>将直角坐标方程 $x^{2}-y^{2}=a^{2}$ 化成极坐标方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由对数的商和幂的运算性质，$\\log_2\\dfrac25=\\log_2 2-\\log_2 5=1-\\log_2 5$，且 $\\log_2\\sqrt2=\\dfrac12$. 因此原式的指数为\r\n\n$$\n1-\\log_2\\dfrac25+\\log_2\\sqrt2\r\n=1-\\left(1-\\log_2 5\\right)+\\dfrac12\r\n=\\dfrac12+\\log_2 5\n$$\n\r\n于是\r\n\n$$\n4^{1-\\log_2\\frac25+\\log_2\\sqrt2}=\\left(2^2\\right)^{\\frac12+\\log_2 5}=2^{1+2\\log_2 5}=2\\cdot5^2=50\n$$\n\n(2) 由三角形内角和，$\\angle A=180^\\circ-120^\\circ-15^\\circ=45^\\circ$. 由正弦定理，$\\dfrac{c}{\\sin15^\\circ}=\\dfrac{b}{\\sin120^\\circ}$. 又因为\r\n\n$$\n\\sin15^\\circ=\\sin\\left(45^\\circ-30^\\circ\\right)=\\sin45^\\circ\\cos30^\\circ-\\cos45^\\circ\\sin30^\\circ=\\dfrac{\\sqrt6-\\sqrt2}{4}\n$$\n\r\n同时 $\\sin120^\\circ=\\sin60^\\circ=\\dfrac{\\sqrt3}{2}$，所以\r\n\n$$\nc=100\\cdot\\dfrac{\\sin15^\\circ}{\\sin120^\\circ}=100\\cdot\\dfrac{\\frac{\\sqrt6-\\sqrt2}{4}}{\\frac{\\sqrt3}{2}}=\\dfrac{50\\left(\\sqrt6-\\sqrt2\\right)}{\\sqrt3}=\\dfrac{50}{3}\\left(3\\sqrt2-\\sqrt6\\right)\n$$\n\n(3) 设动点的极坐标为 $\\left(r,\\theta\\right)$，则 $x=r\\cos\\theta$，$y=r\\sin\\theta$. 代入 $x^2-y^2=a^2$，得 $r^2\\cos^2\\theta-r^2\\sin^2\\theta=a^2$. 利用 $\\cos^2\\theta-\\sin^2\\theta=\\cos2\\theta$，得到极坐标方程\r\n\n$$\nr^2\\cos2\\theta=a^2\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由对数的商和幂的运算性质，$\\log_{2}\\dfrac{2}{5}=\\log_{2} 2-\\log_{2} 5=1-\\log_{2} 5$，且 $\\log_{2}\\sqrt{2}=\\dfrac{1}{2}$. 因此原式的指数为</p>\n$$\n1-\\log_{2}\\dfrac{2}{5}+\\log_{2}\\sqrt{2}=1-\\left(1-\\log_{2} 5\\right)+\\dfrac{1}{2}=\\dfrac{1}{2}+\\log_{2} 5\n$$\n<p>于是</p>\n$$\n4^{1-\\log_2\\frac{2}{5}+\\log_2\\sqrt{2}}=\\left(2^{2}\\right)^{\\frac{1}{2}+\\log_2 5}=2^{1+2\\log_2 5}=2\\cdot5^{2}=50\n$$\n</li><li><p>由三角形内角和，$\\angle A=180^{\\circ}-120^{\\circ}-15^{\\circ}=45^{\\circ}$. 由正弦定理，$\\dfrac{c}{\\sin15^\\circ}=\\dfrac{b}{\\sin120^\\circ}$. 又因为</p>\n$$\n\\sin15^{\\circ}=\\sin\\left(45^{\\circ}-30^{\\circ}\\right)=\\sin45^{\\circ}\\cos30^{\\circ}-\\cos45^{\\circ}\\sin30^{\\circ}=\\dfrac{\\sqrt{6}-\\sqrt{2}}{4}\n$$\n<p>同时 $\\sin120^{\\circ}=\\sin60^{\\circ}=\\dfrac{\\sqrt{3}}{2}$，所以</p>\n$$\nc=100\\cdot\\dfrac{\\sin15^\\circ}{\\sin120^\\circ}=100\\cdot\\dfrac{\\frac{\\sqrt{6}-\\sqrt{2}}{4}}{\\frac{\\sqrt{3}}{2}}=\\dfrac{50\\left(\\sqrt{6}-\\sqrt{2}\\right)}{\\sqrt{3}}=\\dfrac{50}{3}\\left(3\\sqrt{2}-\\sqrt{6}\\right)\n$$\n</li><li><p>设动点的极坐标为 $\\left(r,\\theta\\right)$，则 $x=r\\cos\\theta$，$y=r\\sin\\theta$. 代入 $x^{2}-y^{2}=a^{2}$，得 $r^{2}\\cos^{2}\\theta-r^{2}\\sin^{2}\\theta=a^{2}$. 利用 $\\cos^{2}\\theta-\\sin^{2}\\theta=\\cos2\\theta$，得到极坐标方程</p>\n$$\nr^{2}\\cos2\\theta=a^{2}\n$$\n</li></ol>"
         },
         {
           "num": 6,
           "body": "$\\triangle ABC$ 的 $\\angle A$ 的平分线交 $BC$ 于 $D$，延长 $AD$ 交三角形的外接圆于 $E$，求证：$AB\\cdot AC=AD\\cdot AE$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设 $AB=m$，$AC=n$，$BD=p$，$DC=q$. 由于 $AD$ 是角平分线，角平分线定理给出 $\\dfrac{p}{q}=\\dfrac{m}{n}$，即 $np=mq$.\r\n在三角形 $ABC$ 中对截线 $AD$ 使用斯特瓦特定理，得\r\n\n$$\nn^2p+m^2q=\\left(p+q\\right)\\left(AD^2+pq\\right)\n$$\n\r\n由 $np=mq$，斯特瓦特定理左端为\r\n\n$$\nn^2p+m^2q=n(np)+m(mq)=mnq+mnp=mn\\left(p+q\\right)\n$$\n\r\n因此 $mn\\left(p+q\\right)=\\left(p+q\\right)\\left(AD^2+pq\\right)$. 因为 $p+q=BC>0$，约去 $p+q$，得到 $AD^2=mn-pq=AB\\cdot AC-BD\\cdot DC$. 又因为 $A$，$B$，$C$，$E$ 共圆，且弦 $AE$ 与弦 $BC$ 交于 $D$，由相交弦定理 $AD\\cdot DE=BD\\cdot DC$. 由题意，点的顺序为 $A$，$D$，$E$，所以 $AE=AD+DE$. 于是\r\n\n$$\nAB\\cdot AC=AD^2+BD\\cdot DC=AD^2+AD\\cdot DE=AD\\left(AD+DE\\right)=AD\\cdot AE\n$$\n\r\n故 $AB\\cdot AC=AD\\cdot AE$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $AB=m$，$AC=n$，$BD=p$，$DC=q$. 由于 $AD$ 是角平分线，角平分线定理给出 $\\dfrac{p}{q}=\\dfrac{m}{n}$，即 $np=mq$.</p><p>在三角形 $ABC$ 中对截线 $AD$ 使用斯特瓦特定理，得</p>\n$$\nn^{2}p+m^{2}q=\\left(p+q\\right)\\left(AD^{2}+pq\\right)\n$$\n<p>由 $np=mq$，斯特瓦特定理左端为</p>\n$$\nn^{2}p+m^{2}q=n(np)+m(mq)=mnq+mnp=mn\\left(p+q\\right)\n$$\n<p>因此 $mn\\left(p+q\\right)=\\left(p+q\\right)\\left(AD^{2}+pq\\right)$. 因为 $p+q=BC>0$，约去 $p+q$，得到 $AD^{2}=mn-pq=AB\\cdot AC-BD\\cdot DC$. 又因为 $A$，$B$，$C$，$E$ 共圆，且弦 $AE$ 与弦 $BC$ 交于 $D$，由相交弦定理 $AD\\cdot DE=BD\\cdot DC$. 由题意，点的顺序为 $A$，$D$，$E$，所以 $AE=AD+DE$. 于是</p>\n$$\nAB\\cdot AC=AD^{2}+BD\\cdot DC=AD^{2}+AD\\cdot DE=AD\\left(AD+DE\\right)=AD\\cdot AE\n$$\n<p>故 $AB\\cdot AC=AD\\cdot AE$.</p>"
         },
         {
           "num": 7,
-          "body": "已知正三棱锥 $P-ABC$ 的底面边长是 $6\\mathrm{~cm}$，侧面与底面所成的角是 $60^\\circ$，求它的体积（结果可用根式表示）.",
-          "choices": [],
+          "body": "已知正三棱锥 $P-ABC$ 的底面边长是 $6\\mathrm{~cm}$，侧面与底面所成的角是 $60^{\\circ}$，求它的体积（结果可用根式表示）.",
+          "choices": null,
           "answer": "",
-          "solution": "设正三角形 $ABC$ 的中心为 $O$，$PO$ 为棱锥的高，$M$ 为 $BC$ 的中点. 正三棱锥的高垂直于底面，且侧面三角形 $PBC$ 为等腰三角形，因此 $PO\\perp\\text{平面 }ABC$，$PM\\perp BC$，$OM\\perp BC$.\r\n所以侧面 $PBC$ 与底面 $ABC$ 所成的二面角等于 $\\angle PMO=60^\\circ$，且三角形 $POM$ 在 $O$ 处为直角三角形.\r\n\r\n正三角形边长为 $6\\mathrm{~cm}$，其中心到边的距离为内切圆半径，故 $OM=\\dfrac{6\\sqrt3}{6}=\\sqrt3\\mathrm{~cm}$. 底面积为 $S_{\\triangle ABC}=\\dfrac{6^2\\sqrt3}{4}=9\\sqrt3\\mathrm{~cm}^2$. 在直角三角形 $POM$ 中，$\\tan60^\\circ=\\dfrac{PO}{OM}$，所以 $PO=OM\\tan60^\\circ=\\sqrt3\\cdot\\sqrt3=3\\mathrm{~cm}$.\r\n因此棱锥体积为\r\n\n$$\nV=\\dfrac13S_{\\triangle ABC}\\cdot PO=\\dfrac13\\cdot9\\sqrt3\\cdot3=9\\sqrt3\\mathrm{~cm}^3\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设正三角形 $ABC$ 的中心为 $O$，$PO$ 为棱锥的高，$M$ 为 $BC$ 的中点. 正三棱锥的高垂直于底面，且侧面三角形 $PBC$ 为等腰三角形，因此 $PO\\perp\\text{平面 }ABC$，$PM\\perp BC$，$OM\\perp BC$.</p><p>所以侧面 $PBC$ 与底面 $ABC$ 所成的二面角等于 $\\angle PMO=60^{\\circ}$，且三角形 $POM$ 在 $O$ 处为直角三角形.</p><p>正三角形边长为 $6\\mathrm{~cm}$，其中心到边的距离为内切圆半径，故 $OM=\\dfrac{6\\sqrt{3}}{6}=\\sqrt{3}\\mathrm{~cm}$. 底面积为 $S_{\\triangle ABC}=\\dfrac{6^2\\sqrt{3}}{4}=9\\sqrt{3}\\mathrm{~cm}^{2}$. 在直角三角形 $POM$ 中，$\\tan60^{\\circ}=\\dfrac{PO}{OM}$，所以 $PO=OM\\tan60^{\\circ}=\\sqrt{3}\\cdot\\sqrt{3}=3\\mathrm{~cm}$.</p><p>因此棱锥体积为</p>\n$$\nV=\\dfrac{1}{3}S_{\\triangle ABC}\\cdot PO=\\dfrac{1}{3}\\cdot9\\sqrt{3}\\cdot3=9\\sqrt{3}\\mathrm{~cm}^{3}\n$$"
         },
         {
           "num": 8,
-          "body": "已知 $a$，$b$，$c$ 为三角形的三条边，求证：$b^2x^2+\\left(b^2+c^2-a^2\\right)x+c^2=0$ 无实数根.",
-          "choices": [],
+          "body": "已知 $a$，$b$，$c$ 为三角形的三条边，求证：$b^{2}x^{2}+\\left(b^{2}+c^{2}-a^{2}\\right)x+c^{2}=0$ 无实数根.",
+          "choices": null,
           "answer": "",
-          "solution": "因为 $a$，$b$，$c$ 是三角形的三条边，所以满足严格三角不等式 $\\left|b-c\\right|<a<b+c$. 三边均为正数，平方后得到\r\n\n$$\n\\left(b-c\\right)^2<a^2<\\left(b+c\\right)^2\n$$\n\r\n将两端展开并移项，得 $-2bc<b^2+c^2-a^2<2bc$. 由于 $b$，$c>0$，上式说明 $\\left|b^2+c^2-a^2\\right|<2bc$，从而\r\n\n$$\n\\left(b^2+c^2-a^2\\right)^2<4b^2c^2\n$$\n\r\n原方程的二次项系数为 $b^2>0$，其判别式为 $\\Delta=\\left(b^2+c^2-a^2\\right)^2-4b^2c^2<0$.\r\n因此原方程无实数根.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>因为 $a$，$b$，$c$ 是三角形的三条边，所以满足严格三角不等式 $\\left|b-c\\right|&#x3C;a&#x3C;b+c$. 三边均为正数，平方后得到</p>\n$$\n\\left(b-c\\right)^{2}&#x3C;a^{2}&#x3C;\\left(b+c\\right)^{2}\n$$\n<p>将两端展开并移项，得 $-2bc&#x3C;b^{2}+c^{2}-a^{2}&#x3C;2bc$. 由于 $b$，$c>0$，上式说明 $\\left|b^{2}+c^{2}-a^{2}\\right|&#x3C;2bc$，从而</p>\n$$\n\\left(b^{2}+c^{2}-a^{2}\\right)^{2}&#x3C;4b^{2}c^{2}\n$$\n<p>原方程的二次项系数为 $b^{2}>0$，其判别式为 $\\Delta=\\left(b^{2}+c^{2}-a^{2}\\right)^{2}-4b^{2}c^{2}&#x3C;0$.</p><p>因此原方程无实数根.</p>"
         },
         {
           "num": 9,
-          "body": "方程 $x^2-\\left(\\tan\\theta+\\cot\\theta\\right)x+1=0$ 有一根为 $2+\\sqrt3$，求 $\\sin 2\\theta$.",
-          "choices": [],
+          "body": "方程 $x^{2}-\\left(\\tan\\theta+\\cot\\theta\\right)x+1=0$ 有一根为 $2+\\sqrt{3}$，求 $\\sin 2\\theta$.",
+          "choices": null,
           "answer": "",
-          "solution": "设方程的另一根为 $x_2$. 由韦达定理，两根之积为 $1$，所以 $\\left(2+\\sqrt3\\right)x_2=1$，即 $x_2=\\dfrac{1}{2+\\sqrt3}=2-\\sqrt3$. 再由两根之和，得到 $\\tan\\theta+\\cot\\theta=\\left(2+\\sqrt3\\right)+\\left(2-\\sqrt3\\right)=4$. 因为题目中的 $\\tan\\theta$ 和 $\\cot\\theta$ 均有意义，所以 $\\sin\\theta\\cos\\theta\\ne0$. 因而\r\n\n$$\n\\tan\\theta+\\cot\\theta=\\dfrac{\\sin^2\\theta+\\cos^2\\theta}{\\sin\\theta\\cos\\theta}=\\dfrac{1}{\\sin\\theta\\cos\\theta}=\\dfrac{2}{\\sin2\\theta}\n$$\n\r\n所以 $\\dfrac{2}{\\sin2\\theta}=4$，从而 $\\sin2\\theta=\\dfrac12$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设方程的另一根为 $x_{2}$. 由韦达定理，两根之积为 $1$，所以 $\\left(2+\\sqrt{3}\\right)x_{2}=1$，即 $x_{2}=\\dfrac{1}{2+\\sqrt{3}}=2-\\sqrt{3}$. 再由两根之和，得到 $\\tan\\theta+\\cot\\theta=\\left(2+\\sqrt{3}\\right)+\\left(2-\\sqrt{3}\\right)=4$. 因为题目中的 $\\tan\\theta$ 和 $\\cot\\theta$ 均有意义，所以 $\\sin\\theta\\cos\\theta\\ne0$. 因而</p>\n$$\n\\tan\\theta+\\cot\\theta=\\dfrac{\\sin^2\\theta+\\cos^2\\theta}{\\sin\\theta\\cos\\theta}=\\dfrac{1}{\\sin\\theta\\cos\\theta}=\\dfrac{2}{\\sin2\\theta}\n$$\n<p>所以 $\\dfrac{2}{\\sin2\\theta}=4$，从而 $\\sin2\\theta=\\dfrac{1}{2}$.</p>"
         },
         {
           "num": 10,
           "body": "汽车与自行车分别从相距 $75\\mathrm{~km}$ 的 $A$，$B$ 两地同时出发（$A$ 地在 $B$ 地的正东方向），汽车从 $A$ 地向正西方向行驶，自行车从 $B$ 地向正南方向行驶，已知汽车和自行车的速度分别为 $30\\mathrm{~km/h}$ 和 $15\\mathrm{~km/h}$，问出发后多少小时两车相距最短？",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "取 $B$ 为坐标原点，正东方向为 $x$ 轴正向，正北方向为 $y$ 轴正向，则 $A=\\left(75,0\\right)$. 设出发 $t\\mathrm{~h}$ 后两车的位置分别为 $C$、$D$，其中 $t\\geqslant0$. 由速度和方向，汽车位置为 $C=\\left(75-30t,0\\right)$，自行车位置为 $D=\\left(0,-15t\\right)$. 所以两车距离的平方为\r\n\n$$\nCD^2=\\left(75-30t\\right)^2+\\left(15t\\right)^2\r\n=1125t^2-4500t+5625\r\n=1125\\left(t-2\\right)^2+1125\n$$\n\r\n距离本身非负，而平方距离在 $t\\geqslant0$ 上于 $t=2$ 时取得最小值，因此出发后 $2\\mathrm{~h}$ 两车相距最短.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>取 $B$ 为坐标原点，正东方向为 $x$ 轴正向，正北方向为 $y$ 轴正向，则 $A=\\left(75,0\\right)$. 设出发 $t\\mathrm{~h}$ 后两车的位置分别为 $C$、$D$，其中 $t\\geqslant0$. 由速度和方向，汽车位置为 $C=\\left(75-30t,0\\right)$，自行车位置为 $D=\\left(0,-15t\\right)$. 所以两车距离的平方为</p>\n$$\nCD^{2}=\\left(75-30t\\right)^{2}+\\left(15t\\right)^{2}  =1125t^{2}-4500t+5625  =1125\\left(t-2\\right)^{2}+1125\n$$\n<p>距离本身非负，而平方距离在 $t\\geqslant0$ 上于 $t=2$ 时取得最小值，因此出发后 $2\\mathrm{~h}$ 两车相距最短.</p>"
         },
         {
           "num": 11,
           "body": "已知等差数列有 $10$ 项，偶数项之和为 $55$，奇数项之和为 $45$，求此数列的第五项.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设等差数列的首项为 $a_1$，公差为 $d$. 其第 $k$ 项为 $a_k=a_1+(k-1)d$. 因而奇数项之和为\r\n\n$$\na_1+a_3+a_5+a_7+a_9=5a_1+\\left(0+2+4+6+8\\right)d=5a_1+20d=45\n$$\n\r\n偶数项之和为\r\n\n$$\na_2+a_4+a_6+a_8+a_{10}=5a_1+\\left(1+3+5+7+9\\right)d=5a_1+25d=55\n$$\n\r\n两式相减，得 $5d=10$，所以 $d=2$. 代入奇数项之和，得 $5a_1+40=45$，从而 $a_1=1$. 因此 $a_5=a_1+4d=1+4\\times2=9$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 其第 $k$ 项为 $a_{k}=a_{1}+(k-1)d$. 因而奇数项之和为</p>\n$$\na_{1}+a_{3}+a_{5}+a_{7}+a_{9}=5a_{1}+\\left(0+2+4+6+8\\right)d=5a_{1}+20d=45\n$$\n<p>偶数项之和为</p>\n$$\na_{2}+a_{4}+a_{6}+a_{8}+a_{10}=5a_{1}+\\left(1+3+5+7+9\\right)d=5a_{1}+25d=55\n$$\n<p>两式相减，得 $5d=10$，所以 $d=2$. 代入奇数项之和，得 $5a_{1}+40=45$，从而 $a_{1}=1$. 因此 $a_{5}=a_{1}+4d=1+4\\times2=9$.</p>"
         },
         {
           "num": 12,
-          "body": "一动点到直线 $x=8$ 的距离是它到点 $A\\left(2,0\\right)$ 的距离的 $2$ 倍.\r\n\r\n\n(1) 求这动点的轨迹方程；\n\n(2) 判断这轨迹是何曲线；\n\n(3) 求经过这曲线上一点 $B\\left(2,3\\right)$ 的切线方程.",
-          "choices": [],
+          "body": "<p>一动点到直线 $x=8$ 的距离是它到点 $A\\left(2,0\\right)$ 的距离的 $2$ 倍.</p><ol class=\"enumerate\"><li><p>求这动点的轨迹方程；</p></li><li><p>判断这轨迹是何曲线；</p></li><li><p>求经过这曲线上一点 $B\\left(2,3\\right)$ 的切线方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设动点为 $P\\left(x,y\\right)$.\r\n\n(1) 点 $P$ 到直线 $x=8$ 的距离为 $\\left|x-8\\right|$，到点 $A\\left(2,0\\right)$ 的距离为 $\\sqrt{\\left(x-2\\right)^2+y^2}$. 因此\r\n\n$$\n\\left|x-8\\right|=2\\sqrt{\\left(x-2\\right)^2+y^2}\n$$\n\r\n两边均非负，平方是等价变形，不引入增根，得\r\n\n$$\n\\left(x-8\\right)^2=4\\left(\\left(x-2\\right)^2+y^2\\right)\n$$\n\r\n展开化简：\r\n$x^2-16x+64=4x^2-16x+16+4y^2$，$3x^2+4y^2=48$.\r\n所以轨迹方程为\r\n\n$$\n\\dfrac{x^2}{16}+\\dfrac{y^2}{12}=1\n$$\n\n(2) 将轨迹方程写成标准形式\r\n\n$$\n\\dfrac{x^2}{4^2}+\\dfrac{y^2}{\\left(2\\sqrt3\\right)^2}=1\n$$\n\r\n所以这条轨迹是以原点为中心、长轴在 $x$ 轴上的椭圆，半长轴为 $4$，半短轴为 $2\\sqrt3$.\n\n(3) 先检验给定点：\r\n\n$$\n\\dfrac{2^2}{16}+\\dfrac{3^2}{12}=\\dfrac14+\\dfrac34=1\n$$\n\r\n故 $B\\left(2,3\\right)$ 在椭圆上. 对等价方程 $3x^2+4y^2=48$ 隐式求导，得 $6x+8yy'=0$. 在 $B\\left(2,3\\right)$ 处，$y'=-\\dfrac{6\\times2}{8\\times3}=-\\dfrac12$.\r\n因此切线方程为\r\n$y-3=-\\dfrac12\\left(x-2\\right)$，$x+2y=8$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设动点为 $P\\left(x,y\\right)$.</p><ol class=\"enumerate\"><li><p>点 $P$ 到直线 $x=8$ 的距离为 $\\left|x-8\\right|$，到点 $A\\left(2,0\\right)$ 的距离为 $\\sqrt{\\left(x-2\\right)^{2}+y^{2}}$. 因此</p>\n$$\n\\left|x-8\\right|=2\\sqrt{\\left(x-2\\right)^{2}+y^{2}}\n$$\n<p>两边均非负，平方是等价变形，不引入增根，得</p>\n$$\n\\left(x-8\\right)^{2}=4\\left(\\left(x-2\\right)^{2}+y^{2}\\right)\n$$\n<p>展开化简：</p><p>$x^{2}-16x+64=4x^{2}-16x+16+4y^{2}$，$3x^{2}+4y^{2}=48$.</p><p>所以轨迹方程为</p>\n$$\n\\dfrac{x^2}{16}+\\dfrac{y^2}{12}=1\n$$\n</li><li><p>将轨迹方程写成标准形式</p>\n$$\n\\dfrac{x^2}{4^2}+\\dfrac{y^2}{\\left(2\\sqrt{3}\\right)^2}=1\n$$\n<p>所以这条轨迹是以原点为中心、长轴在 $x$ 轴上的椭圆，半长轴为 $4$，半短轴为 $2\\sqrt{3}$.</p></li><li><p>先检验给定点：</p>\n$$\n\\dfrac{2^2}{16}+\\dfrac{3^2}{12}=\\dfrac{1}{4}+\\dfrac{3}{4}=1\n$$\n<p>故 $B\\left(2,3\\right)$ 在椭圆上. 对等价方程 $3x^{2}+4y^{2}=48$ 隐式求导，得 $6x+8yy'=0$. 在 $B\\left(2,3\\right)$ 处，$y'=-\\dfrac{6\\times2}{8\\times3}=-\\dfrac{1}{2}$.</p><p>因此切线方程为</p><p>$y-3=-\\dfrac{1}{2}\\left(x-2\\right)$，$x+2y=8$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

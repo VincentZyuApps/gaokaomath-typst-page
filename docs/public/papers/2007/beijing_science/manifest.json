@@ -1,138 +1,15 @@
 {
+  "title": "2007年普通高等学校招生全国统一考试",
+  "subtitle": "2007年北京卷（理）",
   "year": "2007",
   "slug": "beijing_science",
-  "title": "2007年北京卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知 $\\cos \\theta \\cdot \\tan \\theta < 0$，那么角 $\\theta$ 是（ ）",
+          "body": "已知 $\\cos \\theta \\cdot \\tan \\theta &#x3C; 0$，那么角 $\\theta$ 是（ ）",
           "choices": [
             "第一或第二象限角",
             "第二或第三象限角",
@@ -140,13 +17,11 @@
             "第一或第四象限角"
           ],
           "answer": "C",
-          "solution": "由于正切有定义，$\\cos\\theta\\ne0$，所以\r\n$\\cos\\theta\\tan\\theta=\\cos\\theta\\cdot\\dfrac{\\sin\\theta}{\\cos\\theta}=\\sin\\theta$.\r\n题设给出 $\\sin\\theta<0$，故 $\\theta$ 是第三或第四象限角，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由于正切有定义，$\\cos\\theta\\ne0$，所以</p><p>$\\cos\\theta\\tan\\theta=\\cos\\theta\\cdot\\dfrac{\\sin\\theta}{\\cos\\theta}=\\sin\\theta$.</p><p>题设给出 $\\sin\\theta&#x3C;0$，故 $\\theta$ 是第三或第四象限角，选 C.</p>"
         },
         {
           "num": 2,
-          "body": "函数 $f(x)=3^x$（$0 < x \\le 2$）的反函数的定义域为（ ）",
+          "body": "函数 $f(x)=3^{x}$（$0 &#x3C; x \\le 2$）的反函数的定义域为（ ）",
           "choices": [
             "$(0, +\\infty)$",
             "$(1, 9]$",
@@ -154,13 +29,11 @@
             "$[9, +\\infty)$"
           ],
           "answer": "B",
-          "solution": "函数 $f(x)=3^x$ 在 $\\mathbb{R}$ 上单调递增，因此当 $0<x\\leqslant2$ 时，\r\n$f(x)$ 的值域为 $(3^0,3^2]=(1,9]$. 反函数的定义域等于原函数的值域，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>函数 $f(x)=3^{x}$ 在 $\\mathbb{R}$ 上单调递增，因此当 $0&#x3C;x\\leqslant2$ 时，</p><p>$f(x)$ 的值域为 $(3^{0},3^{2}]=(1,9]$. 反函数的定义域等于原函数的值域，故选 B.</p>"
         },
         {
           "num": 3,
-          "body": "平面 $\\alpha \\parallel \\beta$ 的一个充分条件是（ ）",
+          "body": "平面 $\\alpha \\parallel \\beta$ 的一个充分条件是（ ）",
           "choices": [
             "存在一条直线 $a$，$a \\parallel \\alpha$，$a \\parallel \\beta$",
             "存在一条直线 $a$，$a \\subset \\alpha$，$a \\parallel \\beta$",
@@ -168,27 +41,23 @@
             "存在两条异面直线 $a$，$b$，$a \\subset \\alpha$，$b \\subset \\beta$，$a \\parallel \\beta$，$b \\parallel \\alpha$"
           ],
           "answer": "D",
-          "solution": "若两平面相交于直线 $l$，则平面 $\\alpha$ 内平行于 $\\beta$ 的直线只能平行于 $l$，平面 $\\beta$ 内平行于 $\\alpha$ 的直线也只能平行于 $l$. 因而在这种情况下，两条直线必相互平行，不可能异面，所以选项 D 中的条件排除了两平面相交的情形，必有 $\\alpha\\parallel\\beta$.\r\n\r\n选项 A 只说明存在同一条直线同时平行于两平面，另外两个非异面直线的选项也都不能排除两平面相交，故它们都不是充分条件.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若两平面相交于直线 $l$，则平面 $\\alpha$ 内平行于 $\\beta$ 的直线只能平行于 $l$，平面 $\\beta$ 内平行于 $\\alpha$ 的直线也只能平行于 $l$. 因而在这种情况下，两条直线必相互平行，不可能异面，所以选项 D 中的条件排除了两平面相交的情形，必有 $\\alpha\\parallel\\beta$.</p><p>选项 A 只说明存在同一条直线同时平行于两平面，另外两个非异面直线的选项也都不能排除两平面相交，故它们都不是充分条件.</p>"
         },
         {
           "num": 4,
-          "body": "已知 $O$ 是 $\\triangle ABC$ 所在平面内一点，$D$ 为 $BC$ 边中点，且 $2\\overrightarrow{OA} + \\overrightarrow{OB} + \\overrightarrow{OC} = 0$，那么（ ）",
+          "body": "已知 $O$ 是 $\\triangle ABC$ 所在平面内一点，$D$ 为 $BC$ 边中点，且 $2\\overrightarrow{OA}+ \\overrightarrow{OB}+ \\overrightarrow{OC}= 0$，那么（ ）",
           "choices": [
-            "$\\overrightarrow{AO} = \\overrightarrow{OD}$",
-            "$\\overrightarrow{AC} = 2\\overrightarrow{OD}$",
-            "$\\overrightarrow{AC} = 3\\overrightarrow{OD}$",
-            "$2\\overrightarrow{AO} = \\overrightarrow{OD}$"
+            "$\\overrightarrow{AO}= \\overrightarrow{OD}$",
+            "$\\overrightarrow{AC}= 2\\overrightarrow{OD}$",
+            "$\\overrightarrow{AC}= 3\\overrightarrow{OD}$",
+            "$2\\overrightarrow{AO}= \\overrightarrow{OD}$"
           ],
           "answer": "A",
-          "solution": "因为 $D$ 是 $BC$ 的中点，所以\r\n$2\\overrightarrow{OD}=\\overrightarrow{OB}+\\overrightarrow{OC}$.\r\n由题设 $2\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}=0$，得\r\n$2\\overrightarrow{OD}=-2\\overrightarrow{OA}=2\\overrightarrow{AO}$，从而\r\n$\\overrightarrow{OD}=\\overrightarrow{AO}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $D$ 是 $BC$ 的中点，所以</p><p>$2\\overrightarrow{OD}=\\overrightarrow{OB}+\\overrightarrow{OC}$.</p><p>由题设 $2\\overrightarrow{OA}+\\overrightarrow{OB}+\\overrightarrow{OC}=0$，得</p><p>$2\\overrightarrow{OD}=-2\\overrightarrow{OA}=2\\overrightarrow{AO}$，从而</p><p>$\\overrightarrow{OD}=\\overrightarrow{AO}$，故选 A.</p>"
         },
         {
           "num": 5,
-          "body": "记者要为 $5$ 名志愿者和他们帮助的 $2$ 位老人拍照. 要求排成一排，$2$ 位老人相邻但不得在两端. 不同的排法共有（ ）",
+          "body": "记者要为 $5$ 名志愿者和他们帮助的 $2$ 位老人拍照. 要求排成一排，$2$ 位老人相邻但不得在两端. 不同的排法共有（ ）",
           "choices": [
             "$1440$ 种",
             "$960$ 种",
@@ -196,27 +65,23 @@
             "$480$ 种"
           ],
           "answer": "B",
-          "solution": "把两位老人看作一个整体，则这个整体与 5 名志愿者共形成 6 个对象. 老人整体不能在两端，所以它在 6 个位置中有 $4$ 个位置可选；两位老人内部有 $2!$ 种排法，5 名志愿者有 $5!$ 种排法. 因而排法总数为\r\n$4\\cdot2!\\cdot5!=960$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>把两位老人看作一个整体，则这个整体与 5 名志愿者共形成 6 个对象. 老人整体不能在两端，所以它在 6 个位置中有 $4$ 个位置可选；两位老人内部有 $2!$ 种排法，5 名志愿者有 $5!$ 种排法. 因而排法总数为</p><p>$4\\cdot2!\\cdot5!=960$，故选 B.</p>"
         },
         {
           "num": 6,
-          "body": "若不等式组 $\\begin{cases}\r\nx-y&\\geqslant0,\\\\\r\n2x+y&\\leqslant2,\\\\\r\ny&\\geqslant0,\\\\\r\nx+y&\\le a\r\n\\end{cases}$ 表示的平面区域是一个三角形，则 $a$ 的取值范围是（ ）",
+          "body": "若不等式组 $\\begin{cases}x-y&#x26;\\geqslant0,\\\\  2x+y&#x26;\\leqslant2,\\\\  y&#x26;\\geqslant0,\\\\  x+y&#x26;\\le a\\end{cases}$ 表示的平面区域是一个三角形，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$a \\ge \\frac{4}{3}$",
-            "$0 < a \\le 1$",
+            "$0 &#x3C; a \\le 1$",
             "$1 \\le a \\le \\frac{4}{3}$",
-            "$0 < a \\le 1$ 或 $a \\ge \\frac{4}{3}$"
+            "$0 &#x3C; a \\le 1$ 或 $a \\ge \\frac{4}{3}$"
           ],
           "answer": "D",
-          "solution": "前三个不等式确定的三角形顶点为 $(0,0)$、$(1,0)$、$\\left(\\dfrac23,\\dfrac23\\right)$. 新边界为 $x+y=a$.\r\n\r\n当 $0<a\\leqslant1$ 时，新边界分别与 $y=x$、$y=0$ 相交，所得区域仍为三角形；当 $1<a<\\dfrac43$ 时，新边界截去原三角形的一个顶点，所得区域为四边形；当 $a\\ge\\dfrac43$ 时，新不等式不再截去三角形的内部，所得区域仍为原三角形. 当 $a\\leqslant0$ 时区域至多退化，不能成为三角形.\r\n\r\n所以 $a$ 的取值范围为 $0<a\\leqslant1$ 或 $a\\ge\\dfrac43$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>前三个不等式确定的三角形顶点为 $(0,0)$、$(1,0)$、$\\left(\\dfrac{2}{3},\\dfrac{2}{3}\\right)$. 新边界为 $x+y=a$.</p><p>当 $0&#x3C;a\\leqslant1$ 时，新边界分别与 $y=x$、$y=0$ 相交，所得区域仍为三角形；当 $1&#x3C;a&#x3C;\\dfrac{4}{3}$ 时，新边界截去原三角形的一个顶点，所得区域为四边形；当 $a\\ge\\dfrac{4}{3}$ 时，新不等式不再截去三角形的内部，所得区域仍为原三角形. 当 $a\\leqslant0$ 时区域至多退化，不能成为三角形.</p><p>所以 $a$ 的取值范围为 $0&#x3C;a\\leqslant1$ 或 $a\\ge\\dfrac{4}{3}$，故选 D.</p>"
         },
         {
           "num": 7,
-          "body": "如果正数 $a$，$b$，$c$，$d$ 满足 $a + b = cd = 4$. 那么（ ）",
+          "body": "如果正数 $a$，$b$，$c$，$d$ 满足 $a + b = cd = 4$. 那么（ ）",
           "choices": [
             "$ab \\le c + d$，且等号成立时 $a, b, c, d$ 的取值唯一",
             "$ab \\geq c + d$，且等号成立时 $a$，$b$，$c$，$d$ 的取值唯一",
@@ -224,23 +89,19 @@
             "$ab \\ge c + d$，且等号成立时 $a$，$b$，$c$，$d$ 的取值不唯一"
           ],
           "answer": "A",
-          "solution": "由基本不等式，\r\n$ab\\le\\left(\\dfrac{a+b}{2}\\right)^2=4$，且等号当且仅当 $a=b=2$.\r\n又因为 $c$，$d>0$ 且 $cd=4$，所以\r\n$c+d\\geqslant2\\sqrt{cd}=4$，且等号当且仅当 $c=d=2$.\r\n于是 $ab\\leqslant4\\le c+d$. 两个不等式同时取等号时必须有 $a=b=c=d=2$，取值唯一，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由基本不等式，</p><p>$ab\\le\\left(\\dfrac{a+b}{2}\\right)^{2}=4$，且等号当且仅当 $a=b=2$.</p><p>又因为 $c$，$d>0$ 且 $cd=4$，所以</p><p>$c+d\\geqslant2\\sqrt{cd}=4$，且等号当且仅当 $c=d=2$.</p><p>于是 $ab\\leqslant4\\le c+d$. 两个不等式同时取等号时必须有 $a=b=c=d=2$，取值唯一，故选 A.</p>"
         },
         {
           "num": 8,
-          "body": "对于函数\r\n\\begin{circlelist}\r\n\\item $f(x)=\\lg(|x-2|+1)$；\r\n\\item $f(x)=(x-2)^2$；\r\n\\item $f(x)=\\cos(x+2)$.\r\n\\end{circlelist}\r\n判断如下三个命题的真假：\r\n\r\n命题甲：$f(x+2)$ 是偶函数；\r\n\r\n命题乙：$f(x)$ 在 $(-\\infty,2)$ 上是减函数，在 $(2,+\\infty)$ 上是增函数；\r\n\r\n命题丙：$f(x+2)-f(x)$ 在 $(-\\infty,+\\infty)$ 上是增函数. \r\n\r\n能使命题甲，乙，丙均为真的所有函数的序号是（ ）",
+          "body": "<p>对于函数</p><ol class=\"enumerate\"><li><p>$f(x)=\\lg(|x-2|+1)$；</p></li><li><p>$f(x)=(x-2)^{2}$；</p></li><li><p>$f(x)=\\cos(x+2)$.</p></li></ol><p>判断如下三个命题的真假：</p><p>命题甲：$f(x+2)$ 是偶函数；</p><p>命题乙：$f(x)$ 在 $(-\\infty,2)$ 上是减函数，在 $(2,+\\infty)$ 上是增函数；</p><p>命题丙：$f(x+2)-f(x)$ 在 $(-\\infty,+\\infty)$ 上是增函数.</p><p>能使命题甲，乙，丙均为真的所有函数的序号是（ ）</p>",
           "choices": [
-            "\\circled{1}\\circled{3}",
-            "\\circled{1}\\circled{2}",
-            "\\circled{3}",
-            "\\circled{2}"
+            "①③",
+            "①②",
+            "③",
+            "②"
           ],
           "answer": "D",
-          "solution": "对第 1 个函数，$f(x+2)=\\lg(|x|+1)$ 是偶函数，且原函数在 $(-\\infty,2)$ 上递减、在 $(2,+\\infty)$ 上递增；但是当 $x<0$ 时，\r\n\n$$\nf(x+2)-f(x)=\\lg\\dfrac{1-x}{3-x}\n$$\n\r\n该式随 $x$ 递减，所以命题丙不真.\r\n\r\n对第 2 个函数，$f(x+2)=x^2$ 是偶函数；$f(x)=(x-2)^2$ 在 $(-\\infty,2)$ 上递减、在 $(2,+\\infty)$ 上递增；并且\r\n\n$$\nf(x+2)-f(x)=x^2-(x-2)^2=4x-4\n$$\n\r\n这是增函数，所以三个命题均真.\r\n\r\n对第 3 个函数，$f(x+2)=\\cos(x+4)$ 不是偶函数，且余弦函数也不在所给两个区间上分别保持单调，故三个命题不可能均真. 因而只有序号 2，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>对第 1 个函数，$f(x+2)=\\lg(|x|+1)$ 是偶函数，且原函数在 $(-\\infty,2)$ 上递减、在 $(2,+\\infty)$ 上递增；但是当 $x&#x3C;0$ 时，</p>\n$$\nf(x+2)-f(x)=\\lg\\dfrac{1-x}{3-x}\n$$\n<p>该式随 $x$ 递减，所以命题丙不真.</p><p>对第 2 个函数，$f(x+2)=x^{2}$ 是偶函数；$f(x)=(x-2)^{2}$ 在 $(-\\infty,2)$ 上递减、在 $(2,+\\infty)$ 上递增；并且</p>\n$$\nf(x+2)-f(x)=x^{2}-(x-2)^{2}=4x-4\n$$\n<p>这是增函数，所以三个命题均真.</p><p>对第 3 个函数，$f(x+2)=\\cos(x+4)$ 不是偶函数，且余弦函数也不在所给两个区间上分别保持单调，故三个命题不可能均真. 因而只有序号 2，选 D.</p>"
         }
       ]
     },
@@ -249,57 +110,45 @@
       "problems": [
         {
           "num": 9,
-          "body": "$\\frac{2}{(1 + \\mathrm{i})^2} =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-\\mathrm{i}\\)",
-          "solution": "$(1+\\mathrm{i})^2=1+2\\mathrm{i}+\\mathrm{i}^2=2\\mathrm{i}$，所以\r\n\n$$\n\\frac{2}{(1+\\mathrm{i})^2}=\\frac{2}{2\\mathrm{i}}=\\frac{1}{\\mathrm{i}}=-\\mathrm{i}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\frac{2}{(1 + \\mathrm{i})^{2}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-\\mathrm{i}$",
+          "solution": "<p>$(1+\\mathrm{i})^{2}=1+2\\mathrm{i}+\\mathrm{i}^{2}=2\\mathrm{i}$，所以</p>\n$$\n\\frac{2}{(1+\\mathrm{i})^{2}}=\\frac{2}{2\\mathrm{i}}=\\frac{1}{\\mathrm}{i}=-\\mathrm{i}\n$$"
         },
         {
           "num": 10,
-          "body": "若数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}=n^{2}-10n$（$n=1$，$2$，$3$，$\\cdots$），则此数列的通项公式为 _______ {}；数列 $\\{na_{n}\\}$ 中数值最小的项是第 _______ {} 项.",
-          "choices": [],
-          "answer": "\\(2n-11\\)，\\(3\\)",
-          "solution": "由 $a_1=S_1=1-10=-9$，且当 $n\\geqslant2$ 时\r\n\n$$\na_n=S_n-S_{n-1}=n^2-10n-\\bigl((n-1)^2-10(n-1)\\bigr)=2n-11\n$$\n\r\n当 $n=1$ 时该式也给出 $-9$，故 $a_n=2n-11$.\r\n\r\n令 $b_n=na_n=2n^2-11n$，则\r\n$b_{n+1}-b_n=4n-9$. 该差在 $n=1$，$2$ 时为负，在 $n\\geqslant3$ 时为正，所以 $b_n$ 先减后增，最小项为 $b_3$，即第 3 项.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}=n^{2}-10n$（$n=1$，$2$，$3$，$\\cdots$），则此数列的通项公式为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；数列 $\\{na_{n}\\}$ 中数值最小的项是第<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 项.",
+          "choices": null,
+          "answer": "$2n-11$，$3$",
+          "solution": "<p>由 $a_{1}=S_{1}=1-10=-9$，且当 $n\\geqslant2$ 时</p>\n$$\na_{n}=S_{n}-S_{n-1}=n^{2}-10n-\\bigl((n-1)^{2}-10(n-1)\\bigr)=2n-11\n$$\n<p>当 $n=1$ 时该式也给出 $-9$，故 $a_{n}=2n-11$.</p><p>令 $b_{n}=na_{n}=2n^{2}-11n$，则</p><p>$b_{n+1}-b_{n}=4n-9$. 该差在 $n=1$，$2$ 时为负，在 $n\\geqslant3$ 时为正，所以 $b_{n}$ 先减后增，最小项为 $b_{3}$，即第 3 项.</p>"
         },
         {
           "num": 11,
-          "body": "在 $\\triangle ABC$ 中，若 $\\tan A = \\frac{1}{3}$，$C = 150^{\\circ}$，$BC = 1$，则 $AB = _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\dfrac{\\sqrt{10}}{2}\\)",
-          "solution": "三角形内角和给出 $A+B=30^\\circ$. 因为 $\\tan A=\\dfrac13>0$ 且 $A<30^\\circ$，所以\r\n$\\sin A=\\dfrac1{\\sqrt{10}}$.\r\n由正弦定理，\r\n$\\frac{AB}{\\sin C}=\\frac{BC}{\\sin A}$，$AB=\\frac{\\sin150^\\circ}{\\sin A} =\\frac{\\frac{1}{2}}{\\frac{1}{\\sqrt{10}}}=\\frac{\\sqrt{10}}2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $\\triangle ABC$ 中，若 $\\tan A = \\frac{1}{3}$，$C = 150^{\\circ}$，$BC = 1$，则 $AB =\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\dfrac{\\sqrt{10}}{2}$",
+          "solution": "<p>三角形内角和给出 $A+B=30^{\\circ}$. 因为 $\\tan A=\\dfrac{1}{3}>0$ 且 $A&#x3C;30^{\\circ}$，所以</p><p>$\\sin A=\\dfrac1{\\sqrt{10}}$.</p><p>由正弦定理，</p><p>$\\frac{AB}{\\sin C}=\\frac{BC}{\\sin A}$，$AB=\\frac{\\sin150^{\\circ}}{\\sin A}=\\frac{\\frac{1}{2}}{\\frac{1}{\\sqrt{10}}}=\\frac{\\sqrt{10}}{2}$.</p>"
         },
         {
           "num": 12,
-          "body": "已知集合 $A = \\{x \\mid |x - a| \\le 1\\}$，$B = \\{x \\mid x^2 - 5x + 4 \\ge 0\\}$. 若 $A \\cap B = \\varnothing$，则实数 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\((2,3)\\)",
-          "solution": "$x^2-5x+4=(x-1)(x-4)$，所以\r\n$B=(-\\infty,1]\\cup[4,+\\infty)$. 又 $A=[a-1,a+1]$.\r\n要使 $A\\cap B=\\varnothing$，闭区间 $[a-1,a+1]$ 必须完全位于开区间 $(1,4)$ 内，因此\r\n$a-1>1$，且 $a+1<4$. 从而 $2<a<3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知集合 $A = \\{x \\mid |x - a| \\le 1\\}$，$B = \\{x \\mid x^{2} - 5x + 4 \\ge 0\\}$. 若 $A \\cap B = \\varnothing$，则实数 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(2,3)$",
+          "solution": "<p>$x^{2}-5x+4=(x-1)(x-4)$，所以</p><p>$B=(-\\infty,1]\\cup[4,+\\infty)$. 又 $A=[a-1,a+1]$.</p><p>要使 $A\\cap B=\\varnothing$，闭区间 $[a-1,a+1]$ 必须完全位于开区间 $(1,4)$ 内，因此</p><p>$a-1>1$，且 $a+1&#x3C;4$. 从而 $2&#x3C;a&#x3C;3$.</p>"
         },
         {
           "num": 13,
-          "body": "2002 年在北京召开的国际数学家大会，会标是以我国古代数学家赵爽的弦图为基础设计的. 弦图是由四个全等直角三角形与一个小正方形拼成的一个大正方形（如图）.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/beijing_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n如果小正方形的面积为 $1$，大正方形的面积为 $25$，直角三角形中较小的锐角为 $\\theta$，那么 $\\cos 2\\theta$ 的值等于 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac{7}{25}\\)",
-          "solution": "设弦图中直角三角形的斜边为大正方形的边，长度为 $5$，两直角边分别为 $5\\cos\\theta$ 和 $5\\sin\\theta$. 因为 $\\theta$ 是较小的锐角，所以 $0<\\theta<\\dfrac\\pi4$，且小正方形的边长为\r\n$5\\cos\\theta-5\\sin\\theta=1$.\r\n于是 $\\cos\\theta-\\sin\\theta=\\dfrac15$，两边平方得\r\n$1-\\sin2\\theta=\\frac1{25}$，$\\sin2\\theta=\\frac{24}{25}$.\r\n又 $0<2\\theta<\\dfrac\\pi2$，故 $\\cos2\\theta>0$，从而\r\n\n$$\n\\cos2\\theta=\\sqrt{1-\\sin^22\\theta}\r\n=\\sqrt{1-\\frac{576}{625}}=\\frac7{25}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>2002 年在北京召开的国际数学家大会，会标是以我国古代数学家赵爽的弦图为基础设计的. 弦图是由四个全等直角三角形与一个小正方形拼成的一个大正方形（如图）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>如果小正方形的面积为 $1$，大正方形的面积为 $25$，直角三角形中较小的锐角为 $\\theta$，那么 $\\cos 2\\theta$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$\\dfrac{7}{25}$",
+          "solution": "<p>设弦图中直角三角形的斜边为大正方形的边，长度为 $5$，两直角边分别为 $5\\cos\\theta$ 和 $5\\sin\\theta$. 因为 $\\theta$ 是较小的锐角，所以 $0&#x3C;\\theta&#x3C;\\dfrac\\pi4$，且小正方形的边长为</p><p>$5\\cos\\theta-5\\sin\\theta=1$.</p><p>于是 $\\cos\\theta-\\sin\\theta=\\dfrac{1}{5}$，两边平方得</p><p>$1-\\sin2\\theta=\\frac{1}{25}$，$\\sin2\\theta=\\frac{24}{25}$.</p><p>又 $0&#x3C;2\\theta&#x3C;\\dfrac\\pi2$，故 $\\cos2\\theta>0$，从而</p>\n$$\n\\cos2\\theta=\\sqrt{1-\\sin^{2}2\\theta}=\\sqrt{1-\\frac{576}{625}}=\\frac{7}{25}\n$$"
         },
         {
           "num": 14,
-          "body": "已知函数 $f(x)$，$g(x)$ 分别由下表给出\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n$x$ & $1$ & $2$ & $3$ \\\\\r\n\\hline\r\n$f(x)$ & $1$ & $3$ & $1$\r\n\\end{tabular}\r\n\\hspace{1.5em}\r\n\\begin{tabular}{c|ccc}\r\n$x$ & $1$ & $2$ & $3$ \\\\\r\n\\hline\r\n$g(x)$ & $3$ & $2$ & $1$\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n则 $f[g(1)]$ 的值为 _______ {}；满足 $f[g(x)] > g[f(x)]$ 的 $x$ 的值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)，\\(2\\)",
-          "solution": "由表直接计算，$g(1)=3$，所以 $f[g(1)]=f(3)=1$.\r\n\r\n逐一检验第二个条件：当 $x=1$ 时，$f[g(1)]=1<3=g[f(1)]$；当 $x=2$ 时，$f[g(2)]=f(2)=3>1=g[f(2)]$；当 $x=3$ 时，$f[g(3)]=f(1)=1<3=g[f(3)]$. 因而满足条件的 $x$ 只有 $2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知函数 $f(x)$，$g(x)$ 分别由下表给出</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$x$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$f(x)$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $3$ </td><td style=\"text-align: center\"> $1$</td></tr></tbody></table><br><span class=\"vspace\" data-amount=\"1.5em\"></span><br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$x$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$g(x)$ </td><td style=\"text-align: center\"> $3$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $1$</td></tr></tbody></table></center><p>则 $f[g(1)]$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；满足 $f[g(x)] > g[f(x)]$ 的 $x$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$1$，$2$",
+          "solution": "<p>由表直接计算，$g(1)=3$，所以 $f[g(1)]=f(3)=1$.</p><p>逐一检验第二个条件：当 $x=1$ 时，$f[g(1)]=1&#x3C;3=g[f(1)]$；当 $x=2$ 时，$f[g(2)]=f(2)=3>1=g[f(2)]$；当 $x=3$ 时，$f[g(3)]=f(1)=1&#x3C;3=g[f(3)]$. 因而满足条件的 $x$ 只有 $2$.</p>"
         }
       ]
     },
@@ -308,60 +157,47 @@
       "problems": [
         {
           "num": 15,
-          "body": "数列 $\\{a_{n}\\}$ 中，$a_{1}=2$，$a_{n+1}=a_{n}+cn$（$c$ 是常数，$n=1$，$2$，$3$，$\\cdots$）. 且 $a_{1}$，$a_{2}$，$a_{3}$ 成公比不为 $1$ 的等比数列.\r\n\r\n\n(1) 求 $c$ 的值.\n\n(2) 求 $\\{a_{n}\\}$ 的通项公式.",
-          "choices": [],
+          "body": "<p>数列 $\\{a_{n}\\}$ 中，$a_{1}=2$，$a_{n+1}=a_{n}+cn$（$c$ 是常数，$n=1$，$2$，$3$，$\\cdots$）. 且 $a_{1}$，$a_{2}$，$a_{3}$ 成公比不为 $1$ 的等比数列.</p><ol class=\"enumerate\"><li><p>求 $c$ 的值.</p></li><li><p>求 $\\{a_{n}\\}$ 的通项公式.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由递推式，$a_2=2+c$，$a_3=a_2+2c=2+3c$. 因为前三项成等比数列且公比不为 $1$，有\r\n\n$$\n(2+c)^2=a_1a_3=2(2+3c)\n$$\n\r\n整理得 $c(c-2)=0$. 若 $c=0$，则前三项及以后各项均为 $2$，公比为 $1$，不合题意，所以 $c=2$.\n\n(2) 当 $c=2$ 时，\r\n\n$$\na_n=a_1+\\sum_{j=1}^{n-1}2j\r\n=2+n(n-1)=n^2-n+2\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由递推式，$a_{2}=2+c$，$a_{3}=a_{2}+2c=2+3c$. 因为前三项成等比数列且公比不为 $1$，有</p>\n$$\n(2+c)^{2}=a_{1}a_{3}=2(2+3c)\n$$\n<p>整理得 $c(c-2)=0$. 若 $c=0$，则前三项及以后各项均为 $2$，公比为 $1$，不合题意，所以 $c=2$.</p></li><li><p>当 $c=2$ 时，</p>\n$$\na_{n}=a_{1}+\\sum_{j=1}^{n-1}2j  =2+n(n-1)=n^{2}-n+2\n$$\n</li></ol>"
         },
         {
           "num": 16,
-          "body": "如图，在 $\\mathrm{Rt}\\triangle AOB$ 中，$\\angle OAB = \\frac{\\pi}{6}$，斜边 $AB = 4$. $\\mathrm{Rt}\\triangle AOC$ 可以通过 $\\mathrm{Rt}\\triangle AOB$ 以直线 $AO$ 为轴旋转得到，且二面角 $B-AO-C$ 是直二面角. 动点 $D$ 在斜边 $AB$ 上.\r\n\r\n\n(1) 求证：平面 $COD$ $\\perp$ 平面 $AOB$.\n\n(2) 当 $D$ 为 $AB$ 的中点时，求异面直线 $AO$ 与 $CD$ 所成角的大小.\n\n(3) 求 $CD$ 与平面 $AOB$ 所成角的最大值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/beijing_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在 $\\mathrm{Rt}\\triangle AOB$ 中，$\\angle OAB = \\frac{\\pi}{6}$，斜边 $AB = 4$. $\\mathrm{Rt}\\triangle AOC$ 可以通过 $\\mathrm{Rt}\\triangle AOB$ 以直线 $AO$ 为轴旋转得到，且二面角 $B-AO-C$ 是直二面角. 动点 $D$ 在斜边 $AB$ 上.</p><ol class=\"enumerate\"><li><p>求证：平面 $COD$ $\\perp$ 平面 $AOB$.</p></li><li><p>当 $D$ 为 $AB$ 的中点时，求异面直线 $AO$ 与 $CD$ 所成角的大小.</p></li><li><p>求 $CD$ 与平面 $AOB$ 所成角的最大值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 在直角三角形 $AOB$ 中，\r\n$AO=AB\\cos\\frac\\pi6=2\\sqrt3$，$OB=AB\\sin\\frac\\pi6=2$.\r\n旋转关系给出 $OC=OB=2$ 且 $OC\\perp AO$. 又因为二面角 $B-AO-C$ 是直二面角，所以 $OB\\perp OC$. 直线 $OC$ 垂直于平面 $AOB$ 内相交的两条直线 $AO$、$OB$，故 $OC\\perp$ 平面 $AOB$. 由于 $OC\\subset$ 平面 $COD$，所以平面 $COD\\perp$ 平面 $AOB$.\n\n(2) 当 $D$ 为 $AB$ 中点时，在平面 $AOB$ 内过 $D$ 作 $DE\\perp OB$，交 $OB$ 于 $E$. 因为 $AO\\perp OB$，所以 $DE\\parallel AO$，从而 $E$ 是 $OB$ 的中点，\r\n$OE=1$，$DE=\\frac{AO}{2}=\\sqrt3$.\r\n由 $OC\\perp$ 平面 $AOB$ 且 $OC=2$，得\r\n$CE=\\sqrt{OC^2+OE^2}=\\sqrt5$. 又 $CE\\perp DE$，所以异面直线 $AO$ 与 $CD$ 所成的角等于 $\\angle CDE$，且\r\n\n$$\n\\tan\\angle CDE=\\frac{CE}{DE}=\\sqrt{\\frac53}=\\frac{\\sqrt{15}}3\n$$\n\r\n故所求角为 $\\arctan\\dfrac{\\sqrt{15}}3$.\n\n(3) 设 $H$ 是点 $O$ 到斜边 $AB$ 的垂足. 对任意 $D\\in AB$，直线 $CD$ 在平面 $AOB$ 上的射影为 $OD$，所以若其与平面 $AOB$ 所成角为 $\\alpha$，则\r\n\n$$\n\\tan\\alpha=\\frac{OC}{OD}=\\frac2{OD}\n$$\n\r\n当 $D=H$ 时，$OD$ 最小. 由直角三角形面积或射影定理，\r\n\n$$\nOH=\\frac{AO\\cdot OB}{AB}=\\frac{2\\sqrt3\\cdot2}{4}=\\sqrt3\n$$\n\r\n因此 $\\tan\\alpha$ 的最大值为 $\\dfrac2{\\sqrt3}=\\dfrac{2\\sqrt3}3$，所求最大角为 $\\arctan\\dfrac{2\\sqrt3}3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>在直角三角形 $AOB$ 中，</p><p>$AO=AB\\cos\\frac{\\pi}{6}=2\\sqrt{3}$，$OB=AB\\sin\\frac{\\pi}{6}=2$.</p><p>旋转关系给出 $OC=OB=2$ 且 $OC\\perp AO$. 又因为二面角 $B-AO-C$ 是直二面角，所以 $OB\\perp OC$. 直线 $OC$ 垂直于平面 $AOB$ 内相交的两条直线 $AO$、$OB$，故 $OC\\perp$ 平面 $AOB$. 由于 $OC\\subset$ 平面 $COD$，所以平面 $COD\\perp$ 平面 $AOB$.</p></li><li><p>当 $D$ 为 $AB$ 中点时，在平面 $AOB$ 内过 $D$ 作 $DE\\perp OB$，交 $OB$ 于 $E$. 因为 $AO\\perp OB$，所以 $DE\\parallel AO$，从而 $E$ 是 $OB$ 的中点，</p><p>$OE=1$，$DE=\\frac{AO}{2}=\\sqrt{3}$.</p><p>由 $OC\\perp$ 平面 $AOB$ 且 $OC=2$，得</p><p>$CE=\\sqrt{OC^{2}+OE^{2}}=\\sqrt{5}$. 又 $CE\\perp DE$，所以异面直线 $AO$ 与 $CD$ 所成的角等于 $\\angle CDE$，且</p>\n$$\n\\tan\\angle CDE=\\frac{CE}{DE}=\\sqrt{\\frac{5}{3}}=\\frac{\\sqrt{15}}{3}\n$$\n<p>故所求角为 $\\arctan\\dfrac{\\sqrt{15}}3$.</p></li><li><p>设 $H$ 是点 $O$ 到斜边 $AB$ 的垂足. 对任意 $D\\in AB$，直线 $CD$ 在平面 $AOB$ 上的射影为 $OD$，所以若其与平面 $AOB$ 所成角为 $\\alpha$，则</p>\n$$\n\\tan\\alpha=\\frac{OC}{OD}=\\frac{2}{OD}\n$$\n<p>当 $D=H$ 时，$OD$ 最小. 由直角三角形面积或射影定理，</p>\n$$\nOH=\\frac{AO\\cdot OB}{AB}=\\frac{2\\sqrt{3}\\cdot2}{4}=\\sqrt{3}\n$$\n<p>因此 $\\tan\\alpha$ 的最大值为 $\\dfrac2{\\sqrt{3}}=\\dfrac{2\\sqrt{3}}3$，所求最大角为 $\\arctan\\dfrac{2\\sqrt{3}}3$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "矩形 $ABCD$ 的两条对角线相交于点 $M(2,0)$，$AB$ 边所在直线的方程为 $x - 3y - 6 = 0$，点 $T(-1,1)$ 在 $AD$ 边所在直线上.\r\n\r\n\n(1) 求 $AD$ 边所在直线的方程.\n\n(2) 求矩形 $ABCD$ 外接圆的方程.\n\n(3) 若动圆 $P$ 过点 $N(-2,0)$，且与矩形 $ABCD$ 的外接圆外切，求动圆 $P$ 的圆心的轨迹方程.",
-          "choices": [],
+          "body": "<p>矩形 $ABCD$ 的两条对角线相交于点 $M(2,0)$，$AB$ 边所在直线的方程为 $x - 3y - 6 = 0$，点 $T(-1,1)$ 在 $AD$ 边所在直线上.</p><ol class=\"enumerate\"><li><p>求 $AD$ 边所在直线的方程.</p></li><li><p>求矩形 $ABCD$ 外接圆的方程.</p></li><li><p>若动圆 $P$ 过点 $N(-2,0)$，且与矩形 $ABCD$ 的外接圆外切，求动圆 $P$ 的圆心的轨迹方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 直线 $AB$ 的斜率为 $\\dfrac13$，而矩形相邻边垂直，所以直线 $AD$ 的斜率为 $-3$. 过 $T(-1,1)$ 得\r\n$y-1=-3(x+1)$，$3x+y+2=0$.\n\n(2) 点 $A$ 是直线 $AB$ 与 $AD$ 的交点. 联立\r\n$x-3y-6=0$ 与 $3x+y+2=0$，得 $A(0,-2)$. 矩形两条对角线交点 $M(2,0)$ 是外接圆圆心，且\r\n\n$$\nMA^2=(0-2)^2+(-2)^2=8\n$$\n\r\n所以外接圆方程为 $(x-2)^2+y^2=8$.\n\n(3) 设动圆圆心为 $P(x,y)$. 动圆过 $N(-2,0)$，半径为 $PN$；与圆心 $M(2,0)$、半径 $2\\sqrt2$ 的外接圆外切，所以\r\n$PM=PN+2\\sqrt2$，$PM-PN=2\\sqrt2$.\r\n这是以 $M$，$N$ 为焦点、焦距差为 $2\\sqrt2$ 的双曲线. 其焦点距为 $4$，故半长轴为 $\\sqrt2$，半短轴满足 $b^2=4-2=2$，轨迹所在双曲线为\r\n\n$$\n\\frac{x^2}{2}-\\frac{y^2}{2}=1\n$$\n\r\n由于 $PM>PN$，点 $P$ 在左支，故还需满足 $x\\le-\\sqrt2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>直线 $AB$ 的斜率为 $\\dfrac{1}{3}$，而矩形相邻边垂直，所以直线 $AD$ 的斜率为 $-3$. 过 $T(-1,1)$ 得</p><p>$y-1=-3(x+1)$，$3x+y+2=0$.</p></li><li><p>点 $A$ 是直线 $AB$ 与 $AD$ 的交点. 联立</p><p>$x-3y-6=0$ 与 $3x+y+2=0$，得 $A(0,-2)$. 矩形两条对角线交点 $M(2,0)$ 是外接圆圆心，且</p>\n$$\nMA^{2}=(0-2)^{2}+(-2)^{2}=8\n$$\n<p>所以外接圆方程为 $(x-2)^{2}+y^{2}=8$.</p></li><li><p>设动圆圆心为 $P(x,y)$. 动圆过 $N(-2,0)$，半径为 $PN$；与圆心 $M(2,0)$、半径 $2\\sqrt{2}$ 的外接圆外切，所以</p><p>$PM=PN+2\\sqrt{2}$，$PM-PN=2\\sqrt{2}$.</p><p>这是以 $M$，$N$ 为焦点、焦距差为 $2\\sqrt{2}$ 的双曲线. 其焦点距为 $4$，故半长轴为 $\\sqrt{2}$，半短轴满足 $b^{2}=4-2=2$，轨迹所在双曲线为</p>\n$$\n\\frac{x^{2}}{2}-\\frac{y^{2}}{2}=1\n$$\n<p>由于 $PM>PN$，点 $P$ 在左支，故还需满足 $x\\le-\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "某中学号召学生在今年春节期间至少参加一次社会公益活动（以下简称活动）. 该校合唱团共有 $100$ 名学生，他们参加活动的次数统计如图所示.\r\n\r\n\n(1) 求合唱团学生参加活动的人均次数.\n\n(2) 从合唱团中任意选两名学生，求他们参加活动次数恰好相等的概率.\n\n(3) 从合唱团中任选两名学生，用 $\\xi$ 表示选两人参加活动次数之差的绝对值，求随机变量 $\\xi$ 的分布列及数学期望 $E(\\xi)$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/beijing_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>某中学号召学生在今年春节期间至少参加一次社会公益活动（以下简称活动）. 该校合唱团共有 $100$ 名学生，他们参加活动的次数统计如图所示.</p><ol class=\"enumerate\"><li><p>求合唱团学生参加活动的人均次数.</p></li><li><p>从合唱团中任意选两名学生，求他们参加活动次数恰好相等的概率.</p></li><li><p>从合唱团中任选两名学生，用 $\\xi$ 表示选两人参加活动次数之差的绝对值，求随机变量 $\\xi$ 的分布列及数学期望 $E(\\xi)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由图可知参加 1 次、2 次、3 次活动的学生人数分别为 $10$，$50$，$40$，所以人均次数为\r\n\n$$\n\\frac{1\\cdot10+2\\cdot50+3\\cdot40}{100}=\\frac{230}{100}=2.3\n$$\n\n(2) 从 100 名学生中任意选 2 名，样本总数为 $\\mathrm C_{100}^{2}=4950$. 两人的次数相等的选法数为\r\n$\\mathrm C_{10}^{2}+\\mathrm C_{50}^{2}+\\mathrm C_{40}^{2}=45+1225+780=2050$，故所求概率为\r\n\n$$\n\\frac{2050}{4950}=\\frac{41}{99}\n$$\n\n(3) 两人次数之差的绝对值只能取 $0$，$1$，$2$. 于是\r\n\n$$\nP(\\xi=0)=\\frac{\\mathrm C_{10}^{2}+\\mathrm C_{50}^{2}+\\mathrm C_{40}^{2}}{\\mathrm C_{100}^{2}}=\\frac{41}{99}\n$$\n\r\n$P(\\xi=1)=\\frac{10\\cdot50+50\\cdot40}{\\mathrm C_{100}^{2}}=\\frac{50}{99}$，$P(\\xi=2)=\\frac{10\\cdot40}{\\mathrm C_{100}^{2}}=\\frac8{99}$.\r\n分布列为\r\n\n$$\n\\begin{tabular}{c|ccc}\r\n$\\xi$&$0$&$1$&$2$\\\\ \\hline\r\n$P$&$\\dfrac{41}{99}$&$\\dfrac{50}{99}$&$\\dfrac8{99}$\r\n\\end{tabular}\n$$\n\r\n数学期望为\r\n\n$$\nE(\\xi)=0\\cdot\\frac{41}{99}+1\\cdot\\frac{50}{99}+2\\cdot\\frac8{99}=\\frac{66}{99}=\\frac23\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由图可知参加 1 次、2 次、3 次活动的学生人数分别为 $10$，$50$，$40$，所以人均次数为</p>\n$$\n\\frac{1\\cdot10+2\\cdot50+3\\cdot40}{100}=\\frac{230}{100}=2.3\n$$\n</li><li><p>从 100 名学生中任意选 2 名，样本总数为 $\\mathrm{C}_{100}^{2}=4950$. 两人的次数相等的选法数为</p><p>$\\mathrm{C}_{10}^{2}+\\mathrm{C}_{50}^{2}+\\mathrm{C}_{40}^{2}=45+1225+780=2050$，故所求概率为</p>\n$$\n\\frac{2050}{4950}=\\frac{41}{99}\n$$\n</li><li><p>两人次数之差的绝对值只能取 $0$，$1$，$2$. 于是</p>\n$$\nP(\\xi=0)=\\frac{\\mathrm{C}_{10}^{2}+\\mathrm{C}_{50}^{2}+\\mathrm{C}_{40}^{2}}{\\mathrm{C}_{100}^{2}}=\\frac{41}{99}\n$$\n<p>$P(\\xi=1)=\\frac{10\\cdot50+50\\cdot40}{\\mathrm{C}_{100}^{2}}=\\frac{50}{99}$，$P(\\xi=2)=\\frac{10\\cdot40}{\\mathrm{C}_{100}^{2}}=\\frac{8}{99}$.</p><p>分布列为</p>\n$$\n\\begin{tabular}{c|ccc}$\\xi$&#x26;$0$&#x26;$1$&#x26;$2$\\\\ \\hline\n\n$P$&#x26;$\\dfrac{41}{99}$&#x26;$\\dfrac{50}{99}$&#x26;$\\dfrac8{99}$\\end{tabular}\n$$\n<p>数学期望为</p>\n$$\nE(\\xi)=0\\cdot\\frac{41}{99}+1\\cdot\\frac{50}{99}+2\\cdot\\frac{8}{99}=\\frac{66}{99}=\\frac{2}{3}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，有一块半椭圆形钢板，其长半轴长为 $2r$，短半轴长为 $r$. 计划将此钢板切割成等腰梯形的形状，下底 $AB$ 是半椭圆的短轴，上底 $CD$ 的端点在椭圆上，记 $CD = 2x$，梯形面积为 $S$.\r\n\r\n\n(1) 求面积 $S$ 以 $x$ 为自变量的函数式，并写出其定义域.\n\n(2) 求面积 $S$ 的最大值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/beijing_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，有一块半椭圆形钢板，其长半轴长为 $2r$，短半轴长为 $r$. 计划将此钢板切割成等腰梯形的形状，下底 $AB$ 是半椭圆的短轴，上底 $CD$ 的端点在椭圆上，记 $CD = 2x$，梯形面积为 $S$.</p><ol class=\"enumerate\"><li><p>求面积 $S$ 以 $x$ 为自变量的函数式，并写出其定义域.</p></li><li><p>求面积 $S$ 的最大值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取半椭圆短轴所在直线为 $x$ 轴，椭圆中心为原点，且取上半椭圆，则椭圆方程为\r\n$\\dfrac{x^2}{r^2}+\\dfrac{y^2}{4r^2}=1$. 由于 $CD=2x$，其两个端点的横坐标为 $-x$、$x$，纵坐标均为 $2\\sqrt{r^2-x^2}$，而 $AB=2r$. 所以梯形高为 $2\\sqrt{r^2-x^2}$，面积为\r\n\n$$\nS=\\frac{(2r+2x)\\sqrt{r^2-x^2}}2=2(r+x)\\sqrt{r^2-x^2}\n$$\n\r\n为得到非退化梯形，$0<x<r$，这就是定义域.\n\n(2) 在定义域内求导，\r\n\n$$\nS'(x)=2\\frac{r^2-rx-2x^2}{\\sqrt{r^2-x^2}}\r\n=2\\frac{(r-2x)(r+x)}{\\sqrt{r^2-x^2}}\n$$\n\r\n因为 $r+x>0$，所以当 $0<x<\\dfrac r2$ 时 $S'(x)>0$，当 $\\dfrac r2<x<r$ 时 $S'(x)<0$. 因而 $x=\\dfrac r2$ 时面积取得最大值，\r\n\n$$\nS_{\\max}=2\\left(r+\\frac r2\\right)\\sqrt{r^2-\\frac{r^2}{4}}\r\n=\\frac{3\\sqrt3}{2}r^2\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取半椭圆短轴所在直线为 $x$ 轴，椭圆中心为原点，且取上半椭圆，则椭圆方程为</p><p>$\\dfrac{x^2}{r^2}+\\dfrac{y^2}{4r^2}=1$. 由于 $CD=2x$，其两个端点的横坐标为 $-x$、$x$，纵坐标均为 $2\\sqrt{r^{2}-x^{2}}$，而 $AB=2r$. 所以梯形高为 $2\\sqrt{r^{2}-x^{2}}$，面积为</p>\n$$\nS=\\frac{(2r+2x)\\sqrt{r^2-x^2}}{2}=2(r+x)\\sqrt{r^{2}-x^{2}}\n$$\n<p>为得到非退化梯形，$0&#x3C;x&#x3C;r$，这就是定义域.</p></li><li><p>在定义域内求导，</p>\n$$\nS'(x)=2\\frac{r^{2}-rx-2x^{2}}{\\sqrt{r^{2}-x^{2}}}=2\\frac{(r-2x)(r+x)}{\\sqrt{r^{2}-x^{2}}}\n$$\n<p>因为 $r+x>0$，所以当 $0&#x3C;x&#x3C;\\dfrac{r}{2}$ 时 $S'(x)>0$，当 $\\dfrac{r}{2}&#x3C;x&#x3C;r$ 时 $S'(x)&#x3C;0$. 因而 $x=\\dfrac{r}{2}$ 时面积取得最大值，</p>\n$$\nS_{\\max}=2\\left(r+\\frac{r}{2}\\right)\\sqrt{r^{2}-\\frac{r^2}{4}}=\\frac{3\\sqrt{3}}{2}r^{2}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "已知集合 $A = \\{a_{1}, a_{2}, \\cdots, a_{k}\\}$（$k \\ge 2$），其中 $a_{i} \\in \\mathbb{Z}$（$i = 1$，$2$，$\\cdots$，$k$）. 由 $A$ 中的元素构成两个相应的集合：$S = \\{(a, b) \\mid a \\in A, b \\in A, a + b \\in A\\}$；$T = \\{(a, b) \\mid a \\in A, b \\in A, a - b \\in A\\}$，其中 $(a, b)$ 是有序数对，集合 $S$ 和 $T$ 中的元素个数分别为 $m$ 和 $n$. 若对于任意的 $a \\in A$，总有 $-a \\notin A$，则称集合 $A$ 具有性质 $P$.\r\n\r\n\n(1) 检验集合 $\\{0, 1, 2, 3\\}$ 与 $\\{-1, 2, 3\\}$ 是否具有性质 $P$，并对其中具有性质 $P$ 的集合，写出相应的集合 $S$ 和 $T$.\n\n(2) 对任何具有性质 $P$ 的集合 $A$，证明：$n \\le \\frac{k(k - 1)}{2}$.\n\n(3) 判断 $m$ 和 $n$ 的大小关系，并证明你的结论.",
-          "choices": [],
+          "body": "<p>已知集合 $A = \\{a_{1}, a_{2}, \\cdots, a_{k}\\}$（$k \\ge 2$），其中 $a_{i}\\in \\mathbb{Z}$（$i = 1$，$2$，$\\cdots$，$k$）. 由 $A$ 中的元素构成两个相应的集合：$S = \\{(a, b) \\mid a \\in A, b \\in A, a + b \\in A\\}$；$T = \\{(a, b) \\mid a \\in A, b \\in A, a - b \\in A\\}$，其中 $(a, b)$ 是有序数对，集合 $S$ 和 $T$ 中的元素个数分别为 $m$ 和 $n$. 若对于任意的 $a \\in A$，总有 $-a \\notin A$，则称集合 $A$ 具有性质 $P$.</p><ol class=\"enumerate\"><li><p>检验集合 $\\{0, 1, 2, 3\\}$ 与 $\\{-1, 2, 3\\}$ 是否具有性质 $P$，并对其中具有性质 $P$ 的集合，写出相应的集合 $S$ 和 $T$.</p></li><li><p>对任何具有性质 $P$ 的集合 $A$，证明：$n \\le \\frac{k(k - 1)}{2}$.</p></li><li><p>判断 $m$ 和 $n$ 的大小关系，并证明你的结论.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 集合 $\\{0,1,2,3\\}$ 中有 $0$，而 $-0=0$ 仍在集合中，所以它不具有性质 $P$. 对集合 $A=\\{-1,2,3\\}$，$-(-1)=1$、$-2=-2$、$-3=-3$ 均不在 $A$ 中，因此它具有性质 $P$.\r\n\r\n对该集合逐项检验和与差，得到\r\n$S=\\{(-1,3),(3,-1)\\}$，$T=\\{(2,-1),(2,3)\\}$.\n\n(2) 对任意 $(a,b)\\in T$，有 $a-b\\in A$. 若 $a=b$，则 $0\\in A$，这与性质 $P$ 矛盾，所以 $a\\ne b$. 又不可能同时有 $(a,b)\\in T$ 和 $(b,a)\\in T$，因为这将导致 $a-b$ 与 $b-a=-(a-b)$ 同时属于 $A$，也与性质 $P$ 矛盾.\r\n\r\n因此每一对不同元素至多贡献一个有序数对，故\r\n\n$$\nn\\le\\mathrm C_k^2=\\frac{k(k-1)}2\n$$\n\n(3) 定义映射 $\\varphi:S\\to T$，$\\varphi(a,b)=(a+b,b)$. 若 $(a,b)\\in S$，则 $a+b\\in A$、$b\\in A$，且 $(a+b)-b=a\\in A$，所以 $\\varphi(a,b)\\in T$.\r\n\r\n反之，定义 $\\psi:T\\to S$，$\\psi(c,d)=(c-d,d)$. 若 $(c,d)\\in T$，则 $c-d\\in A$、$d\\in A$，并且 $(c-d)+d=c\\in A$，所以 $\\psi(c,d)\\in S$. 显然 $\\psi$ 与 $\\varphi$ 互为逆映射，因此 $S$ 与 $T$ 等势，得到 $m=n$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>集合 $\\{0,1,2,3\\}$ 中有 $0$，而 $-0=0$ 仍在集合中，所以它不具有性质 $P$. 对集合 $A=\\{-1,2,3\\}$，$-(-1)=1$、$-2=-2$、$-3=-3$ 均不在 $A$ 中，因此它具有性质 $P$.</p><p>对该集合逐项检验和与差，得到</p><p>$S=\\{(-1,3),(3,-1)\\}$，$T=\\{(2,-1),(2,3)\\}$.</p></li><li><p>对任意 $(a,b)\\in T$，有 $a-b\\in A$. 若 $a=b$，则 $0\\in A$，这与性质 $P$ 矛盾，所以 $a\\ne b$. 又不可能同时有 $(a,b)\\in T$ 和 $(b,a)\\in T$，因为这将导致 $a-b$ 与 $b-a=-(a-b)$ 同时属于 $A$，也与性质 $P$ 矛盾.</p><p>因此每一对不同元素至多贡献一个有序数对，故</p>\n$$\nn\\le\\mathrm{C}_{k}^{2}=\\frac{k(k-1)}{2}\n$$\n</li><li><p>定义映射 $\\varphi:S\\to T$，$\\varphi(a,b)=(a+b,b)$. 若 $(a,b)\\in S$，则 $a+b\\in A$、$b\\in A$，且 $(a+b)-b=a\\in A$，所以 $\\varphi(a,b)\\in T$.</p><p>反之，定义 $\\psi:T\\to S$，$\\psi(c,d)=(c-d,d)$. 若 $(c,d)\\in T$，则 $c-d\\in A$、$d\\in A$，并且 $(c-d)+d=c\\in A$，所以 $\\psi(c,d)\\in S$. 显然 $\\psi$ 与 $\\varphi$ 互为逆映射，因此 $S$ 与 $T$ 等势，得到 $m=n$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

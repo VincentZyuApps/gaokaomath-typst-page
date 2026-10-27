@@ -1,248 +1,95 @@
 {
+  "title": "2018年普通高等学校招生全国统一考试",
+  "subtitle": "2018年上海卷（秋）",
   "year": "2018",
   "slug": "shanghai",
-  "title": "2018年上海卷（秋）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "行列式 $\\begin{vmatrix}4 & 1\\\\2 & 5\\end{vmatrix}$ 的值为 _______ {}.",
-          "choices": [],
+          "body": "行列式 $\\begin{vmatrix}4 &#x26; 1\\\\2 &#x26; 5\\end{vmatrix}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "18",
-          "solution": "二阶行列式的值为主对角线元素乘积减去副对角线元素乘积，因此\r\n$\\begin{vmatrix}4 & 1\\\\2 & 5\\end{vmatrix}=4\\times5-1\\times2=18$. 所以填 $18$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>二阶行列式的值为主对角线元素乘积减去副对角线元素乘积，因此</p><p>$\\begin{vmatrix}4 &#x26; 1\\\\2 &#x26; 5\\end{vmatrix}=4\\times5-1\\times2=18$. 所以填 $18$.</p>"
         },
         {
           "num": 2,
-          "body": "双曲线 $\\frac{x^2}{4}-y^2=1$ 的渐近线方程为 _______ {}.",
-          "choices": [],
-          "answer": "\\(y=\\pm\\frac{x}{2}\\)",
-          "solution": "双曲线的标准方程为 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$，其渐近线为 $y=\\pm\\frac{b}{a}x$. 题中 $a=2$，$b=1$，所以渐近线方程为 $y=\\pm\\frac{x}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "双曲线 $\\frac{x^{2}}{4}-y^{2}=1$ 的渐近线方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$y=\\pm\\frac{x}{2}$",
+          "solution": "双曲线的标准方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其渐近线为 $y=\\pm\\frac{b}{a}x$. 题中 $a=2$，$b=1$，所以渐近线方程为 $y=\\pm\\frac{x}{2}$."
         },
         {
           "num": 3,
-          "body": "在 $(1+x)^7$ 的二项展开式中，$x^2$ 项的系数为 _______ {}. （结果用数值表示）",
-          "choices": [],
+          "body": "在 $(1+x)^{7}$ 的二项展开式中，$x^{2}$ 项的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （结果用数值表示）",
+          "choices": null,
           "answer": "21",
-          "solution": "由二项式定理，$(1+x)^7=\\sum_{k=0}^{7}\\mathrm C_7^k x^k$. 取 $k=2$ 时得到 $x^2$ 项，其系数为 $\\mathrm C_7^2=\\frac{7\\times6}{2\\times1}=21$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由二项式定理，$(1+x)^{7}=\\sum_{k=0}^{7}\\mathrm{C}_{7}^{k} x^{k}$. 取 $k=2$ 时得到 $x^{2}$ 项，其系数为 $\\mathrm{C}_{7}^{2}=\\frac{7\\times6}{2\\times1}=21$."
         },
         {
           "num": 4,
-          "body": "设常数 $a\\in\\mathbb{R}$，函数 $f(x)=\\log_2(x+a)$. 若 $f(x)$ 的反函数的图像经过点 $(3,1)$，则 $a=$ _______ {}.",
-          "choices": [],
+          "body": "设常数 $a\\in\\mathbb{R}$，函数 $f(x)=\\log_{2}(x+a)$. 若 $f(x)$ 的反函数的图像经过点 $(3,1)$，则 $a=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "7",
-          "solution": "反函数的图像与原函数图像关于直线 $y=x$ 对称，所以反函数图像经过 $(3,1)$ 等价于原函数图像经过 $(1,3)$. 因而 $\\log_2(1+a)=3$，得 $1+a=2^3=8$，所以 $a=7$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "反函数的图像与原函数图像关于直线 $y=x$ 对称，所以反函数图像经过 $(3,1)$ 等价于原函数图像经过 $(1,3)$. 因而 $\\log_{2}(1+a)=3$，得 $1+a=2^{3}=8$，所以 $a=7$."
         },
         {
           "num": 5,
-          "body": "已知复数 $z$ 满足 $(1+\\mathrm{i})z=1-7\\mathrm{i}$（$\\mathrm{i}$ 是虚数单位），则 $\\lvert z\\rvert=$ _______ {}.",
-          "choices": [],
+          "body": "已知复数 $z$ 满足 $(1+\\mathrm{i})z=1-7\\mathrm{i}$（$\\mathrm{i}$ 是虚数单位），则 $\\lvert z\\rvert=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "5",
-          "solution": "由复数模的乘法性质，$\\lvert1+\\mathrm{i}\\rvert\\lvert z\\rvert=\\lvert1-7\\mathrm{i}\\rvert$. 因此 $\\lvert z\\rvert=\\frac{\\sqrt{1^2+7^2}}{\\sqrt{1^2+1^2}}=\\frac{\\sqrt{50}}{\\sqrt2}=5$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由复数模的乘法性质，$\\lvert1+\\mathrm{i}\\rvert\\lvert z\\rvert=\\lvert1-7\\mathrm{i}\\rvert$. 因此 $\\lvert z\\rvert=\\frac{\\sqrt{1^{2}+7^{2}}}{\\sqrt{1^{2}+1^{2}}}=\\frac{\\sqrt{50}}{\\sqrt{2}}=5$."
         },
         {
           "num": 6,
-          "body": "记等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，若 $a_3=0$，$a_6+a_7=14$，则 $S_7=$ _______ {}.",
-          "choices": [],
+          "body": "记等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，若 $a_{3}=0$，$a_{6}+a_{7}=14$，则 $S_{7}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "14",
-          "solution": "设等差数列的公差为 $d$. 由 $a_3=0$，有 $a_1=-2d$，从而 $a_6=3d$，$a_7=4d$. 由 $a_6+a_7=14$ 得 $7d=14$，所以 $d=2$. 因此 $a_1=-4$，$a_7=8$，$S_7=\\frac{7(a_1+a_7)}2=\\frac{7(-4+8)}2=14$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设等差数列的公差为 $d$. 由 $a_{3}=0$，有 $a_{1}=-2d$，从而 $a_{6}=3d$，$a_{7}=4d$. 由 $a_{6}+a_{7}=14$ 得 $7d=14$，所以 $d=2$. 因此 $a_{1}=-4$，$a_{7}=8$，$S_{7}=\\frac{7(a_{1}+a_{7})}{2}=\\frac{7(-4+8)}{2}=14$."
         },
         {
           "num": 7,
-          "body": "已知 $\\alpha\\in\\{-2,-1,-\\frac12,\\frac12,1,2,3\\}$. 若幂函数 $f(x)=x^\\alpha$ 为奇函数，且在 $(0,+\\infty)$ 上递减，则 $\\alpha=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-1\\)",
-          "solution": "在给出的候选值中，$\\alpha=-2$ 和 $\\alpha=2$ 对应偶函数，$\\alpha=-\\frac12$ 与 $\\alpha=\\frac12$ 不能在整个实数范围上构成奇函数；$\\alpha=1$ 与 $\\alpha=3$ 虽为奇函数，但在正半轴上递增. 只有 $\\alpha=-1$ 既使 $f(x)=x^{-1}$ 为奇函数，又满足在 $(0,+\\infty)$ 上 $f'(x)=-x^{-2}<0$. 所以 $\\alpha=-1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\alpha\\in\\{-2,-1,-\\frac{1}{2},\\frac{1}{2},1,2,3\\}$. 若幂函数 $f(x)=x^{\\alpha}$ 为奇函数，且在 $(0,+\\infty)$ 上递减，则 $\\alpha=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-1$",
+          "solution": "在给出的候选值中，$\\alpha=-2$ 和 $\\alpha=2$ 对应偶函数，$\\alpha=-\\frac{1}{2}$ 与 $\\alpha=\\frac{1}{2}$ 不能在整个实数范围上构成奇函数；$\\alpha=1$ 与 $\\alpha=3$ 虽为奇函数，但在正半轴上递增. 只有 $\\alpha=-1$ 既使 $f(x)=x^{-1}$ 为奇函数，又满足在 $(0,+\\infty)$ 上 $f'(x)=-x^{-2}&#x3C;0$. 所以 $\\alpha=-1$."
         },
         {
           "num": 8,
-          "body": "在平面直角坐标系中，已知点 $A(-1,0)$，$B(2,0)$，$E$，$F$ 是 $y$ 轴上的两个动点，且 $\\lvert\\overrightarrow{EF}\\rvert=2$，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{BF}$ 的最小值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(-3\\)",
-          "solution": "设 $E=(0,u)$，$F=(0,v)$. 则 $\\lvert u-v\\rvert=2$，且 $\\overrightarrow{AE}=(1,u)$，$\\overrightarrow{BF}=(-2,v)$. 因此 $\\overrightarrow{AE}\\cdot\\overrightarrow{BF}=-2+uv$. 由 $u=v\\pm2$，有 $uv=v(v\\pm2)=(v\\pm1)^2-1\\ge-1$，故 $\\overrightarrow{AE}\\cdot\\overrightarrow{BF}\\ge-3$. 当 $(u,v)=(-1,1)$ 或 $(1,-1)$ 时等号成立，所以最小值为 $-3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在平面直角坐标系中，已知点 $A(-1,0)$，$B(2,0)$，$E$，$F$ 是 $y$ 轴上的两个动点，且 $\\lvert\\overrightarrow{EF}\\rvert=2$，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{BF}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-3$",
+          "solution": "设 $E=(0,u)$，$F=(0,v)$. 则 $\\lvert u-v\\rvert=2$，且 $\\overrightarrow{AE}=(1,u)$，$\\overrightarrow{BF}=(-2,v)$. 因此 $\\overrightarrow{AE}\\cdot\\overrightarrow{BF}=-2+uv$. 由 $u=v\\pm2$，有 $uv=v(v\\pm2)=(v\\pm1)^{2}-1\\ge-1$，故 $\\overrightarrow{AE}\\cdot\\overrightarrow{BF}\\ge-3$. 当 $(u,v)=(-1,1)$ 或 $(1,-1)$ 时等号成立，所以最小值为 $-3$."
         },
         {
           "num": 9,
-          "body": "有编号互不相同的五个砝码，其中 $5$ 克，$3$ 克，$1$ 克砝码各一个，$2$ 克砝码两个. 从中随机选取三个，则这三个砝码的总质量为 $9$ 克的概率是 _______ {}. （结果用最简分数表示）",
-          "choices": [],
-          "answer": "\\(\\frac15\\)",
-          "solution": "五个砝码编号互不相同，所以随机选取三个共有 $\\mathrm C_5^3=10$ 种等可能结果. 总质量为 $9$ 克的情况有两种：选取 $5$，$3$，$1$ 克砝码，或选取 $5$ 克砝码和编号不同的两个 $2$ 克砝码. 因此有 $2$ 种有利结果，所求概率为 $\\frac{2}{10}=\\frac15$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "有编号互不相同的五个砝码，其中 $5$ 克，$3$ 克，$1$ 克砝码各一个，$2$ 克砝码两个. 从中随机选取三个，则这三个砝码的总质量为 $9$ 克的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （结果用最简分数表示）",
+          "choices": null,
+          "answer": "$\\frac{1}{5}$",
+          "solution": "五个砝码编号互不相同，所以随机选取三个共有 $\\mathrm{C}_{5}^{3}=10$ 种等可能结果. 总质量为 $9$ 克的情况有两种：选取 $5$，$3$，$1$ 克砝码，或选取 $5$ 克砝码和编号不同的两个 $2$ 克砝码. 因此有 $2$ 种有利结果，所求概率为 $\\frac{2}{10}=\\frac{1}{5}$."
         },
         {
           "num": 10,
-          "body": "设等比数列 $\\{a_n\\}$ 的通项公式为 $a_n=q^{n-1}$（$n\\in\\mathbb{N}^*$），前 $n$ 项和为 $S_n$. 若 $\\displaystyle\\lim_{n\\to\\infty}\\frac{S_n}{a_{n+1}}=\\frac12$，则 $q=$ _______ {}.",
-          "choices": [],
+          "body": "设等比数列 $\\{a_{n}\\}$ 的通项公式为 $a_{n}=q^{n-1}$（$n\\in\\mathbb{N}^{*}$），前 $n$ 项和为 $S_{n}$. 若 $\\displaystyle\\lim_{n\\to\\infty}\\frac{S_{n}}{a_{n+1}}=\\frac{1}{2}$，则 $q=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "3",
-          "solution": "若 $\\lvert q\\rvert>1$，则 $q\\ne1$，且\r\n$\\frac{S_n}{a_{n+1}}=\\frac{1+q+\\cdots+q^{n-1}}{q^n}=\\frac{1-q^{-n}}{q-1}\\to\\frac1{q-1}$. 题设极限为 $\\frac12$，所以 $\\frac1{q-1}=\\frac12$，得 $q=3$. 另一方面，$q=1$ 时该比值为 $n$，$0<\\lvert q\\rvert<1$ 时分子趋于非零常数而分母趋于零，$q=-1$ 时比值也无此极限，均不符合题设. 因此 $q=3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若 $\\lvert q\\rvert>1$，则 $q\\ne1$，且</p><p>$\\frac{S_{n}}{a_{n+1}}=\\frac{1+q+\\cdots+q^{n-1}}{q^{n}}=\\frac{1-q^{-n}}{q-1}\\to\\frac{1}{q-1}$. 题设极限为 $\\frac{1}{2}$，所以 $\\frac{1}{q-1}=\\frac{1}{2}$，得 $q=3$. 另一方面，$q=1$ 时该比值为 $n$，$0&#x3C;\\lvert q\\rvert&#x3C;1$ 时分子趋于非零常数而分母趋于零，$q=-1$ 时比值也无此极限，均不符合题设. 因此 $q=3$.</p>"
         },
         {
           "num": 11,
-          "body": "已知常数 $a>0$，函数 $f(x)=\\frac{2^x}{2^x+ax}$ 的图像经过点 $P\\left(p,\\frac65\\right)$，$Q\\left(q,-\\frac15\\right)$. 若 $2^{p+q}=36pq$，则 $a=$ _______ {}.",
-          "choices": [],
+          "body": "已知常数 $a>0$，函数 $f(x)=\\frac{2^{x}}{2^{x}+ax}$ 的图像经过点 $P\\left(p,\\frac{6}{5}\\right)$，$Q\\left(q,-\\frac{1}{5}\\right)$. 若 $2^{p+q}=36pq$，则 $a=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "6",
-          "solution": "由 $f(p)=\\frac65$ 得 $\\frac{2^p+ap}{2^p}=\\frac56$，所以 $\\frac{ap}{2^p}=-\\frac16$，即 $2^p=-6ap$. 由 $f(q)=-\\frac15$ 得 $\\frac{2^q+aq}{2^q}=-5$，所以 $\\frac{aq}{2^q}=-6$，即 $2^q=-\\frac{aq}{6}$. 于是 $p<0$，$q<0$，从而 $pq\\ne0$，并且\r\n$2^{p+q}=2^p2^q=(-6ap)\\left(-\\frac{aq}{6}\\right)=a^2pq$. 结合题设 $2^{p+q}=36pq$，得 $a^2=36$. 因为 $a>0$，所以 $a=6$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $f(p)=\\frac{6}{5}$ 得 $\\frac{2^{p}+ap}{2^{p}}=\\frac{5}{6}$，所以 $\\frac{ap}{2^{p}}=-\\frac{1}{6}$，即 $2^{p}=-6ap$. 由 $f(q)=-\\frac{1}{5}$ 得 $\\frac{2^{q}+aq}{2^{q}}=-5$，所以 $\\frac{aq}{2^{q}}=-6$，即 $2^{q}=-\\frac{aq}{6}$. 于是 $p&#x3C;0$，$q&#x3C;0$，从而 $pq\\ne0$，并且</p><p>$2^{p+q}=2^{p}2^{q}=(-6ap)\\left(-\\frac{aq}{6}\\right)=a^{2}pq$. 结合题设 $2^{p+q}=36pq$，得 $a^{2}=36$. 因为 $a>0$，所以 $a=6$.</p>"
         },
         {
           "num": 12,
-          "body": "已知实数 $x_1$，$x_2$，$y_1$，$y_2$ 满足：$x_1^2+y_1^2=1$，$x_2^2+y_2^2=1$，$x_1x_2+y_1y_2=\\frac12$，则 $\\frac{\\lvert x_1+y_1-1\\rvert}{\\sqrt2}+\\frac{\\lvert x_2+y_2-1\\rvert}{\\sqrt2}$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt2+\\sqrt3\\)",
-          "solution": "记 $\\mathbf{u}_i=(x_i,y_i)$，$\\mathbf{e}=\\frac{(1,1)}{\\sqrt2}$，并令 $t_i=\\mathbf{u}_i\\cdot\\mathbf{e}=\\frac{x_i+y_i}{\\sqrt2}$，$c=\\frac1{\\sqrt2}$. 题设说明 $\\lvert\\mathbf{u}_1\\rvert=\\lvert\\mathbf{u}_2\\rvert=1$，$\\mathbf{u}_1\\cdot\\mathbf{u}_2=\\frac12$，所以\r\n$\\lvert\\mathbf{u}_1+\\mathbf{u}_2\\rvert=\\sqrt3$，$\\lvert\\mathbf{u}_1-\\mathbf{u}_2\\rvert=1$. 令 $A=\\frac{t_1+t_2}{2}$，$B=\\frac{t_1-t_2}{2}$，则由恒等式 $\\lvert U+V\\rvert+\\lvert U-V\\rvert=2\\max\\{\\lvert U\\rvert,\\lvert V\\rvert\\}$ 得\r\n$\\lvert t_1-c\\rvert+\\lvert t_2-c\\rvert=2\\max\\{\\lvert A-c\\rvert,\\lvert B\\rvert\\}$.\r\n\r\n又由柯西不等式，$\\lvert A\\rvert\\le\\frac{\\sqrt3}{2}$，$\\lvert B\\rvert\\le\\frac12$，故 $\\lvert A-c\\rvert\\le\\frac{\\sqrt3}{2}+\\frac1{\\sqrt2}$，且 $\\lvert B\\rvert\\le\\frac12<\\frac{\\sqrt3}{2}+\\frac1{\\sqrt2}$. 因此原式不超过 $2\\left(\\frac{\\sqrt3}{2}+\\frac1{\\sqrt2}\\right)=\\sqrt3+\\sqrt2$.\r\n\r\n取 $\\mathbf{m}=\\frac{(-1,1)}{\\sqrt2}$，$\\mathbf{u}_1=-\\frac{\\sqrt3}{2}\\mathbf{e}+\\frac12\\mathbf{m}$，$\\mathbf{u}_2=-\\frac{\\sqrt3}{2}\\mathbf{e}-\\frac12\\mathbf{m}$，则两向量的模均为 $1$，点积为 $\\frac12$，并且 $t_1=t_2=-\\frac{\\sqrt3}{2}$，原式取得 $\\sqrt3+\\sqrt2$. 所以最大值为 $\\sqrt2+\\sqrt3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知实数 $x_{1}$，$x_{2}$，$y_{1}$，$y_{2}$ 满足：$x_{1}^{2}+y_{1}^{2}=1$，$x_{2}^{2}+y_{2}^{2}=1$，$x_{1}x_{2}+y_{1}y_{2}=\\frac{1}{2}$，则 $\\frac{\\lvert x_{1}+y_{1}-1\\rvert}{\\sqrt{2}}+\\frac{\\lvert x_{2}+y_{2}-1\\rvert}{\\sqrt{2}}$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{2}+\\sqrt{3}$",
+          "solution": "<p>记 $\\mathbf{u}_{i}=(x_{i},y_{i})$，$\\mathbf{e}=\\frac{(1,1)}{\\sqrt{2}}$，并令 $t_{i}=\\mathbf{u}_{i}\\cdot\\mathbf{e}=\\frac{x_{i}+y_{i}}{\\sqrt{2}}$，$c=\\frac{1}{\\sqrt{2}}$. 题设说明 $\\lvert\\mathbf{u}_{1}\\rvert=\\lvert\\mathbf{u}_{2}\\rvert=1$，$\\mathbf{u}_{1}\\cdot\\mathbf{u}_{2}=\\frac{1}{2}$，所以</p><p>$\\lvert\\mathbf{u}_{1}+\\mathbf{u}_{2}\\rvert=\\sqrt{3}$，$\\lvert\\mathbf{u}_{1}-\\mathbf{u}_{2}\\rvert=1$. 令 $A=\\frac{t_{1}+t_{2}}{2}$，$B=\\frac{t_{1}-t_{2}}{2}$，则由恒等式 $\\lvert U+V\\rvert+\\lvert U-V\\rvert=2\\max\\{\\lvert U\\rvert,\\lvert V\\rvert\\}$ 得</p><p>$\\lvert t_{1}-c\\rvert+\\lvert t_{2}-c\\rvert=2\\max\\{\\lvert A-c\\rvert,\\lvert B\\rvert\\}$.</p><p>又由柯西不等式，$\\lvert A\\rvert\\le\\frac{\\sqrt{3}}{2}$，$\\lvert B\\rvert\\le\\frac{1}{2}$，故 $\\lvert A-c\\rvert\\le\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}$，且 $\\lvert B\\rvert\\le\\frac{1}{2}&#x3C;\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}$. 因此原式不超过 $2\\left(\\frac{\\sqrt{3}}{2}+\\frac{1}{\\sqrt{2}}\\right)=\\sqrt{3}+\\sqrt{2}$.</p><p>取 $\\mathbf{m}=\\frac{(-1,1)}{\\sqrt{2}}$，$\\mathbf{u}_{1}=-\\frac{\\sqrt{3}}{2}\\mathbf{e}+\\frac{1}{2}\\mathbf{m}$，$\\mathbf{u}_{2}=-\\frac{\\sqrt{3}}{2}\\mathbf{e}-\\frac{1}{2}\\mathbf{m}$，则两向量的模均为 $1$，点积为 $\\frac{1}{2}$，并且 $t_{1}=t_{2}=-\\frac{\\sqrt{3}}{2}$，原式取得 $\\sqrt{3}+\\sqrt{2}$. 所以最大值为 $\\sqrt{2}+\\sqrt{3}$.</p>"
         }
       ]
     },
@@ -251,21 +98,19 @@
       "problems": [
         {
           "num": 13,
-          "body": "设 $P$ 是椭圆 $\\frac{x^2}{5}+\\frac{y^2}{3}=1$ 上的动点，则 $P$ 到该椭圆的两个焦点的距离之和为（ ）",
+          "body": "设 $P$ 是椭圆 $\\frac{x^{2}}{5}+\\frac{y^{2}}{3}=1$ 上的动点，则 $P$ 到该椭圆的两个焦点的距离之和为（ ）",
           "choices": [
-            "$2\\sqrt2$",
-            "$2\\sqrt3$",
-            "$2\\sqrt5$",
-            "$4\\sqrt2$"
+            "$2\\sqrt{2}$",
+            "$2\\sqrt{3}$",
+            "$2\\sqrt{5}$",
+            "$4\\sqrt{2}$"
           ],
           "answer": "C",
-          "solution": "椭圆的标准方程中 $a^2=5$，故长半轴长为 $a=\\sqrt5$. 根据椭圆定义，椭圆上任一点到两个焦点的距离之和恒为 $2a=2\\sqrt5$. 所以选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "椭圆的标准方程中 $a^{2}=5$，故长半轴长为 $a=\\sqrt{5}$. 根据椭圆定义，椭圆上任一点到两个焦点的距离之和恒为 $2a=2\\sqrt{5}$. 所以选 C."
         },
         {
           "num": 14,
-          "body": "已知 $a\\in\\mathbb{R}$，则“$a>1$”是“$\\frac1a<1$”的（ ）",
+          "body": "已知 $a\\in\\mathbb{R}$，则“$a>1$”是“$\\frac{1}{a}&#x3C;1$”的（ ）",
           "choices": [
             "充分非必要条件",
             "必要非充分条件",
@@ -273,13 +118,11 @@
             "既非充分又非必要条件"
           ],
           "answer": "A",
-          "solution": "若 $a>1$，则 $a>0$，取倒数时不等号反向，得到 $\\frac1a<1$，所以“$a>1$”是“$\\frac1a<1$”的充分条件. 但取 $a=-1$ 时 $\\frac1a=-1<1$，而 $a>1$ 不成立，故它不是必要条件. 所以选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若 $a>1$，则 $a>0$，取倒数时不等号反向，得到 $\\frac{1}{a}&#x3C;1$，所以“$a>1$”是“$\\frac{1}{a}&#x3C;1$”的充分条件. 但取 $a=-1$ 时 $\\frac{1}{a}=-1&#x3C;1$，而 $a>1$ 不成立，故它不是必要条件. 所以选 A."
         },
         {
           "num": 15,
-          "body": "《九章算术》中，称底面为矩形而有一侧棱垂直于底面的四棱锥为阳马. 设 $AA_1$ 是正六棱柱的一条侧棱，如图，若阳马以该正六棱柱的顶点为顶点，以 $AA_1$ 为底面矩形的一边，则这样的阳马的个数是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/shanghai/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>《九章算术》中，称底面为矩形而有一侧棱垂直于底面的四棱锥为阳马. 设 $AA_{1}$ 是正六棱柱的一条侧棱，如图，若阳马以该正六棱柱的顶点为顶点，以 $AA_{1}$ 为底面矩形的一边，则这样的阳马的个数是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$4$",
             "$8$",
@@ -287,23 +130,19 @@
             "$16$"
           ],
           "answer": "D",
-          "solution": "设底面矩形的另一条侧棱为 $CC_1$，其中 $C\\ne A$. 把底面正六边形的顶点记为 $V_k=(\\cos\\frac{k\\pi}{3},\\sin\\frac{k\\pi}{3})$，取 $A=V_0$，并令 $C=V_j$. 若棱柱顶点 $V_k$（或其上方对应顶点）作为阳马顶点，则它到矩形底面某个顶点 $V_i$（$i=0$ 或 $i=j$）的连线必须垂直于底面矩形；在水平面内这等价于 $(V_k-V_i)\\cdot(V_j-V_0)=0$. 直接代入六个顶点可得：$j=1$，$2$，$4$，$5$ 时各有 $2$ 个满足条件的水平顶点，$j=3$ 时没有满足条件的水平顶点. 因而可作为第二条侧棱的有 $4$ 种选择，每种有 $2$ 个水平顶点.\r\n\r\n对每一个这样的水平投影，棱柱有上、下两个对应顶点可选，且从该顶点连向底面相应顶点的侧棱垂直于底面矩形. 因而每个 $CC_1$ 有 $2\\times2=4$ 个阳马，阳马总数为 $4\\times4=16$. 所以选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设底面矩形的另一条侧棱为 $CC_{1}$，其中 $C\\ne A$. 把底面正六边形的顶点记为 $V_{k}=(\\cos\\frac{k\\pi}{3},\\sin\\frac{k\\pi}{3})$，取 $A=V_{0}$，并令 $C=V_{j}$. 若棱柱顶点 $V_{k}$（或其上方对应顶点）作为阳马顶点，则它到矩形底面某个顶点 $V_{i}$（$i=0$ 或 $i=j$）的连线必须垂直于底面矩形；在水平面内这等价于 $(V_{k}-V_{i})\\cdot(V_{j}-V_{0})=0$. 直接代入六个顶点可得：$j=1$，$2$，$4$，$5$ 时各有 $2$ 个满足条件的水平顶点，$j=3$ 时没有满足条件的水平顶点. 因而可作为第二条侧棱的有 $4$ 种选择，每种有 $2$ 个水平顶点.</p><p>对每一个这样的水平投影，棱柱有上、下两个对应顶点可选，且从该顶点连向底面相应顶点的侧棱垂直于底面矩形. 因而每个 $CC_{1}$ 有 $2\\times2=4$ 个阳马，阳马总数为 $4\\times4=16$. 所以选 D.</p>"
         },
         {
           "num": 16,
-          "body": "设 $D$ 是含数 $1$ 的有限实数集，$f(x)$ 是定义在 $D$ 上的函数. 若 $f(x)$ 的图像绕原点逆时针旋转 $\\frac\\pi6$ 后与原图像重合，则在以下各项中，$f(1)$ 的可能取值只能是（ ）",
+          "body": "设 $D$ 是含数 $1$ 的有限实数集，$f(x)$ 是定义在 $D$ 上的函数. 若 $f(x)$ 的图像绕原点逆时针旋转 $\\frac{\\pi}{6}$ 后与原图像重合，则在以下各项中，$f(1)$ 的可能取值只能是（ ）",
           "choices": [
-            "$\\sqrt3$",
-            "$\\frac{\\sqrt3}{2}$",
-            "$\\frac{\\sqrt3}{3}$",
+            "$\\sqrt{3}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{\\sqrt{3}}{3}$",
             "$0$"
           ],
           "answer": "B",
-          "solution": "记旋转 $\\frac\\pi6$ 为 $R$. 因为图像有限且绕原点旋转后与自身重合，所以图像中任一点的 $R$ 的全部迭代像也都在图像中. 若点 $(1,f(1))$ 的极角是 $\\frac{k\\pi}{12}$ 的整数倍，则这组旋转像中会出现关于 $x$ 轴对称的两个不同点，它们的横坐标相同而纵坐标不同，这与图像是函数相矛盾.\r\n\r\n对选项 A，点 $(1,\\sqrt3)$ 的极角为 $\\frac\\pi3$，旋转 $8$ 次后得到同横坐标的点 $(1,-\\sqrt3)$，不可能. 对选项 C，点 $(1,\\frac{\\sqrt3}{3})$ 的极角为 $\\frac\\pi6$，旋转 $10$ 次后得到同横坐标的点 $(1,-\\frac{\\sqrt3}{3})$，也不可能. 对选项 D，虽然初始点在 $x$ 轴上，但其旋转像中角度 $\\frac\\pi6$ 与 $-\\frac\\pi6$ 的两个点横坐标相同而纵坐标相反，同样不可能.\r\n\r\n对于选项 B，令 $G=\\{R^k(1,\\frac{\\sqrt3}{2})\\mid k=0,1,\\ldots,11\\}$. 点 $(1,\\frac{\\sqrt3}{2})$ 的极角不是 $\\frac{k\\pi}{12}$，所以这 $12$ 个点的横坐标互不相同，因而它们构成某个有限定义域上的函数图像，并且旋转 $\\frac\\pi6$ 后仍为 $G$. 所以只有 B 可能.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>记旋转 $\\frac{\\pi}{6}$ 为 $R$. 因为图像有限且绕原点旋转后与自身重合，所以图像中任一点的 $R$ 的全部迭代像也都在图像中. 若点 $(1,f(1))$ 的极角是 $\\frac{k\\pi}{12}$ 的整数倍，则这组旋转像中会出现关于 $x$ 轴对称的两个不同点，它们的横坐标相同而纵坐标不同，这与图像是函数相矛盾.</p><p>对选项 A，点 $(1,\\sqrt{3})$ 的极角为 $\\frac{\\pi}{3}$，旋转 $8$ 次后得到同横坐标的点 $(1,-\\sqrt{3})$，不可能. 对选项 C，点 $(1,\\frac{\\sqrt{3}}{3})$ 的极角为 $\\frac{\\pi}{6}$，旋转 $10$ 次后得到同横坐标的点 $(1,-\\frac{\\sqrt{3}}{3})$，也不可能. 对选项 D，虽然初始点在 $x$ 轴上，但其旋转像中角度 $\\frac{\\pi}{6}$ 与 $-\\frac{\\pi}{6}$ 的两个点横坐标相同而纵坐标相反，同样不可能.</p><p>对于选项 B，令 $G=\\{R^{k}(1,\\frac{\\sqrt{3}}{2})\\mid k=0,1,\\ldots,11\\}$. 点 $(1,\\frac{\\sqrt{3}}{2})$ 的极角不是 $\\frac{k\\pi}{12}$，所以这 $12$ 个点的横坐标互不相同，因而它们构成某个有限定义域上的函数图像，并且旋转 $\\frac{\\pi}{6}$ 后仍为 $G$. 所以只有 B 可能.</p>"
         }
       ]
     },
@@ -312,51 +151,40 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知圆锥的顶点为 $P$，底面圆心为 $O$，半径为 $2$.\r\n\r\n\n(1) 设圆锥的母线长为 $4$，求圆锥的体积；\n\n(2) 设 $PO=4$，$OA$，$OB$ 是底面半径，且 $\\angle AOB=90^\\circ$，$M$ 为线段 $AB$ 的中点，如图，求异面直线 $PM$ 与 $OB$ 所成的角的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/shanghai/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>已知圆锥的顶点为 $P$，底面圆心为 $O$，半径为 $2$.</p><ol class=\"enumerate\"><li><p>设圆锥的母线长为 $4$，求圆锥的体积；</p></li><li><p>设 $PO=4$，$OA$，$OB$ 是底面半径，且 $\\angle AOB=90^{\\circ}$，$M$ 为线段 $AB$ 的中点，如图，求异面直线 $PM$ 与 $OB$ 所成的角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 圆锥的高为 $PO=\\sqrt{4^2-2^2}=2\\sqrt3$. 因此体积为 $V=\\frac13\\pi\\cdot2^2\\cdot2\\sqrt3=\\frac{8\\sqrt3}{3}\\pi$.\n\n(2) 建立直角坐标系，令 $O=(0,0,0)$，$P=(0,0,4)$，$A=(2,0,0)$，$B=(0,2,0)$. 则 $M=(1,1,0)$，可取直线 $PM$ 的方向向量为 $\\overrightarrow{PM}=(1,1,-4)$，直线 $OB$ 的方向向量为 $(0,1,0)$. 设两直线所成的锐角为 $\\theta$. 沿 $OB$ 方向的分量长度为 $1$，而 $\\lvert\\overrightarrow{PM}\\rvert=\\sqrt{1^2+1^2+(-4)^2}=3\\sqrt2$，故垂直于 $OB$ 的分量长度为 $\\sqrt{(3\\sqrt2)^2-1^2}=\\sqrt{17}$. 所以 $\\tan\\theta=\\sqrt{17}$，从而 $\\theta=\\arctan\\sqrt{17}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>圆锥的高为 $PO=\\sqrt{4^{2}-2^{2}}=2\\sqrt{3}$. 因此体积为 $V=\\frac{1}{3}\\pi\\cdot2^{2}\\cdot2\\sqrt{3}=\\frac{8\\sqrt{3}}{3}\\pi$.</p></li><li><p>建立直角坐标系，令 $O=(0,0,0)$，$P=(0,0,4)$，$A=(2,0,0)$，$B=(0,2,0)$. 则 $M=(1,1,0)$，可取直线 $PM$ 的方向向量为 $\\overrightarrow{PM}=(1,1,-4)$，直线 $OB$ 的方向向量为 $(0,1,0)$. 设两直线所成的锐角为 $\\theta$. 沿 $OB$ 方向的分量长度为 $1$，而 $\\lvert\\overrightarrow{PM}\\rvert=\\sqrt{1^{2}+1^{2}+(-4)^{2}}=3\\sqrt{2}$，故垂直于 $OB$ 的分量长度为 $\\sqrt{(3\\sqrt{2})^{2}-1^{2}}=\\sqrt{17}$. 所以 $\\tan\\theta=\\sqrt{17}$，从而 $\\theta=\\arctan\\sqrt{17}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "设常数 $a\\in\\mathbb{R}$，函数 $f(x)=a\\sin2x+2\\cos^2x$.\r\n\r\n\n(1) 若 $f(x)$ 为偶函数，求 $a$ 的值；\n\n(2) 若 $f\\left(\\frac\\pi4\\right)=\\sqrt3+1$，求方程 $f(x)=1-\\sqrt2$ 在区间 $[-\\pi,\\pi]$ 上的解.",
-          "choices": [],
+          "body": "<p>设常数 $a\\in\\mathbb{R}$，函数 $f(x)=a\\sin2x+2\\cos^{2}x$.</p><ol class=\"enumerate\"><li><p>若 $f(x)$ 为偶函数，求 $a$ 的值；</p></li><li><p>若 $f\\left(\\frac{\\pi}{4}\\right)=\\sqrt{3}+1$，求方程 $f(x)=1-\\sqrt{2}$ 在区间 $[-\\pi,\\pi]$ 上的解.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $f(-x)=-a\\sin2x+2\\cos^2x$，而偶函数满足 $f(-x)=f(x)$，所以 $-a\\sin2x=a\\sin2x$ 对任意 $x$ 成立. 取 $x=\\frac\\pi4$，得 $a=0$.\n\n(2) 由 $f\\left(\\frac\\pi4\\right)=a+1=\\sqrt3+1$，得 $a=\\sqrt3$. 于是原方程等价于 $\\sqrt3\\sin2x+1+\\cos2x=1-\\sqrt2$，即 $\\sqrt3\\sin2x+\\cos2x=-\\sqrt2$. 利用辅助角公式，$\\sqrt3\\sin2x+\\cos2x=2\\sin\\left(2x+\\frac\\pi6\\right)$，所以 $\\sin\\left(2x+\\frac\\pi6\\right)=-\\frac{\\sqrt2}{2}$.\r\n\r\n因此 $2x+\\frac\\pi6=-\\frac\\pi4+2k\\pi$ 或 $2x+\\frac\\pi6=\\frac{5\\pi}{4}+2k\\pi$，即 $x=-\\frac{5\\pi}{24}+k\\pi$ 或 $x=\\frac{13\\pi}{24}+k\\pi$. 在 $[-\\pi,\\pi]$ 内取值，得到 $x=-\\frac{11\\pi}{24}$，$-\\frac{5\\pi}{24}$，$\\frac{13\\pi}{24}$，$\\frac{19\\pi}{24}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(-x)=-a\\sin2x+2\\cos^{2}x$，而偶函数满足 $f(-x)=f(x)$，所以 $-a\\sin2x=a\\sin2x$ 对任意 $x$ 成立. 取 $x=\\frac{\\pi}{4}$，得 $a=0$.</p></li><li><p>由 $f\\left(\\frac{\\pi}{4}\\right)=a+1=\\sqrt{3}+1$，得 $a=\\sqrt{3}$. 于是原方程等价于 $\\sqrt{3}\\sin2x+1+\\cos2x=1-\\sqrt{2}$，即 $\\sqrt{3}\\sin2x+\\cos2x=-\\sqrt{2}$. 利用辅助角公式，$\\sqrt{3}\\sin2x+\\cos2x=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)$，所以 $\\sin\\left(2x+\\frac{\\pi}{6}\\right)=-\\frac{\\sqrt{2}}{2}$.</p><p>因此 $2x+\\frac{\\pi}{6}=-\\frac{\\pi}{4}+2k\\pi$ 或 $2x+\\frac{\\pi}{6}=\\frac{5\\pi}{4}+2k\\pi$，即 $x=-\\frac{5\\pi}{24}+k\\pi$ 或 $x=\\frac{13\\pi}{24}+k\\pi$. 在 $[-\\pi,\\pi]$ 内取值，得到 $x=-\\frac{11\\pi}{24}$，$-\\frac{5\\pi}{24}$，$\\frac{13\\pi}{24}$，$\\frac{19\\pi}{24}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "某群体的人均通勤时间，是指单日内该群体中成员从居住地到工作地的平均用时. 某地上班族 $S$ 中的成员仅以自驾或公交方式通勤. 分析显示：当 $S$ 中 $x\\%$（$0<x<100$）的成员自驾时，自驾群体的人均通勤时间 $f(x)$（单位：分钟）为\r\n\r\n\\examdisplaycases{f(x)=}{\r\n30, & 0<x\\le30,\\\\\r\n2x+\\frac{1800}{x}-90, & 30<x<100\r\n}\r\n\r\n而公交群体的人均通勤时间不受 $x$ 影响，恒为 $40$ 分钟. 试根据上述分析结果回答下列问题：\r\n\r\n\n(1) 当 $x$ 在什么范围内时，公交群体的人均通勤时间少于自驾群体的人均通勤时间？\n\n(2) 求该地上班族 $S$ 的人均通勤时间 $g(x)$ 的表达式；讨论 $g(x)$ 的单调性，并说明其实际意义.",
-          "choices": [],
+          "body": "<p>某群体的人均通勤时间，是指单日内该群体中成员从居住地到工作地的平均用时. 某地上班族 $S$ 中的成员仅以自驾或公交方式通勤. 分析显示：当 $S$ 中 $x\\%$（$0&#x3C;x&#x3C;100$）的成员自驾时，自驾群体的人均通勤时间 $f(x)$（单位：分钟）为</p><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>30, &#x26; 0&#x3C;x<span class=\"macro macro-le\"></span>30,<br class=\"linebreak\"><br>2x+<span class=\"macro macro-frac\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1800</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">x</span></span>-90, &#x26; 30&#x3C;x&#x3C;100<br></p><p>而公交群体的人均通勤时间不受 $x$ 影响，恒为 $40$ 分钟. 试根据上述分析结果回答下列问题：</p><ol class=\"enumerate\"><li><p>当 $x$ 在什么范围内时，公交群体的人均通勤时间少于自驾群体的人均通勤时间？</p></li><li><p>求该地上班族 $S$ 的人均通勤时间 $g(x)$ 的表达式；讨论 $g(x)$ 的单调性，并说明其实际意义.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $0<x\\le30$ 时，$f(x)=30<40$，不满足公交时间少于自驾时间. 当 $30<x<100$ 时，需有 $2x+\\frac{1800}{x}-90>40$. 由于 $x>0$，不等式等价于 $2x^2-130x+1800>0$，即 $2(x-20)(x-45)>0$. 结合 $30<x<100$，得到 $45<x<100$.\n\n(2) 自驾成员占总人数的 $\\frac{x}{100}$，公交成员占 $1-\\frac{x}{100}$，所以\r\n\n$$\ng(x)=\r\n\\begin{cases}\r\n\\dfrac{x}{100}\\cdot30+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=40-\\dfrac{x}{10}, & 0<x\\le30,\\\\\r\n\\dfrac{x}{100}\\left(2x+\\dfrac{1800}{x}-90\\right)+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=\\dfrac{x^2}{50}-\\dfrac{13x}{10}+58, & 30<x<100.\r\n\\end{cases}\n$$\n\r\n在 $(0,30)$ 上，$g'(x)=-\\frac1{10}<0$. 在 $(30,100)$ 上，$g'(x)=\\frac{x}{25}-\\frac{13}{10}$，所以当 $30<x<\\frac{65}{2}$ 时 $g'(x)<0$，当 $\\frac{65}{2}<x<100$ 时 $g'(x)>0$. 且两段在 $x=30$ 处的函数值均为 $37$，故 $g(x)$ 在 $(0,32.5)$ 上单调递减，在 $(32.5,100)$ 上单调递增，并在 $x=32.5$ 时取得最小值. 实际意义是：自驾人数比例低于 $32.5\\%$ 时，提高自驾比例会降低全体上班族的人均通勤时间；超过 $32.5\\%$ 后继续提高自驾比例，反而会使人均通勤时间增加.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $0&#x3C;x\\le30$ 时，$f(x)=30&#x3C;40$，不满足公交时间少于自驾时间. 当 $30&#x3C;x&#x3C;100$ 时，需有 $2x+\\frac{1800}{x}-90>40$. 由于 $x>0$，不等式等价于 $2x^{2}-130x+1800>0$，即 $2(x-20)(x-45)>0$. 结合 $30&#x3C;x&#x3C;100$，得到 $45&#x3C;x&#x3C;100$.</p></li><li><p>自驾成员占总人数的 $\\frac{x}{100}$，公交成员占 $1-\\frac{x}{100}$，所以</p>\n$$\ng(x)=  \\begin{cases}\\dfrac{x}{100}\\cdot30+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=40-\\dfrac{x}{10},&#x26;0&#x3C;x\\le30,\\\\  \\dfrac{x}{100}\\left(2x+\\dfrac{1800}{x}-90\\right)+\\left(1-\\dfrac{x}{100}\\right)\\cdot40=\\dfrac{x^2}{50}-\\dfrac{13x}{10}+58,&#x26;30&#x3C;x&#x3C;100.\\end{cases}\n$$\n<p>在 $(0,30)$ 上，$g'(x)=-\\frac{1}{10}&#x3C;0$. 在 $(30,100)$ 上，$g'(x)=\\frac{x}{25}-\\frac{13}{10}$，所以当 $30&#x3C;x&#x3C;\\frac{65}{2}$ 时 $g'(x)&#x3C;0$，当 $\\frac{65}{2}&#x3C;x&#x3C;100$ 时 $g'(x)>0$. 且两段在 $x=30$ 处的函数值均为 $37$，故 $g(x)$ 在 $(0,32.5)$ 上单调递减，在 $(32.5,100)$ 上单调递增，并在 $x=32.5$ 时取得最小值. 实际意义是：自驾人数比例低于 $32.5\\%$ 时，提高自驾比例会降低全体上班族的人均通勤时间；超过 $32.5\\%$ 后继续提高自驾比例，反而会使人均通勤时间增加.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设常数 $t>2$. 在平面直角坐标系 $xOy$ 中，已知点 $F(2,0)$，直线 $l:x=t$，曲线 $\\Gamma:y^2=8x$（$0\\le x\\le t$，$y\\ge0$），$l$ 与 $x$ 轴交于点 $A$，与 $\\Gamma$ 交于点 $B$. $P$，$Q$ 分别是曲线 $\\Gamma$ 与线段 $AB$ 上的动点.\r\n\r\n\n(1) 用 $t$ 表示点 $B$ 到点 $F$ 的距离；\n\n(2) 设 $t=3$，$\\lvert FQ\\rvert=2$，线段 $OQ$ 的中点在直线 $FP$ 上，求 $\\triangle AQP$ 的面积；\n\n(3) 设 $t=8$，是否存在以 $FP$，$FQ$ 为邻边的矩形 $FPEQ$，使得点 $E$ 在 $\\Gamma$ 上？若存在，求点 $P$ 的坐标；若不存在，说明理由.",
-          "choices": [],
+          "body": "<p>设常数 $t>2$. 在平面直角坐标系 $xOy$ 中，已知点 $F(2,0)$，直线 $l:x=t$，曲线 $\\Gamma:y^{2}=8x$（$0\\le x\\le t$，$y\\ge0$），$l$ 与 $x$ 轴交于点 $A$，与 $\\Gamma$ 交于点 $B$. $P$，$Q$ 分别是曲线 $\\Gamma$ 与线段 $AB$ 上的动点.</p><ol class=\"enumerate\"><li><p>用 $t$ 表示点 $B$ 到点 $F$ 的距离；</p></li><li><p>设 $t=3$，$\\lvert FQ\\rvert=2$，线段 $OQ$ 的中点在直线 $FP$ 上，求 $\\triangle AQP$ 的面积；</p></li><li><p>设 $t=8$，是否存在以 $FP$，$FQ$ 为邻边的矩形 $FPEQ$，使得点 $E$ 在 $\\Gamma$ 上？若存在，求点 $P$ 的坐标；若不存在，说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $B=(t,\\sqrt{8t})$，有 $BF=\\sqrt{(t-2)^2+8t}=\\sqrt{(t+2)^2}=t+2$，其中使用了 $t>2$.\n\n(2) 当 $t=3$ 时，$A=(3,0)$，设 $Q=(3,q)$，因为 $Q$ 在上半轴线段 $AB$ 上，所以 $q\\ge0$. 由 $\\lvert FQ\\rvert=2$，得 $1+q^2=4$，故 $Q=(3,\\sqrt3)$. 线段 $OQ$ 的中点为 $N=\\left(\\frac32,\\frac{\\sqrt3}{2}\\right)$，所以直线 $FN$ 的斜率为 $\\frac{\\frac{\\sqrt3}{2}}{\\frac{3}{2}-2}=-\\sqrt3$，直线 $FP$ 的方程为 $y=-\\sqrt3(x-2)$.\r\n\r\n设 $P=(x,y)$. 联立 $y^2=8x$ 与 $y=-\\sqrt3(x-2)$，得 $3(x-2)^2=8x$，即 $3x^2-20x+12=0$，所以 $x=\\frac23$ 或 $x=6$. 由于 $P$ 在 $0\\le x\\le3$ 的曲线段上，取 $x=\\frac23$，再由直线方程得 $P=\\left(\\frac23,\\frac{4\\sqrt3}{3}\\right)$. 于是 $AQ=\\sqrt3$，点 $P$ 到直线 $AQ$ 的距离为 $3-\\frac23=\\frac73$，从而 $\\triangle AQP$ 的面积为 $\\frac12\\cdot\\sqrt3\\cdot\\frac73=\\frac{7\\sqrt3}{6}$.\n\n(3) 当 $t=8$ 时，$A=(8,0)$. 设 $P=(2u^2,4u)$，其中 $u\\ge0$，这是曲线 $\\Gamma$ 的参数表示；设 $Q=(8,q)$，其中 $0\\le q\\le8$. 矩形的两条邻边垂直，所以\r\n$\\overrightarrow{FP}\\cdot\\overrightarrow{FQ}=(2u^2-2,4u)\\cdot(6,q)=0$，即 $uq=3(1-u^2)$. 若 $u=0$，此式不成立，故 $u>0$. 又矩形的第四个顶点为 $E=P+Q-F=(2u^2+6,4u+q)$. 由 $E\\in\\Gamma$，有 $(4u+q)^2=8(2u^2+6)$，化简为 $q^2+8uq=48$. 代入 $q=\\frac{3(1-u^2)}{u}$，并令 $w=u^2$，得 $5w^2+14w-3=0$，所以 $w=\\frac15$ 或 $w=-3$. 因 $w\\ge0$，得 $u=\\frac1{\\sqrt5}$，进而 $P=\\left(\\frac25,\\frac{4\\sqrt5}{5}\\right)$，且 $q=\\frac{12\\sqrt5}{5}\\in[0,8]$. 因而满足条件的矩形存在，点 $P$ 的坐标为 $\\left(\\frac25,\\frac{4\\sqrt5}{5}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $B=(t,\\sqrt{8t})$，有 $BF=\\sqrt{(t-2)^{2}+8t}=\\sqrt{(t+2)^{2}}=t+2$，其中使用了 $t>2$.</p></li><li><p>当 $t=3$ 时，$A=(3,0)$，设 $Q=(3,q)$，因为 $Q$ 在上半轴线段 $AB$ 上，所以 $q\\ge0$. 由 $\\lvert FQ\\rvert=2$，得 $1+q^{2}=4$，故 $Q=(3,\\sqrt{3})$. 线段 $OQ$ 的中点为 $N=\\left(\\frac{3}{2},\\frac{\\sqrt{3}}{2}\\right)$，所以直线 $FN$ 的斜率为 $\\frac{\\frac{\\sqrt{3}}{2}}{\\frac{3}{2}-2}=-\\sqrt{3}$，直线 $FP$ 的方程为 $y=-\\sqrt{3}(x-2)$.</p><p>设 $P=(x,y)$. 联立 $y^{2}=8x$ 与 $y=-\\sqrt{3}(x-2)$，得 $3(x-2)^{2}=8x$，即 $3x^{2}-20x+12=0$，所以 $x=\\frac{2}{3}$ 或 $x=6$. 由于 $P$ 在 $0\\le x\\le3$ 的曲线段上，取 $x=\\frac{2}{3}$，再由直线方程得 $P=\\left(\\frac{2}{3},\\frac{4\\sqrt{3}}{3}\\right)$. 于是 $AQ=\\sqrt{3}$，点 $P$ 到直线 $AQ$ 的距离为 $3-\\frac{2}{3}=\\frac{7}{3}$，从而 $\\triangle AQP$ 的面积为 $\\frac{1}{2}\\cdot\\sqrt{3}\\cdot\\frac{7}{3}=\\frac{7\\sqrt{3}}{6}$.</p></li><li><p>当 $t=8$ 时，$A=(8,0)$. 设 $P=(2u^{2},4u)$，其中 $u\\ge0$，这是曲线 $\\Gamma$ 的参数表示；设 $Q=(8,q)$，其中 $0\\le q\\le8$. 矩形的两条邻边垂直，所以</p><p>$\\overrightarrow{FP}\\cdot\\overrightarrow{FQ}=(2u^{2}-2,4u)\\cdot(6,q)=0$，即 $uq=3(1-u^{2})$. 若 $u=0$，此式不成立，故 $u>0$. 又矩形的第四个顶点为 $E=P+Q-F=(2u^{2}+6,4u+q)$. 由 $E\\in\\Gamma$，有 $(4u+q)^{2}=8(2u^{2}+6)$，化简为 $q^{2}+8uq=48$. 代入 $q=\\frac{3(1-u^{2})}{u}$，并令 $w=u^{2}$，得 $5w^{2}+14w-3=0$，所以 $w=\\frac{1}{5}$ 或 $w=-3$. 因 $w\\ge0$，得 $u=\\frac{1}{\\sqrt{5}}$，进而 $P=\\left(\\frac{2}{5},\\frac{4\\sqrt{5}}{5}\\right)$，且 $q=\\frac{12\\sqrt{5}}{5}\\in[0,8]$. 因而满足条件的矩形存在，点 $P$ 的坐标为 $\\left(\\frac{2}{5},\\frac{4\\sqrt{5}}{5}\\right)$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "给定无穷数列 $\\{a_n\\}$，若无穷数列 $\\{b_n\\}$ 满足：对任意 $n\\in\\mathbb{N}^*$，都有 $\\lvert b_n-a_n\\rvert\\le1$，则称 $\\{b_n\\}$ 与 $\\{a_n\\}$“接近”.\r\n\r\n\n(1) 设 $\\{a_n\\}$ 是首项为 $1$，公比为 $\\frac12$ 的等比数列，$b_n=a_{n+1}+1$，$n\\in\\mathbb{N}^*$. 判断数列 $\\{b_n\\}$ 是否与 $\\{a_n\\}$ 接近，并说明理由；\n\n(2) 设数列 $\\{a_n\\}$ 的前四项为：$a_1=1$，$a_2=2$，$a_3=4$，$a_4=8$，$\\{b_n\\}$ 是一个与 $\\{a_n\\}$ 接近的数列，记集合 $M=\\{x\\mid x=b_i,\\ i=1,2,3,4\\}$，求 $M$ 中元素的个数 $m$；\n\n(3) 已知 $\\{a_n\\}$ 是公差为 $d$ 的等差数列. 若存在数列 $\\{b_n\\}$ 满足：$\\{b_n\\}$ 与 $\\{a_n\\}$ 接近，且在 $b_2-b_1$，$b_3-b_2$，\\ldots，$b_{201}-b_{200}$ 中至少有 $100$ 个为正数，求 $d$ 的取值范围.",
-          "choices": [],
+          "body": "<p>给定无穷数列 $\\{a_{n}\\}$，若无穷数列 $\\{b_{n}\\}$ 满足：对任意 $n\\in\\mathbb{N}^{*}$，都有 $\\lvert b_{n}-a_{n}\\rvert\\le1$，则称 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$“接近”.</p><ol class=\"enumerate\"><li><p>设 $\\{a_{n}\\}$ 是首项为 $1$，公比为 $\\frac{1}{2}$ 的等比数列，$b_{n}=a_{n+1}+1$，$n\\in\\mathbb{N}^{*}$. 判断数列 $\\{b_{n}\\}$ 是否与 $\\{a_{n}\\}$ 接近，并说明理由；</p></li><li><p>设数列 $\\{a_{n}\\}$ 的前四项为：$a_{1}=1$，$a_{2}=2$，$a_{3}=4$，$a_{4}=8$，$\\{b_{n}\\}$ 是一个与 $\\{a_{n}\\}$ 接近的数列，记集合 $M=\\{x\\mid x=b_{i},\\ i=1,2,3,4\\}$，求 $M$ 中元素的个数 $m$；</p></li><li><p>已知 $\\{a_{n}\\}$ 是公差为 $d$ 的等差数列. 若存在数列 $\\{b_{n}\\}$ 满足：$\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近，且在 $b_{2}-b_{1}$，$b_{3}-b_{2}$，…，$b_{201}-b_{200}$ 中至少有 $100$ 个为正数，求 $d$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $a_n=\\left(\\frac12\\right)^{n-1}$，所以 $b_n=a_{n+1}+1=\\left(\\frac12\\right)^n+1$. 从而 $b_n-a_n=1-\\left(\\frac12\\right)^n$，且对任意 $n\\in\\mathbb{N}^*$ 都有 $0<1-\\left(\\frac12\\right)^n<1$. 因此 $\\lvert b_n-a_n\\rvert\\le1$，数列 $\\{b_n\\}$ 与 $\\{a_n\\}$ 接近.\n\n(2) 由接近的定义，$b_1\\in[0,2]$，$b_2\\in[1,3]$，$b_3\\in[3,5]$，$b_4\\in[7,9]$. 前三个区间中，$[0,2]$ 与 $[3,5]$ 不相交，所以 $b_1\\ne b_3$；而 $[7,9]$ 与前三个区间均不相交，所以 $b_4$ 与 $b_1$，$b_2$，$b_3$ 都不同. 因而 $M$ 至少有 $3$ 个元素，至多有 $4$ 个元素. 取例如 $b_1=b_2=1$，$b_3=3$，$b_4=7$，可得 $m=3$；取四个区间中彼此不同的数，又可得 $m=4$. 所以 $m=3$ 或 $m=4$.\n\n(3) 设 $b_n=a_n+e_n$，其中 $\\lvert e_n\\rvert\\le1$. 则 $b_{n+1}-b_n=d+e_{n+1}-e_n$. 若 $d\\le-2$，由于 $e_{n+1}-e_n\\le2$，有 $b_{n+1}-b_n\\le d+2\\le0$，不可能出现正数，更不可能至少有 $100$ 个正数. 所以必须有 $d>-2$.\r\n\r\n反之，若 $d>-2$，取 $e_n=(-1)^n$，即令 $b_n=a_n+(-1)^n$. 此时 $\\lvert b_n-a_n\\rvert=1$，所以 $\\{b_n\\}$ 与 $\\{a_n\\}$ 接近；当 $n$ 为奇数时，$b_{n+1}-b_n=d+2>0$. 在 $n=1$，$2$，$\\ldots$，$200$ 中有恰好 $100$ 个奇数，因此至少有 $100$ 个相邻差为正数. 故 $d>-2$ 也充分，取值范围为 $(-2,+\\infty)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{n}=\\left(\\frac{1}{2}\\right)^{n-1}$，所以 $b_{n}=a_{n+1}+1=\\left(\\frac{1}{2}\\right)^{n}+1$. 从而 $b_{n}-a_{n}=1-\\left(\\frac{1}{2}\\right)^{n}$，且对任意 $n\\in\\mathbb{N}^{*}$ 都有 $0&#x3C;1-\\left(\\frac{1}{2}\\right)^{n}&#x3C;1$. 因此 $\\lvert b_{n}-a_{n}\\rvert\\le1$，数列 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近.</p></li><li><p>由接近的定义，$b_{1}\\in[0,2]$，$b_{2}\\in[1,3]$，$b_{3}\\in[3,5]$，$b_{4}\\in[7,9]$. 前三个区间中，$[0,2]$ 与 $[3,5]$ 不相交，所以 $b_{1}\\ne b_{3}$；而 $[7,9]$ 与前三个区间均不相交，所以 $b_{4}$ 与 $b_{1}$，$b_{2}$，$b_{3}$ 都不同. 因而 $M$ 至少有 $3$ 个元素，至多有 $4$ 个元素. 取例如 $b_{1}=b_{2}=1$，$b_{3}=3$，$b_{4}=7$，可得 $m=3$；取四个区间中彼此不同的数，又可得 $m=4$. 所以 $m=3$ 或 $m=4$.</p></li><li><p>设 $b_{n}=a_{n}+e_{n}$，其中 $\\lvert e_{n}\\rvert\\le1$. 则 $b_{n+1}-b_{n}=d+e_{n+1}-e_{n}$. 若 $d\\le-2$，由于 $e_{n+1}-e_{n}\\le2$，有 $b_{n+1}-b_{n}\\le d+2\\le0$，不可能出现正数，更不可能至少有 $100$ 个正数. 所以必须有 $d>-2$.</p><p>反之，若 $d>-2$，取 $e_{n}=(-1)^{n}$，即令 $b_{n}=a_{n}+(-1)^{n}$. 此时 $\\lvert b_{n}-a_{n}\\rvert=1$，所以 $\\{b_{n}\\}$ 与 $\\{a_{n}\\}$ 接近；当 $n$ 为奇数时，$b_{n+1}-b_{n}=d+2>0$. 在 $n=1$，$2$，$\\ldots$，$200$ 中有恰好 $100$ 个奇数，因此至少有 $100$ 个相邻差为正数. 故 $d>-2$ 也充分，取值范围为 $(-2,+\\infty)$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

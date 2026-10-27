@@ -1,150 +1,15 @@
 {
+  "title": "2005年普通高等学校招生全国统一考试",
+  "subtitle": "2005年辽宁卷",
   "year": "2005",
   "slug": "liaoning",
-  "title": "2005年辽宁卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "复数 $z = \\frac{-1 + \\mathrm{i}}{1 + \\mathrm{i}} - 1$ 在复平面内，$z$ 所对应的点在（ ）\r\n\r\n\r\nB\r\n\r\n有\r\n$\\frac{-1+\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(-1+\\mathrm{i})(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\mathrm{i}$，\r\n所以 $z=\\mathrm{i}-1=-1+\\mathrm{i}$. 该复数的实部为负，虚部为正，故它所对应的点在第二象限，选 B.",
+          "body": "<p>复数 $z = \\frac{-1 + \\mathrm{i}}{1 + \\mathrm{i}}- 1$ 在复平面内，$z$ 所对应的点在（ ）</p><p>B</p><p>有</p><p>$\\frac{-1+\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(-1+\\mathrm{i})(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\mathrm{i}$，</p><p>所以 $z=\\mathrm{i}-1=-1+\\mathrm{i}$. 该复数的实部为负，虚部为正，故它所对应的点在第二象限，选 B.</p>",
           "choices": [
             "第一象限",
             "第二象限",
@@ -152,13 +17,11 @@
             "第四象限"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 2,
-          "body": "极限 $\\displaystyle\\lim_{x \\to x_0} f(x)$ 存在是函数 $f(x)$ 在点 $x = x_0$ 处连续的（ ）\r\n\r\n\r\nB\r\n\r\n若函数 $f(x)$ 在 $x_0$ 处连续，则由连续性的定义可知 $\\displaystyle\\lim_{x\\to x_0}f(x)=f(x_0)$，因此极限存在是连续的必要条件. 但极限存在不一定连续，例如令 $f(x)=1$（$x\\ne x_0$），$f(x_0)=0$，则极限存在而函数在 $x_0$ 处不连续. 因此极限存在是必要而不充分的条件，选 B.",
+          "body": "<p>极限 $\\displaystyle\\lim_{x \\to x_0}f(x)$ 存在是函数 $f(x)$ 在点 $x = x_{0}$ 处连续的（ ）</p><p>B</p><p>若函数 $f(x)$ 在 $x_{0}$ 处连续，则由连续性的定义可知 $\\displaystyle\\lim_{x\\to x_0}f(x)=f(x_{0})$，因此极限存在是连续的必要条件. 但极限存在不一定连续，例如令 $f(x)=1$（$x\\ne x_{0}$），$f(x_{0})=0$，则极限存在而函数在 $x_{0}$ 处不连续. 因此极限存在是必要而不充分的条件，选 B.</p>",
           "choices": [
             "充分而不必要的条件",
             "必要而不充分的条件",
@@ -166,55 +29,47 @@
             "既不充分也不必要的条件"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 3,
-          "body": "设袋中有 $80$ 个红球，$20$ 个白球，若从袋中任取 $10$ 个球，则其中恰有 $6$ 个红球的概率为（ ）\r\n\r\n\r\nD\r\n\r\n从 $100$ 个球中任取 $10$ 个球的取法数为 $\\mathrm C_{100}^{10}$. 恰有 $6$ 个红球时，需从 $80$ 个红球中取 $6$ 个，并从 $20$ 个白球中取 $4$ 个，故所求概率为\r\n$\\dfrac{\\mathrm C_{80}^{6}\\mathrm C_{20}^{4}}{\\mathrm C_{100}^{10}}$，\r\n对应选项 D.",
+          "body": "<p>设袋中有 $80$ 个红球，$20$ 个白球，若从袋中任取 $10$ 个球，则其中恰有 $6$ 个红球的概率为（ ）</p><p>D</p><p>从 $100$ 个球中任取 $10$ 个球的取法数为 $\\mathrm{C}_{100}^{10}$. 恰有 $6$ 个红球时，需从 $80$ 个红球中取 $6$ 个，并从 $20$ 个白球中取 $4$ 个，故所求概率为</p><p>$\\dfrac{\\mathrm{C}_{80}^{6}\\mathrm{C}_{20}^{4}}{\\mathrm{C}_{100}^{10}}$，</p><p>对应选项 D.</p>",
           "choices": [
-            "$\\frac{\\mathrm C_{80}^{4}\\cdot \\mathrm C_{10}^{6}}{\\mathrm C_{100}^{10}}$",
-            "$\\frac{\\mathrm C_{80}^{6}\\cdot \\mathrm C_{10}^{4}}{\\mathrm C_{100}^{10}}$",
-            "$\\frac{\\mathrm C_{80}^{4}\\cdot \\mathrm C_{20}^{6}}{\\mathrm C_{100}^{10}}$",
-            "$\\frac{\\mathrm C_{80}^{6}\\cdot \\mathrm C_{20}^{4}}{\\mathrm C_{100}^{10}}$"
+            "$\\frac{\\mathrm{C}_{80}^{4}\\cdot \\mathrm{C}_{10}^{6}}{\\mathrm{C}_{100}^{10}}$",
+            "$\\frac{\\mathrm{C}_{80}^{6}\\cdot \\mathrm{C}_{10}^{4}}{\\mathrm{C}_{100}^{10}}$",
+            "$\\frac{\\mathrm{C}_{80}^{4}\\cdot \\mathrm{C}_{20}^{6}}{\\mathrm{C}_{100}^{10}}$",
+            "$\\frac{\\mathrm{C}_{80}^{6}\\cdot \\mathrm{C}_{20}^{4}}{\\mathrm{C}_{100}^{10}}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 4,
-          "body": "已知 $m$，$n$ 是两条不重合的直线，$\\alpha$，$\\beta$，$\\gamma$ 是三个两两不重合的平面，给出下列四个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $m \\perp \\alpha$，$m \\perp \\beta$，则 $\\alpha \\parallel \\beta$；\r\n\\item 若 $\\alpha \\perp \\gamma$，$\\beta \\perp \\alpha$，则 $\\alpha \\parallel \\beta$；\r\n\\item 若 $m \\subset \\alpha$，$n \\subset \\beta$，$m \\parallel n$，则 $\\alpha \\parallel \\beta$；\r\n\\item 若 $m$，$n$ 是异面直线，$m \\subset \\alpha$，$m \\parallel \\beta$，$n \\subset \\beta$，$n \\parallel \\alpha$，则 $\\alpha \\parallel \\beta$.\r\n\\end{circlelist}\r\n\r\n其中真命题是（ ）\r\n\r\n\r\nD\r\n\r\n命题$\\circled{1}$正确：同一直线垂直于两个平面时，这两个平面的法线方向均与该直线平行；又因两平面不重合，所以 $\\alpha\\parallel\\beta$.\r\n\r\n命题$\\circled{2}$不正确. 例如取 $\\alpha:z=0$、$\\gamma:x=0$、$\\beta:y=0$，则 $\\alpha\\perp\\gamma$、$\\beta\\perp\\alpha$，但 $\\alpha$ 与 $\\beta$ 相交.\r\n\r\n命题$\\circled{3}$不正确. 例如在 $\\alpha:z=0$ 内取 $m$ 为 $x$ 轴，在 $\\beta:y=1$ 内取与 $m$ 平行的直线 $n$，则 $m\\parallel n$，但 $\\alpha$ 与 $\\beta$ 不平行.\r\n\r\n命题$\\circled{4}$正确. 若 $\\alpha$ 与 $\\beta$ 相交，设交线为 $l$. 由 $m\\subset\\alpha$ 且 $m\\parallel\\beta$，得 $m\\parallel l$；由 $n\\subset\\beta$ 且 $n\\parallel\\alpha$，得 $n\\parallel l$. 于是 $m\\parallel n$，这与 $m$，$n$ 为异面直线矛盾，所以 $\\alpha\\parallel\\beta$. 因此真命题是$\\circled{1}$和$\\circled{4}$，选 D.",
+          "body": "<p>已知 $m$，$n$ 是两条不重合的直线，$\\alpha$，$\\beta$，$\\gamma$ 是三个两两不重合的平面，给出下列四个命题：</p><ol class=\"enumerate\"><li><p>若 $m \\perp \\alpha$，$m \\perp \\beta$，则 $\\alpha \\parallel \\beta$；</p></li><li><p>若 $\\alpha \\perp \\gamma$，$\\beta \\perp \\alpha$，则 $\\alpha \\parallel \\beta$；</p></li><li><p>若 $m \\subset \\alpha$，$n \\subset \\beta$，$m \\parallel n$，则 $\\alpha \\parallel \\beta$；</p></li><li><p>若 $m$，$n$ 是异面直线，$m \\subset \\alpha$，$m \\parallel \\beta$，$n \\subset \\beta$，$n \\parallel \\alpha$，则 $\\alpha \\parallel \\beta$.</p></li></ol><p>其中真命题是（ ）</p><p>D</p><p>命题$①$正确：同一直线垂直于两个平面时，这两个平面的法线方向均与该直线平行；又因两平面不重合，所以 $\\alpha\\parallel\\beta$.</p><p>命题$②$不正确. 例如取 $\\alpha:z=0$、$\\gamma:x=0$、$\\beta:y=0$，则 $\\alpha\\perp\\gamma$、$\\beta\\perp\\alpha$，但 $\\alpha$ 与 $\\beta$ 相交.</p><p>命题$③$不正确. 例如在 $\\alpha:z=0$ 内取 $m$ 为 $x$ 轴，在 $\\beta:y=1$ 内取与 $m$ 平行的直线 $n$，则 $m\\parallel n$，但 $\\alpha$ 与 $\\beta$ 不平行.</p><p>命题$④$正确. 若 $\\alpha$ 与 $\\beta$ 相交，设交线为 $l$. 由 $m\\subset\\alpha$ 且 $m\\parallel\\beta$，得 $m\\parallel l$；由 $n\\subset\\beta$ 且 $n\\parallel\\alpha$，得 $n\\parallel l$. 于是 $m\\parallel n$，这与 $m$，$n$ 为异面直线矛盾，所以 $\\alpha\\parallel\\beta$. 因此真命题是$①$和$④$，选 D.</p>",
           "choices": [
-            "\\circled{1}和\\circled{2}",
-            "\\circled{1}和\\circled{3}",
-            "\\circled{3}和\\circled{4}",
-            "\\circled{1}和\\circled{4}"
+            "①和②",
+            "①和③",
+            "③和④",
+            "①和④"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 5,
-          "body": "函数 $y = \\ln \\left(x + \\sqrt{x^2 + 1}\\right)$ 的反函数是（ ）\r\n\r\n\r\nC\r\n\r\n设原函数的函数值为 $y$，则 $\\mathrm{e}^y=x+\\sqrt{x^2+1}$. 由于 $(x+\\sqrt{x^2+1})(\\sqrt{x^2+1}-x)=1$，有 $\\mathrm{e}^{-y}=\\sqrt{x^2+1}-x$.\r\n两式相减得 $2x=\\mathrm{e}^y-\\mathrm{e}^{-y}$，即 $x=\\dfrac{\\mathrm{e}^y-\\mathrm{e}^{-y}}2$. 交换 $x$，$y$，反函数为 $y=\\dfrac{\\mathrm{e}^x-\\mathrm{e}^{-x}}2$，选 C.",
+          "body": "<p>函数 $y = \\ln \\left(x + \\sqrt{x^{2} + 1}\\right)$ 的反函数是（ ）</p><p>C</p><p>设原函数的函数值为 $y$，则 $\\mathrm{e}^{y}=x+\\sqrt{x^{2}+1}$. 由于 $(x+\\sqrt{x^{2}+1})(\\sqrt{x^{2}+1}-x)=1$，有 $\\mathrm{e}^{-y}=\\sqrt{x^{2}+1}-x$.</p><p>两式相减得 $2x=\\mathrm{e}^{y}-\\mathrm{e}^{-y}$，即 $x=\\dfrac{\\mathrm{e}^y-\\mathrm{e}^{-y}}2$. 交换 $x$，$y$，反函数为 $y=\\dfrac{\\mathrm{e}^x-\\mathrm{e}^{-x}}2$，选 C.</p>",
           "choices": [
-            "$y = \\frac{\\mathrm{e}^x + \\mathrm{e}^{-x}}{2}$",
-            "$y = -\\frac{\\mathrm{e}^x + \\mathrm{e}^{-x}}{2}$",
-            "$y = \\frac{\\mathrm{e}^x - \\mathrm{e}^{-x}}{2}$",
-            "$y = -\\frac{\\mathrm{e}^x - \\mathrm{e}^{-x}}{2}$"
+            "$y = \\frac{\\mathrm{e}^{x} + \\mathrm{e}^{-x}}{2}$",
+            "$y = -\\frac{\\mathrm{e}^{x} + \\mathrm{e}^{-x}}{2}$",
+            "$y = \\frac{\\mathrm{e}^{x} - \\mathrm{e}^{-x}}{2}$",
+            "$y = -\\frac{\\mathrm{e}^{x} - \\mathrm{e}^{-x}}{2}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 6,
-          "body": "若 $\\log_{2a}\\frac{1 + a^2}{1 + a} < 0$，则 $a$ 的取值范围是（ ）\r\n\r\n\r\nC\r\n\r\n对数有意义要求 $a>0$ 且 $2a\\ne1$. 当 $a>\\frac12$ 时，底数 $2a>1$，要使对数小于零，必须有 $0<\\dfrac{1+a^2}{1+a}<1$.\r\n因 $a>0$，前一个不等式自动成立；后一个不等式等价于 $a^2<a$，即 $0<a<1$. 因而得到 $\\frac12<a<1$.\r\n\r\n当 $0<a<\\frac12$ 时，$0<2a<1$，对数小于零要求真数大于 $1$，即 $a^2>a$，这与 $0<a<\\frac12$ 矛盾. 故取值范围为 $\\left(\\frac12,1\\right)$，选 C.",
+          "body": "<p>若 $\\log_{2a}\\frac{1 + a^{2}}{1 + a}&#x3C; 0$，则 $a$ 的取值范围是（ ）</p><p>C</p><p>对数有意义要求 $a>0$ 且 $2a\\ne1$. 当 $a>\\frac{1}{2}$ 时，底数 $2a>1$，要使对数小于零，必须有 $0&#x3C;\\dfrac{1+a^2}{1+a}&#x3C;1$.</p><p>因 $a>0$，前一个不等式自动成立；后一个不等式等价于 $a^{2}&#x3C;a$，即 $0&#x3C;a&#x3C;1$. 因而得到 $\\frac{1}{2}&#x3C;a&#x3C;1$.</p><p>当 $0&#x3C;a&#x3C;\\frac{1}{2}$ 时，$0&#x3C;2a&#x3C;1$，对数小于零要求真数大于 $1$，即 $a^{2}>a$，这与 $0&#x3C;a&#x3C;\\frac{1}{2}$ 矛盾. 故取值范围为 $\\left(\\frac{1}{2},1\\right)$，选 C.</p>",
           "choices": [
             "$\\left(\\frac{1}{2}, +\\infty\\right)$",
             "$(1, +\\infty)$",
@@ -222,27 +77,23 @@
             "$\\left(0, \\frac{1}{2}\\right)$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 7,
-          "body": "在 $\\mathbb{R}$ 上定义运算 $\\otimes$：$x \\otimes y = x(1 - y)$. 若不等式 $(x - a) \\otimes (x + a) < 1$ 对任意实数 $x$ 成立，则（ ）\r\n\r\n\r\nC\r\n\r\n由运算定义，\r\n$(x-a)\\otimes(x+a)=(x-a)(1-x-a)=-x^2+x+a^2-a$.\r\n因此题设不等式对任意实数 $x$ 成立，等价于\r\n$-x^2+x+a^2-a<1$ 对任意 $x\\in\\mathbb{R}$.\r\n左侧关于 $x$ 的最大值在 $x=\\frac12$ 处取得，最大值为 $\\frac14+a^2-a$. 所以\r\n\n$$\n\\frac14+a^2-a<1\r\n\\Longleftrightarrow\r\na^2-a-\\frac34<0\r\n\\Longleftrightarrow\r\n-\\frac12<a<\\frac32\n$$\n\r\n故选 C.",
+          "body": "<p>在 $\\mathbb{R}$ 上定义运算 $\\otimes$：$x \\otimes y = x(1 - y)$. 若不等式 $(x - a) \\otimes (x + a) &#x3C; 1$ 对任意实数 $x$ 成立，则（ ）</p><p>C</p><p>由运算定义，</p><p>$(x-a)\\otimes(x+a)=(x-a)(1-x-a)=-x^{2}+x+a^{2}-a$.</p><p>因此题设不等式对任意实数 $x$ 成立，等价于</p><p>$-x^{2}+x+a^{2}-a&#x3C;1$ 对任意 $x\\in\\mathbb{R}$.</p><p>左侧关于 $x$ 的最大值在 $x=\\frac{1}{2}$ 处取得，最大值为 $\\frac{1}{4}+a^{2}-a$. 所以</p>\n$$\n\\frac{1}{4}+a^{2}-a&#x3C;1  \\Longleftrightarrow  a^{2}-a-\\frac{3}{4}&#x3C;0  \\Longleftrightarrow  -\\frac{1}{2}&#x3C;a&#x3C;\\frac{3}{2}\n$$\n<p>故选 C.</p>",
           "choices": [
-            "$-1 < a < 1$",
-            "$0 < a < 2$",
-            "$-\\frac{1}{2} < a < \\frac{3}{2}$",
-            "$-\\frac{3}{2} < a < \\frac{1}{2}$"
+            "$-1 &#x3C; a &#x3C; 1$",
+            "$0 &#x3C; a &#x3C; 2$",
+            "$-\\frac{1}{2}&#x3C; a &#x3C; \\frac{3}{2}$",
+            "$-\\frac{3}{2}&#x3C; a &#x3C; \\frac{1}{2}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 8,
-          "body": "若钝角三角形三内角的度数成等差数列，且最大边长与最小边长的比值为 $m$，则 $m$ 的范围是（ ）\r\n\r\n\r\nB\r\n\r\n设三个内角依次为 $\\frac\\pi3-t$、$\\frac\\pi3$、$\\frac\\pi3+t$. 因三角形为钝角三角形，最大角满足 $\\frac\\pi3+t>\\frac\\pi2$，又必须小于 $\\frac{2\\pi}3$，故\r\n$\\frac\\pi6<t<\\frac\\pi3$.\r\n由正弦定理，最大边与最小边的比值为\r\n$m=\\dfrac{\\sin(\\frac\\pi3+t)}{\\sin(\\frac\\pi3-t)}$.\r\n对 $m$ 求导得\r\n$m'(t)=\\dfrac{\\sin\\left(\\frac{2\\pi}{3}\\right)}{\\sin^2\\left(\\frac\\pi3-t\\right)}>0$.\r\n当 $t\\to\\frac\\pi6+$ 时，$m\\to\\frac1{\\frac{1}{2}}=2$；当 $t\\to\\frac\\pi3-$ 时，分母趋于 $0^+$，故 $m\\to+\\infty$. 因而 $m\\in(2,+\\infty)$，选 B.",
+          "body": "<p>若钝角三角形三内角的度数成等差数列，且最大边长与最小边长的比值为 $m$，则 $m$ 的范围是（ ）</p><p>B</p><p>设三个内角依次为 $\\frac{\\pi}{3}-t$、$\\frac{\\pi}{3}$、$\\frac{\\pi}{3}+t$. 因三角形为钝角三角形，最大角满足 $\\frac{\\pi}{3}+t>\\frac{\\pi}{2}$，又必须小于 $\\frac{2\\pi}{3}$，故</p><p>$\\frac{\\pi}{6}&#x3C;t&#x3C;\\frac{\\pi}{3}$.</p><p>由正弦定理，最大边与最小边的比值为</p><p>$m=\\dfrac{\\sin(\\frac{\\pi}{3}+t)}{\\sin(\\frac{\\pi}{3}-t)}$.</p><p>对 $m$ 求导得</p><p>$m'(t)=\\dfrac{\\sin\\left(\\frac{2\\pi}{3}\\right)}{\\sin^2\\left(\\frac{\\pi}{3}-t\\right)}>0$.</p><p>当 $t\\to\\frac{\\pi}{6}+$ 时，$m\\to\\frac{1}{\\frac{1}{2}}=2$；当 $t\\to\\frac{\\pi}{3}-$ 时，分母趋于 $0^{+}$，故 $m\\to+\\infty$. 因而 $m\\in(2,+\\infty)$，选 B.</p>",
           "choices": [
             "$(1,2)$",
             "$(2, +\\infty)$",
@@ -250,13 +101,11 @@
             "$(3, +\\infty)$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 9,
-          "body": "若直线 $2x - y + c = 0$ 按向量 $\\mathbf{a} = (1, -1)$ 平移后与圆 $x^{2} + y^{2} = 5$ 相切，则 $c$ 的值为（ ）\r\n\r\n\r\nA\r\n\r\n平移后直线上的点 $(x,y)$ 对应于原直线上的点 $(x-1,y+1)$，所以平移后的直线方程为\r\n$2(x-1)-(y+1)+c=0$，\r\n即 $2x-y+c-3=0$. 该直线与圆 $x^2+y^2=5$ 相切，当且仅当原点到直线的距离等于圆半径 $\\sqrt5$，即\r\n$\\frac{|c-3|}{\\sqrt5}=\\sqrt5$.\r\n所以 $|c-3|=5$，得 $c=8$ 或 $c=-2$，选 A.",
+          "body": "<p>若直线 $2x - y + c = 0$ 按向量 $\\mathbf{a}= (1, -1)$ 平移后与圆 $x^{2}+ y^{2}= 5$ 相切，则 $c$ 的值为（ ）</p><p>A</p><p>平移后直线上的点 $(x,y)$ 对应于原直线上的点 $(x-1,y+1)$，所以平移后的直线方程为</p><p>$2(x-1)-(y+1)+c=0$，</p><p>即 $2x-y+c-3=0$. 该直线与圆 $x^{2}+y^{2}=5$ 相切，当且仅当原点到直线的距离等于圆半径 $\\sqrt{5}$，即</p><p>$\\frac{|c-3|}{\\sqrt{5}}=\\sqrt{5}$.</p><p>所以 $|c-3|=5$，得 $c=8$ 或 $c=-2$，选 A.</p>",
           "choices": [
             "$8$ 或 $-2$",
             "$6$ 或 $-4$",
@@ -264,27 +113,23 @@
             "$2$ 或 $-8$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 10,
-          "body": "已知 $y = f(x)$ 是定义在 $\\mathbb{R}$ 上的单调函数，实数 $x_{1} \\neq x_{2}$，$\\lambda \\neq -1$，\r\n$\\alpha = \\frac{x_{1} + \\lambda x_{2}}{1 + \\lambda}$，$\\beta = \\frac{x_{2} + \\lambda x_{1}}{1 + \\lambda}$.\r\n若 $|f(x_{1}) - f(x_{2})| < |f(\\alpha) - f(\\beta)|$，则（ ）\r\n\r\n\r\nA\r\n\r\n不妨设 $x_1<x_2$. 若 $\\lambda\\geqslant0$，则\r\n有 $\\alpha=\\frac1{1+\\lambda}x_1+\\frac\\lambda{1+\\lambda}x_2$，$\\beta=\\frac\\lambda{1+\\lambda}x_1+\\frac1{1+\\lambda}x_2$，\r\n所以 $\\alpha$，$\\beta\\in[x_1,x_2]$. 因 $f$ 单调，区间 $[\\alpha,\\beta]$ 上的函数值差的绝对值不超过区间 $[x_1,x_2]$ 上端点函数值差，即\r\n$|f(\\alpha)-f(\\beta)|\\le|f(x_1)-f(x_2)|$，\r\n与题设矛盾. 因此必须有 $\\lambda<0$，选 A.",
+          "body": "<p>已知 $y = f(x)$ 是定义在 $\\mathbb{R}$ 上的单调函数，实数 $x_{1}\\neq x_{2}$，$\\lambda \\neq -1$，</p><p>$\\alpha = \\frac{x_{1}+ \\lambda x_{2}}{1 + \\lambda}$，$\\beta = \\frac{x_{2}+ \\lambda x_{1}}{1 + \\lambda}$.</p><p>若 $|f(x_{1}) - f(x_{2})| &#x3C; |f(\\alpha) - f(\\beta)|$，则（ ）</p><p>A</p><p>不妨设 $x_{1}&#x3C;x_{2}$. 若 $\\lambda\\geqslant0$，则</p><p>有 $\\alpha=\\frac{1}{1+\\lambda}x_{1}+\\frac{\\lambda}{1+\\lambda}x_{2}$，$\\beta=\\frac{\\lambda}{1+\\lambda}x_{1}+\\frac{1}{1+\\lambda}x_{2}$，</p><p>所以 $\\alpha$，$\\beta\\in[x_{1},x_{2}]$. 因 $f$ 单调，区间 $[\\alpha,\\beta]$ 上的函数值差的绝对值不超过区间 $[x_{1},x_{2}]$ 上端点函数值差，即</p><p>$|f(\\alpha)-f(\\beta)|\\le|f(x_{1})-f(x_{2})|$，</p><p>与题设矛盾. 因此必须有 $\\lambda&#x3C;0$，选 A.</p>",
           "choices": [
-            "$\\lambda < 0$",
+            "$\\lambda &#x3C; 0$",
             "$\\lambda = 0$",
-            "$0 < \\lambda < 1$",
+            "$0 &#x3C; \\lambda &#x3C; 1$",
             "$\\lambda \\ge 1$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 11,
-          "body": "已知双曲线的中心在原点，离心率为 $\\sqrt{3}$. 若它的一条准线与抛物线 $y^{2} = 4x$ 的准线重合，则该双曲线与抛物线 $y^{2} = 4x$ 的交点到原点的距离是（ ）\r\n\r\n\r\nB\r\n\r\n抛物线 $y^2=4x$ 的焦点为 $(1,0)$，准线为 $x=-1$. 双曲线的一条准线与其重合，故双曲线为横轴型，设其方程为\r\n$\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$，且 $c^2=a^2+b^2$，$\\frac ca=\\sqrt3$.\r\n双曲线准线为 $x=\\pm\\frac ae$，由 $\\frac ae=1$ 得 $a=\\sqrt3$，进而 $c=3$、$b^2=6$. 与抛物线联立：\r\n\n$$\n\\frac{x^2}{3}-\\frac{4x}{6}=1\r\n\\Longleftrightarrow\r\nx^2-2x-3=0\n$$\n\r\n解得 $x=3$ 或 $x=-1$，抛物线要求 $x\\geqslant0$，故交点的横坐标为 $3$，且 $y^2=12$. 交点到原点的距离为\r\n\n$$\n\\sqrt{x^2+y^2}=\\sqrt{9+12}=\\sqrt{21}\n$$\n\r\n选 B.",
+          "body": "<p>已知双曲线的中心在原点，离心率为 $\\sqrt{3}$. 若它的一条准线与抛物线 $y^{2}= 4x$ 的准线重合，则该双曲线与抛物线 $y^{2}= 4x$ 的交点到原点的距离是（ ）</p><p>B</p><p>抛物线 $y^{2}=4x$ 的焦点为 $(1,0)$，准线为 $x=-1$. 双曲线的一条准线与其重合，故双曲线为横轴型，设其方程为</p><p>$\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，且 $c^{2}=a^{2}+b^{2}$，$\\frac{c}{a}=\\sqrt{3}$.</p><p>双曲线准线为 $x=\\pm\\frac{a}{e}$，由 $\\frac{a}{e}=1$ 得 $a=\\sqrt{3}$，进而 $c=3$、$b^{2}=6$. 与抛物线联立：</p>\n$$\n\\frac{x^{2}}{3}-\\frac{4x}{6}=1  \\Longleftrightarrow  x^{2}-2x-3=0\n$$\n<p>解得 $x=3$ 或 $x=-1$，抛物线要求 $x\\geqslant0$，故交点的横坐标为 $3$，且 $y^{2}=12$. 交点到原点的距离为</p>\n$$\n\\sqrt{x^{2}+y^{2}}=\\sqrt{9+12}=\\sqrt{21}\n$$\n<p>选 B.</p>",
           "choices": [
             "$2\\sqrt{3}+\\sqrt{6}$",
             "$\\sqrt{21}$",
@@ -292,23 +137,19 @@
             "$21$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 12,
-          "body": "一给定函数 $y = f(x)$ 的图象在下列图中，并且对任意 $a_{1} \\in (0,1)$，由关系式 $a_{n+1} = f(a_n)$ 得到的数列 $\\{a_n\\}$ 满足 $a_{n+1} > a_n$（$n \\in \\mathbf{N}^*$），则该函数的图象是（ ）\r\n\r\n\r\nA\r\n\r\n由于 $a_1$ 可以是 $(0,1)$ 中的任意数，令 $a_1=x$，则由 $a_2>a_1$ 必须有 $f(x)>x$（$0<x<1$）.\r\n因此函数图象在开区间 $0<x<1$ 内必须位于直线 $y=x$ 的上方；同时，为了使递推对任意这样的初值继续成立，图象还应把 $(0,1)$ 映入自身. 图 A 满足这两个条件：对 $0<x<1$，有 $x<f(x)<1$，所以由归纳法可得 $0<a_n<1$ 且 $a_{n+1}>a_n$. 图 B、C、D 均存在 $x\\in(0,1)$ 使图象不在直线 $y=x$ 上方，不能满足题设. 故选 A.",
+          "body": "<p>一给定函数 $y = f(x)$ 的图象在下列图中，并且对任意 $a_{1}\\in (0,1)$，由关系式 $a_{n+1}= f(a_{n})$ 得到的数列 $\\{a_{n}\\}$ 满足 $a_{n+1}> a_{n}$（$n \\in \\mathbf{N}^{*}$），则该函数的图象是（ ）</p><p>A</p><p>由于 $a_{1}$ 可以是 $(0,1)$ 中的任意数，令 $a_{1}=x$，则由 $a_{2}>a_{1}$ 必须有 $f(x)>x$（$0&#x3C;x&#x3C;1$）.</p><p>因此函数图象在开区间 $0&#x3C;x&#x3C;1$ 内必须位于直线 $y=x$ 的上方；同时，为了使递推对任意这样的初值继续成立，图象还应把 $(0,1)$ 映入自身. 图 A 满足这两个条件：对 $0&#x3C;x&#x3C;1$，有 $x&#x3C;f(x)&#x3C;1$，所以由归纳法可得 $0&#x3C;a_{n}&#x3C;1$ 且 $a_{n+1}>a_{n}$. 图 B、C、D 均存在 $x\\in(0,1)$ 使图象不在直线 $y=x$ 上方，不能满足题设. 故选 A.</p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/liaoning/q12_optA_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/liaoning/q12_optB_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/liaoning/q12_optC_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/liaoning/q12_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/liaoning/q12_optA_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/liaoning/q12_optB_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/liaoning/q12_optC_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/liaoning/q12_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "$\\left(x^{\\frac{1}{2}} - 2x^{-\\frac{1}{2}}\\right)^{n}$ 的展开式中常数项是 _______ {}.\r\n\r\n若 $n=2k$（$k$ 为非负整数），常数项为 $(-2)^k\\mathrm C_{2k}^{k}$；若 $n$ 为奇数，则无常数项.\r\n\r\n展开式的第 $k+1$ 项为\r\n\n$$\n\\mathrm C_n^k\\left(x^{\\frac{1}{2}}\\right)^{n-k}\\left(-2x^{-\\frac{1}{2}}\\right)^k\r\n=\\mathrm C_n^k(-2)^k x^{\\frac{n-2k}{2}}\n$$\n\r\n要得到常数项，必须有 $\\frac{n-2k}{2}=0$，即 $k=\\frac n2$. 因此，只有当 $n=2k$ 为偶数时才有常数项，其系数为 $(-2)^k\\mathrm C_{2k}^{k}$；当 $n$ 为奇数时不存在满足条件的整数 $k$，所以没有常数项.",
-          "choices": [],
+          "body": "<p>$\\left(x^{\\frac{1}{2}}- 2x^{-\\frac{1}{2}}\\right)^{n}$ 的展开式中常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>若 $n=2k$（$k$ 为非负整数），常数项为 $(-2)^{k}\\mathrm{C}_{2k}^{k}$；若 $n$ 为奇数，则无常数项.</p><p>展开式的第 $k+1$ 项为</p>\n$$\n\\mathrm{C}_{n}^{k}\\left(x^{\\frac{1}{2}}\\right)^{n-k}\\left(-2x^{-\\frac{1}{2}}\\right)^{k}  =\\mathrm{C}_{n}^{k}(-2)^{k} x^{\\frac{n-2k}{2}}\n$$\n<p>要得到常数项，必须有 $\\frac{n-2k}{2}=0$，即 $k=\\frac{n}{2}$. 因此，只有当 $n=2k$ 为偶数时才有常数项，其系数为 $(-2)^{k}\\mathrm{C}_{2k}^{k}$；当 $n$ 为奇数时不存在满足条件的整数 $k$，所以没有常数项.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 14,
-          "body": "如图，正方体的棱长为 $1$，$C$，$D$ 分别是两条棱的中点，$A$，$B$，$M$ 是顶点，那么点 $M$ 到截面 $ABCD$ 的距离是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/liaoning/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n$\\frac{2}{3}$\r\n\r\n建立直角坐标系，取 $A=(0,0,0)$，令 $AM$ 方向、底面内从后向前的方向和竖直向上方向分别为三个坐标轴方向，则 $M=(1,0,0)$，$B=(1,1,0)$，$D=\\left(\\frac12,0,1\\right)$，$C=\\left(1,\\frac12,1\\right)$.\r\n平面 $ABCD$ 内有\r\n$\\overrightarrow{AB}=(1,1,0)$，$\\overrightarrow{AD}=\\left(\\frac12,0,1\\right)$.\r\n其法向量可取\r\n$\\overrightarrow{AB}\\times\\overrightarrow{AD}=\\left(1,-1,-\\frac12\\right)$，\r\n所以平面 $ABCD$ 的方程为 $2x-2y-z=0$. 因而点 $M$ 到该平面的距离为\r\n\n$$\n\\frac{|2\\cdot1-2\\cdot0-0|}{\\sqrt{2^2+(-2)^2+(-1)^2}}\r\n=\\frac23\n$$",
-          "choices": [],
+          "body": "<p>如图，正方体的棱长为 $1$，$C$，$D$ 分别是两条棱的中点，$A$，$B$，$M$ 是顶点，那么点 $M$ 到截面 $ABCD$ 的距离是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>$\\frac{2}{3}$</p><p>建立直角坐标系，取 $A=(0,0,0)$，令 $AM$ 方向、底面内从后向前的方向和竖直向上方向分别为三个坐标轴方向，则 $M=(1,0,0)$，$B=(1,1,0)$，$D=\\left(\\frac{1}{2},0,1\\right)$，$C=\\left(1,\\frac{1}{2},1\\right)$.</p><p>平面 $ABCD$ 内有</p><p>$\\overrightarrow{AB}=(1,1,0)$，$\\overrightarrow{AD}=\\left(\\frac{1}{2},0,1\\right)$.</p><p>其法向量可取</p><p>$\\overrightarrow{AB}\\times\\overrightarrow{AD}=\\left(1,-1,-\\frac{1}{2}\\right)$，</p><p>所以平面 $ABCD$ 的方程为 $2x-2y-z=0$. 因而点 $M$ 到该平面的距离为</p>\n$$\n\\frac{|2\\cdot1-2\\cdot0-0|}{\\sqrt{2^{2}+(-2)^{2}+(-1)^{2}}}=\\frac{2}{3}\n$$",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 15,
-          "body": "用 $1$，$2$，$3$，$4$，$5$，$6$，$7$，$8$ 组成没有重复数字的八位数，要求 $1$ 和 $2$ 相邻，$3$ 与 $4$ 相邻，$5$ 与 $6$ 相邻，而 $7$ 与 $8$ 不相邻，这样的八位数共有 _______ {}个.（用数字作答）\r\n\r\n576\r\n\r\n把相邻的 $1,2$、$3,4$、$5,6$ 分别看作三个整体，每个整体内部都有 $2$ 种排列方式. 先不考虑 $7,8$ 相邻的限制，五个对象 $(12)$，$(34)$，$(56)$，$7$，$8$\r\n的排列数为 $5!$，故共有 $5!\\cdot2^3$ 种.\r\n\r\n其中 $7,8$ 相邻时，把 $7,8$ 再看作一个整体，该整体有 $2$ 种内部排列，四个对象的排列数为 $4!\\cdot2^4$. 因而满足题意的八位数共有\r\n$5!\\cdot2^3-4!\\cdot2^4=960-384=576$ 个.",
-          "choices": [],
+          "body": "<p>用 $1$，$2$，$3$，$4$，$5$，$6$，$7$，$8$ 组成没有重复数字的八位数，要求 $1$ 和 $2$ 相邻，$3$ 与 $4$ 相邻，$5$ 与 $6$ 相邻，而 $7$ 与 $8$ 不相邻，这样的八位数共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>个.（用数字作答）</p><p>576</p><p>把相邻的 $1,2$、$3,4$、$5,6$ 分别看作三个整体，每个整体内部都有 $2$ 种排列方式. 先不考虑 $7,8$ 相邻的限制，五个对象 $(12)$，$(34)$，$(56)$，$7$，$8$</p><p>的排列数为 $5!$，故共有 $5!\\cdot2^{3}$ 种.</p><p>其中 $7,8$ 相邻时，把 $7,8$ 再看作一个整体，该整体有 $2$ 种内部排列，四个对象的排列数为 $4!\\cdot2^{4}$. 因而满足题意的八位数共有</p><p>$5!\\cdot2^{3}-4!\\cdot2^{4}=960-384=576$ 个.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 16,
-          "body": "$\\omega$ 是正实数. 设 $S_{\\omega} = \\{\\theta \\mid f(x) = \\cos[\\omega(x + \\theta)] \\text{ 是奇函数}\\}$，若对每个实数 $a$，$S_{\\omega} \\cap (a, a + 1)$ 的元素不超过 $2$ 个，且有 $a$ 使 $S_{\\omega} \\cap (a, a + 1)$ 含 $2$ 个元素，则 $\\omega$ 的取值范围是 _______ {}.\r\n\r\n$\\left(\\pi, 2\\pi\\right]$\r\n\r\n由 $f(x)=\\cos[\\omega(x+\\theta)]$ 为奇函数，先令 $x=0$，得到 $\\cos(\\omega\\theta)=0$. 反过来，若 $\\cos(\\omega\\theta)=0$，则\r\n$\\cos[\\omega(-x+\\theta)]=-\\cos[\\omega(x+\\theta)]$，\r\n所以\r\n\n$$\nS_{\\omega}=\\left\\{\\frac{\\frac{\\pi}{2}+k\\pi}{\\omega}\\mid k\\in\\mathbb{Z}\\right\\}\n$$\n\r\n相邻两个元素的距离为 $d=\\frac{\\pi}{\\omega}$. 任意长度为 $1$ 的开区间中元素不超过两个，当且仅当 $2d\\geqslant1$；存在某个这样的开区间含有两个元素，当且仅当 $d<1$. 因而\r\n$\\frac12\\le\\frac{\\pi}{\\omega}<1$，\r\n即 $\\pi<\\omega\\leqslant2\\pi$.",
-          "choices": [],
+          "body": "<p>$\\omega$ 是正实数. 设 $S_{\\omega}= \\{\\theta \\mid f(x) = \\cos[\\omega(x + \\theta)] \\text{ 是奇函数}\\}$，若对每个实数 $a$，$S_{\\omega}\\cap (a, a + 1)$ 的元素不超过 $2$ 个，且有 $a$ 使 $S_{\\omega}\\cap (a, a + 1)$ 含 $2$ 个元素，则 $\\omega$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\left(\\pi, 2\\pi\\right]$</p><p>由 $f(x)=\\cos[\\omega(x+\\theta)]$ 为奇函数，先令 $x=0$，得到 $\\cos(\\omega\\theta)=0$. 反过来，若 $\\cos(\\omega\\theta)=0$，则</p><p>$\\cos[\\omega(-x+\\theta)]=-\\cos[\\omega(x+\\theta)]$，</p><p>所以</p>\n$$\nS_{\\omega}=\\left\\{\\frac{\\frac{\\pi}{2}+k\\pi}{\\omega}\\mid k\\in\\mathbb{Z}\\right\\}\n$$\n<p>相邻两个元素的距离为 $d=\\frac{\\pi}{\\omega}$. 任意长度为 $1$ 的开区间中元素不超过两个，当且仅当 $2d\\geqslant1$；存在某个这样的开区间含有两个元素，当且仅当 $d&#x3C;1$. 因而</p><p>$\\frac{1}{2}\\le\\frac{\\pi}{\\omega}&#x3C;1$，</p><p>即 $\\pi&#x3C;\\omega\\leqslant2\\pi$.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知三棱锥 $P-ABC$ 中，$E$，$F$ 分别是 $AC$，$AB$ 的中点，$\\triangle ABC$，$\\triangle PEF$ 都是正三角形，$PF \\perp AB$.\r\n\r\n\n(1) 证明：$PC \\perp$ 平面 $PAB$；\n\n(2) 求二面角 $P-AB-C$ 的平面角的余弦值；\n\n(3) 若点 $P$，$A$，$B$，$C$ 在一个表面积为 $12\\pi$ 的球面上，求 $\\triangle ABC$ 的边长.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/liaoning/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\n(1) 设正三角形 $ABC$ 的边长为 $a$. 由 $E$ 是 $AC$ 的中点，且 $\\triangle PEF$ 与 $\\triangle ABC$ 都是正三角形，有\r\n$PE=EF=\\frac a2$，$AE=CE=\\frac a2$.\r\n因此 $E$ 到 $A$，$C$，$P$ 三点的距离相等，$E$ 是 $\\triangle APC$ 外接圆的圆心，而 $AC$ 是该圆的直径，从而 $\\angle APC=90^\\circ$，即 $AP\\perp PC$.\r\n\r\n又因为 $F$ 是正三角形 $ABC$ 的边 $AB$ 的中点，所以 $CF\\perp AB$；题设给出 $PF\\perp AB$. 直线 $PF$，$CF$ 在平面 $PFC$ 内相交，故 $AB\\perp$ 平面 $PFC$，从而 $PC\\perp AB$. 直线 $AP$，$AB$ 是平面 $PAB$ 内相交的两条直线，且 $PC$ 同时垂直于它们，所以 $PC\\perp$ 平面 $PAB$.\n\n(2) 因为 $PF\\perp AB$，$CF\\perp AB$，所以 $\\angle PFC$ 是二面角 $P-AB-C$ 的平面角. 又\r\n$PF=AF=\\frac a2$，$PF\\perp AF$，\r\n故在直角三角形 $PAF$ 中，\r\n$PA^2=PF^2+AF^2=\\frac{a^2}{2}$.\r\n由第（1）问，$\\triangle APC$ 在 $P$ 处直角，所以\r\n\n$$\nPC^2=AC^2-PA^2=a^2-\\frac{a^2}{2}=\\frac{a^2}{2}\n$$\n\r\n正三角形的中线给出 $CF=\\frac{\\sqrt3}{2}a$. 在 $\\triangle PFC$ 中应用余弦定理，得\r\n\n$$\n\\cos\\angle PFC\r\n=\\frac{PF^2+CF^2-PC^2}{2PF\\cdot CF}\r\n=\\frac{\\frac{a^2}{4}+\\frac{3a^2}{4}-\\frac{a^2}{2}}{2\\cdot\\frac a2\\cdot\\frac{\\sqrt3 a}{2}}\r\n=\\frac{\\sqrt3}{3}\n$$\n\n(3) 由 $BF=AF=\\frac a2$ 且 $PF\\perp AB$，同理可得\r\n$PB^2=PF^2+BF^2=\\frac{a^2}{2}$.\r\n于是 $PA=PB=PC=\\frac{a}{\\sqrt2}$. 又\r\n$PA^2+PB^2=a^2=AB^2$，\r\n所以 $PA\\perp PB$；结合第（1）问的 $PC\\perp$ 平面 $PAB$，从点 $P$ 出发的三条棱 $PA$，$PB$，$PC$ 两两垂直.\r\n\r\n设球的半径为 $R$. 由球的表面积为 $12\\pi$，得 $4\\pi R^2=12\\pi$，所以 $R=\\sqrt3$. 对于三条两两垂直且长度均为 $s=\\frac a{\\sqrt2}$ 的棱，球心到点 $P$，$A$，$B$，$C$ 的距离相等，故球心在三条棱方向上的坐标均为 $\\frac s2$，从而\r\n$R^2=3\\left(\\frac s2\\right)^2=\\frac{3a^2}{8}$.\r\n代入 $R^2=3$，得 $a^2=8$，所以 $\\triangle ABC$ 的边长为 $2\\sqrt2$.",
-          "choices": [],
+          "body": "<p>已知三棱锥 $P-ABC$ 中，$E$，$F$ 分别是 $AC$，$AB$ 的中点，$\\triangle ABC$，$\\triangle PEF$ 都是正三角形，$PF \\perp AB$.</p><ol class=\"enumerate\"><li><p>证明：$PC \\perp$ 平面 $PAB$；</p></li><li><p>求二面角 $P-AB-C$ 的平面角的余弦值；</p></li><li><p>若点 $P$，$A$，$B$，$C$ 在一个表面积为 $12\\pi$ 的球面上，求 $\\triangle ABC$ 的边长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>设正三角形 $ABC$ 的边长为 $a$. 由 $E$ 是 $AC$ 的中点，且 $\\triangle PEF$ 与 $\\triangle ABC$ 都是正三角形，有</p><p>$PE=EF=\\frac{a}{2}$，$AE=CE=\\frac{a}{2}$.</p><p>因此 $E$ 到 $A$，$C$，$P$ 三点的距离相等，$E$ 是 $\\triangle APC$ 外接圆的圆心，而 $AC$ 是该圆的直径，从而 $\\angle APC=90^{\\circ}$，即 $AP\\perp PC$.</p><p>又因为 $F$ 是正三角形 $ABC$ 的边 $AB$ 的中点，所以 $CF\\perp AB$；题设给出 $PF\\perp AB$. 直线 $PF$，$CF$ 在平面 $PFC$ 内相交，故 $AB\\perp$ 平面 $PFC$，从而 $PC\\perp AB$. 直线 $AP$，$AB$ 是平面 $PAB$ 内相交的两条直线，且 $PC$ 同时垂直于它们，所以 $PC\\perp$ 平面 $PAB$.</p></li><li><p>因为 $PF\\perp AB$，$CF\\perp AB$，所以 $\\angle PFC$ 是二面角 $P-AB-C$ 的平面角. 又</p><p>$PF=AF=\\frac{a}{2}$，$PF\\perp AF$，</p><p>故在直角三角形 $PAF$ 中，</p><p>$PA^{2}=PF^{2}+AF^{2}=\\frac{a^{2}}{2}$.</p><p>由第（1）问，$\\triangle APC$ 在 $P$ 处直角，所以</p>\n$$\nPC^{2}=AC^{2}-PA^{2}=a^{2}-\\frac{a^{2}}{2}=\\frac{a^{2}}{2}\n$$\n<p>正三角形的中线给出 $CF=\\frac{\\sqrt{3}}{2}a$. 在 $\\triangle PFC$ 中应用余弦定理，得</p>\n$$\n\\cos\\angle PFC  =\\frac{PF^{2}+CF^{2}-PC^{2}}{2PF\\cdot CF}=\\frac{\\frac{a^{2}}{4}+\\frac{3a^{2}}{4}-\\frac{a^{2}}{2}}{2\\cdot\\frac{a}{2}\\cdot\\frac{\\sqrt{3} a}{2}}=\\frac{\\sqrt{3}}{3}\n$$\n</li><li><p>由 $BF=AF=\\frac{a}{2}$ 且 $PF\\perp AB$，同理可得</p><p>$PB^{2}=PF^{2}+BF^{2}=\\frac{a^{2}}{2}$.</p><p>于是 $PA=PB=PC=\\frac{a}{\\sqrt{2}}$. 又</p><p>$PA^{2}+PB^{2}=a^{2}=AB^{2}$，</p><p>所以 $PA\\perp PB$；结合第（1）问的 $PC\\perp$ 平面 $PAB$，从点 $P$ 出发的三条棱 $PA$，$PB$，$PC$ 两两垂直.</p><p>设球的半径为 $R$. 由球的表面积为 $12\\pi$，得 $4\\pi R^{2}=12\\pi$，所以 $R=\\sqrt{3}$. 对于三条两两垂直且长度均为 $s=\\frac{a}{\\sqrt{2}}$ 的棱，球心到点 $P$，$A$，$B$，$C$ 的距离相等，故球心在三条棱方向上的坐标均为 $\\frac{s}{2}$，从而</p><p>$R^{2}=3\\left(\\frac{s}{2}\\right)^{2}=\\frac{3a^{2}}{8}$.</p><p>代入 $R^{2}=3$，得 $a^{2}=8$，所以 $\\triangle ABC$ 的边长为 $2\\sqrt{2}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 18,
-          "body": "如图，在直径为 $1$ 的圆 $O$ 中，作一关于圆心对称，邻边互相垂直的十字形，其中 $y > x > 0$.\r\n\r\n\n(1) 将十字形的面积表示为 $\\theta$ 的函数；\n\n(2) $\\theta$ 为何值时，十字形的面积最大？最大面积是多少？\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/liaoning/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\n(1) 设图中十字形的横、纵两个长方形的长边均为 $y$，短边均为 $x$. 两个长方形的公共部分是边长为 $x$ 的正方形，所以十字形面积为\r\n$S=2xy-x^2$.\r\n由图中半径方向形成的直角三角形及圆的直径为 $1$，有 $x=\\cos\\theta$，$y=\\sin\\theta$. 条件 $y>x>0$ 给出 $\\frac\\pi4<\\theta<\\frac\\pi2$，故\r\n$S(\\theta)=2\\sin\\theta\\cos\\theta-\\cos^2\\theta$.\n\n(2) 对上式求导，得\r\n$S'(\\theta)=2\\cos2\\theta+\\sin2\\theta$.\r\n在 $\\frac\\pi4<\\theta<\\frac\\pi2$ 内，令 $S'(\\theta)=0$，则\r\n$2\\cos2\\theta+\\sin2\\theta=0$.\r\n因为 $\\frac\\pi2<2\\theta<\\pi$，所以 $\\sin2\\theta=\\frac2{\\sqrt5}$，$\\cos2\\theta=-\\frac1{\\sqrt5}$. 因而\r\n$\\theta=\\frac\\pi4+\\frac12\\arccos\\frac2{\\sqrt5}$.\r\n此时\r\n\n$$\nS=\\sin2\\theta-\\cos^2\\theta\r\n=\\frac2{\\sqrt5}-\\frac{1+\\cos2\\theta}{2}\r\n=\\frac2{\\sqrt5}-\\frac{1-\\frac1{\\sqrt5}}2\r\n=\\frac{\\sqrt5-1}{2}\n$$\n\r\n区间端点不属于定义域；当 $\\theta\\to\\frac\\pi4+$ 和 $\\theta\\to\\frac\\pi2-$ 时，面积分别趋于 $\\frac12$ 和 $0$，均小于上述驻点处的面积. 又上述驻点唯一且导数由正变负，所以该值为最大面积.",
-          "choices": [],
+          "body": "<p>如图，在直径为 $1$ 的圆 $O$ 中，作一关于圆心对称，邻边互相垂直的十字形，其中 $y > x > 0$.</p><ol class=\"enumerate\"><li><p>将十字形的面积表示为 $\\theta$ 的函数；</p></li><li><p>$\\theta$ 为何值时，十字形的面积最大？最大面积是多少？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/liaoning/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>设图中十字形的横、纵两个长方形的长边均为 $y$，短边均为 $x$. 两个长方形的公共部分是边长为 $x$ 的正方形，所以十字形面积为</p><p>$S=2xy-x^{2}$.</p><p>由图中半径方向形成的直角三角形及圆的直径为 $1$，有 $x=\\cos\\theta$，$y=\\sin\\theta$. 条件 $y>x>0$ 给出 $\\frac{\\pi}{4}&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，故</p><p>$S(\\theta)=2\\sin\\theta\\cos\\theta-\\cos^{2}\\theta$.</p></li><li><p>对上式求导，得</p><p>$S'(\\theta)=2\\cos2\\theta+\\sin2\\theta$.</p><p>在 $\\frac{\\pi}{4}&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$ 内，令 $S'(\\theta)=0$，则</p><p>$2\\cos2\\theta+\\sin2\\theta=0$.</p><p>因为 $\\frac{\\pi}{2}&#x3C;2\\theta&#x3C;\\pi$，所以 $\\sin2\\theta=\\frac{2}{\\sqrt{5}}$，$\\cos2\\theta=-\\frac{1}{\\sqrt{5}}$. 因而</p><p>$\\theta=\\frac{\\pi}{4}+\\frac{1}{2}\\arccos\\frac{2}{\\sqrt{5}}$.</p><p>此时</p>\n$$\nS=\\sin2\\theta-\\cos^{2}\\theta  =\\frac{2}{\\sqrt{5}}-\\frac{1+\\cos2\\theta}{2}=\\frac{2}{\\sqrt{5}}-\\frac{1-\\frac{1}{\\sqrt{5}}}{2}  =\\frac{\\sqrt{5}-1}{2}\n$$\n<p>区间端点不属于定义域；当 $\\theta\\to\\frac{\\pi}{4}+$ 和 $\\theta\\to\\frac{\\pi}{2}-$ 时，面积分别趋于 $\\frac{1}{2}$ 和 $0$，均小于上述驻点处的面积. 又上述驻点唯一且导数由正变负，所以该值为最大面积.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 19,
-          "body": "已知函数 $f(x) = \\frac{x+3}{x+1}$（$x \\ne -1$）. 设数列 $\\{a_n\\}$ 满足 $a_1 = 1$，$a_{n+1} = f(a_n)$，数列 $\\{b_n\\}$ 满足 $b_n = |a_n - \\sqrt{3}|$，$S_n = b_1 + b_2 + \\cdots + b_n$（$n \\in \\mathbf{N}^*$）.\r\n\r\n\n(1) 用数学归纳法证明：$b_n \\le \\frac{(\\sqrt{3} - 1)^n}{2^{n-1}}$；\n\n(2) 证明：$S_n < \\frac{2\\sqrt{3}}{3}$.\n\r\n\r\n\n(1) 记 $r=\\sqrt3$. 由于\r\n\n$$\na_{n+1}=\\frac{a_n+3}{a_n+1}=1+\\frac2{a_n+1}\n$$\n\r\n且 $a_1=1$，可归纳得到 $a_n\\geqslant1$ 对一切正整数 $n$ 成立. 另外，\r\n$a_{n+1}-r=\\dfrac{(1-r)(a_n-r)}{a_n+1}$，\r\n所以\r\n\n$$\nb_{n+1}=\\frac{r-1}{a_n+1}b_n\\le\\frac{r-1}{2}b_n<\\frac12b_n\n$$\n\r\n\r\n下面用数学归纳法证明 $b_n\\le\\frac{(r-1)^n}{2^{n-1}}$. 当 $n=1$ 时，$b_1=|1-r|=r-1$，结论成立. 假设当 $n=k$ 时结论成立，则\r\n\n$$\nb_{k+1}\\le\\frac{r-1}{2}b_k\\le\\frac{r-1}{2}\\cdot\\frac{(r-1)^k}{2^{k-1}}=\\frac{(r-1)^{k+1}}{2^k}\n$$\n\r\n因此结论对 $k+1$ 也成立，故对一切正整数 $n$ 成立.\n\n(2) 先算得 $a_2=f(1)=2$. 又因为 $f(x)=\\frac{x+3}{x+1}$ 在 $[\\frac53,2]$ 上递减，且\r\n$f(2)=\\frac53$，$f\\left(\\frac53\\right)=\\frac74$，\r\n所以由归纳法可得 $\\frac53\\le a_n\\leqslant2$ 对一切 $n\\geqslant2$ 成立. 对 $n\\geqslant2$，有\r\n\n$$\nb_{n+1}=\\frac{r-1}{a_n+1}b_n\\le\\frac{3(r-1)}8b_n<\\frac13b_n\n$$\n\r\n其中最后一个不等式由 $\\sqrt3<\\frac{17}{9}$ 得到. 因而\r\n$S_n<b_1+b_2\\left(1+\\frac13+\\frac1{3^2}+\\cdots\\right)$.\r\n又 $b_1=r-1$，$b_2=|2-r|=2-r$，所以\r\n$S_n<r-1+\\frac32(2-r)=2-\\frac r2$.\r\n最后，$\\sqrt3>\\frac{12}{7}$，从而\r\n$2-\\frac r2<\\frac{2r}{3}$.\r\n故 $S_n<\\frac{2\\sqrt3}{3}$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\frac{x+3}{x+1}$（$x \\ne -1$）. 设数列 $\\{a_{n}\\}$ 满足 $a_{1} = 1$，$a_{n+1}= f(a_{n})$，数列 $\\{b_{n}\\}$ 满足 $b_{n} = |a_{n} - \\sqrt{3}|$，$S_{n} = b_{1} + b_{2} + \\cdots + b_{n}$（$n \\in \\mathbf{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>用数学归纳法证明：$b_{n} \\le \\frac{(\\sqrt{3}- 1)^{n}}{2^{n-1}}$；</p></li><li><p>证明：$S_{n} &#x3C; \\frac{2\\sqrt{3}}{3}$.</p></li></ol><ol class=\"enumerate\"><li><p>记 $r=\\sqrt{3}$. 由于</p>\n$$\na_{n+1}=\\frac{a_{n}+3}{a_{n}+1}=1+\\frac{2}{a_{n}+1}\n$$\n<p>且 $a_{1}=1$，可归纳得到 $a_{n}\\geqslant1$ 对一切正整数 $n$ 成立. 另外，</p><p>$a_{n+1}-r=\\dfrac{(1-r)(a_n-r)}{a_n+1}$，</p><p>所以</p>\n$$\nb_{n+1}=\\frac{r-1}{a_{n}+1}b_{n}\\le\\frac{r-1}{2}b_{n}&#x3C;\\frac{1}{2}b_{n}\n$$\n<p>下面用数学归纳法证明 $b_{n}\\le\\frac{(r-1)^{n}}{2^{n-1}}$. 当 $n=1$ 时，$b_{1}=|1-r|=r-1$，结论成立. 假设当 $n=k$ 时结论成立，则</p>\n$$\nb_{k+1}\\le\\frac{r-1}{2}b_{k}\\le\\frac{r-1}{2}\\cdot\\frac{(r-1)^{k}}{2^{k-1}}=\\frac{(r-1)^{k+1}}{2^{k}}\n$$\n<p>因此结论对 $k+1$ 也成立，故对一切正整数 $n$ 成立.</p></li><li><p>先算得 $a_{2}=f(1)=2$. 又因为 $f(x)=\\frac{x+3}{x+1}$ 在 $[\\frac{5}{3},2]$ 上递减，且</p><p>$f(2)=\\frac{5}{3}$，$f\\left(\\frac{5}{3}\\right)=\\frac{7}{4}$，</p><p>所以由归纳法可得 $\\frac{5}{3}\\le a_{n}\\leqslant2$ 对一切 $n\\geqslant2$ 成立. 对 $n\\geqslant2$，有</p>\n$$\nb_{n+1}=\\frac{r-1}{a_{n}+1}b_{n}\\le\\frac{3(r-1)}{8}b_{n}&#x3C;\\frac{1}{3}b_{n}\n$$\n<p>其中最后一个不等式由 $\\sqrt{3}&#x3C;\\frac{17}{9}$ 得到. 因而</p><p>$S_{n}&#x3C;b_{1}+b_{2}\\left(1+\\frac{1}{3}+\\frac{1}{3^{2}}+\\cdots\\right)$.</p><p>又 $b_{1}=r-1$，$b_{2}=|2-r|=2-r$，所以</p><p>$S_{n}&#x3C;r-1+\\frac{3}{2}(2-r)=2-\\frac{r}{2}$.</p><p>最后，$\\sqrt{3}>\\frac{12}{7}$，从而</p><p>$2-\\frac{r}{2}&#x3C;\\frac{2r}{3}$.</p><p>故 $S_{n}&#x3C;\\frac{2\\sqrt{3}}{3}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 20,
-          "body": "某工厂生产甲，乙两种产品，每种产品都是经过第一和第二工序加工而成，两道工序的加工结果相互独立，每道工序的加工结果均有 $A$，$B$ 两个等级. 对每种产品，两道工序的加工结果都为 $A$ 级时，产品为一等品，其余均为二等品.\r\n\r\n\n(1) 已知甲，乙两种产品每一道工序的加工结果为 $A$ 级的概率如表一所示，分别求生产出的甲，乙产品为一等品的概率 $P_{\\text{甲}}$，$P_{\\text{乙}}$.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n\\hline\r\n & 第一工序 & 第二工序 \\\\\r\n\\hline\r\n甲 & $0.8$ & $0.85$ \\\\\r\n乙 & $0.75$ & $0.8$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\r\n表一\r\n\\end{center}\n\n(2) 已知一件产品的利润如表二所示，用 $\\xi$，$\\eta$ 分别表示一件甲，乙产品的利润，在（1）的条件下，求 $\\xi$，$\\eta$ 的分布列及 $E(\\xi)$，$E(\\eta)$.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n\\hline\r\n & 一等 & 二等 \\\\\r\n\\hline\r\n甲 & $5\\text{ 万元}$ & $2.5\\text{ 万元}$ \\\\\r\n乙 & $2.5\\text{ 万元}$ & $1.5\\text{ 万元}$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\r\n表二\r\n\\end{center}\n\n(3) 已知生产一件产品需用的工人数和资金额如表三所示. 该工厂有工人 $40$ 名，可用资金 $60$ 万元. 设 $x$，$y$ 分别表示生产甲，乙产品的数量，在（2）的条件下，$x$，$y$ 为何值时，$z = xE(\\xi) + yE(\\eta)$ 最大？最大值是多少？\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n\\hline\r\n & 工人（名） & 资金（万元） \\\\\r\n\\hline\r\n甲 & $8$ & $8$ \\\\\r\n乙 & $2$ & $10$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\r\n表三\r\n\\end{center}\n\r\n\r\n\n(1) 两道工序相互独立，且一等品要求两道工序均为 $A$ 级，因此\r\n$P_{\\text{甲}}=0.8\\times0.85=0.68$，$P_{\\text{乙}}=0.75\\times0.8=0.6$.\n\n(2) 甲产品一等品的利润为 $5$ 万元，二等品的利润为 $2.5$ 万元，所以\r\n$P(\\xi=5)=0.68$，$P(\\xi=2.5)=1-0.68=0.32$，$E(\\xi)=5\\times0.68+2.5\\times0.32=4.2$.\r\n同理，乙产品的分布为\r\n$P(\\eta=2.5)=0.6$，$P(\\eta=1.5)=0.4$，且 $E(\\eta)=2.5\\times0.6+1.5\\times0.4=2.1$.\n\n(3) 由表三，生产数量 $x$，$y$ 应满足\r\n$8x+2y\\leqslant40$，$8x+10y\\leqslant60$，$x\\geqslant0$，$y\\geqslant0$.\r\n目标函数为\r\n$z=xE(\\xi)+yE(\\eta)=4.2x+2.1y$.\r\n因为 $x$，$y$ 表示产品的数量，所以 $x$，$y$ 为非负整数. 由约束条件得 $0\\le x\\leqslant5$. 对每个可能的 $x$，由\r\n$y\\leqslant20-4x$，$y\\leqslant6-\\frac45x$\r\n可取的最大整数 $y$ 依次为 $6$，$5$，$4$，$3$，$2$，$0$. 由于 $z$ 关于 $y$ 的系数 $2.1>0$，固定 $x$ 时应取上述最大值. 又\r\n$z=4.2x+2.1y=2.1(2x+y)$，\r\n所以 $2x+y$ 的最大值依次为 $6$，$7$，$8$，$9$，$10$，$10$. 因而当 $(x,y)=(4,2)$ 或 $(5,0)$ 时，$z$ 取得最大值，最大值为\r\n$z_{\\max}=2.1\\times10=21$.",
-          "choices": [],
+          "body": "<p>某工厂生产甲，乙两种产品，每种产品都是经过第一和第二工序加工而成，两道工序的加工结果相互独立，每道工序的加工结果均有 $A$，$B$ 两个等级. 对每种产品，两道工序的加工结果都为 $A$ 级时，产品为一等品，其余均为二等品.</p><ol class=\"enumerate\"><li><p>已知甲，乙两种产品每一道工序的加工结果为 $A$ 级的概率如表一所示，分别求生产出的甲，乙产品为一等品的概率 $P_{\\text{甲}}$，$P_{\\text{乙}}$.</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td><td style=\"text-align: center\"> 第一工序 </td><td style=\"text-align: center\"> 第二工序 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>甲 </td><td style=\"text-align: center\"> $0.8$ </td><td style=\"text-align: center\"> $0.85$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>乙 </td><td style=\"text-align: center\"> $0.75$ </td><td style=\"text-align: center\"> $0.8$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table><br>表一</center><p></p></li><li><p>已知一件产品的利润如表二所示，用 $\\xi$，$\\eta$ 分别表示一件甲，乙产品的利润，在（1）的条件下，求 $\\xi$，$\\eta$ 的分布列及 $E(\\xi)$，$E(\\eta)$.</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td><td style=\"text-align: center\"> 一等 </td><td style=\"text-align: center\"> 二等 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>甲 </td><td style=\"text-align: center\"> $5\\text{ 万元}$ </td><td style=\"text-align: center\"> $2.5\\text{ 万元}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>乙 </td><td style=\"text-align: center\"> $2.5\\text{ 万元}$ </td><td style=\"text-align: center\"> $1.5\\text{ 万元}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table><br>表二</center><p></p></li><li><p>已知生产一件产品需用的工人数和资金额如表三所示. 该工厂有工人 $40$ 名，可用资金 $60$ 万元. 设 $x$，$y$ 分别表示生产甲，乙产品的数量，在（2）的条件下，$x$，$y$ 为何值时，$z = xE(\\xi) + yE(\\eta)$ 最大？最大值是多少？</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td><td style=\"text-align: center\"> 工人（名） </td><td style=\"text-align: center\"> 资金（万元） </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>甲 </td><td style=\"text-align: center\"> $8$ </td><td style=\"text-align: center\"> $8$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>乙 </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $10$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table><br>表三</center><p></p></li></ol><ol class=\"enumerate\"><li><p>两道工序相互独立，且一等品要求两道工序均为 $A$ 级，因此</p><p>$P_{\\text{甲}}=0.8\\times0.85=0.68$，$P_{\\text{乙}}=0.75\\times0.8=0.6$.</p></li><li><p>甲产品一等品的利润为 $5$ 万元，二等品的利润为 $2.5$ 万元，所以</p><p>$P(\\xi=5)=0.68$，$P(\\xi=2.5)=1-0.68=0.32$，$E(\\xi)=5\\times0.68+2.5\\times0.32=4.2$.</p><p>同理，乙产品的分布为</p><p>$P(\\eta=2.5)=0.6$，$P(\\eta=1.5)=0.4$，且 $E(\\eta)=2.5\\times0.6+1.5\\times0.4=2.1$.</p></li><li><p>由表三，生产数量 $x$，$y$ 应满足</p><p>$8x+2y\\leqslant40$，$8x+10y\\leqslant60$，$x\\geqslant0$，$y\\geqslant0$.</p><p>目标函数为</p><p>$z=xE(\\xi)+yE(\\eta)=4.2x+2.1y$.</p><p>因为 $x$，$y$ 表示产品的数量，所以 $x$，$y$ 为非负整数. 由约束条件得 $0\\le x\\leqslant5$. 对每个可能的 $x$，由</p><p>$y\\leqslant20-4x$，$y\\leqslant6-\\frac{4}{5}x$</p><p>可取的最大整数 $y$ 依次为 $6$，$5$，$4$，$3$，$2$，$0$. 由于 $z$ 关于 $y$ 的系数 $2.1>0$，固定 $x$ 时应取上述最大值. 又</p><p>$z=4.2x+2.1y=2.1(2x+y)$，</p><p>所以 $2x+y$ 的最大值依次为 $6$，$7$，$8$，$9$，$10$，$10$. 因而当 $(x,y)=(4,2)$ 或 $(5,0)$ 时，$z$ 取得最大值，最大值为</p><p>$z_{\\max}=2.1\\times10=21$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 21,
-          "body": "已知椭圆 $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的左，右焦点分别是 $F_1(-c, 0)$，$F_2(c, 0)$，$Q$ 是椭圆外的动点. 满足 $\\left|\\overrightarrow{F_1Q}\\right| = 2a$. 点 $P$ 是线段 $F_1Q$ 与该椭圆的交点，点 $T$ 在线段 $F_2Q$ 上，并且满足 $\\overrightarrow{PT} \\cdot \\overrightarrow{TF_2} = 0$，$\\left|\\overrightarrow{F_2T}\\right| \\neq 0$.\r\n\r\n\n(1) 设 $x$ 为点 $P$ 的横坐标，证明：$\\left|\\overrightarrow{F_1P}\\right| = a + \\frac{c}{a}x$；\n\n(2) 求点 $T$ 的轨迹 $C$ 的方程；\n\n(3) 试问：在点 $T$ 的轨迹 $C$ 上，是否存在点 $M$，使 $\\triangle F_1MF_2$ 的面积 $S = b^2$. 若存在，求 $\\angle F_1MF_2$ 的正切值；若不存在，请说明理由.\n\r\n\r\n\n(1) 设 $P=(x,y)$. 由椭圆方程及 $a^2=b^2+c^2$，有\r\n\n$$\n\\left|\\overrightarrow{F_1P}\\right|^2=(x+c)^2+y^2=(x+c)^2+b^2\\left(1-\\frac{x^2}{a^2}\\right)\n$$\n\r\n又因 $a^2=b^2+c^2$，所以\r\n\n$$\n\\left|\\overrightarrow{F_1P}\\right|^2=a^2+2cx+\\frac{c^2}{a^2}x^2=\\left(a+\\frac ca x\\right)^2\n$$\n\r\n椭圆上 $-a\\le x\\le a$，而 $a+\\frac ca x\\ge a-c>0$，故\r\n$\\left|\\overrightarrow{F_1P}\\right|=a+\\frac ca x$.\n\n(2) 由椭圆的定义，$PF_1+PF_2=2a$. 又题设 $F_1Q=2a$，且 $P$ 在线段 $F_1Q$ 上，所以\r\n\n$$\nPQ=F_1Q-F_1P=2a-PF_1=PF_2\n$$\n\r\n若 $P\\ne T$，则因 $\\left|\\overrightarrow{F_2T}\\right|\\ne0$ 且 $\\overrightarrow{PT}\\cdot\\overrightarrow{TF_2}=0$，有 $PT\\perp TF_2$. 在等腰三角形 $QPF_2$ 中，$PT$ 是底边 $QF_2$ 上的高，所以 $T$ 是 $QF_2$ 的中点. 若 $P=T$，则 $P$ 在 $QF_2$ 上，且 $PQ=PF_2$，所以 $P=T$ 仍是 $QF_2$ 的中点. 因而无论哪种情形，$T$ 都是 $QF_2$ 的中点.\r\n\r\n设 $T=(u,v)$，$Q=(X,Y)$. 因为 $T$ 是 $QF_2$ 的中点，\r\n$u=\\frac{X+c}{2}$，$v=\\frac Y2$.\r\n而 $F_1Q=2a$ 给出 $(X+c)^2+Y^2=4a^2$，于是\r\n\n$$\nu^2+v^2=\\frac{(X+c)^2+Y^2}{4}=a^2\n$$\n\r\n因此点 $T$ 的轨迹包含在圆 $x^2+y^2=a^2$ 上.\r\n\r\n反过来，任取圆 $u^2+v^2=a^2$ 上的点 $T=(u,v)$，令 $Q=(2u-c,2v)$. 则 $F_1Q=2a$. 又因为椭圆包含在圆 $x^2+y^2\\le a^2$ 内，且 $F_1$ 到该圆内任一点的距离不超过 $a+c<2a$，所以 $Q$ 在椭圆外；而 $F_1$ 在椭圆内部，故线段 $F_1Q$ 与椭圆相交于一点 $P$. 由前面的等式 $PQ=PF_2$，三角形 $QPF_2$ 为等腰三角形，且 $T$ 是其底边 $QF_2$ 的中点，因此 $T$ 满足题设条件. 另外，$|F_2T|\\ne0$，因为 $|F_2|=c<a=|OT|$. 所以圆上每一点都能取得，轨迹方程为\r\n$C:\\ x^2+y^2=a^2$.\n\n(3) 设 $M=(x_0,y_0)$ 在轨迹 $C$ 上. 三角形 $F_1MF_2$ 的底边为 $2c$，故\r\n$S=\\frac12\\cdot2c\\cdot|y_0|=c|y_0|$. 条件 $S=b^2$ 等价于 $|y_0|=\\frac{b^2}{c}$. 因为 $M\\in C$ 时 $|y_0|\\le a$，所以存在这样的点 $M$ 的充要条件是 $a\\ge\\frac{b^2}{c}$.\r\n若 $a<\\frac{b^2}{c}$，则圆 $C$ 上任意点的三角形面积都小于 $b^2$，不存在这样的点 $M$. 当 $a\\ge\\frac{b^2}{c}$ 时，取圆 $C$ 上满足 $|y_0|=\\frac{b^2}{c}$ 的点 $M$，下面求其角度.\r\n\r\n\n$$\n\\overrightarrow{MF_1}\\cdot\\overrightarrow{MF_2}\r\n=(-c-x_0,-y_0)\\cdot(c-x_0,-y_0)\r\n=x_0^2+y_0^2-c^2\r\n=a^2-c^2=b^2\n$$\n\r\n另一方面，$\\overrightarrow{MF_1}$ 与 $\\overrightarrow{MF_2}$ 的夹角就是 $\\angle F_1MF_2$，所以\r\n\n$$\n\\tan\\angle F_1MF_2\r\n=\\frac{2S}{\\overrightarrow{MF_1}\\cdot\\overrightarrow{MF_2}}\r\n=\\frac{2b^2}{b^2}=2\n$$",
-          "choices": [],
+          "body": "<p>已知椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的左，右焦点分别是 $F_{1}(-c, 0)$，$F_{2}(c, 0)$，$Q$ 是椭圆外的动点. 满足 $\\left|\\overrightarrow{F_1Q}\\right| = 2a$. 点 $P$ 是线段 $F_{1}Q$ 与该椭圆的交点，点 $T$ 在线段 $F_{2}Q$ 上，并且满足 $\\overrightarrow{PT}\\cdot \\overrightarrow{TF_2}= 0$，$\\left|\\overrightarrow{F_2T}\\right| \\neq 0$.</p><ol class=\"enumerate\"><li><p>设 $x$ 为点 $P$ 的横坐标，证明：$\\left|\\overrightarrow{F_1P}\\right| = a + \\frac{c}{a}x$；</p></li><li><p>求点 $T$ 的轨迹 $C$ 的方程；</p></li><li><p>试问：在点 $T$ 的轨迹 $C$ 上，是否存在点 $M$，使 $\\triangle F_{1}MF_{2}$ 的面积 $S = b^{2}$. 若存在，求 $\\angle F_{1}MF_{2}$ 的正切值；若不存在，请说明理由.</p></li></ol><ol class=\"enumerate\"><li><p>设 $P=(x,y)$. 由椭圆方程及 $a^{2}=b^{2}+c^{2}$，有</p>\n$$\n\\left|\\overrightarrow{F_1P}\\right|^{2}=(x+c)^{2}+y^{2}=(x+c)^{2}+b^{2}\\left(1-\\frac{x^{2}}{a^{2}}\\right)\n$$\n<p>又因 $a^{2}=b^{2}+c^{2}$，所以</p>\n$$\n\\left|\\overrightarrow{F_1P}\\right|^{2}=a^{2}+2cx+\\frac{c^{2}}{a^{2}}x^{2}=\\left(a+\\frac{c}{a}x\\right)^{2}\n$$\n<p>椭圆上 $-a\\le x\\le a$，而 $a+\\frac{c}{a}x\\ge a-c>0$，故</p><p>$\\left|\\overrightarrow{F_1P}\\right|=a+\\frac{c}{a}x$.</p></li><li><p>由椭圆的定义，$PF_{1}+PF_{2}=2a$. 又题设 $F_{1}Q=2a$，且 $P$ 在线段 $F_{1}Q$ 上，所以</p>\n$$\nPQ=F_{1}Q-F_{1}P=2a-PF_{1}=PF_{2}\n$$\n<p>若 $P\\ne T$，则因 $\\left|\\overrightarrow{F_2T}\\right|\\ne0$ 且 $\\overrightarrow{PT}\\cdot\\overrightarrow{TF_2}=0$，有 $PT\\perp TF_{2}$. 在等腰三角形 $QPF_{2}$ 中，$PT$ 是底边 $QF_{2}$ 上的高，所以 $T$ 是 $QF_{2}$ 的中点. 若 $P=T$，则 $P$ 在 $QF_{2}$ 上，且 $PQ=PF_{2}$，所以 $P=T$ 仍是 $QF_{2}$ 的中点. 因而无论哪种情形，$T$ 都是 $QF_{2}$ 的中点.</p><p>设 $T=(u,v)$，$Q=(X,Y)$. 因为 $T$ 是 $QF_{2}$ 的中点，</p><p>$u=\\frac{X+c}{2}$，$v=\\frac{Y}{2}$.</p><p>而 $F_{1}Q=2a$ 给出 $(X+c)^{2}+Y^{2}=4a^{2}$，于是</p>\n$$\nu^{2}+v^{2}=\\frac{(X+c)^{2}+Y^{2}}{4}=a^{2}\n$$\n<p>因此点 $T$ 的轨迹包含在圆 $x^{2}+y^{2}=a^{2}$ 上.</p><p>反过来，任取圆 $u^{2}+v^{2}=a^{2}$ 上的点 $T=(u,v)$，令 $Q=(2u-c,2v)$. 则 $F_{1}Q=2a$. 又因为椭圆包含在圆 $x^{2}+y^{2}\\le a^{2}$ 内，且 $F_{1}$ 到该圆内任一点的距离不超过 $a+c&#x3C;2a$，所以 $Q$ 在椭圆外；而 $F_{1}$ 在椭圆内部，故线段 $F_{1}Q$ 与椭圆相交于一点 $P$. 由前面的等式 $PQ=PF_{2}$，三角形 $QPF_{2}$ 为等腰三角形，且 $T$ 是其底边 $QF_{2}$ 的中点，因此 $T$ 满足题设条件. 另外，$|F_{2}T|\\ne0$，因为 $|F_{2}|=c&#x3C;a=|OT|$. 所以圆上每一点都能取得，轨迹方程为</p><p>$C:\\ x^{2}+y^{2}=a^{2}$.</p></li><li><p>设 $M=(x_{0},y_{0})$ 在轨迹 $C$ 上. 三角形 $F_{1}MF_{2}$ 的底边为 $2c$，故</p><p>$S=\\frac{1}{2}\\cdot2c\\cdot|y_{0}|=c|y_{0}|$. 条件 $S=b^{2}$ 等价于 $|y_{0}|=\\frac{b^{2}}{c}$. 因为 $M\\in C$ 时 $|y_{0}|\\le a$，所以存在这样的点 $M$ 的充要条件是 $a\\ge\\frac{b^{2}}{c}$.</p><p>若 $a&#x3C;\\frac{b^{2}}{c}$，则圆 $C$ 上任意点的三角形面积都小于 $b^{2}$，不存在这样的点 $M$. 当 $a\\ge\\frac{b^{2}}{c}$ 时，取圆 $C$ 上满足 $|y_{0}|=\\frac{b^{2}}{c}$ 的点 $M$，下面求其角度.</p>\n$$\n\\overrightarrow{MF_1}\\cdot\\overrightarrow{MF_2}=(-c-x_{0},-y_{0})\\cdot(c-x_{0},-y_{0})  =x_{0}^{2}+y_{0}^{2}-c^{2}  =a^{2}-c^{2}=b^{2}\n$$\n<p>另一方面，$\\overrightarrow{MF_1}$ 与 $\\overrightarrow{MF_2}$ 的夹角就是 $\\angle F_{1}MF_{2}$，所以</p>\n$$\n\\tan\\angle F_{1}MF_{2}  =\\frac{2S}{\\overrightarrow{MF_1}\\cdot\\overrightarrow{MF_2}}=\\frac{2b^{2}}{b^{2}}=2\n$$\n</li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 22,
-          "body": "函数 $y = f(x)$ 在区间 $(0, +\\infty)$ 内可导，导函数 $f'(x)$ 是减函数，且 $f'(x) > 0$. 设 $x_0 \\in (0, +\\infty)$，$y = kx + m$ 是曲线 $y = f(x)$ 在点 $(x_0, f(x_0))$ 处的切线方程，并设函数 $g(x) = kx + m$.\r\n\r\n\n(1) 用 $x_0$，$f(x_0)$，$f'(x_0)$ 表示 $m$；\n\n(2) 证明：当 $x_0 \\in (0, +\\infty)$，$g(x) \\ge f(x)$；\n\n(3) 若关于 $x$ 的不等式 $x^{2} + 1 \\ge ax + b \\ge \\frac{3}{2}x^{\\frac{2}{3}}$ 在 $[0, +\\infty)$ 上恒成立. 其中 $a$，$b$ 为实数，求 $b$ 的取值范围及 $a$ 与 $b$ 所满足的关系.\n\r\n\r\n\n(1) 切线斜率为 $k=f'(x_0)$，又切线经过 $(x_0,f(x_0))$，所以\r\n$f(x_0)=kx_0+m=f'(x_0)x_0+m$，\r\n从而 $m=f(x_0)-x_0f'(x_0)$.\n\n(2) 当 $x>x_0$ 时，由拉格朗日中值定理，存在 $\\xi\\in(x_0,x)$，使得\r\n$f(x)-f(x_0)=f'(\\xi)(x-x_0)$.\r\n由于 $f'$ 是减函数，$f'(\\xi)\\le f'(x_0)$，故\r\n$f(x)-f(x_0)\\le f'(x_0)(x-x_0)=g(x)-f(x_0)$.\r\n于是 $f(x)\\le g(x)$. 当 $0<x<x_0$ 时，仍由中值定理存在 $\\xi\\in(x,x_0)$，且 $f'(\\xi)\\ge f'(x_0)$. 因为 $x-x_0<0$，所以\r\n$f(x)-f(x_0)=f'(\\xi)(x-x_0)\\le f'(x_0)(x-x_0)=g(x)-f(x_0)$.\r\n因此对任意 $x>0$，都有 $g(x)\\ge f(x)$.\n\n(3) 要使下方不等式对所有 $x\\geqslant0$ 成立，先注意到 $a$ 必须为正数；否则当 $x\\to+\\infty$ 时，$ax+b$ 不可能始终不小于 $\\frac32x^{\\frac{2}{3}}$. 由 $x=0$ 处的下方不等式还知 $b\\geqslant0$. 对函数 $h(x)=\\frac32x^{\\frac{2}{3}}$（$x>0$），有\r\n$h'(x)=x^{-\\frac{1}{3}}$，$h''(x)=-\\frac13x^{-\\frac{4}{3}}<0$，所以 $h'(x)$ 是减函数. 斜率为 $a>0$ 的切线接触点满足 $x_0^{-\\frac{1}{3}}=a$，即 $x_0=a^{-3}$，该切线的截距为\r\n\n$$\nh(x_0)-ax_0=\\frac32a^{-2}-a\\cdot a^{-3}=\\frac1{2a^2}\n$$\n\r\n由第（2）问，切线在曲线 $y=h(x)$ 的上方；反过来，函数 $h(x)-ax$ 在 $x>0$ 上的导数为 $x^{-\\frac{1}{3}}-a$，先正后负，故其最大值也在 $x=a^{-3}$ 处取得；并且在 $x=0$ 处该函数值为 $0$. 所以\r\n$ax+b\\ge\\frac32x^{\\frac{2}{3}}$（$x\\geqslant0$）当且仅当 $b\\ge\\frac1{2a^2}$.\r\n\r\n上方不等式等价于\r\n$x^2-ax+1-b\\geqslant0$（$x\\geqslant0$）.\r\n由 $x=0$ 处的上方不等式得 $b\\leqslant1$. 因为 $a>0$，左侧二次函数在非负半轴上的最小值出现在 $x=\\frac a2$，所以这又等价于\r\n$1-b-\\frac{a^2}{4}\\geqslant0$，即 $a\\leqslant2\\sqrt{1-b}$.\r\n综合两侧条件，得到\r\n$\\frac1{\\sqrt{2b}}\\le a\\leqslant2\\sqrt{1-b}$.\r\n要使这个区间非空，必须且只需\r\n$\\frac1{\\sqrt{2b}}\\leqslant2\\sqrt{1-b}\\Longleftrightarrow 8b(1-b)\\geqslant1$，\r\n即\r\n$\\frac{2-\\sqrt2}{4}\\le b\\le\\frac{2+\\sqrt2}{4}$.",
-          "choices": [],
+          "body": "<p>函数 $y = f(x)$ 在区间 $(0, +\\infty)$ 内可导，导函数 $f'(x)$ 是减函数，且 $f'(x) > 0$. 设 $x_{0} \\in (0, +\\infty)$，$y = kx + m$ 是曲线 $y = f(x)$ 在点 $(x_{0}, f(x_{0}))$ 处的切线方程，并设函数 $g(x) = kx + m$.</p><ol class=\"enumerate\"><li><p>用 $x_{0}$，$f(x_{0})$，$f'(x_{0})$ 表示 $m$；</p></li><li><p>证明：当 $x_{0} \\in (0, +\\infty)$，$g(x) \\ge f(x)$；</p></li><li><p>若关于 $x$ 的不等式 $x^{2}+ 1 \\ge ax + b \\ge \\frac{3}{2}x^{\\frac{2}{3}}$ 在 $[0, +\\infty)$ 上恒成立. 其中 $a$，$b$ 为实数，求 $b$ 的取值范围及 $a$ 与 $b$ 所满足的关系.</p></li></ol><ol class=\"enumerate\"><li><p>切线斜率为 $k=f'(x_{0})$，又切线经过 $(x_{0},f(x_{0}))$，所以</p><p>$f(x_{0})=kx_{0}+m=f'(x_{0})x_{0}+m$，</p><p>从而 $m=f(x_{0})-x_{0}f'(x_{0})$.</p></li><li><p>当 $x>x_{0}$ 时，由拉格朗日中值定理，存在 $\\xi\\in(x_{0},x)$，使得</p><p>$f(x)-f(x_{0})=f'(\\xi)(x-x_{0})$.</p><p>由于 $f'$ 是减函数，$f'(\\xi)\\le f'(x_{0})$，故</p><p>$f(x)-f(x_{0})\\le f'(x_{0})(x-x_{0})=g(x)-f(x_{0})$.</p><p>于是 $f(x)\\le g(x)$. 当 $0&#x3C;x&#x3C;x_{0}$ 时，仍由中值定理存在 $\\xi\\in(x,x_{0})$，且 $f'(\\xi)\\ge f'(x_{0})$. 因为 $x-x_{0}&#x3C;0$，所以</p><p>$f(x)-f(x_{0})=f'(\\xi)(x-x_{0})\\le f'(x_{0})(x-x_{0})=g(x)-f(x_{0})$.</p><p>因此对任意 $x>0$，都有 $g(x)\\ge f(x)$.</p></li><li><p>要使下方不等式对所有 $x\\geqslant0$ 成立，先注意到 $a$ 必须为正数；否则当 $x\\to+\\infty$ 时，$ax+b$ 不可能始终不小于 $\\frac{3}{2}x^{\\frac{2}{3}}$. 由 $x=0$ 处的下方不等式还知 $b\\geqslant0$. 对函数 $h(x)=\\frac{3}{2}x^{\\frac{2}{3}}$（$x>0$），有</p><p>$h'(x)=x^{-\\frac{1}{3}}$，$h''(x)=-\\frac{1}{3}x^{-\\frac{4}{3}}&#x3C;0$，所以 $h'(x)$ 是减函数. 斜率为 $a>0$ 的切线接触点满足 $x_{0}^{-\\frac{1}{3}}=a$，即 $x_{0}=a^{-3}$，该切线的截距为</p>\n$$\nh(x_{0})-ax_{0}=\\frac{3}{2}a^{-2}-a\\cdot a^{-3}=\\frac{1}{2a^{2}}\n$$\n<p>由第（2）问，切线在曲线 $y=h(x)$ 的上方；反过来，函数 $h(x)-ax$ 在 $x>0$ 上的导数为 $x^{-\\frac{1}{3}}-a$，先正后负，故其最大值也在 $x=a^{-3}$ 处取得；并且在 $x=0$ 处该函数值为 $0$. 所以</p><p>$ax+b\\ge\\frac{3}{2}x^{\\frac{2}{3}}$（$x\\geqslant0$）当且仅当 $b\\ge\\frac{1}{2a^{2}}$.</p><p>上方不等式等价于</p><p>$x^{2}-ax+1-b\\geqslant0$（$x\\geqslant0$）.</p><p>由 $x=0$ 处的上方不等式得 $b\\leqslant1$. 因为 $a>0$，左侧二次函数在非负半轴上的最小值出现在 $x=\\frac{a}{2}$，所以这又等价于</p><p>$1-b-\\frac{a^{2}}{4}\\geqslant0$，即 $a\\leqslant2\\sqrt{1-b}$.</p><p>综合两侧条件，得到</p><p>$\\frac{1}{\\sqrt{2b}}\\le a\\leqslant2\\sqrt{1-b}$.</p><p>要使这个区间非空，必须且只需</p><p>$\\frac{1}{\\sqrt{2b}}\\leqslant2\\sqrt{1-b}\\Longleftrightarrow 8b(1-b)\\geqslant1$，</p><p>即</p><p>$\\frac{2-\\sqrt{2}}{4}\\le b\\le\\frac{2+\\sqrt{2}}{4}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

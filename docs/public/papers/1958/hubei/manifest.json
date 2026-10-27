@@ -1,107 +1,46 @@
 {
+  "title": "1958年普通高等学校招生全国统一考试",
+  "subtitle": "1958年湖北卷",
   "year": "1958",
   "slug": "hubei",
-  "title": "1958年湖北卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "补充题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "补充题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "补充题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
       "problems": [
         {
           "num": 1,
-          "body": "设有数列 $1+2x+3x^{2}+4x^{3}+\\cdots$.\r\n\r\n\n(1) 写出这个数列的第 $n$ 项；\n\n(2) 写出这个数列的前 $n$ 项和的公式；\n\n(3) 问这个和的公式当 $x=1$ 时能否成立？如能成立，说明理由；如不能成立，怎样求和？",
-          "choices": [],
+          "body": "<p>设有数列 $1+2x+3x^{2}+4x^{3}+\\cdots$.</p><ol class=\"enumerate\"><li><p>写出这个数列的第 $n$ 项；</p></li><li><p>写出这个数列的前 $n$ 项和的公式；</p></li><li><p>问这个和的公式当 $x=1$ 时能否成立？如能成立，说明理由；如不能成立，怎样求和？</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 第 $n$ 项中，系数为 $n$，$x$ 的幂为 $n-1$，所以通项为\r\n$a_n=nx^{n-1}$.\n\n(2) 设前 $n$ 项和为 $s_n$，则\r\n\n$$\ns_n=1+2x+3x^{2}+4x^{3}+\\cdots+(n-1)x^{n-2}+nx^{n-1}\n$$\n\r\n两边同乘 $x$，得\r\n\n$$\nxs_n=x+2x^{2}+3x^{3}+4x^{4}+\\cdots+(n-1)x^{n-1}+nx^{n}\n$$\n\r\n用前式减去后式，得\r\n\n$$\n(1-x)s_n=1+x+x^{2}+\\cdots+x^{n-1}-nx^{n}\n$$\n\r\n当 $x\\ne1$ 时，等比数列 $1$，$x$，$x^{2}$，$\\ldots$，$x^{n-1}$ 的和为 $\\dfrac{1-x^n}{1-x}$，因此\r\n\n$$\ns_n=\\frac{1-x^n}{(1-x)^2}-\\frac{nx^n}{1-x}\r\n    =\\frac{1-(n+1)x^n+nx^{n+1}}{(1-x)^2}\n$$\n\n(3) 当 $x=1$ 时，上面分式中的分母 $(1-x)^2$ 为 $0$，所以该分式形式不能直接成立. 此时原数列变为 $1$，$2$，$3$，$\\ldots$，$n$，其前 $n$ 项和为\r\n\n$$\ns_n=1+2+3+\\cdots+(n-1)+n\r\n    =\\frac{n(1+n)}{2}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>第 $n$ 项中，系数为 $n$，$x$ 的幂为 $n-1$，所以通项为</p><p>$a_{n}=nx^{n-1}$.</p></li><li><p>设前 $n$ 项和为 $s_{n}$，则</p>\n$$\ns_{n}=1+2x+3x^{2}+4x^{3}+\\cdots+(n-1)x^{n-2}+nx^{n-1}\n$$\n<p>两边同乘 $x$，得</p>\n$$\nxs_{n}=x+2x^{2}+3x^{3}+4x^{4}+\\cdots+(n-1)x^{n-1}+nx^{n}\n$$\n<p>用前式减去后式，得</p>\n$$\n(1-x)s_{n}=1+x+x^{2}+\\cdots+x^{n-1}-nx^{n}\n$$\n<p>当 $x\\ne1$ 时，等比数列 $1$，$x$，$x^{2}$，$\\ldots$，$x^{n-1}$ 的和为 $\\dfrac{1-x^n}{1-x}$，因此</p>\n$$\ns_{n}=\\frac{1-x^{n}}{(1-x)^{2}}-\\frac{nx^{n}}{1-x}=\\frac{1-(n+1)x^{n}+nx^{n+1}}{(1-x)^{2}}\n$$\n</li><li><p>当 $x=1$ 时，上面分式中的分母 $(1-x)^{2}$ 为 $0$，所以该分式形式不能直接成立. 此时原数列变为 $1$，$2$，$3$，$\\ldots$，$n$，其前 $n$ 项和为</p>\n$$\ns_{n}=1+2+3+\\cdots+(n-1)+n  =\\frac{n(1+n)}{2}\n$$\n</li></ol>"
         },
         {
           "num": 2,
           "body": "设 $A$，$B$，$C$ 是 $\\triangle ABC$ 的三个内角，求证：$\\tan A+\\tan B+\\tan C=\\tan A\\cdot\\tan B\\cdot\\tan C$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "题式有意义时，$A$，$B$，$C$ 均不是直角. 由三角形内角和\r\n$A+B+C=\\pi$，得 $C=\\pi-(A+B)$，于是\r\n\n$$\n\\tan C=-\\tan(A+B)\r\n       =-\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}\n$$\n\r\n这里分母不为 $0$，因为若 $1-\\tan A\\tan B=0$，则 $A+B=\\dfrac{\\pi}{2}$，从而 $C=\\dfrac{\\pi}{2}$，与题式有意义矛盾. 将上式两边乘以 $1-\\tan A\\tan B$，得\r\n\n$$\n\\tan C-\\tan A\\tan B\\tan C=-\\tan A-\\tan B\n$$\n\r\n移项即得\r\n\n$$\n\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>题式有意义时，$A$，$B$，$C$ 均不是直角. 由三角形内角和</p><p>$A+B+C=\\pi$，得 $C=\\pi-(A+B)$，于是</p>\n$$\n\\tan C=-\\tan(A+B)  =-\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}\n$$\n<p>这里分母不为 $0$，因为若 $1-\\tan A\\tan B=0$，则 $A+B=\\dfrac{\\pi}{2}$，从而 $C=\\dfrac{\\pi}{2}$，与题式有意义矛盾. 将上式两边乘以 $1-\\tan A\\tan B$，得</p>\n$$\n\\tan C-\\tan A\\tan B\\tan C=-\\tan A-\\tan B\n$$\n<p>移项即得</p>\n$$\n\\tan A+\\tan B+\\tan C=\\tan A\\tan B\\tan C\n$$"
         },
         {
           "num": 3,
-          "body": "解 $\\left( \\log_x\\sqrt{5} \\right)^{2}+\\log_x\\left(5\\sqrt{5}\\right)+\\frac{5}{4}=0$.",
-          "choices": [],
+          "body": "解 $\\left( \\log_{x}\\sqrt{5}\\right)^{2}+\\log_{x}\\left(5\\sqrt{5}\\right)+\\frac{5}{4}=0$.",
+          "choices": null,
           "answer": "",
-          "solution": "由对数定义，底数须满足 $x>0$ 且 $x\\ne1$. 令\r\n$y=\\log_x\\sqrt{5}$，则 $5\\sqrt{5}=(\\sqrt{5})^3$，所以\r\n\n$$\n\\log_x\\left(5\\sqrt{5}\\right)=\\log_x\\left((\\sqrt{5})^3\\right)=3y\n$$\n\r\n原方程化为\r\n\n$$\ny^2+3y+\\frac54=0\n$$\n\r\n即\r\n\n$$\n4y^2+12y+5=0=(2y+1)(2y+5)\n$$\n\r\n因此 $y=-\\dfrac12$ 或 $y=-\\dfrac52$.\r\n\r\n当 $y=-\\dfrac12$ 时，$x^{-\\frac{1}{2}}=\\sqrt5$，两边平方得 $x^{-1}=5$，所以 $x=\\dfrac15$.\r\n\r\n当 $y=-\\dfrac52$ 时，$x^{-\\frac{5}{2}}=\\sqrt5$，两边平方得 $x^{-5}=5$，所以 $x=\\dfrac{1}{\\sqrt[5]{5}}$. 这两个数都满足 $0<x<1$，因而均符合对数定义域.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由对数定义，底数须满足 $x>0$ 且 $x\\ne1$. 令</p><p>$y=\\log_{x}\\sqrt{5}$，则 $5\\sqrt{5}=(\\sqrt{5})^{3}$，所以</p>\n$$\n\\log_{x}\\left(5\\sqrt{5}\\right)=\\log_{x}\\left((\\sqrt{5})^{3}\\right)=3y\n$$\n<p>原方程化为</p>\n$$\ny^{2}+3y+\\frac{5}{4}=0\n$$\n<p>即</p>\n$$\n4y^{2}+12y+5=0=(2y+1)(2y+5)\n$$\n<p>因此 $y=-\\dfrac{1}{2}$ 或 $y=-\\dfrac{5}{2}$.</p><p>当 $y=-\\dfrac{1}{2}$ 时，$x^{-\\frac{1}{2}}=\\sqrt{5}$，两边平方得 $x^{-1}=5$，所以 $x=\\dfrac{1}{5}$.</p><p>当 $y=-\\dfrac{5}{2}$ 时，$x^{-\\frac{5}{2}}=\\sqrt{5}$，两边平方得 $x^{-5}=5$，所以 $x=\\dfrac{1}{\\sqrt[5]{5}}$. 这两个数都满足 $0&#x3C;x&#x3C;1$，因而均符合对数定义域.</p>"
         },
         {
           "num": 4,
           "body": "在 $\\triangle ABC$ 中，$AD$ 是 $BC$ 的中线，而且 $\\angle B$ 和 $\\angle CAD$ 互为余角，问 $\\triangle ABC$ 是怎样的三角形.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "几何解法：\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hubei/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n延长 $AD$ 交 $\\triangle ABC$ 的外接圆于 $E$，连接 $BE$. 因为 $A$，$D$，$E$ 共线，圆周角 $\\angle CAD$ 与 $\\angle CBE$ 都对着弦 $CE$，所以\r\n$\\angle CAD=\\angle CBE$. 题设给出 $\\angle CAD+\\angle ABC=90^\\circ$，因此\r\n$\\angle CBE+\\angle ABC=90^\\circ$，即 $\\angle ABE=90^\\circ$. 由圆周角定理的逆定理，$AE$ 是外接圆的直径，所以圆心 $O$ 在直线 $AD$ 上.\r\n\r\n若 $O=D$，则 $BC$ 经过圆心且两端点在圆上，故 $BC$ 是直径，从而 $\\angle A=90^\\circ$，$\\triangle ABC$ 是直角三角形.\r\n\r\n若 $O\\ne D$，则 $OD$ 是圆心到弦 $BC$ 的连线，且 $D$ 是弦 $BC$ 的中点，所以 $OD\\perp BC$. 又因 $O$，$D$，$A$ 共线，得 $AD\\perp BC$. 于是 $AD$ 是 $BC$ 的中垂线，从而 $AB=AC$，$\\triangle ABC$ 是等腰三角形.\r\n\r\n三角解法：\r\n\r\n设 $D$ 为 $BC$ 的中点，则 $BD=DC$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hubei/q4_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n由 $\\angle B+\\angle CAD=90^\\circ$，且 $\\angle A+\\angle B+\\angle C=180^\\circ$，得 $\\angle C+\\angle BAD=90^\\circ$. 因此\r\n$\\sin\\angle CAD=\\cos B$，$\\sin\\angle BAD=\\cos C$.\r\n在 $\\triangle ABD$ 和 $\\triangle ACD$ 中分别使用正弦定理，得\r\n$\\frac{AD}{\\sin B}=\\frac{BD}{\\sin\\angle BAD}$，$\\frac{AD}{\\sin C}=\\frac{DC}{\\sin\\angle CAD}$.\r\n将 $BD=DC$ 代入，消去 $AD$，得\r\n\n$$\n\\sin B\\sin\\angle CAD=\\sin C\\sin\\angle BAD\n$$\n\r\n再代入互余关系，得到\r\n\n$$\n\\sin B\\cos B=\\sin C\\cos C\n$$\n\r\n即 $\\sin 2B=\\sin 2C$. 于是\r\n\n$$\n0=\\sin 2B-\\sin 2C=2\\cos(B+C)\\sin(B-C)\n$$\n\r\n因为 $0<B+C<\\pi$，所以或者 $\\sin(B-C)=0$，即 $B=C$，此时 $AB=AC$，三角形为等腰三角形；或者 $\\cos(B+C)=0$，即 $B+C=\\dfrac{\\pi}{2}$，此时 $A=\\dfrac{\\pi}{2}$，三角形为直角三角形.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>几何解法：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>延长 $AD$ 交 $\\triangle ABC$ 的外接圆于 $E$，连接 $BE$. 因为 $A$，$D$，$E$ 共线，圆周角 $\\angle CAD$ 与 $\\angle CBE$ 都对着弦 $CE$，所以</p><p>$\\angle CAD=\\angle CBE$. 题设给出 $\\angle CAD+\\angle ABC=90^{\\circ}$，因此</p><p>$\\angle CBE+\\angle ABC=90^{\\circ}$，即 $\\angle ABE=90^{\\circ}$. 由圆周角定理的逆定理，$AE$ 是外接圆的直径，所以圆心 $O$ 在直线 $AD$ 上.</p><p>若 $O=D$，则 $BC$ 经过圆心且两端点在圆上，故 $BC$ 是直径，从而 $\\angle A=90^{\\circ}$，$\\triangle ABC$ 是直角三角形.</p><p>若 $O\\ne D$，则 $OD$ 是圆心到弦 $BC$ 的连线，且 $D$ 是弦 $BC$ 的中点，所以 $OD\\perp BC$. 又因 $O$，$D$，$A$ 共线，得 $AD\\perp BC$. 于是 $AD$ 是 $BC$ 的中垂线，从而 $AB=AC$，$\\triangle ABC$ 是等腰三角形.</p><p>三角解法：</p><p>设 $D$ 为 $BC$ 的中点，则 $BD=DC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei/q4_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由 $\\angle B+\\angle CAD=90^{\\circ}$，且 $\\angle A+\\angle B+\\angle C=180^{\\circ}$，得 $\\angle C+\\angle BAD=90^{\\circ}$. 因此</p><p>$\\sin\\angle CAD=\\cos B$，$\\sin\\angle BAD=\\cos C$.</p><p>在 $\\triangle ABD$ 和 $\\triangle ACD$ 中分别使用正弦定理，得</p><p>$\\frac{AD}{\\sin B}=\\frac{BD}{\\sin\\angle BAD}$，$\\frac{AD}{\\sin C}=\\frac{DC}{\\sin\\angle CAD}$.</p><p>将 $BD=DC$ 代入，消去 $AD$，得</p>\n$$\n\\sin B\\sin\\angle CAD=\\sin C\\sin\\angle BAD\n$$\n<p>再代入互余关系，得到</p>\n$$\n\\sin B\\cos B=\\sin C\\cos C\n$$\n<p>即 $\\sin 2B=\\sin 2C$. 于是</p>\n$$\n0=\\sin 2B-\\sin 2C=2\\cos(B+C)\\sin(B-C)\n$$\n<p>因为 $0&#x3C;B+C&#x3C;\\pi$，所以或者 $\\sin(B-C)=0$，即 $B=C$，此时 $AB=AC$，三角形为等腰三角形；或者 $\\cos(B+C)=0$，即 $B+C=\\dfrac{\\pi}{2}$，此时 $A=\\dfrac{\\pi}{2}$，三角形为直角三角形.</p>"
         },
         {
           "num": 5,
           "body": "在直角三角形所在平面外取一点 $P$，而且 $P$ 点和三角形三个顶点的距离都是相等的，证明，连接 $P$ 点和三角形斜边中点的直线垂直于这个三角形所在的平面.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "如图，设 $\\triangle ABC$ 是直角三角形，$\\angle B=90^\\circ$，斜边为 $AC$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/hubei/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设 $\\Pi$ 是 $\\triangle ABC$ 所在的平面. 过 $P$ 作 $PD\\perp\\Pi$，垂足为 $D$. 因为 $A$，$B$，$C$ 都在 $\\Pi$ 内，$\\triangle PDA$，$\\triangle PDB$，$\\triangle PDC$ 均为直角三角形，所以由勾股定理\r\n$PA^2=PD^2+DA^2$，$PB^2=PD^2+DB^2$，$PC^2=PD^2+DC^2$.\r\n题设 $PA=PB=PC$，三式分别相减可得 $DA^2=DB^2=DC^2$，从而 $DA=DB=DC$. 因此 $D$ 是 $\\triangle ABC$ 的外心.\r\n\r\n直角三角形斜边中点到三个顶点的距离相等：设 $M$ 是 $AC$ 的中点，则 $MA=MC$，且由直角三角形斜边中线定理有 $MB=MA=MC$. 所以 $M$ 也是 $\\triangle ABC$ 的外心. 外心唯一，故 $D=M$. 于是 $PD$ 就是连接 $P$ 与斜边中点 $M$ 的直线，而按构造 $PD\\perp\\Pi$，所以\r\n\n$$\nPM\\perp\\Pi\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>如图，设 $\\triangle ABC$ 是直角三角形，$\\angle B=90^{\\circ}$，斜边为 $AC$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设 $\\Pi$ 是 $\\triangle ABC$ 所在的平面. 过 $P$ 作 $PD\\perp\\Pi$，垂足为 $D$. 因为 $A$，$B$，$C$ 都在 $\\Pi$ 内，$\\triangle PDA$，$\\triangle PDB$，$\\triangle PDC$ 均为直角三角形，所以由勾股定理</p><p>$PA^{2}=PD^{2}+DA^{2}$，$PB^{2}=PD^{2}+DB^{2}$，$PC^{2}=PD^{2}+DC^{2}$.</p><p>题设 $PA=PB=PC$，三式分别相减可得 $DA^{2}=DB^{2}=DC^{2}$，从而 $DA=DB=DC$. 因此 $D$ 是 $\\triangle ABC$ 的外心.</p><p>直角三角形斜边中点到三个顶点的距离相等：设 $M$ 是 $AC$ 的中点，则 $MA=MC$，且由直角三角形斜边中线定理有 $MB=MA=MC$. 所以 $M$ 也是 $\\triangle ABC$ 的外心. 外心唯一，故 $D=M$. 于是 $PD$ 就是连接 $P$ 与斜边中点 $M$ 的直线，而按构造 $PD\\perp\\Pi$，所以</p>\n$$\nPM\\perp\\Pi\n$$"
         }
       ]
     },
@@ -110,33 +49,26 @@
       "problems": [
         {
           "num": 6,
-          "body": "比较 $\\left( \\frac{21}{20} \\right)^{100}$ 与 $100$ 的大小.",
-          "choices": [],
+          "body": "比较 $\\left( \\frac{21}{20}\\right)^{100}$ 与 $100$ 的大小.",
+          "choices": null,
           "answer": "",
-          "solution": "由二项式定理，且各项均为正数，有\r\n\n$$\n\\left(\\frac{21}{20}\\right)^{100}\r\n=\\left(1+\\frac1{20}\\right)^{100}\n$$\n\r\n保留二项式展开的前七项，得\r\n\n$$\n\\left(\\frac{21}{20}\\right)^{100}\r\n>1+\\frac{\\mathrm C_{100}^{1}}{20}+\\frac{\\mathrm C_{100}^{2}}{20^2}+\\frac{\\mathrm C_{100}^{3}}{20^3}+\\frac{\\mathrm C_{100}^{4}}{20^4}+\\frac{\\mathrm C_{100}^{5}}{20^5}+\\frac{\\mathrm C_{100}^{6}}{20^6}\n$$\n\r\n其中\r\n$\\frac{\\mathrm C_{100}^{1}}{20}=5$，$\\frac{\\mathrm C_{100}^{2}}{20^2}=\\frac{4950}{400}>12$，$\\frac{\\mathrm C_{100}^{3}}{20^3}=\\frac{161700}{8000}>20$\r\n$\\frac{\\mathrm C_{100}^{4}}{20^4}=\\frac{3921225}{160000}>24$，$\\frac{\\mathrm C_{100}^{5}}{20^5}=\\frac{75287520}{3200000}>23$，$\\frac{\\mathrm C_{100}^{6}}{20^6}=\\frac{1192052400}{64000000}>18$.\r\n所以\r\n\n$$\n\\left(\\frac{21}{20}\\right)^{100}>1+5+12+20+24+23+18=103>100\n$$\n\r\n故 $\\left(\\dfrac{21}{20}\\right)^{100}>100$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由二项式定理，且各项均为正数，有</p>\n$$\n\\left(\\frac{21}{20}\\right)^{100}=\\left(1+\\frac{1}{20}\\right)^{100}\n$$\n<p>保留二项式展开的前七项，得</p>\n$$\n\\left(\\frac{21}{20}\\right)^{100}>1+\\frac{\\mathrm{C}_{100}^{1}}{20}+\\frac{\\mathrm{C}_{100}^{2}}{20^{2}}+\\frac{\\mathrm{C}_{100}^{3}}{20^{3}}+\\frac{\\mathrm{C}_{100}^{4}}{20^{4}}+\\frac{\\mathrm{C}_{100}^{5}}{20^{5}}+\\frac{\\mathrm{C}_{100}^{6}}{20^{6}}\n$$\n<p>其中</p><p>$\\frac{\\mathrm{C}_{100}^{1}}{20}=5$，$\\frac{\\mathrm{C}_{100}^{2}}{20^{2}}=\\frac{4950}{400}>12$，$\\frac{\\mathrm{C}_{100}^{3}}{20^{3}}=\\frac{161700}{8000}>20$</p><p>$\\frac{\\mathrm{C}_{100}^{4}}{20^{4}}=\\frac{3921225}{160000}>24$，$\\frac{\\mathrm{C}_{100}^{5}}{20^{5}}=\\frac{75287520}{3200000}>23$，$\\frac{\\mathrm{C}_{100}^{6}}{20^{6}}=\\frac{1192052400}{64000000}>18$.</p><p>所以</p>\n$$\n\\left(\\frac{21}{20}\\right)^{100}>1+5+12+20+24+23+18=103>100\n$$\n<p>故 $\\left(\\dfrac{21}{20}\\right)^{100}>100$.</p>"
         },
         {
           "num": 7,
-          "body": "如 $\\alpha^{2}+b^{2}=7\\alpha b$，求证 $\\lg\\left( \\frac{\\alpha+b}{3} \\right)=\\frac{1}{2}\\left( \\lg\\alpha+\\lg b \\right)$.",
-          "choices": [],
+          "body": "如 $\\alpha^{2}+b^{2}=7\\alpha b$，求证 $\\lg\\left( \\frac{\\alpha+b}{3}\\right)=\\frac{1}{2}\\left( \\lg\\alpha+\\lg b \\right)$.",
+          "choices": null,
           "answer": "",
-          "solution": "题式中出现 $\\lg\\alpha$ 和 $\\lg b$，所以 $\\alpha>0$，$b>0$. 在已知等式两边加上 $2\\alpha b$，得\r\n\n$$\n\\alpha^2+2\\alpha b+b^2=9\\alpha b\n$$\n\r\n即\r\n\n$$\n(\\alpha+b)^2=9\\alpha b\n$$\n\r\n由于 $\\alpha+b>0$，取平方根时取正号，得到\r\n$\\alpha+b=3\\sqrt{\\alpha b}$，$\\frac{\\alpha+b}{3}=\\sqrt{\\alpha b}>0$.\r\n两边取常用对数，得\r\n\n$$\n\\lg\\left(\\frac{\\alpha+b}{3}\\right)=\\lg\\sqrt{\\alpha b}\r\n =\\frac12\\lg(\\alpha b)\r\n =\\frac12\\left(\\lg\\alpha+\\lg b\\right)\n$$\n\r\n这就是要证明的结论.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>题式中出现 $\\lg\\alpha$ 和 $\\lg b$，所以 $\\alpha>0$，$b>0$. 在已知等式两边加上 $2\\alpha b$，得</p>\n$$\n\\alpha^{2}+2\\alpha b+b^{2}=9\\alpha b\n$$\n<p>即</p>\n$$\n(\\alpha+b)^{2}=9\\alpha b\n$$\n<p>由于 $\\alpha+b>0$，取平方根时取正号，得到</p><p>$\\alpha+b=3\\sqrt{\\alpha b}$，$\\frac{\\alpha+b}{3}=\\sqrt{\\alpha b}>0$.</p><p>两边取常用对数，得</p>\n$$\n\\lg\\left(\\frac{\\alpha+b}{3}\\right)=\\lg\\sqrt{\\alpha b}=\\frac{1}{2}\\lg(\\alpha b)  =\\frac{1}{2}\\left(\\lg\\alpha+\\lg b\\right)\n$$\n<p>这就是要证明的结论.</p>"
         },
         {
           "num": 8,
           "body": "已知方程式 $x^{3}+Px^{2}+qx+\\gamma=0$ 的三根 $\\alpha$，$b$，$c$ 成调合级数（即 $\\frac{1}{\\alpha}-\\frac{1}{b}=\\frac{1}{b}-\\frac{1}{c}$），求 $\\alpha$，$b$，$c$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "因为 $\\alpha$，$b$，$c$ 成调合级数，所以它们均非零. 由韦达定理\r\n$\\alpha+b+c=-P$，$\\alpha b+bc+c\\alpha=q$，$\\alpha bc=-\\gamma$.\r\n调合级数条件乘以非零数 $\\alpha bc$，得\r\n\n$$\nbc-\\alpha c=\\alpha c-\\alpha b\n$$\n\r\n即\r\n\n$$\nb(\\alpha+c)=2\\alpha c\n$$\n\r\n利用第二个韦达关系式，得到\r\n\n$$\nq=b(\\alpha+c)+\\alpha c=3\\alpha c\n$$\n\r\n所以\r\n\n$$\n\\alpha c=\\frac q3\n$$\n\r\n由于 $\\alpha c\\ne0$，可知 $q\\ne0$. 再由 $\\alpha bc=-\\gamma$，得\r\n\n$$\nb=\\frac{-\\gamma}{\\alpha c}=-\\frac{3\\gamma}{q}\n$$\n\r\n由第一个韦达关系式，得\r\n\n$$\n\\alpha+c=-P-b=\\frac{3\\gamma-Pq}{q}\n$$\n\r\n\r\n因此 $\\alpha$ 和 $c$ 是一元二次方程\r\n\n$$\nt^2-(\\alpha+c)t+\\alpha c=0\n$$\n\r\n的两个根，即\r\n\n$$\n3qt^2+3(Pq-3\\gamma)t+q^2=0\n$$\n\r\n令\r\n\n$$\n\\Delta=9(Pq-3\\gamma)^2-12q^3\n$$\n\r\n则\r\n$\\{\\alpha,c\\} =\\left\\{ \\frac{-3(Pq-3\\gamma)+\\sqrt{\\Delta}}{6q}, \\frac{-3(Pq-3\\gamma)-\\sqrt{\\Delta}}{6q} \\right\\}$，$b=-\\frac{3\\gamma}{q}$.\r\n$\\alpha$ 与 $c$ 可以互换，因为调合级数条件在交换两端项后仍保持不变. 题设已保证这些根存在，因此相应的 $\\Delta$ 满足实根所需的条件. 若只给定任意 $P$，$q$，$\\gamma$ 而不预先保证题设，还必须满足由调合条件得到的系数相容关系\r\n\n$$\n\\left(-\\frac{3\\gamma}{q}\\right)\\left(\\frac{3\\gamma-Pq}{q}\\right)=\\frac{2q}{3},\r\n\\qquad\\text{即}\\qquad\r\n9\\gamma(Pq-3\\gamma)=2q^3\n$$\n\r\n在题设条件下，该关系已经由三根的调合性自动满足；代回上述各式即可同时验得三个韦达关系式和原调合级数条件.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>因为 $\\alpha$，$b$，$c$ 成调合级数，所以它们均非零. 由韦达定理</p><p>$\\alpha+b+c=-P$，$\\alpha b+bc+c\\alpha=q$，$\\alpha bc=-\\gamma$.</p><p>调合级数条件乘以非零数 $\\alpha bc$，得</p>\n$$\nbc-\\alpha c=\\alpha c-\\alpha b\n$$\n<p>即</p>\n$$\nb(\\alpha+c)=2\\alpha c\n$$\n<p>利用第二个韦达关系式，得到</p>\n$$\nq=b(\\alpha+c)+\\alpha c=3\\alpha c\n$$\n<p>所以</p>\n$$\n\\alpha c=\\frac{q}{3}\n$$\n<p>由于 $\\alpha c\\ne0$，可知 $q\\ne0$. 再由 $\\alpha bc=-\\gamma$，得</p>\n$$\nb=\\frac{-\\gamma}{\\alpha c}=-\\frac{3\\gamma}{q}\n$$\n<p>由第一个韦达关系式，得</p>\n$$\n\\alpha+c=-P-b=\\frac{3\\gamma-Pq}{q}\n$$\n<p>因此 $\\alpha$ 和 $c$ 是一元二次方程</p>\n$$\nt^{2}-(\\alpha+c)t+\\alpha c=0\n$$\n<p>的两个根，即</p>\n$$\n3qt^{2}+3(Pq-3\\gamma)t+q^{2}=0\n$$\n<p>令</p>\n$$\n\\Delta=9(Pq-3\\gamma)^{2}-12q^{3}\n$$\n<p>则</p><p>$\\{\\alpha,c\\} =\\left\\{ \\frac{-3(Pq-3\\gamma)+\\sqrt{\\Delta}}{6q}, \\frac{-3(Pq-3\\gamma)-\\sqrt{\\Delta}}{6q}\\right\\}$，$b=-\\frac{3\\gamma}{q}$.</p><p>$\\alpha$ 与 $c$ 可以互换，因为调合级数条件在交换两端项后仍保持不变. 题设已保证这些根存在，因此相应的 $\\Delta$ 满足实根所需的条件. 若只给定任意 $P$，$q$，$\\gamma$ 而不预先保证题设，还必须满足由调合条件得到的系数相容关系</p>\n$$\n\\left(-\\frac{3\\gamma}{q}\\right)\\left(\\frac{3\\gamma-Pq}{q}\\right)=\\frac{2q}{3},  \\qquad\\text{即}\\qquad  9\\gamma(Pq-3\\gamma)=2q^{3}\n$$\n<p>在题设条件下，该关系已经由三根的调合性自动满足；代回上述各式即可同时验得三个韦达关系式和原调合级数条件.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,365 +11,302 @@
 #part-header("单选题")
 
 #problem(1)[
-复数 $i (2 - i ) =$（ ）
-
+复数 #mi(`\mathrm{i}(2 - \mathrm{i}) =`)（ ）
 
 A
 
-由复数的乘法及 $i ""^2=-1$，得 $i (2- i )=2 i - i ""^2=1+2 i$，所以选 A.
-  #choices([$1 + 2 i$], [$1 - 2 i$], [$-1 + 2 i$], [$-1 - 2 i$], cols: 4)
+由复数的乘法及 #mi(`\mathrm{i}^{2}=-1`)，得 #mi(`\mathrm{i}(2-\mathrm{i})=2\mathrm{i}-\mathrm{i}^{2}=1+2\mathrm{i}`)，所以选 A.
+  #choices([#mi(`1 + 2\mathrm{i}`)], [#mi(`1 - 2\mathrm{i}`)], [#mi(`-1 + 2\mathrm{i}`)], [#mi(`-1 - 2\mathrm{i}`)], cols: 2)
 ]
 
 #problem(2)[
-若 $x$，$y$ 满足 $\b e g i n{c a s e s} x - y <= 0 ,\\ x + y <= 1 ,\\ x >= 0 , \e n d{c a s e s}$ 则 $z = x + 2 y$ 最大值为（ ）
+若 #mi(`x`)，#mi(`y`) 满足 #mi(`\begin{cases}x - y \le 0,\\
 
+x + y \le 1,\\
+
+x \ge 0,\end{cases}`) 则 #mi(`z = x + 2y`) 最大值为（ ）
 
 D
 
-由 $x-y <= 0$、$x+y <= 1$ 和 $x >= 0$，可知可行域的顶点为 $(0,0)$、$(0,1)$、$((1)/(2),(1)/(2))$. 目标函数 $z=x+2 y$ 在这些顶点处的值分别为 $0$、$2$、$(3)/(2)$，故最大值为 $2$，所以选 D.
-  #choices([$0$], [$1$], [$(3)/(2)$], [$2$], cols: 4)
+由 #mi(`x-y\leqslant0`)、#mi(`x+y\leqslant1`) 和 #mi(`x\geqslant0`)，可知可行域的顶点为 #mi(`(0,0)`)、#mi(`(0,1)`)、#mi(`\left(\frac{1}{2},\frac{1}{2}\right)`). 目标函数 #mi(`z=x+2y`) 在这些顶点处的值分别为 #mi(`0`)、#mi(`2`)、#mi(`\frac{3}{2}`)，故最大值为 #mi(`2`)，所以选 D.
+  #choices([#mi(`0`)], [#mi(`1`)], [#mi(`\frac{3}{2}`)], [#mi(`2`)], cols: 2)
 ]
 
 #problem(3)[
 执行如图所示的程序框图，输出的结果为（ ）
 
-\texfigure[max width=0.46\linewidth]{img_repaint/2015/beijing_science/q3_fig1.tex}
-
+\texfigure[max width=0.46\linewidth]img_repaint/2015/beijing_science/q3_fig1.tex
 
 B
 
-初始时 $(x,y,k)=(1,1,0)$. 每循环一次先计算 $s=x-y$、$t=x+y$，再令 $x=s$、$y=t$，并使 $k$ 增加 $1$. 因而各次循环后的状态为
-$(x,y,k)=(0,2,1)$，$(-2,2,2)$，$(-4,0,3)$.
-此时满足 $k >= 3$，输出 $(-4,0)$，所以选 B.
-  #choices([$(-2, 2)$], [$(-4,0)$], [$(-4, -4)$], [$(0, 8)$], cols: 4)
+初始时 #mi(`(x,y,k)=(1,1,0)`). 每循环一次先计算 #mi(`s=x-y`)、#mi(`t=x+y`)，再令 #mi(`x=s`)、#mi(`y=t`)，并使 #mi(`k`) 增加 #mi(`1`). 因而各次循环后的状态为
+
+#mi(`(x,y,k)=(0,2,1)`)，#mi(`(-2,2,2)`)，#mi(`(-4,0,3)`).
+
+此时满足 #mi(`k\geqslant3`)，输出 #mi(`(-4,0)`)，所以选 B.
+  #choices([#mi(`(-2, 2)`)], [#mi(`(-4,0)`)], [#mi(`(-4, -4)`)], [#mi(`(0, 8)`)], cols: 4)
 ]
 
 #problem(4)[
-设 $alpha$，$beta$ 是两个不同的平面，$m$ 是直线且 $m subset alpha$，$m parallel beta$ 是“$alpha parallel beta$”的（ ）
-
+设 #mi(`\alpha`)，#mi(`\beta`) 是两个不同的平面，#mi(`m`) 是直线且 #mi(`m \subset \alpha`)，#mi(`m \parallel \beta`) 是“#mi(`\alpha \parallel \beta`)”的（ ）
 
 B
 
-若 $alpha parallel beta$，则 $alpha$ 内任意直线都与平面 $beta$ 平行，因此 $alpha parallel beta$ 能推出 $m parallel beta$，所以前者是后者的必要条件.
+若 #mi(`\alpha\parallel\beta`)，则 #mi(`\alpha`) 内任意直线都与平面 #mi(`\beta`) 平行，因此 #mi(`\alpha\parallel\beta`) 能推出 #mi(`m\parallel\beta`)，所以前者是后者的必要条件.
 
-反之，若 $alpha$ 与 $beta$ 相交，取 $m$ 为 $alpha$ 内平行于交线 $alpha inter beta$ 的直线，则 $m parallel beta$，但 $alpha$ 不平行于 $beta$. 因此该条件不是充分条件，故选 B.
+反之，若 #mi(`\alpha`) 与 #mi(`\beta`) 相交，取 #mi(`m`) 为 #mi(`\alpha`) 内平行于交线 #mi(`\alpha\cap\beta`) 的直线，则 #mi(`m\parallel\beta`)，但 #mi(`\alpha`) 不平行于 #mi(`\beta`). 因此该条件不是充分条件，故选 B.
   #choices([充分而不必要条件], [必要而不充分条件], [充分必要条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #problem(5)[
 某三棱锥的三视图如图所示，则该三棱锥的表面积是（ ）
 
-
-#align(center)[#image("/papers/2015/img/beijing_science/q5_fig1.png", width: 65%)]
-
-
+[max width=0.65\linewidth]img/2015/beijing_science/q5_fig1.png
 
 C
 
-设三棱锥顶点为 $P$，底面为 $triangle A B C$，由三视图可还原出 $P C bot$ 平面 $A B C$，且 $P C=1$. 设 $D$ 是 $A B$ 的中点，则 $A B=2$、$A D=B D=1$、$C D=2$，且 $C D bot A B$. 因而
-$S_( triangle A B C)=(1)/(2) times 2 times 2 =2$，$A C=B C=sqrt(1^2+2^2)=sqrt(5)$.
-又因为 $P C bot$ 平面 $A B C$，所以 $P C bot A C$、$P C bot B C$，从而
+设三棱锥顶点为 #mi(`P`)，底面为 #mi(`\triangle ABC`)，由三视图可还原出 #mi(`PC\perp`) 平面 #mi(`ABC`)，且 #mi(`PC=1`). 设 #mi(`D`) 是 #mi(`AB`) 的中点，则 #mi(`AB=2`)、#mi(`AD=BD=1`)、#mi(`CD=2`)，且 #mi(`CD\perp AB`). 因而
 
-$ S_( triangle P A C)=S_( triangle P B C)=(1)/(2) times 1 \t i m e s s q r t(5)=(sqrt(5))/(2) $
+#mi(`S_{\triangle ABC}=\frac{1}{2}\times2\times2=2`)，#mi(`AC=BC=\sqrt{1^{2}+2^{2}}=\sqrt{5}`).
 
-在直角三角形 $P C D$ 中，$P D=sqrt(P C^2+C D^2)=sqrt(5)$. 又 $A B bot P C$、$A B bot C D$，而 $P C$、$C D$ 是平面 $P C D$ 内相交的两条直线，所以 $A B bot$ 平面 $P C D$，从而 $P D bot A B$. 因此 $S_( triangle P A B)=(1)/(2) times 2 \t i m e s s q r t(5)=sqrt(5)$. 三棱锥的表面积为 $2+sqrt(5)+(sqrt(5))/(2)+(sqrt(5))/(2)=2+2 sqrt(5)$，故选 C.
-  #choices([$2 + sqrt(5)$], [$4 + sqrt(5)$], [$2 + 2 sqrt(5)$], [$5$], cols: 4)
+又因为 #mi(`PC\perp`) 平面 #mi(`ABC`)，所以 #mi(`PC\perp AC`)、#mi(`PC\perp BC`)，从而
+
+
+#align(center)[#mitex(`
+S_{\triangle PAC}=S_{\triangle PBC}=\frac{1}{2}\times1\times\sqrt{5}=\frac{\sqrt{5}}{2}
+`)]
+
+
+在直角三角形 #mi(`PCD`) 中，#mi(`PD=\sqrt{PC^{2}+CD^{2}}=\sqrt{5}`). 又 #mi(`AB\perp PC`)、#mi(`AB\perp CD`)，而 #mi(`PC`)、#mi(`CD`) 是平面 #mi(`PCD`) 内相交的两条直线，所以 #mi(`AB\perp`) 平面 #mi(`PCD`)，从而 #mi(`PD\perp AB`). 因此 #mi(`S_{\triangle PAB}=\frac{1}{2}\times2\times\sqrt{5}=\sqrt{5}`). 三棱锥的表面积为 #mi(`2+\sqrt{5}+\frac{\sqrt{5}}{2}+\frac{\sqrt{5}}{2}=2+2\sqrt{5}`)，故选 C.
+  #choices([#mi(`2 + \sqrt{5}`)], [#mi(`4 + \sqrt{5}`)], [#mi(`2 + 2\sqrt{5}`)], [#mi(`5`)], cols: 2)
 ]
 
 #problem(6)[
-设 $\{a_(n)\}$ 是等差数列，下列结论中正确的是（ ）
-
+设 #mi(`\{a_{n}\}`) 是等差数列，下列结论中正确的是（ ）
 
 C
 
-设等差数列的公差为 $d$，则 $a_2=a_1+d$、$a_3=a_1+2 d$.
+设等差数列的公差为 #mi(`d`)，则 #mi(`a_{2}=a_{1}+d`)、#mi(`a_{3}=a_{1}+2d`).
 
-选项 A 不成立，例如取 $a_1=1$、$d=-(3)/(2)$，则 $a_1+a_2=(1)/(2)>0$，但 $a_2+a_3=-(5)/(2)<0$. 选项 B 不成立，例如取 $a_1=1$、$d=-(6)/(5)$，则 $a_1+a_3=-(2)/(5)<0$，但 $a_1+a_2=(4)/(5)>0$.
+选项 A 不成立，例如取 #mi(`a_{1}=1`)、#mi(`d=-\frac{3}{2}`)，则 #mi(`a_{1}+a_{2}=\frac{1}{2}>0`)，但 #mi(`a_{2}+a_{3}=-\frac{5}{2}<0`). 选项 B 不成立，例如取 #mi(`a_{1}=1`)、#mi(`d=-\frac{6}{5}`)，则 #mi(`a_{1}+a_{3}=-\frac{2}{5}<0`)，但 #mi(`a_{1}+a_{2}=\frac{4}{5}>0`).
 
-若 $0<a_1<a_2$，则 $d>0$，且
+若 #mi(`0<a_{1}<a_{2}`)，则 #mi(`d>0`)，且
 
-$ a_2^2-a_(1) a_3=(a_1+d)^2-a_1(a_1+2 d)=d^2>0 $
 
-由于 $a_(1) a_3>0$，故 $a_2>sqrt(a_(1) a_3)$，选项 C 正确. 对于选项 D，有 $(a_2-a_1)(a_2-a_3)=d(-d)=-d^2 <= 0$，不可能大于零，故选 C.
-  #choices([若 $a_(1) + a_(2) > 0$，则 $a_(2) + a_(3) > 0$], [若 $a_(1) + a_(3) < 0$，则 $a_(1) + a_(2) < 0$], [若 $0 < a_(1) < a_(2)$，则 $a_(2) > sqrt(a_(1)a_(3))$], [若 $a_(1) < 0$，则 $(a_(2) - a_(1))(a_(2) - a_(3)) > 0$], cols: 1)
+#align(center)[#mitex(`
+a_{2}^{2}-a_{1}a_{3}=(a_{1}+d)^{2}-a_{1}(a_{1}+2d)=d^{2}>0
+`)]
+
+
+由于 #mi(`a_{1}a_{3}>0`)，故 #mi(`a_{2}>\sqrt{a_{1}a_{3}}`)，选项 C 正确. 对于选项 D，有 #mi(`(a_{2}-a_{1})(a_{2}-a_{3})=d(-d)=-d^{2}\leqslant0`)，不可能大于零，故选 C.
+  #choices([若 #mi(`a_{1}+ a_{2}> 0`)，则 #mi(`a_{2}+ a_{3}> 0`)], [若 #mi(`a_{1}+ a_{3}< 0`)，则 #mi(`a_{1}+ a_{2}< 0`)], [若 #mi(`0 < a_{1}< a_{2}`)，则 #mi(`a_{2}> \sqrt{a_{1}a_{3}}`)], [若 #mi(`a_{1}< 0`)，则 #mi(`(a_{2}- a_{1})(a_{2}- a_{3}) > 0`)], cols: 1)
 ]
 
 #problem(7)[
-如图，函数 $f(x)$ 的图象为折线 $A C B$，则不等式 $f(x) >= log _2(x + 1)$ 的解集是（ ）
+如图，函数 #mi(`f(x)`) 的图象为折线 #mi(`ACB`)，则不等式 #mi(`f(x) \ge \log_{2}(x + 1)`) 的解集是（ ）
 
-
-#align(center)[#image("/papers/2015/img/beijing_science/q7_fig1.png", width: 50%)]
-
-
+[max width=0.5\linewidth]img/2015/beijing_science/q7_fig1.png
 
 C
 
-由图可知，折线 $A C B$ 的端点横坐标为 $-1$、$2$，且 $C=(0,2)$. 当 $-1<x <= 0$ 时，$f(x)=2 x+2=2(x+1)>0$，而 $0<x+1 <= 1$ 时 $log _2(x+1) <= 0$，所以不等式成立.
+由图可知，折线 #mi(`ACB`) 的端点横坐标为 #mi(`-1`)、#mi(`2`)，且 #mi(`C=(0,2)`). 当 #mi(`-1<x\leqslant0`) 时，#mi(`f(x)=2x+2=2(x+1)>0`)，而 #mi(`0<x+1\leqslant1`) 时 #mi(`\log_{2}(x+1)\leqslant0`)，所以不等式成立.
 
-当 $0 <= x <= 1$ 时，$f(x)=2-x >= 1$，且 $1 <= x+1 <= 2$，故 $log _2(x+1) <= 1$，不等式仍成立. 当 $1<x <= 2$ 时，$f(x)=2-x<1$，而 $log _2(x+1)>1$，不等式不成立. 另外，$x=-1$ 不在对数函数定义域内，因此解集为 $\{x | -1<x <= 1 \}$，故选 C.
-  #choices([$\{x | -1<x\l e q0\}$], [$\{x | -1 <= x <= 1 \}$], [$\{x | -1 < x <= 1 \}$], [$\{x | -1 < x <= 2 \}$], cols: 2)
+当 #mi(`0\le x\leqslant1`) 时，#mi(`f(x)=2-x\geqslant1`)，且 #mi(`1\le x+1\leqslant2`)，故 #mi(`\log_{2}(x+1)\leqslant1`)，不等式仍成立. 当 #mi(`1<x\leqslant2`) 时，#mi(`f(x)=2-x<1`)，而 #mi(`\log_{2}(x+1)>1`)，不等式不成立. 另外，#mi(`x=-1`) 不在对数函数定义域内，因此解集为 #mi(`\{x\mid-1<x\leqslant1\}`)，故选 C.
+  #choices([#mi(`\{x\mid-1<x\leq0\}`)], [#mi(`\{x\mid -1\le x\le 1\}`)], [#mi(`\{x\mid -1 < x\le 1\}`)], [#mi(`\{x\mid -1 < x\le 2\}`)], cols: 2)
 ]
 
 #problem(8)[
-汽车的“燃油效率”，是指汽车每消耗$1" 升"$汽油行驶的里程，下图描述了甲，乙，丙三辆汽车在不同速度下的燃油效率情况. 下列叙述中正确的是（ ）
+汽车的“燃油效率”，是指汽车每消耗#mi(`1\text{ \text{升}}`)汽油行驶的里程，下图描述了甲，乙，丙三辆汽车在不同速度下的燃油效率情况. 下列叙述中正确的是（ ）
 
-
-#align(center)[#image("/papers/2015/img/beijing_science/q8_fig1.png", width: 55%)]
-
-
+[max width=0.55\linewidth]img/2015/beijing_science/q8_fig1.png
 
 D
 
-燃油效率越大，在相同路程下消耗的汽油越少. 由图可知，乙车的燃油效率最大值超过 $5" 千米/升"$，故 A 错；在相同速度和路程下，甲车的燃油效率高于丙车，故甲车不可能消耗汽油最多，B 错；甲车以 $80" 千米/小时"$ 行驶 $1$ 小时的路程为 $80" 千米"$，图中该速度下燃油效率为 $10" 千米/升"$，所以消耗汽油 $80\div 10 =8" 升"$，C 错.
+燃油效率越大，在相同路程下消耗的汽油越少. 由图可知，乙车的燃油效率最大值超过 #mi(`5\text{ \text{千米}/\text{升}}`)，故 A 错；在相同速度和路程下，甲车的燃油效率高于丙车，故甲车不可能消耗汽油最多，B 错；甲车以 #mi(`80\text{ \text{千米}/\text{小时}}`) 行驶 #mi(`1`) 小时的路程为 #mi(`80\text{ \text{千米}}`)，图中该速度下燃油效率为 #mi(`10\text{ \text{千米}/\text{升}}`)，所以消耗汽油 #mi(`80\div10=8\text{ \text{升}}`)，C 错.
 
-在不超过 $80" 千米/小时"$ 的速度范围内，图中丙车的燃油效率不低于乙车，因此相同条件下丙车消耗的汽油不多于乙车，故 D 正确.
-  #choices([消耗$1" 升"$汽油，乙车最多可行驶$5" 千米"$], [以相同速度行驶相同路程，三辆车中，甲车消耗汽油最多], [甲车以$80" 千米/小时"$的速度行驶$1" 小时"$，消耗$10" 升"$汽油], [某城市机动车最高限速为$80" 千米/小时"$. 相同条件下，在该市用丙车比用乙车更省油], cols: 1)
+在不超过 #mi(`80\text{ \text{千米}/\text{小时}}`) 的速度范围内，图中丙车的燃油效率不低于乙车，因此相同条件下丙车消耗的汽油不多于乙车，故 D 正确.
+  #choices([消耗#mi(`1\text{ \text{升}}`)汽油，乙车最多可行驶#mi(`5\text{ \text{千米}}`)], [以相同速度行驶相同路程，三辆车中，甲车消耗汽油最多], [甲车以#mi(`80\text{ \text{千米}/\text{小时}}`)的速度行驶#mi(`1\text{ \text{小时}}`)，消耗#mi(`10\text{ \text{升}}`)汽油], [某城市机动车最高限速为#mi(`80\text{ \text{千米}/\text{小时}}`). 相同条件下，在该市用丙车比用乙车更省油], cols: 1)
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-在 $(2 + x)^5$ 的展开式中，$x^3$ 的系数为#blank(){}.
+在 #mi(`(2 + x)^{5}`) 的展开式中，#mi(`x^{3}`) 的系数为\underline{\hspace{2.5em}}.
 
 40
 
-二项式展开式的通项为 $C_5^(k) 2^(5-k)x^k$. 令 $k=3$，得 $x^3$ 的系数为 $C_5^3 2^2=10 times 4 =40$.
+二项式展开式的通项为 #mi(`\mathrm{C}_{5}^{k}2^{5-k}x^{k}`). 令 #mi(`k=3`)，得 #mi(`x^{3}`) 的系数为 #mi(`\mathrm{C}_{5}^{3} 2^{2}=10\times4=40`).
 ]
 
 #problem(10)[
-已知双曲线 $(x^2)/(a^2)-y^2=1$（$a>0$）的一条渐近线为 $sqrt(3)x+y=0$，则 $a=\f i l l i n b l a n k{}$.
+已知双曲线 #mi(`\dfrac{x^2}{a^2}-y^{2}=1`)（#mi(`a>0`)）的一条渐近线为 #mi(`\sqrt{3}x+y=0`)，则 #mi(`a=\underline{\hspace{2.5em}}{}`).
 
-$(sqrt(3))/(3)$
+#mi(`\dfrac{\sqrt{3}}{3}`)
 
-双曲线 $(x^2)/(a^2)-y^2=1$ 的渐近线为 $y= +- (x)/(a)$. 已知一条渐近线为 $y=-sqrt(3)x$，所以 $(1)/(a)=sqrt(3)$. 由 $a>0$，得 $a=(sqrt(3))/(3)$.
+双曲线 #mi(`\dfrac{x^2}{a^2}-y^{2}=1`) 的渐近线为 #mi(`y=\pm\dfrac{x}{a}`). 已知一条渐近线为 #mi(`y=-\sqrt{3}x`)，所以 #mi(`\dfrac{1}{a}=\sqrt{3}`). 由 #mi(`a>0`)，得 #mi(`a=\dfrac{\sqrt{3}}{3}`).
 ]
 
 #problem(11)[
-在极坐标系中，点 $(2,(pi)/(3))$ 到直线 $rho ( cos theta +sqrt(3) sin theta )=6$ 的距离为#blank(){}.
+在极坐标系中，点 #mi(`\left(2,\dfrac{\pi}{3}\right)`) 到直线 #mi(`\rho(\cos\theta+\sqrt{3}\sin\theta)=6`) 的距离为\underline{\hspace{2.5em}}.
 
 1
 
-极坐标点 $(2,(pi)/(3))$ 的直角坐标为 $(x,y)=(1,sqrt(3))$. 直线方程化为 $x+sqrt(3)y=6$. 因此点到直线的距离为
+极坐标点 #mi(`\left(2,\dfrac{\pi}{3}\right)`) 的直角坐标为 #mi(`(x,y)=(1,\sqrt{3})`). 直线方程化为 #mi(`x+\sqrt{3}y=6`). 因此点到直线的距离为
 
-$ (|1+sqrt(3)\c d o t s q r t(3)-6|)/(sqrt(1+(sqrt(3))^2))=(2)/(2)=1 $
+
+#align(center)[#mitex(`
+\frac{|1+\sqrt{3}\cdot\sqrt{3}-6|}{\sqrt{1+(\sqrt{3})^{2}}}=\frac{2}{2}=1
+`)]
 ]
 
 #problem(12)[
-在 $triangle A B C$ 中，$a = 4$，$b = 5$，$c = 6$，则 $(sin 2 A)/(sin C)=$#blank(){}.
+在 #mi(`\triangle ABC`) 中，#mi(`a = 4`)，#mi(`b = 5`)，#mi(`c = 6`)，则 #mi(`\frac{\sin 2A}{\sin C}=`)\underline{\hspace{2.5em}}.
 
 1
 
-由正弦定理，$(sin A)/(sin C)=(a)/(c)=(4)/(6)=(2)/(3)$. 由余弦定理，
+由正弦定理，#mi(`\dfrac{\sin A}{\sin C}=\dfrac{a}{c}=\dfrac{4}{6}=\dfrac{2}{3}`). 由余弦定理，
 
-$ cos A=(b^2+c^2-a^2)/(2 b c)=(5^2+6^2-4^2)/(2 times 5 times 6)=(3)/(4) $
 
-所以 $(sin 2 A)/(sin C)=2 cos A(sin A)/(sin C)=2 times (3)/(4) times (2)/(3)=1$.
+#align(center)[#mitex(`
+\cos A=\frac{b^{2}+c^{2}-a^{2}}{2bc}=\frac{5^{2}+6^{2}-4^{2}}{2\times5\times6}=\frac{3}{4}
+`)]
+
+
+所以 #mi(`\dfrac{\sin2A}{\sin C}=2\cos A\dfrac{\sin A}{\sin C}=2\times\dfrac{3}{4}\times\dfrac{2}{3}=1`).
 ]
 
 #problem(13)[
-在 $triangle A B C$ 中，点 $M$，$N$ 满足 $arrow(A M)= 2 arrow(M C)$，$arrow(B N)= arrow(N C)$. 若 $arrow(M N)= x a r r o w(A B)+ y a r r o w(A C)$，则 $x =$#blank(){}；$y =$#blank(){}.
+在 #mi(`\triangle ABC`) 中，点 #mi(`M`)，#mi(`N`) 满足 #mi(`\overrightarrow{AM}= 2\overrightarrow{MC}`)，#mi(`\overrightarrow{BN}= \overrightarrow{NC}`). 若 #mi(`\overrightarrow{MN}= x\overrightarrow{AB}+ y\overrightarrow{AC}`)，则 #mi(`x =`)\underline{\hspace{2.5em}}；#mi(`y =`)\underline{\hspace{2.5em}}.
 
-$x=(1)/(2)$，$y=-(1)/(6)$
+#mi(`x=\dfrac{1}{2}`)，#mi(`y=-\dfrac{1}{6}`)
 
-由 $arrow(A M)=2 arrow(M C)$，得 $arrow(A M)=(2)/(3)arrow(A C)$. 又由 $arrow(B N)=arrow(N C)$，得 $N$ 是 $B C$ 的中点. 以 $A$ 为起点，用 $arrow(A B)$、$arrow(A C)$ 表示位置向量，则
-$arrow(A M)=(2)/(3)arrow(A C)$，$arrow(A N)=arrow(A B)+(1)/(2)arrow(B C)=(1)/(2)arrow(A B)+(1)/(2)arrow(A C)$.
+由 #mi(`\overrightarrow{AM}=2\overrightarrow{MC}`)，得 #mi(`\overrightarrow{AM}=\dfrac{2}{3}\overrightarrow{AC}`). 又由 #mi(`\overrightarrow{BN}=\overrightarrow{NC}`)，得 #mi(`N`) 是 #mi(`BC`) 的中点. 以 #mi(`A`) 为起点，用 #mi(`\overrightarrow{AB}`)、#mi(`\overrightarrow{AC}`) 表示位置向量，则
+
+#mi(`\overrightarrow{AM}=\frac{2}{3}\overrightarrow{AC}`)，#mi(`\overrightarrow{AN}=\overrightarrow{AB}+\frac{1}{2}\overrightarrow{BC}=\frac{1}{2}\overrightarrow{AB}+\frac{1}{2}\overrightarrow{AC}`).
+
 于是
 
-$ arrow(M N)=arrow(A N)-arrow(A M)=(1)/(2)arrow(A B)-(1)/(6)arrow(A C) $
 
-故 $x=(1)/(2)$，$y=-(1)/(6)$.
+#align(center)[#mitex(`
+\overrightarrow{MN}=\overrightarrow{AN}-\overrightarrow{AM}=\frac{1}{2}\overrightarrow{AB}-\frac{1}{6}\overrightarrow{AC}
+`)]
+
+
+故 #mi(`x=\dfrac{1}{2}`)，#mi(`y=-\dfrac{1}{6}`).
 ]
 
 #problem(14)[
-函数 $f(x)=\b e g i n{c a s e s} 2^x-a, & x<1,\\ 4(x-a)(x-2 a), & x >= 1 . \e n d{c a s e s}$
+函数 #mi(`f(x)=\begin{cases}2^{x}-a,&x<1,\\  4(x-a)(x-2a),&x\ge 1.\end{cases}`)
 
 
-+ (1) 若 $a=1$，则 $f(x)$ 的最小值为#blank(){}；
-+ (2) 若 $f(x)$ 恰有 $2$ 个零点，则实数 $a$ 的取值范围是#blank(){}.
++ (1) 
 
 
-$-1$，$[(1)/(2),1) union [2,+ oo )$
+
+#mi(`-1`)，#mi(`\left[\dfrac{1}{2},1\right)\cup[2,+\infty)`)
 
 
-+ (1) 当 $a=1$ 时，$x<1$ 时 $f(x)=2^x-1$，该函数递增且下界为 $-1$. 当 $x >= 1$ 时，$f(x)=4(x-1)(x-2)$，其顶点为 $((3)/(2),-1)$，且顶点在定义域内. 所以 $f(x)$ 的最小值为 $-1$.
-+ (2) 当 $x<1$ 时，方程 $f(x)=0$ 等价于 $2^x=a$，它有一个定义域内的根当且仅当 $0<a<2$. 当 $x >= 1$ 时，方程 $f(x)=0$ 的根为 $x=a$ 和 $x=2 a$，分别满足定义域条件当且仅当 $a >= 1$ 和 $a >= (1)/(2)$.
-
-当 $a <= 0$ 时没有零点；当 $0<a<(1)/(2)$ 时只有第一个分支的一个零点；当 $(1)/(2) <= a<1$ 时有第一个分支的一个零点和第二分支的一个零点；当 $1 <= a<2$ 时共有三个零点. 当 $a >= 2$ 时第一个分支没有零点，而第二分支的两个根均在定义域内. 因此恰有两个零点时，$a in [(1)/(2),1) union [2,+ oo )$.
++ (1)
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-已知函数 $f(x)=sqrt(2) sin (x)/(2) cos (x)/(2)-sqrt(2) sin ""^2(x)/(2)$.
+已知函数 #mi(`f(x)=\sqrt{2}\sin\dfrac{x}{2}\cos\dfrac{x}{2}-\sqrt{2}\sin^{2}\dfrac{x}{2}`).
 
 
-+ (1) 求 $f(x)$ 的最小正周期；
-+ (2) 求 $f(x)$ 在区间 $[- pi ,0]$ 上的最小值.
++ (1)
 ]
 
 #solution[
-+ (1) 利用降幂公式，得
-
-$ f(x)=(sqrt(2))/(2) sin x-(sqrt(2))/(2)(1- cos x) =(sqrt(2))/(2)( sin x+ cos x)-(sqrt(2))/(2)= sin (x+(pi)/(4))-(sqrt(2))/(2) $
-
-因此 $f(x)$ 的最小正周期为 $2 pi$.
-+ (2) 当 $x in [- pi ,0]$ 时，$x+(pi)/(4) in [-(3 pi)/(4),(pi)/(4)]$. 该区间包含 $-(pi)/(2)$，所以 $sin (x+(pi)/(4))$ 的最小值为 $-1$，在 $x=-(3 pi)/(4)$ 时取得. 故 $f(x)$ 的最小值为 $-1-(sqrt(2))/(2)$.
++ (1)
 ]
 
 #problem(16)[
-$A$，$B$ 两组各有 $7$ 位病人，他们服用某种药物后的康复时间（单位：天）记录如下：
+#mi(`A`)，#mi(`B`) 两组各有 #mi(`7`) 位病人，他们服用某种药物后的康复时间（单位：天）记录如下：
 
-$A$ 组：$10$，$11$，$12$，$13$，$14$，$15$，$16$；
+#mi(`A`) 组：#mi(`10`)，#mi(`11`)，#mi(`12`)，#mi(`13`)，#mi(`14`)，#mi(`15`)，#mi(`16`)；
 
-$B$ 组：$12$，$13$，$15$，$16$，$17$，$14$，$a$.
+#mi(`B`) 组：#mi(`12`)，#mi(`13`)，#mi(`15`)，#mi(`16`)，#mi(`17`)，#mi(`14`)，#mi(`a`).
 
-假设所有病人的康复时间相互独立，从 $A$，$B$ 两组随机各选 $1$ 人，$A$ 组选出的人记为甲，$B$ 组选出的人记为乙.
+假设所有病人的康复时间相互独立，从 #mi(`A`)，#mi(`B`) 两组随机各选 #mi(`1`) 人，#mi(`A`) 组选出的人记为甲，#mi(`B`) 组选出的人记为乙.
 
 
-+ (1) 求甲的康复时间不少于 $14$ 天的概率；
-+ (2) 如果 $a=25$，求甲的康复时间比乙的康复时间长的概率；
-+ (3) 当 $a$ 为何值时，$A$，$B$ 两组病人康复时间的方差相等？
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) A 组有 $7$ 位病人，其中康复时间不少于 $14$ 天的有 $14$、$15$、$16$ 共 $3$ 位，所以所求概率为 $(3)/(7)$.
-+ (2) 当 $a=25$ 时，甲、乙分别从两组中各选一人，共有 $7 times 7 =49$ 种等可能结果. 按甲的康复时间列举乙的康复时间较短的结果：甲为 $13$ 时有 $1$ 种，甲为 $14$ 时有 $2$ 种，甲为 $15$ 时有 $3$ 种，甲为 $16$ 时有 $4$ 种，合计 $10$ 种. 因此所求概率为 $(10)/(49)$.
-+ (3) A 组的平均数为 $13$，方差为
-
-$ ((10-13)^2+(11-13)^2+ dots.c +(16-13)^2)/(7)=(28)/(7)=4 $
-
-B 组的平均数为 $(a+87)/(7)$，平方和为 $a^2+1279$，所以其方差为
-
-$ (a^2+1279)/(7)-((a+87)/(7))^2 $
-
-令其等于 $4$，得
-
-$ (a^2+1279)/(7)-((a+87)^2)/(49)=4 $
-
-即 $a^2-29 a+198=0$，所以 $a=11$ 或 $a=18$.
++ (1) 
++ (2)
 ]
 
 #problem(17)[
-如图，在四棱锥 $A-E F C B$ 中，$triangle A E F$ 为等边三角形，平面 $A E F bot$ 平面 $E F C B$，$E F parallel B C$，$B C=4$，$E F=2 a$，$angle E B C= angle F C B=60^ degree$，$O$ 为 $E F$ 的中点.
+如图，在四棱锥 #mi(`A-EFCB`) 中，#mi(`\triangle AEF`) 为等边三角形，平面 #mi(`AEF \perp`) 平面 #mi(`EFCB`)，#mi(`EF \parallel BC`)，#mi(`BC=4`)，#mi(`EF=2a`)，#mi(`\angle EBC=\angle FCB=60^{\circ}`)，#mi(`O`) 为 #mi(`EF`) 的中点.
 
 
-+ (1) 求证：$A O bot B E$；
-+ (2) 求二面角 $F-A E-B$ 的余弦值；
-+ (3) 若 $B E bot$ 平面 $A O C$，求 $a$ 的值.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2015/img/beijing_science/q17_fig1.png", width: 45%)]
+[max width=0.45\linewidth]img/2015/beijing_science/q17_fig1.png
 ]
 
 #solution[
-取平面 $E F C B$ 为 $z=0$，令 $O$ 为原点，$E F$ 在 $x$ 轴上，取
-$E=(-a,0,0)$，$F=(a,0,0)$，$B=(-2,h,0)$，$C=(2,h,0)$.
-由 $angle E B C=60^ degree$ 及 $B C=4$，有
+取平面 #mi(`EFCB`) 为 #mi(`z=0`)，令 #mi(`O`) 为原点，#mi(`EF`) 在 #mi(`x`) 轴上，取
 
-$ cos 60 ""^ degree =(2-a)/(sqrt((2-a)^2+h^2)) $
+#mi(`E=(-a,0,0)`)，#mi(`F=(a,0,0)`)，#mi(`B=(-2,h,0)`)，#mi(`C=(2,h,0)`).
 
-从而 $h=sqrt(3)(2-a)$. 因为 $triangle A E F$ 为边长 $2 a$ 的等边三角形，且平面 $A E F bot$ 平面 $E F C B$，可取 $A=(0,0,sqrt(3)a)$.
+由 #mi(`\angle EBC=60^{\circ}`) 及 #mi(`BC=4`)，有
 
 
-+ (1) 因为 $O$ 是等边三角形 $A E F$ 的底边中点，所以 $A O bot E F$. 在两平面垂直时，平面 $A E F$ 内垂直于交线 $E F$ 的直线 $A O$ 垂直于平面 $E F C B$. 又 $B E subset$ 平面 $E F C B$，所以 $A O bot B E$.
-+ (2) 平面 $A E F$ 的一个外法向量可取 $bold(n)_1=(0,-1,0)$. 由
-$arrow(A E)=(-a,0,-sqrt(3)a)$，$arrow(A B)=(-2,h,-sqrt(3)a)$
-可取平面 $A E B$ 的外法向量为
+#align(center)[#mitex(`
+\cos60^{\circ}=\frac{2-a}{\sqrt{(2-a)^{2}+h^{2}}}
+`)]
 
-$ bold(n)_2=arrow(A E)\t i m e s a r r o w(A B)=a(sqrt(3)h,sqrt(3)(2-a),-h) $
 
-代入 $h=sqrt(3)(2-a)$，得 $bold(n)_2=a(2-a)(3,sqrt(3),-sqrt(3))$. 因而二面角 $F-A E-B$ 的余弦值为
+从而 #mi(`h=\sqrt{3}(2-a)`). 因为 #mi(`\triangle AEF`) 为边长 #mi(`2a`) 的等边三角形，且平面 #mi(`AEF\perp`) 平面 #mi(`EFCB`)，可取 #mi(`A=(0,0,\sqrt{3}a)`).
 
-$ (bold(n)_1\c d o t b o l d(n)_2)/(|bold(n)_1||bold(n)_2|)=(-sqrt(3))/(sqrt(3^2+(sqrt(3))^2+(-sqrt(3))^2))=-(sqrt(5))/(5) $
-+ (3) 由第（1）问知 $B E bot A O$. 若 $B E bot$ 平面 $A O C$，还需 $B E bot O C$. 由坐标得
-$arrow(B E)=(2-a,-h,0)$，$arrow(O C)=(2,h,0)$.
-所以
 
-$ arrow(B E)\c d o t a r r o w(O C)=2(2-a)-h^2=0 $
-
-代入 $h^2=3(2-a)^2$，并注意四棱锥非退化，得
-$2(2-a)-3(2-a)^2=0$，$q q u a d a=(4)/(3)$.
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-已知函数 $f(x)= ln (1+x)/(1-x)$.
+已知函数 #mi(`f(x)=\ln\dfrac{1+x}{1-x}`).
 
 
-+ (1) 求曲线 $y=f(x)$ 在点 $(0,f(0))$ 处的切线方程；
-+ (2) 求证：当 $x in (0,1)$ 时，$f(x)>2(x+(x^3)/(3))$；
-+ (3) 设实数 $k$ 使得 $f(x)>k(x+(x^3)/(3))$ 对 $x in (0,1)$ 恒成立，求 $k$ 的最大值.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 函数的定义域为 $(-1,1)$，且 $f(0)=0$. 由
-
-$ f'(x)=(1)/(1+x)+(1)/(1-x)=(2)/(1-x^2) $
-
-得 $f'(0)=2$. 因此曲线在 $(0,f(0))=(0,0)$ 处的切线方程为 $y=2 x$.
-+ (2) 令 $g(x)=f(x)-2(x+(x^3)/(3))$. 则 $g(0)=0$，且当 $0<x<1$ 时
-
-$ g'(x)=(2)/(1-x^2)-2-2 x^2 =(2 x^4)/(1-x^2)>0 $
-
-所以 $g(x)>g(0)=0$，即 $f(x)>2(x+(x^3)/(3))$.
-+ (3) 记 $h(x)=x+(x^3)/(3)$. 当 $0<x<1$ 时，$h(x)>0$，第（2）问说明 $k=2$ 符合条件. 另一方面，
-
-$ lim_(x -> 0 ""^+)(f(x))/(h(x))=lim_(x -> 0 ""^+)(f'(x))/(h'(x))=(2)/(1)=2 $
-
-若某个实数 $k$ 使得对所有 $x in (0,1)$ 都有 $f(x)>k h(x)$，则因 $h(x)>0$ 有 $(f(x))/(h(x))>k$，取极限可得 $2 >= k$. 所以满足条件的 $k$ 不超过 $2$，最大值为 $2$.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-已知椭圆 $C:(x^2)/(a^2)+(y^2)/(b^2)=1$（$a>b>0$）的离心率为 $(sqrt(2))/(2)$，点 $P(0,1)$ 和点 $A(m,n)$（$m != 0$）都在椭圆 $C$ 上，直线 $P A$ 交 $x$ 轴于点 $M$.
+已知椭圆 #mi(`C:\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1`)（#mi(`a>b>0`)）的离心率为 #mi(`\dfrac{\sqrt{2}}{2}`)，点 #mi(`P(0,1)`) 和点 #mi(`A(m,n)`)（#mi(`m\neq 0`)）都在椭圆 #mi(`C`) 上，直线 #mi(`PA`) 交 #mi(`x`) 轴于点 #mi(`M`).
 
 
-+ (1) 求椭圆 $C$ 的方程，并求点 $M$ 的坐标（用 $m$，$n$ 表示）；
-+ (2) 设 $O$ 为原点，点 $B$ 与点 $A$ 关于 $x$ 轴对称，直线 $P B$ 交 $x$ 轴于点 $N$. 问：$y$ 轴上是否存在点 $Q$，使得 $angle O Q M= angle O N Q$？若存在，求点 $Q$ 的坐标；若不存在，说明理由.
++ (1)
 ]
 
 #solution[
-+ (1) 设椭圆的半焦距为 $c$. 由离心率 $e=(c)/(a)=(sqrt(2))/(2)$ 及 $c^2=a^2-b^2$，得 $b^2=(a^2)/(2)$. 因为 $P(0,1)$ 在椭圆上，所以 $b^2=1$，从而 $a^2=2$. 椭圆方程为 $(x^2)/(2)+y^2=1$.
-
-直线 $P A$ 可参数表示为 $(x,y)=(0,1)+t(m,n-1)$. 与 $x$ 轴相交时 $1+t(n-1)=0$，故 $t=(1)/(1-n)$，所以
-
-$ M((m)/(1-n),0) $
-+ (2) 由点 $B$ 与点 $A$ 关于 $x$ 轴对称，得 $B=(m,-n)$. 同理，直线 $P B$ 与 $x$ 轴的交点为
-
-$ N((m)/(1+n),0) $
-
-令 $M=(x_M,0)$、$N=(x_N,0)$、$Q=(0,y_Q)$. 在直角三角形 $O Q M$、$O N Q$ 中，分别在 $Q$、$N$ 处取正切，角相等的充要条件为
-
-$ |(x_M)/(y_Q)|=|(y_Q)/(x_N)| $
-
-即 $y_Q^2=|x_(M) x_N|$. 由椭圆方程 $(m^2)/(2)+n^2=1$，有 $m^2=2(1-n^2)$，因此
-
-$ x_(M) x_N=(m^2)/(1-n^2)=2 $
-
-所以 $y_Q^2=2$，确实存在两个点 $Q$，其坐标为 $(0,sqrt(2))$ 和 $(0,-sqrt(2))$.
++ (1)
 ]
 
 #problem(20)[
-已知数列 $\{a_n\}$ 满足：$a_1 in NN ""^*$，$a_1 <= 36$，且 $a_(n+1)=\b e g i n{c a s e s} 2 a_n, & a_n <= 18 ,\\ 2 a_n-36, & a_n>18, \e n d{c a s e s}$（$n=1$，$2$，$dots.c$）. 记集合 $M=\{a_n | n in NN ""^*\}$.
+已知数列 #mi(`\{a_{n}\}`) 满足：#mi(`a_{1}\in\mathbb{N}^{*}`)，#mi(`a_{1}\le 36`)，且 #mi(`a_{n+1}=\begin{cases}2a_{n},&a_{n}\le 18,\\  2a_{n}-36,&a_{n}>18,\end{cases}`)（#mi(`n=1`)，#mi(`2`)，#mi(`\cdots`)）. 记集合 #mi(`M=\{a_{n}\mid n\in\mathbb{N}^{*}\}`).
 
 
-+ (1) 若 $a_1=6$，写出集合 $M$ 的所有元素；
-+ (2) 若集合 $M$ 存在一个元素是 $3$ 的倍数，证明：$M$ 的所有元素都是 $3$ 的倍数；
-+ (3) 求集合 $M$ 的元素个数的最大值.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 当 $a_1=6$ 时，数列依次为 $6$，$12$，$24$，$12$，$24$，$\l d o t s$，所以 $M=\{6,12,24\}$.
-+ (2) 对任意 $n$，递推式都可写成 $a_(n+1)\equiv2 a_n\p m o d3$，因为 $36$ 是 $3$ 的倍数. 由于 $2$ 在模 $3$ 意义下可逆，故
-
-$ 3 | a_(n+1)\L o n g l e f t r i g h t a r r o w3 | a_n $
-
-若 $M$ 中有一个元素是 $3$ 的倍数，则该元素之前的各项和之后的各项均为 $3$ 的倍数，所以 $M$ 的所有元素都是 $3$ 的倍数.
-+ (3) 将递推式看作在 $1$，$2$，$\l d o t s$，$36$ 中进行的 $2 a_n$ 对 $36$ 取余，其中余数 $0$ 用 $36$ 表示. 若 $3 | a_1$，令 $a_n=3 b_n$，则 $b_(n+1)\equiv2 b_n\p m o d{12}$. 从第三项开始，$b_3\equiv4 b_1\p m o d{12}$，因而后续各项至多形成一个长度为 $2$ 的循环；连同前两项，元素个数不超过 $4$.
-
-若 $3\n m i d a_1$，则所有 $a_n$ 都不是 $3$ 的倍数. 从第三项开始，$a_n$ 都是 $4$ 的倍数，可写为 $a_n=4 c_n$，其中 $c_n$ 按模 $9$ 递推为 $c_(n+1)\equiv2 c_n\p m o d9$. 非三倍数的模 $9$ 非零剩余在乘以 $2$ 后至多经过 $6$ 项循环，因为 $2^6\equiv1\p m o d9$. 因此从第三项开始至多有 $6$ 个不同元素，连同前两项，$|M| <= 8$.
-
-取 $a_1=1$，得到
-$1$，$2$，$4$，$8$，$16$，$32$，$28$，$20$，$4$，$\l d o t s$
-其中前八项互不相同，所以 $|M|=8$ 可以达到. 因此集合 $M$ 的元素个数的最大值为 $8$.
++ (1) 
++ (2)
 ]
 

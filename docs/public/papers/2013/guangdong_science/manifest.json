@@ -1,144 +1,15 @@
 {
+  "title": "2013年普通高等学校招生全国统一考试",
+  "subtitle": "2013年广东卷（理）",
   "year": "2013",
   "slug": "guangdong_science",
-  "title": "2013年广东卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "选考题：填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "选考题：填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $M = \\{x \\mid x^2 + 2x = 0, x \\in \\mathbb{R}\\}$，$N = \\{x \\mid x^2 - 2x = 0, x \\in \\mathbb{R}\\}$，则 $M \\cup N =$（ ）",
+          "body": "设集合 $M = \\{x \\mid x^{2} + 2x = 0, x \\in \\mathbb{R}\\}$，$N = \\{x \\mid x^{2} - 2x = 0, x \\in \\mathbb{R}\\}$，则 $M \\cup N =$（ ）",
           "choices": [
             "$\\{0\\}$",
             "$\\{0, 2\\}$",
@@ -146,13 +17,11 @@
             "$\\{-2, 0, 2\\}$"
           ],
           "answer": "D.",
-          "solution": "由 $x^2+2x=x(x+2)=0$，得 $M=\\{-2,0\\}$；由 $x^2-2x=x(x-2)=0$，得 $N=\\{0,2\\}$. 因此 $M\\cup N=\\{-2,0,2\\}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $x^{2}+2x=x(x+2)=0$，得 $M=\\{-2,0\\}$；由 $x^{2}-2x=x(x-2)=0$，得 $N=\\{0,2\\}$. 因此 $M\\cup N=\\{-2,0,2\\}$，故选 D."
         },
         {
           "num": 2,
-          "body": "定义域为 $\\mathbb{R}$ 的四个函数 $y = x^3$，$y = 2^x$，$y = x^2 + 1$，$y = 2\\sin x$ 中，奇函数的个数是（ ）",
+          "body": "定义域为 $\\mathbb{R}$ 的四个函数 $y = x^{3}$，$y = 2^{x}$，$y = x^{2} + 1$，$y = 2\\sin x$ 中，奇函数的个数是（ ）",
           "choices": [
             "$4$",
             "$3$",
@@ -160,13 +29,11 @@
             "$1$"
           ],
           "answer": "C.",
-          "solution": "对 $y=x^3$，有 $(-x)^3=-x^3$，所以它是奇函数；$y=2^x$ 满足 $2^{-x}\\neq 2^x$，且不可能恒有 $2^{-x}=-2^x$，所以既不是奇函数也不是偶函数；$y=x^2+1$ 满足 $(-x)^2+1=x^2+1$，是偶函数；$y=2\\sin x$ 满足 $2\\sin(-x)=-2\\sin x$，是奇函数. 因此奇函数共有 $2$ 个，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "对 $y=x^{3}$，有 $(-x)^{3}=-x^{3}$，所以它是奇函数；$y=2^{x}$ 满足 $2^{-x}\\neq 2^{x}$，且不可能恒有 $2^{-x}=-2^{x}$，所以既不是奇函数也不是偶函数；$y=x^{2}+1$ 满足 $(-x)^{2}+1=x^{2}+1$，是偶函数；$y=2\\sin x$ 满足 $2\\sin(-x)=-2\\sin x$，是奇函数. 因此奇函数共有 $2$ 个，故选 C."
         },
         {
           "num": 3,
-          "body": "若复数 $z$ 满足 $\\mathrm{i} z = 2 + 4\\mathrm{i}$，则在复平面内，$z$ 对应的点的坐标是（ ）",
+          "body": "若复数 $z$ 满足 $\\mathrm{i}z = 2 + 4\\mathrm{i}$，则在复平面内，$z$ 对应的点的坐标是（ ）",
           "choices": [
             "$(2,4)$",
             "$(2,-4)$",
@@ -174,13 +41,11 @@
             "$(4,2)$"
           ],
           "answer": "C.",
-          "solution": "由 $\\mathrm{i} z=2+4\\mathrm{i}$，两边同除以 $\\mathrm{i}$，得 $z=\\dfrac{2+4\\mathrm{i}}{\\mathrm{i}}=(2+4\\mathrm{i})(-\\mathrm{i})=4-2\\mathrm{i}$. 所以 $z$ 在复平面内对应的点为 $(4,-2)$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $\\mathrm{i}z=2+4\\mathrm{i}$，两边同除以 $\\mathrm{i}$，得 $z=\\dfrac{2+4\\mathrm{i}}{\\mathrm{i}}=(2+4\\mathrm{i})(-\\mathrm{i})=4-2\\mathrm{i}$. 所以 $z$ 在复平面内对应的点为 $(4,-2)$，故选 C."
         },
         {
           "num": 4,
-          "body": "已知离散型随机变量 $X$ 的分布列为\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n$X$ & $1$ & $2$ & $3$ \\\\\r\n\\hline\r\n$P$ & $\\frac{3}{5}$ & $\\frac{3}{10}$ & $\\frac{1}{10}$\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n则 $X$ 的数学期望 $E(X) =$（ ）",
+          "body": "<p>已知离散型随机变量 $X$ 的分布列为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{3}{5}$ </td><td style=\"text-align: center\"> $\\frac{3}{10}$ </td><td style=\"text-align: center\"> $\\frac{1}{10}$</td></tr></tbody></table></center><p>则 $X$ 的数学期望 $E(X) =$（ ）</p>",
           "choices": [
             "$\\frac{3}{2}$",
             "$2$",
@@ -188,13 +53,11 @@
             "$3$"
           ],
           "answer": "A.",
-          "solution": "离散型随机变量的数学期望为各取值与其概率乘积之和，因此\r\n$E(X)=1\\times\\frac35+2\\times\\frac3{10}+3\\times\\frac1{10}=\\frac35+\\frac6{10}+\\frac3{10}=\\frac32$. 故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>离散型随机变量的数学期望为各取值与其概率乘积之和，因此</p><p>$E(X)=1\\times\\frac{3}{5}+2\\times\\frac{3}{10}+3\\times\\frac{1}{10}=\\frac{3}{5}+\\frac{6}{10}+\\frac{3}{10}=\\frac{3}{2}$. 故选 A.</p>"
         },
         {
           "num": 5,
-          "body": "某四棱台的三视图如图所示，则该四棱台的体积是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/guangdong_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>某四棱台的三视图如图所示，则该四棱台的体积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$4$",
             "$\\frac{14}{3}$",
@@ -202,13 +65,11 @@
             "$6$"
           ],
           "answer": "B.",
-          "solution": "由三视图可知，该四棱台的上、下底面均为正方形，边长分别为 $1$ 和 $2$，高为 $2$. 所以两底面积分别为 $1$ 和 $4$，四棱台的体积为\r\n$V=\\frac{h}{3}\\left(S_1+S_2+\\sqrt{S_1S_2}\\right)=\\frac23\\left(1+4+\\sqrt4\\right)=\\frac{14}{3}$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由三视图可知，该四棱台的上、下底面均为正方形，边长分别为 $1$ 和 $2$，高为 $2$. 所以两底面积分别为 $1$ 和 $4$，四棱台的体积为</p><p>$V=\\frac{h}{3}\\left(S_{1}+S_{2}+\\sqrt{S_{1}S_{2}}\\right)=\\frac{2}{3}\\left(1+4+\\sqrt{4}\\right)=\\frac{14}{3}$. 故选 B.</p>"
         },
         {
           "num": 6,
-          "body": "设 $m$，$n$ 是两条不同的直线，$\\alpha$，$\\beta$ 是两个不同的平面，下列命题中正确的是（ ）",
+          "body": "设 $m$，$n$ 是两条不同的直线，$\\alpha$，$\\beta$ 是两个不同的平面，下列命题中正确的是（ ）",
           "choices": [
             "若 $\\alpha \\perp \\beta, m \\subset \\alpha, n \\subset \\beta$，则 $m \\perp n$",
             "若 $\\alpha \\parallel \\beta$，$m \\subset \\alpha$，$n \\subset \\beta$，则 $m \\parallel n$",
@@ -216,27 +77,23 @@
             "若 $m \\perp \\alpha$，$m \\parallel n$，$n \\parallel \\beta$，则 $\\alpha \\perp \\beta$"
           ],
           "answer": "D.",
-          "solution": "平面垂直时，分别位于两个平面内的任意两条直线不一定垂直，所以 A 不正确；平行平面内的直线方向可以不同，所以 B 不正确；两条相交直线分别属于两个平面，不能据此推出两个平面垂直，所以 C 不正确. 由 $m\\perp\\alpha$ 且 $m\\parallel n$，得 $n\\perp\\alpha$；又 $n\\parallel\\beta$，根据“若一平面经过另一平面的垂线，则两平面垂直”的判定定理，得 $\\alpha\\perp\\beta$. 因此 D 正确，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "平面垂直时，分别位于两个平面内的任意两条直线不一定垂直，所以 A 不正确；平行平面内的直线方向可以不同，所以 B 不正确；两条相交直线分别属于两个平面，不能据此推出两个平面垂直，所以 C 不正确. 由 $m\\perp\\alpha$ 且 $m\\parallel n$，得 $n\\perp\\alpha$；又 $n\\parallel\\beta$，根据“若一平面经过另一平面的垂线，则两平面垂直”的判定定理，得 $\\alpha\\perp\\beta$. 因此 D 正确，故选 D."
         },
         {
           "num": 7,
-          "body": "已知中心在原点的双曲线 $C$ 的右焦点为 $F(3,0)$，离心率等于 $\\frac{3}{2}$，则 $C$ 的方程是（ ）",
+          "body": "已知中心在原点的双曲线 $C$ 的右焦点为 $F(3,0)$，离心率等于 $\\frac{3}{2}$，则 $C$ 的方程是（ ）",
           "choices": [
-            "$\\frac{x^2}{4} -\\frac{y^2}{\\sqrt{5}} = 1$",
-            "$\\frac{x^2}{4} -\\frac{y^2}{5} = 1$",
-            "$\\frac{x^2}{2} -\\frac{y^2}{5} = 1$",
-            "$\\frac{x^2}{2} -\\frac{y^2}{\\sqrt{5}} = 1$"
+            "$\\frac{x^{2}}{4}-\\frac{y^{2}}{\\sqrt{5}}= 1$",
+            "$\\frac{x^{2}}{4}-\\frac{y^{2}}{5}= 1$",
+            "$\\frac{x^{2}}{2}-\\frac{y^{2}}{5}= 1$",
+            "$\\frac{x^{2}}{2}-\\frac{y^{2}}{\\sqrt{5}}= 1$"
           ],
           "answer": "B.",
-          "solution": "双曲线的焦半距为 $c=3$，离心率满足 $e=\\frac ca=\\frac32$，所以 $a=2$. 又 $c^2=a^2+b^2$，得 $b^2=3^2-2^2=5$. 由于焦点在 $x$ 轴上，双曲线方程为 $\\frac{x^2}{4}-\\frac{y^2}{5}=1$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "双曲线的焦半距为 $c=3$，离心率满足 $e=\\frac{c}{a}=\\frac{3}{2}$，所以 $a=2$. 又 $c^{2}=a^{2}+b^{2}$，得 $b^{2}=3^{2}-2^{2}=5$. 由于焦点在 $x$ 轴上，双曲线方程为 $\\frac{x^{2}}{4}-\\frac{y^{2}}{5}=1$，故选 B."
         },
         {
           "num": 8,
-          "body": "设整数 $n \\ge 4$，集合 $X = \\{1, 2, 3, \\cdots, n\\}$.\r\n令集合 $S = \\{(x, y, z) \\mid x, y, z \\in X,\\ \\text{且三条件 } x < y < z, y < z < x, z < x < y \\text{ 恰有一个成立}\\}$，若 $(x, y, z)$ 和 $(z, w, x)$ 都在 $S$ 中，则下列选项正确的是（ ）",
+          "body": "<p>设整数 $n \\ge 4$，集合 $X = \\{1, 2, 3, \\cdots, n\\}$.</p><p>令集合 $S = \\{(x, y, z) \\mid x, y, z \\in X,\\ \\text{且三条件 }x &#x3C; y &#x3C; z, y &#x3C; z &#x3C; x, z &#x3C; x &#x3C; y \\text{ 恰有一个成立}\\}$，若 $(x, y, z)$ 和 $(z, w, x)$ 都在 $S$ 中，则下列选项正确的是（ ）</p>",
           "choices": [
             "$(y, z, w) \\in S, (x, y, w) \\notin S$",
             "$(y, z, w) \\in S$，$(x, y, w) \\in S$",
@@ -244,9 +101,7 @@
             "$(y,z,w)\\notin S$，$(x,y,w)\\notin S$"
           ],
           "answer": "B.",
-          "solution": "由 $(x,y,z)\\in S$，三个数互不相等. 分三种循环顺序讨论. 若 $x<y<z$，由 $(z,w,x)\\in S$ 可知 $w<x$ 或 $w>z$. 当 $w<x<y<z$ 时，$w<y<z$ 和 $w<x<y$ 分别说明 $(y,z,w)\\in S$ 和 $(x,y,w)\\in S$；当 $x<y<z<w$ 时，$y<z<w$ 和 $x<y<w$ 分别说明这两个三元组也都属于 $S$.\r\n\r\n若 $y<z<x$，由 $(z,w,x)\\in S$ 必有 $z<w<x$. 于是 $y<z<w<x$，从而 $y<z<w$ 以及 $y<w<x$ 成立，故 $(y,z,w)\\in S$ 且 $(x,y,w)\\in S$. 若 $z<x<y$，同理由 $(z,w,x)\\in S$ 得 $z<w<x<y$，此时 $z<w<y$ 以及 $w<x<y$ 成立，故两个三元组仍都属于 $S$. 因此正确选项为 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $(x,y,z)\\in S$，三个数互不相等. 分三种循环顺序讨论. 若 $x&#x3C;y&#x3C;z$，由 $(z,w,x)\\in S$ 可知 $w&#x3C;x$ 或 $w>z$. 当 $w&#x3C;x&#x3C;y&#x3C;z$ 时，$w&#x3C;y&#x3C;z$ 和 $w&#x3C;x&#x3C;y$ 分别说明 $(y,z,w)\\in S$ 和 $(x,y,w)\\in S$；当 $x&#x3C;y&#x3C;z&#x3C;w$ 时，$y&#x3C;z&#x3C;w$ 和 $x&#x3C;y&#x3C;w$ 分别说明这两个三元组也都属于 $S$.</p><p>若 $y&#x3C;z&#x3C;x$，由 $(z,w,x)\\in S$ 必有 $z&#x3C;w&#x3C;x$. 于是 $y&#x3C;z&#x3C;w&#x3C;x$，从而 $y&#x3C;z&#x3C;w$ 以及 $y&#x3C;w&#x3C;x$ 成立，故 $(y,z,w)\\in S$ 且 $(x,y,w)\\in S$. 若 $z&#x3C;x&#x3C;y$，同理由 $(z,w,x)\\in S$ 得 $z&#x3C;w&#x3C;x&#x3C;y$，此时 $z&#x3C;w&#x3C;y$ 以及 $w&#x3C;x&#x3C;y$ 成立，故两个三元组仍都属于 $S$. 因此正确选项为 B.</p>"
         }
       ]
     },
@@ -255,48 +110,38 @@
       "problems": [
         {
           "num": 9,
-          "body": "不等式 $x^{2} + x - 2 < 0$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\((-2,1)\\).",
-          "solution": "因式分解得 $x^2+x-2=(x+2)(x-1)$. 两根为 $-2$ 和 $1$，二次项系数为正，所以乘积小于零时 $x$ 在两根之间，即解集为 $(-2,1)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "不等式 $x^{2}+ x - 2 &#x3C; 0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-2,1)$.",
+          "solution": "因式分解得 $x^{2}+x-2=(x+2)(x-1)$. 两根为 $-2$ 和 $1$，二次项系数为正，所以乘积小于零时 $x$ 在两根之间，即解集为 $(-2,1)$."
         },
         {
           "num": 10,
-          "body": "若曲线 $y = kx + \\ln x$ 在点 $(1, k)$ 处的切线平行于 $x$ 轴，则 $k=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-1\\).",
-          "solution": "函数的导数为 $y'=k+\\frac1x$. 在 $x=1$ 处切线斜率为 $k+1$. 切线平行于 $x$ 轴，故斜率为零，从而 $k+1=0$，得 $k=-1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若曲线 $y = kx + \\ln x$ 在点 $(1, k)$ 处的切线平行于 $x$ 轴，则 $k=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-1$.",
+          "solution": "函数的导数为 $y'=k+\\frac{1}{x}$. 在 $x=1$ 处切线斜率为 $k+1$. 切线平行于 $x$ 轴，故斜率为零，从而 $k+1=0$，得 $k=-1$."
         },
         {
           "num": 11,
-          "body": "执行如图所示的程序框图，若输入 $n$ 的值为 $4$，则输出 $s$ 的值为 _______ {}.\r\n\r\n\\texfigure[max width=0.34\\linewidth]{img_repaint/2013/guangdong_science/q11_fig1.tex}",
-          "choices": [],
-          "answer": "\\(7\\).",
-          "solution": "程序开始时 $i=1$，$s=1$. 当 $i\\leqslant4$ 时，每次执行 $s=s+(i-1)$，然后令 $i=i+1$. 四次循环中加入的数依次为 $0$，$1$，$2$，$3$，所以输出值为 $s=1+0+1+2+3=7$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>执行如图所示的程序框图，若输入 $n$ 的值为 $4$，则输出 $s$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.34<span class=\"macro macro-linewidth\"></span>]img_repaint/2013/guangdong_science/q11_fig1.tex</p>",
+          "choices": null,
+          "answer": "$7$.",
+          "solution": "程序开始时 $i=1$，$s=1$. 当 $i\\leqslant4$ 时，每次执行 $s=s+(i-1)$，然后令 $i=i+1$. 四次循环中加入的数依次为 $0$，$1$，$2$，$3$，所以输出值为 $s=1+0+1+2+3=7$."
         },
         {
           "num": 12,
-          "body": "在等差数列 $\\{a_{n}\\}$ 中，已知 $a_{3} + a_{8} = 10$，则 $3a_{5} + a_{7} = _______ {}$.",
-          "choices": [],
-          "answer": "\\(20\\).",
-          "solution": "设等差数列首项为 $a_1$，公差为 $d$，则 $a_n=a_1+(n-1)d$. 于是 $a_3+a_8=2a_1+9d=10$，而\r\n$3a_5+a_7=3(a_1+4d)+(a_1+6d)=4a_1+18d=2(2a_1+9d)=20$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在等差数列 $\\{a_{n}\\}$ 中，已知 $a_{3}+ a_{8}= 10$，则 $3a_{5}+ a_{7}=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$20$.",
+          "solution": "<p>设等差数列首项为 $a_{1}$，公差为 $d$，则 $a_{n}=a_{1}+(n-1)d$. 于是 $a_{3}+a_{8}=2a_{1}+9d=10$，而</p><p>$3a_{5}+a_{7}=3(a_{1}+4d)+(a_{1}+6d)=4a_{1}+18d=2(2a_{1}+9d)=20$.</p>"
         },
         {
           "num": 13,
-          "body": "给定区域 $D: \\begin{cases}\r\nx + 4y \\ge 4,\\\\\r\nx + y \\le 4,\\\\\r\nx \\ge 0,\r\n\\end{cases}$ 令点集 $T = \\{(x_0, y_0) \\in D \\mid x_0, y_0 \\in \\mathbb{Z},\\ (x_0, y_0)\\text{ 是 } z = x + y \\text{ 在 } D \\text{ 上取得最大值或最小值的点}\\}$，则 $T$ 中的点共确定 _______ {} 条不同的直线.",
-          "choices": [],
-          "answer": "\\(6\\).",
-          "solution": "由 $x\\geqslant0$、$x+4y\\geqslant4$ 和 $x+y\\leqslant4$ 可知可行域的顶点为 $(0,1)$、$(0,4)$ 和 $(4,0)$. 目标函数为 $z=x+y$，在边界 $x+y=4$ 上取得最大值 $4$，因此最大值点中的整点为 $(0,4)$、$(1,3)$、$(2,2)$、$(3,1)$、$(4,0)$，共五点且共线. 沿边界 $x+4y=4$ 有 $z=1+\\frac34x$，故最小值在 $(0,1)$ 处取得. 于是五个最大值点确定一条直线，最小值点分别与这五个点确定五条不同的直线，共确定 $1+5=6$ 条不同的直线.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "给定区域 $D: \\begin{cases}x + 4y \\ge 4,\\\\  x + y \\le 4,\\\\  x \\ge 0,\\end{cases}$ 令点集 $T = \\{(x_{0}, y_{0}) \\in D \\mid x_{0}, y_{0} \\in \\mathbb{Z},\\ (x_{0}, y_{0})\\text{ 是 }z = x + y \\text{ 在 }D \\text{ 上取得最大值或最小值的点}\\}$，则 $T$ 中的点共确定<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 条不同的直线.",
+          "choices": null,
+          "answer": "$6$.",
+          "solution": "由 $x\\geqslant0$、$x+4y\\geqslant4$ 和 $x+y\\leqslant4$ 可知可行域的顶点为 $(0,1)$、$(0,4)$ 和 $(4,0)$. 目标函数为 $z=x+y$，在边界 $x+y=4$ 上取得最大值 $4$，因此最大值点中的整点为 $(0,4)$、$(1,3)$、$(2,2)$、$(3,1)$、$(4,0)$，共五点且共线. 沿边界 $x+4y=4$ 有 $z=1+\\frac{3}{4}x$，故最小值在 $(0,1)$ 处取得. 于是五个最大值点确定一条直线，最小值点分别与这五个点确定五条不同的直线，共确定 $1+5=6$ 条不同的直线."
         }
       ]
     },
@@ -305,21 +150,17 @@
       "problems": [
         {
           "num": 14,
-          "body": "已知曲线 $C$ 的参数方程为 $\\begin{cases}\r\nx = \\sqrt{2} \\cos t,\\\\\r\ny = \\sqrt{2} \\sin t,\r\n\\end{cases}$ （$t$ 为参数），$C$ 在点 $(1,1)$ 处的切线为 $l$，以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，则 $l$ 的极坐标方程为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\rho(\\cos\\theta+\\sin\\theta)=2\\).",
-          "solution": "由参数方程消去参数，得 $x^2+y^2=2$，所以 $C$ 是圆心为原点、半径为 $\\sqrt2$ 的圆. 点 $(1,1)$ 处的半径方向为 $(1,1)$，切线与该半径垂直，故切线方程为 $x+y=2$. 在极坐标中 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，代入得 $\\rho(\\cos\\theta+\\sin\\theta)=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知曲线 $C$ 的参数方程为 $\\begin{cases}x = \\sqrt{2} \\cos t,\\\\\n\ny = \\sqrt{2} \\sin t,\\end{cases}$ （$t$ 为参数），$C$ 在点 $(1,1)$ 处的切线为 $l$，以坐标原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，则 $l$ 的极坐标方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\rho(\\cos\\theta+\\sin\\theta)=2$.",
+          "solution": "由参数方程消去参数，得 $x^{2}+y^{2}=2$，所以 $C$ 是圆心为原点、半径为 $\\sqrt{2}$ 的圆. 点 $(1,1)$ 处的半径方向为 $(1,1)$，切线与该半径垂直，故切线方程为 $x+y=2$. 在极坐标中 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，代入得 $\\rho(\\cos\\theta+\\sin\\theta)=2$."
         },
         {
           "num": 15,
-          "body": "如图，$AB$ 是圆 $O$ 的直径，点 $C$ 在圆 $O$ 上，延长 $BC$ 到 $D$ 使 $BC = CD$，过 $C$ 作圆 $O$ 的切线交 $AD$ 于 $E$. 若 $AB = 6$，$ED = 2$，则 $BC = _______ {}$.\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/guangdong_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(2\\sqrt{3}\\).",
-          "solution": "设 $BC=CD=u$，$AC=v$. 因为 $AB$ 是直径，所以 $\\angle ACB=90^{\\circ}$，从而 $AC\\perp BC$，也有 $AC\\perp CD$. 由 $BC=CD$ 得 $AB^2=AC^2+BC^2=AC^2+CD^2=AD^2$，所以 $AD=AB=6$.\r\n\r\n建立直角坐标系，取 $C$ 为原点，$BC$ 所在直线为 $x$ 轴，令 $B=(-u,0)$，$D=(u,0)$，$A=(0,v)$. 由 $AB=6$ 得 $u^2+v^2=36$. 圆心为 $O=(-\\frac u2,\\frac v2)$，所以过 $C$ 的切线方程为 $ux-vy=0$；直线 $AD$ 的方程为 $vx+uy=uv$. 设切线与 $AD$ 的交点为 $E$，联立两式，得\r\n$E=\\left(\\frac{uv^2}{36},\\frac{u^2v}{36}\\right)$. 在从 $A$ 到 $D$ 的线段上，点 $E$ 的横坐标占 $AD$ 的比例为 $\\frac{v^2}{36}$，因此\r\n$ED=AD\\left(1-\\frac{v^2}{36}\\right)=6\\cdot\\frac{u^2}{36}=\\frac{u^2}{6}$. 由 $ED=2$，得 $u^2=12$，故 $BC=u=2\\sqrt3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，$AB$ 是圆 $O$ 的直径，点 $C$ 在圆 $O$ 上，延长 $BC$ 到 $D$ 使 $BC = CD$，过 $C$ 作圆 $O$ 的切线交 $AD$ 于 $E$. 若 $AB = 6$，$ED = 2$，则 $BC =\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$2\\sqrt{3}$.",
+          "solution": "<p>设 $BC=CD=u$，$AC=v$. 因为 $AB$ 是直径，所以 $\\angle ACB=90^{\\circ}$，从而 $AC\\perp BC$，也有 $AC\\perp CD$. 由 $BC=CD$ 得 $AB^{2}=AC^{2}+BC^{2}=AC^{2}+CD^{2}=AD^{2}$，所以 $AD=AB=6$.</p><p>建立直角坐标系，取 $C$ 为原点，$BC$ 所在直线为 $x$ 轴，令 $B=(-u,0)$，$D=(u,0)$，$A=(0,v)$. 由 $AB=6$ 得 $u^{2}+v^{2}=36$. 圆心为 $O=(-\\frac{u}{2},\\frac{v}{2})$，所以过 $C$ 的切线方程为 $ux-vy=0$；直线 $AD$ 的方程为 $vx+uy=uv$. 设切线与 $AD$ 的交点为 $E$，联立两式，得</p><p>$E=\\left(\\frac{uv^{2}}{36},\\frac{u^{2}v}{36}\\right)$. 在从 $A$ 到 $D$ 的线段上，点 $E$ 的横坐标占 $AD$ 的比例为 $\\frac{v^{2}}{36}$，因此</p><p>$ED=AD\\left(1-\\frac{v^{2}}{36}\\right)=6\\cdot\\frac{u^{2}}{36}=\\frac{u^{2}}{6}$. 由 $ED=2$，得 $u^{2}=12$，故 $BC=u=2\\sqrt{3}$.</p>"
         }
       ]
     },
@@ -328,60 +169,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "已知函数 $f(x) = \\sqrt{2}\\cos\\left(x - \\frac{\\pi}{12}\\right)$，$x \\in \\mathbb{R}$.\r\n\r\n\n(1) 求 $f\\left(-\\frac{\\pi}{6}\\right)$ 的值.\n\n(2) 若 $\\cos \\theta = \\frac{3}{5}$，$\\theta \\in \\left(\\frac{3\\pi}{2}, 2\\pi\\right)$，求 $f\\left(2\\theta + \\frac{\\pi}{3}\\right)$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\sqrt{2}\\cos\\left(x - \\frac{\\pi}{12}\\right)$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(-\\frac{\\pi}{6}\\right)$ 的值.</p></li><li><p>若 $\\cos \\theta = \\frac{3}{5}$，$\\theta \\in \\left(\\frac{3\\pi}{2}, 2\\pi\\right)$，求 $f\\left(2\\theta + \\frac{\\pi}{3}\\right)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $f\\left(-\\frac{\\pi}{6}\\right)=\\sqrt2\\cos\\left(-\\frac\\pi6-\\frac\\pi{12}\\right)=\\sqrt2\\cos\\left(-\\frac\\pi4\\right)=1$.\n\n(2) 因为 $\\theta\\in(\\frac{3\\pi}{2},2\\pi)$，所以 $\\sin\\theta<0$. 由 $\\cos\\theta=\\frac35$，得 $\\sin\\theta=-\\frac45$，从而 $\\cos2\\theta=2\\cos^2\\theta-1=-\\frac7{25}$，$\\sin2\\theta=2\\sin\\theta\\cos\\theta=-\\frac{24}{25}$. 因此\r\n$f\\left(2\\theta+\\frac\\pi3\\right)=\\sqrt2\\cos\\left(2\\theta+\\frac\\pi4\\right)=\\sqrt2\\left(\\cos2\\theta\\cos\\frac\\pi4-\\sin2\\theta\\sin\\frac\\pi4\\right)=\\frac{17}{25}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$f\\left(-\\frac{\\pi}{6}\\right)=\\sqrt{2}\\cos\\left(-\\frac{\\pi}{6}-\\frac{\\pi}{12}\\right)=\\sqrt{2}\\cos\\left(-\\frac{\\pi}{4}\\right)=1$.</p></li><li><p>因为 $\\theta\\in(\\frac{3\\pi}{2},2\\pi)$，所以 $\\sin\\theta&#x3C;0$. 由 $\\cos\\theta=\\frac{3}{5}$，得 $\\sin\\theta=-\\frac{4}{5}$，从而 $\\cos2\\theta=2\\cos^{2}\\theta-1=-\\frac{7}{25}$，$\\sin2\\theta=2\\sin\\theta\\cos\\theta=-\\frac{24}{25}$. 因此</p><p>$f\\left(2\\theta+\\frac{\\pi}{3}\\right)=\\sqrt{2}\\cos\\left(2\\theta+\\frac{\\pi}{4}\\right)=\\sqrt{2}\\left(\\cos2\\theta\\cos\\frac{\\pi}{4}-\\sin2\\theta\\sin\\frac{\\pi}{4}\\right)=\\frac{17}{25}$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "某车间共有 $12$ 名工人，随机抽取 $6$ 名，他们某日加工零件个数的茎叶图如图所示，其中茎为十位数，叶为个位数.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|l}\r\n1 & $7\\;9$ \\\\\r\n2 & $0\\;1\\;5$ \\\\\r\n3 & $0$\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 根据茎叶图计算样本均值.\n\n(2) 日加工零件个数大于样本均值的工人为优秀工人. 根据茎叶图推断该车间 $12$ 名工人中有几名优秀工人？\n\n(3) 从该车间 $12$ 名工人中，任取 $2$ 人，求恰有 $1$ 名优秀工人的概率.",
-          "choices": [],
+          "body": "<p>某车间共有 $12$ 名工人，随机抽取 $6$ 名，他们某日加工零件个数的茎叶图如图所示，其中茎为十位数，叶为个位数.</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">1 </td><td> $7\\;9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>2 </td><td> $0\\;1\\;5$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>3 </td><td> $0$</td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>根据茎叶图计算样本均值.</p></li><li><p>日加工零件个数大于样本均值的工人为优秀工人. 根据茎叶图推断该车间 $12$ 名工人中有几名优秀工人？</p></li><li><p>从该车间 $12$ 名工人中，任取 $2$ 人，求恰有 $1$ 名优秀工人的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 茎叶图中的样本数据为 $17$，$19$，$20$，$21$，$25$，$30$，所以样本均值为 $\\bar x=\\frac{17+19+20+21+25+30}{6}=\\frac{132}{6}=22$.\n\n(2) 样本中加工零件个数大于 $22$ 的有 $25$ 和 $30$，共 $2$ 人，占抽取人数的 $\\frac26=\\frac13$. 据此推断 $12$ 名工人中优秀工人数为 $12\\times\\frac13=4$ 名.\n\n(3) 设优秀工人有 $4$ 名，非优秀工人有 $8$ 名. 任取 $2$ 人的总方法数为 $\\mathrm C_{12}^{2}$，恰有 $1$ 名优秀工人的方法数为 $\\mathrm C_{4}^{1}\\mathrm C_{8}^{1}$，所以所求概率为 $\\frac{\\mathrm C_{4}^{1}\\mathrm C_{8}^{1}}{\\mathrm C_{12}^{2}}=\\frac{32}{66}=\\frac{16}{33}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>茎叶图中的样本数据为 $17$，$19$，$20$，$21$，$25$，$30$，所以样本均值为 $\\bar x=\\frac{17+19+20+21+25+30}{6}=\\frac{132}{6}=22$.</p></li><li><p>样本中加工零件个数大于 $22$ 的有 $25$ 和 $30$，共 $2$ 人，占抽取人数的 $\\frac{2}{6}=\\frac{1}{3}$. 据此推断 $12$ 名工人中优秀工人数为 $12\\times\\frac{1}{3}=4$ 名.</p></li><li><p>设优秀工人有 $4$ 名，非优秀工人有 $8$ 名. 任取 $2$ 人的总方法数为 $\\mathrm{C}_{12}^{2}$，恰有 $1$ 名优秀工人的方法数为 $\\mathrm{C}_{4}^{1}\\mathrm{C}_{8}^{1}$，所以所求概率为 $\\frac{\\mathrm{C}_{4}^{1}\\mathrm{C}_{8}^{1}}{\\mathrm{C}_{12}^{2}}=\\frac{32}{66}=\\frac{16}{33}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图\\circled{1}，在等腰直角三角形 $ABC$ 中，$\\angle A = 90^{\\circ}$，$BC = 6$.\r\n$D$，$E$ 分别是 $AC$，$AB$ 上的点，$CD = BE = \\sqrt{2}$，$O$ 为 $BC$ 的中点.\r\n将 $\\triangle ADE$ 沿 $DE$ 折起，得到下图\\circled{2}所示的四棱锥 $A^{\\prime} - BCDE$，其中 $A^{\\prime}O = \\sqrt{3}$.\r\n\r\n\n(1) 证明：$A^{\\prime}O \\perp$ 平面 $BCDE$.\n\n(2) 求二面角 $A^{\\prime} - CD - B$ 的平面角的余弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/guangdong_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图①，在等腰直角三角形 $ABC$ 中，$\\angle A = 90^{\\circ}$，$BC = 6$.</p><p>$D$，$E$ 分别是 $AC$，$AB$ 上的点，$CD = BE = \\sqrt{2}$，$O$ 为 $BC$ 的中点.</p><p>将 $\\triangle ADE$ 沿 $DE$ 折起，得到下图②所示的四棱锥 $A^{\\prime}- BCDE$，其中 $A^{\\prime}O = \\sqrt{3}$.</p><ol class=\"enumerate\"><li><p>证明：$A^{\\prime}O \\perp$ 平面 $BCDE$.</p></li><li><p>求二面角 $A^{\\prime}- CD - B$ 的平面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取平面 $BCDE$ 为 $xOy$ 平面，令 $O$ 为原点，$BC$ 在 $x$ 轴上. 由于 $BC=6$，可取 $B=(3,0,0)$，$C=(-3,0,0)$. 在折叠前，等腰直角三角形可取 $A=(0,-3,0)$，因为 $AB=AC=3\\sqrt2$. 由 $CD=BE=\\sqrt2$，得 $D=(-2,-1,0)$，$E=(2,-1,0)$；折叠沿 $DE$ 进行不会改变这些底面点的坐标.\r\n\r\n设 $A^{\\prime}=(u,v,h)$. 折叠保持 $A^{\\prime}D=AD=2\\sqrt2$ 和 $A^{\\prime}E=AE=2\\sqrt2$，故\r\n$(u+2)^2+(v+1)^2+h^2=(u-2)^2+(v+1)^2+h^2$，从而 $u=0$. 又已知 $A^{\\prime}O=\\sqrt3$，所以 $v^2+h^2=3$. 再由 $A^{\\prime}D^2=8$，得 $4+(v+1)^2+h^2=8$. 与 $v^2+h^2=3$ 相减，得 $2v=0$，即 $v=0$，于是 $h^2=3$. 因此 $A^{\\prime}=(0,0,\\sqrt3)$，直线 $A^{\\prime}O$ 是 $z$ 轴，故 $A^{\\prime}O\\perp$ 平面 $BCDE$.\n\n(2) 取平面 $BCD$ 的法向量 $\\mathbf{n}_2=(0,0,1)$. 在平面 $A^{\\prime}CD$ 内，取\r\n$\\overrightarrow{CD}=(1,-1,0)$，$\\overrightarrow{CA^{\\prime}}=(3,0,\\sqrt3)$，则该平面的一个法向量为\r\n$\\mathbf{n}_1=\\overrightarrow{CD}\\times\\overrightarrow{CA^{\\prime}}=(-\\sqrt3,-\\sqrt3,3)$. 所以二面角的平面角 $\\varphi$ 的余弦的绝对值为\r\n$\\cos\\varphi=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\frac{3}{\\sqrt{3+3+9}}=\\frac{3}{\\sqrt{15}}=\\frac{\\sqrt{15}}5$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取平面 $BCDE$ 为 $xOy$ 平面，令 $O$ 为原点，$BC$ 在 $x$ 轴上. 由于 $BC=6$，可取 $B=(3,0,0)$，$C=(-3,0,0)$. 在折叠前，等腰直角三角形可取 $A=(0,-3,0)$，因为 $AB=AC=3\\sqrt{2}$. 由 $CD=BE=\\sqrt{2}$，得 $D=(-2,-1,0)$，$E=(2,-1,0)$；折叠沿 $DE$ 进行不会改变这些底面点的坐标.</p><p>设 $A^{\\prime}=(u,v,h)$. 折叠保持 $A^{\\prime}D=AD=2\\sqrt{2}$ 和 $A^{\\prime}E=AE=2\\sqrt{2}$，故</p><p>$(u+2)^{2}+(v+1)^{2}+h^{2}=(u-2)^{2}+(v+1)^{2}+h^{2}$，从而 $u=0$. 又已知 $A^{\\prime}O=\\sqrt{3}$，所以 $v^{2}+h^{2}=3$. 再由 $A^{\\prime}D^{2}=8$，得 $4+(v+1)^{2}+h^{2}=8$. 与 $v^{2}+h^{2}=3$ 相减，得 $2v=0$，即 $v=0$，于是 $h^{2}=3$. 因此 $A^{\\prime}=(0,0,\\sqrt{3})$，直线 $A^{\\prime}O$ 是 $z$ 轴，故 $A^{\\prime}O\\perp$ 平面 $BCDE$.</p></li><li><p>取平面 $BCD$ 的法向量 $\\mathbf{n}_{2}=(0,0,1)$. 在平面 $A^{\\prime}CD$ 内，取</p><p>$\\overrightarrow{CD}=(1,-1,0)$，$\\overrightarrow{CA^{\\prime}}=(3,0,\\sqrt{3})$，则该平面的一个法向量为</p><p>$\\mathbf{n}_{1}=\\overrightarrow{CD}\\times\\overrightarrow{CA^{\\prime}}=(-\\sqrt{3},-\\sqrt{3},3)$. 所以二面角的平面角 $\\varphi$ 的余弦的绝对值为</p><p>$\\cos\\varphi=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{3}{\\sqrt{3+3+9}}=\\frac{3}{\\sqrt{15}}=\\frac{\\sqrt{15}}{5}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $a_{1} = 1$，$\\frac{2S_{n}}{n} = a_{n+1} - \\frac{1}{3} n^{2} - n - \\frac{2}{3}$，$n \\in \\mathbb{N}^{*}$.\r\n\r\n\n(1) 求 $a_{2}$ 的值.\n\n(2) 求数列 $\\{a_{n}\\}$ 的通项公式.\n\n(3) 证明：对一切正整数 $n$，有 $\\frac{1}{a_1} + \\frac{1}{a_2} + \\cdots + \\frac{1}{a_n} < \\frac{7}{4}$.",
-          "choices": [],
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，已知 $a_{1}= 1$，$\\frac{2S_{n}}{n}= a_{n+1}- \\frac{1}{3}n^{2}- n - \\frac{2}{3}$，$n \\in \\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>求 $a_{2}$ 的值.</p></li><li><p>求数列 $\\{a_{n}\\}$ 的通项公式.</p></li><li><p>证明：对一切正整数 $n$，有 $\\frac{1}{a_{1}}+ \\frac{1}{a_{2}}+ \\cdots + \\frac{1}{a_{n}}&#x3C; \\frac{7}{4}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取 $n=1$，由 $S_1=a_1=1$ 得 $2=a_2-\\frac13-1-\\frac23=a_2-2$，所以 $a_2=4$.\n\n(2) 将已知关系写成 $2S_n=na_{n+1}-\\frac{n(n+1)(n+2)}3$. 当 $n\\geqslant2$ 时，与 $n-1$ 时的关系相减，利用 $S_n-S_{n-1}=a_n$，得\r\n$2a_n=na_{n+1}-(n-1)a_n-n(n+1)$，即 $na_{n+1}=(n+1)a_n+n(n+1)$. 因此 $\\frac{a_{n+1}}{n+1}=\\frac{a_n}{n}+1$. 又 $\\frac{a_2}{2}=2=\\frac{a_1}{1}+1$，所以令 $b_n=\\frac{a_n}{n}$，有 $b_1=1$，且 $b_{n+1}=b_n+1$，从而 $b_n=n$，故 $a_n=n^2$.\n\n(3) 由上式，原不等式等价于证明 $\\sum_{k=1}^n\\frac1{k^2}<\\frac74$. 当 $n=1$，$2$ 时，左端分别为 $1$ 和 $\\frac54$，结论成立. 当 $n\\geqslant3$ 时，对 $k\\geqslant3$，有 $\\frac1{k^2}<\\frac1{k(k-1)}=\\frac1{k-1}-\\frac1k$，所以\r\n$\\sum_{k=1}^n\\frac1{k^2}<1+\\frac14+\\sum_{k=3}^n\\left(\\frac1{k-1}-\\frac1k\\right)=\\frac54+\\frac12-\\frac1n=\\frac74-\\frac1n<\\frac74$. 故对一切正整数 $n$ 均有结论成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取 $n=1$，由 $S_{1}=a_{1}=1$ 得 $2=a_{2}-\\frac{1}{3}-1-\\frac{2}{3}=a_{2}-2$，所以 $a_{2}=4$.</p></li><li><p>将已知关系写成 $2S_{n}=na_{n+1}-\\frac{n(n+1)(n+2)}{3}$. 当 $n\\geqslant2$ 时，与 $n-1$ 时的关系相减，利用 $S_{n}-S_{n-1}=a_{n}$，得</p><p>$2a_{n}=na_{n+1}-(n-1)a_{n}-n(n+1)$，即 $na_{n+1}=(n+1)a_{n}+n(n+1)$. 因此 $\\frac{a_{n+1}}{n+1}=\\frac{a_{n}}{n}+1$. 又 $\\frac{a_{2}}{2}=2=\\frac{a_{1}}{1}+1$，所以令 $b_{n}=\\frac{a_{n}}{n}$，有 $b_{1}=1$，且 $b_{n+1}=b_{n}+1$，从而 $b_{n}=n$，故 $a_{n}=n^{2}$.</p></li><li><p>由上式，原不等式等价于证明 $\\sum_{k=1}^{n}\\frac{1}{k^{2}}&#x3C;\\frac{7}{4}$. 当 $n=1$，$2$ 时，左端分别为 $1$ 和 $\\frac{5}{4}$，结论成立. 当 $n\\geqslant3$ 时，对 $k\\geqslant3$，有 $\\frac{1}{k^{2}}&#x3C;\\frac{1}{k(k-1)}=\\frac{1}{k-1}-\\frac{1}{k}$，所以</p><p>$\\sum_{k=1}^{n}\\frac{1}{k^{2}}&#x3C;1+\\frac{1}{4}+\\sum_{k=3}^{n}\\left(\\frac{1}{k-1}-\\frac{1}{k}\\right)=\\frac{5}{4}+\\frac{1}{2}-\\frac{1}{n}=\\frac{7}{4}-\\frac{1}{n}&#x3C;\\frac{7}{4}$. 故对一切正整数 $n$ 均有结论成立.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知抛物线 $C$ 的顶点为原点，其焦点 $F(0, c)$（$c > 0$）到直线 $l: x - y - 2 = 0$ 的距离为 $\\frac{3\\sqrt{2}}{2}$. 设 $P$ 为直线 $l$ 上的点，过点 $P$ 作抛物线 $C$ 的两条切线 $PA$，$PB$，其中 $A$，$B$ 为切点.\r\n\r\n\n(1) 求抛物线 $C$ 的方程.\n\n(2) 当点 $P(x_0, y_0)$ 为直线 $l$ 上的定点时，求直线 $AB$ 的方程.\n\n(3) 当点 $P$ 在直线 $l$ 上移动时，求 $|AF| \\cdot |BF|$ 的最小值.",
-          "choices": [],
+          "body": "<p>已知抛物线 $C$ 的顶点为原点，其焦点 $F(0, c)$（$c > 0$）到直线 $l: x - y - 2 = 0$ 的距离为 $\\frac{3\\sqrt{2}}{2}$. 设 $P$ 为直线 $l$ 上的点，过点 $P$ 作抛物线 $C$ 的两条切线 $PA$，$PB$，其中 $A$，$B$ 为切点.</p><ol class=\"enumerate\"><li><p>求抛物线 $C$ 的方程.</p></li><li><p>当点 $P(x_{0}, y_{0})$ 为直线 $l$ 上的定点时，求直线 $AB$ 的方程.</p></li><li><p>当点 $P$ 在直线 $l$ 上移动时，求 $|AF| \\cdot |BF|$ 的最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 顶点在原点且焦点为 $F(0,c)$ 的抛物线方程为 $x^2=4cy$. 由点到直线的距离公式，得 $\\frac{c+2}{\\sqrt2}=\\frac{3\\sqrt2}{2}$，所以 $c+2=3$，即 $c=1$. 故抛物线方程为 $x^2=4y$.\n\n(2) 设抛物线上切点的参数分别为 $u$，$v$，则 $A=(2u,u^2)$，$B=(2v,v^2)$. 抛物线在参数为 $u$ 的点处的切线为 $y=ux-u^2$. 因为该切线过 $P(x_0,y_0)$，所以 $u$，$v$ 是方程 $t^2-x_0t+y_0=0$ 的两个根，从而 $u+v=x_0$，$uv=y_0$. 又因为 $P$ 在 $l$ 上，$y_0=x_0-2$，故该方程的判别式为 $x_0^2-4y_0=(x_0-2)^2+4>0$，确有两个不同的切点. 直线 $AB$ 的斜率为 $\\frac{v^2-u^2}{2v-2u}=\\frac{u+v}{2}=\\frac{x_0}{2}$，代入点 $A$ 得截距 $u^2-x_0u=-uv=-y_0$. 因此 $AB$ 的方程为 $y=\\frac{x_0}{2}x-y_0$.\n\n(3) 由焦点 $F(0,1)$ 及切点坐标，得 $|AF|=\\sqrt{(2u)^2+(u^2-1)^2}=u^2+1$，同理 $|BF|=v^2+1$. 因此\r\n$|AF||BF|=(u^2+1)(v^2+1)=u^2v^2+u^2+v^2+1=(uv)^2+(u+v)^2-2uv+1=x_0^2+(y_0-1)^2$. 这正是点 $P(x_0,y_0)$ 到焦点 $F(0,1)$ 的距离的平方. 由于 $P$ 在直线 $l$ 上，该距离的最小值为 $\\frac{|0-1-2|}{\\sqrt{1^2+(-1)^2}}=\\frac3{\\sqrt2}$，故 $|AF||BF|$ 的最小值为 $\\left(\\frac3{\\sqrt2}\\right)^2=\\frac92$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>顶点在原点且焦点为 $F(0,c)$ 的抛物线方程为 $x^{2}=4cy$. 由点到直线的距离公式，得 $\\frac{c+2}{\\sqrt{2}}=\\frac{3\\sqrt{2}}{2}$，所以 $c+2=3$，即 $c=1$. 故抛物线方程为 $x^{2}=4y$.</p></li><li><p>设抛物线上切点的参数分别为 $u$，$v$，则 $A=(2u,u^{2})$，$B=(2v,v^{2})$. 抛物线在参数为 $u$ 的点处的切线为 $y=ux-u^{2}$. 因为该切线过 $P(x_{0},y_{0})$，所以 $u$，$v$ 是方程 $t^{2}-x_{0}t+y_{0}=0$ 的两个根，从而 $u+v=x_{0}$，$uv=y_{0}$. 又因为 $P$ 在 $l$ 上，$y_{0}=x_{0}-2$，故该方程的判别式为 $x_{0}^{2}-4y_{0}=(x_{0}-2)^{2}+4>0$，确有两个不同的切点. 直线 $AB$ 的斜率为 $\\frac{v^{2}-u^{2}}{2v-2u}=\\frac{u+v}{2}=\\frac{x_{0}}{2}$，代入点 $A$ 得截距 $u^{2}-x_{0}u=-uv=-y_{0}$. 因此 $AB$ 的方程为 $y=\\frac{x_{0}}{2}x-y_{0}$.</p></li><li><p>由焦点 $F(0,1)$ 及切点坐标，得 $|AF|=\\sqrt{(2u)^{2}+(u^{2}-1)^{2}}=u^{2}+1$，同理 $|BF|=v^{2}+1$. 因此</p><p>$|AF||BF|=(u^{2}+1)(v^{2}+1)=u^{2}v^{2}+u^{2}+v^{2}+1=(uv)^{2}+(u+v)^{2}-2uv+1=x_{0}^{2}+(y_{0}-1)^{2}$. 这正是点 $P(x_{0},y_{0})$ 到焦点 $F(0,1)$ 的距离的平方. 由于 $P$ 在直线 $l$ 上，该距离的最小值为 $\\frac{|0-1-2|}{\\sqrt{1^{2}+(-1)^{2}}}=\\frac{3}{\\sqrt{2}}$，故 $|AF||BF|$ 的最小值为 $\\left(\\frac{3}{\\sqrt{2}}\\right)^{2}=\\frac{9}{2}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "设函数 $f(x) = (x - 1)\\mathrm{e}^{x} - kx^{2}$ （$k \\in \\mathbb{R}$）.\r\n\r\n\n(1) 当 $k = 1$ 时，求函数 $f(x)$ 的单调区间.\n\n(2) 当 $k \\in \\left(\\frac{1}{2}, 1\\right]$ 时，求函数 $f(x)$ 在 $[0, k]$ 上的最大值 $M$.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = (x - 1)\\mathrm{e}^{x}- kx^{2}$ （$k \\in \\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>当 $k = 1$ 时，求函数 $f(x)$ 的单调区间.</p></li><li><p>当 $k \\in \\left(\\frac{1}{2}, 1\\right]$ 时，求函数 $f(x)$ 在 $[0, k]$ 上的最大值 $M$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $k=1$ 时，$f'(x)=x\\mathrm{e}^x-2x=x(\\mathrm{e}^x-2)$. 临界点为 $x=0$ 和 $x=\\ln2$. 当 $x<0$ 时，$x<0$ 且 $\\mathrm{e}^x-2<0$，故 $f'(x)>0$；当 $0<x<\\ln2$ 时，$f'(x)<0$；当 $x>\\ln2$ 时，$f'(x)>0$. 所以函数的递增区间为 $(-\\infty,0)$ 和 $(\\ln2,+\\infty)$，递减区间为 $(0,\\ln2)$.\n\n(2) 对任意给定的 $k\\in(\\frac12,1]$，有 $f'(x)=x(\\mathrm{e}^x-2k)$. 因为 $2k>1$，且由 $\\mathrm{e}^k\\geqslant1+k\\geqslant2k$（$k=1$ 时仍有 $\\mathrm{e}>2$），可知 $0<\\ln(2k)<k$. 因此在 $[0,k]$ 上，函数先减后增，最大值只能在 $x=0$ 或 $x=k$ 处取得. 又 $f(0)=-1$，$f(k)=(k-1)\\mathrm{e}^k-k^3$. 为比较两端点，令 $g(t)=1+t+t^2-\\mathrm{e}^t$. 在 $0\\le t\\leqslant1$ 上，$g'(t)=1+2t-\\mathrm{e}^t$，且 $g''(t)=2-\\mathrm{e}^t$，所以 $g'$ 先增后减；又 $g'(0)=0$，$g'(1)=3-\\mathrm{e}>0$，从而 $g'(t)\\geqslant0$，即 $\\mathrm{e}^t\\leqslant1+t+t^2$. 于是\r\n$f(k)-f(0)=1-(1-k)\\mathrm{e}^k-k^3\\geqslant1-(1-k)(1+k+k^2)-k^3=0$. 所以最大值在 $x=k$ 处取得，且 $M=(k-1)\\mathrm{e}^k-k^3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $k=1$ 时，$f'(x)=x\\mathrm{e}^{x}-2x=x(\\mathrm{e}^{x}-2)$. 临界点为 $x=0$ 和 $x=\\ln2$. 当 $x&#x3C;0$ 时，$x&#x3C;0$ 且 $\\mathrm{e}^{x}-2&#x3C;0$，故 $f'(x)>0$；当 $0&#x3C;x&#x3C;\\ln2$ 时，$f'(x)&#x3C;0$；当 $x>\\ln2$ 时，$f'(x)>0$. 所以函数的递增区间为 $(-\\infty,0)$ 和 $(\\ln2,+\\infty)$，递减区间为 $(0,\\ln2)$.</p></li><li><p>对任意给定的 $k\\in(\\frac{1}{2},1]$，有 $f'(x)=x(\\mathrm{e}^{x}-2k)$. 因为 $2k>1$，且由 $\\mathrm{e}^{k}\\geqslant1+k\\geqslant2k$（$k=1$ 时仍有 $\\mathrm{e}>2$），可知 $0&#x3C;\\ln(2k)&#x3C;k$. 因此在 $[0,k]$ 上，函数先减后增，最大值只能在 $x=0$ 或 $x=k$ 处取得. 又 $f(0)=-1$，$f(k)=(k-1)\\mathrm{e}^{k}-k^{3}$. 为比较两端点，令 $g(t)=1+t+t^{2}-\\mathrm{e}^{t}$. 在 $0\\le t\\leqslant1$ 上，$g'(t)=1+2t-\\mathrm{e}^{t}$，且 $g''(t)=2-\\mathrm{e}^{t}$，所以 $g'$ 先增后减；又 $g'(0)=0$，$g'(1)=3-\\mathrm{e}>0$，从而 $g'(t)\\geqslant0$，即 $\\mathrm{e}^{t}\\leqslant1+t+t^{2}$. 于是</p><p>$f(k)-f(0)=1-(1-k)\\mathrm{e}^{k}-k^{3}\\geqslant1-(1-k)(1+k+k^{2})-k^{3}=0$. 所以最大值在 $x=k$ 处取得，且 $M=(k-1)\\mathrm{e}^{k}-k^{3}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

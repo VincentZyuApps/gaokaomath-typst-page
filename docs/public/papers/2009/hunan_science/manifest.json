@@ -1,158 +1,27 @@
 {
+  "title": "2009年普通高等学校招生全国统一考试",
+  "subtitle": "2009年湖南卷（理）",
   "year": "2009",
   "slug": "hunan_science",
-  "title": "2009年湖南卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若 $\\log_{2} a < 0$，$\\left(\\frac{1}{2}\\right)^b > 1$，则（ ）",
+          "body": "若 $\\log_{2}a &#x3C; 0$，$\\left(\\frac{1}{2}\\right)^{b} > 1$，则（ ）",
           "choices": [
             "$a > 1$，$b > 0$",
-            "$a > 1$，$b < 0$",
-            "$0 < a < 1$，$b > 0$",
-            "$0 < a < 1$，$b < 0$"
+            "$a > 1$，$b &#x3C; 0$",
+            "$0 &#x3C; a &#x3C; 1$，$b > 0$",
+            "$0 &#x3C; a &#x3C; 1$，$b &#x3C; 0$"
           ],
           "answer": "D",
-          "solution": "因为对数的底数 $2>1$，所以 $\\log_{2}a<0$ 等价于 $0<a<1$. 又因为底数 $\\frac{1}{2}$ 在 $(0,1)$ 内，$\\left(\\frac{1}{2}\\right)^b>1$ 等价于 $b<0$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为对数的底数 $2>1$，所以 $\\log_{2}a&#x3C;0$ 等价于 $0&#x3C;a&#x3C;1$. 又因为底数 $\\frac{1}{2}$ 在 $(0,1)$ 内，$\\left(\\frac{1}{2}\\right)^{b}>1$ 等价于 $b&#x3C;0$. 故选 D."
         },
         {
           "num": 2,
-          "body": "对于非零向量 $\\mathbf{a}$，$\\mathbf{b}$，“$\\mathbf{a} + \\mathbf{b} = 0$”是“$\\mathbf{a} \\parallel \\mathbf{b}$”的（ ）",
+          "body": "对于非零向量 $\\mathbf{a}$，$\\mathbf{b}$，“$\\mathbf{a}+ \\mathbf{b}= 0$”是“$\\mathbf{a}\\parallel \\mathbf{b}$”的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -160,13 +29,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "若 $\\mathbf{a}+\\mathbf{b}=\\mathbf{0}$，则 $\\mathbf{b}=-\\mathbf{a}$，由于 $\\mathbf{a}$ 和 $\\mathbf{b}$ 均非零，它们共线，即 $\\mathbf{a}\\parallel\\mathbf{b}$. 反之，$\\mathbf{a}\\parallel\\mathbf{b}$ 只说明存在实数 $k$ 使 $\\mathbf{b}=k\\mathbf{a}$，不一定有 $k=-1$，所以不能推出 $\\mathbf{a}+\\mathbf{b}=\\mathbf{0}$. 故“$\\mathbf{a}+\\mathbf{b}=\\mathbf{0}$”是“$\\mathbf{a}\\parallel\\mathbf{b}$”的充分不必要条件，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若 $\\mathbf{a}+\\mathbf{b}=\\mathbf{0}$，则 $\\mathbf{b}=-\\mathbf{a}$，由于 $\\mathbf{a}$ 和 $\\mathbf{b}$ 均非零，它们共线，即 $\\mathbf{a}\\parallel\\mathbf{b}$. 反之，$\\mathbf{a}\\parallel\\mathbf{b}$ 只说明存在实数 $k$ 使 $\\mathbf{b}=k\\mathbf{a}$，不一定有 $k=-1$，所以不能推出 $\\mathbf{a}+\\mathbf{b}=\\mathbf{0}$. 故“$\\mathbf{a}+\\mathbf{b}=\\mathbf{0}$”是“$\\mathbf{a}\\parallel\\mathbf{b}$”的充分不必要条件，选 A."
         },
         {
           "num": 3,
-          "body": "将函数 $y = \\sin x$ 的图象向左平移 $\\varphi$（$0 \\le \\varphi < 2\\pi$）个单位后，得到函数 $y = \\sin \\left(x - \\frac{\\pi}{6}\\right)$ 的图象，则 $\\varphi$ 等于（ ）",
+          "body": "将函数 $y = \\sin x$ 的图象向左平移 $\\varphi$（$0 \\le \\varphi &#x3C; 2\\pi$）个单位后，得到函数 $y = \\sin \\left(x - \\frac{\\pi}{6}\\right)$ 的图象，则 $\\varphi$ 等于（ ）",
           "choices": [
             "$\\frac{\\pi}{6}$",
             "$\\frac{5\\pi}{6}$",
@@ -174,27 +41,23 @@
             "$\\frac{11\\pi}{6}$"
           ],
           "answer": "D",
-          "solution": "函数图象向左平移 $\\varphi$ 个单位后，函数变为 $y=\\sin(x+\\varphi)$. 要与 $y=\\sin\\left(x-\\frac{\\pi}{6}\\right)$ 表示同一函数，必须有 $\\varphi\\equiv-\\frac{\\pi}{6}\\pmod{2\\pi}$. 结合 $0\\le\\varphi<2\\pi$，得 $\\varphi=\\frac{11\\pi}{6}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "函数图象向左平移 $\\varphi$ 个单位后，函数变为 $y=\\sin(x+\\varphi)$. 要与 $y=\\sin\\left(x-\\frac{\\pi}{6}\\right)$ 表示同一函数，必须有 $\\varphi\\equiv-\\frac{\\pi}{6}\\pmod{2\\pi}$. 结合 $0\\le\\varphi&#x3C;2\\pi$，得 $\\varphi=\\frac{11\\pi}{6}$，故选 D."
         },
         {
           "num": 4,
-          "body": "如图，当参数 $\\lambda = \\lambda_{1}$，$\\lambda_{2}$ 时，连续函数 $y = \\frac{x}{1 + \\lambda x}$（$x \\ge 0$）的图象分别对应曲线 $C_{1}$ 和 $C_{2}$，则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/hunan_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，当参数 $\\lambda = \\lambda_{1}$，$\\lambda_{2}$ 时，连续函数 $y = \\frac{x}{1 + \\lambda x}$（$x \\ge 0$）的图象分别对应曲线 $C_{1}$ 和 $C_{2}$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$0 < \\lambda_{1} < \\lambda_{2}$",
-            "$0 < \\lambda_{2} < \\lambda_{1}$",
-            "$\\lambda_{1} < \\lambda_{2} < 0$",
-            "$\\lambda_{2} < \\lambda_{1} < 0$"
+            "$0 &#x3C; \\lambda_{1}&#x3C; \\lambda_{2}$",
+            "$0 &#x3C; \\lambda_{2}&#x3C; \\lambda_{1}$",
+            "$\\lambda_{1}&#x3C; \\lambda_{2}&#x3C; 0$",
+            "$\\lambda_{2}&#x3C; \\lambda_{1}&#x3C; 0$"
           ],
           "answer": "B",
-          "solution": "函数在 $x\\geqslant0$ 上连续，故 $1+\\lambda x$ 不能在该区间内为零，从而 $\\lambda\\geqslant0$. 图中两条曲线均不是直线，故 $\\lambda_1$，$\\lambda_2>0$. 对任意 $x>0$，若 $\\lambda_1>\\lambda_2$，则 $1+\\lambda_1x>1+\\lambda_2x$，从而 $\\frac{x}{1+\\lambda_1x}<\\frac{x}{1+\\lambda_2x}$. 图中 $C_2$ 在 $C_1$ 的上方，所以 $\\lambda_2<\\lambda_1$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "函数在 $x\\geqslant0$ 上连续，故 $1+\\lambda x$ 不能在该区间内为零，从而 $\\lambda\\geqslant0$. 图中两条曲线均不是直线，故 $\\lambda_{1}$，$\\lambda_{2}>0$. 对任意 $x>0$，若 $\\lambda_{1}>\\lambda_{2}$，则 $1+\\lambda_{1}x>1+\\lambda_{2}x$，从而 $\\frac{x}{1+\\lambda_{1}x}&#x3C;\\frac{x}{1+\\lambda_{2}x}$. 图中 $C_{2}$ 在 $C_{1}$ 的上方，所以 $\\lambda_{2}&#x3C;\\lambda_{1}$，故选 B."
         },
         {
           "num": 5,
-          "body": "从 $10$ 名大学毕业生中选 $3$ 个人担任村长助理，则甲，乙至少有 $1$ 人入选，而丙没有入选的不同选法的种数为（ ）",
+          "body": "从 $10$ 名大学毕业生中选 $3$ 个人担任村长助理，则甲，乙至少有 $1$ 人入选，而丙没有入选的不同选法的种数为（ ）",
           "choices": [
             "85",
             "56",
@@ -202,13 +65,11 @@
             "28"
           ],
           "answer": "C",
-          "solution": "丙没有入选时，只能从其余 $9$ 人中选 $3$ 人；再去掉甲、乙都没有入选的情形，所求种数为 $\\mathrm C_9^3-\\mathrm C_7^3=84-35=49$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "丙没有入选时，只能从其余 $9$ 人中选 $3$ 人；再去掉甲、乙都没有入选的情形，所求种数为 $\\mathrm{C}_{9}^{3}-\\mathrm{C}_{7}^{3}=84-35=49$. 故选 C."
         },
         {
           "num": 6,
-          "body": "已知 $D$ 是由不等式组 $\\begin{cases}\r\nx - 2y \\ge 0\\\\\r\nx + 3y \\ge 0\r\n\\end{cases}$ 所确定的平面区域. 则圆 $x^2 + y^2 = 4$ 在区域 $D$ 内的弧长为（ ）",
+          "body": "已知 $D$ 是由不等式组 $\\begin{cases}x - 2y \\ge 0\\\\  x + 3y \\ge 0\\end{cases}$ 所确定的平面区域. 则圆 $x^{2} + y^{2} = 4$ 在区域 $D$ 内的弧长为（ ）",
           "choices": [
             "$\\frac{\\pi}{4}$",
             "$\\frac{\\pi}{2}$",
@@ -216,13 +77,11 @@
             "$\\frac{3\\pi}{2}$"
           ],
           "answer": "B",
-          "solution": "区域 $D$ 满足 $y\\le\\frac{x}{2}$ 且 $y\\ge-\\frac{x}{3}$，从而 $-\\frac{x}{3}\\le\\frac{x}{2}$，故 $x\\geqslant0$. 因此，$D$ 是由两条射线 $y=\\frac{x}{2}$ 与 $y=-\\frac{x}{3}$ 围成的角域. 设其圆心角为 $\\theta$，则 $\\tan\\theta=\\frac{\\frac12+\\frac13}{1-\\frac12\\cdot\\frac13}=1$. 两条射线夹角为锐角，故 $\\theta=\\frac{\\pi}{4}$. 圆半径为 $2$，弧长为 $2\\theta=\\frac{\\pi}{2}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "区域 $D$ 满足 $y\\le\\frac{x}{2}$ 且 $y\\ge-\\frac{x}{3}$，从而 $-\\frac{x}{3}\\le\\frac{x}{2}$，故 $x\\geqslant0$. 因此，$D$ 是由两条射线 $y=\\frac{x}{2}$ 与 $y=-\\frac{x}{3}$ 围成的角域. 设其圆心角为 $\\theta$，则 $\\tan\\theta=\\frac{\\frac{1}{2}+\\frac{1}{3}}{1-\\frac{1}{2}\\cdot\\frac{1}{3}}=1$. 两条射线夹角为锐角，故 $\\theta=\\frac{\\pi}{4}$. 圆半径为 $2$，弧长为 $2\\theta=\\frac{\\pi}{2}$，故选 B."
         },
         {
           "num": 7,
-          "body": "正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的棱上到异面直线 $AB$，$CC_{1}$ 的距离相等的点的个数为（ ）",
+          "body": "正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的棱上到异面直线 $AB$，$CC_{1}$ 的距离相等的点的个数为（ ）",
           "choices": [
             "2",
             "3",
@@ -230,13 +89,11 @@
             "5"
           ],
           "answer": "C",
-          "solution": "设正方体棱长为 $1$，取坐标 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$A_{1}(0,0,1)$，则直线 $AB$ 为 $y=z=0$，直线 $CC_{1}$ 为 $x=y=1$. 对任意点 $P(x,y,z)$，到两直线的距离平方分别为 $y^{2}+z^{2}$ 和 $(x-1)^{2}+(y-1)^{2}$，所以所求条件为\r\n\n$$\ny^2+z^2=(x-1)^2+(y-1)^2\n$$\n\r\n逐条考察各棱，其中参数 $t$ 均取遍 $[0,1]$. 在 $AB$、$BC$、$CD$、$DA$ 上分别取点 $(t,0,0)$、$(1,t,0)$、$(t,1,0)$、$(0,t,0)$，代入上式分别得到 $0=(t-1)^2+1$、$t^2=(t-1)^2$、$1=(t-1)^2$、$t^2=1+(t-1)^2$. 因而 $AB$ 上无解，$BC$ 上 $t=\\frac12$，即其中点，$CD$ 上 $t=0$，即 $D$，$DA$ 上 $t=1$，即 $D$.\r\n\r\n在 $AA_{1}$、$BB_{1}$、$CC_{1}$、$DD_{1}$ 上分别取点 $(0,0,t)$、$(1,0,t)$、$(1,1,t)$、$(0,1,t)$，代入上式分别得到 $t^2=2$、$t^2=1$、$1+t^2=t^2$、$1+t^2=1$. 因而 $AA_{1}$、$CC_{1}$ 上无解，$BB_{1}$ 上 $t=1$，即 $B_{1}$，$DD_{1}$ 上 $t=0$，即 $D$.\r\n\r\n在 $A_{1}B_{1}$、$B_{1}C_{1}$、$C_{1}D_{1}$、$D_{1}A_{1}$ 上分别取点 $(t,0,1)$、$(1,t,1)$、$(t,1,1)$、$(0,t,1)$，代入上式分别得到 $1=(t-1)^2+1$、$t^2+1=(t-1)^2$、$2=(t-1)^2$、$t^2+1=1+(t-1)^2$. 因而 $A_{1}B_{1}$ 上 $t=1$，即 $B_{1}$，$B_{1}C_{1}$ 上 $t=0$，即 $B_{1}$，$C_{1}D_{1}$ 上无解，$D_{1}A_{1}$ 上 $t=\\frac12$，即其中点.\r\n\r\n去掉重复端点后，满足条件的点为 $D$、$B_{1}$、$BC$ 的中点和 $D_{1}A_{1}$ 的中点，共 $4$ 个，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正方体棱长为 $1$，取坐标 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$A_{1}(0,0,1)$，则直线 $AB$ 为 $y=z=0$，直线 $CC_{1}$ 为 $x=y=1$. 对任意点 $P(x,y,z)$，到两直线的距离平方分别为 $y^{2}+z^{2}$ 和 $(x-1)^{2}+(y-1)^{2}$，所以所求条件为</p>\n$$\ny^{2}+z^{2}=(x-1)^{2}+(y-1)^{2}\n$$\n<p>逐条考察各棱，其中参数 $t$ 均取遍 $[0,1]$. 在 $AB$、$BC$、$CD$、$DA$ 上分别取点 $(t,0,0)$、$(1,t,0)$、$(t,1,0)$、$(0,t,0)$，代入上式分别得到 $0=(t-1)^{2}+1$、$t^{2}=(t-1)^{2}$、$1=(t-1)^{2}$、$t^{2}=1+(t-1)^{2}$. 因而 $AB$ 上无解，$BC$ 上 $t=\\frac{1}{2}$，即其中点，$CD$ 上 $t=0$，即 $D$，$DA$ 上 $t=1$，即 $D$.</p><p>在 $AA_{1}$、$BB_{1}$、$CC_{1}$、$DD_{1}$ 上分别取点 $(0,0,t)$、$(1,0,t)$、$(1,1,t)$、$(0,1,t)$，代入上式分别得到 $t^{2}=2$、$t^{2}=1$、$1+t^{2}=t^{2}$、$1+t^{2}=1$. 因而 $AA_{1}$、$CC_{1}$ 上无解，$BB_{1}$ 上 $t=1$，即 $B_{1}$，$DD_{1}$ 上 $t=0$，即 $D$.</p><p>在 $A_{1}B_{1}$、$B_{1}C_{1}$、$C_{1}D_{1}$、$D_{1}A_{1}$ 上分别取点 $(t,0,1)$、$(1,t,1)$、$(t,1,1)$、$(0,t,1)$，代入上式分别得到 $1=(t-1)^{2}+1$、$t^{2}+1=(t-1)^{2}$、$2=(t-1)^{2}$、$t^{2}+1=1+(t-1)^{2}$. 因而 $A_{1}B_{1}$ 上 $t=1$，即 $B_{1}$，$B_{1}C_{1}$ 上 $t=0$，即 $B_{1}$，$C_{1}D_{1}$ 上无解，$D_{1}A_{1}$ 上 $t=\\frac{1}{2}$，即其中点.</p><p>去掉重复端点后，满足条件的点为 $D$、$B_{1}$、$BC$ 的中点和 $D_{1}A_{1}$ 的中点，共 $4$ 个，故选 C.</p>"
         },
         {
           "num": 8,
-          "body": "设函数 $y = f(x)$ 在 $(- \\infty, + \\infty)$ 内有定义. 对于给定的正数 $K$，定义函数 $f_{K}(x) = \\begin{cases}\r\nf(x), & f(x) \\le K,\\\\\r\nK, & f(x) > K.\r\n\\end{cases}$ 取函数 $f(x) = 2 - x - \\mathrm{e}^{-x}$. 若对任意的 $x \\in (-\\infty, +\\infty)$，恒有 $f_{K}(x) = f(x)$，则（ ）",
+          "body": "设函数 $y = f(x)$ 在 $(- \\infty, + \\infty)$ 内有定义. 对于给定的正数 $K$，定义函数 $f_{K}(x) = \\begin{cases}f(x), &#x26; f(x) \\le K,\\\\\n\nK, &#x26; f(x) > K.\\end{cases}$ 取函数 $f(x) = 2 - x - \\mathrm{e}^{-x}$. 若对任意的 $x \\in (-\\infty, +\\infty)$，恒有 $f_{K}(x) = f(x)$，则（ ）",
           "choices": [
             "$K$ 的最大值为2",
             "$K$ 的最小值为2",
@@ -244,9 +101,7 @@
             "$K$ 的最小值为1"
           ],
           "answer": "D",
-          "solution": "对 $f(x)=2-x-\\mathrm{e}^{-x}$ 求导，得 $f'(x)=\\mathrm{e}^{-x}-1$. 当 $x<0$ 时 $f'(x)>0$，当 $x>0$ 时 $f'(x)<0$，所以 $f(x)$ 在 $x=0$ 处取得最大值 $f(0)=1$. 函数 $f_K(x)$ 恒等于 $f(x)$ 的充要条件是 $K\\geqslant1$，故 $K$ 的最小值为 $1$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "对 $f(x)=2-x-\\mathrm{e}^{-x}$ 求导，得 $f'(x)=\\mathrm{e}^{-x}-1$. 当 $x&#x3C;0$ 时 $f'(x)>0$，当 $x>0$ 时 $f'(x)&#x3C;0$，所以 $f(x)$ 在 $x=0$ 处取得最大值 $f(0)=1$. 函数 $f_{K}(x)$ 恒等于 $f(x)$ 的充要条件是 $K\\geqslant1$，故 $K$ 的最小值为 $1$，选 D."
         }
       ]
     },
@@ -255,66 +110,52 @@
       "problems": [
         {
           "num": 9,
-          "body": "某班共 $30$ 人，其中 $15$ 人喜爱篮球运动，$10$ 人喜爱乒乓球运动，$8$ 人对这两项运动都不喜爱，则喜爱篮球运动但不喜爱乒乓球运动的人数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(12\\)",
-          "solution": "喜爱至少一项运动的人数为 $30-8=22$. 设同时喜爱两项运动的人数为 $t$，则 $15+10-t=22$，解得 $t=3$. 所以只喜爱篮球运动的人数为 $15-3=12$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某班共 $30$ 人，其中 $15$ 人喜爱篮球运动，$10$ 人喜爱乒乓球运动，$8$ 人对这两项运动都不喜爱，则喜爱篮球运动但不喜爱乒乓球运动的人数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$12$",
+          "solution": "喜爱至少一项运动的人数为 $30-8=22$. 设同时喜爱两项运动的人数为 $t$，则 $15+10-t=22$，解得 $t=3$. 所以只喜爱篮球运动的人数为 $15-3=12$."
         },
         {
           "num": 10,
-          "body": "在 $(1 + x)^{3} + (1 + \\sqrt{x})^{3} + (1 + \\sqrt[3]{x})^{3}$ 的展开式中，$x$ 的系数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(7\\)",
-          "solution": "$(1+x)^3$ 中 $x$ 的系数为 $3$，$(1+\\sqrt{x})^3=1+3\\sqrt{x}+3x+x\\sqrt{x}$ 中 $x$ 的系数为 $3$，$(1+\\sqrt[3]{x})^3=1+3\\sqrt[3]{x}+3\\sqrt[3]{x^2}+x$ 中 $x$ 的系数为 $1$. 三者相加，$x$ 的系数为 $3+3+1=7$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $(1 + x)^{3}+ (1 + \\sqrt{x})^{3}+ (1 + \\sqrt[3]{x})^{3}$ 的展开式中，$x$ 的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$7$",
+          "solution": "$(1+x)^{3}$ 中 $x$ 的系数为 $3$，$(1+\\sqrt{x})^{3}=1+3\\sqrt{x}+3x+x\\sqrt{x}$ 中 $x$ 的系数为 $3$，$(1+\\sqrt[3]{x})^{3}=1+3\\sqrt[3]{x}+3\\sqrt[3]{x^{2}}+x$ 中 $x$ 的系数为 $1$. 三者相加，$x$ 的系数为 $3+3+1=7$."
         },
         {
           "num": 11,
-          "body": "若 $x \\in \\left(0, \\frac{\\pi}{2}\\right)$，则 $2\\tan x + \\tan \\left(\\frac{\\pi}{2} - x\\right)$ 的最小值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\sqrt{2}\\)",
-          "solution": "因为 $x\\in\\left(0,\\frac{\\pi}{2}\\right)$，令 $t=\\tan x$，则 $t>0$，且 $\\tan\\left(\\frac{\\pi}{2}-x\\right)=\\frac1t$. 因此原式为 $2t+\\frac1t$. 由基本不等式，$2t+\\frac1t\\geqslant2\\sqrt{2t\\cdot\\frac1t}=2\\sqrt2$，等号在 $2t=\\frac1t$，即 $t=\\frac1{\\sqrt2}$ 时成立，故最小值为 $2\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若 $x \\in \\left(0, \\frac{\\pi}{2}\\right)$，则 $2\\tan x + \\tan \\left(\\frac{\\pi}{2}- x\\right)$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2\\sqrt{2}$",
+          "solution": "因为 $x\\in\\left(0,\\frac{\\pi}{2}\\right)$，令 $t=\\tan x$，则 $t>0$，且 $\\tan\\left(\\frac{\\pi}{2}-x\\right)=\\frac{1}{t}$. 因此原式为 $2t+\\frac{1}{t}$. 由基本不等式，$2t+\\frac{1}{t}\\geqslant2\\sqrt{2t\\cdot\\frac{1}{t}}=2\\sqrt{2}$，等号在 $2t=\\frac{1}{t}$，即 $t=\\frac{1}{\\sqrt{2}}$ 时成立，故最小值为 $2\\sqrt{2}$."
         },
         {
           "num": 12,
-          "body": "已知以双曲线 $C$ 的两个焦点及虚轴的两个端点为顶点的四边形中，有一个内角为 $60^{\\circ}$，则双曲线 $C$ 的离心率为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{\\sqrt{6}}{2}\\)",
-          "solution": "设双曲线方程为 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$，焦点为 $(\\pm c,0)$，虚轴端点为 $(0,\\pm b)$，其中 $c^2=a^2+b^2$. 在焦点处的内角 $\\theta$ 满足 $\\cos\\theta=\\frac{c^2-b^2}{c^2+b^2}$. 由于双曲线中 $c>b$，题设的 $60^\\circ$ 角只能是焦点处的锐角，故 $\\frac{c^2-b^2}{c^2+b^2}=\\frac12$，从而 $c^2=3b^2$. 于是 $a^2=c^2-b^2=2b^2$，所以离心率 $e=\\frac ca=\\sqrt{\\frac32}=\\frac{\\sqrt6}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知以双曲线 $C$ 的两个焦点及虚轴的两个端点为顶点的四边形中，有一个内角为 $60^{\\circ}$，则双曲线 $C$ 的离心率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{\\sqrt{6}}{2}$",
+          "solution": "设双曲线方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，焦点为 $(\\pm c,0)$，虚轴端点为 $(0,\\pm b)$，其中 $c^{2}=a^{2}+b^{2}$. 在焦点处的内角 $\\theta$ 满足 $\\cos\\theta=\\frac{c^{2}-b^{2}}{c^{2}+b^{2}}$. 由于双曲线中 $c>b$，题设的 $60^{\\circ}$ 角只能是焦点处的锐角，故 $\\frac{c^{2}-b^{2}}{c^{2}+b^{2}}=\\frac{1}{2}$，从而 $c^{2}=3b^{2}$. 于是 $a^{2}=c^{2}-b^{2}=2b^{2}$，所以离心率 $e=\\frac{c}{a}=\\sqrt{\\frac{3}{2}}=\\frac{\\sqrt{6}}{2}$."
         },
         {
           "num": 13,
-          "body": "一个总体分为 $A$，$B$ 两层，其个体数之比为 $4:1$，用分层抽样方法从总体中抽取一个容量为 $10$ 的样本. 已知 $B$ 层中甲，乙都被抽到的概率为 $\\frac{1}{28}$，则总体中的个体数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(40\\)",
-          "solution": "按 $4:1$ 分层抽样时，容量为 $10$ 的样本中 $B$ 层应抽取 $2$ 人. 设 $B$ 层共有 $N_B$ 人，则甲、乙同时被抽到的概率为 $\\frac{1}{\\mathrm C_{N_B}^{2}}=\\frac1{28}$，所以 $N_B(N_B-1)=56$，解得 $N_B=8$. 总体人数为 $5N_B=40$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "一个总体分为 $A$，$B$ 两层，其个体数之比为 $4:1$，用分层抽样方法从总体中抽取一个容量为 $10$ 的样本. 已知 $B$ 层中甲，乙都被抽到的概率为 $\\frac{1}{28}$，则总体中的个体数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$40$",
+          "solution": "按 $4:1$ 分层抽样时，容量为 $10$ 的样本中 $B$ 层应抽取 $2$ 人. 设 $B$ 层共有 $N_{B}$ 人，则甲、乙同时被抽到的概率为 $\\frac{1}{\\mathrm{C}_{N_B}^{2}}=\\frac{1}{28}$，所以 $N_{B}(N_{B}-1)=56$，解得 $N_{B}=8$. 总体人数为 $5N_{B}=40$."
         },
         {
           "num": 14,
-          "body": "在半径为 $13$ 的球面上有 $A$，$B$，$C$ 三点，$AB = 6$，$BC = 8$，$CA = 10$，则\r\n\n(1) 球心到平面 $ABC$ 的距离为 _______ {}；\n\n(2) 过 $A$，$B$ 两点的大圆面与平面 $ABC$ 所成二面角为 （锐角） 的正切值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(12\\)，\\(3\\)",
-          "solution": "(1) 因为 $AB^2+BC^2=6^2+8^2=10^2=AC^2$，所以 $\\triangle ABC$ 在 $B$ 处为直角三角形. 其外接圆半径为斜边 $AC$ 的一半，即 $5$. 设球心到平面 $ABC$ 的距离为 $h$，则 $13^2=h^2+5^2$，解得 $h=12$.\n\n(2) 建立直角坐标系，令 $B=(0,0,0)$，$A=(6,0,0)$，$C=(0,8,0)$. 平面 $ABC$ 为 $z=0$，球心可取 $O=(3,4,12)$. 平面 $OAB$ 是过 $A$，$B$ 两点的大圆面，其一个法向量为 $(0,-3,1)$；平面 $ABC$ 的法向量为 $(0,0,1)$. 设两平面锐角为 $\\theta$，则 $\\cos\\theta=\\frac{1}{\\sqrt{10}}$，所以 $\\tan\\theta=3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>在半径为 $13$ 的球面上有 $A$，$B$，$C$ 三点，$AB = 6$，$BC = 8$，$CA = 10$，则</p><ol class=\"enumerate\"><li><p>球心到平面 $ABC$ 的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；</p></li><li><p>过 $A$，$B$ 两点的大圆面与平面 $ABC$ 所成二面角为 （锐角） 的正切值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol>",
+          "choices": null,
+          "answer": "$12$，$3$",
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $AB^{2}+BC^{2}=6^{2}+8^{2}=10^{2}=AC^{2}$，所以 $\\triangle ABC$ 在 $B$ 处为直角三角形. 其外接圆半径为斜边 $AC$ 的一半，即 $5$. 设球心到平面 $ABC$ 的距离为 $h$，则 $13^{2}=h^{2}+5^{2}$，解得 $h=12$.</p></li><li><p>建立直角坐标系，令 $B=(0,0,0)$，$A=(6,0,0)$，$C=(0,8,0)$. 平面 $ABC$ 为 $z=0$，球心可取 $O=(3,4,12)$. 平面 $OAB$ 是过 $A$，$B$ 两点的大圆面，其一个法向量为 $(0,-3,1)$；平面 $ABC$ 的法向量为 $(0,0,1)$. 设两平面锐角为 $\\theta$，则 $\\cos\\theta=\\frac{1}{\\sqrt{10}}$，所以 $\\tan\\theta=3$.</p></li></ol>"
         },
         {
           "num": 15,
-          "body": "将正 $\\triangle ABC$ 分割成 $n^2$（$n \\ge 2$，$n \\in \\mathbb{N}^*$）个全等的小正三角形（图1，图2分别给出了 $n = 2$，$3$ 的情形）. 在每个三角形的顶点各放置一个数，使位于 $\\triangle ABC$ 的三边及平行于某边的任一直线上的数（当数的个数不少于$3$时）都分别依次成等差数列. 若顶点 $A$，$B$，$C$ 处的三个数互不相同且和为 $1$，记所有顶点上的数的和为 $f(n)$，则有 $f(2) = 2$，$f(3) = _______ {}$，$\\cdots$，$f(n) = _______ {}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/hunan_science/q15_fig12.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac{10}{3}\\)，\\(\\frac{1}{6}(n + 1)(n + 2)\\)",
-          "solution": "设 $A$，$B$，$C$ 三个顶点上的数分别为 $a$，$b$，$c$，则 $a+b+c=1$. 把网格顶点记为 $P_{ijk}$，其中 $i$，$j$，$k\\geqslant0$，$i+j+k=n$，并约定 $i$，$j$，$k$ 分别对应顶点 $A$，$B$，$C$ 的重数. 沿边 $AB$ 与 $AC$ 的等差条件先给出边上点的数值：对应于 $(i,j,0)$ 的点数值为 $\\frac{ia+jb}{n}$，对应于 $(i,0,k)$ 的点数值为 $\\frac{ia+kc}{n}$. 对固定的 $i$，所有满足 $i+j+k=n$ 的点在一条平行于 $BC$ 的直线上，该直线两端的数值已知，且这些数依次成等差数列，所以中间点的数值必为 $\\frac{ia+jb+kc}{n}$. 因此全部网格顶点的数值均可写成 $\\frac{ia+jb+kc}{n}$. 网格顶点总数为 $N=\\frac{(n+1)(n+2)}2$. 由指标 $i$，$j$，$k$ 的对称性，$\\sum i=\\sum j=\\sum k=\\frac{nN}{3}$，故\r\n\n$$\nf(n)=\\sum_{i+j+k=n}\\frac{ia+jb+kc}{n}\r\n=\\frac{(a+b+c)N}{3}\r\n=\\frac{(n+1)(n+2)}6\n$$\n\r\n代入 $n=3$，得 $f(3)=\\frac{10}{3}$，且 $f(2)=2$ 与题面一致.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>将正 $\\triangle ABC$ 分割成 $n^{2}$（$n \\ge 2$，$n \\in \\mathbb{N}^{*}$）个全等的小正三角形（图1，图2分别给出了 $n = 2$，$3$ 的情形）. 在每个三角形的顶点各放置一个数，使位于 $\\triangle ABC$ 的三边及平行于某边的任一直线上的数（当数的个数不少于$3$时）都分别依次成等差数列. 若顶点 $A$，$B$，$C$ 处的三个数互不相同且和为 $1$，记所有顶点上的数的和为 $f(n)$，则有 $f(2) = 2$，$f(3) =\\underline{\\hspace{2.5em}}{}$，$\\cdots$，$f(n) =\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q15_fig12.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{10}{3}$，$\\frac{1}{6}(n + 1)(n + 2)$",
+          "solution": "<p>设 $A$，$B$，$C$ 三个顶点上的数分别为 $a$，$b$，$c$，则 $a+b+c=1$. 把网格顶点记为 $P_{ijk}$，其中 $i$，$j$，$k\\geqslant0$，$i+j+k=n$，并约定 $i$，$j$，$k$ 分别对应顶点 $A$，$B$，$C$ 的重数. 沿边 $AB$ 与 $AC$ 的等差条件先给出边上点的数值：对应于 $(i,j,0)$ 的点数值为 $\\frac{ia+jb}{n}$，对应于 $(i,0,k)$ 的点数值为 $\\frac{ia+kc}{n}$. 对固定的 $i$，所有满足 $i+j+k=n$ 的点在一条平行于 $BC$ 的直线上，该直线两端的数值已知，且这些数依次成等差数列，所以中间点的数值必为 $\\frac{ia+jb+kc}{n}$. 因此全部网格顶点的数值均可写成 $\\frac{ia+jb+kc}{n}$. 网格顶点总数为 $N=\\frac{(n+1)(n+2)}{2}$. 由指标 $i$，$j$，$k$ 的对称性，$\\sum i=\\sum j=\\sum k=\\frac{nN}{3}$，故</p>\n$$\nf(n)=\\sum_{i+j+k=n}\\frac{ia+jb+kc}{n}=\\frac{(a+b+c)N}{3}=\\frac{(n+1)(n+2)}{6}\n$$\n<p>代入 $n=3$，得 $f(3)=\\frac{10}{3}$，且 $f(2)=2$ 与题面一致.</p>"
         }
       ]
     },
@@ -323,60 +164,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "在 $\\triangle ABC$ 中，已知 $2\\overrightarrow{AB} \\cdot \\overrightarrow{AC} = \\sqrt{3} |\\overrightarrow{AB}| \\cdot |\\overrightarrow{AC}| = 3BC^2$，求角 $A$，$B$，$C$ 的大小.",
-          "choices": [],
+          "body": "在 $\\triangle ABC$ 中，已知 $2\\overrightarrow{AB}\\cdot \\overrightarrow{AC}= \\sqrt{3}|\\overrightarrow{AB}| \\cdot |\\overrightarrow{AC}| = 3BC^{2}$，求角 $A$，$B$，$C$ 的大小.",
+          "choices": null,
           "answer": "",
-          "solution": "由 $2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\sqrt3|\\overrightarrow{AB}||\\overrightarrow{AC}|$，得 $\\cos A=\\frac{\\overrightarrow{AB}\\cdot\\overrightarrow{AC}}{|\\overrightarrow{AB}||\\overrightarrow{AC}|}=\\frac{\\sqrt3}{2}$，所以 $A=\\frac{\\pi}{6}$. 记 $AB=u$，$AC=v$，$BC=w$，由题设 $3w^2=\\sqrt3uv$，即 $w^2=\\frac{uv}{\\sqrt3}$. 另一方面由余弦定理，$w^2=u^2+v^2-\\sqrt3uv$，故 $u^2+v^2=\\frac4{\\sqrt3}uv$. 令 $r=\\frac uv>0$，则 $r+\\frac1r=\\frac4{\\sqrt3}$，即 $3r^2-4\\sqrt3r+3=0$，解得 $r=\\sqrt3$ 或 $r=\\frac1{\\sqrt3}$. 当 $u=\\sqrt3v$ 时，$w^2=v^2$，三边之比为 $\\sqrt3:1:1$，所以 $A=B=\\frac{\\pi}{6}$，由三角形内角和得 $C=\\frac{2\\pi}{3}$，即 $(A,B,C)=\\left(\\frac{\\pi}{6},\\frac{\\pi}{6},\\frac{2\\pi}{3}\\right)$. 当 $u=\\frac{v}{\\sqrt3}$ 时，$w^2=u^2$，三边之比为 $1:\\sqrt3:1$，所以 $A=C=\\frac{\\pi}{6}$，$B=\\frac{2\\pi}{3}$，即 $(A,B,C)=\\left(\\frac{\\pi}{6},\\frac{2\\pi}{3},\\frac{\\pi}{6}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "由 $2\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=\\sqrt{3}|\\overrightarrow{AB}||\\overrightarrow{AC}|$，得 $\\cos A=\\frac{\\overrightarrow{AB}\\cdot\\overrightarrow{AC}}{|\\overrightarrow{AB}||\\overrightarrow{AC}|}=\\frac{\\sqrt{3}}{2}$，所以 $A=\\frac{\\pi}{6}$. 记 $AB=u$，$AC=v$，$BC=w$，由题设 $3w^{2}=\\sqrt{3}uv$，即 $w^{2}=\\frac{uv}{\\sqrt{3}}$. 另一方面由余弦定理，$w^{2}=u^{2}+v^{2}-\\sqrt{3}uv$，故 $u^{2}+v^{2}=\\frac{4}{\\sqrt{3}}uv$. 令 $r=\\frac{u}{v}>0$，则 $r+\\frac{1}{r}=\\frac{4}{\\sqrt{3}}$，即 $3r^{2}-4\\sqrt{3}r+3=0$，解得 $r=\\sqrt{3}$ 或 $r=\\frac{1}{\\sqrt{3}}$. 当 $u=\\sqrt{3}v$ 时，$w^{2}=v^{2}$，三边之比为 $\\sqrt{3}:1:1$，所以 $A=B=\\frac{\\pi}{6}$，由三角形内角和得 $C=\\frac{2\\pi}{3}$，即 $(A,B,C)=\\left(\\frac{\\pi}{6},\\frac{\\pi}{6},\\frac{2\\pi}{3}\\right)$. 当 $u=\\frac{v}{\\sqrt{3}}$ 时，$w^{2}=u^{2}$，三边之比为 $1:\\sqrt{3}:1$，所以 $A=C=\\frac{\\pi}{6}$，$B=\\frac{2\\pi}{3}$，即 $(A,B,C)=\\left(\\frac{\\pi}{6},\\frac{2\\pi}{3},\\frac{\\pi}{6}\\right)$."
         },
         {
           "num": 17,
-          "body": "为拉动经济增长，某市决定新建一批重点工程，分别为基础设施工程，民生工程和产业建设工程三类. 这三类工程所含项目的个数分别占总数的 $\\frac{1}{2}$，$\\frac{1}{3}$，$\\frac{1}{6}$. 现在 $3$ 名工人独立地从中任选一个项目参与建设.\r\n\n(1) 求他们选择的项目所属类别互不相同的概率；\n\n(2) 记 $\\xi$ 为 $3$ 人中选择的项目属于基础设施工程或产业建设工程的人数，求 $\\xi$ 的分布列及数学期望.",
-          "choices": [],
+          "body": "<p>为拉动经济增长，某市决定新建一批重点工程，分别为基础设施工程，民生工程和产业建设工程三类. 这三类工程所含项目的个数分别占总数的 $\\frac{1}{2}$，$\\frac{1}{3}$，$\\frac{1}{6}$. 现在 $3$ 名工人独立地从中任选一个项目参与建设.</p><ol class=\"enumerate\"><li><p>求他们选择的项目所属类别互不相同的概率；</p></li><li><p>记 $\\xi$ 为 $3$ 人中选择的项目属于基础设施工程或产业建设工程的人数，求 $\\xi$ 的分布列及数学期望.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 三名工人所选类别互不相同的排列有 $3!$ 种，每一种指定排列的概率为 $\\frac12\\cdot\\frac13\\cdot\\frac16$，所以所求概率为 $3!\\cdot\\frac12\\cdot\\frac13\\cdot\\frac16=\\frac16$.\n\n(2) 每名工人选择基础设施工程或产业建设工程的概率为 $p=\\frac12+\\frac16=\\frac23$，选择民生工程的概率为 $1-p=\\frac13$. 三名工人独立选择，因此 $\\xi$ 服从二项分布，且 $P(\\xi=k)=\\mathrm C_3^k\\left(\\frac23\\right)^k\\left(\\frac13\\right)^{3-k}$，$k=0$，$1$，$2$，$3$. 具体分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|cccc}\r\n$\\xi$ & $0$ & $1$ & $2$ & $3$\\\\\r\n\\hline\r\n$P$ & $\\frac1{27}$ & $\\frac2{9}$ & $\\frac4{9}$ & $\\frac8{27}$\r\n\\end{tabular}\r\n\\end{center}\r\n数学期望为 $E(\\xi)=3p=3\\cdot\\frac23=2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>三名工人所选类别互不相同的排列有 $3!$ 种，每一种指定排列的概率为 $\\frac{1}{2}\\cdot\\frac{1}{3}\\cdot\\frac{1}{6}$，所以所求概率为 $3!\\cdot\\frac{1}{2}\\cdot\\frac{1}{3}\\cdot\\frac{1}{6}=\\frac{1}{6}$.</p></li><li><p>每名工人选择基础设施工程或产业建设工程的概率为 $p=\\frac{1}{2}+\\frac{1}{6}=\\frac{2}{3}$，选择民生工程的概率为 $1-p=\\frac{1}{3}$. 三名工人独立选择，因此 $\\xi$ 服从二项分布，且 $P(\\xi=k)=\\mathrm{C}_{3}^{k}\\left(\\frac{2}{3}\\right)^{k}\\left(\\frac{1}{3}\\right)^{3-k}$，$k=0$，$1$，$2$，$3$. 具体分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{1}{27}$ </td><td style=\"text-align: center\"> $\\frac{2}{9}$ </td><td style=\"text-align: center\"> $\\frac{4}{9}$ </td><td style=\"text-align: center\"> $\\frac{8}{27}$</td></tr></tbody></table></center><p></p><p>数学期望为 $E(\\xi)=3p=3\\cdot\\frac{2}{3}=2$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，在正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = \\sqrt{2}AA_{1}$，点 $D$ 是 $A_{1}B_{1}$ 的中点，点 $E$ 在 $A_{1}C_{1}$ 上，且 $DE \\perp AE$.\r\n\n(1) 证明：平面 $ADE$ $\\perp$ 平面 $ACC_{1}A_{1}$；\n\n(2) 求直线 $AD$ 和平面 $ABC_{1}$ 所成角的正弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/hunan_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = \\sqrt{2}AA_{1}$，点 $D$ 是 $A_{1}B_{1}$ 的中点，点 $E$ 在 $A_{1}C_{1}$ 上，且 $DE \\perp AE$.</p><ol class=\"enumerate\"><li><p>证明：平面 $ADE$ $\\perp$ 平面 $ACC_{1}A_{1}$；</p></li><li><p>求直线 $AD$ 和平面 $ABC_{1}$ 所成角的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 正三棱柱的侧棱 $AA_1$ 垂直于上底面 $A_1B_1C_1$，而 $DE$ 在上底面内，所以 $DE\\perp AA_1$. 又已知 $DE\\perp AE$. 由题图中 $E$ 为 $A_1C_1$ 的内点，$AE$ 与 $AA_1$ 是平面 $ACC_1A_1$ 内相交的两条不同直线，因此 $DE\\perp$ 平面 $ACC_1A_1$. 由于 $DE$ 在平面 $ADE$ 内，故平面 $ADE\\perp$ 平面 $ACC_1A_1$.\n\n(2) 令 $AA_1=1$，则 $AB=\\sqrt2$. 建立空间直角坐标系，取 $A=(0,0,0)$，$B=(\\sqrt2,0,0)$，$C=\\left(\\frac{\\sqrt2}{2},\\frac{\\sqrt6}{2},0\\right)$，$A_1=(0,0,1)$，$C_1=\\left(\\frac{\\sqrt2}{2},\\frac{\\sqrt6}{2},1\\right)$，$D=\\left(\\frac{\\sqrt2}{2},0,1\\right)$. 于是直线 $AD$ 的方向向量为 $\\left(\\frac{\\sqrt2}{2},0,1\\right)$，平面 $ABC_1$ 的一个法向量为 $\\overrightarrow{AB}\\times\\overrightarrow{AC_1}=(0,-\\sqrt2,\\sqrt3)$. 设直线 $AD$ 与平面 $ABC_1$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{\\left|\\left(\\frac{\\sqrt2}{2},0,1\\right)\\cdot(0,-\\sqrt2,\\sqrt3)\\right|}{\\sqrt{\\frac12+1}\\sqrt{2+3}}=\\frac{\\sqrt3}{\\frac{\\sqrt6}{2}\\sqrt5}=\\frac{\\sqrt{10}}5\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>正三棱柱的侧棱 $AA_{1}$ 垂直于上底面 $A_{1}B_{1}C_{1}$，而 $DE$ 在上底面内，所以 $DE\\perp AA_{1}$. 又已知 $DE\\perp AE$. 由题图中 $E$ 为 $A_{1}C_{1}$ 的内点，$AE$ 与 $AA_{1}$ 是平面 $ACC_{1}A_{1}$ 内相交的两条不同直线，因此 $DE\\perp$ 平面 $ACC_{1}A_{1}$. 由于 $DE$ 在平面 $ADE$ 内，故平面 $ADE\\perp$ 平面 $ACC_{1}A_{1}$.</p></li><li><p>令 $AA_{1}=1$，则 $AB=\\sqrt{2}$. 建立空间直角坐标系，取 $A=(0,0,0)$，$B=(\\sqrt{2},0,0)$，$C=\\left(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{6}}{2},0\\right)$，$A_{1}=(0,0,1)$，$C_{1}=\\left(\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{6}}{2},1\\right)$，$D=\\left(\\frac{\\sqrt{2}}{2},0,1\\right)$. 于是直线 $AD$ 的方向向量为 $\\left(\\frac{\\sqrt{2}}{2},0,1\\right)$，平面 $ABC_{1}$ 的一个法向量为 $\\overrightarrow{AB}\\times\\overrightarrow{AC_1}=(0,-\\sqrt{2},\\sqrt{3})$. 设直线 $AD$ 与平面 $ABC_{1}$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{\\left|\\left(\\frac{\\sqrt{2}}{2},0,1\\right)\\cdot(0,-\\sqrt{2},\\sqrt{3})\\right|}{\\sqrt{\\frac{1}{2}+1}\\sqrt{2+3}}=\\frac{\\sqrt{3}}{\\frac{\\sqrt{6}}{2}\\sqrt{5}}=\\frac{\\sqrt{10}}{5}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "某地建一座桥，两端的桥墩已建好，这两墩相距 $m\\text{ 米}$，余下工程只需要建两端桥墩之间的桥面和桥墩. 经测算，一个桥墩的工程费用为 $256\\text{ 万元}$，距离为 $x\\text{ 米}$ 的相邻两墩之间的桥面工程费用为 $(2 + \\sqrt{x})x\\text{ 万元}$. 假设桥墩等距离分布，所有桥墩都视为点，且不考虑其他因素，记余下工程的费用为 $y\\text{ 万元}$.\r\n\n(1) 试写出 $y$ 关于 $x$ 的函数关系式；\n\n(2) 当 $m = 640\\text{ 米}$ 时，需新建多少个桥墩才能使 $y$ 最小？",
-          "choices": [],
+          "body": "<p>某地建一座桥，两端的桥墩已建好，这两墩相距 $m\\text{ 米}$，余下工程只需要建两端桥墩之间的桥面和桥墩. 经测算，一个桥墩的工程费用为 $256\\text{ 万元}$，距离为 $x\\text{ 米}$ 的相邻两墩之间的桥面工程费用为 $(2 + \\sqrt{x})x\\text{ 万元}$. 假设桥墩等距离分布，所有桥墩都视为点，且不考虑其他因素，记余下工程的费用为 $y\\text{ 万元}$.</p><ol class=\"enumerate\"><li><p>试写出 $y$ 关于 $x$ 的函数关系式；</p></li><li><p>当 $m = 640\\text{ 米}$ 时，需新建多少个桥墩才能使 $y$ 最小？</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设新建桥墩数为 $N$，则相邻桥墩之间的桥面共有 $N+1$ 段，所以 $(N+1)x=m$，即 $N=\\frac mx-1$. 因此\r\n\n$$\ny=256\\left(\\frac mx-1\\right)+\\frac mx(2+\\sqrt{x})x=\\frac{256m}{x}+m\\sqrt{x}+2m-256\n$$\n\r\n其中 $0<x\\le m$，实际等距分布时还需满足 $\\frac mx\\in\\mathbb{N}^*$.\n\n(2) 当 $m=640$ 时，令 $y(x)=\\frac{163840}{x}+640\\sqrt{x}+1024$. 在 $0<x\\leqslant640$ 上，$y'(x)=-\\frac{163840}{x^2}+\\frac{320}{\\sqrt{x}}$. 令 $y'(x)=0$，得 $x^{\\frac{3}{2}}=512$，所以 $x=64$. 当 $0<x<64$ 时 $y'(x)<0$，当 $64<x\\leqslant640$ 时 $y'(x)>0$，故 $y$ 在 $x=64$ 处取得最小值. 此时桥面段数为 $\\frac{640}{64}=10$，需新建桥墩数为 $10-1=9$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设新建桥墩数为 $N$，则相邻桥墩之间的桥面共有 $N+1$ 段，所以 $(N+1)x=m$，即 $N=\\frac{m}{x}-1$. 因此</p>\n$$\ny=256\\left(\\frac{m}{x}-1\\right)+\\frac{m}{x}(2+\\sqrt{x})x=\\frac{256m}{x}+m\\sqrt{x}+2m-256\n$$\n<p>其中 $0&#x3C;x\\le m$，实际等距分布时还需满足 $\\frac{m}{x}\\in\\mathbb{N}^{*}$.</p></li><li><p>当 $m=640$ 时，令 $y(x)=\\frac{163840}{x}+640\\sqrt{x}+1024$. 在 $0&#x3C;x\\leqslant640$ 上，$y'(x)=-\\frac{163840}{x^{2}}+\\frac{320}{\\sqrt{x}}$. 令 $y'(x)=0$，得 $x^{\\frac{3}{2}}=512$，所以 $x=64$. 当 $0&#x3C;x&#x3C;64$ 时 $y'(x)&#x3C;0$，当 $64&#x3C;x\\leqslant640$ 时 $y'(x)>0$，故 $y$ 在 $x=64$ 处取得最小值. 此时桥面段数为 $\\frac{640}{64}=10$，需新建桥墩数为 $10-1=9$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "在平面直角坐标系 $xOy$ 中，点 $P$ 到点 $F(3,0)$ 的距离的 $4$ 倍与它到直线 $x = 2$ 的距离的 $3$ 倍之和记为 $d$. 当点 $P$ 运动时，$d$ 恒等于点 $P$ 的横坐标与 $18$ 之和.\r\n\n(1) 求点 $P$ 的轨迹 $C$；\n\n(2) 设过点 $F$ 的直线 $l$ 与轨迹 $C$ 相交于 $M$，$N$ 两点，求线段 $MN$ 长度的最大值.",
-          "choices": [],
+          "body": "<p>在平面直角坐标系 $xOy$ 中，点 $P$ 到点 $F(3,0)$ 的距离的 $4$ 倍与它到直线 $x = 2$ 的距离的 $3$ 倍之和记为 $d$. 当点 $P$ 运动时，$d$ 恒等于点 $P$ 的横坐标与 $18$ 之和.</p><ol class=\"enumerate\"><li><p>求点 $P$ 的轨迹 $C$；</p></li><li><p>设过点 $F$ 的直线 $l$ 与轨迹 $C$ 相交于 $M$，$N$ 两点，求线段 $MN$ 长度的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $P=(x,y)$，则 $d=4\\sqrt{(x-3)^2+y^2}+3|x-2|$. 当 $x\\geqslant2$ 时，原条件化为 $4\\sqrt{(x-3)^2+y^2}=24-2x$，平方并整理得 $3x^2+4y^2=108$，即 $\\frac{x^2}{36}+\\frac{y^2}{27}=1$，并取其 $x\\geqslant2$ 的部分. 当 $x\\leqslant2$ 时，原条件化为 $4\\sqrt{(x-3)^2+y^2}=4x+12$，平方并整理得 $y^2=12x$，并由 $y^2\\geqslant0$ 得 $0\\le x\\leqslant2$. 故\r\n\n$$\nC:\\begin{cases}\r\n\\dfrac{x^2}{36}+\\dfrac{y^2}{27}=1, & x\\geqslant2,\\\\\r\ny^2=12x, & 0\\le x\\leqslant2.\r\n\\end{cases}\n$$\n\n(2) 先考虑水平直线 $y=0$. 它与抛物线弧交于 $(0,0)$，与椭圆弧交于 $(6,0)$，故此时 $MN=6$. 对于非水平且非竖直直线 $l$，设其方程为 $y=k(x-3)$，记 $s=\\sqrt{1+k^2}>1$，再令 $q=k^2=s^2-1$. 将直线代入椭圆方程，得到 $(3+4q)x^2-24qx+36q-108=0$，其两个根之差为 $\\frac{36s}{3+4q}$. 将直线代入抛物线方程，得到 $qx^2-(6q+12)x+9q=0$，其较小根为 $x_p=3-\\frac6{s+1}$.\r\n\r\n当 $1<s<5$ 时，$0<x_p<2$，抛物线给出一个轨迹点；椭圆的另一个交点的横坐标小于 $2$，所以椭圆只给出较大的根\r\n\n$$\nx_e=\\frac{12q+18s}{3+4q}=\\frac{6(s+2)}{2s+1}\n$$\n\r\n因此\r\n\n$$\nMN=s(x_e-x_p)=\\frac{3s(7s+5)}{(2s+1)(s+1)}=\\frac{3(7s^2+5s)}{2s^2+3s+1}\n$$\n\r\n其导数为 $\\frac{3(11s^2+14s+5)}{(2s^2+3s+1)^2}>0$，故该表达式在 $1<s<5$ 上递增，并在 $s=5$ 的接合位置连续取到 $\\frac{100}{11}$.\r\n\r\n当 $s\\geqslant5$ 时，椭圆的两个交点均满足 $x\\geqslant2$. 当 $s=5$ 时，抛物线弧的交点为 $x=2$，恰与椭圆弧的端点重合；当 $s>5$ 时，抛物线弧没有交点. 因而\r\n\n$$\nMN=\\frac{36s^2}{4s^2-1}\n$$\n\r\n这是 $s\\geqslant5$ 上的减函数，在 $s=5$ 时也等于 $\\frac{100}{11}$. 竖直直线 $x=3$ 与椭圆的弦长为 $9<\\frac{100}{11}$，所以线段 $MN$ 长度的最大值为 $\\frac{100}{11}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $P=(x,y)$，则 $d=4\\sqrt{(x-3)^{2}+y^{2}}+3|x-2|$. 当 $x\\geqslant2$ 时，原条件化为 $4\\sqrt{(x-3)^{2}+y^{2}}=24-2x$，平方并整理得 $3x^{2}+4y^{2}=108$，即 $\\frac{x^{2}}{36}+\\frac{y^{2}}{27}=1$，并取其 $x\\geqslant2$ 的部分. 当 $x\\leqslant2$ 时，原条件化为 $4\\sqrt{(x-3)^{2}+y^{2}}=4x+12$，平方并整理得 $y^{2}=12x$，并由 $y^{2}\\geqslant0$ 得 $0\\le x\\leqslant2$. 故</p>\n$$\nC:\\begin{cases}\\dfrac{x^2}{36}+\\dfrac{y^2}{27}=1,&#x26;x\\geqslant2,\\\\  y^{2}=12x,&#x26;0\\le x\\leqslant2.\\end{cases}\n$$\n</li><li><p>先考虑水平直线 $y=0$. 它与抛物线弧交于 $(0,0)$，与椭圆弧交于 $(6,0)$，故此时 $MN=6$. 对于非水平且非竖直直线 $l$，设其方程为 $y=k(x-3)$，记 $s=\\sqrt{1+k^{2}}>1$，再令 $q=k^{2}=s^{2}-1$. 将直线代入椭圆方程，得到 $(3+4q)x^{2}-24qx+36q-108=0$，其两个根之差为 $\\frac{36s}{3+4q}$. 将直线代入抛物线方程，得到 $qx^{2}-(6q+12)x+9q=0$，其较小根为 $x_{p}=3-\\frac{6}{s+1}$.</p><p>当 $1&#x3C;s&#x3C;5$ 时，$0&#x3C;x_{p}&#x3C;2$，抛物线给出一个轨迹点；椭圆的另一个交点的横坐标小于 $2$，所以椭圆只给出较大的根</p>\n$$\nx_{e}=\\frac{12q+18s}{3+4q}=\\frac{6(s+2)}{2s+1}\n$$\n<p>因此</p>\n$$\nMN=s(x_{e}-x_{p})=\\frac{3s(7s+5)}{(2s+1)(s+1)}=\\frac{3(7s^{2}+5s)}{2s^{2}+3s+1}\n$$\n<p>其导数为 $\\frac{3(11s^{2}+14s+5)}{(2s^{2}+3s+1)^{2}}>0$，故该表达式在 $1&#x3C;s&#x3C;5$ 上递增，并在 $s=5$ 的接合位置连续取到 $\\frac{100}{11}$.</p><p>当 $s\\geqslant5$ 时，椭圆的两个交点均满足 $x\\geqslant2$. 当 $s=5$ 时，抛物线弧的交点为 $x=2$，恰与椭圆弧的端点重合；当 $s>5$ 时，抛物线弧没有交点. 因而</p>\n$$\nMN=\\frac{36s^{2}}{4s^{2}-1}\n$$\n<p>这是 $s\\geqslant5$ 上的减函数，在 $s=5$ 时也等于 $\\frac{100}{11}$. 竖直直线 $x=3$ 与椭圆的弦长为 $9&#x3C;\\frac{100}{11}$，所以线段 $MN$ 长度的最大值为 $\\frac{100}{11}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "对于数列 $\\{u_n\\}$，若存在常数 $M > 0$，对任意的 $n \\in \\mathbb{N}^*$，恒有 $|u_{n+1} - u_n| + |u_n - u_{n-1}| + \\cdots + |u_2 - u_1| \\le M$，则称数列 $\\{u_n\\}$ 为 $B$-数列.\r\n\n(1) 首项为 $1$，公比为 $q$（$|q| < 1$）的等比数列是否为 $B$-数列？请说明理由；\n\n(2) 设 $S_{n}$ 是数列 $\\{x_{n}\\}$ 的前 $n$ 项和. 给出下列两组论断：\r\n\\begin{circlelist}\n\n(3) A 组：数列 $\\{x_{n}\\}$ 是 $B$-数列；\n\n(4) A 组：数列 $\\{x_{n}\\}$ 不是 $B$-数列；\n\n(5) B 组：数列 $\\{S_{n}\\}$ 是 $B$-数列；\n\n(6) B 组：数列 $\\{S_{n}\\}$ 不是 $B$-数列.\r\n\\end{circlelist}\r\n请以其中一组中的一个论断为条件，另一组中的一个论断为结论组成一个命题. 判断所给命题的真假，并证明你的结论；\n\n(7) 若数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$ 都是 $B$-数列，证明：数列 $\\{a_{n}b_{n}\\}$ 也是 $B$-数列.",
-          "choices": [],
+          "body": "<p>对于数列 $\\{u_{n}\\}$，若存在常数 $M > 0$，对任意的 $n \\in \\mathbb{N}^{*}$，恒有 $|u_{n+1}- u_{n}| + |u_{n} - u_{n-1}| + \\cdots + |u_{2} - u_{1}| \\le M$，则称数列 $\\{u_{n}\\}$ 为 $B$-数列.</p><ol class=\"enumerate\"><li><p>首项为 $1$，公比为 $q$（$|q| &#x3C; 1$）的等比数列是否为 $B$-数列？请说明理由；</p></li><li><p>设 $S_{n}$ 是数列 $\\{x_{n}\\}$ 的前 $n$ 项和. 给出下列两组论断：</p><p></p><ol class=\"enumerate\"><li><p>A 组：数列 $\\{x_{n}\\}$ 是 $B$-数列；</p></li><li><p>A 组：数列 $\\{x_{n}\\}$ 不是 $B$-数列；</p></li><li><p>B 组：数列 $\\{S_{n}\\}$ 是 $B$-数列；</p></li><li><p>B 组：数列 $\\{S_{n}\\}$ 不是 $B$-数列.</p></li></ol><p></p><p>请以其中一组中的一个论断为条件，另一组中的一个论断为结论组成一个命题. 判断所给命题的真假，并证明你的结论；</p></li><li><p>若数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$ 都是 $B$-数列，证明：数列 $\\{a_{n}b_{n}\\}$ 也是 $B$-数列.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $u_n=q^{n-1}$. 则\r\n\n$$\n\\sum_{k=1}^{n}|u_{k+1}-u_k|=|1-q|\\sum_{k=0}^{n-1}|q|^k=|1-q|\\frac{1-|q|^n}{1-|q|}<\\frac{|1-q|}{1-|q|}\n$$\n\r\n右端与 $n$ 无关，所以取 $M=\\frac{|1-q|}{1-|q|}$ 即可，故该等比数列是 $B$-数列.\n\n(2) 取命题“若数列 $\\{x_n\\}$ 是 $B$-数列，则数列 $\\{S_n\\}$ 是 $B$-数列”. 令 $x_n=1$，则 $\\{x_n\\}$ 的各项相等，因而是 $B$-数列；但 $S_n=n$，从而 $\\sum_{k=1}^{n}|S_{k+1}-S_k|=\\sum_{k=1}^{n}1=n$，不可能被某个常数 $M$ 对所有 $n$ 统一界住，所以该命题是假命题.\r\n\r\n再取命题“若数列 $\\{S_n\\}$ 是 $B$-数列，则数列 $\\{x_n\\}$ 是 $B$-数列”. 若 $\\{S_n\\}$ 是 $B$-数列，则存在 $M>0$，使 $\\sum_{k=1}^{n}|S_{k+1}-S_k|\\le M$. 由于 $S_{k+1}-S_k=x_{k+1}$，有 $\\sum_{k=1}^{n}|x_{k+1}|\\le M$. 于是\r\n\n$$\n\\sum_{k=1}^{n}|x_{k+1}-x_k|\\le |x_1|+|x_{n+1}|+2\\sum_{k=2}^{n}|x_k|\\le |x_1|+2M\n$$\n\r\n右端与 $n$ 无关，所以 $\\{x_n\\}$ 是 $B$-数列，该命题为真.\n\n(3) 由 $\\{a_n\\}$ 是 $B$-数列，存在 $M_1>0$，使其总变差不超过 $M_1$，故对任意 $n$，$|a_n|\\le |a_1|+M_1=:K_1$. 由 $\\{b_n\\}$ 是 $B$-数列，存在 $M_2>0$，使其总变差不超过 $M_2$，故对任意 $n$，$|b_n|\\le |b_1|+M_2=:K_2$. 对每个 $k$，\r\n\n$$\n|a_{k+1}b_{k+1}-a_kb_k|\\le |b_{k+1}||a_{k+1}-a_k|+|a_k||b_{k+1}-b_k|\\le K_2|a_{k+1}-a_k|+K_1|b_{k+1}-b_k|\n$$\n\r\n对 $k=1$，$\\ldots$，$n$ 求和，得\r\n\n$$\n\\sum_{k=1}^{n}|a_{k+1}b_{k+1}-a_kb_k|\\le K_2M_1+K_1M_2\n$$\n\r\n右端与 $n$ 无关，故 $\\{a_nb_n\\}$ 是 $B$-数列.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $u_{n}=q^{n-1}$. 则</p>\n$$\n\\sum_{k=1}^{n}|u_{k+1}-u_{k}|=|1-q|\\sum_{k=0}^{n-1}|q|^{k}=|1-q|\\frac{1-|q|^{n}}{1-|q|}&#x3C;\\frac{|1-q|}{1-|q|}\n$$\n<p>右端与 $n$ 无关，所以取 $M=\\frac{|1-q|}{1-|q|}$ 即可，故该等比数列是 $B$-数列.</p></li><li><p>取命题“若数列 $\\{x_{n}\\}$ 是 $B$-数列，则数列 $\\{S_{n}\\}$ 是 $B$-数列”. 令 $x_{n}=1$，则 $\\{x_{n}\\}$ 的各项相等，因而是 $B$-数列；但 $S_{n}=n$，从而 $\\sum_{k=1}^{n}|S_{k+1}-S_{k}|=\\sum_{k=1}^{n}1=n$，不可能被某个常数 $M$ 对所有 $n$ 统一界住，所以该命题是假命题.</p><p>再取命题“若数列 $\\{S_{n}\\}$ 是 $B$-数列，则数列 $\\{x_{n}\\}$ 是 $B$-数列”. 若 $\\{S_{n}\\}$ 是 $B$-数列，则存在 $M>0$，使 $\\sum_{k=1}^{n}|S_{k+1}-S_{k}|\\le M$. 由于 $S_{k+1}-S_{k}=x_{k+1}$，有 $\\sum_{k=1}^{n}|x_{k+1}|\\le M$. 于是</p>\n$$\n\\sum_{k=1}^{n}|x_{k+1}-x_{k}|\\le |x_{1}|+|x_{n+1}|+2\\sum_{k=2}^{n}|x_{k}|\\le |x_{1}|+2M\n$$\n<p>右端与 $n$ 无关，所以 $\\{x_{n}\\}$ 是 $B$-数列，该命题为真.</p></li><li><p>由 $\\{a_{n}\\}$ 是 $B$-数列，存在 $M_{1}>0$，使其总变差不超过 $M_{1}$，故对任意 $n$，$|a_{n}|\\le |a_{1}|+M_{1}=:K_{1}$. 由 $\\{b_{n}\\}$ 是 $B$-数列，存在 $M_{2}>0$，使其总变差不超过 $M_{2}$，故对任意 $n$，$|b_{n}|\\le |b_{1}|+M_{2}=:K_{2}$. 对每个 $k$，</p>\n$$\n|a_{k+1}b_{k+1}-a_{k}b_{k}|\\le |b_{k+1}||a_{k+1}-a_{k}|+|a_{k}||b_{k+1}-b_{k}|\\le K_{2}|a_{k+1}-a_{k}|+K_{1}|b_{k+1}-b_{k}|\n$$\n<p>对 $k=1$，$\\ldots$，$n$ 求和，得</p>\n$$\n\\sum_{k=1}^{n}|a_{k+1}b_{k+1}-a_{k}b_{k}|\\le K_{2}M_{1}+K_{1}M_{2}\n$$\n<p>右端与 $n$ 无关，故 $\\{a_{n}b_{n}\\}$ 是 $B$-数列.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

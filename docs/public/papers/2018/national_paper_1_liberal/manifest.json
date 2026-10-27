@@ -1,156 +1,15 @@
 {
+  "title": "2018年普通高等学校招生全国统一考试",
+  "subtitle": "2018年全国I卷（文）",
   "year": "2018",
   "slug": "national_paper_1_liberal",
-  "title": "2018年全国I卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{0,2\\}$，$B=\\{-2,-1,0,1,2\\}$，则 $A\\cap B=$（ ）",
+          "body": "已知集合 $A=\\{0,2\\}$，$B=\\{-2,-1,0,1,2\\}$，则 $A\\cap B=$（ ）",
           "choices": [
             "$\\{0,2\\}$",
             "$\\{1,2\\}$",
@@ -158,27 +17,23 @@
             "$\\{-2,-1,0,1,2\\}$"
           ],
           "answer": "A",
-          "solution": "交集中的元素必须同时属于集合 $A$ 和集合 $B$. 逐个比较可知，$0$，$2$ 同时属于 $A$，$B$，而 $A$ 中没有其他元素，因此 $A\\cap B=\\{0,2\\}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "交集中的元素必须同时属于集合 $A$ 和集合 $B$. 逐个比较可知，$0$，$2$ 同时属于 $A$，$B$，而 $A$ 中没有其他元素，因此 $A\\cap B=\\{0,2\\}$，故选 A."
         },
         {
           "num": 2,
-          "body": "设 $z=\\dfrac{1-\\mathrm{i}}{1+\\mathrm{i}}+2\\mathrm{i}$，则 $|z|=$（ ）",
+          "body": "设 $z=\\dfrac{1-\\mathrm{i}}{1+\\mathrm{i}}+2\\mathrm{i}$，则 $|z|=$（ ）",
           "choices": [
             "$0$",
-            "$\\dfrac12$",
+            "$\\dfrac{1}{2}$",
             "$1$",
-            "$\\sqrt2$"
+            "$\\sqrt{2}$"
           ],
           "answer": "C",
-          "solution": "分子分母同乘 $1-\\mathrm{i}$，得\r\n\n$$\n\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^2}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{-2\\mathrm{i}}{2}=-\\mathrm{i}\n$$\n\r\n所以 $z=-\\mathrm{i}+2\\mathrm{i}=\\mathrm{i}$，从而 $|z|=1$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分子分母同乘 $1-\\mathrm{i}$，得</p>\n$$\n\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^{2}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{-2\\mathrm{i}}{2}=-\\mathrm{i}\n$$\n<p>所以 $z=-\\mathrm{i}+2\\mathrm{i}=\\mathrm{i}$，从而 $|z|=1$，故选 C.</p>"
         },
         {
           "num": 3,
-          "body": "某地区经过一年的新农村建设，农村的经济收入增加了一倍，实现翻番. 为更好地了解该地区农村的经济收入变化情况，统计了该地区新农村建设前后农村的经济收入构成比例，得到如下饼图：\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/national_paper_1_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n则下面结论中不正确的是（ ）",
+          "body": "<p>某地区经过一年的新农村建设，农村的经济收入增加了一倍，实现翻番. 为更好地了解该地区农村的经济收入变化情况，统计了该地区新农村建设前后农村的经济收入构成比例，得到如下饼图：</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_liberal/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>则下面结论中不正确的是（ ）</p>",
           "choices": [
             "新农村建设后，种植收入减少",
             "新农村建设后，其他收入增加了一倍以上",
@@ -186,41 +41,35 @@
             "新农村建设后，养殖收入与第三产业收入的总和超过了经济收入的一半"
           ],
           "answer": "A",
-          "solution": "设建设前农村经济收入为 $S$，则建设后为 $2S$. 建设前种植收入为 $0.60S$，建设后种植收入为 $0.37\\times2S=0.74S$，所以种植收入增加而不是减少，选项 A 不正确.\r\n\r\n建设前其他收入为 $0.04S$，建设后为 $0.05\\times2S=0.10S$，后者是前者的 $2.5$ 倍，增加了一倍以上；建设前养殖收入为 $0.30S$，建设后为 $0.30\\times2S=0.60S$，恰好增加一倍；建设后养殖收入与第三产业收入的总和为 $(0.30+0.28)\\times2S=1.16S>S$，超过经济收入的一半. 因此不正确的是 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设建设前农村经济收入为 $S$，则建设后为 $2S$. 建设前种植收入为 $0.60S$，建设后种植收入为 $0.37\\times2S=0.74S$，所以种植收入增加而不是减少，选项 A 不正确.</p><p>建设前其他收入为 $0.04S$，建设后为 $0.05\\times2S=0.10S$，后者是前者的 $2.5$ 倍，增加了一倍以上；建设前养殖收入为 $0.30S$，建设后为 $0.30\\times2S=0.60S$，恰好增加一倍；建设后养殖收入与第三产业收入的总和为 $(0.30+0.28)\\times2S=1.16S>S$，超过经济收入的一半. 因此不正确的是 A.</p>"
         },
         {
           "num": 4,
-          "body": "已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{4}=1$ 的一个焦点为 $(2,0)$，则 $C$ 的离心率为（ ）",
+          "body": "已知椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{4}=1$ 的一个焦点为 $(2,0)$，则 $C$ 的离心率为（ ）",
           "choices": [
-            "$\\dfrac13$",
-            "$\\dfrac12$",
-            "$\\dfrac{\\sqrt2}{2}$",
-            "$\\dfrac{2\\sqrt2}{3}$"
+            "$\\dfrac{1}{3}$",
+            "$\\dfrac{1}{2}$",
+            "$\\dfrac{\\sqrt{2}}{2}$",
+            "$\\dfrac{2\\sqrt{2}}{3}$"
           ],
           "answer": "C",
-          "solution": "椭圆的半焦距为 $c=2$，短半轴平方为 $b^2=4$. 由 $a^2=b^2+c^2$，得 $a^2=4+4=8$，所以 $a=2\\sqrt2$. 因此离心率\r\n\n$$\ne=\\frac ca=\\frac{2}{2\\sqrt2}=\\frac{\\sqrt2}{2}\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>椭圆的半焦距为 $c=2$，短半轴平方为 $b^{2}=4$. 由 $a^{2}=b^{2}+c^{2}$，得 $a^{2}=4+4=8$，所以 $a=2\\sqrt{2}$. 因此离心率</p>\n$$\ne=\\frac{c}{a}=\\frac{2}{2\\sqrt{2}}=\\frac{\\sqrt{2}}{2}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 5,
-          "body": "已知圆柱的上、下底面的中心分别为 $O_1$，$O_2$，过直线 $O_1O_2$ 的平面截该圆柱所得的截面是面积为 $8$ 的正方形，则该圆柱的表面积为（ ）",
+          "body": "已知圆柱的上、下底面的中心分别为 $O_{1}$，$O_{2}$，过直线 $O_{1}O_{2}$ 的平面截该圆柱所得的截面是面积为 $8$ 的正方形，则该圆柱的表面积为（ ）",
           "choices": [
-            "$12\\sqrt2\\pi$",
+            "$12\\sqrt{2}\\pi$",
             "$12\\pi$",
-            "$8\\sqrt2\\pi$",
+            "$8\\sqrt{2}\\pi$",
             "$10\\pi$"
           ],
           "answer": "B",
-          "solution": "设圆柱的底面半径为 $r$，高为 $h$. 过轴线的截面是矩形，其两边长分别为 $2r$ 和 $h$. 由题意该矩形是面积为 $8$ 的正方形，所以正方形边长为 $2\\sqrt2$，从而\r\n$2r=h=2\\sqrt2$，$r=\\sqrt2$.\r\n圆柱的表面积为\r\n\n$$\n2\\pi r^2+2\\pi rh=2\\pi\\times2+2\\pi\\times\\sqrt2\\times2\\sqrt2=12\\pi\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设圆柱的底面半径为 $r$，高为 $h$. 过轴线的截面是矩形，其两边长分别为 $2r$ 和 $h$. 由题意该矩形是面积为 $8$ 的正方形，所以正方形边长为 $2\\sqrt{2}$，从而</p><p>$2r=h=2\\sqrt{2}$，$r=\\sqrt{2}$.</p><p>圆柱的表面积为</p>\n$$\n2\\pi r^{2}+2\\pi rh=2\\pi\\times2+2\\pi\\times\\sqrt{2}\\times2\\sqrt{2}=12\\pi\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 6,
-          "body": "设函数 $f(x)=x^3+(a-1)x^2+ax$. 若 $f(x)$ 为奇函数，则曲线 $y=f(x)$ 在点 $(0,0)$ 处的切线方程为（ ）",
+          "body": "设函数 $f(x)=x^{3}+(a-1)x^{2}+ax$. 若 $f(x)$ 为奇函数，则曲线 $y=f(x)$ 在点 $(0,0)$ 处的切线方程为（ ）",
           "choices": [
             "$y=-2x$",
             "$y=-x$",
@@ -228,27 +77,23 @@
             "$y=x$"
           ],
           "answer": "D",
-          "solution": "奇函数的偶次幂项系数必须为零，因此 $a-1=0$，得 $a=1$. 于是 $f(x)=x^3+x$，且 $f'(x)=3x^2+1$，所以 $f'(0)=1$. 曲线在 $(0,0)$ 处的切线方程为 $y=x$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "奇函数的偶次幂项系数必须为零，因此 $a-1=0$，得 $a=1$. 于是 $f(x)=x^{3}+x$，且 $f'(x)=3x^{2}+1$，所以 $f'(0)=1$. 曲线在 $(0,0)$ 处的切线方程为 $y=x$，故选 D."
         },
         {
           "num": 7,
-          "body": "在 $\\triangle ABC$ 中，$AD$ 为 $BC$ 边上的中线，$E$ 为 $AD$ 的中点，则 $\\overrightarrow{EB}=$（ ）",
+          "body": "在 $\\triangle ABC$ 中，$AD$ 为 $BC$ 边上的中线，$E$ 为 $AD$ 的中点，则 $\\overrightarrow{EB}=$（ ）",
           "choices": [
-            "$\\dfrac34\\overrightarrow{AB}-\\dfrac14\\overrightarrow{AC}$",
-            "$\\dfrac14\\overrightarrow{AB}-\\dfrac34\\overrightarrow{AC}$",
-            "$\\dfrac34\\overrightarrow{AB}+\\dfrac14\\overrightarrow{AC}$",
-            "$\\dfrac14\\overrightarrow{AB}+\\dfrac34\\overrightarrow{AC}$"
+            "$\\dfrac{3}{4}\\overrightarrow{AB}-\\dfrac{1}{4}\\overrightarrow{AC}$",
+            "$\\dfrac{1}{4}\\overrightarrow{AB}-\\dfrac{3}{4}\\overrightarrow{AC}$",
+            "$\\dfrac{3}{4}\\overrightarrow{AB}+\\dfrac{1}{4}\\overrightarrow{AC}$",
+            "$\\dfrac{1}{4}\\overrightarrow{AB}+\\dfrac{3}{4}\\overrightarrow{AC}$"
           ],
           "answer": "A",
-          "solution": "设 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AC}=\\mathbf{v}$，并取 $A$ 为位置参考点. 由于 $D$ 是 $BC$ 的中点，有 $\\overrightarrow{AD}=\\frac12(\\mathbf{u}+\\mathbf{v})$. 又因为 $E$ 是 $AD$ 的中点，所以 $\\overrightarrow{AE}=\\frac14(\\mathbf{u}+\\mathbf{v})$.\r\n于是\r\n\n$$\n\\overrightarrow{EB}=\\overrightarrow{AB}-\\overrightarrow{AE}=\\mathbf{u}-\\frac14(\\mathbf{u}+\\mathbf{v})=\\frac34\\mathbf{u}-\\frac14\\mathbf{v}\n$$\n\r\n即 $\\overrightarrow{EB}=\\frac34\\overrightarrow{AB}-\\frac14\\overrightarrow{AC}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $\\overrightarrow{AB}=\\mathbf{u}$，$\\overrightarrow{AC}=\\mathbf{v}$，并取 $A$ 为位置参考点. 由于 $D$ 是 $BC$ 的中点，有 $\\overrightarrow{AD}=\\frac{1}{2}(\\mathbf{u}+\\mathbf{v})$. 又因为 $E$ 是 $AD$ 的中点，所以 $\\overrightarrow{AE}=\\frac{1}{4}(\\mathbf{u}+\\mathbf{v})$.</p><p>于是</p>\n$$\n\\overrightarrow{EB}=\\overrightarrow{AB}-\\overrightarrow{AE}=\\mathbf{u}-\\frac{1}{4}(\\mathbf{u}+\\mathbf{v})=\\frac{3}{4}\\mathbf{u}-\\frac{1}{4}\\mathbf{v}\n$$\n<p>即 $\\overrightarrow{EB}=\\frac{3}{4}\\overrightarrow{AB}-\\frac{1}{4}\\overrightarrow{AC}$，故选 A.</p>"
         },
         {
           "num": 8,
-          "body": "已知函数 $f(x)=2\\cos^2 x-\\sin^2 x+2$，则（ ）",
+          "body": "已知函数 $f(x)=2\\cos^{2} x-\\sin^{2} x+2$，则（ ）",
           "choices": [
             "$f(x)$ 的最小正周期为 $\\pi$，最大值为 $3$",
             "$f(x)$ 的最小正周期为 $\\pi$，最大值为 $4$",
@@ -256,55 +101,47 @@
             "$f(x)$ 的最小正周期为 $2\\pi$，最大值为 $4$"
           ],
           "answer": "B",
-          "solution": "利用 $\\sin^2x=1-\\cos^2x$，得\r\n\n$$\nf(x)=2\\cos^2x-(1-\\cos^2x)+2=3\\cos^2x+1=\\frac52+\\frac32\\cos2x\n$$\n\r\n因此 $f(x)$ 的最小正周期为 $\\pi$，最大值为 $\\frac52+\\frac32=4$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>利用 $\\sin^{2}x=1-\\cos^{2}x$，得</p>\n$$\nf(x)=2\\cos^{2}x-(1-\\cos^{2}x)+2=3\\cos^{2}x+1=\\frac{5}{2}+\\frac{3}{2}\\cos2x\n$$\n<p>因此 $f(x)$ 的最小正周期为 $\\pi$，最大值为 $\\frac{5}{2}+\\frac{3}{2}=4$，故选 B.</p>"
         },
         {
           "num": 9,
-          "body": "某圆柱的高为 $2$，底面周长为 $16$，其三视图如图. 圆柱表面上的点 $M$ 在正视图上的对应点为 $A$，圆柱表面上的点 $N$ 在左视图上的对应点为 $B$，则在此圆柱侧面上，从 $M$ 到 $N$ 的路径中，最短路径的长度为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/national_paper_1_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>某圆柱的高为 $2$，底面周长为 $16$，其三视图如图. 圆柱表面上的点 $M$ 在正视图上的对应点为 $A$，圆柱表面上的点 $N$ 在左视图上的对应点为 $B$，则在此圆柱侧面上，从 $M$ 到 $N$ 的路径中，最短路径的长度为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$2\\sqrt{17}$",
-            "$2\\sqrt5$",
+            "$2\\sqrt{5}$",
             "$3$",
             "$2$"
           ],
           "answer": "B",
-          "solution": "由三视图可知，点 $M$ 与点 $N$ 的高度分别在上、下底面所在的水平位置，所以两点的竖直距离为圆柱的高 $2$. 同时，正视图和左视图中的对应位置表明，经过 $M$，$N$ 的两条母线在底面圆周上相差 $90^\\circ$，故沿较短圆弧的弧长为底面周长的四分之一，即 $\\frac{16}{4}=4$.\r\n\r\n将圆柱侧面沿这段较短圆弧展开，得到一个矩形；矩形的高为 $2$，底边上两点的距离为 $4$，而侧面上的最短路径对应展开矩形中的线段. 因此最短路径长为 $\\sqrt{2^2+4^2}=2\\sqrt5$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由三视图可知，点 $M$ 与点 $N$ 的高度分别在上、下底面所在的水平位置，所以两点的竖直距离为圆柱的高 $2$. 同时，正视图和左视图中的对应位置表明，经过 $M$，$N$ 的两条母线在底面圆周上相差 $90^{\\circ}$，故沿较短圆弧的弧长为底面周长的四分之一，即 $\\frac{16}{4}=4$.</p><p>将圆柱侧面沿这段较短圆弧展开，得到一个矩形；矩形的高为 $2$，底边上两点的距离为 $4$，而侧面上的最短路径对应展开矩形中的线段. 因此最短路径长为 $\\sqrt{2^{2}+4^{2}}=2\\sqrt{5}$，故选 B.</p>"
         },
         {
           "num": 10,
-          "body": "在长方体 $ABCD-A_1B_1C_1D_1$ 中，$AB=BC=2$，$AC_1$ 与平面 $BB_1C_1C$ 所成的角为 $30^\\circ$，则该长方体的体积为（ ）",
+          "body": "在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AB=BC=2$，$AC_{1}$ 与平面 $BB_{1}C_{1}C$ 所成的角为 $30^{\\circ}$，则该长方体的体积为（ ）",
           "choices": [
             "$8$",
-            "$6\\sqrt2$",
-            "$8\\sqrt2$",
-            "$8\\sqrt3$"
+            "$6\\sqrt{2}$",
+            "$8\\sqrt{2}$",
+            "$8\\sqrt{3}$"
           ],
           "answer": "C",
-          "solution": "设长方体的高为 $h$. 取 $AC_1$ 为斜边，则 $AC_1$ 在平面 $BB_1C_1C$ 的法线方向上的分量为 $AB=2$，因为直线与平面所成角为 $30^\\circ$，所以\r\n$\\sin30^\\circ=\\frac{2}{AC_1}$，得 $AC_1=4$. 又 $AC^2=AB^2+BC^2=8$，故\r\n$h^2=AC_1^2-AC^2=16-8=8$，$h=2\\sqrt2$，\r\n所以长方体的体积为\r\n\n$$\nAB\\cdot BC\\cdot h=2\\times2\\times2\\sqrt2=8\\sqrt2\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设长方体的高为 $h$. 取 $AC_{1}$ 为斜边，则 $AC_{1}$ 在平面 $BB_{1}C_{1}C$ 的法线方向上的分量为 $AB=2$，因为直线与平面所成角为 $30^{\\circ}$，所以</p><p>$\\sin30^{\\circ}=\\frac{2}{AC_{1}}$，得 $AC_{1}=4$. 又 $AC^{2}=AB^{2}+BC^{2}=8$，故</p><p>$h^{2}=AC_{1}^{2}-AC^{2}=16-8=8$，$h=2\\sqrt{2}$，</p><p>所以长方体的体积为</p>\n$$\nAB\\cdot BC\\cdot h=2\\times2\\times2\\sqrt{2}=8\\sqrt{2}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 11,
-          "body": "已知角 $\\alpha$ 的顶点为坐标原点，始边与 $x$ 轴的非负半轴重合，终边上有两点 $A(1,a)$，$B(2,b)$，且 $\\cos2\\alpha=\\dfrac23$，则 $|a-b|=$（ ）",
+          "body": "已知角 $\\alpha$ 的顶点为坐标原点，始边与 $x$ 轴的非负半轴重合，终边上有两点 $A(1,a)$，$B(2,b)$，且 $\\cos2\\alpha=\\dfrac{2}{3}$，则 $|a-b|=$（ ）",
           "choices": [
-            "$\\dfrac15$",
-            "$\\dfrac{\\sqrt5}{5}$",
-            "$\\dfrac{2\\sqrt5}{5}$",
+            "$\\dfrac{1}{5}$",
+            "$\\dfrac{\\sqrt{5}}{5}$",
+            "$\\dfrac{2\\sqrt{5}}{5}$",
             "$1$"
           ],
           "answer": "B",
-          "solution": "由于 $A(1,a)$，$B(2,b)$ 在角 $\\alpha$ 的同一条终边上，且横坐标之比为 $1:2$，所以 $b=2a$. 又因为点 $A$ 的横坐标为 $1$，有 $\\tan\\alpha=a$. 利用二倍角公式，$\\cos2\\alpha=\\frac{1-\\tan^2\\alpha}{1+\\tan^2\\alpha}=\\frac{1-a^2}{1+a^2}=\\frac23$，解得 $a^2=\\frac15$. 于是 $|a-b|=|a-2a|=|a|=\\frac{\\sqrt5}{5}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由于 $A(1,a)$，$B(2,b)$ 在角 $\\alpha$ 的同一条终边上，且横坐标之比为 $1:2$，所以 $b=2a$. 又因为点 $A$ 的横坐标为 $1$，有 $\\tan\\alpha=a$. 利用二倍角公式，$\\cos2\\alpha=\\frac{1-\\tan^{2}\\alpha}{1+\\tan^{2}\\alpha}=\\frac{1-a^{2}}{1+a^{2}}=\\frac{2}{3}$，解得 $a^{2}=\\frac{1}{5}$. 于是 $|a-b|=|a-2a|=|a|=\\frac{\\sqrt{5}}{5}$，故选 B."
         },
         {
           "num": 12,
-          "body": "设函数 $f(x)=\\begin{cases}\r\n2^{-x},&x\\le0,\\\\\r\n1,&x>0\r\n\\end{cases}$，则满足 $f(x+1)<f(2x)$ 的 $x$ 的取值范围是（ ）",
+          "body": "设函数 $f(x)=\\begin{cases}2^{-x},&#x26;x\\le0,\\\\  1,&#x26;x>0\\end{cases}$，则满足 $f(x+1)&#x3C;f(2x)$ 的 $x$ 的取值范围是（ ）",
           "choices": [
             "$(-\\infty,-1]$",
             "$(0,+\\infty)$",
@@ -312,9 +149,7 @@
             "$(-\\infty,0)$"
           ],
           "answer": "D",
-          "solution": "当 $x\\leq-1$ 时，$x+1\\leq0$，$2x\\leq0$，所以\r\n$f(x+1)=2^{-x-1}$，$f(2x)=2^{-2x}$. 而 $-x-1<-2x$ 等价于 $x<1$，故此时不等式对所有 $x\\leq-1$ 成立.\r\n当 $-1<x\\leq0$ 时，$x+1>0$，$2x\\leq0$，所以不等式化为\r\n$1<2^{-2x}$. 这等价于 $-2x>0$，即 $-1<x<0$. 当 $x>0$ 时，$x+1>0$，$2x>0$，两边函数值均为 $1$，不等式不成立. 因此 $x$ 的取值范围为 $(-\\infty,0)$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>当 $x\\leq-1$ 时，$x+1\\leq0$，$2x\\leq0$，所以</p><p>$f(x+1)=2^{-x-1}$，$f(2x)=2^{-2x}$. 而 $-x-1&#x3C;-2x$ 等价于 $x&#x3C;1$，故此时不等式对所有 $x\\leq-1$ 成立.</p><p>当 $-1&#x3C;x\\leq0$ 时，$x+1>0$，$2x\\leq0$，所以不等式化为</p><p>$1&#x3C;2^{-2x}$. 这等价于 $-2x>0$，即 $-1&#x3C;x&#x3C;0$. 当 $x>0$ 时，$x+1>0$，$2x>0$，两边函数值均为 $1$，不等式不成立. 因此 $x$ 的取值范围为 $(-\\infty,0)$，故选 D.</p>"
         }
       ]
     },
@@ -323,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知函数 $f(x)=\\log_2(x^2+a)$，若 $f(3)=1$，则 $a= _______ {}$.",
-          "choices": [],
-          "answer": "\\(-7\\)",
-          "solution": "由 $f(3)=1$，得 $\\log_2(3^2+a)=1$，所以 $9+a=2$，解得 $a=-7$. 此时 $3^2+a=2>0$，满足对数真数为正的条件.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知函数 $f(x)=\\log_{2}(x^{2}+a)$，若 $f(3)=1$，则 $a=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$-7$",
+          "solution": "由 $f(3)=1$，得 $\\log_{2}(3^{2}+a)=1$，所以 $9+a=2$，解得 $a=-7$. 此时 $3^{2}+a=2>0$，满足对数真数为正的条件."
         },
         {
           "num": 14,
-          "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx-2y-2\\le0,\\\\\r\nx-y+1\\ge0,\\\\\r\ny\\le0\r\n\\end{cases}$，则 $z=3x+2y$ 的最大值为 _______ {}.",
-          "choices": [],
+          "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}x-2y-2\\le0,\\\\  x-y+1\\ge0,\\\\  y\\le0\\end{cases}$，则 $z=3x+2y$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "6",
-          "solution": "约束条件可写为 $x\\leq2y+2$，$x\\geq y-1$，$y\\leq0$.\r\n由 $y-1\\leq2y+2$ 得 $y\\geq-3$，所以 $-3\\leq y\\leq0$. 因为目标函数 $z=3x+2y$ 中 $x$ 的系数为正，在固定 $y$ 时应取 $x=2y+2$. 于是\r\n\n$$\nz\\leq3(2y+2)+2y=8y+6\\leq6\n$$\n\r\n当 $y=0$，$x=2$ 时取等号，所以 $z$ 的最大值为 $6$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>约束条件可写为 $x\\leq2y+2$，$x\\geq y-1$，$y\\leq0$.</p><p>由 $y-1\\leq2y+2$ 得 $y\\geq-3$，所以 $-3\\leq y\\leq0$. 因为目标函数 $z=3x+2y$ 中 $x$ 的系数为正，在固定 $y$ 时应取 $x=2y+2$. 于是</p>\n$$\nz\\leq3(2y+2)+2y=8y+6\\leq6\n$$\n<p>当 $y=0$，$x=2$ 时取等号，所以 $z$ 的最大值为 $6$.</p>"
         },
         {
           "num": 15,
-          "body": "直线 $y=x+1$ 与圆 $x^2+y^2+2y-3=0$ 交于 $A$，$B$ 两点，则 $|AB|= _______ {}$.",
-          "choices": [],
-          "answer": "\\(2\\sqrt2\\)",
-          "solution": "将直线方程 $y=x+1$ 代入圆方程，得 $x^2+(x+1)^2+2(x+1)-3=0$，即 $2x^2+4x=0$，所以 $x=0$ 或 $x=-2$. 对应的交点为 $(0,1)$，$(-2,-1)$，因此 $|AB|=\\sqrt{(0+2)^2+(1+1)^2}=2\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "直线 $y=x+1$ 与圆 $x^{2}+y^{2}+2y-3=0$ 交于 $A$，$B$ 两点，则 $|AB|=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$2\\sqrt{2}$",
+          "solution": "将直线方程 $y=x+1$ 代入圆方程，得 $x^{2}+(x+1)^{2}+2(x+1)-3=0$，即 $2x^{2}+4x=0$，所以 $x=0$ 或 $x=-2$. 对应的交点为 $(0,1)$，$(-2,-1)$，因此 $|AB|=\\sqrt{(0+2)^{2}+(1+1)^{2}}=2\\sqrt{2}$."
         },
         {
           "num": 16,
-          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $b\\sin C+c\\sin B=4a\\sin B\\sin C$，$b^2+c^2-a^2=8$，则 $\\triangle ABC$ 的面积为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac{2\\sqrt3}{3}\\)",
-          "solution": "由正弦定理 $b=\\dfrac{a\\sin B}{\\sin A}$，$c=\\dfrac{a\\sin C}{\\sin A}$，代入已知等式，得 $\\frac{2a\\sin B\\sin C}{\\sin A}=4a\\sin B\\sin C$.\r\n由于三角形内角的正弦均为正，所以 $\\sin A=\\dfrac12$，从而 $A=\\dfrac{\\pi}{6}$ 或 $A=\\dfrac{5\\pi}{6}$. 另一方面，由余弦定理\r\n$b^2+c^2-a^2=2bc\\cos A=8$.\r\n左式为正，故 $\\cos A>0$，只能有 $A=\\dfrac{\\pi}{6}$. 于是 $bc=\\dfrac{4}{\\cos A}=\\dfrac{8}{\\sqrt3}$，三角形面积为\r\n\n$$\nS=\\frac12bc\\sin A=\\frac12\\cdot\\frac{8}{\\sqrt3}\\cdot\\frac12=\\frac{2\\sqrt3}{3}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $b\\sin C+c\\sin B=4a\\sin B\\sin C$，$b^{2}+c^{2}-a^{2}=8$，则 $\\triangle ABC$ 的面积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\dfrac{2\\sqrt{3}}{3}$",
+          "solution": "<p>由正弦定理 $b=\\dfrac{a\\sin B}{\\sin A}$，$c=\\dfrac{a\\sin C}{\\sin A}$，代入已知等式，得 $\\frac{2a\\sin B\\sin C}{\\sin A}=4a\\sin B\\sin C$.</p><p>由于三角形内角的正弦均为正，所以 $\\sin A=\\dfrac{1}{2}$，从而 $A=\\dfrac{\\pi}{6}$ 或 $A=\\dfrac{5\\pi}{6}$. 另一方面，由余弦定理</p><p>$b^{2}+c^{2}-a^{2}=2bc\\cos A=8$.</p><p>左式为正，故 $\\cos A>0$，只能有 $A=\\dfrac{\\pi}{6}$. 于是 $bc=\\dfrac{4}{\\cos A}=\\dfrac{8}{\\sqrt{3}}$，三角形面积为</p>\n$$\nS=\\frac{1}{2}bc\\sin A=\\frac{1}{2}\\cdot\\frac{8}{\\sqrt{3}}\\cdot\\frac{1}{2}=\\frac{2\\sqrt{3}}{3}\n$$"
         }
       ]
     },
@@ -364,48 +191,38 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知数列 $\\{a_n\\}$ 满足 $a_1=1$，$na_{n+1}=2(n+1)a_n$，设 $b_n=\\dfrac{a_n}{n}$.\r\n\r\n\n(1) 求 $b_1$，$b_2$，$b_3$；\n\n(2) 判断数列 $\\{b_n\\}$ 是否为等比数列，并说明理由；\n\n(3) 求 $\\{a_n\\}$ 的通项公式.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 满足 $a_{1}=1$，$na_{n+1}=2(n+1)a_{n}$，设 $b_{n}=\\dfrac{a_n}{n}$.</p><ol class=\"enumerate\"><li><p>求 $b_{1}$，$b_{2}$，$b_{3}$；</p></li><li><p>判断数列 $\\{b_{n}\\}$ 是否为等比数列，并说明理由；</p></li><li><p>求 $\\{a_{n}\\}$ 的通项公式.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $a_1=1$，得 $b_1=\\dfrac{a_1}{1}=1$. 当 $n=1$ 时，$a_2=4$，所以 $b_2=\\dfrac{a_2}{2}=2$. 当 $n=2$ 时，$a_3=3a_2=12$，所以 $b_3=\\dfrac{a_3}{3}=4$.\n\n(2) 由已知递推式，除以 $n(n+1)$，得\r\n$\\frac{a_{n+1}}{n+1}=2\\frac{a_n}{n}$，即 $b_{n+1}=2b_n$. 因此 $\\dfrac{b_{n+1}}{b_n}=2$ 对每个正整数 $n$ 都成立，数列 $\\{b_n\\}$ 是以 $2$ 为公比的等比数列.\n\n(3) 由 $b_1=1$ 及公比为 $2$，得 $b_n=2^{n-1}$. 又 $a_n=nb_n$，所以\r\n$a_n=n2^{n-1}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{1}=1$，得 $b_{1}=\\dfrac{a_1}{1}=1$. 当 $n=1$ 时，$a_{2}=4$，所以 $b_{2}=\\dfrac{a_2}{2}=2$. 当 $n=2$ 时，$a_{3}=3a_{2}=12$，所以 $b_{3}=\\dfrac{a_3}{3}=4$.</p></li><li><p>由已知递推式，除以 $n(n+1)$，得</p><p>$\\frac{a_{n+1}}{n+1}=2\\frac{a_{n}}{n}$，即 $b_{n+1}=2b_{n}$. 因此 $\\dfrac{b_{n+1}}{b_n}=2$ 对每个正整数 $n$ 都成立，数列 $\\{b_{n}\\}$ 是以 $2$ 为公比的等比数列.</p></li><li><p>由 $b_{1}=1$ 及公比为 $2$，得 $b_{n}=2^{n-1}$. 又 $a_{n}=nb_{n}$，所以</p><p>$a_{n}=n2^{n-1}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，在平行四边形 $ABCM$ 中，$AB=AC=3$，$\\angle ACM=90^\\circ$，以 $AC$ 为折痕将 $\\triangle ACM$ 折起，使点 $M$ 到达点 $D$ 的位置，且 $AB\\perp DA$.\r\n\r\n\n(1) 证明：平面 $ACD\\perp$ 平面 $ABC$；\n\n(2) $Q$ 为线段 $AD$ 上一点，$P$ 为线段 $BC$ 上一点，且 $BP=DQ=\\dfrac23DA$，求三棱锥 $Q-ABP$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/national_paper_1_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在平行四边形 $ABCM$ 中，$AB=AC=3$，$\\angle ACM=90^{\\circ}$，以 $AC$ 为折痕将 $\\triangle ACM$ 折起，使点 $M$ 到达点 $D$ 的位置，且 $AB\\perp DA$.</p><ol class=\"enumerate\"><li><p>证明：平面 $ACD\\perp$ 平面 $ABC$；</p></li><li><p>$Q$ 为线段 $AD$ 上一点，$P$ 为线段 $BC$ 上一点，且 $BP=DQ=\\dfrac{2}{3}DA$，求三棱锥 $Q-ABP$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 在平行四边形 $ABCM$ 中，$CM\\parallel AB$. 由 $\\angle ACM=90^\\circ$，得 $AC\\perp CM$，所以 $AC\\perp AB$. 题设又给出 $AB\\perp AD$，而 $AC$，$AD$ 是平面 $ACD$ 内相交的两条直线，因此 $AB\\perp$ 平面 $ACD$. 由于 $AB$ 在平面 $ABC$ 内，故平面 $ACD\\perp$ 平面 $ABC$.\n\n(2) 在平行四边形 $ABCM$ 中，$CM=AB=3$，且 $AC\\perp CM$，所以在直角三角形 $ACM$ 中\r\n$AM=\\sqrt{AC^2+CM^2}=3\\sqrt2$.\r\n折叠是绕 $AC$ 的刚体转动，长度和与折痕的夹角保持不变，故 $AD=AM=3\\sqrt2$，且 $\\angle DAC=\\angle MAC=45^\\circ$. 由 $\\angle ACD=90^\\circ$，有 $DC\\perp AC$；又由第（1）问，$AB\\perp$ 平面 $ACD$，所以 $AB\\perp DC$. 因为 $AB$，$AC$ 是平面 $ABC$ 内相交的两条直线，故 $DC\\perp$ 平面 $ABC$，从而点 $D$ 到平面 $ABC$ 的距离为 $DC=3$.\r\n\r\n由 $DQ=\\dfrac23DA$，得 $AQ=\\dfrac13AD$. 线段 $AD$ 的端点 $A$ 在平面 $ABC$ 内，端点 $D$ 到该平面的距离为 $3$，距离沿线段按比例变化，所以点 $Q$ 到平面 $ABC$ 的距离为 $\\dfrac13\\times3=1$.\r\n\r\n由平行四边形知 $BC=AM=3\\sqrt2$，且\r\n$BP=\\dfrac23DA=2\\sqrt2=\\dfrac23BC$. 三角形 $ABP$ 与三角形 $ABC$ 共有从 $A$ 到直线 $BC$ 的高，因此\r\n$[ABP]=\\dfrac{BP}{BC}[ABC]=\\dfrac23\\cdot\\dfrac12\\cdot AB\\cdot AC=3$.\r\n所以三棱锥 $Q-ABP$ 的体积为\r\n$V=\\dfrac13[ABP]\\cdot1=1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>在平行四边形 $ABCM$ 中，$CM\\parallel AB$. 由 $\\angle ACM=90^{\\circ}$，得 $AC\\perp CM$，所以 $AC\\perp AB$. 题设又给出 $AB\\perp AD$，而 $AC$，$AD$ 是平面 $ACD$ 内相交的两条直线，因此 $AB\\perp$ 平面 $ACD$. 由于 $AB$ 在平面 $ABC$ 内，故平面 $ACD\\perp$ 平面 $ABC$.</p></li><li><p>在平行四边形 $ABCM$ 中，$CM=AB=3$，且 $AC\\perp CM$，所以在直角三角形 $ACM$ 中</p><p>$AM=\\sqrt{AC^{2}+CM^{2}}=3\\sqrt{2}$.</p><p>折叠是绕 $AC$ 的刚体转动，长度和与折痕的夹角保持不变，故 $AD=AM=3\\sqrt{2}$，且 $\\angle DAC=\\angle MAC=45^{\\circ}$. 由 $\\angle ACD=90^{\\circ}$，有 $DC\\perp AC$；又由第（1）问，$AB\\perp$ 平面 $ACD$，所以 $AB\\perp DC$. 因为 $AB$，$AC$ 是平面 $ABC$ 内相交的两条直线，故 $DC\\perp$ 平面 $ABC$，从而点 $D$ 到平面 $ABC$ 的距离为 $DC=3$.</p><p>由 $DQ=\\dfrac{2}{3}DA$，得 $AQ=\\dfrac{1}{3}AD$. 线段 $AD$ 的端点 $A$ 在平面 $ABC$ 内，端点 $D$ 到该平面的距离为 $3$，距离沿线段按比例变化，所以点 $Q$ 到平面 $ABC$ 的距离为 $\\dfrac{1}{3}\\times3=1$.</p><p>由平行四边形知 $BC=AM=3\\sqrt{2}$，且</p><p>$BP=\\dfrac{2}{3}DA=2\\sqrt{2}=\\dfrac{2}{3}BC$. 三角形 $ABP$ 与三角形 $ABC$ 共有从 $A$ 到直线 $BC$ 的高，因此</p><p>$[ABP]=\\dfrac{BP}{BC}[ABC]=\\dfrac{2}{3}\\cdot\\dfrac{1}{2}\\cdot AB\\cdot AC=3$.</p><p>所以三棱锥 $Q-ABP$ 的体积为</p><p>$V=\\dfrac{1}{3}[ABP]\\cdot1=1$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "某家庭记录了未使用节水龙头 $50$ 天的日用水量数据（单位：$\\text{m}^3$）和使用了节水龙头 $50$ 天的日用水量数据，得到频数分布表如下：\r\n\r\n未使用节水龙头 $50$ 天的日用水量频数分布表\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccccc}\r\n\\hline\r\n日用水量 & $[0,0.1)$ & $[0.1,0.2)$ & $[0.2,0.3)$ & $[0.3,0.4)$ & $[0.4,0.5)$ & $[0.5,0.6)$ & $[0.6,0.7)$ \\\\\r\n\\hline\r\n频数 & $1$ & $3$ & $2$ & $4$ & $9$ & $26$ & $5$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n使用了节水龙头 $50$ 天的日用水量频数分布表\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cccccc}\r\n\\hline\r\n日用水量 & $[0,0.1)$ & $[0.1,0.2)$ & $[0.2,0.3)$ & $[0.3,0.4)$ & $[0.4,0.5)$ & $[0.5,0.6)$ \\\\\r\n\\hline\r\n频数 & $1$ & $5$ & $13$ & $10$ & $16$ & $5$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 作出使用了节水龙头 $50$ 天的日用水量数据的频率分布直方图；\n\n(2) 估计该家庭使用节水龙头后，日用水量小于 $0.35\\text{ m}^3$ 的概率；\n\n(3) 估计该家庭使用节水龙头后，一年能节省多少水？（一年按 $365$ 天计算，同一组中的数据以这组数据所在区间中点的值作代表）\n\r\n\r\n\\problemresetlayout\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2018/img/national_paper_1_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>某家庭记录了未使用节水龙头 $50$ 天的日用水量数据（单位：$\\text{m}^{3}$）和使用了节水龙头 $50$ 天的日用水量数据，得到频数分布表如下：</p><p>未使用节水龙头 $50$ 天的日用水量频数分布表</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>日用水量 </td><td style=\"text-align: center\"> $[0,0.1)$ </td><td style=\"text-align: center\"> $[0.1,0.2)$ </td><td style=\"text-align: center\"> $[0.2,0.3)$ </td><td style=\"text-align: center\"> $[0.3,0.4)$ </td><td style=\"text-align: center\"> $[0.4,0.5)$ </td><td style=\"text-align: center\"> $[0.5,0.6)$ </td><td style=\"text-align: center\"> $[0.6,0.7)$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $3$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $9$ </td><td style=\"text-align: center\"> $26$ </td><td style=\"text-align: center\"> $5$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>使用了节水龙头 $50$ 天的日用水量频数分布表</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>日用水量 </td><td style=\"text-align: center\"> $[0,0.1)$ </td><td style=\"text-align: center\"> $[0.1,0.2)$ </td><td style=\"text-align: center\"> $[0.2,0.3)$ </td><td style=\"text-align: center\"> $[0.3,0.4)$ </td><td style=\"text-align: center\"> $[0.4,0.5)$ </td><td style=\"text-align: center\"> $[0.5,0.6)$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $5$ </td><td style=\"text-align: center\"> $13$ </td><td style=\"text-align: center\"> $10$ </td><td style=\"text-align: center\"> $16$ </td><td style=\"text-align: center\"> $5$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>作出使用了节水龙头 $50$ 天的日用水量数据的频率分布直方图；</p></li><li><p>估计该家庭使用节水龙头后，日用水量小于 $0.35\\text{ m}^{3}$ 的概率；</p></li><li><p>估计该家庭使用节水龙头后，一年能节省多少水？（一年按 $365$ 天计算，同一组中的数据以这组数据所在区间中点的值作代表）</p></li></ol><p><span class=\"macro macro-problemresetlayout\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_1_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 每组组距都是 $0.1$，频率分布直方图的纵坐标为频率除以组距. 使用节水龙头后的第一组频率密度为 $\\frac{\\frac{1}{50}}{0.1}=0.2$；第二组至第六组的频率密度分别为 $\\dfrac{\\frac{5}{50}}{0.1}=1$，$\\dfrac{\\frac{13}{50}}{0.1}=2.6$，$\\dfrac{\\frac{10}{50}}{0.1}=2$，$\\dfrac{\\frac{16}{50}}{0.1}=3.2$，$\\dfrac{\\frac{5}{50}}{0.1}=1$.\r\n所以直方图中六个小矩形的底分别为 $[0,0.1)$，$[0.1,0.2)$，$[0.2,0.3)$，$[0.3,0.4)$，$[0.4,0.5)$，$[0.5,0.6)$，高依次为 $0.2$，$1$，$2.6$，$2$，$3.2$，$1$.\n\n(2) 日用水量小于 $0.35\\mathrm{~m}^3$ 的天数可估计为前3组的全部天数加上第4组的一半，即\r\n$1+5+13+\\frac12\\times10=24$，\r\n所以所求概率约为 $\\dfrac{24}{50}=0.48$.\n\n(3) 未使用节水龙头时，以各组区间中点作为代表，每日平均用水量约为\r\n\n$$\n\\frac{0.05\\times1+0.15\\times3+0.25\\times2+0.35\\times4+0.45\\times9+0.55\\times26+0.65\\times5}{50}=0.48\\mathrm{~m}^3\n$$\n\r\n使用节水龙头后，每日平均用水量约为\r\n\n$$\n\\frac{0.05\\times1+0.15\\times5+0.25\\times13+0.35\\times10+0.45\\times16+0.55\\times5}{50}=0.35\\mathrm{~m}^3\n$$\n\r\n所以每天约节省 $0.48-0.35=0.13\\mathrm{~m}^3$，一年约节省 $365\\times0.13=47.45\\mathrm{~m}^3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>每组组距都是 $0.1$，频率分布直方图的纵坐标为频率除以组距. 使用节水龙头后的第一组频率密度为 $\\frac{\\frac{1}{50}}{0.1}=0.2$；第二组至第六组的频率密度分别为 $\\dfrac{\\frac{5}{50}}{0.1}=1$，$\\dfrac{\\frac{13}{50}}{0.1}=2.6$，$\\dfrac{\\frac{10}{50}}{0.1}=2$，$\\dfrac{\\frac{16}{50}}{0.1}=3.2$，$\\dfrac{\\frac{5}{50}}{0.1}=1$.</p><p>所以直方图中六个小矩形的底分别为 $[0,0.1)$，$[0.1,0.2)$，$[0.2,0.3)$，$[0.3,0.4)$，$[0.4,0.5)$，$[0.5,0.6)$，高依次为 $0.2$，$1$，$2.6$，$2$，$3.2$，$1$.</p></li><li><p>日用水量小于 $0.35\\mathrm{~m}^{3}$ 的天数可估计为前3组的全部天数加上第4组的一半，即</p><p>$1+5+13+\\frac{1}{2}\\times10=24$，</p><p>所以所求概率约为 $\\dfrac{24}{50}=0.48$.</p></li><li><p>未使用节水龙头时，以各组区间中点作为代表，每日平均用水量约为</p>\n$$\n\\frac{0.05\\times1+0.15\\times3+0.25\\times2+0.35\\times4+0.45\\times9+0.55\\times26+0.65\\times5}{50}=0.48\\mathrm{~m}^{3}\n$$\n<p>使用节水龙头后，每日平均用水量约为</p>\n$$\n\\frac{0.05\\times1+0.15\\times5+0.25\\times13+0.35\\times10+0.45\\times16+0.55\\times5}{50}=0.35\\mathrm{~m}^{3}\n$$\n<p>所以每天约节省 $0.48-0.35=0.13\\mathrm{~m}^{3}$，一年约节省 $365\\times0.13=47.45\\mathrm{~m}^{3}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设抛物线 $C:y^2=2x$，点 $A(2,0)$，$B(-2,0)$，过点 $A$ 的直线 $l$ 与 $C$ 交于 $M$，$N$ 两点.\r\n\r\n\n(1) 当 $l$ 与 $x$ 轴垂直时，求直线 $BM$ 的方程；\n\n(2) 证明：$\\angle ABM=\\angle ABN$.",
-          "choices": [],
+          "body": "<p>设抛物线 $C:y^{2}=2x$，点 $A(2,0)$，$B(-2,0)$，过点 $A$ 的直线 $l$ 与 $C$ 交于 $M$，$N$ 两点.</p><ol class=\"enumerate\"><li><p>当 $l$ 与 $x$ 轴垂直时，求直线 $BM$ 的方程；</p></li><li><p>证明：$\\angle ABM=\\angle ABN$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $l$ 与 $x$ 轴垂直时，$l$ 的方程为 $x=2$. 代入抛物线方程得 $y^2=4$，所以 $M$，$N$ 为 $(2,2)$，$(2,-2)$ 两点. 若 $M=(2,2)$，则\r\n$k_{BM}=\\frac{2-0}{2-(-2)}=\\frac12$，从而直线 $BM$ 的方程为 $y=\\dfrac12(x+2)$，即 $y=\\dfrac12x+1$. 若 $M=(2,-2)$，则 $k_{BM}=\\frac{-2-0}{2-(-2)}=-\\frac12$，\r\n从而直线 $BM$ 的方程为 $y=-\\dfrac12(x+2)$，即 $y=-\\dfrac12x-1$.\n\n(2) 当 $l$ 不与 $x$ 轴垂直时，设其斜率为 $k$，则 $l$ 的方程为 $y=k(x-2)$. 由题设直线与抛物线交于两个不同点，故 $k\\neq0$. 令 $M(x_1,y_1)$，$N(x_2,y_2)$，则\r\n$x_i=\\frac{y_i}{k}+2$，\r\n代入 $y^2=2x$，得 $ky_i^2-2y_i-4k=0$. 所以\r\n$y_1+y_2=\\frac2k$，$y_1y_2=-4$.\r\n因为 $x_i=\\dfrac{y_i^2}{2}\\geq0$，所以 $x_i+2>0$. 直线 $BM$，$BN$ 的斜率分别为\r\n$k_{BM}=\\frac{y_1}{x_1+2}=\\frac{ky_1}{y_1+4k}$，$k_{BN}=\\frac{y_2}{x_2+2}=\\frac{ky_2}{y_2+4k}$.\r\n于是\r\n\n$$\nk_{BM}+k_{BN}\r\n=\\frac{k\\bigl(2y_1y_2+4k(y_1+y_2)\\bigr)}\r\n{y_1y_2+4k(y_1+y_2)+16k^2}=0\n$$\n\r\n分母不为零是因为 $x_i+2>0$. 又由 $y_1y_2=-4<0$ 知 $y_1$，$y_2$ 异号，不妨设 $y_1>0>y_2$，于是 $BM$，$BN$ 分别位于 $BA$ 的两侧，且 $k_{BM}>0>k_{BN}$. 由于 $BA$ 是 $x$ 轴正向，有 $\\tan\\angle ABM=k_{BM}$，$\\tan\\angle ABN=-k_{BN}$，再结合 $k_{BM}+k_{BN}=0$，可得 $\\angle ABM=\\angle ABN$. 当 $l$ 与 $x$ 轴垂直时，$M$，$N$ 关于 $BA$ 对称，结论同样成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $l$ 与 $x$ 轴垂直时，$l$ 的方程为 $x=2$. 代入抛物线方程得 $y^{2}=4$，所以 $M$，$N$ 为 $(2,2)$，$(2,-2)$ 两点. 若 $M=(2,2)$，则</p><p>$k_{BM}=\\frac{2-0}{2-(-2)}=\\frac{1}{2}$，从而直线 $BM$ 的方程为 $y=\\dfrac{1}{2}(x+2)$，即 $y=\\dfrac{1}{2}x+1$. 若 $M=(2,-2)$，则 $k_{BM}=\\frac{-2-0}{2-(-2)}=-\\frac{1}{2}$，</p><p>从而直线 $BM$ 的方程为 $y=-\\dfrac{1}{2}(x+2)$，即 $y=-\\dfrac{1}{2}x-1$.</p></li><li><p>当 $l$ 不与 $x$ 轴垂直时，设其斜率为 $k$，则 $l$ 的方程为 $y=k(x-2)$. 由题设直线与抛物线交于两个不同点，故 $k\\neq0$. 令 $M(x_{1},y_{1})$，$N(x_{2},y_{2})$，则</p><p>$x_{i}=\\frac{y_{i}}{k}+2$，</p><p>代入 $y^{2}=2x$，得 $ky_{i}^{2}-2y_{i}-4k=0$. 所以</p><p>$y_{1}+y_{2}=\\frac{2}{k}$，$y_{1}y_{2}=-4$.</p><p>因为 $x_{i}=\\dfrac{y_i^2}{2}\\geq0$，所以 $x_{i}+2>0$. 直线 $BM$，$BN$ 的斜率分别为</p><p>$k_{BM}=\\frac{y_{1}}{x_{1}+2}=\\frac{ky_{1}}{y_{1}+4k}$，$k_{BN}=\\frac{y_{2}}{x_{2}+2}=\\frac{ky_{2}}{y_{2}+4k}$.</p><p>于是</p>\n$$\nk_{BM}+k_{BN}=\\frac{k\\bigl(2y_{1}y_{2}+4k(y_{1}+y_{2})\\bigr)}{y_{1}y_{2}+4k(y_{1}+y_{2})+16k^{2}}=0\n$$\n<p>分母不为零是因为 $x_{i}+2>0$. 又由 $y_{1}y_{2}=-4&#x3C;0$ 知 $y_{1}$，$y_{2}$ 异号，不妨设 $y_{1}>0>y_{2}$，于是 $BM$，$BN$ 分别位于 $BA$ 的两侧，且 $k_{BM}>0>k_{BN}$. 由于 $BA$ 是 $x$ 轴正向，有 $\\tan\\angle ABM=k_{BM}$，$\\tan\\angle ABN=-k_{BN}$，再结合 $k_{BM}+k_{BN}=0$，可得 $\\angle ABM=\\angle ABN$. 当 $l$ 与 $x$ 轴垂直时，$M$，$N$ 关于 $BA$ 对称，结论同样成立.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知函数 $f(x)=a\\mathrm{e}^x-\\ln x-1$.\r\n\r\n\n(1) 设 $x=2$ 是 $f(x)$ 的极值点，求 $a$，并求 $f(x)$ 的单调区间；\n\n(2) 证明：当 $a\\ge\\dfrac1\\mathrm{e}$ 时，$f(x)\\ge0$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=a\\mathrm{e}^{x}-\\ln x-1$.</p><ol class=\"enumerate\"><li><p>设 $x=2$ 是 $f(x)$ 的极值点，求 $a$，并求 $f(x)$ 的单调区间；</p></li><li><p>证明：当 $a\\ge\\dfrac1\\mathrm{e}$ 时，$f(x)\\ge0$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 函数定义域为 $x>0$，且\r\n$f'(x)=a\\mathrm{e}^x-\\frac1x$.\r\n因为 $x=2$ 是极值点，所以 $f'(2)=0$，得\r\n$a\\mathrm{e}^2-\\frac12=0$，$a=\\frac{1}{2\\mathrm{e}^2}$.\r\n此时\r\n\n$$\nf'(x)=\\frac{\\mathrm{e}^x}{2\\mathrm{e}^2}-\\frac1x\r\n=\\frac{x\\mathrm{e}^x-2\\mathrm{e}^2}{2\\mathrm{e}^2x}\n$$\n\r\n令 $g(x)=x\\mathrm{e}^x$，则 $g'(x)=\\mathrm{e}^x(x+1)>0$，所以 $g(x)$ 在 $(0,+\\infty)$ 上单调递增，且 $g(2)=2\\mathrm{e}^2$. 因此 $f'(x)<0$ 时 $0<x<2$，$f'(x)>0$ 时 $x>2$. 故 $f(x)$ 的单调减区间为 $(0,2)$，单调增区间为 $(2,+\\infty)$.\n\n(2) 当 $a\\geq\\dfrac1\\mathrm{e}$ 时，对任意 $x>0$，有\r\n$f(x)=a\\mathrm{e}^x-\\ln x-1\\geq\\mathrm{e}^{x-1}-\\ln x-1$.\r\n由 $\\mathrm{e}^u\\geq1+u$（$u\\in\\mathbb{R}$）和 $\\ln x\\leq x-1$（$x>0$），分别取 $u=x-1$，可得\r\n\n$$\n\\mathrm{e}^{x-1}\\geq x\\geq1+\\ln x\n$$\n\r\n所以 $\\mathrm{e}^{x-1}-\\ln x-1\\geq0$，从而 $f(x)\\geq0$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且</p><p>$f'(x)=a\\mathrm{e}^{x}-\\frac{1}{x}$.</p><p>因为 $x=2$ 是极值点，所以 $f'(2)=0$，得</p><p>$a\\mathrm{e}^{2}-\\frac{1}{2}=0$，$a=\\frac{1}{2\\mathrm{e}^{2}}$.</p><p>此时</p>\n$$\nf'(x)=\\frac{\\mathrm{e}^{x}}{2\\mathrm{e}^{2}}-\\frac{1}{x}=\\frac{x\\mathrm{e}^{x}-2\\mathrm{e}^{2}}{2\\mathrm{e}^{2}x}\n$$\n<p>令 $g(x)=x\\mathrm{e}^{x}$，则 $g'(x)=\\mathrm{e}^{x}(x+1)>0$，所以 $g(x)$ 在 $(0,+\\infty)$ 上单调递增，且 $g(2)=2\\mathrm{e}^{2}$. 因此 $f'(x)&#x3C;0$ 时 $0&#x3C;x&#x3C;2$，$f'(x)>0$ 时 $x>2$. 故 $f(x)$ 的单调减区间为 $(0,2)$，单调增区间为 $(2,+\\infty)$.</p></li><li><p>当 $a\\geq\\dfrac1\\mathrm{e}$ 时，对任意 $x>0$，有</p><p>$f(x)=a\\mathrm{e}^{x}-\\ln x-1\\geq\\mathrm{e}^{x-1}-\\ln x-1$.</p><p>由 $\\mathrm{e}^{u}\\geq1+u$（$u\\in\\mathbb{R}$）和 $\\ln x\\leq x-1$（$x>0$），分别取 $u=x-1$，可得</p>\n$$\n\\mathrm{e}^{x-1}\\geq x\\geq1+\\ln x\n$$\n<p>所以 $\\mathrm{e}^{x-1}-\\ln x-1\\geq0$，从而 $f(x)\\geq0$.</p></li></ol>"
         }
       ]
     },
@@ -414,24 +231,19 @@
       "problems": [
         {
           "num": 22,
-          "body": "在直角坐标系 $xOy$ 中，曲线 $C_1$ 的方程为 $y=k|x|+2$. 以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，曲线 $C_2$ 的极坐标方程为 $\\rho^2+2\\rho\\cos\\theta-3=0$.\r\n\r\n\n(1) 求 $C_2$ 的直角坐标方程；\n\n(2) 若 $C_1$ 与 $C_2$ 有且仅有三个公共点，求 $C_1$ 的方程.",
-          "choices": [],
+          "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}$ 的方程为 $y=k|x|+2$. 以坐标原点为极点，$x$ 轴正半轴为极轴建立极坐标系，曲线 $C_{2}$ 的极坐标方程为 $\\rho^{2}+2\\rho\\cos\\theta-3=0$.</p><ol class=\"enumerate\"><li><p>求 $C_{2}$ 的直角坐标方程；</p></li><li><p>若 $C_{1}$ 与 $C_{2}$ 有且仅有三个公共点，求 $C_{1}$ 的方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由极坐标与直角坐标的关系 $\\rho^2=x^2+y^2$，$\\rho\\cos\\theta=x$，得 $x^2+y^2+2x-3=0$，\r\n所以 $C_2$ 的直角坐标方程为 $x^2+y^2+2x-3=0$.\n\n(2) 当 $x=0$ 时，$C_1$ 上的点为 $(0,2)$，但 $0^2+2^2+2\\cdot0-3=1\\neq0$，故公共点不在 $y$ 轴上. 令 $t=|x|>0$. 当 $x\\geq0$ 时，$y=kt+2$，代入 $C_2$ 得\r\n\n$$\n(1+k^2)t^2+(4k+2)t+1=0\n$$\n\r\n当 $x<0$ 时，仍有 $y=kt+2$，代入 $C_2$ 得\r\n\n$$\n(1+k^2)t^2+(4k-2)t+1=0\n$$\n\r\n两式的常数项和二次项系数均为正. 第一式有两个正根的条件是 $4k+2<0$ 且判别式 $\\Delta_+=4k(3k+4)>0$ 成立，即 $k<-\\dfrac43$；当 $k=-\\dfrac43$ 时，第一式有一个正的二重根；其余情况下第一式没有正根.\r\n\r\n第二式有两个正根的条件是 $4k-2<0$ 且判别式 $\\Delta_-=4k(3k-4)>0$，这两个条件合起来等价于 $k<0$；当 $k=0$ 时，第二式为 $(t-1)^2=0$，只有一个正的二重根；当 $k>0$ 时没有正根. 二重根只对应一个公共点，因此公共点总数为 $3$ 的唯一情形是第一式在 $k=-\\dfrac43$ 时有一个正的二重根、第二式有两个正根. 因此 $C_1$ 的方程为 $y=-\\dfrac43|x|+2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由极坐标与直角坐标的关系 $\\rho^{2}=x^{2}+y^{2}$，$\\rho\\cos\\theta=x$，得 $x^{2}+y^{2}+2x-3=0$，</p><p>所以 $C_{2}$ 的直角坐标方程为 $x^{2}+y^{2}+2x-3=0$.</p></li><li><p>当 $x=0$ 时，$C_{1}$ 上的点为 $(0,2)$，但 $0^{2}+2^{2}+2\\cdot0-3=1\\neq0$，故公共点不在 $y$ 轴上. 令 $t=|x|>0$. 当 $x\\geq0$ 时，$y=kt+2$，代入 $C_{2}$ 得</p>\n$$\n(1+k^{2})t^{2}+(4k+2)t+1=0\n$$\n<p>当 $x&#x3C;0$ 时，仍有 $y=kt+2$，代入 $C_{2}$ 得</p>\n$$\n(1+k^{2})t^{2}+(4k-2)t+1=0\n$$\n<p>两式的常数项和二次项系数均为正. 第一式有两个正根的条件是 $4k+2&#x3C;0$ 且判别式 $\\Delta_{+}=4k(3k+4)>0$ 成立，即 $k&#x3C;-\\dfrac{4}{3}$；当 $k=-\\dfrac{4}{3}$ 时，第一式有一个正的二重根；其余情况下第一式没有正根.</p><p>第二式有两个正根的条件是 $4k-2&#x3C;0$ 且判别式 $\\Delta_{-}=4k(3k-4)>0$，这两个条件合起来等价于 $k&#x3C;0$；当 $k=0$ 时，第二式为 $(t-1)^{2}=0$，只有一个正的二重根；当 $k>0$ 时没有正根. 二重根只对应一个公共点，因此公共点总数为 $3$ 的唯一情形是第一式在 $k=-\\dfrac{4}{3}$ 时有一个正的二重根、第二式有两个正根. 因此 $C_{1}$ 的方程为 $y=-\\dfrac{4}{3}|x|+2$.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "已知 $f(x)=|x+1|-|ax-1|$.\r\n\r\n\n(1) 当 $a=1$ 时，求不等式 $f(x)>1$ 的解集；\n\n(2) 若 $x\\in(0,1)$ 时不等式 $f(x)>x$ 成立，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知 $f(x)=|x+1|-|ax-1|$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求不等式 $f(x)>1$ 的解集；</p></li><li><p>若 $x\\in(0,1)$ 时不等式 $f(x)>x$ 成立，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $a=1$ 时，原不等式为\r\n$|x+1|-|x-1|>1$.\r\n当 $x<-1$ 时，左边等于 $-2$，不满足不等式；当 $-1\\leq x<1$ 时，左边等于 $2x$，故需 $x>\\dfrac12$；当 $x\\geq1$ 时，左边等于 $2$，恒大于 $1$. 合并得解集为\r\n$\\left(\\frac12,+\\infty\\right)$.\n\n(2) 因为 $x\\in(0,1)$，所以 $x+1>0$，原不等式等价于\r\n$x+1-|ax-1|>x$，即 $|ax-1|<1$. 这又等价于 $-1<ax-1<1$，即 $0<ax<2$.\r\n要使它对一切 $x\\in(0,1)$ 成立，必须有 $a>0$. 当 $0<a\\leq2$ 时，$0<ax<a\\leq2$，且因 $x<1$，即使 $a=2$ 也有 $ax<2$，所以不等式恒成立；若 $a>2$，取 $x\\in(\\frac{2}{a},1)$，则 $ax>2$，不等式不成立. 因此 $a$ 的取值范围为 $0<a\\leq2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，原不等式为</p><p>$|x+1|-|x-1|>1$.</p><p>当 $x&#x3C;-1$ 时，左边等于 $-2$，不满足不等式；当 $-1\\leq x&#x3C;1$ 时，左边等于 $2x$，故需 $x>\\dfrac{1}{2}$；当 $x\\geq1$ 时，左边等于 $2$，恒大于 $1$. 合并得解集为</p><p>$\\left(\\frac{1}{2},+\\infty\\right)$.</p></li><li><p>因为 $x\\in(0,1)$，所以 $x+1>0$，原不等式等价于</p><p>$x+1-|ax-1|>x$，即 $|ax-1|&#x3C;1$. 这又等价于 $-1&#x3C;ax-1&#x3C;1$，即 $0&#x3C;ax&#x3C;2$.</p><p>要使它对一切 $x\\in(0,1)$ 成立，必须有 $a>0$. 当 $0&#x3C;a\\leq2$ 时，$0&#x3C;ax&#x3C;a\\leq2$，且因 $x&#x3C;1$，即使 $a=2$ 也有 $ax&#x3C;2$，所以不等式恒成立；若 $a>2$，取 $x\\in(\\frac{2}{a},1)$，则 $ax>2$，不等式不成立. 因此 $a$ 的取值范围为 $0&#x3C;a\\leq2$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

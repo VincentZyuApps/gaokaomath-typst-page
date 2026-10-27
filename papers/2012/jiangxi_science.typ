@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,58 +11,64 @@
 #part-header("单选题")
 
 #problem(1)[
-若集合 $A = \{-1, 1\}$，$B = \{0, 2\}$，则集合 $\{z | z = x + y, x in A, y in B\}$ 中的元素个数为（ ）
-  #choices([$5$], [$4$], [$3$], [$2$], cols: 4)
+若集合 #mi(`A = \{-1, 1\}`)，#mi(`B = \{0, 2\}`)，则集合 #mi(`\{z \mid z = x + y, x \in A, y \in B\}`) 中的元素个数为（ ）
+  #choices([#mi(`5`)], [#mi(`4`)], [#mi(`3`)], [#mi(`2`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-由 $x in A$、$y in B$，可得
-$x+y in \{-1+0,-1+2,1+0,1+2\}=\{-1,1,3\}$.
-集合中的不同元素只有 $3$ 个，所以应选 C.
+由 #mi(`x\in A`)、#mi(`y\in B`)，可得
+
+#mi(`x+y\in\{-1+0,-1+2,1+0,1+2\}=\{-1,1,3\}`).
+
+集合中的不同元素只有 #mi(`3`) 个，所以应选 C.
 ]
 
 #problem(2)[
-下列函数中，与函数 $y = (1)/(root(3, x))$ 定义域相同的函数为（ ）
-  #choices([$y = (1)/(sin x)$], [$y = (ln x)/(x)$], [$y = x e ""^(x)$], [$y = (sin x)/(x)$], cols: 2)
+下列函数中，与函数 #mi(`y = \frac{1}{\sqrt[3]{x}}`) 定义域相同的函数为（ ）
+  #choices([#mi(`y = \frac{1}{\sin x}`)], [#mi(`y = \frac{\ln x}{x}`)], [#mi(`y = x\mathrm{e}^{x}`)], [#mi(`y = \frac{\sin x}{x}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-函数 $y=(1)/(root(3, x))$ 的分母不能为零，故其定义域为
-$\{x | x\n e q0\}$.
-选项 A 的定义域要求 $sin x\n e q0$，选项 B 要求 $x>0$，选项 C 的定义域为 $RR$，而选项 D 的定义域为 $\{x | x\n e q0\}$. 因此应选 D.
+函数 #mi(`y=\dfrac{1}{\sqrt[3]{x}}`) 的分母不能为零，故其定义域为
+
+#mi(`\{x\mid x\neq0\}`).
+
+选项 A 的定义域要求 #mi(`\sin x\neq0`)，选项 B 要求 #mi(`x>0`)，选项 C 的定义域为 #mi(`\mathbb{R}`)，而选项 D 的定义域为 #mi(`\{x\mid x\neq0\}`). 因此应选 D.
 ]
 
 #problem(3)[
-若函数 $f(x) = \b e g i n{c a s e s} x^2 + 1, & x <= 1 ,\\ \l g x, & x > 1, \e n d{c a s e s}$ 则 $f(f(10)) =$（ ）
-  #choices([$\l g 101$], [$2$], [$1$], [$0$], cols: 4)
+若函数 #mi(`f(x) = \begin{cases}x^{2} + 1,&x \le 1,\\  \lg x,&x > 1,\end{cases}`) 则 #mi(`f(f(10)) =`)（ ）
+  #choices([#mi(`\lg 101`)], [#mi(`2`)], [#mi(`1`)], [#mi(`0`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-因为 $10>1$，所以 $f(10)=\l g10=1$. 又因为 $1 <= 1$，代入第一段解析式得 $f(1)=1^2+1=2$. 因而 $f(f(10))=2$，应选 B.
+因为 #mi(`10>1`)，所以 #mi(`f(10)=\lg10=1`). 又因为 #mi(`1\leqslant1`)，代入第一段解析式得 #mi(`f(1)=1^{2}+1=2`). 因而 #mi(`f(f(10))=2`)，应选 B.
 ]
 
 #problem(4)[
-若 $tan theta + (1)/(tan theta)= 4$，则 $sin 2 theta =$（ ）
-  #choices([$(1)/(8)$], [$(1)/(4)$], [$(1)/(3)$], [$(1)/(2)$], cols: 4)
+若 #mi(`\tan \theta + \frac{1}{\tan \theta}= 4`)，则 #mi(`\sin 2\theta =`)（ ）
+  #choices([#mi(`\frac{1}{8}`)], [#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{3}`)], [#mi(`\frac{1}{2}`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-令 $t= tan theta$. 由题意 $t\n e q0$，且
-$t+(1)/(t)=4$，从而 $t^2+1=4 t$. 因此
-$sin 2 theta =(2 tan theta)/(1+ tan ""^2 theta)=(2 t)/(4 t)=(1)/(2)$，应选 D.
+令 #mi(`t=\tan\theta`). 由题意 #mi(`t\neq0`)，且
+
+#mi(`t+\dfrac{1}{t}=4`)，从而 #mi(`t^{2}+1=4t`). 因此
+
+#mi(`\sin2\theta=\dfrac{2\tan\theta}{1+\tan^2\theta}=\dfrac{2t}{4t}=\dfrac{1}{2}`)，应选 D.
 ]
 
 #problem(5)[
 下列命题中，假命题为（ ）
-  #choices([存在四边相等的四边形不是正方形], [$z_(1)$、$z_(2)\i n b o l d(C)$，$z_(1)+z_(2)$ 为实数的充分必要条件是 $z_(1)$、$z_(2)$ 互为共轭复数], [若 $x$、$y in RR$，且 $x+y>2$，则 $x$、$y$ 至少有一个大于 $1$], [对于任意 $n\i n b o l d(N)_(+)$，$C_(n)^(0)+C_(n)^(1)+ dots.c +C_(n)^(n)$ 都是偶数], cols: 1)
+  #choices([存在四边相等的四边形不是正方形], [#mi(`z_{1}`)、#mi(`z_{2}\in\mathbf{C}`)，#mi(`z_{1}+z_{2}`) 为实数的充分必要条件是 #mi(`z_{1}`)、#mi(`z_{2}`) 互为共轭复数], [若 #mi(`x`)、#mi(`y\in\mathbb{R}`)，且 #mi(`x+y>2`)，则 #mi(`x`)、#mi(`y`) 至少有一个大于 #mi(`1`)], [对于任意 #mi(`n\in\mathbf{N}_{+}`)，#mi(`\mathrm{C}_{n}^{0}+\mathrm{C}_{n}^{1}+\cdots+\mathrm{C}_{n}^{n}`) 都是偶数], cols: 1)
 ]
 
 #answer([B])
@@ -70,628 +76,442 @@ $sin 2 theta =(2 tan theta)/(1+ tan ""^2 theta)=(2 t)/(4 t)=(1)/(2)$，应选 D.
 #solution[
 选项 A 正确，例如菱形只要不是正方形，就存在四边相等而不是正方形的四边形.
 
-选项 B 不正确. 取 $z_1=1$、$z_2=2$，则 $z_1+z_2=3$ 是实数，但 $z_1$、$z_2$ 不互为共轭复数，所以所述充分必要条件不成立.
+选项 B 不正确. 取 #mi(`z_{1}=1`)、#mi(`z_{2}=2`)，则 #mi(`z_{1}+z_{2}=3`) 是实数，但 #mi(`z_{1}`)、#mi(`z_{2}`) 不互为共轭复数，所以所述充分必要条件不成立.
 
-选项 C 正确. 若 $x <= 1$ 且 $y <= 1$，则 $x+y <= 2$，与 $x+y>2$ 矛盾，故 $x$、$y$ 至少有一个大于 $1$.
+选项 C 正确. 若 #mi(`x\leqslant1`) 且 #mi(`y\leqslant1`)，则 #mi(`x+y\leqslant2`)，与 #mi(`x+y>2`) 矛盾，故 #mi(`x`)、#mi(`y`) 至少有一个大于 #mi(`1`).
 
 选项 D 正确，因为二项式系数满足
-$C_n^0+C_n^1+ dots.c +C_n^n=2^n$，而 $n in NN _+$ 时 $2^n$ 为偶数. 所以假命题为 B.
+
+#mi(`\mathrm{C}_{n}^{0}+\mathrm{C}_{n}^{1}+\cdots+\mathrm{C}_{n}^{n}=2^{n}`)，而 #mi(`n\in\N_{+}`) 时 #mi(`2^{n}`) 为偶数. 所以假命题为 B.
 ]
 
 #problem(6)[
-观察下列各式： $a + b = 1$，$a^2 + b^2 = 3$，$a^3 + b^3 = 4$，$a^4 + b^4 = 7$，$a^5 + b^5 = 11$，$dots.c$，则 $a^(10) + b^(10) =$ （ ）
-  #choices([$28$], [$76$], [$123$], [$199$], cols: 4)
+观察下列各式： #mi(`a + b = 1`)，#mi(`a^{2} + b^{2} = 3`)，#mi(`a^{3} + b^{3} = 4`)，#mi(`a^{4} + b^{4} = 7`)，#mi(`a^{5} + b^{5} = 11`)，#mi(`\cdots`)，则 #mi(`a^{10}+ b^{10}=`) （ ）
+  #choices([#mi(`28`)], [#mi(`76`)], [#mi(`123`)], [#mi(`199`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-记 $s_n=a^n+b^n$，并令 $s_0=2$. 由 $a+b=1$ 和 $a^2+b^2=3$，有
-$1=(a+b)^2=a^2+2 a b+b^2=3+2 a b$，故 $a b=-1$.
+记 #mi(`s_{n}=a^{n}+b^{n}`)，并令 #mi(`s_{0}=2`). 由 #mi(`a+b=1`) 和 #mi(`a^{2}+b^{2}=3`)，有
 
-于是对 $n >= 2$，
-$s_n=(a+b)s_(n-1)-a b s_(n-2)=s_(n-1)+s_(n-2)$.
-由 $s_1=1$、$s_2=3$ 递推得
-$s_3=4$、$s_4=7$、$s_5=11$、$s_6=18$、$s_7=29$、$s_8=47$、$s_9=76$、$s_(10)=123$.
-所以 $a^(10)+b^(10)=123$，应选 C.
+#mi(`1=(a+b)^{2}=a^{2}+2ab+b^{2}=3+2ab`)，故 #mi(`ab=-1`).
+
+于是对 #mi(`n\geqslant2`)，
+
+#mi(`s_{n}=(a+b)s_{n-1}-ab s_{n-2}=s_{n-1}+s_{n-2}`).
+
+由 #mi(`s_{1}=1`)、#mi(`s_{2}=3`) 递推得
+
+#mi(`s_{3}=4`)、#mi(`s_{4}=7`)、#mi(`s_{5}=11`)、#mi(`s_{6}=18`)、#mi(`s_{7}=29`)、#mi(`s_{8}=47`)、#mi(`s_{9}=76`)、#mi(`s_{10}=123`).
+
+所以 #mi(`a^{10}+b^{10}=123`)，应选 C.
 ]
 
 #problem(7)[
-在直角三角形 $A B C$ 中，点 $D$ 是斜边 $A B$ 的中点，点 $P$ 为线段 $C D$ 的中点，则 $(|P A|^2 + |P B|^2)/(|P C|^2)=$（ ）
-  #choices([$2$], [$4$], [$5$], [$10$], cols: 4)
+在直角三角形 #mi(`ABC`) 中，点 #mi(`D`) 是斜边 #mi(`AB`) 的中点，点 #mi(`P`) 为线段 #mi(`CD`) 的中点，则 #mi(`\frac{|PA|^{2} + |PB|^{2}}{|PC|^{2}}=`)（ ）
+  #choices([#mi(`2`)], [#mi(`4`)], [#mi(`5`)], [#mi(`10`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-不妨在直角坐标系中取 $C=(0,0)$、$A=(u,0)$、$B=(0,v)$，其中 $u$，$v>0$. 则
-$D=((u)/(2),(v)/(2))$、$P=((u)/(4),(v)/(4))$.
+不妨在直角坐标系中取 #mi(`C=(0,0)`)、#mi(`A=(u,0)`)、#mi(`B=(0,v)`)，其中 #mi(`u`)，#mi(`v>0`). 则
+
+#mi(`D=\left(\dfrac{u}{2},\dfrac{v}{2}\right)`)、#mi(`P=\left(\dfrac{u}{4},\dfrac{v}{4}\right)`).
 
 因此
-$| P A|^2=(9 u^2+v^2)/(16)$、$| P B|^2=(u^2+9 v^2)/(16)$，而
-$| P C|^2=(u^2+v^2)/(16)$. 从而
 
-$ (| P A|^2+| P B|^2)/(| P C|^2)=(10((u^2+v^2))/(16))/(((u^2+v^2))/(16))=10 $
+#mi(`\lvert PA\rvert^{2}=\dfrac{9u^2+v^2}{16}`)、#mi(`\lvert PB\rvert^{2}=\dfrac{u^2+9v^2}{16}`)，而
+
+#mi(`\lvert PC\rvert^{2}=\dfrac{u^2+v^2}{16}`). 从而
+
+
+#align(center)[#mitex(`
+\frac{\lvert PA\rvert^{2}+\lvert PB\rvert^{2}}{\lvert PC\rvert^{2}}=\frac{10\frac{(u^2+v^2)}{16}}{\frac{(u^{2}+v^{2})}{16}}=10
+`)]
+
 
 故应选 D.
 ]
 
 #problem(8)[
-某农户计划种植黄瓜和韭菜，种植面积不超过 $50" 亩"$，投入资金不超过 $54" 万元"$，假设种植黄瓜和韭菜的产量、成本和售价如下表
+某农户计划种植黄瓜和韭菜，种植面积不超过 #mi(`50\text{ \text{亩}}`)，投入资金不超过 #mi(`54\text{ \text{万元}}`)，假设种植黄瓜和韭菜的产量、成本和售价如下表
 
-\begin{center}
-\begin{tabular}{c|c|c|c}
 \hline
- & 年产量/亩 & 年种植成本/亩 & 每吨售价 \\
-\hline
-黄瓜 & $4" 吨"$ & $1.2" 万元"$ & $0.55" 万元"$ \\
-\hline
-韭菜 & $6" 吨"$ & $0.9" 万元"$ & $0.3" 万元"$ \\
-\hline
-\end{tabular}
-\end{center}
 
-为使一年的种植总利润（$"总利润"= "总销售收入"- "总种植成本"$）最大，那么黄瓜和韭菜的种植面积（单位：亩）分别为（ ）
-  #choices([$50,0$], [$30,20$], [$20,30$], [$0,50$], cols: 4)
+& 年产量/亩 & 年种植成本/亩 & 每吨售价 \\
+
+\hline
+
+黄瓜 & #mi(`4\text{ \text{吨}}`) & #mi(`1.2\text{ \text{万元}}`) & #mi(`0.55\text{ \text{万元}}`) \\
+
+\hline
+
+韭菜 & #mi(`6\text{ \text{吨}}`) & #mi(`0.9\text{ \text{万元}}`) & #mi(`0.3\text{ \text{万元}}`) \\
+
+\hline
+
+为使一年的种植总利润（#mi(`\text{\text{总利润}}= \text{\text{总销售收入}}- \text{\text{总种植成本}}`)）最大，那么黄瓜和韭菜的种植面积（单位：亩）分别为（ ）
+  #choices([#mi(`50,0`)], [#mi(`30,20`)], [#mi(`20,30`)], [#mi(`0,50`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-设黄瓜和韭菜的种植面积分别为 $x$、$y$ 亩，则
-$x >= 0$、$y >= 0$、$x+y <= 50$，且 $1.2 x+0.9 y <= 54$.
+设黄瓜和韭菜的种植面积分别为 #mi(`x`)、#mi(`y`) 亩，则
 
-每亩黄瓜的利润为 $4 times 0 .55-1.2=1$ 万元，每亩韭菜的利润为 $6 times 0 .3-0.9=0.9$ 万元，故总利润为 $z=x+0.9 y$. 可行域的有关顶点为
-$(0,0)$、$(45,0)$、$(30,20)$、$(0,50)$.
+#mi(`x\geqslant0`)、#mi(`y\geqslant0`)、#mi(`x+y\leqslant50`)，且 #mi(`1.2x+0.9y\leqslant54`).
 
-在这些顶点处，$z$ 依次为 $0$、$45$、$48$、$45$. 最大值在 $(30,20)$ 处取得，所以黄瓜和韭菜的种植面积分别为 $30$ 亩和 $20$ 亩，应选 B.
+每亩黄瓜的利润为 #mi(`4\times0.55-1.2=1`) 万元，每亩韭菜的利润为 #mi(`6\times0.3-0.9=0.9`) 万元，故总利润为 #mi(`z=x+0.9y`). 可行域的有关顶点为
+
+#mi(`(0,0)`)、#mi(`(45,0)`)、#mi(`(30,20)`)、#mi(`(0,50)`).
+
+在这些顶点处，#mi(`z`) 依次为 #mi(`0`)、#mi(`45`)、#mi(`48`)、#mi(`45`). 最大值在 #mi(`(30,20)`) 处取得，所以黄瓜和韭菜的种植面积分别为 #mi(`30`) 亩和 #mi(`20`) 亩，应选 B.
 ]
 
 #problem(9)[
-样本 $(x_(1), x_(2), dots.c , x_(n))$ 的平均数为 $overline(x)$，样本 $(y_(1), y_(2), dots.c , y_(m))$ 的平均数为 $overline(y)$ （记 $overline(x) != overline(y)$）. 若样本 $(x_(1), x_(2), dots.c , x_(n), y_(1), y_(2), dots.c , y_(m))$ 的平均数 $overline(z)= alpha overline(x)+ (1 - alpha )overline(y)$，其中 $0 < alpha < (1)/(2)$，则 $n$，$m$ 的大小关系为（ ）
-  #choices([$n < m$], [$n > m$], [$n = m$], [不能确定], cols: 4)
+样本 #mi(`(x_{1}, x_{2}, \cdots, x_{n})`) 的平均数为 #mi(`\overline{x}`)，样本 #mi(`(y_{1}, y_{2}, \cdots, y_{m})`) 的平均数为 #mi(`\overline{y}`) （记 #mi(`\overline{x}\neq \overline{y}`)）. 若样本 #mi(`(x_{1}, x_{2}, \cdots, x_{n}, y_{1}, y_{2}, \cdots, y_{m})`) 的平均数 #mi(`\overline{z}= \alpha \overline{x}+ (1 - \alpha)\overline{y}`)，其中 #mi(`0 < \alpha < \frac{1}{2}`)，则 #mi(`n`)，#mi(`m`) 的大小关系为（ ）
+  #choices([#mi(`n < m`)], [#mi(`n > m`)], [#mi(`n = m`)], [不能确定], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
 合并样本的平均数满足
-$\overline z=(n\overline x+m\overline y)/(n+m)$.
-又因 $\overline x != \overline y$，题设等式中两种平均数的系数必须分别相等，因此
-$(n)/(n+m)= alpha$.
-由 $0< alpha <(1)/(2)$ 得 $n<m$，所以应选 A.
+
+#mi(`\overline z=\dfrac{n\overline x+m\overline y}{n+m}`).
+
+又因 #mi(`\overline x\neq\overline y`)，题设等式中两种平均数的系数必须分别相等，因此
+
+#mi(`\dfrac n{n+m}=\alpha`).
+
+由 #mi(`0<\alpha<\dfrac{1}{2}`) 得 #mi(`n<m`)，所以应选 A.
 ]
 
 #problem(10)[
-如图，已知正四棱锥 $S - A B C D$ 所有棱长都为 1，点 $E$ 是侧棱 $S C$ 上一动点，过点 $E$ 垂直于 $S C$ 的截面将正四棱锥分成上、下两部分. 记 $S E = x$ （$0 < x < 1$），截面下面部分的体积为 $V(x)$，则函数 $y = V(x)$ 的图象大致为（ ）
+如图，已知正四棱锥 #mi(`S - ABCD`) 所有棱长都为 1，点 #mi(`E`) 是侧棱 #mi(`SC`) 上一动点，过点 #mi(`E`) 垂直于 #mi(`SC`) 的截面将正四棱锥分成上、下两部分. 记 #mi(`SE = x`) （#mi(`0 < x < 1`)），截面下面部分的体积为 #mi(`V(x)`)，则函数 #mi(`y = V(x)`) 的图象大致为（ ）
 
-
-#align(center)[#image("/papers/2012/img/jiangxi_science/q10_fig2.png", width: 42%)]
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/jiangxi_science/q10_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/jiangxi_science/q10_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/jiangxi_science/q10_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/jiangxi_science/q10_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+[width=0.42\linewidth]img/2012/jiangxi_science/q10_fig2.png
+  #choices([[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optA.png], [[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optB.png], [[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optC.png], [[width=0.15\paperwidth]img/2012/jiangxi_science/q10_optD.png], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-设正四棱锥的底面为边长 $1$ 的正方形，高为 $h$. 由顶点到底面中心的距离为 $(1)/(sqrt(2))$，且侧棱长为 $1$，得 $h=(1)/(sqrt(2))$，故整个棱锥体积为 $(sqrt(2))/(6)$.
+设正四棱锥的底面为边长 #mi(`1`) 的正方形，高为 #mi(`h`). 由顶点到底面中心的距离为 #mi(`\dfrac{1}{\sqrt{2}}`)，且侧棱长为 #mi(`1`)，得 #mi(`h=\dfrac1{\sqrt{2}}`)，故整个棱锥体积为 #mi(`\dfrac{\sqrt{2}}{6}`).
 
-取底面中心为原点，令 $C=((1)/(2),(1)/(2),0)$、$S=(0,0,(1)/(sqrt(2)))$，并令 $E=S+x(C-S)$. 截面平面方程为
-
-$ (1)/(2)(X+Y+1-2 x)-(Z)/(sqrt(2))=0 $
-
-将截面上的 $Z$ 写成 $Z=((X+Y+1-2 x))/(sqrt(2))$. 正四棱锥的侧面在底面投影 $(X,Y)$ 上满足
-$-(1)/(2) <= X$，$Y <= (1)/(2)$，$0 <= X+Y+1-2 x <= 1 -2|X|$，$0 <= X+Y+1-2 x <= 1 -2|Y|$.
-记 $u=X+Y$、$v=X-Y$. 因为 $X=((u+v))/(2)$、$Y=((u-v))/(2)$，所以
-$max \{|X|,|Y|\}=(|u|+|v|)/(2)$，$\m a t h r m d X \m a t h r m d Y=(1)/(2)\m a t h r m d u \m a t h r m d v$.
-
-正四棱锥在底面投影上的上表面高度为 $((1-2 max \{|X|,|Y|\}))/(sqrt(2))$. 因而截面投影区域满足
-$u+1-2 x >= 0$，$u+|u|+|v| <= 2 x$，$|u|+|v| <= 1$.
-
-当 $0 <= x <= (1)/(2)$ 时，若 $2 x-1 <= u <= 0$，则 $1+u >= 2 x$，所以 $|v| <= 2 x$；若 $0 <= u <= x$，则 $2(x-u) <= 1 -u$，所以 $|v| <= 2 (x-u)$. 因此投影面积为
-
-$ A_0(x)=(1)/(2)(integral_(2 x-1)^(0)4 x \m a t h r m d u+integral_(0)^(x)4(x-u) \m a t h r m d u)=x(2-3 x) $
+取底面中心为原点，令 #mi(`C=\left(\dfrac{1}{2},\dfrac{1}{2},0\right)`)、#mi(`S=\left(0,0,\dfrac1{\sqrt{2}}\right)`)，并令 #mi(`E=S+x(C-S)`). 截面平面方程为
 
 
-当 $(1)/(2) <= x <= 1$ 时，$2 x-1 <= u <= x$，且 $2(x-u) <= 1 -u$，故 $|v| <= 2 (x-u)$，从而
+#align(center)[#mitex(`
+\frac{1}{2}(X+Y+1-2x)-\frac{Z}{\sqrt{2}}=0
+`)]
 
-$ A_0(x)=(1)/(2)integral_(2 x-1)^(x)4(x-u) \m a t h r m d u=(1-x)^2 $
+
+将截面上的 #mi(`Z`) 写成 #mi(`Z=\frac{(X+Y+1-2x)}{\sqrt{2}}`). 正四棱锥的侧面在底面投影 #mi(`(X,Y)`) 上满足
+
+#mi(`-\frac{1}{2}\le X`)，#mi(`Y\le\frac{1}{2}`)，#mi(`0\le X+Y+1-2x\leqslant1-2|X|`)，#mi(`0\le X+Y+1-2x\leqslant1-2|Y|`).
+
+记 #mi(`u=X+Y`)、#mi(`v=X-Y`). 因为 #mi(`X=\frac{(u+v)}{2}`)、#mi(`Y=\frac{(u-v)}{2}`)，所以
+
+#mi(`\max\{|X|,|Y|\}=\frac{|u|+|v|}{2}`)，#mi(`\mathrm{d}X\,\mathrm{d}Y=\frac{1}{2}\mathrm{d}u\,\mathrm{d}v`).
+
+正四棱锥在底面投影上的上表面高度为 #mi(`\frac{(1-2\max\{|X|,|Y|\})}{\sqrt{2}}`). 因而截面投影区域满足
+
+#mi(`u+1-2x\geqslant0`)，#mi(`u+|u|+|v|\leqslant2x`)，#mi(`|u|+|v|\leqslant1`).
+
+当 #mi(`0\le x\le\dfrac{1}{2}`) 时，若 #mi(`2x-1\le u\leqslant0`)，则 #mi(`1+u\geqslant2x`)，所以 #mi(`|v|\leqslant2x`)；若 #mi(`0\le u\le x`)，则 #mi(`2(x-u)\leqslant1-u`)，所以 #mi(`|v|\leqslant2(x-u)`). 因此投影面积为
 
 
-截面面积为 $sqrt(2)A_0(x)$，且 $V'(x)$ 等于截面面积的相反数. 由 $V(0)=(sqrt(2))/(6)$ 积分得
+#align(center)[#mitex(`
+A_{0}(x)=\frac{1}{2}\left(\int_{2x-1}^{0}4x\,\mathrm{d}u+\int_{0}^{x}4(x-u)\,\mathrm{d}u\right)=x(2-3x)
+`)]
 
-$ V(x)=\b e g i n{c a s e s} sqrt(2)((1)/(6)-x^2+x^3),&0 <= x <= (1)/(2),\\ (sqrt(2))/(3)(1-x)^3,&(1)/(2) <= x <= 1 . \e n d{c a s e s} $
 
-该函数从 $(sqrt(2))/(6)$ 单调下降到 $0$. 在 $0<x<(1)/(3)$ 时 $V''(x)<0$，在 $(1)/(3)<x<1$ 时 $V''(x)>0$，且 $x=(1)/(2)$ 处函数及其一、二阶导数连续，图象与选项 A 相符，所以应选 A.
+当 #mi(`\dfrac{1}{2}\le x\leqslant1`) 时，#mi(`2x-1\le u\le x`)，且 #mi(`2(x-u)\leqslant1-u`)，故 #mi(`|v|\leqslant2(x-u)`)，从而
+
+
+#align(center)[#mitex(`
+A_{0}(x)=\frac{1}{2}\int_{2x-1}^{x}4(x-u)\,\mathrm{d}u=(1-x)^{2}
+`)]
+
+
+截面面积为 #mi(`\sqrt{2} A_{0}(x)`)，且 #mi(`V'(x)`) 等于截面面积的相反数. 由 #mi(`V(0)=\dfrac{\sqrt{2}}{6}`) 积分得
+
+
+#align(center)[#mitex(`
+V(x)=\begin{cases}\sqrt{2}\left(\dfrac{1}{6}-x^{2}+x^{3}\right),&0\le x\le\dfrac{1}{2},\\  \dfrac{\sqrt{2}}{3}(1-x)^{3},&\dfrac{1}{2}\le x\leqslant1.\end{cases}
+`)]
+
+
+该函数从 #mi(`\dfrac{\sqrt{2}}{6}`) 单调下降到 #mi(`0`). 在 #mi(`0<x<\dfrac{1}{3}`) 时 #mi(`V''(x)<0`)，在 #mi(`\dfrac{1}{3}<x<1`) 时 #mi(`V''(x)>0`)，且 #mi(`x=\dfrac{1}{2}`) 处函数及其一、二阶导数连续，图象与选项 A 相符，所以应选 A.
 ]
 
 #part-header("填空题")
 
 #problem(11)[
-计算定积分 $integral_(-1)^(1)(x^(2) + sin x)d x =\f i l l i n b l a n k{}$.
+计算定积分 #mi(`\int_{-1}^{1}\left(x^{2}+ \sin x\right)\mathrm{d}x =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$(2)/(3)$])
+#answer([#mi(`\frac{2}{3}`)])
 
 #solution[
-在区间 $[-1,1]$ 上，$x^2$ 是偶函数，$sin x$ 是奇函数，因此
+在区间 #mi(`[-1,1]`) 上，#mi(`x^{2}`) 是偶函数，#mi(`\sin x`) 是奇函数，因此
 
-$ integral_(-1)^(1)(x^2+ sin x)d x =2\i n t_0^(1) x^2 d x+integral_(-1)^(1) sin x d x =2[(x^3)/(3)]_0^1+0 =(2)/(3) $
+
+#align(center)[#mitex(`
+\int_{-1}^{1}\left(x^{2}+\sin x\right)\mathrm{d}x  =2\int_{0}^{1}x^{2}\mathrm{d}x+\int_{-1}^{1}\sin x\,\mathrm{d}x  =2\left[\frac{x^{3}}{3}\right]_{0}^{1}+0  =\frac{2}{3}
+`)]
 ]
 
 #problem(12)[
-设数列 $\{a_(n)\}$，$\{b_(n)\}$ 都是等差数列，若 $a_(1) + b_(1) = 7$，$a_(3) + b_(3) = 21$，则 $a_(5) + b_(5) =\f i l l i n b l a n k{}$.
+设数列 #mi(`\{a_{n}\}`)，#mi(`\{b_{n}\}`) 都是等差数列，若 #mi(`a_{1}+ b_{1}= 7`)，#mi(`a_{3}+ b_{3}= 21`)，则 #mi(`a_{5}+ b_{5}=\underline{\hspace{2.5em}}{}`).
 ]
 
 #answer([35])
 
 #solution[
-令 $c_n=a_n+b_n$. 两个等差数列对应项相加仍为等差数列，设其公差为 $d$. 由
-$c_1=7$，$c_3=21$
-得 $2 d=c_3-c_1=14$，所以 $d=7$. 因而
+令 #mi(`c_{n}=a_{n}+b_{n}`). 两个等差数列对应项相加仍为等差数列，设其公差为 #mi(`d`). 由
 
-$ c_5=c_1+4 d=7+4 times 7 =35 $
+#mi(`c_{1}=7`)，#mi(`c_{3}=21`)
 
-所以 $a_5+b_5=35$.
+得 #mi(`2d=c_{3}-c_{1}=14`)，所以 #mi(`d=7`). 因而
+
+
+#align(center)[#mitex(`
+c_{5}=c_{1}+4d=7+4\times7=35
+`)]
+
+
+所以 #mi(`a_{5}+b_{5}=35`).
 ]
 
 #problem(13)[
-椭圆 $(x^(2))/(a^(2))+ (y^(2))/(b^(2))= 1$（$a > b > 0$）的左、右顶点分别是 $A$，$B$，左、右焦点分别是 $F_1$，$F_2$. 若 $|A F_1|$，$|F_(1) F_2|$，$|F_(1) B|$ 成等比数列，则此椭圆的离心率为#blank(){}.
+椭圆 #mi(`\frac{x^{2}}{a^{2}}+ \frac{y^{2}}{b^{2}}= 1`)（#mi(`a > b > 0`)）的左、右顶点分别是 #mi(`A`)，#mi(`B`)，左、右焦点分别是 #mi(`F_{1}`)，#mi(`F_{2}`). 若 #mi(`|AF_{1}|`)，#mi(`|F_{1}F_{2}|`)，#mi(`|F_{1}B|`) 成等比数列，则此椭圆的离心率为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(sqrt(5))/(5)$])
+#answer([#mi(`\frac{\sqrt{5}}{5}`)])
 
 #solution[
-设椭圆的半焦距为 $c$，则
-$A=(-a,0)$，$B=(a,0)$，$F_1=(-c,0)$，$F_2=(c,0)$，
-且 $b^2=a^2-c^2$. 因此
-$|A F_1|=a-c$，$|F_(1) F_2|=2 c$，$|F_(1) B|=a+c$.
+设椭圆的半焦距为 #mi(`c`)，则
+
+#mi(`A=(-a,0)`)，#mi(`B=(a,0)`)，#mi(`F_{1}=(-c,0)`)，#mi(`F_{2}=(c,0)`)，
+
+且 #mi(`b^{2}=a^{2}-c^{2}`). 因此
+
+#mi(`|AF_{1}|=a-c`)，#mi(`|F_{1}F_{2}|=2c`)，#mi(`|F_{1}B|=a+c`).
+
 三项成等比数列，故中间项的平方等于两端项的乘积：
 
-$ (2 c)^2=(a-c)(a+c)=a^2-c^2=b^2 $
 
-所以 $a^2=5 c^2$，离心率
+#align(center)[#mitex(`
+(2c)^{2}=(a-c)(a+c)=a^{2}-c^{2}=b^{2}
+`)]
 
-$ e=(c)/(a)=(1)/(sqrt(5))=(sqrt(5))/(5) $
+
+所以 #mi(`a^{2}=5c^{2}`)，离心率
+
+
+#align(center)[#mitex(`
+e=\frac{c}{a}=\frac{1}{\sqrt{5}}=\frac{\sqrt{5}}{5}
+`)]
 ]
 
 #problem(14)[
-如图为某算法的程序框图，则程序运行后输出的结果是#blank(){}.
+如图为某算法的程序框图，则程序运行后输出的结果是\underline{\hspace{2.5em}}.
 
-
-#align(center)[#image("/papers/2012/img/jiangxi_science/q14_flowchart.png", width: 62%)]
+[max width=0.62\linewidth]img/2012/jiangxi_science/q14_flowchart.png
 ]
 
 #answer([3])
 
 #solution[
-按程序框图逐次计算. 初始令 $T=0$，$k=1$，每次将
-$sin (k pi)/(2)- sin ((k-1) pi)/(2)$ 加到 $T$ 中，并在 $k=5$ 后结束循环.
+按程序框图逐次计算. 初始令 #mi(`T=0`)，#mi(`k=1`)，每次将
 
-当 $k=1$，$2$，$3$，$4$，$5$ 时，所比较的两项分别为
-\begin{center}
-\begin{tabular}{c|ccccc}
-$k$ & $1$ & $2$ & $3$ & $4$ & $5$ \\
+#mi(`\sin\dfrac{k\pi}{2}-\sin\dfrac{(k-1)\pi}{2}`) 加到 #mi(`T`) 中，并在 #mi(`k=5`) 后结束循环.
+
+当 #mi(`k=1`)，#mi(`2`)，#mi(`3`)，#mi(`4`)，#mi(`5`) 时，所比较的两项分别为
+
+#mi(`k`) & #mi(`1`) & #mi(`2`) & #mi(`3`) & #mi(`4`) & #mi(`5`) \\
+
 \hline
-$sin (k pi)/(2)$ & $1$ & $0$ & $-1$ & $0$ & $1$ \\
-$sin ((k-1) pi)/(2)$ & $0$ & $1$ & $0$ & $-1$ & $0$
-\end{tabular}
-\end{center}
+
+#mi(`\sin\dfrac{k\pi}{2}`) & #mi(`1`) & #mi(`0`) & #mi(`-1`) & #mi(`0`) & #mi(`1`) \\
+
+#mi(`\sin\dfrac{(k-1)\pi}{2}`) & #mi(`0`) & #mi(`1`) & #mi(`0`) & #mi(`-1`) & #mi(`0`)
+
 因此不等式
-$sin (k pi)/(2)> sin ((k-1) pi)/(2)$
-在 $k=1$，$4$，$5$ 时成立，在 $k=2$，$3$ 时不成立. 满足条件的次数为 $3$，故程序输出 $3$.
+
+#mi(`\sin\dfrac{k\pi}{2}>\sin\dfrac{(k-1)\pi}{2}`)
+
+在 #mi(`k=1`)，#mi(`4`)，#mi(`5`) 时成立，在 #mi(`k=2`)，#mi(`3`) 时不成立. 满足条件的次数为 #mi(`3`)，故程序输出 #mi(`3`).
 ]
 
 #part-header("选做题：填空题")
 
 #problem(15)[
-曲线 $C$ 的直角坐标方程为 $x^(2) + y^(2) - 2 x = 0$，以原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，则曲线 $C$ 的极坐标方程为#blank(){}.
+曲线 #mi(`C`) 的直角坐标方程为 #mi(`x^{2}+ y^{2}- 2x = 0`)，以原点为极点，#mi(`x`) 轴的正半轴为极轴建立极坐标系，则曲线 #mi(`C`) 的极坐标方程为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$rho = 2 cos theta$])
+#answer([#mi(`\rho = 2\cos\theta`)])
 
 #solution[
 由极坐标与直角坐标的关系
-$x= rho cos theta$，$x^2+y^2= rho ""^2$
-将其代入 $x^2+y^2-2 x=0$，得
 
-$ rho ""^2-2 rho cos theta =0 $
+#mi(`x=\rho\cos\theta`)，#mi(`x^{2}+y^{2}=\rho^{2}`)
 
-即 $rho ( rho -2 cos theta )=0$. 原点本身在曲线 $C$ 上，而极坐标方程 $rho =2 cos theta$ 在 $cos theta =0$ 时也包含原点，所以曲线的极坐标方程为
+将其代入 #mi(`x^{2}+y^{2}-2x=0`)，得
 
-$ rho =2 cos theta $
+
+#align(center)[#mitex(`
+\rho^{2}-2\rho\cos\theta=0
+`)]
+
+
+即 #mi(`\rho(\rho-2\cos\theta)=0`). 原点本身在曲线 #mi(`C`) 上，而极坐标方程 #mi(`\rho=2\cos\theta`) 在 #mi(`\cos\theta=0`) 时也包含原点，所以曲线的极坐标方程为
+
+
+#align(center)[#mitex(`
+\rho=2\cos\theta
+`)]
 ]
 
 #problem(16)[
-在实数范围内，不等式 $|2 x - 1| + |2 x + 1| <= 6$ 的解集为#blank(){}.
+在实数范围内，不等式 #mi(`|2x - 1| + |2x + 1| \le 6`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[-(3)/(2), (3)/(2)]$])
+#answer([#mi(`\left[-\frac{3}{2}, \frac{3}{2}\right]`)])
 
 #solution[
-绝对值内的两个一次式分别在 $x= +- (1)/(2)$ 处变号，分三段讨论.
+绝对值内的两个一次式分别在 #mi(`x=\pm\dfrac{1}{2}`) 处变号，分三段讨论.
 
-当 $x <= -(1)/(2)$ 时，
+当 #mi(`x\le-\dfrac{1}{2}`) 时，
 
-$ |2 x-1|+|2 x+1|=(1-2 x)+(-2 x-1)=-4 x $
 
-不等式化为 $-4 x <= 6$，即 $x >= -(3)/(2)$，与本段合并得
-$[-(3)/(2),-(1)/(2)]$.
+#align(center)[#mitex(`
+|2x-1|+|2x+1|=(1-2x)+(-2x-1)=-4x
+`)]
 
-当 $-(1)/(2) <= x <= (1)/(2)$ 时，
 
-$ |2 x-1|+|2 x+1|=(1-2 x)+(2 x+1)=2 <= 6 $
+不等式化为 #mi(`-4x\leqslant6`)，即 #mi(`x\ge-\dfrac{3}{2}`)，与本段合并得
 
-本段所有 $x$ 都满足.
+#mi(`\left[-\dfrac{3}{2},-\dfrac{1}{2}\right]`).
 
-当 $x >= (1)/(2)$ 时，
+当 #mi(`-\dfrac{1}{2}\le x\le\dfrac{1}{2}`) 时，
 
-$ |2 x-1|+|2 x+1|=(2 x-1)+(2 x+1)=4 x $
 
-不等式化为 $4 x <= 6$，即 $x <= (3)/(2)$，与本段合并得
-$[(1)/(2),(3)/(2)]$.
+#align(center)[#mitex(`
+|2x-1|+|2x+1|=(1-2x)+(2x+1)=2\leqslant6
+`)]
+
+
+本段所有 #mi(`x`) 都满足.
+
+当 #mi(`x\ge\dfrac{1}{2}`) 时，
+
+
+#align(center)[#mitex(`
+|2x-1|+|2x+1|=(2x-1)+(2x+1)=4x
+`)]
+
+
+不等式化为 #mi(`4x\leqslant6`)，即 #mi(`x\le\dfrac{3}{2}`)，与本段合并得
+
+#mi(`\left[\dfrac{1}{2},\dfrac{3}{2}\right]`).
 
 合并三段解集，得到
 
-$ [-(3)/(2),(3)/(2)] $
+
+#align(center)[#mitex(`
+\left[-\frac{3}{2},\frac{3}{2}\right]
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-已知数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n) = -(1)/(2)n^(2) + k n$ （其中 $k in NN _(+)$ ），且 $S_(n)$ 的最大值为 8.
+已知数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和 #mi(`S_{n}= -\frac{1}{2}n^{2}+ kn`) （其中 #mi(`k \in \N_{+}`) ），且 #mi(`S_{n}`) 的最大值为 8.
 
-+ (1) 确定常数 $k$，并求 $a_(n)$；
-+ (2) 求数列 $\{(9-2 a_(n))/(2^(n))\}$ 的前 $n$ 项和 $T_(n)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 将 $S_n$ 配方，得
-
-$ S_n=-(1)/(2)(n-k)^2+(k^2)/(2) $
-
-由于 $n\i n b o l d(N)_+$，且 $k\i n b o l d(N)_+$，当 $n=k$ 时取得最大值. 因此
-$(k^2)/(2)=8$，$k=4$.
-由前 $n$ 项和与通项的关系，
-
-$ a_1=S_1=-(1)/(2)+4=(7)/(2) $
-
-当 $n >= 2$ 时，
-
-$ a_n=S_n-S_(n-1) =(-(1)/(2)n^2+4 n) -[-(1)/(2)(n-1)^2+4(n-1)] =(9)/(2)-n $
-+ (2) 记
-
-$ b_n=(9-2 a_n)/(2^n) $
-
-由 $a_1=(7)/(2)$ 得 $b_1=1$；当 $n >= 2$ 时，由 $a_n=(9)/(2)-n$ 得
-
-$ b_n=(9-2((9)/(2)-n))/(2^n)=(n)/(2^(n-1)) $
-
-故 $b_n=(n)/(2^(n-1))$ 对 $n=1$ 也成立，从而
-
-$ T_n=sum_(i=1)^n(i)/(2^(i-1)) $
-
-由有限等比数列求和公式
-
-$ sum_(i=1)^n i r^(i-1) =(sum_(i=1)^n r^i)' =((r-r^(n+1))/(1-r))' =(1-(n+1)r^n+n r^(n+1))/((1-r)^2) $
-
-令 $r=(1)/(2)$，可得
-
-$ T_n =4(1-(n+1)/(2^n)+(n)/(2^(n+1))) =4-(n+2)/(2^(n-1)) $
++ (1)
 ]
 
 #problem(18)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $A = (pi)/(4)$，$b sin ((pi)/(4)+ C) - c sin ((pi)/(4)+ B) = a$.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`). 已知 #mi(`A = \frac{\pi}{4}`)，#mi(`b \sin \left(\frac{\pi}{4}+ C\right) - c \sin \left(\frac{\pi}{4}+ B\right) = a`).
 
-+ (1) 求证： $B - C = (pi)/(2)$；
-+ (2) 若 $a = sqrt(2)$，求 $triangle A B C$ 的面积.
+
++ (1)
 ]
 
 #solution[
-+ (1) 设外接圆半径为 $R$. 由正弦定理，
-$a=2 R sin A$，$b=2 R sin B$，$c=2 R sin C$.
-因 $A=(pi)/(4)$，题设左端为
-
-$ b sin ((pi)/(4)+C) -c sin ((pi)/(4)+B) =(1)/(sqrt(2))[b( cos C+ sin C)-c( cos B+ sin B)] $
-
-代入正弦定理，并利用
-$sin B cos C- sin C cos B= sin (B-C)$，上式化为
-
-$ sqrt(2)R( sin B cos C- sin C cos B) =sqrt(2)R sin (B-C) $
-
-而 $a=2 R sin (pi)/(4)=sqrt(2)R$，所以题设等式给出
-
-$ sin (B-C)=1 $
-
-三角形内角满足 $B>0$、$C>0$、$B+C=(3 pi)/(4)$，故
-
-$ -(3 pi)/(4)<B-C<(3 pi)/(4) $
-
-在此范围内 $sin (B-C)=1$ 只能有
-
-$ B-C=(pi)/(2) $
-+ (2) 由 $B+C=(3 pi)/(4)$ 与 $B-C=(pi)/(2)$，解得
-$B=(5 pi)/(8)$，$C=(pi)/(8)$.
-又 $a=sqrt(2)$，由正弦定理
-
-$ 2 R=(a)/(sin A)=(sqrt(2))/((sqrt(2))/(2))=2 $
-
-所以 $R=1$. 于是
-$b=2 sin (5 pi)/(8)$，$c=2 sin (pi)/(8)$.
-三角形面积为
-
-$ (1)/(2)b c sin A =(1)/(2) dot 4 sin (5 pi)/(8) sin (pi)/(8) dot (sqrt(2))/(2) $
-
-由于 $sin (5 pi)/(8)= sin (3 pi)/(8)$，且
-
-$ sin (3 pi)/(8) sin (pi)/(8)=(cos (pi)/(4)- cos (pi)/(2))/(2)=(sqrt(2))/(4) $
-
-故面积为
-
-$ (1)/(2) dot 4 dot (sqrt(2))/(4) dot (sqrt(2))/(2)=(1)/(2) $
++ (1)
 ]
 
 #problem(19)[
-如图，从 $A_(1)(1,0,0)$，$A_(2)(2,0,0)$，$B_(1)(0,1,0)$，$B_(2)(0,2,0)$，$C_(1)(0,0,1)$，$C_(2)(0,0,2)$ 这6个点中随机选取3个点，将这3个点及原点 $O$ 两两相连构成一个“立体”，记该“立体”的体积为随机变量 $V$ （如果选取的3个点与原点在同一个平面内，此时“立体”的体积 $V = 0$）.
-
-+ (1) 求 $V = 0$ 的概率；
-+ (2) 求 $V$ 的分布列及数学期望 $E(V)$.
+如图，从 #mi(`A_{1}(1,0,0)`)，#mi(`A_{2}(2,0,0)`)，#mi(`B_{1}(0,1,0)`)，#mi(`B_{2}(0,2,0)`)，#mi(`C_{1}(0,0,1)`)，#mi(`C_{2}(0,0,2)`) 这6个点中随机选取3个点，将这3个点及原点 #mi(`O`) 两两相连构成一个“立体”，记该“立体”的体积为随机变量 #mi(`V`) （如果选取的3个点与原点在同一个平面内，此时“立体”的体积 #mi(`V = 0`)）.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2012/img/jiangxi_science/q19_fig1.png", width: 34%)]
+
+
+[max width=0.34\linewidth]img/2012/jiangxi_science/q19_fig1.png
 ]
 
 #solution[
-+ (1) 从 $6$ 个点中任选 $3$ 个点，共有
-
-$ C_6^3=20 $
-
-种等可能的选法. 若 $V\n e q0$，三个所选点必须分别位于 $x$、$y$、$z$ 轴上；每条轴上有 $2$ 个点，故这样的选法有
-
-$ 2 times 2 times 2 =8 $
-
-种. 因此
-
-$ P(V=0)=1-(8)/(20)=(3)/(5) $
-+ (2) 当三个点分别在三条坐标轴上时，设它们到原点的距离分别为 $u$，$v$，$w$，其中 $u$，$v$，$w in \{1,2\}$. 由棱锥体积公式，
-
-$ V=(1)/(6)u v w $
-
-在 $8$ 种等可能的轴上取点方式中，$(u,v,w)$ 的乘积依次按
-$1$，$\ 2$，$\ 2$，$\ 2$，$\ 4$，$\ 4$，$\ 4$，$\ 8$
-出现，所以分布列为
-
-\begin{center}
-\begin{tabular}{c|ccccc}
-$V$ & $0$ & $(1)/(6)$ & $(1)/(3)$ & $(2)/(3)$ & $(4)/(3)$ \\
-\hline
-$P$ & $(3)/(5)$ & $(1)/(20)$ & $(3)/(20)$ & $(3)/(20)$ & $(1)/(20)$
-\end{tabular}
-\end{center}
-
-并且
-
-$ E(V)=0 dot (3)/(5)+(1)/(6) dot (1)/(20)+(1)/(3) dot (3)/(20)+(2)/(3) dot (3)/(20)+(4)/(3) dot (1)/(20)=(1)/(120)+(1)/(20)+(1)/(10)+(1)/(15)=(9)/(40) $
++ (1)
 ]
 
 #problem(20)[
-在三棱柱 $A B C - A_(1)B_(1)C_(1)$ 中，已知 $A B = A C = A A_(1) = sqrt(5)$，$B C = 4$，点 $A_(1)$ 在底面 $A B C$ 的射影是线段 $B C$ 的中点 $O$.
-
-+ (1) 证明：在侧棱 $A A_(1)$ 上存在一点 $E$，使得 $O E bot$ 平面 $B B_(1)C_(1)C$，并求出 $A E$ 的长；
-+ (2) 求平面 $A_(1)B_(1)C$ 与平面 $B B_(1)C_(1)C$ 夹角的余弦值.
+在三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，已知 #mi(`AB = AC = AA_{1}= \sqrt{5}`)，#mi(`BC = 4`)，点 #mi(`A_{1}`) 在底面 #mi(`ABC`) 的射影是线段 #mi(`BC`) 的中点 #mi(`O`).
 
 
++ (1) 
 
-#align(center)[#image("/papers/2012/img/jiangxi_science/q20_fig1.png", width: 42%)]
+
+
+[max width=0.42\linewidth]img/2012/jiangxi_science/q20_fig1.png
 ]
 
 #solution[
-+ (1) 因为 $O$ 是 $B C$ 的中点，所以 $B O=C O=2$. 又 $A B=A C$，故 $A O bot B C$，从而
-
-$ A O=sqrt(A B^2-B O^2)=sqrt(5-4)=1 $
-
-建立空间直角坐标系，取
-$O=(0,0,0)$，$B=(-2,0,0)$，$C=(2,0,0)$，$A=(0,1,0)$.
-由 $A_1$ 在底面上的射影为 $O$，设 $A_1=(0,0,h)$. 由 $A A_1=sqrt(5)$ 得
-$1+h^2=5$，$h=2$.
-棱柱的侧棱向量为
-
-$ arrow(A A_1)=(0,-1,2) $
-
-所以
-$B_1=(-2,-1,2)$，$C_1=(2,-1,2)$.
-平面 $B B_(1) C_(1) C$ 内有两个不共线方向向量
-$arrow(B C)=(4,0,0)$，$arrow(B B_1)=(0,-1,2)$.
-设 $E$ 将 $A A_1$ 按比例 $s$ 内分，即
-$E=A+s a r r o w(A A_1)=(0,1-s,2 s)$，$0 <= s <= 1$.
-因为 $arrow(O E)\c d o t a r r o w(B C)=0$ 恒成立，要使 $O E$ 垂直于该平面，还需
-
-$ arrow(O E)\c d o t a r r o w(B B_1)=(0,1-s,2 s) dot (0,-1,2) =-(1-s)+4 s=0 $
-
-解得 $s=(1)/(5)$，确实属于 $[0,1]$，所以这样的点存在，且
-
-$ A E=s dot A A_1=(1)/(5)sqrt(5)=(sqrt(5))/(5) $
-+ (2) 取平面 $A_(1) B_(1) C$ 内的两个方向向量
-$arrow(A_(1) B_1)=(-2,-1,0)$，$arrow(A_(1) C)=(2,0,-2)$.
-其法向量可取
-
-$ bold(n)_1=arrow(A_(1) B_1)\t i m e s a r r o w(A_(1) C)=(2,-4,2) tilde (1,-2,1) $
-
-平面 $B B_(1) C_(1) C$ 的法向量由
-$arrow(B C)=(4,0,0)$，$arrow(B B_1)=(0,-1,2)$
-给出，可取
-
-$ bold(n)_2=arrow(B C)\t i m e s a r r o w(B B_1)=(0,-8,-4) tilde (0,2,1) $
-
-两平面夹角取锐角，故其余弦为
-
-$ cos phi.alt =(|bold(n)_1\c d o t b o l d(n)_2|)/(|bold(n)_1| |bold(n)_2|)=(|1 dot 0 +(-2) dot 2 +1 dot 1 |)/(sqrt(6)sqrt(5))=(3)/(sqrt(30))=(sqrt(30))/(10) $
++ (1)
 ]
 
 #problem(21)[
-已知三点 $O(0,0)$，$A(-2,1)$，$B(2,1)$，曲线 $C$ 上任意一点 $M(x,y)$ 满足 $|arrow(M A)+ arrow(M B)| = arrow(O M) dot (arrow(O A)+ arrow(O B)) + 2$.
+已知三点 #mi(`O(0,0)`)，#mi(`A(-2,1)`)，#mi(`B(2,1)`)，曲线 #mi(`C`) 上任意一点 #mi(`M(x,y)`) 满足 #mi(`\left|\overrightarrow{MA}+ \overrightarrow{MB}\right| = \overrightarrow{OM}\cdot \left(\overrightarrow{OA}+ \overrightarrow{OB}\right) + 2`).
 
-+ (1) 求曲线 $C$ 的方程；
-+ (2) 动点 $Q(x_0, y_0)$ （$-2 < x_0 < 2$）在曲线 $C$ 上，曲线 $C$ 在点 $Q$ 处的切线为 $l$. 问：是否存在定点 $P(0, t)$ （$t < 0$），使得 $l$ 与 $P A$，$P B$ 都相交，交点分别为 $D$，$E$，且 $triangle Q A B$ 与 $triangle P D E$ 的面积之比是常数？若存在，求 $t$ 的值；若不存在，请说明理由.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由
-$arrow(M A)=(-2-x,1-y)$，$arrow(M B)=(2-x,1-y)$
-得
-
-$ |arrow(M A)+arrow(M B)| =sqrt((-2 x)^2+(2-2 y)^2)=2 sqrt(x^2+(1-y)^2) $
-
-又
-$arrow(O A)+arrow(O B)=(0,2)$，$arrow(O M) dot (arrow(O A)+arrow(O B))=2 y$.
-所以题设方程为
-
-$ 2 sqrt(x^2+(1-y)^2)=2 y+2 $
-
-等式左边非负，故等式成立时 $y+1 >= 0$，可以平方，得
-
-$ x^2+(1-y)^2=(y+1)^2 $
-
-即
-
-$ x^2=4 y $
-
-反之，若 $x^2=4 y$，则 $y >= 0$，代回上式两边均为
-$2(y+1)$，故曲线方程为 $x^2=4 y$.
-+ (2) 设 $Q=(q,(q^2)/(4))$，其中 $-2<q<2$，并记
-$u=(q^2)/(4) in [0,1)$，$P=(0,t)=(0,-w)$，$w>0$.
-抛物线在 $Q$ 处的切线为
-$l$：$y=(q)/(2)x-(q^2)/(4)=(q)/(2)x-u$.
-用参数表示 $D$，$E$：
-$D=P+s(A-P)$，$E=P+r(B-P)$.
-由于 $A=(-2,1)$、$B=(2,1)$，有
-$D=(-2 s,-w+s(1+w))$，$E=(2 r,-w+r(1+w))$.
-将 $D$、$E$ 分别代入切线方程，得到
-$s=(w-u)/(1+w+q)$，$r=(w-u)/(1+w-q)$.
-取 $q$ 足够接近 $0$，可使 $w-u>0$ 且两个分母均为正；若面积之比对所有动点 $Q$ 为常数，则在这段 $q$ 上也必须为常数，此时 $s$，$r>0$.
-三角形 $Q A B$ 和 $P A B$ 的底边都是 $A B=4$，故
-$[Q A B]=2(1-u)$，$[P A B]=2(1+w)$.
-又 $D$、$E$ 分别是从 $P$ 指向 $A$、$B$ 的有向比例为 $s$，$r$ 的点，所以
-
-$ [P D E]=s r[P A B]=2 s r(1+w) $
-
-因此面积之比为
-
-$ R(u)=([Q A B])/([P D E])=((1-u)((1+w)^2-4 u))/((1+w)(w-u)^2) $
-
-若该比值与动点 $Q$ 无关，则上式关于 $u$ 的分子、分母必须成比例. 比较 $u^2$、$u$ 和常数项的系数，分别得到
-$(1+w)R=4$，$(1+w)^2=4 w^2$，$(1+w)^2+4=8 w$.
-因 $w>0$，第二个等式给出 $1+w=2 w$，故 $w=1$，从而
-
-$ t=-w=-1 $
-
-此时
-$s=(1-u)/(2+q)=(2-q)/(4)$，$r=(1-u)/(2-q)=(2+q)/(4)$，
-且 $-2<q<2$ 保证 $0<s$，$r<1$，所以 $l$ 确实分别与线段 $P A$、$P B$ 相交. 代入面积比得
-
-$ R(u)=((1-u) 4(1-u))/(2(1-u)^2)=2 $
-
-因此存在定点 $P(0,-1)$，且面积之比为 $2$.
++ (1)
 ]
 
 #problem(22)[
-若函数 $h(x)$ 满足
-\begin{circlelist}
-\item $h(0)=1$，$h(1)=0$；
-\item 对任意 $a in [0,1]$，有 $h(h(a)) = a$；
-\item 在 $(0,1)$ 上单调递减.
-\end{circlelist}
-则称 $h(x)$ 为补函数. 已知函数 $h(x) = ((1 - x^(p))/(1 + lambda x^(p)))^((1)/(p))$（$lambda > -1$，$p > 0$）.
+若函数 #mi(`h(x)`) 满足
 
-+ (1) 判断函数 $h(x)$ 是否为补函数，并证明你的结论；
-+ (2) 若存在 $m in [0,1]$，使得 $h(m) = m$，称 $m$ 是函数 $h(x)$ 的中介元. 记 $p = (1)/(n)$ （$n in bold(N)_+$）时 $h(x)$ 的中介元为 $x_n$. 且 $S_n = sum_(i=1)^(n) x_i$，若对任意的 $n in bold(N)_+$，都有 $S_n < (1)/(2)$，求 $lambda$ 的取值范围；
-+ (3) 当 $lambda = 0$，$x in (0,1)$ 时，函数 $y = h(x)$ 的图象总在直线 $y = 1 - x$ 的上方，求 $p$ 的取值范围.
+
++ (1) #mi(`h(0)=1`)，#mi(`h(1)=0`)；
++ (2) 对任意 #mi(`a \in [0,1]`)，有 #mi(`h(h(a)) = a`)；
++ (3) 在 #mi(`(0,1)`) 上单调递减.
+
+
+
+则称 #mi(`h(x)`) 为补函数. 已知函数 #mi(`h(x) = \left(\frac{1 - x^{p}}{1 + \lambda x^{p}}\right)^{\frac{1}{p}}`)（#mi(`\lambda > -1`)，#mi(`p > 0`)）.
+
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 对 $x in [0,1]$，有 $1+ lambda x^p>0$，且
-
-$ 0 <= (1-x^p)/(1+ lambda x^p) <= 1 $
-
-其中右侧不等式等价于
-$-(1+ lambda )x^p <= 0$. 因此 $h(x)$ 在 $[0,1]$ 上有定义，且值域包含于 $[0,1]$. 直接代入得
-$h(0)=1$，$h(1)=0$.
-令
-
-$ g(x)=h(x)^p=(1-x^p)/(1+ lambda x^p) $
-
-在 $0<x<1$ 上，
-
-$ g'(x) =-(p(1+ lambda )x^(p-1))/((1+ lambda x^p)^2)<0 $
-
-由于 $p$ 次方根函数递增，$h(x)$ 在 $(0,1)$ 上单调递减.
-
-再令 $y=h(x)$，则
-
-$ y^p=(1-x^p)/(1+ lambda x^p) $
-
-于是
-$1-y^p=((1+ lambda )x^p)/(1+ lambda x^p)$，$1+ lambda y^p=(1+ lambda)/(1+ lambda x^p)$，
-从而
-
-$ (1-y^p)/(1+ lambda y^p)=x^p $
-
-两边取正的 $p$ 次方根，得 $h(y)=x$，即
-
-$ h(h(x))=x $
-
-所以 $h(x)$ 是补函数.
-+ (2) 设 $h(m)=m$，令 $u=m^p$. 由定义有
-
-$ u=(1-u)/(1+ lambda u) $
-
-即
-
-$ lambda u^2+2 u-1=0 $
-
-在 $0 <= u <= 1$ 内的唯一解为
-
-$ u=(1)/(1+sqrt(1+ lambda)) $
-
-记
-
-$ r=(1)/(1+sqrt(1+ lambda)) $
-
-则当 $p=(1)/(n)$ 时，中介元满足
-
-$ x_n=r^n $
-
-从而
-
-$ S_n=sum_(i=1)^(n) r^i $
-
-由于 $0<r<1$，$S_n$ 随 $n$ 增大，且
-
-$ lim_(n -> oo )S_n=(r)/(1-r) $
-
-所有正整数 $n$ 均满足 $S_n<(1)/(2)$，当且仅当
-
-$ (r)/(1-r) <= (1)/(2) $
-
-其中等号时每个有限项仍严格小于极限. 于是 $r <= (1)/(3)$，即
-
-$ (1)/(1+sqrt(1+ lambda)) <= (1)/(3) <=> sqrt(1+ lambda) >= 2 <=> lambda >= 3 $
-
-故 $lambda in [3,+ oo )$.
-+ (3) 当 $lambda =0$ 时，
-
-$ h(x)=(1-x^p)^((1)/(p)) $
-
-因为 $p$ 次方根函数递增，$h(x)>1-x$ 等价于
-
-$ 1-x^p>(1-x)^p $
-
-即
-
-$ x^p+(1-x)^p<1 $
-
-当 $p>1$ 且 $0<x<1$ 时，$x^p<x$、$(1-x)^p<1-x$，所以该不等式成立；当 $0<p<1$ 时两项不等式方向相反，左侧大于 $1$；当 $p=1$ 时左侧等于 $1$. 因此所求范围为
-
-$ p in (1,+ oo ) $
++ (1) 
++ (2)
 ]
 

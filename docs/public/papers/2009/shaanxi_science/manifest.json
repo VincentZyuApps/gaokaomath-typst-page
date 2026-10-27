@@ -1,150 +1,15 @@
 {
+  "title": "2009年普通高等学校招生全国统一考试",
+  "subtitle": "2009年陕西卷（理）",
   "year": "2009",
   "slug": "shaanxi_science",
-  "title": "2009年陕西卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设不等式 $x^{2} - x \\le 0$ 的解集为 $M$，函数 $f\\left(x\\right) = \\ln\\left(1 - |x|\\right)$ 的定义域为 $N$，则 $M \\cap N$ 为（ ）",
+          "body": "设不等式 $x^{2}- x \\le 0$ 的解集为 $M$，函数 $f\\left(x\\right) = \\ln\\left(1 - |x|\\right)$ 的定义域为 $N$，则 $M \\cap N$ 为（ ）",
           "choices": [
             "$\\left[0, 1\\right)$",
             "$\\left(0,1\\right)$",
@@ -152,13 +17,11 @@
             "$\\left(-1,0\\right]$"
           ],
           "answer": "A",
-          "solution": "不等式可化为 $x\\left(x-1\\right)\\leqslant0$，所以 $M=\\left[0,1\\right]$. 由对数函数的定义域条件\r\n$1-|x|>0$，得 $-1<x<1$，即 $N=\\left(-1,1\\right)$. 因此\r\n$M\\cap N=\\left[0,1\\right)$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>不等式可化为 $x\\left(x-1\\right)\\leqslant0$，所以 $M=\\left[0,1\\right]$. 由对数函数的定义域条件</p><p>$1-|x|>0$，得 $-1&#x3C;x&#x3C;1$，即 $N=\\left(-1,1\\right)$. 因此</p><p>$M\\cap N=\\left[0,1\\right)$，故选 A.</p>"
         },
         {
           "num": 2,
-          "body": "已知 $z$ 是纯虚数，$\\frac{z + 2}{1 - \\mathrm{i}}$ 是实数，那么 $z$ 等于（ ）",
+          "body": "已知 $z$ 是纯虚数，$\\frac{z + 2}{1 - \\mathrm{i}}$ 是实数，那么 $z$ 等于（ ）",
           "choices": [
             "$2\\mathrm{i}$",
             "$\\mathrm{i}$",
@@ -166,27 +29,23 @@
             "$-2\\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "设纯虚数 $z=b\\mathrm{i}$，其中 $b\\in\\mathbb{R}$ 且 $b\\ne0$. 则\r\n\n$$\n\\frac{z+2}{1-\\mathrm{i}}=\\frac{2+b\\mathrm{i}}{1-\\mathrm{i}}=\\frac{\\left(2+b\\mathrm{i}\\right)\\left(1+\\mathrm{i}\\right)}{2}=\\frac{2-b+\\left(2+b\\right)\\mathrm{i}}{2}\n$$\n\r\n该数为实数，当且仅当虚部为零，即 $2+b=0$，所以 $b=-2$，从而 $z=-2\\mathrm{i}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设纯虚数 $z=b\\mathrm{i}$，其中 $b\\in\\mathbb{R}$ 且 $b\\ne0$. 则</p>\n$$\n\\frac{z+2}{1-\\mathrm{i}}=\\frac{2+b\\mathrm{i}}{1-\\mathrm{i}}=\\frac{\\left(2+b\\mathrm{i}\\right)\\left(1+\\mathrm{i}\\right)}{2}=\\frac{2-b+\\left(2+b\\right)\\mathrm{i}}{2}\n$$\n<p>该数为实数，当且仅当虚部为零，即 $2+b=0$，所以 $b=-2$，从而 $z=-2\\mathrm{i}$，故选 D.</p>"
         },
         {
           "num": 3,
-          "body": "函数 $f\\left(x\\right) = \\sqrt{2x - 4}$（$x \\ge 4$）的反函数为（ ）",
+          "body": "函数 $f\\left(x\\right) = \\sqrt{2x - 4}$（$x \\ge 4$）的反函数为（ ）",
           "choices": [
-            "$f^{-1}\\left(x\\right) = \\frac{1}{2} x^2 + 2$（$x\\ge 0$）",
-            "$f^{-1}\\left(x\\right) = \\frac{1}{2} x^2 + 2$（$x\\ge 2$）",
-            "$f^{-1}\\left(x\\right) = \\frac{1}{2} x^2 + 4$（$x\\ge 0$）",
-            "$f^{-1}\\left(x\\right) = \\frac{1}{2} x^2 + 4$（$x\\ge 2$）"
+            "$f^{-1}\\left(x\\right) = \\frac{1}{2}x^{2} + 2$（$x\\ge 0$）",
+            "$f^{-1}\\left(x\\right) = \\frac{1}{2}x^{2} + 2$（$x\\ge 2$）",
+            "$f^{-1}\\left(x\\right) = \\frac{1}{2}x^{2} + 4$（$x\\ge 0$）",
+            "$f^{-1}\\left(x\\right) = \\frac{1}{2}x^{2} + 4$（$x\\ge 2$）"
           ],
           "answer": "B",
-          "solution": "令 $y=\\sqrt{2x-4}$，由题设 $x\\geqslant4$，故 $y\\geqslant2$. 两边平方得\r\n$y^{2}=2x-4$，解得 $x=\\frac{1}{2}y^{2}+2$. 因而交换自变量与因变量后，反函数为\r\n$f^{-1}\\left(x\\right)=\\frac{1}{2}x^{2}+2$，其定义域为原函数的值域 $x\\geqslant2$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $y=\\sqrt{2x-4}$，由题设 $x\\geqslant4$，故 $y\\geqslant2$. 两边平方得</p><p>$y^{2}=2x-4$，解得 $x=\\frac{1}{2}y^{2}+2$. 因而交换自变量与因变量后，反函数为</p><p>$f^{-1}\\left(x\\right)=\\frac{1}{2}x^{2}+2$，其定义域为原函数的值域 $x\\geqslant2$，故选 B.</p>"
         },
         {
           "num": 4,
-          "body": "过原点且倾斜角为 $60^{\\circ}$ 的直线被圆 $x^{2} + y^{2} - 4y = 0$ 所截得的弦长为（ ）",
+          "body": "过原点且倾斜角为 $60^{\\circ}$ 的直线被圆 $x^{2}+ y^{2}- 4y = 0$ 所截得的弦长为（ ）",
           "choices": [
             "$\\sqrt{3}$",
             "$2$",
@@ -194,13 +53,11 @@
             "$2\\sqrt{3}$"
           ],
           "answer": "D",
-          "solution": "圆 $x^{2}+y^{2}-4y=0$ 可写为 $x^{2}+\\left(y-2\\right)^{2}=4$，所以圆心为 $C\\left(0,2\\right)$，半径为 $2$. 直线过原点且倾斜角为 $60^{\\circ}$，方程为 $y=\\sqrt{3}x$，即 $\\sqrt{3}x-y=0$. 圆心到直线的距离为\r\n\n$$\nd=\\frac{|\\sqrt{3}\\cdot0-2|}{\\sqrt{3+1}}=1\n$$\n\r\n弦长等于 $2\\sqrt{R^{2}-d^{2}}$，所以弦长为\r\n$2\\sqrt{2^{2}-1^{2}}=2\\sqrt{3}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>圆 $x^{2}+y^{2}-4y=0$ 可写为 $x^{2}+\\left(y-2\\right)^{2}=4$，所以圆心为 $C\\left(0,2\\right)$，半径为 $2$. 直线过原点且倾斜角为 $60^{\\circ}$，方程为 $y=\\sqrt{3}x$，即 $\\sqrt{3}x-y=0$. 圆心到直线的距离为</p>\n$$\nd=\\frac{|\\sqrt{3}\\cdot0-2|}{\\sqrt{3+1}}=1\n$$\n<p>弦长等于 $2\\sqrt{R^{2}-d^{2}}$，所以弦长为</p><p>$2\\sqrt{2^{2}-1^{2}}=2\\sqrt{3}$，故选 D.</p>"
         },
         {
           "num": 5,
-          "body": "若 $3\\sin \\alpha + \\cos \\alpha = 0$，则 $\\frac{1}{\\cos^2\\alpha + \\sin 2\\alpha}$ 的值为（ ）",
+          "body": "若 $3\\sin \\alpha + \\cos \\alpha = 0$，则 $\\frac{1}{\\cos^{2}\\alpha + \\sin 2\\alpha}$ 的值为（ ）",
           "choices": [
             "$\\frac{10}{3}$",
             "$\\frac{5}{3}$",
@@ -208,13 +65,11 @@
             "$-2$"
           ],
           "answer": "A",
-          "solution": "设 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 由 $3s+c=0$ 得 $c=-3s$. 因为 $s^{2}+c^{2}=1$，所以\r\n$10s^{2}=1$，从而 $s^{2}=\\frac{1}{10}$，$c^{2}=\\frac{9}{10}$.\r\n又\r\n$\\sin2\\alpha=2sc=-6s^{2}=-\\frac{3}{5}$，从而\r\n\n$$\n\\cos^{2}\\alpha+\\sin2\\alpha=\\frac{9}{10}-\\frac{3}{5}=\\frac{3}{10}\n$$\n\r\n因此所求值为 $\\frac{1}{\\frac{3}{10}}=\\frac{10}{3}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 由 $3s+c=0$ 得 $c=-3s$. 因为 $s^{2}+c^{2}=1$，所以</p><p>$10s^{2}=1$，从而 $s^{2}=\\frac{1}{10}$，$c^{2}=\\frac{9}{10}$.</p><p>又</p><p>$\\sin2\\alpha=2sc=-6s^{2}=-\\frac{3}{5}$，从而</p>\n$$\n\\cos^{2}\\alpha+\\sin2\\alpha=\\frac{9}{10}-\\frac{3}{5}=\\frac{3}{10}\n$$\n<p>因此所求值为 $\\frac{1}{\\frac{3}{10}}=\\frac{10}{3}$，故选 A.</p>"
         },
         {
           "num": 6,
-          "body": "若 $\\left(1-2x\\right)^{2009}=a_{0}+a_{1}x+\\cdots+a_{2009}x^{2009}$ （$x\\in \\mathbb{R}$），则 $\\frac{a_{1}}{2}+\\frac{a_{2}}{2^{2}}+\\cdots+\\frac{a_{2009}}{2^{2009}}$（ ）",
+          "body": "若 $\\left(1-2x\\right)^{2009}=a_{0}+a_{1}x+\\cdots+a_{2009}x^{2009}$ （$x\\in \\mathbb{R}$），则 $\\frac{a_{1}}{2}+\\frac{a_{2}}{2^{2}}+\\cdots+\\frac{a_{2009}}{2^{2009}}$（ ）",
           "choices": [
             "$2$",
             "$0$",
@@ -222,13 +77,11 @@
             "$-2$"
           ],
           "answer": "C",
-          "solution": "在等式\r\n$\\left(1-2x\\right)^{2009}=a_{0}+a_{1}x+\\cdots+a_{2009}x^{2009}$\r\n中令 $x=\\frac{1}{2}$，左边为零，因此\r\n\n$$\n0=a_{0}+\\frac{a_{1}}{2}+\\frac{a_{2}}{2^{2}}+\\cdots+\\frac{a_{2009}}{2^{2009}}\n$$\n\r\n令 $x=0$ 得 $a_{0}=1$，所以\r\n\n$$\n\\frac{a_{1}}{2}+\\frac{a_{2}}{2^{2}}+\\cdots+\\frac{a_{2009}}{2^{2009}}=-1\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在等式</p><p>$\\left(1-2x\\right)^{2009}=a_{0}+a_{1}x+\\cdots+a_{2009}x^{2009}$</p><p>中令 $x=\\frac{1}{2}$，左边为零，因此</p>\n$$\n0=a_{0}+\\frac{a_{1}}{2}+\\frac{a_{2}}{2^{2}}+\\cdots+\\frac{a_{2009}}{2^{2009}}\n$$\n<p>令 $x=0$ 得 $a_{0}=1$，所以</p>\n$$\n\\frac{a_{1}}{2}+\\frac{a_{2}}{2^{2}}+\\cdots+\\frac{a_{2009}}{2^{2009}}=-1\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 7,
-          "body": "“ $m > n > 0$ ”是“方程 $mx^{2} + ny^{2} = 1$ 表示焦点在 $y$ 轴上的椭圆”的（ ）",
+          "body": "“ $m > n > 0$ ”是“方程 $mx^{2}+ ny^{2}= 1$ 表示焦点在 $y$ 轴上的椭圆”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -236,13 +89,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "若 $m>n>0$，则\r\n\n$$\nmx^{2}+ny^{2}=1 \\Longleftrightarrow \r\n\\frac{x^{2}}{\\frac{1}{m}}+\\frac{y^{2}}{\\frac{1}{n}}=1\n$$\n\r\n这是椭圆，且其半长轴在 $y$ 轴上，因为 $\\frac{1}{\\sqrt{n}}>\\frac{1}{\\sqrt{m}}$，所以焦点在 $y$ 轴上，故该条件是充分的.\r\n\r\n反之，若该方程表示焦点在 $y$ 轴上的椭圆，则必须有 $m>0$、$n>0$，且 $y$ 轴方向的半轴较长，即\r\n$\\frac{1}{\\sqrt{n}}>\\frac{1}{\\sqrt{m}}$，从而 $m>n$. 因此 $m>n>0$ 是充要条件，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若 $m>n>0$，则</p>\n$$\nmx^{2}+ny^{2}=1 \\Longleftrightarrow   \\frac{x^{2}}{\\frac{1}{m}}+\\frac{y^{2}}{\\frac{1}{n}}=1\n$$\n<p>这是椭圆，且其半长轴在 $y$ 轴上，因为 $\\frac{1}{\\sqrt{n}}>\\frac{1}{\\sqrt{m}}$，所以焦点在 $y$ 轴上，故该条件是充分的.</p><p>反之，若该方程表示焦点在 $y$ 轴上的椭圆，则必须有 $m>0$、$n>0$，且 $y$ 轴方向的半轴较长，即</p><p>$\\frac{1}{\\sqrt{n}}>\\frac{1}{\\sqrt{m}}$，从而 $m>n$. 因此 $m>n>0$ 是充要条件，故选 C.</p>"
         },
         {
           "num": 8,
-          "body": "在 $\\triangle ABC$ 中，$M$ 是 $BC$ 的中点，$AM = 1$，点 $P$ 在 $AM$ 上且满足 $\\overrightarrow{AP} = 2\\overrightarrow{PM}$，则 $\\overrightarrow{PA} \\cdot \\left(\\overrightarrow{PB} + \\overrightarrow{PC}\\right)$ 等于（ ）",
+          "body": "在 $\\triangle ABC$ 中，$M$ 是 $BC$ 的中点，$AM = 1$，点 $P$ 在 $AM$ 上且满足 $\\overrightarrow{AP}= 2\\overrightarrow{PM}$，则 $\\overrightarrow{PA}\\cdot \\left(\\overrightarrow{PB}+ \\overrightarrow{PC}\\right)$ 等于（ ）",
           "choices": [
             "$-\\frac{4}{9}$",
             "$-\\frac{4}{3}$",
@@ -250,13 +101,11 @@
             "$\\frac{4}{9}$"
           ],
           "answer": "A",
-          "solution": "取 $A$ 为原点，设 $\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{c}$，则\r\n$\\overrightarrow{AM}=\\frac{1}{2}\\left(\\mathbf{b}+\\mathbf{c}\\right)$. 设\r\n$\\overrightarrow{AP}=t\\overrightarrow{AM}$，则\r\n$\\overrightarrow{PM}=\\left(1-t\\right)\\overrightarrow{AM}$. 由\r\n$\\overrightarrow{AP}=2\\overrightarrow{PM}$ 得 $t=2\\left(1-t\\right)$，所以 $t=\\frac{2}{3}$.\r\n\r\n于是\r\n\n$$\n\\overrightarrow{PA}=-\\frac{2}{3}\\overrightarrow{AM}\n$$\n\r\n且\r\n\n$$\n\\overrightarrow{PB}+\\overrightarrow{PC}\r\n=\\mathbf{b}+\\mathbf{c}-\\frac{4}{3}\\overrightarrow{AM}=2\\overrightarrow{AM}-\\frac{4}{3}\\overrightarrow{AM}=\\frac{2}{3}\\overrightarrow{AM}\n$$\n\r\n因此\r\n\n$$\n\\overrightarrow{PA}\\cdot\\left(\\overrightarrow{PB}+\\overrightarrow{PC}\\right)\r\n=-\\frac{4}{9}|\\overrightarrow{AM}|^{2}=-\\frac{4}{9}\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>取 $A$ 为原点，设 $\\overrightarrow{AB}=\\mathbf{b}$，$\\overrightarrow{AC}=\\mathbf{c}$，则</p><p>$\\overrightarrow{AM}=\\frac{1}{2}\\left(\\mathbf{b}+\\mathbf{c}\\right)$. 设</p><p>$\\overrightarrow{AP}=t\\overrightarrow{AM}$，则</p><p>$\\overrightarrow{PM}=\\left(1-t\\right)\\overrightarrow{AM}$. 由</p><p>$\\overrightarrow{AP}=2\\overrightarrow{PM}$ 得 $t=2\\left(1-t\\right)$，所以 $t=\\frac{2}{3}$.</p><p>于是</p>\n$$\n\\overrightarrow{PA}=-\\frac{2}{3}\\overrightarrow{AM}\n$$\n<p>且</p>\n$$\n\\overrightarrow{PB}+\\overrightarrow{PC}=\\mathbf{b}+\\mathbf{c}-\\frac{4}{3}\\overrightarrow{AM}=2\\overrightarrow{AM}-\\frac{4}{3}\\overrightarrow{AM}=\\frac{2}{3}\\overrightarrow{AM}\n$$\n<p>因此</p>\n$$\n\\overrightarrow{PA}\\cdot\\left(\\overrightarrow{PB}+\\overrightarrow{PC}\\right)  =-\\frac{4}{9}|\\overrightarrow{AM}|^{2}=-\\frac{4}{9}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 9,
-          "body": "从 $0$，$1$，$2$，$3$，$4$，$5$ 这六个数中任取两个奇数和两个偶数，组成没有重复数字的四位数的个数为（ ）",
+          "body": "从 $0$，$1$，$2$，$3$，$4$，$5$ 这六个数中任取两个奇数和两个偶数，组成没有重复数字的四位数的个数为（ ）",
           "choices": [
             "$300$",
             "$216$",
@@ -264,13 +113,11 @@
             "$162$"
           ],
           "answer": "C",
-          "solution": "奇数有 $1$，$3$，$5$，偶数有 $0$，$2$，$4$. 先分所取的四个数字是否包含零.\r\n\r\n若不含零，两个偶数只能取 $2,4$，两个奇数有 $\\mathrm C_{3}^{2}=3$ 种取法；每组数字可排列成 $4!=24$ 个四位数，共有\r\n$3\\times24=72$ 个.\r\n\r\n若含零，另一个偶数有 $2$ 种取法，两个奇数有 $\\mathrm C_{3}^{2}=3$ 种取法. 对每组数字，四个数字全排列有 $4!$ 种，其中以零开头的有 $3!$ 种，所以合法四位数有 $4!-3!=18$ 个，共有\r\n$2\\times3\\times18=108$ 个.\r\n\r\n故总数为 $72+108=180$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>奇数有 $1$，$3$，$5$，偶数有 $0$，$2$，$4$. 先分所取的四个数字是否包含零.</p><p>若不含零，两个偶数只能取 $2,4$，两个奇数有 $\\mathrm{C}_{3}^{2}=3$ 种取法；每组数字可排列成 $4!=24$ 个四位数，共有</p><p>$3\\times24=72$ 个.</p><p>若含零，另一个偶数有 $2$ 种取法，两个奇数有 $\\mathrm{C}_{3}^{2}=3$ 种取法. 对每组数字，四个数字全排列有 $4!$ 种，其中以零开头的有 $3!$ 种，所以合法四位数有 $4!-3!=18$ 个，共有</p><p>$2\\times3\\times18=108$ 个.</p><p>故总数为 $72+108=180$，故选 C.</p>"
         },
         {
           "num": 10,
-          "body": "若正方体的棱长为 $\\sqrt{2}$，则以该正方体各个面的中心为顶点的凸多面体的体积为（ ）",
+          "body": "若正方体的棱长为 $\\sqrt{2}$，则以该正方体各个面的中心为顶点的凸多面体的体积为（ ）",
           "choices": [
             "$\\frac{\\sqrt{2}}{6}$",
             "$\\frac{\\sqrt{2}}{3}$",
@@ -278,13 +125,11 @@
             "$\\frac{2}{3}$"
           ],
           "answer": "B",
-          "solution": "设正方体中心为坐标原点，棱长为 $\\sqrt{2}$. 六个面的中心为\r\n$\\left(\\pm\\frac{1}{\\sqrt{2}},0,0\\right)$、$\\left(0,\\pm\\frac{1}{\\sqrt{2}},0\\right)$、$\\left(0,0,\\pm\\frac{1}{\\sqrt{2}}\\right)$，它们构成一个正八面体. 相邻顶点间的距离为 $1$，所以每个三角形面是边长为 $1$ 的正三角形，面积为 $\\frac{\\sqrt{3}}{4}$.\r\n\r\n以正方体中心为顶点，正八面体的八个面为底面分成八个全等三棱锥. 每个三棱锥的高是坐标原点到平面 $x+y+z=\\frac{1}{\\sqrt{2}}$ 的距离，即 $\\frac{1}{\\sqrt{6}}$. 因而总体积为\r\n\n$$\n8\\times\\frac{1}{3}\\times\\frac{\\sqrt{3}}{4}\\times\\frac{1}{\\sqrt{6}}=\\frac{\\sqrt{2}}{3}\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正方体中心为坐标原点，棱长为 $\\sqrt{2}$. 六个面的中心为</p><p>$\\left(\\pm\\frac{1}{\\sqrt{2}},0,0\\right)$、$\\left(0,\\pm\\frac{1}{\\sqrt{2}},0\\right)$、$\\left(0,0,\\pm\\frac{1}{\\sqrt{2}}\\right)$，它们构成一个正八面体. 相邻顶点间的距离为 $1$，所以每个三角形面是边长为 $1$ 的正三角形，面积为 $\\frac{\\sqrt{3}}{4}$.</p><p>以正方体中心为顶点，正八面体的八个面为底面分成八个全等三棱锥. 每个三棱锥的高是坐标原点到平面 $x+y+z=\\frac{1}{\\sqrt{2}}$ 的距离，即 $\\frac{1}{\\sqrt{6}}$. 因而总体积为</p>\n$$\n8\\times\\frac{1}{3}\\times\\frac{\\sqrt{3}}{4}\\times\\frac{1}{\\sqrt{6}}=\\frac{\\sqrt{2}}{3}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 11,
-          "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx + y \\ge 1,\\\\\r\nx - y \\ge -1,\\\\\r\n2x - y \\le 2,\r\n\\end{cases}$ 目标函数 $z = ax + 2y$ 仅在点 $\\left(1,0\\right)$ 处取得最小值，则 $a$ 的取值范围是（ ）",
+          "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}x + y \\ge 1,\\\\  x - y \\ge -1,\\\\  2x - y \\le 2,\\end{cases}$ 目标函数 $z = ax + 2y$ 仅在点 $\\left(1,0\\right)$ 处取得最小值，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$\\left(-1, 2\\right)$",
             "$\\left(-4, 2\\right)$",
@@ -292,23 +137,19 @@
             "$\\left(-2, 4\\right)$"
           ],
           "answer": "B",
-          "solution": "三条边界直线分别为 $y=1-x$、$y=x+1$、$y=2x-2$. 它们的交点为 $(0,1)$、$(1,0)$、$(3,4)$，且三个交点均满足约束条件，所以可行域是以这三点为顶点的三角形.\r\n\r\n线性目标函数在该三角形的顶点处取得最小值. 在三个顶点处，目标函数值分别为 $z(0,1)=2$、$z(1,0)=a$、$z(3,4)=3a+8$. 要使 $(1,0)$ 为唯一最小值，必须且只需满足 $a<2$ 且 $a<3a+8$.\r\n这等价于 $-4<a<2$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>三条边界直线分别为 $y=1-x$、$y=x+1$、$y=2x-2$. 它们的交点为 $(0,1)$、$(1,0)$、$(3,4)$，且三个交点均满足约束条件，所以可行域是以这三点为顶点的三角形.</p><p>线性目标函数在该三角形的顶点处取得最小值. 在三个顶点处，目标函数值分别为 $z(0,1)=2$、$z(1,0)=a$、$z(3,4)=3a+8$. 要使 $(1,0)$ 为唯一最小值，必须且只需满足 $a&#x3C;2$ 且 $a&#x3C;3a+8$.</p><p>这等价于 $-4&#x3C;a&#x3C;2$，故选 B.</p>"
         },
         {
           "num": 12,
-          "body": "定义在 $\\mathbb{R}$ 上的偶函数 $f\\left(x\\right)$ 满足：对任意的 $x_{1}, x_{2} \\in \\left(-\\infty, 0\\right]$ （$x_{1} \\neq x_{2}$），有 $\\left(x_{2} - x_{1}\\right)\\left(f\\left(x_{2}\\right) - f\\left(x_{1}\\right)\\right) > 0$. 则当 $n \\in \\mathbb{N}^{*}$ 时，有（ ）",
+          "body": "定义在 $\\mathbb{R}$ 上的偶函数 $f\\left(x\\right)$ 满足：对任意的 $x_{1}, x_{2}\\in \\left(-\\infty, 0\\right]$ （$x_{1}\\neq x_{2}$），有 $\\left(x_{2}- x_{1}\\right)\\left(f\\left(x_{2}\\right) - f\\left(x_{1}\\right)\\right) > 0$. 则当 $n \\in \\mathbb{N}^{*}$ 时，有（ ）",
           "choices": [
-            "$f\\left(-n\\right) < f\\left(n - 1\\right) < f\\left(n + 1\\right)$",
-            "$f\\left(n - 1\\right) < f\\left(-n\\right) < f\\left(n + 1\\right)$",
-            "$f\\left(n + 1\\right) < f\\left(-n\\right) < f\\left(n - 1\\right)$",
-            "$f\\left(n + 1\\right) < f\\left(n - 1\\right) < f\\left(-n\\right)$"
+            "$f\\left(-n\\right) &#x3C; f\\left(n - 1\\right) &#x3C; f\\left(n + 1\\right)$",
+            "$f\\left(n - 1\\right) &#x3C; f\\left(-n\\right) &#x3C; f\\left(n + 1\\right)$",
+            "$f\\left(n + 1\\right) &#x3C; f\\left(-n\\right) &#x3C; f\\left(n - 1\\right)$",
+            "$f\\left(n + 1\\right) &#x3C; f\\left(n - 1\\right) &#x3C; f\\left(-n\\right)$"
           ],
           "answer": "C",
-          "solution": "条件\r\n$\\left(x_{2}-x_{1}\\right)\\left(f\\left(x_{2}\\right)-f\\left(x_{1}\\right)\\right)>0$\r\n说明当 $x_{1}<x_{2}\\leqslant0$ 时，有 $f\\left(x_{1}\\right)<f\\left(x_{2}\\right)$，所以 $f$ 在 $\\left(-\\infty,0\\right]$ 上严格递增.\r\n\r\n对 $n\\in\\mathbb{N}^{*}$，有\r\n\n$$\n-(n+1)<-n<-(n-1)\\leqslant0\n$$\n\r\n因此\r\n\n$$\nf\\left(-(n+1)\\right)<f\\left(-n\\right)<f\\left(-(n-1)\\right)\n$$\n\r\n又因为 $f$ 是偶函数，$f\\left(-k\\right)=f\\left(k\\right)$，所以\r\n\n$$\nf\\left(n+1\\right)<f\\left(-n\\right)<f\\left(n-1\\right)\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>条件</p><p>$\\left(x_{2}-x_{1}\\right)\\left(f\\left(x_{2}\\right)-f\\left(x_{1}\\right)\\right)>0$</p><p>说明当 $x_{1}&#x3C;x_{2}\\leqslant0$ 时，有 $f\\left(x_{1}\\right)&#x3C;f\\left(x_{2}\\right)$，所以 $f$ 在 $\\left(-\\infty,0\\right]$ 上严格递增.</p><p>对 $n\\in\\mathbb{N}^{*}$，有</p>\n$$\n-(n+1)&#x3C;-n&#x3C;-(n-1)\\leqslant0\n$$\n<p>因此</p>\n$$\nf\\left(-(n+1)\\right)&#x3C;f\\left(-n\\right)&#x3C;f\\left(-(n-1)\\right)\n$$\n<p>又因为 $f$ 是偶函数，$f\\left(-k\\right)=f\\left(k\\right)$，所以</p>\n$$\nf\\left(n+1\\right)&#x3C;f\\left(-n\\right)&#x3C;f\\left(n-1\\right)\n$$\n<p>故选 C.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，若 $a_{6} = S_{3} = 12$，则 $\\displaystyle\\lim_{n\\to \\infty}\\frac{S_n}{n^2} =$ _______ {}",
-          "choices": [],
-          "answer": "\\(1\\)",
-          "solution": "设等差数列首项为 $a_{1}$，公差为 $d$. 由条件\r\n$a_{1}+5d=a_{6}=12$，$S_{3}=\\frac{3}{2}\\left(2a_{1}+2d\\right)=3\\left(a_{1}+d\\right)=12$.\r\n所以 $a_{1}+d=4$，与 $a_{1}+5d=12$ 相减得 $d=2$，进而 $a_{1}=2$. 因此\r\n\n$$\nS_{n}=\\frac{n}{2}\\left(2a_{1}+(n-1)d\\right)=\\frac{n}{2}\\left(4+2n-2\\right)=n(n+1)\n$$\n\r\n于是\r\n\n$$\n\\lim_{n\\to\\infty}\\frac{S_{n}}{n^{2}}=\\lim_{n\\to\\infty}\\frac{n+1}{n}=1\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，若 $a_{6}= S_{3}= 12$，则 $\\displaystyle\\lim_{n\\to \\infty}\\frac{S_{n}}{n^{2}}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>",
+          "choices": null,
+          "answer": "$1$",
+          "solution": "<p>设等差数列首项为 $a_{1}$，公差为 $d$. 由条件</p><p>$a_{1}+5d=a_{6}=12$，$S_{3}=\\frac{3}{2}\\left(2a_{1}+2d\\right)=3\\left(a_{1}+d\\right)=12$.</p><p>所以 $a_{1}+d=4$，与 $a_{1}+5d=12$ 相减得 $d=2$，进而 $a_{1}=2$. 因此</p>\n$$\nS_{n}=\\frac{n}{2}\\left(2a_{1}+(n-1)d\\right)=\\frac{n}{2}\\left(4+2n-2\\right)=n(n+1)\n$$\n<p>于是</p>\n$$\n\\lim_{n\\to\\infty}\\frac{S_{n}}{n^{2}}=\\lim_{n\\to\\infty}\\frac{n+1}{n}=1\n$$"
         },
         {
           "num": 14,
-          "body": "某班有 $36$ 名同学参加数学，物理，化学课外探究小组，每名同学至多参加两个小组，已知参加数学，物理，化学小组的人数分别为 $26$，$15$，$13$，同时参加数学和物理小组的有 $6$ 人，同时参加物理和化学小组的有 $4$ 人，同时参加数学和化学小组的有 _______ {}人.",
-          "choices": [],
-          "answer": "\\(8\\)",
-          "solution": "设三个小组分别为集合 $M$、$P$、$C$. 每名同学至多参加两个小组，所以 $M\\cap P\\cap C=\\varnothing$. 由容斥原理，参加至少一个小组的同学数为\r\n\n$$\n|M\\cup P\\cup C|=|M|+|P|+|C|-|M\\cap P|-|P\\cap C|-|M\\cap C|\n$$\n\r\n代入题给数据，得\r\n\n$$\n36=26+15+13-6-4-|M\\cap C|\n$$\n\r\n所以 $|M\\cap C|=8$. 因而填 $8$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某班有 $36$ 名同学参加数学，物理，化学课外探究小组，每名同学至多参加两个小组，已知参加数学，物理，化学小组的人数分别为 $26$，$15$，$13$，同时参加数学和物理小组的有 $6$ 人，同时参加物理和化学小组的有 $4$ 人，同时参加数学和化学小组的有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>人.",
+          "choices": null,
+          "answer": "$8$",
+          "solution": "<p>设三个小组分别为集合 $M$、$P$、$C$. 每名同学至多参加两个小组，所以 $M\\cap P\\cap C=\\varnothing$. 由容斥原理，参加至少一个小组的同学数为</p>\n$$\n|M\\cup P\\cup C|=|M|+|P|+|C|-|M\\cap P|-|P\\cap C|-|M\\cap C|\n$$\n<p>代入题给数据，得</p>\n$$\n36=26+15+13-6-4-|M\\cap C|\n$$\n<p>所以 $|M\\cap C|=8$. 因而填 $8$.</p>"
         },
         {
           "num": 15,
-          "body": "如图球 $O$ 的半径为 $2$，圆 $O_{1}$ 是一小圆，$O_{1}O = \\sqrt{2}$，$A$，$B$ 是圆 $O_{1}$ 上两点. 若 $A$，$B$ 两点间的球面距离为 $\\frac{2\\pi}{3}$，则 $\\angle AO_{1}B = _______ {}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shaanxi_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac{\\pi}{2}\\)",
-          "solution": "设小圆 $O_{1}$ 的半径为 $r$. 由于小圆是球面与其所在平面的交圆，$OO_{1}$ 垂直于该平面，所以在直角三角形 $OO_{1}A$ 中\r\n\n$$\nr^{2}=O_{1}A^{2}=OA^{2}-OO_{1}^{2}=2^{2}-\\left(\\sqrt{2}\\right)^{2}=2\n$$\n\r\n即 $r=\\sqrt{2}$.\r\n\r\n球半径为 $2$，而 $A$，$B$ 间的球面距离为 $\\frac{2\\pi}{3}$，故对应的球心角满足\r\n\n$$\n\\angle AOB=\\frac{2\\frac{\\pi}{3}}{2}=\\frac{\\pi}{3}\n$$\n\r\n所以弦长\r\n\n$$\nAB=2\\cdot2\\sin\\frac{\\angle AOB}{2}=4\\sin\\frac{\\pi}{6}=2\n$$\n\r\n在圆 $O_{1}$ 中，设 $\\theta=\\angle AO_{1}B$，则\r\n\n$$\nAB=2r\\sin\\frac{\\theta}{2}=2\\sqrt{2}\\sin\\frac{\\theta}{2}\n$$\n\r\n因此 $\\sin\\frac{\\theta}{2}=\\frac{1}{\\sqrt{2}}$. 由于 $0\\le\\theta\\le\\pi$，得 $\\theta=\\frac{\\pi}{2}$，故填 $\\frac{\\pi}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图球 $O$ 的半径为 $2$，圆 $O_{1}$ 是一小圆，$O_{1}O = \\sqrt{2}$，$A$，$B$ 是圆 $O_{1}$ 上两点. 若 $A$，$B$ 两点间的球面距离为 $\\frac{2\\pi}{3}$，则 $\\angle AO_{1}B =\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{\\pi}{2}$",
+          "solution": "<p>设小圆 $O_{1}$ 的半径为 $r$. 由于小圆是球面与其所在平面的交圆，$OO_{1}$ 垂直于该平面，所以在直角三角形 $OO_{1}A$ 中</p>\n$$\nr^{2}=O_{1}A^{2}=OA^{2}-OO_{1}^{2}=2^{2}-\\left(\\sqrt{2}\\right)^{2}=2\n$$\n<p>即 $r=\\sqrt{2}$.</p><p>球半径为 $2$，而 $A$，$B$ 间的球面距离为 $\\frac{2\\pi}{3}$，故对应的球心角满足</p>\n$$\n\\angle AOB=\\frac{2\\frac{\\pi}{3}}{2}=\\frac{\\pi}{3}\n$$\n<p>所以弦长</p>\n$$\nAB=2\\cdot2\\sin\\frac{\\angle AOB}{2}=4\\sin\\frac{\\pi}{6}=2\n$$\n<p>在圆 $O_{1}$ 中，设 $\\theta=\\angle AO_{1}B$，则</p>\n$$\nAB=2r\\sin\\frac{\\theta}{2}=2\\sqrt{2}\\sin\\frac{\\theta}{2}\n$$\n<p>因此 $\\sin\\frac{\\theta}{2}=\\frac{1}{\\sqrt{2}}$. 由于 $0\\le\\theta\\le\\pi$，得 $\\theta=\\frac{\\pi}{2}$，故填 $\\frac{\\pi}{2}$.</p>"
         },
         {
           "num": 16,
-          "body": "设曲线 $y = x^{n + 1}$（$n \\in \\mathbb{N}^*$）在点 $\\left(1,1\\right)$ 处的切线与 $x$ 轴的交点的横坐标为 $x_n$. 令 $a_n = \\lg x_n$，则 $a_1 + a_2 + \\dots + a_{99}$ 的值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(-2\\)",
-          "solution": "曲线 $y=x^{n+1}$ 在 $\\left(1,1\\right)$ 处的导数为\r\n$y'=(n+1)x^{n}$，故 $y'\\big|_{x=1}=n+1$.\r\n所以切线方程为\r\n\n$$\ny-1=(n+1)\\left(x-1\\right)\n$$\n\r\n即 $y=(n+1)x-n$. 令 $y=0$，得切线与 $x$ 轴交点的横坐标\r\n\n$$\nx_{n}=\\frac{n}{n+1}\n$$\n\r\n于是\r\n\n$$\na_{1}+a_{2}+\\cdots+a_{99}\r\n=\\lg\\frac{1}{2}+\\lg\\frac{2}{3}+\\cdots+\\lg\\frac{99}{100}\r\n=\\lg\\frac{1}{100}=-2\n$$\n\r\n故填 $-2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设曲线 $y = x^{n + 1}$（$n \\in \\mathbb{N}^{*}$）在点 $\\left(1,1\\right)$ 处的切线与 $x$ 轴的交点的横坐标为 $x_{n}$. 令 $a_{n} = \\lg x_{n}$，则 $a_{1} + a_{2} + \\dots + a_{99}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-2$",
+          "solution": "<p>曲线 $y=x^{n+1}$ 在 $\\left(1,1\\right)$ 处的导数为</p><p>$y'=(n+1)x^{n}$，故 $y'\\big|_{x=1}=n+1$.</p><p>所以切线方程为</p>\n$$\ny-1=(n+1)\\left(x-1\\right)\n$$\n<p>即 $y=(n+1)x-n$. 令 $y=0$，得切线与 $x$ 轴交点的横坐标</p>\n$$\nx_{n}=\\frac{n}{n+1}\n$$\n<p>于是</p>\n$$\na_{1}+a_{2}+\\cdots+a_{99}=\\lg\\frac{1}{2}+\\lg\\frac{2}{3}+\\cdots+\\lg\\frac{99}{100}=\\lg\\frac{1}{100}=-2\n$$\n<p>故填 $-2$.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知函数 $f\\left(x\\right) = A \\sin\\left(\\omega x + \\varphi\\right)$，$x \\in \\mathbb{R}$ （其中 $A > 0$，$\\omega > 0$，$0 < \\varphi < \\frac{\\pi}{2}$）的图象与 $x$ 轴的交点中，相邻两个交点之间的距离为 $\\frac{\\pi}{2}$，且图象上一个最低点为 $M\\left(\\frac{2\\pi}{3}, -2\\right)$.\r\n\r\n\n(1) 求 $f\\left(x\\right)$ 的解析式；\n\n(2) 当 $x \\in \\left[\\frac{\\pi}{12}, \\frac{\\pi}{2}\\right]$，求 $f\\left(x\\right)$ 的值域.",
-          "choices": [],
+          "body": "<p>已知函数 $f\\left(x\\right) = A \\sin\\left(\\omega x + \\varphi\\right)$，$x \\in \\mathbb{R}$ （其中 $A > 0$，$\\omega > 0$，$0 &#x3C; \\varphi &#x3C; \\frac{\\pi}{2}$）的图象与 $x$ 轴的交点中，相邻两个交点之间的距离为 $\\frac{\\pi}{2}$，且图象上一个最低点为 $M\\left(\\frac{2\\pi}{3}, -2\\right)$.</p><ol class=\"enumerate\"><li><p>求 $f\\left(x\\right)$ 的解析式；</p></li><li><p>当 $x \\in \\left[\\frac{\\pi}{12}, \\frac{\\pi}{2}\\right]$，求 $f\\left(x\\right)$ 的值域.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 函数图象与 $x$ 轴的交点满足 $\\sin\\left(\\omega x+\\varphi\\right)=0$，相邻两个交点对应的相位相差 $\\pi$，所以相邻交点的横坐标之差满足 $\\omega\\cdot\\frac{\\pi}{2}=\\pi$，从而 $\\omega=2$. 由最低点的纵坐标为 $-2$，得振幅 $A=2$. 当 $x=\\frac{2\\pi}{3}$ 时函数取得最小值，因此 $2\\cdot\\frac{2\\pi}{3}+\\varphi=\\frac{3\\pi}{2}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 于是 $\\varphi=\\frac{\\pi}{6}+2k\\pi$，结合 $0<\\varphi<\\frac{\\pi}{2}$ 得 $\\varphi=\\frac{\\pi}{6}$，所以 $f\\left(x\\right)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)$.\n\n(2) 令 $t=2x+\\frac{\\pi}{6}$，则当 $x\\in\\left[\\frac{\\pi}{12},\\frac{\\pi}{2}\\right]$ 时，$t\\in\\left[\\frac{\\pi}{3},\\frac{7\\pi}{6}\\right]$. 在此区间内，$\\sin t$ 在 $t=\\frac{\\pi}{2}$ 处取得最大值 $1$，在右端点 $t=\\frac{7\\pi}{6}$ 处取得最小值 $-\\frac{1}{2}$. 因而 $f\\left(x\\right)=2\\sin t$ 的值域为 $\\left[-1,2\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>函数图象与 $x$ 轴的交点满足 $\\sin\\left(\\omega x+\\varphi\\right)=0$，相邻两个交点对应的相位相差 $\\pi$，所以相邻交点的横坐标之差满足 $\\omega\\cdot\\frac{\\pi}{2}=\\pi$，从而 $\\omega=2$. 由最低点的纵坐标为 $-2$，得振幅 $A=2$. 当 $x=\\frac{2\\pi}{3}$ 时函数取得最小值，因此 $2\\cdot\\frac{2\\pi}{3}+\\varphi=\\frac{3\\pi}{2}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 于是 $\\varphi=\\frac{\\pi}{6}+2k\\pi$，结合 $0&#x3C;\\varphi&#x3C;\\frac{\\pi}{2}$ 得 $\\varphi=\\frac{\\pi}{6}$，所以 $f\\left(x\\right)=2\\sin\\left(2x+\\frac{\\pi}{6}\\right)$.</p></li><li><p>令 $t=2x+\\frac{\\pi}{6}$，则当 $x\\in\\left[\\frac{\\pi}{12},\\frac{\\pi}{2}\\right]$ 时，$t\\in\\left[\\frac{\\pi}{3},\\frac{7\\pi}{6}\\right]$. 在此区间内，$\\sin t$ 在 $t=\\frac{\\pi}{2}$ 处取得最大值 $1$，在右端点 $t=\\frac{7\\pi}{6}$ 处取得最小值 $-\\frac{1}{2}$. 因而 $f\\left(x\\right)=2\\sin t$ 的值域为 $\\left[-1,2\\right]$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = 1$，$AC = AA_{1} = \\sqrt{3}$，$\\angle ABC = 60^{\\circ}$.\r\n\r\n\n(1) 证明： $AB \\perp A_{1}C$；\n\n(2) 求二面角 $A - A_{1}C - B$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shaanxi_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AB = 1$，$AC = AA_{1}= \\sqrt{3}$，$\\angle ABC = 60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明： $AB \\perp A_{1}C$；</p></li><li><p>求二面角 $A - A_{1}C - B$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 在 $\\triangle ABC$ 中，由余弦定理得 $AC^{2}=AB^{2}+BC^{2}-2AB\\cdot BC\\cos60^{\\circ}$，即 $3=1+BC^{2}-BC$. 解得 $BC=2$（舍去负根），于是 $AC^{2}+AB^{2}=3+1=4=BC^{2}$，所以 $\\angle BAC=90^{\\circ}$，即 $AB\\perp AC$. 又因为三棱柱是直三棱柱，$AA_{1}\\perp$ 平面 $ABC$，从而 $AB\\perp AA_{1}$. 直线 $AC$ 与 $AA_{1}$ 是平面 $AA_{1}C$ 内相交的两条直线，且 $AB$ 同时垂直于它们，所以 $AB\\perp$ 平面 $AA_{1}C$，进而 $AB\\perp A_{1}C$.\n\n(2) 建立如图所示的直角坐标系，取 $A=\\left(0,0,0\\right)$，$C=\\left(\\sqrt{3},0,0\\right)$，$B=\\left(0,1,0\\right)$，$A_{1}=\\left(0,0,\\sqrt{3}\\right)$. 则 $\\overrightarrow{A_{1}C}=\\left(\\sqrt{3},0,-\\sqrt{3}\\right)$. 设 $H$ 为 $A_{1}C$ 的中点，则 $H=\\left(\\frac{\\sqrt{3}}{2},0,\\frac{\\sqrt{3}}{2}\\right)$，并且 $\\overrightarrow{HA}=\\left(-\\frac{\\sqrt{3}}{2},0,-\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{HB}=\\left(-\\frac{\\sqrt{3}}{2},1,-\\frac{\\sqrt{3}}{2}\\right)$. 直接计算得 $\\overrightarrow{HA}\\cdot\\overrightarrow{A_{1}C}=0$，$\\overrightarrow{HB}\\cdot\\overrightarrow{A_{1}C}=0$，所以 $HA$ 和 $HB$ 分别是两个半平面 $A-A_{1}C$、$B-A_{1}C$ 内垂直于棱 $A_{1}C$ 的射线. 设二面角 $A-A_{1}C-B$ 为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{\\overrightarrow{HA}\\cdot\\overrightarrow{HB}}{|\\overrightarrow{HA}|\\,|\\overrightarrow{HB}|}=\\frac{\\frac{3}{2}}{\\sqrt{\\frac{3}{2}}\\sqrt{\\frac{5}{2}}}=\\frac{3}{\\sqrt{15}}=\\frac{\\sqrt{15}}{5}\n$$\n\r\n因此二面角 $A-A_{1}C-B$ 的大小为 $\\arccos\\frac{\\sqrt{15}}{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>在 $\\triangle ABC$ 中，由余弦定理得 $AC^{2}=AB^{2}+BC^{2}-2AB\\cdot BC\\cos60^{\\circ}$，即 $3=1+BC^{2}-BC$. 解得 $BC=2$（舍去负根），于是 $AC^{2}+AB^{2}=3+1=4=BC^{2}$，所以 $\\angle BAC=90^{\\circ}$，即 $AB\\perp AC$. 又因为三棱柱是直三棱柱，$AA_{1}\\perp$ 平面 $ABC$，从而 $AB\\perp AA_{1}$. 直线 $AC$ 与 $AA_{1}$ 是平面 $AA_{1}C$ 内相交的两条直线，且 $AB$ 同时垂直于它们，所以 $AB\\perp$ 平面 $AA_{1}C$，进而 $AB\\perp A_{1}C$.</p></li><li><p>建立如图所示的直角坐标系，取 $A=\\left(0,0,0\\right)$，$C=\\left(\\sqrt{3},0,0\\right)$，$B=\\left(0,1,0\\right)$，$A_{1}=\\left(0,0,\\sqrt{3}\\right)$. 则 $\\overrightarrow{A_{1}C}=\\left(\\sqrt{3},0,-\\sqrt{3}\\right)$. 设 $H$ 为 $A_{1}C$ 的中点，则 $H=\\left(\\frac{\\sqrt{3}}{2},0,\\frac{\\sqrt{3}}{2}\\right)$，并且 $\\overrightarrow{HA}=\\left(-\\frac{\\sqrt{3}}{2},0,-\\frac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{HB}=\\left(-\\frac{\\sqrt{3}}{2},1,-\\frac{\\sqrt{3}}{2}\\right)$. 直接计算得 $\\overrightarrow{HA}\\cdot\\overrightarrow{A_{1}C}=0$，$\\overrightarrow{HB}\\cdot\\overrightarrow{A_{1}C}=0$，所以 $HA$ 和 $HB$ 分别是两个半平面 $A-A_{1}C$、$B-A_{1}C$ 内垂直于棱 $A_{1}C$ 的射线. 设二面角 $A-A_{1}C-B$ 为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\overrightarrow{HA}\\cdot\\overrightarrow{HB}}{|\\overrightarrow{HA}|\\,|\\overrightarrow{HB}|}=\\frac{\\frac{3}{2}}{\\sqrt{\\frac{3}{2}}\\sqrt{\\frac{5}{2}}}=\\frac{3}{\\sqrt{15}}=\\frac{\\sqrt{15}}{5}\n$$\n<p>因此二面角 $A-A_{1}C-B$ 的大小为 $\\arccos\\frac{\\sqrt{15}}{5}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "某食品企业一个月内被消费者投诉的次数用 $\\xi$ 表示，据统计，随机变量 $\\xi$ 的概率分布如下：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|c|}\r\n\\hline\r\n$\\xi$ & $0$ & $1$ & $2$ & $3$ \\\\\r\n\\hline\r\n$p$ & $0.1$ & $0.3$ & $2a$ & $a$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 求 $a$ 的值和 $\\xi$ 的数学期望；\n\n(2) 假设一月份与二月份被消费者投诉的次数互不影响，求该企业在这两个月内共被消费者投诉 2 次的概率.",
-          "choices": [],
+          "body": "<p>某食品企业一个月内被消费者投诉的次数用 $\\xi$ 表示，据统计，随机变量 $\\xi$ 的概率分布如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$\\xi$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$p$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2a$ </td><td style=\"text-align: center; border-right: 1px solid\"> $a$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>求 $a$ 的值和 $\\xi$ 的数学期望；</p></li><li><p>假设一月份与二月份被消费者投诉的次数互不影响，求该企业在这两个月内共被消费者投诉 2 次的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 概率之和为 $1$，所以 $0.1+0.3+2a+a=1$，解得 $a=0.2$. 因而 $\\xi$ 的数学期望为 $E\\left(\\xi\\right)=0\\cdot0.1+1\\cdot0.3+2\\cdot\\left(2a\\right)+3\\cdot a=0.3+0.8+0.6=1.7$.\n\n(2) 设一月份和二月份的投诉次数分别为 $\\xi_{1}$ 和 $\\xi_{2}$. 由于两个月互不影响，$\\xi_{1}$ 与 $\\xi_{2}$ 相互独立. 两个月共被投诉 $2$ 次包括 $\\left(\\xi_{1},\\xi_{2}\\right)=\\left(0,2\\right)$、$\\left(1,1\\right)$、$\\left(2,0\\right)$ 三种互斥情形，所以所求概率为 $0.1\\cdot0.4+0.3\\cdot0.3+0.4\\cdot0.1=0.17$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>概率之和为 $1$，所以 $0.1+0.3+2a+a=1$，解得 $a=0.2$. 因而 $\\xi$ 的数学期望为 $E\\left(\\xi\\right)=0\\cdot0.1+1\\cdot0.3+2\\cdot\\left(2a\\right)+3\\cdot a=0.3+0.8+0.6=1.7$.</p></li><li><p>设一月份和二月份的投诉次数分别为 $\\xi_{1}$ 和 $\\xi_{2}$. 由于两个月互不影响，$\\xi_{1}$ 与 $\\xi_{2}$ 相互独立. 两个月共被投诉 $2$ 次包括 $\\left(\\xi_{1},\\xi_{2}\\right)=\\left(0,2\\right)$、$\\left(1,1\\right)$、$\\left(2,0\\right)$ 三种互斥情形，所以所求概率为 $0.1\\cdot0.4+0.3\\cdot0.3+0.4\\cdot0.1=0.17$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知函数 $f\\left(x\\right) = \\ln\\left(ax + 1\\right) + \\frac{1 - x}{1 + x}$，$x \\ge 0$，其中 $a > 0$.\r\n\r\n\n(1) 若 $f\\left(x\\right)$ 在 $x = 1$ 处取得极值，求 $a$ 的值；\n\n(2) 求 $f\\left(x\\right)$ 的单调区间；\n\n(3) 若 $f\\left(x\\right)$ 的最小值为 1，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f\\left(x\\right) = \\ln\\left(ax + 1\\right) + \\frac{1 - x}{1 + x}$，$x \\ge 0$，其中 $a > 0$.</p><ol class=\"enumerate\"><li><p>若 $f\\left(x\\right)$ 在 $x = 1$ 处取得极值，求 $a$ 的值；</p></li><li><p>求 $f\\left(x\\right)$ 的单调区间；</p></li><li><p>若 $f\\left(x\\right)$ 的最小值为 1，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 函数的导数为 $f'\\left(x\\right)=\\frac{a}{ax+1}-\\frac{2}{\\left(1+x\\right)^{2}}$. 因为 $x=1$ 是定义域的内点，若函数在此处取得极值，则必有 $f'\\left(1\\right)=0$，即 $\\frac{a}{a+1}-\\frac{1}{2}=0$，解得 $a=1$. 当 $a=1$ 时，$f'\\left(x\\right)=\\frac{x-1}{\\left(1+x\\right)^{2}}$，所以函数在 $x=1$ 的左侧递减、右侧递增，确实在 $x=1$ 处取得极小值.\n\n(2) 因为 $a>0$ 且 $x\\geqslant0$，有\r\n\n$$\nf'\\left(x\\right)=\\frac{a\\left(1+x\\right)^{2}-2\\left(1+ax\\right)}{\\left(1+ax\\right)\\left(1+x\\right)^{2}}=\\frac{ax^{2}+a-2}{\\left(1+ax\\right)\\left(1+x\\right)^{2}}\n$$\n\r\n分母恒为正，故只需讨论 $ax^{2}+a-2$ 的符号. 当 $0<a<2$ 时，令 $x_{0}=\\sqrt{\\frac{2-a}{a}}$，则 $f'\\left(x\\right)<0$（$0\\le x<x_{0}$），$f'\\left(x\\right)>0$（$x>x_{0}$），所以函数在 $\\left[0,x_{0}\\right]$ 上单调递减，在 $\\left[x_{0},+\\infty\\right)$ 上单调递增. 当 $a\\geqslant2$ 时，$ax^{2}+a-2\\geqslant0$，所以函数在 $[0,+\\infty)$ 上单调递增.\n\n(3) 当 $a\\geqslant2$ 时，由上问知函数在 $[0,+\\infty)$ 上单调递增，且 $f\\left(0\\right)=1$，故函数的最小值为 $1$. 下面考察 $0<a<2$ 的情形. 此时函数在 $x_{0}=\\sqrt{\\frac{2-a}{a}}$ 处取得最小值，令 $t=x_{0}>0$，则 $a=\\frac{2}{1+t^{2}}$. 于是\r\n\n$$\nf\\left(t\\right)-1=\\ln\\left(1+\\frac{2t}{1+t^{2}}\\right)-\\frac{2t}{1+t}=\\ln\\frac{\\left(1+t\\right)^{2}}{1+t^{2}}-\\frac{2t}{1+t}\n$$\n\r\n记 $h\\left(t\\right)=\\ln\\frac{\\left(1+t\\right)^{2}}{1+t^{2}}-\\frac{2t}{1+t}$，则 $h\\left(0\\right)=0$，且\r\n$h'\\left(t\\right)=\\frac{2}{1+t}-\\frac{2t}{1+t^{2}}-\\frac{2}{\\left(1+t\\right)^{2}}=-\\frac{4t^{2}}{\\left(1+t\\right)^{2}\\left(1+t^{2}\\right)}<0$，（$t>0$）.\r\n所以 $h\\left(t\\right)<0$，即此时函数的最小值小于 $1$. 因此函数的最小值为 $1$ 时，$a$ 的取值范围为 $[2,+\\infty)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>函数的导数为 $f'\\left(x\\right)=\\frac{a}{ax+1}-\\frac{2}{\\left(1+x\\right)^{2}}$. 因为 $x=1$ 是定义域的内点，若函数在此处取得极值，则必有 $f'\\left(1\\right)=0$，即 $\\frac{a}{a+1}-\\frac{1}{2}=0$，解得 $a=1$. 当 $a=1$ 时，$f'\\left(x\\right)=\\frac{x-1}{\\left(1+x\\right)^{2}}$，所以函数在 $x=1$ 的左侧递减、右侧递增，确实在 $x=1$ 处取得极小值.</p></li><li><p>因为 $a>0$ 且 $x\\geqslant0$，有</p>\n$$\nf'\\left(x\\right)=\\frac{a\\left(1+x\\right)^{2}-2\\left(1+ax\\right)}{\\left(1+ax\\right)\\left(1+x\\right)^{2}}=\\frac{ax^{2}+a-2}{\\left(1+ax\\right)\\left(1+x\\right)^{2}}\n$$\n<p>分母恒为正，故只需讨论 $ax^{2}+a-2$ 的符号. 当 $0&#x3C;a&#x3C;2$ 时，令 $x_{0}=\\sqrt{\\frac{2-a}{a}}$，则 $f'\\left(x\\right)&#x3C;0$（$0\\le x&#x3C;x_{0}$），$f'\\left(x\\right)>0$（$x>x_{0}$），所以函数在 $\\left[0,x_{0}\\right]$ 上单调递减，在 $\\left[x_{0},+\\infty\\right)$ 上单调递增. 当 $a\\geqslant2$ 时，$ax^{2}+a-2\\geqslant0$，所以函数在 $[0,+\\infty)$ 上单调递增.</p></li><li><p>当 $a\\geqslant2$ 时，由上问知函数在 $[0,+\\infty)$ 上单调递增，且 $f\\left(0\\right)=1$，故函数的最小值为 $1$. 下面考察 $0&#x3C;a&#x3C;2$ 的情形. 此时函数在 $x_{0}=\\sqrt{\\frac{2-a}{a}}$ 处取得最小值，令 $t=x_{0}>0$，则 $a=\\frac{2}{1+t^{2}}$. 于是</p>\n$$\nf\\left(t\\right)-1=\\ln\\left(1+\\frac{2t}{1+t^{2}}\\right)-\\frac{2t}{1+t}=\\ln\\frac{\\left(1+t\\right)^{2}}{1+t^{2}}-\\frac{2t}{1+t}\n$$\n<p>记 $h\\left(t\\right)=\\ln\\frac{\\left(1+t\\right)^{2}}{1+t^{2}}-\\frac{2t}{1+t}$，则 $h\\left(0\\right)=0$，且</p><p>$h'\\left(t\\right)=\\frac{2}{1+t}-\\frac{2t}{1+t^{2}}-\\frac{2}{\\left(1+t\\right)^{2}}=-\\frac{4t^{2}}{\\left(1+t\\right)^{2}\\left(1+t^{2}\\right)}&#x3C;0$，（$t>0$）.</p><p>所以 $h\\left(t\\right)&#x3C;0$，即此时函数的最小值小于 $1$. 因此函数的最小值为 $1$ 时，$a$ 的取值范围为 $[2,+\\infty)$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知双曲线 $C$ 的方程为 $\\frac{y^{2}}{a^{2}} - \\frac{x^{2}}{b^{2}} = 1$（$a > 0$，$b > 0$），离心率 $e = \\frac{\\sqrt{5}}{2}$，顶点到渐近线的距离为 $\\frac{2\\sqrt{5}}{5}$.\r\n\r\n\n(1) 求双曲线 $C$ 的方程；\n\n(2) 如图，$P$ 是双曲线 $C$ 上一点，$A$，$B$ 两点在双曲线 $C$ 的两条渐近线上，且分别位于第一、二象限. 若 $\\overrightarrow{AP} = \\lambda \\overrightarrow{PB}$，$\\lambda \\in \\left[\\frac{1}{3}, 2\\right]$，求 $\\triangle AOB$ 面积的取值范围.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shaanxi_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>已知双曲线 $C$ 的方程为 $\\frac{y^{2}}{a^{2}}- \\frac{x^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$），离心率 $e = \\frac{\\sqrt{5}}{2}$，顶点到渐近线的距离为 $\\frac{2\\sqrt{5}}{5}$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的方程；</p></li><li><p>如图，$P$ 是双曲线 $C$ 上一点，$A$，$B$ 两点在双曲线 $C$ 的两条渐近线上，且分别位于第一、二象限. 若 $\\overrightarrow{AP}= \\lambda \\overrightarrow{PB}$，$\\lambda \\in \\left[\\frac{1}{3}, 2\\right]$，求 $\\triangle AOB$ 面积的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设双曲线的焦半距为 $c$，则 $c^{2}=a^{2}+b^{2}$，且由离心率得 $\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$，所以 $\\frac{b^{2}}{a^{2}}=\\frac{c^{2}-a^{2}}{a^{2}}=\\frac{1}{4}$，从而 $b=\\frac{a}{2}$. 双曲线的渐近线为 $y=\\pm\\frac{a}{b}x=\\pm2x$. 顶点 $\\left(0,a\\right)$ 到直线 $y=2x$ 的距离为 $\\frac{a}{\\sqrt{5}}$，由题意 $\\frac{a}{\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}=\\frac{2}{\\sqrt{5}}$，得 $a=2$，$b=1$. 因此双曲线 $C$ 的方程为 $\\frac{y^{2}}{4}-x^{2}=1$.\n\n(2) 设 $P=\\left(x,y\\right)$. 设第一象限内渐近线上的点为 $A=\\left(u,2u\\right)$，第二象限内另一条渐近线上的点为 $B=\\left(-v,2v\\right)$，其中 $u>0$，$v>0$. 由 $\\overrightarrow{AP}=\\lambda\\overrightarrow{PB}$ 得 $\\left(1+\\lambda\\right)P=A+\\lambda B$，于是\r\n\n$$\n\\begin{cases}\r\n\\left(1+\\lambda\\right)x=u-\\lambda v,\\\\\r\n\\left(1+\\lambda\\right)y=2u+2\\lambda v.\r\n\\end{cases}\n$$\n\r\n由于 $A$、$B$ 的纵坐标均为正且 $\\lambda>0$，上式的纵坐标关系给出 $y>0$. 又因 $P\\in C$，有 $y^{2}-4x^{2}=4$，从而 $y>2|x|$.\r\n解得 $u=\\frac{1+\\lambda}{4}\\left(2x+y\\right)$，$v=\\frac{1+\\lambda}{4\\lambda}\\left(y-2x\\right)$. 因而\r\n\n$$\nS_{\\triangle AOB}=\\frac{1}{2}\\left|\\begin{vmatrix}u&2u\\\\-v&2v\\end{vmatrix}\\right|=2uv=\\frac{\\left(1+\\lambda\\right)^{2}}{8\\lambda}\\left(y^{2}-4x^{2}\\right)=\\frac{\\left(1+\\lambda\\right)^{2}}{2\\lambda}\n$$\n\r\n其中最后一步使用了 $P\\in C$，即 $y^{2}-4x^{2}=4$. 记 $S\\left(\\lambda\\right)=\\frac{\\left(1+\\lambda\\right)^{2}}{2\\lambda}$，则 $S'\\left(\\lambda\\right)=\\frac{\\lambda^{2}-1}{2\\lambda^{2}}$，所以 $S\\left(\\lambda\\right)$ 在 $\\left[\\frac{1}{3},1\\right]$ 上递减，在 $[1,2]$ 上递增. 又 $S\\left(1\\right)=2$，$S\\left(\\frac{1}{3}\\right)=\\frac{8}{3}$，$S\\left(2\\right)=\\frac{9}{4}$，故 $\\triangle AOB$ 面积的取值范围为 $\\left[2,\\frac{8}{3}\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设双曲线的焦半距为 $c$，则 $c^{2}=a^{2}+b^{2}$，且由离心率得 $\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$，所以 $\\frac{b^{2}}{a^{2}}=\\frac{c^{2}-a^{2}}{a^{2}}=\\frac{1}{4}$，从而 $b=\\frac{a}{2}$. 双曲线的渐近线为 $y=\\pm\\frac{a}{b}x=\\pm2x$. 顶点 $\\left(0,a\\right)$ 到直线 $y=2x$ 的距离为 $\\frac{a}{\\sqrt{5}}$，由题意 $\\frac{a}{\\sqrt{5}}=\\frac{2\\sqrt{5}}{5}=\\frac{2}{\\sqrt{5}}$，得 $a=2$，$b=1$. 因此双曲线 $C$ 的方程为 $\\frac{y^{2}}{4}-x^{2}=1$.</p></li><li><p>设 $P=\\left(x,y\\right)$. 设第一象限内渐近线上的点为 $A=\\left(u,2u\\right)$，第二象限内另一条渐近线上的点为 $B=\\left(-v,2v\\right)$，其中 $u>0$，$v>0$. 由 $\\overrightarrow{AP}=\\lambda\\overrightarrow{PB}$ 得 $\\left(1+\\lambda\\right)P=A+\\lambda B$，于是</p>\n$$\n\\begin{cases}\\left(1+\\lambda\\right)x=u-\\lambda v,\\\\  \\left(1+\\lambda\\right)y=2u+2\\lambda v.\\end{cases}\n$$\n<p>由于 $A$、$B$ 的纵坐标均为正且 $\\lambda>0$，上式的纵坐标关系给出 $y>0$. 又因 $P\\in C$，有 $y^{2}-4x^{2}=4$，从而 $y>2|x|$.</p><p>解得 $u=\\frac{1+\\lambda}{4}\\left(2x+y\\right)$，$v=\\frac{1+\\lambda}{4\\lambda}\\left(y-2x\\right)$. 因而</p>\n$$\nS_{\\triangle AOB}=\\frac{1}{2}\\left|\\begin{vmatrix}u&#x26;2u\\\\-v&#x26;2v\\end{vmatrix}\\right|=2uv=\\frac{\\left(1+\\lambda\\right)^{2}}{8\\lambda}\\left(y^{2}-4x^{2}\\right)=\\frac{\\left(1+\\lambda\\right)^{2}}{2\\lambda}\n$$\n<p>其中最后一步使用了 $P\\in C$，即 $y^{2}-4x^{2}=4$. 记 $S\\left(\\lambda\\right)=\\frac{\\left(1+\\lambda\\right)^{2}}{2\\lambda}$，则 $S'\\left(\\lambda\\right)=\\frac{\\lambda^{2}-1}{2\\lambda^{2}}$，所以 $S\\left(\\lambda\\right)$ 在 $\\left[\\frac{1}{3},1\\right]$ 上递减，在 $[1,2]$ 上递增. 又 $S\\left(1\\right)=2$，$S\\left(\\frac{1}{3}\\right)=\\frac{8}{3}$，$S\\left(2\\right)=\\frac{9}{4}$，故 $\\triangle AOB$ 面积的取值范围为 $\\left[2,\\frac{8}{3}\\right]$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知数列 $\\{x_{n}\\}$ 满足 $x_{1} = \\frac{1}{2}$，$x_{n + 1} = \\frac{1}{1 + x_n}$，$n \\in \\mathbb{N}^*$.\r\n\r\n\n(1) 猜想数列 $\\{x_{2n}\\}$ 的单调性，并证明你的结论；\n\n(2) 证明： $\\left|x_{n+1}-x_{n}\\right|\\le\\frac{1}{6}\\left(\\frac{2}{5}\\right)^{n-1}$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{x_{n}\\}$ 满足 $x_{1}= \\frac{1}{2}$，$x_{n + 1}= \\frac{1}{1 + x_{n}}$，$n \\in \\mathbb{N}^{*}$.</p><ol class=\"enumerate\"><li><p>猜想数列 $\\{x_{2n}\\}$ 的单调性，并证明你的结论；</p></li><li><p>证明： $\\left|x_{n+1}-x_{n}\\right|\\le\\frac{1}{6}\\left(\\frac{2}{5}\\right)^{n-1}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 记 $g\\left(x\\right)=\\frac{1}{1+\\frac{1}{1+x}}=\\frac{1+x}{2+x}$，则 $x_{n+2}=g\\left(x_n\\right)$，且 $g\\left(x\\right)-x=\\frac{1-x-x^{2}}{2+x}$.\r\n令 $\\alpha=\\frac{\\sqrt{5}-1}{2}$，则 $1-\\alpha-\\alpha^{2}=0$，所以当 $x>0$ 时，$g\\left(x\\right)>x$（$0<x<\\alpha$），$g\\left(x\\right)<x$（$x>\\alpha$）. 又 $x_{2}=\\frac{2}{3}>\\alpha$，并且 $g'\\left(x\\right)=\\frac{1}{\\left(2+x\\right)^{2}}>0$. 因此只要 $x_{2n}>\\alpha$，就有 $x_{2n+2}=g\\left(x_{2n}\\right)<x_{2n}$，同时 $x_{2n+2}>g\\left(\\alpha\\right)=\\alpha$. 归纳可得 $x_{2n}>\\alpha$ 且 $x_{2n+2}<x_{2n}$，所以数列 $\\{x_{2n}\\}$ 单调递减.\n\n(2) 由 $x_{1}=\\frac{1}{2}$ 以及递推关系可归纳得到 $\\frac{1}{2}\\le x_n\\le\\frac{2}{3}$：若 $\\frac{1}{2}\\le x_n\\le\\frac{2}{3}$，则 $\\frac{3}{5}\\le x_{n+1}=\\frac{1}{1+x_n}\\le\\frac{2}{3}$，仍在区间 $\\left[\\frac{1}{2},\\frac{2}{3}\\right]$ 内. 令 $d_n=\\left|x_{n+1}-x_n\\right|$，则 $d_1=\\left|\\frac{2}{3}-\\frac{1}{2}\\right|=\\frac{1}{6}$. 当 $n\\geqslant2$ 时，\r\n\n$$\nd_n=\\left|\\frac{1}{1+x_n}-\\frac{1}{1+x_{n-1}}\\right|=\\frac{d_{n-1}}{\\left(1+x_n\\right)\\left(1+x_{n-1}\\right)}\n$$\n\r\n又因为 $x_n=\\frac{1}{1+x_{n-1}}$，所以 $\\left(1+x_n\\right)\\left(1+x_{n-1}\\right)=2+x_{n-1}\\ge\\frac{5}{2}$，从而 $d_n\\le\\frac{2}{5}d_{n-1}$. 反复使用并结合 $d_1=\\frac{1}{6}$，得 $d_n\\le\\frac{1}{6}\\left(\\frac{2}{5}\\right)^{n-1}$，即 $\\left|x_{n+1}-x_n\\right|\\le\\frac{1}{6}\\left(\\frac{2}{5}\\right)^{n-1}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>记 $g\\left(x\\right)=\\frac{1}{1+\\frac{1}{1+x}}=\\frac{1+x}{2+x}$，则 $x_{n+2}=g\\left(x_{n}\\right)$，且 $g\\left(x\\right)-x=\\frac{1-x-x^{2}}{2+x}$.</p><p>令 $\\alpha=\\frac{\\sqrt{5}-1}{2}$，则 $1-\\alpha-\\alpha^{2}=0$，所以当 $x>0$ 时，$g\\left(x\\right)>x$（$0&#x3C;x&#x3C;\\alpha$），$g\\left(x\\right)&#x3C;x$（$x>\\alpha$）. 又 $x_{2}=\\frac{2}{3}>\\alpha$，并且 $g'\\left(x\\right)=\\frac{1}{\\left(2+x\\right)^{2}}>0$. 因此只要 $x_{2n}>\\alpha$，就有 $x_{2n+2}=g\\left(x_{2n}\\right)&#x3C;x_{2n}$，同时 $x_{2n+2}>g\\left(\\alpha\\right)=\\alpha$. 归纳可得 $x_{2n}>\\alpha$ 且 $x_{2n+2}&#x3C;x_{2n}$，所以数列 $\\{x_{2n}\\}$ 单调递减.</p></li><li><p>由 $x_{1}=\\frac{1}{2}$ 以及递推关系可归纳得到 $\\frac{1}{2}\\le x_{n}\\le\\frac{2}{3}$：若 $\\frac{1}{2}\\le x_{n}\\le\\frac{2}{3}$，则 $\\frac{3}{5}\\le x_{n+1}=\\frac{1}{1+x_{n}}\\le\\frac{2}{3}$，仍在区间 $\\left[\\frac{1}{2},\\frac{2}{3}\\right]$ 内. 令 $d_{n}=\\left|x_{n+1}-x_{n}\\right|$，则 $d_{1}=\\left|\\frac{2}{3}-\\frac{1}{2}\\right|=\\frac{1}{6}$. 当 $n\\geqslant2$ 时，</p>\n$$\nd_{n}=\\left|\\frac{1}{1+x_{n}}-\\frac{1}{1+x_{n-1}}\\right|=\\frac{d_{n-1}}{\\left(1+x_{n}\\right)\\left(1+x_{n-1}\\right)}\n$$\n<p>又因为 $x_{n}=\\frac{1}{1+x_{n-1}}$，所以 $\\left(1+x_{n}\\right)\\left(1+x_{n-1}\\right)=2+x_{n-1}\\ge\\frac{5}{2}$，从而 $d_{n}\\le\\frac{2}{5}d_{n-1}$. 反复使用并结合 $d_{1}=\\frac{1}{6}$，得 $d_{n}\\le\\frac{1}{6}\\left(\\frac{2}{5}\\right)^{n-1}$，即 $\\left|x_{n+1}-x_{n}\\right|\\le\\frac{1}{6}\\left(\\frac{2}{5}\\right)^{n-1}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

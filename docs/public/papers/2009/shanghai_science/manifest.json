@@ -1,278 +1,109 @@
 {
+  "title": "2009年普通高等学校招生全国统一考试",
+  "subtitle": "2009年上海卷（秋理）",
   "year": "2009",
   "slug": "shanghai_science",
-  "title": "2009年上海卷（秋理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "若复数 $z$ 满足 $z(1 + \\mathrm{i}) = 1 - \\mathrm{i}$（$\\mathrm{i}$ 是虚数单位），则其共轭复数 $\\overline{z} =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\mathrm{i}\\).",
-          "solution": "由 $z(1+\\mathrm{i})=1-\\mathrm{i}$，得\r\n\n$$\nz=\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^2}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{-2\\mathrm{i}}{2}=-\\mathrm{i}\n$$\n\r\n因此 $\\overline{z}=\\mathrm{i}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若复数 $z$ 满足 $z(1 + \\mathrm{i}) = 1 - \\mathrm{i}$（$\\mathrm{i}$ 是虚数单位），则其共轭复数 $\\overline{z}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\mathrm{i}$.",
+          "solution": "<p>由 $z(1+\\mathrm{i})=1-\\mathrm{i}$，得</p>\n$$\nz=\\frac{1-\\mathrm{i}}{1+\\mathrm{i}}=\\frac{(1-\\mathrm{i})^{2}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\frac{-2\\mathrm{i}}{2}=-\\mathrm{i}\n$$\n<p>因此 $\\overline{z}=\\mathrm{i}$.</p>"
         },
         {
           "num": 2,
-          "body": "已知集合 $A = \\{x \\mid x \\le 1\\}$，$B = \\{x \\mid x \\ge \\alpha\\}$，且 $A \\cup B = \\mathbb{R}$，则实数 $\\alpha$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\alpha \\le 1\\).",
-          "solution": "由题意，$A=(-\\infty,1]$，$B=[\\alpha,+\\infty)$. 若 $\\alpha>1$，则区间 $(1,\\alpha)$ 中的实数既不属于 $A$，也不属于 $B$，从而 $A\\cup B\\neq\\mathbb{R}$. 反之，若 $\\alpha\\leqslant1$，则任意实数 $x\\leqslant1$ 时属于 $A$，任意实数 $x>1$ 时有 $x\\ge\\alpha$，因而属于 $B$，所以 $A\\cup B=\\mathbb{R}$. 故 $\\alpha$ 的取值范围为 $\\alpha\\leqslant1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知集合 $A = \\{x \\mid x \\le 1\\}$，$B = \\{x \\mid x \\ge \\alpha\\}$，且 $A \\cup B = \\mathbb{R}$，则实数 $\\alpha$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\alpha \\le 1$.",
+          "solution": "由题意，$A=(-\\infty,1]$，$B=[\\alpha,+\\infty)$. 若 $\\alpha>1$，则区间 $(1,\\alpha)$ 中的实数既不属于 $A$，也不属于 $B$，从而 $A\\cup B\\neq\\mathbb{R}$. 反之，若 $\\alpha\\leqslant1$，则任意实数 $x\\leqslant1$ 时属于 $A$，任意实数 $x>1$ 时有 $x\\ge\\alpha$，因而属于 $B$，所以 $A\\cup B=\\mathbb{R}$. 故 $\\alpha$ 的取值范围为 $\\alpha\\leqslant1$."
         },
         {
           "num": 3,
-          "body": "若行列式 $\\begin{vmatrix} 4 & 5 & x \\\\ 1 & x & 3 \\\\ 7 & 8 & 9 \\end{vmatrix}$ 中，元素 $4$ 的代数余子式大于 $0$，则 $x$ 满足的条件是 _______ {}.",
-          "choices": [],
-          "answer": "\\(x > \\frac{8}{3}\\).",
-          "solution": "元素 $4$ 位于行列式的第 $1$ 行第 $1$ 列，因此它的代数余子式为\r\n\n$$\nC_{11}=(-1)^{1+1}\\begin{vmatrix}x&3\\\\8&9\\end{vmatrix}=9x-24\n$$\n\r\n由题意 $9x-24>0$，所以 $x>\\dfrac{8}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若行列式 $\\begin{vmatrix}4 &#x26; 5 &#x26; x \\\\ 1 &#x26; x &#x26; 3 \\\\ 7 &#x26; 8 &#x26; 9\\end{vmatrix}$ 中，元素 $4$ 的代数余子式大于 $0$，则 $x$ 满足的条件是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$x > \\frac{8}{3}$.",
+          "solution": "<p>元素 $4$ 位于行列式的第 $1$ 行第 $1$ 列，因此它的代数余子式为</p>\n$$\nC_{11}=(-1)^{1+1}\\begin{vmatrix}x&#x26;3\\\\8&#x26;9\\end{vmatrix}=9x-24\n$$\n<p>由题意 $9x-24>0$，所以 $x>\\dfrac{8}{3}$.</p>"
         },
         {
           "num": 4,
-          "body": "某算法的程序框图如图所示，则输出量 $y$ 与输入量 $x$ 满足的关系式是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shanghai_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\[\r\ny=\\begin{cases}\r\n2^x,&x\\le 1,\\\\\r\nx-2,&x>1.\r\n\\end{cases}\r\n\\]",
-          "solution": "由程序框图可知，当输入 $x>1$ 时，沿“是”分支得到 $y=x-2$；当输入 $x\\le 1$ 时，沿“否”分支得到 $y=2^x$. 因此\r\n\n$$\ny=\\begin{cases}\r\n2^x,&x\\le 1,\\\\\r\nx-2,&x>1.\r\n\\end{cases}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>某算法的程序框图如图所示，则输出量 $y$ 与输入量 $x$ 满足的关系式是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$$\ny=\\begin{cases}2^{x},&#x26;x\\le 1,\\\\  x-2,&#x26;x>1.\\end{cases}\n$$",
+          "solution": "<p>由程序框图可知，当输入 $x>1$ 时，沿“是”分支得到 $y=x-2$；当输入 $x\\le 1$ 时，沿“否”分支得到 $y=2^{x}$. 因此</p>\n$$\ny=\\begin{cases}2^{x},&#x26;x\\le 1,\\\\  x-2,&#x26;x>1.\\end{cases}\n$$"
         },
         {
           "num": 5,
-          "body": "如图，若正四棱柱 $ABCD - A_1B_1C_1D_1$ 的底面边长为 $2$，高为 $4$，则异面直线 $BD_1$ 与 $AD$ 所成角的大小是 _______ {}. （结果用反三角函数表示）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shanghai_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\arctan\\sqrt{5}\\).",
-          "solution": "建立直角坐标系，取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，并令竖直方向为 $z$ 轴，则 $D_1=(0,2,4)$. 因而\r\n$\\overrightarrow{AD}=(0,2,0)$，$\\overrightarrow{BD_1}=(-2,2,4)$.\r\n设异面直线所成的锐角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{\\left|\\overrightarrow{AD}\\cdot\\overrightarrow{BD_1}\\right|}{|\\overrightarrow{AD}|\\,|\\overrightarrow{BD_1}|}=\\frac{4}{2\\sqrt{24}}=\\frac{1}{\\sqrt{6}}\n$$\n\r\n于是 $\\tan\\theta=\\sqrt{\\dfrac{1}{\\cos^2\\theta}-1}=\\sqrt{5}$. 因为 $0\\le\\theta\\le\\dfrac{\\pi}{2}$，所以 $\\theta=\\arctan\\sqrt{5}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，若正四棱柱 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的底面边长为 $2$，高为 $4$，则异面直线 $BD_{1}$ 与 $AD$ 所成角的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （结果用反三角函数表示）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\arctan\\sqrt{5}$.",
+          "solution": "<p>建立直角坐标系，取 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，并令竖直方向为 $z$ 轴，则 $D_{1}=(0,2,4)$. 因而</p><p>$\\overrightarrow{AD}=(0,2,0)$，$\\overrightarrow{BD_1}=(-2,2,4)$.</p><p>设异面直线所成的锐角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\left|\\overrightarrow{AD}\\cdot\\overrightarrow{BD_1}\\right|}{|\\overrightarrow{AD}|\\,|\\overrightarrow{BD_1}|}=\\frac{4}{2\\sqrt{24}}=\\frac{1}{\\sqrt{6}}\n$$\n<p>于是 $\\tan\\theta=\\sqrt{\\dfrac{1}{\\cos^2\\theta}-1}=\\sqrt{5}$. 因为 $0\\le\\theta\\le\\dfrac{\\pi}{2}$，所以 $\\theta=\\arctan\\sqrt{5}$.</p>"
         },
         {
           "num": 6,
-          "body": "函数 $y = 2\\cos^2 x + \\sin 2x$ 的最小值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(1 - \\sqrt{2}\\).",
-          "solution": "利用 $2\\cos^2x=1+\\cos2x$，有\r\n\n$$\ny=1+\\cos2x+\\sin2x=1+\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n\r\n由于正弦函数的取值范围为 $[-1,1]$，故\r\n\n$$\ny\\geqslant1-\\sqrt{2}\n$$\n\r\n且当 $\\sin\\left(2x+\\dfrac{\\pi}{4}\\right)=-1$ 时等号成立. 因此最小值为 $1-\\sqrt{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y = 2\\cos^{2} x + \\sin 2x$ 的最小值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1 - \\sqrt{2}$.",
+          "solution": "<p>利用 $2\\cos^{2}x=1+\\cos2x$，有</p>\n$$\ny=1+\\cos2x+\\sin2x=1+\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>由于正弦函数的取值范围为 $[-1,1]$，故</p>\n$$\ny\\geqslant1-\\sqrt{2}\n$$\n<p>且当 $\\sin\\left(2x+\\dfrac{\\pi}{4}\\right)=-1$ 时等号成立. 因此最小值为 $1-\\sqrt{2}$.</p>"
         },
         {
           "num": 7,
-          "body": "某学校要从 $5$ 名男生和 $2$ 名女生中选出 $2$ 人作为上海世博会志愿者，若用随机变量 $\\xi$ 表示选出的志愿者中女生的人数，则数学期望 $E(\\xi) =$ _______ {}. （结果用最简分数表示）",
-          "choices": [],
-          "answer": "\\(\\frac{4}{7}\\).",
-          "solution": "从 $5$ 名男生和 $2$ 名女生中任取 $2$ 人，共有 $\\mathrm C_7^2=21$ 种取法. 女生人数 $\\xi$ 的分布为\r\n$P(\\xi=0)=\\frac{\\mathrm C_5^2}{\\mathrm C_7^2}=\\frac{10}{21}$，$P(\\xi=1)=\\frac{\\mathrm C_5^1\\mathrm C_2^1}{\\mathrm C_7^2}=\\frac{10}{21}$\r\n\n$$\nP(\\xi=2)=\\frac{\\mathrm C_2^2}{\\mathrm C_7^2}=\\frac{1}{21}\n$$\n\r\n因此\r\n\n$$\nE(\\xi)=0\\cdot\\frac{10}{21}+1\\cdot\\frac{10}{21}+2\\cdot\\frac{1}{21}=\\frac{4}{7}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某学校要从 $5$ 名男生和 $2$ 名女生中选出 $2$ 人作为上海世博会志愿者，若用随机变量 $\\xi$ 表示选出的志愿者中女生的人数，则数学期望 $E(\\xi) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （结果用最简分数表示）",
+          "choices": null,
+          "answer": "$\\frac{4}{7}$.",
+          "solution": "<p>从 $5$ 名男生和 $2$ 名女生中任取 $2$ 人，共有 $\\mathrm{C}_{7}^{2}=21$ 种取法. 女生人数 $\\xi$ 的分布为</p><p>$P(\\xi=0)=\\frac{\\mathrm{C}_{5}^{2}}{\\mathrm{C}_{7}^{2}}=\\frac{10}{21}$，$P(\\xi=1)=\\frac{\\mathrm{C}_{5}^{1}\\mathrm{C}_{2}^{1}}{\\mathrm{C}_{7}^{2}}=\\frac{10}{21}$</p>\n$$\nP(\\xi=2)=\\frac{\\mathrm{C}_{2}^{2}}{\\mathrm{C}_{7}^{2}}=\\frac{1}{21}\n$$\n<p>因此</p>\n$$\nE(\\xi)=0\\cdot\\frac{10}{21}+1\\cdot\\frac{10}{21}+2\\cdot\\frac{1}{21}=\\frac{4}{7}\n$$"
         },
         {
           "num": 8,
-          "body": "已知三个球的半径 $R_1$，$R_2$，$R_3$ 满足 $R_1 + 2R_2 = 3R_3$，则它们的表面积 $S_1$，$S_2$，$S_3$ 满足的等量关系是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt{S_1} + 2\\sqrt{S_2} = 3\\sqrt{S_3}\\).",
-          "solution": "球的表面积满足 $S_i=4\\pi R_i^2$. 由于半径为正数，故\r\n$\\sqrt{S_i}=2\\sqrt{\\pi}\\,R_i$，（$i=1,2,3$）.\r\n将题设关系 $R_1+2R_2=3R_3$ 两边同乘 $2\\sqrt{\\pi}$，得到\r\n\n$$\n\\sqrt{S_1}+2\\sqrt{S_2}=3\\sqrt{S_3}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知三个球的半径 $R_{1}$，$R_{2}$，$R_{3}$ 满足 $R_{1} + 2R_{2} = 3R_{3}$，则它们的表面积 $S_{1}$，$S_{2}$，$S_{3}$ 满足的等量关系是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{S_{1}}+ 2\\sqrt{S_{2}}= 3\\sqrt{S_{3}}$.",
+          "solution": "<p>球的表面积满足 $S_{i}=4\\pi R_{i}^{2}$. 由于半径为正数，故</p><p>$\\sqrt{S_{i}}=2\\sqrt{\\pi}\\,R_{i}$，（$i=1,2,3$）.</p><p>将题设关系 $R_{1}+2R_{2}=3R_{3}$ 两边同乘 $2\\sqrt{\\pi}$，得到</p>\n$$\n\\sqrt{S_{1}}+2\\sqrt{S_{2}}=3\\sqrt{S_{3}}\n$$"
         },
         {
           "num": 9,
-          "body": "已知 $F_1$，$F_2$ 是椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的两个焦点，$P$ 为椭圆 $C$ 上一点，且 $\\overrightarrow{PF_1} \\perp \\overrightarrow{PF_2}$，若 $\\triangle PF_1F_2$ 的面积为 $9$，则 $b =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(3\\).",
-          "solution": "设 $PF_1=m$，$PF_2=n$，焦半距为 $c$. 由 $\\overrightarrow{PF_1}\\perp\\overrightarrow{PF_2}$，三角形 $PF_1F_2$ 在 $P$ 处直角，故\r\n\n$$\nm^2+n^2=F_1F_2^2=(2c)^2\n$$\n\r\n又由椭圆的定义，$m+n=2a$. 两边平方并利用 $a^2-b^2=c^2$，得\r\n\n$$\n4a^2=m^2+n^2+2mn=4c^2+2mn\n$$\n\r\n从而 $mn=2(a^2-c^2)=2b^2$. 因此三角形面积为\r\n\n$$\n9=\\frac12mn=b^2\n$$\n\r\n由于 $b>0$，所以 $b=3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $F_{1}$，$F_{2}$ 是椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的两个焦点，$P$ 为椭圆 $C$ 上一点，且 $\\overrightarrow{PF_1}\\perp \\overrightarrow{PF_2}$，若 $\\triangle PF_{1}F_{2}$ 的面积为 $9$，则 $b =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$3$.",
+          "solution": "<p>设 $PF_{1}=m$，$PF_{2}=n$，焦半距为 $c$. 由 $\\overrightarrow{PF_1}\\perp\\overrightarrow{PF_2}$，三角形 $PF_{1}F_{2}$ 在 $P$ 处直角，故</p>\n$$\nm^{2}+n^{2}=F_{1}F_{2}^{2}=(2c)^{2}\n$$\n<p>又由椭圆的定义，$m+n=2a$. 两边平方并利用 $a^{2}-b^{2}=c^{2}$，得</p>\n$$\n4a^{2}=m^{2}+n^{2}+2mn=4c^{2}+2mn\n$$\n<p>从而 $mn=2(a^{2}-c^{2})=2b^{2}$. 因此三角形面积为</p>\n$$\n9=\\frac{1}{2}mn=b^{2}\n$$\n<p>由于 $b>0$，所以 $b=3$.</p>"
         },
         {
           "num": 10,
-          "body": "在极坐标系中，由三条直线 $\\theta = 0$，$\\theta = \\frac{\\pi}{3}$，$\\rho \\cos \\theta + \\rho \\sin \\theta = 1$ 围成图形的面积是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{3 - \\sqrt{3}}{4}\\).",
-          "solution": "由直线 $\\rho\\cos\\theta+\\rho\\sin\\theta=1$，得\r\n\n$$\n\\rho=\\frac{1}{\\cos\\theta+\\sin\\theta}\n$$\n\r\n所围图形对应于 $0\\le\\theta\\le\\dfrac{\\pi}{3}$，故其面积为\r\n\n$$\nS=\\frac12\\int_0^{\\frac{\\pi}{3}}\\frac{1}{(\\cos\\theta+\\sin\\theta)^2}\\,\\mathrm d\\theta\r\n=\\frac14\\int_0^{\\frac{\\pi}{3}}\\sec^2\\left(\\theta-\\frac{\\pi}{4}\\right)\\,\\mathrm d\\theta\r\n=\\frac14\\left[\\tan\\left(\\theta-\\frac{\\pi}{4}\\right)\\right]_0^{\\frac{\\pi}{3}}\n$$\n\r\n因为 $\\tan\\dfrac{\\pi}{12}=2-\\sqrt3$，所以\r\n\n$$\nS=\\frac14\\left((2-\\sqrt3)-(-1)\\right)=\\frac{3-\\sqrt3}{4}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在极坐标系中，由三条直线 $\\theta = 0$，$\\theta = \\frac{\\pi}{3}$，$\\rho \\cos \\theta + \\rho \\sin \\theta = 1$ 围成图形的面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{3 - \\sqrt{3}}{4}$.",
+          "solution": "<p>由直线 $\\rho\\cos\\theta+\\rho\\sin\\theta=1$，得</p>\n$$\n\\rho=\\frac{1}{\\cos\\theta+\\sin\\theta}\n$$\n<p>所围图形对应于 $0\\le\\theta\\le\\dfrac{\\pi}{3}$，故其面积为</p>\n$$\nS=\\frac{1}{2}\\int_{0}^{\\frac{\\pi}{3}}\\frac{1}{(\\cos\\theta+\\sin\\theta)^{2}}\\,\\mathrm{d}\\theta  =\\frac{1}{4}\\int_{0}^{\\frac{\\pi}{3}}\\sec^{2}\\left(\\theta-\\frac{\\pi}{4}\\right)\\,\\mathrm{d}\\theta  =\\frac{1}{4}\\left[\\tan\\left(\\theta-\\frac{\\pi}{4}\\right)\\right]_{0}^{\\frac{\\pi}{3}}\n$$\n<p>因为 $\\tan\\dfrac{\\pi}{12}=2-\\sqrt{3}$，所以</p>\n$$\nS=\\frac{1}{4}\\left((2-\\sqrt{3})-(-1)\\right)=\\frac{3-\\sqrt{3}}{4}\n$$"
         },
         {
           "num": 11,
-          "body": "当 $0 \\le x \\le 1$ 时，不等式 $\\sin \\frac{\\pi x}{2} \\ge kx$ 成立. 则实数 $k$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(k \\le 1\\).",
-          "solution": "令 $g(x)=\\sin\\dfrac{\\pi x}{2}$. 因为\r\n$g''(x)=-\\frac{\\pi^2}{4}\\sin\\frac{\\pi x}{2}\\leqslant0$，（$0\\le x\\leqslant1$），\r\n所以 $g$ 在 $[0,1]$ 上为凹函数. 又 $g(0)=0$，$g(1)=1$，由凹函数图象位于端点连线的上方，得\r\n$\\sin\\frac{\\pi x}{2}\\ge x$，（$0\\le x\\leqslant1$）.\r\n若题设不等式对所有 $x\\in[0,1]$ 成立，取 $x=1$ 得 $1\\ge k$，即 $k\\leqslant1$. 反之，当 $k\\leqslant1$ 时，由 $x\\geqslant0$ 有 $kx\\le x\\le\\sin\\dfrac{\\pi x}{2}$，题设不等式对整个区间成立. 因此 $k\\leqslant1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "当 $0 \\le x \\le 1$ 时，不等式 $\\sin \\frac{\\pi x}{2}\\ge kx$ 成立. 则实数 $k$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$k \\le 1$.",
+          "solution": "<p>令 $g(x)=\\sin\\dfrac{\\pi x}{2}$. 因为</p><p>$g''(x)=-\\frac{\\pi^{2}}{4}\\sin\\frac{\\pi x}{2}\\leqslant0$，（$0\\le x\\leqslant1$），</p><p>所以 $g$ 在 $[0,1]$ 上为凹函数. 又 $g(0)=0$，$g(1)=1$，由凹函数图象位于端点连线的上方，得</p><p>$\\sin\\frac{\\pi x}{2}\\ge x$，（$0\\le x\\leqslant1$）.</p><p>若题设不等式对所有 $x\\in[0,1]$ 成立，取 $x=1$ 得 $1\\ge k$，即 $k\\leqslant1$. 反之，当 $k\\leqslant1$ 时，由 $x\\geqslant0$ 有 $kx\\le x\\le\\sin\\dfrac{\\pi x}{2}$，题设不等式对整个区间成立. 因此 $k\\leqslant1$.</p>"
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x) = \\sin x + \\tan x$，项数为 $27$ 的等差数列 $\\{a_n\\}$ 满足 $a_n \\in \\left( -\\frac{\\pi}{2}, \\frac{\\pi}{2} \\right)$，且公差 $d \\neq 0$. 若 $f(a_1) + f(a_2) + \\cdots + f(a_{27}) = 0$，则当 $k =$ _______ {} 时，$f(a_k) = 0$.",
-          "choices": [],
-          "answer": "\\(14\\).",
-          "solution": "函数 $f(x)=\\sin x+\\tan x$ 在 $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 上为奇函数，且\r\n\n$$\nf'(x)=\\cos x+\\sec^2x>0\n$$\n\r\n所以 $f$ 在该区间上严格递增. 等差数列的中项为 $a_{14}$，并且第 $14-j$ 项和第 $14+j$ 项可写成 $a_{14}-u$ 与 $a_{14}+u$，其中 $u=|jd|>0$.\r\n\r\n若 $a_{14}>0$，当 $a_{14}-u\\geqslant0$ 时，两个函数值之和为正；当 $a_{14}-u<0$ 时，由严格递增性和奇函数性质，\r\n$a_{14}+u>u-a_{14}>0$，$\\Longrightarrow$，$f(a_{14}+u)>f(u-a_{14})=-f(a_{14}-u)$，\r\n故仍有 $f(a_{14}+u)+f(a_{14}-u)>0$. 所有成对项的和以及中项 $f(a_{14})$ 都为正，于是全体和不可能为零. 同理，若 $a_{14}<0$，全体和为负.\r\n\r\n因此题设等式只能在 $a_{14}=0$ 时成立. 此时 $f(a_{14})=f(0)=0$，所以 $k=14$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知函数 $f(x) = \\sin x + \\tan x$，项数为 $27$ 的等差数列 $\\{a_{n}\\}$ 满足 $a_{n} \\in \\left( -\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$，且公差 $d \\neq 0$. 若 $f(a_{1}) + f(a_{2}) + \\cdots + f(a_{27}) = 0$，则当 $k =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 时，$f(a_{k}) = 0$.",
+          "choices": null,
+          "answer": "$14$.",
+          "solution": "<p>函数 $f(x)=\\sin x+\\tan x$ 在 $\\left(-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 上为奇函数，且</p>\n$$\nf'(x)=\\cos x+\\sec^{2}x>0\n$$\n<p>所以 $f$ 在该区间上严格递增. 等差数列的中项为 $a_{14}$，并且第 $14-j$ 项和第 $14+j$ 项可写成 $a_{14}-u$ 与 $a_{14}+u$，其中 $u=|jd|>0$.</p><p>若 $a_{14}>0$，当 $a_{14}-u\\geqslant0$ 时，两个函数值之和为正；当 $a_{14}-u&#x3C;0$ 时，由严格递增性和奇函数性质，</p><p>$a_{14}+u>u-a_{14}>0$，$\\Longrightarrow$，$f(a_{14}+u)>f(u-a_{14})=-f(a_{14}-u)$，</p><p>故仍有 $f(a_{14}+u)+f(a_{14}-u)>0$. 所有成对项的和以及中项 $f(a_{14})$ 都为正，于是全体和不可能为零. 同理，若 $a_{14}&#x3C;0$，全体和为负.</p><p>因此题设等式只能在 $a_{14}=0$ 时成立. 此时 $f(a_{14})=f(0)=0$，所以 $k=14$.</p>"
         },
         {
           "num": 13,
-          "body": "某地街道呈现东—西，南—北向的网格状，相邻街距都为 $1$. 两街道相交的点称为格点. 若以互相垂直的两条街道为轴建立直角坐标系，现有下述格点 $(-2, 2)$，$(3, 1)$，$(3, 4)$，$(-2, 3)$，$(4, 5)$，$(6, 6)$ 为报刊零售点. 请确定一个格点（除零售点外）为发行站，使 $6$ 个零售点沿街道到发行站之间路程的和最短 _______ {}.",
-          "choices": [],
-          "answer": "\\((3, 3)\\).",
-          "solution": "设发行站为格点 $(u,v)$. 六个零售点到它的沿街路程之和为\r\n\n$$\n\\begin{aligned}\r\nT(u,v)&=|u+2|+|u-3|+|u-3|+|u+2|+|u-4|+|u-6|\\\\\r\n& +|v-2|+|v-1|+|v-4|+|v-3|+|v-5|+|v-6|.\r\n\\end{aligned}\n$$\n\r\n横、纵坐标部分彼此独立. 对按从小到大排列的六个实数 $z_1\\le\\cdots\\le z_6$，函数 $\\sum_{i=1}^6|w-z_i|$ 在且仅在中位数区间 $[z_3,z_4]$ 上取得最小值；这是因为 $w$ 每向右移动一单位，绝对值和的增量等于左侧点数减右侧点数，符号在该区间内由负变正. 横坐标数据为 $-2$，$-2$，$3$，$3$，$4$，$6$，所以 $u=3$. 纵坐标数据为 $1$，$2$，$3$，$4$，$5$，$6$，所以 $v$ 可取 $3$ 或 $4$. 点 $(3,4)$ 是零售点，不能作为发行站，故只能取 $(3,3)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某地街道呈现东—西，南—北向的网格状，相邻街距都为 $1$. 两街道相交的点称为格点. 若以互相垂直的两条街道为轴建立直角坐标系，现有下述格点 $(-2, 2)$，$(3, 1)$，$(3, 4)$，$(-2, 3)$，$(4, 5)$，$(6, 6)$ 为报刊零售点. 请确定一个格点（除零售点外）为发行站，使 $6$ 个零售点沿街道到发行站之间路程的和最短<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(3, 3)$.",
+          "solution": "<p>设发行站为格点 $(u,v)$. 六个零售点到它的沿街路程之和为</p>\n$$\n\\begin{aligned}T(u,v)&#x26;=|u+2|+|u-3|+|u-3|+|u+2|+|u-4|+|u-6|\\\\&#x26; +|v-2|+|v-1|+|v-4|+|v-3|+|v-5|+|v-6|.\\end{aligned}\n$$\n<p>横、纵坐标部分彼此独立. 对按从小到大排列的六个实数 $z_{1}\\le\\cdots\\le z_{6}$，函数 $\\sum_{i=1}^{6}|w-z_{i}|$ 在且仅在中位数区间 $[z_{3},z_{4}]$ 上取得最小值；这是因为 $w$ 每向右移动一单位，绝对值和的增量等于左侧点数减右侧点数，符号在该区间内由负变正. 横坐标数据为 $-2$，$-2$，$3$，$3$，$4$，$6$，所以 $u=3$. 纵坐标数据为 $1$，$2$，$3$，$4$，$5$，$6$，所以 $v$ 可取 $3$ 或 $4$. 点 $(3,4)$ 是零售点，不能作为发行站，故只能取 $(3,3)$.</p>"
         },
         {
           "num": 14,
-          "body": "将函数 $y = \\sqrt{4 + 6x - x^2} - 2$（$x \\in [0, 6]$）的图象绕坐标原点逆时针方向旋转角 $\\theta$（$0 \\le \\theta \\le \\alpha$），得到曲线 $C$. 若对于每一个旋转角 $\\theta$，曲线 $C$ 都是一个函数的图象，则 $\\alpha$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\arctan\\frac{2}{3}\\).",
-          "solution": "原曲线可参数化为 $(x,y(x))$，其中\r\n$y(x)=\\sqrt{13-(x-3)^2}-2$，$0\\le x\\leqslant6$.\r\n旋转 $\\theta$ 后点的横坐标为\r\n\n$$\nX_\\theta(x)=x\\cos\\theta-y(x)\\sin\\theta\n$$\n\r\n若旋转后的曲线是函数图象，则参数 $x$ 到旋转后横坐标的映射必须单射，从而需考察\r\n$X_\\theta'(x)=\\cos\\theta-y'(x)\\sin\\theta$，$y'(x)=\\frac{3-x}{\\sqrt{13-(x-3)^2}}$.\r\n在 $[0,6]$ 上，$y'(x)\\le y'(0)=\\dfrac32$，因此当 $0\\le\\theta\\le\\arctan\\dfrac23$ 时，\r\n\n$$\nX_\\theta'(x)\\ge\\cos\\theta-\\frac32\\sin\\theta\\geqslant0\n$$\n\r\n除端点情形外导数为正，故 $X_\\theta(x)$ 严格递增，旋转后的曲线是函数图象.\r\n\r\n若 $\\theta>\\arctan\\dfrac23$ 且 $\\theta<\\dfrac\\pi2$，则\r\n$X_\\theta'(0)=\\cos\\theta-\\frac32\\sin\\theta<0$，$X_\\theta'(6)=\\cos\\theta+\\frac32\\sin\\theta>0$.\r\n又因\r\n\n$$\ny''(x)=-\\frac{13}{\\left(13-(x-3)^2\\right)^{\\frac{3}{2}}}<0\n$$\n\r\n故 $X_\\theta'(x)$ 在 $[0,6]$ 上严格递增，$X_\\theta(x)$ 先减后增，在某个内点取得唯一最小值. 取该最小值上方且足够接近的一个横坐标，由连续性可得对应的两个不同参数值；旋转后两点横坐标相同而点本身不同，因而纵坐标不同，曲线不是函数图象. 当 $\\theta=\\dfrac\\pi2$ 时，$X_\\theta(x)=-y(x)$，且 $X_\\theta(0)=X_\\theta(6)=0$ 而 $X_\\theta(3)\\neq0$，同样不是单射，所以任何 $\\alpha\\ge\\dfrac\\pi2$ 也不可能满足题设. 因而允许的最大旋转角为 $\\arctan\\dfrac23$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "将函数 $y = \\sqrt{4 + 6x - x^{2}}- 2$（$x \\in [0, 6]$）的图象绕坐标原点逆时针方向旋转角 $\\theta$（$0 \\le \\theta \\le \\alpha$），得到曲线 $C$. 若对于每一个旋转角 $\\theta$，曲线 $C$ 都是一个函数的图象，则 $\\alpha$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\arctan\\frac{2}{3}$.",
+          "solution": "<p>原曲线可参数化为 $(x,y(x))$，其中</p><p>$y(x)=\\sqrt{13-(x-3)^{2}}-2$，$0\\le x\\leqslant6$.</p><p>旋转 $\\theta$ 后点的横坐标为</p>\n$$\nX_{\\theta}(x)=x\\cos\\theta-y(x)\\sin\\theta\n$$\n<p>若旋转后的曲线是函数图象，则参数 $x$ 到旋转后横坐标的映射必须单射，从而需考察</p><p>$X_{\\theta}'(x)=\\cos\\theta-y'(x)\\sin\\theta$，$y'(x)=\\frac{3-x}{\\sqrt{13-(x-3)^{2}}}$.</p><p>在 $[0,6]$ 上，$y'(x)\\le y'(0)=\\dfrac{3}{2}$，因此当 $0\\le\\theta\\le\\arctan\\dfrac{2}{3}$ 时，</p>\n$$\nX_{\\theta}'(x)\\ge\\cos\\theta-\\frac{3}{2}\\sin\\theta\\geqslant0\n$$\n<p>除端点情形外导数为正，故 $X_{\\theta}(x)$ 严格递增，旋转后的曲线是函数图象.</p><p>若 $\\theta>\\arctan\\dfrac{2}{3}$ 且 $\\theta&#x3C;\\dfrac\\pi2$，则</p><p>$X_{\\theta}'(0)=\\cos\\theta-\\frac{3}{2}\\sin\\theta&#x3C;0$，$X_{\\theta}'(6)=\\cos\\theta+\\frac{3}{2}\\sin\\theta>0$.</p><p>又因</p>\n$$\ny''(x)=-\\frac{13}{\\left(13-(x-3)^{2}\\right)^{\\frac{3}{2}}}&#x3C;0\n$$\n<p>故 $X_{\\theta}'(x)$ 在 $[0,6]$ 上严格递增，$X_{\\theta}(x)$ 先减后增，在某个内点取得唯一最小值. 取该最小值上方且足够接近的一个横坐标，由连续性可得对应的两个不同参数值；旋转后两点横坐标相同而点本身不同，因而纵坐标不同，曲线不是函数图象. 当 $\\theta=\\dfrac\\pi2$ 时，$X_{\\theta}(x)=-y(x)$，且 $X_{\\theta}(0)=X_{\\theta}(6)=0$ 而 $X_{\\theta}(3)\\neq0$，同样不是单射，所以任何 $\\alpha\\ge\\dfrac\\pi2$ 也不可能满足题设. 因而允许的最大旋转角为 $\\arctan\\dfrac{2}{3}$.</p>"
         }
       ]
     },
@@ -281,7 +112,7 @@
       "problems": [
         {
           "num": 15,
-          "body": "“$-2 \\le a \\le 2$”是“实系数一元二次方程 $x^2 + ax + 1 = 0$ 有虚根”的（ ）",
+          "body": "“$-2 \\le a \\le 2$”是“实系数一元二次方程 $x^{2} + ax + 1 = 0$ 有虚根”的（ ）",
           "choices": [
             "必要不充分条件",
             "充分不必要条件",
@@ -289,13 +120,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "A.",
-          "solution": "方程 $x^2+ax+1=0$ 有虚根的充要条件是判别式小于零，即\r\n\n$$\n\\Delta=a^2-4<0 \\Longleftrightarrow  -2<a<2\n$$\n\r\n因此 $-2\\le a\\leqslant2$ 是该条件的必要条件，但在 $a=2$ 或 $a=-2$ 时方程有重根而不是虚根，故不是充分条件. 所以应选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>方程 $x^{2}+ax+1=0$ 有虚根的充要条件是判别式小于零，即</p>\n$$\n\\Delta=a^{2}-4&#x3C;0 \\Longleftrightarrow  -2&#x3C;a&#x3C;2\n$$\n<p>因此 $-2\\le a\\leqslant2$ 是该条件的必要条件，但在 $a=2$ 或 $a=-2$ 时方程有重根而不是虚根，故不是充分条件. 所以应选 A.</p>"
         },
         {
           "num": 16,
-          "body": "若事件 $E$ 与 $F$ 相互独立，且 $P(E) = P(F) = \\frac{1}{4}$，则 $P(E \\cap F)$ 的值等于（ ）",
+          "body": "若事件 $E$ 与 $F$ 相互独立，且 $P(E) = P(F) = \\frac{1}{4}$，则 $P(E \\cap F)$ 的值等于（ ）",
           "choices": [
             "$0$",
             "$\\frac{1}{16}$",
@@ -303,13 +132,11 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "B.",
-          "solution": "由事件 $E$ 与 $F$ 相互独立，\r\n\n$$\nP(E\\cap F)=P(E)P(F)=\\frac14\\cdot\\frac14=\\frac1{16}\n$$\n\r\n所以应选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由事件 $E$ 与 $F$ 相互独立，</p>\n$$\nP(E\\cap F)=P(E)P(F)=\\frac{1}{4}\\cdot\\frac{1}{4}=\\frac{1}{16}\n$$\n<p>所以应选 B.</p>"
         },
         {
           "num": 17,
-          "body": "在发生某公共卫生事件期间，有专业机构认为该事件在一段时间没有发生规模群体感染的标志为“连续 $10$ 天，每天新增疑似病例不超过 $7$ 人”. 根据过去 $10$ 天甲，乙，丙，丁四地新增疑似病例数据，一定符合该标志的是（ ）",
+          "body": "在发生某公共卫生事件期间，有专业机构认为该事件在一段时间没有发生规模群体感染的标志为“连续 $10$ 天，每天新增疑似病例不超过 $7$ 人”. 根据过去 $10$ 天甲，乙，丙，丁四地新增疑似病例数据，一定符合该标志的是（ ）",
           "choices": [
             "甲地：总体均值为 $3$，中位数为 $4$",
             "乙地：总体均值为 $1$，总体方差大于 $0$",
@@ -317,13 +144,11 @@
             "丁地：总体均值为 $2$，总体方差为 $3$"
           ],
           "answer": "D.",
-          "solution": "设过去十天的新增疑似病例数为非负整数 $x_1$，$\\ldots$，$x_{10}$. 对丁地，均值为 $2$，方差为 $3$，所以\r\n$\\sum_{i=1}^{10}x_i=20$，$\\sum_{i=1}^{10}x_i^2=10(3+2^2)=70$.\r\n若某一天 $x_i=t\\geqslant8$，由于其余九天的病例数非负，故 $t\\leqslant20$，且其余九天的和为 $20-t$. 由均方不等式，\r\n\n$$\n\\sum_{j\\ne i}x_j^2\\ge\\frac{(20-t)^2}{9}\n$$\n\r\n从而\r\n$H(t)=t^2+\\frac{(20-t)^2}{9}$，$\\sum_{j=1}^{10}x_j^2\\ge H(t)$.\r\n对 $8\\le t\\leqslant20$，有\r\n\n$$\nH'(t)=2t-\\frac{2(20-t)}9=\\frac{20(t-2)}9>0\n$$\n\r\n故 $H(t)\\ge H(8)=80>70$，矛盾. 因此每天新增病例数都不超过 $7$，丁地一定符合标志.\r\n\r\n其余选项均不能保证最大值不超过 $7$. 例如甲地可取数据 $0$，$0$，$0$，$0$，$4$，$4$，$4$，$4$，$4$，$10$，乙地可取 $0$，$0$，$0$，$0$，$0$，$0$，$0$，$0$，$0$，$10$，丙地可取 $0$，$0$，$0$，$1$，$1$，$3$，$3$，$3$，$3$，$10$，它们分别满足相应条件但都出现了超过 $7$ 的数据. 所以应选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设过去十天的新增疑似病例数为非负整数 $x_{1}$，$\\ldots$，$x_{10}$. 对丁地，均值为 $2$，方差为 $3$，所以</p><p>$\\sum_{i=1}^{10}x_{i}=20$，$\\sum_{i=1}^{10}x_{i}^{2}=10(3+2^{2})=70$.</p><p>若某一天 $x_{i}=t\\geqslant8$，由于其余九天的病例数非负，故 $t\\leqslant20$，且其余九天的和为 $20-t$. 由均方不等式，</p>\n$$\n\\sum_{j\\ne i}x_{j}^{2}\\ge\\frac{(20-t)^{2}}{9}\n$$\n<p>从而</p><p>$H(t)=t^{2}+\\frac{(20-t)^{2}}{9}$，$\\sum_{j=1}^{10}x_{j}^{2}\\ge H(t)$.</p><p>对 $8\\le t\\leqslant20$，有</p>\n$$\nH'(t)=2t-\\frac{2(20-t)}{9}=\\frac{20(t-2)}{9}>0\n$$\n<p>故 $H(t)\\ge H(8)=80>70$，矛盾. 因此每天新增病例数都不超过 $7$，丁地一定符合标志.</p><p>其余选项均不能保证最大值不超过 $7$. 例如甲地可取数据 $0$，$0$，$0$，$0$，$4$，$4$，$4$，$4$，$4$，$10$，乙地可取 $0$，$0$，$0$，$0$，$0$，$0$，$0$，$0$，$0$，$10$，丙地可取 $0$，$0$，$0$，$1$，$1$，$3$，$3$，$3$，$3$，$10$，它们分别满足相应条件但都出现了超过 $7$ 的数据. 所以应选 D.</p>"
         },
         {
           "num": 18,
-          "body": "过圆 $C: (x - 1)^2 + (y - 1)^2 = 1$ 的圆心作直线分别交 $x$，$y$ 正半轴于点 $A$，$B$，$\\triangle AOB$ 被圆分成四部分（如图），若这四部分图形面积满足 $S_{\\mathrm I} + S_{\\mathrm{IV}} = S_{\\mathrm{II}} + S_{\\mathrm{III}}$，则直线 $AB$ 有（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shanghai_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>过圆 $C: (x - 1)^{2} + (y - 1)^{2} = 1$ 的圆心作直线分别交 $x$，$y$ 正半轴于点 $A$，$B$，$\\triangle AOB$ 被圆分成四部分（如图），若这四部分图形面积满足 $S_{\\mathrm{I}}+ S_{\\mathrm{IV}}= S_{\\mathrm{II}}+ S_{\\mathrm{III}}$，则直线 $AB$ 有（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$0$ 条",
             "$1$ 条",
@@ -331,9 +156,7 @@
             "$3$ 条"
           ],
           "answer": "B.",
-          "solution": "设直线与两坐标轴的交点为 $A=(a,0)$，$B=(0,b)$. 因为直线过圆心 $C=(1,1)$，所以\r\n\n$$\n\\frac1a+\\frac1b=1\n$$\n\r\n令 $t=a-1>0$，则 $b-1=\\dfrac1t$，且每个正数 $t$ 唯一确定一条这样的直线.\r\n\r\n区域 $S_{\\mathrm{II}}$ 由两坐标轴和圆在第一象限的弧围成，其面积是单位正方形面积减去四分之一单位圆面积，即\r\n\n$$\nS_{\\mathrm{II}}=1-\\frac\\pi4\n$$\n\r\n直线 $AB$ 过圆心，且三角形 $AOB$ 位于直线 $AB$ 的下侧，所以圆在三角形 $AOB$ 内的部分 $S_{\\mathrm{IV}}$ 是一个半圆，从而\r\n\n$$\nS_{\\mathrm{IV}}=\\frac\\pi2\n$$\n\r\n\r\n令 $T_A=(1,0)$，并令 $\\phi=\\arctan t$. 设直线与圆在靠近 $A$ 的交点为 $P$，则由方向向量 $(t,-1)$ 得\r\n\n$$\nP=C+\\frac{(t,-1)}{\\sqrt{1+t^2}}\n$$\n\r\n三角形 $AT_AP$ 的面积为 $\\dfrac12t\\left(1-\\dfrac1{\\sqrt{1+t^2}}\\right)$，弦 $T_AP$ 与弧 $T_AP$ 所夹的圆弓形面积为 $\\dfrac12\\left(\\phi-\\dfrac{t}{\\sqrt{1+t^2}}\\right)$，因此\r\n\n$$\nS_{\\mathrm I}=\\frac{t-\\phi}{2}=\\frac{t-\\arctan t}{2}\n$$\n\r\n交换 $x$，$y$ 后，区域 $S_{\\mathrm{III}}$ 的对应参数为 $\\frac{1}{t}$，同样计算得\r\n\n$$\nS_{\\mathrm{III}}=\\frac{t^{-1}-\\arctan(t^{-1})}{2}\n$$\n\r\n于是原条件等价于\r\n\n$$\nS_{\\mathrm I}-S_{\\mathrm{III}}=S_{\\mathrm{II}}-S_{\\mathrm{IV}}=1-\\frac{3\\pi}{4}\n$$\n\r\n令\r\n\n$$\nG(t)=S_{\\mathrm I}-S_{\\mathrm{III}}=\\frac12\\left(t-\\frac1t-\\arctan t+\\arctan\\frac1t\\right)\n$$\n\r\n则\r\n$G'(t)=\\frac12\\left(1+\\frac1{t^2}-\\frac2{1+t^2}\\right)=\\frac{t^4+1}{2t^2(1+t^2)}>0$，（$t>0$）.\r\n并且 $G(t)\\to-\\infty$（$t\\to0^+$），$G(t)\\to+\\infty$（$t\\to+\\infty$），所以方程 $G(t)=1-\\dfrac{3\\pi}{4}$ 恰有一个正数解，即恰有一条直线满足条件. 所以应选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设直线与两坐标轴的交点为 $A=(a,0)$，$B=(0,b)$. 因为直线过圆心 $C=(1,1)$，所以</p>\n$$\n\\frac{1}{a}+\\frac{1}{b}=1\n$$\n<p>令 $t=a-1>0$，则 $b-1=\\dfrac{1}{t}$，且每个正数 $t$ 唯一确定一条这样的直线.</p><p>区域 $S_{\\mathrm{II}}$ 由两坐标轴和圆在第一象限的弧围成，其面积是单位正方形面积减去四分之一单位圆面积，即</p>\n$$\nS_{\\mathrm{II}}=1-\\frac{\\pi}{4}\n$$\n<p>直线 $AB$ 过圆心，且三角形 $AOB$ 位于直线 $AB$ 的下侧，所以圆在三角形 $AOB$ 内的部分 $S_{\\mathrm{IV}}$ 是一个半圆，从而</p>\n$$\nS_{\\mathrm{IV}}=\\frac{\\pi}{2}\n$$\n<p>令 $T_{A}=(1,0)$，并令 $\\phi=\\arctan t$. 设直线与圆在靠近 $A$ 的交点为 $P$，则由方向向量 $(t,-1)$ 得</p>\n$$\nP=C+\\frac{(t,-1)}{\\sqrt{1+t^{2}}}\n$$\n<p>三角形 $AT_{A}P$ 的面积为 $\\dfrac{1}{2}t\\left(1-\\dfrac1{\\sqrt{1+t^{2}}}\\right)$，弦 $T_{A}P$ 与弧 $T_{A}P$ 所夹的圆弓形面积为 $\\dfrac{1}{2}\\left(\\phi-\\dfrac{t}{\\sqrt{1+t^{2}}}\\right)$，因此</p>\n$$\nS_{\\mathrm{I}}=\\frac{t-\\phi}{2}=\\frac{t-\\arctan t}{2}\n$$\n<p>交换 $x$，$y$ 后，区域 $S_{\\mathrm{III}}$ 的对应参数为 $\\frac{1}{t}$，同样计算得</p>\n$$\nS_{\\mathrm{III}}=\\frac{t^{-1}-\\arctan(t^{-1})}{2}\n$$\n<p>于是原条件等价于</p>\n$$\nS_{\\mathrm{I}}-S_{\\mathrm{III}}=S_{\\mathrm{II}}-S_{\\mathrm{IV}}=1-\\frac{3\\pi}{4}\n$$\n<p>令</p>\n$$\nG(t)=S_{\\mathrm{I}}-S_{\\mathrm{III}}=\\frac{1}{2}\\left(t-\\frac{1}{t}-\\arctan t+\\arctan\\frac{1}{t}\\right)\n$$\n<p>则</p><p>$G'(t)=\\frac{1}{2}\\left(1+\\frac{1}{t^{2}}-\\frac{2}{1+t^{2}}\\right)=\\frac{t^{4}+1}{2t^{2}(1+t^{2})}>0$，（$t>0$）.</p><p>并且 $G(t)\\to-\\infty$（$t\\to0^{+}$），$G(t)\\to+\\infty$（$t\\to+\\infty$），所以方程 $G(t)=1-\\dfrac{3\\pi}{4}$ 恰有一个正数解，即恰有一条直线满足条件. 所以应选 B.</p>"
         }
       ]
     },
@@ -342,51 +165,40 @@
       "problems": [
         {
           "num": 19,
-          "body": "如图，在直三棱柱 $ABC - A_1B_1C_1$ 中，$AA_1 = BC = AB = 2$，$AB \\perp BC$，求二面角 $B_1 - A_1C - C_1$ 的大小.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2009/img/shanghai_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AA_{1} = BC = AB = 2$，$AB \\perp BC$，求二面角 $B_{1} - A_{1}C - C_{1}$ 的大小.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立空间直角坐标系，取 $B$ 为原点，$BA$，$BC$，$BB_1$ 所在直线分别为 $x$ 轴、$y$ 轴、$z$ 轴，则\r\n$B=(0,0,0)$，$A=(2,0,0)$，$C=(0,2,0)$\r\n$A_1=(2,0,2)$，$B_1=(0,0,2)$，$C_1=(0,2,2)$.\r\n设 $\\mathbf{u}=\\overrightarrow{A_1C}=(-2,2,-2)$. 在平面 $B_1A_1C$ 内，取从棱 $A_1C$ 指向 $B_1$ 且垂直于棱 $A_1C$ 的向量\r\n\n$$\n\\mathbf{v}_1=\\overrightarrow{A_1B_1}-\\frac{\\overrightarrow{A_1B_1}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}=(-2,0,0)-\\frac{4}{12}(-2,2,-2)=\\frac{2}{3}(-2,-1,1)\n$$\n\r\n在平面 $A_1CC_1$ 内，取从棱 $A_1C$ 指向 $C_1$ 且垂直于棱 $A_1C$ 的向量\r\n\n$$\n\\mathbf{v}_2=\\overrightarrow{A_1C_1}-\\frac{\\overrightarrow{A_1C_1}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}=(-2,2,0)-\\frac{8}{12}(-2,2,-2)=\\frac{2}{3}(-1,1,2)\n$$\n\r\n所以所求二面角等于 $\\mathbf{v}_1$ 与 $\\mathbf{v}_2$ 的夹角 $\\theta$，从而\r\n\n$$\n\\cos\\theta=\\frac{(-2,-1,1)\\cdot(-1,1,2)}{\\sqrt{(-2)^2+(-1)^2+1^2}\\sqrt{(-1)^2+1^2+2^2}}=\\frac{1}{2}\n$$\n\r\n由于二面角的范围是 $[0,\\pi]$，故 $\\theta=\\frac{\\pi}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立空间直角坐标系，取 $B$ 为原点，$BA$，$BC$，$BB_{1}$ 所在直线分别为 $x$ 轴、$y$ 轴、$z$ 轴，则</p><p>$B=(0,0,0)$，$A=(2,0,0)$，$C=(0,2,0)$</p><p>$A_{1}=(2,0,2)$，$B_{1}=(0,0,2)$，$C_{1}=(0,2,2)$.</p><p>设 $\\mathbf{u}=\\overrightarrow{A_1C}=(-2,2,-2)$. 在平面 $B_{1}A_{1}C$ 内，取从棱 $A_{1}C$ 指向 $B_{1}$ 且垂直于棱 $A_{1}C$ 的向量</p>\n$$\n\\mathbf{v}_{1}=\\overrightarrow{A_1B_1}-\\frac{\\overrightarrow{A_1B_1}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}=(-2,0,0)-\\frac{4}{12}(-2,2,-2)=\\frac{2}{3}(-2,-1,1)\n$$\n<p>在平面 $A_{1}CC_{1}$ 内，取从棱 $A_{1}C$ 指向 $C_{1}$ 且垂直于棱 $A_{1}C$ 的向量</p>\n$$\n\\mathbf{v}_{2}=\\overrightarrow{A_1C_1}-\\frac{\\overrightarrow{A_1C_1}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}=(-2,2,0)-\\frac{8}{12}(-2,2,-2)=\\frac{2}{3}(-1,1,2)\n$$\n<p>所以所求二面角等于 $\\mathbf{v}_{1}$ 与 $\\mathbf{v}_{2}$ 的夹角 $\\theta$，从而</p>\n$$\n\\cos\\theta=\\frac{(-2,-1,1)\\cdot(-1,1,2)}{\\sqrt{(-2)^{2}+(-1)^{2}+1^{2}}\\sqrt{(-1)^{2}+1^{2}+2^{2}}}=\\frac{1}{2}\n$$\n<p>由于二面角的范围是 $[0,\\pi]$，故 $\\theta=\\frac{\\pi}{3}$.</p>"
         },
         {
           "num": 20,
-          "body": "有时可用函数 $f(x) = \\begin{cases}\r\n0.1 + 15 \\ln \\frac{a}{a - x}, & x \\le 6,\\\\\r\n\\frac{x - 4.4}{x - 4}, & x > 6,\r\n\\end{cases}$ 描述学习某学科知识的掌握程度，其中 $x$ 表示某学科知识的学习次数（$x \\in \\mathbf{N}^*$），$f(x)$ 表示对该学科知识的掌握程度，正实数 $a$ 与学科知识有关.\r\n\r\n\n(1) 证明：当 $x \\ge 7$ 时，掌握程度的增加量 $f(x + 1) - f(x)$ 总是下降；\n\n(2) 根据经验，学科甲，乙，丙对应的 $a$ 的取值范围分别为 $(115, 121]$，$(121, 127]$，$(121, 133]$. 当学习某学科知识 $6$ 次时，掌握程度是 $85\\%$，请确定相应的学科.",
-          "choices": [],
+          "body": "<p>有时可用函数 $f(x) = \\begin{cases}0.1 + 15 \\ln \\frac{a}{a - x},&#x26;x \\le 6,\\\\  \\frac{x - 4.4}{x - 4},&#x26;x > 6,\\end{cases}$ 描述学习某学科知识的掌握程度，其中 $x$ 表示某学科知识的学习次数（$x \\in \\mathbf{N}^{*}$），$f(x)$ 表示对该学科知识的掌握程度，正实数 $a$ 与学科知识有关.</p><ol class=\"enumerate\"><li><p>证明：当 $x \\ge 7$ 时，掌握程度的增加量 $f(x + 1) - f(x)$ 总是下降；</p></li><li><p>根据经验，学科甲，乙，丙对应的 $a$ 的取值范围分别为 $(115, 121]$，$(121, 127]$，$(121, 133]$. 当学习某学科知识 $6$ 次时，掌握程度是 $85\\%$，请确定相应的学科.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $x\\ge 7$ 时，$x$ 和 $x+1$ 都大于 $6$，因此\r\n\n$$\nf(x)=\\frac{x-4.4}{x-4}=1-\\frac{0.4}{x-4}\n$$\n\r\n令 $\\Delta_x=f(x+1)-f(x)$，则\r\n\n$$\n\\Delta_x=\\frac{0.4}{(x-4)(x-3)}\n$$\n\r\n于是\r\n\n$$\n\\Delta_{x+1}-\\Delta_x=\\frac{0.4}{(x-3)(x-2)}-\\frac{0.4}{(x-4)(x-3)}=-\\frac{0.8}{(x-4)(x-3)(x-2)}<0\n$$\n\r\n所以当 $x\\ge 7$ 时，掌握程度的增加量总是下降.\n\n(2) 由题意，$f(6)=0.85$，且 $6\\le 6$，故\r\n\n$$\n0.1+15\\ln\\frac{a}{a-6}=0.85\n$$\n\r\n即\r\n$\\ln\\frac{a}{a-6}=\\frac{1}{20}$，$\\frac{a}{a-6}=\\mathrm{e}^{\\frac{1}{20}}$.\r\n解得\r\n\n$$\na=\\frac{6\\mathrm{e}^{\\frac{1}{20}}}{\\mathrm{e}^{\\frac{1}{20}}-1}=\\frac{6}{1-\\mathrm{e}^{-\\frac{1}{20}}}\\approx123.025\n$$\n\r\n因为 $a\\approx123.025$，所以 $121<a\\leqslant127$ 且 $121<a\\leqslant133$，而 $a\\notin(115,121]$. 因此相应的学科为乙、丙.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x\\ge 7$ 时，$x$ 和 $x+1$ 都大于 $6$，因此</p>\n$$\nf(x)=\\frac{x-4.4}{x-4}=1-\\frac{0.4}{x-4}\n$$\n<p>令 $\\Delta_{x}=f(x+1)-f(x)$，则</p>\n$$\n\\Delta_{x}=\\frac{0.4}{(x-4)(x-3)}\n$$\n<p>于是</p>\n$$\n\\Delta_{x+1}-\\Delta_{x}=\\frac{0.4}{(x-3)(x-2)}-\\frac{0.4}{(x-4)(x-3)}=-\\frac{0.8}{(x-4)(x-3)(x-2)}&#x3C;0\n$$\n<p>所以当 $x\\ge 7$ 时，掌握程度的增加量总是下降.</p></li><li><p>由题意，$f(6)=0.85$，且 $6\\le 6$，故</p>\n$$\n0.1+15\\ln\\frac{a}{a-6}=0.85\n$$\n<p>即</p><p>$\\ln\\frac{a}{a-6}=\\frac{1}{20}$，$\\frac{a}{a-6}=\\mathrm{e}^{\\frac{1}{20}}$.</p><p>解得</p>\n$$\na=\\frac{6\\mathrm{e}^{\\frac{1}{20}}}{\\mathrm{e}^{\\frac{1}{20}}-1}=\\frac{6}{1-\\mathrm{e}^{-\\frac{1}{20}}}\\approx123.025\n$$\n<p>因为 $a\\approx123.025$，所以 $121&#x3C;a\\leqslant127$ 且 $121&#x3C;a\\leqslant133$，而 $a\\notin(115,121]$. 因此相应的学科为乙、丙.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知双曲线 $C: \\frac{x^2}{2} - y^2 = 1$，设过点 $A(-3\\sqrt{2}, 0)$ 的直线 $l$ 的方向向量 $\\mathbf{e} = (1, k)$.\r\n\r\n\n(1) 当直线 $l$ 与双曲线 $C$ 的一条渐近线 $m$ 平行时，求直线 $l$ 的方程及 $l$ 与 $m$ 的距离；\n\n(2) 证明：当 $k > \\frac{\\sqrt{2}}{2}$ 时，在双曲线 $C$ 的右支上不存在点 $Q$，使之到直线 $l$ 的距离为 $\\sqrt{6}$.",
-          "choices": [],
+          "body": "<p>已知双曲线 $C: \\frac{x^{2}}{2}- y^{2} = 1$，设过点 $A(-3\\sqrt{2}, 0)$ 的直线 $l$ 的方向向量 $\\mathbf{e}= (1, k)$.</p><ol class=\"enumerate\"><li><p>当直线 $l$ 与双曲线 $C$ 的一条渐近线 $m$ 平行时，求直线 $l$ 的方程及 $l$ 与 $m$ 的距离；</p></li><li><p>证明：当 $k > \\frac{\\sqrt{2}}{2}$ 时，在双曲线 $C$ 的右支上不存在点 $Q$，使之到直线 $l$ 的距离为 $\\sqrt{6}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 直线 $l$ 过点 $A(-3\\sqrt{2},0)$，方向向量为 $\\mathbf{e}=(1,k)$，故\r\n$l:y=k(x+3\\sqrt{2})$，$kx-y+3\\sqrt{2}k=0$.\r\n双曲线 $C$ 的渐近线为\r\n$m_1:y=\\frac{x}{\\sqrt{2}}$，$m_2:y=-\\frac{x}{\\sqrt{2}}$.\r\n当 $k=\\frac{\\sqrt{2}}{2}$ 时，$l\\parallel m_1$，且\r\n\n$$\nl:y=\\frac{x}{\\sqrt{2}}+3\n$$\n\r\n所以\r\n\n$$\nd(l,m_1)=\\frac{3\\sqrt{2}}{\\sqrt{1+2}}=\\sqrt{6}\n$$\n\r\n当 $k=-\\frac{\\sqrt{2}}{2}$ 时，$l\\parallel m_2$，且\r\n\n$$\nl:y=-\\frac{x}{\\sqrt{2}}-3\n$$\n\r\n同理有 $d(l,m_2)=\\sqrt{6}$. 因此，直线 $l$ 的方程及其与相应渐近线的距离分别为\r\n$k=\\frac{\\sqrt{2}}{2}:$，$l:y=\\frac{x}{\\sqrt{2}}+3$，$d=\\sqrt{6};$\r\n$k=-\\frac{\\sqrt{2}}{2}:$，$l:y=-\\frac{x}{\\sqrt{2}}-3$，$d=\\sqrt{6}$.\n\n(2) 设 $Q(x,y)$ 在双曲线 $C$ 的右支上，则 $x\\ge\\sqrt{2}$，且\r\n\n$$\ny=\\pm\\sqrt{\\frac{x^2}{2}-1}\n$$\n\r\n点 $Q$ 到直线 $l$ 的距离为\r\n\n$$\nd(Q,l)=\\frac{\\left|kx-y+3\\sqrt{2}k\\right|}{\\sqrt{k^2+1}}\n$$\n\r\n先考虑双曲线的下支. 此时\r\n\n$$\nkx-y+3\\sqrt{2}k=kx+\\sqrt{\\frac{x^2}{2}-1}+3\\sqrt{2}k\\geqslant4\\sqrt{2}k\n$$\n\r\n由 $k>\\frac{\\sqrt{2}}{2}$ 得\r\n\n$$\n(4\\sqrt{2}k)^2-6(k^2+1)=26k^2-6>0\n$$\n\r\n所以 $kx-y+3\\sqrt{2}k>\\sqrt{6(k^2+1)}$，从而 $d(Q,l)>\\sqrt{6}$.\r\n\r\n再考虑双曲线的上支. 令\r\n$g(x)=kx-\\sqrt{\\frac{x^2}{2}-1}$，$x\\ge\\sqrt{2}$.\r\n因为 $k>\\frac{\\sqrt{2}}{2}$，且\r\n\n$$\ng'(x)=k-\\frac{x}{2\\sqrt{\\frac{x^2}{2}-1}}\n$$\n\r\n令 $g'(x)=0$，得\r\n\n$$\nx_0=\\frac{2k}{\\sqrt{2k^2-1}}\n$$\n\r\n；由 $g'(x)$ 在 $x_0$ 左侧为负、右侧为正，知 $g(x)$ 在 $x_0$ 处取得最小值，且\r\n\n$$\ng(x_0)=\\sqrt{2k^2-1}\n$$\n\r\n于是\r\n\n$$\nkx-y+3\\sqrt{2}k=g(x)+3\\sqrt{2}k\\geqslant3\\sqrt{2}k+\\sqrt{2k^2-1}>0\n$$\n\r\n并且\r\n\n$$\n\\left(3\\sqrt{2}k+\\sqrt{2k^2-1}\\right)^2-6(k^2+1)\r\n=7(2k^2-1)+6\\sqrt{2}k\\sqrt{2k^2-1}>0\n$$\n\r\n所以仍有 $d(Q,l)>\\sqrt{6}$. 上、下两支均不可能出现距离等于 $\\sqrt{6}$ 的点，命题得证.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>直线 $l$ 过点 $A(-3\\sqrt{2},0)$，方向向量为 $\\mathbf{e}=(1,k)$，故</p><p>$l:y=k(x+3\\sqrt{2})$，$kx-y+3\\sqrt{2}k=0$.</p><p>双曲线 $C$ 的渐近线为</p><p>$m_{1}:y=\\frac{x}{\\sqrt{2}}$，$m_{2}:y=-\\frac{x}{\\sqrt{2}}$.</p><p>当 $k=\\frac{\\sqrt{2}}{2}$ 时，$l\\parallel m_{1}$，且</p>\n$$\nl:y=\\frac{x}{\\sqrt{2}}+3\n$$\n<p>所以</p>\n$$\nd(l,m_{1})=\\frac{3\\sqrt{2}}{\\sqrt{1+2}}=\\sqrt{6}\n$$\n<p>当 $k=-\\frac{\\sqrt{2}}{2}$ 时，$l\\parallel m_{2}$，且</p>\n$$\nl:y=-\\frac{x}{\\sqrt{2}}-3\n$$\n<p>同理有 $d(l,m_{2})=\\sqrt{6}$. 因此，直线 $l$ 的方程及其与相应渐近线的距离分别为</p><p>$k=\\frac{\\sqrt{2}}{2}:$，$l:y=\\frac{x}{\\sqrt{2}}+3$，$d=\\sqrt{6};$</p><p>$k=-\\frac{\\sqrt{2}}{2}:$，$l:y=-\\frac{x}{\\sqrt{2}}-3$，$d=\\sqrt{6}$.</p></li><li><p>设 $Q(x,y)$ 在双曲线 $C$ 的右支上，则 $x\\ge\\sqrt{2}$，且</p>\n$$\ny=\\pm\\sqrt{\\frac{x^{2}}{2}-1}\n$$\n<p>点 $Q$ 到直线 $l$ 的距离为</p>\n$$\nd(Q,l)=\\frac{\\left|kx-y+3\\sqrt{2}k\\right|}{\\sqrt{k^{2}+1}}\n$$\n<p>先考虑双曲线的下支. 此时</p>\n$$\nkx-y+3\\sqrt{2}k=kx+\\sqrt{\\frac{x^{2}}{2}-1}+3\\sqrt{2}k\\geqslant4\\sqrt{2}k\n$$\n<p>由 $k>\\frac{\\sqrt{2}}{2}$ 得</p>\n$$\n(4\\sqrt{2}k)^{2}-6(k^{2}+1)=26k^{2}-6>0\n$$\n<p>所以 $kx-y+3\\sqrt{2}k>\\sqrt{6(k^{2}+1)}$，从而 $d(Q,l)>\\sqrt{6}$.</p><p>再考虑双曲线的上支. 令</p><p>$g(x)=kx-\\sqrt{\\frac{x^{2}}{2}-1}$，$x\\ge\\sqrt{2}$.</p><p>因为 $k>\\frac{\\sqrt{2}}{2}$，且</p>\n$$\ng'(x)=k-\\frac{x}{2\\sqrt{\\frac{x^{2}}{2}-1}}\n$$\n<p>令 $g'(x)=0$，得</p>\n$$\nx_{0}=\\frac{2k}{\\sqrt{2k^{2}-1}}\n$$\n<p>；由 $g'(x)$ 在 $x_{0}$ 左侧为负、右侧为正，知 $g(x)$ 在 $x_{0}$ 处取得最小值，且</p>\n$$\ng(x_{0})=\\sqrt{2k^{2}-1}\n$$\n<p>于是</p>\n$$\nkx-y+3\\sqrt{2}k=g(x)+3\\sqrt{2}k\\geqslant3\\sqrt{2}k+\\sqrt{2k^{2}-1}>0\n$$\n<p>并且</p>\n$$\n\\left(3\\sqrt{2}k+\\sqrt{2k^{2}-1}\\right)^{2}-6(k^{2}+1)  =7(2k^{2}-1)+6\\sqrt{2}k\\sqrt{2k^{2}-1}>0\n$$\n<p>所以仍有 $d(Q,l)>\\sqrt{6}$. 上、下两支均不可能出现距离等于 $\\sqrt{6}$ 的点，命题得证.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知函数 $y = f^{-1}(x)$ 是 $y = f(x)$ 的反函数. 定义：若对给定的实数 $a$（$a \\neq 0$），函数 $y = f(x + a)$ 与 $y = f^{-1}(x + a)$ 互为反函数，则称 $y = f(x)$ 满足“$a$ 和性质”；若函数 $y = f(ax)$ 与 $y = f^{-1}(ax)$ 互为反函数，则称 $y = f(x)$ 满足“$a$ 积性质”.\r\n\r\n\n(1) 判断函数 $g(x) = x^2$（$x > 0$）是否满足“$1$ 和性质”，并说明理由；\n\n(2) 求所有满足“$2$ 和性质”的一次函数；\n\n(3) 设函数 $y = f(x)$（$x > 0$）对任何 $a > 0$ 都满足“$a$ 积性质”，求 $y = f(x)$ 的表达式.",
-          "choices": [],
+          "body": "<p>已知函数 $y = f^{-1}(x)$ 是 $y = f(x)$ 的反函数. 定义：若对给定的实数 $a$（$a \\neq 0$），函数 $y = f(x + a)$ 与 $y = f^{-1}(x + a)$ 互为反函数，则称 $y = f(x)$ 满足“$a$ 和性质”；若函数 $y = f(ax)$ 与 $y = f^{-1}(ax)$ 互为反函数，则称 $y = f(x)$ 满足“$a$ 积性质”.</p><ol class=\"enumerate\"><li><p>判断函数 $g(x) = x^{2}$（$x > 0$）是否满足“$1$ 和性质”，并说明理由；</p></li><li><p>求所有满足“$2$ 和性质”的一次函数；</p></li><li><p>设函数 $y = f(x)$（$x > 0$）对任何 $a > 0$ 都满足“$a$ 积性质”，求 $y = f(x)$ 的表达式.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $x>0$ 时，$g^{-1}(x)=\\sqrt{x}$. 若记\r\n$u(x)=g(x+1)=(x+1)^2$，$v(x)=g^{-1}(x+1)=\\sqrt{x+1}$，\r\n则\r\n\n$$\nu\\bigl(v(x)\\bigr)=\\left(\\sqrt{x+1}+1\\right)^2\\neq x\n$$\n\r\n因此 $u(x)$ 与 $v(x)$ 不是互为反函数，函数 $g(x)=x^2$ 不满足“$1$ 和性质”.\n\n(2) 设一次函数 $f(x)=rx+s$，其中 $r\\neq0$，则\r\n\n$$\nf^{-1}(x)=\\frac{x-s}{r}\n$$\n\r\n令\r\n$u(x)=f(x+2)=rx+2r+s$，$v(x)=f^{-1}(x+2)=\\frac{x+2-s}{r}$.\r\n若 $u$ 与 $v$ 互为反函数，则 $u(v(x))=x$，而\r\n\n$$\nu\\bigl(v(x)\\bigr)=x+2+2r\n$$\n\r\n故 $r=-1$. 反之，当 $r=-1$ 时，$u(x)=v(x)=-x-2+s$，且\r\n\n$$\nu\\bigl(u(x)\\bigr)=x\n$$\n\r\n所以所有满足“$2$ 和性质”的一次函数为\r\n$y=-x+s$，（$s\\in\\mathbb{R}$）.\n\n(3) 记 $h=f^{-1}$. 对任意 $a>0$，函数 $x\\mapsto f(ax)$ 与 $x\\mapsto h(ax)$ 互为反函数，因此\r\n\n$$\nf\\bigl(a h(ax)\\bigr)=x\n$$\n\r\n对等式两边施加 $h$，得到\r\n$a h(ax)=h(x)$，$h(ax)=\\frac{h(x)}{a}$.\r\n任取正数 $t$，$x$，令 $a=\\frac{t}{x}$，则\r\n$h(t)=\\frac{x}{t}h(x)$，$th(t)=xh(x)$.\r\n所以存在常数 $c$，使得\r\n\n$$\nh(t)=\\frac{c}{t}\n$$\n\r\n由于 $h(t)$ 的值属于函数 $f$ 的定义域 $(0,+\\infty)$，故 $c>0$. 于是\r\n$f(x)=\\frac{c}{x}$，（$x>0$）.\r\n反之，若 $f(x)=\\frac{c}{x}$，其中 $c>0$，则 $f^{-1}(x)=\\frac{c}{x}$，且对任意 $a>0$，\r\n\n$$\nf(ax)=f^{-1}(ax)=\\frac{c}{ax}\n$$\n\r\n并且\r\n\n$$\nf\\left(a\\cdot\\frac{c}{ax}\\right)=x\n$$\n\r\n所以该函数确实对任意正数 $a$ 满足“$a$ 积性质”. 因此\r\n$y=\\frac{c}{x}$，（$c>0$）.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x>0$ 时，$g^{-1}(x)=\\sqrt{x}$. 若记</p><p>$u(x)=g(x+1)=(x+1)^{2}$，$v(x)=g^{-1}(x+1)=\\sqrt{x+1}$，</p><p>则</p>\n$$\nu\\bigl(v(x)\\bigr)=\\left(\\sqrt{x+1}+1\\right)^{2}\\neq x\n$$\n<p>因此 $u(x)$ 与 $v(x)$ 不是互为反函数，函数 $g(x)=x^{2}$ 不满足“$1$ 和性质”.</p></li><li><p>设一次函数 $f(x)=rx+s$，其中 $r\\neq0$，则</p>\n$$\nf^{-1}(x)=\\frac{x-s}{r}\n$$\n<p>令</p><p>$u(x)=f(x+2)=rx+2r+s$，$v(x)=f^{-1}(x+2)=\\frac{x+2-s}{r}$.</p><p>若 $u$ 与 $v$ 互为反函数，则 $u(v(x))=x$，而</p>\n$$\nu\\bigl(v(x)\\bigr)=x+2+2r\n$$\n<p>故 $r=-1$. 反之，当 $r=-1$ 时，$u(x)=v(x)=-x-2+s$，且</p>\n$$\nu\\bigl(u(x)\\bigr)=x\n$$\n<p>所以所有满足“$2$ 和性质”的一次函数为</p><p>$y=-x+s$，（$s\\in\\mathbb{R}$）.</p></li><li><p>记 $h=f^{-1}$. 对任意 $a>0$，函数 $x\\mapsto f(ax)$ 与 $x\\mapsto h(ax)$ 互为反函数，因此</p>\n$$\nf\\bigl(a h(ax)\\bigr)=x\n$$\n<p>对等式两边施加 $h$，得到</p><p>$a h(ax)=h(x)$，$h(ax)=\\frac{h(x)}{a}$.</p><p>任取正数 $t$，$x$，令 $a=\\frac{t}{x}$，则</p><p>$h(t)=\\frac{x}{t}h(x)$，$th(t)=xh(x)$.</p><p>所以存在常数 $c$，使得</p>\n$$\nh(t)=\\frac{c}{t}\n$$\n<p>由于 $h(t)$ 的值属于函数 $f$ 的定义域 $(0,+\\infty)$，故 $c>0$. 于是</p><p>$f(x)=\\frac{c}{x}$，（$x>0$）.</p><p>反之，若 $f(x)=\\frac{c}{x}$，其中 $c>0$，则 $f^{-1}(x)=\\frac{c}{x}$，且对任意 $a>0$，</p>\n$$\nf(ax)=f^{-1}(ax)=\\frac{c}{ax}\n$$\n<p>并且</p>\n$$\nf\\left(a\\cdot\\frac{c}{ax}\\right)=x\n$$\n<p>所以该函数确实对任意正数 $a$ 满足“$a$ 积性质”. 因此</p><p>$y=\\frac{c}{x}$，（$c>0$）.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "已知 $\\{a_n\\}$ 是公差为 $d$ 的等差数列，$\\{b_n\\}$ 是公比为 $q$ 的等比数列.\r\n\r\n\n(1) 若 $a_n = 3n + 1$，是否存在 $m$，$k \\in \\mathbf{N}^*$，有 $a_m + a_{m+1} = a_k$？请说明理由；\n\n(2) 找出所有数列 $\\{a_n\\}$ 和 $\\{b_n\\}$，使对一切 $n \\in \\mathbf{N}^*$，$\\frac{a_{n+1}}{a_n} = b_n$，并说明理由；\n\n(3) 若 $a_1 = 5$，$d = 4$，$b_1 = q = 3$，试确定所有的 $p$，使数列 $\\{a_n\\}$ 中存在某个连续 $p$ 项的和是数列 $\\{b_n\\}$ 中的一项，请证明.",
-          "choices": [],
+          "body": "<p>已知 $\\{a_{n}\\}$ 是公差为 $d$ 的等差数列，$\\{b_{n}\\}$ 是公比为 $q$ 的等比数列.</p><ol class=\"enumerate\"><li><p>若 $a_{n} = 3n + 1$，是否存在 $m$，$k \\in \\mathbf{N}^{*}$，有 $a_{m} + a_{m+1}= a_{k}$？请说明理由；</p></li><li><p>找出所有数列 $\\{a_{n}\\}$ 和 $\\{b_{n}\\}$，使对一切 $n \\in \\mathbf{N}^{*}$，$\\frac{a_{n+1}}{a_{n}}= b_{n}$，并说明理由；</p></li><li><p>若 $a_{1} = 5$，$d = 4$，$b_{1} = q = 3$，试确定所有的 $p$，使数列 $\\{a_{n}\\}$ 中存在某个连续 $p$ 项的和是数列 $\\{b_{n}\\}$ 中的一项，请证明.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $a_n=3n+1$，所以\r\n\n$$\na_m+a_{m+1}=(3m+1)+(3m+4)=6m+5\n$$\n\r\n若存在正整数 $m$，$k$ 使 $a_m+a_{m+1}=a_k$，则\r\n\n$$\n6m+5=3k+1\n$$\n\r\n即 $3(k-2m)=4$，这不可能. 因此不存在这样的 $m$，$k$.\n\n(2) 由于题设中的比值对一切正整数 $n$ 有意义，所以 $a_n\\neq0$，且 $b_n\\neq0$. 又因为 $b_{n+1}=qb_n$，故\r\n\n$$\nq=\\frac{b_{n+1}}{b_n}=\\frac{\\frac{a_{n+2}}{a_{n+1}}}{\\frac{a_{n+1}}{a_n}}=\\frac{a_na_{n+2}}{a_{n+1}^2}\n$$\n\r\n等差数列满足 $a_n=a_{n+1}-d$，$a_{n+2}=a_{n+1}+d$，所以\r\n\n$$\nq=\\frac{(a_{n+1}-d)(a_{n+1}+d)}{a_{n+1}^2}=1-\\frac{d^2}{a_{n+1}^2}\n$$\n\r\n若 $d\\neq0$，则 $a_{n+1}^2$ 对所有正整数 $n$ 都相同. 于是相邻三项满足\r\n\n$$\na_{n+1}^2=a_{n+2}^2=a_{n+3}^2\n$$\n\r\n由 $a_{n+2}-a_{n+1}=a_{n+3}-a_{n+2}=d\\neq0$，前两个等式分别迫使\r\n$a_{n+2}=-a_{n+1}$，$a_{n+3}=-a_{n+2}=a_{n+1}$，\r\n从而 $a_{n+3}-a_{n+1}=2d=0$，矛盾. 所以 $d=0$.\r\n\r\n此时 $a_n=a_1\\neq0$，由题设 $b_n=\\frac{a_{n+1}}{a_n}=1$，故 $b_1=1$，$q=1$. 反之，任取非零常数 $c$，令 $a_n=c$，$b_n=1$，即可满足题设条件. 因此所有数列为\r\n$a_n=c$，（$c\\neq0$），$b_n=1$.\n\n(3) 由 $a_1=5$，$d=4$，得\r\n\n$$\na_n=5+4(n-1)=4n+1\n$$\n\r\n又因 $b_1=q=3$，所以 $b_n=3^n$. 从第 $m$ 项起的连续 $p$ 项和为\r\n\n$$\n\\sum_{j=0}^{p-1}a_{m+j}=\\sum_{j=0}^{p-1}(4m+4j+1)=p(4m+1)+4\\cdot\\frac{p(p-1)}{2}=p(4m+2p-1)\n$$\n\r\n若该和等于某一项 $b_n=3^n$，则 $p$ 是 $3^n$ 的因数，故必有 $p=3^r$，其中 $r=0$，$1$，$2$，$\\ldots$. 设\r\n\n$$\n4m+2\\cdot3^r-1=3^s\n$$\n\r\n由于 $m\\geqslant1$，左端大于 $1$，且\r\n\n$$\n3^s\\equiv2\\cdot3^r-1\\equiv1\\pmod 4\n$$\n\r\n所以 $s$ 为偶数. 这说明上述必要条件没有进一步限制 $r$.\r\n\r\n反之，任取 $r=0$，$1$，$2$，$\\ldots$，取 $s=2r+2$，并令\r\n\n$$\nm=\\frac{3^{2r+2}-2\\cdot3^r+1}{4}\n$$\n\r\n由于 $3^{2r+2}\\equiv1\\pmod4$，且 $2\\cdot3^r-1\\equiv1\\pmod4$，故 $m$ 是正整数，并且\r\n\n$$\np(4m+2p-1)=3^r\\cdot3^{2r+2}=3^{3r+2}=b_{3r+2}\n$$\n\r\n当 $p=3^r$ 时成立. 因此所有可能的 $p$ 为\r\n$p=3^r$，（$r=0,1,2,\\ldots$）.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a_{n}=3n+1$，所以</p>\n$$\na_{m}+a_{m+1}=(3m+1)+(3m+4)=6m+5\n$$\n<p>若存在正整数 $m$，$k$ 使 $a_{m}+a_{m+1}=a_{k}$，则</p>\n$$\n6m+5=3k+1\n$$\n<p>即 $3(k-2m)=4$，这不可能. 因此不存在这样的 $m$，$k$.</p></li><li><p>由于题设中的比值对一切正整数 $n$ 有意义，所以 $a_{n}\\neq0$，且 $b_{n}\\neq0$. 又因为 $b_{n+1}=qb_{n}$，故</p>\n$$\nq=\\frac{b_{n+1}}{b_{n}}=\\frac{\\frac{a_{n+2}}{a_{n+1}}}{\\frac{a_{n+1}}{a_{n}}}=\\frac{a_{n}a_{n+2}}{a_{n+1}^{2}}\n$$\n<p>等差数列满足 $a_{n}=a_{n+1}-d$，$a_{n+2}=a_{n+1}+d$，所以</p>\n$$\nq=\\frac{(a_{n+1}-d)(a_{n+1}+d)}{a_{n+1}^{2}}=1-\\frac{d^{2}}{a_{n+1}^{2}}\n$$\n<p>若 $d\\neq0$，则 $a_{n+1}^{2}$ 对所有正整数 $n$ 都相同. 于是相邻三项满足</p>\n$$\na_{n+1}^{2}=a_{n+2}^{2}=a_{n+3}^{2}\n$$\n<p>由 $a_{n+2}-a_{n+1}=a_{n+3}-a_{n+2}=d\\neq0$，前两个等式分别迫使</p><p>$a_{n+2}=-a_{n+1}$，$a_{n+3}=-a_{n+2}=a_{n+1}$，</p><p>从而 $a_{n+3}-a_{n+1}=2d=0$，矛盾. 所以 $d=0$.</p><p>此时 $a_{n}=a_{1}\\neq0$，由题设 $b_{n}=\\frac{a_{n+1}}{a_{n}}=1$，故 $b_{1}=1$，$q=1$. 反之，任取非零常数 $c$，令 $a_{n}=c$，$b_{n}=1$，即可满足题设条件. 因此所有数列为</p><p>$a_{n}=c$，（$c\\neq0$），$b_{n}=1$.</p></li><li><p>由 $a_{1}=5$，$d=4$，得</p>\n$$\na_{n}=5+4(n-1)=4n+1\n$$\n<p>又因 $b_{1}=q=3$，所以 $b_{n}=3^{n}$. 从第 $m$ 项起的连续 $p$ 项和为</p>\n$$\n\\sum_{j=0}^{p-1}a_{m+j}=\\sum_{j=0}^{p-1}(4m+4j+1)=p(4m+1)+4\\cdot\\frac{p(p-1)}{2}=p(4m+2p-1)\n$$\n<p>若该和等于某一项 $b_{n}=3^{n}$，则 $p$ 是 $3^{n}$ 的因数，故必有 $p=3^{r}$，其中 $r=0$，$1$，$2$，$\\ldots$. 设</p>\n$$\n4m+2\\cdot3^{r}-1=3^{s}\n$$\n<p>由于 $m\\geqslant1$，左端大于 $1$，且</p>\n$$\n3^{s}\\equiv2\\cdot3^{r}-1\\equiv1\\pmod 4\n$$\n<p>所以 $s$ 为偶数. 这说明上述必要条件没有进一步限制 $r$.</p><p>反之，任取 $r=0$，$1$，$2$，$\\ldots$，取 $s=2r+2$，并令</p>\n$$\nm=\\frac{3^{2r+2}-2\\cdot3^{r}+1}{4}\n$$\n<p>由于 $3^{2r+2}\\equiv1\\pmod4$，且 $2\\cdot3^{r}-1\\equiv1\\pmod4$，故 $m$ 是正整数，并且</p>\n$$\np(4m+2p-1)=3^{r}\\cdot3^{2r+2}=3^{3r+2}=b_{3r+2}\n$$\n<p>当 $p=3^{r}$ 时成立. 因此所有可能的 $p$ 为</p><p>$p=3^{r}$，（$r=0,1,2,\\ldots$）.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

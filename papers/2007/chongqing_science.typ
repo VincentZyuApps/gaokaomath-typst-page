@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,129 +11,173 @@
 #part-header("单选题")
 
 #problem(1)[
-若等差数列 $\{a_(n)\}$ 的前 $3$ 项和 $S_(3) = 9$ 且 $a_1 = 1$，则 $a_2$ 等于（ ）
-  #choices([$3$], [$4$], [$5$], [$6$], cols: 4)
+若等差数列 #mi(`\{a_{n}\}`) 的前 #mi(`3`) 项和 #mi(`S_{3}= 9`) 且 #mi(`a_{1} = 1`)，则 #mi(`a_{2}`) 等于（ ）
+  #choices([#mi(`3`)], [#mi(`4`)], [#mi(`5`)], [#mi(`6`)], cols: 4)
 ]
 
 #answer([A])
 
 #solution[
-设等差数列的公差为 $d$，则 $a_2=1+d$，$a_3=1+2 d$. 由前 $3$ 项和为 $9$，得
+设等差数列的公差为 #mi(`d`)，则 #mi(`a_{2}=1+d`)，#mi(`a_{3}=1+2d`). 由前 #mi(`3`) 项和为 #mi(`9`)，得
 
-$ 1+(1+d)+(1+2 d)=9 $
 
-解得 $d=2$，所以 $a_2=1+d=3$，故选 A.
+#align(center)[#mitex(`
+1+(1+d)+(1+2d)=9
+`)]
+
+
+解得 #mi(`d=2`)，所以 #mi(`a_{2}=1+d=3`)，故选 A.
 ]
 
 #problem(2)[
-命题“若 $x^(2) < 1$，则 $-1 < x < 1$”的逆否命题是（ ）
-  #choices([若 $x^(2) >= 1$，则 $x >= 1$ 或 $x <= -1$], [若 $-1 < x < 1$，则 $x^(2) < 1$], [若 $x > 1$ 或 $x < -1$，则 $x^(2) > 1$], [若 $x >= 1$ 或 $x <= -1$，则 $x^(2) >= 1$], cols: 1)
+命题“若 #mi(`x^{2}< 1`)，则 #mi(`-1 < x < 1`)”的逆否命题是（ ）
+  #choices([若 #mi(`x^{2}\ge 1`)，则 #mi(`x \ge 1`) 或 #mi(`x \le -1`)], [若 #mi(`-1 < x < 1`)，则 #mi(`x^{2}< 1`)], [若 #mi(`x > 1`) 或 #mi(`x < -1`)，则 #mi(`x^{2}> 1`)], [若 #mi(`x \ge 1`) 或 #mi(`x \le -1`)，则 #mi(`x^{2}\ge 1`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-原命题的条件为 $x^2<1$，结论为 $-1<x<1$. 结论“$-1<x<1$”的否定为 $x >= 1$ 或 $x <= -1$，条件“$x^2<1$”的否定为 $x^2 >= 1$. 因此逆否命题为“若 $x >= 1$ 或 $x <= -1$，则 $x^2 >= 1$”，故选 D.
+原命题的条件为 #mi(`x^{2}<1`)，结论为 #mi(`-1<x<1`). 结论“#mi(`-1<x<1`)”的否定为 #mi(`x\geqslant1`) 或 #mi(`x\le-1`)，条件“#mi(`x^{2}<1`)”的否定为 #mi(`x^{2}\geqslant1`). 因此逆否命题为“若 #mi(`x\geqslant1`) 或 #mi(`x\le-1`)，则 #mi(`x^{2}\geqslant1`)”，故选 D.
 ]
 
 #problem(3)[
 若三个平面两两相交，且三条交线互相平行，则这三个平面把空间分成（ ）
-  #choices([$5$ 部分], [$6$ 部分], [$7$ 部分], [$8$ 部分], cols: 4)
+  #choices([#mi(`5`) 部分], [#mi(`6`) 部分], [#mi(`7`) 部分], [#mi(`8`) 部分], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-先取其中两个相交平面，它们把空间分成 $4$ 个部分. 第三个平面分别与前两个平面相交，且两条交线在第三个平面内互相平行，因此这两条交线把第三个平面分成 $3$ 个区域. 第三个平面在这 $3$ 个区域内分别把原有部分再分成两部分，新增 $3$ 个部分，所以三个平面把空间分成 $4+3=7$ 个部分，故选 C.
+先取其中两个相交平面，它们把空间分成 #mi(`4`) 个部分. 第三个平面分别与前两个平面相交，且两条交线在第三个平面内互相平行，因此这两条交线把第三个平面分成 #mi(`3`) 个区域. 第三个平面在这 #mi(`3`) 个区域内分别把原有部分再分成两部分，新增 #mi(`3`) 个部分，所以三个平面把空间分成 #mi(`4+3=7`) 个部分，故选 C.
 ]
 
 #problem(4)[
-若 $(x + (1)/(x))^n$ 展开式的二项式系数之和为 64，则展开式的常数项为（ ）
-  #choices([$10$], [$20$], [$30$], [$120$], cols: 4)
+若 #mi(`\left(x + \frac{1}{x}\right)^{n}`) 展开式的二项式系数之和为 64，则展开式的常数项为（ ）
+  #choices([#mi(`10`)], [#mi(`20`)], [#mi(`30`)], [#mi(`120`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-展开式的二项式系数之和为 $2^n$，所以
+展开式的二项式系数之和为 #mi(`2^{n}`)，所以
 
-$ 2^n=64=2^6 $
 
-即 $n=6$. 展开式的通项为
+#align(center)[#mitex(`
+2^{n}=64=2^{6}
+`)]
 
-$ C_6^k x^(6-k)((1)/(x))^k=C_6^k x^(6-2 k) $
 
-常数项要求 $6-2 k=0$，即 $k=3$，所以常数项为 $C_6^3=20$，故选 B.
+即 #mi(`n=6`). 展开式的通项为
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{6}^{k} x^{6-k}\left(\frac{1}{x}\right)^{k}=\mathrm{C}_{6}^{k} x^{6-2k}
+`)]
+
+
+常数项要求 #mi(`6-2k=0`)，即 #mi(`k=3`)，所以常数项为 #mi(`\mathrm{C}_{6}^{3}=20`)，故选 B.
 ]
 
 #problem(5)[
-在 $triangle A B C$ 中，$A B = sqrt(3)$，$A = 45^( degree )$，$C = 75^( degree )$，则 $B C =$（ ）
-  #choices([$3 - sqrt(3)$], [$sqrt(2)$], [$2$], [$3 + sqrt(3)$], cols: 4)
+在 #mi(`\triangle ABC`) 中，#mi(`AB = \sqrt{3}`)，#mi(`A = 45^{\circ}`)，#mi(`C = 75^{\circ}`)，则 #mi(`BC =`)（ ）
+  #choices([#mi(`3 - \sqrt{3}`)], [#mi(`\sqrt{2}`)], [#mi(`2`)], [#mi(`3 + \sqrt{3}`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-在三角形 $A B C$ 中，$B=180^( degree )-45^( degree )-75^( degree )=60^( degree )$. 由正弦定理，得
+在三角形 #mi(`ABC`) 中，#mi(`B=180^{\circ}-45^{\circ}-75^{\circ}=60^{\circ}`). 由正弦定理，得
 
-$ (B C)/(sin 45 ""^( degree ))=(A B)/(sin 75 ""^( degree )) $
+
+#align(center)[#mitex(`
+\frac{BC}{\sin45^{\circ}}=\frac{AB}{\sin75^{\circ}}
+`)]
+
 
 所以
 
-$ B C=sqrt(3) dot (sin 45 ""^( degree ))/(sin 75 ""^( degree ))=sqrt(3) dot ((sqrt(2))/(2))/((sqrt(6)+sqrt(2))/(4))=(2 sqrt(6))/(sqrt(6)+sqrt(2))=3-sqrt(3) $
+
+#align(center)[#mitex(`
+BC=\sqrt{3}\cdot\frac{\sin45^{\circ}}{\sin75^{\circ}}=\sqrt{3}\cdot\frac{\frac{\sqrt{2}}{2}}{\frac{\sqrt{6}+\sqrt{2}}{4}}=\frac{2\sqrt{6}}{\sqrt{6}+\sqrt{2}}=3-\sqrt{3}
+`)]
+
 
 故选 A.
 ]
 
 #problem(6)[
-从 $5$ 张 $100" 元"$，$3$ 张 $200" 元"$，$2$ 张 $300" 元"$的奥运预赛门票中任取 $3$ 张，则所取 $3$ 张中至少有 $2$ 张价格相同的概率为（ ）
-  #choices([$(1)/(4)$], [$(79)/(120)$], [$(3)/(4)$], [$(23)/(24)$], cols: 4)
+从 #mi(`5`) 张 #mi(`100\text{ \text{元}}`)，#mi(`3`) 张 #mi(`200\text{ \text{元}}`)，#mi(`2`) 张 #mi(`300\text{ \text{元}}`)的奥运预赛门票中任取 #mi(`3`) 张，则所取 #mi(`3`) 张中至少有 #mi(`2`) 张价格相同的概率为（ ）
+  #choices([#mi(`\frac{1}{4}`)], [#mi(`\frac{79}{120}`)], [#mi(`\frac{3}{4}`)], [#mi(`\frac{23}{24}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-从 $10$ 张门票中任取 $3$ 张，共有 $C_(10)^(3)=120$ 种等可能的取法. 若所取 $3$ 张价格均不相同，则需从三种价格中各取 $1$ 张，共有 $5 times 3 times 2 =30$ 种取法. 因此所取 $3$ 张中至少有 $2$ 张价格相同的概率为
+从 #mi(`10`) 张门票中任取 #mi(`3`) 张，共有 #mi(`\mathrm{C}_{10}^{3}=120`) 种等可能的取法. 若所取 #mi(`3`) 张价格均不相同，则需从三种价格中各取 #mi(`1`) 张，共有 #mi(`5\times3\times2=30`) 种取法. 因此所取 #mi(`3`) 张中至少有 #mi(`2`) 张价格相同的概率为
 
-$ 1-(30)/(120)=(3)/(4) $
+
+#align(center)[#mitex(`
+1-\frac{30}{120}=\frac{3}{4}
+`)]
+
 
 故选 C.
 ]
 
 #problem(7)[
-若 $a$ 是 $1 + 2 b$ 与 $1 - 2 b$ 的等比中项，则 $(2 a b)/(|a| + 2|b|)$ 的最大值为（ ）
-  #choices([$(2 sqrt(5))/(5)$], [$(sqrt(2))/(4)$], [$(sqrt(5))/(5)$], [$(sqrt(2))/(2)$], cols: 2)
+若 #mi(`a`) 是 #mi(`1 + 2b`) 与 #mi(`1 - 2b`) 的等比中项，则 #mi(`\frac{2ab}{|a| + 2|b|}`) 的最大值为（ ）
+  #choices([#mi(`\frac{2\sqrt{5}}{5}`)], [#mi(`\frac{\sqrt{2}}{4}`)], [#mi(`\frac{\sqrt{5}}{5}`)], [#mi(`\frac{\sqrt{2}}{2}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-由 $a$ 是 $1+2 b$ 与 $1-2 b$ 的等比中项，得
+由 #mi(`a`) 是 #mi(`1+2b`) 与 #mi(`1-2b`) 的等比中项，得
 
-$ a^2=(1+2 b)(1-2 b)=1-4 b^2 $
 
-令 $x=|a|$，$y=2|b|$，则 $x >= 0$，$y >= 0$，且 $x^2+y^2=1$. 为使所求式取得正的最大值，取 $a b>0$，于是
+#align(center)[#mitex(`
+a^{2}=(1+2b)(1-2b)=1-4b^{2}
+`)]
 
-$ (2 a b)/(|a|+2|b|)=(x y)/(x+y) $
 
-令 $t=x y$，则 $0 <= t <= (1)/(2)$，且
+令 #mi(`x=|a|`)，#mi(`y=2|b|`)，则 #mi(`x\geqslant0`)，#mi(`y\geqslant0`)，且 #mi(`x^{2}+y^{2}=1`). 为使所求式取得正的最大值，取 #mi(`ab>0`)，于是
 
-$ (x y)/(x+y)=(t)/(sqrt(1+2 t)) $
 
-记 $g(t)=(t)/(sqrt(1+2 t))$，则
+#align(center)[#mitex(`
+\frac{2ab}{|a|+2|b|}=\frac{xy}{x+y}
+`)]
 
-$ g'(t)=(1+t)/((1+2 t)^((3)/(2)))>0 $
 
-所以 $g(t)$ 在 $0 <= t <= (1)/(2)$ 上递增，故在 $x=y=(sqrt(2))/(2)$ 时取得最大值
+令 #mi(`t=xy`)，则 #mi(`0\le t\le\frac{1}{2}`)，且
 
-$ (x y)/(x+y)=((1)/(2))/(sqrt(2))=(sqrt(2))/(4) $
+
+#align(center)[#mitex(`
+\frac{xy}{x+y}=\frac{t}{\sqrt{1+2t}}
+`)]
+
+
+记 #mi(`g(t)=\frac{t}{\sqrt{1+2t}}`)，则
+
+
+#align(center)[#mitex(`
+g'(t)=\frac{1+t}{(1+2t)^{\frac{3}{2}}}>0
+`)]
+
+
+所以 #mi(`g(t)`) 在 #mi(`0\le t\le\frac{1}{2}`) 上递增，故在 #mi(`x=y=\frac{\sqrt{2}}{2}`) 时取得最大值
+
+
+#align(center)[#mitex(`
+\frac{xy}{x+y}=\frac{\frac{1}{2}}{\sqrt{2}}=\frac{\sqrt{2}}{4}
+`)]
+
 
 故选 B.
 ]
 
 #problem(8)[
-设正数 $a$，$b$ 满足 $\lim\l i m i t s_(x -> 2 ) (x^(2) + a x - b) = 4$，则 $\lim\l i m i t s_(n -> oo ) (a^(n+1) + a b^(n-1))/(a^(n-1) + 2 b^n)=$（ ）
-  #choices([$0$], [$(1)/(4)$], [$(1)/(2)$], [$1$], cols: 4)
+设正数 #mi(`a`)，#mi(`b`) 满足 #mi(`\displaystyle \lim\limits_{x \to 2}\left(x^{2}+ ax - b\right) = 4`)，则 #mi(`\displaystyle \lim\limits_{n \to \infty}\frac{a^{n+1}+ ab^{n-1}}{a^{n-1}+ 2b^{n}}=`)（ ）
+  #choices([#mi(`0`)], [#mi(`\frac{1}{4}`)], [#mi(`\frac{1}{2}`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([B])
@@ -141,54 +185,79 @@ $ (x y)/(x+y)=((1)/(2))/(sqrt(2))=(sqrt(2))/(4) $
 #solution[
 由函数的连续性，题设极限给出
 
-$ 2^2+2 a-b=4 $
 
-即 $b=2 a$. 因为 $a>0$，所以
+#align(center)[#mitex(`
+2^{2}+2a-b=4
+`)]
 
-$ (a^(n+1)+a b^(n-1))/(a^(n-1)+2 b^n)=(a^(n+1)+a(2 a)^(n-1))/(a^(n-1)+2(2 a)^n)=(a(a+2^(n-1)))/(1+2^(n+1)a) $
 
-令 $n -> oo$，分子分母同除以 $2^(n+1)a$，得
+即 #mi(`b=2a`). 因为 #mi(`a>0`)，所以
 
-$ lim_(n -> oo )(a(a+2^(n-1)))/(1+2^(n+1)a)=(1)/(4) $
+
+#align(center)[#mitex(`
+\frac{a^{n+1}+ab^{n-1}}{a^{n-1}+2b^{n}}=\frac{a^{n+1}+a(2a)^{n-1}}{a^{n-1}+2(2a)^{n}}=\frac{a(a+2^{n-1})}{1+2^{n+1}a}
+`)]
+
+
+令 #mi(`n\to\infty`)，分子分母同除以 #mi(`2^{n+1}a`)，得
+
+
+#align(center)[#mitex(`
+\lim_{n\to\infty}\frac{a(a+2^{n-1})}{1+2^{n+1}a}=\frac{1}{4}
+`)]
+
 
 故选 B.
 ]
 
 #problem(9)[
-已知定义域为 $RR$ 的函数 $f(x)$ 在 $(8, + oo )$ 上为减函数，且函数 $y = f(x + 8)$ 为偶函数，则（ ）
-  #choices([$f(6) > f(7)$], [$f(6) > f(9)$], [$f(7) > f(9)$], [$f(7) > f(10)$], cols: 4)
+已知定义域为 #mi(`\mathbb{R}`) 的函数 #mi(`f(x)`) 在 #mi(`(8, +\infty)`) 上为减函数，且函数 #mi(`y = f(x + 8)`) 为偶函数，则（ ）
+  #choices([#mi(`f(6) > f(7)`)], [#mi(`f(6) > f(9)`)], [#mi(`f(7) > f(9)`)], [#mi(`f(7) > f(10)`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-函数 $y=f(x+8)$ 为偶函数，所以对任意 $t$，有
+函数 #mi(`y=f(x+8)`) 为偶函数，所以对任意 #mi(`t`)，有
 
-$ f(8+t)=f(8-t) $
 
-取 $t=1$ 和 $t=2$，分别得到 $f(9)=f(7)$，$f(10)=f(6)$. 又因为 $f(x)$ 在 $(8,+ oo )$ 上为减函数，所以 $f(9)>f(10)$. 因而 $f(7)>f(10)$，故选 D.
+#align(center)[#mitex(`
+f(8+t)=f(8-t)
+`)]
+
+
+取 #mi(`t=1`) 和 #mi(`t=2`)，分别得到 #mi(`f(9)=f(7)`)，#mi(`f(10)=f(6)`). 又因为 #mi(`f(x)`) 在 #mi(`(8,+\infty)`) 上为减函数，所以 #mi(`f(9)>f(10)`). 因而 #mi(`f(7)>f(10)`)，故选 D.
 ]
 
 #problem(10)[
-如图，在四边形 $A B C D$ 中，$|arrow(A B)| + |arrow(B D)| + |arrow(D C)| = 4$，$|arrow(A B)| dot |arrow(B D)| + |arrow(B D)| dot |arrow(D C)| = 4$，$arrow(A B) dot arrow(B D)= arrow(B D) dot arrow(D C)= 0$，则 $(arrow(A B)+ arrow(D C)) dot arrow(A C)$ 的值为（ ）
+如图，在四边形 #mi(`ABCD`) 中，#mi(`\left|\overrightarrow{AB}\right| + \left|\overrightarrow{BD}\right| + \left|\overrightarrow{DC}\right| = 4`)，#mi(`\left|\overrightarrow{AB}\right| \cdot \left|\overrightarrow{BD}\right| + \left|\overrightarrow{BD}\right| \cdot \left|\overrightarrow{DC}\right| = 4`)，#mi(`\overrightarrow{AB}\cdot \overrightarrow{BD}= \overrightarrow{BD}\cdot \overrightarrow{DC}= 0`)，则 #mi(`\left(\overrightarrow{AB}+ \overrightarrow{DC}\right) \cdot \overrightarrow{AC}`) 的值为（ ）
 
-
-#align(center)[#image("/papers/2007/img/chongqing_science/q10_fig1.png", width: 34%)]
-  #choices([$2$], [$2 sqrt(2)$], [$4$], [$4 sqrt(2)$], cols: 4)
+[max width=0.34\linewidth]img/2007/chongqing_science/q10_fig1.png
+  #choices([#mi(`2`)], [#mi(`2 \sqrt{2}`)], [#mi(`4`)], [#mi(`4 \sqrt{2}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-令 $u=arrow(A B)$，$v=arrow(B D)$，$w=arrow(D C)$，并记其长度分别为 $x$，$y$，$z$. 由题设
-$x+y+z=4$，$x y+y z=y(x+z)=4$.
-所以 $y(4-y)=4$，从而 $y=2$，且 $x+z=2$. 由于四边形 $A B C D$ 共面，且 $u bot v$，$w bot v$，故 $u parallel w$. 结合图中四边形的顶点顺序，$u$ 与 $w$ 同向，于是 $u dot w=x z$. 又
+令 #mi(`u=\overrightarrow{AB}`)，#mi(`v=\overrightarrow{BD}`)，#mi(`w=\overrightarrow{DC}`)，并记其长度分别为 #mi(`x`)，#mi(`y`)，#mi(`z`). 由题设
 
-$ arrow(A C)=u+v+w $
+#mi(`x+y+z=4`)，#mi(`xy+yz=y(x+z)=4`).
+
+所以 #mi(`y(4-y)=4`)，从而 #mi(`y=2`)，且 #mi(`x+z=2`). 由于四边形 #mi(`ABCD`) 共面，且 #mi(`u\perp v`)，#mi(`w\perp v`)，故 #mi(`u\parallel w`). 结合图中四边形的顶点顺序，#mi(`u`) 与 #mi(`w`) 同向，于是 #mi(`u\cdot w=xz`). 又
+
+
+#align(center)[#mitex(`
+\overrightarrow{AC}=u+v+w
+`)]
+
 
 因此
 
-$ (u+w)\c d o t a r r o w(A C)=(u+w) dot (u+v+w)=|u+w|^2=(x+z)^2=4 $
+
+#align(center)[#mitex(`
+(u+w)\cdot\overrightarrow{AC}=(u+w)\cdot(u+v+w)=|u+w|^{2}=(x+z)^{2}=4
+`)]
+
 
 故选 C.
 ]
@@ -196,413 +265,403 @@ $ (u+w)\c d o t a r r o w(A C)=(u+w) dot (u+v+w)=|u+w|^2=(x+z)^2=4 $
 #part-header("填空题")
 
 #problem(11)[
-复数 $(2 i)/(2 + i ""^(3))$ 的虚部为#blank(){}.
+复数 #mi(`\frac{2\mathrm{i}}{2 + \mathrm{i}^{3}}`) 的虚部为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(4)/(5)$])
+#answer([#mi(`\frac{4}{5}`)])
 
 #solution[
-因为 $i ""^3=- i$，所以
+因为 #mi(`\mathrm{i}^{3}=-\mathrm{i}`)，所以
 
-$ (2 i)/(2+ i ""^3)=(2 i)/(2- i)=(2 i (2+ i ))/((2- i )(2+ i ))=(-2+4 i)/(5)=-(2)/(5)+(4)/(5) i $
 
-故其虚部为 $(4)/(5)$.
+#align(center)[#mitex(`
+\frac{2\mathrm{i}}{2+\mathrm{i}^{3}}=\frac{2\mathrm{i}}{2-\mathrm{i}}=\frac{2\mathrm{i}(2+\mathrm{i})}{(2-\mathrm{i})(2+\mathrm{i})}=\frac{-2+4\mathrm{i}}{5}=-\frac{2}{5}+\frac{4}{5}\mathrm{i}
+`)]
+
+
+故其虚部为 #mi(`\frac{4}{5}`).
 ]
 
 #problem(12)[
-已知 $x$，$y$ 满足 $\b e g i n{c a s e s} x - y <= 1 ,\\ 2 x + y <= 4 ,\\ x >= 1 , \e n d{c a s e s}$ 则函数 $z = x + 3 y$ 的最大值是#blank(){}.
+已知 #mi(`x`)，#mi(`y`) 满足 #mi(`\begin{cases}x - y \le 1,\\  2x + y \le 4,\\  x \ge 1,\end{cases}`) 则函数 #mi(`z = x + 3y`) 的最大值是\underline{\hspace{2.5em}}.
 ]
 
 #answer([7])
 
 #solution[
-由约束条件 $x >= 1$，$y >= x-1$，$y <= 4 -2 x$，可知可行域的顶点为
-$(1,0)$，$(1,2)$，$((5)/(3),(2)/(3))$.
-在这三个顶点处，$z=x+3 y$ 的值分别为
-$1$，$7$，$(5)/(3)+3 dot (2)/(3)=(11)/(3)$.
-所以 $z$ 的最大值为 $7$.
+由约束条件 #mi(`x\geqslant1`)，#mi(`y\ge x-1`)，#mi(`y\leqslant4-2x`)，可知可行域的顶点为
+
+#mi(`(1,0)`)，#mi(`(1,2)`)，#mi(`\left(\frac{5}{3},\frac{2}{3}\right)`).
+
+在这三个顶点处，#mi(`z=x+3y`) 的值分别为
+
+#mi(`1`)，#mi(`7`)，#mi(`\frac{5}{3}+3\cdot\frac{2}{3}=\frac{11}{3}`).
+
+所以 #mi(`z`) 的最大值为 #mi(`7`).
 ]
 
 #problem(13)[
-若函数 $f(x) = sqrt(2^(x^(2) + 2 a x - a) - 1)$ 的定义域为 $RR$，则 $a$ 的取值范围为#blank(){}.
+若函数 #mi(`f(x) = \sqrt{2^{x^{2} + 2ax - a}- 1}`) 的定义域为 #mi(`\mathbb{R}`)，则 #mi(`a`) 的取值范围为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$[-1,0]$])
+#answer([#mi(`[-1,0]`)])
 
 #solution[
-要使函数对任意 $x in RR$ 有意义，根式内必须满足
+要使函数对任意 #mi(`x\in\mathbb{R}`) 有意义，根式内必须满足
 
-$ 2^(x^2+2 a x-a)-1 >= 0 $
 
-由于 $2^t$ 单调递增，这等价于
+#align(center)[#mitex(`
+2^{x^2+2ax-a}-1\geqslant0
+`)]
 
-$ x^2+2 a x-a >= 0 $
+
+由于 #mi(`2^{t}`) 单调递增，这等价于
+
+
+#align(center)[#mitex(`
+x^{2}+2ax-a\geqslant0
+`)]
+
 
 左端配方得
 
-$ x^2+2 a x-a=(x+a)^2-a^2-a $
 
-其最小值为 $-a^2-a$，故需且只需 $-a^2-a >= 0$，即
+#align(center)[#mitex(`
+x^{2}+2ax-a=(x+a)^{2}-a^{2}-a
+`)]
 
-$ a^2+a <= 0 $
 
-所以 $a$ 的取值范围为 $[-1,0]$.
+其最小值为 #mi(`-a^{2}-a`)，故需且只需 #mi(`-a^{2}-a\geqslant0`)，即
+
+
+#align(center)[#mitex(`
+a^{2}+a\leqslant0
+`)]
+
+
+所以 #mi(`a`) 的取值范围为 #mi(`[-1,0]`).
 ]
 
 #problem(14)[
-设 $\{a_(n)\}$ 为公比 $q > 1$ 的等比数列，若 $a_(2004)$ 和 $a_(2006)$ 是方程 $4 x^(2) - 8 x + 3 = 0$ 的两根，则 $a_(2006) + a_(2007) =$#blank(){}.
+设 #mi(`\{a_{n}\}`) 为公比 #mi(`q > 1`) 的等比数列，若 #mi(`a_{2004}`) 和 #mi(`a_{2006}`) 是方程 #mi(`4x^{2}- 8x + 3 = 0`) 的两根，则 #mi(`a_{2006}+ a_{2007}=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3(1+sqrt(3)))/(2)$])
+#answer([#mi(`\frac{3(1+\sqrt{3})}{2}`)])
 
 #solution[
-方程 $4 x^(2)-8 x+3=0$ 的两个根为
+方程 #mi(`4x^{2}-8x+3=0`) 的两个根为
 
-$ x=(8\p m s q r t(64-48))/(8) $
 
-即 $x=(1)/(2)$ 或 $x=(3)/(2)$.
+#align(center)[#mitex(`
+x=\frac{8\pm\sqrt{64-48}}{8}
+`)]
 
-因为 $q>1$，所以 $a_(2006)>a_(2004)$，从而
-$a_(2004)=(1)/(2)$，$a_(2006)=(3)/(2)$，
+
+即 #mi(`x=\frac{1}{2}`) 或 #mi(`x=\frac{3}{2}`).
+
+因为 #mi(`q>1`)，所以 #mi(`a_{2006}>a_{2004}`)，从而
+
+#mi(`a_{2004}=\frac{1}{2}`)，#mi(`a_{2006}=\frac{3}{2}`)，
+
 并且
-$q^(2)=(a_(2006))/(a_(2004))=3$，$q=sqrt(3)$.
 
-因此 $a_(2007)=a_(2006)q=(3 sqrt(3))/(2)$，故
+#mi(`q^{2}=\frac{a_{2006}}{a_{2004}}=3`)，#mi(`q=\sqrt{3}`).
 
-$ a_(2006)+a_(2007)=(3)/(2)+(3 sqrt(3))/(2)=(3(1+sqrt(3)))/(2) $
+因此 #mi(`a_{2007}=a_{2006}q=\frac{3\sqrt{3}}{2}`)，故
+
+
+#align(center)[#mitex(`
+a_{2006}+a_{2007}=\frac{3}{2}+\frac{3\sqrt{3}}{2}=\frac{3(1+\sqrt{3})}{2}
+`)]
 ]
 
 #problem(15)[
-某校要求每位学生从 $7$ 门课程中选修 $4$ 门，其中甲、乙两门课程不能都选，则不同的选课方案有#blank(){} 种. （用数字作答）
+某校要求每位学生从 #mi(`7`) 门课程中选修 #mi(`4`) 门，其中甲、乙两门课程不能都选，则不同的选课方案有\underline{\hspace{2.5em}} 种. （用数字作答）
 ]
 
 #answer([25])
 
 #solution[
-从 $7$ 门课程中任选 $4$ 门共有 $C_(7)^(4)=35$ 种方案. 若甲、乙两门课程同时选修，则还需从其余 $5$ 门课程中选 $2$ 门，共有 $C_(5)^(2)=10$ 种方案. 因此甲、乙不能同时选修时的方案数为
+从 #mi(`7`) 门课程中任选 #mi(`4`) 门共有 #mi(`\mathrm{C}_{7}^{4}=35`) 种方案. 若甲、乙两门课程同时选修，则还需从其余 #mi(`5`) 门课程中选 #mi(`2`) 门，共有 #mi(`\mathrm{C}_{5}^{2}=10`) 种方案. 因此甲、乙不能同时选修时的方案数为
 
-$ C_(7)^(4)-C_(5)^(2)=35-10=25 $
+
+#align(center)[#mitex(`
+\mathrm{C}_{7}^{4}-\mathrm{C}_{5}^{2}=35-10=25
+`)]
 ]
 
 #problem(16)[
-过双曲线 $x^(2)-y^(2)=4$ 的右焦点 $F$ 作倾斜角为 $105^( degree )$ 的直线，交双曲线于 $P$，$Q$ 两点，则 $|F P| dot |F Q|$ 的值为#blank(){}.
+过双曲线 #mi(`x^{2}-y^{2}=4`) 的右焦点 #mi(`F`) 作倾斜角为 #mi(`105^{\circ}`) 的直线，交双曲线于 #mi(`P`)，#mi(`Q`) 两点，则 #mi(`|FP| \cdot |FQ|`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(8 sqrt(3))/(3)$])
+#answer([#mi(`\frac{8\sqrt{3}}{3}`)])
 
 #solution[
-双曲线 $x^2-y^2=4$ 的右焦点为 $F(2 sqrt(2),0)$. 设过 $F$ 的直线上的点为
+双曲线 #mi(`x^{2}-y^{2}=4`) 的右焦点为 #mi(`F(2\sqrt{2},0)`). 设过 #mi(`F`) 的直线上的点为
 
-$ (x,y)=(2 sqrt(2),0)+t( cos 105 ""^( degree ), sin 105 ""^( degree )) $
+
+#align(center)[#mitex(`
+(x,y)=(2\sqrt{2},0)+t(\cos105^{\circ},\sin105^{\circ})
+`)]
+
 
 将其代入双曲线方程，得
 
-$ (2 sqrt(2)+t cos 105 ""^( degree ))^2-t^2 sin ""^2 105^( degree )=4 $
 
-设交点 $P$，$Q$ 对应的参数为 $t_1$，$t_2$，则 $t_1$，$t_2$ 是方程
+#align(center)[#mitex(`
+(2\sqrt{2}+t\cos105^{\circ})^{2}-t^{2}\sin^{2} 105^{\circ}=4
+`)]
 
-$ cos 210 ""^( degree )t^2+4 sqrt(2) cos 105 ""^( degree )t+4=0 $
+
+设交点 #mi(`P`)，#mi(`Q`) 对应的参数为 #mi(`t_{1}`)，#mi(`t_{2}`)，则 #mi(`t_{1}`)，#mi(`t_{2}`) 是方程
+
+
+#align(center)[#mitex(`
+\cos210^{\circ}t^{2}+4\sqrt{2}\cos105^{\circ}t+4=0
+`)]
+
 
 的两根. 由韦达定理，
 
-$ t_(1) t_2=(4)/(cos 210 ""^( degree ))=(4)/(-(sqrt(3))/(2))=-(8 sqrt(3))/(3) $
 
-由于 $t_(1) t_2<0$，点 $P$，$Q$ 位于直线两侧，故 $F P=|t_1|$，$F Q=|t_2|$，所以
+#align(center)[#mitex(`
+t_{1}t_{2}=\frac{4}{\cos210^{\circ}}=\frac{4}{-\frac{\sqrt{3}}{2}}=-\frac{8\sqrt{3}}{3}
+`)]
 
-$ |F P| dot |F Q|=|t_(1) t_2|=(8 sqrt(3))/(3) $
+
+由于 #mi(`t_{1}t_{2}<0`)，点 #mi(`P`)，#mi(`Q`) 位于直线两侧，故 #mi(`FP=|t_{1}|`)，#mi(`FQ=|t_{2}|`)，所以
+
+
+#align(center)[#mitex(`
+|FP|\cdot|FQ|=|t_{1}t_{2}|=\frac{8\sqrt{3}}{3}
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-设 $f(x) = 6 cos ""^2 x - sqrt(3) sin 2 x$.
+设 #mi(`f(x) = 6\cos^{2} x - \sqrt{3}\sin 2x`).
 
 
-+ (1) 求 $f(x)$ 的最大值及最小正周期；
-+ (2) 若锐角 $alpha$ 满足 $f( alpha ) = 3 - 2 sqrt(3)$，求 $tan (4)/(5) alpha$ 的值.
++ (1)
 ]
 
 #solution[
-+ (1) 利用 $cos ""^(2)x=(1+ cos 2 x)/(2)$，得
-
-$ f(x)=3+3 cos 2 x-sqrt(3) sin 2 x =3+2 sqrt(3) cos (2 x+(pi)/(6)) $
-
-因为 $-1 <= cos (2 x+(pi)/(6)) <= 1$，所以 $f(x)$ 的最大值为 $3+2 sqrt(3)$，最小值为 $3-2 sqrt(3)$. 又因为 $cos (2 x+(pi)/(6))$ 的最小正周期为 $pi$，所以 $f(x)$ 的最小正周期为 $pi$.
-+ (2) 由已知条件和上式，得
-
-$ cos (2 alpha +(pi)/(6))=-1 $
-
-于是存在 $k in ZZ$，使得
-
-$ 2 alpha +(pi)/(6)=(2 k+1) pi $
-
-从而 $alpha =k pi +(5 pi)/(12)$. 由于 $alpha$ 是锐角，$0< alpha <(pi)/(2)$，故 $k=0$，即 $alpha =(5 pi)/(12)$. 因此
-
-$ tan (4)/(5) alpha = tan (pi)/(3)=sqrt(3) $
++ (1)
 ]
 
 #problem(18)[
-某单位有三辆汽车参加某种事故保险. 单位年初向保险公司缴纳每辆 $900" 元"$ 的保险金. 对在一年内发生此种事故的每辆汽车，单位可获 $9000" 元"$ 的赔偿（假设每辆车最多只赔偿一次）. 设这三辆车在一年内发生此种事故的概率分别为 $(1)/(9)$，$(1)/(10)$，$(1)/(11)$，且各车是否发生事故相互独立. 求一年内该单位在此保险中：
+某单位有三辆汽车参加某种事故保险. 单位年初向保险公司缴纳每辆 #mi(`900\text{ \text{元}}`) 的保险金. 对在一年内发生此种事故的每辆汽车，单位可获 #mi(`9000\text{ \text{元}}`) 的赔偿（假设每辆车最多只赔偿一次）. 设这三辆车在一年内发生此种事故的概率分别为 #mi(`\frac{1}{9}`)，#mi(`\frac{1}{10}`)，#mi(`\frac{1}{11}`)，且各车是否发生事故相互独立. 求一年内该单位在此保险中：
 
 
-+ (1) 获赔的概率；
-+ (2) 获赔金额 $xi$ 的分布列与期望.
++ (1)
 ]
 
 #solution[
-+ (1) 设三辆汽车发生事故的事件分别为 $A_1$，$A_2$，$A_3$，则
-
-$ P(overline(A_1)overline(A_2)overline(A_3)) =(8)/(9) dot (9)/(10) dot (10)/(11)=(8)/(11) $
-
-所以一年内至少有一辆汽车发生事故，即单位获赔的概率为
-
-$ 1-(8)/(11)=(3)/(11) $
-+ (2) 因为各车是否发生事故相互独立，所以
-
-$ P( xi =0)=(8)/(11) $
-
-
-$ P( xi =9000) =(1)/(9) dot (9)/(10) dot (10)/(11)+(8)/(9) dot (1)/(10) dot (10)/(11)+(8)/(9) dot (9)/(10) dot (1)/(11)=(11)/(45) $
-
-
-$ P( xi =18000) =(1)/(9) dot (1)/(10) dot (10)/(11)+(1)/(9) dot (9)/(10) dot (1)/(11)+(8)/(9) dot (1)/(10) dot (1)/(11)=(3)/(110) $
-
-
-$ P( xi =27000) =(1)/(9) dot (1)/(10) dot (1)/(11)=(1)/(990) $
-
-获赔金额的分布列为
-\begin{center}
-\begin{tabular}{c|cccc}
-$xi$ & $0$ & $9000$ & $18000$ & $27000$ \\
-\hline
-$P$ & $(8)/(11)$ & $(11)/(45)$ & $(3)/(110)$ & $(1)/(990)$
-\end{tabular}
-\end{center}
-因此
-
-$ E( xi )=0 dot (8)/(11)+9000 dot (11)/(45)+18000 dot (3)/(110)+27000 dot (1)/(990)=(29900)/(11)" 元" $
++ (1)
 ]
 
 #problem(19)[
-如图，在直三棱柱 $A B C - A_(1)B_(1)C_(1)$ 中，$A A_(1) = 2$，$A B = 1$，$angle A B C = 90^( degree )$；点 $D$，$E$ 分别在 $B B_(1)$，$A_(1)D$ 上，且 $B_(1)E bot A_(1)D$，四棱锥 $C - A B D A_(1)$ 与直三棱柱的体积之比为 $3:5$.
+如图，在直三棱柱 #mi(`ABC - A_{1}B_{1}C_{1}`) 中，#mi(`AA_{1}= 2`)，#mi(`AB = 1`)，#mi(`\angle ABC = 90^{\circ}`)；点 #mi(`D`)，#mi(`E`) 分别在 #mi(`BB_{1}`)，#mi(`A_{1}D`) 上，且 #mi(`B_{1}E \perp A_{1}D`)，四棱锥 #mi(`C - ABDA_{1}`) 与直三棱柱的体积之比为 #mi(`3:5`).
 
 
-+ (1) 求异面直线 $D E$ 与 $B_(1)C_(1)$ 的距离；
-+ (2) 若 $B C = sqrt(2)$，求二面角 $A_(1) - D C_(1) - B_(1)$ 的平面角的正切值.
++ (1) 
 
 
-#align(center)[#image("/papers/2007/img/chongqing_science/q19_fig1.png", width: 34%)]
+
+[max width=0.34\linewidth]img/2007/chongqing_science/q19_fig1.png
 ]
 
 #solution[
-设 $B C=c$，建立空间直角坐标系，使 $B(0,0,0)$，$A(1,0,0)$，$C(0,c,0)$，$B_(1)(0,0,2)$，$A_(1)(1,0,2)$，$C_(1)(0,c,2)$.
-设 $D(0,0,d)$，其中 $0<d<2$.
+设 #mi(`BC=c`)，建立空间直角坐标系，使 #mi(`B(0,0,0)`)，#mi(`A(1,0,0)`)，#mi(`C(0,c,0)`)，#mi(`B_{1}(0,0,2)`)，#mi(`A_{1}(1,0,2)`)，#mi(`C_{1}(0,c,2)`).
 
-四边形 $A B D A_(1)$ 在平面 $y=0$ 内，$B D=d$，$A A_(1)=2$，两条平行边之间的距离为 $1$，所以
+设 #mi(`D(0,0,d)`)，其中 #mi(`0<d<2`).
 
-$ S_(A B D A_(1))=(d+2)/(2) $
+四边形 #mi(`ABDA_{1}`) 在平面 #mi(`y=0`) 内，#mi(`BD=d`)，#mi(`AA_{1}=2`)，两条平行边之间的距离为 #mi(`1`)，所以
+
+
+#align(center)[#mitex(`
+S_{ABDA_{1}}=\frac{d+2}{2}
+`)]
+
 
 直三棱柱的体积为
 
-$ V_("棱柱")=(1)/(2) dot A B dot B C dot A A_(1)=c $
 
-四棱锥 $C-A B D A_(1)$ 的高为 $c$，因此由体积比条件
+#align(center)[#mitex(`
+V_{\text{\text{棱柱}}}=\frac{1}{2}\cdot AB\cdot BC\cdot AA_{1}=c
+`)]
 
-$ (V_(C-A B D A_(1)))/(V_("棱柱"))=((1)/(3) dot (d+2)/(2) dot c)/(c)=(d+2)/(6)=(3)/(5) $
 
-解得 $d=(8)/(5)$.
+四棱锥 #mi(`C-ABDA_{1}`) 的高为 #mi(`c`)，因此由体积比条件
 
-由 $E$ 在 $A_(1)D$ 上，设
-$E=A_(1)+t(D-A_(1))$（$0<t<1$），
+
+#align(center)[#mitex(`
+\frac{V_{C-ABDA_{1}}}{V_{\text{\text{棱柱}}}}=\frac{\frac{1}{3}\cdot\frac{d+2}{2}\cdot c}{c}=\frac{d+2}{6}=\frac{3}{5}
+`)]
+
+
+解得 #mi(`d=\frac{8}{5}`).
+
+由 #mi(`E`) 在 #mi(`A_{1}D`) 上，设
+
+#mi(`E=A_{1}+t(D-A_{1})`)（#mi(`0<t<1`)），
+
 则
-$arrow(A_(1)D)=(-1,0,-(2)/(5))$，$arrow(B_(1)E)=(1-t,0,-(2 t)/(5))$.
-由 $B_(1)E bot A_(1)D$，得
 
-$ arrow(B_(1)E)\c d o t a r r o w(A_(1)D)=-(1-t)+(4 t)/(25)=0 $
+#mi(`\overrightarrow{A_{1}D}=\left(-1,0,-\frac{2}{5}\right)`)，#mi(`\overrightarrow{B_{1}E}=\left(1-t,0,-\frac{2t}{5}\right)`).
 
-所以 $t=(25)/(29)$，从而
-
-$ E=((4)/(29),0,(48)/(29)) $
+由 #mi(`B_{1}E\perp A_{1}D`)，得
 
 
-+ (1) 因为
+#align(center)[#mitex(`
+\overrightarrow{B_{1}E}\cdot\overrightarrow{A_{1}D}=-(1-t)+\frac{4t}{25}=0
+`)]
 
-$ arrow(D E)=((4)/(29),0,(8)/(145)) =(4)/(145)(5,0,2) $
 
-所以可取 $D E$ 的方向向量为 $bold(u)=(5,0,2)$. 又可取 $B_(1)C_(1)$ 的方向向量为 $bold(v)=(0,1,0)$. 两异面直线的距离为
+所以 #mi(`t=\frac{25}{29}`)，从而
 
-$ (|(arrow(D B_(1))) dot (bold(u)\t i m e s b o l d(v))|)/(|bold(u)\t i m e s b o l d(v)|)=(|(arrow(D B_(1))) dot (-2,0,5)|)/(sqrt(29))=(|(0,0,(2)/(5)) dot (-2,0,5)|)/(sqrt(29))=(2)/(sqrt(29))=(2 sqrt(29))/(29) $
-+ (2) 此时 $c=sqrt(2)$. 取 $arrow(D A_(1))=(1,0,(2)/(5))$，$arrow(D C_(1))=(0,sqrt(2),(2)/(5))$，$arrow(D B_(1))=(0,0,(2)/(5))$.
-则平面 $A_(1)D C_(1)$ 和平面 $B_(1)D C_(1)$ 的法向量可分别取为
 
-$ bold(n)_(1)=arrow(D A_(1))\t i m e s a r r o w(D C_(1))=(-(2 sqrt(2))/(5),-(2)/(5),sqrt(2)) $
+#align(center)[#mitex(`
+E=\left(\frac{4}{29},0,\frac{48}{29}\right)
+`)]
 
-和
 
-$ bold(n)_(2)=arrow(D B_(1))\t i m e s a r r o w(D C_(1))=(-(2 sqrt(2))/(5),0,0) $
 
-设二面角的平面角为 $theta$. 由法向量夹角与二面角相等或互补，得
-
-$ tan theta =(|bold(n)_(1)\t i m e s b o l d(n)_(2)|)/(|bold(n)_(1)\c d o t b o l d(n)_(2)|)=((12 sqrt(3))/(25))/((8)/(25))=(3 sqrt(3))/(2) $
++ (1)
 ]
 
 #problem(20)[
-已知函数 $f(x) = a x^(4) ln x + b x^(4) - c$（$x > 0$）在 $x = 1$ 处取得极值 $-3 - c$，其中 $a$，$b$，$c$ 为常数.
+已知函数 #mi(`f(x) = ax^{4}\ln x + bx^{4}- c`)（#mi(`x > 0`)）在 #mi(`x = 1`) 处取得极值 #mi(`-3 - c`)，其中 #mi(`a`)，#mi(`b`)，#mi(`c`) 为常数.
 
 
-+ (1) 试确定 $a$，$b$ 的值；
-+ (2) 讨论函数 $f(x)$ 的单调区间；
-+ (3) 若对任意 $x > 0$，不等式 $f(x) >= -2 c^(2)$ 恒成立，求 $c$ 的取值范围.
++ (1) 
++ (2)
 ]
 
 #solution[
-由 $f(1)=b-c=-3-c$，得
+由 #mi(`f(1)=b-c=-3-c`)，得
 
-$ b=-3 $
 
-又因为 $f(x)$ 在 $x=1$ 处取得极值，且 $f$ 在 $x>0$ 上可导，所以 $f'(1)=0$. 计算得
+#align(center)[#mitex(`
+b=-3
+`)]
 
-$ f'(x)=a x^(3)(4 ln x+1)+4 b x^(3) $
+
+又因为 #mi(`f(x)`) 在 #mi(`x=1`) 处取得极值，且 #mi(`f`) 在 #mi(`x>0`) 上可导，所以 #mi(`f'(1)=0`). 计算得
+
+
+#align(center)[#mitex(`
+f'(x)=ax^{3}(4\ln x+1)+4bx^{3}
+`)]
+
 
 从而
 
-$ f'(1)=a+4 b=0 $
 
-结合 $b=-3$，得 $a=12$.
+#align(center)[#mitex(`
+f'(1)=a+4b=0
+`)]
+
+
+结合 #mi(`b=-3`)，得 #mi(`a=12`).
 
 于是
-$f(x)=12 x^(4) ln x-3 x^(4)-c$，$f'(x)=48 x^(3) ln x$.
 
-+ (1) $a=12$，$b=-3$.
-+ (2) 因为 $x^(3)>0$，所以当 $0<x<1$ 时，$f'(x)<0$；当 $x>1$ 时，$f'(x)>0$. 因此函数 $f(x)$ 在 $(0,1)$ 上单调递减，在 $(1,+ oo )$ 上单调递增.
-+ (3) 由第（2）问，$f(x)$ 在 $x=1$ 处取得最小值，且
+#mi(`f(x)=12x^{4}\ln x-3x^{4}-c`)，#mi(`f'(x)=48x^{3}\ln x`).
 
-$ min _(x>0)f(x)=f(1)=-3-c $
 
-所以题设不等式对任意 $x>0$ 恒成立的充要条件是
-
-$ -3-c >= -2 c^(2) $
-
-即
-
-$ 2 c^(2)-c-3 >= 0 $
-
-    解得 $c <= -1$ 或 $c >= (3)/(2)$.
-故 $c$ 的取值范围为 $(- oo ,-1] union [(3)/(2),+ oo )$.
++ (1) 
++ (2)
 ]
 
 #problem(21)[
-已知各项均为正数的数列 $\{a_(n)\}$ 的前 $n$ 项和 $S_(n)$ 满足 $S_(1) > 1$，且 $6 S_(n) = (a_(n) + 1)(a_(n) + 2)$，$n in NN _(+)$.
+已知各项均为正数的数列 #mi(`\{a_{n}\}`) 的前 #mi(`n`) 项和 #mi(`S_{n}`) 满足 #mi(`S_{1}> 1`)，且 #mi(`6S_{n}= (a_{n}+ 1)(a_{n}+ 2)`)，#mi(`n \in \N_{+}`).
 
 
-+ (1) 求 $\{a_(n)\}$ 的通项公式；
-+ (2) 设数列 $\{b_(n)\}$ 满足 $a_(n)(2^(b_(n))-1)=1$，并记 $T_(n)$ 为 $\{b_(n)\}$ 的前 $n$ 项和，求证： $3 T_(n)+1> log _(2)(a_(n)+3)$，$n in NN _(+)$.
++ (1)
 ]
 
 #solution[
-由 $S_(1)=a_(1)$ 以及题设关系，得
+由 #mi(`S_{1}=a_{1}`) 以及题设关系，得
 
-$ 6 a_(1)=(a_(1)+1)(a_(1)+2) $
+
+#align(center)[#mitex(`
+6a_{1}=(a_{1}+1)(a_{1}+2)
+`)]
+
 
 即
 
-$ a_(1)^(2)-3 a_(1)+2=0 $
 
-因为 $a_(1)>1$，所以 $a_(1)=2$.
+#align(center)[#mitex(`
+a_{1}^{2}-3a_{1}+2=0
+`)]
 
-下面用归纳法求通项. 假设 $n >= 2$，且已经得到 $a_(n-1)=3 n-4$. 由题设
 
-$ 6 S_(n-1)=(a_(n-1)+1)(a_(n-1)+2)=(3 n-3)(3 n-2) $
+因为 #mi(`a_{1}>1`)，所以 #mi(`a_{1}=2`).
 
-又 $S_n=S_(n-1)+a_n$，所以
+下面用归纳法求通项. 假设 #mi(`n\geqslant2`)，且已经得到 #mi(`a_{n-1}=3n-4`). 由题设
 
-$ (a_n+1)(a_n+2)=(3 n-3)(3 n-2)+6 a_n $
+
+#align(center)[#mitex(`
+6S_{n-1}=(a_{n-1}+1)(a_{n-1}+2)=(3n-3)(3n-2)
+`)]
+
+
+又 #mi(`S_{n}=S_{n-1}+a_{n}`)，所以
+
+
+#align(center)[#mitex(`
+(a_{n}+1)(a_{n}+2)=(3n-3)(3n-2)+6a_{n}
+`)]
+
 
 整理得
 
-$ a_n^(2)-3 a_n+2-(3 n-3)(3 n-2)=0 $
 
-该方程的一个根是 $3 n-1$，由两根之和为 $3$，另一个根为 $4-3 n<0$. 因为 $a_n>0$，所以 $a_n=3 n-1$. 结合 $a_1=2$，归纳可得
-$a_n=3 n-1$（$n in NN _(+)$）.
+#align(center)[#mitex(`
+a_{n}^{2}-3a_{n}+2-(3n-3)(3n-2)=0
+`)]
 
-+ (1) $a_n=3 n-1$.
-+ (2) 由 $a_n(2^(b_n)-1)=1$，得
 
-$ 2^(b_n)=1+(1)/(a_n)=(3 n)/(3 n-1) $
+该方程的一个根是 #mi(`3n-1`)，由两根之和为 #mi(`3`)，另一个根为 #mi(`4-3n<0`). 因为 #mi(`a_{n}>0`)，所以 #mi(`a_{n}=3n-1`). 结合 #mi(`a_{1}=2`)，归纳可得
 
-所以
+#mi(`a_{n}=3n-1`)（#mi(`n\in\N_{+}`)）.
 
-$ b_n= log _(2)(3 n)/(3 n-1) $
 
-从而
-
-$ T_n=sum_(k=1)^(n)b_k = log _(2)prod_(k=1)^(n)(3 k)/(3 k-1) $
-
-对任意 $k in NN _(+)$，有
-
-$ (3 k)^3-(3 k-1)^2(3 k+2)=9 k-2>0 $
-
-因此
-
-$ ((3 k)/(3 k-1))^3>(3 k+2)/(3 k-1) $
-
-将上式从 $k=1$ 到 $k=n$ 相乘，得
-
-$ 2^(3 T_n) =prod_(k=1)^(n)((3 k)/(3 k-1))^3 >prod_(k=1)^(n)(3 k+2)/(3 k-1)=(3 n+2)/(2) $
-
-两边取以 $2$ 为底的对数，得
-
-$ 3 T_n> log _(2)(3 n+2)-1 $
-
-所以
-
-$ 3 T_n+1> log _(2)(3 n+2)= log _(2)(a_n+3) $
-
-题设不等式得证.
++ (1)
 ]
 
 #problem(22)[
-如图，中心在原点 $O$ 的椭圆的右焦点为 $F(3,0)$，右准线 $l$ 的方程为：$x = 12$.
+如图，中心在原点 #mi(`O`) 的椭圆的右焦点为 #mi(`F(3,0)`)，右准线 #mi(`l`) 的方程为：#mi(`x = 12`).
 
 
-+ (1) 求椭圆的方程；
-+ (2) 在椭圆上任取三个不同点 $P_(1)$，$P_(2)$，$P_(3)$，使 $angle P_(1)F P_(2) = angle P_(2)F P_(3) = angle P_(3)F P_(1)$，证明 $(1)/(|F P_1|)+ (1)/(|F P_2|)+ (1)/(|F P_3|)$ 为定值，并求此定值.
++ (1) 
 
 
-#align(center)[#image("/papers/2007/img/chongqing_science/q22_fig1.png", width: 38%)]
+
+[max width=0.38\linewidth]img/2007/chongqing_science/q22_fig1.png
 ]
 
 #solution[
-由椭圆的右焦点为 $F(3,0)$，得焦半距 $c=3$. 右准线为 $x=12$，而椭圆的离心率满足
-
-$ e=(c)/(a)=(a)/(12) $
-
-所以 $a^(2)=36$，即 $a=6$. 又
-
-$ b^(2)=a^(2)-c^(2)=36-9=27 $
+由椭圆的右焦点为 #mi(`F(3,0)`)，得焦半距 #mi(`c=3`). 右准线为 #mi(`x=12`)，而椭圆的离心率满足
 
 
-+ (1) 椭圆方程为
+#align(center)[#mitex(`
+e=\frac{c}{a}=\frac{a}{12}
+`)]
 
-$ (x^(2))/(36)+(y^(2))/(27)=1 $
-+ (2) 设 $r=|F P|$，$theta$ 为射线 $F P$ 与 $x$ 轴正方向的夹角. 因为 $P$ 的横坐标为 $3+r cos theta$，所以点 $P$ 到右准线的距离为 $9-r cos theta$. 由椭圆的焦点准线定义以及 $e=(1)/(2)$，得
 
-$ r=(1)/(2)(9-r cos theta ) $
+所以 #mi(`a^{2}=36`)，即 #mi(`a=6`). 又
 
-即
 
-$ (1)/(r)=(2+ cos theta)/(9) $
+#align(center)[#mitex(`
+b^{2}=a^{2}-c^{2}=36-9=27
+`)]
 
-记 $r_i=|F P_i|$，并以 $theta _i$ 表示射线 $F P_i$ 的方向角. 三条射线两两夹角相等，所以它们把周角三等分，可设其方向角依次为
-$theta _1$，$theta _1+(2 pi)/(3)$，$theta _1+(4 pi)/(3)$，
-于是
 
-$ cos theta _1+ cos ( theta _1+(2 pi)/(3)) + cos ( theta _1+(4 pi)/(3))=0 $
 
-因此
-
-$ (1)/(|F P_1|)+(1)/(|F P_2|)+(1)/(|F P_3|)=(2+ cos theta _1)/(9)+(2+ cos ( theta _1+(2 pi)/(3)))/(9)+(2+ cos ( theta _1+(4 pi)/(3)))/(9)=(2)/(3) $
-
-所以该和为定值 $(2)/(3)$.
++ (1)
 ]
 

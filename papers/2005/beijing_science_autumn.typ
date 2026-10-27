@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,421 +11,448 @@
 #part-header("单选题")
 
 #problem(1)[
-设全集 $U= RR$，集合 $M=\{x | x>1\}$，$P=\{x | x^2>1\}$，则下列关系中正确的是（$$）
+设全集 #mi(`U=\mathbb{R}`)，集合 #mi(`M=\{x\mid x>1\}`)，#mi(`P=\{x\mid x^{2}>1\}`)，则下列关系中正确的是（#mi(`\quad`)）
 
-\answer{C}
-  #choices([$M=P$], [$P \s u b s e t n e q M$], [$M \s u b s e t n e q P$], [$\c o m p l e m e n t_U M inter P=\emptyset$], cols: 1)
+\answerC
+  #choices([#mi(`M=P`)], [#mi(`P \subsetneq M`)], [#mi(`M \subsetneq P`)], [#mi(`\complement_{U} M \cap P=\emptyset`)], cols: 1)
 ]
 
 #solution[
-由 $x^2>1$ 得 $x>1$ 或 $x<-1$，所以 $P=(- oo ,-1) union (1,+ oo )$，而 $M=(1,+ oo )$. 因此 $M\s u b s e t n e q P$，选项 C 正确. 另一方面，$-2 in P$ 且 $-2 in.not M$，所以 $P not subset.eq M$，选项 B 中的 $P\s u b s e t n e q M$ 错误. 又 $\c o m p l e m e n t_U M=(- oo ,1]$，故 $\c o m p l e m e n t_U M inter P=(- oo ,-1) != emptyset$，选项 D 错误；显然 $M != P$，选项 A 错误. 因此正确选项为 C.
+由 #mi(`x^{2}>1`) 得 #mi(`x>1`) 或 #mi(`x<-1`)，所以 #mi(`P=(-\infty,-1)\cup(1,+\infty)`)，而 #mi(`M=(1,+\infty)`). 因此 #mi(`M\subsetneq P`)，选项 C 正确. 另一方面，#mi(`-2\in P`) 且 #mi(`-2\notin M`)，所以 #mi(`P\not\subseteq M`)，选项 B 中的 #mi(`P\subsetneq M`) 错误. 又 #mi(`\complement_{U} M=(-\infty,1]`)，故 #mi(`\complement_{U} M\cap P=(-\infty,-1)\ne\varnothing`)，选项 D 错误；显然 #mi(`M\ne P`)，选项 A 错误. 因此正确选项为 C.
 ]
 
 #problem(2)[
-“$m=(1)/(2)$”是“直线 $(m+2)x+3 m y+1=0$ 与直线 $(m-2)x+(m+2)y-3=0$ 相互垂直”的（$$）
+“#mi(`m=\frac{1}{2}`)”是“直线 #mi(`(m+2)x+3my+1=0`) 与直线 #mi(`(m-2)x+(m+2)y-3=0`) 相互垂直”的（#mi(`\quad`)）
 
-\answer{B}
+\answerB
   #choices([充分必要条件], [充分而不必要条件], [必要而不充分条件], [既不充分也不必要条件], cols: 4)
 ]
 
 #solution[
-两直线 $A_(1) x+B_(1) y+C_1=0$ 和 $A_(2) x+B_(2) y+C_2=0$ 垂直的条件是 $A_(1) A_2+B_(1) B_2=0$. 本题中
+两直线 #mi(`A_{1}x+B_{1}y+C_{1}=0`) 和 #mi(`A_{2}x+B_{2}y+C_{2}=0`) 垂直的条件是 #mi(`A_{1}A_{2}+B_{1}B_{2}=0`). 本题中
 
 
-$ (m+2)(m-2)+3 m(m+2)=(m+2)(4 m-2)=0 $
+#align(center)[#mitex(`
+(m+2)(m-2)+3m(m+2)=(m+2)(4m-2)=0
+`)]
 
 
-所以两直线垂直当且仅当 $m=-2$ 或 $m=(1)/(2)$. 因此 $m=(1)/(2)$ 能推出两直线垂直，但两直线垂直时还可能有 $m=-2$，故它是充分而不必要条件，正确选项为 B.
+所以两直线垂直当且仅当 #mi(`m=-2`) 或 #mi(`m=\frac{1}{2}`). 因此 #mi(`m=\frac{1}{2}`) 能推出两直线垂直，但两直线垂直时还可能有 #mi(`m=-2`)，故它是充分而不必要条件，正确选项为 B.
 ]
 
 #problem(3)[
-若 $|bold(a)|=1$，$|bold(b)|=2$，$bold(c)=bold(a)+bold(b)$，且 $bold(c)\p e r p b o l d(a)$，则向量 $bold(a)$ 与 $bold(b)$ 的夹角为（$$）
+若 #mi(`\left|\mathbf{a}\right|=1`)，#mi(`\left|\mathbf{b}\right|=2`)，#mi(`\mathbf{c}=\mathbf{a}+\mathbf{b}`)，且 #mi(`\mathbf{c}\perp\mathbf{a}`)，则向量 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为（#mi(`\quad`)）
 
-\answer{C}
-  #choices([$30^( degree )$], [$60^( degree )$], [$120^( degree )$], [$150^( degree )$], cols: 2)
+\answerC
+  #choices([#mi(`30^{\circ}`)], [#mi(`60^{\circ}`)], [#mi(`120^{\circ}`)], [#mi(`150^{\circ}`)], cols: 2)
 ]
 
 #solution[
-由 $bold(c)=bold(a)+bold(b)$ 且 $bold(c)\p e r p b o l d(a)$，得
+由 #mi(`\mathbf{c}=\mathbf{a}+\mathbf{b}`) 且 #mi(`\mathbf{c}\perp\mathbf{a}`)，得
 
-$ 0=bold(c)\c d o t b o l d(a)=(bold(a)+bold(b))\c d o t b o l d(a)=|bold(a)|^2+bold(a)\c d o t b o l d(b)=1+bold(a)\c d o t b o l d(b) $
 
-因此 $bold(a)\c d o t b o l d(b)=-1$. 设 $bold(a)$ 与 $bold(b)$ 的夹角为 $theta$，则
+#align(center)[#mitex(`
+0=\mathbf{c}\cdot\mathbf{a}=(\mathbf{a}+\mathbf{b})\cdot\mathbf{a}=|\mathbf{a}|^{2}+\mathbf{a}\cdot\mathbf{b}=1+\mathbf{a}\cdot\mathbf{b}
+`)]
 
-$ cos theta =(bold(a){ dot }bold(b))/(|bold(a)||bold(b)|)=(-1)/(1 dot 2)=-(1)/(2) $
 
-由于 $0 <= theta <= pi$，所以 $theta =120^ degree$，正确选项为 C.
+因此 #mi(`\mathbf{a}\cdot\mathbf{b}=-1`). 设 #mi(`\mathbf{a}`) 与 #mi(`\mathbf{b}`) 的夹角为 #mi(`\theta`)，则
+
+
+#align(center)[#mitex(`
+\cos\theta=\frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}||\mathbf{b}|}=\frac{-1}{1\cdot2}=-\frac{1}{2}
+`)]
+
+
+由于 #mi(`0\le\theta\le\pi`)，所以 #mi(`\theta=120^{\circ}`)，正确选项为 C.
 ]
 
 #problem(4)[
-从原点向圆 $x^2+y^2-12 y+27=0$ 作两条切线，则该圆夹在两条切线间的劣弧长为（$$）
+从原点向圆 #mi(`x^{2}+y^{2}-12y+27=0`) 作两条切线，则该圆夹在两条切线间的劣弧长为（#mi(`\quad`)）
 
-\answer{B}
-  #choices([$pi$], [$2 pi$], [$4 pi$], [$6 pi$], cols: 4)
+\answerB
+  #choices([#mi(`\pi`)], [#mi(`2\pi`)], [#mi(`4\pi`)], [#mi(`6\pi`)], cols: 4)
 ]
 
 #solution[
 将圆的方程化为
 
-$ x^2+(y-6)^2=9 $
 
-所以圆心为 $C(0,6)$，半径为 $3$，且 $O C=6$. 设两切点为 $T_1$，$T_2$，则 $C T_1 bot O T_1$，在直角三角形 $O C T_1$ 中，$cos angle O C T_1=(C T_1)/(O C)=(1)/(2)$，从而 $angle O C T_1=60^ degree$. 由对称性，$angle T_(1) C T_2=120^ degree =(2 pi)/(3)$. 因此劣弧长为
+#align(center)[#mitex(`
+x^{2}+(y-6)^{2}=9
+`)]
 
-$ 3 dot (2 pi)/(3)=2 pi $
+
+所以圆心为 #mi(`C(0,6)`)，半径为 #mi(`3`)，且 #mi(`OC=6`). 设两切点为 #mi(`T_{1}`)，#mi(`T_{2}`)，则 #mi(`CT_{1}\perp OT_{1}`)，在直角三角形 #mi(`OCT_{1}`) 中，#mi(`\cos\angle OCT_{1}=\frac{CT_{1}}{OC}=\frac{1}{2}`)，从而 #mi(`\angle OCT_{1}=60^{\circ}`). 由对称性，#mi(`\angle T_{1}CT_{2}=120^{\circ}=\frac{2\pi}{3}`). 因此劣弧长为
+
+
+#align(center)[#mitex(`
+3\cdot\frac{2\pi}{3}=2\pi
+`)]
+
 
 故正确选项为 B.
 ]
 
 #problem(5)[
-对任意的锐角 $alpha$，$beta$，下列不等关系中正确的是（$$）
+对任意的锐角 #mi(`\alpha`)，#mi(`\beta`)，下列不等关系中正确的是（#mi(`\quad`)）
 
-\answer{D}
-  #choices([$sin ( alpha + beta )> sin alpha + sin beta$], [$sin ( alpha + beta )> cos alpha + cos beta$], [$cos ( alpha + beta )< sin alpha + sin beta$], [$cos ( alpha + beta )< cos alpha + cos beta$], cols: 1)
+\answerD
+  #choices([#mi(`\sin(\alpha+\beta)>\sin\alpha+\sin\beta`)], [#mi(`\sin(\alpha+\beta)>\cos\alpha+\cos\beta`)], [#mi(`\cos(\alpha+\beta)<\sin\alpha+\sin\beta`)], [#mi(`\cos(\alpha+\beta)<\cos\alpha+\cos\beta`)], cols: 1)
 ]
 
 #solution[
-因为 $alpha$，$beta$ 都是锐角，所以 $0< cos alpha <1$，$0< cos beta <1$，并且
+因为 #mi(`\alpha`)，#mi(`\beta`) 都是锐角，所以 #mi(`0<\cos\alpha<1`)，#mi(`0<\cos\beta<1`)，并且
 
-$ cos ( alpha + beta )= cos alpha cos beta - sin alpha sin beta < cos alpha cos beta < cos alpha < cos alpha + cos beta $
 
-因此选项 D 对任意锐角 $alpha$，$beta$ 都成立. 选项 A 因为 $sin ( alpha + beta )= sin alpha cos beta + cos alpha sin beta < sin alpha + sin beta$ 不成立；选项 B 取 $alpha = beta =(pi)/(6)$ 即不成立；选项 C 取 $alpha = beta =(pi)/(12)$，有 $cos ( alpha + beta )=(sqrt(3))/(2)>2 sin (pi)/(12)= sin alpha + sin beta$，也不成立. 因此正确选项为 D.
+#align(center)[#mitex(`
+\cos(\alpha+\beta)=\cos\alpha\cos\beta-\sin\alpha\sin\beta<\cos\alpha\cos\beta<\cos\alpha<\cos\alpha+\cos\beta
+`)]
+
+
+因此选项 D 对任意锐角 #mi(`\alpha`)，#mi(`\beta`) 都成立. 选项 A 因为 #mi(`\sin(\alpha+\beta)=\sin\alpha\cos\beta+\cos\alpha\sin\beta<\sin\alpha+\sin\beta`) 不成立；选项 B 取 #mi(`\alpha=\beta=\frac{\pi}{6}`) 即不成立；选项 C 取 #mi(`\alpha=\beta=\frac{\pi}{12}`)，有 #mi(`\cos(\alpha+\beta)=\frac{\sqrt{3}}{2}>2\sin\frac{\pi}{12}=\sin\alpha+\sin\beta`)，也不成立. 因此正确选项为 D.
 ]
 
 #problem(6)[
-在正四面体 $P-A B C$ 中，$D$，$E$，$F$ 分别是 $A B$，$B C$，$C A$ 的中点，下面四个结论中不成立的是（$$）
+在正四面体 #mi(`P-ABC`) 中，#mi(`D`)，#mi(`E`)，#mi(`F`) 分别是 #mi(`AB`)，#mi(`BC`)，#mi(`CA`) 的中点，下面四个结论中不成立的是（#mi(`\quad`)）
 
-\answer{C}
-  #choices([$B C parallel$ 平面 $P D F$], [$D F bot$ 平面 $P A E$], [平面 $P D F bot$ 平面 $A B C$], [平面 $P A E bot$ 平面 $A B C$], cols: 2)
+\answerC
+  #choices([#mi(`BC\parallel`) 平面 #mi(`PDF`)], [#mi(`DF\perp`) 平面 #mi(`PAE`)], [平面 #mi(`PDF\perp`) 平面 #mi(`ABC`)], [平面 #mi(`PAE\perp`) 平面 #mi(`ABC`)], cols: 1)
 ]
 
 #solution[
-取正四面体棱长为 $1$，建立直角坐标系，使
-$A=(0,(sqrt(3))/(2),0)$，$B=(-(1)/(2),0,0)$，$C=((1)/(2),0,0)$，$P=(0,(sqrt(3))/(6),sqrt((2)/(3)))$.
-于是 $D=(-(1)/(4),(sqrt(3))/(4),0)$，$E=(0,0,0)$，$F=((1)/(4),(sqrt(3))/(4),0)$.
-由 $D F parallel B C$，且 $arrow(D F)=((1)/(2),0,0)$，$arrow(D P)=((1)/(4),-(sqrt(3))/(12),sqrt((2)/(3)))$，
-可取平面 $P D F$ 的法向量为
+取正四面体棱长为 #mi(`1`)，建立直角坐标系，使
 
-$ bold(n)=arrow(D F)\t i m e s a r r o w(D P)=(0,-(1)/(2)sqrt((2)/(3)),-(sqrt(3))/(24)) $
+#mi(`A=\left(0,\frac{\sqrt{3}}{2},0\right)`)，#mi(`B=\left(-\frac{1}{2},0,0\right)`)，#mi(`C=\left(\frac{1}{2},0,0\right)`)，#mi(`P=\left(0,\frac{\sqrt{3}}{6},\sqrt{\frac{2}{3}}\right)`).
 
-又 $arrow(D C)=((3)/(4),-(sqrt(3))/(4),0)$，故
+于是 #mi(`D=\left(-\frac{1}{4},\frac{\sqrt{3}}{4},0\right)`)，#mi(`E=(0,0,0)`)，#mi(`F=\left(\frac{1}{4},\frac{\sqrt{3}}{4},0\right)`).
 
-$ arrow(D C)\c d o t b o l d(n)=(sqrt(2))/(8) != 0 $
+由 #mi(`DF\parallel BC`)，且 #mi(`\overrightarrow{DF}=\left(\frac{1}{2},0,0\right)`)，#mi(`\overrightarrow{DP}=\left(\frac{1}{4},-\frac{\sqrt{3}}{12},\sqrt{\frac{2}{3}}\right)`)，
 
-从而点 $C$ 不在平面 $P D F$ 内，故 $B C parallel$ 平面 $P D F$. 平面 $P A E$ 的方程为 $x=0$，其法向量为 $(1,0,0)$，而 $D F$ 平行于 $x$ 轴，所以 $D F bot$ 平面 $P A E$. 平面 $A B C$ 的方程为 $z=0$，法向量为 $(0,0,1)$，它与平面 $P A E$ 的法向量数量积为 $0$，所以平面 $P A E bot$ 平面 $A B C$，故 A、B、D 均成立.
+可取平面 #mi(`PDF`) 的法向量为
 
-平面 $P D F$ 内的两个方向向量可取 $arrow(D F)=((1)/(2),0,0)$ 和 $arrow(D P)=((1)/(4),-(sqrt(3))/(12),sqrt((2)/(3)))$，其法向量可取
 
-$ arrow(D F)\t i m e s a r r o w(D P)=(0,-(1)/(2)sqrt((2)/(3)),-(sqrt(3))/(24)) $
+#align(center)[#mitex(`
+\mathbf{n}=\overrightarrow{DF}\times\overrightarrow{DP}=\left(0,-\frac{1}{2}\sqrt{\frac{2}{3}},-\frac{\sqrt{3}}{24}\right)
+`)]
 
-平面 $A B C$ 的法向量为 $(0,0,1)$，两法向量的数量积为 $-(sqrt(3))/(24) != 0$，所以平面 $P D F$ 不垂直于平面 $A B C$. 故不成立的是 C.
+
+又 #mi(`\overrightarrow{DC}=\left(\frac{3}{4},-\frac{\sqrt{3}}{4},0\right)`)，故
+
+
+#align(center)[#mitex(`
+\overrightarrow{DC}\cdot\mathbf{n}=\frac{\sqrt{2}}{8}\ne0
+`)]
+
+
+从而点 #mi(`C`) 不在平面 #mi(`PDF`) 内，故 #mi(`BC\parallel`) 平面 #mi(`PDF`). 平面 #mi(`PAE`) 的方程为 #mi(`x=0`)，其法向量为 #mi(`\left(1,0,0\right)`)，而 #mi(`DF`) 平行于 #mi(`x`) 轴，所以 #mi(`DF\perp`) 平面 #mi(`PAE`). 平面 #mi(`ABC`) 的方程为 #mi(`z=0`)，法向量为 #mi(`\left(0,0,1\right)`)，它与平面 #mi(`PAE`) 的法向量数量积为 #mi(`0`)，所以平面 #mi(`PAE\perp`) 平面 #mi(`ABC`)，故 A、B、D 均成立.
+
+平面 #mi(`PDF`) 内的两个方向向量可取 #mi(`\overrightarrow{DF}=\left(\frac{1}{2},0,0\right)`) 和 #mi(`\overrightarrow{DP}=\left(\frac{1}{4},-\frac{\sqrt{3}}{12},\sqrt{\frac{2}{3}}\right)`)，其法向量可取
+
+
+#align(center)[#mitex(`
+\overrightarrow{DF}\times\overrightarrow{DP}=\left(0,-\frac{1}{2}\sqrt{\frac{2}{3}},-\frac{\sqrt{3}}{24}\right)
+`)]
+
+
+平面 #mi(`ABC`) 的法向量为 #mi(`\left(0,0,1\right)`)，两法向量的数量积为 #mi(`-\frac{\sqrt{3}}{24}\ne0`)，所以平面 #mi(`PDF`) 不垂直于平面 #mi(`ABC`). 故不成立的是 C.
 ]
 
 #problem(7)[
-北京《财富》全球论坛期间，某高校有 $14$ 名志愿者参加接待工作，若每天早，中，晚三班，每班 $4$ 人，每人每天最多值一班，则开幕式当天不同的排班种数为（$$）
+北京《财富》全球论坛期间，某高校有 #mi(`14`) 名志愿者参加接待工作，若每天早，中，晚三班，每班 #mi(`4`) 人，每人每天最多值一班，则开幕式当天不同的排班种数为（#mi(`\quad`)）
 
-\answer{A}
-  #choices([$C_(14)^(12)C_(12)^(4)C_(8)^(4)$], [$C_(14)^(12)A_(12)^(4)A_(8)^(4)$], [$(C_(14)^(12)C_(12)^(4)C_(8)^(4))/(A_(3)^(3))$], [$C_(14)^(12)C_(12)^(4)C_(8)^(4)A_(3)^(3)$], cols: 1)
+\answerA
+  #choices([#mi(`\mathrm{C}_{14}^{12}\mathrm{C}_{12}^{4}\mathrm{C}_{8}^{4}`)], [#mi(`\mathrm{C}_{14}^{12}\mathrm{A}_{12}^{4}\mathrm{A}_{8}^{4}`)], [#mi(`\dfrac{\mathrm{C}_{14}^{12}\mathrm{C}_{12}^{4}\mathrm{C}_{8}^{4}}{\mathrm{A}_{3}^{3}}`)], [#mi(`\mathrm{C}_{14}^{12}\mathrm{C}_{12}^{4}\mathrm{C}_{8}^{4}\mathrm{A}_{3}^{3}`)], cols: 1)
 ]
 
 #solution[
-先从 $14$ 名志愿者中选出参加当天排班的 $12$ 人，再从这 $12$ 人中选出早班的 $4$ 人，接着从剩下的 $8$ 人中选出中班的 $4$ 人，最后剩下的 $4$ 人值晚班. 由于早、中、晚三班有区别，排班总数为
+先从 #mi(`14`) 名志愿者中选出参加当天排班的 #mi(`12`) 人，再从这 #mi(`12`) 人中选出早班的 #mi(`4`) 人，接着从剩下的 #mi(`8`) 人中选出中班的 #mi(`4`) 人，最后剩下的 #mi(`4`) 人值晚班. 由于早、中、晚三班有区别，排班总数为
 
-$ C_(14)^(12)C_(12)^(4)C_(8)^(4) $
+
+#align(center)[#mitex(`
+\mathrm{C}_{14}^{12}\mathrm{C}_{12}^{4}\mathrm{C}_{8}^{4}
+`)]
+
 
 因此正确选项为 A.
 ]
 
 #problem(8)[
-函数 $f(x)=(sqrt(1- cos 2 x))/(cos x)$（$$）
+函数 #mi(`f(x)=\dfrac{\sqrt{1-\cos2x}}{\cos x}`)（#mi(`\quad`)）
 
-\answer{A}
-  #choices([在 $[0,(pi)/(2))$，$((pi)/(2), pi ]$ 上递增，在 $[ pi ,(3 pi)/(2))$，$((3 pi)/(2),2 pi ]$ 上递减], [在 $[0,(pi)/(2))$，$( pi ,(3 pi)/(2)]$ 上递增，在 $[(pi)/(2), pi )$，$((3 pi)/(2),2 pi ]$ 上递减], [在 $((pi)/(2), pi ]$，$((3 pi)/(2),2 pi ]$ 上递增，在 $[0,(pi)/(2))$，$( pi ,(3 pi)/(2)]$ 上递减], [在 $[0,(3 pi)/(2))$，$((3 pi)/(2), pi ]$ 上递增，在 $[0,(pi)/(2))$，$((pi)/(2),2 pi ]$ 上递减], cols: 1)
+\answerA
+  #choices([在 #mi(`\left[0,\frac{\pi}{2}\right)`)，#mi(`\left(\frac{\pi}{2},\pi\right]`) 上递增，在 #mi(`\left[\pi,\frac{3\pi}{2}\right)`)，#mi(`\left(\frac{3\pi}{2},2\pi\right]`) 上递减], [在 #mi(`\left[0,\frac{\pi}{2}\right)`)，#mi(`\left(\pi,\frac{3\pi}{2}\right]`) 上递增，在 #mi(`\left[\frac{\pi}{2},\pi\right)`)，#mi(`\left(\frac{3\pi}{2},2\pi\right]`) 上递减], [在 #mi(`\left(\frac{\pi}{2},\pi\right]`)，#mi(`\left(\frac{3\pi}{2},2\pi\right]`) 上递增，在 #mi(`\left[0,\frac{\pi}{2}\right)`)，#mi(`\left(\pi,\frac{3\pi}{2}\right]`) 上递减], [在 #mi(`\left[0,\frac{3\pi}{2}\right)`)，#mi(`\left(\frac{3\pi}{2},\pi\right]`) 上递增，在 #mi(`\left[0,\frac{\pi}{2}\right)`)，#mi(`\left(\frac{\pi}{2},2\pi\right]`) 上递减], cols: 1)
 ]
 
 #solution[
-由 $1- cos 2 x=2 sin ""^(2) x$，得 $f(x)=(sqrt(2)| sin x|)/(cos x)$，其中 $cos x != 0$.
-在 $[0,(pi)/(2))$ 和 $((pi)/(2), pi ]$ 上，$| sin x|= sin x$，故 $f(x)=sqrt(2) tan x$，且 $f'(x)=sqrt(2)\sec^(2) x>0$，所以函数递增. 在 $[ pi ,(3 pi)/(2))$ 和 $((3 pi)/(2),2 pi ]$ 上，$| sin x|=- sin x$，故 $f(x)=-sqrt(2) tan x$，且 $f'(x)=-sqrt(2)\sec^(2) x<0$，所以函数递减. 因此正确选项为 A.
+由 #mi(`1-\cos2x=2\sin^{2}x`)，得 #mi(`f(x)=\frac{\sqrt{2}|\sin x|}{\cos x}`)，其中 #mi(`\cos x\ne0`).
+
+在 #mi(`\left[0,\frac{\pi}{2}\right)`) 和 #mi(`\left(\frac{\pi}{2},\pi\right]`) 上，#mi(`|\sin x|=\sin x`)，故 #mi(`f(x)=\sqrt{2}\tan x`)，且 #mi(`f'(x)=\sqrt{2}\sec^{2}x>0`)，所以函数递增. 在 #mi(`\left[\pi,\frac{3\pi}{2}\right)`) 和 #mi(`\left(\frac{3\pi}{2},2\pi\right]`) 上，#mi(`|\sin x|=-\sin x`)，故 #mi(`f(x)=-\sqrt{2}\tan x`)，且 #mi(`f'(x)=-\sqrt{2}\sec^{2}x<0`)，所以函数递减. 因此正确选项为 A.
 ]
 
 #part-header("填空题")
 
 #problem(9)[
-若 $z_1=a+2 i$，$z_2=3-4 i$，且 $(z_1)/(z_2)$ 为纯虚数，则实数 $a$ 的值为#blank(){}.
-\answer{$(8)/(3)$}
+若 #mi(`z_{1}=a+2\mathrm{i}`)，#mi(`z_{2}=3-4\mathrm{i}`)，且 #mi(`\frac{z_{1}}{z_{2}}`) 为纯虚数，则实数 #mi(`a`) 的值为\underline{\hspace{2.5em}}.
+
+\answer#mi(`\frac{8}{3}`)
 ]
 
 #solution[
 将分式的分母有理化，得
 
-$ (z_1)/(z_2)=(a+2 i)/(3-4 i) dot (3+4 i)/(3+4 i)=((3 a-8)+(4 a+6) i)/(25) $
 
-该复数为纯虚数，当且仅当实部为零，即 $3 a-8=0$，所以 $a=(8)/(3)$. 此时虚部为 $(2)/(3) != 0$，确为纯虚数.
+#align(center)[#mitex(`
+\frac{z_{1}}{z_{2}}=\frac{a+2\mathrm{i}}{3-4\mathrm{i}}\cdot\frac{3+4\mathrm{i}}{3+4\mathrm{i}}=\frac{(3a-8)+(4a+6)\mathrm{i}}{25}
+`)]
+
+
+该复数为纯虚数，当且仅当实部为零，即 #mi(`3a-8=0`)，所以 #mi(`a=\frac{8}{3}`). 此时虚部为 #mi(`\frac{2}{3}\ne0`)，确为纯虚数.
 ]
 
 #problem(10)[
-已知 $tan (alpha)/(2)=2$，则 $tan alpha$ 的值为#blank(){}，$tan ( alpha +(pi)/(4))$ 的值为#blank(){}.
-\answer{$-(4)/(3)$，$-(1)/(7)$}
+已知 #mi(`\tan\frac{\alpha}{2}=2`)，则 #mi(`\tan\alpha`) 的值为\underline{\hspace{2.5em}}，#mi(`\tan\left(\alpha+\frac{\pi}{4}\right)`) 的值为\underline{\hspace{2.5em}}.
+
+\answer#mi(`-\frac{4}{3}`)，#mi(`-\frac{1}{7}`)
 ]
 
 #solution[
-令 $t= tan (alpha)/(2)=2$. 由正切的二倍角公式，
+令 #mi(`t=\tan\frac{\alpha}{2}=2`). 由正切的二倍角公式，
 
-$ tan alpha =(2 t)/(1-t^2)=(4)/(1-4)=-(4)/(3) $
+
+#align(center)[#mitex(`
+\tan\alpha=\frac{2t}{1-t^{2}}=\frac{4}{1-4}=-\frac{4}{3}
+`)]
+
 
 再由和角公式，
 
-$ tan ( alpha +(pi)/(4))=(tan alpha +1)/(1- tan alpha)=(-(4)/(3)+1)/(1+(4)/(3))=-(1)/(7) $
 
-所以两空依次为 $-(4)/(3)$ 和 $-(1)/(7)$.
+#align(center)[#mitex(`
+\tan\left(\alpha+\frac{\pi}{4}\right)=\frac{\tan\alpha+1}{1-\tan\alpha}=\frac{-\frac{4}{3}+1}{1+\frac{4}{3}}=-\frac{1}{7}
+`)]
+
+
+所以两空依次为 #mi(`-\frac{4}{3}`) 和 #mi(`-\frac{1}{7}`).
 ]
 
 #problem(11)[
-$(x-(1)/(x))^6$ 的展开式中的常数项是#blank(){}.（用数字作答）
-\answer{$-20$}
+#mi(`\left(x-\dfrac{1}{x}\right)^{6}`) 的展开式中的常数项是\underline{\hspace{2.5em}}.（用数字作答）
+
+\answer#mi(`-20`)
 ]
 
 #solution[
-展开式的通项为 $C_6^r x^(6-r)(-(1)/(x))^r=(-1)^r C_6^r x^(6-2 r)$. 要取得常数项，必须有 $6-2 r=0$，所以 $r=3$，常数项为 $(-1)^3 C_6^3=-20$.
+展开式的通项为 #mi(`\mathrm{C}_{6}^{r} x^{6-r}\left(-\dfrac{1}{x}\right)^{r}=(-1)^{r}\mathrm{C}_{6}^{r} x^{6-2r}`). 要取得常数项，必须有 #mi(`6-2r=0`)，所以 #mi(`r=3`)，常数项为 #mi(`(-1)^{3}\mathrm{C}_{6}^{3}=-20`).
 ]
 
 #problem(12)[
-过原点作曲线 $y= e ""^x$ 的切线，则切点的坐标为#blank(){}，切线的斜率为#blank(){}.
-\answer{$(1, e )$，$e$}
+过原点作曲线 #mi(`y=\mathrm{e}^{x}`) 的切线，则切点的坐标为\underline{\hspace{2.5em}}，切线的斜率为\underline{\hspace{2.5em}}.
+
+\answer#mi(`(1,\mathrm{e})`)，#mi(`\mathrm{e}`)
 ]
 
 #solution[
-设切点的横坐标为 $t$，则曲线 $y= e ""^x$ 在该点处的切线为
+设切点的横坐标为 #mi(`t`)，则曲线 #mi(`y=\mathrm{e}^{x}`) 在该点处的切线为
 
-$ y= e ""^t(x-t)+ e ""^t= e ""^t x+ e ""^t(1-t) $
 
-切线过原点，代入 $(0,0)$ 得 $e ""^t(1-t)=0$. 因为 $e ""^t != 0$，所以 $t=1$. 于是切点为 $(1, e )$，切线斜率为导数值 $y'(1)= e$.
+#align(center)[#mitex(`
+y=\mathrm{e}^{t}(x-t)+\mathrm{e}^{t}=\mathrm{e}^{t} x+\mathrm{e}^{t}(1-t)
+`)]
+
+
+切线过原点，代入 #mi(`(0,0)`) 得 #mi(`\mathrm{e}^{t}(1-t)=0`). 因为 #mi(`\mathrm{e}^{t}\ne0`)，所以 #mi(`t=1`). 于是切点为 #mi(`(1,\mathrm{e})`)，切线斜率为导数值 #mi(`y'(1)=\mathrm{e}`).
 ]
 
 #problem(13)[
-对于函数 $f(x)$ 定义域中任意的 $x_1$，$x_2$（$x_1 != x_2$），有如下结论：
+对于函数 #mi(`f(x)`) 定义域中任意的 #mi(`x_{1}`)，#mi(`x_{2}`)（#mi(`x_{1}\neq x_{2}`)），有如下结论：
 
-\begin{circlelist}
-\item $f(x_1+x_2)=f(x_1) dot f(x_2)$；
-\item $f(x_1 dot x_2)=f(x_1)+f(x_2)$；
-\item $(f(x_1)-f(x_2))/(x_1-x_2)>0$；
-\item $f((x_1+x_2)/(2))<(f(x_1)+f(x_2))/(2)$.
-\end{circlelist}
 
-当 $f(x)=\l g x$ 时，上述结论中正确结论的序号是#blank(){}.
-\answer{$"[2]"$、$"[3]"$}
++ (1) #mi(`f(x_{1}+x_{2})=f(x_{1})\cdot f(x_{2})`)；
++ (2) #mi(`f(x_{1}\cdot x_{2})=f(x_{1})+f(x_{2})`)；
++ (3) #mi(`\dfrac{f(x_1)-f(x_2)}{x_1-x_2}>0`)；
++ (4) #mi(`f\left(\dfrac{x_1+x_2}{2}\right)<\dfrac{f(x_1)+f(x_2)}{2}`).
+
+
+
+当 #mi(`f(x)=\lg x`) 时，上述结论中正确结论的序号是\underline{\hspace{2.5em}}.
+
+\answer#mi(`②`)、#mi(`③`)
 ]
 
 #solution[
-函数 $f(x)=\l g x$ 的定义域为 $(0,+ oo )$，在该定义域上严格递增且严格凹. 对结论 $"[1]"$，取 $x_1=1$，$x_2=2$，则 $\l g(x_1+x_2)=\l g3$，而 $f(x_1)f(x_2)=\l g1 dot \l g2=0$，两者不相等，所以 $"[1]"$ 错误. 由对数的乘法公式，
+函数 #mi(`f(x)=\lg x`) 的定义域为 #mi(`(0,+\infty)`)，在该定义域上严格递增且严格凹. 对结论 #mi(`①`)，取 #mi(`x_{1}=1`)，#mi(`x_{2}=2`)，则 #mi(`\lg(x_{1}+x_{2})=\lg3`)，而 #mi(`f(x_{1})f(x_{2})=\lg1\cdot\lg2=0`)，两者不相等，所以 #mi(`①`) 错误. 由对数的乘法公式，
 
-$ \l g(x_(1) x_2)=\l g x_1+\l g x_2 $
 
-所以 $"[2]"$ 正确. 因为对数函数严格递增，$x_1-x_2$ 与 $\l g x_1-\l g x_2$ 同号，且 $x_1 != x_2$，所以
+#align(center)[#mitex(`
+\lg(x_{1}x_{2})=\lg x_{1}+\lg x_{2}
+`)]
 
-$ (\l g x_1-\l g x_2)/(x_1-x_2)>0 $
 
-即 $"[3]"$ 正确. 又由算术平均数大于几何平均数，且 $x_1 != x_2$，有
+所以 #mi(`②`) 正确. 因为对数函数严格递增，#mi(`x_{1}-x_{2}`) 与 #mi(`\lg x_{1}-\lg x_{2}`) 同号，且 #mi(`x_{1}\ne x_{2}`)，所以
 
-$ (x_1+x_2)/(2)>sqrt(x_(1) x_2) $
+
+#align(center)[#mitex(`
+\frac{\lg x_{1}-\lg x_{2}}{x_{1}-x_{2}}>0
+`)]
+
+
+即 #mi(`③`) 正确. 又由算术平均数大于几何平均数，且 #mi(`x_{1}\ne x_{2}`)，有
+
+
+#align(center)[#mitex(`
+\frac{x_{1}+x_{2}}{2}>\sqrt{x_{1}x_{2}}
+`)]
+
 
 取对数得
 
-$ \l g(x_1+x_2)/(2)>(\l g x_1+\l g x_2)/(2) $
 
-与结论 $"[4]"$ 相反. 因此正确结论的序号为 $"[2]"$、$"[3]"$.
+#align(center)[#mitex(`
+\lg\frac{x_{1}+x_{2}}{2}>\frac{\lg x_{1}+\lg x_{2}}{2}
+`)]
+
+
+与结论 #mi(`④`) 相反. 因此正确结论的序号为 #mi(`②`)、#mi(`③`).
 ]
 
 #problem(14)[
-已知 $n$ 次多项式 $P_n(x)=a_(0) x^n+a_(1) x^(n-1)+ dots.c +a_(n-1)x+a_n$. 如果在一种算法中，计算 $x_0^k$（$k=2$，$3$，$4$，$dots.c$，$n$）的值需要 $k-1$ 次乘法，计算 $P_3(x_0)$ 的值共需要 $9$ 次运算（$6$ 次乘法，$3$ 次加法），那么计算 $P_(10)(x_0)$ 的值共需要#blank(){} 次运算.
+已知 #mi(`n`) 次多项式 #mi(`P_{n}(x)=a_{0}x^{n}+a_{1}x^{n-1}+\cdots+a_{n-1}x+a_{n}`). 如果在一种算法中，计算 #mi(`x_{0}^{k}`)（#mi(`k=2`)，#mi(`3`)，#mi(`4`)，#mi(`\cdots`)，#mi(`n`)）的值需要 #mi(`k-1`) 次乘法，计算 #mi(`P_{3}(x_{0})`) 的值共需要 #mi(`9`) 次运算（#mi(`6`) 次乘法，#mi(`3`) 次加法），那么计算 #mi(`P_{10}(x_{0})`) 的值共需要\underline{\hspace{2.5em}} 次运算.
 
-下面给出一种减少运算次数的算法：$P_0(x)=a_0$，$P_(k+1)(x)=x P_k(x)+a_(k+1)$（$k=0$，$1$，$2$，$dots.c$，$n-1$）. 利用该算法，计算 $P_3(x_0)$ 的值共需要 $6$ 次运算，计算 $P_(10)(x_0)$ 的值共需要#blank(){} 次运算.
-\answer{$65$，$20$}
+下面给出一种减少运算次数的算法：#mi(`P_{0}(x)=a_{0}`)，#mi(`P_{k+1}(x)=xP_{k}(x)+a_{k+1}`)（#mi(`k=0`)，#mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n-1`)）. 利用该算法，计算 #mi(`P_{3}(x_{0})`) 的值共需要 #mi(`6`) 次运算，计算 #mi(`P_{10}(x_{0})`) 的值共需要\underline{\hspace{2.5em}} 次运算.
+
+\answer#mi(`65`)，#mi(`20`)
 ]
 
 #solution[
-按第一种算法，计算 $x_0^2$，$x_0^3$，$\l d o t s$，$x_0^(10)$ 所需的乘法次数为
+按第一种算法，计算 #mi(`x_{0}^{2}`)，#mi(`x_{0}^{3}`)，#mi(`\ldots`)，#mi(`x_{0}^{10}`) 所需的乘法次数为
 
-$ sum_(k=2)^(10)(k-1)=1+2+ dots.c +9=45 $
 
-多项式 $P_(10)(x_0)$ 中除常数项外有 $10$ 项，还需用 $10$ 次乘法把系数与相应幂相乘，并用 $10$ 次加法把 $11$ 项相加. 因此总运算次数为 $45+10+10=65$. 这也与题给的 $P_3(x_0)$ 的计算相符：幂次计算需 $1+2=3$ 次乘法，系数相乘需 $3$ 次乘法，相加需 $3$ 次加法，共 $9$ 次.
+#align(center)[#mitex(`
+\sum_{k=2}^{10}(k-1)=1+2+\cdots+9=45
+`)]
 
-按第二种算法，从 $P_0(x_0)=a_0$ 递推到 $P_(10)(x_0)$ 共进行 $10$ 次递推. 每次递推中的 $x_(0) P_k(x_0)$ 需 $1$ 次乘法，再加上 $a_(k+1)$ 需 $1$ 次加法，所以共需 $10+10=20$ 次运算.
+
+多项式 #mi(`P_{10}(x_{0})`) 中除常数项外有 #mi(`10`) 项，还需用 #mi(`10`) 次乘法把系数与相应幂相乘，并用 #mi(`10`) 次加法把 #mi(`11`) 项相加. 因此总运算次数为 #mi(`45+10+10=65`). 这也与题给的 #mi(`P_{3}(x_{0})`) 的计算相符：幂次计算需 #mi(`1+2=3`) 次乘法，系数相乘需 #mi(`3`) 次乘法，相加需 #mi(`3`) 次加法，共 #mi(`9`) 次.
+
+按第二种算法，从 #mi(`P_{0}(x_{0})=a_{0}`) 递推到 #mi(`P_{10}(x_{0})`) 共进行 #mi(`10`) 次递推. 每次递推中的 #mi(`x_{0}P_{k}(x_{0})`) 需 #mi(`1`) 次乘法，再加上 #mi(`a_{k+1}`) 需 #mi(`1`) 次加法，所以共需 #mi(`10+10=20`) 次运算.
 ]
 
 #part-header("解答题")
 
 #problem(15)[
-已知函数 $f(x)=-x^3+3 x^2+9 x+a$.
+已知函数 #mi(`f(x)=-x^{3}+3x^{2}+9x+a`).
 
 
-+ (1) 求 $f(x)$ 的单调减区间；
-+ (2) 若 $f(x)$ 在区间 $[-2,2]$ 上的最大值为 $20$，求它在该区间上的最小值.
++ (1)
 ]
 
 #solution[
-+ (1) $f'(x)=-3 x^2+6 x+9=-3(x+1)(x-3)$. 当 $x<-1$ 或 $x>3$ 时，$f'(x)<0$；当 $-1<x<3$ 时，$f'(x)>0$. 所以 $f(x)$ 的单调减区间为 $(- oo ,-1)$ 和 $(3,+ oo )$.
-+ (2) 在区间 $[-2,2]$ 上，函数在 $[-2,-1]$ 上递减，在 $[-1,2]$ 上递增. 计算得 $f(-2)=a+2$，$f(-1)=a-5$，$f(2)=a+22$.
-其中 $f(2)>f(-2)$，故区间上的最大值为 $f(2)=a+22=20$，从而 $a=-2$. 因此最小值为 $f(-1)=a-5=-7$.
++ (1)
 ]
 
 #problem(16)[
-如图，在直四棱柱 $A B C D-A_(1)B_(1)C_(1)D_(1)$ 中，$A B=A D=2$，$D C=2 sqrt(3)$，$A A_1=sqrt(3)$，$A D bot D C$，$A C bot B D$，垂足为 $E$.
+如图，在直四棱柱 #mi(`ABCD-A_{1}B_{1}C_{1}D_{1}`) 中，#mi(`AB=AD=2`)，#mi(`DC=2\sqrt{3}`)，#mi(`AA_{1}=\sqrt{3}`)，#mi(`AD\perp DC`)，#mi(`AC\perp BD`)，垂足为 #mi(`E`).
 
 
-+ (1) 求证：$B D bot A_(1) C$；
-+ (2) 求二面角 $A_1-B D-C_1$ 的大小；
-+ (3) 求异面直线 $A D$ 与 $B C_1$ 所成角的大小.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2005/img/beijing_science_autumn/q16_fig1.png", width: 45%)]
+
+#align(center)[#image("/papers/2005/img/beijing_science_autumn/q16_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-建立空间直角坐标系，取 $D$ 为原点，$D C$ 所在直线为 $x$ 轴，$D A$ 所在直线为 $y$ 轴，直四棱柱的侧棱方向为 $z$ 轴. 于是 $D=(0,0,0)$，$A=(0,2,0)$，$C=(2 sqrt(3),0,0)$. 设 $B=(u,v,0)$. 由 $A B=2$ 及 $A C bot B D$，分别得到
-
-$ u^2+(v-2)^2=4 $
+建立空间直角坐标系，取 #mi(`D`) 为原点，#mi(`DC`) 所在直线为 #mi(`x`) 轴，#mi(`DA`) 所在直线为 #mi(`y`) 轴，直四棱柱的侧棱方向为 #mi(`z`) 轴. 于是 #mi(`D=(0,0,0)`)，#mi(`A=(0,2,0)`)，#mi(`C=(2\sqrt{3},0,0)`). 设 #mi(`B=(u,v,0)`). 由 #mi(`AB=2`) 及 #mi(`AC\perp BD`)，分别得到
 
 
-$ (2 sqrt(3),-2,0) dot (-u,-v,0)=0 $
+#align(center)[#mitex(`
+u^{2}+(v-2)^{2}=4
+`)]
 
-所以 $v=sqrt(3)u$. 代入前式得 $u^2+(sqrt(3)u-2)^2=4$，即 $4 u(u-sqrt(3))=0$. 由于四棱柱的底面不退化，$B != D$，故 $u=sqrt(3)$，$v=3$，从而 $B=(sqrt(3),3,0)$，$A_1=(0,2,sqrt(3))$，$C_1=(2 sqrt(3),0,sqrt(3))$.
 
 
-+ (1) $arrow(B D)=(-sqrt(3),-3,0)$，$arrow(A_(1) C)=(2 sqrt(3),-2,-sqrt(3))$，所以
+#align(center)[#mitex(`
+(2\sqrt{3},-2,0)\cdot(-u,-v,0)=0
+`)]
 
-$ arrow(B D)\c d o t a r r o w(A_(1) C)=-6+6=0 $
 
-因此 $B D bot A_(1) C$.
-+ (2) 平面 $A_(1) B D$ 的两个方向向量可取 $arrow(D B)=(sqrt(3),3,0)$ 和 $arrow(D A_1)=(0,2,sqrt(3))$，平面 $C_(1) B D$ 的两个方向向量可取 $arrow(D B)$ 和 $arrow(D C_1)=(2 sqrt(3),0,sqrt(3))$. 因此这两个平面的一个法向量分别为 $(3 sqrt(3),-3,2 sqrt(3))$ 和 $(3 sqrt(3),-3,-6 sqrt(3))$.
-它们的数量积为 $27+9-36=0$，故两平面垂直，二面角 $A_1-B D-C_1$ 的大小为 $90^ degree$.
-+ (3) 取 $arrow(A D)=(0,-2,0)$，则 $arrow(B C_1)=(sqrt(3),-3,sqrt(3))$. 因此
-$|arrow(A D)\c d o t a r r o w(B C_1)|=6$，$|arrow(A D)|=2$，$|arrow(B C_1)|=sqrt(15)$.
-设异面直线所成的角为 $theta$，则 $cos theta =(6)/(2 sqrt(15))=(sqrt(15))/(5)$，所以 $theta = arccos (sqrt(15))/(5)$.
+所以 #mi(`v=\sqrt{3}u`). 代入前式得 #mi(`u^{2}+(\sqrt{3}u-2)^{2}=4`)，即 #mi(`4u(u-\sqrt{3})=0`). 由于四棱柱的底面不退化，#mi(`B\ne D`)，故 #mi(`u=\sqrt{3}`)，#mi(`v=3`)，从而 #mi(`B=(\sqrt{3},3,0)`)，#mi(`A_{1}=(0,2,\sqrt{3})`)，#mi(`C_{1}=(2\sqrt{3},0,\sqrt{3})`).
+
+
++ (1) 
++ (2)
 ]
 
 #problem(17)[
-甲，乙两人各进行 $3$ 次射击，甲每次击中目标的概率为 $(1)/(2)$，乙每次击中目标的概率为 $(2)/(3)$.
+甲，乙两人各进行 #mi(`3`) 次射击，甲每次击中目标的概率为 #mi(`\frac{1}{2}`)，乙每次击中目标的概率为 #mi(`\frac{2}{3}`).
 
 
-+ (1) 记甲击中目标的次数为 $xi$，求 $xi$ 的概率分布及数学期望 $E( xi )$；
-+ (2) 求乙至多击中目标 $2$ 次的概率；
-+ (3) 求甲恰好比乙多击中目标 $2$ 次的概率.
++ (1) 
++ (2)
 ]
 
 #solution[
-设乙击中目标的次数为 $eta$. 由于各次射击相互独立，$xi$ 服从参数为 $3$，$(1)/(2)$ 的二项分布，故
+设乙击中目标的次数为 #mi(`\eta`). 由于各次射击相互独立，#mi(`\xi`) 服从参数为 #mi(`3`)，#mi(`\frac{1}{2}`) 的二项分布，故
 
-+ (1) 对 $k=0$，$1$，$2$，$3$，有 $P( xi =k)=C_3^k((1)/(2))^k((1)/(2))^(3-k)=(C_3^k)/(8)$. 因此
-$P( xi =0)=(1)/(8)$，$P( xi =1)=(3)/(8)$，$P( xi =2)=(3)/(8)$，$P( xi =3)=(1)/(8)$.
-并且
 
-$ E( xi )=0 dot (1)/(8)+1 dot (3)/(8)+2 dot (3)/(8)+3 dot (1)/(8)=(3)/(2) $
-+ (2) $eta$ 服从参数为 $3$，$(2)/(3)$ 的二项分布，所以
-
-$ P( eta <= 2 )=1-P( eta =3)=1-((2)/(3))^3=(19)/(27) $
-+ (3) 甲恰好比乙多击中目标 $2$ 次时，可能的情形为 $( xi , eta )=(2,0)$ 或 $(3,1)$. 由于甲、乙的射击相互独立，所求概率为
-
-$ P( xi =2)P( eta =0)+P( xi =3)P( eta =1) =(3)/(8) dot (1)/(27)+(1)/(8)\c d o t C_3^1(2)/(3)((1)/(3))^2 =(1)/(72)+(1)/(36)=(1)/(24) $
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-如图，直线 $l_1:y=k x$（$k>0$）与直线 $l_2:y=-k x$ 之间的阴影区域（不含边界）记为 $W$，其左半部分记为 $W_1$，右半部分记为 $W_2$.
+如图，直线 #mi(`l_{1}:y=kx`)（#mi(`k>0`)）与直线 #mi(`l_{2}:y=-kx`) 之间的阴影区域（不含边界）记为 #mi(`W`)，其左半部分记为 #mi(`W_{1}`)，右半部分记为 #mi(`W_{2}`).
 
 
-+ (1) 分别用不等式组表示 $W_1$ 和 $W_2$；
-+ (2) 若区域 $W$ 中的动点 $P(x,y)$ 到 $l_1$，$l_2$ 的距离之积等于 $d^2$，求点 $P$ 的轨迹 $C$ 的方程；
-+ (3) 设不过原点 $O$ 的直线 $l$ 与（2）中的曲线 $C$ 相交于 $M_1$，$M_2$ 两点，且与 $l_1$，$l_2$ 分别交于 $M_3$，$M_4$ 两点. 求证：$triangle O M_(1) M_2$ 的重心与 $triangle O M_(3) M_4$ 的重心重合.
++ (1) 
++ (2) 
 
 
 
-#align(center)[#image("/papers/2005/img/beijing_science_autumn/q18_fig1.png", width: 42%)]
+
+#align(center)[#image("/papers/2005/img/beijing_science_autumn/q18_fig1.png", width: 28%)]
+
 ]
 
 #solution[
-+ (1) 当 $x<0$ 时，$k x<-k x$，故左半部分为
-
-$ W_1=\{(x,y) | x<0,\ k x<y<-k x\} $
-
-当 $x>0$ 时，$-k x<k x$，故右半部分为
-
-$ W_2=\{(x,y) | x>0,\ -k x<y<k x\} $
-+ (2) 直线 $l_1$，$l_2$ 的方程分别为 $k x-y=0$，$k x+y=0$，所以点 $P(x,y)$ 到它们的距离分别为 $(|k x-y|)/(sqrt(1+k^2))$ 和 $(|k x+y|)/(sqrt(1+k^2))$.
-在区域 $W$ 内有 $y^2<k^(2) x^2$，因此距离之积为
-
-$ (|k x-y||k x+y|)/(1+k^2)=(k^(2) x^2-y^2)/(1+k^2) $
-
-由题意，该积等于 $d^2$，故轨迹 $C$ 的方程为
-
-$ k^(2) x^2-y^2-(1+k^2)d^2=0 $
-+ (3) 设不过原点的直线 $l$ 为 $y=m x+n$. 由于 $O in.not l$，有 $n != 0$. 设 $M_1$，$M_2$ 的横坐标为 $x_1$，$x_2$，代入曲线方程得
-
-$ (k^2-m^2)x^2-2 m n x-n^2-(1+k^2)d^2=0 $
-
-因该直线与曲线有两个交点，$m^2 != k^2$，由韦达定理
-
-$ x_1+x_2=(2 m n)/(k^2-m^2) $
-
-又设 $M_3$，$M_4$ 的横坐标为 $x_3$，$x_4$，则 $x_3=(n)/(k-m)$，$x_4=-(n)/(k+m)$，从而 $x_3+x_4=(2 m n)/(k^2-m^2)$.
-所以 $x_1+x_2=x_3+x_4$. 由于四点均在直线 $l$ 上，纵坐标满足 $y_i=m x_i+n$，从而
-
-$ y_1+y_2=m(x_1+x_2)+2 n=m(x_3+x_4)+2 n=y_3+y_4 $
-
-因此
-
-$ arrow(O M_1)+arrow(O M_2)=arrow(O M_3)+arrow(O M_4) $
-
-三角形 $O M_(1) M_2$ 与 $O M_(3) M_4$ 的重心坐标分别为上述两式的三分之一，故两三角形的重心重合.
-
-若 $l$ 为竖直直线 $x=c$，则 $c != 0$，且 $M_3=(c,k c)$，$M_4=(c,-k c)$，两点坐标和为 $(2 c,0)$；曲线与该直线的两个交点的纵坐标互为相反数，坐标和同样为 $(2 c,0)$，结论仍成立.
++ (1) 
++ (2)
 ]
 
 #problem(19)[
-设数列 $\{a_n\}$ 的首项 $a_1=a != (1)/(4)$，且
-$a_(n+1)= \b e g i n{c a s e s} (1)/(2)a_n, & n" 为偶数",\\ a_n+(1)/(4), & n" 为奇数". \e n d{c a s e s}$
-记 $b_n=a_(2 n-1)-(1)/(4)$，$n=1$，$2$，$3$，$dots.c$.
+设数列 #mi(`\{a_{n}\}`) 的首项 #mi(`a_{1}=a\neq\frac{1}{4}`)，且
+
+#mi(`a_{n+1}=  \begin{cases}\dfrac{1}{2}a_{n},&n\text{ \text{为偶数}},\\  a_{n}+\dfrac{1}{4},&n\text{ \text{为奇数}}.\end{cases}`)
+
+记 #mi(`b_{n}=a_{2n-1}-\dfrac{1}{4}`)，#mi(`n=1`)，#mi(`2`)，#mi(`3`)，#mi(`\cdots`).
 
 
-+ (1) 求 $a_2$，$a_3$；
-+ (2) 判断数列 $\{b_n\}$ 是否为等比数列，并证明你的结论；
-+ (3) 求 $lim_(n -> oo )(b_1+b_2+ dots.c +b_n)$.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $1$ 为奇数，$a_2=a_1+(1)/(4)=a+(1)/(4)$. 因为 $2$ 为偶数，$a_3=(1)/(2)a_2=(1)/(2)a+(1)/(8)$.
-+ (2) $b_1=a_1-(1)/(4)=a-(1)/(4)$. 对任意正整数 $n$，由递推关系有 $a_(2 n)=a_(2 n-1)+(1)/(4)$，$a_(2 n+1)=(1)/(2)a_(2 n)$.
-所以
-
-$ b_(n+1)=a_(2 n+1)-(1)/(4)=(1)/(2)(a_(2 n-1)+(1)/(4))-(1)/(4)=(1)/(2)(a_(2 n-1)-(1)/(4))=(1)/(2)b_n $
-
-又因为 $a != (1)/(4)$，所以 $b_1 != 0$，从而 $\{b_n\}$ 是首项为 $a-(1)/(4)$，公比为 $(1)/(2)$ 的等比数列.
-+ (3) 由等比数列求和公式
-
-$ b_1+b_2+ dots.c +b_n=(a-(1)/(4))(1-((1)/(2))^n)/(1-(1)/(2)) $
-
-因为 $((1)/(2))^n -> 0$，所以
-
-$ lim_(n -> oo )(b_1+b_2+ dots.c +b_n)=2(a-(1)/(4))=2 a-(1)/(2) $
++ (1) 
++ (2)
 ]
 
 #problem(20)[
-设 $f(x)$ 是定义在 $[0,1]$ 上的函数，若存在 $x^(*) in (0,1)$，使得 $f(x)$ 在 $[0,x^(*)]$ 上单调递增，在 $[x^(*),1]$ 上单调递减，则称 $f(x)$ 为 $[0,1]$ 上的单峰函数，$x^(*)$ 为峰点，包含峰点的区间为含峰区间. 对任意的 $[0,1]$ 上的单峰函数 $f(x)$，下面研究缩短其含峰区间长度的方法.
+设 #mi(`f(x)`) 是定义在 #mi(`[0,1]`) 上的函数，若存在 #mi(`x^{*}\in(0,1)`)，使得 #mi(`f(x)`) 在 #mi(`[0,x^{*}]`) 上单调递增，在 #mi(`[x^{*},1]`) 上单调递减，则称 #mi(`f(x)`) 为 #mi(`[0,1]`) 上的单峰函数，#mi(`x^{*}`) 为峰点，包含峰点的区间为含峰区间. 对任意的 #mi(`[0,1]`) 上的单峰函数 #mi(`f(x)`)，下面研究缩短其含峰区间长度的方法.
 
 
-+ (1) 证明：对任意的 $x_1$，$x_2 in (0,1)$，$x_1<x_2$，$f(x_1) >= f(x_2)$，则 $(0,x_2)$ 为含峰区间；若 $f(x_1) <= f(x_2)$，则 $(x_1,1)$ 为含峰区间；
-+ (2) 对给定的 $r$（$0<r<0.5$），证明：存在 $x_1$，$x_2 in (0,1)$，满足 $x_2-x_1 >= 2 r$，使得由（1）所确定的含峰区间的长度不大于 $0.5+r$；
-+ (3) 选取 $x_1$，$x_2 in (0,1)$，$x_1<x_2$，由（1）可确定含峰区间为 $(0,x_2)$ 或 $(x_1,1)$，在所得的含峰区间内选取 $x_3$，由 $x_3$ 与 $x_1$ 或 $x_3$ 与 $x_2$ 类似地可确定一个新的含峰区间，在第一次确定的含峰区间为 $(0,x_2)$ 的情况下，试确定 $x_1$，$x_2$，$x_3$ 的值，满足两两之差的绝对值不小于 $0.02$，且使得新的含峰区间的长度缩短到 $0.34$.
++ (1) 
++ (2) 
+
 
 
 注：区间长度等于区间的右端点与左端点之差.
 ]
 
 #solution[
-+ (1) 设峰点为 $x^*$. 若 $f(x_1) >= f(x_2)$，假设 $x^* >= x_2$，则 $x_1$，$x_2$ 均处于递增段，从而 $f(x_1)<f(x_2)$，矛盾. 因此 $x^*<x_2$，可取 $(0,x_2)$ 为含峰区间. 类似地，若 $f(x_1) <= f(x_2)$，假设 $x^* <= x_1$，则 $x_1$，$x_2$ 均处于递减段，从而 $f(x_1)>f(x_2)$，矛盾. 因此 $x^*>x_1$，可取 $(x_1,1)$ 为含峰区间.
-+ (2) 取 $x_1=0.5-r$，$x_2=0.5+r$. 由于 $0<r<0.5$，有 $x_1 in (0,1)$，$x_2 in (0,1)$，且 $x_2-x_1=2 r$. 由第（1）问确定的含峰区间只有两种可能：$(0,x_2)$ 或 $(x_1,1)$. 这两个区间的长度分别为 $x_2=0.5+r$ 和 $1-x_1=0.5+r$.
-故所确定的含峰区间长度不大于 $0.5+r$.
-+ (3) 取 $x_1=0.34$，$x_2=0.66$，$x_3=0.32$. 三点均在 $(0,1)$ 内，且 $|x_2-x_1|=0.32$，$|x_1-x_3|=0.02$，$|x_2-x_3|=0.34$，满足两两之差的绝对值不小于 $0.02$. 在第一次确定的含峰区间为 $(0,x_2)=(0,0.66)$ 的条件下，将 $x_3$ 与 $x_1$ 比较：
-
-若 $f(x_3) >= f(x_1)$，由第（1）问可取新的含峰区间为 $(0,x_1)=(0,0.34)$，其长度为 $0.34$；若 $f(x_3) <= f(x_1)$，由第（1）问得到 $(x_3,1)$，与原含峰区间取交集后得到 $(x_3,x_2)=(0.32,0.66)$，其长度仍为 $0.34$. 因此所取三点满足要求.
++ (1) 
++ (2)
 ]
 

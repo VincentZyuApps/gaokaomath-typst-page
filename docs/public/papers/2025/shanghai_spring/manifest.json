@@ -1,248 +1,95 @@
 {
+  "title": "2025年普通高等学校招生全国统一考试",
+  "subtitle": "2025年上海卷（春）",
   "year": "2025",
   "slug": "shanghai_spring",
-  "title": "2025年上海卷（春）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{x\\mid x>0\\}$，$B=\\{-1,0,1,2\\}$，则 $A\\cap B= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\{1,2\\}\\)",
-          "solution": "由交集定义，取 $B$ 中满足 $x>0$ 的元素，得 $A\\cap B=\\{1,2\\}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知集合 $A=\\{x\\mid x>0\\}$，$B=\\{-1,0,1,2\\}$，则 $A\\cap B=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\{1,2\\}$",
+          "solution": "由交集定义，取 $B$ 中满足 $x>0$ 的元素，得 $A\\cap B=\\{1,2\\}$."
         },
         {
           "num": 2,
-          "body": "不等式 $\\dfrac{x}{x-1}<0$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\((0,1)\\)",
-          "solution": "不等式等价于 $x(x-1)<0$，故 $0<x<1$，解集为 $(0,1)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "不等式 $\\dfrac{x}{x-1}&#x3C;0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(0,1)$",
+          "solution": "不等式等价于 $x(x-1)&#x3C;0$，故 $0&#x3C;x&#x3C;1$，解集为 $(0,1)$."
         },
         {
           "num": 3,
-          "body": "已知复数 $z=\\dfrac{2+\\mathrm{i}}{\\mathrm{i}}$，其中 $\\mathrm{i}$ 为虚数单位，则 $|z|= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\sqrt5\\)",
-          "solution": "$z=\\dfrac{\\mathrm{i}(2+\\mathrm{i})}{\\mathrm{i}^2}=1-2\\mathrm{i}$，所以 $|z|=\\sqrt{1^2+(-2)^2}=\\sqrt5$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知复数 $z=\\dfrac{2+\\mathrm{i}}{\\mathrm{i}}$，其中 $\\mathrm{i}$ 为虚数单位，则 $|z|=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\sqrt{5}$",
+          "solution": "$z=\\dfrac{\\mathrm{i}(2+\\mathrm{i})}{\\mathrm{i}^2}=1-2\\mathrm{i}$，所以 $|z|=\\sqrt{1^{2}+(-2)^{2}}=\\sqrt{5}$."
         },
         {
           "num": 4,
-          "body": "已知 $\\mathbf{a}=(2,1)$，$\\mathbf{b}=(1,x)$，若 $\\mathbf{a}\\parallel\\mathbf{b}$，则 $x= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\dfrac12\\)",
-          "solution": "由平面向量共线条件，$2x-1=0$，故 $x=\\dfrac12$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\mathbf{a}=(2,1)$，$\\mathbf{b}=(1,x)$，若 $\\mathbf{a}\\parallel\\mathbf{b}$，则 $x=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\dfrac{1}{2}$",
+          "solution": "由平面向量共线条件，$2x-1=0$，故 $x=\\dfrac{1}{2}$."
         },
         {
           "num": 5,
-          "body": "已知 $\\tan\\alpha=1$，则 $\\cos\\left(\\alpha+\\dfrac{\\pi}{4}\\right)= _______ {}$.",
-          "choices": [],
-          "answer": "\\(0\\)",
-          "solution": "由 $\\tan\\alpha=1$ 得 $\\sin\\alpha=\\cos\\alpha$，因此\r\n$\\cos\\left(\\alpha+\\dfrac{\\pi}{4}\\right)=\\dfrac{\\sqrt2}{2}(\\cos\\alpha-\\sin\\alpha)=0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\tan\\alpha=1$，则 $\\cos\\left(\\alpha+\\dfrac{\\pi}{4}\\right)=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$0$",
+          "solution": "<p>由 $\\tan\\alpha=1$ 得 $\\sin\\alpha=\\cos\\alpha$，因此</p><p>$\\cos\\left(\\alpha+\\dfrac{\\pi}{4}\\right)=\\dfrac{\\sqrt{2}}{2}(\\cos\\alpha-\\sin\\alpha)=0$.</p>"
         },
         {
           "num": 6,
-          "body": "已知 $\\left(x+\\dfrac{m}{x}\\right)^6$ 的展开式中常数项为 $20$，则实数 $m$ 的值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)",
-          "solution": "通项为 $\\mathrm C_6^r m^r x^{6-2r}$. 常数项对应 $r=3$，故 $\\mathrm C_6^3m^3=20$，即 $m=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\left(x+\\dfrac{m}{x}\\right)^{6}$ 的展开式中常数项为 $20$，则实数 $m$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$",
+          "solution": "通项为 $\\mathrm{C}_{6}^{r} m^{r} x^{6-2r}$. 常数项对应 $r=3$，故 $\\mathrm{C}_{6}^{3}m^{3}=20$，即 $m=1$."
         },
         {
           "num": 7,
-          "body": "已知 $\\{a_n\\}$ 是首项为 $1$，公差为 $1$ 的等差数列，$\\{b_n\\}$ 是首项为 $1$，公比为 $q$（$q>0$） 的等比数列. 若数列 $\\{a_nb_n\\}$ 的前三项和为 $2$，则 $q= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\dfrac13\\)",
-          "solution": "$a_n=n$，$b_n=q^{n-1}$，故前三项和为 $1+2q+3q^2=2$. 解得 $q=\\dfrac13$ 或 $-1$，由 $q>0$ 知 $q=\\dfrac13$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\{a_{n}\\}$ 是首项为 $1$，公差为 $1$ 的等差数列，$\\{b_{n}\\}$ 是首项为 $1$，公比为 $q$（$q>0$） 的等比数列. 若数列 $\\{a_{n}b_{n}\\}$ 的前三项和为 $2$，则 $q=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\dfrac{1}{3}$",
+          "solution": "$a_{n}=n$，$b_{n}=q^{n-1}$，故前三项和为 $1+2q+3q^{2}=2$. 解得 $q=\\dfrac{1}{3}$ 或 $-1$，由 $q>0$ 知 $q=\\dfrac{1}{3}$."
         },
         {
           "num": 8,
-          "body": "关于 $x$ 的方程 $|x-1|+|\\pi-x|=\\pi-1$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\([1,\\pi]\\)",
-          "solution": "分三段讨论：当 $x\\le1$ 时左端为 $\\pi+1-2x$，仅 $x=1$ 成立；当 $1<x<\\pi$ 时左端恒为 $\\pi-1$；当 $x\\ge\\pi$ 时左端为 $2x-\\pi-1$，仅 $x=\\pi$ 成立. 故解集为 $[1,\\pi]$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "关于 $x$ 的方程 $|x-1|+|\\pi-x|=\\pi-1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$[1,\\pi]$",
+          "solution": "分三段讨论：当 $x\\le1$ 时左端为 $\\pi+1-2x$，仅 $x=1$ 成立；当 $1&#x3C;x&#x3C;\\pi$ 时左端恒为 $\\pi-1$；当 $x\\ge\\pi$ 时左端为 $2x-\\pi-1$，仅 $x=\\pi$ 成立. 故解集为 $[1,\\pi]$."
         },
         {
           "num": 9,
-          "body": "已知 $P$ 是一个圆锥的顶点，$PA$ 是母线，$PA=2$，该圆锥的底面半径是 $1$. $B$，$C$ 分别在圆锥的底面上，则异面直线 $PA$ 与 $BC$ 所成角的最小值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac{\\pi}{3}\\)",
-          "solution": "过 $A$ 作底面弦 $AD\\parallel BC$，并连接 $PD$，则 $PA=PD=2$. 在等腰三角形 $PAD$ 中，底面弦 $AD\\le2$，故\r\n$\\cos\\angle PAD=\\dfrac{PA^2+AD^2-PD^2}{2PA\\cdot AD}=\\dfrac{AD}{4}\\le\\dfrac12$.\r\n由于 $\\angle PAD\\in(0,\\frac\\pi2)$，得 $\\angle PAD\\ge\\frac\\pi3$，且当 $AD=2$ 时取等号. 因而最小值为 $\\dfrac\\pi3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $P$ 是一个圆锥的顶点，$PA$ 是母线，$PA=2$，该圆锥的底面半径是 $1$. $B$，$C$ 分别在圆锥的底面上，则异面直线 $PA$ 与 $BC$ 所成角的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\dfrac{\\pi}{3}$",
+          "solution": "<p>过 $A$ 作底面弦 $AD\\parallel BC$，并连接 $PD$，则 $PA=PD=2$. 在等腰三角形 $PAD$ 中，底面弦 $AD\\le2$，故</p><p>$\\cos\\angle PAD=\\dfrac{PA^2+AD^2-PD^2}{2PA\\cdot AD}=\\dfrac{AD}{4}\\le\\dfrac{1}{2}$.</p><p>由于 $\\angle PAD\\in(0,\\frac{\\pi}{2})$，得 $\\angle PAD\\ge\\frac{\\pi}{3}$，且当 $AD=2$ 时取等号. 因而最小值为 $\\dfrac\\pi3$.</p>"
         },
         {
           "num": 10,
-          "body": "已知双曲线 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{6-a^2}=1$（$a>0$） 的左，右焦点分别为 $F_1$，$F_2$. 通过 $F_2$ 且倾斜角为 $\\dfrac\\pi3$ 的直线与双曲线交于第一象限的点 $A$，延长 $AF_2$ 至 $B$ 使得 $AB=AF_1$. 若 $\\triangle BF_1F_2$ 的面积为 $3\\sqrt6$，则 $a= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\sqrt3\\)",
-          "solution": "令 $b^2=6-a^2$，则焦半距 $c=\\sqrt{a^2+b^2}=\\sqrt6$，所以 $F_1=(-\\sqrt6,0)$，$F_2=(\\sqrt6,0)$. 设 $B=(x_B,y_B)$，由面积条件\r\n$\\dfrac12\\lvert y_B\\rvert\\cdot2\\sqrt6=3\\sqrt6$，得 $y_B=-3$. 直线 $AB$ 斜率为 $\\tan\\dfrac\\pi3=\\sqrt3$，故其方程为 $y=\\sqrt3(x-\\sqrt6)$，从而 $x_B=\\sqrt6-\\sqrt3$. 又双曲线定义给出 $\\lvert AF_1\\rvert-\\lvert AF_2\\rvert=2a$，而 $AB=AF_1$，故 $BF_2=2a$. 计算 $BF_2=\\sqrt{(x_B-\\sqrt6)^2+y_B^2}=2\\sqrt3$，得 $a=\\sqrt3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知双曲线 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{6-a^2}=1$（$a>0$） 的左，右焦点分别为 $F_{1}$，$F_{2}$. 通过 $F_{2}$ 且倾斜角为 $\\dfrac\\pi3$ 的直线与双曲线交于第一象限的点 $A$，延长 $AF_{2}$ 至 $B$ 使得 $AB=AF_{1}$. 若 $\\triangle BF_{1}F_{2}$ 的面积为 $3\\sqrt{6}$，则 $a=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\sqrt{3}$",
+          "solution": "<p>令 $b^{2}=6-a^{2}$，则焦半距 $c=\\sqrt{a^{2}+b^{2}}=\\sqrt{6}$，所以 $F_{1}=(-\\sqrt{6},0)$，$F_{2}=(\\sqrt{6},0)$. 设 $B=(x_{B},y_{B})$，由面积条件</p><p>$\\dfrac{1}{2}\\lvert y_{B}\\rvert\\cdot2\\sqrt{6}=3\\sqrt{6}$，得 $y_{B}=-3$. 直线 $AB$ 斜率为 $\\tan\\dfrac\\pi3=\\sqrt{3}$，故其方程为 $y=\\sqrt{3}(x-\\sqrt{6})$，从而 $x_{B}=\\sqrt{6}-\\sqrt{3}$. 又双曲线定义给出 $\\lvert AF_{1}\\rvert-\\lvert AF_{2}\\rvert=2a$，而 $AB=AF_{1}$，故 $BF_{2}=2a$. 计算 $BF_{2}=\\sqrt{(x_{B}-\\sqrt{6})^{2}+y_{B}^{2}}=2\\sqrt{3}$，得 $a=\\sqrt{3}$.</p>"
         },
         {
           "num": 11,
-          "body": "如图，正方形 $ABCD$ 是一块边长为 $4$ 的工程用料，阴影部分是被腐蚀的区域，其余部分完好，曲线 $MN$ 为以 $AD$ 为对称轴的抛物线的一部分，且 $DM=DN=3$. 工人师傅现要从完好的部分中截取一块矩形原料 $BQPR$，当其面积有最大值时，$AQ$ 的长为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/shanghai_spring/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\dfrac{4+\\sqrt7}{3}\\)",
-          "solution": "以 $A$ 为原点，$AD$ 为 $y$ 轴建立直角坐标系，则 $M(0,1)$，$N(3,4)$. 设抛物线为 $y=\\alpha x^2+1$，由 $N$ 得 $\\alpha=\\dfrac13$. 令 $AQ=x$. 当 $x\\ge3$ 时矩形面积不超过 $4$；当 $0<x<3$ 时，$P\\left(x,\\dfrac13x^2+1\\right)$，矩形面积\r\n$S=(4-x)\\left(\\dfrac13x^2+1\\right)=-\\dfrac13x^3+\\dfrac43x^2-x+4$.\r\n$S'=-x^2+\\dfrac83x-1$，故驻点为 $x=\\dfrac{4\\pm\\sqrt7}{3}$. 比较单调性及端点值，最大值在 $x=\\dfrac{4+\\sqrt7}{3}$ 处取得.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，正方形 $ABCD$ 是一块边长为 $4$ 的工程用料，阴影部分是被腐蚀的区域，其余部分完好，曲线 $MN$ 为以 $AD$ 为对称轴的抛物线的一部分，且 $DM=DN=3$. 工人师傅现要从完好的部分中截取一块矩形原料 $BQPR$，当其面积有最大值时，$AQ$ 的长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\dfrac{4+\\sqrt{7}}{3}$",
+          "solution": "<p>以 $A$ 为原点，$AD$ 为 $y$ 轴建立直角坐标系，则 $M(0,1)$，$N(3,4)$. 设抛物线为 $y=\\alpha x^{2}+1$，由 $N$ 得 $\\alpha=\\dfrac{1}{3}$. 令 $AQ=x$. 当 $x\\ge3$ 时矩形面积不超过 $4$；当 $0&#x3C;x&#x3C;3$ 时，$P\\left(x,\\dfrac{1}{3}x^{2}+1\\right)$，矩形面积</p><p>$S=(4-x)\\left(\\dfrac{1}{3}x^{2}+1\\right)=-\\dfrac{1}{3}x^{3}+\\dfrac{4}{3}x^{2}-x+4$.</p><p>$S'=-x^{2}+\\dfrac{8}{3}x-1$，故驻点为 $x=\\dfrac{4\\pm\\sqrt{7}}{3}$. 比较单调性及端点值，最大值在 $x=\\dfrac{4+\\sqrt{7}}{3}$ 处取得.</p>"
         },
         {
           "num": 12,
-          "body": "在平面中，$\\mathbf{e}_1$ 和 $\\mathbf{e}_2$ 是互相垂直的单位向量，向量 $\\mathbf{a}$ 满足 $|\\mathbf{a}-4\\mathbf{e}_1|=2$，向量 $\\mathbf{b}$ 满足 $|\\mathbf{b}-6\\mathbf{e}_2|=1$，求 $\\mathbf{b}$ 在 $\\mathbf{a}$ 方向上的数量投影的最大值 _______ {}.",
-          "choices": [],
-          "answer": "\\(4\\)",
-          "solution": "取 $\\mathbf{e}_1=(1,0)$，$\\mathbf{e}_2=(0,1)$，令 $\\mathbf{u}=\\frac{\\mathbf{a}}{|\\mathbf{a}|}$，则 $A=|\\mathbf{a}|\\mathbf{u}$ 在圆 $C_1:(x-4)^2+y^2=4$ 上. 设 $\\mathbf{u}=(\\cos\\theta,\\sin\\theta)$，直线 $O\\mathbf{u}$ 与 $C_1$ 有交点，故圆心到该直线的距离不超过半径，即 $|\\sin\\theta|\\le\\dfrac12$. 又 $\\mathbf{b}=6\\mathbf{e}_2+\\mathbf{v}$，其中 $|\\mathbf{v}|=1$，所以\r\n$\\mathbf{b}\\cdot\\mathbf{u}=6\\sin\\theta+\\mathbf{v}\\cdot\\mathbf{u}\\le6\\sin\\theta+1\\le4$.\r\n当 $\\theta=\\dfrac\\pi6$ 且 $\\mathbf{v}=\\mathbf{u}$ 时取等号，故最大值为 $4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在平面中，$\\mathbf{e}_{1}$ 和 $\\mathbf{e}_{2}$ 是互相垂直的单位向量，向量 $\\mathbf{a}$ 满足 $|\\mathbf{a}-4\\mathbf{e}_{1}|=2$，向量 $\\mathbf{b}$ 满足 $|\\mathbf{b}-6\\mathbf{e}_{2}|=1$，求 $\\mathbf{b}$ 在 $\\mathbf{a}$ 方向上的数量投影的最大值<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$4$",
+          "solution": "<p>取 $\\mathbf{e}_{1}=(1,0)$，$\\mathbf{e}_{2}=(0,1)$，令 $\\mathbf{u}=\\frac{\\mathbf{a}}{|\\mathbf{a}|}$，则 $A=|\\mathbf{a}|\\mathbf{u}$ 在圆 $C_{1}:(x-4)^{2}+y^{2}=4$ 上. 设 $\\mathbf{u}=(\\cos\\theta,\\sin\\theta)$，直线 $O\\mathbf{u}$ 与 $C_{1}$ 有交点，故圆心到该直线的距离不超过半径，即 $|\\sin\\theta|\\le\\dfrac{1}{2}$. 又 $\\mathbf{b}=6\\mathbf{e}_{2}+\\mathbf{v}$，其中 $|\\mathbf{v}|=1$，所以</p><p>$\\mathbf{b}\\cdot\\mathbf{u}=6\\sin\\theta+\\mathbf{v}\\cdot\\mathbf{u}\\le6\\sin\\theta+1\\le4$.</p><p>当 $\\theta=\\dfrac\\pi6$ 且 $\\mathbf{v}=\\mathbf{u}$ 时取等号，故最大值为 $4$.</p>"
         }
       ]
     },
@@ -251,49 +98,43 @@
       "problems": [
         {
           "num": 13,
-          "body": "如图，$ABCD-A_1B_1C_1D_1$ 是正四棱台，则下列各组直线中属于异面直线的是（ ）.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/shanghai_spring/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，$ABCD-A_{1}B_{1}C_{1}D_{1}$ 是正四棱台，则下列各组直线中属于异面直线的是（ ）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$AB$ 和 $C_1D_1$",
-            "$AA_1$ 和 $CC_1$",
-            "$BD_1$ 和 $B_1D$",
-            "$A_1D_1$ 和 $AB$"
+            "$AB$ 和 $C_{1}D_{1}$",
+            "$AA_{1}$ 和 $CC_{1}$",
+            "$BD_{1}$ 和 $B_{1}D$",
+            "$A_{1}D_{1}$ 和 $AB$"
           ],
           "answer": "D",
-          "solution": "$AB\\parallel C_1D_1$，选项 A 错；侧棱延长后相交，故 $AA_1$ 与 $CC_1$ 相交，选项 B 错；B，$D_1$，$B_1$，D 共面，选项 C 错. $A_1D_1$ 与 $AB$ 既不平行，不相交，又不共面，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$AB\\parallel C_{1}D_{1}$，选项 A 错；侧棱延长后相交，故 $AA_{1}$ 与 $CC_{1}$ 相交，选项 B 错；B，$D_{1}$，$B_{1}$，D 共面，选项 C 错. $A_{1}D_{1}$ 与 $AB$ 既不平行，不相交，又不共面，故选 D."
         },
         {
           "num": 14,
-          "body": "幂函数 $y=x^\\alpha$ 在 $(0,+\\infty)$ 上是严格减函数，且经过 $(-1,-1)$，则 $\\alpha$ 的值可能是（ ）.",
+          "body": "幂函数 $y=x^{\\alpha}$ 在 $(0,+\\infty)$ 上是严格减函数，且经过 $(-1,-1)$，则 $\\alpha$ 的值可能是（ ）.",
           "choices": [
-            "$-\\dfrac23$",
-            "$-\\dfrac13$",
-            "$\\dfrac13$",
+            "$-\\dfrac{2}{3}$",
+            "$-\\dfrac{1}{3}$",
+            "$\\dfrac{1}{3}$",
             "$3$"
           ],
           "answer": "B",
-          "solution": "严格递减要求 $\\alpha<0$. 当 $\\alpha=-\\dfrac23$ 时，$(-1)^{-\\frac{2}{3}}=1$；当 $\\alpha=-\\dfrac13$ 时，$(-1)^{-\\frac{1}{3}}=-1$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "严格递减要求 $\\alpha&#x3C;0$. 当 $\\alpha=-\\dfrac{2}{3}$ 时，$(-1)^{-\\frac{2}{3}}=1$；当 $\\alpha=-\\dfrac{1}{3}$ 时，$(-1)^{-\\frac{1}{3}}=-1$. 故选 B."
         },
         {
           "num": 15,
-          "body": "有一四边形 $ABCD$，对其四边 $AB$，$BC$，$CD$，$DA$ 按顺序分别抛掷一枚质量均匀的硬币：如硬币正面朝上，则将其擦去；如硬币反面朝上，则不擦去. 最后，以 $A$ 为起点沿着尚未擦去的边出发，可以到达 $C$ 点的概率为（ ）.",
+          "body": "有一四边形 $ABCD$，对其四边 $AB$，$BC$，$CD$，$DA$ 按顺序分别抛掷一枚质量均匀的硬币：如硬币正面朝上，则将其擦去；如硬币反面朝上，则不擦去. 最后，以 $A$ 为起点沿着尚未擦去的边出发，可以到达 $C$ 点的概率为（ ）.",
           "choices": [
-            "$\\dfrac12$",
+            "$\\dfrac{1}{2}$",
             "$\\dfrac7{16}$",
-            "$\\dfrac14$",
+            "$\\dfrac{1}{4}$",
             "$\\dfrac3{16}$"
           ],
           "answer": "B",
-          "solution": "四条边保留或擦去共有 $2^4=16$ 种等可能结果. 保留 $AB$，$BC$ 时，$CD$，$DA$ 可任意；保留 $AD$，$DC$ 时，$AB$，$BC$ 可任意，但有一种与前者重复. 故可达情形有 $4+4-1=7$ 种，概率为 $\\dfrac7{16}$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "四条边保留或擦去共有 $2^{4}=16$ 种等可能结果. 保留 $AB$，$BC$ 时，$CD$，$DA$ 可任意；保留 $AD$，$DC$ 时，$AB$，$BC$ 可任意，但有一种与前者重复. 故可达情形有 $4+4-1=7$ 种，概率为 $\\dfrac7{16}$，选 B."
         },
         {
           "num": 16,
-          "body": "已知 $a\\in\\mathbb{R}$，不等式 $\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a\\right]\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a-1\\right]<0$ 在 $(0,2025)$ 中的整数解有 $m$ 个. 关于 $m$ 的个数，以下不可能的是（ ）.",
+          "body": "已知 $a\\in\\mathbb{R}$，不等式 $\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a\\right]\\left[\\tan\\left(\\dfrac\\pi6x\\right)-a-1\\right]&#x3C;0$ 在 $(0,2025)$ 中的整数解有 $m$ 个. 关于 $m$ 的个数，以下不可能的是（ ）.",
           "choices": [
             "$0$",
             "$338$",
@@ -301,9 +142,7 @@
             "$1012$"
           ],
           "answer": "D",
-          "solution": "不等式等价于 $a<\\tan\\left(\\dfrac\\pi6x\\right)<a+1$. 函数周期为 $6$，且在每个周期的整数点 $0$，$1$，$2$，$4$，$5$，$6$ 上取值为 $0$，$\\dfrac{\\sqrt3}{3}$，$\\sqrt3$，$-\\sqrt3$，$-\\dfrac{\\sqrt3}{3}$，$0$. 在 $1\\le x\\le2024$ 的整数中，余数为 $0$，$4$，$5$ 的各有 $337$ 个，余数为 $1,2$ 的各有 $338$ 个，余数为 $3$ 时正切无定义. 区间 $(a,a+1)$ 至多包含上述五个函数值中的两个，因此解数至多为 $338+338=676<1012$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "不等式等价于 $a&#x3C;\\tan\\left(\\dfrac\\pi6x\\right)&#x3C;a+1$. 函数周期为 $6$，且在每个周期的整数点 $0$，$1$，$2$，$4$，$5$，$6$ 上取值为 $0$，$\\dfrac{\\sqrt{3}}{3}$，$\\sqrt{3}$，$-\\sqrt{3}$，$-\\dfrac{\\sqrt{3}}{3}$，$0$. 在 $1\\le x\\le2024$ 的整数中，余数为 $0$，$4$，$5$ 的各有 $337$ 个，余数为 $1,2$ 的各有 $338$ 个，余数为 $3$ 时正切无定义. 区间 $(a,a+1)$ 至多包含上述五个函数值中的两个，因此解数至多为 $338+338=676&#x3C;1012$，选 D."
         }
       ]
     },
@@ -312,51 +151,40 @@
       "problems": [
         {
           "num": 17,
-          "body": "在三棱锥 $P-ABC$ 中，平面 $PAC\\perp$ 平面 $ABC$，$PA=AC=CP=2$，$AB=BC=\\sqrt2$.\r\n\r\n\n(1) 若 $O$ 是棱 $AC$ 的中点，证明：$BO\\perp$ 平面 $PAC$，并求三棱锥 $B-OPA$ 的体积；\n\n(2) 求二面角 $B-PC-A$ 的大小.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/shanghai_spring/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>在三棱锥 $P-ABC$ 中，平面 $PAC\\perp$ 平面 $ABC$，$PA=AC=CP=2$，$AB=BC=\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>若 $O$ 是棱 $AC$ 的中点，证明：$BO\\perp$ 平面 $PAC$，并求三棱锥 $B-OPA$ 的体积；</p></li><li><p>求二面角 $B-PC-A$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 连接 $BO$. 因为 $AB=BC$，且 $O$ 是 $AC$ 的中点，所以 $BO\\perp AC$. 又平面 $PAC\\perp$ 平面 $ABC$，交线为 $AC$，故 $BO\\perp$ 平面 $PAC$. 在等腰三角形 $PAC$ 中，$PO\\perp AC$，$AO=1$，故 $PO=\\sqrt{PA^2-AO^2}=\\sqrt3$. 在直角三角形 $ABO$ 中，$BO=\\sqrt{AB^2-AO^2}=1$. 因而 $V_{B-OPA}=\\dfrac13\\cdot\\dfrac12\\cdot OP\\cdot AO\\cdot BO=\\dfrac{\\sqrt3}{6}$.\n\n(2) 由（1）知 $BO\\perp OC$，$BO\\perp OP$，且 $OP\\perp OC$，所以 $OB$，$OC$，$OP$ 两两垂直. 以 $O$ 为原点，令 $B(1,0,0)$，$P(0,0,\\sqrt3)$，$C(0,1,0)$，$A(0,-1,0)$. 则\r\n$\\overrightarrow{BP}=(-1,0,\\sqrt3)$，$\\overrightarrow{CP}=(0,-1,\\sqrt3)$. 设平面 $BPC$，$PCA$ 的法向量分别为 $\\mathbf{m}=(x,y,z)$，$\\mathbf{n}=(1,0,0)$. 由 $\\mathbf{m}\\cdot\\overrightarrow{BP}=\\mathbf{m}\\cdot\\overrightarrow{CP}=0$，取 $\\mathbf{m}=(\\sqrt3,\\sqrt3,1)$. 因而 $\\cos\\langle\\mathbf{m},\\mathbf{n}\\rangle=\\dfrac{\\sqrt3}{\\sqrt7}=\\dfrac{\\sqrt{21}}7$. 二面角为锐角，故其大小为 $\\arccos\\dfrac{\\sqrt{21}}7$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>连接 $BO$. 因为 $AB=BC$，且 $O$ 是 $AC$ 的中点，所以 $BO\\perp AC$. 又平面 $PAC\\perp$ 平面 $ABC$，交线为 $AC$，故 $BO\\perp$ 平面 $PAC$. 在等腰三角形 $PAC$ 中，$PO\\perp AC$，$AO=1$，故 $PO=\\sqrt{PA^{2}-AO^{2}}=\\sqrt{3}$. 在直角三角形 $ABO$ 中，$BO=\\sqrt{AB^{2}-AO^{2}}=1$. 因而 $V_{B-OPA}=\\dfrac{1}{3}\\cdot\\dfrac{1}{2}\\cdot OP\\cdot AO\\cdot BO=\\dfrac{\\sqrt{3}}{6}$.</p></li><li><p>由（1）知 $BO\\perp OC$，$BO\\perp OP$，且 $OP\\perp OC$，所以 $OB$，$OC$，$OP$ 两两垂直. 以 $O$ 为原点，令 $B(1,0,0)$，$P(0,0,\\sqrt{3})$，$C(0,1,0)$，$A(0,-1,0)$. 则</p><p>$\\overrightarrow{BP}=(-1,0,\\sqrt{3})$，$\\overrightarrow{CP}=(0,-1,\\sqrt{3})$. 设平面 $BPC$，$PCA$ 的法向量分别为 $\\mathbf{m}=(x,y,z)$，$\\mathbf{n}=(1,0,0)$. 由 $\\mathbf{m}\\cdot\\overrightarrow{BP}=\\mathbf{m}\\cdot\\overrightarrow{CP}=0$，取 $\\mathbf{m}=(\\sqrt{3},\\sqrt{3},1)$. 因而 $\\cos\\langle\\mathbf{m},\\mathbf{n}\\rangle=\\dfrac{\\sqrt{3}}{\\sqrt{7}}=\\dfrac{\\sqrt{21}}7$. 二面角为锐角，故其大小为 $\\arccos\\dfrac{\\sqrt{21}}7$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且 $c=5$.\r\n\n(1) 若 $\\dfrac{a}{4b}=\\dfrac{\\sin B}{\\sin A}$，$C=\\dfrac\\pi2$，求 $a$；\n\n(2) 若 $ab=20$，求 $\\triangle ABC$ 面积的最大值.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$，且 $c=5$.</p><ol class=\"enumerate\"><li><p>若 $\\dfrac{a}{4b}=\\dfrac{\\sin B}{\\sin A}$，$C=\\dfrac\\pi2$，求 $a$；</p></li><li><p>若 $ab=20$，求 $\\triangle ABC$ 面积的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由正弦定理，$\\dfrac{\\sin B}{\\sin A}=\\dfrac ba$，故 $a=2b$. 又 $C=\\dfrac\\pi2$，所以 $a^2+b^2=25$，得 $b=\\sqrt5$，$a=2\\sqrt5$.\n\n(2) 由余弦定理，$\\cos C=\\dfrac{a^2+b^2-25}{40}\\ge\\dfrac{2ab-25}{40}=\\dfrac38$，等号当且仅当 $a=b=2\\sqrt5$. 因而 $\\sin C\\le\\sqrt{1-(\\frac{3}{8})^2}=\\dfrac{\\sqrt{55}}8$，面积 $S=\\dfrac12ab\\sin C=10\\sin C\\le\\dfrac{5\\sqrt{55}}4$. 最大值为 $\\dfrac{5\\sqrt{55}}4$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由正弦定理，$\\dfrac{\\sin B}{\\sin A}=\\dfrac{b}{a}$，故 $a=2b$. 又 $C=\\dfrac\\pi2$，所以 $a^{2}+b^{2}=25$，得 $b=\\sqrt{5}$，$a=2\\sqrt{5}$.</p></li><li><p>由余弦定理，$\\cos C=\\dfrac{a^2+b^2-25}{40}\\ge\\dfrac{2ab-25}{40}=\\dfrac{3}{8}$，等号当且仅当 $a=b=2\\sqrt{5}$. 因而 $\\sin C\\le\\sqrt{1-(\\frac{3}{8})^{2}}=\\dfrac{\\sqrt{55}}8$，面积 $S=\\dfrac{1}{2}ab\\sin C=10\\sin C\\le\\dfrac{5\\sqrt{55}}4$. 最大值为 $\\dfrac{5\\sqrt{55}}4$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "甲，乙是两个体育社团的小组，给出两组组员身高的茎叶图（单位：厘米），以身高的百位数和十位数作为“茎”排列在中间，个位数作为“叶”分列在两边.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|c|c}\r\n甲 & 茎 & 乙\\\\\r\n\\hline\r\n & $15$ & $9$\\\\\r\n$7$，$7$，$5$，$5$，$4$ & $16$ & $0$，$3$，$5$，$5$，$6$，$7$，$8$，$8$\\\\\r\n$8$，$5$，$4$，$3$，$2$，$2$ & $17$ & $2$\\\\\r\n$3$ & $18$ &\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 分别求甲，乙两组组员身高的第 $60$ 百分位数；\n\n(2) 从甲，乙两组各选取一个组员，求两人身高均在 $170\\text{ 厘米}$ 以上的概率；\n\n(3) 为使两组人数相同，从甲组中调派一个队员到乙组. 是否存在甲组的一个组员，将他调派至乙组后，甲，乙两组的平均身高都增大？",
-          "choices": [],
+          "body": "<p>甲，乙是两个体育社团的小组，给出两组组员身高的茎叶图（单位：厘米），以身高的百位数和十位数作为“茎”排列在中间，个位数作为“叶”分列在两边.</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">甲 </td><td style=\"text-align: center; border-right: 1px solid\"> 茎 </td><td style=\"text-align: center\"> 乙</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> $15$ </td><td style=\"text-align: center\"> $9$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$7$，$7$，$5$，$5$，$4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $16$ </td><td style=\"text-align: center\"> $0$，$3$，$5$，$5$，$6$，$7$，$8$，$8$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$8$，$5$，$4$，$3$，$2$，$2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $17$ </td><td style=\"text-align: center\"> $2$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $18$ </td><td style=\"text-align: center\"></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>分别求甲，乙两组组员身高的第 $60$ 百分位数；</p></li><li><p>从甲，乙两组各选取一个组员，求两人身高均在 $170\\text{ 厘米}$ 以上的概率；</p></li><li><p>为使两组人数相同，从甲组中调派一个队员到乙组. 是否存在甲组的一个组员，将他调派至乙组后，甲，乙两组的平均身高都增大？</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 甲组有 $12$ 人，$12\\times60\\%=7.2$，故第 $60$ 百分位数为从小到大排列的第 $8$ 个数 $173$. 乙组有 $10$ 人，第 $60$ 百分位数为第 $6$，第 $7$ 个数的平均值，即 $\\dfrac{166+167}{2}=166.5$.\n\n(2) 甲组身高不低于 $170\\text{ 厘米}$ 的有 $7$ 人，乙组有 $1$ 人，故所求概率为 $\\dfrac{\\mathrm C_7^1\\mathrm C_1^1}{\\mathrm C_{12}^1\\mathrm C_{10}^1}=\\dfrac7{120}$.\n\n(3) 甲，乙两组原平均身高分别为：\r\n\r\n甲组平均身高 $\\bar x_{\\text{甲}}=\\dfrac{167\\times2+165\\times2+164+178+175+174+173+172\\times2+183}{12}=171.25$，乙组平均身高 $\\bar x_{\\text{乙}}=\\dfrac{159+160+163+165\\times2+166+167+168\\times2+172}{10}=165.3$. 调派身高在两平均数之间的成员时，甲组去掉该成员后平均身高增大，乙组加入后平均身高也增大. 因而调派甲组中身高 $167\\text{ 厘米}$ 的成员即可.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>甲组有 $12$ 人，$12\\times60\\%=7.2$，故第 $60$ 百分位数为从小到大排列的第 $8$ 个数 $173$. 乙组有 $10$ 人，第 $60$ 百分位数为第 $6$，第 $7$ 个数的平均值，即 $\\dfrac{166+167}{2}=166.5$.</p></li><li><p>甲组身高不低于 $170\\text{ 厘米}$ 的有 $7$ 人，乙组有 $1$ 人，故所求概率为 $\\dfrac{\\mathrm{C}_7^1\\mathrm{C}_1^1}{\\mathrm{C}_{12}^1\\mathrm{C}_{10}^1}=\\dfrac7{120}$.</p></li><li><p>甲，乙两组原平均身高分别为：</p><p>甲组平均身高 $\\bar x_{\\text{甲}}=\\dfrac{167\\times2+165\\times2+164+178+175+174+173+172\\times2+183}{12}=171.25$，乙组平均身高 $\\bar x_{\\text{乙}}=\\dfrac{159+160+163+165\\times2+166+167+168\\times2+172}{10}=165.3$. 调派身高在两平均数之间的成员时，甲组去掉该成员后平均身高增大，乙组加入后平均身高也增大. 因而调派甲组中身高 $167\\text{ 厘米}$ 的成员即可.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "在平面直角坐标系中，已知曲线 $\\Gamma:\\dfrac{x^2}{4}+y^2=1$（$y\\ge0$），点 $P$，$Q$ 分别为 $\\Gamma$ 上不同的两点，$T(t,0)$.\r\n\n(1) 求 $\\Gamma$ 所在椭圆的离心率；\n\n(2) 若 $T(1,0)$，$Q$ 在 $y$ 轴上，且 $T$ 到直线 $PQ$ 的距离为 $\\dfrac{\\sqrt5}{5}$，求 $P$ 的坐标；\n\n(3) 是否存在 $t$，使得 $\\triangle TPQ$ 是以 $T$ 为直角顶点的等腰直角三角形？若存在，求 $t$ 的取值范围；若不存在，请说明理由.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/shanghai_spring/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>在平面直角坐标系中，已知曲线 $\\Gamma:\\dfrac{x^2}{4}+y^{2}=1$（$y\\ge0$），点 $P$，$Q$ 分别为 $\\Gamma$ 上不同的两点，$T(t,0)$.</p><ol class=\"enumerate\"><li><p>求 $\\Gamma$ 所在椭圆的离心率；</p></li><li><p>若 $T(1,0)$，$Q$ 在 $y$ 轴上，且 $T$ 到直线 $PQ$ 的距离为 $\\dfrac{\\sqrt{5}}{5}$，求 $P$ 的坐标；</p></li><li><p>是否存在 $t$，使得 $\\triangle TPQ$ 是以 $T$ 为直角顶点的等腰直角三角形？若存在，求 $t$ 的取值范围；若不存在，请说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 椭圆长半轴 $a=2$，短半轴 $b=1$，焦半距 $c=\\sqrt3$，故离心率 $e=\\dfrac{\\sqrt3}{2}$.\n\n(2) 由 $Q$ 在 $y$ 轴上且在上半椭圆上知 $Q=(0,1)$. 设直线 $PQ$ 为 $y=nx+1$. 由点到直线距离公式，$\\dfrac{|n+1|}{\\sqrt{1+n^2}}=\\dfrac{\\sqrt5}{5}$，得 $n=-\\dfrac12$ 或 $n=-2$. 当 $n=-\\dfrac12$ 时，与椭圆联立得交点 $(0,1)$，$(2,0)$；当 $n=-2$ 时另一交点不在上半椭圆. 故 $P=(2,0)$.\n\n(3) 设 $PQ:y=kx+m$，与椭圆联立. 由判别式得 $\\sqrt{4k^2+1}>m>2|k|\\ge0$. 当 $k=0$ 时由对称性得到 $t=0$. 当 $k\\ne0$ 时，弦中点为 $A\\left(-\\dfrac{4km}{1+4k^2},\\dfrac{m}{1+4k^2}\\right)$，且 $TA\\perp PQ$ 要求 $t=-\\dfrac{3km}{1+4k^2}$. 再由 $\\overrightarrow{TP}\\cdot\\overrightarrow{TQ}=0$ 得 $t^2=\\dfrac{9k^2m^2}{(1+4k^2)^2}$，化简为 $m^2=\\dfrac45(4k^2+1)$，从而 $0<k^2\\le1$ 且 $t^2\\le\\dfrac{36}{25}$. 合并 $k=0$ 情形，得 $t\\in\\left[-\\dfrac65,\\dfrac65\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆长半轴 $a=2$，短半轴 $b=1$，焦半距 $c=\\sqrt{3}$，故离心率 $e=\\dfrac{\\sqrt{3}}{2}$.</p></li><li><p>由 $Q$ 在 $y$ 轴上且在上半椭圆上知 $Q=(0,1)$. 设直线 $PQ$ 为 $y=nx+1$. 由点到直线距离公式，$\\dfrac{|n+1|}{\\sqrt{1+n^{2}}}=\\dfrac{\\sqrt{5}}{5}$，得 $n=-\\dfrac{1}{2}$ 或 $n=-2$. 当 $n=-\\dfrac{1}{2}$ 时，与椭圆联立得交点 $(0,1)$，$(2,0)$；当 $n=-2$ 时另一交点不在上半椭圆. 故 $P=(2,0)$.</p></li><li><p>设 $PQ:y=kx+m$，与椭圆联立. 由判别式得 $\\sqrt{4k^{2}+1}>m>2|k|\\ge0$. 当 $k=0$ 时由对称性得到 $t=0$. 当 $k\\ne0$ 时，弦中点为 $A\\left(-\\dfrac{4km}{1+4k^2},\\dfrac{m}{1+4k^2}\\right)$，且 $TA\\perp PQ$ 要求 $t=-\\dfrac{3km}{1+4k^2}$. 再由 $\\overrightarrow{TP}\\cdot\\overrightarrow{TQ}=0$ 得 $t^{2}=\\dfrac{9k^2m^2}{(1+4k^2)^2}$，化简为 $m^{2}=\\dfrac{4}{5}(4k^{2}+1)$，从而 $0&#x3C;k^{2}\\le1$ 且 $t^{2}\\le\\dfrac{36}{25}$. 合并 $k=0$ 情形，得 $t\\in\\left[-\\dfrac{6}{5},\\dfrac{6}{5}\\right]$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知函数 $y=f(x)$ 的定义域是 $D$. 对于 $t\\in D$，定义集合 $S_f(t)=\\{x\\mid f(x)\\ge f(t)\\}$.\r\n\n(1) $f(x)=\\log_2x$，求 $S_f(16)$；\n\n(2) 对于集合 $A$，若对任意 $x\\in A$ 都有 $-x\\in A$，则称 $A$ 是对称集. 若 $D$ 是对称集，证明：“函数 $y=f(x)$ 是偶函数”的充要条件是“对任意 $t\\in D$，$S_f(t)$ 是对称集”；\n\n(3) 若 $x\\in\\mathbb{R}$，$f(x)=\\mathrm{e}^x-\\dfrac12mx^2$. 求 $m$ 的取值范围，使得对于任意 $t_1<t_2\\in D$，都有 $S_f(t_2)\\subseteq S_f(t_1)$.",
-          "choices": [],
+          "body": "<p>已知函数 $y=f(x)$ 的定义域是 $D$. 对于 $t\\in D$，定义集合 $S_{f}(t)=\\{x\\mid f(x)\\ge f(t)\\}$.</p><ol class=\"enumerate\"><li><p>$f(x)=\\log_{2}x$，求 $S_{f}(16)$；</p></li><li><p>对于集合 $A$，若对任意 $x\\in A$ 都有 $-x\\in A$，则称 $A$ 是对称集. 若 $D$ 是对称集，证明：“函数 $y=f(x)$ 是偶函数”的充要条件是“对任意 $t\\in D$，$S_{f}(t)$ 是对称集”；</p></li><li><p>若 $x\\in\\mathbb{R}$，$f(x)=\\mathrm{e}^{x}-\\dfrac{1}{2}mx^{2}$. 求 $m$ 的取值范围，使得对于任意 $t_{1}&#x3C;t_{2}\\in D$，都有 $S_{f}(t_{2})\\subseteq S_{f}(t_{1})$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $S_f(16)=\\{x\\mid\\log_2x\\ge4\\}=\\{x\\mid x\\ge16\\}=[16,+\\infty)$.\n\n(2) 若 $f$ 为偶函数，则 $x\\in S_f(t)\\Rightarrow f(-x)=f(x)\\ge f(t)$，故 $-x\\in S_f(t)$，每个 $S_f(t)$ 都是对称集. 反之，任取 $t\\in D$. 由 $t\\in S_f(t)$ 及对称性知 $-t\\in S_f(t)$，故 $f(-t)\\ge f(t)$. 再将 $t$ 换为 $-t$，得 $f(t)\\ge f(-t)$. 因而 $f(t)=f(-t)$，即 $f$ 为偶函数.\n\n(3) 条件等价于 $f$ 在 $\\mathbb{R}$ 上单调不减，故需 $f'(x)=\\mathrm{e}^x-mx\\ge0$ 对任意 $x$ 成立. 当 $x>0$ 时要求 $m\\le\\dfrac{\\mathrm{e}^x}{x}$，而 $\\dfrac{\\mathrm{e}^x}{x}$ 在 $(0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，最小值为 $\\mathrm{e}$，故 $m\\le\\mathrm{e}$. 当 $x<0$ 时要求 $m\\ge\\dfrac{\\mathrm{e}^x}{x}$，右端趋于 $-\\infty$，故只需 $m\\ge0$. 综上 $m\\in[0,\\mathrm{e}]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$S_{f}(16)=\\{x\\mid\\log_{2}x\\ge4\\}=\\{x\\mid x\\ge16\\}=[16,+\\infty)$.</p></li><li><p>若 $f$ 为偶函数，则 $x\\in S_{f}(t)\\Rightarrow f(-x)=f(x)\\ge f(t)$，故 $-x\\in S_{f}(t)$，每个 $S_{f}(t)$ 都是对称集. 反之，任取 $t\\in D$. 由 $t\\in S_{f}(t)$ 及对称性知 $-t\\in S_{f}(t)$，故 $f(-t)\\ge f(t)$. 再将 $t$ 换为 $-t$，得 $f(t)\\ge f(-t)$. 因而 $f(t)=f(-t)$，即 $f$ 为偶函数.</p></li><li><p>条件等价于 $f$ 在 $\\mathbb{R}$ 上单调不减，故需 $f'(x)=\\mathrm{e}^{x}-mx\\ge0$ 对任意 $x$ 成立. 当 $x>0$ 时要求 $m\\le\\dfrac{\\mathrm{e}^x}{x}$，而 $\\dfrac{\\mathrm{e}^x}{x}$ 在 $(0,1)$ 上递减，在 $(1,+\\infty)$ 上递增，最小值为 $\\mathrm{e}$，故 $m\\le\\mathrm{e}$. 当 $x&#x3C;0$ 时要求 $m\\ge\\dfrac{\\mathrm{e}^x}{x}$，右端趋于 $-\\infty$，故只需 $m\\ge0$. 综上 $m\\in[0,\\mathrm{e}]$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

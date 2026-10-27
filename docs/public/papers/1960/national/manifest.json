@@ -1,86 +1,39 @@
 {
+  "title": "1960年普通高等学校招生全国统一考试",
+  "subtitle": "1960年全国卷",
   "year": "1960",
   "slug": "national",
-  "title": "1960年全国卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "选作题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "选作题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
       "problems": [
         {
           "num": 1,
-          "body": "(1) 解方程 $\\sqrt{2x^{2}-5}-\\sqrt{5x-7}=0$. （限定在实数范围内）\n\n(2) 有 $5$ 组篮球队，每组 $6$ 队. 首先每组中各队进行单循环比赛（即每两队比赛一次），然后各组的冠军再进行单循环比赛. 问先后共比赛多少次？\n\n(3) 求证等比数列的各项的对数组成等差数列. （这里所说的等比数列的各项都是正数）\n\n(4) 求使等式 $\\sqrt{1-\\sin^{2}\\frac{x}{2}}=\\cos\\frac{x}{2}$ 成立的 $x$ 值的范围. （$x$ 是 $0^{\\circ}$ 到 $720^{\\circ}$ 的角）\n\n(5) 如图，用钢珠测量机件上一小孔的直径. 所用钢珠的中心是 $O$，直径是 $12\\text{ 毫米}$. 将钢珠放在这小孔上，测得钢珠上端 $D$ 到机件平面的距离 $CD$ 是 $9\\text{ 毫米}$. 求这小孔的直径 $AB$ 的长.\n\n(6) 四棱锥 $P-ABCD$ 的底面是一正方形. $PA$ 与底面垂直. 已知 $PA$ 是 $3\\text{ 厘米}$，$P$ 点到 $BC$ 的距离是 $5\\text{ 厘米}$. 求 $PC$ 的长.\n\r\n\r\n\\begingroup\r\n\\def\\theprobnum{5}%\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1960/img/national/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
-          "choices": [],
+          "body": "<ol class=\"enumerate\"><li><p>解方程 $\\sqrt{2x^{2}-5}-\\sqrt{5x-7}=0$. （限定在实数范围内）</p></li><li><p>有 $5$ 组篮球队，每组 $6$ 队. 首先每组中各队进行单循环比赛（即每两队比赛一次），然后各组的冠军再进行单循环比赛. 问先后共比赛多少次？</p></li><li><p>求证等比数列的各项的对数组成等差数列. （这里所说的等比数列的各项都是正数）</p></li><li><p>求使等式 $\\sqrt{1-\\sin^{2}\\frac{x}{2}}=\\cos\\frac{x}{2}$ 成立的 $x$ 值的范围. （$x$ 是 $0^{\\circ}$ 到 $720^{\\circ}$ 的角）</p></li><li><p>如图，用钢珠测量机件上一小孔的直径. 所用钢珠的中心是 $O$，直径是 $12\\text{ 毫米}$. 将钢珠放在这小孔上，测得钢珠上端 $D$ 到机件平面的距离 $CD$ 是 $9\\text{ 毫米}$. 求这小孔的直径 $AB$ 的长.</p></li><li><p>四棱锥 $P-ABCD$ 的底面是一正方形. $PA$ 与底面垂直. 已知 $PA$ 是 $3\\text{ 厘米}$，$P$ 点到 $BC$ 的距离是 $5\\text{ 厘米}$. 求 $PC$ 的长.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><span class=\"macro macro-def\"></span><span class=\"macro macro-theprobnum\"></span>5</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 先由两个平方根都有意义，得\r\n$2x^{2}-5\\geqslant0$，$5x-7\\geqslant0$.\r\n由第一式得 $x\\le-\\sqrt{\\frac52}$ 或 $x\\ge\\sqrt{\\frac52}$，由第二式得 $x\\ge\\frac75$. 两者合并为 $x\\ge\\sqrt{\\frac52}$. 在这个定义域内，两边均为非负数，原方程等价于\r\n\n$$\n\\sqrt{2x^{2}-5}=\\sqrt{5x-7}\r\n\\Longleftrightarrow 2x^{2}-5=5x-7\n$$\n\r\n整理得 $2x^{2}-5x+2=0$，即 $(2x-1)(x-2)=0$，所以候选值为 $x=\\frac12$ 或 $x=2$. 其中 $\\frac12$ 不在定义域内，舍去；代入 $x=2$ 时两被开方式均为 $3$，确实成立. 故 $x=2$.\n\n(2) 每组有 $6$ 队，任取其中两队比赛一次，所以每组比赛 $\\mathrm C_6^2=\\frac{6\\cdot5}{2}=15$ 次，五组共比赛 $5\\mathrm C_6^2=5\\times15=75$ 次. 五个小组冠军再进行单循环比赛，比赛次数为 $\\mathrm C_5^2=\\frac{5\\cdot4}{2}=10$ 次.\r\n因此先后共比赛 $75+10=85$ 次.\n\n(3) 设等比数列的首项为 $a>0$，公比为 $q>0$，则第 $k$ 项为 $a_k=aq^{k-1}$. 由于各项均为正数，对每个 $k$ 都有\r\n\n$$\n\\log a_k=\\log\\left(aq^{k-1}\\right)=\\log a+(k-1)\\log q\n$$\n\r\n于是相邻两项对数之差为\r\n\n$$\n\\log a_{k+1}-\\log a_k=\\bigl(\\log a+k\\log q\\bigr)-\\bigl(\\log a+(k-1)\\log q\\bigr)=\\log q\n$$\n\r\n与 $k$ 无关. 因此各项的对数构成首项为 $\\log a$、公差为 $\\log q$ 的等差数列，命题得证.\n\n(4) 因为 $0^{\\circ}\\le x\\leqslant720^{\\circ}$，所以 $0^{\\circ}\\le\\frac{x}{2}\\leqslant360^{\\circ}$. 原等式左边为\r\n\n$$\n\\sqrt{1-\\sin^{2}\\frac{x}{2}}=\\sqrt{\\cos^{2}\\frac{x}{2}}=\\left|\\cos\\frac{x}{2}\\right|\n$$\n\r\n故原等式成立当且仅当 $\\left|\\cos\\frac{x}{2}\\right|=\\cos\\frac{x}{2}$，也就是 $\\cos\\frac{x}{2}\\geqslant0$. 在 $[0^{\\circ},360^{\\circ}]$ 内，这等价于\r\n\n$$\n0^{\\circ}\\le\\frac{x}{2}\\leqslant90^{\\circ} \\text{或} 270^{\\circ}\\le\\frac{x}{2}\\leqslant360^{\\circ}\n$$\n\r\n所以 $0^{\\circ}\\le x\\leqslant180^{\\circ}$ 或 $540^{\\circ}\\le x\\leqslant720^{\\circ}$.\n\n(5) 解法一：设小孔直径 $AB=x\\text{ 毫米}$. 直径 $DE$ 垂直于弦 $AB$，所以它经过弦的中点 $C$，从而 $AC=\\frac{x}{2}\\text{ 毫米}$. 又因为 $DE=12\\text{ 毫米}$、$CD=9\\text{ 毫米}$，所以\r\n\n$$\nCE=DE-CD=12-9=3\\text{ 毫米}\n$$\n\r\n两条弦 $AB$、$DE$ 在圆内相交于 $C$，由相交弦定理，\r\n\n$$\nCA\\cdot CB=CD\\cdot CE\n$$\n\r\n由于 $CA=CB=\\frac{x}{2}$，得\r\n$\\left(\\frac{x}{2}\\right)^2=9\\times3$，$x^2=108$.\r\n长度取正值，所以 $x=6\\sqrt3\\text{ 毫米}$. 答：小孔的直径是 $6\\sqrt3\\text{ 毫米}$.\r\n\r\n解法二：由 $OD=6\\text{ 毫米}$、$CD=9\\text{ 毫米}$，且图中 $C$ 在 $O$ 与 $E$ 的同一直线上，得\r\n\n$$\nOC=CD-OD=9-6=3\\text{ 毫米}\n$$\n\r\n连接 $OA$. 因为 $OC\\perp AB$，且 $C$ 是弦 $AB$ 的中点，所以 $AC=\\frac{x}{2}\\text{ 毫米}$. 在直角三角形 $OAC$ 中，\r\n$OA^2=OC^2+AC^2$，$6^2=3^2+\\left(\\frac{x}{2}\\right)^2$.\r\n因此 $\\frac{x^2}{4}=27$，长度取正值得 $x=6\\sqrt3\\text{ 毫米}$. 答：小孔的直径是 $6\\sqrt3\\text{ 毫米}$.\n\n(6) 由 $PA\\perp$ 平面 $ABCD$，知 $PA\\perp BC$. 又底面为正方形，故 $AB\\perp BC$. 直线 $PA$、$AB$ 相交并且都在平面 $PAB$ 内，因此由线面垂直判定的逆定理，$BC\\perp$ 平面 $PAB$，从而 $BC\\perp PB$. 所以点 $P$ 到直线 $BC$ 的距离为 $PB=5\\text{ 厘米}$.\r\n\r\n因为 $PA\\perp AB$，所以在直角三角形 $PAB$ 中，\r\n\n$$\nAB^2=PB^2-PA^2=5^2-3^2=16\n$$\n\r\n故 $AB=4\\text{ 厘米}$. 正方形 $ABCD$ 的边长相等，所以 $BC=4\\text{ 厘米}$. 在直角三角形 $PBC$ 中，\r\n\n$$\nPC^2=PB^2+BC^2=5^2+4^2=41\n$$\n\r\n因此 $PC=\\sqrt{41}\\text{ 厘米}$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1960/img/national/q6_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>先由两个平方根都有意义，得</p><p>$2x^{2}-5\\geqslant0$，$5x-7\\geqslant0$.</p><p>由第一式得 $x\\le-\\sqrt{\\frac{5}{2}}$ 或 $x\\ge\\sqrt{\\frac{5}{2}}$，由第二式得 $x\\ge\\frac{7}{5}$. 两者合并为 $x\\ge\\sqrt{\\frac{5}{2}}$. 在这个定义域内，两边均为非负数，原方程等价于</p>\n$$\n\\sqrt{2x^{2}-5}=\\sqrt{5x-7}\\Longleftrightarrow 2x^{2}-5=5x-7\n$$\n<p>整理得 $2x^{2}-5x+2=0$，即 $(2x-1)(x-2)=0$，所以候选值为 $x=\\frac{1}{2}$ 或 $x=2$. 其中 $\\frac{1}{2}$ 不在定义域内，舍去；代入 $x=2$ 时两被开方式均为 $3$，确实成立. 故 $x=2$.</p></li><li><p>每组有 $6$ 队，任取其中两队比赛一次，所以每组比赛 $\\mathrm{C}_{6}^{2}=\\frac{6\\cdot5}{2}=15$ 次，五组共比赛 $5\\mathrm{C}_{6}^{2}=5\\times15=75$ 次. 五个小组冠军再进行单循环比赛，比赛次数为 $\\mathrm{C}_{5}^{2}=\\frac{5\\cdot4}{2}=10$ 次.</p><p>因此先后共比赛 $75+10=85$ 次.</p></li><li><p>设等比数列的首项为 $a>0$，公比为 $q>0$，则第 $k$ 项为 $a_{k}=aq^{k-1}$. 由于各项均为正数，对每个 $k$ 都有</p>\n$$\n\\log a_{k}=\\log\\left(aq^{k-1}\\right)=\\log a+(k-1)\\log q\n$$\n<p>于是相邻两项对数之差为</p>\n$$\n\\log a_{k+1}-\\log a_{k}=\\bigl(\\log a+k\\log q\\bigr)-\\bigl(\\log a+(k-1)\\log q\\bigr)=\\log q\n$$\n<p>与 $k$ 无关. 因此各项的对数构成首项为 $\\log a$、公差为 $\\log q$ 的等差数列，命题得证.</p></li><li><p>因为 $0^{\\circ}\\le x\\leqslant720^{\\circ}$，所以 $0^{\\circ}\\le\\frac{x}{2}\\leqslant360^{\\circ}$. 原等式左边为</p>\n$$\n\\sqrt{1-\\sin^{2}\\frac{x}{2}}=\\sqrt{\\cos^{2}\\frac{x}{2}}=\\left|\\cos\\frac{x}{2}\\right|\n$$\n<p>故原等式成立当且仅当 $\\left|\\cos\\frac{x}{2}\\right|=\\cos\\frac{x}{2}$，也就是 $\\cos\\frac{x}{2}\\geqslant0$. 在 $[0^{\\circ},360^{\\circ}]$ 内，这等价于</p>\n$$\n0^{\\circ}\\le\\frac{x}{2}\\leqslant90^{\\circ} \\text{或} 270^{\\circ}\\le\\frac{x}{2}\\leqslant360^{\\circ}\n$$\n<p>所以 $0^{\\circ}\\le x\\leqslant180^{\\circ}$ 或 $540^{\\circ}\\le x\\leqslant720^{\\circ}$.</p></li><li><p>解法一：设小孔直径 $AB=x\\text{ 毫米}$. 直径 $DE$ 垂直于弦 $AB$，所以它经过弦的中点 $C$，从而 $AC=\\frac{x}{2}\\text{ 毫米}$. 又因为 $DE=12\\text{ 毫米}$、$CD=9\\text{ 毫米}$，所以</p>\n$$\nCE=DE-CD=12-9=3\\text{ 毫米}\n$$\n<p>两条弦 $AB$、$DE$ 在圆内相交于 $C$，由相交弦定理，</p>\n$$\nCA\\cdot CB=CD\\cdot CE\n$$\n<p>由于 $CA=CB=\\frac{x}{2}$，得</p><p>$\\left(\\frac{x}{2}\\right)^{2}=9\\times3$，$x^{2}=108$.</p><p>长度取正值，所以 $x=6\\sqrt{3}\\text{ 毫米}$. 答：小孔的直径是 $6\\sqrt{3}\\text{ 毫米}$.</p><p>解法二：由 $OD=6\\text{ 毫米}$、$CD=9\\text{ 毫米}$，且图中 $C$ 在 $O$ 与 $E$ 的同一直线上，得</p>\n$$\nOC=CD-OD=9-6=3\\text{ 毫米}\n$$\n<p>连接 $OA$. 因为 $OC\\perp AB$，且 $C$ 是弦 $AB$ 的中点，所以 $AC=\\frac{x}{2}\\text{ 毫米}$. 在直角三角形 $OAC$ 中，</p><p>$OA^{2}=OC^{2}+AC^{2}$，$6^{2}=3^{2}+\\left(\\frac{x}{2}\\right)^{2}$.</p><p>因此 $\\frac{x^{2}}{4}=27$，长度取正值得 $x=6\\sqrt{3}\\text{ 毫米}$. 答：小孔的直径是 $6\\sqrt{3}\\text{ 毫米}$.</p></li><li><p>由 $PA\\perp$ 平面 $ABCD$，知 $PA\\perp BC$. 又底面为正方形，故 $AB\\perp BC$. 直线 $PA$、$AB$ 相交并且都在平面 $PAB$ 内，因此由线面垂直判定的逆定理，$BC\\perp$ 平面 $PAB$，从而 $BC\\perp PB$. 所以点 $P$ 到直线 $BC$ 的距离为 $PB=5\\text{ 厘米}$.</p><p>因为 $PA\\perp AB$，所以在直角三角形 $PAB$ 中，</p>\n$$\nAB^{2}=PB^{2}-PA^{2}=5^{2}-3^{2}=16\n$$\n<p>故 $AB=4\\text{ 厘米}$. 正方形 $ABCD$ 的边长相等，所以 $BC=4\\text{ 厘米}$. 在直角三角形 $PBC$ 中，</p>\n$$\nPC^{2}=PB^{2}+BC^{2}=5^{2}+4^{2}=41\n$$\n<p>因此 $PC=\\sqrt{41}\\text{ 厘米}$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q6_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 2,
           "body": "有一直圆柱，高是 $20\\text{ 厘米}$，底面半径是 $5\\text{ 厘米}$. 它的一个内接长方体的体积是 $800\\text{ 立方厘米}$. 求这长方体的底面的长和宽.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设内接长方体底面的长和宽分别为 $x\\text{ 厘米}$ 和 $y\\text{ 厘米}$，其中 $x>0$、$y>0$. 长方体底面是圆柱底面内接的矩形，矩形的四个顶点在圆周上，所以它的两条对角线都是圆柱底面的直径；因此对角线长为 $2\\times5=10\\text{ 厘米}$，从而\r\n\n$$\n\\begin{cases}\r\nx^{2}+y^{2}=10^{2},\\\\\r\n20xy=800\r\n\\end{cases}\n$$\n\r\n其中第二式来自长方体的高等于圆柱的高 $20\\text{ 厘米}$. 方程组化为\r\n\n$$\n\\begin{cases}\r\nx^{2}+y^{2}=100,\\\\\r\n2xy=80\r\n\\end{cases}\n$$\n\r\n两式相加、相减分别得\r\n$(x+y)^2=x^2+y^2+2xy=100+80=180$，$(x-y)^2=x^2+y^2-2xy=100-80=20$.\r\n因为 $x+y>0$，所以 $x+y=6\\sqrt5$；又因为 $(x-y)^2=20$，所以 $x-y=\\pm2\\sqrt5$.\r\n\r\n分别解下面的两个方程组：\r\n\n$$\n\\begin{cases}\r\nx+y=6\\sqrt5,\\\\\r\nx-y=2\\sqrt5\r\n\\end{cases}\r\n\\qquad\r\n\\begin{cases}\r\nx+y=6\\sqrt5,\\\\\r\nx-y=-2\\sqrt5\r\n\\end{cases}\n$$\n\r\n分别解这两个方程组，得到\r\n\n$$\n\\begin{cases}\r\nx_1=4\\sqrt5,\\\\\r\ny_1=2\\sqrt5\r\n\\end{cases}\r\n\\qquad\r\n\\begin{cases}\r\nx_2=2\\sqrt5,\\\\\r\ny_2=4\\sqrt5\r\n\\end{cases}\n$$\n\r\n两者只交换长、宽位置，均满足原条件. 答：底面的长和宽分别是 $4\\sqrt5\\text{ 厘米}$ 和 $2\\sqrt5\\text{ 厘米}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设内接长方体底面的长和宽分别为 $x\\text{ 厘米}$ 和 $y\\text{ 厘米}$，其中 $x>0$、$y>0$. 长方体底面是圆柱底面内接的矩形，矩形的四个顶点在圆周上，所以它的两条对角线都是圆柱底面的直径；因此对角线长为 $2\\times5=10\\text{ 厘米}$，从而</p>\n$$\n\\begin{cases}x^{2}+y^{2}=10^{2},\\\\  20xy=800\\end{cases}\n$$\n<p>其中第二式来自长方体的高等于圆柱的高 $20\\text{ 厘米}$. 方程组化为</p>\n$$\n\\begin{cases}x^{2}+y^{2}=100,\\\\  2xy=80\\end{cases}\n$$\n<p>两式相加、相减分别得</p><p>$(x+y)^{2}=x^{2}+y^{2}+2xy=100+80=180$，$(x-y)^{2}=x^{2}+y^{2}-2xy=100-80=20$.</p><p>因为 $x+y>0$，所以 $x+y=6\\sqrt{5}$；又因为 $(x-y)^{2}=20$，所以 $x-y=\\pm2\\sqrt{5}$.</p><p>分别解下面的两个方程组：</p>\n$$\n\\begin{cases}x+y=6\\sqrt{5},\\\\\n\nx-y=2\\sqrt{5}\\end{cases}  \\qquad  \\begin{cases}x+y=6\\sqrt{5},\\\\\n\nx-y=-2\\sqrt{5}\\end{cases}\n$$\n<p>分别解这两个方程组，得到</p>\n$$\n\\begin{cases}x_{1}=4\\sqrt{5},\\\\  y_{1}=2\\sqrt{5}\\end{cases}  \\qquad  \\begin{cases}x_{2}=2\\sqrt{5},\\\\  y_{2}=4\\sqrt{5}\\end{cases}\n$$\n<p>两者只交换长、宽位置，均满足原条件. 答：底面的长和宽分别是 $4\\sqrt{5}\\text{ 厘米}$ 和 $2\\sqrt{5}\\text{ 厘米}$.</p>"
         },
         {
           "num": 3,
           "body": "从一船上看到在它的南 $30^{\\circ}$ 东的海面上有一灯塔. 船以 $30\\text{ 浬/小时}$ 的速度向正东南方向航行半小时后，看到这个灯塔在船的正西方. 问这时船与灯塔的距离是多少？（精确到 $0.1\\text{ 浬}$）",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "解法一：如图，$A$ 是原来船的位置，$B$ 是灯塔，$C$ 是航行半小时后船的位置. 船行驶的路程为\r\n\n$$\nAC=30\\times\\frac12=15\\text{ 浬}\n$$\n\r\n从 $A$ 看，$AB$ 为南偏东 $30^{\\circ}$ 的方向，$AC$ 为正东南方向，即南偏东 $45^{\\circ}$，所以 $\\angle BAC=45^{\\circ}-30^{\\circ}=15^{\\circ}$. 航行后灯塔在船的正西方，因此 $BC$ 为东西方向；在点 $B$ 处，$BA$ 指向北偏西 $30^{\\circ}$，故 $\\angle ABC=120^{\\circ}$. 由正弦定理，\r\n\n$$\n\\begin{gathered}\r\nBC=\\frac{AC\\sin15^{\\circ}}{\\sin120^{\\circ}}=\\frac{15\\sin15^{\\circ}}{\\sin60^{\\circ}},\\\\\r\n\\sin15^{\\circ}=\\sin(45^{\\circ}-30^{\\circ})=\\sin45^{\\circ}\\cos30^{\\circ}-\\cos45^{\\circ}\\sin30^{\\circ},\\\\\r\nBC=\\frac{15(\\sin45^{\\circ}\\cos30^{\\circ}-\\cos45^{\\circ}\\sin30^{\\circ})}{\\sin60^{\\circ}}=\\frac{5\\sqrt2(3-\\sqrt3)}{2}\\approx4.482.\r\n\\end{gathered}\n$$\n\r\n按题意精确到 $0.1\\text{ 浬}$，得 $BC\\approx4.5\\text{ 浬}$. 答：这时船与灯塔的距离是 $4.5\\text{ 浬}$.\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1960/img/national/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n解法二：过 $A$ 作 $AD\\perp BC$，与 $CB$ 的延长线交于 $D$. 因为 $AC$ 与正东南方向成 $45^{\\circ}$，三角形 $ADC$ 为等腰直角三角形，所以\r\n$AC=15\\text{ 浬}$，$DA=DC=AC\\sin45^{\\circ}=\\frac{15\\sqrt2}{2}\\text{ 浬}$.\r\n又 $AB$ 为南偏东 $30^{\\circ}$，所以在直角三角形 $ADB$ 中，\r\n\n$$\nDB=DA\\tan30^{\\circ}=\\frac{15\\sqrt2}{2}\\times\\frac{\\sqrt3}{3}=\\frac{5\\sqrt6}{2}\\text{ 浬}\n$$\n\r\n由图中点的顺序，$BC=DC-DB$，故\r\n\n$$\nBC=\\frac{15\\sqrt2}{2}-\\frac{5\\sqrt6}{2}=\\frac{5(3\\sqrt2-\\sqrt6)}{2}\\approx4.482\\text{ 浬}\\approx4.5\\text{ 浬}\n$$\n\r\n答：船与灯塔的距离是 $4.5\\text{ 浬}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>解法一：如图，$A$ 是原来船的位置，$B$ 是灯塔，$C$ 是航行半小时后船的位置. 船行驶的路程为</p>\n$$\nAC=30\\times\\frac{1}{2}=15\\text{ 浬}\n$$\n<p>从 $A$ 看，$AB$ 为南偏东 $30^{\\circ}$ 的方向，$AC$ 为正东南方向，即南偏东 $45^{\\circ}$，所以 $\\angle BAC=45^{\\circ}-30^{\\circ}=15^{\\circ}$. 航行后灯塔在船的正西方，因此 $BC$ 为东西方向；在点 $B$ 处，$BA$ 指向北偏西 $30^{\\circ}$，故 $\\angle ABC=120^{\\circ}$. 由正弦定理，</p>\n$$\n\\begin{gathered}BC=\\frac{AC\\sin15^{\\circ}}{\\sin120^{\\circ}}=\\frac{15\\sin15^{\\circ}}{\\sin60^{\\circ}},\\\\\n\n\\sin15^{\\circ}=\\sin(45^{\\circ}-30^{\\circ})=\\sin45^{\\circ}\\cos30^{\\circ}-\\cos45^{\\circ}\\sin30^{\\circ},\\\\\n\nBC=\\frac{15(\\sin45^{\\circ}\\cos30^{\\circ}-\\cos45^{\\circ}\\sin30^{\\circ})}{\\sin60^{\\circ}}=\\frac{5\\sqrt{2}(3-\\sqrt{3})}{2}\\approx4.482.\\end{gathered}\n$$\n<p>按题意精确到 $0.1\\text{ 浬}$，得 $BC\\approx4.5\\text{ 浬}$. 答：这时船与灯塔的距离是 $4.5\\text{ 浬}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>解法二：过 $A$ 作 $AD\\perp BC$，与 $CB$ 的延长线交于 $D$. 因为 $AC$ 与正东南方向成 $45^{\\circ}$，三角形 $ADC$ 为等腰直角三角形，所以</p><p>$AC=15\\text{ 浬}$，$DA=DC=AC\\sin45^{\\circ}=\\frac{15\\sqrt{2}}{2}\\text{ 浬}$.</p><p>又 $AB$ 为南偏东 $30^{\\circ}$，所以在直角三角形 $ADB$ 中，</p>\n$$\nDB=DA\\tan30^{\\circ}=\\frac{15\\sqrt{2}}{2}\\times\\frac{\\sqrt{3}}{3}=\\frac{5\\sqrt{6}}{2}\\text{ 浬}\n$$\n<p>由图中点的顺序，$BC=DC-DB$，故</p>\n$$\nBC=\\frac{15\\sqrt{2}}{2}-\\frac{5\\sqrt{6}}{2}=\\frac{5(3\\sqrt{2}-\\sqrt{6})}{2}\\approx4.482\\text{ 浬}\\approx4.5\\text{ 浬}\n$$\n<p>答：船与灯塔的距离是 $4.5\\text{ 浬}$.</p>"
         },
         {
           "num": 4,
-          "body": "要在墙上开一矩形的大玻璃窗，周长限定为 $6\\text{ 米}$.\r\n\r\n\n(1) 求以矩形的一条边长 $x$ 表示窗户的面积 $y$ 的函数式.\n\n(2) 求这函数图象的顶点的坐标，对称轴的方程.\n\n(3) 画出这函数的图象，并求出 $x$ 的允许值的范围.",
-          "choices": [],
+          "body": "<p>要在墙上开一矩形的大玻璃窗，周长限定为 $6\\text{ 米}$.</p><ol class=\"enumerate\"><li><p>求以矩形的一条边长 $x$ 表示窗户的面积 $y$ 的函数式.</p></li><li><p>求这函数图象的顶点的坐标，对称轴的方程.</p></li><li><p>画出这函数的图象，并求出 $x$ 的允许值的范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设矩形的另一条边长为 $z\\text{ 米}$. 由周长为 $6\\text{ 米}$，有 $2x+2z=6$，所以 $z=3-x$. 因而面积为\r\n\n$$\ny=xz=x(3-x)=-x^{2}+3x\n$$\n\n(2) 配方得\r\n\n$$\ny=-x^{2}+3x=-\\left(x^{2}-3x+\\frac94\\right)+\\frac94=-\\left(x-\\frac32\\right)^{2}+\\frac94\n$$\n\r\n因此函数图象的顶点为 $\\left(\\frac32,\\frac94\\right)$，对称轴方程为 $x=\\frac32$.\n\n(3) 由两条边长均为正数，得 $x>0$ 且 $z=3-x>0$，所以 $x$ 的允许值范围为 $0<x<3$. 图象是抛物线 $y=-x^{2}+3x$ 在该区间内的部分；它与横轴的延长交于 $(0,0)$、$(3,0)$，顶点为 $\\left(\\frac32,\\frac94\\right)$，开口向下，见图.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1960/img/national/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设矩形的另一条边长为 $z\\text{ 米}$. 由周长为 $6\\text{ 米}$，有 $2x+2z=6$，所以 $z=3-x$. 因而面积为</p>\n$$\ny=xz=x(3-x)=-x^{2}+3x\n$$\n</li><li><p>配方得</p>\n$$\ny=-x^{2}+3x=-\\left(x^{2}-3x+\\frac{9}{4}\\right)+\\frac{9}{4}=-\\left(x-\\frac{3}{2}\\right)^{2}+\\frac{9}{4}\n$$\n<p>因此函数图象的顶点为 $\\left(\\frac{3}{2},\\frac{9}{4}\\right)$，对称轴方程为 $x=\\frac{3}{2}$.</p></li><li><p>由两条边长均为正数，得 $x>0$ 且 $z=3-x>0$，所以 $x$ 的允许值范围为 $0&#x3C;x&#x3C;3$. 图象是抛物线 $y=-x^{2}+3x$ 在该区间内的部分；它与横轴的延长交于 $(0,0)$、$(3,0)$，顶点为 $\\left(\\frac{3}{2},\\frac{9}{4}\\right)$，开口向下，见图.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q4_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         }
       ]
     },
@@ -90,23 +43,18 @@
         {
           "num": 5,
           "body": "已知方程 $2x^{2}-x\\cdot4\\sin\\theta+3\\cos\\theta=0$ 的两个根相等，且 $\\theta$ 为锐角，求 $\\theta$ 和这个方程的两个根.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "二次项系数为 $2\\neq0$，所以方程有两个相等的根当且仅当判别式为零. 因而\r\n\n$$\n\\Delta=(-4\\sin\\theta)^2-4\\cdot2\\cdot3\\cos\\theta=0\n$$\n\r\n即 $2\\sin^2\\theta-3\\cos\\theta=0$. 用 $\\sin^2\\theta=1-\\cos^2\\theta$ 化为\r\n\n$$\n2\\cos^2\\theta+3\\cos\\theta-2=0\r\n\\Longleftrightarrow(2\\cos\\theta-1)(\\cos\\theta+2)=0\n$$\n\r\n因 $-1<\\cos\\theta<1$，$\\cos\\theta+2=0$ 不可能；故 $\\cos\\theta=\\frac12$. 又 $\\theta$ 为锐角，所以 $\\theta=60^{\\circ}$.\r\n\r\n方程的重根为\r\n\n$$\nx_0=-\\frac{-4\\sin\\theta}{2\\cdot2}=\\sin\\theta\n$$\n\r\n所以 $x_0=\\sin60^{\\circ}=\\frac{\\sqrt3}{2}$. 答：$\\theta=60^{\\circ}$，方程的两个根都是 $\\frac{\\sqrt3}{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>二次项系数为 $2\\neq0$，所以方程有两个相等的根当且仅当判别式为零. 因而</p>\n$$\n\\Delta=(-4\\sin\\theta)^{2}-4\\cdot2\\cdot3\\cos\\theta=0\n$$\n<p>即 $2\\sin^{2}\\theta-3\\cos\\theta=0$. 用 $\\sin^{2}\\theta=1-\\cos^{2}\\theta$ 化为</p>\n$$\n2\\cos^{2}\\theta+3\\cos\\theta-2=0  \\Longleftrightarrow(2\\cos\\theta-1)(\\cos\\theta+2)=0\n$$\n<p>因 $-1&#x3C;\\cos\\theta&#x3C;1$，$\\cos\\theta+2=0$ 不可能；故 $\\cos\\theta=\\frac{1}{2}$. 又 $\\theta$ 为锐角，所以 $\\theta=60^{\\circ}$.</p><p>方程的重根为</p>\n$$\nx_{0}=-\\frac{-4\\sin\\theta}{2\\cdot2}=\\sin\\theta\n$$\n<p>所以 $x_{0}=\\sin60^{\\circ}=\\frac{\\sqrt{3}}{2}$. 答：$\\theta=60^{\\circ}$，方程的两个根都是 $\\frac{\\sqrt{3}}{2}$.</p>"
         },
         {
           "num": 6,
-          "body": "$a$ 是什么实数的时候，下列方程组的解是正数：\r\n$\\begin{cases}\r\n2x+ay=4,\\\\\r\nx+4y=8\r\n\\end{cases}$",
-          "choices": [],
+          "body": "<p>$a$ 是什么实数的时候，下列方程组的解是正数：</p><p>$\\begin{cases}2x+ay=4,\\\\  x+4y=8\\end{cases}$</p>",
+          "choices": null,
           "answer": "",
-          "solution": "先考察 $a=8$. 此时将第二式乘以 $2$ 得 $2x+8y=16$，而第一式为 $2x+8y=4$，两式矛盾，所以无解.\r\n\r\n当 $a\\neq8$ 时，将第二式乘以 $2$ 减去第一式，得\r\n$(8-a)y=12$，$y=\\frac{12}{8-a}$.\r\n再由第二式得\r\n\n$$\nx=8-4y=8-\\frac{48}{8-a}=\\frac{16-8a}{8-a}=\\frac{8(2-a)}{8-a}\n$$\n\r\n因为 $12>0$，要使 $y>0$，必须且只须 $8-a>0$，即 $a<8$. 在此条件下分母 $8-a$ 为正，要使 $x>0$，必须且只须 $2-a>0$，即 $a<2$. 因此必要条件为 $a<2$.\r\n\r\n反之，当 $a<2$ 时，$8-a>0$、$2-a>0$，上式给出的 $x$，$y$ 均为正数，且由消元过程满足原方程组. 所以充分性也成立，故解不等式组\r\n\n$$\n\\begin{cases}\r\n8-a>0,\\\\\r\n2-a>0\r\n\\end{cases}\n$$\n\r\n得 $a<2$. 因此，当且仅当 $a<2$ 时，原方程组的解是正数.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>先考察 $a=8$. 此时将第二式乘以 $2$ 得 $2x+8y=16$，而第一式为 $2x+8y=4$，两式矛盾，所以无解.</p><p>当 $a\\neq8$ 时，将第二式乘以 $2$ 减去第一式，得</p><p>$(8-a)y=12$，$y=\\frac{12}{8-a}$.</p><p>再由第二式得</p>\n$$\nx=8-4y=8-\\frac{48}{8-a}=\\frac{16-8a}{8-a}=\\frac{8(2-a)}{8-a}\n$$\n<p>因为 $12>0$，要使 $y>0$，必须且只须 $8-a>0$，即 $a&#x3C;8$. 在此条件下分母 $8-a$ 为正，要使 $x>0$，必须且只须 $2-a>0$，即 $a&#x3C;2$. 因此必要条件为 $a&#x3C;2$.</p><p>反之，当 $a&#x3C;2$ 时，$8-a>0$、$2-a>0$，上式给出的 $x$，$y$ 均为正数，且由消元过程满足原方程组. 所以充分性也成立，故解不等式组</p>\n$$\n\\begin{cases}8-a>0,\\\\\n\n2-a>0\\end{cases}\n$$\n<p>得 $a&#x3C;2$. 因此，当且仅当 $a&#x3C;2$ 时，原方程组的解是正数.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

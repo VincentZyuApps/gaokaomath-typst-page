@@ -1,138 +1,15 @@
 {
+  "title": "2012年普通高等学校招生全国统一考试",
+  "subtitle": "2012年北京卷（理）",
   "year": "2012",
   "slug": "beijing_science",
-  "title": "2012年北京卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A = \\{x \\in \\mathbb{R} \\mid 3x + 2 > 0\\}$，$B = \\{x \\in \\mathbb{R} \\mid (x + 1)(x - 3) > 0\\}$，则 $A \\cap B =$（ ）",
+          "body": "已知集合 $A = \\{x \\in \\mathbb{R}\\mid 3x + 2 > 0\\}$，$B = \\{x \\in \\mathbb{R}\\mid (x + 1)(x - 3) > 0\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$(-\\infty, -1)$",
             "$\\left(-1, -\\frac{2}{3}\\right)$",
@@ -140,13 +17,11 @@
             "$(3, +\\infty)$"
           ],
           "answer": "D",
-          "solution": "由 $3x+2>0$ 得 $x>-\\frac{2}{3}$，由 $(x+1)(x-3)>0$ 得 $x<-1$ 或 $x>3$. 因此\r\n\r\n\n$$\nA\\cap B=\\left(-\\frac{2}{3},+\\infty\\right)\\cap\\left(\\left(-\\infty,-1\\right)\\cup(3,+\\infty)\\right)=(3,+\\infty)\n$$\n\r\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $3x+2>0$ 得 $x>-\\frac{2}{3}$，由 $(x+1)(x-3)>0$ 得 $x&#x3C;-1$ 或 $x>3$. 因此</p>\n$$\nA\\cap B=\\left(-\\frac{2}{3},+\\infty\\right)\\cap\\left(\\left(-\\infty,-1\\right)\\cup(3,+\\infty)\\right)=(3,+\\infty)\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 2,
-          "body": "设不等式组 $\\begin{cases}\r\n0 \\le x \\le 2,\\\\\r\n0 \\le y \\le 2\r\n\\end{cases}$ 表示的平面区域为 $D$. 在区域 $D$ 内随机取一个点，则此点到坐标原点的距离大于 2 的概率是（ ）",
+          "body": "设不等式组 $\\begin{cases}0 \\le x \\le 2,\\\\\n\n0 \\le y \\le 2\\end{cases}$ 表示的平面区域为 $D$. 在区域 $D$ 内随机取一个点，则此点到坐标原点的距离大于 2 的概率是（ ）",
           "choices": [
             "$\\frac{\\pi}{4}$",
             "$\\frac{\\pi - 2}{2}$",
@@ -154,13 +29,11 @@
             "$\\frac{4 - \\pi}{4}$"
           ],
           "answer": "D",
-          "solution": "区域 $D$ 是边长为 $2$ 的正方形，面积为 $4$. 在该正方形内，到原点距离不大于 $2$ 的部分是半径为 $2$ 的四分之一圆，面积为 $\\frac14\\pi\\cdot2^2=\\pi$. 因而到原点距离大于 $2$ 的部分面积为 $4-\\pi$，所求概率为\r\n\r\n\n$$\n\\frac{4-\\pi}{4}\n$$\n\r\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>区域 $D$ 是边长为 $2$ 的正方形，面积为 $4$. 在该正方形内，到原点距离不大于 $2$ 的部分是半径为 $2$ 的四分之一圆，面积为 $\\frac{1}{4}\\pi\\cdot2^{2}=\\pi$. 因而到原点距离大于 $2$ 的部分面积为 $4-\\pi$，所求概率为</p>\n$$\n\\frac{4-\\pi}{4}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 3,
-          "body": "设 $a$，$b \\in \\mathbb{R}$. “$a=0$”是“复数 $a+b\\mathrm{i}$ 是纯虚数”的（ ）",
+          "body": "设 $a$，$b \\in \\mathbb{R}$. “$a=0$”是“复数 $a+b\\mathrm{i}$ 是纯虚数”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -168,13 +41,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "B",
-          "solution": "复数 $a+b\\mathrm{i}$ 为纯虚数时，其实部必须为 $0$，且虚部不为 $0$，所以必有 $a=0$. 反之，若 $a=0$ 而 $b=0$，则 $a+b\\mathrm{i}=0$，不满足纯虚数的非零虚部条件，因此 $a=0$ 不是充分条件. 故“$a=0$”是“复数 $a+b\\mathrm{i}$ 是纯虚数”的必要而不充分条件，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "复数 $a+b\\mathrm{i}$ 为纯虚数时，其实部必须为 $0$，且虚部不为 $0$，所以必有 $a=0$. 反之，若 $a=0$ 而 $b=0$，则 $a+b\\mathrm{i}=0$，不满足纯虚数的非零虚部条件，因此 $a=0$ 不是充分条件. 故“$a=0$”是“复数 $a+b\\mathrm{i}$ 是纯虚数”的必要而不充分条件，选 B."
         },
         {
           "num": 4,
-          "body": "执行如图所示的程序框图，输出的 $S$ 值为（ ）\r\n\r\n\\texfigure[max width=0.70\\linewidth]{img_repaint/2012/beijing_science/q4_fig1.tex}",
+          "body": "<p>执行如图所示的程序框图，输出的 $S$ 值为（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.70<span class=\"macro macro-linewidth\"></span>]img_repaint/2012/beijing_science/q4_fig1.tex</p>",
           "choices": [
             "$2$",
             "$4$",
@@ -182,13 +53,11 @@
             "$16$"
           ],
           "answer": "C",
-          "solution": "初始时 $k=0$，$S=1$. 每轮先判断 $k<3$，若成立则执行 $S\\leftarrow S\\cdot 2^k$，再执行 $k\\leftarrow k+1$，然后返回判断框.\r\n\r\n三次循环后的数值依次为 $(S,k)=(1,1)$，$(S,k)=(2,2)$，$(S,k)=(8,3)$.\r\n\r\n此时 $k<3$ 不成立，输出 $S=8$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>初始时 $k=0$，$S=1$. 每轮先判断 $k&#x3C;3$，若成立则执行 $S\\leftarrow S\\cdot 2^{k}$，再执行 $k\\leftarrow k+1$，然后返回判断框.</p><p>三次循环后的数值依次为 $(S,k)=(1,1)$，$(S,k)=(2,2)$，$(S,k)=(8,3)$.</p><p>此时 $k&#x3C;3$ 不成立，输出 $S=8$. 故选 C.</p>"
         },
         {
           "num": 5,
-          "body": "如图，$\\angle ACB = 90^{\\circ}$，$CD \\perp AB$ 于点 $D$，以 $BD$ 为直径的圆与 $BC$ 交于点 $E$，则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，$\\angle ACB = 90^{\\circ}$，$CD \\perp AB$ 于点 $D$，以 $BD$ 为直径的圆与 $BC$ 交于点 $E$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q5_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$CE \\cdot CB = AD \\cdot DB$",
             "$CE\\cdot CB = AD\\cdot AB$",
@@ -196,13 +65,11 @@
             "$CE\\cdot EB = CD^{2}$"
           ],
           "answer": "A",
-          "solution": "连接 $DE$. 因为 $BD$ 是圆的直径，所以 $\\angle BED=90^\\circ$，又 $B$，$E$，$C$ 三点共线，故 $DE\\perp BC$. 在直角三角形 $BCD$ 中，$DE$ 是斜边 $BC$ 上的高，所以\r\n\r\n\n$$\nCD^2=CE\\cdot CB\n$$\n\r\n\r\n又因为 $\\triangle ABC$ 在 $C$ 处直角，且 $CD\\perp AB$，所以 $\\triangle ACD\\sim\\triangle CBD$，从而\r\n\r\n\n$$\nCD^2=AD\\cdot DB\n$$\n\r\n\r\n因此 $CE\\cdot CB=AD\\cdot DB$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>连接 $DE$. 因为 $BD$ 是圆的直径，所以 $\\angle BED=90^{\\circ}$，又 $B$，$E$，$C$ 三点共线，故 $DE\\perp BC$. 在直角三角形 $BCD$ 中，$DE$ 是斜边 $BC$ 上的高，所以</p>\n$$\nCD^{2}=CE\\cdot CB\n$$\n<p>又因为 $\\triangle ABC$ 在 $C$ 处直角，且 $CD\\perp AB$，所以 $\\triangle ACD\\sim\\triangle CBD$，从而</p>\n$$\nCD^{2}=AD\\cdot DB\n$$\n<p>因此 $CE\\cdot CB=AD\\cdot DB$，故选 A.</p>"
         },
         {
           "num": 6,
-          "body": "从 $0$，$2$ 中选一个数字，从 $1$，$3$，$5$ 中选两个数字，组成无重复数字的三位数，其中奇数的个数为（ ）",
+          "body": "从 $0$，$2$ 中选一个数字，从 $1$，$3$，$5$ 中选两个数字，组成无重复数字的三位数，其中奇数的个数为（ ）",
           "choices": [
             "$24$",
             "$18$",
@@ -210,13 +77,11 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "若选出的偶数是 $0$，则 $0$ 只能放在十位. 先从 $1$，$3$，$5$ 中选两个数字，有 $\\mathrm C_3^2$ 种；个位可放其中任一个奇数，百位随之确定，所以有 $\\mathrm C_3^2\\cdot2=6$ 个奇数.\r\n\r\n若选出的偶数是 $2$，则从 $1$，$3$，$5$ 中选两个数字后，个位有 $2$ 种选法；剩下的 $2$ 和另一个奇数可在百位、十位交换，有 $2$ 种排法，所以有 $\\mathrm C_3^2\\cdot2\\cdot2=12$ 个奇数.\r\n\r\n总数为 $6+12=18$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若选出的偶数是 $0$，则 $0$ 只能放在十位. 先从 $1$，$3$，$5$ 中选两个数字，有 $\\mathrm{C}_{3}^{2}$ 种；个位可放其中任一个奇数，百位随之确定，所以有 $\\mathrm{C}_{3}^{2}\\cdot2=6$ 个奇数.</p><p>若选出的偶数是 $2$，则从 $1$，$3$，$5$ 中选两个数字后，个位有 $2$ 种选法；剩下的 $2$ 和另一个奇数可在百位、十位交换，有 $2$ 种排法，所以有 $\\mathrm{C}_{3}^{2}\\cdot2\\cdot2=12$ 个奇数.</p><p>总数为 $6+12=18$，故选 B.</p>"
         },
         {
           "num": 7,
-          "body": "某三棱锥的三视图如图所示，该三棱锥的表面积是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>某三棱锥的三视图如图所示，该三棱锥的表面积是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$28 + 6\\sqrt{5}$",
             "$30 + 6\\sqrt{5}$",
@@ -224,13 +89,11 @@
             "$60 + 12\\sqrt{5}$"
           ],
           "answer": "B",
-          "solution": "由三视图可还原为底面为直角三角形的三棱锥. 设底面顶点为 $A=(0,0,0)$，$B=(5,0,0)$，$C=(5,4,0)$，顶点为 $P=(2,0,4)$. 这些坐标给出底面直角边长 $5,4$、顶点高 $4$，且顶点在底面边 $AB$ 上距 $A$ 为 $2$ 的点的正投影.\r\n\r\n底面面积为 $S_{ABC}=\\frac12\\cdot5\\cdot4=10$. 对于面 $PBC$，有 $\\overrightarrow{BP}=(-3,0,4)$，$\\overrightarrow{BC}=(0,4,0)$，故 $\\left\\lvert\\overrightarrow{BP}\\times\\overrightarrow{BC}\\right\\rvert=20$，从而 $S_{PBC}=10$. 对于面 $PAB$，有 $\\overrightarrow{AP}=(2,0,4)$，$\\overrightarrow{AB}=(5,0,0)$，故 $\\left\\lvert\\overrightarrow{AP}\\times\\overrightarrow{AB}\\right\\rvert=20$，从而 $S_{PAB}=10$.\r\n\r\n对于面 $PAC$，有 $\\overrightarrow{AP}=(2,0,4)$，$\\overrightarrow{AC}=(5,4,0)$.\r\n\r\n故\r\n\r\n\n$$\nS_{PAC}=\\frac12\\left\\lvert\\overrightarrow{AP}\\times\\overrightarrow{AC}\\right\\rvert=\\frac12\\sqrt{(-16)^2+20^2+8^2}=6\\sqrt5\n$$\n\r\n\r\n所以三棱锥的表面积为 $10+10+10+6\\sqrt5=30+6\\sqrt5$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由三视图可还原为底面为直角三角形的三棱锥. 设底面顶点为 $A=(0,0,0)$，$B=(5,0,0)$，$C=(5,4,0)$，顶点为 $P=(2,0,4)$. 这些坐标给出底面直角边长 $5,4$、顶点高 $4$，且顶点在底面边 $AB$ 上距 $A$ 为 $2$ 的点的正投影.</p><p>底面面积为 $S_{ABC}=\\frac{1}{2}\\cdot5\\cdot4=10$. 对于面 $PBC$，有 $\\overrightarrow{BP}=(-3,0,4)$，$\\overrightarrow{BC}=(0,4,0)$，故 $\\left\\lvert\\overrightarrow{BP}\\times\\overrightarrow{BC}\\right\\rvert=20$，从而 $S_{PBC}=10$. 对于面 $PAB$，有 $\\overrightarrow{AP}=(2,0,4)$，$\\overrightarrow{AB}=(5,0,0)$，故 $\\left\\lvert\\overrightarrow{AP}\\times\\overrightarrow{AB}\\right\\rvert=20$，从而 $S_{PAB}=10$.</p><p>对于面 $PAC$，有 $\\overrightarrow{AP}=(2,0,4)$，$\\overrightarrow{AC}=(5,4,0)$.</p><p>故</p>\n$$\nS_{PAC}=\\frac{1}{2}\\left\\lvert\\overrightarrow{AP}\\times\\overrightarrow{AC}\\right\\rvert=\\frac{1}{2}\\sqrt{(-16)^{2}+20^{2}+8^{2}}=6\\sqrt{5}\n$$\n<p>所以三棱锥的表面积为 $10+10+10+6\\sqrt{5}=30+6\\sqrt{5}$，故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "某棵果树前 $n$ 年的总产量 $S_n$ 与 $n$ 之间的关系如图所示. 从目前记录的结果看，前 $m$ 年的年平均产量最高，$m$ 的值为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>某棵果树前 $n$ 年的总产量 $S_{n}$ 与 $n$ 之间的关系如图所示. 从目前记录的结果看，前 $m$ 年的年平均产量最高，$m$ 的值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$5$",
             "$7$",
@@ -238,9 +101,7 @@
             "$11$"
           ],
           "answer": "C",
-          "solution": "图中点 $(n,S_n)$ 表示前 $n$ 年的总产量，因此前 $n$ 年的年平均产量为 $\\frac{S_n}{n}$，它等于原点与点 $(n,S_n)$ 的连线斜率. 比较图中各点与原点连线的斜率可知，斜率在 $n=9$ 时最大，故前 $9$ 年的年平均产量最高，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "图中点 $(n,S_{n})$ 表示前 $n$ 年的总产量，因此前 $n$ 年的年平均产量为 $\\frac{S_{n}}{n}$，它等于原点与点 $(n,S_{n})$ 的连线斜率. 比较图中各点与原点连线的斜率可知，斜率在 $n=9$ 时最大，故前 $9$ 年的年平均产量最高，选 C."
         }
       ]
     },
@@ -249,57 +110,45 @@
       "problems": [
         {
           "num": 9,
-          "body": "直线 $\\begin{cases}\r\nx=2+t,\\\\\r\ny=-1-t,\r\n\\end{cases}$（$t$ 为参数）与曲线 $\\begin{cases}\r\nx=3\\cos\\alpha,\\\\\r\ny=3\\sin\\alpha,\r\n\\end{cases}$（$\\alpha$ 为参数）的交点个数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "直线参数方程给出 $x+y=(2+t)+(-1-t)=1$，即直线方程为 $x+y=1$. 曲线参数方程给出 $x^2+y^2=9$，是以原点为圆心、半径为 $3$ 的圆.\r\n\r\n圆心到直线的距离为 $\\frac{1}{\\sqrt2}<3$，所以直线与圆相交于两个不同的点，交点个数为 $2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "直线 $\\begin{cases}x=2+t,\\\\\n\ny=-1-t,\\end{cases}$（$t$ 为参数）与曲线 $\\begin{cases}x=3\\cos\\alpha,\\\\\n\ny=3\\sin\\alpha,\\end{cases}$（$\\alpha$ 为参数）的交点个数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "<p>直线参数方程给出 $x+y=(2+t)+(-1-t)=1$，即直线方程为 $x+y=1$. 曲线参数方程给出 $x^{2}+y^{2}=9$，是以原点为圆心、半径为 $3$ 的圆.</p><p>圆心到直线的距离为 $\\frac{1}{\\sqrt{2}}&#x3C;3$，所以直线与圆相交于两个不同的点，交点个数为 $2$.</p>"
         },
         {
           "num": 10,
-          "body": "已知 $\\{a_n\\}$ 为等差数列，$S_n$ 为其前 $n$ 项和，若 $a_1=\\frac{1}{2}$，$S_2=a_3$，则 $a_2=$ _______ {}；$S_n=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)；\\(\\frac{n(n+1)}{4}\\)",
-          "solution": "设等差数列的公差为 $d$. 由 $a_1=\\frac12$ 得 $a_2=\\frac12+d$，$a_3=\\frac12+2d$，而 $S_2=1+d$. 由 $S_2=a_3$ 得\r\n\r\n\n$$\n1+d=\\frac12+2d\n$$\n\r\n\r\n所以 $d=\\frac12$，从而 $a_2=1$. 又\r\n\r\n\n$$\nS_n=\\frac n2\\left(2a_1+(n-1)d\\right)=\\frac n2\\left(1+\\frac{n-1}{2}\\right)=\\frac{n(n+1)}4\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\{a_{n}\\}$ 为等差数列，$S_{n}$ 为其前 $n$ 项和，若 $a_{1}=\\frac{1}{2}$，$S_{2}=a_{3}$，则 $a_{2}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；$S_{n}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$；$\\frac{n(n+1)}{4}$",
+          "solution": "<p>设等差数列的公差为 $d$. 由 $a_{1}=\\frac{1}{2}$ 得 $a_{2}=\\frac{1}{2}+d$，$a_{3}=\\frac{1}{2}+2d$，而 $S_{2}=1+d$. 由 $S_{2}=a_{3}$ 得</p>\n$$\n1+d=\\frac{1}{2}+2d\n$$\n<p>所以 $d=\\frac{1}{2}$，从而 $a_{2}=1$. 又</p>\n$$\nS_{n}=\\frac{n}{2}\\left(2a_{1}+(n-1)d\\right)=\\frac{n}{2}\\left(1+\\frac{n-1}{2}\\right)=\\frac{n(n+1)}{4}\n$$"
         },
         {
           "num": 11,
-          "body": "在 $\\triangle ABC$ 中，若 $a=2$，$b+c=7$，$\\cos B=-\\frac{1}{4}$，则 $b=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(4\\)",
-          "solution": "由余弦定理，在角 $B$ 对边 $b$ 的关系中\r\n\r\n\n$$\nb^2=a^2+c^2-2ac\\cos B=4+c^2+c=c^2+c+4\n$$\n\r\n\r\n又 $b+c=7$，即 $b=7-c$. 代入得\r\n\r\n\n$$\n(7-c)^2=c^2+c+4\n$$\n\r\n\r\n即 $49-14c+c^2=c^2+c+4$，所以 $15c=45$，解得 $c=3$，从而 $b=7-c=4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $\\triangle ABC$ 中，若 $a=2$，$b+c=7$，$\\cos B=-\\frac{1}{4}$，则 $b=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$4$",
+          "solution": "<p>由余弦定理，在角 $B$ 对边 $b$ 的关系中</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos B=4+c^{2}+c=c^{2}+c+4\n$$\n<p>又 $b+c=7$，即 $b=7-c$. 代入得</p>\n$$\n(7-c)^{2}=c^{2}+c+4\n$$\n<p>即 $49-14c+c^{2}=c^{2}+c+4$，所以 $15c=45$，解得 $c=3$，从而 $b=7-c=4$.</p>"
         },
         {
           "num": 12,
-          "body": "在直角坐标系 $xOy$ 中，直线 $l$ 过抛物线 $y^2 = 4x$ 的焦点 $F$，且与该抛物线相交于 $A$，$B$ 两点，其中点 $A$ 在 $x$ 轴上方. 若直线 $l$ 的倾斜角为 $60^\\circ$，则 $\\triangle OAF$ 的面积为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt{3}\\)",
-          "solution": "抛物线 $y^2=4x$ 的焦点为 $F=(1,0)$. 直线 $l$ 的倾斜角为 $60^\\circ$，故斜率为 $\\sqrt3$，其方程为 $y=\\sqrt3(x-1)$. 代入抛物线方程得\r\n\r\n\n$$\n3(x-1)^2=4x\n$$\n\r\n\r\n即 $3x^2-10x+3=0$，所以 $x=3$ 或 $x=\\frac13$. 由于 $A$ 在 $x$ 轴上方，取 $A=(3,2\\sqrt3)$. 以 $OF=1$ 为底，点 $A$ 到 $x$ 轴的距离为 $2\\sqrt3$，于是\r\n\r\n\n$$\nS_{\\triangle OAF}=\\frac12\\cdot1\\cdot2\\sqrt3=\\sqrt3\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在直角坐标系 $xOy$ 中，直线 $l$ 过抛物线 $y^{2} = 4x$ 的焦点 $F$，且与该抛物线相交于 $A$，$B$ 两点，其中点 $A$ 在 $x$ 轴上方. 若直线 $l$ 的倾斜角为 $60^{\\circ}$，则 $\\triangle OAF$ 的面积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{3}$",
+          "solution": "<p>抛物线 $y^{2}=4x$ 的焦点为 $F=(1,0)$. 直线 $l$ 的倾斜角为 $60^{\\circ}$，故斜率为 $\\sqrt{3}$，其方程为 $y=\\sqrt{3}(x-1)$. 代入抛物线方程得</p>\n$$\n3(x-1)^{2}=4x\n$$\n<p>即 $3x^{2}-10x+3=0$，所以 $x=3$ 或 $x=\\frac{1}{3}$. 由于 $A$ 在 $x$ 轴上方，取 $A=(3,2\\sqrt{3})$. 以 $OF=1$ 为底，点 $A$ 到 $x$ 轴的距离为 $2\\sqrt{3}$，于是</p>\n$$\nS_{\\triangle OAF}=\\frac{1}{2}\\cdot1\\cdot2\\sqrt{3}=\\sqrt{3}\n$$"
         },
         {
           "num": 13,
-          "body": "已知正方形 $ABCD$ 的边长为 1，点 $E$ 是 $AB$ 边上的动点，则 $\\overrightarrow{DE} \\cdot \\overrightarrow{CB}$ 的值为 _______ {}；$\\overrightarrow{DE} \\cdot \\overrightarrow{DC}$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)；\\(1\\)",
-          "solution": "建立直角坐标系，令 $A=(0,0)$，$B=(1,0)$，$C=(1,1)$，$D=(0,1)$，设 $E=(t,0)$，其中 $0\\le t\\leqslant1$.\r\n\r\n有 $\\overrightarrow{DE}=(t,-1)$，$\\overrightarrow{CB}=(0,-1)$，$\\overrightarrow{DC}=(1,0)$.\r\n\r\n因此 $\\overrightarrow{DE}\\cdot\\overrightarrow{CB}=1$，$\\overrightarrow{DE}\\cdot\\overrightarrow{DC}=t$.\r\n\r\n当 $0\\le t\\leqslant1$ 时，$t$ 的最大值为 $1$，所以两空分别为 $1,1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知正方形 $ABCD$ 的边长为 1，点 $E$ 是 $AB$ 边上的动点，则 $\\overrightarrow{DE}\\cdot \\overrightarrow{CB}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；$\\overrightarrow{DE}\\cdot \\overrightarrow{DC}$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$；$1$",
+          "solution": "<p>建立直角坐标系，令 $A=(0,0)$，$B=(1,0)$，$C=(1,1)$，$D=(0,1)$，设 $E=(t,0)$，其中 $0\\le t\\leqslant1$.</p><p>有 $\\overrightarrow{DE}=(t,-1)$，$\\overrightarrow{CB}=(0,-1)$，$\\overrightarrow{DC}=(1,0)$.</p><p>因此 $\\overrightarrow{DE}\\cdot\\overrightarrow{CB}=1$，$\\overrightarrow{DE}\\cdot\\overrightarrow{DC}=t$.</p><p>当 $0\\le t\\leqslant1$ 时，$t$ 的最大值为 $1$，所以两空分别为 $1,1$.</p>"
         },
         {
           "num": 14,
-          "body": "已知 $f(x)=m(x-2m)(x+m+3)$，$g(x)=2^x-2$. 若同时满足条件：\r\n\r\n\\begin{circlelist}\r\n\\item $\\forall x\\in\\mathbb{R}$，$f(x)<0$ 或 $g(x)<0$；\r\n\\item $\\exists x\\in(-\\infty,-4)$，$f(x)g(x)<0$，\r\n\\end{circlelist}\r\n\r\n则 $m$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\((-4,-2)\\)",
-          "solution": "因为 $g(x)=2^x-2$ 在 $x<1$ 时为负，在 $x=1$ 时为零，在 $x>1$ 时为正. 条件（1）因此要求 $f(x)<0$ 对一切 $x\\geqslant1$ 成立.\r\n\r\n若 $m\\geqslant0$，则 $f$ 不可能在 $x\\geqslant1$ 上恒为负，所以 $m<0$. 此时 $f$ 的开口向下，两个零点为 $2m$ 和 $-m-3$. 要使 $f(x)<0$ 对一切 $x\\geqslant1$ 成立，两个零点都必须小于 $1$. 其中 $2m<1$ 已由 $m<0$ 保证，而 $-m-3<1$ 给出 $m>-4$. 故条件（1）等价于 $-4<m<0$.\r\n\r\n在 $x<-4$ 时 $g(x)<0$，条件（2）要求存在 $x<-4$ 使 $f(x)>0$，也就是 $x$ 位于 $f$ 的两个零点之间. 在 $-4<m<0$ 中，$-m-3>-3>-4$. 若 $m\\ge-2$，则 $2m\\ge-4$，两个零点都不小于 $-4$，不存在满足条件的 $x$. 若 $-4<m<-2$，则 $2m<-4<-m-3$，区间 $(2m,-4)$ 中的任意 $x$ 都满足 $x<-4$ 且 $f(x)>0$. 因而\r\n\r\n\n$$\nm\\in(-4,-2)\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知 $f(x)=m(x-2m)(x+m+3)$，$g(x)=2^{x}-2$. 若同时满足条件：</p><ol class=\"enumerate\"><li><p>$\\forall x\\in\\mathbb{R}$，$f(x)&#x3C;0$ 或 $g(x)&#x3C;0$；</p></li><li><p>$\\exists x\\in(-\\infty,-4)$，$f(x)g(x)&#x3C;0$，</p></li></ol><p>则 $m$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$(-4,-2)$",
+          "solution": "<p>因为 $g(x)=2^{x}-2$ 在 $x&#x3C;1$ 时为负，在 $x=1$ 时为零，在 $x>1$ 时为正. 条件（1）因此要求 $f(x)&#x3C;0$ 对一切 $x\\geqslant1$ 成立.</p><p>若 $m\\geqslant0$，则 $f$ 不可能在 $x\\geqslant1$ 上恒为负，所以 $m&#x3C;0$. 此时 $f$ 的开口向下，两个零点为 $2m$ 和 $-m-3$. 要使 $f(x)&#x3C;0$ 对一切 $x\\geqslant1$ 成立，两个零点都必须小于 $1$. 其中 $2m&#x3C;1$ 已由 $m&#x3C;0$ 保证，而 $-m-3&#x3C;1$ 给出 $m>-4$. 故条件（1）等价于 $-4&#x3C;m&#x3C;0$.</p><p>在 $x&#x3C;-4$ 时 $g(x)&#x3C;0$，条件（2）要求存在 $x&#x3C;-4$ 使 $f(x)>0$，也就是 $x$ 位于 $f$ 的两个零点之间. 在 $-4&#x3C;m&#x3C;0$ 中，$-m-3>-3>-4$. 若 $m\\ge-2$，则 $2m\\ge-4$，两个零点都不小于 $-4$，不存在满足条件的 $x$. 若 $-4&#x3C;m&#x3C;-2$，则 $2m&#x3C;-4&#x3C;-m-3$，区间 $(2m,-4)$ 中的任意 $x$ 都满足 $x&#x3C;-4$ 且 $f(x)>0$. 因而</p>\n$$\nm\\in(-4,-2)\n$$"
         }
       ]
     },
@@ -308,60 +157,47 @@
       "problems": [
         {
           "num": 15,
-          "body": "已知函数 $f(x)=\\frac{(\\sin x-\\cos x)\\sin 2x}{\\sin x}$.\r\n\r\n\n(1) 求 $f(x)$ 的定义域及最小正周期；\n\n(2) 求 $f(x)$ 的单调递增区间.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=\\frac{(\\sin x-\\cos x)\\sin 2x}{\\sin x}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的定义域及最小正周期；</p></li><li><p>求 $f(x)$ 的单调递增区间.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 分母不能为零，所以定义域为\r\n\n$$\nD=\\{x\\in\\mathbb{R}\\mid \\sin x\\ne0\\}=\\{x\\in\\mathbb{R}\\mid x\\ne k\\pi,\\ k\\in\\mathbb{Z}\\}\n$$\n\r\n在定义域上，\r\n\n$$\nf(x)=\\frac{(\\sin x-\\cos x)\\sin2x}{\\sin x}=2\\cos x(\\sin x-\\cos x)=\\sin2x-\\cos2x-1\n$$\n\r\n上式可写成 $\\sqrt2\\sin\\left(2x-\\frac{\\pi}{4}\\right)-1$，其所有正周期均为 $k\\pi$（$k$ 为正整数），故最小正周期候选为 $\\pi$. 另一方面，$f\\left(\\frac{\\pi}{4}\\right)=0$，$f\\left(\\frac{3\\pi}{4}\\right)=-2$，二者不相等，所以 $\\frac{\\pi}{2}$ 不是周期. 由于定义域也以 $\\pi$ 为周期，故最小正周期为 $\\pi$.\n\n(2) 对化简后的函数求导，得\r\n\n$$\nf'(x)=2\\cos2x+2\\sin2x=2\\sqrt2\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n\r\n当\r\n\n$$\n2k\\pi<2x+\\frac{\\pi}{4}<(2k+1)\\pi\n$$\n\r\n时，$f'(x)>0$，即\r\n\n$$\nk\\pi-\\frac{\\pi}{8}<x<k\\pi+\\frac{3\\pi}{8}\n$$\n\r\n但 $x=k\\pi$ 不在定义域内，因此\r\n单调递增区间为 $\\left[k\\pi-\\frac{\\pi}{8},k\\pi\\right)$ 和 $\\left(k\\pi,k\\pi+\\frac{3\\pi}{8}\\right]$，其中 $k\\in\\mathbb{Z}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>分母不能为零，所以定义域为</p>\n$$\nD=\\{x\\in\\mathbb{R}\\mid \\sin x\\ne0\\}=\\{x\\in\\mathbb{R}\\mid x\\ne k\\pi,\\ k\\in\\mathbb{Z}\\}\n$$\n<p>在定义域上，</p>\n$$\nf(x)=\\frac{(\\sin x-\\cos x)\\sin2x}{\\sin x}=2\\cos x(\\sin x-\\cos x)=\\sin2x-\\cos2x-1\n$$\n<p>上式可写成 $\\sqrt{2}\\sin\\left(2x-\\frac{\\pi}{4}\\right)-1$，其所有正周期均为 $k\\pi$（$k$ 为正整数），故最小正周期候选为 $\\pi$. 另一方面，$f\\left(\\frac{\\pi}{4}\\right)=0$，$f\\left(\\frac{3\\pi}{4}\\right)=-2$，二者不相等，所以 $\\frac{\\pi}{2}$ 不是周期. 由于定义域也以 $\\pi$ 为周期，故最小正周期为 $\\pi$.</p></li><li><p>对化简后的函数求导，得</p>\n$$\nf'(x)=2\\cos2x+2\\sin2x=2\\sqrt{2}\\sin\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>当</p>\n$$\n2k\\pi&#x3C;2x+\\frac{\\pi}{4}&#x3C;(2k+1)\\pi\n$$\n<p>时，$f'(x)>0$，即</p>\n$$\nk\\pi-\\frac{\\pi}{8}&#x3C;x&#x3C;k\\pi+\\frac{3\\pi}{8}\n$$\n<p>但 $x=k\\pi$ 不在定义域内，因此</p><p>单调递增区间为 $\\left[k\\pi-\\frac{\\pi}{8},k\\pi\\right)$ 和 $\\left(k\\pi,k\\pi+\\frac{3\\pi}{8}\\right]$，其中 $k\\in\\mathbb{Z}$.</p></li></ol>"
         },
         {
           "num": 16,
-          "body": "如图 1，在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C=90^\\circ$，$BC=3$，$AC=6$. $D$，$E$ 分别是 $AC$，$AB$ 上的点，且 $DE\\parallel BC$，$DE=2$，将 $\\triangle ADE$ 沿 $DE$ 折起到 $\\triangle A_1DE$ 的位置，使 $A_1C \\perp CD$，如图 2.\r\n\r\n\n(1) 求证：$A_1C \\perp$ 平面 $BCDE$；\n\n(2) 若 $M$ 是 $A_1D$ 的中点，求 $CM$ 与平面 $A_1BE$ 所成角的大小；\n\n(3) 线段 $BC$ 上是否存在点 $P$，使平面 $A_1DP$ 与平面 $A_1BE$ 垂直？说明理由.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/beijing_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图 1，在 $\\mathrm{Rt}\\triangle ABC$ 中，$\\angle C=90^{\\circ}$，$BC=3$，$AC=6$. $D$，$E$ 分别是 $AC$，$AB$ 上的点，且 $DE\\parallel BC$，$DE=2$，将 $\\triangle ADE$ 沿 $DE$ 折起到 $\\triangle A_{1}DE$ 的位置，使 $A_{1}C \\perp CD$，如图 2.</p><ol class=\"enumerate\"><li><p>求证：$A_{1}C \\perp$ 平面 $BCDE$；</p></li><li><p>若 $M$ 是 $A_{1}D$ 的中点，求 $CM$ 与平面 $A_{1}BE$ 所成角的大小；</p></li><li><p>线段 $BC$ 上是否存在点 $P$，使平面 $A_{1}DP$ 与平面 $A_{1}BE$ 垂直？说明理由.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing_science/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $DE\\parallel BC$，所以 $\\triangle ADE\\sim\\triangle ABC$. 由\r\n\n$$\n\\frac{DE}{BC}=\\frac{2}{3}=\\frac{AD}{AC}\n$$\n\r\n得 $AD=4$，$CD=2$. 由 $AC\\perp BC$、$CD\\parallel AC$ 和 $DE\\parallel BC$ 得 $CD\\perp DE$. 折叠保持 $A_1D=AD$，且原来 $AD\\perp DE$，所以折叠后 $A_1D\\perp DE$. 故 $\\overrightarrow{CA_1}=\\overrightarrow{CD}+\\overrightarrow{DA_1}$ 也垂直于 $DE$. 题设给出 $A_1C\\perp CD$，所以 $A_1C$ 垂直于平面 $BCDE$ 内相交的两条直线 $CD$、$DE$，从而直线 $A_1C$ 垂直于平面 $BCDE$.\n\n(2) 建立空间直角坐标系，使 $C=(0,0,0)$，$B=(3,0,0)$，$D=(0,2,0)$，$E=(2,2,0)$. 设 $A_1=(u,v,w)$. 由 $A_1C\\perp CD$ 得 $v=0$，再由 $A_1D=4$、$A_1E=AE=\\sqrt{AD^2+DE^2}=2\\sqrt5$，得\r\n$u^2+w^2+4=16$，$(u-2)^2+w^2+4=20$.\r\n两式相减得 $u=0$，再得 $w^2=12$. 取图示一侧 $w=2\\sqrt3$，于是 $A_1=(0,0,2\\sqrt3)$，$M=(0,1,\\sqrt3)$，所以 $\\overrightarrow{CM}=(0,1,\\sqrt3)$.\r\n\r\n平面 $A_1BE$ 的一个法向量为\r\n\n$$\n\\mathbf{n}=(2\\sqrt3,\\sqrt3,3)\n$$\n\r\n因为 $\\mathbf{n}\\cdot\\overrightarrow{BA_1}=0$，$\\mathbf{n}\\cdot\\overrightarrow{BE}=0$. 设 $CM$ 与平面 $A_1BE$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{\\left|\\overrightarrow{CM}\\cdot\\mathbf{n}\\right|}{|\\overrightarrow{CM}|\\,|\\mathbf{n}|}\n$$\n\r\n其中 $\\left|\\overrightarrow{CM}\\right|=2$，$\\left|\\mathbf{n}\\right|=2\\sqrt6$，$\\left|\\overrightarrow{CM}\\cdot\\mathbf{n}\\right|=4\\sqrt3$. 因而 $\\sin\\theta=\\frac{\\sqrt2}{2}$，且 $0\\le\\theta\\le\\frac{\\pi}{2}$，所以 $\\theta=45^\\circ$.\n\n(3) 设 $P=(p,0,0)$，其中 $0\\le p\\leqslant3$. 平面 $A_1DP$ 的一个法向量可取为\r\n\n$$\n\\mathbf{n}_1=(2\\sqrt3,\\sqrt3p,p)\n$$\n\r\n若两平面垂直，则其法向量应垂直，即\r\n\n$$\n\\mathbf{n}_1\\cdot\\mathbf{n}\r\n=(2\\sqrt3,\\sqrt3p,p)\\cdot(2\\sqrt3,\\sqrt3,3)\r\n=12+6p=0\n$$\n\r\n这给出 $p=-2$，与 $0\\le p\\leqslant3$ 矛盾，因此线段 $BC$ 上不存在满足条件的点 $P$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $DE\\parallel BC$，所以 $\\triangle ADE\\sim\\triangle ABC$. 由</p>\n$$\n\\frac{DE}{BC}=\\frac{2}{3}=\\frac{AD}{AC}\n$$\n<p>得 $AD=4$，$CD=2$. 由 $AC\\perp BC$、$CD\\parallel AC$ 和 $DE\\parallel BC$ 得 $CD\\perp DE$. 折叠保持 $A_{1}D=AD$，且原来 $AD\\perp DE$，所以折叠后 $A_{1}D\\perp DE$. 故 $\\overrightarrow{CA_1}=\\overrightarrow{CD}+\\overrightarrow{DA_1}$ 也垂直于 $DE$. 题设给出 $A_{1}C\\perp CD$，所以 $A_{1}C$ 垂直于平面 $BCDE$ 内相交的两条直线 $CD$、$DE$，从而直线 $A_{1}C$ 垂直于平面 $BCDE$.</p></li><li><p>建立空间直角坐标系，使 $C=(0,0,0)$，$B=(3,0,0)$，$D=(0,2,0)$，$E=(2,2,0)$. 设 $A_{1}=(u,v,w)$. 由 $A_{1}C\\perp CD$ 得 $v=0$，再由 $A_{1}D=4$、$A_{1}E=AE=\\sqrt{AD^{2}+DE^{2}}=2\\sqrt{5}$，得</p><p>$u^{2}+w^{2}+4=16$，$(u-2)^{2}+w^{2}+4=20$.</p><p>两式相减得 $u=0$，再得 $w^{2}=12$. 取图示一侧 $w=2\\sqrt{3}$，于是 $A_{1}=(0,0,2\\sqrt{3})$，$M=(0,1,\\sqrt{3})$，所以 $\\overrightarrow{CM}=(0,1,\\sqrt{3})$.</p><p>平面 $A_{1}BE$ 的一个法向量为</p>\n$$\n\\mathbf{n}=(2\\sqrt{3},\\sqrt{3},3)\n$$\n<p>因为 $\\mathbf{n}\\cdot\\overrightarrow{BA_1}=0$，$\\mathbf{n}\\cdot\\overrightarrow{BE}=0$. 设 $CM$ 与平面 $A_{1}BE$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{\\left|\\overrightarrow{CM}\\cdot\\mathbf{n}\\right|}{|\\overrightarrow{CM}|\\,|\\mathbf{n}|}\n$$\n<p>其中 $\\left|\\overrightarrow{CM}\\right|=2$，$\\left|\\mathbf{n}\\right|=2\\sqrt{6}$，$\\left|\\overrightarrow{CM}\\cdot\\mathbf{n}\\right|=4\\sqrt{3}$. 因而 $\\sin\\theta=\\frac{\\sqrt{2}}{2}$，且 $0\\le\\theta\\le\\frac{\\pi}{2}$，所以 $\\theta=45^{\\circ}$.</p></li><li><p>设 $P=(p,0,0)$，其中 $0\\le p\\leqslant3$. 平面 $A_{1}DP$ 的一个法向量可取为</p>\n$$\n\\mathbf{n}_{1}=(2\\sqrt{3},\\sqrt{3}p,p)\n$$\n<p>若两平面垂直，则其法向量应垂直，即</p>\n$$\n\\mathbf{n}_{1}\\cdot\\mathbf{n}=(2\\sqrt{3},\\sqrt{3}p,p)\\cdot(2\\sqrt{3},\\sqrt{3},3)  =12+6p=0\n$$\n<p>这给出 $p=-2$，与 $0\\le p\\leqslant3$ 矛盾，因此线段 $BC$ 上不存在满足条件的点 $P$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "近年来，某市为促进生活垃圾的分类处理，将生活垃圾分为厨余垃圾，可回收物和其他垃圾三类，并分别设置了相应的垃圾箱. 为调查居民生活垃圾分类投放情况，现随机抽取了该市三类垃圾箱中总计 $1000\\text{ 吨}$ 生活垃圾，数据统计如下（单位：$\\text{吨}$）：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.2}\r\n\\begin{tabular}{|c|c|c|c|}\r\n\\hline\r\n& “厨余垃圾”箱 & “可回收物”箱 & “其他垃圾”箱 \\\\\r\n\\hline\r\n厨余垃圾 & 400 & 100 & 100 \\\\\r\n\\hline\r\n可回收物 & 30 & 240 & 30 \\\\\r\n\\hline\r\n其他垃圾 & 20 & 20 & 60 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 试估计厨余垃圾投放正确的概率；\n\n(2) 试估计生活垃圾投放错误的概率；\n\n(3) 假设厨余垃圾在“厨余垃圾”箱，“可回收物”箱，“其他垃圾”箱的投放量分别为 $a$，$b$，$c$，其中 $a>0$，$a+b+c=600$. 当数据 $a$，$b$，$c$ 的方差 $s^2$ 最大时，写出 $a$，$b$，$c$ 的值（结论不要求证明），并求此时 $s^2$ 的值.\n\r\n\r\n（注：$s^2=\\frac{1}{n}\\left[(x_1-\\overline{x})^2+(x_2-\\overline{x})^2+\\cdots+(x_n-\\overline{x})^2\\right]$，其中 $\\overline{x}$ 为数据 $x_1$，$x_2$，$\\cdots$，$x_n$ 的平均数）",
-          "choices": [],
+          "body": "<p>近年来，某市为促进生活垃圾的分类处理，将生活垃圾分为厨余垃圾，可回收物和其他垃圾三类，并分别设置了相应的垃圾箱. 为调查居民生活垃圾分类投放情况，现随机抽取了该市三类垃圾箱中总计 $1000\\text{ 吨}$ 生活垃圾，数据统计如下（单位：$\\text{吨}$）：</p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> “厨余垃圾”箱 </td><td style=\"text-align: center; border-right: 1px solid\"> “可回收物”箱 </td><td style=\"text-align: center; border-right: 1px solid\"> “其他垃圾”箱 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>厨余垃圾 </td><td style=\"text-align: center; border-right: 1px solid\"> 400 </td><td style=\"text-align: center; border-right: 1px solid\"> 100 </td><td style=\"text-align: center; border-right: 1px solid\"> 100 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>可回收物 </td><td style=\"text-align: center; border-right: 1px solid\"> 30 </td><td style=\"text-align: center; border-right: 1px solid\"> 240 </td><td style=\"text-align: center; border-right: 1px solid\"> 30 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>其他垃圾 </td><td style=\"text-align: center; border-right: 1px solid\"> 20 </td><td style=\"text-align: center; border-right: 1px solid\"> 20 </td><td style=\"text-align: center; border-right: 1px solid\"> 60 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>试估计厨余垃圾投放正确的概率；</p></li><li><p>试估计生活垃圾投放错误的概率；</p></li><li><p>假设厨余垃圾在“厨余垃圾”箱，“可回收物”箱，“其他垃圾”箱的投放量分别为 $a$，$b$，$c$，其中 $a>0$，$a+b+c=600$. 当数据 $a$，$b$，$c$ 的方差 $s^{2}$ 最大时，写出 $a$，$b$，$c$ 的值（结论不要求证明），并求此时 $s^{2}$ 的值.</p></li></ol><p>（注：$s^{2}=\\frac{1}{n}\\left[(x_{1}-\\overline{x})^{2}+(x_{2}-\\overline{x})^{2}+\\cdots+(x_{n}-\\overline{x})^{2}\\right]$，其中 $\\overline{x}$ 为数据 $x_{1}$，$x_{2}$，$\\cdots$，$x_{n}$ 的平均数）</p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 厨余垃圾总量为 $400+100+100=600$ 吨，其中投放正确的有 $400$ 吨，所以厨余垃圾投放正确的概率估计为\r\n\n$$\n\\frac{400}{600}=\\frac{2}{3}\n$$\n\n(2) 投放错误的垃圾总量为非主对角线数据之和\r\n\n$$\n100+100+30+30+20+20=300\\text{ 吨}\n$$\n\r\n因此生活垃圾投放错误的概率估计为\r\n\n$$\n\\frac{300}{1000}=\\frac{3}{10}\n$$\n\n(3) 因为 $a+b+c=600$，所以 $a$，$b$，$c$ 的平均数为 $200$，从而\r\n\n$$\ns^2=\\frac13\\left[(a-200)^2+(b-200)^2+(c-200)^2\\right]\n$$\n\r\n由于 $b$，$c\\geqslant0$，有 $b^2+c^2\\le(b+c)^2=(600-a)^2$，等号当且仅当 $b=0$ 或 $c=0$. 又 $0<a\\leqslant600$，所以\r\n\n$$\na^2+b^2+c^2\\le a^2+(600-a)^2=2(a-300)^2+180000\\leqslant360000\n$$\n\r\n最后一个等号在 $a=600$ 时取得，此时 $b=c=0$. 因此\r\n\n$$\ns^2=\\frac13\\left[(600-200)^2+(0-200)^2+(0-200)^2\\right]=80000\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>厨余垃圾总量为 $400+100+100=600$ 吨，其中投放正确的有 $400$ 吨，所以厨余垃圾投放正确的概率估计为</p>\n$$\n\\frac{400}{600}=\\frac{2}{3}\n$$\n</li><li><p>投放错误的垃圾总量为非主对角线数据之和</p>\n$$\n100+100+30+30+20+20=300\\text{ 吨}\n$$\n<p>因此生活垃圾投放错误的概率估计为</p>\n$$\n\\frac{300}{1000}=\\frac{3}{10}\n$$\n</li><li><p>因为 $a+b+c=600$，所以 $a$，$b$，$c$ 的平均数为 $200$，从而</p>\n$$\ns^{2}=\\frac{1}{3}\\left[(a-200)^{2}+(b-200)^{2}+(c-200)^{2}\\right]\n$$\n<p>由于 $b$，$c\\geqslant0$，有 $b^{2}+c^{2}\\le(b+c)^{2}=(600-a)^{2}$，等号当且仅当 $b=0$ 或 $c=0$. 又 $0&#x3C;a\\leqslant600$，所以</p>\n$$\na^{2}+b^{2}+c^{2}\\le a^{2}+(600-a)^{2}=2(a-300)^{2}+180000\\leqslant360000\n$$\n<p>最后一个等号在 $a=600$ 时取得，此时 $b=c=0$. 因此</p>\n$$\ns^{2}=\\frac{1}{3}\\left[(600-200)^{2}+(0-200)^{2}+(0-200)^{2}\\right]=80000\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "已知函数 $f(x)=ax^2+1$（$a>0$），$g(x)=x^3+bx$.\r\n\r\n\n(1) 若曲线 $y=f(x)$ 与曲线 $y=g(x)$ 在它们的交点 $(1,c)$ 处具有公共切线，求 $a$，$b$ 的值；\n\n(2) 当 $a^2=4b$ 时，求函数 $f(x)+g(x)$ 的单调区间，并求其在区间 $(-\\infty,-1]$ 上的最大值.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=ax^{2}+1$（$a>0$），$g(x)=x^{3}+bx$.</p><ol class=\"enumerate\"><li><p>若曲线 $y=f(x)$ 与曲线 $y=g(x)$ 在它们的交点 $(1,c)$ 处具有公共切线，求 $a$，$b$ 的值；</p></li><li><p>当 $a^{2}=4b$ 时，求函数 $f(x)+g(x)$ 的单调区间，并求其在区间 $(-\\infty,-1]$ 上的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由交点 $(1,c)$ 同时在两条曲线上，得\r\n\n$$\na+1=1+b\n$$\n\r\n所以 $a=b$. 又因为两曲线在该点有公共切线，所以切线斜率相等，即\r\n\n$$\n2a=3+b\n$$\n\r\n联立 $a=b$ 得 $a=3$，$b=3$.\n\n(2) 令 $h(x)=f(x)+g(x)=x^3+ax^2+\\frac{a^2}{4}x+1$. 则\r\n\n$$\nh'(x)=3x^2+2ax+\\frac{a^2}{4}=3\\left(x+\\frac a2\\right)\\left(x+\\frac a6\\right)\n$$\n\r\n由于 $a>0$，故 $h'(x)>0$ 在 $\\left(-\\infty,-\\frac a2\\right)$ 和 $\\left(-\\frac a6,+\\infty\\right)$ 上成立，$h'(x)<0$ 在 $\\left(-\\frac a2,-\\frac a6\\right)$ 上成立. 因此 $h$ 在 $\\left(-\\infty,-\\frac a2\\right]$ 和 $\\left[-\\frac a6,+\\infty\\right)$ 上单调递增，在 $\\left[-\\frac a2,-\\frac a6\\right]$ 上单调递减.\r\n\r\n又 $h\\left(-\\frac a2\\right)=1$，且 $h(-1)=a-\\frac{a^2}{4}=1-\\frac{(a-2)^2}{4}$.\r\n当 $0<a\\leqslant2$ 时，$-1\\le-\\frac a2$，函数在 $(-\\infty,-1]$ 上递增，所以最大值为 $h(-1)=a-\\frac{a^2}{4}$. 当 $a>2$ 时，点 $-\\frac a2$ 属于 $(-\\infty,-1]$，且 $h(-1)\\leqslant1$，故该区间上的最大值为 $h\\left(-\\frac a2\\right)=1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由交点 $(1,c)$ 同时在两条曲线上，得</p>\n$$\na+1=1+b\n$$\n<p>所以 $a=b$. 又因为两曲线在该点有公共切线，所以切线斜率相等，即</p>\n$$\n2a=3+b\n$$\n<p>联立 $a=b$ 得 $a=3$，$b=3$.</p></li><li><p>令 $h(x)=f(x)+g(x)=x^{3}+ax^{2}+\\frac{a^{2}}{4}x+1$. 则</p>\n$$\nh'(x)=3x^{2}+2ax+\\frac{a^{2}}{4}=3\\left(x+\\frac{a}{2}\\right)\\left(x+\\frac{a}{6}\\right)\n$$\n<p>由于 $a>0$，故 $h'(x)>0$ 在 $\\left(-\\infty,-\\frac{a}{2}\\right)$ 和 $\\left(-\\frac{a}{6},+\\infty\\right)$ 上成立，$h'(x)&#x3C;0$ 在 $\\left(-\\frac{a}{2},-\\frac{a}{6}\\right)$ 上成立. 因此 $h$ 在 $\\left(-\\infty,-\\frac{a}{2}\\right]$ 和 $\\left[-\\frac{a}{6},+\\infty\\right)$ 上单调递增，在 $\\left[-\\frac{a}{2},-\\frac{a}{6}\\right]$ 上单调递减.</p><p>又 $h\\left(-\\frac{a}{2}\\right)=1$，且 $h(-1)=a-\\frac{a^{2}}{4}=1-\\frac{(a-2)^{2}}{4}$.</p><p>当 $0&#x3C;a\\leqslant2$ 时，$-1\\le-\\frac{a}{2}$，函数在 $(-\\infty,-1]$ 上递增，所以最大值为 $h(-1)=a-\\frac{a^{2}}{4}$. 当 $a>2$ 时，点 $-\\frac{a}{2}$ 属于 $(-\\infty,-1]$，且 $h(-1)\\leqslant1$，故该区间上的最大值为 $h\\left(-\\frac{a}{2}\\right)=1$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知曲线 $C:(5-m)x^2+(m-2)y^2=8$（$m\\in\\mathbb{R}$）.\r\n\r\n\n(1) 若曲线 $C$ 是焦点在 $x$ 轴上的椭圆，求 $m$ 的取值范围；\n\n(2) 设 $m=4$，曲线 $C$ 与 $y$ 轴的交点为 $A$，$B$（点 $A$ 位于点 $B$ 的上方），直线 $y=kx+4$ 与曲线 $C$ 交于不同的两点 $M$，$N$，直线 $y=1$ 与直线 $BM$ 交于点 $G$. 求证：$A$，$G$，$N$ 三点共线.",
-          "choices": [],
+          "body": "<p>已知曲线 $C:(5-m)x^{2}+(m-2)y^{2}=8$（$m\\in\\mathbb{R}$）.</p><ol class=\"enumerate\"><li><p>若曲线 $C$ 是焦点在 $x$ 轴上的椭圆，求 $m$ 的取值范围；</p></li><li><p>设 $m=4$，曲线 $C$ 与 $y$ 轴的交点为 $A$，$B$（点 $A$ 位于点 $B$ 的上方），直线 $y=kx+4$ 与曲线 $C$ 交于不同的两点 $M$，$N$，直线 $y=1$ 与直线 $BM$ 交于点 $G$. 求证：$A$，$G$，$N$ 三点共线.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 要使 $C$ 为椭圆，必须有 $5-m>0$ 且 $m-2>0$，即 $2<m<5$. 标准化得\r\n\n$$\n\\frac{x^2}{\\frac{8}{(5-m)}}+\\frac{y^2}{\\frac{8}{(m-2)}}=1\n$$\n\r\n焦点在 $x$ 轴上要求 $x$ 方向的半长轴较长，即\r\n\n$$\n\\frac{8}{5-m}>\\frac{8}{m-2}\n$$\n\r\n从而 $m>\\frac72$. 所以 $m\\in\\left(\\frac72,5\\right)$.\n\n(2) 当 $m=4$ 时，曲线为 $x^2+2y^2=8$，故 $A=(0,2)$，$B=(0,-2)$.\r\n设 $M=(u,ku+4)$，$N=(v,kv+4)$.\r\n把直线 $y=kx+4$ 代入曲线，得\r\n\n$$\n(1+2k^2)x^2+16kx+24=0\n$$\n\r\n由韦达定理，$u+v=-\\frac{16k}{1+2k^2}$，$uv=\\frac{24}{1+2k^2}$，所以\r\n\n$$\n2kuv+3(u+v)=\\frac{48k}{1+2k^2}-\\frac{48k}{1+2k^2}=0\n$$\n\r\n\r\n直线 $BM$ 与 $y=1$ 交于 $G$. 由 $B=(0,-2)$ 和 $M=(u,ku+4)$，可得\r\n\n$$\nx_G=\\frac{3u}{ku+6}\n$$\n\r\n另一方面，直线 $AN$ 与 $y=1$ 的交点横坐标为\r\n\n$$\n-\\frac{v}{kv+2}\n$$\n\r\n而\r\n\n$$\n3u(kv+2)+v(ku+6)=2\\bigl(2kuv+3(u+v)\\bigr)=0\n$$\n\r\n故\r\n\n$$\n\\frac{3u}{ku+6}=-\\frac{v}{kv+2}\n$$\n\r\n因此 $G$ 同时在直线 $AN$ 和直线 $y=1$ 上，故 $A$，$G$，$N$ 三点共线.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>要使 $C$ 为椭圆，必须有 $5-m>0$ 且 $m-2>0$，即 $2&#x3C;m&#x3C;5$. 标准化得</p>\n$$\n\\frac{x^{2}}{\\frac{8}{(5-m)}}+\\frac{y^{2}}{\\frac{8}{(m-2)}}=1\n$$\n<p>焦点在 $x$ 轴上要求 $x$ 方向的半长轴较长，即</p>\n$$\n\\frac{8}{5-m}>\\frac{8}{m-2}\n$$\n<p>从而 $m>\\frac{7}{2}$. 所以 $m\\in\\left(\\frac{7}{2},5\\right)$.</p></li><li><p>当 $m=4$ 时，曲线为 $x^{2}+2y^{2}=8$，故 $A=(0,2)$，$B=(0,-2)$.</p><p>设 $M=(u,ku+4)$，$N=(v,kv+4)$.</p><p>把直线 $y=kx+4$ 代入曲线，得</p>\n$$\n(1+2k^{2})x^{2}+16kx+24=0\n$$\n<p>由韦达定理，$u+v=-\\frac{16k}{1+2k^{2}}$，$uv=\\frac{24}{1+2k^{2}}$，所以</p>\n$$\n2kuv+3(u+v)=\\frac{48k}{1+2k^{2}}-\\frac{48k}{1+2k^{2}}=0\n$$\n<p>直线 $BM$ 与 $y=1$ 交于 $G$. 由 $B=(0,-2)$ 和 $M=(u,ku+4)$，可得</p>\n$$\nx_{G}=\\frac{3u}{ku+6}\n$$\n<p>另一方面，直线 $AN$ 与 $y=1$ 的交点横坐标为</p>\n$$\n-\\frac{v}{kv+2}\n$$\n<p>而</p>\n$$\n3u(kv+2)+v(ku+6)=2\\bigl(2kuv+3(u+v)\\bigr)=0\n$$\n<p>故</p>\n$$\n\\frac{3u}{ku+6}=-\\frac{v}{kv+2}\n$$\n<p>因此 $G$ 同时在直线 $AN$ 和直线 $y=1$ 上，故 $A$，$G$，$N$ 三点共线.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设 $A$ 是由 $m\\times n$ 个实数组成的 $m$ 行 $n$ 列的数表，满足：每个数的绝对值不大于 1，且所有数的和为零. 记 $S(m,n)$ 为所有这样的数表构成的集合. 对于 $A\\in S(m,n)$，记 $r_i(A)$ 为 $A$ 的第 $i$ 行各数之和（$1\\le i\\le m$），$c_j(A)$ 为 $A$ 的第 $j$ 列各数之和（$1\\le j\\le n$）；记 $k(A)$ 为 $|r_1(A)|$，$|r_2(A)|$，$\\cdots$，$|r_m(A)|$，$|c_1(A)|$，$|c_2(A)|$，$\\cdots$，$|c_n(A)|$ 中的最小值.\r\n\r\n\n(1) 对如下数表 $A$，求 $k(A)$ 的值：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.2}\r\n\\begin{tabular}{|c|c|c|}\r\n\\hline\r\n1 & 1 & $-0.8$ \\\\\r\n\\hline\r\n$0.1$ & $-0.3$ & $-1$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\n\n(2) 设数表 $A\\in S(2,3)$ 形如\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.2}\r\n\\begin{tabular}{|c|c|c|}\r\n\\hline\r\n1 & 1 & $c$ \\\\\r\n\\hline\r\n$a$ & $b$ & $-1$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n求 $k(A)$ 的最大值；\n\n(3) 给定正整数 $t$，对于所有的 $A\\in S(2,2t+1)$，求 $k(A)$ 的最大值.",
-          "choices": [],
+          "body": "<p>设 $A$ 是由 $m\\times n$ 个实数组成的 $m$ 行 $n$ 列的数表，满足：每个数的绝对值不大于 1，且所有数的和为零. 记 $S(m,n)$ 为所有这样的数表构成的集合. 对于 $A\\in S(m,n)$，记 $r_{i}(A)$ 为 $A$ 的第 $i$ 行各数之和（$1\\le i\\le m$），$c_{j}(A)$ 为 $A$ 的第 $j$ 列各数之和（$1\\le j\\le n$）；记 $k(A)$ 为 $|r_{1}(A)|$，$|r_{2}(A)|$，$\\cdots$，$|r_{m}(A)|$，$|c_{1}(A)|$，$|c_{2}(A)|$，$\\cdots$，$|c_{n}(A)|$ 中的最小值.</p><ol class=\"enumerate\"><li><p>对如下数表 $A$，求 $k(A)$ 的值：</p><p></p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>1 </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> $-0.8$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$0.1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-0.3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-1$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p></li><li><p>设数表 $A\\in S(2,3)$ 形如</p><p></p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>1 </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> $c$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$a$ </td><td style=\"text-align: center; border-right: 1px solid\"> $b$ </td><td style=\"text-align: center; border-right: 1px solid\"> $-1$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p><p>求 $k(A)$ 的最大值；</p></li><li><p>给定正整数 $t$，对于所有的 $A\\in S(2,2t+1)$，求 $k(A)$ 的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 两行的和分别为 $1+1-0.8=1.2$ 和 $0.1-0.3-1=-1.2$，三列的和分别为 $1.1$，$0.7$，$-1.8$. 所有行和、列和的绝对值依次为 $1.2$，$1.2$，$1.1$，$0.7$，$1.8$，故\r\n\n$$\nk(A)=0.7\n$$\n\n(2) 由所有元素的和为零，得 $1+1+c+a+b-1=0$，从而 $a+b+c=-1$.\r\n因此两行和分别为 $2+c$ 和 $-(2+c)$，三列和分别为 $1+a$，$1+b$，$c-1$. 由于 $a$，$b$，$c\\in[-1,1]$，有\r\n\n$$\nk(A)=\\min\\{2+c,1+a,1+b,1-c\\}\n$$\n\r\n若 $k(A)>1$，则 $2+c>1$，$1+a>1$，$1+b>1$，$1-c>1$，从而 $c>-1$，$a>0$，$b>0$，且 $c<0$. 但 $a+b=-1-c<0$，矛盾，所以 $k(A)\\leqslant1$. 取 $a=b=0$，$c=-1$ 时，矩阵满足条件且五个相关量为 $1$，$1$，$1$，$1$，$2$，故最大值为 $1$.\n\n(3) 令 $N=2t+1$，并设 $K=k(A)$. 由于所有元素的总和为零，设第一行和为 $r$，则第二行和为 $-r$，且 $|r|\\ge K$. 每列的列和记为 $s_j$，则 $\\sum_{j=1}^{N}s_j=0$，且 $|s_j|\\ge K$.\r\n\r\n若 $K=0$，结论立即成立. 以下设 $K>0$. 由于 $2t+1$ 为奇数，正列或负列至少有 $t+1$ 个. 交换两行可使 $r\\ge K$；若此时至少 $t+1$ 个列和为负，则把所有元素同时取相反数并再次交换两行，仍有 $r\\ge K$，且至少 $t+1$ 个列和为正. 记这些正列的集合为 $P$，其余列为 $Q$，设 $|P|=p\\ge t+1$，并令\r\n\n$$\nU=\\sum_{j\\in P}s_j=-\\sum_{j\\in Q}s_j\n$$\n\r\n对 $j\\in P$，第一行元素 $x_j\\leqslant1$；对 $j\\in Q$，若第二行元素为 $y_j$，则 $x_j=s_j-y_j\\le s_j+1$. 因此\r\n\n$$\nr=\\sum_{j=1}^{N}x_j\\le p+\\sum_{j\\in Q}(s_j+1)=N-U\n$$\n\r\n又 $U\\ge pK\\ge(t+1)K$，所以\r\n\n$$\nK\\le r\\le N-(t+1)K\n$$\n\r\n从而\r\n\n$$\nK\\le\\frac{N}{t+2}=\\frac{2t+1}{t+2}\n$$\n\r\n\r\n下面构造达到该上界的数表. 令 $K_0=\\frac{2t+1}{t+2}$，$u=\\frac{(t+1)K_0}{t}$. 当 $t\\geqslant1$ 时，$1\\le K_0<2$，且 $K_0<u\\leqslant2$.\r\n对前 $t+1$ 列取两行元素分别为 $1$、$K_0-1$，对后 $t$ 列取两行元素分别为 $1-u$、$-1$. 因为 $K_0-1\\in[0,1)$、$1-u\\in[-1,0)$，所以这些元素的绝对值均不大于 $1$. 两行和分别为\r\n$(t+1)+t(1-u)=K_0$ 和 $(t+1)(K_0-1)-t=-K_0$，\r\n前 $t+1$ 列的列和为 $K_0$，后 $t$ 列的列和为 $-u$. 因而各行和的绝对值为 $K_0$，各列和的绝对值为 $K_0$ 或 $u$，且 $u>K_0$，所以该数表的 $k(A)$ 为 $K_0$，上界可以达到. 所以最大值为\r\n\n$$\n\\frac{2t+1}{t+2}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>两行的和分别为 $1+1-0.8=1.2$ 和 $0.1-0.3-1=-1.2$，三列的和分别为 $1.1$，$0.7$，$-1.8$. 所有行和、列和的绝对值依次为 $1.2$，$1.2$，$1.1$，$0.7$，$1.8$，故</p>\n$$\nk(A)=0.7\n$$\n</li><li><p>由所有元素的和为零，得 $1+1+c+a+b-1=0$，从而 $a+b+c=-1$.</p><p>因此两行和分别为 $2+c$ 和 $-(2+c)$，三列和分别为 $1+a$，$1+b$，$c-1$. 由于 $a$，$b$，$c\\in[-1,1]$，有</p>\n$$\nk(A)=\\min\\{2+c,1+a,1+b,1-c\\}\n$$\n<p>若 $k(A)>1$，则 $2+c>1$，$1+a>1$，$1+b>1$，$1-c>1$，从而 $c>-1$，$a>0$，$b>0$，且 $c&#x3C;0$. 但 $a+b=-1-c&#x3C;0$，矛盾，所以 $k(A)\\leqslant1$. 取 $a=b=0$，$c=-1$ 时，矩阵满足条件且五个相关量为 $1$，$1$，$1$，$1$，$2$，故最大值为 $1$.</p></li><li><p>令 $N=2t+1$，并设 $K=k(A)$. 由于所有元素的总和为零，设第一行和为 $r$，则第二行和为 $-r$，且 $|r|\\ge K$. 每列的列和记为 $s_{j}$，则 $\\sum_{j=1}^{N}s_{j}=0$，且 $|s_{j}|\\ge K$.</p><p>若 $K=0$，结论立即成立. 以下设 $K>0$. 由于 $2t+1$ 为奇数，正列或负列至少有 $t+1$ 个. 交换两行可使 $r\\ge K$；若此时至少 $t+1$ 个列和为负，则把所有元素同时取相反数并再次交换两行，仍有 $r\\ge K$，且至少 $t+1$ 个列和为正. 记这些正列的集合为 $P$，其余列为 $Q$，设 $|P|=p\\ge t+1$，并令</p>\n$$\nU=\\sum_{j\\in P}s_{j}=-\\sum_{j\\in Q}s_{j}\n$$\n<p>对 $j\\in P$，第一行元素 $x_{j}\\leqslant1$；对 $j\\in Q$，若第二行元素为 $y_{j}$，则 $x_{j}=s_{j}-y_{j}\\le s_{j}+1$. 因此</p>\n$$\nr=\\sum_{j=1}^{N}x_{j}\\le p+\\sum_{j\\in Q}(s_{j}+1)=N-U\n$$\n<p>又 $U\\ge pK\\ge(t+1)K$，所以</p>\n$$\nK\\le r\\le N-(t+1)K\n$$\n<p>从而</p>\n$$\nK\\le\\frac{N}{t+2}=\\frac{2t+1}{t+2}\n$$\n<p>下面构造达到该上界的数表. 令 $K_{0}=\\frac{2t+1}{t+2}$，$u=\\frac{(t+1)K_{0}}{t}$. 当 $t\\geqslant1$ 时，$1\\le K_{0}&#x3C;2$，且 $K_{0}&#x3C;u\\leqslant2$.</p><p>对前 $t+1$ 列取两行元素分别为 $1$、$K_{0}-1$，对后 $t$ 列取两行元素分别为 $1-u$、$-1$. 因为 $K_{0}-1\\in[0,1)$、$1-u\\in[-1,0)$，所以这些元素的绝对值均不大于 $1$. 两行和分别为</p><p>$(t+1)+t(1-u)=K_{0}$ 和 $(t+1)(K_{0}-1)-t=-K_{0}$，</p><p>前 $t+1$ 列的列和为 $K_{0}$，后 $t$ 列的列和为 $-u$. 因而各行和的绝对值为 $K_{0}$，各列和的绝对值为 $K_{0}$ 或 $u$，且 $u>K_{0}$，所以该数表的 $k(A)$ 为 $K_{0}$，上界可以达到. 所以最大值为</p>\n$$\n\\frac{2t+1}{t+2}\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

@@ -1,162 +1,15 @@
 {
+  "title": "2014年普通高等学校招生全国统一考试",
+  "subtitle": "2014年新课标I卷（文）",
   "year": "2014",
   "slug": "new_curriculum_paper_1_liberal",
-  "title": "2014年新课标I卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 24,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $M = \\{x \\mid -1 < x < 3\\}$，$N = \\{x \\mid -2 < x < 1\\}$，则 $M \\cap N =$（ ）",
+          "body": "已知集合 $M = \\{x \\mid -1 &#x3C; x &#x3C; 3\\}$，$N = \\{x \\mid -2 &#x3C; x &#x3C; 1\\}$，则 $M \\cap N =$（ ）",
           "choices": [
             "$(-2, 1)$",
             "$(-1, 1)$",
@@ -164,13 +17,11 @@
             "$(-2,3)$"
           ],
           "answer": "B",
-          "solution": "交集中的元素必须同时属于 $M$ 和 $N$，所以必须满足 $-1 < x < 3$ 且 $-2 < x < 1$. 合并两个不等式得 $-1 < x < 1$，因此 $M \\cap N = (-1,1)$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "交集中的元素必须同时属于 $M$ 和 $N$，所以必须满足 $-1 &#x3C; x &#x3C; 3$ 且 $-2 &#x3C; x &#x3C; 1$. 合并两个不等式得 $-1 &#x3C; x &#x3C; 1$，因此 $M \\cap N = (-1,1)$，故选 B."
         },
         {
           "num": 2,
-          "body": "若 $\\tan \\alpha > 0$，则（ ）",
+          "body": "若 $\\tan \\alpha > 0$，则（ ）",
           "choices": [
             "$\\sin 2\\alpha > 0$",
             "$\\cos \\alpha > 0$",
@@ -178,13 +29,11 @@
             "$\\cos 2\\alpha > 0$"
           ],
           "answer": "A",
-          "solution": "由 $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}>0$，知 $\\sin\\alpha$ 与 $\\cos\\alpha$ 同号，且二者均不为零. 因此 $\\sin 2\\alpha=2\\sin\\alpha\\cos\\alpha>0$. $\\tan\\alpha>0$ 时 $\\alpha$ 也可能在第三象限，故不能确定 $\\sin\\alpha$ 或 $\\cos\\alpha$ 的单独符号；同样 $\\cos 2\\alpha$ 的符号也不能确定. 故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}>0$，知 $\\sin\\alpha$ 与 $\\cos\\alpha$ 同号，且二者均不为零. 因此 $\\sin 2\\alpha=2\\sin\\alpha\\cos\\alpha>0$. $\\tan\\alpha>0$ 时 $\\alpha$ 也可能在第三象限，故不能确定 $\\sin\\alpha$ 或 $\\cos\\alpha$ 的单独符号；同样 $\\cos 2\\alpha$ 的符号也不能确定. 故选 A."
         },
         {
           "num": 3,
-          "body": "设 $z = \\frac{1}{1 + \\mathrm{i}} + \\mathrm{i}$，则 $|z| =$（ ）",
+          "body": "设 $z = \\frac{1}{1 + \\mathrm{i}}+ \\mathrm{i}$，则 $|z| =$（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$\\frac{\\sqrt{2}}{2}$",
@@ -192,13 +41,11 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "分母有理化得 $\\dfrac{1}{1+\\mathrm{i}}=\\dfrac{1-\\mathrm{i}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\dfrac{1-\\mathrm{i}}{2}$，所以 $z=\\dfrac{1-\\mathrm{i}}{2}+\\mathrm{i}=\\dfrac{1+\\mathrm{i}}{2}$. 因此 $|z|=\\sqrt{\\left(\\dfrac{1}{2}\\right)^2+\\left(\\dfrac{1}{2}\\right)^2}=\\dfrac{\\sqrt{2}}{2}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "分母有理化得 $\\dfrac{1}{1+\\mathrm{i}}=\\dfrac{1-\\mathrm{i}}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\dfrac{1-\\mathrm{i}}{2}$，所以 $z=\\dfrac{1-\\mathrm{i}}{2}+\\mathrm{i}=\\dfrac{1+\\mathrm{i}}{2}$. 因此 $|z|=\\sqrt{\\left(\\dfrac{1}{2}\\right)^{2}+\\left(\\dfrac{1}{2}\\right)^{2}}=\\dfrac{\\sqrt{2}}{2}$，故选 B."
         },
         {
           "num": 4,
-          "body": "已知双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{3} = 1$（$a > 0$）的离心率为 $2$，则 $a =$（ ）",
+          "body": "已知双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{3}= 1$（$a > 0$）的离心率为 $2$，则 $a =$（ ）",
           "choices": [
             "$2$",
             "$\\frac{\\sqrt{6}}{2}$",
@@ -206,13 +53,11 @@
             "$1$"
           ],
           "answer": "D",
-          "solution": "双曲线的标准式中 $a^2$ 为横轴半轴平方，$b^2=3$，所以 $c^2=a^2+b^2=a^2+3$. 由离心率 $e=\\dfrac{c}{a}=2$，得 $a^2+3=4a^2$，从而 $a^2=1$. 又 $a>0$，所以 $a=1$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "双曲线的标准式中 $a^{2}$ 为横轴半轴平方，$b^{2}=3$，所以 $c^{2}=a^{2}+b^{2}=a^{2}+3$. 由离心率 $e=\\dfrac{c}{a}=2$，得 $a^{2}+3=4a^{2}$，从而 $a^{2}=1$. 又 $a>0$，所以 $a=1$，故选 D."
         },
         {
           "num": 5,
-          "body": "设函数 $f(x)$，$g(x)$ 的定义域都为 $\\mathbb{R}$，且 $f(x)$ 是奇函数，$g(x)$ 是偶函数，则下列结论正确的是（ ）",
+          "body": "设函数 $f(x)$，$g(x)$ 的定义域都为 $\\mathbb{R}$，且 $f(x)$ 是奇函数，$g(x)$ 是偶函数，则下列结论正确的是（ ）",
           "choices": [
             "$f(x)|g(x)|$ 是奇函数",
             "$|f(x)|g(x)$ 是奇函数",
@@ -220,13 +65,11 @@
             "$|f(x)g(x)|$ 是奇函数"
           ],
           "answer": "A",
-          "solution": "因为 $f$ 是奇函数，$f(-x)=-f(x)$；因为 $g$ 是偶函数，$g(-x)=g(x)$，从而 $|g(-x)|=|g(x)|$. 于是 $[f(x)|g(x)|]_{x\\mapsto -x}=f(-x)|g(-x)|=-f(x)|g(x)|$，所以 $f(x)|g(x)|$ 是奇函数. 另一方面，$|f(x)|g(x)$ 以及 $|f(x)g(x)|$ 都是偶函数，而 $f(x)g(x)$ 是奇函数. 故正确结论为 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $f$ 是奇函数，$f(-x)=-f(x)$；因为 $g$ 是偶函数，$g(-x)=g(x)$，从而 $|g(-x)|=|g(x)|$. 于是 $[f(x)|g(x)|]_{x\\mapsto -x}=f(-x)|g(-x)|=-f(x)|g(x)|$，所以 $f(x)|g(x)|$ 是奇函数. 另一方面，$|f(x)|g(x)$ 以及 $|f(x)g(x)|$ 都是偶函数，而 $f(x)g(x)$ 是奇函数. 故正确结论为 A."
         },
         {
           "num": 6,
-          "body": "设 $D$，$E$，$F$ 分别为 $\\triangle ABC$ 的三边 $BC$，$CA$，$AB$ 的中点，则 $\\overrightarrow{EB} + \\overrightarrow{FC} =$（ ）",
+          "body": "设 $D$，$E$，$F$ 分别为 $\\triangle ABC$ 的三边 $BC$，$CA$，$AB$ 的中点，则 $\\overrightarrow{EB}+ \\overrightarrow{FC}=$（ ）",
           "choices": [
             "$\\overrightarrow{BC}$",
             "$\\frac{1}{2}\\overrightarrow{AD}$",
@@ -234,27 +77,23 @@
             "$\\frac{1}{2}\\overrightarrow{BC}$"
           ],
           "answer": "C",
-          "solution": "设 $A$，$B$，$C$ 的位置向量分别为 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$. 由中点条件，$E$ 和 $F$ 的位置向量分别为 $\\dfrac{\\mathbf{a}+\\mathbf{c}}{2}$ 和 $\\dfrac{\\mathbf{a}+\\mathbf{b}}{2}$，所以 $\\overrightarrow{EB}+\\overrightarrow{FC}=\\left(\\mathbf{b}-\\dfrac{\\mathbf{a}+\\mathbf{c}}{2}\\right)+\\left(\\mathbf{c}-\\dfrac{\\mathbf{a}+\\mathbf{b}}{2}\\right)=\\dfrac{\\mathbf{b}+\\mathbf{c}}{2}-\\mathbf{a}$. 又 $D$ 是 $BC$ 的中点，故 $\\overrightarrow{AD}=\\dfrac{\\mathbf{b}+\\mathbf{c}}{2}-\\mathbf{a}$，从而 $\\overrightarrow{EB}+\\overrightarrow{FC}=\\overrightarrow{AD}$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设 $A$，$B$，$C$ 的位置向量分别为 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$. 由中点条件，$E$ 和 $F$ 的位置向量分别为 $\\dfrac{\\mathbf{a}+\\mathbf{c}}{2}$ 和 $\\dfrac{\\mathbf{a}+\\mathbf{b}}{2}$，所以 $\\overrightarrow{EB}+\\overrightarrow{FC}=\\left(\\mathbf{b}-\\dfrac{\\mathbf{a}+\\mathbf{c}}{2}\\right)+\\left(\\mathbf{c}-\\dfrac{\\mathbf{a}+\\mathbf{b}}{2}\\right)=\\dfrac{\\mathbf{b}+\\mathbf{c}}{2}-\\mathbf{a}$. 又 $D$ 是 $BC$ 的中点，故 $\\overrightarrow{AD}=\\dfrac{\\mathbf{b}+\\mathbf{c}}{2}-\\mathbf{a}$，从而 $\\overrightarrow{EB}+\\overrightarrow{FC}=\\overrightarrow{AD}$，故选 C."
         },
         {
           "num": 7,
-          "body": "在下列函数中：\r\n\r\n\\begin{circlelist}\r\n\\item $y = \\cos |2x|$；\r\n\\item $y = |\\cos x|$；\r\n\\item $y = \\cos \\left(2x + \\frac{\\pi}{6}\\right)$；\r\n\\item $y = \\tan \\left(2x - \\frac{\\pi}{4}\\right)$.\r\n\\end{circlelist}\r\n\r\n最小正周期为 $\\pi$ 的所有函数为（ ）",
+          "body": "<p>在下列函数中：</p><ol class=\"enumerate\"><li><p>$y = \\cos |2x|$；</p></li><li><p>$y = |\\cos x|$；</p></li><li><p>$y = \\cos \\left(2x + \\frac{\\pi}{6}\\right)$；</p></li><li><p>$y = \\tan \\left(2x - \\frac{\\pi}{4}\\right)$.</p></li></ol><p>最小正周期为 $\\pi$ 的所有函数为（ ）</p>",
           "choices": [
-            "\\circled{2}\\circled{4}",
-            "\\circled{1}\\circled{3}\\circled{4}",
-            "\\circled{1}\\circled{2}\\circled{3}",
-            "\\circled{1}\\circled{3}"
+            "②④",
+            "①③④",
+            "①②③",
+            "①③"
           ],
           "answer": "C",
-          "solution": "因为余弦函数是偶函数，$\\cos|2x|=\\cos 2x$，其最小正周期为 $\\pi$. 函数 $|\\cos x|$ 的最小正周期为 $\\pi$，函数 $\\cos\\left(2x+\\dfrac{\\pi}{6}\\right)$ 的最小正周期为 $\\dfrac{2\\pi}{2}=\\pi$. 正切函数的最小正周期为 $\\pi$，所以函数 $\\tan\\left(2x-\\dfrac{\\pi}{4}\\right)$ 的最小正周期为 $\\dfrac{\\pi}{2}$. 因此满足条件的是 $\\circled{1}$、$\\circled{2}$、$\\circled{3}$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为余弦函数是偶函数，$\\cos|2x|=\\cos 2x$，其最小正周期为 $\\pi$. 函数 $|\\cos x|$ 的最小正周期为 $\\pi$，函数 $\\cos\\left(2x+\\dfrac{\\pi}{6}\\right)$ 的最小正周期为 $\\dfrac{2\\pi}{2}=\\pi$. 正切函数的最小正周期为 $\\pi$，所以函数 $\\tan\\left(2x-\\dfrac{\\pi}{4}\\right)$ 的最小正周期为 $\\dfrac{\\pi}{2}$. 因此满足条件的是 $①$、$②$、$③$，故选 C."
         },
         {
           "num": 8,
-          "body": "如图，网格纸的各小格都是正方形，粗实线画出的是一个几何体的三视图，则这个几何体是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/new_curriculum_paper_1_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，网格纸的各小格都是正方形，粗实线画出的是一个几何体的三视图，则这个几何体是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_liberal/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "三棱锥",
             "三棱柱",
@@ -262,13 +101,11 @@
             "四棱柱"
           ],
           "answer": "B",
-          "solution": "图中的一个视图是三角形，另两个视图是矩形，且矩形表示三角形截面沿同一方向平移形成的侧面. 因此该几何体有两个全等且平行的三角形底面，其他三个面为矩形，正是三棱柱的三视图，而不是只有一个顶点的三棱锥或具有四边形底面的棱柱、棱锥. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "图中的一个视图是三角形，另两个视图是矩形，且矩形表示三角形截面沿同一方向平移形成的侧面. 因此该几何体有两个全等且平行的三角形底面，其他三个面为矩形，正是三棱柱的三视图，而不是只有一个顶点的三棱锥或具有四边形底面的棱柱、棱锥. 故选 B."
         },
         {
           "num": 9,
-          "body": "执行如图的程序框图，若输入的 $a$，$b$，$k$ 分别为 $1$，$2$，$3$，则输出的 $M =$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/new_curriculum_paper_1_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>执行如图的程序框图，若输入的 $a$，$b$，$k$ 分别为 $1$，$2$，$3$，则输出的 $M =$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{20}{3}$",
             "$\\frac{7}{2}$",
@@ -276,13 +113,11 @@
             "$\\frac{15}{8}$"
           ],
           "answer": "D",
-          "solution": "初始时 $n=1$，$a=1$，$b=2$. 第一次循环中 $M=1+\\dfrac{1}{2}=\\dfrac{3}{2}$，随后更新为 $a=2$，$b=\\dfrac{3}{2}$，$n=2$. 第二次循环中 $M=2+\\dfrac{1}{\\frac{3}{2}}=\\dfrac{8}{3}$，随后更新为 $a=\\dfrac{3}{2}$，$b=\\dfrac{8}{3}$，$n=3$. 第三次循环中 $M=\\dfrac{3}{2}+\\dfrac{1}{\\frac{8}{3}}=\\dfrac{15}{8}$，更新后 $n=4$，不再满足 $n\\le k$. 所以输出 $M=\\dfrac{15}{8}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "初始时 $n=1$，$a=1$，$b=2$. 第一次循环中 $M=1+\\dfrac{1}{2}=\\dfrac{3}{2}$，随后更新为 $a=2$，$b=\\dfrac{3}{2}$，$n=2$. 第二次循环中 $M=2+\\dfrac{1}{\\frac{3}{2}}=\\dfrac{8}{3}$，随后更新为 $a=\\dfrac{3}{2}$，$b=\\dfrac{8}{3}$，$n=3$. 第三次循环中 $M=\\dfrac{3}{2}+\\dfrac{1}{\\frac{8}{3}}=\\dfrac{15}{8}$，更新后 $n=4$，不再满足 $n\\le k$. 所以输出 $M=\\dfrac{15}{8}$，故选 D."
         },
         {
           "num": 10,
-          "body": "已知抛物线 $C: y^{2} = x$ 的焦点为 $F$， $A(x_{0}, y_{0})$ 是 $C$ 上一点，$|AF| = \\frac{5}{4} x_{0}$，则 $x_{0} =$（ ）",
+          "body": "已知抛物线 $C: y^{2}= x$ 的焦点为 $F$， $A(x_{0}, y_{0})$ 是 $C$ 上一点，$|AF| = \\frac{5}{4}x_{0}$，则 $x_{0}=$（ ）",
           "choices": [
             "$4$",
             "$2$",
@@ -290,13 +125,11 @@
             "$8$"
           ],
           "answer": "C",
-          "solution": "抛物线 $y^2=x$ 可写成 $y^2=4px$，所以 $p=\\dfrac14$，焦点为 $F\\left(\\dfrac14,0\\right)$. 又因 $A$ 在抛物线上，$y_0^2=x_0$，且 $x_0\\geqslant0$. 于是\r\n$\\lvert AF\\rvert^2=\\left(x_0-\\dfrac14\\right)^2+y_0^2=\\left(x_0+\\dfrac14\\right)^2$，从而 $\\lvert AF\\rvert=x_0+\\dfrac14$. 代入条件得 $x_0+\\dfrac14=\\dfrac54x_0$，解得 $x_0=1$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>抛物线 $y^{2}=x$ 可写成 $y^{2}=4px$，所以 $p=\\dfrac{1}{4}$，焦点为 $F\\left(\\dfrac{1}{4},0\\right)$. 又因 $A$ 在抛物线上，$y_{0}^{2}=x_{0}$，且 $x_{0}\\geqslant0$. 于是</p><p>$\\lvert AF\\rvert^{2}=\\left(x_{0}-\\dfrac{1}{4}\\right)^{2}+y_{0}^{2}=\\left(x_{0}+\\dfrac{1}{4}\\right)^{2}$，从而 $\\lvert AF\\rvert=x_{0}+\\dfrac{1}{4}$. 代入条件得 $x_{0}+\\dfrac{1}{4}=\\dfrac{5}{4}x_{0}$，解得 $x_{0}=1$，故选 C.</p>"
         },
         {
           "num": 11,
-          "body": "设 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx + y \\ge a,\\\\\r\nx - y \\le -1,\r\n\\end{cases}$ 且 $z = x + ay$ 的最小值为 $7$，则 $a =$（ ）",
+          "body": "设 $x$，$y$ 满足约束条件 $\\begin{cases}x + y \\ge a,\\\\\n\nx - y \\le -1,\\end{cases}$ 且 $z = x + ay$ 的最小值为 $7$，则 $a =$（ ）",
           "choices": [
             "$-5$",
             "$3$",
@@ -304,13 +137,11 @@
             "$5$ 或 $-3$"
           ],
           "answer": "B",
-          "solution": "令 $u=x+y$，$v=x-y$，则约束变为 $u\\ge a$，$v\\le-1$，且 $x=\\dfrac{u+v}{2}$，$y=\\dfrac{u-v}{2}$. 因此 $z=\\dfrac{(a+1)u+(1-a)v}{2}$. 要使这个线性函数在上述无界区域有有限最小值，必须有 $a+1\\geqslant0$ 且 $1-a\\leqslant0$，所以 $a\\geqslant1$. 当 $a=1$ 时，$z=u$ 的最小值为 $1$，不符合题意；故 $a>1$. 此时最小值在 $u=a$，$v=-1$ 处取得，故 $7=\\dfrac{(a+1)a+(1-a)(-1)}{2}=\\dfrac{a^2+2a-1}{2}$. 于是 $a^2+2a-15=0$，解得 $a=3$ 或 $a=-5$，结合 $a>1$ 得 $a=3$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "令 $u=x+y$，$v=x-y$，则约束变为 $u\\ge a$，$v\\le-1$，且 $x=\\dfrac{u+v}{2}$，$y=\\dfrac{u-v}{2}$. 因此 $z=\\dfrac{(a+1)u+(1-a)v}{2}$. 要使这个线性函数在上述无界区域有有限最小值，必须有 $a+1\\geqslant0$ 且 $1-a\\leqslant0$，所以 $a\\geqslant1$. 当 $a=1$ 时，$z=u$ 的最小值为 $1$，不符合题意；故 $a>1$. 此时最小值在 $u=a$，$v=-1$ 处取得，故 $7=\\dfrac{(a+1)a+(1-a)(-1)}{2}=\\dfrac{a^2+2a-1}{2}$. 于是 $a^{2}+2a-15=0$，解得 $a=3$ 或 $a=-5$，结合 $a>1$ 得 $a=3$，故选 B."
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x) = ax^3 - 3x^2 + 1$，若 $f(x)$ 存在唯一的零点 $x_0$，且 $x_0 > 0$，则 $a$ 的取值范围为（ ）",
+          "body": "已知函数 $f(x) = ax^{3} - 3x^{2} + 1$，若 $f(x)$ 存在唯一的零点 $x_{0}$，且 $x_{0} > 0$，则 $a$ 的取值范围为（ ）",
           "choices": [
             "$(- \\infty, -2)$",
             "$(1, +\\infty)$",
@@ -318,9 +149,7 @@
             "$(-\\infty, -1)$"
           ],
           "answer": "A",
-          "solution": "有 $f(0)=1$，且 $f'(x)=3x(ax-2)$. 当 $a=0$ 时，$f(x)=-3x^2+1$ 有两个零点，不符合条件.\r\n\r\n当 $a>0$ 时，$f(x)$ 在 $(-\\infty,0)$ 的两端符号分别为负、正，必有负零点. 对 $x\\geqslant0$，函数在 $x=\\dfrac{2}{a}$ 处取得最小值 $f\\left(\\dfrac{2}{a}\\right)=1-\\dfrac{4}{a^2}$. 若 $0<a<2$，该最小值为负，因而有两个正零点；若 $a=2$，有一个正零点且另有负零点；若 $a>2$，没有正零点. 故 $a>0$ 均不符合唯一零点且零点为正的条件.\r\n\r\n当 $a<0$ 时，$f'(x)<0$ 对一切 $x>0$ 成立，且 $f(0)=1>0$，$f(x)$ 在 $(0,+\\infty)$ 上递减并趋于负无穷，所以恰有一个正零点. 负半轴上的极小值在 $x=\\dfrac{2}{a}<0$ 处取得，且值为 $1-\\dfrac{4}{a^2}$. 当 $-2<a<0$ 时该值小于零，产生两个负零点；当 $a=-2$ 时产生一个负的重零点；只有当 $a<-2$ 时极小值大于零，负半轴上没有零点. 因此所求范围为 $(-\\infty,-2)$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>有 $f(0)=1$，且 $f'(x)=3x(ax-2)$. 当 $a=0$ 时，$f(x)=-3x^{2}+1$ 有两个零点，不符合条件.</p><p>当 $a>0$ 时，$f(x)$ 在 $(-\\infty,0)$ 的两端符号分别为负、正，必有负零点. 对 $x\\geqslant0$，函数在 $x=\\dfrac{2}{a}$ 处取得最小值 $f\\left(\\dfrac{2}{a}\\right)=1-\\dfrac{4}{a^2}$. 若 $0&#x3C;a&#x3C;2$，该最小值为负，因而有两个正零点；若 $a=2$，有一个正零点且另有负零点；若 $a>2$，没有正零点. 故 $a>0$ 均不符合唯一零点且零点为正的条件.</p><p>当 $a&#x3C;0$ 时，$f'(x)&#x3C;0$ 对一切 $x>0$ 成立，且 $f(0)=1>0$，$f(x)$ 在 $(0,+\\infty)$ 上递减并趋于负无穷，所以恰有一个正零点. 负半轴上的极小值在 $x=\\dfrac{2}{a}&#x3C;0$ 处取得，且值为 $1-\\dfrac{4}{a^2}$. 当 $-2&#x3C;a&#x3C;0$ 时该值小于零，产生两个负零点；当 $a=-2$ 时产生一个负的重零点；只有当 $a&#x3C;-2$ 时极小值大于零，负半轴上没有零点. 因此所求范围为 $(-\\infty,-2)$，故选 A.</p>"
         }
       ]
     },
@@ -329,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "将 $2$ 本不同的数学书和 $1$ 本语文书在书架上随机排成一行，则 $2$ 本数学书相邻的概率为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{2}{3}\\)",
-          "solution": "把两本不同的数学书和一本语文书看作三个不同对象，共有 $3!=6$ 种排法. 两本数学书相邻时，把它们看成一个整体，整体与语文书有 $2!$ 种排法，数学书在整体内还有 $2!$ 种顺序，所以有 $2!\\times2!=4$ 种. 故所求概率为 $\\dfrac{4}{6}=\\dfrac{2}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "将 $2$ 本不同的数学书和 $1$ 本语文书在书架上随机排成一行，则 $2$ 本数学书相邻的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{2}{3}$",
+          "solution": "把两本不同的数学书和一本语文书看作三个不同对象，共有 $3!=6$ 种排法. 两本数学书相邻时，把它们看成一个整体，整体与语文书有 $2!$ 种排法，数学书在整体内还有 $2!$ 种顺序，所以有 $2!\\times2!=4$ 种. 故所求概率为 $\\dfrac{4}{6}=\\dfrac{2}{3}$."
         },
         {
           "num": 14,
-          "body": "甲，乙，丙三位同学被问到是否去过 $A$，$B$，$C$ 三个城市时，甲说：我去过的城市比乙多，但没去过 $B$ 城市；乙说：我没去过 $C$ 城市；丙说：我们三人去过同一个城市. 由此可判断乙去过的城市为 _______ {}.",
-          "choices": [],
+          "body": "甲，乙，丙三位同学被问到是否去过 $A$，$B$，$C$ 三个城市时，甲说：我去过的城市比乙多，但没去过 $B$ 城市；乙说：我没去过 $C$ 城市；丙说：我们三人去过同一个城市. 由此可判断乙去过的城市为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "A",
-          "solution": "甲没有去过 $B$，乙没有去过 $C$，而三人去过同一个城市. 这个共同去过的城市既不能是 $B$，也不能是 $C$，所以只能是 $A$，从而乙去过 $A$. 若乙还去过 $B$，则乙至少去过两个城市；甲只能在 $A$，$C$ 中选择，至多去过两个城市，不可能比乙多. 因此乙没有去过 $B$，又没有去过 $C$，所以乙去过的城市为 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "甲没有去过 $B$，乙没有去过 $C$，而三人去过同一个城市. 这个共同去过的城市既不能是 $B$，也不能是 $C$，所以只能是 $A$，从而乙去过 $A$. 若乙还去过 $B$，则乙至少去过两个城市；甲只能在 $A$，$C$ 中选择，至多去过两个城市，不可能比乙多. 因此乙没有去过 $B$，又没有去过 $C$，所以乙去过的城市为 A."
         },
         {
           "num": 15,
-          "body": "设函数 $f(x) = \\begin{cases}\r\n\\mathrm{e}^{x - 1}, & x < 1,\\\\\r\nx^{\\frac{1}{3}}, & x \\ge 1,\r\n\\end{cases}$ 则使得 $f(x) \\le 2$ 成立的 $x$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(x \\le 8\\)",
-          "solution": "当 $x<1$ 时，$x-1<0$，所以 $f(x)=\\mathrm{e}^{x-1}<1\\leqslant2$，所有 $x<1$ 都满足条件. 当 $x\\geqslant1$ 时，$x^{\\frac{1}{3}}\\leqslant2$ 等价于 $x\\leqslant8$，所以这一段的解集为 $[1,8]$. 合并两段得 $(-\\infty,1)\\cup[1,8]=(-\\infty,8]$，即 $x\\leqslant8$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设函数 $f(x) = \\begin{cases}\\mathrm{e}^{x - 1},&#x26;x &#x3C; 1,\\\\  x^{\\frac{1}{3}},&#x26;x \\ge 1,\\end{cases}$ 则使得 $f(x) \\le 2$ 成立的 $x$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$x \\le 8$",
+          "solution": "当 $x&#x3C;1$ 时，$x-1&#x3C;0$，所以 $f(x)=\\mathrm{e}^{x-1}&#x3C;1\\leqslant2$，所有 $x&#x3C;1$ 都满足条件. 当 $x\\geqslant1$ 时，$x^{\\frac{1}{3}}\\leqslant2$ 等价于 $x\\leqslant8$，所以这一段的解集为 $[1,8]$. 合并两段得 $(-\\infty,1)\\cup[1,8]=(-\\infty,8]$，即 $x\\leqslant8$."
         },
         {
           "num": 16,
-          "body": "如图，为测量山高 $MN$，选择 $A$ 和另一座山的山顶 $C$ 为测量观测点. 从 $A$ 点测得 $M$ 点的仰角 $\\angle MAN = 60^\\circ$，$C$ 点的仰角 $\\angle CAB = 45^\\circ$ 以及 $\\angle MAC = 75^\\circ$；从 $C$ 点测得 $\\angle MCA = 60^\\circ$. 已知山高 $BC = 100 \\mathrm{~m}$，则山高 $MN =$ _______ {}$\\mathrm{m}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/new_curriculum_paper_1_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(150\\)",
-          "solution": "在直角三角形 $ABC$ 中，$\\angle CAB=45^\\circ$，$BC=100\\mathrm{~m}$，所以 $\\angle ABC=90^\\circ$，且 $AC=\\dfrac{BC}{\\sin45^\\circ}=100\\sqrt{2}\\mathrm{~m}$. 在三角形 $AMC$ 中，$\\angle MAC=75^\\circ$，$\\angle MCA=60^\\circ$，故 $\\angle AMC=45^\\circ$. 由正弦定理，$\\dfrac{AM}{\\sin60^\\circ}=\\dfrac{AC}{\\sin45^\\circ}$，得 $AM=100\\sqrt{3}\\mathrm{~m}$. 又在直角三角形 $AMN$ 中，$MN=AM\\sin60^\\circ=100\\sqrt{3}\\times\\dfrac{\\sqrt{3}}{2}=150\\mathrm{~m}$，所以填 $150$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，为测量山高 $MN$，选择 $A$ 和另一座山的山顶 $C$ 为测量观测点. 从 $A$ 点测得 $M$ 点的仰角 $\\angle MAN = 60^{\\circ}$，$C$ 点的仰角 $\\angle CAB = 45^{\\circ}$ 以及 $\\angle MAC = 75^{\\circ}$；从 $C$ 点测得 $\\angle MCA = 60^{\\circ}$. 已知山高 $BC = 100 \\mathrm{~m}$，则山高 $MN =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\mathrm{m}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$150$",
+          "solution": "在直角三角形 $ABC$ 中，$\\angle CAB=45^{\\circ}$，$BC=100\\mathrm{~m}$，所以 $\\angle ABC=90^{\\circ}$，且 $AC=\\dfrac{BC}{\\sin45^\\circ}=100\\sqrt{2}\\mathrm{~m}$. 在三角形 $AMC$ 中，$\\angle MAC=75^{\\circ}$，$\\angle MCA=60^{\\circ}$，故 $\\angle AMC=45^{\\circ}$. 由正弦定理，$\\dfrac{AM}{\\sin60^\\circ}=\\dfrac{AC}{\\sin45^\\circ}$，得 $AM=100\\sqrt{3}\\mathrm{~m}$. 又在直角三角形 $AMN$ 中，$MN=AM\\sin60^{\\circ}=100\\sqrt{3}\\times\\dfrac{\\sqrt{3}}{2}=150\\mathrm{~m}$，所以填 $150$."
         }
       ]
     },
@@ -370,48 +191,38 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知 $\\{a_{n}\\}$ 是递增的等差数列，$a_{2}$，$a_{4}$ 是方程 $x^{2} - 5x + 6 = 0$ 的根.\r\n\r\n\n(1) 求 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 求数列 $\\left\\{\\frac{a_{n}}{2^{n}}\\right\\}$ 的前 $n$ 项和.",
-          "choices": [],
+          "body": "<p>已知 $\\{a_{n}\\}$ 是递增的等差数列，$a_{2}$，$a_{4}$ 是方程 $x^{2}- 5x + 6 = 0$ 的根.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>求数列 $\\left\\{\\frac{a_{n}}{2^{n}}\\right\\}$ 的前 $n$ 项和.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 方程 $x^2-5x+6=0$ 的两个根为 $2$，$3$. 数列递增，所以 $a_2=2$，$a_4=3$. 设公差为 $d$，则 $a_4-a_2=2d=1$，得 $d=\\dfrac12$. 于是 $a_n=a_2+(n-2)d=2+\\dfrac{n-2}{2}=\\dfrac n2+1$.\n\n(2) 由上式，$\\dfrac{a_k}{2^k}=\\dfrac{k+2}{2^{k+1}}$，所以\r\n\n$$\nS_n=\\sum_{k=1}^{n}\\frac{k+2}{2^{k+1}}=\\frac12\\sum_{k=1}^{n}\\frac{k}{2^k}+\\sum_{k=1}^{n}\\frac1{2^k}\n$$\n\r\n令 $T_n=\\sum_{k=1}^{n}\\dfrac{k}{2^k}$，则\r\n\n$$\nT_n=\\frac12+\\frac{2}{2^2}+\\cdots+\\frac{n}{2^n}\n$$\n\r\n两边同乘 $\\dfrac12$，得\r\n\n$$\n\\frac12T_n=\\frac1{2^2}+\\frac{2}{2^3}+\\cdots+\\frac{n}{2^{n+1}}\n$$\n\r\n两式相减得\r\n\n$$\n\\frac12T_n=\\frac12+\\sum_{k=2}^{n}\\frac1{2^k}-\\frac{n}{2^{n+1}}=1-\\frac1{2^n}-\\frac{n}{2^{n+1}}\n$$\n\r\n所以 $T_n=2-\\dfrac{n+2}{2^n}$. 另外，由等比数列求和公式，$\\sum_{k=1}^{n}\\dfrac1{2^k}=1-\\dfrac1{2^n}$. 因此\r\n\n$$\nS_n=\\frac12\\left(2-\\frac{n+2}{2^n}\\right)+1-\\frac1{2^n}=2-\\frac{n+4}{2^{n+1}}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>方程 $x^{2}-5x+6=0$ 的两个根为 $2$，$3$. 数列递增，所以 $a_{2}=2$，$a_{4}=3$. 设公差为 $d$，则 $a_{4}-a_{2}=2d=1$，得 $d=\\dfrac{1}{2}$. 于是 $a_{n}=a_{2}+(n-2)d=2+\\dfrac{n-2}{2}=\\dfrac{n}{2}+1$.</p></li><li><p>由上式，$\\dfrac{a_k}{2^k}=\\dfrac{k+2}{2^{k+1}}$，所以</p>\n$$\nS_{n}=\\sum_{k=1}^{n}\\frac{k+2}{2^{k+1}}=\\frac{1}{2}\\sum_{k=1}^{n}\\frac{k}{2^{k}}+\\sum_{k=1}^{n}\\frac{1}{2^{k}}\n$$\n<p>令 $T_{n}=\\sum_{k=1}^{n}\\dfrac{k}{2^k}$，则</p>\n$$\nT_{n}=\\frac{1}{2}+\\frac{2}{2^{2}}+\\cdots+\\frac{n}{2^{n}}\n$$\n<p>两边同乘 $\\dfrac{1}{2}$，得</p>\n$$\n\\frac{1}{2}T_{n}=\\frac{1}{2^{2}}+\\frac{2}{2^{3}}+\\cdots+\\frac{n}{2^{n+1}}\n$$\n<p>两式相减得</p>\n$$\n\\frac{1}{2}T_{n}=\\frac{1}{2}+\\sum_{k=2}^{n}\\frac{1}{2^{k}}-\\frac{n}{2^{n+1}}=1-\\frac{1}{2^{n}}-\\frac{n}{2^{n+1}}\n$$\n<p>所以 $T_{n}=2-\\dfrac{n+2}{2^n}$. 另外，由等比数列求和公式，$\\sum_{k=1}^{n}\\dfrac1{2^k}=1-\\dfrac1{2^n}$. 因此</p>\n$$\nS_{n}=\\frac{1}{2}\\left(2-\\frac{n+2}{2^{n}}\\right)+1-\\frac{1}{2^{n}}=2-\\frac{n+4}{2^{n+1}}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "从某企业生产的某种产品中抽取 $100$ 件，测量这些产品的一项质量指标值，由测量结果得如下频数分布表：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n\\hline\r\n质量指标值分组 & $[75,85)$ & $[85,95)$ & $[95,105)$ & $[105,115)$ & $[115,125)$ \\\\\r\n\\hline\r\n频数 & $6$ & $26$ & $38$ & $22$ & $8$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 作出这些数据的频率分布直方图；\n\n(2) 估计这种产品质量指标值的平均数及方差（同一组中的数据用该组区间的中点值作代表）；\n\n(3) 根据以上抽样调查数据，能否认为该企业生产的这种产品符合“质量指标值不低于 $95$ 的产品至少要占全部产品的 $80\\%$”的规定？\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/new_curriculum_paper_1_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>从某企业生产的某种产品中抽取 $100$ 件，测量这些产品的一项质量指标值，由测量结果得如下频数分布表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>质量指标值分组 </td><td style=\"text-align: center\"> $[75,85)$ </td><td style=\"text-align: center\"> $[85,95)$ </td><td style=\"text-align: center\"> $[95,105)$ </td><td style=\"text-align: center\"> $[105,115)$ </td><td style=\"text-align: center\"> $[115,125)$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>频数 </td><td style=\"text-align: center\"> $6$ </td><td style=\"text-align: center\"> $26$ </td><td style=\"text-align: center\"> $38$ </td><td style=\"text-align: center\"> $22$ </td><td style=\"text-align: center\"> $8$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>作出这些数据的频率分布直方图；</p></li><li><p>估计这种产品质量指标值的平均数及方差（同一组中的数据用该组区间的中点值作代表）；</p></li><li><p>根据以上抽样调查数据，能否认为该企业生产的这种产品符合“质量指标值不低于 $95$ 的产品至少要占全部产品的 $80\\%$”的规定？</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 各组组距均为 $10$，所以频率分布直方图中各矩形的高为“频率除以组距”. 五组频率分别为 $0.06$，$0.26$，$0.38$，$0.22$，$0.08$，故各组柱高依次为 $0.006$，$0.026$，$0.038$，$0.022$，$0.008$.\n\n(2) 各组中点依次为 $80$，$90$，$100$，$110$，$120$. 平均数的估计值为 $80\\times0.06+90\\times0.26+100\\times0.38+110\\times0.22+120\\times0.08=100$. 以 $100$ 为平均数，方差的估计值为 $20^2\\times0.06+10^2\\times0.26+0^2\\times0.38+10^2\\times0.22+20^2\\times0.08=104$.\n\n(3) 质量指标值不低于 $95$ 的样本占比为 $\\dfrac{38+22+8}{100}=0.68$，小于规定的 $0.80$. 因此根据抽样调查数据，不能认为该企业生产的产品符合规定.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>各组组距均为 $10$，所以频率分布直方图中各矩形的高为“频率除以组距”. 五组频率分别为 $0.06$，$0.26$，$0.38$，$0.22$，$0.08$，故各组柱高依次为 $0.006$，$0.026$，$0.038$，$0.022$，$0.008$.</p></li><li><p>各组中点依次为 $80$，$90$，$100$，$110$，$120$. 平均数的估计值为 $80\\times0.06+90\\times0.26+100\\times0.38+110\\times0.22+120\\times0.08=100$. 以 $100$ 为平均数，方差的估计值为 $20^{2}\\times0.06+10^{2}\\times0.26+0^{2}\\times0.38+10^{2}\\times0.22+20^{2}\\times0.08=104$.</p></li><li><p>质量指标值不低于 $95$ 的样本占比为 $\\dfrac{38+22+8}{100}=0.68$，小于规定的 $0.80$. 因此根据抽样调查数据，不能认为该企业生产的产品符合规定.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，侧面 $BB_{1}C_{1}C$ 为菱形，$B_{1}C$ 的中点为 $O$，且 $AO \\perp$ 平面 $BB_{1}C_{1}C$.\r\n\r\n\n(1) 证明：$B_{1}C \\perp AB$；\n\n(2) 若 $AC \\perp AB_{1}$，$\\angle CBB_{1} = 60^{\\circ}$，$BC = 1$，求三棱柱 $ABC - A_{1}B_{1}C_{1}$ 的高.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/new_curriculum_paper_1_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，侧面 $BB_{1}C_{1}C$ 为菱形，$B_{1}C$ 的中点为 $O$，且 $AO \\perp$ 平面 $BB_{1}C_{1}C$.</p><ol class=\"enumerate\"><li><p>证明：$B_{1}C \\perp AB$；</p></li><li><p>若 $AC \\perp AB_{1}$，$\\angle CBB_{1}= 60^{\\circ}$，$BC = 1$，求三棱柱 $ABC - A_{1}B_{1}C_{1}$ 的高.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 菱形的两条对角线互相垂直且互相平分. 由 $O$ 是 $B_1C$ 的中点，且 $O$ 也是另一条对角线 $BC_1$ 的中点，得 $B_1C\\perp BC_1$. 又因 $AO\\perp$ 平面 $BB_1C_1C$，所以 $AO\\perp B_1C$. 由于 $O$ 在 $BC_1$ 上，直线 $BO$ 与 $BC_1$ 重合，因此直线 $AO$ 与 $BO$ 相交于 $O$，且二者都垂直于 $B_1C$. 故 $B_1C\\perp$ 平面 $ABO$，从而 $B_1C\\perp AB$.\n\n(2) 取侧面所在平面为 $xy$ 平面，以两条互相垂直的菱形对角线为坐标轴，并令 $O$ 为原点. 设 $B_1=(p,0,0)$，$C=(-p,0,0)$，$B=(0,-q,0)$，则 $p$，$q>0$，且 $p^2+q^2=BC^2=1$. 由 $\\angle CBB_1=60^\\circ$，有\r\n\n$$\n\\frac{(-p,q,0)\\cdot(p,q,0)}{1\\times1}=q^2-p^2=\\cos60^\\circ=\\frac12\n$$\n\r\n故 $p^2=\\dfrac14$，$q^2=\\dfrac34$. 由 $AO\\perp$ 该平面，设 $A=(0,0,h)$，其中 $h>0$. 条件 $AC\\perp AB_1$ 给出 $(-p,0,-h)\\cdot(p,0,-h)=h^2-p^2=0$，所以 $h=\\dfrac12$.\r\n\r\n三棱柱的另一底面由平移向量 $\\overrightarrow{BB_1}=(p,q,0)$ 得到. 平面 $ABC$ 内的两个方向向量可取 $\\overrightarrow{BC}=(-p,q,0)$，$\\overrightarrow{BA}=(0,q,h)$，其一个法向量为 $\\mathbf{n}=(qh,ph,-pq)$. 因此两底面间的距离，即三棱柱的高为\r\n\n$$\nH=\\frac{\\left|\\overrightarrow{BB_1}\\cdot\\mathbf{n}\\right|}{|\\mathbf{n}|}=\\frac{2pqh}{\\sqrt{h^2(p^2+q^2)+p^2q^2}}=\\frac{\\sqrt3}{\\sqrt7}=\\frac{\\sqrt{21}}{7}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>菱形的两条对角线互相垂直且互相平分. 由 $O$ 是 $B_{1}C$ 的中点，且 $O$ 也是另一条对角线 $BC_{1}$ 的中点，得 $B_{1}C\\perp BC_{1}$. 又因 $AO\\perp$ 平面 $BB_{1}C_{1}C$，所以 $AO\\perp B_{1}C$. 由于 $O$ 在 $BC_{1}$ 上，直线 $BO$ 与 $BC_{1}$ 重合，因此直线 $AO$ 与 $BO$ 相交于 $O$，且二者都垂直于 $B_{1}C$. 故 $B_{1}C\\perp$ 平面 $ABO$，从而 $B_{1}C\\perp AB$.</p></li><li><p>取侧面所在平面为 $xy$ 平面，以两条互相垂直的菱形对角线为坐标轴，并令 $O$ 为原点. 设 $B_{1}=(p,0,0)$，$C=(-p,0,0)$，$B=(0,-q,0)$，则 $p$，$q>0$，且 $p^{2}+q^{2}=BC^{2}=1$. 由 $\\angle CBB_{1}=60^{\\circ}$，有</p>\n$$\n\\frac{(-p,q,0)\\cdot(p,q,0)}{1\\times1}=q^{2}-p^{2}=\\cos60^{\\circ}=\\frac{1}{2}\n$$\n<p>故 $p^{2}=\\dfrac{1}{4}$，$q^{2}=\\dfrac{3}{4}$. 由 $AO\\perp$ 该平面，设 $A=(0,0,h)$，其中 $h>0$. 条件 $AC\\perp AB_{1}$ 给出 $(-p,0,-h)\\cdot(p,0,-h)=h^{2}-p^{2}=0$，所以 $h=\\dfrac{1}{2}$.</p><p>三棱柱的另一底面由平移向量 $\\overrightarrow{BB_1}=(p,q,0)$ 得到. 平面 $ABC$ 内的两个方向向量可取 $\\overrightarrow{BC}=(-p,q,0)$，$\\overrightarrow{BA}=(0,q,h)$，其一个法向量为 $\\mathbf{n}=(qh,ph,-pq)$. 因此两底面间的距离，即三棱柱的高为</p>\n$$\nH=\\frac{\\left|\\overrightarrow{BB_1}\\cdot\\mathbf{n}\\right|}{|\\mathbf{n}|}=\\frac{2pqh}{\\sqrt{h^{2}(p^{2}+q^{2})+p^{2}q^{2}}}=\\frac{\\sqrt{3}}{\\sqrt{7}}=\\frac{\\sqrt{21}}{7}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "已知点 $P(2,2)$，圆 $C: x^{2} + y^{2} - 8y = 0$，过点 $P$ 的动直线 $l$ 与圆 $C$ 交于 $A$，$B$ 两点. 线段 $AB$ 的中点为 $M$，$O$ 为坐标原点.\r\n\r\n\n(1) 求 $M$ 的轨迹方程；\n\n(2) 当 $|OP| = |OM|$ 时，求 $l$ 的方程及 $\\triangle POM$ 的面积.",
-          "choices": [],
+          "body": "<p>已知点 $P(2,2)$，圆 $C: x^{2}+ y^{2}- 8y = 0$，过点 $P$ 的动直线 $l$ 与圆 $C$ 交于 $A$，$B$ 两点. 线段 $AB$ 的中点为 $M$，$O$ 为坐标原点.</p><ol class=\"enumerate\"><li><p>求 $M$ 的轨迹方程；</p></li><li><p>当 $|OP| = |OM|$ 时，求 $l$ 的方程及 $\\triangle POM$ 的面积.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 圆 $C$ 的方程为 $x^2+(y-4)^2=16$，圆心记为 $O_1=(0,4)$. 设 $M=(x,y)$，则圆心与弦中点的连线垂直于弦，故 $\\overrightarrow{O_1M}\\perp\\overrightarrow{PM}$. 于是 $(x,y-4)\\cdot(x-2,y-2)=0$，即 $x(x-2)+(y-4)(y-2)=0$，整理得 $(x-1)^2+(y-3)^2=2$. 反之，该圆的圆心为 $N=(1,3)$，半径为 $\\sqrt{2}$，且 $\\lvert O_1N\\rvert+\\sqrt{2}=2\\sqrt{2}<4$，所以圆上的每个点都在原圆内部. 当 $M\\ne P$ 时，等式给出 $O_1M\\perp PM$，故直线 $PM$ 与原圆的交点以 $M$ 为中点；当 $M=P$ 时，过 $P$ 作垂直于 $O_1P$ 的直线，该直线与原圆交于两个点且以 $P$ 为弦中点. 因此 $M$ 的轨迹方程为 $(x-1)^2+(y-3)^2=2$.\n\n(2) 记轨迹圆的圆心为 $N=(1,3)$. 由于题目要求 $\\triangle POM$，取非退化情形 $M\\ne P$；若允许退化情形，则 $M=P$ 时的直线为 $y=x$，所得三点不构成题目所称的三角形. 由 $|OP|=|OM|$，点 $O$ 在 $PM$ 的垂直平分线上；又因 $P$，$M$ 都在以 $N$ 为圆心的轨迹圆上，点 $N$ 也在该垂直平分线上. 因为 $P\\ne M$，这条垂直平分线就是直线 $ON$，所以 $ON\\perp PM$. 直线 $ON$ 的斜率为 $3$，故直线 $l=PM$ 的斜率为 $-\\dfrac13$，且过 $P(2,2)$，从而 $l$ 的方程为 $x+3y-8=0$.\r\n\r\n$|OP|=2\\sqrt2$，点 $O$ 到直线 $l$ 的距离为 $\\dfrac8{\\sqrt{10}}=\\dfrac{4\\sqrt{10}}5$，点 $N$ 到直线 $l$ 的距离为 $\\dfrac2{\\sqrt{10}}=\\dfrac{\\sqrt{10}}5$. 因此弦 $PM$ 的长为 $2\\sqrt{2-\\left(\\dfrac{\\sqrt{10}}5\\right)^2}=\\dfrac{4\\sqrt{10}}5$. 所以 $\\triangle POM$ 的面积为 $\\dfrac12\\times\\dfrac{4\\sqrt{10}}5\\times\\dfrac{4\\sqrt{10}}5=\\dfrac{16}{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>圆 $C$ 的方程为 $x^{2}+(y-4)^{2}=16$，圆心记为 $O_{1}=(0,4)$. 设 $M=(x,y)$，则圆心与弦中点的连线垂直于弦，故 $\\overrightarrow{O_1M}\\perp\\overrightarrow{PM}$. 于是 $(x,y-4)\\cdot(x-2,y-2)=0$，即 $x(x-2)+(y-4)(y-2)=0$，整理得 $(x-1)^{2}+(y-3)^{2}=2$. 反之，该圆的圆心为 $N=(1,3)$，半径为 $\\sqrt{2}$，且 $\\lvert O_{1}N\\rvert+\\sqrt{2}=2\\sqrt{2}&#x3C;4$，所以圆上的每个点都在原圆内部. 当 $M\\ne P$ 时，等式给出 $O_{1}M\\perp PM$，故直线 $PM$ 与原圆的交点以 $M$ 为中点；当 $M=P$ 时，过 $P$ 作垂直于 $O_{1}P$ 的直线，该直线与原圆交于两个点且以 $P$ 为弦中点. 因此 $M$ 的轨迹方程为 $(x-1)^{2}+(y-3)^{2}=2$.</p></li><li><p>记轨迹圆的圆心为 $N=(1,3)$. 由于题目要求 $\\triangle POM$，取非退化情形 $M\\ne P$；若允许退化情形，则 $M=P$ 时的直线为 $y=x$，所得三点不构成题目所称的三角形. 由 $|OP|=|OM|$，点 $O$ 在 $PM$ 的垂直平分线上；又因 $P$，$M$ 都在以 $N$ 为圆心的轨迹圆上，点 $N$ 也在该垂直平分线上. 因为 $P\\ne M$，这条垂直平分线就是直线 $ON$，所以 $ON\\perp PM$. 直线 $ON$ 的斜率为 $3$，故直线 $l=PM$ 的斜率为 $-\\dfrac{1}{3}$，且过 $P(2,2)$，从而 $l$ 的方程为 $x+3y-8=0$.</p><p>$|OP|=2\\sqrt{2}$，点 $O$ 到直线 $l$ 的距离为 $\\dfrac8{\\sqrt{10}}=\\dfrac{4\\sqrt{10}}5$，点 $N$ 到直线 $l$ 的距离为 $\\dfrac2{\\sqrt{10}}=\\dfrac{\\sqrt{10}}5$. 因此弦 $PM$ 的长为 $2\\sqrt{2-\\left(\\dfrac{\\sqrt{10}}5\\right)^{2}}=\\dfrac{4\\sqrt{10}}5$. 所以 $\\triangle POM$ 的面积为 $\\dfrac{1}{2}\\times\\dfrac{4\\sqrt{10}}5\\times\\dfrac{4\\sqrt{10}}5=\\dfrac{16}{5}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "设函数 $f(x) = a \\ln x + \\frac{1 - a}{2} x^2 - bx$（$a \\neq 1$），曲线 $y = f(x)$ 在点 $(1,f(1))$ 处的切线斜率为 $0$.\r\n\r\n\n(1) 求 $b$；\n\n(2) 若存在 $x_0 \\ge 1$ 使得 $f(x_0) < \\frac{a}{a - 1}$，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = a \\ln x + \\frac{1 - a}{2}x^{2} - bx$（$a \\neq 1$），曲线 $y = f(x)$ 在点 $(1,f(1))$ 处的切线斜率为 $0$.</p><ol class=\"enumerate\"><li><p>求 $b$；</p></li><li><p>若存在 $x_{0} \\ge 1$ 使得 $f(x_{0}) &#x3C; \\frac{a}{a - 1}$，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 函数定义域为 $x>0$，且 $f'(x)=\\dfrac{a}{x}+(1-a)x-b$. 切线斜率为 $0$ 给出 $f'(1)=a+1-a-b=0$，所以 $b=1$.\n\n(2) 代入 $b=1$，得 $f(x)=a\\ln x+\\dfrac{1-a}{2}x^2-x$，并且\r\n\n$$\nf'(x)=\\frac{a+(1-a)x^2-x}{x}=\\frac{(x-1)((1-a)x-a)}{x}\n$$\n\r\n当 $a>1$ 时，对一切 $x>1$ 有 $(1-a)x-a<0$，故 $f$ 在 $[1,+\\infty)$ 上递减且趋于负无穷，必存在满足条件的 $x_0$.\r\n\r\n当 $a<1$ 时，$f(x)$ 在 $x\\to+\\infty$ 时趋于正无穷. 若 $a\\le\\dfrac12$，则 $(1-a)x-a\\geqslant1-2a\\geqslant0$（$x\\geqslant1$），所以 $f$ 在 $[1,+\\infty)$ 上递增，最小值为 $f(1)=-\\dfrac{a+1}{2}$. 此时存在所求 $x_0$ 的条件为\r\n\n$$\nf(1)-\\frac{a}{a-1}=\\frac{1-2a-a^2}{2(a-1)}<0\n$$\n\r\n由于 $a-1<0$，这等价于 $a^2+2a-1<0$，即 $-\\sqrt2-1<a<\\sqrt2-1$.\r\n\r\n若 $\\dfrac12<a<1$，则 $f$ 在 $x_* =\\dfrac{a}{1-a}>1$ 处取得最小值. 直接代入得\r\n\n$$\nf(x_*)-\\frac{a}{a-1}=a\\left(\\ln\\frac{a}{1-a}+\\frac{a}{2(1-a)}\\right)>0\n$$\n\r\n所以不存在满足条件的 $x_0$. 结合 $a\\neq1$，所求范围为 $(-\\sqrt2-1,\\sqrt2-1)\\cup(1,+\\infty)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>函数定义域为 $x>0$，且 $f'(x)=\\dfrac{a}{x}+(1-a)x-b$. 切线斜率为 $0$ 给出 $f'(1)=a+1-a-b=0$，所以 $b=1$.</p></li><li><p>代入 $b=1$，得 $f(x)=a\\ln x+\\dfrac{1-a}{2}x^{2}-x$，并且</p>\n$$\nf'(x)=\\frac{a+(1-a)x^{2}-x}{x}=\\frac{(x-1)((1-a)x-a)}{x}\n$$\n<p>当 $a>1$ 时，对一切 $x>1$ 有 $(1-a)x-a&#x3C;0$，故 $f$ 在 $[1,+\\infty)$ 上递减且趋于负无穷，必存在满足条件的 $x_{0}$.</p><p>当 $a&#x3C;1$ 时，$f(x)$ 在 $x\\to+\\infty$ 时趋于正无穷. 若 $a\\le\\dfrac{1}{2}$，则 $(1-a)x-a\\geqslant1-2a\\geqslant0$（$x\\geqslant1$），所以 $f$ 在 $[1,+\\infty)$ 上递增，最小值为 $f(1)=-\\dfrac{a+1}{2}$. 此时存在所求 $x_{0}$ 的条件为</p>\n$$\nf(1)-\\frac{a}{a-1}=\\frac{1-2a-a^{2}}{2(a-1)}&#x3C;0\n$$\n<p>由于 $a-1&#x3C;0$，这等价于 $a^{2}+2a-1&#x3C;0$，即 $-\\sqrt{2}-1&#x3C;a&#x3C;\\sqrt{2}-1$.</p><p>若 $\\dfrac{1}{2}&#x3C;a&#x3C;1$，则 $f$ 在 $x_{*} =\\dfrac{a}{1-a}>1$ 处取得最小值. 直接代入得</p>\n$$\nf(x_{*})-\\frac{a}{a-1}=a\\left(\\ln\\frac{a}{1-a}+\\frac{a}{2(1-a)}\\right)>0\n$$\n<p>所以不存在满足条件的 $x_{0}$. 结合 $a\\neq1$，所求范围为 $(-\\sqrt{2}-1,\\sqrt{2}-1)\\cup(1,+\\infty)$.</p></li></ol>"
         }
       ]
     },
@@ -420,33 +231,26 @@
       "problems": [
         {
           "num": 22,
-          "body": "如图，四边形 $ABCD$ 是 $\\odot O$ 的内接四边形，$AB$ 的延长线与 $DC$ 的延长线交于点 $E$，且 $CB = CE$.\r\n\r\n\n(1) 证明：$\\angle D = \\angle E$；\n\n(2) 设 $AD$ 不是 $\\odot O$ 的直径，$AD$ 的中点为 $M$，且 $MB = MC$，证明 $\\triangle ADE$ 为等边三角形.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2014/img/new_curriculum_paper_1_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，四边形 $ABCD$ 是 $\\odot O$ 的内接四边形，$AB$ 的延长线与 $DC$ 的延长线交于点 $E$，且 $CB = CE$.</p><ol class=\"enumerate\"><li><p>证明：$\\angle D = \\angle E$；</p></li><li><p>设 $AD$ 不是 $\\odot O$ 的直径，$AD$ 的中点为 $M$，且 $MB = MC$，证明 $\\triangle ADE$ 为等边三角形.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_paper_1_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $\\angle ADC=\\delta$. 四边形 $ABCD$ 内接，所以对角互补，$\\angle ABC+\\angle ADC=180^\\circ$. 又因 $A$，$B$，$E$ 共线，$\\angle CBE=180^\\circ-\\angle ABC=\\delta$. 在等腰三角形 $CBE$ 中，$CB=CE$，故 $\\angle BEC=\\angle CBE=\\delta$. 而 $D$，$C$，$E$ 共线，题图中的 $\\angle E$ 即 $\\angle BEC$，从而 $\\angle D=\\angle E$.\n\n(2) 设 $O$ 为圆心. 由于 $OB=OC$ 且 $MB=MC$，点 $O$，$M$ 都在 $BC$ 的垂直平分线上. 若 $O=M$，则圆心在弦 $AD$ 上，$AD$ 是直径，与条件矛盾，所以 $O\\ne M$，从而 $OM\\perp BC$. 又因 $M$ 是弦 $AD$ 的中点，$OM\\perp AD$，故 $AD\\parallel BC$.\r\n\r\n由第一问设 $\\angle D=\\angle E=\\delta$. 在等腰三角形 $BCE$ 中，$\\angle CBE=\\angle BEC=\\delta$，所以 $\\angle BCE=180^\\circ-2\\delta$. 因 $AD\\parallel BC$，且 $D$，$C$，$E$ 共线，有 $\\angle ADE=\\angle BCE=180^\\circ-2\\delta$. 另一方面，$D$，$C$，$E$ 共线又给出 $\\angle ADE=\\angle ADC=\\delta$，所以 $\\delta=180^\\circ-2\\delta$，即 $\\delta=60^\\circ$. 再由 $AD\\parallel BC$ 和 $A$，$B$，$E$ 共线，得 $\\angle DAE=\\angle CBE=60^\\circ$. 于是三角形 $ADE$ 的两个内角均为 $60^\\circ$，第三个内角也为 $60^\\circ$，所以 $\\triangle ADE$ 为等边三角形.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $\\angle ADC=\\delta$. 四边形 $ABCD$ 内接，所以对角互补，$\\angle ABC+\\angle ADC=180^{\\circ}$. 又因 $A$，$B$，$E$ 共线，$\\angle CBE=180^{\\circ}-\\angle ABC=\\delta$. 在等腰三角形 $CBE$ 中，$CB=CE$，故 $\\angle BEC=\\angle CBE=\\delta$. 而 $D$，$C$，$E$ 共线，题图中的 $\\angle E$ 即 $\\angle BEC$，从而 $\\angle D=\\angle E$.</p></li><li><p>设 $O$ 为圆心. 由于 $OB=OC$ 且 $MB=MC$，点 $O$，$M$ 都在 $BC$ 的垂直平分线上. 若 $O=M$，则圆心在弦 $AD$ 上，$AD$ 是直径，与条件矛盾，所以 $O\\ne M$，从而 $OM\\perp BC$. 又因 $M$ 是弦 $AD$ 的中点，$OM\\perp AD$，故 $AD\\parallel BC$.</p><p>由第一问设 $\\angle D=\\angle E=\\delta$. 在等腰三角形 $BCE$ 中，$\\angle CBE=\\angle BEC=\\delta$，所以 $\\angle BCE=180^{\\circ}-2\\delta$. 因 $AD\\parallel BC$，且 $D$，$C$，$E$ 共线，有 $\\angle ADE=\\angle BCE=180^{\\circ}-2\\delta$. 另一方面，$D$，$C$，$E$ 共线又给出 $\\angle ADE=\\angle ADC=\\delta$，所以 $\\delta=180^{\\circ}-2\\delta$，即 $\\delta=60^{\\circ}$. 再由 $AD\\parallel BC$ 和 $A$，$B$，$E$ 共线，得 $\\angle DAE=\\angle CBE=60^{\\circ}$. 于是三角形 $ADE$ 的两个内角均为 $60^{\\circ}$，第三个内角也为 $60^{\\circ}$，所以 $\\triangle ADE$ 为等边三角形.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "已知曲线 $C: \\frac{x^2}{4} + \\frac{y^2}{9} = 1$，直线 $l: \\begin{cases}\r\nx = 2 + t,\\\\\r\ny = 2 - 2t,\r\n\\end{cases}$ （$t$ 为参数）.\r\n\r\n\n(1) 写出曲线 $C$ 的参数方程，直线 $l$ 的普通方程；\n\n(2) 过曲线 $C$ 上任一点 $P$ 作与 $l$ 夹角为 $30^{\\circ}$ 的直线，交 $l$ 于点 $A$，求 $|PA|$ 的最大值与最小值.",
-          "choices": [],
+          "body": "<p>已知曲线 $C: \\frac{x^{2}}{4}+ \\frac{y^{2}}{9}= 1$，直线 $l: \\begin{cases}x = 2 + t,\\\\  y = 2 - 2t,\\end{cases}$ （$t$ 为参数）.</p><ol class=\"enumerate\"><li><p>写出曲线 $C$ 的参数方程，直线 $l$ 的普通方程；</p></li><li><p>过曲线 $C$ 上任一点 $P$ 作与 $l$ 夹角为 $30^{\\circ}$ 的直线，交 $l$ 于点 $A$，求 $|PA|$ 的最大值与最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 椭圆的参数方程可取 $x=2\\cos\\theta$，$y=3\\sin\\theta$，其中 $\\theta$ 为参数. 由直线参数方程得 $t=x-2$，代入 $y=2-2t$ 得 $y=6-2x$，所以直线的普通方程为 $2x+y-6=0$.\n\n(2) 设 $P=(2\\cos\\theta,3\\sin\\theta)$. 点 $P$ 到直线 $l$ 的距离为\r\n\n$$\nd=\\frac{|4\\cos\\theta+3\\sin\\theta-6|}{\\sqrt5}\n$$\n\r\n因为 $4\\cos\\theta+3\\sin\\theta\\le\\sqrt{4^2+3^2}=5<6$，所以 $d=\\dfrac{6-4\\cos\\theta-3\\sin\\theta}{\\sqrt5}$. 直线 $PA$ 与 $l$ 的夹角为 $30^\\circ$，故 $d=|PA|\\sin30^\\circ=\\dfrac{|PA|}{2}$，从而 $|PA|=\\dfrac{12-8\\cos\\theta-6\\sin\\theta}{\\sqrt5}$. 又 $-10\\leqslant8\\cos\\theta+6\\sin\\theta\\leqslant10$，所以 $\\dfrac{2}{\\sqrt5}\\le|PA|\\le\\dfrac{22}{\\sqrt5}$. 因此最大值为 $\\dfrac{22\\sqrt5}{5}$，最小值为 $\\dfrac{2\\sqrt5}{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>椭圆的参数方程可取 $x=2\\cos\\theta$，$y=3\\sin\\theta$，其中 $\\theta$ 为参数. 由直线参数方程得 $t=x-2$，代入 $y=2-2t$ 得 $y=6-2x$，所以直线的普通方程为 $2x+y-6=0$.</p></li><li><p>设 $P=(2\\cos\\theta,3\\sin\\theta)$. 点 $P$ 到直线 $l$ 的距离为</p>\n$$\nd=\\frac{|4\\cos\\theta+3\\sin\\theta-6|}{\\sqrt{5}}\n$$\n<p>因为 $4\\cos\\theta+3\\sin\\theta\\le\\sqrt{4^{2}+3^{2}}=5&#x3C;6$，所以 $d=\\dfrac{6-4\\cos\\theta-3\\sin\\theta}{\\sqrt{5}}$. 直线 $PA$ 与 $l$ 的夹角为 $30^{\\circ}$，故 $d=|PA|\\sin30^{\\circ}=\\dfrac{|PA|}{2}$，从而 $|PA|=\\dfrac{12-8\\cos\\theta-6\\sin\\theta}{\\sqrt{5}}$. 又 $-10\\leqslant8\\cos\\theta+6\\sin\\theta\\leqslant10$，所以 $\\dfrac{2}{\\sqrt{5}}\\le|PA|\\le\\dfrac{22}{\\sqrt{5}}$. 因此最大值为 $\\dfrac{22\\sqrt{5}}{5}$，最小值为 $\\dfrac{2\\sqrt{5}}{5}$.</p></li></ol>"
         },
         {
           "num": 24,
-          "body": "若 $a > 0$，$b > 0$，且 $\\frac{1}{a} + \\frac{1}{b} = \\sqrt{ab}$.\r\n\r\n\n(1) 求 $a^{3} + b^{3}$ 的最小值；\n\n(2) 是否存在 $a$，$b$，使得 $2a + 3b = 6$？并说明理由.",
-          "choices": [],
+          "body": "<p>若 $a > 0$，$b > 0$，且 $\\frac{1}{a}+ \\frac{1}{b}= \\sqrt{ab}$.</p><ol class=\"enumerate\"><li><p>求 $a^{3}+ b^{3}$ 的最小值；</p></li><li><p>是否存在 $a$，$b$，使得 $2a + 3b = 6$？并说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 令 $p=\\sqrt{ab}>0$. 原条件等价于 $a+b=(ab)^{\\frac{3}{2}}=p^3$. 由基本不等式 $a+b\\geqslant2\\sqrt{ab}=2p$，得 $p^2\\geqslant2$，即 $p\\ge\\sqrt2$. 又\r\n\n$$\na^3+b^3=(a+b)^3-3ab(a+b)=p^9-3p^5\n$$\n\r\n在 $p\\ge\\sqrt2$ 时，函数 $p^9-3p^5$ 的导数为 $3p^4(3p^4-5)>0$，所以最小值在 $p=\\sqrt2$ 时取得. 此时 $a+b=2\\sqrt2$，$ab=2$，由等号条件得 $a=b=\\sqrt2$，故 $a^3+b^3=4\\sqrt2$.\n\n(2) 若另有 $2a+3b=6$，则 $b=\\dfrac{6-2a}{3}$，且 $0<a<3$. 于是\r\n\n$$\nab=2a-\\frac23a^2=\\frac32-\\frac23\\left(a-\\frac32\\right)^2\\le\\frac32<2\n$$\n\r\n但由原条件已经推出 $ab=p^2\\geqslant2$，矛盾. 因此不存在满足条件的正数 $a$，$b$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>令 $p=\\sqrt{ab}>0$. 原条件等价于 $a+b=(ab)^{\\frac{3}{2}}=p^{3}$. 由基本不等式 $a+b\\geqslant2\\sqrt{ab}=2p$，得 $p^{2}\\geqslant2$，即 $p\\ge\\sqrt{2}$. 又</p>\n$$\na^{3}+b^{3}=(a+b)^{3}-3ab(a+b)=p^{9}-3p^{5}\n$$\n<p>在 $p\\ge\\sqrt{2}$ 时，函数 $p^{9}-3p^{5}$ 的导数为 $3p^{4}(3p^{4}-5)>0$，所以最小值在 $p=\\sqrt{2}$ 时取得. 此时 $a+b=2\\sqrt{2}$，$ab=2$，由等号条件得 $a=b=\\sqrt{2}$，故 $a^{3}+b^{3}=4\\sqrt{2}$.</p></li><li><p>若另有 $2a+3b=6$，则 $b=\\dfrac{6-2a}{3}$，且 $0&#x3C;a&#x3C;3$. 于是</p>\n$$\nab=2a-\\frac{2}{3}a^{2}=\\frac{3}{2}-\\frac{2}{3}\\left(a-\\frac{3}{2}\\right)^{2}\\le\\frac{3}{2}&#x3C;2\n$$\n<p>但由原条件已经推出 $ab=p^{2}\\geqslant2$，矛盾. 因此不存在满足条件的正数 $a$，$b$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

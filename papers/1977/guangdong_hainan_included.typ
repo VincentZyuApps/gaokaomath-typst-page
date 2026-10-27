@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -13,207 +13,233 @@
 #problem(1)[
 计算.
 
-+ (1) $(-3)^2-(-1(1)/(2))^3 times (2)/(9)-6\div|-(2)/(3)|$.
-+ (2) $(x^2+2 x+1)/(x^3-x) dot (x)/(x+1)-(1)/(x+1)$.
-+ (3) $(sqrt(20))/(8)-sqrt((9)/(5))+(5)/(sqrt(45))$.
+
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 因为 $(-3)^2=9$，$(-1(1)/(2))^3=(-(3)/(2))^3=-(27)/(8)$，且 $|-(2)/(3)|=(2)/(3)$，所以原式
-
-$ 9-(-(27)/(8)) times (2)/(9)-6\div(2)/(3)=9+(3)/(4)-9=(3)/(4) $
-+ (2) 原式有意义要求 $x^3-x != 0$ 且 $x+1 != 0$. 因为 $x^3-x=x(x-1)(x+1)$，所以定义条件为 $x != -1$、$x != 0$ 且 $x != 1$. 在此条件下，原式
-
-$ \b e g i n{g a t h e r e d} ((x+1)^2)/(x(x-1)(x+1)) dot (x)/(x+1)-(1)/(x+1)\\ =(1)/(x-1)-(1)/(x+1)=((x+1)-(x-1))/((x-1)(x+1))=(2)/(x^2-1). \e n d{g a t h e r e d} $
-
-因此化简结果为 $(2)/(x^2-1)$，定义条件仍为 $x != -1$、$x != 0$ 且 $x != 1$.
-+ (3) 因为 $sqrt(20)=2 sqrt(5)$，所以 $(sqrt(20))/(8)=(sqrt(5))/(4)$；又 $sqrt((9)/(5))=(3 sqrt(5))/(5)$，且
-$(5)/(sqrt(45))=(5)/(3 sqrt(5))=(sqrt(5))/(3)$. 因此原式
-
-$ (sqrt(5))/(4)-(3 sqrt(5))/(5)+(sqrt(5))/(3)=(15 sqrt(5)-36 sqrt(5)+20 sqrt(5))/(60)=-(sqrt(5))/(60) $
++ (1) 
++ (2)
 ]
 
 #problem(2)[
-解方程：$(x+3)/(x+2)+(x+1)/(x-2)-1=0$，并检验所得的结果是否是原方程的根.
+解方程：#mi(`\frac{x+3}{x+2}+\frac{x+1}{x-2}-1=0`)，并检验所得的结果是否是原方程的根.
 ]
 
 #solution[
-原方程的分母不能为零，所以必须有 $x != -2$ 且 $x != 2$. 在这个条件下，$(x+2)(x-2) != 0$，原方程两边同乘这个非零因式，得
+原方程的分母不能为零，所以必须有 #mi(`x\ne-2`) 且 #mi(`x\ne2`). 在这个条件下，#mi(`\left(x+2\right)\left(x-2\right)\ne0`)，原方程两边同乘这个非零因式，得
 
-$ (x+3)(x-2)+(x+1)(x+2)-(x+2)(x-2)=0 $
+
+#align(center)[#mitex(`
+\left(x+3\right)\left(x-2\right)+\left(x+1\right)\left(x+2\right)-\left(x+2\right)\left(x-2\right)=0
+`)]
+
 
 展开并合并同类项，得
 
-$ x^2+x-6+x^2+3 x+2-x^2+4=x^2+4 x=x(x+4)=0 $
 
-所以候选值为 $x=0$ 或 $x=-4$. 两者都不等于限制值 $-2$ 和 $2$，代入原方程时各分母均非零；同时，上述同乘非零因式的变形是等价变形. 因此 $x=0$ 和 $x=-4$ 都是原方程的根，原方程的解为 $x=0$，$x=-4$.
+#align(center)[#mitex(`
+x^{2}+x-6+x^{2}+3x+2-x^{2}+4=x^{2}+4x=x\left(x+4\right)=0
+`)]
+
+
+所以候选值为 #mi(`x=0`) 或 #mi(`x=-4`). 两者都不等于限制值 #mi(`-2`) 和 #mi(`2`)，代入原方程时各分母均非零；同时，上述同乘非零因式的变形是等价变形. 因此 #mi(`x=0`) 和 #mi(`x=-4`) 都是原方程的根，原方程的解为 #mi(`x=0`)，#mi(`x=-4`).
 ]
 
 #problem(3)[
 计算.
 
-+ (1) $((1)/(2))^(-1)-4 times (-2)^(-3)+((1)/(2))^0-9^(-(1)/(2))$.
-+ (2) $2\l g(a^((1)/(3))b^2)-\l g(sqrt(b))/(8)-3\l g2$，其中 $\l g a=0.33$，$\l g b=0.22$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 由负整数指数幂和零指数幂的定义，$((1)/(2))^(-1)=2$，$(-2)^(-3)=-(1)/(8)$，$((1)/(2))^0=1$，$9^(-(1)/(2))=(1)/(sqrt(9))=(1)/(3)$. 所以原式
-
-$ 2-4 times (-(1)/(8))+1-(1)/(3)=2+(1)/(2)+1-(1)/(3)=(19)/(6)=3(1)/(6) $
-+ (2) 对数式有意义时，必须有 $a>0$ 且 $b>0$. 由对数的积、商和幂运算法则，$\l g8=3\l g2$，从而原式
-
-$ \b e g i n{g a t h e r e d} 2((1)/(3)\l g a+2\l g b)-((1)/(2)\l g b-\l g8)-3\l g2 \\ =(2)/(3)\l g a+4\l g b-(1)/(2)\l g b+3\l g2-3\l g2 \\ =(2)/(3)\l g a+(7)/(2)\l g b. \e n d{g a t h e r e d} $
-
-代入 $\l g a=0.33$ 和 $\l g b=0.22$，得原式
-
-$ (2)/(3) times 0 .33+(7)/(2) times 0 .22=0.22+0.77=0.99 $
++ (1)
 ]
 
 #problem(4)[
-证明恒等式：$((1)/(cos x)+1)((1)/(cos x)-1) cot x= tan x$.
+证明恒等式：#mi(`\left(\frac{1}{\cos x}+1\right)\left(\frac{1}{\cos x}-1\right)\cot x=\tan x`).
 ]
 
 #solution[
-左边有意义要求 $cos x != 0$ 且 $sin x != 0$，右边的 $tan x$ 也要求 $cos x != 0$. 因此在等式两边都有意义的范围内，可以使用 $cot x=(cos x)/(sin x)$ 和 $1- cos ""^(2) x= sin ""^(2) x$. 于是左边
+左边有意义要求 #mi(`\cos x\ne0`) 且 #mi(`\sin x\ne0`)，右边的 #mi(`\tan x`) 也要求 #mi(`\cos x\ne0`). 因此在等式两边都有意义的范围内，可以使用 #mi(`\cot x=\frac{\cos x}{\sin x}`) 和 #mi(`1-\cos^{2}x=\sin^{2}x`). 于是左边
 
-$ \b e g i n{g a t h e r e d} ((1)/(cos x)+1)((1)/(cos x)-1) cot x =(1+ cos x)/(cos x) dot (1- cos x)/(cos x) dot (cos x)/(sin x)\\ =(1- cos ""^(2) x)/(cos x sin x)=(sin ""^(2) x)/(cos x sin x)=(sin x)/(cos x)= tan x. \e n d{g a t h e r e d} $
+
+#align(center)[#mitex(`
+\begin{gathered}\left(\frac{1}{\cos x}+1\right)\left(\frac{1}{\cos x}-1\right)\cot x
+
+=\frac{1+\cos x}{\cos x}\cdot\frac{1-\cos x}{\cos x}\cdot\frac{\cos x}{\sin x} \\
+
+=\frac{1-\cos^{2}x}{\cos x\sin x}=\frac{\sin^{2}x}{\cos x\sin x}=\frac{\sin x}{\cos x}=\tan x.\end{gathered}
+`)]
+
 
 所以在原定义域内左边恒等于右边，恒等式得证.
 ]
 
 #problem(5)[
-已知小山上的电视发射塔 $A B$ 的高是 $50" 米"$，自山下地面的 $C$ 点测得塔底 $B$ 的仰角是 $40^ degree$，塔顶 $A$ 的仰角是 $70^ degree$，求小山 $B D$ 的高. （精确到 $0.01" 米"$，且 $sin 40 ""^ degree =0.643$，$sin 20 ""^ degree =0.342$）
+已知小山上的电视发射塔 #mi(`AB`) 的高是 #mi(`50\text{ \text{米}}`)，自山下地面的 #mi(`C`) 点测得塔底 #mi(`B`) 的仰角是 #mi(`40^{\circ}`)，塔顶 #mi(`A`) 的仰角是 #mi(`70^{\circ}`)，求小山 #mi(`BD`) 的高. （精确到 #mi(`0.01\text{ \text{米}}`)，且 #mi(`\sin40^{\circ}=0.643`)，#mi(`\sin20^{\circ}=0.342`)）
 
-
-#align(center)[#image("/papers/1977/img/guangdong_hainan_included/q5_fig1.png", width: 6.0cm)]
+[max width=6.0cm]img/1977/guangdong_hainan_included/q5_fig1.png
 ]
 
 #solution[
-由图可知 $A$、$B$、$D$ 共线，且 $C D$ 为水平线，$A D bot C D$. 在直角三角形 $A C D$ 中，$angle A C D=70^ degree$，所以
-$angle C A D=180^ degree -90^ degree -70^ degree =20^ degree$. 因为 $A$、$B$、$D$ 共线，所以 $angle C A B=20^ degree$. 两条视线 $C A$ 和 $C B$ 与水平线的仰角分别为 $70^ degree$ 和 $40^ degree$，故 $angle A C B=70^ degree -40^ degree =30^ degree$.
+由图可知 #mi(`A`)、#mi(`B`)、#mi(`D`) 共线，且 #mi(`CD`) 为水平线，#mi(`AD\perp CD`). 在直角三角形 #mi(`ACD`) 中，#mi(`\angle ACD=70^{\circ}`)，所以
 
-在三角形 $A B C$ 中，由正弦定理，$A B$ 对应 $angle A C B$，$B C$ 对应 $angle C A B$，于是
+#mi(`\angle CAD=180^{\circ}-90^{\circ}-70^{\circ}=20^{\circ}`). 因为 #mi(`A`)、#mi(`B`)、#mi(`D`) 共线，所以 #mi(`\angle CAB=20^{\circ}`). 两条视线 #mi(`CA`) 和 #mi(`CB`) 与水平线的仰角分别为 #mi(`70^{\circ}`) 和 #mi(`40^{\circ}`)，故 #mi(`\angle ACB=70^{\circ}-40^{\circ}=30^{\circ}`).
 
-$ B C=(A B sin 20 ""^ degree)/(sin 30 ""^ degree)=(50 sin 20 ""^ degree)/((1)/(2))=100 sin 20 ""^ degree $
+在三角形 #mi(`ABC`) 中，由正弦定理，#mi(`AB`) 对应 #mi(`\angle ACB`)，#mi(`BC`) 对应 #mi(`\angle CAB`)，于是
 
-在直角三角形 $B D C$ 中，$angle B C D=40^ degree$，所以
 
-$ B D=B C sin 40 ""^ degree =100 sin 20 ""^ degree sin 40 ""^ degree =100 times 0 .342 times 0 .643=21.9906" 米" $
+#align(center)[#mitex(`
+BC=\frac{AB\sin20^{\circ}}{\sin30^{\circ}}=\frac{50\sin20^{\circ}}{\frac{1}{2}}=100\sin20^{\circ}
+`)]
 
-按题意精确到 $0.01" 米"$，得 $B D approx 21 .99" 米"$. 因此小山 $B D$ 的高约为 $21.99" 米"$.
+
+在直角三角形 #mi(`BDC`) 中，#mi(`\angle BCD=40^{\circ}`)，所以
+
+
+#align(center)[#mitex(`
+BD=BC\sin40^{\circ}=100\sin20^{\circ}\sin40^{\circ}=100\times0.342\times0.643=21.9906\text{ \text{米}}
+`)]
+
+
+按题意精确到 #mi(`0.01\text{ \text{米}}`)，得 #mi(`BD\approx21.99\text{ \text{米}}`). 因此小山 #mi(`BD`) 的高约为 #mi(`21.99\text{ \text{米}}`).
 ]
 
 #problem(6)[
-如图，已知 $A E$ 和 $A F$ 是 $\o d o t O$ 的切线，$M$、$N$ 是切点，$E F$ 过圆心且垂直于 $A O$. 求证：$A E=A F$.
+如图，已知 #mi(`AE`) 和 #mi(`AF`) 是 #mi(`\odot O`) 的切线，#mi(`M`)、#mi(`N`) 是切点，#mi(`EF`) 过圆心且垂直于 #mi(`AO`). 求证：#mi(`AE=AF`).
 
-
-#align(center)[#image("/papers/1977/img/guangdong_hainan_included/q6_fig1.png", width: 4.8cm)]
+[max width=4.8cm]img/1977/guangdong_hainan_included/q6_fig1.png
 ]
 
 #solution[
-连接 $O M$、$O N$. 因为 $M$、$N$ 是切点，所以半径分别垂直于切线，即 $O M bot A E$、$O N bot A F$. 因此三角形 $O M A$ 和 $O N A$ 都是直角三角形，且斜边 $O A$ 是公共边，直角边 $O M=O N$（同圆半径相等），所以
+连接 #mi(`OM`)、#mi(`ON`). 因为 #mi(`M`)、#mi(`N`) 是切点，所以半径分别垂直于切线，即 #mi(`OM\perp AE`)、#mi(`ON\perp AF`). 因此三角形 #mi(`OMA`) 和 #mi(`ONA`) 都是直角三角形，且斜边 #mi(`OA`) 是公共边，直角边 #mi(`OM=ON`)（同圆半径相等），所以
 
-$ triangle O M A\c o n g triangle O N A $
 
-从而 $angle M A O= angle O A N$. 又因为 $A$、$M$、$E$ 共线，$A$、$N$、$F$ 共线，所以 $angle E A O= angle O A F$.
+#align(center)[#mitex(`
+\triangle OMA\cong\triangle ONA
+`)]
 
-由于 $E F bot A O$ 且 $O$ 在 $E F$ 上，$angle A O E= angle A O F=90^ degree$. 在三角形 $A O E$ 和 $A O F$ 中，$angle E A O= angle O A F$，$angle A O E= angle A O F$，且 $A O$ 为公共边，所以
 
-$ triangle A O E\c o n g triangle A O F $
+从而 #mi(`\angle MAO=\angle OAN`). 又因为 #mi(`A`)、#mi(`M`)、#mi(`E`) 共线，#mi(`A`)、#mi(`N`)、#mi(`F`) 共线，所以 #mi(`\angle EAO=\angle OAF`).
 
-因此对应边相等，得 $A E=A F$.
+由于 #mi(`EF\perp AO`) 且 #mi(`O`) 在 #mi(`EF`) 上，#mi(`\angle AOE=\angle AOF=90^{\circ}`). 在三角形 #mi(`AOE`) 和 #mi(`AOF`) 中，#mi(`\angle EAO=\angle OAF`)，#mi(`\angle AOE=\angle AOF`)，且 #mi(`AO`) 为公共边，所以
+
+
+#align(center)[#mitex(`
+\triangle AOE\cong\triangle AOF
+`)]
+
+
+因此对应边相等，得 #mi(`AE=AF`).
 ]
 
 #problem(7)[
-如果平面内一动点 $P$ 到点 $(-4,0)$ 的距离等于它到直线 $x=-(25)/(4)$ 的距离的 $(4)/(5)$，
+如果平面内一动点 #mi(`P`) 到点 #mi(`\left(-4,0\right)`) 的距离等于它到直线 #mi(`x=-\frac{25}{4}`) 的距离的 #mi(`\frac{4}{5}`)，
 
-+ (1) 求 $P$ 点的轨迹方程；
-+ (2) 这又是一条什么曲线？
+
++ (1)
 ]
 
 #solution[
-+ (1) 设动点 $P$ 的坐标为 $(x,y)$. 根据两点间距离公式，$P$ 到定点 $(-4,0)$ 的距离为 $sqrt((x+4)^2+y^2)$；根据点到直线的距离公式，$P$ 到直线 $x=-(25)/(4)$ 的距离为 $|x+(25)/(4)|$. 因此由题意得
-
-$ sqrt((x+4)^2+y^2)=(4)/(5)|x+(25)/(4)| $
-
-等式两边都非负，所以将两边平方是等价变形，不会引入增根. 平方并整理，得
-
-$ \b e g i n{g a t h e r e d} 25((x+4)^2+y^2)=16(x+(25)/(4))^2,\\ 25 x^2+200 x+400+25 y^2=16 x^2+200 x+625,\\ 9 x^2+25 y^2=225. \e n d{g a t h e r e d} $
-
-两边除以 $225$，得到轨迹方程
-
-$ (x^2)/(25)+(y^2)/(9)=1 $
-+ (2) 这个方程是椭圆的标准方程，且分母较大的 $25$ 对应 $x$ 项，所以它是以原点为中心、长半轴为 $5$、短半轴为 $3$ 的椭圆.
++ (1)
 ]
 
 #part-header("参考题")
 
 #problem(8)[
-方程组 $\b e g i n{c a s e s} x_1+3 x_2+2 x_3-x_4=1,\\ x_2-2 x_3+x_4=-1,\\ 2 x_1+x_3+2 x_4=0,\\ 2 x_2+a x_3-2 x_4=1 \e n d{c a s e s}$
+方程组 #mi(`\begin{cases}x_{1}+3x_{2}+2x_{3}-x_{4}=1,\\  x_{2}-2x_{3}+x_{4}=-1,\\  2x_{1}+x_{3}+2x_{4}=0,\\  2x_{2}+ax_{3}-2x_{4}=1\end{cases}`)
+
 中，
 
-+ (1) 当 $a$ 取什么值时，该方程组有解？（有多少组解？）
-+ (2) 又当 $a$ 取什么值时，方程组无解？
+
++ (1)
 ]
 
 #solution[
-将原方程组的四个方程依次记为前四个方程. 第一个方程乘 $2$ 后减去第三个方程，得
-
-$ 6 x_2+3 x_3-4 x_4=2 $
-
-第二个方程乘 $6$ 后减去这个等式，得
-
-$ -15 x_3+10 x_4=-8 $
-
-第二个方程乘 $2$ 后减去第四个方程，得
-
-$ -(a+4)x_3+4 x_4=-3 $
-
-将前一个等式乘 $2$ 后减去后一个等式乘 $5$，消去 $x_4$，得到
-
-$ (5 a-10)x_3=-1 $
+将原方程组的四个方程依次记为前四个方程. 第一个方程乘 #mi(`2`) 后减去第三个方程，得
 
 
+#align(center)[#mitex(`
+6x_{2}+3x_{3}-4x_{4}=2
+`)]
 
-+ (1) 当 $a != 2$ 时，$5 a-10=5(a-2) != 0$，所以
 
-$ x_3=-(1)/(5(a-2)) $
+第二个方程乘 #mi(`6`) 后减去这个等式，得
 
-此时由 $-15 x_3+10 x_4=-8$ 唯一确定 $x_4$，再由第二个方程唯一确定 $x_2$，最后由第三个方程唯一确定 $x_1$. 令 $d=a-2$，可具体求得
-$x_4=(13-8 a)/(10 d)$，$x_2=(3-2 a)/(10 d)$，$x_1=(4 a-6)/(5 d)$.
-因此当 $a != 2$ 时，方程组有且只有一组解.
-+ (2) 当 $a=2$ 时，上面的两个关于 $x_3$、$x_4$ 的等式变为
 
-$ \b e g i n{c a s e s} -15 x_3+10 x_4=-8,\\ -6 x_3+4 x_4=-3. \e n d{c a s e s} $
+#align(center)[#mitex(`
+-15x_{3}+10x_{4}=-8
+`)]
 
-第二式乘 $(5)/(2)$ 后，左边变为 $-15 x_3+10 x_4$，而右边变为 $-(15)/(2)$，这与第一式右边 $-8$ 不相等，产生矛盾. 所以当 $a=2$ 时，方程组无解.
+
+第二个方程乘 #mi(`2`) 后减去第四个方程，得
+
+
+#align(center)[#mitex(`
+-\left(a+4\right)x_{3}+4x_{4}=-3
+`)]
+
+
+将前一个等式乘 #mi(`2`) 后减去后一个等式乘 #mi(`5`)，消去 #mi(`x_{4}`)，得到
+
+
+#align(center)[#mitex(`
+\left(5a-10\right)x_{3}=-1
+`)]
+
+
+
++ (1)
 ]
 
 #problem(9)[
-有一份印刷品，其排版面积（矩形）占 $432" 平方厘米"$，它的两边都留有 $4" 厘米"$ 宽的空白，顶部和底部留有 $3" 厘米"$ 宽的空白. 问应该如何选取纸张的尺寸，才能使纸的用量最少？
+有一份印刷品，其排版面积（矩形）占 #mi(`432\text{ \text{平方厘米}}`)，它的两边都留有 #mi(`4\text{ \text{厘米}}`) 宽的空白，顶部和底部留有 #mi(`3\text{ \text{厘米}}`) 宽的空白. 问应该如何选取纸张的尺寸，才能使纸的用量最少？
 ]
 
 #solution[
-设纸张左右方向的长度为 $x" 厘米"$，上下方向的长度为 $y" 厘米"$，纸张面积为 $S" 平方厘米"$. 由于左右各留出 $4" 厘米"$、上下各留出 $3" 厘米"$，排版部分的长和宽分别为 $x-8$ 和 $y-6$. 因而 $x>8$、$y>6$，并且
+设纸张左右方向的长度为 #mi(`x\text{ \text{厘米}}`)，上下方向的长度为 #mi(`y\text{ \text{厘米}}`)，纸张面积为 #mi(`S\text{ \text{平方厘米}}`). 由于左右各留出 #mi(`4\text{ \text{厘米}}`)、上下各留出 #mi(`3\text{ \text{厘米}}`)，排版部分的长和宽分别为 #mi(`x-8`) 和 #mi(`y-6`). 因而 #mi(`x>8`)、#mi(`y>6`)，并且
 
-$ (x-8)(y-6)=432 $
 
-要使纸张面积 $S=x y$ 最小，令 $t=x-8$，则 $t>0$，且
-$y=(432)/(t)+6$，$x=t+8$.
+#align(center)[#mitex(`
+(x-8)(y-6)=432
+`)]
+
+
+要使纸张面积 #mi(`S=xy`) 最小，令 #mi(`t=x-8`)，则 #mi(`t>0`)，且
+
+#mi(`y=\frac{432}{t}+6`)，#mi(`x=t+8`).
+
 所以
 
-$ S=(t+8)((432)/(t)+6)=(3456)/(t)+6 t+480 $
 
-因为 $t>0$，所以 $(3456)/(t)>0$ 且 $6 t>0$. 由基本不等式，
+#align(center)[#mitex(`
+S=(t+8)\left(\frac{432}{t}+6\right)=\frac{3456}{t}+6t+480
+`)]
 
-$ S >= 2 sqrt((3456)/(t) dot 6 t)+480=2 sqrt(20736)+480=768 $
+
+因为 #mi(`t>0`)，所以 #mi(`\frac{3456}{t}>0`) 且 #mi(`6t>0`). 由基本不等式，
+
+
+#align(center)[#mitex(`
+S\ge2\sqrt{\frac{3456}{t}\cdot6t}+480=2\sqrt{20736}+480=768
+`)]
+
 
 等号成立当且仅当
 
-$ (3456)/(t)=6 t $
 
-于是 $t^2=576$. 因为 $t>0$，所以 $t=24$，从而
-$x=t+8=32" 厘米"$，$y=(432)/(24)+6=24" 厘米"$.
-此时 $S=32 times 24 =768" 平方厘米"$，达到由基本不等式得到的下界，故确为最小值. 所以纸张左右长取 $32" 厘米"$、上下宽取 $24" 厘米"$ 时，用纸量最少，最小面积为 $768" 平方厘米"$.
+#align(center)[#mitex(`
+\frac{3456}{t}=6t
+`)]
+
+
+于是 #mi(`t^{2}=576`). 因为 #mi(`t>0`)，所以 #mi(`t=24`)，从而
+
+#mi(`x=t+8=32\text{ \text{厘米}}`)，#mi(`y=\frac{432}{24}+6=24\text{ \text{厘米}}`).
+
+此时 #mi(`S=32\times24=768\text{ \text{平方厘米}}`)，达到由基本不等式得到的下界，故确为最小值. 所以纸张左右长取 #mi(`32\text{ \text{厘米}}`)、上下宽取 #mi(`24\text{ \text{厘米}}`) 时，用纸量最少，最小面积为 #mi(`768\text{ \text{平方厘米}}`).
 ]
 

@@ -1,248 +1,95 @@
 {
+  "title": "2025年普通高等学校招生全国统一考试",
+  "subtitle": "2025年上海卷（秋）",
   "year": "2025",
   "slug": "shanghai",
-  "title": "2025年上海卷（秋）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "已知全集 $U = \\{x \\mid 2 \\le x \\le 5, x \\in \\mathbb{R}\\}$，集合 $A = \\{x \\mid 2 \\le x < 4, x \\in \\mathbb{R}\\}$，则 $\\bar{A} =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\bar{A} = \\{x \\mid 4 \\le x \\le 5, x \\in \\mathbb{R}\\}=[4,5]\\)",
-          "solution": "根据补集定义，$\\bar{A} = \\{x \\mid x \\in U, x \\notin A\\}$. 又 $U=\\{x\\mid2\\le x\\le5\\}$，所以 $\\bar{A}=\\{x\\mid4\\le x\\le5\\}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知全集 $U = \\{x \\mid 2 \\le x \\le 5, x \\in \\mathbb{R}\\}$，集合 $A = \\{x \\mid 2 \\le x &#x3C; 4, x \\in \\mathbb{R}\\}$，则 $\\bar{A}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\bar{A}= \\{x \\mid 4 \\le x \\le 5, x \\in \\mathbb{R}\\}=[4,5]$",
+          "solution": "根据补集定义，$\\bar{A}= \\{x \\mid x \\in U, x \\notin A\\}$. 又 $U=\\{x\\mid2\\le x\\le5\\}$，所以 $\\bar{A}=\\{x\\mid4\\le x\\le5\\}$."
         },
         {
           "num": 2,
-          "body": "设 $x\\in\\mathbb{R}$，不等式 $\\frac{x-1}{x-3}<0$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\((1,3)\\)",
-          "solution": "由 $\\frac{x-1}{x-3}<0$，得 $1<x<3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $x\\in\\mathbb{R}$，不等式 $\\frac{x-1}{x-3}&#x3C;0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(1,3)$",
+          "solution": "由 $\\frac{x-1}{x-3}&#x3C;0$，得 $1&#x3C;x&#x3C;3$."
         },
         {
           "num": 3,
-          "body": "已知等差数列 $\\{a_n\\}$ 的首项 $a_1 = -3$，公差 $d = 2$，则该数列的前 $6$ 项和为 _______ {}.",
-          "choices": [],
-          "answer": "\\(12\\)",
-          "solution": "由等差数列求和公式，$S_6 = \\frac{6(a_1+a_6)}{2}=3(a_1+a_6)$，其中 $a_6=a_1+5d=7$，故 $S_6=3(-3+7)=12$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知等差数列 $\\{a_{n}\\}$ 的首项 $a_{1} = -3$，公差 $d = 2$，则该数列的前 $6$ 项和为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$12$",
+          "solution": "由等差数列求和公式，$S_{6} = \\frac{6(a_{1}+a_{6})}{2}=3(a_{1}+a_{6})$，其中 $a_{6}=a_{1}+5d=7$，故 $S_{6}=3(-3+7)=12$."
         },
         {
           "num": 4,
-          "body": "在二项式 $(2x-1)^5$ 的展开式中，$x^3$ 的系数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(80\\)",
-          "solution": "二项式 $(2x-1)^5$ 中 $x^3$ 的系数对应 $r=2$，$\\mathrm{T}_{3}=\\mathrm C_5^2(2)^3(-1)^2=80$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在二项式 $(2x-1)^{5}$ 的展开式中，$x^{3}$ 的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$80$",
+          "solution": "二项式 $(2x-1)^{5}$ 中 $x^{3}$ 的系数对应 $r=2$，$\\mathrm{T}_{3}=\\mathrm{C}_{5}^{2}(2)^{3}(-1)^{2}=80$."
         },
         {
           "num": 5,
-          "body": "函数 $y=\\cos x$ 在 $[-\\frac{\\pi}{2},\\frac{\\pi}{4}]$ 上的值域为 _______ {}.",
-          "choices": [],
-          "answer": "\\([0,1]\\)",
-          "solution": "函数 $y=\\cos x$ 在 $[-\\frac{\\pi}{2},0]$ 上递增，在 $[0,\\frac{\\pi}{4}]$ 上递减. 并且 $y(-\\frac{\\pi}{2})=0$，$y(0)=1$，$y(\\frac{\\pi}{4})=\\frac{\\sqrt2}{2}$. 故值域为 $[0,1]$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y=\\cos x$ 在 $[-\\frac{\\pi}{2},\\frac{\\pi}{4}]$ 上的值域为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$[0,1]$",
+          "solution": "函数 $y=\\cos x$ 在 $[-\\frac{\\pi}{2},0]$ 上递增，在 $[0,\\frac{\\pi}{4}]$ 上递减. 并且 $y(-\\frac{\\pi}{2})=0$，$y(0)=1$，$y(\\frac{\\pi}{4})=\\frac{\\sqrt{2}}{2}$. 故值域为 $[0,1]$."
         },
         {
           "num": 6,
-          "body": "已知随机变量 $X$ 的分布为\r\n$\\begin{pmatrix}5&6&7\\\\0.2&0.3&0.5\\end{pmatrix}$，则期望 $E(X)=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(6.3\\)",
-          "solution": "由题意，$E(X)=5\\times0.2+6\\times0.3+7\\times0.5=1+1.8+3.5=6.3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知随机变量 $X$ 的分布为</p><p>$\\begin{pmatrix}5&#x26;6&#x26;7\\\\0.2&#x26;0.3&#x26;0.5\\end{pmatrix}$，则期望 $E(X)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$6.3$",
+          "solution": "由题意，$E(X)=5\\times0.2+6\\times0.3+7\\times0.5=1+1.8+3.5=6.3$."
         },
         {
           "num": 7,
-          "body": "如图，在正四棱柱 $ABCD-A_1B_1C_1D_1$ 中，$AC=4\\sqrt2$，$BD_1=9$，则该正四棱柱的体积为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/shanghai/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(112\\)",
-          "solution": "因为 $AC=4\\sqrt2$，且 $ABCD$ 为正方形，所以 $BA=4$，从而 $BD=4\\sqrt2$. 又 $BD_1=9$，所以 $BB_1^2+BD^2=9^2$，得 $BB_1=7$. 底面积为 $BA\\cdot BC=16$，体积 $=16\\times7=112$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，在正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AC=4\\sqrt{2}$，$BD_{1}=9$，则该正四棱柱的体积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$112$",
+          "solution": "因为 $AC=4\\sqrt{2}$，且 $ABCD$ 为正方形，所以 $BA=4$，从而 $BD=4\\sqrt{2}$. 又 $BD_{1}=9$，所以 $BB_{1}^{2}+BD^{2}=9^{2}$，得 $BB_{1}=7$. 底面积为 $BA\\cdot BC=16$，体积 $=16\\times7=112$."
         },
         {
           "num": 8,
-          "body": "设 $a$，$b>0$，若 $a+\\frac1b=1$，则 $b+\\frac1a$ 的最小值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(4\\)",
-          "solution": "由题设 $a+\\frac1b=1$，得 $0<a<1$，且 $b=\\frac1{1-a}$. 因此\r\n$b+\\frac1a=\\frac1{1-a}+\\frac1a=\\frac1{a(1-a)}\\ge4$.\r\n当 $a=\\frac12$，$b=2$ 时取等号，故最小值为4.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $a$，$b>0$，若 $a+\\frac{1}{b}=1$，则 $b+\\frac{1}{a}$ 的最小值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$4$",
+          "solution": "<p>由题设 $a+\\frac{1}{b}=1$，得 $0&#x3C;a&#x3C;1$，且 $b=\\frac{1}{1-a}$. 因此</p><p>$b+\\frac{1}{a}=\\frac{1}{1-a}+\\frac{1}{a}=\\frac{1}{a(1-a)}\\ge4$.</p><p>当 $a=\\frac{1}{2}$，$b=2$ 时取等号，故最小值为4.</p>"
         },
         {
           "num": 9,
-          "body": "$4$ 个家长和 $2$ 个儿童去郊游爬山，$6$ 个人需要排成一条队列，要求队列的头和尾均是家长，则不同的排列个数有 _______ {}.",
-          "choices": [],
-          "answer": "\\(288\\)",
-          "solution": "先安排首尾两位家长，有 $\\mathrm A_4^2=12$ 种；再安排中间 $4$ 人，有 $\\mathrm A_4^4=24$ 种，故共 $12\\times24=288$ 种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$4$ 个家长和 $2$ 个儿童去郊游爬山，$6$ 个人需要排成一条队列，要求队列的头和尾均是家长，则不同的排列个数有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$288$",
+          "solution": "先安排首尾两位家长，有 $\\mathrm{A}_{4}^{2}=12$ 种；再安排中间 $4$ 人，有 $\\mathrm{A}_{4}^{4}=24$ 种，故共 $12\\times24=288$ 种."
         },
         {
           "num": 10,
-          "body": "$i$ 为虚数单位，若复数 $z$ 满足 $z^2=(\\bar z)^2$，且 $|z|\\le1$，则 $|z-2-3\\mathrm{i}|$ 的最小值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\sqrt2\\)",
-          "solution": "设 $z=a+b\\mathrm{i}$（$a$，$b\\in\\mathbb{R}$），则 $\\bar z=a-b\\mathrm{i}$. 由\r\n$z^2=a^2+2ab\\mathrm{i}-b^2$，$(\\bar z)^2=a^2-2ab\\mathrm{i}-b^2$，\r\n可得 $4ab\\mathrm{i}=0$，所以 $ab=0$.\r\n因此 $a=0$ 或 $b=0$，即复数 $z$ 对应的点 $Z(a,b)$ 在线段 $[-1,1]$ 的实轴部分或线段 $[-1,1]$ 的虚轴部分上.\r\n\r\n设 $E(2,3)$，则 $|z-2-3\\mathrm{i}|=|ZE|$.\r\n\r\n当 $b=0$ 时，$|ZE|^2=(a-2)^2+9$（$a\\in[-1,1]$）. 因为 $a\\le1$，所以当 $a=1$ 时取最小值，此时 $|ZE|_{\\min}=\\sqrt{(1-2)^2+9}=\\sqrt{10}$.\r\n\r\n当 $a=0$ 时，$|ZE|^2=4+(b-3)^2$（$b\\in[-1,1]$）. 因为 $b\\le1$，所以当 $b=1$ 时取最小值，此时\r\n$|ZE|_{\\min}=\\sqrt{4+(1-3)^2}=2\\sqrt2$\r\n比较 $\\sqrt{10}$ 与 $2\\sqrt2$，得 $2\\sqrt2<\\sqrt{10}$.\r\n故 $|z-2-3\\mathrm{i}|$ 的最小值为 $2\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$i$ 为虚数单位，若复数 $z$ 满足 $z^{2}=(\\bar z)^{2}$，且 $|z|\\le1$，则 $|z-2-3\\mathrm{i}|$ 的最小值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2\\sqrt{2}$",
+          "solution": "<p>设 $z=a+b\\mathrm{i}$（$a$，$b\\in\\mathbb{R}$），则 $\\bar z=a-b\\mathrm{i}$. 由</p><p>$z^{2}=a^{2}+2ab\\mathrm{i}-b^{2}$，$(\\bar z)^{2}=a^{2}-2ab\\mathrm{i}-b^{2}$，</p><p>可得 $4ab\\mathrm{i}=0$，所以 $ab=0$.</p><p>因此 $a=0$ 或 $b=0$，即复数 $z$ 对应的点 $Z(a,b)$ 在线段 $[-1,1]$ 的实轴部分或线段 $[-1,1]$ 的虚轴部分上.</p><p>设 $E(2,3)$，则 $|z-2-3\\mathrm{i}|=|ZE|$.</p><p>当 $b=0$ 时，$|ZE|^{2}=(a-2)^{2}+9$（$a\\in[-1,1]$）. 因为 $a\\le1$，所以当 $a=1$ 时取最小值，此时 $|ZE|_{\\min}=\\sqrt{(1-2)^{2}+9}=\\sqrt{10}$.</p><p>当 $a=0$ 时，$|ZE|^{2}=4+(b-3)^{2}$（$b\\in[-1,1]$）. 因为 $b\\le1$，所以当 $b=1$ 时取最小值，此时</p><p>$|ZE|_{\\min}=\\sqrt{4+(1-3)^{2}}=2\\sqrt{2}$</p><p>比较 $\\sqrt{10}$ 与 $2\\sqrt{2}$，得 $2\\sqrt{2}&#x3C;\\sqrt{10}$.</p><p>故 $|z-2-3\\mathrm{i}|$ 的最小值为 $2\\sqrt{2}$.</p>"
         },
         {
           "num": 11,
-          "body": "小申同学观察发现，生活中有时候影子可以完全投射在斜面上. 某斜面上有两根长为 $1$ 米且垂直于水平面放置的杆子，与斜面的接触点分别为 $A$，$B$，它们在阳光的照射下呈现出影子，阳光可视为平行光，其中 $A$ 处杆子的影子在水平面上，长度为 $0.4$ 米，$B$ 处杆子的影子完全在斜面上，长度为 $0.45$ 米. 则斜面的坡角 $\\theta=$ _______ {}（结果精确到 $0.01^\\circ$）.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/shanghai/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(12.58^\\circ\\)",
-          "solution": "先由 $A$ 点杆子算出太阳光线与水平面的夹角 $x$，有 $\\tan x=\\frac{1}{0.4}=2.5$.\r\n在包含 $B$ 点杆子和阳光方向的竖直截面内，设 $C$ 为 $B$ 点杆顶，$E$ 为影子在斜面上的终点，过 $E$ 作水平线交 $B$ 点杆所在竖线于 $D$. 设 $BD=y$，则 $CD=1+y$，且 $\\angle CED=x$，所以 $ED=\\frac{1+y}{2.5}$.\r\n由 $CE=0.45$ 及勾股定理得\r\n$y^2+\\left(\\frac{1+y}{2.5}\\right)^2=0.45^2$\r\n解得 $y\\approx0.098$.\r\n故\r\n$\\theta=\\arcsin\\frac{y}{0.45}\\approx12.58^\\circ$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>小申同学观察发现，生活中有时候影子可以完全投射在斜面上. 某斜面上有两根长为 $1$ 米且垂直于水平面放置的杆子，与斜面的接触点分别为 $A$，$B$，它们在阳光的照射下呈现出影子，阳光可视为平行光，其中 $A$ 处杆子的影子在水平面上，长度为 $0.4$ 米，$B$ 处杆子的影子完全在斜面上，长度为 $0.45$ 米. 则斜面的坡角 $\\theta=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（结果精确到 $0.01^{\\circ}$）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$12.58^{\\circ}$",
+          "solution": "<p>先由 $A$ 点杆子算出太阳光线与水平面的夹角 $x$，有 $\\tan x=\\frac{1}{0.4}=2.5$.</p><p>在包含 $B$ 点杆子和阳光方向的竖直截面内，设 $C$ 为 $B$ 点杆顶，$E$ 为影子在斜面上的终点，过 $E$ 作水平线交 $B$ 点杆所在竖线于 $D$. 设 $BD=y$，则 $CD=1+y$，且 $\\angle CED=x$，所以 $ED=\\frac{1+y}{2.5}$.</p><p>由 $CE=0.45$ 及勾股定理得</p><p>$y^{2}+\\left(\\frac{1+y}{2.5}\\right)^{2}=0.45^{2}$</p><p>解得 $y\\approx0.098$.</p><p>故</p><p>$\\theta=\\arcsin\\frac{y}{0.45}\\approx12.58^{\\circ}$</p>"
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x)$ 满足：当 $x>0$ 时 $f(x)=1$，当 $x=0$ 时 $f(x)=0$，当 $x<0$ 时 $f(x)=-1$. $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 分别为平面内三个不同的单位向量. 若 $f(\\mathbf{a}\\cdot\\mathbf{b})+f(\\mathbf{b}\\cdot\\mathbf{c})+f(\\mathbf{c}\\cdot\\mathbf{a})=0$，则 $|\\mathbf{a}+\\mathbf{b}+\\mathbf{c}|$ 的可取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\((1,\\sqrt5)\\)",
-          "solution": "由题设，$f(\\mathbf{a}\\cdot\\mathbf{b})$，$f(\\mathbf{b}\\cdot\\mathbf{c})$，$f(\\mathbf{c}\\cdot\\mathbf{a})\\in\\{-1,0,1\\}$. 若三者都等于 $0$，则\r\n$\\mathbf{a}\\cdot\\mathbf{b}=0$，$\\mathbf{b}\\cdot\\mathbf{c}=0$，$\\mathbf{c}\\cdot\\mathbf{a}=0$.\r\n这说明 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 两两垂直. 但 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 是平面内三个不同的单位向量，不可能两两垂直，矛盾.\r\n故 $f(\\mathbf{a}\\cdot\\mathbf{b})$，$f(\\mathbf{b}\\cdot\\mathbf{c})$，$f(\\mathbf{c}\\cdot\\mathbf{a})$ 必为 $-1$，$0$，$1$ 的一个排列. 不妨设\r\n$f(\\mathbf{a}\\cdot\\mathbf{b})=1$，$f(\\mathbf{b}\\cdot\\mathbf{c})=0$，$f(\\mathbf{c}\\cdot\\mathbf{a})=-1$.\r\n则\r\n$\\mathbf{a}\\cdot\\mathbf{b}>0$，$\\mathbf{b}\\cdot\\mathbf{c}=0$，$\\mathbf{c}\\cdot\\mathbf{a}<0$.\r\n不妨设 $\\mathbf{b}=(1,0)$，$\\mathbf{c}=(0,1)$，$\\mathbf{a}=(\\cos\\theta,\\sin\\theta)$，则 $\\theta\\in(3\\frac{\\pi}{2},2\\pi)$. 此时\r\n$|\\mathbf{a}+\\mathbf{b}+\\mathbf{c}|=\\sqrt{(1+\\cos\\theta)^2+(1+\\sin\\theta)^2}=\\sqrt{3+2\\sqrt2\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)}$\r\n又有 $\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)\\in\\left(-1,\\frac{\\sqrt2}{2}\\right)$，故\r\n$|\\mathbf{a}+\\mathbf{b}+\\mathbf{c}|\\in(1,\\sqrt5)$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知函数 $f(x)$ 满足：当 $x>0$ 时 $f(x)=1$，当 $x=0$ 时 $f(x)=0$，当 $x&#x3C;0$ 时 $f(x)=-1$. $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 分别为平面内三个不同的单位向量. 若 $f(\\mathbf{a}\\cdot\\mathbf{b})+f(\\mathbf{b}\\cdot\\mathbf{c})+f(\\mathbf{c}\\cdot\\mathbf{a})=0$，则 $|\\mathbf{a}+\\mathbf{b}+\\mathbf{c}|$ 的可取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(1,\\sqrt{5})$",
+          "solution": "<p>由题设，$f(\\mathbf{a}\\cdot\\mathbf{b})$，$f(\\mathbf{b}\\cdot\\mathbf{c})$，$f(\\mathbf{c}\\cdot\\mathbf{a})\\in\\{-1,0,1\\}$. 若三者都等于 $0$，则</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=0$，$\\mathbf{b}\\cdot\\mathbf{c}=0$，$\\mathbf{c}\\cdot\\mathbf{a}=0$.</p><p>这说明 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 两两垂直. 但 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 是平面内三个不同的单位向量，不可能两两垂直，矛盾.</p><p>故 $f(\\mathbf{a}\\cdot\\mathbf{b})$，$f(\\mathbf{b}\\cdot\\mathbf{c})$，$f(\\mathbf{c}\\cdot\\mathbf{a})$ 必为 $-1$，$0$，$1$ 的一个排列. 不妨设</p><p>$f(\\mathbf{a}\\cdot\\mathbf{b})=1$，$f(\\mathbf{b}\\cdot\\mathbf{c})=0$，$f(\\mathbf{c}\\cdot\\mathbf{a})=-1$.</p><p>则</p><p>$\\mathbf{a}\\cdot\\mathbf{b}>0$，$\\mathbf{b}\\cdot\\mathbf{c}=0$，$\\mathbf{c}\\cdot\\mathbf{a}&#x3C;0$.</p><p>不妨设 $\\mathbf{b}=(1,0)$，$\\mathbf{c}=(0,1)$，$\\mathbf{a}=(\\cos\\theta,\\sin\\theta)$，则 $\\theta\\in(3\\frac{\\pi}{2},2\\pi)$. 此时</p><p>$|\\mathbf{a}+\\mathbf{b}+\\mathbf{c}|=\\sqrt{(1+\\cos\\theta)^{2}+(1+\\sin\\theta)^{2}}=\\sqrt{3+2\\sqrt{2}\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)}$</p><p>又有 $\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)\\in\\left(-1,\\frac{\\sqrt{2}}{2}\\right)$，故</p><p>$|\\mathbf{a}+\\mathbf{b}+\\mathbf{c}|\\in(1,\\sqrt{5})$</p>"
         }
       ]
     },
@@ -251,7 +98,7 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知事件 $A$，$B$ 相互独立，若 $P(A)=P(B)=\\frac{1}{2}$，则 $P(A\\cap B)$ 的值为（ ）",
+          "body": "已知事件 $A$，$B$ 相互独立，若 $P(A)=P(B)=\\frac{1}{2}$，则 $P(A\\cap B)$ 的值为（ ）",
           "choices": [
             "$0$",
             "$\\frac{1}{4}$",
@@ -259,27 +106,23 @@
             "$1$"
           ],
           "answer": "B",
-          "solution": "因为 $A$，$B$ 相互独立，所以 $P(A\\cap B)=P(A)P(B)=\\frac{1}{2}\\times\\frac{1}{2}=\\frac{1}{4}$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $A$，$B$ 相互独立，所以 $P(A\\cap B)=P(A)P(B)=\\frac{1}{2}\\times\\frac{1}{2}=\\frac{1}{4}$. 故选 B."
         },
         {
           "num": 14,
-          "body": "已知 $a>0$ 且 $a\\ne1$，$s\\in\\mathbb{R}$，下列各项中，能推出 $a^s>a$ 的是（ ）",
+          "body": "已知 $a>0$ 且 $a\\ne1$，$s\\in\\mathbb{R}$，下列各项中，能推出 $a^{s}>a$ 的是（ ）",
           "choices": [
             "$a>1$ 且 $s>0$",
-            "$a>1$ 且 $s<0$",
-            "$0<a<1$ 且 $s>0$",
-            "$0<a<1$ 且 $s<0$"
+            "$a>1$ 且 $s&#x3C;0$",
+            "$0&#x3C;a&#x3C;1$ 且 $s>0$",
+            "$0&#x3C;a&#x3C;1$ 且 $s&#x3C;0$"
           ],
           "answer": "D",
-          "solution": "因为\r\n$a^s>a\\iff a^{s-1}>1=a^0$\r\n若 $0<a<1$，$a^x$ 在 $\\mathbb{R}$ 上严格减函数，因此要使 $a^{s-1}>1$ 需 $s-1<0$. 故 $s<1$. 又 $0<a<1$ 时 $a^0=1$ 为最大值，故该条件与 $a\\in(0,1)$，$s<0$ 对应的 D 正确.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为</p><p>$a^{s}>a\\iff a^{s-1}>1=a^{0}$</p><p>若 $0&#x3C;a&#x3C;1$，$a^{x}$ 在 $\\mathbb{R}$ 上严格减函数，因此要使 $a^{s-1}>1$ 需 $s-1&#x3C;0$. 故 $s&#x3C;1$. 又 $0&#x3C;a&#x3C;1$ 时 $a^{0}=1$ 为最大值，故该条件与 $a\\in(0,1)$，$s&#x3C;0$ 对应的 D 正确.</p>"
         },
         {
           "num": 15,
-          "body": "已知 $A(0,1)$，$B(1,2)$，$C$ 在 $\\Gamma:x^2-y^2=1$（$x\\ge1$，$y\\ge0$） 上，则 $\\triangle ABC$ 的面积（ ）",
+          "body": "已知 $A(0,1)$，$B(1,2)$，$C$ 在 $\\Gamma:x^{2}-y^{2}=1$（$x\\ge1$，$y\\ge0$） 上，则 $\\triangle ABC$ 的面积（ ）",
           "choices": [
             "有最大值，但没有最小值",
             "没有最大值，但有最小值",
@@ -287,13 +130,11 @@
             "既没有最大值，也没有最小值"
           ],
           "answer": "A",
-          "solution": "设 $C(a,b)\\in\\Gamma$，则 $a=\\sqrt{b^2+1}$，$AB: y=x-1$. $\\triangle ABC$ 的高为 $h=\\frac{|a-b+1|}{\\sqrt2}$.\r\n设 $f(b)=\\sqrt{b^2+1}-b$（$b\\ge0$），则 $h=\\frac{1}{\\sqrt2}f(b)$，且 $f'(b)=\\frac{b}{\\sqrt{b^2+1}}-1<0$，故 $h$ 最大于 $b=0$，无最小值，故面积有最大值而无最小值.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $C(a,b)\\in\\Gamma$，则 $a=\\sqrt{b^{2}+1}$，$AB: y=x-1$. $\\triangle ABC$ 的高为 $h=\\frac{|a-b+1|}{\\sqrt{2}}$.</p><p>设 $f(b)=\\sqrt{b^{2}+1}-b$（$b\\ge0$），则 $h=\\frac{1}{\\sqrt{2}}f(b)$，且 $f'(b)=\\frac{b}{\\sqrt{b^{2}+1}}-1&#x3C;0$，故 $h$ 最大于 $b=0$，无最小值，故面积有最大值而无最小值.</p>"
         },
         {
           "num": 16,
-          "body": "设 $\\lambda\\in\\mathbb{R}$，数列 $\\{a_n\\}$，$\\{b_n\\}$，$\\{c_n\\}$ 的通项分别为 $a_n=10n-9$，$b_n=2^n$，$c_n=\\lambda a_n+(1-\\lambda)b_n$. 若对任意 $\\lambda\\in[0,1]$，$a_n$，$b_n$，$c_n$ 均能作为三角形的三边长，则满足条件的正整数 $n$ 有（ ）",
+          "body": "设 $\\lambda\\in\\mathbb{R}$，数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$，$\\{c_{n}\\}$ 的通项分别为 $a_{n}=10n-9$，$b_{n}=2^{n}$，$c_{n}=\\lambda a_{n}+(1-\\lambda)b_{n}$. 若对任意 $\\lambda\\in[0,1]$，$a_{n}$，$b_{n}$，$c_{n}$ 均能作为三角形的三边长，则满足条件的正整数 $n$ 有（ ）",
           "choices": [
             "1个",
             "3个",
@@ -301,9 +142,7 @@
             "无穷多个"
           ],
           "answer": "B",
-          "solution": "由\r\n$c_n=\\lambda a_n+(1-\\lambda)b_n$，$\\lambda\\in[0,1]$，\r\n可得\r\n$\\min\\{a_n,b_n\\}\\le c_n\\le \\max\\{a_n,b_n\\}<a_n+b_n$，\r\n因此对任意 $\\lambda\\in[0,1]$，都有 $c_n<a_n+b_n$.\r\n要使 $a_n$，$b_n$，$c_n$ 对任意 $\\lambda\\in[0,1]$ 都能构成三角形，只需再保证较大的那一边恒小于另外两边之和.\r\n\r\n令 $f(x)=2^x-10x+9$，则 $f'(x)=2^x\\ln2-10$. 因为 $f'(x)$ 单调递增，且 $f'(3)<0$，$f'(4)>0$，\r\n所以存在 $x_0\\in(3,4)$，使得 $f'(x_0)=0$. 于是 $f(x)$ 先减后增，至多有两个零点.\r\n又 $f(1)>0$，$f(2)<0$，$f(5)<0$，$f(6)>0$，所以 $f(x)$ 恰有两个零点，分别位于 $(1,2)$ 与 $(5,6)$ 内. 于是对正整数 $n$，有\r\n$10n-9\\le 2^n \\iff n=1 \\text{\\ 或\\ } n\\ge 6$\r\n$10n-9\\ge 2^n \\iff n=2,3,4,5$\r\n\r\n分两类讨论.\r\n\r\n当 $a_n\\le b_n$ 时，即 $n=1$ 或 $n\\ge 6$，有 $a_n\\le c_n\\le b_n$. 此时要构成三角形，只需 $a_n+c_n>b_n$ 对任意 $c_n$ 成立. 因为 $c_n$ 的最小值为 $a_n$，所以只需\r\n$2a_n>b_n$\r\n即 $2(10n-9)>2^n$. 与 $a_n\\le b_n$ 合并，只有 $n=6$ 满足条件.\r\n\r\n当 $a_n\\ge b_n$ 时，即 $n=2$，$3$，$4$，$5$，有 $b_n\\le c_n\\le a_n$. 此时要构成三角形，只需 $b_n+c_n>a_n$ 对任意 $c_n$ 成立. 因为 $c_n$ 的最小值为 $b_n$，所以只需\r\n$2b_n>a_n$\r\n即 $2^{n+1}>10n-9$. 在 $n=2$，$3$，$4$，$5$ 中，满足该不等式的只有 $n=4$，$\\ 5$.\r\n\r\n综上，满足条件的正整数 $n$ 为 $4$，$5$，$6$，共有 $3$ 个，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由</p><p>$c_{n}=\\lambda a_{n}+(1-\\lambda)b_{n}$，$\\lambda\\in[0,1]$，</p><p>可得</p><p>$\\min\\{a_{n},b_{n}\\}\\le c_{n}\\le \\max\\{a_{n},b_{n}\\}&#x3C;a_{n}+b_{n}$，</p><p>因此对任意 $\\lambda\\in[0,1]$，都有 $c_{n}&#x3C;a_{n}+b_{n}$.</p><p>要使 $a_{n}$，$b_{n}$，$c_{n}$ 对任意 $\\lambda\\in[0,1]$ 都能构成三角形，只需再保证较大的那一边恒小于另外两边之和.</p><p>令 $f(x)=2^{x}-10x+9$，则 $f'(x)=2^{x}\\ln2-10$. 因为 $f'(x)$ 单调递增，且 $f'(3)&#x3C;0$，$f'(4)>0$，</p><p>所以存在 $x_{0}\\in(3,4)$，使得 $f'(x_{0})=0$. 于是 $f(x)$ 先减后增，至多有两个零点.</p><p>又 $f(1)>0$，$f(2)&#x3C;0$，$f(5)&#x3C;0$，$f(6)>0$，所以 $f(x)$ 恰有两个零点，分别位于 $(1,2)$ 与 $(5,6)$ 内. 于是对正整数 $n$，有</p><p>$10n-9\\le 2^{n} \\iff n=1 \\text{\\ 或\\ }n\\ge 6$</p><p>$10n-9\\ge 2^{n} \\iff n=2,3,4,5$</p><p>分两类讨论.</p><p>当 $a_{n}\\le b_{n}$ 时，即 $n=1$ 或 $n\\ge 6$，有 $a_{n}\\le c_{n}\\le b_{n}$. 此时要构成三角形，只需 $a_{n}+c_{n}>b_{n}$ 对任意 $c_{n}$ 成立. 因为 $c_{n}$ 的最小值为 $a_{n}$，所以只需</p><p>$2a_{n}>b_{n}$</p><p>即 $2(10n-9)>2^{n}$. 与 $a_{n}\\le b_{n}$ 合并，只有 $n=6$ 满足条件.</p><p>当 $a_{n}\\ge b_{n}$ 时，即 $n=2$，$3$，$4$，$5$，有 $b_{n}\\le c_{n}\\le a_{n}$. 此时要构成三角形，只需 $b_{n}+c_{n}>a_{n}$ 对任意 $c_{n}$ 成立. 因为 $c_{n}$ 的最小值为 $b_{n}$，所以只需</p><p>$2b_{n}>a_{n}$</p><p>即 $2^{n+1}>10n-9$. 在 $n=2$，$3$，$4$，$5$ 中，满足该不等式的只有 $n=4$，$\\ 5$.</p><p>综上，满足条件的正整数 $n$ 为 $4$，$5$，$6$，共有 $3$ 个，故选 B.</p>"
         }
       ]
     },
@@ -312,51 +151,40 @@
       "problems": [
         {
           "num": 17,
-          "body": "2024 年巴黎奥运会，中国获得了男子 $4\\times100$ 米混合泳接力金牌，以下是历届奥运会男子 $4\\times100$ 米混合泳接力项目冠军成绩（单位：秒），数据按照升序排列.\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|c|}\r\n\\hline\r\n206.78 & 207.46 & 207.95 & 209.34 & 209.35 \\\\\r\n\\hline\r\n210.68 & 213.73 & 214.84 & 216.93 & 216.93 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 求这组数据的极差与中位数；\n\n(2) 从这 10 个数据中任选 3 个，求恰有 2 个数据大于 $211$ 的概率；\n\n(3) 若比赛成绩 $y$ 关于年份 $x$ 的回归方程为 $y=-0.311x+\\hat b$，年份 $x$ 的平均数为 $2006$，预测 $2028$ 年男子 $4\\times100$ 米混合泳接力项目冠军队的成绩（精确到 $0.01$ 秒）.",
-          "choices": [],
+          "body": "<p>2024 年巴黎奥运会，中国获得了男子 $4\\times100$ 米混合泳接力金牌，以下是历届奥运会男子 $4\\times100$ 米混合泳接力项目冠军成绩（单位：秒），数据按照升序排列.</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>206.78 </td><td style=\"text-align: center; border-right: 1px solid\"> 207.46 </td><td style=\"text-align: center; border-right: 1px solid\"> 207.95 </td><td style=\"text-align: center; border-right: 1px solid\"> 209.34 </td><td style=\"text-align: center; border-right: 1px solid\"> 209.35 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>210.68 </td><td style=\"text-align: center; border-right: 1px solid\"> 213.73 </td><td style=\"text-align: center; border-right: 1px solid\"> 214.84 </td><td style=\"text-align: center; border-right: 1px solid\"> 216.93 </td><td style=\"text-align: center; border-right: 1px solid\"> 216.93 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>求这组数据的极差与中位数；</p></li><li><p>从这 10 个数据中任选 3 个，求恰有 2 个数据大于 $211$ 的概率；</p></li><li><p>若比赛成绩 $y$ 关于年份 $x$ 的回归方程为 $y=-0.311x+\\hat b$，年份 $x$ 的平均数为 $2006$，预测 $2028$ 年男子 $4\\times100$ 米混合泳接力项目冠军队的成绩（精确到 $0.01$ 秒）.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 数据的最小值为 $206.78$，最大值为 $216.93$，故极差 $216.93-206.78=10.15$；中间两数为 $209.35,210.68$，中位数为 $\\frac{209.35+210.68}{2}=210.015$.\n\n(2) 设恰有 2 个数据大于 $211$，事件 $A$. 则从 $4$ 个大于 $211$ 的数中选两个，且从剩下 $6$ 个中选一个：\r\n$P(A)=\\frac{\\mathrm C_4^2\\mathrm C_6^1}{\\mathrm C_{10}^3}=\\frac{36}{120}=\\frac3{10}$.\n\n(3) 先求样本均值\r\n\n$$\n\\begin{aligned}\r\n\\bar y\r\n&=\\frac{206.78+207.46+207.95+209.34+209.35}{10}\\\\\r\n& +\\frac{210.68+213.73+214.84+216.93+216.93}{10}=211.399.\r\n\\end{aligned}\n$$\n\r\n由 $(\\bar x,\\bar y)=(2006,211.399)$ 在回归线上，得 $\\hat b=835.265$，故回归方程为\r\n$y=-0.311x+835.265$\r\n代入 $x=2028$，得\r\n$y=-0.311\\times2028+835.265 =204.557\\approx204.56$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>数据的最小值为 $206.78$，最大值为 $216.93$，故极差 $216.93-206.78=10.15$；中间两数为 $209.35,210.68$，中位数为 $\\frac{209.35+210.68}{2}=210.015$.</p></li><li><p>设恰有 2 个数据大于 $211$，事件 $A$. 则从 $4$ 个大于 $211$ 的数中选两个，且从剩下 $6$ 个中选一个：</p><p>$P(A)=\\frac{\\mathrm{C}_{4}^{2}\\mathrm{C}_{6}^{1}}{\\mathrm{C}_{10}^{3}}=\\frac{36}{120}=\\frac{3}{10}$.</p></li><li><p>先求样本均值</p>\n$$\n\\begin{aligned}\\bar y&#x26;=\\frac{206.78+207.46+207.95+209.34+209.35}{10}\\\\&#x26; +\\frac{210.68+213.73+214.84+216.93+216.93}{10}=211.399.\\end{aligned}\n$$\n<p>由 $(\\bar x,\\bar y)=(2006,211.399)$ 在回归线上，得 $\\hat b=835.265$，故回归方程为</p><p>$y=-0.311x+835.265$</p><p>代入 $x=2028$，得</p><p>$y=-0.311\\times2028+835.265 =204.557\\approx204.56$</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，$P$ 是圆锥顶点，$O$ 为底面圆心，$AB$ 为底面直径，且 $AB=2$.\r\n\n(1) 若直线 $PA$ 与圆锥底面所成角为 $\\frac{\\pi}{3}$，求圆锥侧面积；\n\n(2) 已知 $Q$ 是母线 $PA$ 中点，点 $C$，$D$ 在底面圆周上，且弧 $AC$ 长为 $\\frac{\\pi}{3}$，$CD\\parallel AB$. 设点 $T$ 在线段 $OC$ 上，证明 $QT\\parallel PBD$ 所在平面.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/shanghai/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，$P$ 是圆锥顶点，$O$ 为底面圆心，$AB$ 为底面直径，且 $AB=2$.</p><ol class=\"enumerate\"><li><p>若直线 $PA$ 与圆锥底面所成角为 $\\frac{\\pi}{3}$，求圆锥侧面积；</p></li><li><p>已知 $Q$ 是母线 $PA$ 中点，点 $C$，$D$ 在底面圆周上，且弧 $AC$ 长为 $\\frac{\\pi}{3}$，$CD\\parallel AB$. 设点 $T$ 在线段 $OC$ 上，证明 $QT\\parallel PBD$ 所在平面.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $\\angle PAB=\\frac{\\pi}{3}$，轴截面 $\\triangle ABP$ 为等边三角形，所以 $PA=AB=2$. 底面半径 $r=1$，故母线 $=2$. 侧面积 $S=\\pi r l=2\\pi$.\n\n(2) 在三角形 $PAB$ 中，$Q$ 与 $O$ 分别是 $PA$ 与 $AB$ 的中点，所以\r\n$QO\\parallel PB$.\r\n又 $AB\\perp AO$ 且 $AB\\parallel CD$. 设 $\\angle AOC=\\frac{\\pi}{3}$，则 $CD=1$，且\r\n$OC\\parallel BD$.\r\n由于 $QO$，$OC$ 是平面 $\\Pi_{QOC}$ 内的两条相交直线，$PB$，$BD$ 是平面 $\\Pi_{PBD}$ 内的两条相交直线，且\r\n$QO\\parallel PB$，$OC\\parallel BD$，\r\n所以\r\n$\\Pi_{QOC}\\parallel\\Pi_{PBD}$.\r\n又 $T\\in OC$，故 $QT\\subset\\Pi_{QOC}$，从而\r\n$QT\\parallel\\Pi_{PBD}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $\\angle PAB=\\frac{\\pi}{3}$，轴截面 $\\triangle ABP$ 为等边三角形，所以 $PA=AB=2$. 底面半径 $r=1$，故母线 $=2$. 侧面积 $S=\\pi r l=2\\pi$.</p></li><li><p>在三角形 $PAB$ 中，$Q$ 与 $O$ 分别是 $PA$ 与 $AB$ 的中点，所以</p><p>$QO\\parallel PB$.</p><p>又 $AB\\perp AO$ 且 $AB\\parallel CD$. 设 $\\angle AOC=\\frac{\\pi}{3}$，则 $CD=1$，且</p><p>$OC\\parallel BD$.</p><p>由于 $QO$，$OC$ 是平面 $\\Pi_{QOC}$ 内的两条相交直线，$PB$，$BD$ 是平面 $\\Pi_{PBD}$ 内的两条相交直线，且</p><p>$QO\\parallel PB$，$OC\\parallel BD$，</p><p>所以</p><p>$\\Pi_{QOC}\\parallel\\Pi_{PBD}$.</p><p>又 $T\\in OC$，故 $QT\\subset\\Pi_{QOC}$，从而</p><p>$QT\\parallel\\Pi_{PBD}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知 $f(x)=x^2-(m+2)x+m\\ln x$，$m\\in\\mathbb{R}$.\r\n\n(1) 若 $f(1)=0$，求不等式 $f(x)\\le x^2-1$ 的解集；\n\n(2) 若 $f(x)$ 在 $(0,+\\infty)$ 上存在极大值，求 $m$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知 $f(x)=x^{2}-(m+2)x+m\\ln x$，$m\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若 $f(1)=0$，求不等式 $f(x)\\le x^{2}-1$ 的解集；</p></li><li><p>若 $f(x)$ 在 $(0,+\\infty)$ 上存在极大值，求 $m$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $f(1)=0$ 得 $m=-1$，故\r\n$f(x)=x^2-x-\\ln x$.\r\n则\r\n$f(x)\\le x^2-1\\iff x+\\ln x\\ge1$\r\n设 $s(x)=x+\\ln x$，$x>0$，$s'(x)=1+\\frac1x>0$，故 $s$ 在 $(0,+\\infty)$ 上增，且 $s(1)=1$，解集为 $[1,+\\infty)$.\n\n(2) 由\r\n\n$$\nf'(x)=2x-m-2+\\frac{m}{x}=\\frac{2x^2-(m+2)x+m}{x}=\\frac{\\left(2x-m\\right)\\left(x-1\\right)}{x}\n$$\n\r\n\r\n当 $m\\le0$ 时，$\\frac{m}{2}\\le0$，在 $x>0$ 上只有零点 $x=1$. 当 $x\\in(0,1)$ 时 $f'(x)<0$，当 $x\\in(1,+\\infty)$ 时 $f'(x)>0$，故 $x=1$ 为极小值点，不符合题意.\r\n\r\n当 $0<m<2$ 时，$0<\\frac{m}{2}<1$. 当 $x\\in\\left(0,\\frac{m}{2}\\right)\\cup(1,+\\infty)$ 时 $f'(x)>0$，当 $x\\in\\left(\\frac{m}{2},1\\right)$ 时 $f'(x)<0$，故 $x=\\frac{m}{2}$ 为极大值点，符合题意.\r\n\r\n当 $m=2$ 时，$f'(x)=\\frac{2\\left(x-1\\right)^2}{x}\\ge0$，故 $f(x)$ 无极大值点，不符合题意.\r\n\r\n当 $m>2$ 时，$\\frac{m}{2}>1$. 当 $x\\in(0,1)\\cup\\left(\\frac{m}{2},+\\infty\\right)$ 时 $f'(x)>0$，当 $x\\in\\left(1,\\frac{m}{2}\\right)$ 时 $f'(x)<0$，故 $x=1$ 为极大值点，符合题意.\r\n\r\n综上，$m$ 的取值范围为 $m>0$ 且 $m\\ne2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(1)=0$ 得 $m=-1$，故</p><p>$f(x)=x^{2}-x-\\ln x$.</p><p>则</p><p>$f(x)\\le x^{2}-1\\iff x+\\ln x\\ge1$</p><p>设 $s(x)=x+\\ln x$，$x>0$，$s'(x)=1+\\frac{1}{x}>0$，故 $s$ 在 $(0,+\\infty)$ 上增，且 $s(1)=1$，解集为 $[1,+\\infty)$.</p></li><li><p>由</p>\n$$\nf'(x)=2x-m-2+\\frac{m}{x}=\\frac{2x^{2}-(m+2)x+m}{x}=\\frac{\\left(2x-m\\right)\\left(x-1\\right)}{x}\n$$\n<p>当 $m\\le0$ 时，$\\frac{m}{2}\\le0$，在 $x>0$ 上只有零点 $x=1$. 当 $x\\in(0,1)$ 时 $f'(x)&#x3C;0$，当 $x\\in(1,+\\infty)$ 时 $f'(x)>0$，故 $x=1$ 为极小值点，不符合题意.</p><p>当 $0&#x3C;m&#x3C;2$ 时，$0&#x3C;\\frac{m}{2}&#x3C;1$. 当 $x\\in\\left(0,\\frac{m}{2}\\right)\\cup(1,+\\infty)$ 时 $f'(x)>0$，当 $x\\in\\left(\\frac{m}{2},1\\right)$ 时 $f'(x)&#x3C;0$，故 $x=\\frac{m}{2}$ 为极大值点，符合题意.</p><p>当 $m=2$ 时，$f'(x)=\\frac{2\\left(x-1\\right)^{2}}{x}\\ge0$，故 $f(x)$ 无极大值点，不符合题意.</p><p>当 $m>2$ 时，$\\frac{m}{2}>1$. 当 $x\\in(0,1)\\cup\\left(\\frac{m}{2},+\\infty\\right)$ 时 $f'(x)>0$，当 $x\\in\\left(1,\\frac{m}{2}\\right)$ 时 $f'(x)&#x3C;0$，故 $x=1$ 为极大值点，符合题意.</p><p>综上，$m$ 的取值范围为 $m>0$ 且 $m\\ne2$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知椭圆 $\\Gamma:\\frac{x^2}{a^2}+\\frac{y^2}{5}=1$（$a>\\sqrt5$），$M(0,m)$（$m>0$），$A$ 为 $\\Gamma$ 的右顶点.\r\n\n(1) 若 $\\Gamma$ 的焦点为 $(2,0)$，求离心率 $e$；\n\n(2) 若 $a=4$，且 $\\Gamma$ 上存在一点 $P$ 满足 $\\overrightarrow{PA}=2\\overrightarrow{MP}$，求 $m$；\n\n(3) 若线段 $AM$ 的中垂线 $l$ 的斜率为2， $l$ 与 $\\Gamma$ 交于 $C$，$D$，且 $\\angle CMD$ 为钝角，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知椭圆 $\\Gamma:\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{5}=1$（$a>\\sqrt{5}$），$M(0,m)$（$m>0$），$A$ 为 $\\Gamma$ 的右顶点.</p><ol class=\"enumerate\"><li><p>若 $\\Gamma$ 的焦点为 $(2,0)$，求离心率 $e$；</p></li><li><p>若 $a=4$，且 $\\Gamma$ 上存在一点 $P$ 满足 $\\overrightarrow{PA}=2\\overrightarrow{MP}$，求 $m$；</p></li><li><p>若线段 $AM$ 的中垂线 $l$ 的斜率为2， $l$ 与 $\\Gamma$ 交于 $C$，$D$，且 $\\angle CMD$ 为钝角，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $b^2=5$，焦点 $(\\pm c,0)$ 有 $c=2$，所以 $a=\\sqrt{c^2+b^2}=\\sqrt9=3$，故 $e=\\frac{c}{a}=\\frac23$.\n\n(2) 此时 $A(4,0)$，设 $P(x_P,y_P)$. 由 $\\overrightarrow{PA}=2\\overrightarrow{MP}$ 得\r\n$4-x_P=2x_P$，$-y_P=2(y_P-m)$.\r\n所以 $x_P=\\frac43$，$y_P=\\frac{2m}{3}$. 代入椭圆方程 $\\frac{x^2}{16}+\\frac{y^2}{5}=1$ 得 $\\frac{1}{9}+\\frac{4m^2}{45}=1$，故 $m=\\sqrt{10}$.\n\n(3) 由 $l$ 为 $AM$ 的中垂线且斜率为 $2$，知 $AM$ 的斜率为 $-\\frac12$. 又 $k_{AM}=\\frac{m-0}{0-a}=-\\frac{m}{a}$，故 $m=\\frac a2$. 于是 $AM$ 的中点为 $\\left(\\frac a2,\\frac a4\\right)$，直线 $l$ 的方程为 $y-\\frac a4=2\\left(x-\\frac a2\\right)$，即 $y=2x-\\frac{3a}{4}$.\r\n联立\r\n$\\begin{cases}\r\n\\frac{x^2}{a^2}+\\frac{y^2}{5}=1,\\\\\r\ny=2x-\\frac{3a}{4},\r\n\\end{cases}$\r\n得\r\n$(4a^2+5)x^2-3a^3x+\\frac{9a^4-80a^2}{16}=0$.\r\n设两交点横坐标为 $x_1$，$x_2$，则由韦达定理可得\r\n$x_1+x_2=\\frac{3a^3}{4a^2+5}$，$x_1x_2=\\frac{a^2(9a^2-80)}{16(4a^2+5)}$.\r\n又 $M\\left(0,\\frac a2\\right)$，且 $y_i=2x_i-\\frac{3a}{4}$（$i=1$，$2$）. $\\angle CMD$ 为钝角当且仅当 $\\overrightarrow{MC}\\cdot\\overrightarrow{MD}<0$，即 $x_1x_2+\\left(y_1-\\frac a2\\right)\\left(y_2-\\frac a2\\right)<0$.\r\n代入 $y_i=2x_i-\\frac{3a}{4}$ 得\r\n$5x_1x_2-\\frac{5a}{2}(x_1+x_2)+\\frac{25a^2}{16}<0$\r\n再代入韦达定理，化简得\r\n$\\frac{25a^2(a^2-11)}{16(4a^2+5)}<0$\r\n因为 $a>\\sqrt5$，所以 $16(4a^2+5)>0$，从而 $a^2<11$. 再结合 $a>\\sqrt5$，得\r\n$\\sqrt5<a<\\sqrt{11}$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $b^{2}=5$，焦点 $(\\pm c,0)$ 有 $c=2$，所以 $a=\\sqrt{c^{2}+b^{2}}=\\sqrt{9}=3$，故 $e=\\frac{c}{a}=\\frac{2}{3}$.</p></li><li><p>此时 $A(4,0)$，设 $P(x_{P},y_{P})$. 由 $\\overrightarrow{PA}=2\\overrightarrow{MP}$ 得</p><p>$4-x_{P}=2x_{P}$，$-y_{P}=2(y_{P}-m)$.</p><p>所以 $x_{P}=\\frac{4}{3}$，$y_{P}=\\frac{2m}{3}$. 代入椭圆方程 $\\frac{x^{2}}{16}+\\frac{y^{2}}{5}=1$ 得 $\\frac{1}{9}+\\frac{4m^{2}}{45}=1$，故 $m=\\sqrt{10}$.</p></li><li><p>由 $l$ 为 $AM$ 的中垂线且斜率为 $2$，知 $AM$ 的斜率为 $-\\frac{1}{2}$. 又 $k_{AM}=\\frac{m-0}{0-a}=-\\frac{m}{a}$，故 $m=\\frac{a}{2}$. 于是 $AM$ 的中点为 $\\left(\\frac{a}{2},\\frac{a}{4}\\right)$，直线 $l$ 的方程为 $y-\\frac{a}{4}=2\\left(x-\\frac{a}{2}\\right)$，即 $y=2x-\\frac{3a}{4}$.</p><p>联立</p><p>$\\begin{cases}\\frac{x^2}{a^2}+\\frac{y^2}{5}=1,\\\\  y=2x-\\frac{3a}{4},\\end{cases}$</p><p>得</p><p>$(4a^{2}+5)x^{2}-3a^{3}x+\\frac{9a^{4}-80a^{2}}{16}=0$.</p><p>设两交点横坐标为 $x_{1}$，$x_{2}$，则由韦达定理可得</p><p>$x_{1}+x_{2}=\\frac{3a^{3}}{4a^{2}+5}$，$x_{1}x_{2}=\\frac{a^{2}(9a^{2}-80)}{16(4a^{2}+5)}$.</p><p>又 $M\\left(0,\\frac{a}{2}\\right)$，且 $y_{i}=2x_{i}-\\frac{3a}{4}$（$i=1$，$2$）. $\\angle CMD$ 为钝角当且仅当 $\\overrightarrow{MC}\\cdot\\overrightarrow{MD}&#x3C;0$，即 $x_{1}x_{2}+\\left(y_{1}-\\frac{a}{2}\\right)\\left(y_{2}-\\frac{a}{2}\\right)&#x3C;0$.</p><p>代入 $y_{i}=2x_{i}-\\frac{3a}{4}$ 得</p><p>$5x_{1}x_{2}-\\frac{5a}{2}(x_{1}+x_{2})+\\frac{25a^{2}}{16}&#x3C;0$</p><p>再代入韦达定理，化简得</p><p>$\\frac{25a^{2}(a^{2}-11)}{16(4a^{2}+5)}&#x3C;0$</p><p>因为 $a>\\sqrt{5}$，所以 $16(4a^{2}+5)>0$，从而 $a^{2}&#x3C;11$. 再结合 $a>\\sqrt{5}$，得</p><p>$\\sqrt{5}&#x3C;a&#x3C;\\sqrt{11}$</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知函数 $y=f(x)$ 定义域为 $\\mathbb{R}$. 对于正实数 $a$，定义集合 $M_a=\\{x\\mid f(x+a)=f(x)\\}$.\r\n\n(1) 若 $f(x)=\\sin x$，判断 $\\dfrac{\\pi}{3}$ 是否是 $M_{\\pi}$ 的元素，请说明理由；\n\n(2) 若 $f(x)=x+2$（$x<0$），$f(0)=0$，且当 $x>0$ 时 $f(x)=\\sqrt{x}$，$M_a\\neq\\varnothing$，求 $a$ 的取值范围；\n\n(3) 若 $y=f(x)$ 是偶函数，当 $x\\in(0,1]$ 时 $f(x)=1-x$，且对任意 $a\\in(0,2)$，有 $M_a\\subset M_2$. 写出 $f(x)$ 在 $x\\in(1,2)$ 的解析式，并证明：对任意实数 $c$，函数 $f(x)-c$ 在 $[-3,3]$ 上至多有9个零点.",
-          "choices": [],
+          "body": "<p>已知函数 $y=f(x)$ 定义域为 $\\mathbb{R}$. 对于正实数 $a$，定义集合 $M_{a}=\\{x\\mid f(x+a)=f(x)\\}$.</p><ol class=\"enumerate\"><li><p>若 $f(x)=\\sin x$，判断 $\\dfrac{\\pi}{3}$ 是否是 $M_{\\pi}$ 的元素，请说明理由；</p></li><li><p>若 $f(x)=x+2$（$x&#x3C;0$），$f(0)=0$，且当 $x>0$ 时 $f(x)=\\sqrt{x}$，$M_{a}\\neq\\varnothing$，求 $a$ 的取值范围；</p></li><li><p>若 $y=f(x)$ 是偶函数，当 $x\\in(0,1]$ 时 $f(x)=1-x$，且对任意 $a\\in(0,2)$，有 $M_{a}\\subset M_{2}$. 写出 $f(x)$ 在 $x\\in(1,2)$ 的解析式，并证明：对任意实数 $c$，函数 $f(x)-c$ 在 $[-3,3]$ 上至多有9个零点.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 计算得 $f\\left(\\frac{\\pi}{3}\\right)=\\sin\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}$，且 $f\\left(\\frac{\\pi}{3}+\\pi\\right)=-\\sin\\frac{\\pi}{3}=-\\frac{\\sqrt{3}}{2}$. 所以 $\\dfrac{\\pi}{3}\\notin M_{\\pi}$.\n\n(2) 取 $x_0\\in M_a$，则 $f(x_0+a)=f(x_0)$ 且 $a>0$.\r\n\r\n若 $x_0<0$ 且 $x_0+a<0$，则 $f(x_0+a)=x_0+a+2\\ne x_0+2=f(x_0)$，矛盾；若 $x_0\\ge0$，则 $x_0+a>0$，从而 $f(x_0+a)=\\sqrt{x_0+a}\\ne\\sqrt{x_0}=f(x_0)$，也矛盾.\r\n\r\n故必有 $x_0<0\\le x_0+a$. 于是 $x_0+2=\\sqrt{x_0+a}$.\r\n\r\n因为 $-2\\le x_0<0$，所以\r\n$a=(x_0+2)^2-x_0=\\left(x_0+\\frac{3}{2}\\right)^2+\\frac{7}{4}\\in\\left[\\frac{7}{4},4\\right)$，\r\n故 $a\\in\\left[\\frac{7}{4},4\\right)$.\n\n(3) 任取 $x_0\\in(1,2)$，则 $x_0-2\\in(-1,0)$. 由于 $f$ 为偶函数，$f(x_0-2)=f(2-x_0)$. 又 $(2-x_0)-(x_0-2)=4-2x_0\\in(0,2)$，所以 $x_0-2\\in M_{4-2x_0}\\subset M_2$，从而\r\n\n$$\nf(x_0)=f(x_0-2)=f(2-x_0)=1-(2-x_0)=x_0-1\n$$\n\r\n故当 $x\\in(1,2)$ 时，$f(x)=x-1$.\r\n当 $s\\in(0,1)$ 时，$1-s\\in(0,1)$，$1+s\\in(1,2)$，于是 $f(1-s)=1-(1-s)=s$，$f(1+s)=(1+s)-1=s$. 故 $1-s\\in M_{2s}\\subset M_2$，从而 $f(3-s)=f(1-s)=s$. 由于 $3-s\\in(2,3)$，所以当 $x\\in(2,3)$ 时，$f(x)=3-x$.\r\n\r\n再由偶性可得\r\n$f(x)=x+1$，$x\\in(-1,0)$，$f(x)=-x-1$，$x\\in(-2,-1)$，$f(x)=x+3$，$x\\in(-3,-2)$.\r\n\r\n设 $f(-3)=n$. 若 $n\\in(0,1)$，则 $-3+n\\in(-3,-2)$，从而 $f(-3+n)=(-3+n)+3=n=f(-3)$，故 $-3\\in M_n\\subset M_2$，于是 $f(-1)=f(-3)=n$.\r\n但由偶性及 $f(1)=0$，得 $f(-1)=0$，矛盾. 所以 $f(-3)\\notin(0,1)$. 再由偶性，得 $f(3)\\notin(0,1)$.\r\n\r\n令 $f(x)-c=0$，即 $f(x)=c$.\r\n\r\n若 $c\\notin(0,1)$，则六个开区间\r\n$(-3,-2)$，$(-2,-1)$，$(-1,0)$，$(0,1)$，$(1,2)$，$(2,3)$\r\n内均无零点，此时零点只可能出现在 $-3$，$-2$，$0$，$2$，$3$ 这 5 个点上；特别地，当 $c=0$ 时，又有 $x=\\pm1$ 两个零点，所以此时零点至多有 7 个.\r\n\r\n若 $0<c<1$，则上述 6 个开区间内各至多有 1 个零点；又 $f(\\pm3)\\notin(0,1)$，所以只可能在 $-2$，$0$，$2$ 这 3 个点处再出现零点，从而零点总数不超过 $6+3=9$.\r\n\r\n综上，函数 $f(x)-c$ 在 $[-3,3]$ 上至多有 9 个零点.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>计算得 $f\\left(\\frac{\\pi}{3}\\right)=\\sin\\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}$，且 $f\\left(\\frac{\\pi}{3}+\\pi\\right)=-\\sin\\frac{\\pi}{3}=-\\frac{\\sqrt{3}}{2}$. 所以 $\\dfrac{\\pi}{3}\\notin M_{\\pi}$.</p></li><li><p>取 $x_{0}\\in M_{a}$，则 $f(x_{0}+a)=f(x_{0})$ 且 $a>0$.</p><p>若 $x_{0}&#x3C;0$ 且 $x_{0}+a&#x3C;0$，则 $f(x_{0}+a)=x_{0}+a+2\\ne x_{0}+2=f(x_{0})$，矛盾；若 $x_{0}\\ge0$，则 $x_{0}+a>0$，从而 $f(x_{0}+a)=\\sqrt{x_{0}+a}\\ne\\sqrt{x_{0}}=f(x_{0})$，也矛盾.</p><p>故必有 $x_{0}&#x3C;0\\le x_{0}+a$. 于是 $x_{0}+2=\\sqrt{x_{0}+a}$.</p><p>因为 $-2\\le x_{0}&#x3C;0$，所以</p><p>$a=(x_{0}+2)^{2}-x_{0}=\\left(x_{0}+\\frac{3}{2}\\right)^{2}+\\frac{7}{4}\\in\\left[\\frac{7}{4},4\\right)$，</p><p>故 $a\\in\\left[\\frac{7}{4},4\\right)$.</p></li><li><p>任取 $x_{0}\\in(1,2)$，则 $x_{0}-2\\in(-1,0)$. 由于 $f$ 为偶函数，$f(x_{0}-2)=f(2-x_{0})$. 又 $(2-x_{0})-(x_{0}-2)=4-2x_{0}\\in(0,2)$，所以 $x_{0}-2\\in M_{4-2x_0}\\subset M_{2}$，从而</p>\n$$\nf(x_{0})=f(x_{0}-2)=f(2-x_{0})=1-(2-x_{0})=x_{0}-1\n$$\n<p>故当 $x\\in(1,2)$ 时，$f(x)=x-1$.</p><p>当 $s\\in(0,1)$ 时，$1-s\\in(0,1)$，$1+s\\in(1,2)$，于是 $f(1-s)=1-(1-s)=s$，$f(1+s)=(1+s)-1=s$. 故 $1-s\\in M_{2s}\\subset M_{2}$，从而 $f(3-s)=f(1-s)=s$. 由于 $3-s\\in(2,3)$，所以当 $x\\in(2,3)$ 时，$f(x)=3-x$.</p><p>再由偶性可得</p><p>$f(x)=x+1$，$x\\in(-1,0)$，$f(x)=-x-1$，$x\\in(-2,-1)$，$f(x)=x+3$，$x\\in(-3,-2)$.</p><p>设 $f(-3)=n$. 若 $n\\in(0,1)$，则 $-3+n\\in(-3,-2)$，从而 $f(-3+n)=(-3+n)+3=n=f(-3)$，故 $-3\\in M_{n}\\subset M_{2}$，于是 $f(-1)=f(-3)=n$.</p><p>但由偶性及 $f(1)=0$，得 $f(-1)=0$，矛盾. 所以 $f(-3)\\notin(0,1)$. 再由偶性，得 $f(3)\\notin(0,1)$.</p><p>令 $f(x)-c=0$，即 $f(x)=c$.</p><p>若 $c\\notin(0,1)$，则六个开区间</p><p>$(-3,-2)$，$(-2,-1)$，$(-1,0)$，$(0,1)$，$(1,2)$，$(2,3)$</p><p>内均无零点，此时零点只可能出现在 $-3$，$-2$，$0$，$2$，$3$ 这 5 个点上；特别地，当 $c=0$ 时，又有 $x=\\pm1$ 两个零点，所以此时零点至多有 7 个.</p><p>若 $0&#x3C;c&#x3C;1$，则上述 6 个开区间内各至多有 1 个零点；又 $f(\\pm3)\\notin(0,1)$，所以只可能在 $-2$，$0$，$2$ 这 3 个点处再出现零点，从而零点总数不超过 $6+3=9$.</p><p>综上，函数 $f(x)-c$ 在 $[-3,3]$ 上至多有 9 个零点.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

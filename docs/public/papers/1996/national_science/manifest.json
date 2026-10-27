@@ -1,168 +1,15 @@
 {
+  "title": "1996年普通高等学校招生全国统一考试",
+  "subtitle": "1996年全国卷（理）",
   "year": "1996",
   "slug": "national_science",
-  "title": "1996年全国卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 24,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 25,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知全集 $I = \\mathbb{N}$，集合 $A = \\{x \\mid x = 2n, n \\in \\mathbb{N}\\}$，$B = \\{x \\mid x = 4n, n \\in \\mathbb{N}\\}$，则（ ）",
+          "body": "已知全集 $I = \\mathbb{N}$，集合 $A = \\{x \\mid x = 2n, n \\in \\mathbb{N}\\}$，$B = \\{x \\mid x = 4n, n \\in \\mathbb{N}\\}$，则（ ）",
           "choices": [
             "$I = A\\cup B$",
             "$I = \\overline{A}\\cup B$",
@@ -170,41 +17,35 @@
             "$I = \\overline{A}\\cup \\overline{B}$"
           ],
           "answer": "C",
-          "solution": "因为 $B\\subset A$，对任意 $x\\in I$，若 $x\\in B$，则 $x\\in A$；若 $x\\notin B$，则 $x\\in\\overline B$. 因此 $I=A\\cup\\overline B$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $B\\subset A$，对任意 $x\\in I$，若 $x\\in B$，则 $x\\in A$；若 $x\\notin B$，则 $x\\in\\overline B$. 因此 $I=A\\cup\\overline B$，故选 C."
         },
         {
           "num": 2,
-          "body": "当 $a > 1$ 时，在同一坐标系中，函数 $y = a^{-x}$ 与 $y = \\log_a x$ 的图象（ ）",
+          "body": "当 $a > 1$ 时，在同一坐标系中，函数 $y = a^{-x}$ 与 $y = \\log_{a} x$ 的图象（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/national_science/q2_optA_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/national_science/q2_optB_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/national_science/q2_optC_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1996/img/national_science/q2_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_science/q2_optA_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_science/q2_optB_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_science/q2_optC_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/national_science/q2_optD_clean.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "因为 $a>1$，所以 $y=a^{-x}$ 在 $\\mathbb{R}$ 上单调递减，并经过点 $(0,1)$；$y=\\log_a x$ 在 $(0,+\\infty)$ 上单调递增，并经过点 $(1,0)$，且当 $x\\to0^+$ 时函数值趋于 $-\\infty$. 与这两个性质相符的图象是选项 A，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $a>1$，所以 $y=a^{-x}$ 在 $\\mathbb{R}$ 上单调递减，并经过点 $(0,1)$；$y=\\log_{a} x$ 在 $(0,+\\infty)$ 上单调递增，并经过点 $(1,0)$，且当 $x\\to0^{+}$ 时函数值趋于 $-\\infty$. 与这两个性质相符的图象是选项 A，故选 A."
         },
         {
           "num": 3,
-          "body": "若 $\\sin^2 x > \\cos^2 x$，则 $x$ 的取值范围是（ ）",
+          "body": "若 $\\sin^{2} x > \\cos^{2} x$，则 $x$ 的取值范围是（ ）",
           "choices": [
-            "$\\left\\{x\\mid 2k\\pi -\\frac{3}{4}\\pi < x < 2k\\pi +\\frac{1}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$",
-            "$\\left\\{x\\mid 2k\\pi +\\frac{1}{4}\\pi < x < 2k\\pi +\\frac{5}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$",
-            "$\\left\\{x\\mid k\\pi -\\frac{1}{4}\\pi < x < k\\pi + \\frac{1}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$",
-            "$\\left\\{x\\mid k\\pi +\\frac{1}{4}\\pi < x < k\\pi + \\frac{3}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$"
+            "$\\left\\{x\\mid 2k\\pi -\\frac{3}{4}\\pi &#x3C; x &#x3C; 2k\\pi +\\frac{1}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$",
+            "$\\left\\{x\\mid 2k\\pi +\\frac{1}{4}\\pi &#x3C; x &#x3C; 2k\\pi +\\frac{5}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$",
+            "$\\left\\{x\\mid k\\pi -\\frac{1}{4}\\pi &#x3C; x &#x3C; k\\pi + \\frac{1}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$",
+            "$\\left\\{x\\mid k\\pi +\\frac{1}{4}\\pi &#x3C; x &#x3C; k\\pi + \\frac{3}{4}\\pi ,k\\in \\mathbb{Z}\\right\\}$"
           ],
           "answer": "D",
-          "solution": "由 $\\sin^2x-\\cos^2x=-\\cos2x$，题设等价于 $\\cos2x<0$. 因此存在 $k\\in\\mathbb{Z}$，使\r\n\n$$\n\\frac{\\pi}{2}+2k\\pi<2x<\\frac{3\\pi}{2}+2k\\pi\n$$\n\r\n两边同除以 $2$，得\r\n$k\\pi+\\frac{\\pi}{4}<x<k\\pi+\\frac{3\\pi}{4}$，$k\\in\\mathbb{Z}$.\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $\\sin^{2}x-\\cos^{2}x=-\\cos2x$，题设等价于 $\\cos2x&#x3C;0$. 因此存在 $k\\in\\mathbb{Z}$，使</p>\n$$\n\\frac{\\pi}{2}+2k\\pi&#x3C;2x&#x3C;\\frac{3\\pi}{2}+2k\\pi\n$$\n<p>两边同除以 $2$，得</p><p>$k\\pi+\\frac{\\pi}{4}&#x3C;x&#x3C;k\\pi+\\frac{3\\pi}{4}$，$k\\in\\mathbb{Z}$.</p><p>故选 D.</p>"
         },
         {
           "num": 4,
-          "body": "复数 $\\frac{(2 + 2\\mathrm{i})^4}{\\left(1 - \\sqrt{3}\\mathrm{i}\\right)^5}$ 等于（ ）",
+          "body": "复数 $\\frac{(2 + 2\\mathrm{i})^{4}}{\\left(1 - \\sqrt{3}\\mathrm{i}\\right)^{5}}$ 等于（ ）",
           "choices": [
             "$1 + \\sqrt{3}\\mathrm{i}$",
             "$-1 + \\sqrt{3}\\mathrm{i}$",
@@ -212,13 +53,11 @@
             "$-1 - \\sqrt{3}\\mathrm{i}$"
           ],
           "answer": "B",
-          "solution": "写成三角形式，有\r\n\n$$\n2+2\\mathrm{i}=2\\sqrt2\\left(\\cos\\frac{\\pi}{4}+\\mathrm{i}\\sin\\frac{\\pi}{4}\\right)\n$$\n\r\n所以\r\n\n$$\n(2+2\\mathrm{i})^4=(2\\sqrt2)^4\\left(\\cos\\pi+\\mathrm{i}\\sin\\pi\\right)=-64\n$$\n\r\n又\r\n\n$$\n1-\\sqrt3\\mathrm{i}=2\\left(\\cos\\left(-\\frac{\\pi}{3}\\right)+\\mathrm{i}\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)\n$$\n\r\n从而\r\n\n$$\n(1-\\sqrt3\\mathrm{i})^5=32\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)=16+16\\sqrt3\\mathrm{i}\n$$\n\r\n于是\r\n\n$$\n\\frac{(2+2\\mathrm{i})^4}{(1-\\sqrt3\\mathrm{i})^5}=\\frac{-64}{16+16\\sqrt3\\mathrm{i}}=-\\frac{4}{1+\\sqrt3\\mathrm{i}}=-1+\\sqrt3\\mathrm{i}\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>写成三角形式，有</p>\n$$\n2+2\\mathrm{i}=2\\sqrt{2}\\left(\\cos\\frac{\\pi}{4}+\\mathrm{i}\\sin\\frac{\\pi}{4}\\right)\n$$\n<p>所以</p>\n$$\n(2+2\\mathrm{i})^{4}=(2\\sqrt{2})^{4}\\left(\\cos\\pi+\\mathrm{i}\\sin\\pi\\right)=-64\n$$\n<p>又</p>\n$$\n1-\\sqrt{3}\\mathrm{i}=2\\left(\\cos\\left(-\\frac{\\pi}{3}\\right)+\\mathrm{i}\\sin\\left(-\\frac{\\pi}{3}\\right)\\right)\n$$\n<p>从而</p>\n$$\n(1-\\sqrt{3}\\mathrm{i})^{5}=32\\left(\\cos\\frac{\\pi}{3}+\\mathrm{i}\\sin\\frac{\\pi}{3}\\right)=16+16\\sqrt{3}\\mathrm{i}\n$$\n<p>于是</p>\n$$\n\\frac{(2+2\\mathrm{i})^{4}}{(1-\\sqrt{3}\\mathrm{i})^{5}}=\\frac{-64}{16+16\\sqrt{3}\\mathrm{i}}=-\\frac{4}{1+\\sqrt{3}\\mathrm{i}}=-1+\\sqrt{3}\\mathrm{i}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 5,
-          "body": "如果直线 $l$，$m$ 与平面 $\\alpha$，$\\beta$，$\\gamma$ 满足：$l = \\beta \\cap \\gamma$，$l \\parallel \\alpha$，$m \\subset \\alpha$，$m \\perp \\gamma$，那么必有（ ）",
+          "body": "如果直线 $l$，$m$ 与平面 $\\alpha$，$\\beta$，$\\gamma$ 满足：$l = \\beta \\cap \\gamma$，$l \\parallel \\alpha$，$m \\subset \\alpha$，$m \\perp \\gamma$，那么必有（ ）",
           "choices": [
             "$\\alpha \\perp \\gamma$ 且 $l \\perp m$",
             "$\\alpha \\perp \\gamma$ 且 $m \\parallel \\beta$",
@@ -226,13 +65,11 @@
             "$\\alpha \\parallel \\beta$ 且 $\\alpha \\perp \\gamma$"
           ],
           "answer": "A",
-          "solution": "因为 $m\\subset\\alpha$ 且 $m\\perp\\gamma$，所以平面 $\\alpha$ 与平面 $\\gamma$ 垂直；又因为 $l\\subset\\gamma$，且 $m\\perp\\gamma$，所以 $m\\perp l$. 因此必有 $\\alpha\\perp\\gamma$ 且 $l\\perp m$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $m\\subset\\alpha$ 且 $m\\perp\\gamma$，所以平面 $\\alpha$ 与平面 $\\gamma$ 垂直；又因为 $l\\subset\\gamma$，且 $m\\perp\\gamma$，所以 $m\\perp l$. 因此必有 $\\alpha\\perp\\gamma$ 且 $l\\perp m$，故选 A."
         },
         {
           "num": 6,
-          "body": "当 $-\\frac{\\pi}{2} \\le x \\le \\frac{\\pi}{2}$，$f(x) = \\sin x + \\sqrt{3} \\cos x$ 的（ ）",
+          "body": "当 $-\\frac{\\pi}{2}\\le x \\le \\frac{\\pi}{2}$，$f(x) = \\sin x + \\sqrt{3}\\cos x$ 的（ ）",
           "choices": [
             "最大值是 $1$，最小值是 $-1$",
             "最大值是 $1$，最小值是 $-\\frac{1}{2}$",
@@ -240,13 +77,11 @@
             "最大值是 $2$，最小值是 $-1$"
           ],
           "answer": "D",
-          "solution": "有\r\n\n$$\nf(x)=\\sin x+\\sqrt3\\cos x=2\\sin\\left(x+\\frac{\\pi}{3}\\right)\n$$\n\r\n当 $-\\frac{\\pi}{2}\\le x\\le\\frac{\\pi}{2}$ 时，$-\\frac{\\pi}{6}\\le x+\\frac{\\pi}{3}\\le\\frac{5\\pi}{6}$. 其中 $x=\\frac{\\pi}{6}$ 时正弦值为 $1$，故最大值为 $2$；区间左端正弦值为 $-\\frac12$，且区间内没有更小的正弦值，故最小值为 $-1$. 因此选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>有</p>\n$$\nf(x)=\\sin x+\\sqrt{3}\\cos x=2\\sin\\left(x+\\frac{\\pi}{3}\\right)\n$$\n<p>当 $-\\frac{\\pi}{2}\\le x\\le\\frac{\\pi}{2}$ 时，$-\\frac{\\pi}{6}\\le x+\\frac{\\pi}{3}\\le\\frac{5\\pi}{6}$. 其中 $x=\\frac{\\pi}{6}$ 时正弦值为 $1$，故最大值为 $2$；区间左端正弦值为 $-\\frac{1}{2}$，且区间内没有更小的正弦值，故最小值为 $-1$. 因此选 D.</p>"
         },
         {
           "num": 7,
-          "body": "椭圆 $\\begin{cases}\r\nx &= 3 + 3\\cos\\varphi,\\\\\r\ny &= -1 + 5\\sin\\varphi\r\n\\end{cases}$ 的两个焦点坐标是（ ）",
+          "body": "椭圆 $\\begin{cases}x &#x26;= 3 + 3\\cos\\varphi,\\\\\n\ny &#x26;= -1 + 5\\sin\\varphi\\end{cases}$ 的两个焦点坐标是（ ）",
           "choices": [
             "$(-3,5)$，$(-3,-3)$",
             "$(3,3)$，$(3,-5)$",
@@ -254,13 +89,11 @@
             "$(7,-1)$，$(-1,-1)$"
           ],
           "answer": "B",
-          "solution": "由参数方程可知椭圆中心为 $(3,-1)$，半长轴为 $5$，半短轴为 $3$. 其焦半距\r\n\n$$\nc=\\sqrt{5^2-3^2}=4\n$$\n\r\n长轴沿 $y$ 轴方向，所以两个焦点为 $(3,-1+4)=(3,3)$ 和 $(3,-1-4)=(3,-5)$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由参数方程可知椭圆中心为 $(3,-1)$，半长轴为 $5$，半短轴为 $3$. 其焦半距</p>\n$$\nc=\\sqrt{5^{2}-3^{2}}=4\n$$\n<p>长轴沿 $y$ 轴方向，所以两个焦点为 $(3,-1+4)=(3,3)$ 和 $(3,-1-4)=(3,-5)$，故选 B.</p>"
         },
         {
           "num": 8,
-          "body": "若 $0 < \\alpha < \\frac{\\pi}{2}$，则 $\\arcsin \\left[\\cos \\left(\\frac{\\pi}{2} + \\alpha\\right)\\right] + \\arccos \\left[\\sin (\\pi + \\alpha)\\right]$ 等于（ ）",
+          "body": "若 $0 &#x3C; \\alpha &#x3C; \\frac{\\pi}{2}$，则 $\\arcsin \\left[\\cos \\left(\\frac{\\pi}{2}+ \\alpha\\right)\\right] + \\arccos \\left[\\sin (\\pi + \\alpha)\\right]$ 等于（ ）",
           "choices": [
             "$\\frac{\\pi}{2}$",
             "$-\\frac{\\pi}{2}$",
@@ -268,27 +101,23 @@
             "$-\\frac{\\pi}{2}-2\\alpha$"
           ],
           "answer": "A",
-          "solution": "因为 $0<\\alpha<\\frac{\\pi}{2}$，所以\r\n$\\cos\\left(\\frac{\\pi}{2}+\\alpha\\right)=-\\sin\\alpha$，$\\sin(\\pi+\\alpha)=-\\sin\\alpha$.\r\n又 $-\\alpha\\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$，而 $\\frac{\\pi}{2}+\\alpha\\in[0,\\pi]$，故\r\n$\\arcsin(-\\sin\\alpha)=-\\alpha$，$qquad \\arccos(-\\sin\\alpha)=\\frac{\\pi}{2}+\\alpha$.\r\n两式相加得 $\\frac{\\pi}{2}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$，所以</p><p>$\\cos\\left(\\frac{\\pi}{2}+\\alpha\\right)=-\\sin\\alpha$，$\\sin(\\pi+\\alpha)=-\\sin\\alpha$.</p><p>又 $-\\alpha\\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$，而 $\\frac{\\pi}{2}+\\alpha\\in[0,\\pi]$，故</p><p>$\\arcsin(-\\sin\\alpha)=-\\alpha$，$qquad \\arccos(-\\sin\\alpha)=\\frac{\\pi}{2}+\\alpha$.</p><p>两式相加得 $\\frac{\\pi}{2}$，故选 A.</p>"
         },
         {
           "num": 9,
-          "body": "将边长为 $a$ 的正方形 $ABCD$ 沿对角线 $AC$ 折起，使得 $BD = a$，则三棱锥 $D - ABC$ 的体积为（ ）",
+          "body": "将边长为 $a$ 的正方形 $ABCD$ 沿对角线 $AC$ 折起，使得 $BD = a$，则三棱锥 $D - ABC$ 的体积为（ ）",
           "choices": [
-            "$\\frac{a^3}{6}$",
-            "$\\frac{a^3}{12}$",
-            "$\\frac{\\sqrt{3} a^3}{12}$",
-            "$\\frac{\\sqrt{2}}{12} a^3$"
+            "$\\frac{a^{3}}{6}$",
+            "$\\frac{a^{3}}{12}$",
+            "$\\frac{\\sqrt{3}a^{3}}{12}$",
+            "$\\frac{\\sqrt{2}}{12}a^{3}$"
           ],
           "answer": "D",
-          "solution": "设 $O$ 为正方形的中心，也是对角线 $AC$ 的中点. 折叠后 $OB=OD=\\frac{a}{\\sqrt2}$，且 $AC$ 仍是折叠的公共棱. 在三角形 $BOD$ 中，由 $BD=a$ 得\r\n\n$$\na^2=BD^2=OB^2+OD^2-2OB\\cdot OD\\cos\\angle BOD\r\n=a^2\\left(1-\\cos\\angle BOD\\right)\n$$\n\r\n所以 $\\angle BOD=\\frac{\\pi}{2}$. 又 $OD\\perp AC$，故 $OD$ 垂直于平面 $ABC$ 内相交的两条直线 $AC$，$OB$，从而 $OD$ 是三棱锥 $D-ABC$ 的高. 因此\r\n\n$$\nV_{D-ABC}=\\frac13\\cdot\\frac{a^2}{2}\\cdot\\frac{a}{\\sqrt2}\r\n=\\frac{\\sqrt2}{12}a^3\n$$\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $O$ 为正方形的中心，也是对角线 $AC$ 的中点. 折叠后 $OB=OD=\\frac{a}{\\sqrt{2}}$，且 $AC$ 仍是折叠的公共棱. 在三角形 $BOD$ 中，由 $BD=a$ 得</p>\n$$\na^{2}=BD^{2}=OB^{2}+OD^{2}-2OB\\cdot OD\\cos\\angle BOD  =a^{2}\\left(1-\\cos\\angle BOD\\right)\n$$\n<p>所以 $\\angle BOD=\\frac{\\pi}{2}$. 又 $OD\\perp AC$，故 $OD$ 垂直于平面 $ABC$ 内相交的两条直线 $AC$，$OB$，从而 $OD$ 是三棱锥 $D-ABC$ 的高. 因此</p>\n$$\nV_{D-ABC}=\\frac{1}{3}\\cdot\\frac{a^{2}}{2}\\cdot\\frac{a}{\\sqrt{2}}=\\frac{\\sqrt{2}}{12}a^{3}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 10,
-          "body": "等比数列 $\\{a_{n}\\}$ 的首项 $a_1 = -1$，前 $n$ 项和为 $S_{n}$，若 $\\frac{S_{10}}{S_5} = \\frac{31}{32}$，则 $\\displaystyle\\lim_{n\\to \\infty} S_n$ 等于（ ）",
+          "body": "等比数列 $\\{a_{n}\\}$ 的首项 $a_{1} = -1$，前 $n$ 项和为 $S_{n}$，若 $\\frac{S_{10}}{S_{5}}= \\frac{31}{32}$，则 $\\displaystyle\\lim_{n\\to \\infty}S_{n}$ 等于（ ）",
           "choices": [
             "$\\frac{2}{3}$",
             "$-\\frac{2}{3}$",
@@ -296,13 +125,11 @@
             "$-2$"
           ],
           "answer": "B",
-          "solution": "设等比数列的公比为 $q$. 若 $q=1$，则 $\\frac{S_{10}}{S_5}=2$，与题设不符，所以 $q\\neq1$. 由等比数列求和公式，\r\n\n$$\n\\frac{S_{10}}{S_5}\r\n=\\frac{a_1\\frac{(1-q^{10})}{(1-q)}}{a_1\\frac{(1-q^5)}{(1-q)}}\r\n=1+q^5=\\frac{31}{32}\n$$\n\r\n故 $q^5=-\\frac1{32}$，从而 $q=-\\frac12$. 因为 $\\lvert q\\rvert<1$，\r\n\n$$\n\\lim_{n\\to\\infty}S_n=\\frac{a_1}{1-q}\r\n=\\frac{-1}{1+\\frac12}=-\\frac23\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等比数列的公比为 $q$. 若 $q=1$，则 $\\frac{S_{10}}{S_{5}}=2$，与题设不符，所以 $q\\neq1$. 由等比数列求和公式，</p>\n$$\n\\frac{S_{10}}{S_{5}}=\\frac{a_{1}\\frac{(1-q^{10})}{(1-q)}}{a_{1}\\frac{(1-q^5)}{(1-q)}}=1+q^{5}=\\frac{31}{32}\n$$\n<p>故 $q^{5}=-\\frac{1}{32}$，从而 $q=-\\frac{1}{2}$. 因为 $\\lvert q\\rvert&#x3C;1$，</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{-1}{1+\\frac{1}{2}}=-\\frac{2}{3}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 11,
-          "body": "椭圆的极坐标方程为 $\\rho = \\frac{3}{2 - \\cos\\theta}$，则它在短轴上的两个顶点的极坐标是（ ）",
+          "body": "椭圆的极坐标方程为 $\\rho = \\frac{3}{2 - \\cos\\theta}$，则它在短轴上的两个顶点的极坐标是（ ）",
           "choices": [
             "$(3,0)$，$(1,\\pi)$",
             "$\\left(\\sqrt{3},\\frac{\\pi}{2}\\right)$，$\\left(\\sqrt{3},\\frac{3\\pi}{2}\\right)$",
@@ -310,13 +137,11 @@
             "$\\left(\\sqrt{7}, \\arctan \\frac{\\sqrt{3}}{2}\\right)$，$\\left(\\sqrt{7}, 2\\pi - \\arctan \\frac{\\sqrt{3}}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "由极坐标关系 $x=\\rho\\cos\\theta$，$x^2+y^2=\\rho^2$，原方程化为\r\n\n$$\n2\\rho=3+\\rho\\cos\\theta=3+x\n$$\n\r\n两边平方得\r\n\n$$\n4(x^2+y^2)=(x+3)^2\n$$\n\r\n即\r\n\n$$\n\\frac{(x-1)^2}{4}+\\frac{y^2}{3}=1\n$$\n\r\n因此椭圆中心为 $(1,0)$，短半轴为 $\\sqrt3$，短轴端点为 $(1,\\sqrt3)$ 和 $(1,-\\sqrt3)$. 它们到极点的距离都是 $2$，对应极角分别为 $\\frac{\\pi}{3}$ 和 $\\frac{5\\pi}{3}$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由极坐标关系 $x=\\rho\\cos\\theta$，$x^{2}+y^{2}=\\rho^{2}$，原方程化为</p>\n$$\n2\\rho=3+\\rho\\cos\\theta=3+x\n$$\n<p>两边平方得</p>\n$$\n4(x^{2}+y^{2})=(x+3)^{2}\n$$\n<p>即</p>\n$$\n\\frac{(x-1)^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n<p>因此椭圆中心为 $(1,0)$，短半轴为 $\\sqrt{3}$，短轴端点为 $(1,\\sqrt{3})$ 和 $(1,-\\sqrt{3})$. 它们到极点的距离都是 $2$，对应极角分别为 $\\frac{\\pi}{3}$ 和 $\\frac{5\\pi}{3}$. 故选 C.</p>"
         },
         {
           "num": 12,
-          "body": "等差数列 $\\{a_{n}\\}$ 的前 $m$ 项和为 $30$，前 $2m$ 项和为 $100$，则它的前 $3m$ 项和为（ ）",
+          "body": "等差数列 $\\{a_{n}\\}$ 的前 $m$ 项和为 $30$，前 $2m$ 项和为 $100$，则它的前 $3m$ 项和为（ ）",
           "choices": [
             "$130$",
             "$170$",
@@ -324,13 +149,11 @@
             "$260$"
           ],
           "answer": "C",
-          "solution": "设等差数列的公差为 $d$. 将前 $2m$ 项分成前后两个各含 $m$ 项的部分，后 $m$ 项的每一项都比前面对应项多 $md$，所以\r\n\n$$\nS_{2m}=2S_m+m^2d\n$$\n\r\n代入 $S_m=30$，$S_{2m}=100$，得 $m^2d=40$. 再将前 $3m$ 项分成三个各含 $m$ 项的部分，后三段相对于第一段分别多 $m^2d$ 和 $2m^2d$，故\r\n\n$$\nS_{3m}=3S_m+3m^2d=3\\times30+3\\times40=210\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的公差为 $d$. 将前 $2m$ 项分成前后两个各含 $m$ 项的部分，后 $m$ 项的每一项都比前面对应项多 $md$，所以</p>\n$$\nS_{2m}=2S_{m}+m^{2}d\n$$\n<p>代入 $S_{m}=30$，$S_{2m}=100$，得 $m^{2}d=40$. 再将前 $3m$ 项分成三个各含 $m$ 项的部分，后三段相对于第一段分别多 $m^{2}d$ 和 $2m^{2}d$，故</p>\n$$\nS_{3m}=3S_{m}+3m^{2}d=3\\times30+3\\times40=210\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 13,
-          "body": "设双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$（$0 < a < b$）的半焦距为 $c$，直线 $l$ 过 $(a,0)$，$(0,b)$ 两点，已知原点到直线 $l$ 的距离为 $\\frac{\\sqrt{3}}{4} c$，则双曲线的离心率为（ ）",
+          "body": "设双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$0 &#x3C; a &#x3C; b$）的半焦距为 $c$，直线 $l$ 过 $(a,0)$，$(0,b)$ 两点，已知原点到直线 $l$ 的距离为 $\\frac{\\sqrt{3}}{4}c$，则双曲线的离心率为（ ）",
           "choices": [
             "$2$",
             "$\\sqrt{3}$",
@@ -338,13 +161,11 @@
             "$\\frac{2\\sqrt{3}}{3}$"
           ],
           "answer": "A",
-          "solution": "直线 $l$ 的截距式为 $\\frac{x}{a}+\\frac{y}{b}=1$，故原点到 $l$ 的距离为\r\n\n$$\n\\frac{ab}{\\sqrt{a^2+b^2}}=\\frac{ab}{c}\n$$\n\r\n又双曲线的半焦距满足 $c^2=a^2+b^2$，由题设得\r\n$\\frac{ab}{c}=\\frac{\\sqrt3}{4}c$，$\\frac{ab}{a^2+b^2}=\\frac{\\sqrt3}{4}$.\r\n令 $t=\\frac{b}{a}>1$，则\r\n\n$$\n\\frac{t}{1+t^2}=\\frac{\\sqrt3}{4}\n$$\n\r\n即\r\n\n$$\n\\sqrt3t^2-4t+\\sqrt3=0\n$$\n\r\n解得 $t=\\sqrt3$ 或 $t=\\frac{\\sqrt3}{3}$. 因 $t>1$，所以 $t=\\sqrt3$. 因而\r\n\n$$\ne=\\frac ca=\\sqrt{1+\\frac{b^2}{a^2}}=\\sqrt{1+3}=2\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>直线 $l$ 的截距式为 $\\frac{x}{a}+\\frac{y}{b}=1$，故原点到 $l$ 的距离为</p>\n$$\n\\frac{ab}{\\sqrt{a^{2}+b^{2}}}=\\frac{ab}{c}\n$$\n<p>又双曲线的半焦距满足 $c^{2}=a^{2}+b^{2}$，由题设得</p><p>$\\frac{ab}{c}=\\frac{\\sqrt{3}}{4}c$，$\\frac{ab}{a^{2}+b^{2}}=\\frac{\\sqrt{3}}{4}$.</p><p>令 $t=\\frac{b}{a}>1$，则</p>\n$$\n\\frac{t}{1+t^{2}}=\\frac{\\sqrt{3}}{4}\n$$\n<p>即</p>\n$$\n\\sqrt{3}t^{2}-4t+\\sqrt{3}=0\n$$\n<p>解得 $t=\\sqrt{3}$ 或 $t=\\frac{\\sqrt{3}}{3}$. 因 $t>1$，所以 $t=\\sqrt{3}$. 因而</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1+\\frac{b^{2}}{a^{2}}}=\\sqrt{1+3}=2\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 14,
-          "body": "母线长为 $1$ 的圆锥体积最大时，其侧面展开图圆心角 $\\varphi$ 等于（ ）",
+          "body": "母线长为 $1$ 的圆锥体积最大时，其侧面展开图圆心角 $\\varphi$ 等于（ ）",
           "choices": [
             "$\\frac{2\\sqrt{2}}{3}\\pi$",
             "$\\frac{2\\sqrt{3}}{3}\\pi$",
@@ -352,13 +173,11 @@
             "$\\frac{2\\sqrt{6}}{3}\\pi$"
           ],
           "answer": "D",
-          "solution": "设圆锥底面半径为 $r$，高为 $h$. 母线长为 $1$，所以 $h=\\sqrt{1-r^2}$，其中 $0<r<1$. 体积为\r\n\n$$\nV=\\pi r^2\\sqrt{1-r^2}\n$$\n\r\n令 $u=r^2$，则 $0<u<1$，且\r\n$V(u)=\\pi u\\sqrt{1-u}$，$V'(u)=\\frac{\\pi(2-3u)}{2\\sqrt{1-u}}$.\r\n因此 $V$ 在 $u=\\frac23$ 时取得最大值，即 $r=\\sqrt{\\frac23}$. 侧面展开图是半径为 $1$ 的扇形，其弧长等于底面周长，所以\r\n\n$$\n\\varphi=2\\pi r=2\\pi\\sqrt{\\frac23}=\\frac{2\\sqrt6}{3}\\pi\n$$\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设圆锥底面半径为 $r$，高为 $h$. 母线长为 $1$，所以 $h=\\sqrt{1-r^{2}}$，其中 $0&#x3C;r&#x3C;1$. 体积为</p>\n$$\nV=\\pi r^{2}\\sqrt{1-r^{2}}\n$$\n<p>令 $u=r^{2}$，则 $0&#x3C;u&#x3C;1$，且</p><p>$V(u)=\\pi u\\sqrt{1-u}$，$V'(u)=\\frac{\\pi(2-3u)}{2\\sqrt{1-u}}$.</p><p>因此 $V$ 在 $u=\\frac{2}{3}$ 时取得最大值，即 $r=\\sqrt{\\frac{2}{3}}$. 侧面展开图是半径为 $1$ 的扇形，其弧长等于底面周长，所以</p>\n$$\n\\varphi=2\\pi r=2\\pi\\sqrt{\\frac{2}{3}}=\\frac{2\\sqrt{6}}{3}\\pi\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 15,
-          "body": "设 $f(x)$ 是 $(- \\infty, + \\infty)$ 上的奇函数，$f(x + 2) = -f(x)$，当 $0 \\le x \\le 1$ 时，$f(x) = x$，则 $f(7.5)$ 等于（ ）",
+          "body": "设 $f(x)$ 是 $(- \\infty, + \\infty)$ 上的奇函数，$f(x + 2) = -f(x)$，当 $0 \\le x \\le 1$ 时，$f(x) = x$，则 $f(7.5)$ 等于（ ）",
           "choices": [
             "$0.5$",
             "$-0.5$",
@@ -366,9 +185,7 @@
             "$-1.5$"
           ],
           "answer": "B",
-          "solution": "由 $f(x+2)=-f(x)$ 连续使用两次可得 $f(x+4)=f(x)$，所以 $4$ 是一个周期. 因 $7.5=-0.5+8$，\r\n\n$$\nf(7.5)=f(-0.5)\n$$\n\r\n又 $f$ 是奇函数，且 $0\\leqslant0.5\\leqslant1$，故\r\n\n$$\nf(-0.5)=-f(0.5)=-0.5\n$$\n\r\n因此选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $f(x+2)=-f(x)$ 连续使用两次可得 $f(x+4)=f(x)$，所以 $4$ 是一个周期. 因 $7.5=-0.5+8$，</p>\n$$\nf(7.5)=f(-0.5)\n$$\n<p>又 $f$ 是奇函数，且 $0\\leqslant0.5\\leqslant1$，故</p>\n$$\nf(-0.5)=-f(0.5)=-0.5\n$$\n<p>因此选 B.</p>"
         }
       ]
     },
@@ -377,39 +194,31 @@
       "problems": [
         {
           "num": 16,
-          "body": "已知圆 $x^{2} + y^{2} - 6x - 7 = 0$ 与抛物线 $y^{2} = 2px$（$p > 0$）的准线相切，则 $p =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "圆的方程可写为\r\n\n$$\n(x-3)^2+y^2=16\n$$\n\r\n所以圆心为 $(3,0)$，半径为 $4$，其左、右端点的横坐标分别为 $-1$ 和 $7$. 抛物线 $y^2=2px$ 的准线为 $x=-\\frac p2$. 由于 $p>0$，准线在 $y$ 轴左侧，只能与圆在左端点处相切，故\r\n\n$$\n-\\frac p2=-1\n$$\n\r\n从而 $p=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆 $x^{2}+ y^{2}- 6x - 7 = 0$ 与抛物线 $y^{2}= 2px$（$p > 0$）的准线相切，则 $p =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "<p>圆的方程可写为</p>\n$$\n(x-3)^{2}+y^{2}=16\n$$\n<p>所以圆心为 $(3,0)$，半径为 $4$，其左、右端点的横坐标分别为 $-1$ 和 $7$. 抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 由于 $p>0$，准线在 $y$ 轴左侧，只能与圆在左端点处相切，故</p>\n$$\n-\\frac{p}{2}=-1\n$$\n<p>从而 $p=2$.</p>"
         },
         {
           "num": 17,
-          "body": "正六边形的中心和顶点共 $7$ 个点，以其中 $3$ 个点为顶点的三角形共有 _______ {}个. （用数字作答）",
-          "choices": [],
-          "answer": "\\(32\\)",
-          "solution": "从 $7$ 个点中任取 $3$ 个共有\r\n\n$$\n\\mathrm C_7^3=35\n$$\n\r\n种选法. 其中不能构成三角形的情形是中心与一对相对顶点共线. 正六边形共有 $3$ 对相对顶点，因此应减去 $3$ 种. 于是三角形共有\r\n\n$$\n35-3=32\n$$\n\r\n个.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "正六边形的中心和顶点共 $7$ 个点，以其中 $3$ 个点为顶点的三角形共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>个. （用数字作答）",
+          "choices": null,
+          "answer": "$32$",
+          "solution": "<p>从 $7$ 个点中任取 $3$ 个共有</p>\n$$\n\\mathrm{C}_{7}^{3}=35\n$$\n<p>种选法. 其中不能构成三角形的情形是中心与一对相对顶点共线. 正六边形共有 $3$ 对相对顶点，因此应减去 $3$ 种. 于是三角形共有</p>\n$$\n35-3=32\n$$\n<p>个.</p>"
         },
         {
           "num": 18,
-          "body": "$\\tan 20^{\\circ} + \\tan 40^{\\circ} + \\sqrt{3}\\tan 20^{\\circ}\\tan 40^{\\circ}$ 的值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt{3}\\)",
-          "solution": "由正切的和角公式，\r\n\n$$\n\\tan60^{\\circ}\r\n=\\frac{\\tan20^{\\circ}+\\tan40^{\\circ}}\r\n{1-\\tan20^{\\circ}\\tan40^{\\circ}}\r\n=\\sqrt3\n$$\n\r\n因此\r\n\n$$\n\\tan20^{\\circ}+\\tan40^{\\circ}\r\n=\\sqrt3\\left(1-\\tan20^{\\circ}\\tan40^{\\circ}\\right)\n$$\n\r\n移项后得\r\n\n$$\n\\tan20^{\\circ}+\\tan40^{\\circ}\r\n+\\sqrt3\\tan20^{\\circ}\\tan40^{\\circ}=\\sqrt3\n$$\n\r\n故填 $\\sqrt3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\tan 20^{\\circ}+ \\tan 40^{\\circ}+ \\sqrt{3}\\tan 20^{\\circ}\\tan 40^{\\circ}$ 的值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{3}$",
+          "solution": "<p>由正切的和角公式，</p>\n$$\n\\tan60^{\\circ}=\\frac{\\tan20^{\\circ}+\\tan40^{\\circ}}{1-\\tan20^{\\circ}\\tan40^{\\circ}}=\\sqrt{3}\n$$\n<p>因此</p>\n$$\n\\tan20^{\\circ}+\\tan40^{\\circ}=\\sqrt{3}\\left(1-\\tan20^{\\circ}\\tan40^{\\circ}\\right)\n$$\n<p>移项后得</p>\n$$\n\\tan20^{\\circ}+\\tan40^{\\circ}+\\sqrt{3}\\tan20^{\\circ}\\tan40^{\\circ}=\\sqrt{3}\n$$\n<p>故填 $\\sqrt{3}$.</p>"
         },
         {
           "num": 19,
-          "body": "如图，正方形 $ABCD$ 所在平面与正方形 $ABEF$ 所在平面成 $60^{\\circ}$ 的二面角，则异面直线 $AD$ 与 $BF$ 所成角的余弦值是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1996/img/national_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac{\\sqrt{2}}{4}\\)",
-          "solution": "设正方形边长为 $a$，取 $AB$ 为公共棱. 建立空间直角坐标系\r\n$A=(0,0,0)$，$B=(a,0,0)$，$D=(0,a,0)$.\r\n由于另一正方形所在平面与 $ABCD$ 所在平面成 $60^{\\circ}$ 的二面角，可取\r\n\n$$\nF=\\left(0,\\frac a2,\\frac{\\sqrt3a}{2}\\right)\n$$\n\r\n于是\r\n$\\overrightarrow{AD}=(0,a,0)$，$\\overrightarrow{BF}=\\left(-a,\\frac a2,\\frac{\\sqrt3a}{2}\\right)$.\r\n故\r\n$\\overrightarrow{AD}\\cdot\\overrightarrow{BF}=\\frac{a^2}{2}$，$|AD|=a$，$|BF|=\\sqrt2a$.\r\n设异面直线 $AD$ 与 $BF$ 所成的锐角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{\\left|\\overrightarrow{AD}\\cdot\\overrightarrow{BF}\\right|}\r\n{|AD|\\,|BF|}\r\n=\\frac{\\frac{a^2}{2}}{a\\cdot\\sqrt2a}\r\n=\\frac{\\sqrt2}{4}\n$$\n\r\n故填 $\\frac{\\sqrt2}{4}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，正方形 $ABCD$ 所在平面与正方形 $ABEF$ 所在平面成 $60^{\\circ}$ 的二面角，则异面直线 $AD$ 与 $BF$ 所成角的余弦值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{\\sqrt{2}}{4}$",
+          "solution": "<p>设正方形边长为 $a$，取 $AB$ 为公共棱. 建立空间直角坐标系</p><p>$A=(0,0,0)$，$B=(a,0,0)$，$D=(0,a,0)$.</p><p>由于另一正方形所在平面与 $ABCD$ 所在平面成 $60^{\\circ}$ 的二面角，可取</p>\n$$\nF=\\left(0,\\frac{a}{2},\\frac{\\sqrt{3}a}{2}\\right)\n$$\n<p>于是</p><p>$\\overrightarrow{AD}=(0,a,0)$，$\\overrightarrow{BF}=\\left(-a,\\frac{a}{2},\\frac{\\sqrt{3}a}{2}\\right)$.</p><p>故</p><p>$\\overrightarrow{AD}\\cdot\\overrightarrow{BF}=\\frac{a^{2}}{2}$，$|AD|=a$，$|BF|=\\sqrt{2}a$.</p><p>设异面直线 $AD$ 与 $BF$ 所成的锐角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\left|\\overrightarrow{AD}\\cdot\\overrightarrow{BF}\\right|}{|AD|\\,|BF|}=\\frac{\\frac{a^{2}}{2}}{a\\cdot\\sqrt{2}a}=\\frac{\\sqrt{2}}{4}\n$$\n<p>故填 $\\frac{\\sqrt{2}}{4}$.</p>"
         }
       ]
     },
@@ -418,60 +227,47 @@
       "problems": [
         {
           "num": 20,
-          "body": "解不等式：$\\log_a\\left(1 - \\frac{1}{x}\\right) > 1$.",
-          "choices": [],
+          "body": "解不等式：$\\log_{a}\\left(1 - \\frac{1}{x}\\right) > 1$.",
+          "choices": null,
           "answer": "",
-          "solution": "对数的底数满足 $a>0$ 且 $a\\neq1$. 首先由真数为正，得\r\n\n$$\n1-\\frac1x>0\n$$\n\r\n所以 $x<0$ 或 $x>1$.\r\n\r\n当 $a>1$ 时，对数函数单调递增，原不等式等价于\r\n\n$$\n1-\\frac1x>a\n$$\n\r\n若 $x>1$，左边小于 $1$，不可能大于 $a>1$；若 $x<0$，移项并乘以负数 $x$ 时不等号反向，得\r\n\n$$\n1-a>\\frac1x\r\n\\Longleftrightarrow\r\n(1-a)x<1\r\n\\Longleftrightarrow\r\nx>\\frac1{1-a}\n$$\n\r\n故此时解集为 $\\frac1{1-a}<x<0$.\r\n\r\n当 $0<a<1$ 时，对数函数单调递减，原不等式等价于\r\n\n$$\n0<1-\\frac1x<a\n$$\n\r\n由 $1-\\frac1x<a$ 得 $\\frac1x>1-a>0$，所以 $x>0$，再乘以正数 $x$ 得\r\n\n$$\n1>(1-a)x\r\n\\Longleftrightarrow\r\nx<\\frac1{1-a}\n$$\n\r\n结合定义域 $x>1$，此时解集为 $1<x<\\frac1{1-a}$.\r\n\r\n综上，当 $a>1$ 时，解集为 $\\left(\\frac1{1-a},0\\right)$；当 $0<a<1$ 时，解集为 $\\left(1,\\frac1{1-a}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>对数的底数满足 $a>0$ 且 $a\\neq1$. 首先由真数为正，得</p>\n$$\n1-\\frac{1}{x}>0\n$$\n<p>所以 $x&#x3C;0$ 或 $x>1$.</p><p>当 $a>1$ 时，对数函数单调递增，原不等式等价于</p>\n$$\n1-\\frac{1}{x}>a\n$$\n<p>若 $x>1$，左边小于 $1$，不可能大于 $a>1$；若 $x&#x3C;0$，移项并乘以负数 $x$ 时不等号反向，得</p>\n$$\n1-a>\\frac{1}{x}\\Longleftrightarrow  (1-a)x&#x3C;1  \\Longleftrightarrow  x>\\frac{1}{1-a}\n$$\n<p>故此时解集为 $\\frac{1}{1-a}&#x3C;x&#x3C;0$.</p><p>当 $0&#x3C;a&#x3C;1$ 时，对数函数单调递减，原不等式等价于</p>\n$$\n0&#x3C;1-\\frac{1}{x}&#x3C;a\n$$\n<p>由 $1-\\frac{1}{x}&#x3C;a$ 得 $\\frac{1}{x}>1-a>0$，所以 $x>0$，再乘以正数 $x$ 得</p>\n$$\n1>(1-a)x  \\Longleftrightarrow  x&#x3C;\\frac{1}{1-a}\n$$\n<p>结合定义域 $x>1$，此时解集为 $1&#x3C;x&#x3C;\\frac{1}{1-a}$.</p><p>综上，当 $a>1$ 时，解集为 $\\left(\\frac{1}{1-a},0\\right)$；当 $0&#x3C;a&#x3C;1$ 时，解集为 $\\left(1,\\frac{1}{1-a}\\right)$.</p>"
         },
         {
           "num": 21,
-          "body": "已知 $\\triangle ABC$ 的三个内角 $A$，$B$，$C$ 满足：$A + C = 2B$，$\\frac{1}{\\cos A} + \\frac{1}{\\cos C} = -\\frac{\\sqrt{2}}{\\cos B}$，求 $\\cos \\frac{A - C}{2}$ 的值.",
-          "choices": [],
+          "body": "已知 $\\triangle ABC$ 的三个内角 $A$，$B$，$C$ 满足：$A + C = 2B$，$\\frac{1}{\\cos A}+ \\frac{1}{\\cos C}= -\\frac{\\sqrt{2}}{\\cos B}$，求 $\\cos \\frac{A - C}{2}$ 的值.",
+          "choices": null,
           "answer": "",
-          "solution": "三角形内角和给出 $A+B+C=\\pi$. 联立 $A+C=2B$，得 $3B=\\pi$，所以 $B=\\frac{\\pi}{3}$，且 $A+C=\\frac{2\\pi}{3}$.\r\n\r\n设 $t=\\frac{A-C}{2}$，则 $A=\\frac{\\pi}{3}+t$，$C=\\frac{\\pi}{3}-t$，并且 $-\\frac{\\pi}{3}<t<\\frac{\\pi}{3}$. 由题设，\r\n\n$$\n\\frac1{\\cos A}+\\frac1{\\cos C}\r\n=-\\frac{\\sqrt2}{\\cos B}\r\n=-2\\sqrt2\n$$\n\r\n另一方面，\r\n\n$$\n\\cos A+\\cos C\r\n=2\\cos\\frac{A+C}{2}\\cos\\frac{A-C}{2}\r\n=\\cos t\n$$\n\r\n以及\r\n\n$$\n\\cos A\\cos C\r\n=\\frac{\\cos(A+C)+\\cos(A-C)}2\r\n=\\frac{\\cos2t-\\frac12}{2}\n$$\n\r\n因此\r\n\n$$\n\\frac{\\cos t}{\\frac{(\\cos2t-\\frac12)}{2}}=-2\\sqrt2\n$$\n\r\n令 $u=\\cos t$. 因为 $-\\frac{\\pi}{3}<t<\\frac{\\pi}{3}$，所以 $u>0$，且 $\\cos2t=2u^2-1$. 代入得\r\n\n$$\n\\frac{4u}{4u^2-3}=-2\\sqrt2\r\n\\Longleftrightarrow\r\n4\\sqrt2u^2+2u-3\\sqrt2=0\n$$\n\r\n因式分解为\r\n\n$$\n(2u-\\sqrt2)(2\\sqrt2u+3)=0\n$$\n\r\n由于 $u>0$，第二因式不为零，故 $u=\\frac{\\sqrt2}{2}$. 所以\r\n\n$$\n\\cos\\frac{A-C}{2}=\\frac{\\sqrt2}{2}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>三角形内角和给出 $A+B+C=\\pi$. 联立 $A+C=2B$，得 $3B=\\pi$，所以 $B=\\frac{\\pi}{3}$，且 $A+C=\\frac{2\\pi}{3}$.</p><p>设 $t=\\frac{A-C}{2}$，则 $A=\\frac{\\pi}{3}+t$，$C=\\frac{\\pi}{3}-t$，并且 $-\\frac{\\pi}{3}&#x3C;t&#x3C;\\frac{\\pi}{3}$. 由题设，</p>\n$$\n\\frac{1}{\\cos A}+\\frac{1}{\\cos C}=-\\frac{\\sqrt{2}}{\\cos B}=-2\\sqrt{2}\n$$\n<p>另一方面，</p>\n$$\n\\cos A+\\cos C  =2\\cos\\frac{A+C}{2}\\cos\\frac{A-C}{2}=\\cos t\n$$\n<p>以及</p>\n$$\n\\cos A\\cos C  =\\frac{\\cos(A+C)+\\cos(A-C)}{2}  =\\frac{\\cos2t-\\frac{1}{2}}{2}\n$$\n<p>因此</p>\n$$\n\\frac{\\cos t}{\\frac{(\\cos2t-\\frac{1}{2})}{2}}=-2\\sqrt{2}\n$$\n<p>令 $u=\\cos t$. 因为 $-\\frac{\\pi}{3}&#x3C;t&#x3C;\\frac{\\pi}{3}$，所以 $u>0$，且 $\\cos2t=2u^{2}-1$. 代入得</p>\n$$\n\\frac{4u}{4u^{2}-3}=-2\\sqrt{2}\\Longleftrightarrow  4\\sqrt{2}u^{2}+2u-3\\sqrt{2}=0\n$$\n<p>因式分解为</p>\n$$\n(2u-\\sqrt{2})(2\\sqrt{2}u+3)=0\n$$\n<p>由于 $u>0$，第二因式不为零，故 $u=\\frac{\\sqrt{2}}{2}$. 所以</p>\n$$\n\\cos\\frac{A-C}{2}=\\frac{\\sqrt{2}}{2}\n$$"
         },
         {
           "num": 22,
-          "body": "如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$E \\in BB_{1}$，截面 $A_{1}EC \\perp$ 侧面 $AC_{1}$.\r\n\r\n\n(1) 求证：$BE = EB_{1}$；\n\n(2) 若 $AA_{1} = A_{1}B_{1}$，求平面 $A_{1}EC$ 与平面 $A_{1}B_{1}C_{1}$ 所成二面角（锐角）的度数.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1996/img/national_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，在正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 中，$E \\in BB_{1}$，截面 $A_{1}EC \\perp$ 侧面 $AC_{1}$.</p><ol class=\"enumerate\"><li><p>求证：$BE = EB_{1}$；</p></li><li><p>若 $AA_{1}= A_{1}B_{1}$，求平面 $A_{1}EC$ 与平面 $A_{1}B_{1}C_{1}$ 所成二面角（锐角）的度数.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "设正三棱柱的底面边长为 $s$，侧棱长为 $h$，建立直角坐标系，使\r\n$A=(0,0,0)$，$B=(s,0,0)$，$C=\\left(\\frac s2,\\frac{\\sqrt3s}{2},0\\right)$\r\n$A_1=(0,0,h)$，$B_1=(s,0,h)$，$C_1=\\left(\\frac s2,\\frac{\\sqrt3s}{2},h\\right)$.\r\n设 $E=(s,0,t)$，其中 $0\\le t\\le h$. 侧面 $ACC_1A_1$ 的一个法向量为 $\\mathbf{n}_1=(\\sqrt3,-1,0)$. 平面 $A_1EC$ 的一个法向量为\r\n\n$$\n\\mathbf{n}_2=\\overrightarrow{A_1C}\\times\\overrightarrow{A_1E}\r\n=\\left(\\frac{\\sqrt3s(t-h)}2,-\\frac{s(h+t)}2,-\\frac{\\sqrt3s^2}2\\right)\n$$\n\r\n由于平面 $A_1EC\\perp ACC_1A_1$，有 $\\mathbf{n}_1\\cdot\\mathbf{n}_2=0$，即\r\n\n$$\n\\frac{3s(t-h)}2+\\frac{s(h+t)}2=s(2t-h)=0\n$$\n\r\n所以 $t=\\frac h2$，从而\r\n\n$$\nBE=t=\\frac h2=EB_1\n$$\n\r\n\r\n当 $AA_1=A_1B_1$ 时，$h=s$. 此时可将 $\\mathbf{n}_2$ 乘以 $-\\frac4{s^2}$，得到平面 $A_1EC$ 的法向量\r\n\n$$\n\\mathbf{n}=(\\sqrt3,3,2\\sqrt3)\n$$\n\r\n平面 $A_1B_1C_1$ 的法向量可取 $\\mathbf{n}_0=(0,0,1)$. 设两平面所成的锐二面角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}\\cdot\\mathbf{n}_0|}{|\\mathbf{n}|\\,|\\mathbf{n}_0|}\r\n=\\frac{2\\sqrt3}{\\sqrt{3+9+12}}\r\n=\\frac{\\sqrt2}{2}\n$$\n\r\n因此 $\\theta=45^{\\circ}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设正三棱柱的底面边长为 $s$，侧棱长为 $h$，建立直角坐标系，使</p><p>$A=(0,0,0)$，$B=(s,0,0)$，$C=\\left(\\frac{s}{2},\\frac{\\sqrt{3}s}{2},0\\right)$</p><p>$A_{1}=(0,0,h)$，$B_{1}=(s,0,h)$，$C_{1}=\\left(\\frac{s}{2},\\frac{\\sqrt{3}s}{2},h\\right)$.</p><p>设 $E=(s,0,t)$，其中 $0\\le t\\le h$. 侧面 $ACC_{1}A_{1}$ 的一个法向量为 $\\mathbf{n}_{1}=(\\sqrt{3},-1,0)$. 平面 $A_{1}EC$ 的一个法向量为</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{A_1C}\\times\\overrightarrow{A_1E}=\\left(\\frac{\\sqrt{3}s(t-h)}{2},-\\frac{s(h+t)}{2},-\\frac{\\sqrt{3}s^{2}}{2}\\right)\n$$\n<p>由于平面 $A_{1}EC\\perp ACC_{1}A_{1}$，有 $\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=0$，即</p>\n$$\n\\frac{3s(t-h)}{2}+\\frac{s(h+t)}{2}=s(2t-h)=0\n$$\n<p>所以 $t=\\frac{h}{2}$，从而</p>\n$$\nBE=t=\\frac{h}{2}=EB_{1}\n$$\n<p>当 $AA_{1}=A_{1}B_{1}$ 时，$h=s$. 此时可将 $\\mathbf{n}_{2}$ 乘以 $-\\frac{4}{s^{2}}$，得到平面 $A_{1}EC$ 的法向量</p>\n$$\n\\mathbf{n}=(\\sqrt{3},3,2\\sqrt{3})\n$$\n<p>平面 $A_{1}B_{1}C_{1}$ 的法向量可取 $\\mathbf{n}_{0}=(0,0,1)$. 设两平面所成的锐二面角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}\\cdot\\mathbf{n}_{0}|}{|\\mathbf{n}|\\,|\\mathbf{n}_{0}|}=\\frac{2\\sqrt{3}}{\\sqrt{3+9+12}}=\\frac{\\sqrt{2}}{2}\n$$\n<p>因此 $\\theta=45^{\\circ}$.</p>"
         },
         {
           "num": 23,
           "body": "某地现有耕地 $10000\\text{ 公顷}$，规划 $10$ 年后粮食单产比现在增加 $22\\%$，人均粮食占有量比现在提高 $10\\%$. 如果人口年增长率为 $1\\%$，那么耕地平均每年至多只能减少多少公顷（精确到 $1\\text{ 公顷}$）. （粮食单产 $=\\frac{\\text{总产量}}{\\text{耕地面积}}$，人均粮食占有量 $=\\frac{\\text{总产量}}{\\text{总人口数}}$）",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设耕地平均每年减少 $x$ 公顷，现有粮食单产为 $M$，现有人口为 $P$. 则 $10$ 年后耕地面积为 $10000-10x$，粮食单产为 $1.22M$，人口数为 $1.01^{10}P$.\r\n\r\n现有人均粮食占有量为 $\\frac{10000M}{P}$，规划后要求的人均粮食占有量为 $1.10\\frac{10000M}{P}$. 因而规划后粮食总产量至少满足\r\n\n$$\n1.22M(10000-10x)\r\n\\ge\r\n1.10\\frac{10000M}{P}\\cdot1.01^{10}P\n$$\n\r\n约去 $M>0$，得\r\n\n$$\nx\\leqslant1000\\left(1-\\frac{1.10\\times1.01^{10}}{1.22}\\right)\n$$\n\r\n计算 $1.01^{10}\\approx1.104622$，所以\r\n\n$$\nx\\leqslant1000\\left(1-\\frac{1.10\\times1.104622}{1.22}\\right)\r\n\\approx4.03\n$$\n\r\n因此耕地平均每年至多只能减少 $4$ 公顷.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设耕地平均每年减少 $x$ 公顷，现有粮食单产为 $M$，现有人口为 $P$. 则 $10$ 年后耕地面积为 $10000-10x$，粮食单产为 $1.22M$，人口数为 $1.01^{10}P$.</p><p>现有人均粮食占有量为 $\\frac{10000M}{P}$，规划后要求的人均粮食占有量为 $1.10\\frac{10000M}{P}$. 因而规划后粮食总产量至少满足</p>\n$$\n1.22M(10000-10x)  \\ge  1.10\\frac{10000M}{P}\\cdot1.01^{10}P\n$$\n<p>约去 $M>0$，得</p>\n$$\nx\\leqslant1000\\left(1-\\frac{1.10\\times1.01^{10}}{1.22}\\right)\n$$\n<p>计算 $1.01^{10}\\approx1.104622$，所以</p>\n$$\nx\\leqslant1000\\left(1-\\frac{1.10\\times1.104622}{1.22}\\right)  \\approx4.03\n$$\n<p>因此耕地平均每年至多只能减少 $4$ 公顷.</p>"
         },
         {
           "num": 24,
-          "body": "已知 $l_{1}$，$l_{2}$ 是过点 $P(-\\sqrt{2},0)$ 的两条互相垂直的直线，且 $l_{1}$，$l_{2}$ 与双曲线 $y^{2} - x^{2} = 1$ 各有两个交点，分别为 $A_{1}$，$B_{1}$ 和 $A_{2}$，$B_{2}$.\r\n\r\n\n(1) 求 $l_{1}$ 的斜率 $k_{1}$ 的取值范围；\n\n(2) 若 $\\left|A_{1}B_{1}\\right|=\\sqrt{5}\\left|A_{2}B_{2}\\right|$，求 $l_{1}$，$l_{2}$ 的方程.",
-          "choices": [],
+          "body": "<p>已知 $l_{1}$，$l_{2}$ 是过点 $P(-\\sqrt{2},0)$ 的两条互相垂直的直线，且 $l_{1}$，$l_{2}$ 与双曲线 $y^{2}- x^{2}= 1$ 各有两个交点，分别为 $A_{1}$，$B_{1}$ 和 $A_{2}$，$B_{2}$.</p><ol class=\"enumerate\"><li><p>求 $l_{1}$ 的斜率 $k_{1}$ 的取值范围；</p></li><li><p>若 $\\left|A_{1}B_{1}\\right|=\\sqrt{5}\\left|A_{2}B_{2}\\right|$，求 $l_{1}$，$l_{2}$ 的方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $l_i$ 的斜率为 $k_i$，则\r\n$l_i:y=k_i\\left(x+\\sqrt2\\right)$，$k_1k_2=-1$.\r\n令 $t=x+\\sqrt2$，则直线上的点为 $(t-\\sqrt2,k_it)$. 代入双曲线 $y^2-x^2=1$，得\r\n\n$$\n(k_i^2-1)t^2+2\\sqrt2t-3=0\n$$\n\r\n要有两个不同交点，首先 $k_i^2\\neq1$，且判别式\r\n\n$$\n\\Delta_i=8+12(k_i^2-1)=4(3k_i^2-1)\n$$\n\r\n必须大于 $0$，所以 $k_i^2>\\frac13$. 对 $i=1$，$2$ 同时成立，再利用 $k_2^2=\\frac{1}{k_1^2}$，得到\r\n$\\frac13<k_1^2<3$，$k_1^2\\neq1$.\r\n因此\r\n\n$$\nk_1\\in\\left(-\\sqrt3,-1\\right)\\cup\\left(-1,-\\frac{\\sqrt3}{3}\\right)\r\n\\cup\\left(\\frac{\\sqrt3}{3},1\\right)\\cup\\left(1,\\sqrt3\\right)\n$$\n\n(2) 设斜率为 $k$ 的直线与双曲线的两个交点对应的参数根为 $t_1$，$t_2$. 由根的判别式，\r\n\n$$\n(t_1-t_2)^2=\\frac{4(3k^2-1)}{(k^2-1)^2}\n$$\n\r\n两交点的坐标差为 $(t_1-t_2)(1,k)$，所以弦长满足\r\n\n$$\nL(k)^2=\\frac{4(1+k^2)(3k^2-1)}{(k^2-1)^2}\n$$\n\r\n令 $u=k_1^2$，则 $k_2^2=\\frac{1}{u}$. 因而\r\n\n$$\n\\frac{|A_1B_1|^2}{|A_2B_2|^2}\r\n=\\frac{(1+u)(3u-1)}{(u-1)^2}\r\n\\cdot\\frac{(1-u)^2}{(1+u)(3-u)}\r\n=\\frac{3u-1}{3-u}\n$$\n\r\n由 $|A_1B_1|=\\sqrt5|A_2B_2|$，得\r\n\n$$\n\\frac{3u-1}{3-u}=5\n$$\n\r\n解得 $u=2$. 所以 $k_1=\\sqrt2$ 或 $k_1=-\\sqrt2$.\r\n\r\n当 $k_1=\\sqrt2$ 时，\r\n$l_1:y=\\sqrt2\\left(x+\\sqrt2\\right)$，$l_2:y=-\\frac{\\sqrt2}{2}\\left(x+\\sqrt2\\right)$.\r\n当 $k_1=-\\sqrt2$ 时，\r\n$l_1:y=-\\sqrt2\\left(x+\\sqrt2\\right)$，$l_2:y=\\frac{\\sqrt2}{2}\\left(x+\\sqrt2\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $l_{i}$ 的斜率为 $k_{i}$，则</p><p>$l_{i}:y=k_{i}\\left(x+\\sqrt{2}\\right)$，$k_{1}k_{2}=-1$.</p><p>令 $t=x+\\sqrt{2}$，则直线上的点为 $(t-\\sqrt{2},k_{i}t)$. 代入双曲线 $y^{2}-x^{2}=1$，得</p>\n$$\n(k_{i}^{2}-1)t^{2}+2\\sqrt{2}t-3=0\n$$\n<p>要有两个不同交点，首先 $k_{i}^{2}\\neq1$，且判别式</p>\n$$\n\\Delta_{i}=8+12(k_{i}^{2}-1)=4(3k_{i}^{2}-1)\n$$\n<p>必须大于 $0$，所以 $k_{i}^{2}>\\frac{1}{3}$. 对 $i=1$，$2$ 同时成立，再利用 $k_{2}^{2}=\\frac{1}{k_{1}^{2}}$，得到</p><p>$\\frac{1}{3}&#x3C;k_{1}^{2}&#x3C;3$，$k_{1}^{2}\\neq1$.</p><p>因此</p>\n$$\nk_{1}\\in\\left(-\\sqrt{3},-1\\right)\\cup\\left(-1,-\\frac{\\sqrt{3}}{3}\\right)  \\cup\\left(\\frac{\\sqrt{3}}{3},1\\right)\\cup\\left(1,\\sqrt{3}\\right)\n$$\n</li><li><p>设斜率为 $k$ 的直线与双曲线的两个交点对应的参数根为 $t_{1}$，$t_{2}$. 由根的判别式，</p>\n$$\n(t_{1}-t_{2})^{2}=\\frac{4(3k^{2}-1)}{(k^{2}-1)^{2}}\n$$\n<p>两交点的坐标差为 $(t_{1}-t_{2})(1,k)$，所以弦长满足</p>\n$$\nL(k)^{2}=\\frac{4(1+k^{2})(3k^{2}-1)}{(k^{2}-1)^{2}}\n$$\n<p>令 $u=k_{1}^{2}$，则 $k_{2}^{2}=\\frac{1}{u}$. 因而</p>\n$$\n\\frac{|A_{1}B_{1}|^{2}}{|A_{2}B_{2}|^{2}}=\\frac{(1+u)(3u-1)}{(u-1)^{2}}\\cdot\\frac{(1-u)^{2}}{(1+u)(3-u)}=\\frac{3u-1}{3-u}\n$$\n<p>由 $|A_{1}B_{1}|=\\sqrt{5}|A_{2}B_{2}|$，得</p>\n$$\n\\frac{3u-1}{3-u}=5\n$$\n<p>解得 $u=2$. 所以 $k_{1}=\\sqrt{2}$ 或 $k_{1}=-\\sqrt{2}$.</p><p>当 $k_{1}=\\sqrt{2}$ 时，</p><p>$l_{1}:y=\\sqrt{2}\\left(x+\\sqrt{2}\\right)$，$l_{2}:y=-\\frac{\\sqrt{2}}{2}\\left(x+\\sqrt{2}\\right)$.</p><p>当 $k_{1}=-\\sqrt{2}$ 时，</p><p>$l_{1}:y=-\\sqrt{2}\\left(x+\\sqrt{2}\\right)$，$l_{2}:y=\\frac{\\sqrt{2}}{2}\\left(x+\\sqrt{2}\\right)$.</p></li></ol>"
         },
         {
           "num": 25,
-          "body": "已知 $a$，$b$，$c$ 是实数，函数 $f(x) = ax^2 + bx + c$，$g(x) = ax + b$，当 $-1 \\le x \\le 1$ 时，$\\left|f(x)\\right| \\le 1$.\r\n\r\n\n(1) 证明：$\\left|c\\right| \\le 1$；\n\n(2) 证明：当 $-1 \\le x \\le 1$ 时，$\\left|g(x)\\right| \\le 2$；\n\n(3) 设 $a > 0$，当 $-1 \\le x \\le 1$ 时，$g(x)$ 的最大值为 $2$，求 $f(x)$.",
-          "choices": [],
+          "body": "<p>已知 $a$，$b$，$c$ 是实数，函数 $f(x) = ax^{2} + bx + c$，$g(x) = ax + b$，当 $-1 \\le x \\le 1$ 时，$\\left|f(x)\\right| \\le 1$.</p><ol class=\"enumerate\"><li><p>证明：$\\left|c\\right| \\le 1$；</p></li><li><p>证明：当 $-1 \\le x \\le 1$ 时，$\\left|g(x)\\right| \\le 2$；</p></li><li><p>设 $a > 0$，当 $-1 \\le x \\le 1$ 时，$g(x)$ 的最大值为 $2$，求 $f(x)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取 $x=0$，由题设 $\\left|f(0)\\right|\\leqslant1$. 因 $f(0)=c$，所以\r\n\n$$\n\\left|c\\right|\\leqslant1\n$$\n\n(2) 由 $f(1)=a+b+c$，$f(0)=c$，得\r\n\n$$\ng(1)=a+b=f(1)-c\n$$\n\r\n同理，由 $f(-1)=a-b+c$，得\r\n\n$$\ng(-1)=-a+b=-f(-1)+c\n$$\n\r\n利用 $\\left|f(1)\\right|\\leqslant1$、$\\left|f(-1)\\right|\\leqslant1$ 及第（1）问结论 $\\left|c\\right|\\leqslant1$，有\r\n$\\left|g(1)\\right|\\le\\left|f(1)\\right|+\\left|c\\right|\\leqslant2$，$\\left|g(-1)\\right|\\le\\left|f(-1)\\right|+\\left|c\\right|\\leqslant2$.\r\n线性函数 $g(x)$ 在 $[-1,1]$ 上的值介于 $g(-1)$ 与 $g(1)$ 之间，所以对任意 $-1\\le x\\leqslant1$，都有 $\\left|g(x)\\right|\\leqslant2$.\n\n(3) 因 $a>0$，$g(x)=ax+b$ 在 $[-1,1]$ 上递增，故最大值在 $x=1$ 处取得. 由最大值为 $2$，得\r\n\n$$\ng(1)=a+b=2\n$$\n\r\n又 $g(1)=f(1)-f(0)$，所以 $f(1)-f(0)=2$. 由于 $-1\\le f(0)$，$f(1)\\leqslant1$，只能有\r\n$f(0)=-1$，$f(1)=1$.\r\n于是 $c=-1$，且 $a+b=2$. 题设还给出 $f(x)\\ge-1=f(0)$，所以\r\n$x(ax+b)=f(x)-f(0)\\geqslant0$，$-1\\le x\\leqslant1$.\r\n当 $x>0$ 时，$ax+b\\geqslant0$，令 $x\\to0^+$ 得 $b\\geqslant0$；当 $x<0$ 时，$ax+b\\leqslant0$，令 $x\\to0^-$ 得 $b\\leqslant0$. 因而 $b=0$，再由 $a+b=2$ 得 $a=2$. 所以\r\n\n$$\nf(x)=2x^2-1\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取 $x=0$，由题设 $\\left|f(0)\\right|\\leqslant1$. 因 $f(0)=c$，所以</p>\n$$\n\\left|c\\right|\\leqslant1\n$$\n</li><li><p>由 $f(1)=a+b+c$，$f(0)=c$，得</p>\n$$\ng(1)=a+b=f(1)-c\n$$\n<p>同理，由 $f(-1)=a-b+c$，得</p>\n$$\ng(-1)=-a+b=-f(-1)+c\n$$\n<p>利用 $\\left|f(1)\\right|\\leqslant1$、$\\left|f(-1)\\right|\\leqslant1$ 及第（1）问结论 $\\left|c\\right|\\leqslant1$，有</p><p>$\\left|g(1)\\right|\\le\\left|f(1)\\right|+\\left|c\\right|\\leqslant2$，$\\left|g(-1)\\right|\\le\\left|f(-1)\\right|+\\left|c\\right|\\leqslant2$.</p><p>线性函数 $g(x)$ 在 $[-1,1]$ 上的值介于 $g(-1)$ 与 $g(1)$ 之间，所以对任意 $-1\\le x\\leqslant1$，都有 $\\left|g(x)\\right|\\leqslant2$.</p></li><li><p>因 $a>0$，$g(x)=ax+b$ 在 $[-1,1]$ 上递增，故最大值在 $x=1$ 处取得. 由最大值为 $2$，得</p>\n$$\ng(1)=a+b=2\n$$\n<p>又 $g(1)=f(1)-f(0)$，所以 $f(1)-f(0)=2$. 由于 $-1\\le f(0)$，$f(1)\\leqslant1$，只能有</p><p>$f(0)=-1$，$f(1)=1$.</p><p>于是 $c=-1$，且 $a+b=2$. 题设还给出 $f(x)\\ge-1=f(0)$，所以</p><p>$x(ax+b)=f(x)-f(0)\\geqslant0$，$-1\\le x\\leqslant1$.</p><p>当 $x>0$ 时，$ax+b\\geqslant0$，令 $x\\to0^{+}$ 得 $b\\geqslant0$；当 $x&#x3C;0$ 时，$ax+b\\leqslant0$，令 $x\\to0^{-}$ 得 $b\\leqslant0$. 因而 $b=0$，再由 $a+b=2$ 得 $a=2$. 所以</p>\n$$\nf(x)=2x^{2}-1\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

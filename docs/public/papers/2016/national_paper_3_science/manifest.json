@@ -1,162 +1,15 @@
 {
+  "title": "2016年普通高等学校招生全国统一考试",
+  "subtitle": "2016年全国III卷（理）",
   "year": "2016",
   "slug": "national_paper_3_science",
-  "title": "2016年全国III卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 24,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设集合 $S=\\{x\\mid (x-2)(x-3)\\ge0\\}$，$T=\\{x\\mid x>0\\}$，则 $S\\cap T=$（ ）",
+          "body": "设集合 $S=\\{x\\mid (x-2)(x-3)\\ge0\\}$，$T=\\{x\\mid x>0\\}$，则 $S\\cap T=$（ ）",
           "choices": [
             "$[2,3]$",
             "$(-\\infty,2]\\cup[3,+\\infty)$",
@@ -164,13 +17,11 @@
             "$(0,2]\\cup[3,+\\infty)$"
           ],
           "answer": "D",
-          "solution": "由 $(x-2)(x-3)\\ge0$ 得 $x\\le2$ 或 $x\\ge3$，所以 $S=(-\\infty,2]\\cup[3,+\\infty)$. 再与 $T=(0,+\\infty)$ 取交集，得到 $S\\cap T=(0,2]\\cup[3,+\\infty)$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $(x-2)(x-3)\\ge0$ 得 $x\\le2$ 或 $x\\ge3$，所以 $S=(-\\infty,2]\\cup[3,+\\infty)$. 再与 $T=(0,+\\infty)$ 取交集，得到 $S\\cap T=(0,2]\\cup[3,+\\infty)$，故选 D."
         },
         {
           "num": 2,
-          "body": "若 $z=1+2\\mathrm{i}$，则 $\\dfrac{4\\mathrm{i}}{z\\cdot \\overline z-1}=$（ ）",
+          "body": "若 $z=1+2\\mathrm{i}$，则 $\\dfrac{4\\mathrm{i}}{z\\cdot \\overline z-1}=$（ ）",
           "choices": [
             "$1$",
             "$-1$",
@@ -178,41 +29,35 @@
             "$-\\mathrm{i}$"
           ],
           "answer": "C",
-          "solution": "因为 $\\overline z=1-2\\mathrm{i}$，所以 $z\\overline z=(1+2\\mathrm{i})(1-2\\mathrm{i})=1+4=5$. 于是 $\\dfrac{4\\mathrm{i}}{z\\overline z-1}=\\dfrac{4\\mathrm{i}}{5-1}=\\mathrm{i}$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $\\overline z=1-2\\mathrm{i}$，所以 $z\\overline z=(1+2\\mathrm{i})(1-2\\mathrm{i})=1+4=5$. 于是 $\\dfrac{4\\mathrm{i}}{z\\overline z-1}=\\dfrac{4\\mathrm{i}}{5-1}=\\mathrm{i}$，故选 C."
         },
         {
           "num": 3,
-          "body": "已知向量 $\\overrightarrow{BA}=\\left(\\dfrac12,\\dfrac{\\sqrt3}{2}\\right)$，$\\overrightarrow{BC}=\\left(\\dfrac{\\sqrt3}{2},\\dfrac12\\right)$，则 $\\angle ABC=$（ ）",
+          "body": "已知向量 $\\overrightarrow{BA}=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2}\\right)$，$\\overrightarrow{BC}=\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$，则 $\\angle ABC=$（ ）",
           "choices": [
-            "$30^\\circ$",
-            "$45^\\circ$",
-            "$60^\\circ$",
-            "$120^\\circ$"
+            "$30^{\\circ}$",
+            "$45^{\\circ}$",
+            "$60^{\\circ}$",
+            "$120^{\\circ}$"
           ],
           "answer": "A",
-          "solution": "两向量的长度均为 $|\\overrightarrow{BA}|=|\\overrightarrow{BC}|=\\sqrt{\\frac14+\\frac34}=1$，它们的数量积为 $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=\\dfrac12\\cdot\\dfrac{\\sqrt3}{2}+\\dfrac{\\sqrt3}{2}\\cdot\\dfrac12=\\dfrac{\\sqrt3}{2}$. 因此 $\\cos\\angle ABC=\\dfrac{\\overrightarrow{BA}\\cdot\\overrightarrow{BC}}{|\\overrightarrow{BA}|\\,|\\overrightarrow{BC}|}=\\dfrac{\\sqrt3}{2}$. 由于 $0\\le\\angle ABC\\le\\pi$，得 $\\angle ABC=30^\\circ$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "两向量的长度均为 $|\\overrightarrow{BA}|=|\\overrightarrow{BC}|=\\sqrt{\\frac{1}{4}+\\frac{3}{4}}=1$，它们的数量积为 $\\overrightarrow{BA}\\cdot\\overrightarrow{BC}=\\dfrac{1}{2}\\cdot\\dfrac{\\sqrt{3}}{2}+\\dfrac{\\sqrt{3}}{2}\\cdot\\dfrac{1}{2}=\\dfrac{\\sqrt{3}}{2}$. 因此 $\\cos\\angle ABC=\\dfrac{\\overrightarrow{BA}\\cdot\\overrightarrow{BC}}{|\\overrightarrow{BA}|\\,|\\overrightarrow{BC}|}=\\dfrac{\\sqrt{3}}{2}$. 由于 $0\\le\\angle ABC\\le\\pi$，得 $\\angle ABC=30^{\\circ}$，故选 A."
         },
         {
           "num": 4,
-          "body": "某旅游城市为向游客介绍本地的气温情况，绘制了一年中月平均最高气温和平均最低气温的雷达图. 图中 $A$ 点表示十月的平均最高气温约为 $15^\\circ\\mathrm{C}$，$B$ 点表示四月的平均最低气温约为 $5^\\circ\\mathrm{C}$. 下面叙述不正确的是（ ）\r\n\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "body": "<p>某旅游城市为向游客介绍本地的气温情况，绘制了一年中月平均最高气温和平均最低气温的雷达图. 图中 $A$ 点表示十月的平均最高气温约为 $15^{\\circ}\\mathrm{C}$，$B$ 点表示四月的平均最低气温约为 $5^{\\circ}\\mathrm{C}$. 下面叙述不正确的是（ ）</p><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
           "choices": [
-            "各月的平均最低气温都在 $0^\\circ\\mathrm{C}$ 以上",
+            "各月的平均最低气温都在 $0^{\\circ}\\mathrm{C}$ 以上",
             "七月的平均温差比一月的平均温差大",
             "三月和十一月的平均最高气温基本相同",
-            "平均气温高于 $20^\\circ\\mathrm{C}$ 的月份有 $5$ 个"
+            "平均气温高于 $20^{\\circ}\\mathrm{C}$ 的月份有 $5$ 个"
           ],
           "answer": "D",
-          "solution": "逐月比较雷达图中的虚线和实线可知，各月平均最低气温均在 $0^\\circ\\mathrm{C}$ 以上；七月两条曲线的径向差距大于一月；三月和十一月的平均最高气温均约为 $10^\\circ\\mathrm{C}$，基本相同.\r\n\r\n再看平均最高气温的实线，超过 $20^\\circ\\mathrm{C}$ 的月份只有七月和八月，六月约为 $20^\\circ\\mathrm{C}$，并非有 $5$ 个. 因此不正确的叙述是 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>逐月比较雷达图中的虚线和实线可知，各月平均最低气温均在 $0^{\\circ}\\mathrm{C}$ 以上；七月两条曲线的径向差距大于一月；三月和十一月的平均最高气温均约为 $10^{\\circ}\\mathrm{C}$，基本相同.</p><p>再看平均最高气温的实线，超过 $20^{\\circ}\\mathrm{C}$ 的月份只有七月和八月，六月约为 $20^{\\circ}\\mathrm{C}$，并非有 $5$ 个. 因此不正确的叙述是 D.</p>"
         },
         {
           "num": 5,
-          "body": "若 $\\tan\\alpha=\\dfrac34$，则 $\\cos^2\\alpha+2\\sin 2\\alpha=$（ ）",
+          "body": "若 $\\tan\\alpha=\\dfrac{3}{4}$，则 $\\cos^{2}\\alpha+2\\sin 2\\alpha=$（ ）",
           "choices": [
             "$\\dfrac{64}{25}$",
             "$\\dfrac{48}{25}$",
@@ -220,27 +65,23 @@
             "$\\dfrac{16}{25}$"
           ],
           "answer": "A",
-          "solution": "由 $1+\\tan^2\\alpha=\\sec^2\\alpha$，得 $\\cos^2\\alpha=\\dfrac{1}{1+\\tan^2\\alpha}=\\dfrac{1}{1+\\frac{9}{16}}=\\dfrac{16}{25}$. 又 $\\sin2\\alpha=\\dfrac{2\\tan\\alpha}{1+\\tan^2\\alpha}=\\dfrac{2\\cdot\\frac34}{1+\\frac{9}{16}}=\\dfrac{24}{25}$. 所以 $\\cos^2\\alpha+2\\sin2\\alpha=\\dfrac{16}{25}+2\\cdot\\dfrac{24}{25}=\\dfrac{64}{25}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $1+\\tan^{2}\\alpha=\\sec^{2}\\alpha$，得 $\\cos^{2}\\alpha=\\dfrac{1}{1+\\tan^2\\alpha}=\\dfrac{1}{1+\\frac{9}{16}}=\\dfrac{16}{25}$. 又 $\\sin2\\alpha=\\dfrac{2\\tan\\alpha}{1+\\tan^2\\alpha}=\\dfrac{2\\cdot\\frac{3}{4}}{1+\\frac{9}{16}}=\\dfrac{24}{25}$. 所以 $\\cos^{2}\\alpha+2\\sin2\\alpha=\\dfrac{16}{25}+2\\cdot\\dfrac{24}{25}=\\dfrac{64}{25}$，故选 A."
         },
         {
           "num": 6,
-          "body": "已知 $a=2^{\\frac{4}{3}}$，$b=4^{\\frac{2}{5}}$，$c=25^{\\frac{1}{3}}$，则（ ）",
+          "body": "已知 $a=2^{\\frac{4}{3}}$，$b=4^{\\frac{2}{5}}$，$c=25^{\\frac{1}{3}}$，则（ ）",
           "choices": [
-            "$b<a<c$",
-            "$a<b<c$",
-            "$b<c<a$",
-            "$c<a<b$"
+            "$b&#x3C;a&#x3C;c$",
+            "$a&#x3C;b&#x3C;c$",
+            "$b&#x3C;c&#x3C;a$",
+            "$c&#x3C;a&#x3C;b$"
           ],
           "answer": "A",
-          "solution": "先把 $b$ 化为以 $2$ 为底的幂：$b=4^{\\frac{2}{5}}=2^{\\frac{4}{5}}$. 由于 $2>1$，且 $\\frac45<\\frac43$，所以 $b<a$. 再比较 $a$ 与 $c$：$a^3=2^4=16<25=c^3$. 由于 $a$，$c>0$，所以 $a<c$. 因而 $b<a<c$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "先把 $b$ 化为以 $2$ 为底的幂：$b=4^{\\frac{2}{5}}=2^{\\frac{4}{5}}$. 由于 $2>1$，且 $\\frac{4}{5}&#x3C;\\frac{4}{3}$，所以 $b&#x3C;a$. 再比较 $a$ 与 $c$：$a^{3}=2^{4}=16&#x3C;25=c^{3}$. 由于 $a$，$c>0$，所以 $a&#x3C;c$. 因而 $b&#x3C;a&#x3C;c$，故选 A."
         },
         {
           "num": 7,
-          "body": "执行下图的程序框图，如果输入的 $a=4$，$b=6$，那么输出的 $n=$（ ）\r\n\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "body": "<p>执行下图的程序框图，如果输入的 $a=4$，$b=6$，那么输出的 $n=$（ ）</p><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
           "choices": [
             "$3$",
             "$4$",
@@ -248,13 +89,11 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "按照框图中三个赋值语句的先后顺序逐次循环. 初始 $a=4$，$b=6$，$n=0$，$s=0$.\r\n\r\n第一次循环后，\r\n$a=6-4=2$，$b=6-2=4$，$a=4+2=6$，\r\n从而 $s=6$，$n=1$.\r\n\r\n第二次循环后，\r\n$a=4-6=-2$，$b=4-(-2)=6$，$a=6+(-2)=4$，\r\n从而 $s=10$，$n=2$.\r\n\r\n第三次循环后，\r\n$a=6-4=2$，$b=6-2=4$，$a=4+2=6$，\r\n从而 $s=16$，$n=3$. 此时 $s>16$ 不成立.\r\n\r\n第四次循环后，\r\n$a=4-6=-2$，$b=4-(-2)=6$，$a=6+(-2)=4$，\r\n从而 $s=20$，$n=4$. 此时 $s>16$ 成立，输出 $n=4$，所以选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按照框图中三个赋值语句的先后顺序逐次循环. 初始 $a=4$，$b=6$，$n=0$，$s=0$.</p><p>第一次循环后，</p><p>$a=6-4=2$，$b=6-2=4$，$a=4+2=6$，</p><p>从而 $s=6$，$n=1$.</p><p>第二次循环后，</p><p>$a=4-6=-2$，$b=4-(-2)=6$，$a=6+(-2)=4$，</p><p>从而 $s=10$，$n=2$.</p><p>第三次循环后，</p><p>$a=6-4=2$，$b=6-2=4$，$a=4+2=6$，</p><p>从而 $s=16$，$n=3$. 此时 $s>16$ 不成立.</p><p>第四次循环后，</p><p>$a=4-6=-2$，$b=4-(-2)=6$，$a=6+(-2)=4$，</p><p>从而 $s=20$，$n=4$. 此时 $s>16$ 成立，输出 $n=4$，所以选择 B.</p>"
         },
         {
           "num": 8,
-          "body": "在 $\\triangle ABC$ 中，$B=\\dfrac{\\pi}{4}$，$BC$ 边上的高等于 $\\dfrac13BC$，则 $\\cos A=$（ ）",
+          "body": "在 $\\triangle ABC$ 中，$B=\\dfrac{\\pi}{4}$，$BC$ 边上的高等于 $\\dfrac{1}{3}BC$，则 $\\cos A=$（ ）",
           "choices": [
             "$\\dfrac{3\\sqrt{10}}{10}$",
             "$\\dfrac{\\sqrt{10}}{10}$",
@@ -262,27 +101,23 @@
             "$-\\dfrac{3\\sqrt{10}}{10}$"
           ],
           "answer": "C",
-          "solution": "设从 $A$ 向 $BC$ 作高，垂足为 $D$，并令 $AD=h>0$. 由题意 $BC=3h$. 因为 $\\angle B=\\frac\\pi4$，在直角三角形 $ABD$ 中\r\n\n$$\nBD=AD\\cot\\frac\\pi4=h\n$$\n\r\n所以 $D$ 在线段 $BC$ 上，且 $DC=BC-BD=2h$. 于是\r\n$AB=\\sqrt{AD^2+BD^2}=h\\sqrt2$，$AC=\\sqrt{AD^2+DC^2}=h\\sqrt5$.\r\n由余弦定理，\r\n\n$$\n\\cos A=\\frac{AB^2+AC^2-BC^2}{2AB\\cdot AC}\r\n=\\frac{2h^2+5h^2-9h^2}{2h\\sqrt2\\cdot h\\sqrt5}\r\n=-\\frac{1}{\\sqrt{10}}=-\\frac{\\sqrt{10}}{10}\n$$\n\r\n因此选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设从 $A$ 向 $BC$ 作高，垂足为 $D$，并令 $AD=h>0$. 由题意 $BC=3h$. 因为 $\\angle B=\\frac{\\pi}{4}$，在直角三角形 $ABD$ 中</p>\n$$\nBD=AD\\cot\\frac{\\pi}{4}=h\n$$\n<p>所以 $D$ 在线段 $BC$ 上，且 $DC=BC-BD=2h$. 于是</p><p>$AB=\\sqrt{AD^{2}+BD^{2}}=h\\sqrt{2}$，$AC=\\sqrt{AD^{2}+DC^{2}}=h\\sqrt{5}$.</p><p>由余弦定理，</p>\n$$\n\\cos A=\\frac{AB^{2}+AC^{2}-BC^{2}}{2AB\\cdot AC}=\\frac{2h^{2}+5h^{2}-9h^{2}}{2h\\sqrt{2}\\cdot h\\sqrt{5}}=-\\frac{1}{\\sqrt{10}}=-\\frac{\\sqrt{10}}{10}\n$$\n<p>因此选择 C.</p>"
         },
         {
           "num": 9,
-          "body": "如图，网格纸上小正方形的边长为 $1$，粗实线画出的是某多面体的三视图，则该多面体的表面积为（ ）\r\n\r\n\\begingroup\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
+          "body": "<p>如图，网格纸上小正方形的边长为 $1$，粗实线画出的是某多面体的三视图，则该多面体的表面积为（ ）</p><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
           "choices": [
-            "$18+36\\sqrt5$",
-            "$54+18\\sqrt5$",
+            "$18+36\\sqrt{5}$",
+            "$54+18\\sqrt{5}$",
             "$90$",
             "$81$"
           ],
           "answer": "B",
-          "solution": "由三视图还原可知，该多面体是斜四棱柱，可取图中的平行四边形为底面. 由网格图读出其一条底边长为 $3$，对应的高为 $6$，所以底面面积为 $S_\\text{底}=3\\times6=18$.\r\n该平行四边形的另一条边长为 $\\sqrt{3^2+6^2}=3\\sqrt5$，另外两个投影显示两底面之间的棱长为 $3$. 因此四个侧面中有两个面积为 $3\\times3$ 的矩形，另两个面积为 $3\\times3\\sqrt5$ 的平行四边形.\r\n因此表面积为\r\n\n$$\n2S_\\text{底}+2\\left(3\\times3+3\\times3\\sqrt5\\right)=36+18+18\\sqrt5=54+18\\sqrt5\n$$\n\r\n所以选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由三视图还原可知，该多面体是斜四棱柱，可取图中的平行四边形为底面. 由网格图读出其一条底边长为 $3$，对应的高为 $6$，所以底面面积为 $S_{\\text{底}}=3\\times6=18$.</p><p>该平行四边形的另一条边长为 $\\sqrt{3^{2}+6^{2}}=3\\sqrt{5}$，另外两个投影显示两底面之间的棱长为 $3$. 因此四个侧面中有两个面积为 $3\\times3$ 的矩形，另两个面积为 $3\\times3\\sqrt{5}$ 的平行四边形.</p><p>因此表面积为</p>\n$$\n2S_{\\text{底}}+2\\left(3\\times3+3\\times3\\sqrt{5}\\right)=36+18+18\\sqrt{5}=54+18\\sqrt{5}\n$$\n<p>所以选择 B.</p>"
         },
         {
           "num": 10,
-          "body": "在封闭的直三棱柱 $ABC-A_1B_1C_1$ 内有一个体积为 $V$ 的球，若 $AB\\perp BC$，$AB=6$，$BC=8$，$AA_1=3$，则 $V$ 的最大值是（ ）",
+          "body": "在封闭的直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 内有一个体积为 $V$ 的球，若 $AB\\perp BC$，$AB=6$，$BC=8$，$AA_{1}=3$，则 $V$ 的最大值是（ ）",
           "choices": [
             "$4\\pi$",
             "$\\dfrac{9\\pi}{2}$",
@@ -290,27 +125,23 @@
             "$\\dfrac{32\\pi}{3}$"
           ],
           "answer": "B",
-          "solution": "底面三角形 $ABC$ 是直角三角形，且 $AC=\\sqrt{AB^2+BC^2}=\\sqrt{6^2+8^2}=10$，其内切圆半径为 $r=\\dfrac{AB+BC-AC}{2}=\\dfrac{6+8-10}{2}=2$. 球的半径既不能超过直三棱柱高的一半，也不能超过底面三角形内切圆半径，因此 $R\\le\\min\\left(\\dfrac{AA_1}{2},r\\right)=\\min\\left(\\dfrac32,2\\right)=\\dfrac32$. 取球心在棱柱高度的中点、在底面上的投影为三角形内心时可达到 $R=\\dfrac32$，所以 $V_{\\max}=\\dfrac43\\pi\\left(\\dfrac32\\right)^3=\\dfrac{9\\pi}{2}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "底面三角形 $ABC$ 是直角三角形，且 $AC=\\sqrt{AB^{2}+BC^{2}}=\\sqrt{6^{2}+8^{2}}=10$，其内切圆半径为 $r=\\dfrac{AB+BC-AC}{2}=\\dfrac{6+8-10}{2}=2$. 球的半径既不能超过直三棱柱高的一半，也不能超过底面三角形内切圆半径，因此 $R\\le\\min\\left(\\dfrac{AA_1}{2},r\\right)=\\min\\left(\\dfrac{3}{2},2\\right)=\\dfrac{3}{2}$. 取球心在棱柱高度的中点、在底面上的投影为三角形内心时可达到 $R=\\dfrac{3}{2}$，所以 $V_{\\max}=\\dfrac{4}{3}\\pi\\left(\\dfrac{3}{2}\\right)^{3}=\\dfrac{9\\pi}{2}$，故选 B."
         },
         {
           "num": 11,
-          "body": "已知 $O$ 为坐标原点，$F$ 是椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的左焦点，$A$，$B$ 分别为 $C$ 的左，右顶点，$P$ 为 $C$ 上一点，且 $PF\\perp x$ 轴，过点 $A$ 的直线 $l$ 与线段 $PF$ 交于点 $M$，与 $y$ 轴交于点 $E$. 若直线 $BM$ 经过 $OE$ 的中点，则 $C$ 的离心率为（ ）",
+          "body": "已知 $O$ 为坐标原点，$F$ 是椭圆 $C:\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a>b>0$）的左焦点，$A$，$B$ 分别为 $C$ 的左，右顶点，$P$ 为 $C$ 上一点，且 $PF\\perp x$ 轴，过点 $A$ 的直线 $l$ 与线段 $PF$ 交于点 $M$，与 $y$ 轴交于点 $E$. 若直线 $BM$ 经过 $OE$ 的中点，则 $C$ 的离心率为（ ）",
           "choices": [
-            "$\\dfrac13$",
-            "$\\dfrac12$",
-            "$\\dfrac23$",
-            "$\\dfrac34$"
+            "$\\dfrac{1}{3}$",
+            "$\\dfrac{1}{2}$",
+            "$\\dfrac{2}{3}$",
+            "$\\dfrac{3}{4}$"
           ],
           "answer": "A",
-          "solution": "设椭圆焦距的一半为 $c=\\sqrt{a^2-b^2}$，则 $F(-c,0)$，$A(-a,0)$，$B(a,0)$. 由于 $PF\\perp x$ 轴，点 $P$ 的横坐标为 $-c$. 取 $P$ 在 $x$ 轴上方的情形，另一情形关于 $x$ 轴对称，则 $P\\left(-c,\\dfrac{b^2}{a}\\right)$. 题面中的线段 $OE$ 及其中点以 $O\\ne E$ 为前提，故 $l$ 不能取 $x$ 轴. 又因为 $l$ 经过 $A$ 并与 $y$ 轴相交，其斜率 $k$ 存在且非零. 于是 $M(-c,k(a-c))$，$E(0,ka)$. 令 $N$ 为 $OE$ 的中点，则 $N\\left(0,\\dfrac{ka}{2}\\right)$. 由 $B$，$M$，$N$ 三点共线，比较直线 $BN$ 与 $BM$ 的斜率，得 $-\\dfrac{k}{2}=-\\dfrac{k(a-c)}{a+c}$. 约去 $-k$，得到 $\\dfrac12=\\dfrac{a-c}{a+c}$，即 $a+c=2a-2c$，所以 $a=3c$. 反之，当 $a=3c$ 时，取 $0<k<\\dfrac{b^2}{a(a-c)}$，则 $M$ 在线段 $PF$ 内且 $E\\ne O$，上述斜率相等，满足全部条件. 因此椭圆的离心率为 $e=\\dfrac ca=\\dfrac13$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设椭圆焦距的一半为 $c=\\sqrt{a^{2}-b^{2}}$，则 $F(-c,0)$，$A(-a,0)$，$B(a,0)$. 由于 $PF\\perp x$ 轴，点 $P$ 的横坐标为 $-c$. 取 $P$ 在 $x$ 轴上方的情形，另一情形关于 $x$ 轴对称，则 $P\\left(-c,\\dfrac{b^2}{a}\\right)$. 题面中的线段 $OE$ 及其中点以 $O\\ne E$ 为前提，故 $l$ 不能取 $x$ 轴. 又因为 $l$ 经过 $A$ 并与 $y$ 轴相交，其斜率 $k$ 存在且非零. 于是 $M(-c,k(a-c))$，$E(0,ka)$. 令 $N$ 为 $OE$ 的中点，则 $N\\left(0,\\dfrac{ka}{2}\\right)$. 由 $B$，$M$，$N$ 三点共线，比较直线 $BN$ 与 $BM$ 的斜率，得 $-\\dfrac{k}{2}=-\\dfrac{k(a-c)}{a+c}$. 约去 $-k$，得到 $\\dfrac{1}{2}=\\dfrac{a-c}{a+c}$，即 $a+c=2a-2c$，所以 $a=3c$. 反之，当 $a=3c$ 时，取 $0&#x3C;k&#x3C;\\dfrac{b^2}{a(a-c)}$，则 $M$ 在线段 $PF$ 内且 $E\\ne O$，上述斜率相等，满足全部条件. 因此椭圆的离心率为 $e=\\dfrac{c}{a}=\\dfrac{1}{3}$，故选 A."
         },
         {
           "num": 12,
-          "body": "定义“规范 $01$ 数列”$\\{a_n\\}$ 如下：$\\{a_n\\}$ 共有 $2m$ 项，其中 $m$ 项为 $0$，$m$ 项为 $1$，且对任意 $k\\le2m$，$a_1$，$a_2$，\\dots，$a_k$ 中 $0$ 的个数不少于 $1$ 的个数. 若 $m=4$，则不同的“规范 $01$ 数列”共有（ ）",
+          "body": "定义“规范 $01$ 数列”$\\{a_{n}\\}$ 如下：$\\{a_{n}\\}$ 共有 $2m$ 项，其中 $m$ 项为 $0$，$m$ 项为 $1$，且对任意 $k\\le2m$，$a_{1}$，$a_{2}$，…，$a_{k}$ 中 $0$ 的个数不少于 $1$ 的个数. 若 $m=4$，则不同的“规范 $01$ 数列”共有（ ）",
           "choices": [
             "$18$ 个",
             "$16$ 个",
@@ -318,9 +149,7 @@
             "$12$ 个"
           ],
           "answer": "C",
-          "solution": "不计限制时，长度为 $8$ 且含四个 $0$、四个 $1$ 的数列共有 $\\mathrm C_8^4=70$ 个.\r\n\r\n考虑不规范的数列. 对每个不规范数列，取第一次出现“前缀中 $1$ 的个数比 $0$ 的个数多 $1$”的位置，并将此前缀中的 $0$ 与 $1$ 互换. 这样得到一个含有五个 $1$、三个 $0$ 的长度为 $8$ 的数列；反过来，对任意含五个 $1$、三个 $0$ 的数列，在第一次使 $1$ 的个数比 $0$ 的个数多 $1$ 之前作同样互换，可唯一还原一个不规范数列. 因此不规范数列共有 $\\mathrm C_8^3=56$ 个，规范数列共有 $70-56=14$ 个，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>不计限制时，长度为 $8$ 且含四个 $0$、四个 $1$ 的数列共有 $\\mathrm{C}_{8}^{4}=70$ 个.</p><p>考虑不规范的数列. 对每个不规范数列，取第一次出现“前缀中 $1$ 的个数比 $0$ 的个数多 $1$”的位置，并将此前缀中的 $0$ 与 $1$ 互换. 这样得到一个含有五个 $1$、三个 $0$ 的长度为 $8$ 的数列；反过来，对任意含五个 $1$、三个 $0$ 的数列，在第一次使 $1$ 的个数比 $0$ 的个数多 $1$ 之前作同样互换，可唯一还原一个不规范数列. 因此不规范数列共有 $\\mathrm{C}_{8}^{3}=56$ 个，规范数列共有 $70-56=14$ 个，故选 C.</p>"
         }
       ]
     },
@@ -329,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "若 $x$，$y$ 满足约束条件\r\n$\\begin{cases}\r\nx-y+1\\ge0,\\\\\r\nx-2y\\le0,\\\\\r\nx+2y-2\\le0\r\n\\end{cases}$，\r\n则 $z=x+y$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac{3}{2}\\)",
-          "solution": "三个约束分别给出 $y\\le x+1$，$y\\ge\\dfrac{x}{2}$，$y\\le1-\\dfrac{x}{2}$. 可行域是三条边界直线围成的三角形，其顶点由两两联立得到：$y=x+1$，$y=\\dfrac{x}{2}\\Longrightarrow(-2,-1)$；$y=x+1$，$y=1-\\dfrac{x}{2}\\Longrightarrow(0,1)$；$y=\\dfrac{x}{2}$，$y=1-\\dfrac{x}{2}\\Longrightarrow(1,\\dfrac12)$. 目标函数 $z=x+y$ 在线性可行域上的最大值在顶点处取得. 三个顶点对应的 $z$ 值分别为 $-3$，$1$，$\\dfrac32$，所以 $z_{\\max}=\\dfrac32$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>若 $x$，$y$ 满足约束条件</p><p>$\\begin{cases}x-y+1\\ge0,\\\\  x-2y\\le0,\\\\  x+2y-2\\le0\\end{cases}$，</p><p>则 $z=x+y$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$\\dfrac{3}{2}$",
+          "solution": "三个约束分别给出 $y\\le x+1$，$y\\ge\\dfrac{x}{2}$，$y\\le1-\\dfrac{x}{2}$. 可行域是三条边界直线围成的三角形，其顶点由两两联立得到：$y=x+1$，$y=\\dfrac{x}{2}\\Longrightarrow(-2,-1)$；$y=x+1$，$y=1-\\dfrac{x}{2}\\Longrightarrow(0,1)$；$y=\\dfrac{x}{2}$，$y=1-\\dfrac{x}{2}\\Longrightarrow(1,\\dfrac{1}{2})$. 目标函数 $z=x+y$ 在线性可行域上的最大值在顶点处取得. 三个顶点对应的 $z$ 值分别为 $-3$，$1$，$\\dfrac{3}{2}$，所以 $z_{\\max}=\\dfrac{3}{2}$."
         },
         {
           "num": 14,
-          "body": "函数 $y=\\sin x-\\sqrt3\\cos x$ 的图象可由函数 $y=\\sin x+\\sqrt3\\cos x$ 的图象至少向右平移 _______ {} 个单位长度得到.",
-          "choices": [],
-          "answer": "\\(\\dfrac{2\\pi}{3}\\)",
-          "solution": "利用辅助角公式，$\\sin x+\\sqrt3\\cos x=2\\sin\\left(x+\\dfrac\\pi3\\right)$，$\\sin x-\\sqrt3\\cos x=2\\sin\\left(x-\\dfrac\\pi3\\right)$. 若将前一个函数的图象向右平移 $h$ 个单位，所得函数为 $2\\sin\\left(x-h+\\dfrac\\pi3\\right)$. 要与 $2\\sin\\left(x-\\dfrac\\pi3\\right)$ 相同，需要 $-h+\\dfrac\\pi3=-\\dfrac\\pi3+2k\\pi$，$k\\in\\mathbb{Z}$，即 $h=\\dfrac{2\\pi}{3}-2k\\pi$. 最小的正平移量为 $h=\\dfrac{2\\pi}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y=\\sin x-\\sqrt{3}\\cos x$ 的图象可由函数 $y=\\sin x+\\sqrt{3}\\cos x$ 的图象至少向右平移<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 个单位长度得到.",
+          "choices": null,
+          "answer": "$\\dfrac{2\\pi}{3}$",
+          "solution": "利用辅助角公式，$\\sin x+\\sqrt{3}\\cos x=2\\sin\\left(x+\\dfrac\\pi3\\right)$，$\\sin x-\\sqrt{3}\\cos x=2\\sin\\left(x-\\dfrac\\pi3\\right)$. 若将前一个函数的图象向右平移 $h$ 个单位，所得函数为 $2\\sin\\left(x-h+\\dfrac\\pi3\\right)$. 要与 $2\\sin\\left(x-\\dfrac\\pi3\\right)$ 相同，需要 $-h+\\dfrac\\pi3=-\\dfrac\\pi3+2k\\pi$，$k\\in\\mathbb{Z}$，即 $h=\\dfrac{2\\pi}{3}-2k\\pi$. 最小的正平移量为 $h=\\dfrac{2\\pi}{3}$."
         },
         {
           "num": 15,
-          "body": "已知 $f(x)$ 为偶函数，当 $x<0$ 时，$f(x)=\\ln(-x)+3x$，则曲线 $y=f(x)$ 在点 $(1,-3)$ 处的切线方程是 _______ {}.",
-          "choices": [],
-          "answer": "\\(2x+y+1=0\\)",
-          "solution": "因为 $f$ 是偶函数，所以当 $x>0$ 时 $f(x)=f(-x)=\\ln x-3x$. 于是 $f(1)=-3$，且 $f'(x)=\\dfrac1x-3$，$f'(1)=-2$. 曲线在 $(1,-3)$ 处的切线为 $y+3=-2(x-1)$，整理得 $2x+y+1=0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $f(x)$ 为偶函数，当 $x&#x3C;0$ 时，$f(x)=\\ln(-x)+3x$，则曲线 $y=f(x)$ 在点 $(1,-3)$ 处的切线方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2x+y+1=0$",
+          "solution": "因为 $f$ 是偶函数，所以当 $x>0$ 时 $f(x)=f(-x)=\\ln x-3x$. 于是 $f(1)=-3$，且 $f'(x)=\\dfrac{1}{x}-3$，$f'(1)=-2$. 曲线在 $(1,-3)$ 处的切线为 $y+3=-2(x-1)$，整理得 $2x+y+1=0$."
         },
         {
           "num": 16,
-          "body": "已知直线 $l:mx+y+3m-\\sqrt3=0$ 与圆 $x^2+y^2=12$ 交于 $A$，$B$ 两点，过 $A$，$B$ 分别做 $l$ 的垂线与 $x$ 轴交于 $C$，$D$ 两点，若 $AB=2\\sqrt3$，则 $|CD|= _______ {}$.",
-          "choices": [],
-          "answer": "\\(4\\)",
-          "solution": "由弦长公式 $2\\sqrt3=2\\sqrt{12-d^2}$，得圆心到 $l$ 的距离 $d=3$. 又 $d=\\dfrac{|3m-\\sqrt3|}{\\sqrt{m^2+1}}$，$(3m-\\sqrt3)^2=9(m^2+1)$，所以 $9m^2-6\\sqrt3m+3=9m^2+9$，即 $m=-\\dfrac1{\\sqrt3}$. 直线 $l$ 的斜率为 $\\dfrac1{\\sqrt3}$，因而弦 $AB$ 的单位方向向量可取 $\\left(\\dfrac{\\sqrt3}{2},\\dfrac12\\right)$. 结合 $AB=2\\sqrt3$，得 $\\overrightarrow{AB}=\\pm(3,\\sqrt3)$. 过圆上任意点 $(x,y)$ 作 $l$ 的垂线，其斜率为 $-\\sqrt3$，令其与 $x$ 轴交于 $(u,0)$，则 $0-y=-\\sqrt3(u-x)$，从而 $u=x+\\dfrac{y}{\\sqrt3}$. 因此两交点对应的横坐标之差的绝对值为 $|CD|=\\left|3+\\dfrac{\\sqrt3}{\\sqrt3}\\right|=4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知直线 $l:mx+y+3m-\\sqrt{3}=0$ 与圆 $x^{2}+y^{2}=12$ 交于 $A$，$B$ 两点，过 $A$，$B$ 分别做 $l$ 的垂线与 $x$ 轴交于 $C$，$D$ 两点，若 $AB=2\\sqrt{3}$，则 $|CD|=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$4$",
+          "solution": "由弦长公式 $2\\sqrt{3}=2\\sqrt{12-d^{2}}$，得圆心到 $l$ 的距离 $d=3$. 又 $d=\\dfrac{|3m-\\sqrt{3}|}{\\sqrt{m^{2}+1}}$，$(3m-\\sqrt{3})^{2}=9(m^{2}+1)$，所以 $9m^{2}-6\\sqrt{3}m+3=9m^{2}+9$，即 $m=-\\dfrac1{\\sqrt{3}}$. 直线 $l$ 的斜率为 $\\dfrac1{\\sqrt{3}}$，因而弦 $AB$ 的单位方向向量可取 $\\left(\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$. 结合 $AB=2\\sqrt{3}$，得 $\\overrightarrow{AB}=\\pm(3,\\sqrt{3})$. 过圆上任意点 $(x,y)$ 作 $l$ 的垂线，其斜率为 $-\\sqrt{3}$，令其与 $x$ 轴交于 $(u,0)$，则 $0-y=-\\sqrt{3}(u-x)$，从而 $u=x+\\dfrac{y}{\\sqrt{3}}$. 因此两交点对应的横坐标之差的绝对值为 $|CD|=\\left|3+\\dfrac{\\sqrt{3}}{\\sqrt{3}}\\right|=4$."
         }
       ]
     },
@@ -370,48 +191,38 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知数列 $\\{a_n\\}$ 的前 $n$ 项和 $S_n=1+\\lambda a_n$，其中 $\\lambda\\ne0$；\r\n\r\n\n(1) 证明 $\\{a_n\\}$ 是等比数列，并求其通项公式；\n\n(2) 若 $S_5=\\dfrac{31}{32}$，求 $\\lambda$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}=1+\\lambda a_{n}$，其中 $\\lambda\\ne0$；</p><ol class=\"enumerate\"><li><p>证明 $\\{a_{n}\\}$ 是等比数列，并求其通项公式；</p></li><li><p>若 $S_{5}=\\dfrac{31}{32}$，求 $\\lambda$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $S_1=a_1=1+\\lambda a_1$，得 $(1-\\lambda)a_1=1$，所以 $\\lambda\\ne1$，且 $a_1=\\dfrac{1}{1-\\lambda}$. 当 $n\\ge2$ 时，$S_n=S_{n-1}+a_n$，从而\r\n\n$$\n1+\\lambda a_n=1+\\lambda a_{n-1}+a_n\n$$\n\r\n因此 $(\\lambda-1)a_n=\\lambda a_{n-1}$，即\r\n\n$$\na_n=\\frac{\\lambda}{\\lambda-1}a_{n-1}\n$$\n\r\n所以 $\\{a_n\\}$ 是首项为 $\\dfrac{1}{1-\\lambda}$、公比为 $\\dfrac{\\lambda}{\\lambda-1}$ 的等比数列，通项为\r\n\n$$\na_n=\\frac{1}{1-\\lambda}\\left(\\frac{\\lambda}{\\lambda-1}\\right)^{n-1}\n$$\n\n(2) 令 $q=\\dfrac{\\lambda}{\\lambda-1}$，由上式可得 $\\lambda a_5=-q^5$，故\r\n\n$$\nS_5=1+\\lambda a_5=1-q^5\n$$\n\r\n由 $S_5=\\dfrac{31}{32}$，得 $q^5=\\dfrac{1}{32}$，所以 $q=\\dfrac12$. 因而 $\\dfrac{\\lambda}{\\lambda-1}=\\dfrac12$，解得 $\\lambda=-1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $S_{1}=a_{1}=1+\\lambda a_{1}$，得 $(1-\\lambda)a_{1}=1$，所以 $\\lambda\\ne1$，且 $a_{1}=\\dfrac{1}{1-\\lambda}$. 当 $n\\ge2$ 时，$S_{n}=S_{n-1}+a_{n}$，从而</p>\n$$\n1+\\lambda a_{n}=1+\\lambda a_{n-1}+a_{n}\n$$\n<p>因此 $(\\lambda-1)a_{n}=\\lambda a_{n-1}$，即</p>\n$$\na_{n}=\\frac{\\lambda}{\\lambda-1}a_{n-1}\n$$\n<p>所以 $\\{a_{n}\\}$ 是首项为 $\\dfrac{1}{1-\\lambda}$、公比为 $\\dfrac{\\lambda}{\\lambda-1}$ 的等比数列，通项为</p>\n$$\na_{n}=\\frac{1}{1-\\lambda}\\left(\\frac{\\lambda}{\\lambda-1}\\right)^{n-1}\n$$\n</li><li><p>令 $q=\\dfrac{\\lambda}{\\lambda-1}$，由上式可得 $\\lambda a_{5}=-q^{5}$，故</p>\n$$\nS_{5}=1+\\lambda a_{5}=1-q^{5}\n$$\n<p>由 $S_{5}=\\dfrac{31}{32}$，得 $q^{5}=\\dfrac{1}{32}$，所以 $q=\\dfrac{1}{2}$. 因而 $\\dfrac{\\lambda}{\\lambda-1}=\\dfrac{1}{2}$，解得 $\\lambda=-1$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "下图是我国 $2008$ 年至 $2014$ 年生活垃圾无害化处理量（单位：亿吨）的折线图.\r\n\r\n注：年份代码 $1$ 到 $7$ 分别对应年份 $2008$ 到 $2014$.\r\n\r\n参考数据：$\\sum_{i=1}^{7}y_i=9.32$，$\\sum_{i=1}^{7}t_iy_i=40.17$，$\\sqrt{\\sum_{i=1}^{7}\\left(y_i-\\bar y\\right)^2}=0.55$，$\\sqrt7\\approx2.646$.\r\n\r\n参考公式：相关系数 $r=\\dfrac{\\sum_{i=1}^{n}\\left(t_i-\\bar t\\right)\\left(y_i-\\bar y\\right)}{\\sqrt{\\sum_{i=1}^{n}\\left(t_i-\\bar t\\right)^2\\sum_{i=1}^{n}\\left(y_i-\\bar y\\right)^2}}$，回归方程 $\\hat y=\\hat a+\\hat b t$ 中斜率和截距的最小二乘估计公式分别为：$\\hat b=\\dfrac{\\sum_{i=1}^{n}\\left(t_i-\\bar t\\right)\\left(y_i-\\bar y\\right)}{\\sum_{i=1}^{n}\\left(t_i-\\bar t\\right)^2}$，$\\hat a=\\bar y-\\hat b\\bar t$.\r\n\r\n\n(1) 由折线图看出，可用线性回归模型拟合 $y$ 与 $t$ 的关系，请用相关系数加以说明；\n\n(2) 建立 $y$ 关于 $t$ 的回归方程（系数精确到 $0.01$），预测 $2016$ 年我国生活垃圾无害化处理量.\n\r\n\r\n\\begingroup\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
-          "choices": [],
+          "body": "<p>下图是我国 $2008$ 年至 $2014$ 年生活垃圾无害化处理量（单位：亿吨）的折线图.</p><p>注：年份代码 $1$ 到 $7$ 分别对应年份 $2008$ 到 $2014$.</p><p>参考数据：$\\sum_{i=1}^{7}y_{i}=9.32$，$\\sum_{i=1}^{7}t_{i}y_{i}=40.17$，$\\sqrt{\\sum_{i=1}^{7}\\left(y_{i}-\\bar y\\right)^{2}}=0.55$，$\\sqrt{7}\\approx2.646$.</p><p>参考公式：相关系数 $r=\\dfrac{\\sum_{i=1}^{n}\\left(t_i-\\bar t\\right)\\left(y_i-\\bar y\\right)}{\\sqrt{\\sum_{i=1}^{n}\\left(t_{i}-\\bar t\\right)^{2}\\sum_{i=1}^{n}\\left(y_{i}-\\bar y\\right)^{2}}}$，回归方程 $\\hat y=\\hat a+\\hat b t$ 中斜率和截距的最小二乘估计公式分别为：$\\hat b=\\dfrac{\\sum_{i=1}^{n}\\left(t_i-\\bar t\\right)\\left(y_i-\\bar y\\right)}{\\sum_{i=1}^{n}\\left(t_i-\\bar t\\right)^2}$，$\\hat a=\\bar y-\\hat b\\bar t$.</p><ol class=\"enumerate\"><li><p>由折线图看出，可用线性回归模型拟合 $y$ 与 $t$ 的关系，请用相关系数加以说明；</p></li><li><p>建立 $y$ 关于 $t$ 的回归方程（系数精确到 $0.01$），预测 $2016$ 年我国生活垃圾无害化处理量.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $t_i=1$，$2$，$\\ldots$，$7$，得 $\\bar t=4$，且\r\n\n$$\n\\sum_{i=1}^{7}(t_i-\\bar t)^2=9+4+1+0+1+4+9=28\n$$\n\r\n又因为 $\\sum_{i=1}^{7}(t_i-\\bar t)=0$，所以\r\n\n$$\n\\sum_{i=1}^{7}(t_i-\\bar t)(y_i-\\bar y)=\\sum_{i=1}^{7}t_i y_i-\\bar t\\sum_{i=1}^{7}y_i=40.17-4\\times9.32=2.89\n$$\n\r\n因此\r\n\n$$\nr=\\frac{2.89}{\\sqrt{28}\\times0.55}=\\frac{2.89}{2\\sqrt7\\times0.55}\\approx0.99\n$$\n\r\n相关系数接近 $1$，说明 $y$ 与 $t$ 正相关性很强，用线性回归模型拟合是合适的.\n\n(2) 由 $\\bar y=\\dfrac{9.32}{7}$，得\r\n$\\hat b=\\frac{2.89}{28}\\approx0.10$，$\\hat a=\\bar y-\\hat b\\bar t=\\frac{9.32}{7}-4\\times\\frac{2.89}{28}\\approx0.92$.\r\n所以回归方程为 $\\hat y=0.92+0.10t$. 年份 $2016$ 对应的年份代码为 $t=9$，代入回归方程得\r\n\n$$\n\\hat y=0.92+0.10\\times9=1.82\n$$\n\r\n故预测 $2016$ 年我国生活垃圾无害化处理量约为 $1.82$ 亿吨.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $t_{i}=1$，$2$，$\\ldots$，$7$，得 $\\bar t=4$，且</p>\n$$\n\\sum_{i=1}^{7}(t_{i}-\\bar t)^{2}=9+4+1+0+1+4+9=28\n$$\n<p>又因为 $\\sum_{i=1}^{7}(t_{i}-\\bar t)=0$，所以</p>\n$$\n\\sum_{i=1}^{7}(t_{i}-\\bar t)(y_{i}-\\bar y)=\\sum_{i=1}^{7}t_{i} y_{i}-\\bar t\\sum_{i=1}^{7}y_{i}=40.17-4\\times9.32=2.89\n$$\n<p>因此</p>\n$$\nr=\\frac{2.89}{\\sqrt{28}\\times0.55}=\\frac{2.89}{2\\sqrt{7}\\times0.55}\\approx0.99\n$$\n<p>相关系数接近 $1$，说明 $y$ 与 $t$ 正相关性很强，用线性回归模型拟合是合适的.</p></li><li><p>由 $\\bar y=\\dfrac{9.32}{7}$，得</p><p>$\\hat b=\\frac{2.89}{28}\\approx0.10$，$\\hat a=\\bar y-\\hat b\\bar t=\\frac{9.32}{7}-4\\times\\frac{2.89}{28}\\approx0.92$.</p><p>所以回归方程为 $\\hat y=0.92+0.10t$. 年份 $2016$ 对应的年份代码为 $t=9$，代入回归方程得</p>\n$$\n\\hat y=0.92+0.10\\times9=1.82\n$$\n<p>故预测 $2016$ 年我国生活垃圾无害化处理量约为 $1.82$ 亿吨.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，四棱锥 $P-ABCD$ 中，$PA\\perp$ 底面 $ABCD$，$AD\\parallel BC$，$AB=AD=AC=3$，$PA=BC=4$，$M$ 为线段 $AD$ 上一点，$AM=2MD$，$N$ 为 $PC$ 的中点.\r\n\r\n\n(1) 证明 $MN\\parallel$ 平面 $PAB$；\n\n(2) 求直线 $AN$ 与平面 $PMN$ 所成角的正弦值.\n\r\n\r\n\\begingroup\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
-          "choices": [],
+          "body": "<p>如图，四棱锥 $P-ABCD$ 中，$PA\\perp$ 底面 $ABCD$，$AD\\parallel BC$，$AB=AD=AC=3$，$PA=BC=4$，$M$ 为线段 $AD$ 上一点，$AM=2MD$，$N$ 为 $PC$ 的中点.</p><ol class=\"enumerate\"><li><p>证明 $MN\\parallel$ 平面 $PAB$；</p></li><li><p>求直线 $AN$ 与平面 $PMN$ 所成角的正弦值.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "在底面内建立直角坐标系，并取\r\n$A=(0,0,0)$，$D=(3,0,0)$，$B=(-2,\\sqrt5,0)$，$C=(2,\\sqrt5,0)$.\r\n这是因为 $AD\\parallel BC$、$AD=3$、$BC=4$，又由 $AB=AC=3$ 可确定 $B$，$C$ 的上述坐标. 由 $PA\\perp$ 底面且 $PA=4$，可取 $P=(0,0,4)$. 另外，$AM=2$、$N$ 为 $PC$ 的中点，所以\r\n$M=(2,0,0)$，$N=\\left(1,\\frac{\\sqrt5}{2},2\\right)$.\r\n\r\n\n(1) 有\r\n\n$$\n\\overrightarrow{MN}=\\left(-1,\\frac{\\sqrt5}{2},2\\right)=\\frac12\\overrightarrow{AB}+\\frac12\\overrightarrow{AP}\n$$\n\r\n因此 $\\overrightarrow{MN}$ 平行于平面 $PAB$. 进一步，平面 $PAB$ 的方程为 $\\sqrt5x+2y=0$，而 $M=(2,0,0)$ 不满足该方程，所以 $M\\notin$ 平面 $PAB$. 因此直线 $MN$ 不在且不交平面 $PAB$，从而 $MN\\parallel$ 平面 $PAB$.\n\n(2) 取\r\n$\\overrightarrow{PM}=(2,0,-4)$，$\\overrightarrow{PN}=\\left(1,\\frac{\\sqrt5}{2},-2\\right)$.\r\n它们的一个法向量为\r\n\n$$\n\\overrightarrow{PM}\\times\\overrightarrow{PN}=(2\\sqrt5,0,\\sqrt5)\n$$\n\r\n故可取平面 $PMN$ 的法向量为 $\\mathbf{n}=(2,0,1)$. 又\r\n$\\overrightarrow{AN}=\\left(1,\\frac{\\sqrt5}{2},2\\right)$，$\\left|\\overrightarrow{AN}\\right|=\\frac52$，$|\\mathbf{n}|=\\sqrt5$.\r\n设直线 $AN$ 与平面 $PMN$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{\\left|\\overrightarrow{AN}\\cdot\\mathbf{n}\\right|}{\\left|\\overrightarrow{AN}\\right||\\mathbf{n}|}=\\frac{|2+2|}{\\frac52\\sqrt5}=\\frac{8\\sqrt5}{25}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>在底面内建立直角坐标系，并取</p><p>$A=(0,0,0)$，$D=(3,0,0)$，$B=(-2,\\sqrt{5},0)$，$C=(2,\\sqrt{5},0)$.</p><p>这是因为 $AD\\parallel BC$、$AD=3$、$BC=4$，又由 $AB=AC=3$ 可确定 $B$，$C$ 的上述坐标. 由 $PA\\perp$ 底面且 $PA=4$，可取 $P=(0,0,4)$. 另外，$AM=2$、$N$ 为 $PC$ 的中点，所以</p><p>$M=(2,0,0)$，$N=\\left(1,\\frac{\\sqrt{5}}{2},2\\right)$.</p><ol class=\"enumerate\"><li><p>有</p>\n$$\n\\overrightarrow{MN}=\\left(-1,\\frac{\\sqrt{5}}{2},2\\right)=\\frac{1}{2}\\overrightarrow{AB}+\\frac{1}{2}\\overrightarrow{AP}\n$$\n<p>因此 $\\overrightarrow{MN}$ 平行于平面 $PAB$. 进一步，平面 $PAB$ 的方程为 $\\sqrt{5}x+2y=0$，而 $M=(2,0,0)$ 不满足该方程，所以 $M\\notin$ 平面 $PAB$. 因此直线 $MN$ 不在且不交平面 $PAB$，从而 $MN\\parallel$ 平面 $PAB$.</p></li><li><p>取</p><p>$\\overrightarrow{PM}=(2,0,-4)$，$\\overrightarrow{PN}=\\left(1,\\frac{\\sqrt{5}}{2},-2\\right)$.</p><p>它们的一个法向量为</p>\n$$\n\\overrightarrow{PM}\\times\\overrightarrow{PN}=(2\\sqrt{5},0,\\sqrt{5})\n$$\n<p>故可取平面 $PMN$ 的法向量为 $\\mathbf{n}=(2,0,1)$. 又</p><p>$\\overrightarrow{AN}=\\left(1,\\frac{\\sqrt{5}}{2},2\\right)$，$\\left|\\overrightarrow{AN}\\right|=\\frac{5}{2}$，$|\\mathbf{n}|=\\sqrt{5}$.</p><p>设直线 $AN$ 与平面 $PMN$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{\\left|\\overrightarrow{AN}\\cdot\\mathbf{n}\\right|}{\\left|\\overrightarrow{AN}\\right||\\mathbf{n}|}=\\frac{|2+2|}{\\frac{5}{2}\\sqrt{5}}=\\frac{8\\sqrt{5}}{25}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "已知抛物线 $C:y^2=2x$ 的焦点为 $F$，平行于 $x$ 轴的两条直线 $l_1$，$l_2$ 分别交 $C$ 于 $A$，$B$ 两点，交 $C$ 的准线于 $P$，$Q$ 两点.\r\n\r\n\n(1) 若 $F$ 在线段 $AB$ 上，$R$ 是 $PQ$ 的中点，证明 $AR\\parallel FQ$；\n\n(2) 若 $\\triangle PQF$ 的面积是 $\\triangle ABF$ 的面积的两倍，求 $AB$ 中点的轨迹方程.",
-          "choices": [],
+          "body": "<p>已知抛物线 $C:y^{2}=2x$ 的焦点为 $F$，平行于 $x$ 轴的两条直线 $l_{1}$，$l_{2}$ 分别交 $C$ 于 $A$，$B$ 两点，交 $C$ 的准线于 $P$，$Q$ 两点.</p><ol class=\"enumerate\"><li><p>若 $F$ 在线段 $AB$ 上，$R$ 是 $PQ$ 的中点，证明 $AR\\parallel FQ$；</p></li><li><p>若 $\\triangle PQF$ 的面积是 $\\triangle ABF$ 的面积的两倍，求 $AB$ 中点的轨迹方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $l_1:y=a$，$l_2:y=b$. 题设两条直线不同，且均平行于 $x$ 轴；平面内两直线平行指它们没有交点，故它们不能与 $x$ 轴重合，因而 $a\\ne b$，$a\\ne0$，$b\\ne0$. 于是 $A\\left(\\dfrac{a^2}{2},a\\right)$，$B\\left(\\dfrac{b^2}{2},b\\right)$，$P\\left(-\\dfrac12,a\\right)$，$Q\\left(-\\dfrac12,b\\right)$，$F\\left(\\dfrac12,0\\right)$. 直线 $AB$ 的方程为 $2x-(a+b)y+ab=0$. 由于 $F$ 在线段 $AB$ 上，代入得 $1+ab=0$，即 $ab=-1$. 设 $R$ 为 $PQ$ 的中点，则 $R\\left(-\\dfrac12,\\dfrac{a+b}{2}\\right)$. 因而 $\\overrightarrow{AR}=\\left(-\\dfrac{1+a^2}{2},\\dfrac{b-a}{2}\\right)$，$\\overrightarrow{FQ}=(-1,b)$. 由 $ab=-1$ 得 $(1+a^2)b=b-a$，所以 $\\overrightarrow{AR}=\\dfrac{1+a^2}{2}\\overrightarrow{FQ}$. 又 $R$ 在准线上而 $F$ 不在准线上，$R\\ne Q$，故直线 $AR$ 与 $FQ$ 不重合，得到 $AR\\parallel FQ$.\n\n(2) 沿用上述坐标，由 $PQ$ 的长为 $|b-a|$，焦点到准线的距离为 $1$，得 $S_{\\triangle PQF}=\\dfrac{|b-a|}{2}$. 用 $\\overrightarrow{FA}=\\left(\\dfrac{a^2-1}{2},a\\right)$，$\\overrightarrow{FB}=\\left(\\dfrac{b^2-1}{2},b\\right)$ 计算面积，得 $S_{\\triangle ABF}=\\dfrac{|b(a^2-1)-a(b^2-1)|}{4}=\\dfrac{|b-a||1+ab|}{4}$. 因为 $a\\ne b$，题设面积关系等价于 $|1+ab|=1$，即 $ab=0$ 或 $ab=-2$. 其中 $ab=0$ 会使某条直线与 $x$ 轴重合，不符合题设的平行条件，故只有 $ab=-2$. 设 $AB$ 的中点为 $M(x,y)$，则 $x=\\dfrac{a^2+b^2}{4}$，$y=\\dfrac{a+b}{2}$，从而\r\n\n$$\ny^2=\\frac{a^2+2ab+b^2}{4}=x+\\frac{ab}{2}=x-1\n$$\n\r\n反之，对于曲线 $y^2=x-1$ 上任一点 $M(x,y)$，取 $a=y+\\sqrt{y^2+2}$，$b=y-\\sqrt{y^2+2}$，则 $a\\ne b$，$ab=-2$，故两条直线不同且均与 $x$ 轴平行. 对应的 $A$，$B$ 的中点满足 $\\dfrac{a+b}{2}=y$，$\\dfrac{a^2+b^2}{4}=y^2+1=x$，且 $S_{\\triangle PQF}=\\dfrac{|b-a|}{2}=2S_{\\triangle ABF}>0$，满足原题全部条件. 因此所求轨迹方程为 $y^2=x-1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $l_{1}:y=a$，$l_{2}:y=b$. 题设两条直线不同，且均平行于 $x$ 轴；平面内两直线平行指它们没有交点，故它们不能与 $x$ 轴重合，因而 $a\\ne b$，$a\\ne0$，$b\\ne0$. 于是 $A\\left(\\dfrac{a^2}{2},a\\right)$，$B\\left(\\dfrac{b^2}{2},b\\right)$，$P\\left(-\\dfrac{1}{2},a\\right)$，$Q\\left(-\\dfrac{1}{2},b\\right)$，$F\\left(\\dfrac{1}{2},0\\right)$. 直线 $AB$ 的方程为 $2x-(a+b)y+ab=0$. 由于 $F$ 在线段 $AB$ 上，代入得 $1+ab=0$，即 $ab=-1$. 设 $R$ 为 $PQ$ 的中点，则 $R\\left(-\\dfrac{1}{2},\\dfrac{a+b}{2}\\right)$. 因而 $\\overrightarrow{AR}=\\left(-\\dfrac{1+a^2}{2},\\dfrac{b-a}{2}\\right)$，$\\overrightarrow{FQ}=(-1,b)$. 由 $ab=-1$ 得 $(1+a^{2})b=b-a$，所以 $\\overrightarrow{AR}=\\dfrac{1+a^2}{2}\\overrightarrow{FQ}$. 又 $R$ 在准线上而 $F$ 不在准线上，$R\\ne Q$，故直线 $AR$ 与 $FQ$ 不重合，得到 $AR\\parallel FQ$.</p></li><li><p>沿用上述坐标，由 $PQ$ 的长为 $|b-a|$，焦点到准线的距离为 $1$，得 $S_{\\triangle PQF}=\\dfrac{|b-a|}{2}$. 用 $\\overrightarrow{FA}=\\left(\\dfrac{a^2-1}{2},a\\right)$，$\\overrightarrow{FB}=\\left(\\dfrac{b^2-1}{2},b\\right)$ 计算面积，得 $S_{\\triangle ABF}=\\dfrac{|b(a^2-1)-a(b^2-1)|}{4}=\\dfrac{|b-a||1+ab|}{4}$. 因为 $a\\ne b$，题设面积关系等价于 $|1+ab|=1$，即 $ab=0$ 或 $ab=-2$. 其中 $ab=0$ 会使某条直线与 $x$ 轴重合，不符合题设的平行条件，故只有 $ab=-2$. 设 $AB$ 的中点为 $M(x,y)$，则 $x=\\dfrac{a^2+b^2}{4}$，$y=\\dfrac{a+b}{2}$，从而</p>\n$$\ny^{2}=\\frac{a^{2}+2ab+b^{2}}{4}=x+\\frac{ab}{2}=x-1\n$$\n<p>反之，对于曲线 $y^{2}=x-1$ 上任一点 $M(x,y)$，取 $a=y+\\sqrt{y^{2}+2}$，$b=y-\\sqrt{y^{2}+2}$，则 $a\\ne b$，$ab=-2$，故两条直线不同且均与 $x$ 轴平行. 对应的 $A$，$B$ 的中点满足 $\\dfrac{a+b}{2}=y$，$\\dfrac{a^2+b^2}{4}=y^{2}+1=x$，且 $S_{\\triangle PQF}=\\dfrac{|b-a|}{2}=2S_{\\triangle ABF}>0$，满足原题全部条件. 因此所求轨迹方程为 $y^{2}=x-1$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "设函数 $f(x)=\\alpha\\cos 2x+(\\alpha-1)(\\cos x+1)$，其中 $\\alpha>0$，记 $|f(x)|$ 的最大值为 $A$.\r\n\r\n\n(1) 求 $f'(x)$；\n\n(2) 求 $A$；\n\n(3) 证明 $|f'(x)|\\le2A$.",
-          "choices": [],
+          "body": "<p>设函数 $f(x)=\\alpha\\cos 2x+(\\alpha-1)(\\cos x+1)$，其中 $\\alpha>0$，记 $|f(x)|$ 的最大值为 $A$.</p><ol class=\"enumerate\"><li><p>求 $f'(x)$；</p></li><li><p>求 $A$；</p></li><li><p>证明 $|f'(x)|\\le2A$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $(\\cos 2x)'=-2\\sin 2x$、$(\\cos x)'=-\\sin x$，得\r\n\n$$\nf'(x)=-2\\alpha\\sin 2x-(\\alpha-1)\\sin x\n$$\n\n(2) 令 $t=\\cos x$，则 $-1\\le t\\le1$，且\r\n\n$$\nf(x)=\\alpha(2t^2-1)+(\\alpha-1)(t+1)=2\\alpha t^2+(\\alpha-1)t-1\n$$\n\r\n记右端为 $g(t)$. 由于 $\\alpha>0$，$g(t)$ 是开口向上的二次函数，其顶点横坐标为\r\n\n$$\nt_0=-\\frac{\\alpha-1}{4\\alpha}=\\frac{1-\\alpha}{4\\alpha}\n$$\n\r\n当 $0<\\alpha<\\dfrac15$ 时，$t_0>1$，所以 $g(t)$ 在 $[-1,1]$ 上递减. 又\r\n$g(-1)=\\alpha$，$g(1)=3\\alpha-2$，\r\n且 $2-3\\alpha>\\alpha$，故 $A=2-3\\alpha$.\r\n\r\n当 $\\dfrac15\\le\\alpha\\le1$ 时，$t_0\\in[-1,1]$，且\r\n\n$$\ng(t_0)=-\\frac{\\alpha^2+6\\alpha+1}{8\\alpha}\n$$\n\r\n记 $B=\\dfrac{\\alpha^2+6\\alpha+1}{8\\alpha}$. 端点处的绝对值分别为 $\\alpha$ 和 $|3\\alpha-2|$. 直接计算得\r\n\n$$\nB-\\alpha=\\frac{(1-\\alpha)(7\\alpha+1)}{8\\alpha}\\ge0\n$$\n\r\n当 $\\dfrac15\\le\\alpha\\le\\dfrac23$ 时，\r\n\n$$\nB-(2-3\\alpha)=\\frac{(5\\alpha-1)^2}{8\\alpha}\\ge0;\n$$\n\r\n当 $\\dfrac23\\le\\alpha\\le1$ 时，\r\n\n$$\nB-(3\\alpha-2)=\\frac{(1-\\alpha)(23\\alpha+1)}{8\\alpha}\\ge0\n$$\n\r\n因此此时 $A=B=\\dfrac{\\alpha^2+6\\alpha+1}{8\\alpha}$.\r\n\r\n当 $\\alpha\\ge1$ 时，仍有 $t_0\\in[-1,1]$，而\r\n$B-(3\\alpha-2)=\\frac{(1-\\alpha)(23\\alpha+1)}{8\\alpha}\\le0$，$3\\alpha-2\\ge\\alpha$.\r\n所以此时 $A=3\\alpha-2$. 综合可得\r\n\n$$\nA=\\begin{cases}\r\n2-3\\alpha,&0<\\alpha<\\dfrac15,\\\\[4pt]\r\n\\dfrac{\\alpha^2+6\\alpha+1}{8\\alpha},&\\dfrac15\\le\\alpha\\le1,\\\\[8pt]\r\n3\\alpha-2,&\\alpha\\ge1.\r\n\\end{cases}\n$$\n\n(3) 当 $0<\\alpha<\\dfrac15$ 时，由三角不等式\r\n\n$$\n|f'(x)|\\le2\\alpha|\\sin2x|+(1-\\alpha)|\\sin x|\\le1+\\alpha\n$$\n\r\n又 $1+\\alpha\\le4-6\\alpha=2A$，故 $|f'(x)|\\le2A$.\r\n\r\n当 $\\dfrac15\\le\\alpha\\le1$ 时，\r\n\n$$\n|f'(x)|\\le2\\alpha+(1-\\alpha)=1+\\alpha\n$$\n\r\n而\r\n\n$$\n2A-(1+\\alpha)=\\frac{\\alpha^2+6\\alpha+1}{4\\alpha}-(1+\\alpha)=\\frac{(1-\\alpha)(3\\alpha+1)}{4\\alpha}\\ge0\n$$\n\r\n所以 $|f'(x)|\\le2A$.\r\n\r\n当 $\\alpha\\ge1$ 时，\r\n\n$$\n|f'(x)|\\le2\\alpha+(\\alpha-1)=3\\alpha-1\\le6\\alpha-4=2A\n$$\n\r\n综上，恒有 $|f'(x)|\\le2A$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $(\\cos 2x)'=-2\\sin 2x$、$(\\cos x)'=-\\sin x$，得</p>\n$$\nf'(x)=-2\\alpha\\sin 2x-(\\alpha-1)\\sin x\n$$\n</li><li><p>令 $t=\\cos x$，则 $-1\\le t\\le1$，且</p>\n$$\nf(x)=\\alpha(2t^{2}-1)+(\\alpha-1)(t+1)=2\\alpha t^{2}+(\\alpha-1)t-1\n$$\n<p>记右端为 $g(t)$. 由于 $\\alpha>0$，$g(t)$ 是开口向上的二次函数，其顶点横坐标为</p>\n$$\nt_{0}=-\\frac{\\alpha-1}{4\\alpha}=\\frac{1-\\alpha}{4\\alpha}\n$$\n<p>当 $0&#x3C;\\alpha&#x3C;\\dfrac{1}{5}$ 时，$t_{0}>1$，所以 $g(t)$ 在 $[-1,1]$ 上递减. 又</p><p>$g(-1)=\\alpha$，$g(1)=3\\alpha-2$，</p><p>且 $2-3\\alpha>\\alpha$，故 $A=2-3\\alpha$.</p><p>当 $\\dfrac{1}{5}\\le\\alpha\\le1$ 时，$t_{0}\\in[-1,1]$，且</p>\n$$\ng(t_{0})=-\\frac{\\alpha^{2}+6\\alpha+1}{8\\alpha}\n$$\n<p>记 $B=\\dfrac{\\alpha^2+6\\alpha+1}{8\\alpha}$. 端点处的绝对值分别为 $\\alpha$ 和 $|3\\alpha-2|$. 直接计算得</p>\n$$\nB-\\alpha=\\frac{(1-\\alpha)(7\\alpha+1)}{8\\alpha}\\ge0\n$$\n<p>当 $\\dfrac{1}{5}\\le\\alpha\\le\\dfrac{2}{3}$ 时，</p>\n$$\nB-(2-3\\alpha)=\\frac{(5\\alpha-1)^{2}}{8\\alpha}\\ge0;\n$$\n<p>当 $\\dfrac{2}{3}\\le\\alpha\\le1$ 时，</p>\n$$\nB-(3\\alpha-2)=\\frac{(1-\\alpha)(23\\alpha+1)}{8\\alpha}\\ge0\n$$\n<p>因此此时 $A=B=\\dfrac{\\alpha^2+6\\alpha+1}{8\\alpha}$.</p><p>当 $\\alpha\\ge1$ 时，仍有 $t_{0}\\in[-1,1]$，而</p><p>$B-(3\\alpha-2)=\\frac{(1-\\alpha)(23\\alpha+1)}{8\\alpha}\\le0$，$3\\alpha-2\\ge\\alpha$.</p><p>所以此时 $A=3\\alpha-2$. 综合可得</p>\n$$\nA=\\begin{cases}2-3\\alpha,&#x26;0&#x3C;\\alpha&#x3C;\\dfrac{1}{5},\\\\[4pt]  \\dfrac{\\alpha^2+6\\alpha+1}{8\\alpha},&#x26;\\dfrac{1}{5}\\le\\alpha\\le1,\\\\[8pt]  3\\alpha-2,&#x26;\\alpha\\ge1.\\end{cases}\n$$\n</li><li><p>当 $0&#x3C;\\alpha&#x3C;\\dfrac{1}{5}$ 时，由三角不等式</p>\n$$\n|f'(x)|\\le2\\alpha|\\sin2x|+(1-\\alpha)|\\sin x|\\le1+\\alpha\n$$\n<p>又 $1+\\alpha\\le4-6\\alpha=2A$，故 $|f'(x)|\\le2A$.</p><p>当 $\\dfrac{1}{5}\\le\\alpha\\le1$ 时，</p>\n$$\n|f'(x)|\\le2\\alpha+(1-\\alpha)=1+\\alpha\n$$\n<p>而</p>\n$$\n2A-(1+\\alpha)=\\frac{\\alpha^{2}+6\\alpha+1}{4\\alpha}-(1+\\alpha)=\\frac{(1-\\alpha)(3\\alpha+1)}{4\\alpha}\\ge0\n$$\n<p>所以 $|f'(x)|\\le2A$.</p><p>当 $\\alpha\\ge1$ 时，</p>\n$$\n|f'(x)|\\le2\\alpha+(\\alpha-1)=3\\alpha-1\\le6\\alpha-4=2A\n$$\n<p>综上，恒有 $|f'(x)|\\le2A$.</p></li></ol>"
         }
       ]
     },
@@ -420,33 +231,26 @@
       "problems": [
         {
           "num": 22,
-          "body": "如图，$\\odot O$ 中 $\\overset{\\frown}{AB}$ 的中点为 $P$，弦 $PC$，$PD$ 分别交 $AB$ 于 $E$，$F$ 两点.\r\n\r\n\n(1) 若 $\\angle PFB=2\\angle PCD$，求 $\\angle PCD$ 的大小；\n\n(2) 若 $EC$ 的垂直平分线与 $FD$ 的垂直平分线交于点 $G$，证明 $OG\\perp CD$.\n\r\n\r\n\\begingroup\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2016/img/national_paper_3_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\endgroup",
-          "choices": [],
+          "body": "<p>如图，$\\odot O$ 中 $\\overset{\\frown}{AB}$ 的中点为 $P$，弦 $PC$，$PD$ 分别交 $AB$ 于 $E$，$F$ 两点.</p><ol class=\"enumerate\"><li><p>若 $\\angle PFB=2\\angle PCD$，求 $\\angle PCD$ 的大小；</p></li><li><p>若 $EC$ 的垂直平分线与 $FD$ 的垂直平分线交于点 $G$，证明 $OG\\perp CD$.</p></li></ol><p><span class=\"macro macro-begingroup\"></span></p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_3_science/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-endgroup\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设圆周上各相邻弧 $AP$、$PB$、$BD$、$DC$、$CA$ 所对的圆心角依次为 $u$，$u$，$v$，$w$，$s$，并记 $\\angle PCD=\\theta$. 由圆周角定理，\r\n\n$$\n2\\theta=u+v\n$$\n\r\n两弦 $PD$ 与 $AB$ 在点 $F$ 相交，由相交弦所成角的度数等于所对两弧度数和的一半，得\r\n\n$$\n2\\angle PFB=u+s+w\n$$\n\r\n由题设 $\\angle PFB=2\\angle PCD=2\\theta$，所以\r\n\n$$\nu+s+w=4\\theta=2u+2v\n$$\n\r\n即 $s+w=u+2v$. 又整圆的圆心角和为 $2u+v+w+s=360^\\circ$，从而\r\n\n$$\n3u+3v=360^\\circ\n$$\n\r\n所以 $u+v=120^\\circ$，故\r\n\n$$\n\\angle PCD=\\theta=60^\\circ\n$$\n\n(2) 以 $O$ 为原点，取圆的半径为 $1$，并令 $P=(0,1)$. 由于 $P$ 是弧 $AB$ 的中点，弦 $AB$ 可设为 $y=k$，其中 $-1<k<1$. 令 $h=1-k$，则 $AB$ 上的点可写为 $E=(e,k)$、$F=(f,k)$. 直线 $PE$ 与单位圆的另一个交点为 $C$. 设\r\n\n$$\nP+t(E-P)=(te,1-th)\n$$\n\r\n代入单位圆方程得\r\n\n$$\nt^2(e^2+h^2)-2ht=0\n$$\n\r\n除去对应于点 $P$ 的根 $t=0$，得 $t=\\dfrac{2h}{e^2+h^2}$，所以\r\n\n$$\nC=\\left(\\frac{2he}{e^2+h^2},\\frac{e^2-h^2}{e^2+h^2}\\right)\n$$\n\r\n同理，令 $L_f=f^2+h^2$，有\r\n\n$$\nD=\\left(\\frac{2hf}{L_f},\\frac{f^2-h^2}{L_f}\\right)\n$$\n\r\n\r\n设 $G=(X,Y)$. 记 $s^2=1-k^2=h(2-h)$. 由上式可得\r\n\n$$\nC-E=\\frac{s^2-e^2}{e^2+h^2}(e,-h)\n$$\n\r\n又因为 $|C|=1$，所以 $GE=GC$ 等价于\r\n\n$$\n2G\\cdot(C-E)=1-|E|^2=s^2-e^2\n$$\n\r\n在非退化情形下约去公因式，得到\r\n\n$$\neX-hY=\\frac{e^2+h^2}{2}\n$$\n\r\n同理，由 $GF=GD$ 得\r\n\n$$\nfX-hY=\\frac{f^2+h^2}{2}\n$$\n\r\n两式相减，得到\r\n$X=\\frac{e+f}{2}$，$Y=\\frac{ef-h^2}{2h}$.\r\n\r\n令 $L_e=e^2+h^2$，则\r\n\n$$\nC-D=\\left(-\\frac{2h(e-f)(ef-h^2)}{L_eL_f},\\frac{2h^2(e-f)(e+f)}{L_eL_f}\\right)\n$$\n\r\n因此\r\n\n$$\n\\overrightarrow{OG}\\cdot\\overrightarrow{CD}\r\n=\\frac{e+f}{2}\\left(-\\frac{2h(e-f)(ef-h^2)}{L_eL_f}\\right)+\\frac{ef-h^2}{2h}\\left(\\frac{2h^2(e-f)(e+f)}{L_eL_f}\\right)=0\n$$\n\r\n所以 $OG\\perp CD$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设圆周上各相邻弧 $AP$、$PB$、$BD$、$DC$、$CA$ 所对的圆心角依次为 $u$，$u$，$v$，$w$，$s$，并记 $\\angle PCD=\\theta$. 由圆周角定理，</p>\n$$\n2\\theta=u+v\n$$\n<p>两弦 $PD$ 与 $AB$ 在点 $F$ 相交，由相交弦所成角的度数等于所对两弧度数和的一半，得</p>\n$$\n2\\angle PFB=u+s+w\n$$\n<p>由题设 $\\angle PFB=2\\angle PCD=2\\theta$，所以</p>\n$$\nu+s+w=4\\theta=2u+2v\n$$\n<p>即 $s+w=u+2v$. 又整圆的圆心角和为 $2u+v+w+s=360^{\\circ}$，从而</p>\n$$\n3u+3v=360^{\\circ}\n$$\n<p>所以 $u+v=120^{\\circ}$，故</p>\n$$\n\\angle PCD=\\theta=60^{\\circ}\n$$\n</li><li><p>以 $O$ 为原点，取圆的半径为 $1$，并令 $P=(0,1)$. 由于 $P$ 是弧 $AB$ 的中点，弦 $AB$ 可设为 $y=k$，其中 $-1&#x3C;k&#x3C;1$. 令 $h=1-k$，则 $AB$ 上的点可写为 $E=(e,k)$、$F=(f,k)$. 直线 $PE$ 与单位圆的另一个交点为 $C$. 设</p>\n$$\nP+t(E-P)=(te,1-th)\n$$\n<p>代入单位圆方程得</p>\n$$\nt^{2}(e^{2}+h^{2})-2ht=0\n$$\n<p>除去对应于点 $P$ 的根 $t=0$，得 $t=\\dfrac{2h}{e^2+h^2}$，所以</p>\n$$\nC=\\left(\\frac{2he}{e^{2}+h^{2}},\\frac{e^{2}-h^{2}}{e^{2}+h^{2}}\\right)\n$$\n<p>同理，令 $L_{f}=f^{2}+h^{2}$，有</p>\n$$\nD=\\left(\\frac{2hf}{L_{f}},\\frac{f^{2}-h^{2}}{L_{f}}\\right)\n$$\n<p>设 $G=(X,Y)$. 记 $s^{2}=1-k^{2}=h(2-h)$. 由上式可得</p>\n$$\nC-E=\\frac{s^{2}-e^{2}}{e^{2}+h^{2}}(e,-h)\n$$\n<p>又因为 $|C|=1$，所以 $GE=GC$ 等价于</p>\n$$\n2G\\cdot(C-E)=1-|E|^{2}=s^{2}-e^{2}\n$$\n<p>在非退化情形下约去公因式，得到</p>\n$$\neX-hY=\\frac{e^{2}+h^{2}}{2}\n$$\n<p>同理，由 $GF=GD$ 得</p>\n$$\nfX-hY=\\frac{f^{2}+h^{2}}{2}\n$$\n<p>两式相减，得到</p><p>$X=\\frac{e+f}{2}$，$Y=\\frac{ef-h^{2}}{2h}$.</p><p>令 $L_{e}=e^{2}+h^{2}$，则</p>\n$$\nC-D=\\left(-\\frac{2h(e-f)(ef-h^{2})}{L_{e}L_{f}},\\frac{2h^{2}(e-f)(e+f)}{L_{e}L_{f}}\\right)\n$$\n<p>因此</p>\n$$\n\\overrightarrow{OG}\\cdot\\overrightarrow{CD}=\\frac{e+f}{2}\\left(-\\frac{2h(e-f)(ef-h^{2})}{L_{e}L_{f}}\\right)+\\frac{ef-h^{2}}{2h}\\left(\\frac{2h^{2}(e-f)(e+f)}{L_{e}L_{f}}\\right)=0\n$$\n<p>所以 $OG\\perp CD$.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "在直角坐标系 $xOy$ 中，曲线 $C_1$ 的参数方程为\r\n$\\begin{cases}\r\nx=\\sqrt3\\cos\\alpha,\\\\\r\ny=\\sin\\alpha\r\n\\end{cases}$\r\n（$\\alpha$ 为参数）；以坐标原点为极点，以 $x$ 轴的正半轴为极轴，建立极坐标系，曲线 $C_2$ 的极坐标方程为 $\\rho\\sin\\left(\\theta+\\dfrac\\pi4\\right)=2\\sqrt2$.\r\n\r\n\n(1) 写出 $C_1$ 的普通方程和 $C_2$ 的直角坐标方程；\n\n(2) 设点 $P$ 在 $C_1$ 上，点 $Q$ 在 $C_2$ 上，求 $|PQ|$ 的最小值及此时 $P$ 的直角坐标.",
-          "choices": [],
+          "body": "<p>在直角坐标系 $xOy$ 中，曲线 $C_{1}$ 的参数方程为</p><p>$\\begin{cases}x=\\sqrt{3}\\cos\\alpha,\\\\\n\ny=\\sin\\alpha\\end{cases}$</p><p>（$\\alpha$ 为参数）；以坐标原点为极点，以 $x$ 轴的正半轴为极轴，建立极坐标系，曲线 $C_{2}$ 的极坐标方程为 $\\rho\\sin\\left(\\theta+\\dfrac\\pi4\\right)=2\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>写出 $C_{1}$ 的普通方程和 $C_{2}$ 的直角坐标方程；</p></li><li><p>设点 $P$ 在 $C_{1}$ 上，点 $Q$ 在 $C_{2}$ 上，求 $|PQ|$ 的最小值及此时 $P$ 的直角坐标.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由参数方程消去参数 $\\alpha$，得\r\n\n$$\n\\frac{x^2}{3}+y^2=\\cos^2\\alpha+\\sin^2\\alpha=1\n$$\n\r\n所以 $C_1$ 的普通方程为 $\\dfrac{x^2}{3}+y^2=1$. 又由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，有\r\n\n$$\n\\rho\\sin\\left(\\theta+\\frac\\pi4\\right)=\\frac{x+y}{\\sqrt2}=2\\sqrt2\n$$\n\r\n所以 $C_2$ 的直角坐标方程为 $x+y=4$.\n\n(2) 对任意 $P=(x,y)\\in C_1$，由柯西不等式\r\n\n$$\n(x+y)^2=\\left(\\frac{x}{\\sqrt3}\\cdot\\sqrt3+y\\right)^2\\le\\left(\\frac{x^2}{3}+y^2\\right)(3+1)=4\n$$\n\r\n因此 $x+y\\le2$. 直线 $C_2$ 为 $x+y=4$，所以点 $P$ 到直线 $C_2$ 的距离满足\r\n\n$$\n|PQ|\\ge\\frac{4-(x+y)}{\\sqrt2}\\ge\\frac{2}{\\sqrt2}=\\sqrt2\n$$\n\r\n当且仅当柯西不等式取等号时，等号条件为\r\n\n$$\n\\frac{x}{\\sqrt3}:y=\\sqrt3:1\n$$\n\r\n结合 $\\dfrac{x^2}{3}+y^2=1$，得 $P=\\left(\\dfrac32,\\dfrac12\\right)$. 从该点向直线 $x+y=4$ 作垂线，垂足为 $Q=\\left(\\dfrac52,\\dfrac32\\right)$，此时 $|PQ|=\\sqrt2$. 故 $|PQ|$ 的最小值为 $\\sqrt2$，此时 $P$ 的坐标为 $\\left(\\dfrac32,\\dfrac12\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由参数方程消去参数 $\\alpha$，得</p>\n$$\n\\frac{x^{2}}{3}+y^{2}=\\cos^{2}\\alpha+\\sin^{2}\\alpha=1\n$$\n<p>所以 $C_{1}$ 的普通方程为 $\\dfrac{x^2}{3}+y^{2}=1$. 又由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$、$y=\\rho\\sin\\theta$，有</p>\n$$\n\\rho\\sin\\left(\\theta+\\frac{\\pi}{4}\\right)=\\frac{x+y}{\\sqrt{2}}=2\\sqrt{2}\n$$\n<p>所以 $C_{2}$ 的直角坐标方程为 $x+y=4$.</p></li><li><p>对任意 $P=(x,y)\\in C_{1}$，由柯西不等式</p>\n$$\n(x+y)^{2}=\\left(\\frac{x}{\\sqrt{3}}\\cdot\\sqrt{3}+y\\right)^{2}\\le\\left(\\frac{x^{2}}{3}+y^{2}\\right)(3+1)=4\n$$\n<p>因此 $x+y\\le2$. 直线 $C_{2}$ 为 $x+y=4$，所以点 $P$ 到直线 $C_{2}$ 的距离满足</p>\n$$\n|PQ|\\ge\\frac{4-(x+y)}{\\sqrt{2}}\\ge\\frac{2}{\\sqrt{2}}=\\sqrt{2}\n$$\n<p>当且仅当柯西不等式取等号时，等号条件为</p>\n$$\n\\frac{x}{\\sqrt{3}}:y=\\sqrt{3}:1\n$$\n<p>结合 $\\dfrac{x^2}{3}+y^{2}=1$，得 $P=\\left(\\dfrac{3}{2},\\dfrac{1}{2}\\right)$. 从该点向直线 $x+y=4$ 作垂线，垂足为 $Q=\\left(\\dfrac{5}{2},\\dfrac{3}{2}\\right)$，此时 $|PQ|=\\sqrt{2}$. 故 $|PQ|$ 的最小值为 $\\sqrt{2}$，此时 $P$ 的坐标为 $\\left(\\dfrac{3}{2},\\dfrac{1}{2}\\right)$.</p></li></ol>"
         },
         {
           "num": 24,
-          "body": "已知函数 $f(x)=|2x-a|+a$.\r\n\r\n\n(1) 当 $a=2$ 时，求不等式 $f(x)\\le6$ 的解集；\n\n(2) 设函数 $g(x)=|2x-1|$，当 $x\\in\\mathbb{R}$ 时，$f(x)+g(x)\\ge3$，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=|2x-a|+a$.</p><ol class=\"enumerate\"><li><p>当 $a=2$ 时，求不等式 $f(x)\\le6$ 的解集；</p></li><li><p>设函数 $g(x)=|2x-1|$，当 $x\\in\\mathbb{R}$ 时，$f(x)+g(x)\\ge3$，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $a=2$ 时，$f(x)=|2x-2|+2$. 不等式 $f(x)\\le6$ 等价于\r\n\n$$\n|2x-2|\\le4\n$$\n\r\n即 $-4\\le2x-2\\le4$. 解得 $-1\\le x\\le3$，所以解集为 $[-1,3]$.\n\n(2) 令 $t=2x$，则 $t\\in\\mathbb{R}$，题设条件等价于\r\n\n$$\n|t-a|+|t-1|+a\\ge3 \\text{对任意 }t\\in\\mathbb{R}\n$$\n\r\n两点 $a$、$1$ 到任意点 $t$ 的距离之和的最小值为 $|a-1|$，当 $t$ 位于 $a$ 与 $1$ 之间时取得. 因而题设等价于\r\n\n$$\na+|a-1|\\ge3\n$$\n\r\n当 $a<1$ 时，左端等于 $1<3$，不满足条件；当 $a\\ge1$ 时，左端等于 $2a-1$，故 $2a-1\\ge3$，即 $a\\ge2$. 所以 $a$ 的取值范围为 $[2,+\\infty)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，$f(x)=|2x-2|+2$. 不等式 $f(x)\\le6$ 等价于</p>\n$$\n|2x-2|\\le4\n$$\n<p>即 $-4\\le2x-2\\le4$. 解得 $-1\\le x\\le3$，所以解集为 $[-1,3]$.</p></li><li><p>令 $t=2x$，则 $t\\in\\mathbb{R}$，题设条件等价于</p>\n$$\n|t-a|+|t-1|+a\\ge3 \\text{对任意 }t\\in\\mathbb{R}\n$$\n<p>两点 $a$、$1$ 到任意点 $t$ 的距离之和的最小值为 $|a-1|$，当 $t$ 位于 $a$ 与 $1$ 之间时取得. 因而题设等价于</p>\n$$\na+|a-1|\\ge3\n$$\n<p>当 $a&#x3C;1$ 时，左端等于 $1&#x3C;3$，不满足条件；当 $a\\ge1$ 时，左端等于 $2a-1$，故 $2a-1\\ge3$，即 $a\\ge2$. 所以 $a$ 的取值范围为 $[2,+\\infty)$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

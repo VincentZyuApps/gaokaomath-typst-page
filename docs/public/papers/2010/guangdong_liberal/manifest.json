@@ -1,144 +1,15 @@
 {
+  "title": "2010年普通高等学校招生全国统一考试",
+  "subtitle": "2010年广东卷（文）",
   "year": "2010",
   "slug": "guangdong_liberal",
-  "title": "2010年广东卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "选考题：填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "选考题：填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若集合 $A = \\{0, 1, 2, 3\\}$，$B = \\{1, 2, 4\\}$，则集合 $A \\cup B =$（ ）",
+          "body": "若集合 $A = \\{0, 1, 2, 3\\}$，$B = \\{1, 2, 4\\}$，则集合 $A \\cup B =$（ ）",
           "choices": [
             "$\\{0, 1, 2, 3, 4\\}$",
             "$\\{1, 2, 3, 4\\}$",
@@ -146,13 +17,11 @@
             "$\\{0\\}$"
           ],
           "answer": "A",
-          "solution": "并集包含两个集合中的全部元素，因此\r\n$A\\cup B=\\{0,1,2,3,4\\}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>并集包含两个集合中的全部元素，因此</p><p>$A\\cup B=\\{0,1,2,3,4\\}$，故选 A.</p>"
         },
         {
           "num": 2,
-          "body": "函数 $f(x) = \\lg(x - 1)$ 的定义域是（ ）",
+          "body": "函数 $f(x) = \\lg(x - 1)$ 的定义域是（ ）",
           "choices": [
             "$(2, +\\infty)$",
             "$(1, +\\infty)$",
@@ -160,13 +29,11 @@
             "$[2, +\\infty)$"
           ],
           "answer": "B",
-          "solution": "对数的真数必须为正数，所以定义域满足 $x-1>0$，即 $x>1$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "对数的真数必须为正数，所以定义域满足 $x-1>0$，即 $x>1$，故选 B."
         },
         {
           "num": 3,
-          "body": "若函数 $f(x) = 3^x + 3^{-x}$ 与 $g(x) = 3^x - 3^{-x}$ 的定义域均为 $\\mathbb{R}$，则（ ）",
+          "body": "若函数 $f(x) = 3^{x} + 3^{-x}$ 与 $g(x) = 3^{x} - 3^{-x}$ 的定义域均为 $\\mathbb{R}$，则（ ）",
           "choices": [
             "$f(x)$ 与 $g(x)$ 均为偶函数",
             "$f(x)$ 为奇函数，$g(x)$ 为偶函数",
@@ -174,13 +41,11 @@
             "$f(x)$ 为偶函数，$g(x)$ 为奇函数"
           ],
           "answer": "D",
-          "solution": "$f(-x)=3^{-x}+3^x=f(x)$，所以 $f(x)$ 是偶函数；又\r\n$g(-x)=3^{-x}-3^x=-g(x)$，所以 $g(x)$ 是奇函数，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$f(-x)=3^{-x}+3^{x}=f(x)$，所以 $f(x)$ 是偶函数；又</p><p>$g(-x)=3^{-x}-3^{x}=-g(x)$，所以 $g(x)$ 是奇函数，故选 D.</p>"
         },
         {
           "num": 4,
-          "body": "已知数列 $\\{a_n\\}$ 为等比数列，$S_n$ 是它的前 $n$ 项和，若 $a_2 \\cdot a_3 = 2a_1$，且 $a_4$ 与 $2a_7$ 的等差中项为 $\\frac{5}{4}$，则 $S_5 =$（ ）",
+          "body": "已知数列 $\\{a_{n}\\}$ 为等比数列，$S_{n}$ 是它的前 $n$ 项和，若 $a_{2} \\cdot a_{3} = 2a_{1}$，且 $a_{4}$ 与 $2a_{7}$ 的等差中项为 $\\frac{5}{4}$，则 $S_{5} =$（ ）",
           "choices": [
             "$35$",
             "$33$",
@@ -188,13 +53,11 @@
             "$29$"
           ],
           "answer": "C",
-          "solution": "设等比数列的首项为 $a_1$，公比为 $q$. 由 $a_2a_3=2a_1$ 及第二个条件可知 $a_1\\ne0$，从而\r\n$a_1^2q^3=2a_1$，即 $a_1q^3=2$. 因此 $a_4=a_1q^3=2$，且\r\n$a_7=a_1q^6=(a_1q^3)q^3=2q^3=\\dfrac{4}{a_1}$. 由等差中项的定义，\r\n$\\dfrac{a_4+2a_7}{2}=\\dfrac54$，所以 $\\dfrac{2+\\frac{8}{a_1}}{2}=\\dfrac54$，解得 $a_1=16$. 于是 $q^3=\\dfrac18$，即 $q=\\dfrac12$，故\r\n$S_5=16\\dfrac{1-(\\frac{1}{2})^5}{1-\\frac{1}{2}}=31$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q$. 由 $a_{2}a_{3}=2a_{1}$ 及第二个条件可知 $a_{1}\\ne0$，从而</p><p>$a_{1}^{2}q^{3}=2a_{1}$，即 $a_{1}q^{3}=2$. 因此 $a_{4}=a_{1}q^{3}=2$，且</p><p>$a_{7}=a_{1}q^{6}=(a_{1}q^{3})q^{3}=2q^{3}=\\dfrac{4}{a_1}$. 由等差中项的定义，</p><p>$\\dfrac{a_4+2a_7}{2}=\\dfrac{5}{4}$，所以 $\\dfrac{2+\\frac{8}{a_{1}}}{2}=\\dfrac{5}{4}$，解得 $a_{1}=16$. 于是 $q^{3}=\\dfrac{1}{8}$，即 $q=\\dfrac{1}{2}$，故</p><p>$S_{5}=16\\dfrac{1-(\\frac{1}{2})^5}{1-\\frac{1}{2}}=31$，故选 C.</p>"
         },
         {
           "num": 5,
-          "body": "若向量 $\\mathbf{a} = (1, 1)$，$\\mathbf{b} = (2, 5)$，$\\mathbf{c} = (3, x)$ 满足条件 $\\left(8\\mathbf{a} - \\mathbf{b}\\right) \\cdot \\mathbf{c} = 30$，则 $x =$（ ）",
+          "body": "若向量 $\\mathbf{a}= (1, 1)$，$\\mathbf{b}= (2, 5)$，$\\mathbf{c}= (3, x)$ 满足条件 $\\left(8\\mathbf{a}- \\mathbf{b}\\right) \\cdot \\mathbf{c}= 30$，则 $x =$（ ）",
           "choices": [
             "$6$",
             "$5$",
@@ -202,27 +65,23 @@
             "$3$"
           ],
           "answer": "C",
-          "solution": "$8\\mathbf{a}-\\mathbf{b}=(8,8)-(2,5)=(6,3)$. 由数量积条件，\r\n$(8\\mathbf{a}-\\mathbf{b})\\cdot\\mathbf{c}=(6,3)\\cdot(3,x)=18+3x=30$，所以 $x=4$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$8\\mathbf{a}-\\mathbf{b}=(8,8)-(2,5)=(6,3)$. 由数量积条件，</p><p>$(8\\mathbf{a}-\\mathbf{b})\\cdot\\mathbf{c}=(6,3)\\cdot(3,x)=18+3x=30$，所以 $x=4$，故选 C.</p>"
         },
         {
           "num": 6,
-          "body": "若圆心在 $x$ 轴上，半径为 $\\sqrt{5}$ 的圆 $O$ 位于 $y$ 轴左侧，且与直线 $x + 2y = 0$ 相切，则圆 $O$ 的方程是（ ）",
+          "body": "若圆心在 $x$ 轴上，半径为 $\\sqrt{5}$ 的圆 $O$ 位于 $y$ 轴左侧，且与直线 $x + 2y = 0$ 相切，则圆 $O$ 的方程是（ ）",
           "choices": [
-            "$\\left(x - \\sqrt{5}\\right)^2 + y^2 = 5$",
-            "$\\left(x + \\sqrt{5}\\right)^2 + y^2 = 5$",
-            "$(x - 5)^2 + y^2 = 5$",
-            "$(x + 5)^2 + y^2 = 5$"
+            "$\\left(x - \\sqrt{5}\\right)^{2} + y^{2} = 5$",
+            "$\\left(x + \\sqrt{5}\\right)^{2} + y^{2} = 5$",
+            "$(x - 5)^{2} + y^{2} = 5$",
+            "$(x + 5)^{2} + y^{2} = 5$"
           ],
           "answer": "D",
-          "solution": "设圆心为 $O(h,0)$. 因圆位于 $y$ 轴左侧，$h<0$. 圆心到切线 $x+2y=0$ 的距离等于半径，故\r\n$\\dfrac{|h|}{\\sqrt5}=\\sqrt5$，从而 $|h|=5$，结合 $h<0$ 得 $h=-5$. 所以圆的方程为\r\n$(x+5)^2+y^2=5$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设圆心为 $O(h,0)$. 因圆位于 $y$ 轴左侧，$h&#x3C;0$. 圆心到切线 $x+2y=0$ 的距离等于半径，故</p><p>$\\dfrac{|h|}{\\sqrt{5}}=\\sqrt{5}$，从而 $|h|=5$，结合 $h&#x3C;0$ 得 $h=-5$. 所以圆的方程为</p><p>$(x+5)^{2}+y^{2}=5$，故选 D.</p>"
         },
         {
           "num": 7,
-          "body": "若一个椭圆长轴的长度，短轴的长度和焦距成等差数列，则该椭圆的离心率是（ ）",
+          "body": "若一个椭圆长轴的长度，短轴的长度和焦距成等差数列，则该椭圆的离心率是（ ）",
           "choices": [
             "$\\frac{4}{5}$",
             "$\\frac{3}{5}$",
@@ -230,13 +89,11 @@
             "$\\frac{1}{5}$"
           ],
           "answer": "B",
-          "solution": "设椭圆的半长轴、半短轴和半焦距分别为 $a$，$b$，$c$，则长轴长度、短轴长度和焦距分别为 $2a$，$2b$，$2c$，且 $a^2=b^2+c^2$. 由题意\r\n$2a+2c=4b$，即 $a+c=2b$. 令离心率 $e=\\dfrac ca$，则 $b=a\\sqrt{1-e^2}$，所以\r\n$1+e=2\\sqrt{1-e^2}$. 因为 $0<e<1$，平方并整理得 $5e^2+2e-3=0$，故 $e=\\dfrac35$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设椭圆的半长轴、半短轴和半焦距分别为 $a$，$b$，$c$，则长轴长度、短轴长度和焦距分别为 $2a$，$2b$，$2c$，且 $a^{2}=b^{2}+c^{2}$. 由题意</p><p>$2a+2c=4b$，即 $a+c=2b$. 令离心率 $e=\\dfrac{c}{a}$，则 $b=a\\sqrt{1-e^{2}}$，所以</p><p>$1+e=2\\sqrt{1-e^{2}}$. 因为 $0&#x3C;e&#x3C;1$，平方并整理得 $5e^{2}+2e-3=0$，故 $e=\\dfrac{3}{5}$，选 B.</p>"
         },
         {
           "num": 8,
-          "body": "“$x > 0$”是“$\\sqrt[3]{x^2} > 0$”的（ ）",
+          "body": "“$x > 0$”是“$\\sqrt[3]{x^{2}}> 0$”的（ ）",
           "choices": [
             "充分非必要条件",
             "必要非充分条件",
@@ -244,27 +101,23 @@
             "充要条件"
           ],
           "answer": "A",
-          "solution": "当 $x>0$ 时，$x^2>0$，所以 $\\sqrt[3]{x^2}>0$. 反过来，$\\sqrt[3]{x^2}>0$ 只要求 $x\\ne0$，例如 $x=-1$ 时也成立，不能推出 $x>0$. 因此“$x>0$”是“$\\sqrt[3]{x^2}>0$”的充分非必要条件，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "当 $x>0$ 时，$x^{2}>0$，所以 $\\sqrt[3]{x^{2}}>0$. 反过来，$\\sqrt[3]{x^{2}}>0$ 只要求 $x\\ne0$，例如 $x=-1$ 时也成立，不能推出 $x>0$. 因此“$x>0$”是“$\\sqrt[3]{x^{2}}>0$”的充分非必要条件，故选 A."
         },
         {
           "num": 9,
-          "body": "如图，$\\triangle ABC$ 为正三角形，$AA' \\parallel BB' \\parallel CC'$，$CC' \\perp$ 平面 $ABC$，且 $3AA' = \\frac{3}{2} BB' = CC' = AB$，则多面体 $ABC - A'B'C'$ 的正视图（也称主视图）是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，$\\triangle ABC$ 为正三角形，$AA' \\parallel BB' \\parallel CC'$，$CC' \\perp$ 平面 $ABC$，且 $3AA' = \\frac{3}{2}BB' = CC' = AB$，则多面体 $ABC - A'B'C'$ 的正视图（也称主视图）是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q6_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q6_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q6_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q6_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong_liberal/q6_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong_liberal/q6_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong_liberal/q6_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/guangdong_liberal/q6_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "由题图，$CC'\\perp$ 平面 $ABC$，且 $AA'\\parallel BB'\\parallel CC'$，所以三条侧棱均垂直于底面. 设 $AB=a$，由\r\n$3AA'=\\dfrac32BB'=CC'=a$ 得\r\n$AA'=\\dfrac a3$，$BB'=\\dfrac{2a}{3}$，$CC'=a$. 在正投影方向下，点 $C$ 的水平投影位于 $AB$ 的中点，故正视图中从左到右三个顶点的高度依次为 $\\dfrac a3$，$a$，$\\dfrac{2a}{3}$；$A'B'$ 是可见的内部棱，$C'C$ 为隐藏的竖棱. 这种轮廓和虚线位置与选项 D 相符，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由题图，$CC'\\perp$ 平面 $ABC$，且 $AA'\\parallel BB'\\parallel CC'$，所以三条侧棱均垂直于底面. 设 $AB=a$，由</p><p>$3AA'=\\dfrac{3}{2}BB'=CC'=a$ 得</p><p>$AA'=\\dfrac{a}{3}$，$BB'=\\dfrac{2a}{3}$，$CC'=a$. 在正投影方向下，点 $C$ 的水平投影位于 $AB$ 的中点，故正视图中从左到右三个顶点的高度依次为 $\\dfrac{a}{3}$，$a$，$\\dfrac{2a}{3}$；$A'B'$ 是可见的内部棱，$C'C$ 为隐藏的竖棱. 这种轮廓和虚线位置与选项 D 相符，故选 D.</p>"
         },
         {
           "num": 10,
-          "body": "在集合 $\\{a, b, c, d\\}$ 上定义两种运算 $\\oplus$ 和 $\\otimes$ 如下：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c@{\\qquad}c}\r\n\\begin{tabular}{c|cccc}\r\n$\\oplus$ & $a$ & $b$ & $c$ & $d$ \\\\\r\n\\hline\r\n$a$ & $a$ & $b$ & $c$ & $d$ \\\\\r\n$b$ & $b$ & $b$ & $b$ & $b$ \\\\\r\n$c$ & $c$ & $b$ & $c$ & $b$ \\\\\r\n$d$ & $d$ & $b$ & $b$ & $d$\r\n\\end{tabular}\r\n&\r\n\\begin{tabular}{c|cccc}\r\n$\\otimes$ & $a$ & $b$ & $c$ & $d$ \\\\\r\n\\hline\r\n$a$ & $a$ & $a$ & $a$ & $a$ \\\\\r\n$b$ & $a$ & $b$ & $c$ & $d$ \\\\\r\n$c$ & $a$ & $c$ & $c$ & $a$ \\\\\r\n$d$ & $a$ & $d$ & $a$ & $d$\r\n\\end{tabular}\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n那么 $d \\otimes (a \\oplus c) =$（ ）",
+          "body": "<p>在集合 $\\{a, b, c, d\\}$ 上定义两种运算 $\\oplus$ 和 $\\otimes$ 如下：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\oplus$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $d$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$a$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $d$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$b$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $b$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$c$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $b$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$d$ </td><td style=\"text-align: center\"> $d$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $d$</td></tr></tbody></table><br></td><td style=\"text-align: center\"><br><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\otimes$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $d$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$a$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $a$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$b$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $b$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $d$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$c$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $c$ </td><td style=\"text-align: center\"> $a$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$d$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $d$ </td><td style=\"text-align: center\"> $a$ </td><td style=\"text-align: center\"> $d$</td></tr></tbody></table></td></tr></tbody></table></center><p>那么 $d \\otimes (a \\oplus c) =$（ ）</p>",
           "choices": [
             "$a$",
             "$b$",
@@ -272,9 +125,7 @@
             "$d$"
           ],
           "answer": "A",
-          "solution": "由第一个运算表，$a\\oplus c=c$. 再由第二个运算表查得 $d\\otimes c=a$，所以\r\n$d\\otimes(a\\oplus c)=a$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由第一个运算表，$a\\oplus c=c$. 再由第二个运算表查得 $d\\otimes c=a$，所以</p><p>$d\\otimes(a\\oplus c)=a$，故选 A.</p>"
         }
       ]
     },
@@ -283,30 +134,24 @@
       "problems": [
         {
           "num": 11,
-          "body": "某城市缺水问题比较突出，为了制定节水管理办法，对全市居民某年的月均用水量进行了抽样调查，其中 4 位居民的月均用水量分别为 $x_1$，$\\cdots$，$x_4$（单位：吨）. 根据如图所示的程序框图，若 $x_1$，$x_2$，$x_3$，$x_4$ 分别为 1， 1.5， 1.5， 2，则输出的结果 $s$ 为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(1.5\\)",
-          "solution": "框图先令 $s_1=0$，从 $i=1$ 开始，在 $i\\le4$ 时把 $x_i$ 加入 $s_1$，再令 $s=\\dfrac1i s_1$. 因此逐步得到\r\n$s_1=1$，$s=1$；$s_1=2.5$，$s=1.25$；$s_1=4$，$s=\\dfrac43$；$s_1=6$，$s=1.5$. 此时 $i=5>4$，输出 $s=1.5$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>某城市缺水问题比较突出，为了制定节水管理办法，对全市居民某年的月均用水量进行了抽样调查，其中 4 位居民的月均用水量分别为 $x_{1}$，$\\cdots$，$x_{4}$（单位：吨）. 根据如图所示的程序框图，若 $x_{1}$，$x_{2}$，$x_{3}$，$x_{4}$ 分别为 1， 1.5， 1.5， 2，则输出的结果 $s$ 为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$1.5$",
+          "solution": "<p>框图先令 $s_{1}=0$，从 $i=1$ 开始，在 $i\\le4$ 时把 $x_{i}$ 加入 $s_{1}$，再令 $s=\\dfrac{1}{i}s_{1}$. 因此逐步得到</p><p>$s_{1}=1$，$s=1$；$s_{1}=2.5$，$s=1.25$；$s_{1}=4$，$s=\\dfrac{4}{3}$；$s_{1}=6$，$s=1.5$. 此时 $i=5>4$，输出 $s=1.5$.</p>"
         },
         {
           "num": 12,
-          "body": "某市居民 2005--2009 年家庭年平均收入 $x$（单位：万元）与年平均支出 $Y$（单位：万元）的统计资料如下表所示：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n年份 & 2005 & 2006 & 2007 & 2008 & 2009 \\\\\r\n\\hline\r\n收入 $x$ & 11.5 & 12.1 & 13 & 13.3 & 15 \\\\\r\n支出 $Y$ & 6.8 & 8.8 & 9.8 & 10 & 12\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n根据统计资料，居民家庭年平均收入的中位数是 _______ {}，家庭年平均收入与年平均支出有 _______ {}（填“正”或“负”）线性相关关系.",
-          "choices": [],
-          "answer": "\\(13\\)，正",
-          "solution": "收入数据已经按从小到大排列为 $11.5$，$12.1$，$13$，$13.3$，$15$，共有 5 个数据，所以中位数为中间的数 $13$. 进一步，$\\bar x=12.98$，$\\bar Y=9.48$，并且\r\n$\\sum_{i=1}^5(x_i-\\bar x)(Y_i-\\bar Y)=(-1.48)(-2.68)+(-0.88)(-0.68)+(0.02)(0.32)+(0.32)(0.52)+(2.02)(2.52)=9.828>0$. 协方差为正，说明收入与支出具有正线性相关关系.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>某市居民 2005–2009 年家庭年平均收入 $x$（单位：万元）与年平均支出 $Y$（单位：万元）的统计资料如下表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">年份 </td><td style=\"text-align: center\"> 2005 </td><td style=\"text-align: center\"> 2006 </td><td style=\"text-align: center\"> 2007 </td><td style=\"text-align: center\"> 2008 </td><td style=\"text-align: center\"> 2009 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>收入 $x$ </td><td style=\"text-align: center\"> 11.5 </td><td style=\"text-align: center\"> 12.1 </td><td style=\"text-align: center\"> 13 </td><td style=\"text-align: center\"> 13.3 </td><td style=\"text-align: center\"> 15 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>支出 $Y$ </td><td style=\"text-align: center\"> 6.8 </td><td style=\"text-align: center\"> 8.8 </td><td style=\"text-align: center\"> 9.8 </td><td style=\"text-align: center\"> 10 </td><td style=\"text-align: center\"> 12</td></tr></tbody></table></center><p>根据统计资料，居民家庭年平均收入的中位数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>，家庭年平均收入与年平均支出有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（填“正”或“负”）线性相关关系.</p>",
+          "choices": null,
+          "answer": "$13$，正",
+          "solution": "<p>收入数据已经按从小到大排列为 $11.5$，$12.1$，$13$，$13.3$，$15$，共有 5 个数据，所以中位数为中间的数 $13$. 进一步，$\\bar x=12.98$，$\\bar Y=9.48$，并且</p><p>$\\sum_{i=1}^{5}(x_{i}-\\bar x)(Y_{i}-\\bar Y)=(-1.48)(-2.68)+(-0.88)(-0.68)+(0.02)(0.32)+(0.32)(0.52)+(2.02)(2.52)=9.828>0$. 协方差为正，说明收入与支出具有正线性相关关系.</p>"
         },
         {
           "num": 13,
-          "body": "已知 $a$，$b$，$c$ 分别是 $\\triangle ABC$ 的三个内角 $A$，$B$，$C$ 所对的边. 若 $a = 1$，$b = \\sqrt{3}$，$A + C = 2B$，则 $\\sin A =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{1}{2}\\)",
-          "solution": "三角形内角和给出 $A+B+C=\\pi$. 结合 $A+C=2B$，得 $3B=\\pi$，所以 $B=\\dfrac\\pi3$. 由正弦定理，\r\n$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$，故\r\n$\\sin A=\\dfrac{a}{b}\\sin B=\\dfrac1{\\sqrt3}\\cdot\\dfrac{\\sqrt3}{2}=\\dfrac12$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $a$，$b$，$c$ 分别是 $\\triangle ABC$ 的三个内角 $A$，$B$，$C$ 所对的边. 若 $a = 1$，$b = \\sqrt{3}$，$A + C = 2B$，则 $\\sin A =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{1}{2}$",
+          "solution": "<p>三角形内角和给出 $A+B+C=\\pi$. 结合 $A+C=2B$，得 $3B=\\pi$，所以 $B=\\dfrac\\pi3$. 由正弦定理，</p><p>$\\dfrac{a}{\\sin A}=\\dfrac{b}{\\sin B}$，故</p><p>$\\sin A=\\dfrac{a}{b}\\sin B=\\dfrac1{\\sqrt{3}}\\cdot\\dfrac{\\sqrt{3}}{2}=\\dfrac{1}{2}$.</p>"
         }
       ]
     },
@@ -315,21 +160,17 @@
       "problems": [
         {
           "num": 14,
-          "body": "如图，在直角梯形 $ABCD$ 中，$DC \\parallel AB$，$CB \\perp AB$，$AB = AD = a$，$CD = \\frac{a}{2}$，点 $E$，$F$ 分别为线段 $AB$，$AD$ 的中点，则 $EF =$ _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac{a}{2}\\)",
-          "solution": "取 $A(0,0)$，$B(a,0)$. 因为 $CB\\perp AB$，设 $C(a,h)$；又因 $DC\\parallel AB$ 且 $CD=\\dfrac a2$，按梯形顶点顺序可设 $D(\\dfrac a2,h)$. 由 $AD=a$ 得\r\n$\\dfrac{a^2}{4}+h^2=a^2$，所以 $h=\\dfrac{\\sqrt3}{2}a$. 因而\r\n$E(\\dfrac a2,0)$，$F(\\dfrac a4,\\dfrac{\\sqrt3}{4}a)$，从而\r\n$EF=\\sqrt{\\left(\\dfrac a4\\right)^2+\\left(\\dfrac{\\sqrt3}{4}a\\right)^2}=\\dfrac a2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，在直角梯形 $ABCD$ 中，$DC \\parallel AB$，$CB \\perp AB$，$AB = AD = a$，$CD = \\frac{a}{2}$，点 $E$，$F$ 分别为线段 $AB$，$AD$ 的中点，则 $EF =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{a}{2}$",
+          "solution": "<p>取 $A(0,0)$，$B(a,0)$. 因为 $CB\\perp AB$，设 $C(a,h)$；又因 $DC\\parallel AB$ 且 $CD=\\dfrac{a}{2}$，按梯形顶点顺序可设 $D(\\dfrac{a}{2},h)$. 由 $AD=a$ 得</p><p>$\\dfrac{a^2}{4}+h^{2}=a^{2}$，所以 $h=\\dfrac{\\sqrt{3}}{2}a$. 因而</p><p>$E(\\dfrac{a}{2},0)$，$F(\\dfrac{a}{4},\\dfrac{\\sqrt{3}}{4}a)$，从而</p><p>$EF=\\sqrt{\\left(\\dfrac{a}{4}\\right)^{2}+\\left(\\dfrac{\\sqrt{3}}{4}a\\right)^{2}}=\\dfrac{a}{2}$.</p>"
         },
         {
           "num": 15,
-          "body": "在极坐标系 $(\\rho, \\theta)$（$0 \\le \\theta < 2\\pi$）中，曲线 $\\rho(\\cos \\theta + \\sin \\theta) = 1$ 与 $\\rho(\\sin \\theta - \\cos \\theta) = 1$ 的交点的极坐标为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left(1, \\frac{\\pi}{2}\\right)\\)",
-          "solution": "两式相加、相减分别得到 $2\\rho\\sin\\theta=2$ 和 $2\\rho\\cos\\theta=0$. 因 $\\rho\\sin\\theta=1$，有 $\\rho\\ne0$，所以 $\\cos\\theta=0$. 在 $0\\le\\theta<2\\pi$ 内，候选角为 $\\dfrac\\pi2$ 和 $\\dfrac{3\\pi}{2}$. 由 $\\rho\\sin\\theta=1$ 及极坐标中 $\\rho\\ge0$，只有 $\\theta=\\dfrac\\pi2$，且 $\\rho=1$. 故交点的极坐标为 $\\left(1,\\dfrac\\pi2\\right)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在极坐标系 $(\\rho, \\theta)$（$0 \\le \\theta &#x3C; 2\\pi$）中，曲线 $\\rho(\\cos \\theta + \\sin \\theta) = 1$ 与 $\\rho(\\sin \\theta - \\cos \\theta) = 1$ 的交点的极坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left(1, \\frac{\\pi}{2}\\right)$",
+          "solution": "两式相加、相减分别得到 $2\\rho\\sin\\theta=2$ 和 $2\\rho\\cos\\theta=0$. 因 $\\rho\\sin\\theta=1$，有 $\\rho\\ne0$，所以 $\\cos\\theta=0$. 在 $0\\le\\theta&#x3C;2\\pi$ 内，候选角为 $\\dfrac\\pi2$ 和 $\\dfrac{3\\pi}{2}$. 由 $\\rho\\sin\\theta=1$ 及极坐标中 $\\rho\\ge0$，只有 $\\theta=\\dfrac\\pi2$，且 $\\rho=1$. 故交点的极坐标为 $\\left(1,\\dfrac\\pi2\\right)$."
         }
       ]
     },
@@ -338,60 +179,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "设函数 $f(x) = 3\\sin \\left(\\omega x + \\frac{\\pi}{6}\\right)$（$\\omega > 0$，$x \\in (-\\infty, +\\infty)$），且以 $\\frac{\\pi}{2}$ 为最小正周期.\r\n\r\n\n(1) 求 $f(0)$；\n\n(2) 求 $f(x)$ 的解析式；\n\n(3) 已知 $f\\left(\\frac{\\alpha}{4} + \\frac{\\pi}{12}\\right) = \\frac{9}{5}$，求 $\\sin \\alpha$ 的值.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = 3\\sin \\left(\\omega x + \\frac{\\pi}{6}\\right)$（$\\omega > 0$，$x \\in (-\\infty, +\\infty)$），且以 $\\frac{\\pi}{2}$ 为最小正周期.</p><ol class=\"enumerate\"><li><p>求 $f(0)$；</p></li><li><p>求 $f(x)$ 的解析式；</p></li><li><p>已知 $f\\left(\\frac{\\alpha}{4}+ \\frac{\\pi}{12}\\right) = \\frac{9}{5}$，求 $\\sin \\alpha$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 正弦函数的最小正周期为 $2\\pi$，所以 $f(x)$ 的最小正周期为 $\\dfrac{2\\pi}{\\omega}$. 由题意 $\\dfrac{2\\pi}{\\omega}=\\dfrac\\pi2$，得 $\\omega=4$，从而 $f(0)=3\\sin\\dfrac\\pi6=\\dfrac32$.\n\n(2) 由上面的 $\\omega=4$，得 $f(x)=3\\sin\\left(4x+\\dfrac\\pi6\\right)$.\n\n(3) 代入已知条件，得\r\n$3\\sin\\left(4\\left(\\dfrac\\alpha4+\\dfrac\\pi{12}\\right)+\\dfrac\\pi6\\right)=\\dfrac95$，即 $3\\sin\\left(\\alpha+\\dfrac\\pi2\\right)=\\dfrac95$. 因为 $\\sin(\\alpha+\\dfrac\\pi2)=\\cos\\alpha$，所以 $\\cos\\alpha=\\dfrac35$，从而 $\\sin^2\\alpha=1-\\dfrac9{25}=\\dfrac{16}{25}$，故 $\\sin\\alpha=\\pm\\dfrac45$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>正弦函数的最小正周期为 $2\\pi$，所以 $f(x)$ 的最小正周期为 $\\dfrac{2\\pi}{\\omega}$. 由题意 $\\dfrac{2\\pi}{\\omega}=\\dfrac\\pi2$，得 $\\omega=4$，从而 $f(0)=3\\sin\\dfrac\\pi6=\\dfrac{3}{2}$.</p></li><li><p>由上面的 $\\omega=4$，得 $f(x)=3\\sin\\left(4x+\\dfrac\\pi6\\right)$.</p></li><li><p>代入已知条件，得</p><p>$3\\sin\\left(4\\left(\\dfrac\\alpha4+\\dfrac\\pi{12}\\right)+\\dfrac\\pi6\\right)=\\dfrac{9}{5}$，即 $3\\sin\\left(\\alpha+\\dfrac\\pi2\\right)=\\dfrac{9}{5}$. 因为 $\\sin(\\alpha+\\dfrac\\pi2)=\\cos\\alpha$，所以 $\\cos\\alpha=\\dfrac{3}{5}$，从而 $\\sin^{2}\\alpha=1-\\dfrac9{25}=\\dfrac{16}{25}$，故 $\\sin\\alpha=\\pm\\dfrac{4}{5}$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "某电视台在一次对收看文艺节目和新闻节目观众的抽样调查中，随机抽取了 100 名电视观众，相关的数据如下表所示：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n & 文艺节目 & 新闻节目 & 总计 \\\\\r\n\\hline\r\n$20$ 到 $40$ 岁 & 40 & 18 & 58 \\\\\r\n大于 $40$ 岁 & 15 & 27 & 42 \\\\\r\n\\hline\r\n总计 & 55 & 45 & 100\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 由表中数据直观分析，收看新闻节目的观众是否与年龄有关？\n\n(2) 用分层抽样方法在收看新闻节目的观众中随机抽取 5 名，大于 $40$ 岁的观众应该抽取几名？\n\n(3) 在上述抽取的 5 名观众中任取 2 名，求恰有 1 名观众的年龄为 $20$ 至 $40$ 岁的概率.",
-          "choices": [],
+          "body": "<p>某电视台在一次对收看文艺节目和新闻节目观众的抽样调查中，随机抽取了 100 名电视观众，相关的数据如下表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"></td><td style=\"text-align: center\"> 文艺节目 </td><td style=\"text-align: center\"> 新闻节目 </td><td style=\"text-align: center\"> 总计 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$20$ 到 $40$ 岁 </td><td style=\"text-align: center\"> 40 </td><td style=\"text-align: center\"> 18 </td><td style=\"text-align: center\"> 58 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>大于 $40$ 岁 </td><td style=\"text-align: center\"> 15 </td><td style=\"text-align: center\"> 27 </td><td style=\"text-align: center\"> 42 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>总计 </td><td style=\"text-align: center\"> 55 </td><td style=\"text-align: center\"> 45 </td><td style=\"text-align: center\"> 100</td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>由表中数据直观分析，收看新闻节目的观众是否与年龄有关？</p></li><li><p>用分层抽样方法在收看新闻节目的观众中随机抽取 5 名，大于 $40$ 岁的观众应该抽取几名？</p></li><li><p>在上述抽取的 5 名观众中任取 2 名，求恰有 1 名观众的年龄为 $20$ 至 $40$ 岁的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 在 20 至 40 岁观众中收看新闻节目的比例为 $\\dfrac{18}{58}=\\dfrac9{29}$，在大于 40 岁观众中收看新闻节目的比例为 $\\dfrac{27}{42}=\\dfrac9{14}$. 两个比例不同，所以收看新闻节目与年龄有关.\n\n(2) 收看新闻节目的观众共有 45 人，其中大于 40 岁的有 27 人. 按年龄分层抽取 5 人，应抽取 $5\\times\\dfrac{27}{45}=3$ 名大于 40 岁的观众.\n\n(3) 上述 5 人中有 2 名年龄为 20 至 40 岁，有 3 名大于 40 岁. 任取 2 人，恰有 1 名年龄为 20 至 40 岁的概率为\r\n$\\dfrac{\\mathrm C_2^1\\mathrm C_3^1}{\\mathrm C_5^2}=\\dfrac35$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>在 20 至 40 岁观众中收看新闻节目的比例为 $\\dfrac{18}{58}=\\dfrac9{29}$，在大于 40 岁观众中收看新闻节目的比例为 $\\dfrac{27}{42}=\\dfrac9{14}$. 两个比例不同，所以收看新闻节目与年龄有关.</p></li><li><p>收看新闻节目的观众共有 45 人，其中大于 40 岁的有 27 人. 按年龄分层抽取 5 人，应抽取 $5\\times\\dfrac{27}{45}=3$ 名大于 40 岁的观众.</p></li><li><p>上述 5 人中有 2 名年龄为 20 至 40 岁，有 3 名大于 40 岁. 任取 2 人，恰有 1 名年龄为 20 至 40 岁的概率为</p><p>$\\dfrac{\\mathrm{C}_2^1\\mathrm{C}_3^1}{\\mathrm{C}_5^2}=\\dfrac{3}{5}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，$\\widehat{AEC}$ 是半径为 $a$ 的半圆，$AC$ 为直径，点 $E$ 为 $\\widehat{AC}$ 的中点，点 $B$ 和点 $C$ 为线段 $AD$ 的三等分点，平面 $AEC$ 外一点 $F$ 满足 $FC \\perp$ 平面 $BED$，$FB = \\sqrt{5}a$.\r\n\r\n\n(1) 证明：$EB \\perp FD$；\n\n(2) 求点 $B$ 到平面 $FED$ 的距离.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/guangdong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，$\\widehat{AEC}$ 是半径为 $a$ 的半圆，$AC$ 为直径，点 $E$ 为 $\\widehat{AC}$ 的中点，点 $B$ 和点 $C$ 为线段 $AD$ 的三等分点，平面 $AEC$ 外一点 $F$ 满足 $FC \\perp$ 平面 $BED$，$FB = \\sqrt{5}a$.</p><ol class=\"enumerate\"><li><p>证明：$EB \\perp FD$；</p></li><li><p>求点 $B$ 到平面 $FED$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/guangdong_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取平面 $AEC$ 为 $z=0$，令 $A=(0,0,0)$，$C=(2a,0,0)$，$E=(a,a,0)$. 因 $B$，$C$ 是线段 $AD$ 的三等分点，且 $AC=2a$，有 $AB=BC=CD=a$，故 $B=(a,0,0)$，$D=(3a,0,0)$. 由于 $A$，$B$，$C$，$D$ 共线且 $E$ 不在直线 $AC$ 上，平面 $BED$ 就是平面 $AEC$. 又因为 $FC\\perp$ 平面 $BED$，可令 $F=(2a,0,h)$. 由 $FB=\\sqrt5a$，得 $a^2+h^2=5a^2$，所以 $|h|=2a$，取 $h=2a$. 于是 $\\overrightarrow{EB}=(0,-a,0)$，$\\overrightarrow{FD}=(a,0,-2a)$，从而 $\\overrightarrow{EB}\\cdot\\overrightarrow{FD}=0$，故 $EB\\perp FD$.\n\n(2) 由 $\\overrightarrow{ED}=(2a,-a,0)$，$\\overrightarrow{EF}=(a,-a,2a)$，可取平面 $FED$ 的一个法向量为 $(2,4,1)$. 因此平面 $FED$ 的方程为 $2x+4y+z=6a$. 点 $B=(a,0,0)$ 到该平面的距离为\r\n$\\dfrac{|2a-6a|}{\\sqrt{2^2+4^2+1^2}}=\\dfrac{4a}{\\sqrt{21}}=\\dfrac{4\\sqrt{21}}{21}a$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取平面 $AEC$ 为 $z=0$，令 $A=(0,0,0)$，$C=(2a,0,0)$，$E=(a,a,0)$. 因 $B$，$C$ 是线段 $AD$ 的三等分点，且 $AC=2a$，有 $AB=BC=CD=a$，故 $B=(a,0,0)$，$D=(3a,0,0)$. 由于 $A$，$B$，$C$，$D$ 共线且 $E$ 不在直线 $AC$ 上，平面 $BED$ 就是平面 $AEC$. 又因为 $FC\\perp$ 平面 $BED$，可令 $F=(2a,0,h)$. 由 $FB=\\sqrt{5}a$，得 $a^{2}+h^{2}=5a^{2}$，所以 $|h|=2a$，取 $h=2a$. 于是 $\\overrightarrow{EB}=(0,-a,0)$，$\\overrightarrow{FD}=(a,0,-2a)$，从而 $\\overrightarrow{EB}\\cdot\\overrightarrow{FD}=0$，故 $EB\\perp FD$.</p></li><li><p>由 $\\overrightarrow{ED}=(2a,-a,0)$，$\\overrightarrow{EF}=(a,-a,2a)$，可取平面 $FED$ 的一个法向量为 $(2,4,1)$. 因此平面 $FED$ 的方程为 $2x+4y+z=6a$. 点 $B=(a,0,0)$ 到该平面的距离为</p><p>$\\dfrac{|2a-6a|}{\\sqrt{2^{2}+4^{2}+1^{2}}}=\\dfrac{4a}{\\sqrt{21}}=\\dfrac{4\\sqrt{21}}{21}a$.</p></li></ol>"
         },
         {
           "num": 19,
           "body": "某营养师要为某个儿童预定午餐和晚餐. 已知一个单位的午餐含 12 个单位的碳水化合物，6 个单位的蛋白质和 6 个单位的维生素 $C$；一个单位的晚餐含 8 个单位的碳水化合物，6 个单位的蛋白质和 10 个单位的维生素 $C$. 另外，该儿童这两餐需要的营养中至少含 64 个单位的碳水化合物，42 个单位的蛋白质和 54 个单位的维生素 $C$. 如果一个单位的午餐，晚餐的费用分别是 $2.5\\text{ 元}$ 和 $4\\text{ 元}$，那么要满足上述的营养要求，并且花费最少，应当为该儿童分别预订多少个单位的午餐和晚餐？",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设午餐和晚餐分别预订 $x$ 和 $y$ 个单位，则 $x$，$y\\ge0$，营养约束为\r\n\n$$\n\\begin{cases}\r\n12x+8y\\ge64,\\\\\r\n6x+6y\\ge42,\\\\\r\n6x+10y\\ge54.\r\n\\end{cases}\n$$\n\r\n费用为 $C=2.5x+4y$. 将约束分别化为 $3x+2y\\ge16$，$x+y\\ge7$，$3x+5y\\ge27$. 在 $x=0$ 时，约束要求 $y\\ge8$，得到边界顶点 $(0,8)$；在 $y=0$ 时，约束要求 $x\\ge9$，得到边界顶点 $(9,0)$. 两条相邻边界的交点满足\r\n\n$$\n\\begin{cases}\r\n3x+2y=16,\\\\\r\nx+y=7,\r\n\\end{cases}\n$$\n\r\n解得 $(x,y)=(2,5)$，满足第三个约束；满足后两个等式的交点满足\r\n\n$$\n\\begin{cases}\r\nx+y=7,\\\\\r\n3x+5y=27,\r\n\\end{cases}\n$$\n\r\n解得 $(x,y)=(4,3)$，满足第一个约束. 第一个和第三个等式的交点为 $(\\frac{26}{9},\\frac{11}{3})$，但此时 $x+y=\\frac{59}{9}<7$，不在可行域内. 因而可行域的边界顶点为 $(0,8)$，$(2,5)$，$(4,3)$，$(9,0)$. 在这些顶点处，费用依次为 $32$，$25$，$22$，$22.5$. 因费用函数在可行域上的最小值必在顶点取得，故最少费用在 $(x,y)=(4,3)$ 处取得. 应分别预订 4 个单位的午餐和 3 个单位的晚餐.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设午餐和晚餐分别预订 $x$ 和 $y$ 个单位，则 $x$，$y\\ge0$，营养约束为</p>\n$$\n\\begin{cases}12x+8y\\ge64,\\\\  6x+6y\\ge42,\\\\  6x+10y\\ge54.\\end{cases}\n$$\n<p>费用为 $C=2.5x+4y$. 将约束分别化为 $3x+2y\\ge16$，$x+y\\ge7$，$3x+5y\\ge27$. 在 $x=0$ 时，约束要求 $y\\ge8$，得到边界顶点 $(0,8)$；在 $y=0$ 时，约束要求 $x\\ge9$，得到边界顶点 $(9,0)$. 两条相邻边界的交点满足</p>\n$$\n\\begin{cases}3x+2y=16,\\\\  x+y=7,\\end{cases}\n$$\n<p>解得 $(x,y)=(2,5)$，满足第三个约束；满足后两个等式的交点满足</p>\n$$\n\\begin{cases}x+y=7,\\\\  3x+5y=27,\\end{cases}\n$$\n<p>解得 $(x,y)=(4,3)$，满足第一个约束. 第一个和第三个等式的交点为 $(\\frac{26}{9},\\frac{11}{3})$，但此时 $x+y=\\frac{59}{9}&#x3C;7$，不在可行域内. 因而可行域的边界顶点为 $(0,8)$，$(2,5)$，$(4,3)$，$(9,0)$. 在这些顶点处，费用依次为 $32$，$25$，$22$，$22.5$. 因费用函数在可行域上的最小值必在顶点取得，故最少费用在 $(x,y)=(4,3)$ 处取得. 应分别预订 4 个单位的午餐和 3 个单位的晚餐.</p>"
         },
         {
           "num": 20,
-          "body": "已知函数 $f(x)$ 对任意实数 $x$ 均有 $f(x) = kf(x + 2)$，其中常数 $k$ 为负数，且 $f(x)$ 在区间 $[0, 2]$ 上有表达式 $f(x) = x(x - 2)$.\r\n\r\n\n(1) 求 $f(-1)$，$f(2.5)$ 的值；\n\n(2) 写出 $f(x)$ 在 $[-3, 3]$ 上的表达式，并讨论函数 $f(x)$ 在 $[-3, 3]$ 上的单调性；\n\n(3) 求出 $f(x)$ 在 $[-3, 3]$ 上的最小值与最大值，并求出相应的自变量的取值.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)$ 对任意实数 $x$ 均有 $f(x) = kf(x + 2)$，其中常数 $k$ 为负数，且 $f(x)$ 在区间 $[0, 2]$ 上有表达式 $f(x) = x(x - 2)$.</p><ol class=\"enumerate\"><li><p>求 $f(-1)$，$f(2.5)$ 的值；</p></li><li><p>写出 $f(x)$ 在 $[-3, 3]$ 上的表达式，并讨论函数 $f(x)$ 在 $[-3, 3]$ 上的单调性；</p></li><li><p>求出 $f(x)$ 在 $[-3, 3]$ 上的最小值与最大值，并求出相应的自变量的取值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $f(x)=kf(x+2)$，当 $-2\\le x\\le0$ 时有 $f(x)=kx(x+2)$，故 $f(-1)=-k$. 当 $2\\le x\\le3$ 时，$f(x)=\\dfrac1k f(x-2)=\\dfrac1k(x-2)(x-4)$，故 $f(2.5)=-\\dfrac{3}{4k}$.\n\n(2) \\examdisplaycases{f(x)=}{\r\nk^2(x+2)(x+4), & -3\\leqslant x< -2,\\\\\r\nkx(x+2), & -2\\leqslant x<0,\\\\\r\nx(x-2), & 0\\leqslant x<2,\\\\\r\n\\dfrac{1}{k}(x-2)(x-4), & 2\\leqslant x\\leqslant 3,\r\n}\r\n其中各段分别由 $f(x)=k f(x+2)$ 反复代入得到. 各段导数的符号为：在 $[-3,-2)$ 上为 $2k^2(x+3)\\ge0$，在 $[-2,0)$ 上为 $2k(x+1)$，在 $[0,2)$ 上为 $2(x-1)$，在 $[2,3]$ 上为 $\\dfrac{2(x-3)}k\\ge0$. 又 $f(-2)=f(0)=f(2)=0$，所以函数在 $[-3,-1]$ 与 $[1,3]$ 上为增函数，在 $[-1,1]$ 上为减函数.\n\n(3) 由单调性，极值只可能在上述单调区间的端点取得；分点的函数值为 $f(-2)=f(0)=f(2)=0$，且 $f(-3)=-k^2<0$，$f(1)=-1<0$，$f(-1)=-k>0$，$f(3)=-\\dfrac1k>0$，所以 $0$ 不会成为最小值或最大值，只需比较这四个非零端点值：\r\n\r\n当 $k<-1$ 时，$-k^2<-1$，且 $-k>-\\dfrac1k$，所以最小值为 $-k^2$，在 $x=-3$ 处取得；最大值为 $-k$，在 $x=-1$ 处取得.\r\n\r\n当 $k=-1$ 时，最小值为 $-1$，在 $x=-3$ 或 $x=1$ 处取得；最大值为 $1$，在 $x=-1$ 或 $x=3$ 处取得.\r\n\r\n当 $-1<k<0$ 时，$-1<-k^2$，且 $-\\dfrac1k>-k$，所以最小值为 $-1$，在 $x=1$ 处取得；最大值为 $-\\dfrac1k$，在 $x=3$ 处取得.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $f(x)=kf(x+2)$，当 $-2\\le x\\le0$ 时有 $f(x)=kx(x+2)$，故 $f(-1)=-k$. 当 $2\\le x\\le3$ 时，$f(x)=\\dfrac{1}{k}f(x-2)=\\dfrac{1}{k}(x-2)(x-4)$，故 $f(2.5)=-\\dfrac{3}{4k}$.</p></li><li><p><span class=\"macro macro-examdisplaycases\"></span>f(x)=<br>k^2(x+2)(x+4), &#x26; -3<span class=\"macro macro-le\"></span> x&#x3C; -2,<br class=\"linebreak\"><br>kx(x+2), &#x26; -2<span class=\"macro macro-le\"></span> x&#x3C;0,<br class=\"linebreak\"><br>x(x-2), &#x26; 0<span class=\"macro macro-le\"></span> x&#x3C;2,<br class=\"linebreak\"><br><span class=\"macro macro-dfrac\"></span>1k(x-2)(x-4), &#x26; 2<span class=\"macro macro-le\"></span> x<span class=\"macro macro-le\"></span> 3,<br></p><p>其中各段分别由 $f(x)=k f(x+2)$ 反复代入得到. 各段导数的符号为：在 $[-3,-2)$ 上为 $2k^{2}(x+3)\\ge0$，在 $[-2,0)$ 上为 $2k(x+1)$，在 $[0,2)$ 上为 $2(x-1)$，在 $[2,3]$ 上为 $\\dfrac{2(x-3)}k\\ge0$. 又 $f(-2)=f(0)=f(2)=0$，所以函数在 $[-3,-1]$ 与 $[1,3]$ 上为增函数，在 $[-1,1]$ 上为减函数.</p></li><li><p>由单调性，极值只可能在上述单调区间的端点取得；分点的函数值为 $f(-2)=f(0)=f(2)=0$，且 $f(-3)=-k^{2}&#x3C;0$，$f(1)=-1&#x3C;0$，$f(-1)=-k>0$，$f(3)=-\\dfrac{1}{k}>0$，所以 $0$ 不会成为最小值或最大值，只需比较这四个非零端点值：</p><p>当 $k&#x3C;-1$ 时，$-k^{2}&#x3C;-1$，且 $-k>-\\dfrac{1}{k}$，所以最小值为 $-k^{2}$，在 $x=-3$ 处取得；最大值为 $-k$，在 $x=-1$ 处取得.</p><p>当 $k=-1$ 时，最小值为 $-1$，在 $x=-3$ 或 $x=1$ 处取得；最大值为 $1$，在 $x=-1$ 或 $x=3$ 处取得.</p><p>当 $-1&#x3C;k&#x3C;0$ 时，$-1&#x3C;-k^{2}$，且 $-\\dfrac{1}{k}>-k$，所以最小值为 $-1$，在 $x=1$ 处取得；最大值为 $-\\dfrac{1}{k}$，在 $x=3$ 处取得.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知曲线 $C_n: y = nx^2$，点 $P_n(x_n, y_n)$（$x_n > 0$，$y_n > 0$）是曲线 $C_n$ 上的点（$n = 1$，$2$，$\\cdots$）.\r\n\r\n\n(1) 试写出曲线 $C_n$ 在点 $P_n$ 处的切线 $l_n$ 的方程，并求出 $l_n$ 与 $y$ 轴的交点 $Q_n$ 的坐标；\n\n(2) 若原点 $O(0, 0)$ 到 $l_n$ 的距离与线段 $P_nQ_n$ 的长度之比取得最大值，试求点 $P_n$ 的坐标 $(x_n, y_n)$；\n\n(3) 设 $m$ 与 $k$ 为两个给定的不同的正整数，$x_n$ 与 $y_n$ 是满足前一问条件的点 $P_n$ 的坐标，证明：$\\sum_{n=1}^{s} \\left| \\sqrt{\\frac{(m + 1)x_n}{2}} - \\sqrt{(k + 1)y_n} \\right| < \\left| \\sqrt{ms} - \\sqrt{ks} \\right|$（$s = 1$，$2$，$\\cdots$）.",
-          "choices": [],
+          "body": "<p>已知曲线 $C_{n}: y = nx^{2}$，点 $P_{n}(x_{n}, y_{n})$（$x_{n} > 0$，$y_{n} > 0$）是曲线 $C_{n}$ 上的点（$n = 1$，$2$，$\\cdots$）.</p><ol class=\"enumerate\"><li><p>试写出曲线 $C_{n}$ 在点 $P_{n}$ 处的切线 $l_{n}$ 的方程，并求出 $l_{n}$ 与 $y$ 轴的交点 $Q_{n}$ 的坐标；</p></li><li><p>若原点 $O(0, 0)$ 到 $l_{n}$ 的距离与线段 $P_{n}Q_{n}$ 的长度之比取得最大值，试求点 $P_{n}$ 的坐标 $(x_{n}, y_{n})$；</p></li><li><p>设 $m$ 与 $k$ 为两个给定的不同的正整数，$x_{n}$ 与 $y_{n}$ 是满足前一问条件的点 $P_{n}$ 的坐标，证明：$\\sum_{n=1}^{s}\\left| \\sqrt{\\frac{(m + 1)x_{n}}{2}}- \\sqrt{(k + 1)y_{n}}\\right| &#x3C; \\left| \\sqrt{ms}- \\sqrt{ks}\\right|$（$s = 1$，$2$，$\\cdots$）.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $y=nx^2$ 得 $y'=2nx$，所以在 $P_n(x_n,y_n)$ 处的切线为\r\n$l_n:y-y_n=2nx_n(x-x_n)$. 因 $y_n=nx_n^2$，令 $x=0$ 得 $y=-nx_n^2$，故 $Q_n=(0,-nx_n^2)$.\n\n(2) 将切线写成 $2nx_nx-y-nx_n^2=0$，则原点到切线的距离为\r\n$d_n=\\dfrac{nx_n^2}{\\sqrt{1+4n^2x_n^2}}$. 又\r\n$P_nQ_n=\\sqrt{x_n^2+(2nx_n^2)^2}=x_n\\sqrt{1+4n^2x_n^2}$. 因而二者之比为\r\n$R_n=\\dfrac{nx_n}{1+4n^2x_n^2}$. 令 $u=2nx_n>0$，则 $R_n=\\dfrac{u}{2(1+u^2)}$. 由 $(u-1)^2\\ge0$ 得 $1+u^2\\ge2u$，所以 $R_n\\le\\dfrac14$，等号当且仅当 $u=1$. 因此 $x_n=\\dfrac1{2n}$，再由 $y_n=nx_n^2$ 得 $y_n=\\dfrac1{4n}$，即 $P_n\\left(\\dfrac1{2n},\\dfrac1{4n}\\right)$.\n\n(3) 由上一问，\r\n\n$$\n\\left|\\sqrt{\\frac{(m+1)x_n}{2}}-\\sqrt{(k+1)y_n}\\right|=\\frac{|\\sqrt{m+1}-\\sqrt{k+1}|}{2\\sqrt n}\n$$\n\r\n又对每个正整数 $n$，有\r\n\n$$\n2(\\sqrt n-\\sqrt{n-1})=\\frac{2}{\\sqrt n+\\sqrt{n-1}}>\\frac1{\\sqrt n}\n$$\n\r\n其中最后一个不等号等价于 $\\sqrt n>\\sqrt{n-1}$. 求和得\r\n$\\sum_{n=1}^s\\dfrac1{\\sqrt n}<2\\sqrt s$. 另外，因 $m\\ne k$，不妨设 $m>k$；有理化可得\r\n\n$$\n\\sqrt{m+1}-\\sqrt{k+1}=\\frac{m-k}{\\sqrt{m+1}+\\sqrt{k+1}}<\\frac{m-k}{\\sqrt m+\\sqrt k}=\\sqrt m-\\sqrt k\n$$\n\r\n若 $m<k$ 则交换二者，故\r\n$|\\sqrt{m+1}-\\sqrt{k+1}|<|\\sqrt m-\\sqrt k|$. 因此\r\n\n$$\n\\sum_{n=1}^{s}\\left|\\sqrt{\\frac{(m+1)x_n}{2}}-\\sqrt{(k+1)y_n}\\right|\r\n<|\\sqrt{m+1}-\\sqrt{k+1}|\\sqrt s\r\n<|\\sqrt m-\\sqrt k|\\sqrt s\r\n=|\\sqrt{ms}-\\sqrt{ks}|\n$$\n\r\n所证不等式成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $y=nx^{2}$ 得 $y'=2nx$，所以在 $P_{n}(x_{n},y_{n})$ 处的切线为</p><p>$l_{n}:y-y_{n}=2nx_{n}(x-x_{n})$. 因 $y_{n}=nx_{n}^{2}$，令 $x=0$ 得 $y=-nx_{n}^{2}$，故 $Q_{n}=(0,-nx_{n}^{2})$.</p></li><li><p>将切线写成 $2nx_{n}x-y-nx_{n}^{2}=0$，则原点到切线的距离为</p><p>$d_{n}=\\dfrac{nx_n^2}{\\sqrt{1+4n^{2}x_{n}^{2}}}$. 又</p><p>$P_{n}Q_{n}=\\sqrt{x_{n}^{2}+(2nx_{n}^{2})^{2}}=x_{n}\\sqrt{1+4n^{2}x_{n}^{2}}$. 因而二者之比为</p><p>$R_{n}=\\dfrac{nx_n}{1+4n^2x_n^2}$. 令 $u=2nx_{n}>0$，则 $R_{n}=\\dfrac{u}{2(1+u^2)}$. 由 $(u-1)^{2}\\ge0$ 得 $1+u^{2}\\ge2u$，所以 $R_{n}\\le\\dfrac{1}{4}$，等号当且仅当 $u=1$. 因此 $x_{n}=\\dfrac1{2n}$，再由 $y_{n}=nx_{n}^{2}$ 得 $y_{n}=\\dfrac1{4n}$，即 $P_{n}\\left(\\dfrac1{2n},\\dfrac1{4n}\\right)$.</p></li><li><p>由上一问，</p>\n$$\n\\left|\\sqrt{\\frac{(m+1)x_{n}}{2}}-\\sqrt{(k+1)y_{n}}\\right|=\\frac{|\\sqrt{m+1}-\\sqrt{k+1}|}{2\\sqrt{n}}\n$$\n<p>又对每个正整数 $n$，有</p>\n$$\n2(\\sqrt{n}-\\sqrt{n-1})=\\frac{2}{\\sqrt{n}+\\sqrt{n-1}}>\\frac{1}{\\sqrt{n}}\n$$\n<p>其中最后一个不等号等价于 $\\sqrt{n}>\\sqrt{n-1}$. 求和得</p><p>$\\sum_{n=1}^{s}\\dfrac1{\\sqrt{n}}&#x3C;2\\sqrt{s}$. 另外，因 $m\\ne k$，不妨设 $m>k$；有理化可得</p>\n$$\n\\sqrt{m+1}-\\sqrt{k+1}=\\frac{m-k}{\\sqrt{m+1}+\\sqrt{k+1}}&#x3C;\\frac{m-k}{\\sqrt{m}+\\sqrt{k}}=\\sqrt{m}-\\sqrt{k}\n$$\n<p>若 $m&#x3C;k$ 则交换二者，故</p><p>$|\\sqrt{m+1}-\\sqrt{k+1}|&#x3C;|\\sqrt{m}-\\sqrt{k}|$. 因此</p>\n$$\n\\sum_{n=1}^{s}\\left|\\sqrt{\\frac{(m+1)x_{n}}{2}}-\\sqrt{(k+1)y_{n}}\\right|  &#x3C;|\\sqrt{m+1}-\\sqrt{k+1}|\\sqrt{s}&#x3C;|\\sqrt{m}-\\sqrt{k}|\\sqrt{s}=|\\sqrt{ms}-\\sqrt{ks}|\n$$\n<p>所证不等式成立.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

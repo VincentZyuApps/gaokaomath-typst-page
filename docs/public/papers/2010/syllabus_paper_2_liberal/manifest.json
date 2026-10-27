@@ -1,150 +1,15 @@
 {
+  "title": "2010年普通高等学校招生全国统一考试",
+  "subtitle": "2010年大纲II卷（文）",
   "year": "2010",
   "slug": "syllabus_paper_2_liberal",
-  "title": "2010年大纲II卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设全集 $U = \\{x \\in \\mathbb{N}^* \\mid x < 6\\}$，集合 $A = \\{1, 3\\}$，$B = \\{3, 5\\}$，则 $\\complement_U\\left( A \\cup B \\right) =$（ ）\r\n\r\n\r\nC\r\n\r\n由 $x\\in\\mathbb{N}^*$ 且 $x<6$，得 $U=\\{1,2,3,4,5\\}$. 又 $A\\cup B=\\{1,3,5\\}$，所以 $\\complement_U\\left(A\\cup B\\right)=\\{2,4\\}$. 故选 C.",
+          "body": "<p>设全集 $U = \\{x \\in \\mathbb{N}^{*} \\mid x &#x3C; 6\\}$，集合 $A = \\{1, 3\\}$，$B = \\{3, 5\\}$，则 $\\complement_{U}\\left( A \\cup B \\right) =$（ ）</p><p>C</p><p>由 $x\\in\\mathbb{N}^{*}$ 且 $x&#x3C;6$，得 $U=\\{1,2,3,4,5\\}$. 又 $A\\cup B=\\{1,3,5\\}$，所以 $\\complement_{U}\\left(A\\cup B\\right)=\\{2,4\\}$. 故选 C.</p>",
           "choices": [
             "$\\{1, 4\\}$",
             "$\\{1, 5\\}$",
@@ -152,27 +17,23 @@
             "$\\{2,5\\}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 2,
-          "body": "不等式 $\\frac{x - 3}{x + 2} < 0$ 的解集为（ ）\r\n\r\n\r\nA\r\n\r\n不等式有意义要求 $x\\ne-2$. 当 $x<-2$ 时，$x-3<0$、$x+2<0$，分式为正；当 $-2<x<3$ 时，$x-3<0$、$x+2>0$，分式为负；当 $x>3$ 时，分式为正. 因而解集为 $(-2,3)$，故选 A.",
+          "body": "<p>不等式 $\\frac{x - 3}{x + 2}&#x3C; 0$ 的解集为（ ）</p><p>A</p><p>不等式有意义要求 $x\\ne-2$. 当 $x&#x3C;-2$ 时，$x-3&#x3C;0$、$x+2&#x3C;0$，分式为正；当 $-2&#x3C;x&#x3C;3$ 时，$x-3&#x3C;0$、$x+2>0$，分式为负；当 $x>3$ 时，分式为正. 因而解集为 $(-2,3)$，故选 A.</p>",
           "choices": [
-            "$\\{x \\mid -2 < x < 3\\}$",
-            "$\\{x \\mid x < -2\\}$",
-            "$\\{x \\mid x < -2 \\text{ 或 } x > 3\\}$",
+            "$\\{x \\mid -2 &#x3C; x &#x3C; 3\\}$",
+            "$\\{x \\mid x &#x3C; -2\\}$",
+            "$\\{x \\mid x &#x3C; -2 \\text{ 或 }x > 3\\}$",
             "$\\{x \\mid x > 3\\}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 3,
-          "body": "已知 $\\sin \\alpha = \\frac{2}{3}$，则 $\\cos\\left(\\pi - 2\\alpha\\right) =$（ ）\r\n\r\n\r\nB\r\n\r\n由诱导公式和二倍角公式，$\\cos\\left(\\pi-2\\alpha\\right)=-\\cos 2\\alpha=-(1-2\\sin^2\\alpha)=-(1-2\\cdot\\frac{4}{9})=-\\frac{1}{9}$. 故选 B.",
+          "body": "<p>已知 $\\sin \\alpha = \\frac{2}{3}$，则 $\\cos\\left(\\pi - 2\\alpha\\right) =$（ ）</p><p>B</p><p>由诱导公式和二倍角公式，$\\cos\\left(\\pi-2\\alpha\\right)=-\\cos 2\\alpha=-(1-2\\sin^{2}\\alpha)=-(1-2\\cdot\\frac{4}{9})=-\\frac{1}{9}$. 故选 B.</p>",
           "choices": [
             "$-\\frac{\\sqrt{5}}{3}$",
             "$-\\frac{1}{9}$",
@@ -180,27 +41,23 @@
             "$\\frac{\\sqrt{5}}{3}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 4,
-          "body": "函数 $y = 1 + \\ln\\left(x - 1\\right)$（$x > 1$）的反函数是（ ）\r\n\r\n\r\nD\r\n\r\n由 $y=1+\\ln\\left(x-1\\right)$ 得 $y-1=\\ln\\left(x-1\\right)$，从而 $x=\\mathrm{e}^{y-1}+1$. 原函数的值域为 $\\mathbb{R}$，交换 $x$，$y$ 后反函数为 $y=\\mathrm{e}^{x-1}+1$，且反函数的定义域为 $x\\in\\mathbb{R}$. 故选 D.",
+          "body": "<p>函数 $y = 1 + \\ln\\left(x - 1\\right)$（$x > 1$）的反函数是（ ）</p><p>D</p><p>由 $y=1+\\ln\\left(x-1\\right)$ 得 $y-1=\\ln\\left(x-1\\right)$，从而 $x=\\mathrm{e}^{y-1}+1$. 原函数的值域为 $\\mathbb{R}$，交换 $x$，$y$ 后反函数为 $y=\\mathrm{e}^{x-1}+1$，且反函数的定义域为 $x\\in\\mathbb{R}$. 故选 D.</p>",
           "choices": [
-            "$y = \\mathrm{e}^{x + 1} - 1$（$x > 0$）",
-            "$y = \\mathrm{e}^{x - 1} + 1$（$x > 0$）",
-            "$y = \\mathrm{e}^{x + 1} - 1$（$x \\in \\mathbb{R}$）",
-            "$y = \\mathrm{e}^{x - 1} + 1$（$x \\in \\mathbb{R}$）"
+            "$y = \\mathrm{e}^{x + 1}- 1$（$x > 0$）",
+            "$y = \\mathrm{e}^{x - 1}+ 1$（$x > 0$）",
+            "$y = \\mathrm{e}^{x + 1}- 1$（$x \\in \\mathbb{R}$）",
+            "$y = \\mathrm{e}^{x - 1}+ 1$（$x \\in \\mathbb{R}$）"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 5,
-          "body": "若变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx \\ge -1,\\\\\r\ny \\ge x,\\\\\r\n3x + 2y \\le 5,\r\n\\end{cases}$ 则 $z = 2x + y$ 的最大值为（ ）\r\n\r\n\r\nC\r\n\r\n由约束条件，$x\\le y\\le\\frac{5-3x}{2}$，并且可行域要求 $-1\\le x\\leqslant1$. 对固定的 $x$，目标函数 $z=2x+y$ 随 $y$ 增大而增大，因此 $z\\leqslant2x+\\frac{5-3x}{2}=\\frac{x+5}{2}\\leqslant3$. 当 $x=1$，$y=1$ 时三个约束均满足，且 $z=3$，所以最大值为 $3$. 故选 C.",
+          "body": "<p>若变量 $x$，$y$ 满足约束条件 $\\begin{cases}x \\ge -1,\\\\  y \\ge x,\\\\  3x + 2y \\le 5,\\end{cases}$ 则 $z = 2x + y$ 的最大值为（ ）</p><p>C</p><p>由约束条件，$x\\le y\\le\\frac{5-3x}{2}$，并且可行域要求 $-1\\le x\\leqslant1$. 对固定的 $x$，目标函数 $z=2x+y$ 随 $y$ 增大而增大，因此 $z\\leqslant2x+\\frac{5-3x}{2}=\\frac{x+5}{2}\\leqslant3$. 当 $x=1$，$y=1$ 时三个约束均满足，且 $z=3$，所以最大值为 $3$. 故选 C.</p>",
           "choices": [
             "$1$",
             "$2$",
@@ -208,13 +65,11 @@
             "$4$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 6,
-          "body": "如果等差数列 $\\{a_{n}\\}$ 中，$a_{3} + a_{4} + a_{5} = 12$，那么 $a_{1} + a_{2} + \\cdots + a_{7} =$（ ）\r\n\r\n\r\nC\r\n\r\n等差数列中 $a_3+a_5=2a_4$，所以 $a_3+a_4+a_5=3a_4=12$，得 $a_4=4$. 又 $a_1+a_7=a_2+a_6=a_3+a_5=2a_4$，故 $a_1+a_2+\\cdots+a_7=7a_4=28$. 故选 C.",
+          "body": "<p>如果等差数列 $\\{a_{n}\\}$ 中，$a_{3}+ a_{4}+ a_{5}= 12$，那么 $a_{1}+ a_{2}+ \\cdots + a_{7}=$（ ）</p><p>C</p><p>等差数列中 $a_{3}+a_{5}=2a_{4}$，所以 $a_{3}+a_{4}+a_{5}=3a_{4}=12$，得 $a_{4}=4$. 又 $a_{1}+a_{7}=a_{2}+a_{6}=a_{3}+a_{5}=2a_{4}$，故 $a_{1}+a_{2}+\\cdots+a_{7}=7a_{4}=28$. 故选 C.</p>",
           "choices": [
             "$14$",
             "$21$",
@@ -222,13 +77,11 @@
             "$35$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 7,
-          "body": "若曲线 $y = x^{2} + ax + b$ 在点 $(0, b)$ 处的切线方程是 $x - y + 1 = 0$，则（ ）\r\n\r\n\r\nA\r\n\r\n切点为 $(0,b)$，代入直线 $x-y+1=0$ 得 $b=1$. 曲线的导数为 $y'=2x+a$，所以在 $x=0$ 处的切线斜率为 $a$. 直线 $x-y+1=0$ 即 $y=x+1$，斜率为 $1$，从而 $a=1$. 故选 A.",
+          "body": "<p>若曲线 $y = x^{2}+ ax + b$ 在点 $(0, b)$ 处的切线方程是 $x - y + 1 = 0$，则（ ）</p><p>A</p><p>切点为 $(0,b)$，代入直线 $x-y+1=0$ 得 $b=1$. 曲线的导数为 $y'=2x+a$，所以在 $x=0$ 处的切线斜率为 $a$. 直线 $x-y+1=0$ 即 $y=x+1$，斜率为 $1$，从而 $a=1$. 故选 A.</p>",
           "choices": [
             "$a = 1$，$b = 1$",
             "$a = -1$，$b = 1$",
@@ -236,13 +89,11 @@
             "$a = -1$，$b = -1$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 8,
-          "body": "在三棱锥 $S - ABC$ 中，底面 $ABC$ 为边长等于 $2$ 的等边三角形，$SA$ 垂直于底面 $ABC$，$SA = 3$，那么直线 $AB$ 与平面 $SBC$ 所成角的正弦值为（ ）\r\n\r\n\r\nD\r\n\r\n取 $A=(0,0,0)$，$B=(2,0,0)$，$C=(1,\\sqrt{3},0)$，$S=(0,0,3)$. 则平面 $SBC$ 的两个方向向量可取 $\\overrightarrow{SB}=(2,0,-3)$ 和 $\\overrightarrow{SC}=(1,\\sqrt{3},-3)$，其法向量可取 $\\mathbf{n}=\\overrightarrow{SB}\\times\\overrightarrow{SC}=(3\\sqrt{3},3,2\\sqrt{3})$. 直线 $AB$ 的方向向量为 $\\overrightarrow{AB}=(2,0,0)$. 若直线 $AB$ 与平面 $SBC$ 所成的角为 $\\theta$，则 $\\sin\\theta=\\frac{|\\overrightarrow{AB}\\cdot\\mathbf{n}|}{|\\overrightarrow{AB}|\\,|\\mathbf{n}|}=\\frac{6\\sqrt{3}}{2\\cdot4\\sqrt{3}}=\\frac{3}{4}$. 故选 D.",
+          "body": "<p>在三棱锥 $S - ABC$ 中，底面 $ABC$ 为边长等于 $2$ 的等边三角形，$SA$ 垂直于底面 $ABC$，$SA = 3$，那么直线 $AB$ 与平面 $SBC$ 所成角的正弦值为（ ）</p><p>D</p><p>取 $A=(0,0,0)$，$B=(2,0,0)$，$C=(1,\\sqrt{3},0)$，$S=(0,0,3)$. 则平面 $SBC$ 的两个方向向量可取 $\\overrightarrow{SB}=(2,0,-3)$ 和 $\\overrightarrow{SC}=(1,\\sqrt{3},-3)$，其法向量可取 $\\mathbf{n}=\\overrightarrow{SB}\\times\\overrightarrow{SC}=(3\\sqrt{3},3,2\\sqrt{3})$. 直线 $AB$ 的方向向量为 $\\overrightarrow{AB}=(2,0,0)$. 若直线 $AB$ 与平面 $SBC$ 所成的角为 $\\theta$，则 $\\sin\\theta=\\frac{|\\overrightarrow{AB}\\cdot\\mathbf{n}|}{|\\overrightarrow{AB}|\\,|\\mathbf{n}|}=\\frac{6\\sqrt{3}}{2\\cdot4\\sqrt{3}}=\\frac{3}{4}$. 故选 D.</p>",
           "choices": [
             "$\\frac{\\sqrt{3}}{4}$",
             "$\\frac{\\sqrt{5}}{4}$",
@@ -250,13 +101,11 @@
             "$\\frac{3}{4}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 9,
-          "body": "将标号为 $1$，$2$，$3$，$4$，$5$，$6$ 的 $6$ 张卡片放入 $3$ 个不同的信封中，若每个信封放 $2$ 张，其中标号为 $1$，$2$ 的卡片放入同一信封，则不同的放法共有（ ）\r\n\r\n\r\nB\r\n\r\n先从 $3$ 个不同信封中选出一个放置卡片 $1,2$，有 $3$ 种选法. 剩下的 $4$ 张卡片放入剩下的两个有标号信封中，每个放 $2$ 张；选定其中一个信封所放的 $2$ 张即可，故有 $\\mathrm C_4^2=6$ 种. 因此总放法数为 $3\\mathrm C_4^2=18$，故选 B.",
+          "body": "<p>将标号为 $1$，$2$，$3$，$4$，$5$，$6$ 的 $6$ 张卡片放入 $3$ 个不同的信封中，若每个信封放 $2$ 张，其中标号为 $1$，$2$ 的卡片放入同一信封，则不同的放法共有（ ）</p><p>B</p><p>先从 $3$ 个不同信封中选出一个放置卡片 $1,2$，有 $3$ 种选法. 剩下的 $4$ 张卡片放入剩下的两个有标号信封中，每个放 $2$ 张；选定其中一个信封所放的 $2$ 张即可，故有 $\\mathrm{C}_{4}^{2}=6$ 种. 因此总放法数为 $3\\mathrm{C}_{4}^{2}=18$，故选 B.</p>",
           "choices": [
             "$12\\text{ 种}$",
             "$18\\text{ 种}$",
@@ -264,27 +113,23 @@
             "$54\\text{ 种}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 10,
-          "body": "$\\triangle ABC$ 中，点 $D$ 在边 $AB$ 上，$CD$ 平分 $\\angle ACB$. 若 $\\overrightarrow{CB} = \\mathbf{a}$，$\\overrightarrow{CA} = \\mathbf{b}$，$|\\mathbf{a}| = 1$，$|\\mathbf{b}| = 2$，则 $\\overrightarrow{CD} =$（ ）\r\n\r\n\r\nB\r\n\r\n由角平分线定理，$\\frac{AD}{DB}=\\frac{AC}{CB}=\\frac{|\\mathbf{b}|}{|\\mathbf{a}|}=2$，所以 $\\overrightarrow{AD}=\\frac{2}{3}\\overrightarrow{AB}$. 又 $\\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}=\\mathbf{a}-\\mathbf{b}$，于是 $\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}=\\mathbf{b}+\\frac{2}{3}(\\mathbf{a}-\\mathbf{b})=\\frac{2}{3}\\mathbf{a}+\\frac{1}{3}\\mathbf{b}$. 故选 B.",
+          "body": "<p>$\\triangle ABC$ 中，点 $D$ 在边 $AB$ 上，$CD$ 平分 $\\angle ACB$. 若 $\\overrightarrow{CB}= \\mathbf{a}$，$\\overrightarrow{CA}= \\mathbf{b}$，$|\\mathbf{a}| = 1$，$|\\mathbf{b}| = 2$，则 $\\overrightarrow{CD}=$（ ）</p><p>B</p><p>由角平分线定理，$\\frac{AD}{DB}=\\frac{AC}{CB}=\\frac{|\\mathbf{b}|}{|\\mathbf{a}|}=2$，所以 $\\overrightarrow{AD}=\\frac{2}{3}\\overrightarrow{AB}$. 又 $\\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}=\\mathbf{a}-\\mathbf{b}$，于是 $\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}=\\mathbf{b}+\\frac{2}{3}(\\mathbf{a}-\\mathbf{b})=\\frac{2}{3}\\mathbf{a}+\\frac{1}{3}\\mathbf{b}$. 故选 B.</p>",
           "choices": [
-            "$\\frac{1}{3} \\mathbf{a} + \\frac{2}{3} \\mathbf{b}$",
-            "$\\frac{2}{3} \\mathbf{a} + \\frac{1}{3} \\mathbf{b}$",
-            "$\\frac{3}{5} \\mathbf{a} + \\frac{4}{5} \\mathbf{b}$",
-            "$\\frac{4}{5} \\mathbf{a} + \\frac{3}{5} \\mathbf{b}$"
+            "$\\frac{1}{3}\\mathbf{a}+ \\frac{2}{3}\\mathbf{b}$",
+            "$\\frac{2}{3}\\mathbf{a}+ \\frac{1}{3}\\mathbf{b}$",
+            "$\\frac{3}{5}\\mathbf{a}+ \\frac{4}{5}\\mathbf{b}$",
+            "$\\frac{4}{5}\\mathbf{a}+ \\frac{3}{5}\\mathbf{b}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 11,
-          "body": "与正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的三条棱 $AB$，$CC_{1}$，$A_{1}D_{1}$ 所在直线的距离相等的点（ ）\r\n\r\n\r\nD\r\n\r\n不妨设正方体棱长为 $1$，建立空间直角坐标系：$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，$A_1=(0,0,1)$，$B_1=(1,0,1)$，$C_1=(1,1,1)$，$D_1=(0,1,1)$. 在线段 $B_1D$ 上任取一点 $P=(1-t,t,1-t)$，其中 $0\\le t\\leqslant1$.\r\n\r\n点 $P$ 到直线 $AB$ 的距离为 $\\sqrt{t^2+(1-t)^2}$. 点 $P$ 到直线 $CC_1$ 的距离为 $\\sqrt{t^2+(1-t)^2}$. 点 $P$ 到直线 $A_1D_1$ 的距离也为 $\\sqrt{t^2+(1-t)^2}$. 因而线段 $B_1D$ 上每一点都满足题设条件，满足条件的点有无数个. 故选 D.",
+          "body": "<p>与正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的三条棱 $AB$，$CC_{1}$，$A_{1}D_{1}$ 所在直线的距离相等的点（ ）</p><p>D</p><p>不妨设正方体棱长为 $1$，建立空间直角坐标系：$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$，$A_{1}=(0,0,1)$，$B_{1}=(1,0,1)$，$C_{1}=(1,1,1)$，$D_{1}=(0,1,1)$. 在线段 $B_{1}D$ 上任取一点 $P=(1-t,t,1-t)$，其中 $0\\le t\\leqslant1$.</p><p>点 $P$ 到直线 $AB$ 的距离为 $\\sqrt{t^{2}+(1-t)^{2}}$. 点 $P$ 到直线 $CC_{1}$ 的距离为 $\\sqrt{t^{2}+(1-t)^{2}}$. 点 $P$ 到直线 $A_{1}D_{1}$ 的距离也为 $\\sqrt{t^{2}+(1-t)^{2}}$. 因而线段 $B_{1}D$ 上每一点都满足题设条件，满足条件的点有无数个. 故选 D.</p>",
           "choices": [
             "有且只有 $1\\text{ 个}$",
             "有且只有 $2\\text{ 个}$",
@@ -292,13 +137,11 @@
             "有无数个"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 12,
-          "body": "已知椭圆 $C: \\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$（$a > b > 0$）的离心率为 $\\frac{\\sqrt{3}}{2}$，过右焦点 $F$ 且斜率为 $k$（$k > 0$）的直线与 $C$ 相交于 $A$，$B$ 两点. 若 $\\overrightarrow{AF} = 3\\overrightarrow{FB}$，则 $k =$（ ）\r\n\r\n\r\nB\r\n\r\n设椭圆焦距为 $2c$. 由离心率 $\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，得 $c=\\frac{\\sqrt{3}}{2}a$，从而 $b^2=a^2-c^2=\\frac{a^2}{4}$，椭圆方程可写为 $x^2+4y^2=a^2$. 右焦点为 $F=(c,0)$，设直线与椭圆的交点 $B$ 为 $B=(c+t,kt)$. 由 $\\overrightarrow{AF}=3\\overrightarrow{FB}$，得 $A=(c-3t,-3kt)$，且 $t\\ne0$.\r\n\r\n将 $A$，$B$ 代入椭圆方程并相减，得 $(c-3t)^2+36k^2t^2-(c+t)^2-4k^2t^2=0$，即 $t=\\frac{c}{1+4k^2}$. 再将 $B$ 代入椭圆方程，得 $c^2+2ct+(1+4k^2)t^2=a^2$. 令 $q=1+4k^2$，代入 $c^2=\\frac{3}{4}a^2$ 和 $t=\\frac{c}{q}$，得到 $\\frac{3}{4}a^2\\left(1+\\frac{3}{q}\\right)=a^2$，所以 $1+\\frac{3}{q}=\\frac{4}{3}$，即 $q=9$. 因而 $1+4k^2=9$，又 $k>0$，得 $k=\\sqrt{2}$. 故选 B.",
+          "body": "<p>已知椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的离心率为 $\\frac{\\sqrt{3}}{2}$，过右焦点 $F$ 且斜率为 $k$（$k > 0$）的直线与 $C$ 相交于 $A$，$B$ 两点. 若 $\\overrightarrow{AF}= 3\\overrightarrow{FB}$，则 $k =$（ ）</p><p>B</p><p>设椭圆焦距为 $2c$. 由离心率 $\\frac{c}{a}=\\frac{\\sqrt{3}}{2}$，得 $c=\\frac{\\sqrt{3}}{2}a$，从而 $b^{2}=a^{2}-c^{2}=\\frac{a^{2}}{4}$，椭圆方程可写为 $x^{2}+4y^{2}=a^{2}$. 右焦点为 $F=(c,0)$，设直线与椭圆的交点 $B$ 为 $B=(c+t,kt)$. 由 $\\overrightarrow{AF}=3\\overrightarrow{FB}$，得 $A=(c-3t,-3kt)$，且 $t\\ne0$.</p><p>将 $A$，$B$ 代入椭圆方程并相减，得 $(c-3t)^{2}+36k^{2}t^{2}-(c+t)^{2}-4k^{2}t^{2}=0$，即 $t=\\frac{c}{1+4k^{2}}$. 再将 $B$ 代入椭圆方程，得 $c^{2}+2ct+(1+4k^{2})t^{2}=a^{2}$. 令 $q=1+4k^{2}$，代入 $c^{2}=\\frac{3}{4}a^{2}$ 和 $t=\\frac{c}{q}$，得到 $\\frac{3}{4}a^{2}\\left(1+\\frac{3}{q}\\right)=a^{2}$，所以 $1+\\frac{3}{q}=\\frac{4}{3}$，即 $q=9$. 因而 $1+4k^{2}=9$，又 $k>0$，得 $k=\\sqrt{2}$. 故选 B.</p>",
           "choices": [
             "$1$",
             "$\\sqrt{2}$",
@@ -306,9 +149,7 @@
             "$2$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知 $\\alpha$ 是第二象限的角，$\\tan \\alpha = -\\frac{1}{2}$，则 $\\cos \\alpha = _______ {}$.",
-          "choices": [],
-          "answer": "\\(-\\frac{2\\sqrt{5}}{5}\\)",
-          "solution": "因 $\\alpha$ 是第二象限角，故 $\\cos\\alpha<0$. 由 $\\tan\\alpha=-\\frac{1}{2}$，可设 $\\sin\\alpha=-\\frac{1}{2}\\cos\\alpha$. 代入 $\\sin^2\\alpha+\\cos^2\\alpha=1$，得 $\\frac{1}{4}\\cos^2\\alpha+\\cos^2\\alpha=1$，即 $\\cos^2\\alpha=\\frac{4}{5}$. 取第二象限对应的负值，得 $\\cos\\alpha=-\\frac{2\\sqrt{5}}{5}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\alpha$ 是第二象限的角，$\\tan \\alpha = -\\frac{1}{2}$，则 $\\cos \\alpha =\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$-\\frac{2\\sqrt{5}}{5}$",
+          "solution": "因 $\\alpha$ 是第二象限角，故 $\\cos\\alpha&#x3C;0$. 由 $\\tan\\alpha=-\\frac{1}{2}$，可设 $\\sin\\alpha=-\\frac{1}{2}\\cos\\alpha$. 代入 $\\sin^{2}\\alpha+\\cos^{2}\\alpha=1$，得 $\\frac{1}{4}\\cos^{2}\\alpha+\\cos^{2}\\alpha=1$，即 $\\cos^{2}\\alpha=\\frac{4}{5}$. 取第二象限对应的负值，得 $\\cos\\alpha=-\\frac{2\\sqrt{5}}{5}$."
         },
         {
           "num": 14,
-          "body": "$\\left(x + \\frac{1}{x}\\right)^9$ 的展开式中 $x^3$ 的系数是 _______ {}.",
-          "choices": [],
+          "body": "$\\left(x + \\frac{1}{x}\\right)^{9}$ 的展开式中 $x^{3}$ 的系数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "84",
-          "solution": "展开式通项为 $T_{r+1}=\\mathrm C_9^r x^{9-r}\\left(\\frac{1}{x}\\right)^r=\\mathrm C_9^r x^{9-2r}$. 要得到 $x^3$，应有 $9-2r=3$，解得 $r=3$. 因而 $x^3$ 的系数为 $\\mathrm C_9^3=84$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "展开式通项为 $T_{r+1}=\\mathrm{C}_{9}^{r} x^{9-r}\\left(\\frac{1}{x}\\right)^{r}=\\mathrm{C}_{9}^{r} x^{9-2r}$. 要得到 $x^{3}$，应有 $9-2r=3$，解得 $r=3$. 因而 $x^{3}$ 的系数为 $\\mathrm{C}_{9}^{3}=84$."
         },
         {
           "num": 15,
-          "body": "已知抛物线 $C: y^{2} = 2px$ （$p > 0$）的准线为 $l$，过 $M(1,0)$ 且斜率为 $\\sqrt{3}$ 的直线与 $l$ 相交于点 $A$，与 $C$ 的一个交点为 $B$. 若 $\\overrightarrow{AM} = \\overrightarrow{MB}$，则 $p = _______ {}$.",
-          "choices": [],
+          "body": "已知抛物线 $C: y^{2}= 2px$ （$p > 0$）的准线为 $l$，过 $M(1,0)$ 且斜率为 $\\sqrt{3}$ 的直线与 $l$ 相交于点 $A$，与 $C$ 的一个交点为 $B$. 若 $\\overrightarrow{AM}= \\overrightarrow{MB}$，则 $p =\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
           "answer": "2",
-          "solution": "抛物线 $y^2=2px$ 的准线为 $x=-\\frac{p}{2}$. 过 $M=(1,0)$ 且斜率为 $\\sqrt{3}$ 的直线为 $y=\\sqrt{3}(x-1)$，所以 $A=\\left(-\\frac{p}{2},-\\sqrt{3}\\left(\\frac{p}{2}+1\\right)\\right)$. 由 $\\overrightarrow{AM}=\\overrightarrow{MB}$，点 $M$ 是 $AB$ 的中点，故 $B=2M-A=\\left(2+\\frac{p}{2},\\sqrt{3}\\left(\\frac{p}{2}+1\\right)\\right)$.\r\n\r\n把 $B$ 代入抛物线方程，得 $3\\left(\\frac{p}{2}+1\\right)^2=2p\\left(2+\\frac{p}{2}\\right)$，即 $3(p+2)^2=4p(p+4)$. 化简得 $p^2+4p-12=0$，所以 $p=2$ 或 $p=-6$. 由 $p>0$，得 $p=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>抛物线 $y^{2}=2px$ 的准线为 $x=-\\frac{p}{2}$. 过 $M=(1,0)$ 且斜率为 $\\sqrt{3}$ 的直线为 $y=\\sqrt{3}(x-1)$，所以 $A=\\left(-\\frac{p}{2},-\\sqrt{3}\\left(\\frac{p}{2}+1\\right)\\right)$. 由 $\\overrightarrow{AM}=\\overrightarrow{MB}$，点 $M$ 是 $AB$ 的中点，故 $B=2M-A=\\left(2+\\frac{p}{2},\\sqrt{3}\\left(\\frac{p}{2}+1\\right)\\right)$.</p><p>把 $B$ 代入抛物线方程，得 $3\\left(\\frac{p}{2}+1\\right)^{2}=2p\\left(2+\\frac{p}{2}\\right)$，即 $3(p+2)^{2}=4p(p+4)$. 化简得 $p^{2}+4p-12=0$，所以 $p=2$ 或 $p=-6$. 由 $p>0$，得 $p=2$.</p>"
         },
         {
           "num": 16,
-          "body": "已知球 $O$ 的半径为 $4$，圆 $M$ 与圆 $N$ 为该球的两个小圆，$AB$ 为圆 $M$ 与圆 $N$ 的公共弦，$AB = 4$. 若 $OM = ON = 3$，则两圆圆心的距离 $MN = _______ {}$.",
-          "choices": [],
+          "body": "已知球 $O$ 的半径为 $4$，圆 $M$ 与圆 $N$ 为该球的两个小圆，$AB$ 为圆 $M$ 与圆 $N$ 的公共弦，$AB = 4$. 若 $OM = ON = 3$，则两圆圆心的距离 $MN =\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
           "answer": "3",
-          "solution": "设 $P$ 为公共弦 $AB$ 的中点. 因为球半径为 $4$，且 $OM=ON=3$，所以小圆 $M$，$N$ 的半径均为 $\\sqrt{4^2-3^2}=\\sqrt{7}$. 于是 $MP=NP=\\sqrt{7-2^2}=\\sqrt{3}$. 又 $OP\\perp AB$，所以 $OP=\\sqrt{4^2-2^2}=2\\sqrt{3}$.\r\n\r\n点 $O$，$M$，$N$，$P$ 共面，且 $OM\\perp MP$. 在直角三角形 $OMP$ 中，设从 $M$ 到 $OP$ 的高为 $h$，由面积相等得 $\\frac{1}{2}OM\\cdot MP=\\frac{1}{2}OP\\cdot h$，所以 $h=\\frac{3\\cdot\\sqrt{3}}{2\\sqrt{3}}=\\frac{3}{2}$. 由于 $OM=ON$ 且 $MP=NP$，直线 $OP$ 是 $MN$ 的垂直平分线，故 $MN=2h=3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $P$ 为公共弦 $AB$ 的中点. 因为球半径为 $4$，且 $OM=ON=3$，所以小圆 $M$，$N$ 的半径均为 $\\sqrt{4^{2}-3^{2}}=\\sqrt{7}$. 于是 $MP=NP=\\sqrt{7-2^{2}}=\\sqrt{3}$. 又 $OP\\perp AB$，所以 $OP=\\sqrt{4^{2}-2^{2}}=2\\sqrt{3}$.</p><p>点 $O$，$M$，$N$，$P$ 共面，且 $OM\\perp MP$. 在直角三角形 $OMP$ 中，设从 $M$ 到 $OP$ 的高为 $h$，由面积相等得 $\\frac{1}{2}OM\\cdot MP=\\frac{1}{2}OP\\cdot h$，所以 $h=\\frac{3\\cdot\\sqrt{3}}{2\\sqrt{3}}=\\frac{3}{2}$. 由于 $OM=ON$ 且 $MP=NP$，直线 $OP$ 是 $MN$ 的垂直平分线，故 $MN=2h=3$.</p>"
         }
       ]
     },
@@ -359,47 +192,37 @@
         {
           "num": 17,
           "body": "$\\triangle ABC$ 中，$D$ 为边 $BC$ 上的一点，$BD = 33$，$\\sin B = \\frac{5}{13}$，$\\cos \\angle ADC = \\frac{3}{5}$，求 $AD$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "由 $\\cos\\angle ADC=\\frac{3}{5}>0$，知 $\\angle ADC$ 为锐角，故 $\\sin\\angle ADC=\\frac{4}{5}$. 又因 $D$ 在 $BC$ 上，三角形 $ABD$ 中 $\\angle BAD=\\angle ADC-B$. 由 $\\sin B=\\frac{5}{13}$ 且 $B<\\angle ADC<\\frac{\\pi}{2}$，得 $\\cos B=\\frac{12}{13}$. 因而 $\\sin\\angle BAD=\\sin\\left(\\angle ADC-B\\right)=\\frac{4}{5}\\cdot\\frac{12}{13}-\\frac{3}{5}\\cdot\\frac{5}{13}=\\frac{33}{65}$.\r\n\r\n在三角形 $ABD$ 中应用正弦定理，得 $\\frac{AD}{\\sin B}=\\frac{BD}{\\sin\\angle BAD}$，所以 $AD=33\\cdot\\frac{5}{13}\\cdot\\frac{65}{33}=25$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由 $\\cos\\angle ADC=\\frac{3}{5}>0$，知 $\\angle ADC$ 为锐角，故 $\\sin\\angle ADC=\\frac{4}{5}$. 又因 $D$ 在 $BC$ 上，三角形 $ABD$ 中 $\\angle BAD=\\angle ADC-B$. 由 $\\sin B=\\frac{5}{13}$ 且 $B&#x3C;\\angle ADC&#x3C;\\frac{\\pi}{2}$，得 $\\cos B=\\frac{12}{13}$. 因而 $\\sin\\angle BAD=\\sin\\left(\\angle ADC-B\\right)=\\frac{4}{5}\\cdot\\frac{12}{13}-\\frac{3}{5}\\cdot\\frac{5}{13}=\\frac{33}{65}$.</p><p>在三角形 $ABD$ 中应用正弦定理，得 $\\frac{AD}{\\sin B}=\\frac{BD}{\\sin\\angle BAD}$，所以 $AD=33\\cdot\\frac{5}{13}\\cdot\\frac{65}{33}=25$.</p>"
         },
         {
           "num": 18,
-          "body": "已知 $\\{a_{n}\\}$ 是各项均为正数的等比数列，且 $a_{1} + a_{2} = 2\\left(\\frac{1}{a_{1}} + \\frac{1}{a_{2}}\\right)$，$a_{3} + a_{4} + a_{5} = 64\\left(\\frac{1}{a_{3}} + \\frac{1}{a_{4}} + \\frac{1}{a_{5}}\\right)$.\r\n\r\n\n(1) 求 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 设 $b_n = \\left(a_n + \\frac{1}{a_n}\\right)^2$，求数列 $\\{b_n\\}$ 的前 $n$ 项和 $T_n$.",
-          "choices": [],
+          "body": "<p>已知 $\\{a_{n}\\}$ 是各项均为正数的等比数列，且 $a_{1}+ a_{2}= 2\\left(\\frac{1}{a_{1}}+ \\frac{1}{a_{2}}\\right)$，$a_{3}+ a_{4}+ a_{5}= 64\\left(\\frac{1}{a_{3}}+ \\frac{1}{a_{4}}+ \\frac{1}{a_{5}}\\right)$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>设 $b_{n} = \\left(a_{n} + \\frac{1}{a_{n}}\\right)^{2}$，求数列 $\\{b_{n}\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设首项为 $a_1=u>0$，公比为 $q>0$. 由第一组条件，$u(1+q)=2\\left(\\frac{1}{u}+\\frac{1}{uq}\\right)=\\frac{2(1+q)}{uq}$，从而 $u^2q=2$. 由第二组条件，$u q^2(1+q+q^2)=64\\cdot\\frac{1+q+q^2}{u q^4}$，因 $1+q+q^2>0$，得 $u^2q^6=64$，即 $u q^3=8$. 联立 $u^2q=2$ 与 $u q^3=8$，可得 $q^5=32$. 由于 $q>0$，所以 $q=2$，再得 $u=1$. 因而 $a_n=2^{n-1}$.\n\n(2) 由 $a_n=2^{n-1}$，$b_n=\\left(2^{n-1}+2^{1-n}\\right)^2=4^{n-1}+2+4^{1-n}$. 所以前 $n$ 项和为 $T_n=\\sum_{k=1}^{n}4^{k-1}+2n+\\sum_{k=1}^{n}4^{1-k}=\\frac{4^n-1}{3}+2n+\\frac{4}{3}\\left(1-4^{-n}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设首项为 $a_{1}=u>0$，公比为 $q>0$. 由第一组条件，$u(1+q)=2\\left(\\frac{1}{u}+\\frac{1}{uq}\\right)=\\frac{2(1+q)}{uq}$，从而 $u^{2}q=2$. 由第二组条件，$u q^{2}(1+q+q^{2})=64\\cdot\\frac{1+q+q^{2}}{u q^{4}}$，因 $1+q+q^{2}>0$，得 $u^{2}q^{6}=64$，即 $u q^{3}=8$. 联立 $u^{2}q=2$ 与 $u q^{3}=8$，可得 $q^{5}=32$. 由于 $q>0$，所以 $q=2$，再得 $u=1$. 因而 $a_{n}=2^{n-1}$.</p></li><li><p>由 $a_{n}=2^{n-1}$，$b_{n}=\\left(2^{n-1}+2^{1-n}\\right)^{2}=4^{n-1}+2+4^{1-n}$. 所以前 $n$ 项和为 $T_{n}=\\sum_{k=1}^{n}4^{k-1}+2n+\\sum_{k=1}^{n}4^{1-k}=\\frac{4^{n}-1}{3}+2n+\\frac{4}{3}\\left(1-4^{-n}\\right)$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AC = BC$，$AA_{1} = AB$，$D$ 为 $BB_{1}$ 的中点，$E$ 为 $AB_{1}$ 上的一点，$AE = 3EB_{1}$.\r\n\r\n\n(1) 证明：$DE$ 为异面直线 $AB_{1}$ 与 $CD$ 的公垂线.\n\n(2) 设异面直线 $AB_{1}$ 与 $CD$ 的夹角为 $45^{\\circ}$，求二面角 $A_{1}-AC_{1}-B_{1}$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/syllabus_paper_2_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，直三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，$AC = BC$，$AA_{1}= AB$，$D$ 为 $BB_{1}$ 的中点，$E$ 为 $AB_{1}$ 上的一点，$AE = 3EB_{1}$.</p><ol class=\"enumerate\"><li><p>证明：$DE$ 为异面直线 $AB_{1}$ 与 $CD$ 的公垂线.</p></li><li><p>设异面直线 $AB_{1}$ 与 $CD$ 的夹角为 $45^{\\circ}$，求二面角 $A_{1}-AC_{1}-B_{1}$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_2_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $AB=s>0$，建立直角坐标系：$A=(0,0,0)$，$B=(s,0,0)$，$C=\\left(\\frac{s}{2},h,0\\right)$，$A_1=(0,0,s)$，$B_1=(s,0,s)$，$C_1=\\left(\\frac{s}{2},h,s\\right)$. 由 $D$ 为 $BB_1$ 的中点及 $AE=3EB_1$，得 $D=\\left(s,0,\\frac{s}{2}\\right)$，$E=\\left(\\frac{3s}{4},0,\\frac{3s}{4}\\right)$. 因而 $\\overrightarrow{DE}=\\left(-\\frac{s}{4},0,\\frac{s}{4}\\right)$，$\\overrightarrow{AB_1}=(s,0,s)$，两者内积为 $0$，所以 $DE\\perp AB_1$. 又 $\\overrightarrow{DC}=\\left(-\\frac{s}{2},h,-\\frac{s}{2}\\right)$，有 $\\overrightarrow{DE}\\cdot\\overrightarrow{DC}=0$，所以 $DE\\perp CD$. 直线 $DE$ 分别在 $E$，$D$ 处与 $AB_1$，$CD$ 相交，故 $DE$ 是两异面直线的公垂线.\n\n(2) 取 $\\overrightarrow{AB_1}=(s,0,s)$，$\\overrightarrow{DC}=\\left(-\\frac{s}{2},h,-\\frac{s}{2}\\right)$. 由两直线夹角为 $45^\\circ$，$\\frac{s^2}{s\\sqrt{2}\\sqrt{\\frac{s^2}{2}+h^2}}=\\cos45^\\circ=\\frac{1}{\\sqrt{2}}$，得 $h^2=\\frac{s^2}{2}$.\r\n\r\n平面 $A_1AC_1$ 和 $A C_1B_1$ 的法向量可分别取 $\\mathbf{n}_1=\\left(-\\sqrt{2},1,0\\right)$ 与 $\\mathbf{n}_2=\\left(\\sqrt{2},1,-\\sqrt{2}\\right)$. 设二面角为 $\\theta$，则取其锐角，有 $\\cos\\theta=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1|\\,|\\mathbf{n}_2|}=\\frac{1}{\\sqrt{15}}$. 所以 $\\sin\\theta=\\sqrt{\\frac{14}{15}}$，从而 $\\tan\\theta=\\sqrt{14}$，即二面角的大小为 $\\arctan\\sqrt{14}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $AB=s>0$，建立直角坐标系：$A=(0,0,0)$，$B=(s,0,0)$，$C=\\left(\\frac{s}{2},h,0\\right)$，$A_{1}=(0,0,s)$，$B_{1}=(s,0,s)$，$C_{1}=\\left(\\frac{s}{2},h,s\\right)$. 由 $D$ 为 $BB_{1}$ 的中点及 $AE=3EB_{1}$，得 $D=\\left(s,0,\\frac{s}{2}\\right)$，$E=\\left(\\frac{3s}{4},0,\\frac{3s}{4}\\right)$. 因而 $\\overrightarrow{DE}=\\left(-\\frac{s}{4},0,\\frac{s}{4}\\right)$，$\\overrightarrow{AB_1}=(s,0,s)$，两者内积为 $0$，所以 $DE\\perp AB_{1}$. 又 $\\overrightarrow{DC}=\\left(-\\frac{s}{2},h,-\\frac{s}{2}\\right)$，有 $\\overrightarrow{DE}\\cdot\\overrightarrow{DC}=0$，所以 $DE\\perp CD$. 直线 $DE$ 分别在 $E$，$D$ 处与 $AB_{1}$，$CD$ 相交，故 $DE$ 是两异面直线的公垂线.</p></li><li><p>取 $\\overrightarrow{AB_1}=(s,0,s)$，$\\overrightarrow{DC}=\\left(-\\frac{s}{2},h,-\\frac{s}{2}\\right)$. 由两直线夹角为 $45^{\\circ}$，$\\frac{s^{2}}{s\\sqrt{2}\\sqrt{\\frac{s^2}{2}+h^{2}}}=\\cos45^{\\circ}=\\frac{1}{\\sqrt{2}}$，得 $h^{2}=\\frac{s^{2}}{2}$.</p><p>平面 $A_{1}AC_{1}$ 和 $A C_{1}B_{1}$ 的法向量可分别取 $\\mathbf{n}_{1}=\\left(-\\sqrt{2},1,0\\right)$ 与 $\\mathbf{n}_{2}=\\left(\\sqrt{2},1,-\\sqrt{2}\\right)$. 设二面角为 $\\theta$，则取其锐角，有 $\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{1}{\\sqrt{15}}$. 所以 $\\sin\\theta=\\sqrt{\\frac{14}{15}}$，从而 $\\tan\\theta=\\sqrt{14}$，即二面角的大小为 $\\arctan\\sqrt{14}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "如图，由 $M$ 到 $N$ 的电路中有 $4$ 个组件，分别标为 $T_{1}$，$T_{2}$，$T_{3}$，$T_{4}$，电流能通过 $T_{1}$，$T_{2}$，$T_{3}$ 的概率都是 $p$，电流能通过 $T_{4}$ 的概率是 $0.9$. 电流能否通过各组件相互独立. 已知 $T_{1}$，$T_{2}$，$T_{3}$ 中至少有一个能通过电流的概率为 $0.999$.\r\n\r\n\n(1) 求 $p$；\n\n(2) 求电流能在 $M$ 与 $N$ 之间通过的概率.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/syllabus_paper_2_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，由 $M$ 到 $N$ 的电路中有 $4$ 个组件，分别标为 $T_{1}$，$T_{2}$，$T_{3}$，$T_{4}$，电流能通过 $T_{1}$，$T_{2}$，$T_{3}$ 的概率都是 $p$，电流能通过 $T_{4}$ 的概率是 $0.9$. 电流能否通过各组件相互独立. 已知 $T_{1}$，$T_{2}$，$T_{3}$ 中至少有一个能通过电流的概率为 $0.999$.</p><ol class=\"enumerate\"><li><p>求 $p$；</p></li><li><p>求电流能在 $M$ 与 $N$ 之间通过的概率.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_2_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设事件 $A_i$ 表示电流能通过 $T_i$. 由独立性，$T_1$，$T_2$，$T_3$ 均不能通过的概率为 $(1-p)^3$. 因题设至少一个能通过的概率为 $0.999$，有 $(1-p)^3=1-0.999=0.001$. 因 $0\\le p\\leqslant1$，得 $1-p=0.1$，所以 $p=0.9$.\n\n(2) 从电路图看，电流通过 $M$，$N$ 的事件为：$T_4$ 能通过，或 $T_4$ 不能通过且 $T_3$ 能通过并且 $T_1$，$T_2$ 中至少一个能通过. 这些情形互斥，因此所求概率为 $0.9+0.1\\cdot0.9\\left[1-(1-0.9)^2\\right]=0.9+0.1\\cdot0.9\\cdot0.99=0.9891$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设事件 $A_{i}$ 表示电流能通过 $T_{i}$. 由独立性，$T_{1}$，$T_{2}$，$T_{3}$ 均不能通过的概率为 $(1-p)^{3}$. 因题设至少一个能通过的概率为 $0.999$，有 $(1-p)^{3}=1-0.999=0.001$. 因 $0\\le p\\leqslant1$，得 $1-p=0.1$，所以 $p=0.9$.</p></li><li><p>从电路图看，电流通过 $M$，$N$ 的事件为：$T_{4}$ 能通过，或 $T_{4}$ 不能通过且 $T_{3}$ 能通过并且 $T_{1}$，$T_{2}$ 中至少一个能通过. 这些情形互斥，因此所求概率为 $0.9+0.1\\cdot0.9\\left[1-(1-0.9)^{2}\\right]=0.9+0.1\\cdot0.9\\cdot0.99=0.9891$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知函数 $f(x) = x^3 - 3ax^2 + 3x + 1$.\r\n\r\n\n(1) 设 $a = 2$，求 $f(x)$ 的单调区间；\n\n(2) 设 $f(x)$ 在区间 $(2,3)$ 中至少有一个极值点，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = x^{3} - 3ax^{2} + 3x + 1$.</p><ol class=\"enumerate\"><li><p>设 $a = 2$，求 $f(x)$ 的单调区间；</p></li><li><p>设 $f(x)$ 在区间 $(2,3)$ 中至少有一个极值点，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $a=2$ 时，$f'(x)=3x^2-12x+3=3\\left(x^2-4x+1\\right)$. 方程 $f'(x)=0$ 的根为 $x=2-\\sqrt{3}$ 和 $x=2+\\sqrt{3}$. 因二次项系数为正，$f'(x)>0$ 在两根外侧成立，$f'(x)<0$ 在两根之间成立. 所以增区间为 $\\left(-\\infty,2-\\sqrt{3}\\right)$ 和 $\\left(2+\\sqrt{3},+\\infty\\right)$，减区间为 $\\left(2-\\sqrt{3},2+\\sqrt{3}\\right)$.\n\n(2) $f'(x)=3\\left(x^2-2ax+1\\right)$. 极值点必须是导数变号的零点. 对 $x\\in(2,3)$，方程 $f'(x)=0$ 等价于 $a=\\frac{x^2+1}{2x}=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$. 函数 $g(x)=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$ 在 $(2,3)$ 上递增，因为 $g'(x)=\\frac{x^2-1}{2x^2}>0$. 因而存在 $x\\in(2,3)$ 使 $f'(x)=0$ 的充要条件为 $g(2)<a<g(3)$，即 $\\frac{5}{4}<a<\\frac{5}{3}$. 此时 $x>2>1$，另一个根为 $\\frac{1}{x}$，两根不重合，导数确实变号，故该条件正好保证区间内至少有一个极值点.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=2$ 时，$f'(x)=3x^{2}-12x+3=3\\left(x^{2}-4x+1\\right)$. 方程 $f'(x)=0$ 的根为 $x=2-\\sqrt{3}$ 和 $x=2+\\sqrt{3}$. 因二次项系数为正，$f'(x)>0$ 在两根外侧成立，$f'(x)&#x3C;0$ 在两根之间成立. 所以增区间为 $\\left(-\\infty,2-\\sqrt{3}\\right)$ 和 $\\left(2+\\sqrt{3},+\\infty\\right)$，减区间为 $\\left(2-\\sqrt{3},2+\\sqrt{3}\\right)$.</p></li><li><p>$f'(x)=3\\left(x^{2}-2ax+1\\right)$. 极值点必须是导数变号的零点. 对 $x\\in(2,3)$，方程 $f'(x)=0$ 等价于 $a=\\frac{x^{2}+1}{2x}=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$. 函数 $g(x)=\\frac{1}{2}\\left(x+\\frac{1}{x}\\right)$ 在 $(2,3)$ 上递增，因为 $g'(x)=\\frac{x^{2}-1}{2x^{2}}>0$. 因而存在 $x\\in(2,3)$ 使 $f'(x)=0$ 的充要条件为 $g(2)&#x3C;a&#x3C;g(3)$，即 $\\frac{5}{4}&#x3C;a&#x3C;\\frac{5}{3}$. 此时 $x>2>1$，另一个根为 $\\frac{1}{x}$，两根不重合，导数确实变号，故该条件正好保证区间内至少有一个极值点.</p></li></ol>"
         }
       ]
     },
@@ -408,15 +231,12 @@
       "problems": [
         {
           "num": 22,
-          "body": "已知斜率为 $1$ 的直线 $l$ 与双曲线 $C: \\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1$（$a > 0$，$b > 0$）相交于 $B$，$D$ 两点，且 $BD$ 的中点为 $M(1,3)$.\r\n\r\n\n(1) 求 $C$ 的离心率；\n\n(2) 设 $C$ 的右顶点为 $A$，右焦点为 $F$，$\\left|DF\\right| \\cdot \\left|BF\\right| = 17$，证明：过 $A$，$B$，$D$ 三点的圆与 $x$ 轴相切.",
-          "choices": [],
+          "body": "<p>已知斜率为 $1$ 的直线 $l$ 与双曲线 $C: \\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）相交于 $B$，$D$ 两点，且 $BD$ 的中点为 $M(1,3)$.</p><ol class=\"enumerate\"><li><p>求 $C$ 的离心率；</p></li><li><p>设 $C$ 的右顶点为 $A$，右焦点为 $F$，$\\left|DF\\right| \\cdot \\left|BF\\right| = 17$，证明：过 $A$，$B$，$D$ 三点的圆与 $x$ 轴相切.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 直线 $l$ 过 $M(1,3)$ 且斜率为 $1$，所以 $l$ 的方程为 $y=x+2$. 设 $B$，$D$ 的横坐标为 $x_1$，$x_2$，将直线方程代入双曲线方程，得 $(b^2-a^2)x^2-4a^2x-a^2b^2-4a^2=0$. 因 $M$ 是 $BD$ 的中点，$x_1+x_2=2$. 由韦达定理，$x_1+x_2=\\frac{4a^2}{b^2-a^2}=2$，所以 $b^2=3a^2$. 双曲线的焦半距满足 $c^2=a^2+b^2=4a^2$，故离心率 $e=\\frac{c}{a}=2$.\n\n(2) 由 $b^2=3a^2$，双曲线方程等价于 $3x^2-y^2=3a^2$. 设 $B=(1+t,3+t)$，$D=(1-t,3-t)$，其中 $t>0$. 将 $y=x+2$ 代入 $3x^2-y^2=3a^2$，得 $2x^2-4x-4=3a^2$，再令 $x=1\\pm t$，得到 $t^2=\\frac{3(a^2+2)}{2}$.\r\n\r\n右焦点为 $F=(2a,0)$. 记 $d_+^2=|BF|^2$，$d_-^2=|DF|^2$，则 $d_+^2=\\left(1+t-2a\\right)^2+\\left(3+t\\right)^2$，$d_-^2=\\left(1-t-2a\\right)^2+\\left(3-t\\right)^2$. 令 $K=7a^2-4a+16$，由上式和 $2t^2=3a^2+6$ 得 $d_+^2=K+4(2-a)t$，$d_-^2=K-4(2-a)t$. 因而 $\\left(|BF|\\,|DF|\\right)^2=K^2-16(2-a)^2t^2=25a^4+40a^3+96a^2+64a+64$.\r\n\r\n由题设 $|BF|\\,|DF|=17$，得到 $25a^4+40a^3+96a^2+64a-225=0$，即 $(a-1)\\left(25a^3+65a^2+161a+225\\right)=0$. 因 $a>0$，括号内三次式为正，故 $a=1$. 此时右顶点 $A=(1,0)$，而 $M=(1,3)$. 由于 $BD$ 的斜率为 $1$，$AM$ 为竖直线，故 $AM\\perp BD$. 又 $M$ 是 $BD$ 的中点，所以 $A$ 在 $BD$ 的垂直平分线上，即 $AB=AD$. 因而过 $A$，$B$，$D$ 的圆的圆心在直线 $AM$ 上，圆心与 $A$ 的连线垂直于 $x$ 轴，所以该圆在 $A$ 处与 $x$ 轴相切.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>直线 $l$ 过 $M(1,3)$ 且斜率为 $1$，所以 $l$ 的方程为 $y=x+2$. 设 $B$，$D$ 的横坐标为 $x_{1}$，$x_{2}$，将直线方程代入双曲线方程，得 $(b^{2}-a^{2})x^{2}-4a^{2}x-a^{2}b^{2}-4a^{2}=0$. 因 $M$ 是 $BD$ 的中点，$x_{1}+x_{2}=2$. 由韦达定理，$x_{1}+x_{2}=\\frac{4a^{2}}{b^{2}-a^{2}}=2$，所以 $b^{2}=3a^{2}$. 双曲线的焦半距满足 $c^{2}=a^{2}+b^{2}=4a^{2}$，故离心率 $e=\\frac{c}{a}=2$.</p></li><li><p>由 $b^{2}=3a^{2}$，双曲线方程等价于 $3x^{2}-y^{2}=3a^{2}$. 设 $B=(1+t,3+t)$，$D=(1-t,3-t)$，其中 $t>0$. 将 $y=x+2$ 代入 $3x^{2}-y^{2}=3a^{2}$，得 $2x^{2}-4x-4=3a^{2}$，再令 $x=1\\pm t$，得到 $t^{2}=\\frac{3(a^{2}+2)}{2}$.</p><p>右焦点为 $F=(2a,0)$. 记 $d_{+}^{2}=|BF|^{2}$，$d_{-}^{2}=|DF|^{2}$，则 $d_{+}^{2}=\\left(1+t-2a\\right)^{2}+\\left(3+t\\right)^{2}$，$d_{-}^{2}=\\left(1-t-2a\\right)^{2}+\\left(3-t\\right)^{2}$. 令 $K=7a^{2}-4a+16$，由上式和 $2t^{2}=3a^{2}+6$ 得 $d_{+}^{2}=K+4(2-a)t$，$d_{-}^{2}=K-4(2-a)t$. 因而 $\\left(|BF|\\,|DF|\\right)^{2}=K^{2}-16(2-a)^{2}t^{2}=25a^{4}+40a^{3}+96a^{2}+64a+64$.</p><p>由题设 $|BF|\\,|DF|=17$，得到 $25a^{4}+40a^{3}+96a^{2}+64a-225=0$，即 $(a-1)\\left(25a^{3}+65a^{2}+161a+225\\right)=0$. 因 $a>0$，括号内三次式为正，故 $a=1$. 此时右顶点 $A=(1,0)$，而 $M=(1,3)$. 由于 $BD$ 的斜率为 $1$，$AM$ 为竖直线，故 $AM\\perp BD$. 又 $M$ 是 $BD$ 的中点，所以 $A$ 在 $BD$ 的垂直平分线上，即 $AB=AD$. 因而过 $A$，$B$，$D$ 的圆的圆心在直线 $AM$ 上，圆心与 $A$ 的连线垂直于 $x$ 轴，所以该圆在 $A$ 处与 $x$ 轴相切.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

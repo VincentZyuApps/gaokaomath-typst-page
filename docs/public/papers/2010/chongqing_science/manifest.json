@@ -1,144 +1,15 @@
 {
+  "title": "2010年普通高等学校招生全国统一考试",
+  "subtitle": "2010年重庆卷（理）",
   "year": "2010",
   "slug": "chongqing_science",
-  "title": "2010年重庆卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "在等比数列 $\\{a_{n}\\}$ 中，$a_{2010} = 8a_{2007}$，则公比 $q$ 的值为（ ）\r\n\r\n\r\nA\r\n\r\n由等比数列的递推关系，$a_{2010}=a_{2007}q^3$，所以题设等式等价于\r\n$a_{2007}(q^3-8)=0$. 按本题通常采用的非零项命题约定 $a_{2007}\\ne0$，可得 $q^3=8$，从而 $q=2$，故选 A. 若允许全零数列，则题设等式对任意 $q$ 都成立，公比将不能唯一确定；本题按标准答案取非零项情形.",
+          "body": "<p>在等比数列 $\\{a_{n}\\}$ 中，$a_{2010}= 8a_{2007}$，则公比 $q$ 的值为（ ）</p><p>A</p><p>由等比数列的递推关系，$a_{2010}=a_{2007}q^{3}$，所以题设等式等价于</p><p>$a_{2007}(q^{3}-8)=0$. 按本题通常采用的非零项命题约定 $a_{2007}\\ne0$，可得 $q^{3}=8$，从而 $q=2$，故选 A. 若允许全零数列，则题设等式对任意 $q$ 都成立，公比将不能唯一确定；本题按标准答案取非零项情形.</p>",
           "choices": [
             "$2$",
             "$3$",
@@ -146,13 +17,11 @@
             "$8$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 2,
-          "body": "已知向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\mathbf{a} \\cdot \\mathbf{b} = 0$，$|\\mathbf{a}| = 1$，$|\\mathbf{b}| = 2$，则 $|2\\mathbf{a} - \\mathbf{b}| =$（ ）\r\n\r\n\r\nB\r\n\r\n因为 $\\mathbf{a}$ 与 $\\mathbf{b}$ 垂直，所以 $\\mathbf{a}\\cdot\\mathbf{b}=0$. 于是 $\\left|2\\mathbf{a}-\\mathbf{b}\\right|^2=4|\\mathbf{a}|^2-4\\mathbf{a}\\cdot\\mathbf{b}+|\\mathbf{b}|^2=4+0+4=8$，从而 $\\left|2\\mathbf{a}-\\mathbf{b}\\right|=2\\sqrt{2}$，故选 B.",
+          "body": "<p>已知向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\mathbf{a}\\cdot \\mathbf{b}= 0$，$|\\mathbf{a}| = 1$，$|\\mathbf{b}| = 2$，则 $|2\\mathbf{a}- \\mathbf{b}| =$（ ）</p><p>B</p><p>因为 $\\mathbf{a}$ 与 $\\mathbf{b}$ 垂直，所以 $\\mathbf{a}\\cdot\\mathbf{b}=0$. 于是 $\\left|2\\mathbf{a}-\\mathbf{b}\\right|^{2}=4|\\mathbf{a}|^{2}-4\\mathbf{a}\\cdot\\mathbf{b}+|\\mathbf{b}|^{2}=4+0+4=8$，从而 $\\left|2\\mathbf{a}-\\mathbf{b}\\right|=2\\sqrt{2}$，故选 B.</p>",
           "choices": [
             "$0$",
             "$2\\sqrt{2}$",
@@ -160,13 +29,11 @@
             "$8$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 3,
-          "body": "$\\displaystyle\\lim_{x\\to 2}\\left(\\frac{4}{x^2 - 4} -\\frac{1}{x - 2}\\right) =$（ ）\r\n\r\n\r\nB\r\n\r\n将分式通分，得\r\n\n$$\n\\frac{4}{x^2-4}-\\frac{1}{x-2}=\\frac{4-(x+2)}{(x-2)(x+2)}\r\n=\\frac{-(x-2)}{(x-2)(x+2)}=-\\frac{1}{x+2}\n$$\n\r\n其中 $x\\ne2$，所以约分不改变 $x\\to2$ 时的极限.\r\n因此\r\n\n$$\n\\displaystyle\\lim_{x\\to2}\\left(\\frac{4}{x^2-4}-\\frac{1}{x-2}\\right)=\\lim_{x\\to2}\\left(-\\frac{1}{x+2}\\right)=-\\frac14\n$$\n\r\n故选 B.",
+          "body": "<p>$\\displaystyle\\lim_{x\\to 2}\\left(\\frac{4}{x^{2} - 4}-\\frac{1}{x - 2}\\right) =$（ ）</p><p>B</p><p>将分式通分，得</p>\n$$\n\\frac{4}{x^{2}-4}-\\frac{1}{x-2}=\\frac{4-(x+2)}{(x-2)(x+2)}=\\frac{-(x-2)}{(x-2)(x+2)}=-\\frac{1}{x+2}\n$$\n<p>其中 $x\\ne2$，所以约分不改变 $x\\to2$ 时的极限.</p><p>因此</p>\n$$\n\\displaystyle\\lim_{x\\to2}\\left(\\frac{4}{x^{2}-4}-\\frac{1}{x-2}\\right)=\\lim_{x\\to2}\\left(-\\frac{1}{x+2}\\right)=-\\frac{1}{4}\n$$\n<p>故选 B.</p>",
           "choices": [
             "$-1$",
             "$-\\frac{1}{4}$",
@@ -174,13 +41,11 @@
             "$1$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 4,
-          "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\ny \\ge 0,\\\\\r\nx - y + 1 \\ge 0,\\\\\r\nx + y - 3 \\le 0,\r\n\\end{cases}$ 则 $z = 2x + y$ 的最大值为（ ）\r\n\r\n\r\nC\r\n\r\n由约束条件得 $x\\ge y-1$，$x\\le 3-y$，并且 $y\\geqslant0$. 由两条关于 $x$ 的界可知 $y-1\\leqslant3-y$，故 $0\\le y\\leqslant2$. 固定 $y$ 时，$z=2x+y$ 随 $x$ 增大而增大，所以取 $x=3-y$. 此时\r\n$z=2(3-y)+y=6-y\\leqslant6$. 当 $y=0$，$x=3$ 时满足全部约束且取等号，故最大值为 $6$，选 C.",
+          "body": "<p>设变量 $x$，$y$ 满足约束条件 $\\begin{cases}y \\ge 0,\\\\\n\nx - y + 1 \\ge 0,\\\\\n\nx + y - 3 \\le 0,\\end{cases}$ 则 $z = 2x + y$ 的最大值为（ ）</p><p>C</p><p>由约束条件得 $x\\ge y-1$，$x\\le 3-y$，并且 $y\\geqslant0$. 由两条关于 $x$ 的界可知 $y-1\\leqslant3-y$，故 $0\\le y\\leqslant2$. 固定 $y$ 时，$z=2x+y$ 随 $x$ 增大而增大，所以取 $x=3-y$. 此时</p><p>$z=2(3-y)+y=6-y\\leqslant6$. 当 $y=0$，$x=3$ 时满足全部约束且取等号，故最大值为 $6$，选 C.</p>",
           "choices": [
             "$-2$",
             "$4$",
@@ -188,13 +53,11 @@
             "$8$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 5,
-          "body": "函数 $f(x) = \\frac{4^x + 1}{2^x}$ 的图象（ ）\r\n\r\n\r\nD\r\n\r\n将函数式化为 $f(x)=2^x+2^{-x}$. 因此 $f(-x)=2^{-x}+2^x=f(x)$，所以函数为偶函数，图象关于 $y$ 轴对称，选 D.",
+          "body": "<p>函数 $f(x) = \\frac{4^{x} + 1}{2^{x}}$ 的图象（ ）</p><p>D</p><p>将函数式化为 $f(x)=2^{x}+2^{-x}$. 因此 $f(-x)=2^{-x}+2^{x}=f(x)$，所以函数为偶函数，图象关于 $y$ 轴对称，选 D.</p>",
           "choices": [
             "关于原点对称",
             "关于直线 $y = x$ 对称",
@@ -202,13 +65,11 @@
             "关于 $y$ 轴对称"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 6,
-          "body": "已知函数 $y = \\sin\\left(\\omega x + \\varphi\\right)$（$\\omega > 0$，$|\\varphi| < \\frac{\\pi}{2}$）的部分图象如图所示. 则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/chongqing_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\r\nD\r\n\r\n由图象知，函数在 $x=\\frac{\\pi}{3}$ 处取得最大值，因此 $\\omega\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}$. 又图象在 $x=\\frac{7\\pi}{12}$ 处过 $x$ 轴并由正变负，因此 $\\omega\\frac{7\\pi}{12}+\\varphi=\\pi$. 两式相减得 $\\omega\\frac{\\pi}{4}=\\frac{\\pi}{2}$，所以 $\\omega=2$，代回得 $\\varphi=-\\frac{\\pi}{6}$，故选 D.",
+          "body": "<p>已知函数 $y = \\sin\\left(\\omega x + \\varphi\\right)$（$\\omega > 0$，$|\\varphi| &#x3C; \\frac{\\pi}{2}$）的部分图象如图所示. 则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>D</p><p>由图象知，函数在 $x=\\frac{\\pi}{3}$ 处取得最大值，因此 $\\omega\\frac{\\pi}{3}+\\varphi=\\frac{\\pi}{2}$. 又图象在 $x=\\frac{7\\pi}{12}$ 处过 $x$ 轴并由正变负，因此 $\\omega\\frac{7\\pi}{12}+\\varphi=\\pi$. 两式相减得 $\\omega\\frac{\\pi}{4}=\\frac{\\pi}{2}$，所以 $\\omega=2$，代回得 $\\varphi=-\\frac{\\pi}{6}$，故选 D.</p>",
           "choices": [
             "$\\omega = 1$，$\\varphi = \\frac{\\pi}{6}$",
             "$\\omega = 1$，$\\varphi = -\\frac{\\pi}{6}$",
@@ -216,13 +77,11 @@
             "$\\omega = 2$，$\\varphi = -\\frac{\\pi}{6}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 7,
-          "body": "已知 $x > 0$，$y > 0$，$x + 2y + 2xy = 8$，则 $x + 2y$ 的最小值是（ ）\r\n\r\n\r\nB\r\n\r\n由题设，$(x+1)(2y+1)=x+2y+2xy+1=9$. 因为 $x>0$，$y>0$，所以 $x+1>0$，$2y+1>0$. 由基本不等式，$x+1+2y+1\\geqslant2\\sqrt{(x+1)(2y+1)}=6$，故 $x+2y\\geqslant4$. 当 $x+1=2y+1=3$，即 $x=2$，$y=1$ 时等号成立，所以最小值为 $4$，选 B.",
+          "body": "<p>已知 $x > 0$，$y > 0$，$x + 2y + 2xy = 8$，则 $x + 2y$ 的最小值是（ ）</p><p>B</p><p>由题设，$(x+1)(2y+1)=x+2y+2xy+1=9$. 因为 $x>0$，$y>0$，所以 $x+1>0$，$2y+1>0$. 由基本不等式，$x+1+2y+1\\geqslant2\\sqrt{(x+1)(2y+1)}=6$，故 $x+2y\\geqslant4$. 当 $x+1=2y+1=3$，即 $x=2$，$y=1$ 时等号成立，所以最小值为 $4$，选 B.</p>",
           "choices": [
             "$3$",
             "$4$",
@@ -230,13 +89,11 @@
             "$\\frac{11}{2}$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 8,
-          "body": "直线 $y = \\frac{\\sqrt{3}}{3} x + \\sqrt{2}$ 与圆心为 $D$ 的圆 $\\begin{cases}\r\nx = \\sqrt{3} + \\sqrt{3}\\cos \\theta,\\\\\r\ny = 1 + \\sqrt{3}\\sin \\theta,\r\n\\end{cases}$ （$\\theta \\in [0,2\\pi)$） 交于 $A$，$B$ 两点，则直线 $AD$ 与 $BD$ 的倾斜角之和为（ ）\r\n\r\n\r\nC\r\n\r\n圆心为 $D(\\sqrt{3},1)$，半径为 $r=\\sqrt{3}$. 设直线与圆的垂足为 $H$，将直线写成 $\\frac{\\sqrt{3}}{3}x-y+\\sqrt{2}=0$. 于是圆心到直线的距离为\r\n\n$$\nd=\\frac{\\left|\\frac{\\sqrt{3}}{3}\\cdot\\sqrt{3}-1+\\sqrt{2}\\right|}{\\sqrt{\\frac13+1}}=\\frac{\\sqrt{6}}{2}\n$$\n\r\n弦的一半长为\r\n\n$$\nAH=BH=\\sqrt{r^2-d^2}=\\sqrt{3-\\frac32}=\\frac{\\sqrt{6}}2=DH\n$$\n\r\n直线的方向角为 $\\frac\\pi6$，而 $\\overrightarrow{DH}$ 垂直于该直线且指向直线，方向角为 $\\frac{2\\pi}{3}$. 在直角三角形 $DHA$ 和 $DHB$ 中，$DH=AH=BH$，故两条半径与正 $x$ 轴的夹角分别为 $\\frac{2\\pi}{3}-\\frac\\pi4=\\frac{5\\pi}{12}$ 和 $\\frac{2\\pi}{3}+\\frac\\pi4=\\frac{11\\pi}{12}$. 因而倾斜角之和为 $\\frac{4\\pi}{3}$，选 C.",
+          "body": "<p>直线 $y = \\frac{\\sqrt{3}}{3}x + \\sqrt{2}$ 与圆心为 $D$ 的圆 $\\begin{cases}x = \\sqrt{3} + \\sqrt{3}\\cos \\theta,\\\\\n\ny = 1 + \\sqrt{3}\\sin \\theta,\\end{cases}$ （$\\theta \\in [0,2\\pi)$） 交于 $A$，$B$ 两点，则直线 $AD$ 与 $BD$ 的倾斜角之和为（ ）</p><p>C</p><p>圆心为 $D(\\sqrt{3},1)$，半径为 $r=\\sqrt{3}$. 设直线与圆的垂足为 $H$，将直线写成 $\\frac{\\sqrt{3}}{3}x-y+\\sqrt{2}=0$. 于是圆心到直线的距离为</p>\n$$\nd=\\frac{\\left|\\frac{\\sqrt{3}}{3}\\cdot\\sqrt{3}-1+\\sqrt{2}\\right|}{\\sqrt{\\frac{1}{3}+1}}=\\frac{\\sqrt{6}}{2}\n$$\n<p>弦的一半长为</p>\n$$\nAH=BH=\\sqrt{r^{2}-d^{2}}=\\sqrt{3-\\frac{3}{2}}=\\frac{\\sqrt{6}}{2}=DH\n$$\n<p>直线的方向角为 $\\frac{\\pi}{6}$，而 $\\overrightarrow{DH}$ 垂直于该直线且指向直线，方向角为 $\\frac{2\\pi}{3}$. 在直角三角形 $DHA$ 和 $DHB$ 中，$DH=AH=BH$，故两条半径与正 $x$ 轴的夹角分别为 $\\frac{2\\pi}{3}-\\frac{\\pi}{4}=\\frac{5\\pi}{12}$ 和 $\\frac{2\\pi}{3}+\\frac{\\pi}{4}=\\frac{11\\pi}{12}$. 因而倾斜角之和为 $\\frac{4\\pi}{3}$，选 C.</p>",
           "choices": [
             "$\\frac{7}{6}\\pi$",
             "$\\frac{5}{4}\\pi$",
@@ -244,13 +101,11 @@
             "$\\frac{5}{3}\\pi$"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 9,
-          "body": "某单位安排 7 位员工在 10 月 1 日至 7 日值班，每天 1 人，每人值班 1 天，若 7 位员工中的甲、乙排在相邻两天，丙不排在 10 月 1 日，丁不排在 10 月 7 日，则不同的安排方案共有（ ）\r\n\r\n\r\nC\r\n\r\n先把甲、乙看作一个整体. 甲、乙相邻时，这个整体在 7 个位置中有 6 种放法，甲、乙在整体内还有 2 种次序，因此不考虑其他限制时共有 $6!\\cdot2$ 种安排.\r\n\r\n其中丙排在 10 月 1 日时，甲、乙整体只能放在第 2 至第 7 天中相邻的位置，共有 5 种放法，故有 $5\\cdot2\\cdot4!$ 种安排. 类似地，丁排在 10 月 7 日时也有 $5\\cdot2\\cdot4!$ 种安排.\r\n\r\n丙排在 10 月 1 日且丁排在 10 月 7 日时，甲、乙整体在第 2 至第 6 天中有 4 种相邻放法，故有 $4\\cdot2\\cdot3!$ 种安排. 由容斥原理，不同的安排方案数为\r\n\n$$\n6!\\cdot2-2\\cdot5\\cdot2\\cdot4!+4\\cdot2\\cdot3!=1440-480+48=1008\n$$\n\r\n故选 C.",
+          "body": "<p>某单位安排 7 位员工在 10 月 1 日至 7 日值班，每天 1 人，每人值班 1 天，若 7 位员工中的甲、乙排在相邻两天，丙不排在 10 月 1 日，丁不排在 10 月 7 日，则不同的安排方案共有（ ）</p><p>C</p><p>先把甲、乙看作一个整体. 甲、乙相邻时，这个整体在 7 个位置中有 6 种放法，甲、乙在整体内还有 2 种次序，因此不考虑其他限制时共有 $6!\\cdot2$ 种安排.</p><p>其中丙排在 10 月 1 日时，甲、乙整体只能放在第 2 至第 7 天中相邻的位置，共有 5 种放法，故有 $5\\cdot2\\cdot4!$ 种安排. 类似地，丁排在 10 月 7 日时也有 $5\\cdot2\\cdot4!$ 种安排.</p><p>丙排在 10 月 1 日且丁排在 10 月 7 日时，甲、乙整体在第 2 至第 6 天中有 4 种相邻放法，故有 $4\\cdot2\\cdot3!$ 种安排. 由容斥原理，不同的安排方案数为</p>\n$$\n6!\\cdot2-2\\cdot5\\cdot2\\cdot4!+4\\cdot2\\cdot3!=1440-480+48=1008\n$$\n<p>故选 C.</p>",
           "choices": [
             "$504$ 种",
             "$960$ 种",
@@ -258,13 +113,11 @@
             "$1108$ 种"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 10,
-          "body": "到两互相垂直的异面直线的距离相等的点，在过其中一条直线且平行于另一条直线的平面内的轨迹是（ ）\r\n\r\n\r\nD\r\n\r\n设过第一条直线且平行于第二条直线的平面为 $\\pi$，把第二条直线在 $\\pi$ 上的正投影记为 $l_2'$. 由于两条异面直线互相垂直，$l_2'$ 与第一条直线在平面 $\\pi$ 内相交且互相垂直. 设两条直线之间的距离为 $h$，则 $h>0$.\r\n\r\n在平面 $\\pi$ 内建立直角坐标系，使第一条直线为 $x$ 轴，$l_2'$ 为 $y$ 轴. 对平面 $\\pi$ 内任一点 $P(x,y)$，有\r\n$d(P,l_1)=|y|$，$d(P,l_2)^2=d(P,l_2')^2+h^2=x^2+h^2$.\r\n题设条件给出\r\n\n$$\n|y|=\\sqrt{x^2+h^2},\r\n \\text{即}  y^2-x^2=h^2\n$$\n\r\n这是以坐标轴方向为渐近线的双曲线，故选 D.",
+          "body": "<p>到两互相垂直的异面直线的距离相等的点，在过其中一条直线且平行于另一条直线的平面内的轨迹是（ ）</p><p>D</p><p>设过第一条直线且平行于第二条直线的平面为 $\\pi$，把第二条直线在 $\\pi$ 上的正投影记为 $l_{2}'$. 由于两条异面直线互相垂直，$l_{2}'$ 与第一条直线在平面 $\\pi$ 内相交且互相垂直. 设两条直线之间的距离为 $h$，则 $h>0$.</p><p>在平面 $\\pi$ 内建立直角坐标系，使第一条直线为 $x$ 轴，$l_{2}'$ 为 $y$ 轴. 对平面 $\\pi$ 内任一点 $P(x,y)$，有</p><p>$d(P,l_{1})=|y|$，$d(P,l_{2})^{2}=d(P,l_{2}')^{2}+h^{2}=x^{2}+h^{2}$.</p><p>题设条件给出</p>\n$$\n|y|=\\sqrt{x^{2}+h^{2}},   \\text{即}  y^{2}-x^{2}=h^{2}\n$$\n<p>这是以坐标轴方向为渐近线的双曲线，故选 D.</p>",
           "choices": [
             "直线",
             "椭圆",
@@ -272,9 +125,7 @@
             "双曲线"
           ],
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -283,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "已知复数 $z = 1 + \\mathrm{i}$，则 $\\frac{2}{z} - z = _______ {}$.\r\n\r\n$-2\\mathrm{i}$\r\n\r\n因为 $\\frac{2}{z}=\\frac{2}{1+\\mathrm{i}}=\\frac{2(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=1-\\mathrm{i}$，所以 $\\frac{2}{z}-z=(1-\\mathrm{i})-(1+\\mathrm{i})=-2\\mathrm{i}$.",
-          "choices": [],
+          "body": "<p>已知复数 $z = 1 + \\mathrm{i}$，则 $\\frac{2}{z}- z =\\underline{\\hspace{2.5em}}{}$.</p><p>$-2\\mathrm{i}$</p><p>因为 $\\frac{2}{z}=\\frac{2}{1+\\mathrm{i}}=\\frac{2(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=1-\\mathrm{i}$，所以 $\\frac{2}{z}-z=(1-\\mathrm{i})-(1+\\mathrm{i})=-2\\mathrm{i}$.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 12,
-          "body": "设 $U = \\{0, 1, 2, 3\\}$，$A = \\{x \\in U \\mid x^2 + mx = 0\\}$，若 $\\complement_U A = \\{1, 2\\}$，则实数 $m = _______ {}$.\r\n\r\n$-3$\r\n\r\n由 $\\complement_U A=\\{1,2\\}$，知 $A=\\{0,3\\}$. 对任意实数 $m$，$0^2+m\\cdot0=0$，所以 $0\\in A$ 自动成立. 又因为 $3\\in A$，应满足\r\n\n$$\n3^2+3m=0\n$$\n\r\n解得 $m=-3$. 此时 $1^2-3=-2\\ne0$，$2^2-6=-2\\ne0$，确有 $A=\\{0,3\\}$，故 $m=-3$.",
-          "choices": [],
+          "body": "<p>设 $U = \\{0, 1, 2, 3\\}$，$A = \\{x \\in U \\mid x^{2} + mx = 0\\}$，若 $\\complement_{U} A = \\{1, 2\\}$，则实数 $m =\\underline{\\hspace{2.5em}}{}$.</p><p>$-3$</p><p>由 $\\complement_{U} A=\\{1,2\\}$，知 $A=\\{0,3\\}$. 对任意实数 $m$，$0^{2}+m\\cdot0=0$，所以 $0\\in A$ 自动成立. 又因为 $3\\in A$，应满足</p>\n$$\n3^{2}+3m=0\n$$\n<p>解得 $m=-3$. 此时 $1^{2}-3=-2\\ne0$，$2^{2}-6=-2\\ne0$，确有 $A=\\{0,3\\}$，故 $m=-3$.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 13,
-          "body": "某篮球队员在比赛中每次罚球的命中率相同，且在两次罚球中至多命中一次的概率为 $\\frac{16}{25}$，则该队员每次罚球的命中率为 _______ {}.\r\n\r\n$\\frac{3}{5}$\r\n\r\n按高考中重复试验的通常模型，将两次罚球视为相互独立，设每次罚球命中的概率为 $p$，则两次都命中的概率为 $p^2$. “至多命中一次”的对立事件是“两次都命中”，所以 $1-p^2=\\frac{16}{25}$，即 $p^2=\\frac{9}{25}$. 由于概率满足 $0\\le p\\leqslant1$，故 $p=\\frac35$.\r\n\r\n若只按题面“命中率相同”而不补充独立性，则只能得到两次都命中的概率为 $\\frac{9}{25}$. 设两次命中事件分别为 $X_1$，$X_2$，则\r\n$P(X_1\\cap X_2^{\\complement})=P(X_1^{\\complement}\\cap X_2)=p-\\frac{9}{25}$，且\r\n$P(X_1^{\\complement}\\cap X_2^{\\complement})=1-2p+\\frac{9}{25}$，非负性只给出 $\\frac{9}{25}\\le p\\le\\frac{17}{25}$，不能唯一确定 $p$. 因此本题答案 $\\frac35$ 采用上述独立重复试验模型.",
-          "choices": [],
+          "body": "<p>某篮球队员在比赛中每次罚球的命中率相同，且在两次罚球中至多命中一次的概率为 $\\frac{16}{25}$，则该队员每次罚球的命中率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\frac{3}{5}$</p><p>按高考中重复试验的通常模型，将两次罚球视为相互独立，设每次罚球命中的概率为 $p$，则两次都命中的概率为 $p^{2}$. “至多命中一次”的对立事件是“两次都命中”，所以 $1-p^{2}=\\frac{16}{25}$，即 $p^{2}=\\frac{9}{25}$. 由于概率满足 $0\\le p\\leqslant1$，故 $p=\\frac{3}{5}$.</p><p>若只按题面“命中率相同”而不补充独立性，则只能得到两次都命中的概率为 $\\frac{9}{25}$. 设两次命中事件分别为 $X_{1}$，$X_{2}$，则</p><p>$P(X_{1}\\cap X_{2}^{\\complement})=P(X_{1}^{\\complement}\\cap X_{2})=p-\\frac{9}{25}$，且</p><p>$P(X_{1}^{\\complement}\\cap X_{2}^{\\complement})=1-2p+\\frac{9}{25}$，非负性只给出 $\\frac{9}{25}\\le p\\le\\frac{17}{25}$，不能唯一确定 $p$. 因此本题答案 $\\frac{3}{5}$ 采用上述独立重复试验模型.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 14,
-          "body": "已知以 $F$ 为焦点的抛物线 $y^{2} = 4x$ 上的两点 $A$，$B$ 满足 $\\overrightarrow{AF} = 3\\overrightarrow{FB}$，则弦 $AB$ 的中点到准线的距离为 _______ {}.\r\n\r\n$\\frac{8}{3}$\r\n\r\n抛物线 $y^2=4x$ 可写成 $y^2=4px$，故 $p=1$，焦点为 $F(1,0)$，准线为 $x=-1$.\r\n\r\n设 $A\\left(\\frac{u^2}{4},u\\right)$，$B\\left(\\frac{v^2}{4},v\\right)$. 由 $\\overrightarrow{AF}=3\\overrightarrow{FB}$，比较纵坐标得\r\n\n$$\n0-u=3(v-0),\r\n \\text{即}  u=-3v\n$$\n\r\n比较横坐标得\r\n\n$$\n1-\\frac{u^2}{4}=3\\left(\\frac{v^2}{4}-1\\right)\n$$\n\r\n代入 $u=-3v$，得\r\n\n$$\n1-\\frac{9v^2}{4}=\\frac{3v^2}{4}-3,\r\n \\text{即}  3v^2=4\n$$\n\r\n所以 $x_A=\\frac{u^2}{4}=3$，$x_B=\\frac{v^2}{4}=\\frac13$. 弦 $AB$ 的中点横坐标为\r\n\n$$\nx_M=\\frac{x_A+x_B}{2}=\\frac{3+\\frac13}{2}=\\frac53\n$$\n\r\n因此中点到准线 $x=-1$ 的距离为\r\n\n$$\nx_M-(-1)=\\frac53+1=\\frac83\n$$",
-          "choices": [],
+          "body": "<p>已知以 $F$ 为焦点的抛物线 $y^{2}= 4x$ 上的两点 $A$，$B$ 满足 $\\overrightarrow{AF}= 3\\overrightarrow{FB}$，则弦 $AB$ 的中点到准线的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\frac{8}{3}$</p><p>抛物线 $y^{2}=4x$ 可写成 $y^{2}=4px$，故 $p=1$，焦点为 $F(1,0)$，准线为 $x=-1$.</p><p>设 $A\\left(\\frac{u^{2}}{4},u\\right)$，$B\\left(\\frac{v^{2}}{4},v\\right)$. 由 $\\overrightarrow{AF}=3\\overrightarrow{FB}$，比较纵坐标得</p>\n$$\n0-u=3(v-0),   \\text{即}  u=-3v\n$$\n<p>比较横坐标得</p>\n$$\n1-\\frac{u^{2}}{4}=3\\left(\\frac{v^{2}}{4}-1\\right)\n$$\n<p>代入 $u=-3v$，得</p>\n$$\n1-\\frac{9v^{2}}{4}=\\frac{3v^{2}}{4}-3,   \\text{即}  3v^{2}=4\n$$\n<p>所以 $x_{A}=\\frac{u^{2}}{4}=3$，$x_{B}=\\frac{v^{2}}{4}=\\frac{1}{3}$. 弦 $AB$ 的中点横坐标为</p>\n$$\nx_{M}=\\frac{x_{A}+x_{B}}{2}=\\frac{3+\\frac{1}{3}}{2}=\\frac{5}{3}\n$$\n<p>因此中点到准线 $x=-1$ 的距离为</p>\n$$\nx_{M}-(-1)=\\frac{5}{3}+1=\\frac{8}{3}\n$$",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 15,
-          "body": "已知函数 $f(x)$ 满足： $f(1) = \\frac{1}{4}$，$4f(x)f(y) = f(x + y) + f(x - y)$ （$x$，$y \\in \\mathbb{R}$），则 $f(2010) =$ _______ {}.\r\n\r\n$\\frac{1}{2}$\r\n\r\n令 $y=0$，原函数方程变为\r\n\n$$\n4f(x)f(0)=f(x)+f(x)=2f(x)\n$$\n\r\n取 $x=1$，由 $f(1)=\\frac14\\ne0$ 得 $f(0)=\\frac12$. 再令 $x=0$，可得\r\n\n$$\n4f(0)f(y)=f(y)+f(-y)\n$$\n\r\n从而 $f(-y)=f(y)$.\r\n\r\n令 $y=1$，利用 $4f(1)=1$，得到\r\n\n$$\nf(x+1)+f(x-1)=f(x)\n$$\n\r\n对整数依次取值，结合 $f(0)=\\frac12$、$f(1)=\\frac14$，有\r\n\n$$\nf(2)=f(1)-f(0)=-\\frac14\n$$\n\r\n$f(3)=f(2)-f(1)=-\\frac12$，$f(4)=f(3)-f(2)=-\\frac14$\r\n$f(5)=f(4)-f(3)=\\frac14$，$f(6)=f(5)-f(4)=\\frac12$.\r\n由递推式可得 $f(7)=f(6)-f(5)=\\frac14=f(1)$，于是令 $g(n)=f(n+6)-f(n)$，有 $g(0)=0$，$g(1)=0$. 对任意非负整数 $n$，递推式分别作用于 $n+1$ 和 $n+7$ 给出 $g(n+2)=g(n+1)-g(n)$，因此由归纳法知 $g(n)=0$，即 $f(n+6)=f(n)$. 而 $2010=6\\cdot335$，所以\r\n\n$$\nf(2010)=f(0)=\\frac12\n$$",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)$ 满足： $f(1) = \\frac{1}{4}$，$4f(x)f(y) = f(x + y) + f(x - y)$ （$x$，$y \\in \\mathbb{R}$），则 $f(2010) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p>$\\frac{1}{2}$</p><p>令 $y=0$，原函数方程变为</p>\n$$\n4f(x)f(0)=f(x)+f(x)=2f(x)\n$$\n<p>取 $x=1$，由 $f(1)=\\frac{1}{4}\\ne0$ 得 $f(0)=\\frac{1}{2}$. 再令 $x=0$，可得</p>\n$$\n4f(0)f(y)=f(y)+f(-y)\n$$\n<p>从而 $f(-y)=f(y)$.</p><p>令 $y=1$，利用 $4f(1)=1$，得到</p>\n$$\nf(x+1)+f(x-1)=f(x)\n$$\n<p>对整数依次取值，结合 $f(0)=\\frac{1}{2}$、$f(1)=\\frac{1}{4}$，有</p>\n$$\nf(2)=f(1)-f(0)=-\\frac{1}{4}\n$$\n<p>$f(3)=f(2)-f(1)=-\\frac{1}{2}$，$f(4)=f(3)-f(2)=-\\frac{1}{4}$</p><p>$f(5)=f(4)-f(3)=\\frac{1}{4}$，$f(6)=f(5)-f(4)=\\frac{1}{2}$.</p><p>由递推式可得 $f(7)=f(6)-f(5)=\\frac{1}{4}=f(1)$，于是令 $g(n)=f(n+6)-f(n)$，有 $g(0)=0$，$g(1)=0$. 对任意非负整数 $n$，递推式分别作用于 $n+1$ 和 $n+7$ 给出 $g(n+2)=g(n+1)-g(n)$，因此由归纳法知 $g(n)=0$，即 $f(n+6)=f(n)$. 而 $2010=6\\cdot335$，所以</p>\n$$\nf(2010)=f(0)=\\frac{1}{2}\n$$",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -333,60 +174,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "设函数 $f(x) = \\cos \\left(x + \\frac{2\\pi}{3}\\right) + 2\\cos^2 \\frac{x}{2}$，$x \\in \\mathbb{R}$.\r\n\r\n\n(1) 求 $f(x)$ 的值域；\n\n(2) 记 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边长分别为 $a$，$b$，$c$. 若 $f(B) = 1$，$b = 1$，$c = \\sqrt{3}$，求 $a$ 的值.\n\r\n\r\n\n(1) 由 $2\\cos^2\\frac{x}{2}=1+\\cos x$，得 $f(x)=1+\\cos x+\\cos\\left(x+\\frac{2\\pi}{3}\\right)=1+\\frac{1}{2}\\cos x-\\frac{\\sqrt{3}}{2}\\sin x=1+\\cos\\left(x+\\frac{\\pi}{3}\\right)$. 因此 $0\\le f(x)\\leqslant2$，值域为 $[0,2]$.\n\n(2) 由 $f(B)=1$ 得 $\\cos\\left(B+\\frac{\\pi}{3}\\right)=0$，所以 $B=\\frac{\\pi}{6}+k\\pi$. 因为 $0<B<\\pi$，故 $B=\\frac{\\pi}{6}$. 在 $\\triangle ABC$ 中，由余弦定理，$b^2=a^2+c^2-2ac\\cos B$，即 $1=a^2+3-2a\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}=a^2-3a+3$，从而 $a^2-3a+2=0$，解得 $a=1$ 或 $a=2$. 两者均满足 $|\\sqrt{3}-1|<a<\\sqrt{3}+1$，故 $a=1$ 或 $a=2$.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = \\cos \\left(x + \\frac{2\\pi}{3}\\right) + 2\\cos^{2} \\frac{x}{2}$，$x \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的值域；</p></li><li><p>记 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边长分别为 $a$，$b$，$c$. 若 $f(B) = 1$，$b = 1$，$c = \\sqrt{3}$，求 $a$ 的值.</p></li></ol><ol class=\"enumerate\"><li><p>由 $2\\cos^{2}\\frac{x}{2}=1+\\cos x$，得 $f(x)=1+\\cos x+\\cos\\left(x+\\frac{2\\pi}{3}\\right)=1+\\frac{1}{2}\\cos x-\\frac{\\sqrt{3}}{2}\\sin x=1+\\cos\\left(x+\\frac{\\pi}{3}\\right)$. 因此 $0\\le f(x)\\leqslant2$，值域为 $[0,2]$.</p></li><li><p>由 $f(B)=1$ 得 $\\cos\\left(B+\\frac{\\pi}{3}\\right)=0$，所以 $B=\\frac{\\pi}{6}+k\\pi$. 因为 $0&#x3C;B&#x3C;\\pi$，故 $B=\\frac{\\pi}{6}$. 在 $\\triangle ABC$ 中，由余弦定理，$b^{2}=a^{2}+c^{2}-2ac\\cos B$，即 $1=a^{2}+3-2a\\sqrt{3}\\cdot\\frac{\\sqrt{3}}{2}=a^{2}-3a+3$，从而 $a^{2}-3a+2=0$，解得 $a=1$ 或 $a=2$. 两者均满足 $|\\sqrt{3}-1|&#x3C;a&#x3C;\\sqrt{3}+1$，故 $a=1$ 或 $a=2$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 17,
-          "body": "在甲、乙等 6 个单位参加的一次“唱读讲传”演出活动中，每个单位的节目集中安排在一起，若采用抽签的方式随机确定各单位的演出顺序（序号为 $1$，$2$，$\\cdots$，$6$），求：\r\n\r\n\n(1) 甲、乙两单位的演出序号至少有一个为奇数的概率；\n\n(2) 甲、乙两单位之间的演出单位个数 $\\xi$ 的分布列与期望.\n\r\n\r\n\n(1) 甲、乙两单位的演出序号是从 $1$，$2$，$\\ldots$，$6$ 中随机取出的两个不同序号. 两序号都为偶数的概率为 $\\frac{\\mathrm C_3^2}{\\mathrm C_6^2}=\\frac{1}{5}$，所以至少有一个为奇数的概率为 $1-\\frac{1}{5}=\\frac{4}{5}$.\n\n(2) 两单位的演出序号之差为 $d$ 时，满足条件的无序位置对有 $6-d$ 个，全部无序位置对有 $\\mathrm C_6^2=15$ 个. 由于 $\\xi=d-1$，所以 $\\xi$ 的分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n$\\xi$ & $0$ & $1$ & $2$ & $3$ & $4$ \\\\\r\n\\hline\r\n$P$ & $\\frac{5}{15}$ & $\\frac{4}{15}$ & $\\frac{3}{15}$ & $\\frac{2}{15}$ & $\\frac{1}{15}$\r\n\\end{tabular}\r\n\\end{center}\r\n从而 $E(\\xi)=0\\cdot\\frac{5}{15}+1\\cdot\\frac{4}{15}+2\\cdot\\frac{3}{15}+3\\cdot\\frac{2}{15}+4\\cdot\\frac{1}{15}=\\frac{4}{3}$.",
-          "choices": [],
+          "body": "<p>在甲、乙等 6 个单位参加的一次“唱读讲传”演出活动中，每个单位的节目集中安排在一起，若采用抽签的方式随机确定各单位的演出顺序（序号为 $1$，$2$，$\\cdots$，$6$），求：</p><ol class=\"enumerate\"><li><p>甲、乙两单位的演出序号至少有一个为奇数的概率；</p></li><li><p>甲、乙两单位之间的演出单位个数 $\\xi$ 的分布列与期望.</p></li></ol><ol class=\"enumerate\"><li><p>甲、乙两单位的演出序号是从 $1$，$2$，$\\ldots$，$6$ 中随机取出的两个不同序号. 两序号都为偶数的概率为 $\\frac{\\mathrm{C}_{3}^{2}}{\\mathrm{C}_{6}^{2}}=\\frac{1}{5}$，所以至少有一个为奇数的概率为 $1-\\frac{1}{5}=\\frac{4}{5}$.</p></li><li><p>两单位的演出序号之差为 $d$ 时，满足条件的无序位置对有 $6-d$ 个，全部无序位置对有 $\\mathrm{C}_{6}^{2}=15$ 个. 由于 $\\xi=d-1$，所以 $\\xi$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td><td style=\"text-align: center\"> $4$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{5}{15}$ </td><td style=\"text-align: center\"> $\\frac{4}{15}$ </td><td style=\"text-align: center\"> $\\frac{3}{15}$ </td><td style=\"text-align: center\"> $\\frac{2}{15}$ </td><td style=\"text-align: center\"> $\\frac{1}{15}$</td></tr></tbody></table></center><p></p><p>从而 $E(\\xi)=0\\cdot\\frac{5}{15}+1\\cdot\\frac{4}{15}+2\\cdot\\frac{3}{15}+3\\cdot\\frac{2}{15}+4\\cdot\\frac{1}{15}=\\frac{4}{3}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 18,
-          "body": "已知函数 $f(x) = \\frac{x - 1}{x + a} + \\ln\\left(x + 1\\right)$，其中实数 $a \\neq 1$.\r\n\r\n\n(1) 若 $a = 2$，求曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程；\n\n(2) 若 $f(x)$ 在 $x = 1$ 处取得极值，试讨论 $f(x)$ 的单调性.\n\r\n\r\n\n(1) 当 $a=2$ 时，$f(0)=-\\frac{1}{2}$，且 $f'(x)=\\frac{3}{(x+2)^2}+\\frac{1}{x+1}$，所以 $f'(0)=\\frac{7}{4}$. 因此曲线在 $(0,f(0))=\\left(0,-\\frac{1}{2}\\right)$ 处的切线方程为 $y+\\frac{1}{2}=\\frac{7}{4}x$，即 $y=\\frac{7}{4}x-\\frac{1}{2}$.\n\n(2) 因为函数在 $x=1$ 处取得极值，且 $x=1$ 必须属于定义域，所以 $a\\neq-1$. 又 $f'(1)=\\frac{1}{a+1}+\\frac{1}{2}=0$，解得 $a=-3$. 此时定义域为 $(-1,3)\\cup(3,+\\infty)$，并且\r\n\n$$\nf'(x)=\\frac{-2}{(x-3)^2}+\\frac{1}{x+1}=\\frac{(x-1)(x-7)}{(x-3)^2(x+1)}\n$$\n\r\n由于定义域内分母为正，故 $f'(x)>0$ 在 $(-1,1)$ 和 $(7,+\\infty)$ 上成立，$f'(x)<0$ 在 $(1,3)$ 和 $(3,7)$ 上成立. 因此 $f(x)$ 在 $(-1,1)$、$(7,+\\infty)$ 上单调递增，在 $(1,3)$、$(3,7)$ 上单调递减.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\frac{x - 1}{x + a}+ \\ln\\left(x + 1\\right)$，其中实数 $a \\neq 1$.</p><ol class=\"enumerate\"><li><p>若 $a = 2$，求曲线 $y = f(x)$ 在点 $(0, f(0))$ 处的切线方程；</p></li><li><p>若 $f(x)$ 在 $x = 1$ 处取得极值，试讨论 $f(x)$ 的单调性.</p></li></ol><ol class=\"enumerate\"><li><p>当 $a=2$ 时，$f(0)=-\\frac{1}{2}$，且 $f'(x)=\\frac{3}{(x+2)^{2}}+\\frac{1}{x+1}$，所以 $f'(0)=\\frac{7}{4}$. 因此曲线在 $(0,f(0))=\\left(0,-\\frac{1}{2}\\right)$ 处的切线方程为 $y+\\frac{1}{2}=\\frac{7}{4}x$，即 $y=\\frac{7}{4}x-\\frac{1}{2}$.</p></li><li><p>因为函数在 $x=1$ 处取得极值，且 $x=1$ 必须属于定义域，所以 $a\\neq-1$. 又 $f'(1)=\\frac{1}{a+1}+\\frac{1}{2}=0$，解得 $a=-3$. 此时定义域为 $(-1,3)\\cup(3,+\\infty)$，并且</p>\n$$\nf'(x)=\\frac{-2}{(x-3)^{2}}+\\frac{1}{x+1}=\\frac{(x-1)(x-7)}{(x-3)^{2}(x+1)}\n$$\n<p>由于定义域内分母为正，故 $f'(x)>0$ 在 $(-1,1)$ 和 $(7,+\\infty)$ 上成立，$f'(x)&#x3C;0$ 在 $(1,3)$ 和 $(3,7)$ 上成立. 因此 $f(x)$ 在 $(-1,1)$、$(7,+\\infty)$ 上单调递增，在 $(1,3)$、$(3,7)$ 上单调递减.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 19,
-          "body": "如图，四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，$PA \\perp$ 底面 $ABCD$，$PA = AB = \\sqrt{6}$，点 $E$ 是棱 $PB$ 的中点.\r\n\r\n\n(1) 求直线 AD 与平面 PBC 的距离；\n\n(2) 若 $AD = \\sqrt{3}$，求二面角 $A - EC - D$ 的平面角的余弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/chongqing_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\n(1) 建立如图所示的直角坐标系，设 $s=\\sqrt{6}$，$AD=d$，取 $A(0,0,0)$，$B(s,0,0)$，$D(0,d,0)$，$C(s,d,0)$，$P(0,0,s)$. 由 $E$ 为 $PB$ 的中点，得 $E\\left(\\frac{s}{2},0,\\frac{s}{2}\\right)$. 平面 $PBC$ 的方程为 $x+z=s$，直线 $AD$ 的方向为 $y$ 轴方向，且与平面 $PBC$ 平行. 因此直线 $AD$ 到平面 $PBC$ 的距离为 $\\frac{s}{\\sqrt{1^2+1^2}}=\\frac{\\sqrt{6}}{\\sqrt{2}}=\\sqrt{3}$.\n\n(2) 当 $d=\\sqrt{3}$ 时，取平面 $AEC$ 的两个方向向量 $\\overrightarrow{AC}=(s,d,0)$、$\\overrightarrow{AE}=\\left(\\frac{s}{2},0,\\frac{s}{2}\\right)$，取平面 $DEC$ 的两个方向向量 $\\overrightarrow{DC}=(s,0,0)$、$\\overrightarrow{DE}=\\left(\\frac{s}{2},-d,\\frac{s}{2}\\right)$. 相应法向量可取 $\\mathbf{n}_1=(ds,-s^2,-ds)$、$\\mathbf{n}_2=(0,-s^2,-2ds)$. 代入 $s=\\sqrt{6}$、$d=\\sqrt{3}$，得 $\\mathbf{n}_1=(3\\sqrt{2},-6,-3\\sqrt{2})$、$\\mathbf{n}_2=(0,-6,-6\\sqrt{2})$. 所以二面角的平面角 $\\alpha$ 满足 $\\cos\\alpha=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\frac{72}{\\sqrt{72}\\sqrt{108}}=\\frac{\\sqrt{6}}{3}$.",
-          "choices": [],
+          "body": "<p>如图，四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，$PA \\perp$ 底面 $ABCD$，$PA = AB = \\sqrt{6}$，点 $E$ 是棱 $PB$ 的中点.</p><ol class=\"enumerate\"><li><p>求直线 AD 与平面 PBC 的距离；</p></li><li><p>若 $AD = \\sqrt{3}$，求二面角 $A - EC - D$ 的平面角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>建立如图所示的直角坐标系，设 $s=\\sqrt{6}$，$AD=d$，取 $A(0,0,0)$，$B(s,0,0)$，$D(0,d,0)$，$C(s,d,0)$，$P(0,0,s)$. 由 $E$ 为 $PB$ 的中点，得 $E\\left(\\frac{s}{2},0,\\frac{s}{2}\\right)$. 平面 $PBC$ 的方程为 $x+z=s$，直线 $AD$ 的方向为 $y$ 轴方向，且与平面 $PBC$ 平行. 因此直线 $AD$ 到平面 $PBC$ 的距离为 $\\frac{s}{\\sqrt{1^{2}+1^{2}}}=\\frac{\\sqrt{6}}{\\sqrt{2}}=\\sqrt{3}$.</p></li><li><p>当 $d=\\sqrt{3}$ 时，取平面 $AEC$ 的两个方向向量 $\\overrightarrow{AC}=(s,d,0)$、$\\overrightarrow{AE}=\\left(\\frac{s}{2},0,\\frac{s}{2}\\right)$，取平面 $DEC$ 的两个方向向量 $\\overrightarrow{DC}=(s,0,0)$、$\\overrightarrow{DE}=\\left(\\frac{s}{2},-d,\\frac{s}{2}\\right)$. 相应法向量可取 $\\mathbf{n}_{1}=(ds,-s^{2},-ds)$、$\\mathbf{n}_{2}=(0,-s^{2},-2ds)$. 代入 $s=\\sqrt{6}$、$d=\\sqrt{3}$，得 $\\mathbf{n}_{1}=(3\\sqrt{2},-6,-3\\sqrt{2})$、$\\mathbf{n}_{2}=(0,-6,-6\\sqrt{2})$. 所以二面角的平面角 $\\alpha$ 满足 $\\cos\\alpha=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{72}{\\sqrt{72}\\sqrt{108}}=\\frac{\\sqrt{6}}{3}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 20,
-          "body": "已知以原点 $O$ 为中心，$F(\\sqrt{5}, 0)$ 为右焦点的双曲线 $C$ 的离心率 $e = \\frac{\\sqrt{5}}{2}$.\r\n\r\n\n(1) 求双曲线 $C$ 的标准方程及其渐近线方程；\n\n(2) 如图，已知过点 $M(x_{1}, y_{1})$ 的直线 $l_{1}: x_{1}x + 4y_{1}y = 4$ 与过点 $N(x_{2}, y_{2})$（其中 $x_{2} \\neq x_{1}$）的直线 $l_{2}: x_{2}x + 4y_{2}y = 4$ 的交点 $E$ 在双曲线 $C$ 上，直线 $MN$ 与两条渐近线分别交于 $G$，$H$ 两点，求 $\\triangle OGH$ 的面积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/chongqing_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\n(1) 设双曲线的标准方程为 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$，其中 $a>0$，$b>0$，焦半距为 $c$. 由题意，$c=\\sqrt{5}$，$e=\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$，所以 $a=2$. 又 $b^2=c^2-a^2=5-4=1$，故双曲线方程为 $\\frac{x^2}{4}-y^2=1$，渐近线方程为 $y=\\pm\\frac{x}{2}$.\n\n(2) 设 $E(x_E,y_E)$ 为两直线的交点. 因为 $E\\in l_1\\cap l_2$，所以 $x_1x_E+4y_1y_E=4$，$x_2x_E+4y_2y_E=4$. 这说明 $M(x_1,y_1)$、$N(x_2,y_2)$ 均在直线 $x_E x+4y_E y=4$ 上，故直线 $MN$ 的方程为 $x_E x+4y_E y=4$. 分别联立渐近线 $y=\\frac{x}{2}$ 和 $y=-\\frac{x}{2}$，得\r\n$G\\left(\\frac{4}{x_E+2y_E},\\frac{2}{x_E+2y_E}\\right)$，$H\\left(\\frac{4}{x_E-2y_E},-\\frac{2}{x_E-2y_E}\\right)$.\r\n于是 $S_{\\triangle OGH}=\\frac{1}{2}\\left|x_Gy_H-y_Gx_H\\right|=\\frac{8}{|x_E^2-4y_E^2|}$. 又因为 $E$ 在双曲线上，满足 $\\frac{x_E^2}{4}-y_E^2=1$，即 $x_E^2-4y_E^2=4$，所以 $S_{\\triangle OGH}=2$.",
-          "choices": [],
+          "body": "<p>已知以原点 $O$ 为中心，$F(\\sqrt{5}, 0)$ 为右焦点的双曲线 $C$ 的离心率 $e = \\frac{\\sqrt{5}}{2}$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的标准方程及其渐近线方程；</p></li><li><p>如图，已知过点 $M(x_{1}, y_{1})$ 的直线 $l_{1}: x_{1}x + 4y_{1}y = 4$ 与过点 $N(x_{2}, y_{2})$（其中 $x_{2}\\neq x_{1}$）的直线 $l_{2}: x_{2}x + 4y_{2}y = 4$ 的交点 $E$ 在双曲线 $C$ 上，直线 $MN$ 与两条渐近线分别交于 $G$，$H$ 两点，求 $\\triangle OGH$ 的面积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>设双曲线的标准方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其中 $a>0$，$b>0$，焦半距为 $c$. 由题意，$c=\\sqrt{5}$，$e=\\frac{c}{a}=\\frac{\\sqrt{5}}{2}$，所以 $a=2$. 又 $b^{2}=c^{2}-a^{2}=5-4=1$，故双曲线方程为 $\\frac{x^{2}}{4}-y^{2}=1$，渐近线方程为 $y=\\pm\\frac{x}{2}$.</p></li><li><p>设 $E(x_{E},y_{E})$ 为两直线的交点. 因为 $E\\in l_{1}\\cap l_{2}$，所以 $x_{1}x_{E}+4y_{1}y_{E}=4$，$x_{2}x_{E}+4y_{2}y_{E}=4$. 这说明 $M(x_{1},y_{1})$、$N(x_{2},y_{2})$ 均在直线 $x_{E} x+4y_{E} y=4$ 上，故直线 $MN$ 的方程为 $x_{E} x+4y_{E} y=4$. 分别联立渐近线 $y=\\frac{x}{2}$ 和 $y=-\\frac{x}{2}$，得</p><p>$G\\left(\\frac{4}{x_{E}+2y_{E}},\\frac{2}{x_{E}+2y_{E}}\\right)$，$H\\left(\\frac{4}{x_{E}-2y_{E}},-\\frac{2}{x_{E}-2y_{E}}\\right)$.</p><p>于是 $S_{\\triangle OGH}=\\frac{1}{2}\\left|x_{G}y_{H}-y_{G}x_{H}\\right|=\\frac{8}{|x_{E}^{2}-4y_{E}^{2}|}$. 又因为 $E$ 在双曲线上，满足 $\\frac{x_{E}^{2}}{4}-y_{E}^{2}=1$，即 $x_{E}^{2}-4y_{E}^{2}=4$，所以 $S_{\\triangle OGH}=2$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 21,
-          "body": "在数列 $\\{a_{n}\\}$ 中，$a_{1} = 1$，$a_{n + 1} = c a_{n} + c^{n + 1}(2n + 1)$（$n \\in \\mathbf{N}^{*}$），其中实数 $c \\neq 0$.\r\n\r\n\n(1) 求 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 若对一切 $k \\in \\mathbf{N}^*$ 有 $a_{2k} > a_{2k-1}$，求 $c$ 的取值范围.\n\r\n\r\n\n(1) 令 $b_n=\\frac{a_n}{c^n}$. 由递推式得 $b_{n+1}=\\frac{a_{n+1}}{c^{n+1}}=\\frac{a_n}{c^n}+2n+1=b_n+2n+1$，且 $b_1=\\frac{1}{c}$. 因此 $b_n=\\frac{1}{c}+\\sum_{j=1}^{n-1}(2j+1)=\\frac{1}{c}+n^2-1$，从而 $a_n=c^n b_n=c^{n-1}\\left(c(n^2-1)+1\\right)$.\n\n(2) 由通项公式，\r\n\n$$\na_{2k}-a_{2k-1}=c^{2k-2}\\left((4k^2-1)c^2+(-4k^2+4k+1)c-1\\right)\n$$\n\r\n由于 $c^{2k-2}>0$，条件等价于 $D_k(c)>0$，其中 $D_k(c)=(4k^2-1)c^2+(-4k^2+4k+1)c-1$. 特别地，$D_1(c)=3c^2+c-1>0$，所以 $c<\\frac{-1-\\sqrt{13}}{6}$ 或 $c>\\frac{-1+\\sqrt{13}}{6}$. 另一方面，直接计算得 $D_k(c)=D_1(c)+4(k-1)c((k+1)c-k)$. 当 $c<\\frac{-1-\\sqrt{13}}{6}<0$ 时，后加项为正，故所有 $D_k(c)>0$. 当 $c\\geqslant1$ 时，$D_1(c)>0$，且后加项非负，故所有 $D_k(c)>0$. 若 $0<c<1$，则 $D_k\\frac{(c)}{(4k^2)}\\to c^2-c<0$，故充分大的 $k$ 使 $D_k(c)<0$；若 $\\frac{-1-\\sqrt{13}}{6}\\le c\\leqslant0$，则 $D_1(c)\\leqslant0$，也不满足严格不等式. 综上，$c$ 的取值范围为 $\\left(-\\infty,\\frac{-1-\\sqrt{13}}{6}\\right)\\cup[1,+\\infty)$.",
-          "choices": [],
+          "body": "<p>在数列 $\\{a_{n}\\}$ 中，$a_{1}= 1$，$a_{n + 1}= c a_{n}+ c^{n + 1}(2n + 1)$（$n \\in \\mathbf{N}^{*}$），其中实数 $c \\neq 0$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若对一切 $k \\in \\mathbf{N}^{*}$ 有 $a_{2k}> a_{2k-1}$，求 $c$ 的取值范围.</p></li></ol><ol class=\"enumerate\"><li><p>令 $b_{n}=\\frac{a_{n}}{c^{n}}$. 由递推式得 $b_{n+1}=\\frac{a_{n+1}}{c^{n+1}}=\\frac{a_{n}}{c^{n}}+2n+1=b_{n}+2n+1$，且 $b_{1}=\\frac{1}{c}$. 因此 $b_{n}=\\frac{1}{c}+\\sum_{j=1}^{n-1}(2j+1)=\\frac{1}{c}+n^{2}-1$，从而 $a_{n}=c^{n} b_{n}=c^{n-1}\\left(c(n^{2}-1)+1\\right)$.</p></li><li><p>由通项公式，</p>\n$$\na_{2k}-a_{2k-1}=c^{2k-2}\\left((4k^{2}-1)c^{2}+(-4k^{2}+4k+1)c-1\\right)\n$$\n<p>由于 $c^{2k-2}>0$，条件等价于 $D_{k}(c)>0$，其中 $D_{k}(c)=(4k^{2}-1)c^{2}+(-4k^{2}+4k+1)c-1$. 特别地，$D_{1}(c)=3c^{2}+c-1>0$，所以 $c&#x3C;\\frac{-1-\\sqrt{13}}{6}$ 或 $c>\\frac{-1+\\sqrt{13}}{6}$. 另一方面，直接计算得 $D_{k}(c)=D_{1}(c)+4(k-1)c((k+1)c-k)$. 当 $c&#x3C;\\frac{-1-\\sqrt{13}}{6}&#x3C;0$ 时，后加项为正，故所有 $D_{k}(c)>0$. 当 $c\\geqslant1$ 时，$D_{1}(c)>0$，且后加项非负，故所有 $D_{k}(c)>0$. 若 $0&#x3C;c&#x3C;1$，则 $D_{k}\\frac{(c)}{(4k^{2})}\\to c^{2}-c&#x3C;0$，故充分大的 $k$ 使 $D_{k}(c)&#x3C;0$；若 $\\frac{-1-\\sqrt{13}}{6}\\le c\\leqslant0$，则 $D_{1}(c)\\leqslant0$，也不满足严格不等式. 综上，$c$ 的取值范围为 $\\left(-\\infty,\\frac{-1-\\sqrt{13}}{6}\\right)\\cup[1,+\\infty)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

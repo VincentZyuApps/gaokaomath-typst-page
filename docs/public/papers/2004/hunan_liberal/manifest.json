@@ -1,143 +1,8 @@
 {
+  "title": "2004年普通高等学校招生全国统一考试",
+  "subtitle": "2004年湖南卷（文）",
   "year": "2004",
   "slug": "hunan_liberal",
-  "title": "2004年湖南卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
@@ -146,15 +11,13 @@
           "num": 1,
           "body": "函数 $y = \\lg \\left(1 - \\frac{1}{x}\\right)$ 的定义域为（$ $）",
           "choices": [
-            "$\\{x\\mid x < 0\\}$",
+            "$\\{x\\mid x &#x3C; 0\\}$",
             "$\\{x\\mid x > 1\\}$",
-            "$\\{x\\mid 0 < x < 1\\}$",
-            "$\\{x\\mid x < 0\\text{或} x > 1\\}$"
+            "$\\{x\\mid 0 &#x3C; x &#x3C; 1\\}$",
+            "$\\{x\\mid x &#x3C; 0\\text{或}x > 1\\}$"
           ],
           "answer": "D",
-          "solution": "对数的真数必须为正，且分式中的分母不能为零，所以\r\n$1-\\frac{1}{x}>0$，即 $\\frac{x-1}{x}>0$. 因此 $x<0$ 或 $x>1$，定义域为 $\\{x\\mid x<0\\text{或}x>1\\}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>对数的真数必须为正，且分式中的分母不能为零，所以</p><p>$1-\\frac{1}{x}>0$，即 $\\frac{x-1}{x}>0$. 因此 $x&#x3C;0$ 或 $x>1$，定义域为 $\\{x\\mid x&#x3C;0\\text{或}x>1\\}$，故选 D.</p>"
         },
         {
           "num": 2,
@@ -166,9 +29,7 @@
             "$a - b = 0$"
           ],
           "answer": "D",
-          "solution": "若 $b=0$，直线为竖直直线，倾斜角为 $\\frac{\\pi}{2}$，不满足 $\\sin\\alpha+\\cos\\alpha=0$，故 $b\\ne0$. 又 $\\alpha\\in[0,\\pi)$，由 $\\sin\\alpha+\\cos\\alpha=0$ 得 $\\tan\\alpha=-1$，所以直线斜率为 $-1$. 另一方面，直线 $ax+by+c=0$ 的斜率为 $-\\frac{a}{b}$，从而 $-\\frac{a}{b}=-1$，即 $a-b=0$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若 $b=0$，直线为竖直直线，倾斜角为 $\\frac{\\pi}{2}$，不满足 $\\sin\\alpha+\\cos\\alpha=0$，故 $b\\ne0$. 又 $\\alpha\\in[0,\\pi)$，由 $\\sin\\alpha+\\cos\\alpha=0$ 得 $\\tan\\alpha=-1$，所以直线斜率为 $-1$. 另一方面，直线 $ax+by+c=0$ 的斜率为 $-\\frac{a}{b}$，从而 $-\\frac{a}{b}=-1$，即 $a-b=0$，故选 D."
         },
         {
           "num": 3,
@@ -180,13 +41,11 @@
             "$f^{-1}(x)\\ge 2x + 1$"
           ],
           "answer": "C",
-          "solution": "函数 $f(x)=\\sqrt{x}$ 的定义域和值域都是 $[0,+\\infty)$，交换自变量与因变量可得反函数 $f^{-1}(x)=x^2$，其中 $x\\geqslant0$. 对任意 $x\\geqslant0$，有\r\n$x^2-(2x-1)=(x-1)^2\\geqslant0$，所以 $f^{-1}(x)\\geqslant2x-1$. 选项 A 在 $x=0$ 时不成立，选项 B 在 $x=3$ 时不成立，选项 D 在 $x=0$ 时不成立，故只有选项 C 恒成立.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>函数 $f(x)=\\sqrt{x}$ 的定义域和值域都是 $[0,+\\infty)$，交换自变量与因变量可得反函数 $f^{-1}(x)=x^{2}$，其中 $x\\geqslant0$. 对任意 $x\\geqslant0$，有</p><p>$x^{2}-(2x-1)=(x-1)^{2}\\geqslant0$，所以 $f^{-1}(x)\\geqslant2x-1$. 选项 A 在 $x=0$ 时不成立，选项 B 在 $x=3$ 时不成立，选项 D 在 $x=0$ 时不成立，故只有选项 C 恒成立.</p>"
         },
         {
           "num": 4,
-          "body": "如果双曲线 $\\frac{x^2}{13} - \\frac{y^2}{12} = 1$ 上一点 $P$ 到右焦点的距离等于 $\\sqrt{13}$，那么点 $P$ 到右准线的距离是（$ $）",
+          "body": "如果双曲线 $\\frac{x^{2}}{13}- \\frac{y^{2}}{12}= 1$ 上一点 $P$ 到右焦点的距离等于 $\\sqrt{13}$，那么点 $P$ 到右准线的距离是（$ $）",
           "choices": [
             "$\\frac{13}{5}$",
             "$13$",
@@ -194,9 +53,7 @@
             "$\\frac{5}{13}$"
           ],
           "answer": "A",
-          "solution": "双曲线的半实轴长和半虚轴长分别为 $\\sqrt{13}$ 和 $\\sqrt{12}$，所以焦半距 $c=\\sqrt{13+12}=5$，离心率为 $e=\\frac{c}{\\sqrt{13}}=\\frac{5}{\\sqrt{13}}$. 点 $P$ 不可能在左支上，因为左支上点到右焦点的距离不小于 $5+\\sqrt{13}>\\sqrt{13}$，故 $P$ 在右支上.\r\n\r\n右支上点满足焦点和准线的定义关系 $PF=e\\,d$，其中 $d$ 是点 $P$ 到右准线的距离. 因而\r\n$d=\\frac{PF}{e}=\\frac{\\sqrt{13}}{\\frac{5}{\\sqrt{13}}}=\\frac{13}{5}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线的半实轴长和半虚轴长分别为 $\\sqrt{13}$ 和 $\\sqrt{12}$，所以焦半距 $c=\\sqrt{13+12}=5$，离心率为 $e=\\frac{c}{\\sqrt{13}}=\\frac{5}{\\sqrt{13}}$. 点 $P$ 不可能在左支上，因为左支上点到右焦点的距离不小于 $5+\\sqrt{13}>\\sqrt{13}$，故 $P$ 在右支上.</p><p>右支上点满足焦点和准线的定义关系 $PF=e\\,d$，其中 $d$ 是点 $P$ 到右准线的距离. 因而</p><p>$d=\\frac{PF}{e}=\\frac{\\sqrt{13}}{\\frac{5}{\\sqrt{13}}}=\\frac{13}{5}$，故选 A.</p>"
         },
         {
           "num": 5,
@@ -208,13 +65,11 @@
             "$30^{\\circ}$"
           ],
           "answer": "C",
-          "solution": "设正方形边长为 $l$，折叠后两三角形所在平面沿 $AC$ 所成的二面角为 $\\varphi$. 在等腰直角三角形 $ACD$ 中，点 $D$ 到直线 $AC$ 的距离为 $\\frac{l}{\\sqrt{2}}$，所以点 $D$ 到平面 $ABC$ 的距离为 $\\frac{l}{\\sqrt{2}}\\sin\\varphi$. 因此三棱锥的体积为\r\n$V=\\frac{1}{3}\\cdot\\frac{l^2}{2}\\cdot\\frac{l}{\\sqrt{2}}\\sin\\varphi$，最大值在 $\\sin\\varphi=1$，即 $\\varphi=90^{\\circ}$ 时取得.\r\n\r\n此时设 $M$ 为 $AC$ 的中点，则 $BM\\perp AC$，$DM\\perp AC$，且两平面互相垂直，所以 $BM\\perp DM$. 又 $BM=DM=\\frac{l}{\\sqrt{2}}$，从而 $BD=l$. 直线 $BD$ 的法向分量为 $DM=\\frac{l}{\\sqrt{2}}$，故其与平面 $ABC$ 所成角为 $\\theta$ 时，$\\sin\\theta=\\frac{DM}{BD}=\\frac{1}{\\sqrt{2}}$，所以 $\\theta=45^{\\circ}$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正方形边长为 $l$，折叠后两三角形所在平面沿 $AC$ 所成的二面角为 $\\varphi$. 在等腰直角三角形 $ACD$ 中，点 $D$ 到直线 $AC$ 的距离为 $\\frac{l}{\\sqrt{2}}$，所以点 $D$ 到平面 $ABC$ 的距离为 $\\frac{l}{\\sqrt{2}}\\sin\\varphi$. 因此三棱锥的体积为</p><p>$V=\\frac{1}{3}\\cdot\\frac{l^{2}}{2}\\cdot\\frac{l}{\\sqrt{2}}\\sin\\varphi$，最大值在 $\\sin\\varphi=1$，即 $\\varphi=90^{\\circ}$ 时取得.</p><p>此时设 $M$ 为 $AC$ 的中点，则 $BM\\perp AC$，$DM\\perp AC$，且两平面互相垂直，所以 $BM\\perp DM$. 又 $BM=DM=\\frac{l}{\\sqrt{2}}$，从而 $BD=l$. 直线 $BD$ 的法向分量为 $DM=\\frac{l}{\\sqrt{2}}$，故其与平面 $ABC$ 所成角为 $\\theta$ 时，$\\sin\\theta=\\frac{DM}{BD}=\\frac{1}{\\sqrt{2}}$，所以 $\\theta=45^{\\circ}$，故选 C.</p>"
         },
         {
           "num": 6,
-          "body": "某公司在甲，乙，丙，丁四个地区分别有 $150\\text{ 个}$，$120\\text{ 个}$，$180\\text{ 个}$，$150\\text{ 个}$销售点. 公司为了调查产品销售的情况，需完成以下两项调查：\r\n\r\n\\begin{circlelist}\r\n\\item 从这 $600\\text{ 个}$销售点中抽取一个容量为 $100$ 的样本；\r\n\\item 在丙地区的 $20\\text{ 个}$特大型销售点中抽取 $7$ 个，调查其销售收入和售后服务情况.\r\n\\end{circlelist}\r\n\r\n记这两项调查分别为$\\circled{1}$、$\\circled{2}$，则宜采用的抽样方法依次是（$ $）",
+          "body": "<p>某公司在甲，乙，丙，丁四个地区分别有 $150\\text{ 个}$，$120\\text{ 个}$，$180\\text{ 个}$，$150\\text{ 个}$销售点. 公司为了调查产品销售的情况，需完成以下两项调查：</p><ol class=\"enumerate\"><li><p>从这 $600\\text{ 个}$销售点中抽取一个容量为 $100$ 的样本；</p></li><li><p>在丙地区的 $20\\text{ 个}$特大型销售点中抽取 $7$ 个，调查其销售收入和售后服务情况.</p></li></ol><p>记这两项调查分别为$①$、$②$，则宜采用的抽样方法依次是（$ $）</p>",
           "choices": [
             "分层抽样，系统抽样法",
             "分层抽样法，简单随机抽样法",
@@ -222,13 +77,11 @@
             "简单随机抽样法，分层抽样法"
           ],
           "answer": "B",
-          "solution": "第一个总体由甲、乙、丙、丁四个地区组成，各地区销售点的特征可能不同，为保证各地区都按比例进入样本，应采用分层抽样法. 第二个调查只在丙地区的 20 个特大型销售点中抽取 7 个，抽样总体同质且规模较小，宜采用简单随机抽样法，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "第一个总体由甲、乙、丙、丁四个地区组成，各地区销售点的特征可能不同，为保证各地区都按比例进入样本，应采用分层抽样法. 第二个调查只在丙地区的 20 个特大型销售点中抽取 7 个，抽样总体同质且规模较小，宜采用简单随机抽样法，故选 B."
         },
         {
           "num": 7,
-          "body": "若 $f(x) = -x^{2} + 2ax$ 与 $g(x) = \\frac{a}{x + 1}$ 在区间 $\\left[1,2\\right]$ 上都是减函数，则 $a$ 的值范围是（$ $）",
+          "body": "若 $f(x) = -x^{2}+ 2ax$ 与 $g(x) = \\frac{a}{x + 1}$ 在区间 $\\left[1,2\\right]$ 上都是减函数，则 $a$ 的值范围是（$ $）",
           "choices": [
             "$(-1,0)\\cup (0,1)$",
             "$(-1,0)\\cup (0,1]$",
@@ -236,13 +89,11 @@
             "$(0,1]$"
           ],
           "answer": "D",
-          "solution": "$f'(x)=2(a-x)$. 在 $[1,2]$ 上，$f(x)$ 为减函数当且仅当 $a\\leqslant1$：当 $a\\leqslant1$ 时，除端点外均有 $f'(x)<0$；当 $a>1$ 时，在区间左端附近有 $f'(x)>0$.\r\n\r\n又 $g'(x)=-\\frac{a}{(x+1)^2}$. 因为 $x+1>0$，所以 $g(x)$ 在 $[1,2]$ 上为减函数当且仅当 $a>0$. 两个条件合并得 $0<a\\leqslant1$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$f'(x)=2(a-x)$. 在 $[1,2]$ 上，$f(x)$ 为减函数当且仅当 $a\\leqslant1$：当 $a\\leqslant1$ 时，除端点外均有 $f'(x)&#x3C;0$；当 $a>1$ 时，在区间左端附近有 $f'(x)>0$.</p><p>又 $g'(x)=-\\frac{a}{(x+1)^{2}}$. 因为 $x+1>0$，所以 $g(x)$ 在 $[1,2]$ 上为减函数当且仅当 $a>0$. 两个条件合并得 $0&#x3C;a\\leqslant1$，故选 D.</p>"
         },
         {
           "num": 8,
-          "body": "已知向量 $\\mathbf{a} = (\\cos \\theta, \\sin \\theta)$，向量 $\\mathbf{b} = (\\sqrt{3}, -1)$，则 $\\left|2\\mathbf{a} - \\mathbf{b}\\right|$ 的最大值，最小值分别是（$ $）",
+          "body": "已知向量 $\\mathbf{a}= (\\cos \\theta, \\sin \\theta)$，向量 $\\mathbf{b}= (\\sqrt{3}, -1)$，则 $\\left|2\\mathbf{a}- \\mathbf{b}\\right|$ 的最大值，最小值分别是（$ $）",
           "choices": [
             "$4\\sqrt{2}, 0$",
             "$4$，$4\\sqrt{2}$",
@@ -250,23 +101,19 @@
             "$4, 0$"
           ],
           "answer": "D",
-          "solution": "由 $|\\mathbf{a}|=1$ 和 $|\\mathbf{b}|=\\sqrt{3+1}=2$，三角不等式给出\r\n$\\left|2\\mathbf{a}-\\mathbf{b}\\right|\\leqslant2|\\mathbf{a}|+|\\mathbf{b}|=4$，以及反向三角不等式给出 $\\left|2\\mathbf{a}-\\mathbf{b}\\right|\\ge\\bigl||\\mathbf{b}|-2|\\mathbf{a}|\\bigr|=0$.\r\n\r\n当 $\\mathbf{a}=\\frac{1}{2}\\mathbf{b}$ 时取得最小值 $0$，当 $\\mathbf{a}=-\\frac{1}{2}\\mathbf{b}$ 时取得最大值 $4$，故最大值、最小值分别为 $4$，$0$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $|\\mathbf{a}|=1$ 和 $|\\mathbf{b}|=\\sqrt{3+1}=2$，三角不等式给出</p><p>$\\left|2\\mathbf{a}-\\mathbf{b}\\right|\\leqslant2|\\mathbf{a}|+|\\mathbf{b}|=4$，以及反向三角不等式给出 $\\left|2\\mathbf{a}-\\mathbf{b}\\right|\\ge\\bigl||\\mathbf{b}|-2|\\mathbf{a}|\\bigr|=0$.</p><p>当 $\\mathbf{a}=\\frac{1}{2}\\mathbf{b}$ 时取得最小值 $0$，当 $\\mathbf{a}=-\\frac{1}{2}\\mathbf{b}$ 时取得最大值 $4$，故最大值、最小值分别为 $4$，$0$，选 D.</p>"
         },
         {
           "num": 9,
-          "body": "若函数 $f(x) = x^{2} + bx + c$ 的图象的顶点在第四象限，则函数 $f'(x)$ 的图象是（$ $）",
+          "body": "若函数 $f(x) = x^{2}+ bx + c$ 的图象的顶点在第四象限，则函数 $f'(x)$ 的图象是（$ $）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/hunan_liberal/q9_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/hunan_liberal/q9_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/hunan_liberal/q9_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2004/img/hunan_liberal/q9_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hunan_liberal/q9_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hunan_liberal/q9_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hunan_liberal/q9_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/hunan_liberal/q9_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "二次函数图象顶点坐标为 $\\left(-\\frac{b}{2},c-\\frac{b^2}{4}\\right)$. 顶点在第四象限说明 $-\\frac{b}{2}>0$，即 $b<0$，并且 $c-\\frac{b^2}{4}<0$. 又 $f'(x)=2x+b$，所以其图象是一条斜率为正、在 $y$ 轴下方截距为 $b<0$、在正半轴上与 $x$ 轴相交的直线，对应选项 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "二次函数图象顶点坐标为 $\\left(-\\frac{b}{2},c-\\frac{b^{2}}{4}\\right)$. 顶点在第四象限说明 $-\\frac{b}{2}>0$，即 $b&#x3C;0$，并且 $c-\\frac{b^{2}}{4}&#x3C;0$. 又 $f'(x)=2x+b$，所以其图象是一条斜率为正、在 $y$ 轴下方截距为 $b&#x3C;0$、在正半轴上与 $x$ 轴相交的直线，对应选项 A."
         },
         {
           "num": 10,
@@ -278,9 +125,7 @@
             "$40$"
           ],
           "answer": "C",
-          "solution": "固定正方体的一个顶点作为直角顶点. 从该顶点出发，其他七个顶点分别对应于三个坐标方向的非空支持集. 两条边互相垂直，当且仅当它们对应的支持集不相交.\r\n\r\n两个非空且不相交的支持集作为无序对时，有两类：两个支持集都含一个方向时有 $\\mathrm C_3^2=3$ 对；一个支持集含一个方向、另一个含两个方向时有 $3$ 对，共 $6$ 对. 因而每个顶点可作为直角顶点的三角形有 $6$ 个. 直角三角形的直角顶点唯一，所以总数为 $8\\times6=48$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>固定正方体的一个顶点作为直角顶点. 从该顶点出发，其他七个顶点分别对应于三个坐标方向的非空支持集. 两条边互相垂直，当且仅当它们对应的支持集不相交.</p><p>两个非空且不相交的支持集作为无序对时，有两类：两个支持集都含一个方向时有 $\\mathrm{C}_{3}^{2}=3$ 对；一个支持集含一个方向、另一个含两个方向时有 $3$ 对，共 $6$ 对. 因而每个顶点可作为直角顶点的三角形有 $6$ 个. 直角三角形的直角顶点唯一，所以总数为 $8\\times6=48$，故选 C.</p>"
         },
         {
           "num": 11,
@@ -292,23 +137,19 @@
             "$4800\\text{ 元}\\sim 5000\\text{ 元}$"
           ],
           "answer": "B",
-          "solution": "从 2003 年到 2008 年正好经过 5 年. 2008 年的工资性收入为\r\n$1800(1+6\\%)^5=1800(1.06)^5\\approx2408.8\\text{ 元}$，其它收入为\r\n$1350+5\\times160=2150\\text{ 元}$.\r\n\r\n所以 2008 年农民人均收入约为 $2408.8+2150=4558.8\\text{ 元}$，介于 $4400\\text{ 元}$ 与 $4600\\text{ 元}$ 之间，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>从 2003 年到 2008 年正好经过 5 年. 2008 年的工资性收入为</p><p>$1800(1+6\\%)^{5}=1800(1.06)^{5}\\approx2408.8\\text{ 元}$，其它收入为</p><p>$1350+5\\times160=2150\\text{ 元}$.</p><p>所以 2008 年农民人均收入约为 $2408.8+2150=4558.8\\text{ 元}$，介于 $4400\\text{ 元}$ 与 $4600\\text{ 元}$ 之间，故选 B.</p>"
         },
         {
           "num": 12,
-          "body": "设集合 $U = \\{(x, y) \\mid x \\in \\mathbb{R}, y \\in \\mathbb{R}\\}$，$A = \\{(x, y) \\mid 2x - y + m > 0\\}$，$B = \\{(x, y) \\mid x + y - n \\le 0\\}$，那么点 $P(2,3) \\in A \\cap (\\complement_U B)$ 的充要条件是（$ $）",
+          "body": "设集合 $U = \\{(x, y) \\mid x \\in \\mathbb{R}, y \\in \\mathbb{R}\\}$，$A = \\{(x, y) \\mid 2x - y + m > 0\\}$，$B = \\{(x, y) \\mid x + y - n \\le 0\\}$，那么点 $P(2,3) \\in A \\cap (\\complement_{U} B)$ 的充要条件是（$ $）",
           "choices": [
-            "$m > -1, n < 5$",
-            "$m < -1$，$n < 5$",
+            "$m > -1, n &#x3C; 5$",
+            "$m &#x3C; -1$，$n &#x3C; 5$",
             "$m > -1$，$n > 5$",
-            "$m < -1$，$n > 5$"
+            "$m &#x3C; -1$，$n > 5$"
           ],
           "answer": "A",
-          "solution": "点 $P(2,3)\\in A$ 等价于\r\n$2\\cdot2-3+m>0$，即 $m>-1$.\r\n\r\n点 $P(2,3)\\in\\complement_U B$ 等价于不满足 $x+y-n\\leqslant0$，即\r\n$2+3-n>0$，所以 $n<5$. 因而充要条件是 $m>-1$，$n<5$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>点 $P(2,3)\\in A$ 等价于</p><p>$2\\cdot2-3+m>0$，即 $m>-1$.</p><p>点 $P(2,3)\\in\\complement_{U} B$ 等价于不满足 $x+y-n\\leqslant0$，即</p><p>$2+3-n>0$，所以 $n&#x3C;5$. 因而充要条件是 $m>-1$，$n&#x3C;5$，故选 A.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "过点 $P(-1,2)$ 且与曲线 $y = 3x^{2} - 4x + 2$ 在点 $M(1,1)$ 处的切线平行的直线方程是 _______ {}.",
-          "choices": [],
-          "answer": "\\(2x-y+4=0\\)",
-          "solution": "曲线的导函数为 $y'=6x-4$，所以在 $M(1,1)$ 处切线的斜率为 $2$. 设所求直线为 $y=2x+k$. 由于它经过 $P(-1,2)$，有 $2=-2+k$，解得 $k=4$. 因而直线方程为 $y=2x+4$，即 $2x-y+4=0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "过点 $P(-1,2)$ 且与曲线 $y = 3x^{2}- 4x + 2$ 在点 $M(1,1)$ 处的切线平行的直线方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2x-y+4=0$",
+          "solution": "曲线的导函数为 $y'=6x-4$，所以在 $M(1,1)$ 处切线的斜率为 $2$. 设所求直线为 $y=2x+k$. 由于它经过 $P(-1,2)$，有 $2=-2+k$，解得 $k=4$. 因而直线方程为 $y=2x+4$，即 $2x-y+4=0$."
         },
         {
           "num": 14,
-          "body": "$\\left(x^{2} + \\frac{1}{x}\\right)^{9}$ 的展开式中的常数项为 _______ {}.",
-          "choices": [],
+          "body": "$\\left(x^{2}+ \\frac{1}{x}\\right)^{9}$ 的展开式中的常数项为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "84",
-          "solution": "展开式的第 $k+1$ 项可写为\r\n$\\mathrm C_9^k(x^2)^{9-k}\\left(\\frac{1}{x}\\right)^k=\\mathrm C_9^k x^{18-3k}$，其中 $k=0$，$1$，$\\ldots$，$9$. 要得到常数项，必须有 $18-3k=0$，所以 $k=6$. 因而常数项为 $\\mathrm C_9^6=\\mathrm C_9^3=84$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>展开式的第 $k+1$ 项可写为</p><p>$\\mathrm{C}_{9}^{k}(x^{2})^{9-k}\\left(\\frac{1}{x}\\right)^{k}=\\mathrm{C}_{9}^{k} x^{18-3k}$，其中 $k=0$，$1$，$\\ldots$，$9$. 要得到常数项，必须有 $18-3k=0$，所以 $k=6$. 因而常数项为 $\\mathrm{C}_{9}^{6}=\\mathrm{C}_{9}^{3}=84$.</p>"
         },
         {
           "num": 15,
-          "body": "$F_{1}$，$F_{2}$ 是椭圆 $C: \\frac{x^{2}}{8} + \\frac{y^{2}}{4} = 1$ 的焦点. 在 $C$ 上满足 $PF_{1} \\perp PF_{2}$ 的点 $P$ 的个数为 _______ {}.",
-          "choices": [],
+          "body": "$F_{1}$，$F_{2}$ 是椭圆 $C: \\frac{x^{2}}{8}+ \\frac{y^{2}}{4}= 1$ 的焦点. 在 $C$ 上满足 $PF_{1}\\perp PF_{2}$ 的点 $P$ 的个数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "2",
-          "solution": "椭圆的焦半距满足 $c^2=8-4=4$，所以两个焦点为 $F_1(-2,0)$，$F_2(2,0)$. 设 $P(x,y)$ 为所求点，则\r\n$\\overrightarrow{PF_1}=( -2-x,-y)$，$\\overrightarrow{PF_2}=(2-x,-y)$. 垂直条件给出\r\n$\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=x^2+y^2-4=0$.\r\n\r\n结合椭圆方程 $\\frac{x^2}{8}+\\frac{y^2}{4}=1$ 和 $x^2+y^2=4$，得\r\n$\\frac{x^2}{8}+\\frac{4-x^2}{4}=1$，即 $x=0$，再得 $y=\\pm2$. 所以共有 $2$ 个点.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>椭圆的焦半距满足 $c^{2}=8-4=4$，所以两个焦点为 $F_{1}(-2,0)$，$F_{2}(2,0)$. 设 $P(x,y)$ 为所求点，则</p><p>$\\overrightarrow{PF_1}=( -2-x,-y)$，$\\overrightarrow{PF_2}=(2-x,-y)$. 垂直条件给出</p><p>$\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=x^{2}+y^{2}-4=0$.</p><p>结合椭圆方程 $\\frac{x^{2}}{8}+\\frac{y^{2}}{4}=1$ 和 $x^{2}+y^{2}=4$，得</p><p>$\\frac{x^{2}}{8}+\\frac{4-x^{2}}{4}=1$，即 $x=0$，再得 $y=\\pm2$. 所以共有 $2$ 个点.</p>"
         },
         {
           "num": 16,
-          "body": "若直线 $y = 2a$ 与函数 $y = |a^{x} - 1|$（$a > 0$，且 $a \\neq 1$）的图象有两个公共点，则 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(0<a<\\frac{1}{2}\\)",
-          "solution": "公共点的纵坐标必须满足\r\n$\\left|a^x-1\\right|=2a$. 分两种情况：\r\n\r\n当 $a^x-1=2a$ 时，$a^x=1+2a>0$，对任意 $a>0$ 都有唯一实数解；当 $a^x-1=-2a$ 时，$a^x=1-2a$，该式有实数解的必要条件是 $0<1-2a<\\infty$，即 $0<a<\\frac{1}{2}$.\r\n\r\n若 $a>1$，第一种情况有一个解，第二种情况右端为负无解；若 $\\frac{1}{2}\\le a<1$，也只有第一种情况有一个解；若 $0<a<\\frac{1}{2}$，由于指数函数 $a^x$ 在实数上单调递减，两个正值方程各有一个解，且两解分别对应 $a^x>1$ 与 $0<a^x<1$，互不相同. 因此恰有两个公共点的充要条件为 $0<a<\\frac{1}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若直线 $y = 2a$ 与函数 $y = |a^{x}- 1|$（$a > 0$，且 $a \\neq 1$）的图象有两个公共点，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$0&#x3C;a&#x3C;\\frac{1}{2}$",
+          "solution": "<p>公共点的纵坐标必须满足</p><p>$\\left|a^{x}-1\\right|=2a$. 分两种情况：</p><p>当 $a^{x}-1=2a$ 时，$a^{x}=1+2a>0$，对任意 $a>0$ 都有唯一实数解；当 $a^{x}-1=-2a$ 时，$a^{x}=1-2a$，该式有实数解的必要条件是 $0&#x3C;1-2a&#x3C;\\infty$，即 $0&#x3C;a&#x3C;\\frac{1}{2}$.</p><p>若 $a>1$，第一种情况有一个解，第二种情况右端为负无解；若 $\\frac{1}{2}\\le a&#x3C;1$，也只有第一种情况有一个解；若 $0&#x3C;a&#x3C;\\frac{1}{2}$，由于指数函数 $a^{x}$ 在实数上单调递减，两个正值方程各有一个解，且两解分别对应 $a^{x}>1$ 与 $0&#x3C;a^{x}&#x3C;1$，互不相同. 因此恰有两个公共点的充要条件为 $0&#x3C;a&#x3C;\\frac{1}{2}$.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "$\\tan \\left(\\frac{\\pi}{4} + \\alpha\\right) = 2$，求 $\\frac{1}{2\\sin\\alpha\\cos\\alpha + \\cos^2\\alpha}$ 的值.",
-          "choices": [],
+          "body": "$\\tan \\left(\\frac{\\pi}{4}+ \\alpha\\right) = 2$，求 $\\frac{1}{2\\sin\\alpha\\cos\\alpha + \\cos^{2}\\alpha}$ 的值.",
+          "choices": null,
           "answer": "",
-          "solution": "由正切的和角公式，得\r\n$\\displaystyle\\frac{1+\\tan\\alpha}{1-\\tan\\alpha}=2$，所以 $3\\tan\\alpha=1$，即 $\\tan\\alpha=\\frac{1}{3}$. 因而 $\\cos^2\\alpha=\\frac{1}{1+\\tan^2\\alpha}=\\frac{9}{10}$，从而\r\n$2\\sin\\alpha\\cos\\alpha+\\cos^2\\alpha=\\cos^2\\alpha\\left(2\\tan\\alpha+1\\right)=\\frac{9}{10}\\cdot\\frac{5}{3}=\\frac{3}{2}$. 所以所求值为 $\\frac{2}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由正切的和角公式，得</p><p>$\\displaystyle\\frac{1+\\tan\\alpha}{1-\\tan\\alpha}=2$，所以 $3\\tan\\alpha=1$，即 $\\tan\\alpha=\\frac{1}{3}$. 因而 $\\cos^{2}\\alpha=\\frac{1}{1+\\tan^{2}\\alpha}=\\frac{9}{10}$，从而</p><p>$2\\sin\\alpha\\cos\\alpha+\\cos^{2}\\alpha=\\cos^{2}\\alpha\\left(2\\tan\\alpha+1\\right)=\\frac{9}{10}\\cdot\\frac{5}{3}=\\frac{3}{2}$. 所以所求值为 $\\frac{2}{3}$.</p>"
         },
         {
           "num": 18,
-          "body": "如图，在底面是菱形的四棱锥 $P-ABCD$ 中，$\\angle ABC = 60^{\\circ}$，$PA = AC = a$，$PB = PD = \\sqrt{2}a$，点 $E$ 是 $PD$ 的中点.\r\n\r\n\n(1) 证明：$PA \\perp$ 平面 $ABCD$，$PB \\parallel$ 平面 $EAC$；\n\n(2) 求以 $AC$ 为棱，$EAC$ 与 $DAC$ 为面的二面角 $\\theta$ 的正切值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/hunan_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在底面是菱形的四棱锥 $P-ABCD$ 中，$\\angle ABC = 60^{\\circ}$，$PA = AC = a$，$PB = PD = \\sqrt{2}a$，点 $E$ 是 $PD$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$PA \\perp$ 平面 $ABCD$，$PB \\parallel$ 平面 $EAC$；</p></li><li><p>求以 $AC$ 为棱，$EAC$ 与 $DAC$ 为面的二面角 $\\theta$ 的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_liberal/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "由菱形的性质，设其边长为 $s$，则在三角形 $ABC$ 中，$AB=BC=s$，且 $\\angle ABC=60^{\\circ}$，所以\r\n$AC^2=s^2+s^2-2s^2\\cos60^{\\circ}=s^2$. 因为 $AC=a$，故菱形的边长也是 $a$，从而 $AB=AD=AC=a$.\r\n\r\n\n(1) 在三角形 $PAB$ 中，$PA^2+AB^2=a^2+a^2=2a^2=PB^2$，所以 $PA\\perp AB$. 同理，在三角形 $PAD$ 中，$PA^2+AD^2=a^2+a^2=2a^2=PD^2$，所以 $PA\\perp AD$. 直线 $AB$，$AD$ 是平面 $ABCD$ 内相交的两条直线，故 $PA\\perp$ 平面 $ABCD$.\r\n\r\n由于 $ABCD$ 是平行四边形，有 $\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}$. 又因为 $E$ 是 $PD$ 的中点，所以 $2\\overrightarrow{AE}=\\overrightarrow{AP}+\\overrightarrow{AD}$. 因此\r\n$\\overrightarrow{PB}=\\overrightarrow{AB}-\\overrightarrow{AP}=\\overrightarrow{AC}-2\\overrightarrow{AE}$. 右端是平面 $EAC$ 内两条相交直线 $AC$，$AE$ 的方向向量的线性组合，故 $PB\\parallel$ 平面 $EAC$.\r\n\r\n由 $PA\\perp$ 平面 $ABCD$ 且 $PA=a>0$，点 $P$ 不在平面 $ABCD$ 内；又因 $D$ 在该平面内，$E$ 是 $PD$ 的中点，所以 $E$ 也不在平面 $ABCD$ 内. 因而平面 $EAC$ 与平面 $ABCD$ 的交线为 $AC$，而 $B\\notin AC$，所以 $B$ 不在平面 $EAC$ 内，上述方向关系确立 $PB\\parallel$ 平面 $EAC$.\n\n(2) 取直角坐标系，使底面在 $z=0$ 内，且 $A=(0,0,0)$，$C=(a,0,0)$. 由 $ABC$ 与 $ADC$ 都是边长为 $a$ 的等边三角形，可取\r\n$B=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2},0\\right)$，$D=\\left(\\frac{a}{2},-\\frac{\\sqrt{3}a}{2},0\\right)$. 又由第（1）问，$PA\\perp$ 平面 $ABCD$，且 $PA=a$，故可取 $P=(0,0,a)$. 于是\r\n$E=\\left(\\frac{a}{4},-\\frac{\\sqrt{3}a}{4},\\frac{a}{2}\\right)$.\r\n\r\n平面 $EAC$ 与平面 $DAC$ 的法向量可分别取为\r\n$\\mathbf{n}_1=\\overrightarrow{AC}\\times\\overrightarrow{AE}=\\left(0,-\\frac{a^2}{2},-\\frac{\\sqrt{3}a^2}{4}\\right)$，\r\n$\\mathbf{n}_2=\\overrightarrow{AC}\\times\\overrightarrow{AD}=\\left(0,0,-\\frac{\\sqrt{3}a^2}{2}\\right)$.\r\n因此二面角 $\\theta$ 的正切值为法向量夹角的正切值，即\r\n$\\displaystyle\\tan\\theta=\\frac{|\\mathbf{n}_1\\times\\mathbf{n}_2|}{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}=\\frac{\\frac{\\sqrt{3}a^4}{4}}{\\frac{3a^4}{8}}=\\frac{2\\sqrt{3}}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由菱形的性质，设其边长为 $s$，则在三角形 $ABC$ 中，$AB=BC=s$，且 $\\angle ABC=60^{\\circ}$，所以</p><p>$AC^{2}=s^{2}+s^{2}-2s^{2}\\cos60^{\\circ}=s^{2}$. 因为 $AC=a$，故菱形的边长也是 $a$，从而 $AB=AD=AC=a$.</p><ol class=\"enumerate\"><li><p>在三角形 $PAB$ 中，$PA^{2}+AB^{2}=a^{2}+a^{2}=2a^{2}=PB^{2}$，所以 $PA\\perp AB$. 同理，在三角形 $PAD$ 中，$PA^{2}+AD^{2}=a^{2}+a^{2}=2a^{2}=PD^{2}$，所以 $PA\\perp AD$. 直线 $AB$，$AD$ 是平面 $ABCD$ 内相交的两条直线，故 $PA\\perp$ 平面 $ABCD$.</p><p>由于 $ABCD$ 是平行四边形，有 $\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{AD}$. 又因为 $E$ 是 $PD$ 的中点，所以 $2\\overrightarrow{AE}=\\overrightarrow{AP}+\\overrightarrow{AD}$. 因此</p><p>$\\overrightarrow{PB}=\\overrightarrow{AB}-\\overrightarrow{AP}=\\overrightarrow{AC}-2\\overrightarrow{AE}$. 右端是平面 $EAC$ 内两条相交直线 $AC$，$AE$ 的方向向量的线性组合，故 $PB\\parallel$ 平面 $EAC$.</p><p>由 $PA\\perp$ 平面 $ABCD$ 且 $PA=a>0$，点 $P$ 不在平面 $ABCD$ 内；又因 $D$ 在该平面内，$E$ 是 $PD$ 的中点，所以 $E$ 也不在平面 $ABCD$ 内. 因而平面 $EAC$ 与平面 $ABCD$ 的交线为 $AC$，而 $B\\notin AC$，所以 $B$ 不在平面 $EAC$ 内，上述方向关系确立 $PB\\parallel$ 平面 $EAC$.</p></li><li><p>取直角坐标系，使底面在 $z=0$ 内，且 $A=(0,0,0)$，$C=(a,0,0)$. 由 $ABC$ 与 $ADC$ 都是边长为 $a$ 的等边三角形，可取</p><p>$B=\\left(\\frac{a}{2},\\frac{\\sqrt{3}a}{2},0\\right)$，$D=\\left(\\frac{a}{2},-\\frac{\\sqrt{3}a}{2},0\\right)$. 又由第（1）问，$PA\\perp$ 平面 $ABCD$，且 $PA=a$，故可取 $P=(0,0,a)$. 于是</p><p>$E=\\left(\\frac{a}{4},-\\frac{\\sqrt{3}a}{4},\\frac{a}{2}\\right)$.</p><p>平面 $EAC$ 与平面 $DAC$ 的法向量可分别取为</p><p>$\\mathbf{n}_{1}=\\overrightarrow{AC}\\times\\overrightarrow{AE}=\\left(0,-\\frac{a^{2}}{2},-\\frac{\\sqrt{3}a^{2}}{4}\\right)$，</p><p>$\\mathbf{n}_{2}=\\overrightarrow{AC}\\times\\overrightarrow{AD}=\\left(0,0,-\\frac{\\sqrt{3}a^{2}}{2}\\right)$.</p><p>因此二面角 $\\theta$ 的正切值为法向量夹角的正切值，即</p><p>$\\displaystyle\\tan\\theta=\\frac{|\\mathbf{n}_{1}\\times\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}=\\frac{\\frac{\\sqrt{3}a^{4}}{4}}{\\frac{3a^{4}}{8}}=\\frac{2\\sqrt{3}}{3}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "甲，乙，丙三台机床各自独立地加工同一种零件，已知甲机床加工的零件是一等品而乙机床加工的零件不是一等品的概率为 $\\frac{1}{4}$，乙机床加工的零件是一等品而丙机床加工的零件不是一等品的概率为 $\\frac{1}{12}$，甲，丙两台机床加工的零件都是一等品的概率为 $\\frac{2}{9}$.\r\n\r\n\n(1) 分别求甲，乙，丙三台机床各自加工零件是一等品的概率；\n\n(2) 从甲，乙，丙加工的零件中各取一个检验，求至少有一个一等品的概率.",
-          "choices": [],
+          "body": "<p>甲，乙，丙三台机床各自独立地加工同一种零件，已知甲机床加工的零件是一等品而乙机床加工的零件不是一等品的概率为 $\\frac{1}{4}$，乙机床加工的零件是一等品而丙机床加工的零件不是一等品的概率为 $\\frac{1}{12}$，甲，丙两台机床加工的零件都是一等品的概率为 $\\frac{2}{9}$.</p><ol class=\"enumerate\"><li><p>分别求甲，乙，丙三台机床各自加工零件是一等品的概率；</p></li><li><p>从甲，乙，丙加工的零件中各取一个检验，求至少有一个一等品的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设甲、乙、丙三台机床加工的零件是一等品的概率分别为 $p$，$q$，$r$. 由三台机床独立加工，题设给出\r\n$p(1-q)=\\frac{1}{4}$，$q(1-r)=\\frac{1}{12}$，$pr=\\frac{2}{9}$.\r\n\r\n由第一式得 $q=1-\\frac{1}{4p}$. 再由第二式得 $r=1-\\frac{1}{12q}$. 代入第三式，得到\r\n$\\displaystyle p\\left(1-\\frac{1}{12q}\\right)=\\frac{2}{9}$. 将 $q=\\frac{4p-1}{4p}$ 代入，化简得\r\n$\\displaystyle p-\\frac{p^2}{3(4p-1)}=\\frac{2}{9}$，即 $33p^2-17p+2=0$. 因此\r\n$p=\\frac{17\\pm5}{66}$，即 $p=\\frac{1}{3}$ 或 $p=\\frac{2}{11}$.\r\n\r\n当 $p=\\frac{2}{11}$ 时，$q=1-\\frac{11}{8}=-\\frac{3}{8}$，不符合概率的非负性，舍去. 所以 $p=\\frac{1}{3}$，进而 $q=1-\\frac{3}{4}=\\frac{1}{4}$，且 $r=\\frac{\\frac{2}{9}}{\\frac{1}{3}}=\\frac{2}{3}$.\r\n\r\n\n(1) 甲、乙、丙三台机床加工零件是一等品的概率分别为 $\\frac{1}{3}$，$\\frac{1}{4}$，$\\frac{2}{3}$.\n\n(2) 三个零件中至少有一个一等品的对立事件是三个零件都不是一等品. 因为三个零件相互独立，所以所求概率为\r\n$\\displaystyle 1-(1-p)(1-q)(1-r)=1-\\frac{2}{3}\\cdot\\frac{3}{4}\\cdot\\frac{1}{3}=\\frac{5}{6}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设甲、乙、丙三台机床加工的零件是一等品的概率分别为 $p$，$q$，$r$. 由三台机床独立加工，题设给出</p><p>$p(1-q)=\\frac{1}{4}$，$q(1-r)=\\frac{1}{12}$，$pr=\\frac{2}{9}$.</p><p>由第一式得 $q=1-\\frac{1}{4p}$. 再由第二式得 $r=1-\\frac{1}{12q}$. 代入第三式，得到</p><p>$\\displaystyle p\\left(1-\\frac{1}{12q}\\right)=\\frac{2}{9}$. 将 $q=\\frac{4p-1}{4p}$ 代入，化简得</p><p>$\\displaystyle p-\\frac{p^{2}}{3(4p-1)}=\\frac{2}{9}$，即 $33p^{2}-17p+2=0$. 因此</p><p>$p=\\frac{17\\pm5}{66}$，即 $p=\\frac{1}{3}$ 或 $p=\\frac{2}{11}$.</p><p>当 $p=\\frac{2}{11}$ 时，$q=1-\\frac{11}{8}=-\\frac{3}{8}$，不符合概率的非负性，舍去. 所以 $p=\\frac{1}{3}$，进而 $q=1-\\frac{3}{4}=\\frac{1}{4}$，且 $r=\\frac{\\frac{2}{9}}{\\frac{1}{3}}=\\frac{2}{3}$.</p><ol class=\"enumerate\"><li><p>甲、乙、丙三台机床加工零件是一等品的概率分别为 $\\frac{1}{3}$，$\\frac{1}{4}$，$\\frac{2}{3}$.</p></li><li><p>三个零件中至少有一个一等品的对立事件是三个零件都不是一等品. 因为三个零件相互独立，所以所求概率为</p><p>$\\displaystyle 1-(1-p)(1-q)(1-r)=1-\\frac{2}{3}\\cdot\\frac{3}{4}\\cdot\\frac{1}{3}=\\frac{5}{6}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知数列 $\\{a_{n}\\}$ 是首项为 $a$ 且公比 $q$ 不等于1的等比数列，$S_{n}$ 是其前 $n$ 项的和，且 $a_{1}$，$2a_{7}$，$3a_{4}$ 成等差数列.\r\n\r\n\n(1) 证明：$12S_{3}$，$S_{6}$，$S_{12}-S_{6}$ 成等比数列；\n\n(2) 求和 $T_{n}=a_{1}+2a_{4}+3a_{7}+\\cdots+na_{3n-2}$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 是首项为 $a$ 且公比 $q$ 不等于1的等比数列，$S_{n}$ 是其前 $n$ 项的和，且 $a_{1}$，$2a_{7}$，$3a_{4}$ 成等差数列.</p><ol class=\"enumerate\"><li><p>证明：$12S_{3}$，$S_{6}$，$S_{12}-S_{6}$ 成等比数列；</p></li><li><p>求和 $T_{n}=a_{1}+2a_{4}+3a_{7}+\\cdots+na_{3n-2}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "若 $a=0$，则各项均为 $0$，于是 $12S_3=S_6=S_{12}-S_6=0$，且 $T_n=0$，第一问的等比关系和第二问结论均成立. 以下设 $a\\ne0$.\r\n\r\n由等比数列的通项公式，$a_4=aq^3$，$a_7=aq^6$. 因为 $a_1$，$2a_7$，$3a_4$ 成等差数列，所以\r\n$2\\cdot2aq^6=a+3aq^3$. 约去非零的首项 $a$，得\r\n$4q^6-3q^3-1=0$. 令 $u=q^3$，则\r\n$4u^2-3u-1=(4u+1)(u-1)=0$. 由于 $q\\ne1$，不能有 $u=1$，故 $q^3=-\\frac{1}{4}$，从而 $q^6=\\frac{1}{16}$.\r\n\r\n\n(1) 由等比数列前 $n$ 项和公式，得\r\n$\\displaystyle S_3=\\frac{a(1-q^3)}{1-q}=\\frac{5a}{4(1-q)}$，\r\n$\\displaystyle S_6=\\frac{a(1-q^6)}{1-q}=\\frac{15a}{16(1-q)}$. 又\r\n$\\displaystyle S_{12}-S_6=\\frac{aq^6(1-q^6)}{1-q}=\\frac{15a}{256(1-q)}$.\r\n\r\n所以\r\n$\\displaystyle 12S_3=\\frac{15a}{1-q}$，$S_6=\\frac{1}{16}(12S_3)$，$S_{12}-S_6=\\frac{1}{16}S_6$. 因而 $12S_3$，$S_6$，$S_{12}-S_6$ 成等比数列，公比为 $\\frac{1}{16}$.\n\n(2) 对 $k=1$，$2$，$\\ldots$，$n$，有 $a_{3k-2}=aq^{3k-3}=a(q^3)^{k-1}=a\\left(-\\frac{1}{4}\\right)^{k-1}$. 因此\r\n$\\displaystyle T_n=a\\sum_{k=1}^{n}k\\left(-\\frac{1}{4}\\right)^{k-1}$.\r\n\r\n令 $r=-\\frac{1}{4}$. 对有限等比和求导，得\r\n$\\displaystyle\\sum_{k=1}^{n}kr^{k-1}=\\frac{\\mathrm d}{\\mathrm dr}\\left(\\frac{1-r^{n+1}}{1-r}\\right)=\\frac{1-(n+1)r^n+nr^{n+1}}{(1-r)^2}$.\r\n代入 $r=-\\frac{1}{4}$，得到\r\n$\\displaystyle T_n=\\frac{16a}{25}\\left[1-(n+1)\\left(-\\frac{1}{4}\\right)^n+n\\left(-\\frac{1}{4}\\right)^{n+1}\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>若 $a=0$，则各项均为 $0$，于是 $12S_{3}=S_{6}=S_{12}-S_{6}=0$，且 $T_{n}=0$，第一问的等比关系和第二问结论均成立. 以下设 $a\\ne0$.</p><p>由等比数列的通项公式，$a_{4}=aq^{3}$，$a_{7}=aq^{6}$. 因为 $a_{1}$，$2a_{7}$，$3a_{4}$ 成等差数列，所以</p><p>$2\\cdot2aq^{6}=a+3aq^{3}$. 约去非零的首项 $a$，得</p><p>$4q^{6}-3q^{3}-1=0$. 令 $u=q^{3}$，则</p><p>$4u^{2}-3u-1=(4u+1)(u-1)=0$. 由于 $q\\ne1$，不能有 $u=1$，故 $q^{3}=-\\frac{1}{4}$，从而 $q^{6}=\\frac{1}{16}$.</p><ol class=\"enumerate\"><li><p>由等比数列前 $n$ 项和公式，得</p><p>$\\displaystyle S_{3}=\\frac{a(1-q^{3})}{1-q}=\\frac{5a}{4(1-q)}$，</p><p>$\\displaystyle S_{6}=\\frac{a(1-q^{6})}{1-q}=\\frac{15a}{16(1-q)}$. 又</p><p>$\\displaystyle S_{12}-S_{6}=\\frac{aq^{6}(1-q^{6})}{1-q}=\\frac{15a}{256(1-q)}$.</p><p>所以</p><p>$\\displaystyle 12S_{3}=\\frac{15a}{1-q}$，$S_{6}=\\frac{1}{16}(12S_{3})$，$S_{12}-S_{6}=\\frac{1}{16}S_{6}$. 因而 $12S_{3}$，$S_{6}$，$S_{12}-S_{6}$ 成等比数列，公比为 $\\frac{1}{16}$.</p></li><li><p>对 $k=1$，$2$，$\\ldots$，$n$，有 $a_{3k-2}=aq^{3k-3}=a(q^{3})^{k-1}=a\\left(-\\frac{1}{4}\\right)^{k-1}$. 因此</p><p>$\\displaystyle T_{n}=a\\sum_{k=1}^{n}k\\left(-\\frac{1}{4}\\right)^{k-1}$.</p><p>令 $r=-\\frac{1}{4}$. 对有限等比和求导，得</p><p>$\\displaystyle\\sum_{k=1}^{n}kr^{k-1}=\\frac{\\mathrm{d}}{\\mathrm{d}r}\\left(\\frac{1-r^{n+1}}{1-r}\\right)=\\frac{1-(n+1)r^{n}+nr^{n+1}}{(1-r)^{2}}$.</p><p>代入 $r=-\\frac{1}{4}$，得到</p><p>$\\displaystyle T_{n}=\\frac{16a}{25}\\left[1-(n+1)\\left(-\\frac{1}{4}\\right)^{n}+n\\left(-\\frac{1}{4}\\right)^{n+1}\\right]$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "如图，已知曲线 $C_1: y = x^3$（$x \\ge 0$）与曲线 $C_2: y = -2x^3 + 3x$（$x \\ge 0$）交于 $O$，$A$，直线 $x = t$（$0 < t < 1$）与曲线 $C_1$，$C_2$ 分别交于 $B$，$D$.\r\n\r\n\n(1) 写出四边形 $ABOD$ 的面积 $S$ 与 $t$ 的函数关系式 $S = f(t)$；\n\n(2) 讨论 $f(t)$ 的单调性，并求 $f(t)$ 的最大值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/hunan_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，已知曲线 $C_{1}: y = x^{3}$（$x \\ge 0$）与曲线 $C_{2}: y = -2x^{3} + 3x$（$x \\ge 0$）交于 $O$，$A$，直线 $x = t$（$0 &#x3C; t &#x3C; 1$）与曲线 $C_{1}$，$C_{2}$ 分别交于 $B$，$D$.</p><ol class=\"enumerate\"><li><p>写出四边形 $ABOD$ 的面积 $S$ 与 $t$ 的函数关系式 $S = f(t)$；</p></li><li><p>讨论 $f(t)$ 的单调性，并求 $f(t)$ 的最大值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "由 $x^3=-2x^3+3x$，得 $3x(x-1)(x+1)=0$. 在 $x\\geqslant0$ 的条件下，交点为 $O=(0,0)$，$A=(1,1)$. 直线 $x=t$ 与两条曲线的交点分别为\r\n$B=(t,t^3)$，$D=(t,3t-2t^3)$.\r\n\r\n\n(1) 按四边形 $ABOD$ 的顶点顺序使用鞋带公式，得\r\n$\\displaystyle 2S=\\left|1\\cdot t^3+t\\cdot0+0\\cdot(3t-2t^3)+t\\cdot1-1\\cdot t-t^3\\cdot0-0\\cdot t-(3t-2t^3)\\cdot1\\right|$.\r\n由于 $0<t<1$，所以\r\n$\\displaystyle S=f(t)=\\frac{3}{2}(t-t^3)$.\n\n(2) $\\displaystyle f'(t)=\\frac{3}{2}(1-3t^2)$. 当 $0<t<\\frac{1}{\\sqrt{3}}$ 时，$f'(t)>0$，所以 $f(t)$ 单调递增；当 $\\frac{1}{\\sqrt{3}}<t<1$ 时，$f'(t)<0$，所以 $f(t)$ 单调递减. 因此在 $t=\\frac{1}{\\sqrt{3}}$ 时取得最大值，且\r\n$\\displaystyle f\\left(\\frac{1}{\\sqrt{3}}\\right)=\\frac{3}{2}\\left(\\frac{1}{\\sqrt{3}}-\\frac{1}{3\\sqrt{3}}\\right)=\\frac{1}{\\sqrt{3}}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由 $x^{3}=-2x^{3}+3x$，得 $3x(x-1)(x+1)=0$. 在 $x\\geqslant0$ 的条件下，交点为 $O=(0,0)$，$A=(1,1)$. 直线 $x=t$ 与两条曲线的交点分别为</p><p>$B=(t,t^{3})$，$D=(t,3t-2t^{3})$.</p><ol class=\"enumerate\"><li><p>按四边形 $ABOD$ 的顶点顺序使用鞋带公式，得</p><p>$\\displaystyle 2S=\\left|1\\cdot t^{3}+t\\cdot0+0\\cdot(3t-2t^{3})+t\\cdot1-1\\cdot t-t^{3}\\cdot0-0\\cdot t-(3t-2t^{3})\\cdot1\\right|$.</p><p>由于 $0&#x3C;t&#x3C;1$，所以</p><p>$\\displaystyle S=f(t)=\\frac{3}{2}(t-t^{3})$.</p></li><li><p>$\\displaystyle f'(t)=\\frac{3}{2}(1-3t^{2})$. 当 $0&#x3C;t&#x3C;\\frac{1}{\\sqrt{3}}$ 时，$f'(t)>0$，所以 $f(t)$ 单调递增；当 $\\frac{1}{\\sqrt{3}}&#x3C;t&#x3C;1$ 时，$f'(t)&#x3C;0$，所以 $f(t)$ 单调递减. 因此在 $t=\\frac{1}{\\sqrt{3}}$ 时取得最大值，且</p><p>$\\displaystyle f\\left(\\frac{1}{\\sqrt{3}}\\right)=\\frac{3}{2}\\left(\\frac{1}{\\sqrt{3}}-\\frac{1}{3\\sqrt{3}}\\right)=\\frac{1}{\\sqrt{3}}$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "如图，过抛物线 $x^{2} = 4y$ 的对称轴上任一点 $P(0, m)$（$m > 0$）作直线与抛物线交于 $A$，$B$ 两点，点 $Q$ 是点 $P$ 关于原点的对称点.\r\n\r\n\n(1) 设点 $P$ 分有向线段 $\\overrightarrow{AB}$ 所成的比为 $\\lambda$. 证明：$\\overrightarrow{QP} \\perp (\\overrightarrow{QA} - \\lambda \\overrightarrow{QB})$；\n\n(2) 设直线 $AB$ 的方程是 $x - 2y + 12 = 0$，过 $A$，$B$ 两点的圆 $C$ 与抛物线在点 $A$ 处有共同的切线，求圆 $C$ 的方程.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/hunan_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，过抛物线 $x^{2}= 4y$ 的对称轴上任一点 $P(0, m)$（$m > 0$）作直线与抛物线交于 $A$，$B$ 两点，点 $Q$ 是点 $P$ 关于原点的对称点.</p><ol class=\"enumerate\"><li><p>设点 $P$ 分有向线段 $\\overrightarrow{AB}$ 所成的比为 $\\lambda$. 证明：$\\overrightarrow{QP}\\perp (\\overrightarrow{QA}- \\lambda \\overrightarrow{QB})$；</p></li><li><p>设直线 $AB$ 的方程是 $x - 2y + 12 = 0$，过 $A$，$B$ 两点的圆 $C$ 与抛物线在点 $A$ 处有共同的切线，求圆 $C$ 的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hunan_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "设 $A=\\left(x_1,\\frac{x_1^2}{4}\\right)$，$B=\\left(x_2,\\frac{x_2^2}{4}\\right)$. 过这两点的直线方程可写为\r\n$\\displaystyle y=\\frac{x_1+x_2}{4}x-\\frac{x_1x_2}{4}$.\r\n由于该直线过 $P=(0,m)$，所以 $x_1x_2=-4m$. 又因为 $m>0$，故 $x_1$，$x_2$ 异号.\r\n\r\n设有向线段的比满足 $\\overrightarrow{AP}=\\lambda\\overrightarrow{PB}$. 由点 $P$ 的横坐标为零，得 $x_1+\\lambda x_2=0$，即 $\\lambda=-\\frac{x_1}{x_2}$. 又 $Q=(0,-m)$，所以\r\n$\\overrightarrow{QP}=(0,2m)$，\r\n$\\overrightarrow{QA}-\\lambda\\overrightarrow{QB}=\\left(x_1-\\lambda x_2,\\,m+\\frac{x_1^2}{4}-\\lambda\\left(m+\\frac{x_2^2}{4}\\right)\\right)$.\r\n其横坐标为 $x_1-\\lambda x_2=2x_1\\ne0$，而第二个分量为\r\n$\\displaystyle m+\\frac{x_1^2}{4}-\\lambda\\left(m+\\frac{x_2^2}{4}\\right)=\\left(1+\\frac{x_1}{x_2}\\right)\\left(-\\frac{x_1x_2}{4}\\right)+\\frac{x_1^2+x_1x_2}{4}=0$.\r\n因此 $\\overrightarrow{QA}-\\lambda\\overrightarrow{QB}$ 是非零水平向量，而 $\\overrightarrow{QP}$ 为竖直向量，故 $\\overrightarrow{QP}\\perp(\\overrightarrow{QA}-\\lambda\\overrightarrow{QB})$.\r\n\r\n再考虑第二问. 由直线 $AB$ 的方程与抛物线方程联立，得\r\n$\\displaystyle x^2=4y=2x+24$，即 $(x-6)(x+4)=0$. 因此 $A=(6,9)$，$B=(-4,4)$，且直线在 $y$ 轴上的截距为 $6$，所以 $P=(0,6)$，$Q=(0,-6)$.\r\n\r\n设圆 $C$ 的方程为 $x^2+y^2+Dx+Ey+F=0$. 抛物线 $x^2=4y$ 的切线斜率满足 $y'=\\frac{x}{2}$，所以在 $A=(6,9)$ 处的切线斜率为 $3$. 对圆方程隐式求导，得\r\n$\\displaystyle y'=-\\frac{2x+D}{2y+E}$.\r\n共同切线条件给出 $\\displaystyle-\\frac{12+D}{18+E}=3$，即 $D+3E+66=0$.\r\n\r\n因为圆过 $A$，$B$，所以\r\n$117+6D+9E+F=0$，$32-4D+4E+F=0$.\r\n两式相减，得 $2D+E=-17$. 联立 $D+3E=-66$，解得 $D=3$，$E=-23$，再由第二个过点条件得 $F=72$. 故圆 $C$ 的方程为\r\n$x^2+y^2+3x-23y+72=0$，即\r\n$\\displaystyle\\left(x+\\frac{3}{2}\\right)^2+\\left(y-\\frac{23}{2}\\right)^2=\\frac{125}{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $A=\\left(x_{1},\\frac{x_{1}^{2}}{4}\\right)$，$B=\\left(x_{2},\\frac{x_{2}^{2}}{4}\\right)$. 过这两点的直线方程可写为</p><p>$\\displaystyle y=\\frac{x_{1}+x_{2}}{4}x-\\frac{x_{1}x_{2}}{4}$.</p><p>由于该直线过 $P=(0,m)$，所以 $x_{1}x_{2}=-4m$. 又因为 $m>0$，故 $x_{1}$，$x_{2}$ 异号.</p><p>设有向线段的比满足 $\\overrightarrow{AP}=\\lambda\\overrightarrow{PB}$. 由点 $P$ 的横坐标为零，得 $x_{1}+\\lambda x_{2}=0$，即 $\\lambda=-\\frac{x_{1}}{x_{2}}$. 又 $Q=(0,-m)$，所以</p><p>$\\overrightarrow{QP}=(0,2m)$，</p><p>$\\overrightarrow{QA}-\\lambda\\overrightarrow{QB}=\\left(x_{1}-\\lambda x_{2},\\,m+\\frac{x_{1}^{2}}{4}-\\lambda\\left(m+\\frac{x_{2}^{2}}{4}\\right)\\right)$.</p><p>其横坐标为 $x_{1}-\\lambda x_{2}=2x_{1}\\ne0$，而第二个分量为</p><p>$\\displaystyle m+\\frac{x_{1}^{2}}{4}-\\lambda\\left(m+\\frac{x_{2}^{2}}{4}\\right)=\\left(1+\\frac{x_{1}}{x_{2}}\\right)\\left(-\\frac{x_{1}x_{2}}{4}\\right)+\\frac{x_{1}^{2}+x_{1}x_{2}}{4}=0$.</p><p>因此 $\\overrightarrow{QA}-\\lambda\\overrightarrow{QB}$ 是非零水平向量，而 $\\overrightarrow{QP}$ 为竖直向量，故 $\\overrightarrow{QP}\\perp(\\overrightarrow{QA}-\\lambda\\overrightarrow{QB})$.</p><p>再考虑第二问. 由直线 $AB$ 的方程与抛物线方程联立，得</p><p>$\\displaystyle x^{2}=4y=2x+24$，即 $(x-6)(x+4)=0$. 因此 $A=(6,9)$，$B=(-4,4)$，且直线在 $y$ 轴上的截距为 $6$，所以 $P=(0,6)$，$Q=(0,-6)$.</p><p>设圆 $C$ 的方程为 $x^{2}+y^{2}+Dx+Ey+F=0$. 抛物线 $x^{2}=4y$ 的切线斜率满足 $y'=\\frac{x}{2}$，所以在 $A=(6,9)$ 处的切线斜率为 $3$. 对圆方程隐式求导，得</p><p>$\\displaystyle y'=-\\frac{2x+D}{2y+E}$.</p><p>共同切线条件给出 $\\displaystyle-\\frac{12+D}{18+E}=3$，即 $D+3E+66=0$.</p><p>因为圆过 $A$，$B$，所以</p><p>$117+6D+9E+F=0$，$32-4D+4E+F=0$.</p><p>两式相减，得 $2D+E=-17$. 联立 $D+3E=-66$，解得 $D=3$，$E=-23$，再由第二个过点条件得 $F=72$. 故圆 $C$ 的方程为</p><p>$x^{2}+y^{2}+3x-23y+72=0$，即</p><p>$\\displaystyle\\left(x+\\frac{3}{2}\\right)^{2}+\\left(y-\\frac{23}{2}\\right)^{2}=\\frac{125}{2}$.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

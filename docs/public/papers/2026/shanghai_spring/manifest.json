@@ -1,248 +1,95 @@
 {
+  "title": "2026年普通高等学校招生全国统一考试",
+  "subtitle": "2026年上海卷（春）",
   "year": "2026",
   "slug": "shanghai_spring",
-  "title": "2026年上海卷（春）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $A=\\{2,4\\}$，$B=\\{2,3,m\\}$，若 $A\\subseteq B$，则 $m= _______ {}$.",
-          "choices": [],
-          "answer": "\\(4\\)",
-          "solution": "由 $A\\subseteq B$ 得 $4\\in B$，而 $B=\\{2,3,m\\}$ 中 $2\\ne4$，$3\\ne4$，故 $m=4$，此时 $B=\\{2,3,4\\}$ 满足互异性且确有 $A\\subseteq B$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知集合 $A=\\{2,4\\}$，$B=\\{2,3,m\\}$，若 $A\\subseteq B$，则 $m=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$4$",
+          "solution": "由 $A\\subseteq B$ 得 $4\\in B$，而 $B=\\{2,3,m\\}$ 中 $2\\ne4$，$3\\ne4$，故 $m=4$，此时 $B=\\{2,3,4\\}$ 满足互异性且确有 $A\\subseteq B$."
         },
         {
           "num": 2,
-          "body": "关于 $x$ 的不等式 $\\dfrac{x+2}{x-3}<0$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\((-2,3)\\)",
-          "solution": "分母 $x-3\\ne0$，不等式 $\\dfrac{x+2}{x-3}<0$ 与 $(x+2)(x-3)<0$ 同解，解得 $-2<x<3$，故解集为 $(-2,3)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "关于 $x$ 的不等式 $\\dfrac{x+2}{x-3}&#x3C;0$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-2,3)$",
+          "solution": "分母 $x-3\\ne0$，不等式 $\\dfrac{x+2}{x-3}&#x3C;0$ 与 $(x+2)(x-3)&#x3C;0$ 同解，解得 $-2&#x3C;x&#x3C;3$，故解集为 $(-2,3)$."
         },
         {
           "num": 3,
-          "body": "已知 $\\mathbf{a}=(x,3)$，$\\mathbf{b}=(4,6)$，若 $\\mathbf{a}\\parallel\\mathbf{b}$，则 $x= _______ {}$.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "$\\mathbf{b}=(4,6)\\ne\\mathbf{0}$，$\\mathbf{a}\\parallel\\mathbf{b}$ 当且仅当 $6x-4\\times3=0$，即 $6x-12=0$，解得 $x=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\mathbf{a}=(x,3)$，$\\mathbf{b}=(4,6)$，若 $\\mathbf{a}\\parallel\\mathbf{b}$，则 $x=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "$\\mathbf{b}=(4,6)\\ne\\mathbf{0}$，$\\mathbf{a}\\parallel\\mathbf{b}$ 当且仅当 $6x-4\\times3=0$，即 $6x-12=0$，解得 $x=2$."
         },
         {
           "num": 4,
-          "body": "在平面直角坐标系中，点 $(1,2)$ 到直线 $4x-3y+5=0$ 的距离为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac35\\)",
-          "solution": "由点到直线的距离公式，\r\n$d=\\frac{|4\\cdot1-3\\cdot2+5|}{\\sqrt{4^2+(-3)^2}}=\\frac{3}{5}$.\r\n因此点到直线的距离为 $\\dfrac35$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在平面直角坐标系中，点 $(1,2)$ 到直线 $4x-3y+5=0$ 的距离为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\dfrac{3}{5}$",
+          "solution": "<p>由点到直线的距离公式，</p><p>$d=\\frac{|4\\cdot1-3\\cdot2+5|}{\\sqrt{4^{2}+(-3)^{2}}}=\\frac{3}{5}$.</p><p>因此点到直线的距离为 $\\dfrac{3}{5}$.</p>"
         },
         {
           "num": 5,
-          "body": "在二项式 $\\left(\\dfrac1x+3x^2\\right)^6$ 的展开式中，$x^{-3}$ 的系数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(18\\)",
-          "solution": "通项为\r\n$T_{k+1}=\\mathrm C_6^k\\left(\\frac1x\\right)^{6-k}(3x^2)^k=\\mathrm C_6^k3^kx^{3k-6}$.\r\n令 $3k-6=-3$，得 $k=1$. 故所求系数为 $\\mathrm C_6^1\\cdot3=18$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在二项式 $\\left(\\dfrac{1}{x}+3x^{2}\\right)^{6}$ 的展开式中，$x^{-3}$ 的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$18$",
+          "solution": "<p>通项为</p><p>$T_{k+1}=\\mathrm{C}_{6}^{k}\\left(\\frac{1}{x}\\right)^{6-k}(3x^{2})^{k}=\\mathrm{C}_{6}^{k}3^{k}x^{3k-6}$.</p><p>令 $3k-6=-3$，得 $k=1$. 故所求系数为 $\\mathrm{C}_{6}^{1}\\cdot3=18$.</p>"
         },
         {
           "num": 6,
-          "body": "若 $a>0$，$b>0$，且 $a+2b=4$，则 $ab$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "由 $a>0$，$b>0$，$a+2b=4$ 得 $0<b<2$ 且 $a=4-2b$，于是 $ab=b(4-2b)=-2(b-1)^2+2\\le2$，当 $b=1$，$a=2$ 时取到，故 $ab$ 的最大值为 $2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若 $a>0$，$b>0$，且 $a+2b=4$，则 $ab$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "由 $a>0$，$b>0$，$a+2b=4$ 得 $0&#x3C;b&#x3C;2$ 且 $a=4-2b$，于是 $ab=b(4-2b)=-2(b-1)^{2}+2\\le2$，当 $b=1$，$a=2$ 时取到，故 $ab$ 的最大值为 $2$."
         },
         {
           "num": 7,
-          "body": "从$5\\text{ 人}$中选$3\\text{ 人}$去演讲，若甲一定去，则共有 _______ {}$\\text{ 种}$选法.",
-          "choices": [],
-          "answer": "\\(6\\)",
-          "solution": "甲已确定参加，只需从其余$4\\text{ 人}$中再选$2\\text{ 人}$，故共有 $\\mathrm C_4^2=6\\text{ 种}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "从$5\\text{ 人}$中选$3\\text{ 人}$去演讲，若甲一定去，则共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{ 种}$选法.",
+          "choices": null,
+          "answer": "$6$",
+          "solution": "甲已确定参加，只需从其余$4\\text{ 人}$中再选$2\\text{ 人}$，故共有 $\\mathrm{C}_{4}^{2}=6\\text{ 种}$."
         },
         {
           "num": 8,
-          "body": "已知点 $P$ 在抛物线 $y^2=4x$ 上，且点 $P$ 到焦点的距离是到 $y$ 轴距离的两倍，则点 $P$ 的横坐标为 _______ {}.",
-          "choices": [],
-          "answer": "\\(1\\)",
-          "solution": "设 $P(x_0,y_0)$，由 $y_0^2=4x_0$ 得 $x_0\\ge0$，抛物线准线为 $x=-1$. 由抛物线定义，$P$ 到焦点的距离为 $x_0+1$，$P$ 到 $y$ 轴的距离为 $x_0$. 由题意 $x_0+1=2x_0$，解得 $x_0=1$，且 $y_0=\\pm2$ 符合 $y^2=4x$，故横坐标为 $1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知点 $P$ 在抛物线 $y^{2}=4x$ 上，且点 $P$ 到焦点的距离是到 $y$ 轴距离的两倍，则点 $P$ 的横坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1$",
+          "solution": "设 $P(x_{0},y_{0})$，由 $y_{0}^{2}=4x_{0}$ 得 $x_{0}\\ge0$，抛物线准线为 $x=-1$. 由抛物线定义，$P$ 到焦点的距离为 $x_{0}+1$，$P$ 到 $y$ 轴的距离为 $x_{0}$. 由题意 $x_{0}+1=2x_{0}$，解得 $x_{0}=1$，且 $y_{0}=\\pm2$ 符合 $y^{2}=4x$，故横坐标为 $1$."
         },
         {
           "num": 9,
-          "body": "已知 $m>1$，对于所有满足 $|z|=2$ 的复数 $z$，$|z-\\mathrm{i}|$ 的最小值与 $|z-m|$ 的最小值相同，则 $m= _______ {}$.",
-          "choices": [],
-          "answer": "\\(3\\)",
-          "solution": "$|z|=2$ 表示复平面上以原点为圆心、半径为 $2$ 的圆，$|z-\\mathrm{i}|$ 表示圆上点到点 $(0,1)$ 的距离，$|z-m|$ 表示圆上点到点 $(m,0)$ 的距离. 因为点 $(0,1)$ 到圆心距离为 $1$，在圆内，所以 $|z-\\mathrm{i}|$ 的最小值为 $2-1=1$，在 $z=2\\mathrm{i}$ 处取到. 因为 $m>1$，点 $(m,0)$ 到圆心距离为 $m$，对圆上任意点 $z$ 有 $|z-m|\\ge\\big||z|-m\\big|=|2-m|$，且 $z=2$ 或 $z=-2$ 时取等，故 $|z-m|$ 的最小值为 $|m-2|$. 由两最小值相同得 $|m-2|=1$，解得 $m=1$ 或 $m=3$，结合 $m>1$ 得 $m=3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $m>1$，对于所有满足 $|z|=2$ 的复数 $z$，$|z-\\mathrm{i}|$ 的最小值与 $|z-m|$ 的最小值相同，则 $m=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$3$",
+          "solution": "$|z|=2$ 表示复平面上以原点为圆心、半径为 $2$ 的圆，$|z-\\mathrm{i}|$ 表示圆上点到点 $(0,1)$ 的距离，$|z-m|$ 表示圆上点到点 $(m,0)$ 的距离. 因为点 $(0,1)$ 到圆心距离为 $1$，在圆内，所以 $|z-\\mathrm{i}|$ 的最小值为 $2-1=1$，在 $z=2\\mathrm{i}$ 处取到. 因为 $m>1$，点 $(m,0)$ 到圆心距离为 $m$，对圆上任意点 $z$ 有 $|z-m|\\ge\\big||z|-m\\big|=|2-m|$，且 $z=2$ 或 $z=-2$ 时取等，故 $|z-m|$ 的最小值为 $|m-2|$. 由两最小值相同得 $|m-2|=1$，解得 $m=1$ 或 $m=3$，结合 $m>1$ 得 $m=3$."
         },
         {
           "num": 10,
-          "body": "在 $\\triangle ABC$ 中，$D$，$E$ 在边 $BC$ 上，且 $BD=DE=EC$，$AD=1$，$\\angle DAE=\\dfrac{\\pi}{3}$，则 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ 的最大值为 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(-\\dfrac{39}{32}\\)",
-          "solution": "原PDF题面（p01第10题）用 $\\overrightarrow{BD}=\\overrightarrow{DE}=\\overrightarrow{EC}$、$\\left|\\overrightarrow{AD}\\right|=1$ 及 $\\overrightarrow{AD}$ 与 $\\overrightarrow{AE}$ 的夹角表述，按本页现稿写成 $BD=DE=EC$、$AD=1$ 及 $\\angle DAE$；在题图点序下两者等价，结论相同. 记 $\\overrightarrow{AD}=\\mathbf{u}$，$\\overrightarrow{AE}=\\mathbf{v}$. 由点 $B$，$D$，$E$，$C$ 依次在边 $BC$ 上，故 $D$ 为 $BE$ 中点，$E$ 为 $DC$ 中点，所以 $\\overrightarrow{AB}=2\\mathbf{u}-\\mathbf{v}$，$\\overrightarrow{AC}=-\\mathbf{u}+2\\mathbf{v}$. 于是 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-2|\\mathbf{u}|^2+5\\mathbf{u}\\cdot\\mathbf{v}-2|\\mathbf{v}|^2$. 已知 $|\\overrightarrow{AD}|=1$，且 $\\overrightarrow{AD}$ 与 $\\overrightarrow{AE}$ 所成夹角为 $\\dfrac{\\pi}{3}$，令 $|\\overrightarrow{AE}|=t$，$t>0$，则 $\\mathbf{u}\\cdot\\mathbf{v}=\\dfrac{t}{2}$，故 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-2t^2+\\dfrac52t-2=-2\\left(t-\\dfrac58\\right)^2-\\dfrac{39}{32}\\le-\\dfrac{39}{32}$. 当 $t=\\dfrac58$ 时按此 $\\mathbf{u}$，$\\mathbf{v}$ 作出 $B=2D-E$，$C=2E-D$ 即得满足三等分的三角形，故最大值 $-\\dfrac{39}{32}$ 可取到.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>在 $\\triangle ABC$ 中，$D$，$E$ 在边 $BC$ 上，且 $BD=DE=EC$，$AD=1$，$\\angle DAE=\\dfrac{\\pi}{3}$，则 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$-\\dfrac{39}{32}$",
+          "solution": "原PDF题面（p01第10题）用 $\\overrightarrow{BD}=\\overrightarrow{DE}=\\overrightarrow{EC}$、$\\left|\\overrightarrow{AD}\\right|=1$ 及 $\\overrightarrow{AD}$ 与 $\\overrightarrow{AE}$ 的夹角表述，按本页现稿写成 $BD=DE=EC$、$AD=1$ 及 $\\angle DAE$；在题图点序下两者等价，结论相同. 记 $\\overrightarrow{AD}=\\mathbf{u}$，$\\overrightarrow{AE}=\\mathbf{v}$. 由点 $B$，$D$，$E$，$C$ 依次在边 $BC$ 上，故 $D$ 为 $BE$ 中点，$E$ 为 $DC$ 中点，所以 $\\overrightarrow{AB}=2\\mathbf{u}-\\mathbf{v}$，$\\overrightarrow{AC}=-\\mathbf{u}+2\\mathbf{v}$. 于是 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-2|\\mathbf{u}|^{2}+5\\mathbf{u}\\cdot\\mathbf{v}-2|\\mathbf{v}|^{2}$. 已知 $|\\overrightarrow{AD}|=1$，且 $\\overrightarrow{AD}$ 与 $\\overrightarrow{AE}$ 所成夹角为 $\\dfrac{\\pi}{3}$，令 $|\\overrightarrow{AE}|=t$，$t>0$，则 $\\mathbf{u}\\cdot\\mathbf{v}=\\dfrac{t}{2}$，故 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=-2t^{2}+\\dfrac{5}{2}t-2=-2\\left(t-\\dfrac{5}{8}\\right)^{2}-\\dfrac{39}{32}\\le-\\dfrac{39}{32}$. 当 $t=\\dfrac{5}{8}$ 时按此 $\\mathbf{u}$，$\\mathbf{v}$ 作出 $B=2D-E$，$C=2E-D$ 即得满足三等分的三角形，故最大值 $-\\dfrac{39}{32}$ 可取到."
         },
         {
           "num": 11,
-          "body": "已知椭圆 $\\Gamma_1:\\dfrac{x^2}{a^2}+y^2=1$（$a>1$） 与椭圆 $\\Gamma_2:\\dfrac{x^2}{b^2+2}+\\dfrac{y^2}{b^2}=1$ 相交于 $A$，$B$，$C$，$D$ 四点，且 $\\Gamma_1$ 和 $\\Gamma_2$ 的四个焦点在同一个圆上，则 $b^2= _______ {}$.",
-          "choices": [],
-          "answer": "按本页现稿无唯一解（原PDF题面下为 \\(\\sqrt{3}\\)）",
-          "solution": "按本页现稿，$\\Gamma_1$ 的半焦距为 $\\sqrt{a^2-1}$，$\\Gamma_2$ 的半焦距为 $\\sqrt{\\left(b^2+2\\right)-b^2}=\\sqrt2$，焦点均在 $x$ 轴上. 四焦点共圆（圆心为原点）只给出 $\\sqrt{a^2-1}=\\sqrt2$，即 $a^2=3$，对 $b$（$b^2>0$ 任意）无任何约束，故按本页现稿 $b^2$ 无唯一解；即使补上“交点同圆”条件，由 $x^2+y^2=2$ 联立 $\\Gamma_1$ 得 $x^2=\\dfrac32$，$y^2=\\dfrac12$，代入本页 $\\Gamma_2$ 得 $\\dfrac{3}{2\\left(b^2+2\\right)}+\\dfrac{1}{2b^2}=1$，化简得 $b^4=1$，即 $b^2=1$ 而非 $3$. 原PDF题面（p01第11题）为 $\\Gamma_2:\\dfrac{y^2}{b^2+2}+\\dfrac{x^2}{b^2}=1$，且交点 $A$，$B$，$C$，$D$ 与四个焦点在同一个圆上. 此时 $\\Gamma_2$ 焦点在 $y$ 轴上，为 $\\left(0,\\pm\\sqrt2\\right)$，与 $\\Gamma_1$ 焦点共圆仍得 $a^2=3$，圆为 $x^2+y^2=2$. 交点在该圆上，联立得 $x^2=\\dfrac32$，$y^2=\\dfrac12$，代入原PDF的 $\\Gamma_2$ 得 $\\dfrac{1}{2\\left(b^2+2\\right)}+\\dfrac{3}{2b^2}=1$，化简得 $b^4=3$，由 $b^2>0$ 得 $b^2=\\sqrt{3}$. 四组符号点均满足两椭圆方程，交点确实存在.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知椭圆 $\\Gamma_{1}:\\dfrac{x^2}{a^2}+y^{2}=1$（$a>1$） 与椭圆 $\\Gamma_{2}:\\dfrac{x^2}{b^2+2}+\\dfrac{y^2}{b^2}=1$ 相交于 $A$，$B$，$C$，$D$ 四点，且 $\\Gamma_{1}$ 和 $\\Gamma_{2}$ 的四个焦点在同一个圆上，则 $b^{2}=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "按本页现稿无唯一解（原PDF题面下为 $\\sqrt{3}$）",
+          "solution": "按本页现稿，$\\Gamma_{1}$ 的半焦距为 $\\sqrt{a^{2}-1}$，$\\Gamma_{2}$ 的半焦距为 $\\sqrt{\\left(b^{2}+2\\right)-b^{2}}=\\sqrt{2}$，焦点均在 $x$ 轴上. 四焦点共圆（圆心为原点）只给出 $\\sqrt{a^{2}-1}=\\sqrt{2}$，即 $a^{2}=3$，对 $b$（$b^{2}>0$ 任意）无任何约束，故按本页现稿 $b^{2}$ 无唯一解；即使补上“交点同圆”条件，由 $x^{2}+y^{2}=2$ 联立 $\\Gamma_{1}$ 得 $x^{2}=\\dfrac{3}{2}$，$y^{2}=\\dfrac{1}{2}$，代入本页 $\\Gamma_{2}$ 得 $\\dfrac{3}{2\\left(b^2+2\\right)}+\\dfrac{1}{2b^2}=1$，化简得 $b^{4}=1$，即 $b^{2}=1$ 而非 $3$. 原PDF题面（p01第11题）为 $\\Gamma_{2}:\\dfrac{y^2}{b^2+2}+\\dfrac{x^2}{b^2}=1$，且交点 $A$，$B$，$C$，$D$ 与四个焦点在同一个圆上. 此时 $\\Gamma_{2}$ 焦点在 $y$ 轴上，为 $\\left(0,\\pm\\sqrt{2}\\right)$，与 $\\Gamma_{1}$ 焦点共圆仍得 $a^{2}=3$，圆为 $x^{2}+y^{2}=2$. 交点在该圆上，联立得 $x^{2}=\\dfrac{3}{2}$，$y^{2}=\\dfrac{1}{2}$，代入原PDF的 $\\Gamma_{2}$ 得 $\\dfrac{1}{2\\left(b^2+2\\right)}+\\dfrac{3}{2b^2}=1$，化简得 $b^{4}=3$，由 $b^{2}>0$ 得 $b^{2}=\\sqrt{3}$. 四组符号点均满足两椭圆方程，交点确实存在."
         },
         {
           "num": 12,
-          "body": "有一个油壶，壶身视为圆柱，壶嘴视为直线且不计容积，壶底直径 $6.4\\text{ 厘米}$，壶身高 $16\\text{ 厘米}$，壶内油液面高 $12.1\\text{ 厘米}$，壶嘴长 $13.4\\text{ 厘米}$，与壶身夹角 $30^\\circ$，壶嘴最低点距壶底 $3\\text{ 厘米}$. 将壶身向壶嘴方向至少转 _______ {}$\\text{ 度}$可使油倒出（精确到 $0.01^\\circ$）.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(14.20^\\circ\\)",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q12_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设壶嘴最低点，最高点分别是 $E$，$F$. 图中圆柱轴截面为矩形，距离点 $E$ 最近的顶点是 $A$，另外三个顶点分别为 $B$，$C$，$D$. 当水平液面经过点 $F$ 时，可将油倒出.\r\n\r\n设倾斜角为 $\\theta$. 当液面经过点 $D$ 时，$\\theta=\\arctan\\dfrac{3.9}{6.4}\\approx31.36^\\circ$. 先考虑液面不超过点 $D$，即 $\\theta\\in\\left[0,\\arctan\\dfrac{3.9}{6.4}\\right]$ 的情况. 设液面与 $AD$，$CB$ 分别交于点 $G$，$H$，设 $GH$ 的中点为 $M$，过 $M$ 作 $AD$ 的垂线，垂足为 $N$. 则 $MN=\\dfrac12AB=3.2$，$\\angle GMN=\\theta$，所以 $GN=MN\\tan\\theta=3.2\\tan\\theta$. 因为 $AN=12.1$，所以 $GE=GN+AN-AE=3.2\\tan\\theta+9.1$.\r\n\r\n因为 $\\angle EGF=\\angle NMG+\\angle MNG=90^\\circ+\\theta$，所以 $\\angle F=180^\\circ-\\angle FEG-\\angle EGF=60^\\circ-\\theta$. 在 $\\triangle EGF$ 中，由正弦定理，\r\n\n$$\n\\frac{3.2\\tan\\theta+9.1}{\\sin(60^\\circ-\\theta)}\r\n=\\frac{13.4}{\\sin(90^\\circ+\\theta)}\r\n=\\frac{13.4}{\\cos\\theta}\n$$\n\r\n即\r\n\n$$\n3.2\\sin\\theta+9.1\\cos\\theta\r\n=13.4\\sin(60^\\circ-\\theta)\r\n=6.7\\sqrt3\\cos\\theta-6.7\\sin\\theta\n$$\n\r\n所以 $99\\sin\\theta=(67\\sqrt3-91)\\cos\\theta$，即\r\n\n$$\n\\theta=\\arctan\\frac{67\\sqrt3-91}{99}\\approx14.20^\\circ\n$$\n\r\n因为 $14.20^\\circ<31.36^\\circ$，所以至少将壶身倾斜 $14.20^\\circ$ 即可将油倒出.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>有一个油壶，壶身视为圆柱，壶嘴视为直线且不计容积，壶底直径 $6.4\\text{ 厘米}$，壶身高 $16\\text{ 厘米}$，壶内油液面高 $12.1\\text{ 厘米}$，壶嘴长 $13.4\\text{ 厘米}$，与壶身夹角 $30^{\\circ}$，壶嘴最低点距壶底 $3\\text{ 厘米}$. 将壶身向壶嘴方向至少转<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{ 度}$可使油倒出（精确到 $0.01^{\\circ}$）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$14.20^{\\circ}$",
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q12_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设壶嘴最低点，最高点分别是 $E$，$F$. 图中圆柱轴截面为矩形，距离点 $E$ 最近的顶点是 $A$，另外三个顶点分别为 $B$，$C$，$D$. 当水平液面经过点 $F$ 时，可将油倒出.</p><p>设倾斜角为 $\\theta$. 当液面经过点 $D$ 时，$\\theta=\\arctan\\dfrac{3.9}{6.4}\\approx31.36^{\\circ}$. 先考虑液面不超过点 $D$，即 $\\theta\\in\\left[0,\\arctan\\dfrac{3.9}{6.4}\\right]$ 的情况. 设液面与 $AD$，$CB$ 分别交于点 $G$，$H$，设 $GH$ 的中点为 $M$，过 $M$ 作 $AD$ 的垂线，垂足为 $N$. 则 $MN=\\dfrac{1}{2}AB=3.2$，$\\angle GMN=\\theta$，所以 $GN=MN\\tan\\theta=3.2\\tan\\theta$. 因为 $AN=12.1$，所以 $GE=GN+AN-AE=3.2\\tan\\theta+9.1$.</p><p>因为 $\\angle EGF=\\angle NMG+\\angle MNG=90^{\\circ}+\\theta$，所以 $\\angle F=180^{\\circ}-\\angle FEG-\\angle EGF=60^{\\circ}-\\theta$. 在 $\\triangle EGF$ 中，由正弦定理，</p>\n$$\n\\frac{3.2\\tan\\theta+9.1}{\\sin(60^{\\circ}-\\theta)}=\\frac{13.4}{\\sin(90^{\\circ}+\\theta)}=\\frac{13.4}{\\cos\\theta}\n$$\n<p>即</p>\n$$\n3.2\\sin\\theta+9.1\\cos\\theta  =13.4\\sin(60^{\\circ}-\\theta)  =6.7\\sqrt{3}\\cos\\theta-6.7\\sin\\theta\n$$\n<p>所以 $99\\sin\\theta=(67\\sqrt{3}-91)\\cos\\theta$，即</p>\n$$\n\\theta=\\arctan\\frac{67\\sqrt{3}-91}{99}\\approx14.20^{\\circ}\n$$\n<p>因为 $14.20^{\\circ}&#x3C;31.36^{\\circ}$，所以至少将壶身倾斜 $14.20^{\\circ}$ 即可将油倒出.</p>"
         }
       ]
     },
@@ -251,7 +98,7 @@
       "problems": [
         {
           "num": 13,
-          "body": "下列数列中是等差数列也是等比数列的是（ ）.",
+          "body": "下列数列中是等差数列也是等比数列的是（ ）.",
           "choices": [
             "1，$-1$，1，$-1$，1",
             "1，2，3，4，5",
@@ -259,51 +106,43 @@
             "1，2，3，5，7"
           ],
           "answer": "C",
-          "solution": "若数列既是等差数列又是等比数列，设公差为 $d$，公比为 $q$，则相邻两项之差恒为 $0$ 得 $d=0$，之比恒为 $1$ 得 $q=1$，故必为非零常数列. 选项 A 不是等差数列，选项 B，D 公比不恒定，只有 C 为常数列 $5$，$5$，$5$，$5$，$5$，既是等差数列又是等比数列，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若数列既是等差数列又是等比数列，设公差为 $d$，公比为 $q$，则相邻两项之差恒为 $0$ 得 $d=0$，之比恒为 $1$ 得 $q=1$，故必为非零常数列. 选项 A 不是等差数列，选项 B，D 公比不恒定，只有 C 为常数列 $5$，$5$，$5$，$5$，$5$，既是等差数列又是等比数列，故选 C."
         },
         {
           "num": 14,
-          "body": "已知 $x>y>1$，则下列不等式恒成立的是（ ）.",
+          "body": "已知 $x>y>1$，则下列不等式恒成立的是（ ）.",
           "choices": [
-            "$x>y^2$",
+            "$x>y^{2}$",
             "$xy>x+y$",
-            "$x^2>y$",
+            "$x^{2}>y$",
             "$x+y>xy$"
           ],
           "answer": "C",
-          "solution": "由 $x>y>1$ 得 $x^2>x>y$，故 $x^2>y$ 恒成立. 取 $x=2$，$y=1.5$，则 $x<y^2$，否定 A. 取 $x=1.1$，$y=1.05$，则 $xy<x+y$，否定 B. 取 $x=3$，$y=2$，则 $x+y<xy$，否定 D. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $x>y>1$ 得 $x^{2}>x>y$，故 $x^{2}>y$ 恒成立. 取 $x=2$，$y=1.5$，则 $x&#x3C;y^{2}$，否定 A. 取 $x=1.1$，$y=1.05$，则 $xy&#x3C;x+y$，否定 B. 取 $x=3$，$y=2$，则 $x+y&#x3C;xy$，否定 D. 故选 C."
         },
         {
           "num": 15,
-          "body": "平移对称法在几何学中具有重要的应用. 设平面直角坐标系 $xOy$ 中有一图形 $\\Omega$，过 $\\Omega$ 内任意一点 $P$ 作垂直于 $x$ 轴的直线 $l_P$，满足 $l_P\\cap\\Omega$ 为一线段. 现沿 $l_P$ 方向平移这些线段，使得它们的中点均在 $x$ 轴上，这样叫做平移对称法. 对于由 $-x^2+x+1$，$-x^2-x$，直线 $x=0$ 和直线 $x=1$ 围成的封闭图形 $\\Omega$，对它进行一次平移对称，得到的图像大致为（ ）.",
+          "body": "平移对称法在几何学中具有重要的应用. 设平面直角坐标系 $xOy$ 中有一图形 $\\Omega$，过 $\\Omega$ 内任意一点 $P$ 作垂直于 $x$ 轴的直线 $l_{P}$，满足 $l_{P}\\cap\\Omega$ 为一线段. 现沿 $l_{P}$ 方向平移这些线段，使得它们的中点均在 $x$ 轴上，这样叫做平移对称法. 对于由 $-x^{2}+x+1$，$-x^{2}-x$，直线 $x=0$ 和直线 $x=1$ 围成的封闭图形 $\\Omega$，对它进行一次平移对称，得到的图像大致为（ ）.",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q15_choice_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q15_choice_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q15_choice_c.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q15_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_spring/q15_choice_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_spring/q15_choice_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_spring/q15_choice_c.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai_spring/q15_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "记上边 $y_1=-x^2+x+1$，下边 $y_2=-x^2-x$，$0\\le x\\le1$. 中点为 $m(x)=\\dfrac{y_1+y_2}{2}=-x^2+\\dfrac12$，半高为 $h(x)=\\dfrac{y_1-y_2}{2}=x+\\dfrac12$. 平移对称后竖段以 $0$ 为中点、长为 $2h(x)$，故上下边界为 $y=x+\\dfrac12$ 与 $y=-x-\\dfrac12$，$0\\le x\\le1$，是两条直线段，且关于 $x$ 轴对称. 四个选项中只有 A 上下边为直线段，其余为曲线边，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "记上边 $y_{1}=-x^{2}+x+1$，下边 $y_{2}=-x^{2}-x$，$0\\le x\\le1$. 中点为 $m(x)=\\dfrac{y_1+y_2}{2}=-x^{2}+\\dfrac{1}{2}$，半高为 $h(x)=\\dfrac{y_1-y_2}{2}=x+\\dfrac{1}{2}$. 平移对称后竖段以 $0$ 为中点、长为 $2h(x)$，故上下边界为 $y=x+\\dfrac{1}{2}$ 与 $y=-x-\\dfrac{1}{2}$，$0\\le x\\le1$，是两条直线段，且关于 $x$ 轴对称. 四个选项中只有 A 上下边为直线段，其余为曲线边，故选 A."
         },
         {
           "num": 16,
-          "body": "对于函数 $y=f(x)$，$x\\in D$，设 $A_f=\\{(x,y)\\mid y\\ge f(x),x\\in D\\}$. 对于点集 $M$，若存在 $(x_0,y_0)\\in M$，使得任取 $(x,y)\\in M$，总有 $y\\ge y_0$，则称 $(x_0,y_0)$ 为“最低点”. 对于函数 $y=f(x)$ 和 $y=g(x)$，以下说法中正确的是（ ）.",
+          "body": "对于函数 $y=f(x)$，$x\\in D$，设 $A_{f}=\\{(x,y)\\mid y\\ge f(x),x\\in D\\}$. 对于点集 $M$，若存在 $(x_{0},y_{0})\\in M$，使得任取 $(x,y)\\in M$，总有 $y\\ge y_{0}$，则称 $(x_{0},y_{0})$ 为“最低点”. 对于函数 $y=f(x)$ 和 $y=g(x)$，以下说法中正确的是（ ）.",
           "choices": [
-            "若 $y=f(x)$ 和 $y=g(x)$ 都有最小值，则 $A_f\\cap A_g$ 有最低点",
-            "若 $A_f\\cap A_g$ 有最低点，则 $y=f(x)$ 和 $y=g(x)$ 都有最小值",
-            "若 $y=f(x)$ 或 $y=g(x)$ 有最小值，则 $A_f\\cup A_g$ 有最低点",
-            "若 $A_f\\cup A_g$ 有最低点，则 $y=f(x)$ 或 $y=g(x)$ 有最小值"
+            "若 $y=f(x)$ 和 $y=g(x)$ 都有最小值，则 $A_{f}\\cap A_{g}$ 有最低点",
+            "若 $A_{f}\\cap A_{g}$ 有最低点，则 $y=f(x)$ 和 $y=g(x)$ 都有最小值",
+            "若 $y=f(x)$ 或 $y=g(x)$ 有最小值，则 $A_{f}\\cup A_{g}$ 有最低点",
+            "若 $A_{f}\\cup A_{g}$ 有最低点，则 $y=f(x)$ 或 $y=g(x)$ 有最小值"
           ],
           "answer": "D",
-          "solution": "记 $D_f$，$D_g$ 为定义域. A 反例：取 $D_f=\\{0\\}$，$f(0)=0$ 与 $D_g=\\{1\\}$，$g(1)=0$，两者都有最小值，但 $D_f\\cap D_g=\\varnothing$，故 $A_f\\cap A_g=\\varnothing$，无最低点. B 反例：取 $f(x)=\\mathrm{e}^x$，$x\\in\\mathbb{R}$ 无最小值，取 $D_g=\\{0\\}$，$g(0)=0$，则 $A_f\\cap A_g=\\{(0,y)\\mid y\\ge1\\}$ 有最低点 $(0,1)$，但 $f$ 无最小值. C 反例：取 $D_f=\\{0\\}$，$f(0)=0$ 有最小值，取 $g(x)=x$，$x\\in\\mathbb{R}$ 无下界，则 $A_f\\cup A_g$ 中 $y$ 可任意小，无最低点. D 证明：设 $(x_0,y_0)$ 为 $A_f\\cup A_g$ 最低点，则它属于 $A_f$ 或 $A_g$. 若属于 $A_f$，则 $x_0\\in D_f$ 且 $y_0\\ge f(x_0)$，而 $(x_0,f(x_0))\\in A_f\\subset A_f\\cup A_g$，由最低性得 $f(x_0)\\ge y_0$，故 $y_0=f(x_0)$，且对任意 $x\\in D_f$ 有 $f(x)\\ge y_0=f(x_0)$，即 $f$ 有最小值，同理属于 $A_g$ 时 $g$ 有最小值. 故并集有最低点蕴含两者之一有最小值，D 正确. 综上选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "记 $D_{f}$，$D_{g}$ 为定义域. A 反例：取 $D_{f}=\\{0\\}$，$f(0)=0$ 与 $D_{g}=\\{1\\}$，$g(1)=0$，两者都有最小值，但 $D_{f}\\cap D_{g}=\\varnothing$，故 $A_{f}\\cap A_{g}=\\varnothing$，无最低点. B 反例：取 $f(x)=\\mathrm{e}^{x}$，$x\\in\\mathbb{R}$ 无最小值，取 $D_{g}=\\{0\\}$，$g(0)=0$，则 $A_{f}\\cap A_{g}=\\{(0,y)\\mid y\\ge1\\}$ 有最低点 $(0,1)$，但 $f$ 无最小值. C 反例：取 $D_{f}=\\{0\\}$，$f(0)=0$ 有最小值，取 $g(x)=x$，$x\\in\\mathbb{R}$ 无下界，则 $A_{f}\\cup A_{g}$ 中 $y$ 可任意小，无最低点. D 证明：设 $(x_{0},y_{0})$ 为 $A_{f}\\cup A_{g}$ 最低点，则它属于 $A_{f}$ 或 $A_{g}$. 若属于 $A_{f}$，则 $x_{0}\\in D_{f}$ 且 $y_{0}\\ge f(x_{0})$，而 $(x_{0},f(x_{0}))\\in A_{f}\\subset A_{f}\\cup A_{g}$，由最低性得 $f(x_{0})\\ge y_{0}$，故 $y_{0}=f(x_{0})$，且对任意 $x\\in D_{f}$ 有 $f(x)\\ge y_{0}=f(x_{0})$，即 $f$ 有最小值，同理属于 $A_{g}$ 时 $g$ 有最小值. 故并集有最低点蕴含两者之一有最小值，D 正确. 综上选 D."
         }
       ]
     },
@@ -312,51 +151,40 @@
       "problems": [
         {
           "num": 17,
-          "body": "某兴趣班共$150\\text{ 人}$，年龄分布及兴趣爱好统计如下：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.25}\r\n\\begin{tabular}{|c|c|c|c|c|}\r\n\\hline\r\n年龄 & 剪纸 & 摄影 & 画画 & 人数 \\\\\r\n\\hline\r\n$[25,35)$ & & 8 & & 45 \\\\\r\n\\hline\r\n$[35,45)$ & & 10 & & 55 \\\\\r\n\\hline\r\n$[45,55)$ & & 6 & & 50 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 现采用分层抽样抽取$30\\text{ 人}$，其中抽到年龄在$[25,35)\\text{ 岁}$的有多少人？\n\n(2) 该兴趣班$150\\text{ 人}$的平均年龄是多少？\n\n(3) 现从$150\\text{ 人}$中任意抽选$1\\text{ 人}$，记抽到的学员年龄在$[35,45)$为事件$A$，记抽到学员爱好摄影为事件$B$. 事件$A$与$B$是否独立？请说明理由.",
-          "choices": [],
+          "body": "<p>某兴趣班共$150\\text{ 人}$，年龄分布及兴趣爱好统计如下：</p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.25</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>年龄 </td><td style=\"text-align: center; border-right: 1px solid\"> 剪纸 </td><td style=\"text-align: center; border-right: 1px solid\"> 摄影 </td><td style=\"text-align: center; border-right: 1px solid\"> 画画 </td><td style=\"text-align: center; border-right: 1px solid\"> 人数 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[25,35)$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> 8 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> 45 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[35,45)$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> 10 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> 55 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$[45,55)$ </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> 6 </td><td style=\"text-align: center; border-right: 1px solid\"> </td><td style=\"text-align: center; border-right: 1px solid\"> 50 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>现采用分层抽样抽取$30\\text{ 人}$，其中抽到年龄在$[25,35)\\text{ 岁}$的有多少人？</p></li><li><p>该兴趣班$150\\text{ 人}$的平均年龄是多少？</p></li><li><p>现从$150\\text{ 人}$中任意抽选$1\\text{ 人}$，记抽到的学员年龄在$[35,45)$为事件$A$，记抽到学员爱好摄影为事件$B$. 事件$A$与$B$是否独立？请说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $[25,35)$ 岁的人数占 $\\frac{45}{150}$，故抽到的人数为 $30\\times \\frac{45}{150}=9$.\n\n(2) 将各组年龄视为组中值 $30$，$40$，$50$，则平均年龄为\r\n$\\bar x=\\frac{30\\times45+40\\times55+50\\times50}{150}=\\frac{121}{3}$.\n\n(3) 由表得\r\n$P(A)=\\frac{55}{150}=\\frac{11}{30}$，$P(B)=\\frac{8+10+6}{150}=\\frac{4}{25}$，$P(AB)=\\frac{10}{150}=\\frac{1}{15}$. 又 $P(A)P(B)=\\frac{11}{30}\\cdot\\frac{4}{25}=\\frac{22}{375}\\ne\\frac{1}{15}$，\r\n所以 $A$ 与 $B$ 不独立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$[25,35)$ 岁的人数占 $\\frac{45}{150}$，故抽到的人数为 $30\\times \\frac{45}{150}=9$.</p></li><li><p>将各组年龄视为组中值 $30$，$40$，$50$，则平均年龄为</p><p>$\\bar x=\\frac{30\\times45+40\\times55+50\\times50}{150}=\\frac{121}{3}$.</p></li><li><p>由表得</p><p>$P(A)=\\frac{55}{150}=\\frac{11}{30}$，$P(B)=\\frac{8+10+6}{150}=\\frac{4}{25}$，$P(AB)=\\frac{10}{150}=\\frac{1}{15}$. 又 $P(A)P(B)=\\frac{11}{30}\\cdot\\frac{4}{25}=\\frac{22}{375}\\ne\\frac{1}{15}$，</p><p>所以 $A$ 与 $B$ 不独立.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图所示正四棱台 $ABCD-A_1B_1C_1D_1$，其中 $AB=4$，$A_1B_1=2$.\r\n\n(1) 当 $AA_1=2$ 时，求 $AA_1$ 和平面 $A_1B_1C_1D_1$ 所成角；\n\n(2) 证明：$AA_1\\parallel$ 平面 $BC_1D$；若棱台高为 3，求三棱锥 $A_1-BC_1D$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图所示正四棱台 $ABCD-A_{1}B_{1}C_{1}D_{1}$，其中 $AB=4$，$A_{1}B_{1}=2$.</p><ol class=\"enumerate\"><li><p>当 $AA_{1}=2$ 时，求 $AA_{1}$ 和平面 $A_{1}B_{1}C_{1}D_{1}$ 所成角；</p></li><li><p>证明：$AA_{1}\\parallel$ 平面 $BC_{1}D$；若棱台高为 3，求三棱锥 $A_{1}-BC_{1}D$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q18_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n\n(1) 过 $A_1$ 作 $A_1H\\perp$ 平面 $ABCD$ 于 $H$，连接 $AH$. 过 $H$ 分别作 $HE\\perp AB$ 于 $E$，$HF\\perp AD$ 于 $F$，连接 $A_1E$，$A_1F$. 因为 $AB\\subset$ 平面 $ABCD$，所以 $A_1H\\perp AB$. 又 $A_1H\\cap HE=H$，且 $A_1H$，$HE\\subset$ 平面 $A_1HE$，故 $AB\\perp$ 平面 $A_1HE$，从而 $A_1E\\perp AB$. 因此 $AE=\\dfrac{4-2}{2}=1$，同理 $AF=1$，四边形 $AEHF$ 为正方形，所以 $AH=\\sqrt2$. $AH$ 是 $A_1A$ 在平面 $ABCD$ 上的投影，又平面 $ABCD\\parallel$ 平面 $A_1B_1C_1D_1$，故所成角为 $\\angle A_1AH$，且\r\n\n$$\n\\cos\\angle A_1AH=\\frac{AH}{AA_1}=\\frac{\\sqrt2}{2}\n$$\n\r\n所以所成角为 $45^\\circ$.\n\n(2) 连接 $AC$，$BD$ 交于 $O$，连接 $A_1C_1$，$B_1D_1$ 交于 $O_1$. 上下底面为正方形，由正棱台性质，$A_1C_1\\parallel AC$，且 $A_1C_1=2\\sqrt2$，$AC=4\\sqrt2$，$AO=\\dfrac12AC=A_1C_1$. 因此四边形 $A_1C_1OA$ 为平行四边形，$AA_1\\parallel OC_1$. 又 $AA_1\\not\\subset$ 平面 $BC_1D$，$OC_1\\subset$ 平面 $BC_1D$，所以 $AA_1\\parallel$ 平面 $BC_1D$.\r\n\r\n由正棱台性质，$OO_1$ 与上下底面均垂直，故 $OO_1=3$. 又 $OO_1\\perp BD$，$AC\\perp BD$，且 $AC\\cap OO_1=O$，所以 $BD\\perp$ 平面 $A_1OC_1$. 因此三棱锥体积可拆分为两个小三棱锥的体积之和：\r\n\n$$\nV_{A_1-BC_1D}=V_{B-A_1OC_1}+V_{D-A_1OC_1}\r\n=\\frac13OB\\cdot S_{\\triangle A_1OC_1}+\\frac13OD\\cdot S_{\\triangle A_1OC_1}\r\n=\\frac13BD\\cdot S_{\\triangle A_1OC_1}\n$$\n\r\n其中 $S_{\\triangle A_1OC_1}=\\frac12A_1C_1\\cdot OO_1=\\frac12\\times2\\sqrt2\\times3=3\\sqrt2$，$BD=4\\sqrt2$，故 $V_{A_1-BC_1D}=\\frac13\\times4\\sqrt2\\times3\\sqrt2=8$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q18_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>过 $A_{1}$ 作 $A_{1}H\\perp$ 平面 $ABCD$ 于 $H$，连接 $AH$. 过 $H$ 分别作 $HE\\perp AB$ 于 $E$，$HF\\perp AD$ 于 $F$，连接 $A_{1}E$，$A_{1}F$. 因为 $AB\\subset$ 平面 $ABCD$，所以 $A_{1}H\\perp AB$. 又 $A_{1}H\\cap HE=H$，且 $A_{1}H$，$HE\\subset$ 平面 $A_{1}HE$，故 $AB\\perp$ 平面 $A_{1}HE$，从而 $A_{1}E\\perp AB$. 因此 $AE=\\dfrac{4-2}{2}=1$，同理 $AF=1$，四边形 $AEHF$ 为正方形，所以 $AH=\\sqrt{2}$. $AH$ 是 $A_{1}A$ 在平面 $ABCD$ 上的投影，又平面 $ABCD\\parallel$ 平面 $A_{1}B_{1}C_{1}D_{1}$，故所成角为 $\\angle A_{1}AH$，且</p>\n$$\n\\cos\\angle A_{1}AH=\\frac{AH}{AA_{1}}=\\frac{\\sqrt{2}}{2}\n$$\n<p>所以所成角为 $45^{\\circ}$.</p></li><li><p>连接 $AC$，$BD$ 交于 $O$，连接 $A_{1}C_{1}$，$B_{1}D_{1}$ 交于 $O_{1}$. 上下底面为正方形，由正棱台性质，$A_{1}C_{1}\\parallel AC$，且 $A_{1}C_{1}=2\\sqrt{2}$，$AC=4\\sqrt{2}$，$AO=\\dfrac{1}{2}AC=A_{1}C_{1}$. 因此四边形 $A_{1}C_{1}OA$ 为平行四边形，$AA_{1}\\parallel OC_{1}$. 又 $AA_{1}\\not\\subset$ 平面 $BC_{1}D$，$OC_{1}\\subset$ 平面 $BC_{1}D$，所以 $AA_{1}\\parallel$ 平面 $BC_{1}D$.</p><p>由正棱台性质，$OO_{1}$ 与上下底面均垂直，故 $OO_{1}=3$. 又 $OO_{1}\\perp BD$，$AC\\perp BD$，且 $AC\\cap OO_{1}=O$，所以 $BD\\perp$ 平面 $A_{1}OC_{1}$. 因此三棱锥体积可拆分为两个小三棱锥的体积之和：</p>\n$$\nV_{A_1-BC_1D}=V_{B-A_1OC_1}+V_{D-A_1OC_1}=\\frac{1}{3}OB\\cdot S_{\\triangle A_1OC_1}+\\frac{1}{3}OD\\cdot S_{\\triangle A_1OC_1}=\\frac{1}{3}BD\\cdot S_{\\triangle A_1OC_1}\n$$\n<p>其中 $S_{\\triangle A_1OC_1}=\\frac{1}{2}A_{1}C_{1}\\cdot OO_{1}=\\frac{1}{2}\\times2\\sqrt{2}\\times3=3\\sqrt{2}$，$BD=4\\sqrt{2}$，故 $V_{A_1-BC_1D}=\\frac{1}{3}\\times4\\sqrt{2}\\times3\\sqrt{2}=8$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知 $f(x)=\\sin(\\omega x+\\varphi)$（$\\omega>0$，$0<\\varphi<\\pi$）.\r\n\r\n\n(1) 当 $\\omega=2$，$f\\!\\left(\\dfrac{\\pi}{12}\\right)=0$，求函数 $f(x)$ 在 $x=0$ 处的切线方程；\n\n(2) 若函数 $f(x)$ 的最小正周期为 $3\\pi$，且 $f(x)=\\dfrac{\\sqrt2}{2}$ 在区间 $[0,2026\\pi)$ 上恰好有 1351 个解，求 $\\varphi$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知 $f(x)=\\sin(\\omega x+\\varphi)$（$\\omega>0$，$0&#x3C;\\varphi&#x3C;\\pi$）.</p><ol class=\"enumerate\"><li><p>当 $\\omega=2$，$f\\!\\left(\\dfrac{\\pi}{12}\\right)=0$，求函数 $f(x)$ 在 $x=0$ 处的切线方程；</p></li><li><p>若函数 $f(x)$ 的最小正周期为 $3\\pi$，且 $f(x)=\\dfrac{\\sqrt{2}}{2}$ 在区间 $[0,2026\\pi)$ 上恰好有 1351 个解，求 $\\varphi$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $\\omega=2$ 时，$f(x)=\\sin(2x+\\varphi)$. 由 $f\\left(\\dfrac{\\pi}{12}\\right)=0$ 得 $\\sin\\left(\\dfrac{\\pi}{6}+\\varphi\\right)=0$，所以 $\\dfrac{\\pi}{6}+\\varphi=k\\pi$，$k\\in\\mathbb{Z}$. 结合 $0<\\varphi<\\pi$，有 $\\dfrac{\\pi}{6}+\\varphi\\in\\left(\\dfrac{\\pi}{6},\\dfrac{7\\pi}{6}\\right)$，故 $\\dfrac{\\pi}{6}+\\varphi=\\pi$，得 $\\varphi=\\dfrac{5\\pi}{6}$，即 $f(x)=\\sin\\left(2x+\\dfrac{5\\pi}{6}\\right)$. 因而 $f'(0)=2\\cos\\dfrac{5\\pi}{6}=-\\sqrt3$，且 $f(0)=\\dfrac12$，切线方程为 $y=-\\sqrt3x+\\dfrac12$.\n\n(2) 最小正周期为 $3\\pi$，故 $\\omega=\\dfrac23$，于是 $f(x)=\\sin\\left(\\dfrac23x+\\varphi\\right)$. 令 $t=\\dfrac23x+\\varphi$，当 $x\\in[0,2026\\pi)$ 时，$t\\in\\left[\\varphi,\\dfrac{4052\\pi}{3}+\\varphi\\right)$. 由 $\\sin t=\\dfrac{\\sqrt2}{2}$，得 $t=\\dfrac{\\pi}{4}+2k\\pi$ 或 $t=\\dfrac{3\\pi}{4}+2k\\pi$，$k\\in\\mathbb{Z}$. 区间左闭右开，长度为 $\\dfrac{4052\\pi}{3}$.\r\n\r\n当 $0<\\varphi\\le\\dfrac{\\pi}{4}$ 时，首解为 $\\dfrac{\\pi}{4}$，前 $1350$ 个解对应 $k=0$ 至 $674$ 的两组，第 $1351$ 个解为 $\\dfrac{\\pi}{4}+2\\pi\\cdot675$，第 $1352$ 个解为 $\\dfrac{3\\pi}{4}+2\\pi\\cdot675$. 要有 $1351$ 个解，需满足 $\\dfrac{\\pi}{4}+2\\pi\\cdot675<\\dfrac{4052\\pi}{3}+\\varphi$，$\\dfrac{3\\pi}{4}+2\\pi\\cdot675\\ge\\dfrac{4052\\pi}{3}+\\varphi$. 前者等价于 $\\varphi>-\\dfrac{5\\pi}{12}$，在此范围恒成立，后者等价于 $\\varphi\\le\\dfrac{\\pi}{12}$，解得 $0<\\varphi\\le\\dfrac{\\pi}{12}$. 当 $\\dfrac{\\pi}{4}<\\varphi\\le\\dfrac{3\\pi}{4}$ 时，首解为 $\\dfrac{3\\pi}{4}$，第 $1351$ 个解为 $\\dfrac{3\\pi}{4}+2\\pi\\cdot675$，第 $1352$ 个解为 $\\dfrac{9\\pi}{4}+2\\pi\\cdot675$，需满足 $\\dfrac{3\\pi}{4}+2\\pi\\cdot675<\\dfrac{4052\\pi}{3}+\\varphi$，$\\dfrac{9\\pi}{4}+2\\pi\\cdot675\\ge\\dfrac{4052\\pi}{3}+\\varphi$. 前者等价于 $\\varphi>\\dfrac{\\pi}{12}$，在此范围恒成立，后者等价于 $\\varphi\\le\\dfrac{19\\pi}{12}$，在此范围恒成立，解得 $\\dfrac{\\pi}{4}<\\varphi\\le\\dfrac{3\\pi}{4}$. 当 $\\dfrac{3\\pi}{4}<\\varphi<\\pi$ 时，首解为 $\\dfrac{9\\pi}{4}$，第 $1351$ 个解的条件给出 $\\varphi>\\dfrac{19\\pi}{12}$，不可能成立，故无解. 综上，$0<\\varphi\\le\\dfrac{\\pi}{12}$ 或 $\\dfrac{\\pi}{4}<\\varphi\\le\\dfrac{3\\pi}{4}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $\\omega=2$ 时，$f(x)=\\sin(2x+\\varphi)$. 由 $f\\left(\\dfrac{\\pi}{12}\\right)=0$ 得 $\\sin\\left(\\dfrac{\\pi}{6}+\\varphi\\right)=0$，所以 $\\dfrac{\\pi}{6}+\\varphi=k\\pi$，$k\\in\\mathbb{Z}$. 结合 $0&#x3C;\\varphi&#x3C;\\pi$，有 $\\dfrac{\\pi}{6}+\\varphi\\in\\left(\\dfrac{\\pi}{6},\\dfrac{7\\pi}{6}\\right)$，故 $\\dfrac{\\pi}{6}+\\varphi=\\pi$，得 $\\varphi=\\dfrac{5\\pi}{6}$，即 $f(x)=\\sin\\left(2x+\\dfrac{5\\pi}{6}\\right)$. 因而 $f'(0)=2\\cos\\dfrac{5\\pi}{6}=-\\sqrt{3}$，且 $f(0)=\\dfrac{1}{2}$，切线方程为 $y=-\\sqrt{3}x+\\dfrac{1}{2}$.</p></li><li><p>最小正周期为 $3\\pi$，故 $\\omega=\\dfrac{2}{3}$，于是 $f(x)=\\sin\\left(\\dfrac{2}{3}x+\\varphi\\right)$. 令 $t=\\dfrac{2}{3}x+\\varphi$，当 $x\\in[0,2026\\pi)$ 时，$t\\in\\left[\\varphi,\\dfrac{4052\\pi}{3}+\\varphi\\right)$. 由 $\\sin t=\\dfrac{\\sqrt{2}}{2}$，得 $t=\\dfrac{\\pi}{4}+2k\\pi$ 或 $t=\\dfrac{3\\pi}{4}+2k\\pi$，$k\\in\\mathbb{Z}$. 区间左闭右开，长度为 $\\dfrac{4052\\pi}{3}$.</p><p>当 $0&#x3C;\\varphi\\le\\dfrac{\\pi}{4}$ 时，首解为 $\\dfrac{\\pi}{4}$，前 $1350$ 个解对应 $k=0$ 至 $674$ 的两组，第 $1351$ 个解为 $\\dfrac{\\pi}{4}+2\\pi\\cdot675$，第 $1352$ 个解为 $\\dfrac{3\\pi}{4}+2\\pi\\cdot675$. 要有 $1351$ 个解，需满足 $\\dfrac{\\pi}{4}+2\\pi\\cdot675&#x3C;\\dfrac{4052\\pi}{3}+\\varphi$，$\\dfrac{3\\pi}{4}+2\\pi\\cdot675\\ge\\dfrac{4052\\pi}{3}+\\varphi$. 前者等价于 $\\varphi>-\\dfrac{5\\pi}{12}$，在此范围恒成立，后者等价于 $\\varphi\\le\\dfrac{\\pi}{12}$，解得 $0&#x3C;\\varphi\\le\\dfrac{\\pi}{12}$. 当 $\\dfrac{\\pi}{4}&#x3C;\\varphi\\le\\dfrac{3\\pi}{4}$ 时，首解为 $\\dfrac{3\\pi}{4}$，第 $1351$ 个解为 $\\dfrac{3\\pi}{4}+2\\pi\\cdot675$，第 $1352$ 个解为 $\\dfrac{9\\pi}{4}+2\\pi\\cdot675$，需满足 $\\dfrac{3\\pi}{4}+2\\pi\\cdot675&#x3C;\\dfrac{4052\\pi}{3}+\\varphi$，$\\dfrac{9\\pi}{4}+2\\pi\\cdot675\\ge\\dfrac{4052\\pi}{3}+\\varphi$. 前者等价于 $\\varphi>\\dfrac{\\pi}{12}$，在此范围恒成立，后者等价于 $\\varphi\\le\\dfrac{19\\pi}{12}$，在此范围恒成立，解得 $\\dfrac{\\pi}{4}&#x3C;\\varphi\\le\\dfrac{3\\pi}{4}$. 当 $\\dfrac{3\\pi}{4}&#x3C;\\varphi&#x3C;\\pi$ 时，首解为 $\\dfrac{9\\pi}{4}$，第 $1351$ 个解的条件给出 $\\varphi>\\dfrac{19\\pi}{12}$，不可能成立，故无解. 综上，$0&#x3C;\\varphi\\le\\dfrac{\\pi}{12}$ 或 $\\dfrac{\\pi}{4}&#x3C;\\varphi\\le\\dfrac{3\\pi}{4}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知双曲线 $\\Gamma:\\dfrac{x^2}{2}-\\dfrac{y^2}{2}=1$，过点 $M(m,0)$ 作不垂直于 $x$ 轴的直线 $l$ 交双曲线 $\\Gamma$ 于 $A$，$B$ 两点.\r\n\r\n\n(1) 求双曲线 $\\Gamma$ 的离心率；\n\n(2) 若点 $A(\\sqrt3,1)$，点 $B$ 在双曲线的右支上，且 $B$ 是 $AM$ 的中点，求直线 $l$ 的斜率；\n\n(3) 若 $m>0$，$F_1$，$F_2$ 分别是双曲线 $\\Gamma$ 的左右焦点，$A'$ 是 A 关于 $y$ 轴的对称点，若存在直线 $l$ 使得 $\\overrightarrow{F_1A'}\\cdot\\overrightarrow{F_2B}=0$，求 $m$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知双曲线 $\\Gamma:\\dfrac{x^2}{2}-\\dfrac{y^2}{2}=1$，过点 $M(m,0)$ 作不垂直于 $x$ 轴的直线 $l$ 交双曲线 $\\Gamma$ 于 $A$，$B$ 两点.</p><ol class=\"enumerate\"><li><p>求双曲线 $\\Gamma$ 的离心率；</p></li><li><p>若点 $A(\\sqrt{3},1)$，点 $B$ 在双曲线的右支上，且 $B$ 是 $AM$ 的中点，求直线 $l$ 的斜率；</p></li><li><p>若 $m>0$，$F_{1}$，$F_{2}$ 分别是双曲线 $\\Gamma$ 的左右焦点，$A'$ 是 A 关于 $y$ 轴的对称点，若存在直线 $l$ 使得 $\\overrightarrow{F_1A'}\\cdot\\overrightarrow{F_2B}=0$，求 $m$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $\\dfrac{x^2}{2}-\\dfrac{y^2}{2}=1$ 可知 $a^2=2$，$b^2=2$，故 $c^2=a^2+b^2=4$，离心率 $e=\\frac ca=\\sqrt2$.\n\n(2) 设 $B$ 为 $AM$ 的中点，则\r\n$B\\left(\\frac{\\sqrt3+m}{2},\\frac12\\right)$.\r\n又 $B\\in\\Gamma$，故\r\n$\\frac{(\\sqrt3+m)^2}{8}-\\frac{1}{8}=1$，\r\n即 $(\\sqrt3+m)^2=9$，得 $\\sqrt3+m=\\pm3$. 因 $B$ 在右支上，有 $\\frac{\\sqrt3+m}{2}>0$，即 $m>-\\sqrt3$，舍去 $\\sqrt3+m=-3$，得 $\\sqrt3+m=3$，即 $m=3-\\sqrt3$.\r\n因此直线 $l$ 的斜率为\r\n$k=\\frac{1-0}{\\sqrt3-(3-\\sqrt3)}=\\frac1{2\\sqrt3-3}=\\frac{2\\sqrt3+3}{3}$.\n\n(3) 当直线斜率为 $0$ 时，$A$，$B$ 均在 $x$ 轴上，$\\overrightarrow{F_1A'}$ 与 $\\overrightarrow{F_2B}$ 均为非零水平向量，共线且内积非零，不符合题意. 当斜率不为 $0$ 时，设 $l:x=ny+m$，$n\\ne0$. 设 $A(x_1,y_1)$，$B(x_2,y_2)$，则 $A'(-x_1,y_1)$.\r\n联立双曲线与直线得\r\n\n$$\n(n^2-1)y^2+2nmy+m^2-2=0\n$$\n\r\n故 $\\Delta=4(m^2+2n^2-2)>0$，且 $n^2-1\\ne0$，并有\r\n$y_1+y_2=\\frac{-2nm}{n^2-1}$，$y_1y_2=\\frac{m^2-2}{n^2-1}$\r\n由 $F_1(-2,0)$，$F_2(2,0)$ 得 $\\overrightarrow{F_1A'}=(-x_1+2,y_1)=(-ny_1-m+2,y_1)$，$\\overrightarrow{F_2B}=(x_2-2,y_2)=(ny_2+m-2,y_2)$. 由 $\\overrightarrow{F_1A'}\\cdot\\overrightarrow{F_2B}=0$ 得 $(-ny_1-m+2)(ny_2+m-2)+y_1y_2=0$，即 $(1-n^2)y_1y_2-n(m-2)(y_1+y_2)-(m-2)^2=0$. 代入韦达得 $-(m^2-2)+\\frac{2n^2m(m-2)}{n^2-1}-(m-2)^2=0$，整理得 $m^2-n^2-2m+1=0$，即 $n^2=m^2-2m+1$. 代入 $\\Delta>0$ 得 $3m^2-4m>0$，结合 $m>0$ 得 $m>\\dfrac43$. 又 $n^2-1\\ne0$ 给出 $m\\ne0$ 且 $m\\ne2$，$n\\ne0$ 给出 $m\\ne1$，结合 $m>\\frac43$ 余下 $m\\ne2$. 因此 $m\\in\\left(\\dfrac43,2\\right)\\cup(2,+\\infty)$.\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2026/img/shanghai_spring/q20_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $\\dfrac{x^2}{2}-\\dfrac{y^2}{2}=1$ 可知 $a^{2}=2$，$b^{2}=2$，故 $c^{2}=a^{2}+b^{2}=4$，离心率 $e=\\frac{c}{a}=\\sqrt{2}$.</p></li><li><p>设 $B$ 为 $AM$ 的中点，则</p><p>$B\\left(\\frac{\\sqrt{3}+m}{2},\\frac{1}{2}\\right)$.</p><p>又 $B\\in\\Gamma$，故</p><p>$\\frac{(\\sqrt{3}+m)^{2}}{8}-\\frac{1}{8}=1$，</p><p>即 $(\\sqrt{3}+m)^{2}=9$，得 $\\sqrt{3}+m=\\pm3$. 因 $B$ 在右支上，有 $\\frac{\\sqrt{3}+m}{2}>0$，即 $m>-\\sqrt{3}$，舍去 $\\sqrt{3}+m=-3$，得 $\\sqrt{3}+m=3$，即 $m=3-\\sqrt{3}$.</p><p>因此直线 $l$ 的斜率为</p><p>$k=\\frac{1-0}{\\sqrt{3}-(3-\\sqrt{3})}=\\frac{1}{2\\sqrt{3}-3}=\\frac{2\\sqrt{3}+3}{3}$.</p></li><li><p>当直线斜率为 $0$ 时，$A$，$B$ 均在 $x$ 轴上，$\\overrightarrow{F_1A'}$ 与 $\\overrightarrow{F_2B}$ 均为非零水平向量，共线且内积非零，不符合题意. 当斜率不为 $0$ 时，设 $l:x=ny+m$，$n\\ne0$. 设 $A(x_{1},y_{1})$，$B(x_{2},y_{2})$，则 $A'(-x_{1},y_{1})$.</p><p>联立双曲线与直线得</p>\n$$\n(n^{2}-1)y^{2}+2nmy+m^{2}-2=0\n$$\n<p>故 $\\Delta=4(m^{2}+2n^{2}-2)>0$，且 $n^{2}-1\\ne0$，并有</p><p>$y_{1}+y_{2}=\\frac{-2nm}{n^{2}-1}$，$y_{1}y_{2}=\\frac{m^{2}-2}{n^{2}-1}$</p><p>由 $F_{1}(-2,0)$，$F_{2}(2,0)$ 得 $\\overrightarrow{F_1A'}=(-x_{1}+2,y_{1})=(-ny_{1}-m+2,y_{1})$，$\\overrightarrow{F_2B}=(x_{2}-2,y_{2})=(ny_{2}+m-2,y_{2})$. 由 $\\overrightarrow{F_1A'}\\cdot\\overrightarrow{F_2B}=0$ 得 $(-ny_{1}-m+2)(ny_{2}+m-2)+y_{1}y_{2}=0$，即 $(1-n^{2})y_{1}y_{2}-n(m-2)(y_{1}+y_{2})-(m-2)^{2}=0$. 代入韦达得 $-(m^{2}-2)+\\frac{2n^{2}m(m-2)}{n^{2}-1}-(m-2)^{2}=0$，整理得 $m^{2}-n^{2}-2m+1=0$，即 $n^{2}=m^{2}-2m+1$. 代入 $\\Delta>0$ 得 $3m^{2}-4m>0$，结合 $m>0$ 得 $m>\\dfrac{4}{3}$. 又 $n^{2}-1\\ne0$ 给出 $m\\ne0$ 且 $m\\ne2$，$n\\ne0$ 给出 $m\\ne1$，结合 $m>\\frac{4}{3}$ 余下 $m\\ne2$. 因此 $m\\in\\left(\\dfrac{4}{3},2\\right)\\cup(2,+\\infty)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_spring/q20_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 21,
-          "body": "设 $f(x)$ 是定义在 $\\mathbb{R}$ 上的函数. 定义性质 $P$：若对任意 $x_1$，$x_2\\in\\mathbb{R}$，当 $|x_1|<|x_2|$ 时，$f(x_1)<f(x_2)$，则称函数 $f(x)$ 具有“性质 $P$”.\r\n\r\n\n(1) 判断函数 $f(x)=\\mathrm{e}^x$ 是否具有“性质 $P$”；\n\n(2) 若分段函数\r\n$f(x)=\r\n\\begin{cases}\r\nax,&x\\le0,\\\\\r\nx+b,&x>0\r\n\\end{cases}$\r\n具有“性质 $P$”，求所有满足条件的实数 $a$，$b$；\n\n(3) 已知 $f(x)$ 的值域为 $[0,1)$，且在 $[0,+\\infty)$ 上是严格增函数，证明：$f(x)$ 是偶函数的充要条件是 $f(x)$ 具有“性质 $P$”.",
-          "choices": [],
+          "body": "<p>设 $f(x)$ 是定义在 $\\mathbb{R}$ 上的函数. 定义性质 $P$：若对任意 $x_{1}$，$x_{2}\\in\\mathbb{R}$，当 $|x_{1}|&#x3C;|x_{2}|$ 时，$f(x_{1})&#x3C;f(x_{2})$，则称函数 $f(x)$ 具有“性质 $P$”.</p><ol class=\"enumerate\"><li><p>判断函数 $f(x)=\\mathrm{e}^{x}$ 是否具有“性质 $P$”；</p></li><li><p>若分段函数</p><p>$f(x)=  \\begin{cases}ax,&#x26;x\\le0,\\\\  x+b,&#x26;x>0\\end{cases}$</p><p>具有“性质 $P$”，求所有满足条件的实数 $a$，$b$；</p></li><li><p>已知 $f(x)$ 的值域为 $[0,1)$，且在 $[0,+\\infty)$ 上是严格增函数，证明：$f(x)$ 是偶函数的充要条件是 $f(x)$ 具有“性质 $P$”.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 函数 $f(x)=\\mathrm{e}^x$ 不具有性质 $P$. 取 $x_1=-2$，$x_2=-3$，则 $|x_1|<|x_2|$，但 $\\mathrm{e}^{x_1}=\\mathrm{e}^{-2}>\\mathrm{e}^{-3}=\\mathrm{e}^{x_2}$，与性质 $P$ 矛盾.\n\n(2) 因为函数具有性质 $P$，取 $x_1=0$，有 $f(0)<f(x_2)$（$x_2\\ne0$）. 当 $x_2>0$ 时，$0<x_2+b$，故 $b\\ge0$；当 $x_2<0$ 时，$0<ax_2$，故 $a<0$. 若 $b>0$，取 $x_2\\in\\left[\\dfrac{b}{a},0\\right)$，则 $f(x_2)\\le f\\left(\\dfrac{b}{a}\\right)=b$. 取 $x_1=-\\dfrac{x_2}{2}>0$，则 $|x_1|<|x_2|$，但 $f(x_1)=x_1+b>b\\ge f(x_2)$，矛盾，故 $b=0$.\r\n\r\n此时\r\n\n$$\nf(x)=\r\n\\begin{cases}\r\nax,&x\\le0,\\\\\r\nx,&x>0.\r\n\\end{cases}\n$$\n\r\n若 $x_1>0$，$x_2<0$，$x_1<-x_2$，则 $\\dfrac{x_1}{x_2}>-1$. 由 $f(x_1)<f(x_2)$ 得 $x_1<ax_2$，即 $\\dfrac{x_1}{x_2}>a$ 对一切大于 $-1$ 的负比值成立，故 $a\\le-1$. 若 $x_1<0$，$x_2>0$，$-x_1<x_2$，则 $\\dfrac{x_2}{x_1}<-1$. 由 $f(x_1)<f(x_2)$ 得 $ax_1<x_2$，即 $\\dfrac{x_2}{x_1}<a$ 对一切小于 $-1$ 的比值成立，故 $a\\ge-1$. 因此 $a=-1$，$b=0$. 经检验，$f(x)=|x|$ 满足当 $|x_1|<|x_2|$ 时 $f(x_1)<f(x_2)$，符合性质 $P$. 故所求为 $a=-1$，$b=0$.\n\n(3) 充分性：若 $f(x)$ 具有性质 $P$，则对任意 $x_0>0$，若 $f(x_0)\\ne f(-x_0)$，不妨设 $f(x_0)>f(-x_0)$. 记 $M=f(x_0)$，$m=f(-x_0)$，则 $0\\le m<M<1$. 当 $|x|<x_0$ 时，性质 $P$ 给出 $f(x)<m$；当 $|x|>x_0$ 时，给出 $f(x)>M$，而 $|x|=x_0$ 时取值为 $m$ 或 $M$. 因而对任意 $x\\in\\mathbb{R}$，$f(x)\\ne\\dfrac{M+m}{2}$，但 $\\dfrac{M+m}{2}\\in[0,1)$，与值域为 $[0,1)$ 矛盾. 故 $f(x_0)=f(-x_0)$，$f$ 为偶函数.\r\n\r\n必要性：若 $f$ 是偶函数，则 $f(x)=f(|x|)$. 当 $|x_1|<|x_2|$ 时，由 $f$ 在 $[0,+\\infty)$ 上严格增，得 $f(|x_1|)<f(|x_2|)$，从而 $f(x_1)<f(x_2)$，即 $f$ 具有性质 $P$. 因此 $f(x)$ 是偶函数的充要条件是 $f(x)$ 具有性质 $P$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>函数 $f(x)=\\mathrm{e}^{x}$ 不具有性质 $P$. 取 $x_{1}=-2$，$x_{2}=-3$，则 $|x_{1}|&#x3C;|x_{2}|$，但 $\\mathrm{e}^{x_1}=\\mathrm{e}^{-2}>\\mathrm{e}^{-3}=\\mathrm{e}^{x_2}$，与性质 $P$ 矛盾.</p></li><li><p>因为函数具有性质 $P$，取 $x_{1}=0$，有 $f(0)&#x3C;f(x_{2})$（$x_{2}\\ne0$）. 当 $x_{2}>0$ 时，$0&#x3C;x_{2}+b$，故 $b\\ge0$；当 $x_{2}&#x3C;0$ 时，$0&#x3C;ax_{2}$，故 $a&#x3C;0$. 若 $b>0$，取 $x_{2}\\in\\left[\\dfrac{b}{a},0\\right)$，则 $f(x_{2})\\le f\\left(\\dfrac{b}{a}\\right)=b$. 取 $x_{1}=-\\dfrac{x_2}{2}>0$，则 $|x_{1}|&#x3C;|x_{2}|$，但 $f(x_{1})=x_{1}+b>b\\ge f(x_{2})$，矛盾，故 $b=0$.</p><p>此时</p>\n$$\nf(x)=  \\begin{cases}ax,&#x26;x\\le0,\\\\  x,&#x26;x>0.\\end{cases}\n$$\n<p>若 $x_{1}>0$，$x_{2}&#x3C;0$，$x_{1}&#x3C;-x_{2}$，则 $\\dfrac{x_1}{x_2}>-1$. 由 $f(x_{1})&#x3C;f(x_{2})$ 得 $x_{1}&#x3C;ax_{2}$，即 $\\dfrac{x_1}{x_2}>a$ 对一切大于 $-1$ 的负比值成立，故 $a\\le-1$. 若 $x_{1}&#x3C;0$，$x_{2}>0$，$-x_{1}&#x3C;x_{2}$，则 $\\dfrac{x_2}{x_1}&#x3C;-1$. 由 $f(x_{1})&#x3C;f(x_{2})$ 得 $ax_{1}&#x3C;x_{2}$，即 $\\dfrac{x_2}{x_1}&#x3C;a$ 对一切小于 $-1$ 的比值成立，故 $a\\ge-1$. 因此 $a=-1$，$b=0$. 经检验，$f(x)=|x|$ 满足当 $|x_{1}|&#x3C;|x_{2}|$ 时 $f(x_{1})&#x3C;f(x_{2})$，符合性质 $P$. 故所求为 $a=-1$，$b=0$.</p></li><li><p>充分性：若 $f(x)$ 具有性质 $P$，则对任意 $x_{0}>0$，若 $f(x_{0})\\ne f(-x_{0})$，不妨设 $f(x_{0})>f(-x_{0})$. 记 $M=f(x_{0})$，$m=f(-x_{0})$，则 $0\\le m&#x3C;M&#x3C;1$. 当 $|x|&#x3C;x_{0}$ 时，性质 $P$ 给出 $f(x)&#x3C;m$；当 $|x|>x_{0}$ 时，给出 $f(x)>M$，而 $|x|=x_{0}$ 时取值为 $m$ 或 $M$. 因而对任意 $x\\in\\mathbb{R}$，$f(x)\\ne\\dfrac{M+m}{2}$，但 $\\dfrac{M+m}{2}\\in[0,1)$，与值域为 $[0,1)$ 矛盾. 故 $f(x_{0})=f(-x_{0})$，$f$ 为偶函数.</p><p>必要性：若 $f$ 是偶函数，则 $f(x)=f(|x|)$. 当 $|x_{1}|&#x3C;|x_{2}|$ 时，由 $f$ 在 $[0,+\\infty)$ 上严格增，得 $f(|x_{1}|)&#x3C;f(|x_{2}|)$，从而 $f(x_{1})&#x3C;f(x_{2})$，即 $f$ 具有性质 $P$. 因此 $f(x)$ 是偶函数的充要条件是 $f(x)$ 具有性质 $P$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

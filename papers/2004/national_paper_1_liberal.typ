@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -125,7 +126,7 @@ $ Delta =(4 k^2-8)^2-16 k^4=64(1-k^2) >= 0 $
 #answer([A])
 
 #solution[
-设正四面体的棱长为 $s$，并以其重心为原点，记四个顶点的位置向量为 $bold(a)$，$bold(b)$，$bold(c)$，$bold(d)$. 由于重心在原点，$bold(a)+bold(b)+bold(c)+bold(d)=\b s0$. 设面 $B C D$，$A C D$，$A B D$，$A B C$ 的中心依次为 $E$，$F$，$G$，$H$，则 $arrow(O E)=-(1)/(3)bold(a)$，$arrow(O F)=-(1)/(3)bold(b)$，$arrow(O G)=-(1)/(3)bold(c)$，$arrow(O H)=-(1)/(3)bold(d)$. 因而 $E F=(1)/(3)|bold(a)-bold(b)|=(s)/(3)$，$E G=(1)/(3)|bold(a)-bold(c)|=(s)/(3)$，$E H=(1)/(3)|bold(a)-bold(d)|=(s)/(3)$，$F G=(1)/(3)|bold(b)-bold(c)|=(s)/(3)$，$F H=(1)/(3)|bold(b)-bold(d)|=(s)/(3)$，$G H=(1)/(3)|bold(c)-bold(d)|=(s)/(3)$. 所以 $E F G H$ 是棱长为 $(s)/(3)$ 的正四面体. 面积按长度平方缩放，故 $(T)/(S)=((1)/(3))^2=(1)/(9)$，选 A.
+设正四面体的棱长为 $s$，并以其重心为原点，记四个顶点的位置向量为 $bold(a)$，$bold(b)$，$bold(c)$，$bold(d)$. 由于重心在原点，$bold(a)+bold(b)+bold(c)+bold(d)=\b s 0$. 设面 $B C D$，$A C D$，$A B D$，$A B C$ 的中心依次为 $E$，$F$，$G$，$H$，则 $arrow(O E)=-(1)/(3)bold(a)$，$arrow(O F)=-(1)/(3)bold(b)$，$arrow(O G)=-(1)/(3)bold(c)$，$arrow(O H)=-(1)/(3)bold(d)$. 因而 $E F=(1)/(3)|bold(a)-bold(b)|=(s)/(3)$，$E G=(1)/(3)|bold(a)-bold(c)|=(s)/(3)$，$E H=(1)/(3)|bold(a)-bold(d)|=(s)/(3)$，$F G=(1)/(3)|bold(b)-bold(c)|=(s)/(3)$，$F H=(1)/(3)|bold(b)-bold(d)|=(s)/(3)$，$G H=(1)/(3)|bold(c)-bold(d)|=(s)/(3)$. 所以 $E F G H$ 是棱长为 $(s)/(3)$ 的正四面体. 面积按长度平方缩放，故 $(T)/(S)=((1)/(3))^2=(1)/(9)$，选 A.
 ]
 
 #problem(11)[

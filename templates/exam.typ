@@ -2,6 +2,61 @@
 // 历年高考数学 Typst 试卷专业排版模版
 // ==============================================================================
 
+#import "@preview/mitex:0.2.5": *
+
+// 兼容别名与语法容错
+#let prod = math.product
+#let iv = math.div
+#let et = math.det
+#let verline(x) = math.overline(x)
+#let mptyset = math.emptyset
+#let up = math.sup
+#let inom32 = math.binom([3], [2])
+#let inom(..args) = math.binom(..args)
+#let quiv = math.equiv
+#let quiv0 = math.equiv
+#let quiv1 = math.equiv
+#let qrt(..args) = math.sqrt(..args)
+#let ec = math.sec
+#let sc = math.csc
+#let ngle = math.angle
+#let ot = math.cot
+#let artial = math.diff
+#let egree = math.degree
+#let athrm = math.upright
+#let kg = "kg"
+#let cd = "cd"
+#let ptA = "A"
+#let mm = "mm"
+#let cm = "cm"
+#let dm = "dm"
+#let km = "km"
+#let m = "m"
+#let s = "s"
+
+// 常见公式中混入的汉字与单位容错定义
+#let 平方米 = [m#super[2]]
+#let 平方厘米 = [cm#super[2]]
+#let 平面 = [平面]
+#let 万元 = [万元]
+#let 万人 = [万人]
+#let 千米 = [km]
+#let 千克 = [kg]
+#let 公斤 = [kg]
+#let 分钟 = [min]
+#let 小时 = [h]
+#let 海里 = [n mile]
+#let 原式 = [原式]
+#let 答案不唯一 = [答案不唯一]
+#let 矩形 = [矩形]
+#let 分米 = [dm]
+#let 上递增 = [上递增]
+#let 为奇数 = [为奇数]
+#let 为偶数 = [为偶数]
+#let 为有理数 = [为有理数]
+#let 的整数倍 = [的整数倍]
+#let 是平行四边形 = [是平行四边形]
+
 #let exam-setup(
   title: "2024年普通高等学校招生全国统一考试",
   subtitle: "数学（新高考I卷）",

@@ -1,150 +1,15 @@
 {
+  "title": "2019年普通高等学校招生全国统一考试",
+  "subtitle": "2019年浙江卷",
   "year": "2019",
   "slug": "zhejiang",
-  "title": "2019年浙江卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 17,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": false
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知全集 $U=\\{-1,0,1,2,3\\}$，集合 $A=\\{0,1,2\\}$，$B=\\{-1,0,1\\}$，则 $\\left(\\complement_U A\\right)\\cap B=$（ ）",
+          "body": "已知全集 $U=\\{-1,0,1,2,3\\}$，集合 $A=\\{0,1,2\\}$，$B=\\{-1,0,1\\}$，则 $\\left(\\complement_{U} A\\right)\\cap B=$（ ）",
           "choices": [
             "$\\{-1\\}$",
             "$\\{0,1\\}$",
@@ -152,27 +17,23 @@
             "$\\{-1,0,1,3\\}$"
           ],
           "answer": "A",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 2,
-          "body": "渐近线方程为 $x\\pm y=0$ 的双曲线的离心率是（ ）",
+          "body": "渐近线方程为 $x\\pm y=0$ 的双曲线的离心率是（ ）",
           "choices": [
-            "$\\dfrac{\\sqrt2}{2}$",
+            "$\\dfrac{\\sqrt{2}}{2}$",
             "$1$",
-            "$\\sqrt2$",
+            "$\\sqrt{2}$",
             "$2$"
           ],
           "answer": "C",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 3,
-          "body": "若实数 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx-3y+4\\ge0,\\\\\r\n3x-y-4\\le0,\\\\\r\nx+y\\ge0,\r\n\\end{cases}$ 则 $z=3x+2y$ 的最大值是（ ）",
+          "body": "若实数 $x$，$y$ 满足约束条件 $\\begin{cases}x-3y+4\\ge0,\\\\  3x-y-4\\le0,\\\\  x+y\\ge0,\\end{cases}$ 则 $z=3x+2y$ 的最大值是（ ）",
           "choices": [
             "$-1$",
             "$1$",
@@ -180,13 +41,11 @@
             "$12$"
           ],
           "answer": "C",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 4,
-          "body": "祖暅是我国南北朝时代的伟大科学家. 他提出的“幂势既同，则积不容异”称为祖暅原理，利用该原理可以得到柱体体积公式 $V=Sh$，其中 $S$ 是柱体的底面积，$h$ 是柱体的高，若某柱体的三视图如图所示（单位：$\\mathrm{cm}$），则该柱体的体积（单位：$\\mathrm{cm}^3$）是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>祖暅是我国南北朝时代的伟大科学家. 他提出的“幂势既同，则积不容异”称为祖暅原理，利用该原理可以得到柱体体积公式 $V=Sh$，其中 $S$ 是柱体的底面积，$h$ 是柱体的高，若某柱体的三视图如图所示（单位：$\\mathrm{cm}$），则该柱体的体积（单位：$\\mathrm{cm}^{3}$）是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q4_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$158$",
             "$162$",
@@ -194,13 +53,11 @@
             "$324$"
           ],
           "answer": "B",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 5,
-          "body": "若 $a>0$，$b>0$，则“$a+b\\le4$”是“$ab\\le4$”的（ ）",
+          "body": "若 $a>0$，$b>0$，则“$a+b\\le4$”是“$ab\\le4$”的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -208,27 +65,23 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 6,
-          "body": "在同一直角坐标系中，函数 $y=\\dfrac{1}{a^x}$，$y=\\log_a\\!\\left(x+\\dfrac12\\right)$（$a>0$ 且 $a\\neq1$）图象可能是（ ）",
+          "body": "在同一直角坐标系中，函数 $y=\\dfrac{1}{a^x}$，$y=\\log_{a}\\!\\left(x+\\dfrac{1}{2}\\right)$（$a>0$ 且 $a\\neq1$）图象可能是（ ）",
           "choices": [
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q6_choice_a.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q6_choice_b.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q6_choice_c.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
-            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q6_choice_d.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q6_{c}hoice_{a}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q6_{c}hoice_{b}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q6_{c}hoice_{c}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$",
+            "$<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/zhejiang/q6_{c}hoice_{d}.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>$"
           ],
           "answer": "D",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 7,
-          "body": "设 $0<a<1$，则随机变量 $X$ 的分布列如图，则当 $a$ 在 $(0,1)$ 内增大时，$D(X)$（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>设 $0&#x3C;a&#x3C;1$，则随机变量 $X$ 的分布列如图，则当 $a$ 在 $(0,1)$ 内增大时，$D(X)$（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "增大",
             "减小",
@@ -236,51 +89,43 @@
             "先减小后增大"
           ],
           "answer": "D",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 8,
-          "body": "设三棱锥 $V-ABC$ 的底面是正三角形，侧棱长均相等，$P$ 是棱 $VA$ 上的点（不含端点），记直线 $PB$ 与直线 $AC$ 所成角为 $\\alpha$，直线 $PB$ 与平面 $ABC$ 所成角为 $\\beta$，二面角 $P-AC-B$ 的平面角为 $\\gamma$，则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>设三棱锥 $V-ABC$ 的底面是正三角形，侧棱长均相等，$P$ 是棱 $VA$ 上的点（不含端点），记直线 $PB$ 与直线 $AC$ 所成角为 $\\alpha$，直线 $PB$ 与平面 $ABC$ 所成角为 $\\beta$，二面角 $P-AC-B$ 的平面角为 $\\gamma$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$\\beta<\\gamma$，$\\alpha<\\gamma$",
-            "$\\beta<\\alpha$，$\\beta<\\gamma$",
-            "$\\beta<\\alpha$，$\\gamma<\\alpha$",
-            "$\\alpha<\\beta$，$\\gamma<\\beta$"
+            "$\\beta&#x3C;\\gamma$，$\\alpha&#x3C;\\gamma$",
+            "$\\beta&#x3C;\\alpha$，$\\beta&#x3C;\\gamma$",
+            "$\\beta&#x3C;\\alpha$，$\\gamma&#x3C;\\alpha$",
+            "$\\alpha&#x3C;\\beta$，$\\gamma&#x3C;\\beta$"
           ],
           "answer": "B",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 9,
-          "body": "已知 $a$，$b\\in\\mathbb{R}$，函数 $f(x)=\\begin{cases}\r\nx, & x<0,\\\\\r\n\\dfrac13x^3-\\dfrac12(a+1)x^2+ax, & x\\ge0,\r\n\\end{cases}$ 若函数 $y=f(x)-ax-b$ 恰有三个零点，则（ ）",
+          "body": "已知 $a$，$b\\in\\mathbb{R}$，函数 $f(x)=\\begin{cases}x,&#x26;x&#x3C;0,\\\\  \\dfrac{1}{3}x^{3}-\\dfrac{1}{2}(a+1)x^{2}+ax,&#x26;x\\ge0,\\end{cases}$ 若函数 $y=f(x)-ax-b$ 恰有三个零点，则（ ）",
           "choices": [
-            "$a<-1$，$b<0$",
-            "$a<-1$，$b>0$",
-            "$a>-1$，$b<0$",
+            "$a&#x3C;-1$，$b&#x3C;0$",
+            "$a&#x3C;-1$，$b>0$",
+            "$a>-1$，$b&#x3C;0$",
             "$a>-1$，$b>0$"
           ],
           "answer": "C",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 10,
-          "body": "设 $a$，$b\\in\\mathbb{R}$，数列 $\\{a_n\\}$ 中，$a_1=a$，$a_{n+1}=a_n^2+b$（$n\\in\\mathbb{N}^*$），则（ ）",
+          "body": "设 $a$，$b\\in\\mathbb{R}$，数列 $\\{a_{n}\\}$ 中，$a_{1}=a$，$a_{n+1}=a_{n}^{2}+b$（$n\\in\\mathbb{N}^{*}$），则（ ）",
           "choices": [
-            "当 $b=\\dfrac12$ 时，$a_{10}>10$",
-            "当 $b=\\dfrac14$ 时，$a_{10}>10$",
+            "当 $b=\\dfrac{1}{2}$ 时，$a_{10}>10$",
+            "当 $b=\\dfrac{1}{4}$ 时，$a_{10}>10$",
             "当 $b=-2$ 时，$a_{10}>10$",
             "当 $b=-4$ 时，$a_{10}>10$"
           ],
           "answer": "A",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "solution": ""
         }
       ]
     },
@@ -289,66 +134,52 @@
       "problems": [
         {
           "num": 11,
-          "body": "复数 $z=\\dfrac{1}{1+\\mathrm{i}}$（$\\mathrm{i}$ 为虚数单位），则 $|z|= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\dfrac{\\sqrt{2}}{2}\\)",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "body": "复数 $z=\\dfrac{1}{1+\\mathrm{i}}$（$\\mathrm{i}$ 为虚数单位），则 $|z|=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\dfrac{\\sqrt{2}}{2}$",
+          "solution": ""
         },
         {
           "num": 12,
-          "body": "已知圆 $C$ 的圆心坐标是 $(0,m)$，半径长是 $r$. 若直线 $2x-y+3=0$ 与圆相切于点 $A(-2,-1)$，则 $m= _______ {}$，$r= _______ {}$.",
-          "choices": [],
-          "answer": "\\(-2\\)，\\(\\sqrt{5}\\)",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "body": "已知圆 $C$ 的圆心坐标是 $(0,m)$，半径长是 $r$. 若直线 $2x-y+3=0$ 与圆相切于点 $A(-2,-1)$，则 $m=\\underline{\\hspace{2.5em}}{}$，$r=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$-2$，$\\sqrt{5}$",
+          "solution": ""
         },
         {
           "num": 13,
-          "body": "在二项式 $(\\sqrt2+x)^9$ 的展开式中，常数项是 _______ {}；系数为有理数的项的个数是 _______ {}.",
-          "choices": [],
-          "answer": "\\(16\\sqrt{2}\\)，\\(5\\)",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "body": "在二项式 $(\\sqrt{2}+x)^{9}$ 的展开式中，常数项是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；系数为有理数的项的个数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$16\\sqrt{2}$，$5$",
+          "solution": ""
         },
         {
           "num": 14,
-          "body": "在 $\\triangle ABC$ 中，$\\angle ABC=90^\\circ$，$AB=4$，$BC=3$，点 $D$ 在线段 $AC$ 上，若 $\\angle BDC=45^\\circ$，则 $BD= _______ {}$；$\\cos\\angle ABD= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\dfrac{12\\sqrt{2}}{5}\\)，\\(\\dfrac{7\\sqrt{2}}{10}\\)",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "body": "在 $\\triangle ABC$ 中，$\\angle ABC=90^{\\circ}$，$AB=4$，$BC=3$，点 $D$ 在线段 $AC$ 上，若 $\\angle BDC=45^{\\circ}$，则 $BD=\\underline{\\hspace{2.5em}}{}$；$\\cos\\angle ABD=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\dfrac{12\\sqrt{2}}{5}$，$\\dfrac{7\\sqrt{2}}{10}$",
+          "solution": ""
         },
         {
           "num": 15,
-          "body": "已知椭圆 $\\dfrac{x^2}{9}+\\dfrac{y^2}{5}=1$ 的左焦点为 $F$，点 $P$ 在椭圆上且在 $x$ 轴的上方，若线段 $PF$ 的中点在以原点 $O$ 为圆心，$|OF|$ 为半径的圆上，则直线 $PF$ 的斜率是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt{15}\\)",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "body": "已知椭圆 $\\dfrac{x^2}{9}+\\dfrac{y^2}{5}=1$ 的左焦点为 $F$，点 $P$ 在椭圆上且在 $x$ 轴的上方，若线段 $PF$ 的中点在以原点 $O$ 为圆心，$|OF|$ 为半径的圆上，则直线 $PF$ 的斜率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{15}$",
+          "solution": ""
         },
         {
           "num": 16,
-          "body": "已知 $a\\in\\mathbb{R}$，函数 $f(x)=ax^3-x$，若存在 $t\\in\\mathbb{R}$，使得 $\\left|f(t+2)-f(t)\\right|\\le\\dfrac23$，则实数 $a$ 的最大值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac{4}{3}\\)",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "body": "已知 $a\\in\\mathbb{R}$，函数 $f(x)=ax^{3}-x$，若存在 $t\\in\\mathbb{R}$，使得 $\\left|f(t+2)-f(t)\\right|\\le\\dfrac{2}{3}$，则实数 $a$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\dfrac{4}{3}$",
+          "solution": ""
         },
         {
           "num": 17,
-          "body": "已知正方形 $ABCD$ 的边长为 $1$. 当每个 $\\lambda_i$（$i=1$，$2$，$3$，$4$，$5$，$6$）都取 $\\pm1$ 时，$\\left|\\lambda_1\\overrightarrow{AB}+\\allowbreak\\lambda_2\\overrightarrow{BC}+\\allowbreak\\lambda_3\\overrightarrow{CD}+\\allowbreak\\lambda_4\\overrightarrow{DA}+\\allowbreak\\lambda_5\\overrightarrow{AC}+\\allowbreak\\lambda_6\\overrightarrow{BD}\\right|$ 的最小值是 _______ {}；最大值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(0\\)，\\(2\\sqrt{5}\\)",
-          "solution": "",
-          "hasAnswer": true,
-          "hasSolution": false
+          "body": "已知正方形 $ABCD$ 的边长为 $1$. 当每个 $\\lambda_{i}$（$i=1$，$2$，$3$，$4$，$5$，$6$）都取 $\\pm1$ 时，$\\left|\\lambda_{1}\\overrightarrow{AB}+\\lambda_{2}\\overrightarrow{BC}+\\lambda_{3}\\overrightarrow{CD}+\\lambda_{4}\\overrightarrow{DA}+\\lambda_{5}\\overrightarrow{AC}+\\lambda_{6}\\overrightarrow{BD}\\right|$ 的最小值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>；最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$0$，$2\\sqrt{5}$",
+          "solution": ""
         }
       ]
     },
@@ -357,51 +188,40 @@
       "problems": [
         {
           "num": 18,
-          "body": "设函数 $f(x)=\\sin x$，$x\\in\\mathbb{R}$.\r\n\r\n\n(1) 已知 $\\theta\\in[0,2\\pi)$，函数 $f(x+\\theta)$ 是偶函数，求 $\\theta$ 的值；\n\n(2) 求函数 $y=\\left[f\\left(x+\\dfrac{\\pi}{12}\\right)\\right]^2+\\left[f\\left(x+\\dfrac{\\pi}{4}\\right)\\right]^2$ 的值域.",
-          "choices": [],
+          "body": "<p>设函数 $f(x)=\\sin x$，$x\\in\\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>已知 $\\theta\\in[0,2\\pi)$，函数 $f(x+\\theta)$ 是偶函数，求 $\\theta$ 的值；</p></li><li><p>求函数 $y=\\left[f\\left(x+\\dfrac{\\pi}{12}\\right)\\right]^{2}+\\left[f\\left(x+\\dfrac{\\pi}{4}\\right)\\right]^{2}$ 的值域.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为函数 $f(x+\\theta)=\\sin(x+\\theta)$ 是偶函数，所以对任意 $x\\in\\mathbb{R}$，有\r\n\n$$\n\\sin(\\theta-x)=\\sin(\\theta+x)\n$$\n\r\n利用和差化积，得 $2\\cos\\theta\\sin(-x)=0$，即 $\\cos\\theta\\sin x=0$ 对任意 $x\\in\\mathbb{R}$ 成立，从而 $\\cos\\theta=0$. 又 $\\theta\\in[0,2\\pi)$，所以 $\\theta=\\dfrac{\\pi}{2}$ 或 $\\theta=\\dfrac{3\\pi}{2}$.\n\n(2) 利用 $\\sin^2u=\\dfrac{1-\\cos2u}{2}$，得\r\n\n$$\ny=1-\\frac12\\left[\\cos\\left(2x+\\frac{\\pi}{6}\\right)+\\cos\\left(2x+\\frac{\\pi}{2}\\right)\\right]=1-\\frac{\\sqrt3}{2}\\cos\\left(2x+\\frac{\\pi}{3}\\right)\n$$\n\r\n因为 $-1\\le\\cos\\left(2x+\\dfrac{\\pi}{3}\\right)\\le1$，所以函数值域为 $\\left[1-\\dfrac{\\sqrt3}{2},1+\\dfrac{\\sqrt3}{2}\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为函数 $f(x+\\theta)=\\sin(x+\\theta)$ 是偶函数，所以对任意 $x\\in\\mathbb{R}$，有</p>\n$$\n\\sin(\\theta-x)=\\sin(\\theta+x)\n$$\n<p>利用和差化积，得 $2\\cos\\theta\\sin(-x)=0$，即 $\\cos\\theta\\sin x=0$ 对任意 $x\\in\\mathbb{R}$ 成立，从而 $\\cos\\theta=0$. 又 $\\theta\\in[0,2\\pi)$，所以 $\\theta=\\dfrac{\\pi}{2}$ 或 $\\theta=\\dfrac{3\\pi}{2}$.</p></li><li><p>利用 $\\sin^{2}u=\\dfrac{1-\\cos2u}{2}$，得</p>\n$$\ny=1-\\frac{1}{2}\\left[\\cos\\left(2x+\\frac{\\pi}{6}\\right)+\\cos\\left(2x+\\frac{\\pi}{2}\\right)\\right]=1-\\frac{\\sqrt{3}}{2}\\cos\\left(2x+\\frac{\\pi}{3}\\right)\n$$\n<p>因为 $-1\\le\\cos\\left(2x+\\dfrac{\\pi}{3}\\right)\\le1$，所以函数值域为 $\\left[1-\\dfrac{\\sqrt{3}}{2},1+\\dfrac{\\sqrt{3}}{2}\\right]$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，已知三棱柱 $ABC-A_1B_1C_1$，平面 $A_1AC_1C\\perp$ 平面 $ABC$，$\\angle ABC=90^\\circ$，$\\angle BAC=30^\\circ$，$A_1A=A_1C=AC$，$E$，$F$ 分别是 $AC$，$A_1B_1$ 的中点.\r\n\r\n\n(1) 证明：$EF\\perp BC$；\n\n(2) 求直线 $EF$ 与平面 $A_1BC$ 所成角的余弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，已知三棱柱 $ABC-A_{1}B_{1}C_{1}$，平面 $A_{1}AC_{1}C\\perp$ 平面 $ABC$，$\\angle ABC=90^{\\circ}$，$\\angle BAC=30^{\\circ}$，$A_{1}A=A_{1}C=AC$，$E$，$F$ 分别是 $AC$，$A_{1}B_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>证明：$EF\\perp BC$；</p></li><li><p>求直线 $EF$ 与平面 $A_{1}BC$ 所成角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取 $AC=4$，建立空间直角坐标系，使\r\n$A(0,0,0)$，$C(4,0,0)$，$B(3,\\sqrt3,0)$.\r\n此时 $AB=2\\sqrt3$，$BC=2$，且 $\\angle ABC=90^\\circ$，$\\angle BAC=30^\\circ$，符合题设.\r\n\r\n平面 $A_1AC_1C$ 与平面 $ABC$ 垂直，且其交线为 $AC$，故可取 $A_1=(2,0,h)$. 由 $A_1A=A_1C=AC=4$，得\r\n\n$$\n2^2+h^2=4^2\n$$\n\r\n所以 $h=2\\sqrt3$，即 $A_1=(2,0,2\\sqrt3)$. 由于是三棱柱，$\\overrightarrow{AA_1}=\\overrightarrow{BB_1}$，从而 $B_1=(5,\\sqrt3,2\\sqrt3)$. 因为 $E$，$F$ 分别是 $AC$，$A_1B_1$ 的中点，所以\r\n$E=(2,0,0)$，$F=\\left(\\frac72,\\frac{\\sqrt3}{2},2\\sqrt3\\right)$.\r\n于是\r\n$\\overrightarrow{EF}=\\left(\\frac32,\\frac{\\sqrt3}{2},2\\sqrt3\\right)$，$\\overrightarrow{BC}=(1,-\\sqrt3,0)$\r\n且 $\\overrightarrow{EF}\\cdot\\overrightarrow{BC}=\\dfrac32-\\dfrac32=0$. 因此 $EF\\perp BC$.\n\n(2) 取平面 $A_1BC$ 内的两个相交向量\r\n$u=\\overrightarrow{BC}=(1,-\\sqrt3,0)$，$v=\\overrightarrow{BA_1}=(-1,-\\sqrt3,2\\sqrt3)$.\r\n其法向量可取\r\n\n$$\nn=u\\times v=(-6,-2\\sqrt3,-2\\sqrt3)\n$$\n\r\n所以也可取 $n=(3,\\sqrt3,\\sqrt3)$. 设直线 $EF$ 与平面 $A_1BC$ 所成的角为 $\\varphi$，则\r\n\n$$\n\\sin\\varphi=\\frac{|\\overrightarrow{EF}\\cdot n|}{|\\overrightarrow{EF}|\\,|n|}\n$$\n\r\n由 $\\overrightarrow{EF}\\cdot n=12$，$|\\overrightarrow{EF}|^2=15$，$|n|^2=15$，得 $\\sin\\varphi=\\dfrac{12}{15}=\\dfrac45$. 因为 $\\varphi$ 是直线与平面的锐角，所以\r\n\n$$\n\\cos\\varphi=\\sqrt{1-\\sin^2\\varphi}=\\frac35\n$$\n\r\n故所求余弦值为 $\\dfrac35$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取 $AC=4$，建立空间直角坐标系，使</p><p>$A(0,0,0)$，$C(4,0,0)$，$B(3,\\sqrt{3},0)$.</p><p>此时 $AB=2\\sqrt{3}$，$BC=2$，且 $\\angle ABC=90^{\\circ}$，$\\angle BAC=30^{\\circ}$，符合题设.</p><p>平面 $A_{1}AC_{1}C$ 与平面 $ABC$ 垂直，且其交线为 $AC$，故可取 $A_{1}=(2,0,h)$. 由 $A_{1}A=A_{1}C=AC=4$，得</p>\n$$\n2^{2}+h^{2}=4^{2}\n$$\n<p>所以 $h=2\\sqrt{3}$，即 $A_{1}=(2,0,2\\sqrt{3})$. 由于是三棱柱，$\\overrightarrow{AA_1}=\\overrightarrow{BB_1}$，从而 $B_{1}=(5,\\sqrt{3},2\\sqrt{3})$. 因为 $E$，$F$ 分别是 $AC$，$A_{1}B_{1}$ 的中点，所以</p><p>$E=(2,0,0)$，$F=\\left(\\frac{7}{2},\\frac{\\sqrt{3}}{2},2\\sqrt{3}\\right)$.</p><p>于是</p><p>$\\overrightarrow{EF}=\\left(\\frac{3}{2},\\frac{\\sqrt{3}}{2},2\\sqrt{3}\\right)$，$\\overrightarrow{BC}=(1,-\\sqrt{3},0)$</p><p>且 $\\overrightarrow{EF}\\cdot\\overrightarrow{BC}=\\dfrac{3}{2}-\\dfrac{3}{2}=0$. 因此 $EF\\perp BC$.</p></li><li><p>取平面 $A_{1}BC$ 内的两个相交向量</p><p>$u=\\overrightarrow{BC}=(1,-\\sqrt{3},0)$，$v=\\overrightarrow{BA_1}=(-1,-\\sqrt{3},2\\sqrt{3})$.</p><p>其法向量可取</p>\n$$\nn=u\\times v=(-6,-2\\sqrt{3},-2\\sqrt{3})\n$$\n<p>所以也可取 $n=(3,\\sqrt{3},\\sqrt{3})$. 设直线 $EF$ 与平面 $A_{1}BC$ 所成的角为 $\\varphi$，则</p>\n$$\n\\sin\\varphi=\\frac{|\\overrightarrow{EF}\\cdot n|}{|\\overrightarrow{EF}|\\,|n|}\n$$\n<p>由 $\\overrightarrow{EF}\\cdot n=12$，$|\\overrightarrow{EF}|^{2}=15$，$|n|^{2}=15$，得 $\\sin\\varphi=\\dfrac{12}{15}=\\dfrac{4}{5}$. 因为 $\\varphi$ 是直线与平面的锐角，所以</p>\n$$\n\\cos\\varphi=\\sqrt{1-\\sin^{2}\\varphi}=\\frac{3}{5}\n$$\n<p>故所求余弦值为 $\\dfrac{3}{5}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设等差数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，$a_3=4$，$a_4=S_3$，数列 $\\{b_n\\}$ 满足：对每个 $n\\in\\mathbb{N}^*$，$S_n+b_n$，$S_{n+1}+b_n$，$S_{n+2}+b_n$ 成等比数列.\r\n\r\n\n(1) 求数列 $\\{a_n\\}$，$\\{b_n\\}$ 的通项公式；\n\n(2) 记 $C_n=\\sqrt{\\dfrac{a_n}{2b_n}}$（$n\\in\\mathbb{N}^*$），证明：$C_1+C_2+\\cdots+C_n<2\\sqrt n$，$n\\in\\mathbb{N}^*$.",
-          "choices": [],
+          "body": "<p>设等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，$a_{3}=4$，$a_{4}=S_{3}$，数列 $\\{b_{n}\\}$ 满足：对每个 $n\\in\\mathbb{N}^{*}$，$S_{n}+b_{n}$，$S_{n+1}+b_{n}$，$S_{n+2}+b_{n}$ 成等比数列.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$ 的通项公式；</p></li><li><p>记 $C_{n}=\\sqrt{\\dfrac{a_n}{2b_n}}$（$n\\in\\mathbb{N}^{*}$），证明：$C_{1}+C_{2}+\\cdots+C_{n}&#x3C;2\\sqrt{n}$，$n\\in\\mathbb{N}^{*}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设等差数列 $\\{a_n\\}$ 的首项为 $a_1$，公差为 $d$. 由 $a_3=4$，得\r\n\n$$\na_1+2d=4\n$$\n\r\n又由 $a_4=S_3$，得\r\n\n$$\na_1+3d=\\frac32\\left(2a_1+2d\\right)=3a_1+3d\n$$\n\r\n所以 $a_1=0$，进而 $d=2$. 因此\r\n$a_n=2n-2$，$S_n=\\frac n2\\left(a_1+a_n\\right)=n(n-1)$.\r\n\r\n令 $X_n=S_n+b_n$. 由于\r\n$S_{n+1}-S_n=a_{n+1}=2n$，$S_{n+2}-S_n=a_{n+1}+a_{n+2}=4n+2$\r\n题设三个数成等比数列等价于\r\n\n$$\n(X_n+2n)^2=X_n(X_n+4n+2)\n$$\n\r\n展开并化简，得 $4n^2=2X_n$，所以 $X_n=2n^2$. 从而\r\n\n$$\nb_n=X_n-S_n=2n^2-n(n-1)=n^2+n\n$$\n\r\n故 $a_n=2n-2$，$b_n=n^2+n$，$n\\in\\mathbb{N}^*$.\n\n(2) 由上面的通项公式，得\r\n\n$$\nC_k=\\sqrt{\\frac{a_k}{2b_k}}=\\sqrt{\\frac{2(k-1)}{2k(k+1)}}=\\sqrt{\\frac{k-1}{k(k+1)}}<\\frac1{\\sqrt{k}}\n$$\n\r\n其中 $k\\in\\mathbb{N}^*$. 因此\r\n\n$$\nC_1+C_2+\\cdots+C_n<\\sum_{k=1}^n\\frac1{\\sqrt{k}}\\le1+\\int_1^n\\frac{1}{\\sqrt{x}}\\,\\mathrm dx=2\\sqrt n-1<2\\sqrt n\n$$\n\r\n所以对任意 $n\\in\\mathbb{N}^*$，均有 $C_1+C_2+\\cdots+C_n<2\\sqrt n$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\{a_{n}\\}$ 的首项为 $a_{1}$，公差为 $d$. 由 $a_{3}=4$，得</p>\n$$\na_{1}+2d=4\n$$\n<p>又由 $a_{4}=S_{3}$，得</p>\n$$\na_{1}+3d=\\frac{3}{2}\\left(2a_{1}+2d\\right)=3a_{1}+3d\n$$\n<p>所以 $a_{1}=0$，进而 $d=2$. 因此</p><p>$a_{n}=2n-2$，$S_{n}=\\frac{n}{2}\\left(a_{1}+a_{n}\\right)=n(n-1)$.</p><p>令 $X_{n}=S_{n}+b_{n}$. 由于</p><p>$S_{n+1}-S_{n}=a_{n+1}=2n$，$S_{n+2}-S_{n}=a_{n+1}+a_{n+2}=4n+2$</p><p>题设三个数成等比数列等价于</p>\n$$\n(X_{n}+2n)^{2}=X_{n}(X_{n}+4n+2)\n$$\n<p>展开并化简，得 $4n^{2}=2X_{n}$，所以 $X_{n}=2n^{2}$. 从而</p>\n$$\nb_{n}=X_{n}-S_{n}=2n^{2}-n(n-1)=n^{2}+n\n$$\n<p>故 $a_{n}=2n-2$，$b_{n}=n^{2}+n$，$n\\in\\mathbb{N}^{*}$.</p></li><li><p>由上面的通项公式，得</p>\n$$\nC_{k}=\\sqrt{\\frac{a_{k}}{2b_{k}}}=\\sqrt{\\frac{2(k-1)}{2k(k+1)}}=\\sqrt{\\frac{k-1}{k(k+1)}}&#x3C;\\frac{1}{\\sqrt{k}}\n$$\n<p>其中 $k\\in\\mathbb{N}^{*}$. 因此</p>\n$$\nC_{1}+C_{2}+\\cdots+C_{n}&#x3C;\\sum_{k=1}^{n}\\frac{1}{\\sqrt{k}}\\le1+\\int_{1}^{n}\\frac{1}{\\sqrt{x}}\\,\\mathrm{d}x=2\\sqrt{n}-1&#x3C;2\\sqrt{n}\n$$\n<p>所以对任意 $n\\in\\mathbb{N}^{*}$，均有 $C_{1}+C_{2}+\\cdots+C_{n}&#x3C;2\\sqrt{n}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "如图，已知点 $F(1,0)$ 为抛物线 $y^2=2px$（$p>0$）的焦点，过点 $F$ 的直线交抛物线于 $A$，$B$ 两点，点 $C$ 在抛物线上，使得 $\\triangle ABC$ 的重心 $G$ 在 $x$ 轴上，直线 $AC$ 交 $x$ 轴于点 $Q$，且 $Q$ 在点 $F$ 右侧. 记 $\\triangle AFG$，$\\triangle CQG$ 的面积分别为 $S_1$，$S_2$.\r\n\r\n\n(1) 求 $p$ 的值及抛物线的准线方程；\n\n(2) 求 $\\dfrac{S_1}{S_2}$ 的最小值及此时点 $G$ 的坐标.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2019/img/zhejiang/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，已知点 $F(1,0)$ 为抛物线 $y^{2}=2px$（$p>0$）的焦点，过点 $F$ 的直线交抛物线于 $A$，$B$ 两点，点 $C$ 在抛物线上，使得 $\\triangle ABC$ 的重心 $G$ 在 $x$ 轴上，直线 $AC$ 交 $x$ 轴于点 $Q$，且 $Q$ 在点 $F$ 右侧. 记 $\\triangle AFG$，$\\triangle CQG$ 的面积分别为 $S_{1}$，$S_{2}$.</p><ol class=\"enumerate\"><li><p>求 $p$ 的值及抛物线的准线方程；</p></li><li><p>求 $\\dfrac{S_1}{S_2}$ 的最小值及此时点 $G$ 的坐标.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/zhejiang/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 抛物线 $y^2=2px$ 的焦点为 $\\left(\\dfrac p2,0\\right)$. 由焦点为 $F(1,0)$，得 $\\dfrac p2=1$，所以 $p=2$. 因而抛物线方程为 $y^2=4x$，其准线方程为\r\n\n$$\nx=-\\frac p2=-1\n$$\n\n(2) 对抛物线 $y^2=4x$，用参数表示其上的点为 $(t^2,2t)$. 设\r\n$A=(u^2,2u)$，$B=(v^2,2v)$，$C=(w^2,2w)$.\r\n过参数为 $u$，$v$ 的两点的弦与 $x$ 轴交点的横坐标为 $-uv$. 因为直线 $AB$ 过 $F(1,0)$，所以 $-uv=1$，即 $uv=-1$. 又因为重心 $G$ 在 $x$ 轴上，所以\r\n\n$$\nu+v+w=0\n$$\n\r\n按图取 $A$ 在 $x$ 轴上方，故可令 $u>0$. 则 $v=-\\dfrac1u$，$w=\\dfrac1u-u$. 令 $s=u^2$，则直线 $AC$ 与 $x$ 轴交点 $Q$ 的横坐标为\r\n\n$$\nq=-uw=u^2-1=s-1\n$$\n\r\n由点 $Q$ 在点 $F$ 的右侧，得 $q>1$，所以 $s>2$.\r\n\r\n重心坐标为\r\n\n$$\nG=\\left(\\frac{u^2+v^2+w^2}{3},0\\right)=\\left(\\frac23\\left(s+\\frac1s-1\\right),0\\right)\n$$\n\r\n记其横坐标为 $g$. 直接计算得\r\n$g-1=\\frac{(2s-1)(s-2)}{3s}>0$，$q-g=\\frac{(s-2)(s+1)}{3s}>0$.\r\n又因为 $w<0$，所以\r\n$S_1=\\frac12(g-1)\\cdot2u=u(g-1)$，$S_2=\\frac12(q-g)\\cdot(-2w)=(-w)(q-g)$.\r\n利用 $-w=\\dfrac{s-1}{u}$，得\r\n$\\frac{S_1}{S_2}=\\frac{u(g-1)}{\\dfrac{s-1}{u}(q-g)}=\\frac{s(2s-1)}{(s-1)(s+1)}=:R(s)$，$s>2$.\r\n于是\r\n\n$$\nR'(s)=\\frac{(4s-1)(s^2-1)-2s(2s^2-s)}{(s^2-1)^2}=\\frac{s^2-4s+1}{(s^2-1)^2}\n$$\n\r\n在 $s>2$ 时，导数在 $2<s<2+\\sqrt3$ 上为负，在 $s>2+\\sqrt3$ 上为正，故当 $s=2+\\sqrt3$ 时，$R(s)$ 取得最小值. 由于此时 $s^2-4s+1=0$，有\r\n\n$$\nR(s)=\\frac{s(2s-1)}{s^2-1}=\\frac{s(2s-1)}{2(2s-1)}=\\frac s2=\\frac{2+\\sqrt3}{2}\n$$\n\r\n又 $s=2+\\sqrt3$ 时 $\\dfrac1s=2-\\sqrt3$，所以\r\n\n$$\ng=\\frac23\\left(2+\\sqrt3+2-\\sqrt3-1\\right)=2\n$$\n\r\n故 $\\dfrac{S_1}{S_2}$ 的最小值为 $\\dfrac{2+\\sqrt3}{2}$，此时 $G=(2,0)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>抛物线 $y^{2}=2px$ 的焦点为 $\\left(\\dfrac{p}{2},0\\right)$. 由焦点为 $F(1,0)$，得 $\\dfrac{p}{2}=1$，所以 $p=2$. 因而抛物线方程为 $y^{2}=4x$，其准线方程为</p>\n$$\nx=-\\frac{p}{2}=-1\n$$\n</li><li><p>对抛物线 $y^{2}=4x$，用参数表示其上的点为 $(t^{2},2t)$. 设</p><p>$A=(u^{2},2u)$，$B=(v^{2},2v)$，$C=(w^{2},2w)$.</p><p>过参数为 $u$，$v$ 的两点的弦与 $x$ 轴交点的横坐标为 $-uv$. 因为直线 $AB$ 过 $F(1,0)$，所以 $-uv=1$，即 $uv=-1$. 又因为重心 $G$ 在 $x$ 轴上，所以</p>\n$$\nu+v+w=0\n$$\n<p>按图取 $A$ 在 $x$ 轴上方，故可令 $u>0$. 则 $v=-\\dfrac{1}{u}$，$w=\\dfrac{1}{u}-u$. 令 $s=u^{2}$，则直线 $AC$ 与 $x$ 轴交点 $Q$ 的横坐标为</p>\n$$\nq=-uw=u^{2}-1=s-1\n$$\n<p>由点 $Q$ 在点 $F$ 的右侧，得 $q>1$，所以 $s>2$.</p><p>重心坐标为</p>\n$$\nG=\\left(\\frac{u^{2}+v^{2}+w^{2}}{3},0\\right)=\\left(\\frac{2}{3}\\left(s+\\frac{1}{s}-1\\right),0\\right)\n$$\n<p>记其横坐标为 $g$. 直接计算得</p><p>$g-1=\\frac{(2s-1)(s-2)}{3s}>0$，$q-g=\\frac{(s-2)(s+1)}{3s}>0$.</p><p>又因为 $w&#x3C;0$，所以</p><p>$S_{1}=\\frac{1}{2}(g-1)\\cdot2u=u(g-1)$，$S_{2}=\\frac{1}{2}(q-g)\\cdot(-2w)=(-w)(q-g)$.</p><p>利用 $-w=\\dfrac{s-1}{u}$，得</p><p>$\\frac{S_{1}}{S_{2}}=\\frac{u(g-1)}{\\dfrac{s-1}{u}(q-g)}=\\frac{s(2s-1)}{(s-1)(s+1)}=:R(s)$，$s>2$.</p><p>于是</p>\n$$\nR'(s)=\\frac{(4s-1)(s^{2}-1)-2s(2s^{2}-s)}{(s^{2}-1)^{2}}=\\frac{s^{2}-4s+1}{(s^{2}-1)^{2}}\n$$\n<p>在 $s>2$ 时，导数在 $2&#x3C;s&#x3C;2+\\sqrt{3}$ 上为负，在 $s>2+\\sqrt{3}$ 上为正，故当 $s=2+\\sqrt{3}$ 时，$R(s)$ 取得最小值. 由于此时 $s^{2}-4s+1=0$，有</p>\n$$\nR(s)=\\frac{s(2s-1)}{s^{2}-1}=\\frac{s(2s-1)}{2(2s-1)}=\\frac{s}{2}=\\frac{2+\\sqrt{3}}{2}\n$$\n<p>又 $s=2+\\sqrt{3}$ 时 $\\dfrac{1}{s}=2-\\sqrt{3}$，所以</p>\n$$\ng=\\frac{2}{3}\\left(2+\\sqrt{3}+2-\\sqrt{3}-1\\right)=2\n$$\n<p>故 $\\dfrac{S_1}{S_2}$ 的最小值为 $\\dfrac{2+\\sqrt{3}}{2}$，此时 $G=(2,0)$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知实数 $a\\neq0$，设函数 $f(x)=a\\ln x+\\sqrt{x+1}$，$x>0$.\r\n\r\n\n(1) 当 $a=-\\dfrac34$ 时，求函数 $f(x)$ 的单调区间；\n\n(2) 对任意 $x\\in\\left[\\dfrac{1}{\\mathrm{e}^2},+\\infty\\right)$ 均有 $f(x)\\le\\dfrac{\\sqrt x}{2a}$，求 $a$ 的取值范围.\n\r\n\r\n注：$\\mathrm{e}=2.71828\\ldots$ 为自然对数的底数.",
-          "choices": [],
+          "body": "<p>已知实数 $a\\neq0$，设函数 $f(x)=a\\ln x+\\sqrt{x+1}$，$x>0$.</p><ol class=\"enumerate\"><li><p>当 $a=-\\dfrac{3}{4}$ 时，求函数 $f(x)$ 的单调区间；</p></li><li><p>对任意 $x\\in\\left[\\dfrac{1}{\\mathrm{e}^2},+\\infty\\right)$ 均有 $f(x)\\le\\dfrac{\\sqrt{x}}{2a}$，求 $a$ 的取值范围.</p></li></ol><p>注：$\\mathrm{e}=2.71828\\ldots$ 为自然对数的底数.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $a=-\\dfrac34$ 时，\r\n\n$$\nf'(x)=-\\frac{3}{4x}+\\frac{1}{2\\sqrt{x+1}}=\\frac{2x-3\\sqrt{x+1}}{4x\\sqrt{x+1}}\n$$\n\r\n令 $f'(x)=0$，得 $2x=3\\sqrt{x+1}$. 因为 $x>0$，两边平方得\r\n\n$$\n4x^2=9(x+1)\n$$\n\r\n即 $(4x+3)(x-3)=0$，所以定义域内的唯一驻点为 $x=3$. 由 $f'(1)<0$，$f'(4)>0$，可知函数在 $(0,3)$ 上单调递减，在 $(3,+\\infty)$ 上单调递增.\n\n(2) 先取题设区间内的 $x=1$，得\r\n\n$$\n\\sqrt2=f(1)\\le\\frac{1}{2a}\n$$\n\r\n因此 $a>0$，且 $a\\le\\dfrac{1}{2\\sqrt2}=\\dfrac{\\sqrt2}{4}$.\r\n\r\n下面证明这个范围内的 $a$ 均满足题设不等式. 记\r\n$D_a(x)=\\frac{\\sqrt{x}}{2a}-a\\ln x-\\sqrt{x+1}$，$a_0=\\frac{1}{2\\sqrt2}$.\r\n当 $x\\ge1$ 时，由 $0<a\\le a_0$ 得\r\n\n$$\nD_a(x)\\ge\\sqrt{2x}-\\frac{\\ln x}{2\\sqrt2}-\\sqrt{x+1}=D_{a_0}(x)\n$$\n\r\n并且\r\n\n$$\nD_{a_0}'(x)=\\frac{1}{\\sqrt{2x}}-\\frac{1}{2\\sqrt2x}-\\frac{1}{2\\sqrt{x+1}}\n$$\n\r\n通分后，导数符号等同于判断\r\n\n$$\n2\\sqrt{x(x+1)}-\\sqrt2x-\\sqrt{x+1}\n$$\n\r\n的符号. 记 $P=2x^2+3x-1$. 若 $P\\le0$，则上式平方后左边与右边之差为负；若 $P>0$，则 $x>\\dfrac14$，且\r\n\n$$\nP^2-8x^2(x+1)=(x-1)(4x^3+8x^2+5x-1)\n$$\n\r\n其中多项式 $4x^3+8x^2+5x-1$ 在 $x>\\dfrac14$ 时为正. 因此上式的符号与 $x-1$ 相同，从而 $D_{a_0}'(x)$ 在 $x\\ge1$ 时非负，在 $\\dfrac1{\\mathrm{e}^2}\\le x\\le1$ 时非正. 因而 $D_{a_0}(x)$ 在 $x\\ge1$ 上递增，在 $\\left[\\dfrac1{\\mathrm{e}^2},1\\right]$ 上递减，且 $D_{a_0}(1)=0$，所以在上述两个区间内均有 $D_{a_0}(x)\\ge0$.\r\n\r\n当 $\\dfrac1{\\mathrm{e}^2}\\le x\\le1$ 时，令 $L=-\\ln x$，则 $0\\le L\\le2$，并且\r\n\n$$\nD_a(x)=\\frac{\\sqrt{x}}{2a}+aL-\\sqrt{x+1}\n$$\n\r\n若 $\\dfrac1{\\mathrm{e}^2}\\le x\\le\\dfrac14$，由基本不等式得\r\n\n$$\n\\frac{\\sqrt{x}}{2a}+aL\\ge\\sqrt{2\\sqrt{x}L}\n$$\n\r\n又令 $K(x)=2\\sqrt{x}(-\\ln x)-x-1$，则\r\n\n$$\nK'(x)=\\frac{-\\ln x-2}{\\sqrt{x}}-1<0\n$$\n\r\n在 $\\left[\\dfrac1{\\mathrm{e}^2},1\\right]$ 上成立，所以\r\n\n$$\nK(x)\\ge K\\left(\\frac14\\right)=\\ln4-\\frac54>0\n$$\n\r\n从而 $2\\sqrt{x}L\\ge x+1$，即 $D_a(x)\\ge0$.\r\n\r\n若 $\\dfrac14\\le x\\le1$，则\r\n\n$$\n\\frac{\\partial D_a(x)}{\\partial a}=L-\\frac{\\sqrt{x}}{2a^2}\\le L-4\\sqrt{x}\\le0\n$$\n\r\n这里用到了函数 $\\dfrac{-\\ln x}{\\sqrt{x}}$ 在 $\\left[\\dfrac14,1\\right]$ 上递减，故 $\\dfrac{L}{\\sqrt{x}}\\le2\\ln4<4$，从而 $L<4\\sqrt{x}$. 所以 $D_a(x)\\ge D_{a_0}(x)\\ge0$.\r\n\r\n综上，题设不等式对任意 $x\\in\\left[\\dfrac1{\\mathrm{e}^2},+\\infty\\right)$ 成立的充要条件为\r\n\n$$\na\\in\\left(0,\\frac{\\sqrt2}{4}\\right]\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=-\\dfrac{3}{4}$ 时，</p>\n$$\nf'(x)=-\\frac{3}{4x}+\\frac{1}{2\\sqrt{x+1}}=\\frac{2x-3\\sqrt{x+1}}{4x\\sqrt{x+1}}\n$$\n<p>令 $f'(x)=0$，得 $2x=3\\sqrt{x+1}$. 因为 $x>0$，两边平方得</p>\n$$\n4x^{2}=9(x+1)\n$$\n<p>即 $(4x+3)(x-3)=0$，所以定义域内的唯一驻点为 $x=3$. 由 $f'(1)&#x3C;0$，$f'(4)>0$，可知函数在 $(0,3)$ 上单调递减，在 $(3,+\\infty)$ 上单调递增.</p></li><li><p>先取题设区间内的 $x=1$，得</p>\n$$\n\\sqrt{2}=f(1)\\le\\frac{1}{2a}\n$$\n<p>因此 $a>0$，且 $a\\le\\dfrac{1}{2\\sqrt{2}}=\\dfrac{\\sqrt{2}}{4}$.</p><p>下面证明这个范围内的 $a$ 均满足题设不等式. 记</p><p>$D_{a}(x)=\\frac{\\sqrt{x}}{2a}-a\\ln x-\\sqrt{x+1}$，$a_{0}=\\frac{1}{2\\sqrt{2}}$.</p><p>当 $x\\ge1$ 时，由 $0&#x3C;a\\le a_{0}$ 得</p>\n$$\nD_{a}(x)\\ge\\sqrt{2x}-\\frac{\\ln x}{2\\sqrt{2}}-\\sqrt{x+1}=D_{a_0}(x)\n$$\n<p>并且</p>\n$$\nD_{a_0}'(x)=\\frac{1}{\\sqrt{2x}}-\\frac{1}{2\\sqrt{2}x}-\\frac{1}{2\\sqrt{x+1}}\n$$\n<p>通分后，导数符号等同于判断</p>\n$$\n2\\sqrt{x(x+1)}-\\sqrt{2}x-\\sqrt{x+1}\n$$\n<p>的符号. 记 $P=2x^{2}+3x-1$. 若 $P\\le0$，则上式平方后左边与右边之差为负；若 $P>0$，则 $x>\\dfrac{1}{4}$，且</p>\n$$\nP^{2}-8x^{2}(x+1)=(x-1)(4x^{3}+8x^{2}+5x-1)\n$$\n<p>其中多项式 $4x^{3}+8x^{2}+5x-1$ 在 $x>\\dfrac{1}{4}$ 时为正. 因此上式的符号与 $x-1$ 相同，从而 $D_{a_0}'(x)$ 在 $x\\ge1$ 时非负，在 $\\dfrac1{\\mathrm{e}^2}\\le x\\le1$ 时非正. 因而 $D_{a_0}(x)$ 在 $x\\ge1$ 上递增，在 $\\left[\\dfrac1{\\mathrm{e}^2},1\\right]$ 上递减，且 $D_{a_0}(1)=0$，所以在上述两个区间内均有 $D_{a_0}(x)\\ge0$.</p><p>当 $\\dfrac1{\\mathrm{e}^2}\\le x\\le1$ 时，令 $L=-\\ln x$，则 $0\\le L\\le2$，并且</p>\n$$\nD_{a}(x)=\\frac{\\sqrt{x}}{2a}+aL-\\sqrt{x+1}\n$$\n<p>若 $\\dfrac1{\\mathrm{e}^2}\\le x\\le\\dfrac{1}{4}$，由基本不等式得</p>\n$$\n\\frac{\\sqrt{x}}{2a}+aL\\ge\\sqrt{2\\sqrt{x}L}\n$$\n<p>又令 $K(x)=2\\sqrt{x}(-\\ln x)-x-1$，则</p>\n$$\nK'(x)=\\frac{-\\ln x-2}{\\sqrt{x}}-1&#x3C;0\n$$\n<p>在 $\\left[\\dfrac1{\\mathrm{e}^2},1\\right]$ 上成立，所以</p>\n$$\nK(x)\\ge K\\left(\\frac{1}{4}\\right)=\\ln4-\\frac{5}{4}>0\n$$\n<p>从而 $2\\sqrt{x}L\\ge x+1$，即 $D_{a}(x)\\ge0$.</p><p>若 $\\dfrac{1}{4}\\le x\\le1$，则</p>\n$$\n\\frac{\\partial D_{a}(x)}{\\partial a}=L-\\frac{\\sqrt{x}}{2a^{2}}\\le L-4\\sqrt{x}\\le0\n$$\n<p>这里用到了函数 $\\dfrac{-\\ln x}{\\sqrt{x}}$ 在 $\\left[\\dfrac{1}{4},1\\right]$ 上递减，故 $\\dfrac{L}{\\sqrt{x}}\\le2\\ln4&#x3C;4$，从而 $L&#x3C;4\\sqrt{x}$. 所以 $D_{a}(x)\\ge D_{a_0}(x)\\ge0$.</p><p>综上，题设不等式对任意 $x\\in\\left[\\dfrac1{\\mathrm{e}^2},+\\infty\\right)$ 成立的充要条件为</p>\n$$\na\\in\\left(0,\\frac{\\sqrt{2}}{4}\\right]\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

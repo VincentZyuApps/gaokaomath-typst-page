@@ -1,77 +1,8 @@
 {
+  "title": "1958年普通高等学校招生全国统一考试",
+  "subtitle": "1958年北京卷",
   "year": "1958",
   "slug": "beijing",
-  "title": "1958年北京卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
@@ -79,104 +10,81 @@
         {
           "num": 1,
           "body": "解方程 $x-5=\\sqrt{x+7}$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "因为右边是平方根，所以 $x+7\\geq 0$；又因为右边非负，原方程左边也必须非负，故 $x-5\\geq 0$，即 $x\\geq 5$. 在这个条件下两边平方不改变方程的解集，得 $x^2-10x+25=x+7$，即 $x^2-11x+18=0$. 因式分解得 $\\left( x-2 \\right)\\left( x-9 \\right)=0$，所以候选值为 $x=2$ 或 $x=9$. 逐一代回原方程：$2-5=-3\\neq 3=\\sqrt{9}$，故 $x=2$ 是增根；$9-5=4=\\sqrt{16}$，故 $x=9$ 满足原方程. 所以原方程的解为 $x=9$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "因为右边是平方根，所以 $x+7\\geq 0$；又因为右边非负，原方程左边也必须非负，故 $x-5\\geq 0$，即 $x\\geq 5$. 在这个条件下两边平方不改变方程的解集，得 $x^{2}-10x+25=x+7$，即 $x^{2}-11x+18=0$. 因式分解得 $\\left( x-2 \\right)\\left( x-9 \\right)=0$，所以候选值为 $x=2$ 或 $x=9$. 逐一代回原方程：$2-5=-3\\neq 3=\\sqrt{9}$，故 $x=2$ 是增根；$9-5=4=\\sqrt{16}$，故 $x=9$ 满足原方程. 所以原方程的解为 $x=9$."
         },
         {
           "num": 2,
-          "body": "已知 $\\lg 2=0.3010$，试利用对数性质判定 $2^7\\cdot 8^{11}\\cdot 5^{10}$ 是几位数.",
-          "choices": [],
+          "body": "已知 $\\lg 2=0.3010$，试利用对数性质判定 $2^{7}\\cdot 8^{11}\\cdot 5^{10}$ 是几位数.",
+          "choices": null,
           "answer": "",
-          "solution": "设 $N=2^7\\cdot 8^{11}\\cdot 5^{10}$. 由 $8=2^3$ 及 $5^{10}=\\frac{10^{10}}{2^{10}}$，得 $N=2^7\\cdot 2^{33}\\cdot \\frac{10^{10}}{2^{10}}=2^{30}\\cdot 10^{10}$. 因而\r\n\n$$\n\\lg N=30\\lg 2+10=30\\times 0.3010+10=19.030\n$$\n\r\n于是 $10^{19}<N<10^{20}$. 正整数的位数等于其常用对数的整数部分加 $1$，所以 $N$ 是 $20$ 位数.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $N=2^{7}\\cdot 8^{11}\\cdot 5^{10}$. 由 $8=2^{3}$ 及 $5^{10}=\\frac{10^{10}}{2^{10}}$，得 $N=2^{7}\\cdot 2^{33}\\cdot \\frac{10^{10}}{2^{10}}=2^{30}\\cdot 10^{10}$. 因而</p>\n$$\n\\lg N=30\\lg 2+10=30\\times 0.3010+10=19.030\n$$\n<p>于是 $10^{19}&#x3C;N&#x3C;10^{20}$. 正整数的位数等于其常用对数的整数部分加 $1$，所以 $N$ 是 $20$ 位数.</p>"
         },
         {
           "num": 3,
           "body": "由 $50$ 个不同的元素中选 $47$ 个，问有多少种选法？",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "从 $50$ 个元素中选出 $47$ 个，等价于从中选出未被选取的 $3$ 个元素，因此选法数为\r\n\n$$\n\\mathrm C_{50}^{47}=\\mathrm C_{50}^{3}=\\frac{50\\times 49\\times 48}{3\\times 2\\times 1}=19600\n$$\n\r\n所以共有 $19600$ 种选法.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>从 $50$ 个元素中选出 $47$ 个，等价于从中选出未被选取的 $3$ 个元素，因此选法数为</p>\n$$\n\\mathrm{C}_{50}^{47}=\\mathrm{C}_{50}^{3}=\\frac{50\\times 49\\times 48}{3\\times 2\\times 1}=19600\n$$\n<p>所以共有 $19600$ 种选法.</p>"
         },
         {
           "num": 4,
-          "body": "求 $\\tan\\left( \\arctan \\frac{5}{6}-\\arctan \\frac{3}{8} \\right)$ 之值.",
-          "choices": [],
+          "body": "求 $\\tan\\left( \\arctan \\frac{5}{6}-\\arctan \\frac{3}{8}\\right)$ 之值.",
+          "choices": null,
           "answer": "",
-          "solution": "令 $\\alpha=\\arctan\\frac{5}{6}$，$\\beta=\\arctan\\frac{3}{8}$，则 $\\tan\\alpha=\\frac{5}{6}$，$\\tan\\beta=\\frac{3}{8}$. 由正切的差角公式，且 $1+\\tan\\alpha\\tan\\beta=1+\\frac{5}{6}\\cdot\\frac{3}{8}\\neq 0$，有\r\n\n$$\n\\tan\\left(\\alpha-\\beta\\right)=\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}=\\frac{\\frac{5}{6}-\\frac{3}{8}}{1+\\frac{5}{6}\\cdot\\frac{3}{8}}=\\frac{\\frac{11}{24}}{\\frac{63}{48}}=\\frac{22}{63}\n$$\n\r\n所以 $\\tan\\left( \\arctan \\frac{5}{6}-\\arctan \\frac{3}{8} \\right)=\\frac{22}{63}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>令 $\\alpha=\\arctan\\frac{5}{6}$，$\\beta=\\arctan\\frac{3}{8}$，则 $\\tan\\alpha=\\frac{5}{6}$，$\\tan\\beta=\\frac{3}{8}$. 由正切的差角公式，且 $1+\\tan\\alpha\\tan\\beta=1+\\frac{5}{6}\\cdot\\frac{3}{8}\\neq 0$，有</p>\n$$\n\\tan\\left(\\alpha-\\beta\\right)=\\frac{\\tan\\alpha-\\tan\\beta}{1+\\tan\\alpha\\tan\\beta}=\\frac{\\frac{5}{6}-\\frac{3}{8}}{1+\\frac{5}{6}\\cdot\\frac{3}{8}}=\\frac{\\frac{11}{24}}{\\frac{63}{48}}=\\frac{22}{63}\n$$\n<p>所以 $\\tan\\left( \\arctan \\frac{5}{6}-\\arctan \\frac{3}{8}\\right)=\\frac{22}{63}$.</p>"
         },
         {
           "num": 5,
-          "body": "在 $\\triangle ABC$ 中，已知 $\\angle A=135^\\circ$，$\\angle B=15^\\circ$，$c=1$，问三角形的最大边长是多少？",
-          "choices": [],
+          "body": "在 $\\triangle ABC$ 中，已知 $\\angle A=135^{\\circ}$，$\\angle B=15^{\\circ}$，$c=1$，问三角形的最大边长是多少？",
+          "choices": null,
           "answer": "",
-          "solution": "三角形内角和为 $180^\\circ$，所以 $\\angle C=180^\\circ-135^\\circ-15^\\circ=30^\\circ$. 因为 $\\angle A=135^\\circ$ 最大，所以其对边 $BC$ 是三角形的最大边. 题中 $c=AB=1$，而 $AB$ 是 $\\angle C$ 的对边，由正弦定理得 $\\frac{BC}{\\sin135^\\circ}=\\frac{AB}{\\sin30^\\circ}=\\frac{1}{\\sin30^\\circ}$，因此 $BC=\\frac{\\sin135^\\circ}{\\sin30^\\circ}=\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{1}{2}}=\\sqrt{2}$. 所以三角形的最大边长为 $\\sqrt{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "三角形内角和为 $180^{\\circ}$，所以 $\\angle C=180^{\\circ}-135^{\\circ}-15^{\\circ}=30^{\\circ}$. 因为 $\\angle A=135^{\\circ}$ 最大，所以其对边 $BC$ 是三角形的最大边. 题中 $c=AB=1$，而 $AB$ 是 $\\angle C$ 的对边，由正弦定理得 $\\frac{BC}{\\sin135^{\\circ}}=\\frac{AB}{\\sin30^{\\circ}}=\\frac{1}{\\sin30^{\\circ}}$，因此 $BC=\\frac{\\sin135^{\\circ}}{\\sin30^{\\circ}}=\\frac{\\frac{\\sqrt{2}}{2}}{\\frac{1}{2}}=\\sqrt{2}$. 所以三角形的最大边长为 $\\sqrt{2}$."
         },
         {
           "num": 6,
           "body": "过球面上的两个不同点能作几个大圆？为什么？",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设球心为 $O$，两点为 $P$，$Q$. 若直线 $PQ$ 不经过 $O$，则不共线的三点 $O$，$P$，$Q$ 唯一确定一个平面，该平面与球面的交线是一个以 $O$ 为圆心、以球半径为半径的大圆，因此只能作一个大圆. 若 $P$，$Q$ 是一对对径点，则 $O$ 在线段 $PQ$ 上，过直线 $PQ$ 可以作无数个不同的平面；每个这样的平面都与球面交出一个大圆，因此能作无数个大圆.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "设球心为 $O$，两点为 $P$，$Q$. 若直线 $PQ$ 不经过 $O$，则不共线的三点 $O$，$P$，$Q$ 唯一确定一个平面，该平面与球面的交线是一个以 $O$ 为圆心、以球半径为半径的大圆，因此只能作一个大圆. 若 $P$，$Q$ 是一对对径点，则 $O$ 在线段 $PQ$ 上，过直线 $PQ$ 可以作无数个不同的平面；每个这样的平面都与球面交出一个大圆，因此能作无数个大圆."
         },
         {
           "num": 7,
-          "body": "自 $30^\\circ$ 的二面角的一个面上一点 $A$ 作另一个面的垂线，垂足是 $B$，若已知 $AB$ 的长是 $a$，求 $A$ 点到二面角的棱的距离.",
-          "choices": [],
+          "body": "自 $30^{\\circ}$ 的二面角的一个面上一点 $A$ 作另一个面的垂线，垂足是 $B$，若已知 $AB$ 的长是 $a$，求 $A$ 点到二面角的棱的距离.",
+          "choices": null,
           "answer": "",
-          "solution": "设二面角的棱为 $MN$. 在另一个面内过 $B$ 作 $BC\\perp MN$，垂足为 $C$，连接 $AC$. 因为 $AB\\perp$ 另一个面，且 $BC$ 是 $AC$ 在该面上的射影，所以由三垂线定理的逆定理，得 $AC\\perp MN$. 因而 $\\angle ACB$ 是二面角的平面角，故 $\\angle ACB=30^\\circ$. 又因为 $AB\\perp$ 另一个面，故 $AB\\perp BC$，从而 $\\triangle ABC$ 是以 $AC$ 为斜边的直角三角形.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/beijing/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n在直角三角形 $ABC$ 中，$AB$ 是 $30^\\circ$ 角的对边，所以 $AB=AC\\sin30^\\circ=A\\frac{C}{2}$. 代入 $AB=a$，得 $AC=2a$. 由于 $AC$ 垂直于二面角的棱，且经过点 $A$，它就是点 $A$ 到棱 $MN$ 的距离. 所以所求距离为 $2a$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设二面角的棱为 $MN$. 在另一个面内过 $B$ 作 $BC\\perp MN$，垂足为 $C$，连接 $AC$. 因为 $AB\\perp$ 另一个面，且 $BC$ 是 $AC$ 在该面上的射影，所以由三垂线定理的逆定理，得 $AC\\perp MN$. 因而 $\\angle ACB$ 是二面角的平面角，故 $\\angle ACB=30^{\\circ}$. 又因为 $AB\\perp$ 另一个面，故 $AB\\perp BC$，从而 $\\triangle ABC$ 是以 $AC$ 为斜边的直角三角形.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q7_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>在直角三角形 $ABC$ 中，$AB$ 是 $30^{\\circ}$ 角的对边，所以 $AB=AC\\sin30^{\\circ}=A\\frac{C}{2}$. 代入 $AB=a$，得 $AC=2a$. 由于 $AC$ 垂直于二面角的棱，且经过点 $A$，它就是点 $A$ 到棱 $MN$ 的距离. 所以所求距离为 $2a$.</p>"
         },
         {
           "num": 8,
-          "body": "已知二次函数 $y=3+2x-x^2$.\r\n\r\n\n(1) 问 $x$ 在什么范围内 $y>0$？又 $x$ 在什么范围内 $y<0$？\n\n(2) 求出这个函数图象的顶点坐标和对称轴方程；\n\n(3) 画出这个函数的图象.",
-          "choices": [],
+          "body": "<p>已知二次函数 $y=3+2x-x^{2}$.</p><ol class=\"enumerate\"><li><p>问 $x$ 在什么范围内 $y>0$？又 $x$ 在什么范围内 $y&#x3C;0$？</p></li><li><p>求出这个函数图象的顶点坐标和对称轴方程；</p></li><li><p>画出这个函数的图象.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $y>0$ 时，$3+2x-x^2>0$，即 $x^2-2x-3<0$. 因式分解得 $\\left( x+1 \\right)\\left( x-3 \\right)<0$，所以 $-1<x<3$. 当 $y<0$ 时，$3+2x-x^2<0$，即 $\\left( x+1 \\right)\\left( x-3 \\right)>0$，所以 $x<-1$ 或 $x>3$. 因此，$y>0$ 的范围为 $\\left( -1,3 \\right)$，$y<0$ 的范围为 $\\left( -\\infty,-1 \\right)\\cup\\left( 3,+\\infty \\right)$.\n\n(2) 配方得 $y=3+2x-x^2=-\\left( x-1 \\right)^2+4$. 因为 $\\left( x-1 \\right)^2\\geq 0$，所以抛物线的最高点在 $x=1$ 时取得，顶点坐标为 $(1,4)$，对称轴方程为 $x=1$.\n\n(3) 该抛物线开口向下，与 $x$ 轴交于 $(-1,0)$，$(3,0)$，与 $y$ 轴交于 $(0,3)$，顶点为 $(1,4)$，对称轴为 $x=1$. 根据这些点和开口方向即可画出函数图象.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/beijing/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $y>0$ 时，$3+2x-x^{2}>0$，即 $x^{2}-2x-3&#x3C;0$. 因式分解得 $\\left( x+1 \\right)\\left( x-3 \\right)&#x3C;0$，所以 $-1&#x3C;x&#x3C;3$. 当 $y&#x3C;0$ 时，$3+2x-x^{2}&#x3C;0$，即 $\\left( x+1 \\right)\\left( x-3 \\right)>0$，所以 $x&#x3C;-1$ 或 $x>3$. 因此，$y>0$ 的范围为 $\\left( -1,3 \\right)$，$y&#x3C;0$ 的范围为 $\\left( -\\infty,-1 \\right)\\cup\\left( 3,+\\infty \\right)$.</p></li><li><p>配方得 $y=3+2x-x^{2}=-\\left( x-1 \\right)^{2}+4$. 因为 $\\left( x-1 \\right)^{2}\\geq 0$，所以抛物线的最高点在 $x=1$ 时取得，顶点坐标为 $(1,4)$，对称轴方程为 $x=1$.</p></li><li><p>该抛物线开口向下，与 $x$ 轴交于 $(-1,0)$，$(3,0)$，与 $y$ 轴交于 $(0,3)$，顶点为 $(1,4)$，对称轴为 $x=1$. 根据这些点和开口方向即可画出函数图象.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 9,
-          "body": "设 $\\sin\\alpha$ 和 $\\sin\\beta$ 是方程 $x^2-\\left( \\sqrt{2}\\cos20^\\circ \\right)x+\\left( \\cos^2 20^\\circ-\\frac{1}{2} \\right)=0$ 的两根，其中 $\\alpha$，$\\beta$ 是锐角，求 $\\alpha$，$\\beta$ 的度数.",
-          "choices": [],
+          "body": "设 $\\sin\\alpha$ 和 $\\sin\\beta$ 是方程 $x^{2}-\\left( \\sqrt{2}\\cos20^{\\circ} \\right)x+\\left( \\cos^{2} 20^{\\circ}-\\frac{1}{2}\\right)=0$ 的两根，其中 $\\alpha$，$\\beta$ 是锐角，求 $\\alpha$，$\\beta$ 的度数.",
+          "choices": null,
           "answer": "",
-          "solution": "方程的判别式为 $\\Delta=2\\cos^2 20^\\circ-4\\left( \\cos^2 20^\\circ-\\frac{1}{2} \\right)=2\\sin^2 20^\\circ$. 因为 $20^\\circ$ 为锐角，所以 $\\sqrt{\\Delta}=\\sqrt{2}\\sin20^\\circ$. 由求根公式，方程的两个根为\r\n\n$$\nx=\\frac{\\sqrt{2}\\cos20^\\circ\\pm\\sqrt{2\\cos^2 20^\\circ-4\\cos^2 20^\\circ+2}}{2}=\\frac{\\sqrt{2}}{2}\\left(\\cos20^\\circ\\pm\\sin20^\\circ\\right)\n$$\n\r\n利用 $\\cos20^\\circ=\\sin70^\\circ$，可将两根写成\r\n\n$$\nx=\\frac{\\sqrt{2}}{2}\\left(\\sin70^\\circ\\pm\\sin20^\\circ\\right)\n$$\n\r\n取正号时，由和差化积公式，\r\n\n$$\n\\frac{\\sqrt{2}}{2}\\left(\\sin70^\\circ+\\sin20^\\circ\\right)=\\frac{\\sqrt{2}}{2}\\cdot 2\\sin45^\\circ\\cos25^\\circ=\\cos25^\\circ=\\sin65^\\circ\n$$\n\r\n取负号时，\r\n\n$$\n\\frac{\\sqrt{2}}{2}\\left(\\sin70^\\circ-\\sin20^\\circ\\right)=\\frac{\\sqrt{2}}{2}\\cdot 2\\cos45^\\circ\\sin25^\\circ=\\sin25^\\circ\n$$\n\r\n所以 $\\{\\sin\\alpha,\\sin\\beta\\}=\\{\\sin65^\\circ,\\sin25^\\circ\\}$. 因为 $\\alpha$，$\\beta$ 都是锐角，而正弦函数在 $(0^\\circ,90^\\circ)$ 上单调递增，故 $\\{\\alpha,\\beta\\}=\\{65^\\circ,25^\\circ\\}$. 即 $\\alpha$，$\\beta$ 的度数分别为 $65^\\circ$，$25^\\circ$，次序不定.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>方程的判别式为 $\\Delta=2\\cos^{2} 20^{\\circ}-4\\left( \\cos^{2} 20^{\\circ}-\\frac{1}{2}\\right)=2\\sin^{2} 20^{\\circ}$. 因为 $20^{\\circ}$ 为锐角，所以 $\\sqrt{\\Delta}=\\sqrt{2}\\sin20^{\\circ}$. 由求根公式，方程的两个根为</p>\n$$\nx=\\frac{\\sqrt{2}\\cos20^{\\circ}\\pm\\sqrt{2\\cos^2 20^\\circ-4\\cos^2 20^\\circ+2}}{2}=\\frac{\\sqrt{2}}{2}\\left(\\cos20^{\\circ}\\pm\\sin20^{\\circ}\\right)\n$$\n<p>利用 $\\cos20^{\\circ}=\\sin70^{\\circ}$，可将两根写成</p>\n$$\nx=\\frac{\\sqrt{2}}{2}\\left(\\sin70^{\\circ}\\pm\\sin20^{\\circ}\\right)\n$$\n<p>取正号时，由和差化积公式，</p>\n$$\n\\frac{\\sqrt{2}}{2}\\left(\\sin70^{\\circ}+\\sin20^{\\circ}\\right)=\\frac{\\sqrt{2}}{2}\\cdot 2\\sin45^{\\circ}\\cos25^{\\circ}=\\cos25^{\\circ}=\\sin65^{\\circ}\n$$\n<p>取负号时，</p>\n$$\n\\frac{\\sqrt{2}}{2}\\left(\\sin70^{\\circ}-\\sin20^{\\circ}\\right)=\\frac{\\sqrt{2}}{2}\\cdot 2\\cos45^{\\circ}\\sin25^{\\circ}=\\sin25^{\\circ}\n$$\n<p>所以 $\\{\\sin\\alpha,\\sin\\beta\\}=\\{\\sin65^{\\circ},\\sin25^{\\circ}\\}$. 因为 $\\alpha$，$\\beta$ 都是锐角，而正弦函数在 $(0^{\\circ},90^{\\circ})$ 上单调递增，故 $\\{\\alpha,\\beta\\}=\\{65^{\\circ},25^{\\circ}\\}$. 即 $\\alpha$，$\\beta$ 的度数分别为 $65^{\\circ}$，$25^{\\circ}$，次序不定.</p>"
         },
         {
           "num": 10,
           "body": "有甲，乙两容器，甲容器是直圆柱形，高 $2\\text{ 寸}$，底半径 $1\\text{ 寸}$，乙容器是直圆锥形（锥底向上），高 $2\\text{ 寸}$，底面半径 $2\\sqrt{3}\\text{ 寸}$，若将甲容器灌满水，然后把甲容器的一部分水倒入乙容器，使得甲乙两个容器的水面一样高，问这时水面的高度是多少？",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "设两容器共同的水面高度为 $h\\text{ 寸}$，且设乙容器中水面处的半径为 $R\\text{ 寸}$. 由于乙容器是锥底向上，水面处的截面与底面相似，所以\r\n$\\frac{R}{2\\sqrt{3}}=\\frac{h}{2}$，从而 $R=\\sqrt{3}h$. 甲容器中剩余水的体积为圆柱体积 $V_1=\\pi\\cdot 1^2\\cdot h=\\pi h$，乙容器中水的体积为以水面为底的圆锥体积\r\n\n$$\nV_2=\\frac{1}{3}\\pi R^2h=\\frac{1}{3}\\pi\\left(\\sqrt{3}h\\right)^2h=\\pi h^3\n$$\n\r\n甲容器原来装满水，水的总体积为 $2\\pi$，所以体积守恒给出 $\\pi h+\\pi h^3=2\\pi$，即 $h^3+h-2=0$. 因为 $h=1$ 是该方程的根，且\r\n\n$$\nh^3+h-2=\\left( h-1 \\right)\\left( h^2+h+2 \\right)\n$$\n\r\n而 $h^2+h+2=\\left( h+\\frac{1}{2} \\right)^2+\\frac{7}{4}>0$，所以方程只有实根 $h=1$. 该值满足 $0<h<2$，符合容器高度限制. 因此水面的高度为 $1\\text{ 寸}$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/beijing/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设两容器共同的水面高度为 $h\\text{ 寸}$，且设乙容器中水面处的半径为 $R\\text{ 寸}$. 由于乙容器是锥底向上，水面处的截面与底面相似，所以</p><p>$\\frac{R}{2\\sqrt{3}}=\\frac{h}{2}$，从而 $R=\\sqrt{3}h$. 甲容器中剩余水的体积为圆柱体积 $V_{1}=\\pi\\cdot 1^{2}\\cdot h=\\pi h$，乙容器中水的体积为以水面为底的圆锥体积</p>\n$$\nV_{2}=\\frac{1}{3}\\pi R^{2}h=\\frac{1}{3}\\pi\\left(\\sqrt{3}h\\right)^{2}h=\\pi h^{3}\n$$\n<p>甲容器原来装满水，水的总体积为 $2\\pi$，所以体积守恒给出 $\\pi h+\\pi h^{3}=2\\pi$，即 $h^{3}+h-2=0$. 因为 $h=1$ 是该方程的根，且</p>\n$$\nh^{3}+h-2=\\left( h-1 \\right)\\left( h^{2}+h+2 \\right)\n$$\n<p>而 $h^{2}+h+2=\\left( h+\\frac{1}{2}\\right)^{2}+\\frac{7}{4}>0$，所以方程只有实根 $h=1$. 该值满足 $0&#x3C;h&#x3C;2$，符合容器高度限制. 因此水面的高度为 $1\\text{ 寸}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q10_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>"
         },
         {
           "num": 11,
-          "body": "已知 $\\widehat{AB}$ 是 $\\odot O$ 上含 $120^\\circ$ 的弧，过 $A$，$B$ 两点所引 $\\odot O$ 的切线交于 $C$，$\\odot M$ 是与 $\\widehat{AB}$，$AC$，$BC$ 都相切的圆，求证 $\\odot M$ 的周长等于 $\\odot O$ 的周长的 $\\frac{1}{3}$.",
-          "choices": [],
+          "body": "已知 $\\widehat{AB}$ 是 $\\odot O$ 上含 $120^{\\circ}$ 的弧，过 $A$，$B$ 两点所引 $\\odot O$ 的切线交于 $C$，$\\odot M$ 是与 $\\widehat{AB}$，$AC$，$BC$ 都相切的圆，求证 $\\odot M$ 的周长等于 $\\odot O$ 的周长的 $\\frac{1}{3}$.",
+          "choices": null,
           "answer": "",
-          "solution": "设 $\\odot O$ 的半径为 $R$，$\\odot M$ 的半径为 $r$，并设 $\\odot M$ 与 $AC$ 相切于 $N$. 由于 $CA$、$CB$ 是从点 $C$ 引出的切线，故 $CA=CB$；又 $OA=OB$，所以直角三角形 $OAC$ 与 $OBC$ 全等，直线 $OC$ 同时平分 $\\angle AOB$ 和 $\\angle ACB$. 因为弧 $\\widehat{AB}$ 含 $120^\\circ$，所以 $\\angle AOC=60^\\circ$. 又 $OA\\perp AC$，故 $\\triangle AOC$ 是直角三角形，$\\angle ACO=30^\\circ$，从而 $OC=2R$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1958/img/beijing/q11_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n由于 $\\odot M$ 同时与 $AC$、$BC$ 相切，圆心 $M$ 在 $\\angle ACB$ 的平分线上；因此 $C$、$O$、$M$ 共线. 小圆位于 $C$ 与大圆之间并与 $\\odot O$ 外切，所以两圆心及切点共线，且 $OM=R+r$，从而 $CM=CO-OM=2R-(R+r)=R-r$. 由于 $MN\\perp AC$，而 $OA\\perp AC$，有 $MN\\parallel OA$. 于是 $\\angle CNM=\\angle CAO=90^\\circ$，且 $\\angle NCM=\\angle ACO$，所以 $\\triangle CNM\\sim\\triangle AOC$. 对应边给出\r\n\n$$\n\\frac{r}{R}=\\frac{MN}{OA}=\\frac{CM}{CO}=\\frac{R-r}{2R}\n$$\n\r\n解得 $2r=R-r$，即 $r=\\frac{R}{3}$. 若记两圆周长分别为 $L_M$，$L_O$，则\r\n\n$$\nL_M=2\\pi r=2\\pi\\cdot\\frac{R}{3}=\\frac{2\\pi R}{3}=\\frac{L_O}{3}\n$$\n\r\n所以 $\\odot M$ 的周长等于 $\\odot O$ 的周长的 $\\frac{1}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $\\odot O$ 的半径为 $R$，$\\odot M$ 的半径为 $r$，并设 $\\odot M$ 与 $AC$ 相切于 $N$. 由于 $CA$、$CB$ 是从点 $C$ 引出的切线，故 $CA=CB$；又 $OA=OB$，所以直角三角形 $OAC$ 与 $OBC$ 全等，直线 $OC$ 同时平分 $\\angle AOB$ 和 $\\angle ACB$. 因为弧 $\\widehat{AB}$ 含 $120^{\\circ}$，所以 $\\angle AOC=60^{\\circ}$. 又 $OA\\perp AC$，故 $\\triangle AOC$ 是直角三角形，$\\angle ACO=30^{\\circ}$，从而 $OC=2R$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/beijing/q11_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由于 $\\odot M$ 同时与 $AC$、$BC$ 相切，圆心 $M$ 在 $\\angle ACB$ 的平分线上；因此 $C$、$O$、$M$ 共线. 小圆位于 $C$ 与大圆之间并与 $\\odot O$ 外切，所以两圆心及切点共线，且 $OM=R+r$，从而 $CM=CO-OM=2R-(R+r)=R-r$. 由于 $MN\\perp AC$，而 $OA\\perp AC$，有 $MN\\parallel OA$. 于是 $\\angle CNM=\\angle CAO=90^{\\circ}$，且 $\\angle NCM=\\angle ACO$，所以 $\\triangle CNM\\sim\\triangle AOC$. 对应边给出</p>\n$$\n\\frac{r}{R}=\\frac{MN}{OA}=\\frac{CM}{CO}=\\frac{R-r}{2R}\n$$\n<p>解得 $2r=R-r$，即 $r=\\frac{R}{3}$. 若记两圆周长分别为 $L_{M}$，$L_{O}$，则</p>\n$$\nL_{M}=2\\pi r=2\\pi\\cdot\\frac{R}{3}=\\frac{2\\pi R}{3}=\\frac{L_{O}}{3}\n$$\n<p>所以 $\\odot M$ 的周长等于 $\\odot O$ 的周长的 $\\frac{1}{3}$.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

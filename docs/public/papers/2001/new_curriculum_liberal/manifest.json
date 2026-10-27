@@ -1,156 +1,15 @@
 {
+  "title": "2001年普通高等学校招生全国统一考试",
+  "subtitle": "2001年新课标卷（文）",
   "year": "2001",
   "slug": "new_curriculum_liberal",
-  "title": "2001年新课标卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": false
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "选做题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "选做题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选做题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选做题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设 $A = \\{x \\mid x^2 - x = 0\\}$，$B = \\{x \\mid x^2 + x = 0\\}$，则 $A \\cap B$ 等于（ ）",
+          "body": "设 $A = \\{x \\mid x^{2} - x = 0\\}$，$B = \\{x \\mid x^{2} + x = 0\\}$，则 $A \\cap B$ 等于（ ）",
           "choices": [
             "$0$",
             "$\\{0\\}$",
@@ -158,13 +17,11 @@
             "$\\{-1,0,1\\}$"
           ],
           "answer": "B",
-          "solution": "由 $x^2-x=x(x-1)$，得 $A=\\{0,1\\}$；由 $x^2+x=x(x+1)$，得 $B=\\{-1,0\\}$. 因此 $A\\cap B=\\{0\\}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $x^{2}-x=x(x-1)$，得 $A=\\{0,1\\}$；由 $x^{2}+x=x(x+1)$，得 $B=\\{-1,0\\}$. 因此 $A\\cap B=\\{0\\}$，故选 B."
         },
         {
           "num": 2,
-          "body": "若 $S_n$ 是数列 $\\{a_n\\}$ 的前 $n$ 项和，且 $S_n = n^2$，则 $\\{a_n\\}$ 是（ ）",
+          "body": "若 $S_{n}$ 是数列 $\\{a_{n}\\}$ 的前 $n$ 项和，且 $S_{n} = n^{2}$，则 $\\{a_{n}\\}$ 是（ ）",
           "choices": [
             "等比数列，但不是等差数列",
             "等差数列，但不是等比数列",
@@ -172,27 +29,23 @@
             "既非等比数列又非等差数列"
           ],
           "answer": "B",
-          "solution": "由 $a_1=S_1=1$，以及 $a_n=S_n-S_{n-1}$（$n\\geq2$），得\r\n$a_n=n^2-(n-1)^2=2n-1$（$n\\geq2$）. 这个式子对 $n=1$ 也成立，所以 $a_n=2n-1$. 因而 $a_{n+1}-a_n=2$，数列是等差数列. 若它还是等比数列，则前三项应满足 $a_2^2=a_1a_3$，但 $a_2^2=9\\neq5=a_1a_3$，故不是等比数列，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $a_{1}=S_{1}=1$，以及 $a_{n}=S_{n}-S_{n-1}$（$n\\geq2$），得</p><p>$a_{n}=n^{2}-(n-1)^{2}=2n-1$（$n\\geq2$）. 这个式子对 $n=1$ 也成立，所以 $a_{n}=2n-1$. 因而 $a_{n+1}-a_{n}=2$，数列是等差数列. 若它还是等比数列，则前三项应满足 $a_{2}^{2}=a_{1}a_{3}$，但 $a_{2}^{2}=9\\neq5=a_{1}a_{3}$，故不是等比数列，选 B.</p>"
         },
         {
           "num": 3,
-          "body": "过点 $A(1,-1)$，$B(-1,1)$ 且圆心在直线 $x + y - 2 = 0$ 上的圆的方程是（ ）",
+          "body": "过点 $A(1,-1)$，$B(-1,1)$ 且圆心在直线 $x + y - 2 = 0$ 上的圆的方程是（ ）",
           "choices": [
-            "$(x - 3)^2 + (y + 1)^2 = 4$",
-            "$(x + 3)^2 + (y - 1)^2 = 4$",
-            "$(x - 1)^2 + (y - 1)^2 = 4$",
-            "$(x + 1)^2 + (y + 1)^2 = 4$"
+            "$(x - 3)^{2} + (y + 1)^{2} = 4$",
+            "$(x + 3)^{2} + (y - 1)^{2} = 4$",
+            "$(x - 1)^{2} + (y - 1)^{2} = 4$",
+            "$(x + 1)^{2} + (y + 1)^{2} = 4$"
           ],
           "answer": "C",
-          "solution": "线段 $AB$ 的中点为 $M(0,0)$，直线 $AB$ 的斜率为 $-1$，所以其垂直平分线为 $y=x$. 圆心既在 $y=x$ 上，又在 $x+y-2=0$ 上，解得圆心为 $C(1,1)$. 半径平方为\r\n$CA^2=(1-1)^2+(1+1)^2=4$. 因此圆的方程为 $(x-1)^2+(y-1)^2=4$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>线段 $AB$ 的中点为 $M(0,0)$，直线 $AB$ 的斜率为 $-1$，所以其垂直平分线为 $y=x$. 圆心既在 $y=x$ 上，又在 $x+y-2=0$ 上，解得圆心为 $C(1,1)$. 半径平方为</p><p>$CA^{2}=(1-1)^{2}+(1+1)^{2}=4$. 因此圆的方程为 $(x-1)^{2}+(y-1)^{2}=4$，选 C.</p>"
         },
         {
           "num": 4,
-          "body": "若定义在区间 $(-1,0)$ 内的函数 $f(x)=\\log_{2a}(x+1)$ 满足 $f(x)>0$，则 $a$ 的取值范围是（ ）",
+          "body": "若定义在区间 $(-1,0)$ 内的函数 $f(x)=\\log_{2a}(x+1)$ 满足 $f(x)>0$，则 $a$ 的取值范围是（ ）",
           "choices": [
             "$\\left(0, \\frac{1}{2}\\right)$",
             "$\\left(0, \\frac{1}{2}\\right]$",
@@ -200,13 +53,11 @@
             "$(0, +\\infty)$"
           ],
           "answer": "A",
-          "solution": "当 $-1<x<0$ 时，$0<x+1<1$. 对任意 $t\\in(0,1)$，有 $\\log_c t>0$ 当且仅当 $0<c<1$. 因此必须有 $0<2a<1$，即 $0<a<\\frac12$. 这也保证对数的底数满足 $2a>0$ 且 $2a\\neq1$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "当 $-1&#x3C;x&#x3C;0$ 时，$0&#x3C;x+1&#x3C;1$. 对任意 $t\\in(0,1)$，有 $\\log_{c} t>0$ 当且仅当 $0&#x3C;c&#x3C;1$. 因此必须有 $0&#x3C;2a&#x3C;1$，即 $0&#x3C;a&#x3C;\\frac{1}{2}$. 这也保证对数的底数满足 $2a>0$ 且 $2a\\neq1$，故选 A."
         },
         {
           "num": 5,
-          "body": "若向量 $\\mathbf{a}=(3,2)$，$\\mathbf{b}=(0,-1)$，则向量 $2\\mathbf{b}-\\mathbf{a}$ 的坐标是（ ）",
+          "body": "若向量 $\\mathbf{a}=(3,2)$，$\\mathbf{b}=(0,-1)$，则向量 $2\\mathbf{b}-\\mathbf{a}$ 的坐标是（ ）",
           "choices": [
             "$(3,-4)$",
             "$(-3,4)$",
@@ -214,13 +65,11 @@
             "$(-3,-4)$"
           ],
           "answer": "D",
-          "solution": "$2\\mathbf{b}=(0,-2)$，所以\r\n$2\\mathbf{b}-\\mathbf{a}=(0,-2)-(3,2)=(-3,-4)$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>$2\\mathbf{b}=(0,-2)$，所以</p><p>$2\\mathbf{b}-\\mathbf{a}=(0,-2)-(3,2)=(-3,-4)$. 故选 D.</p>"
         },
         {
           "num": 6,
-          "body": "设 $A$，$B$ 是 $x$ 轴上的两点，点 $P$ 的横坐标为 $2$ 且 $\\left|PA\\right|=\\left|PB\\right|$. 若直线 $PA$ 的方程为 $x-y+1=0$，则直线 $PB$ 的方程是（ ）",
+          "body": "设 $A$，$B$ 是 $x$ 轴上的两点，点 $P$ 的横坐标为 $2$ 且 $\\left|PA\\right|=\\left|PB\\right|$. 若直线 $PA$ 的方程为 $x-y+1=0$，则直线 $PB$ 的方程是（ ）",
           "choices": [
             "$x + y - 5 = 0$",
             "$2x - y - 1 = 0$",
@@ -228,27 +77,23 @@
             "$2x + y - 7 = 0$"
           ],
           "answer": "A",
-          "solution": "由 $P$ 的横坐标为 $2$ 且 $P$ 在直线 $x-y+1=0$ 上，得 $P=(2,3)$. 直线 $PA$ 与 $x$ 轴交于 $A=(-1,0)$，从而\r\n$PA^2=(2+1)^2+3^2=18$. 设 $B=(t,0)$，由 $PB=PA$ 得\r\n$(t-2)^2+3^2=18$，即 $(t-2)^2=9$，所以 $t=-1$ 或 $t=5$. 因为 $A$、$B$ 是两点，故 $B=(5,0)$. 过 $P(2,3)$、$B(5,0)$ 的直线为 $x+y-5=0$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $P$ 的横坐标为 $2$ 且 $P$ 在直线 $x-y+1=0$ 上，得 $P=(2,3)$. 直线 $PA$ 与 $x$ 轴交于 $A=(-1,0)$，从而</p><p>$PA^{2}=(2+1)^{2}+3^{2}=18$. 设 $B=(t,0)$，由 $PB=PA$ 得</p><p>$(t-2)^{2}+3^{2}=18$，即 $(t-2)^{2}=9$，所以 $t=-1$ 或 $t=5$. 因为 $A$、$B$ 是两点，故 $B=(5,0)$. 过 $P(2,3)$、$B(5,0)$ 的直线为 $x+y-5=0$，选 A.</p>"
         },
         {
           "num": 7,
-          "body": "若 $0 < \\alpha < \\beta < \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
+          "body": "若 $0 &#x3C; \\alpha &#x3C; \\beta &#x3C; \\frac{\\pi}{4}$，$\\sin \\alpha + \\cos \\alpha = a$，$\\sin \\beta + \\cos \\beta = b$，则（ ）",
           "choices": [
-            "$a < b$",
+            "$a &#x3C; b$",
             "$a > b$",
-            "$ab < 1$",
+            "$ab &#x3C; 1$",
             "$ab > 2$"
           ],
           "answer": "A",
-          "solution": "设 $g(t)=\\sin t+\\cos t$. 当 $0<t<\\frac\\pi4$ 时，\r\n$g'(t)=\\cos t-\\sin t>0$，所以 $g(t)$ 在该区间上单调递增. 由 $\\alpha<\\beta$，得到\r\n$a=g(\\alpha)<g(\\beta)=b$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $g(t)=\\sin t+\\cos t$. 当 $0&#x3C;t&#x3C;\\frac{\\pi}{4}$ 时，</p><p>$g'(t)=\\cos t-\\sin t>0$，所以 $g(t)$ 在该区间上单调递增. 由 $\\alpha&#x3C;\\beta$，得到</p><p>$a=g(\\alpha)&#x3C;g(\\beta)=b$，故选 A.</p>"
         },
         {
           "num": 8,
-          "body": "若椭圆经过原点，且焦点为 $F_1(1,0)$，$F_2(3,0)$，则其离心率为（ ）",
+          "body": "若椭圆经过原点，且焦点为 $F_{1}(1,0)$，$F_{2}(3,0)$，则其离心率为（ ）",
           "choices": [
             "$\\dfrac{3}{4}$",
             "$\\dfrac{2}{3}$",
@@ -256,13 +101,11 @@
             "$\\dfrac{1}{4}$"
           ],
           "answer": "C",
-          "solution": "椭圆中心为两焦点的中点 $(2,0)$，焦半距为 $c=1$. 原点在椭圆上，且\r\n$OF_1=1$、$OF_2=3$，所以由椭圆定义 $2a=OF_1+OF_2=4$，得 $a=2$. 因而离心率\r\n$e=\\frac ca=\\frac12$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>椭圆中心为两焦点的中点 $(2,0)$，焦半距为 $c=1$. 原点在椭圆上，且</p><p>$OF_{1}=1$、$OF_{2}=3$，所以由椭圆定义 $2a=OF_{1}+OF_{2}=4$，得 $a=2$. 因而离心率</p><p>$e=\\frac{c}{a}=\\frac{1}{2}$，选 C.</p>"
         },
         {
           "num": 9,
-          "body": "某赛季足球比赛的计分规则是：胜一场，得 $3$ 分；平一场，得 $1$ 分；负一场，得 $0$ 分. 一球队打完 $15$ 场，积 $33$ 分. 若不考虑顺序，该队胜，负，平的可能情况共有（ ）",
+          "body": "某赛季足球比赛的计分规则是：胜一场，得 $3$ 分；平一场，得 $1$ 分；负一场，得 $0$ 分. 一球队打完 $15$ 场，积 $33$ 分. 若不考虑顺序，该队胜，负，平的可能情况共有（ ）",
           "choices": [
             "$3$ 种",
             "$4$ 种",
@@ -270,13 +113,11 @@
             "$6$ 种"
           ],
           "answer": "A",
-          "solution": "设胜、平、负的场数分别为 $w$，$d$，$l$，则\r\n$w+d+l=15$，$3w+d=33$.\r\n消去 $d$，得 $d=33-3w$，$l=2w-18$. 由 $d\\geq0$、$l\\geq0$ 以及 $w\\geq0$，得 $9\\leq w\\leq11$. 因此 $w$ 可取 $9$，$10$，$11$，每个 $w$ 唯一确定 $d$，$l$，共有 $3$ 种，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设胜、平、负的场数分别为 $w$，$d$，$l$，则</p><p>$w+d+l=15$，$3w+d=33$.</p><p>消去 $d$，得 $d=33-3w$，$l=2w-18$. 由 $d\\geq0$、$l\\geq0$ 以及 $w\\geq0$，得 $9\\leq w\\leq11$. 因此 $w$ 可取 $9$，$10$，$11$，每个 $w$ 唯一确定 $d$，$l$，共有 $3$ 种，选 A.</p>"
         },
         {
           "num": 10,
-          "body": "设坐标原点为 $O$，抛物线 $y^2 = 2x$ 与过焦点的直线交于 $A$，$B$ 两点，则 $\\overrightarrow{OA} \\cdot \\overrightarrow{OB} =$（ ）",
+          "body": "设坐标原点为 $O$，抛物线 $y^{2} = 2x$ 与过焦点的直线交于 $A$，$B$ 两点，则 $\\overrightarrow{OA}\\cdot \\overrightarrow{OB}=$（ ）",
           "choices": [
             "$\\dfrac{3}{4}$",
             "$-\\dfrac{3}{4}$",
@@ -284,27 +125,23 @@
             "$-3$"
           ],
           "answer": "B",
-          "solution": "将抛物线上的点参数化为 $X(t)=\\left(\\frac{t^2}{2},t\\right)$. 设 $A=X(t_1)$、$B=X(t_2)$. 抛物线上参数为 $t_1$，$t_2$ 的两点所连弦的方程为\r\n$(t_1+t_2)y=2x+t_1t_2$. 抛物线 $y^2=2x$ 的焦点为 $F\\left(\\frac12,0\\right)$，代入弦方程得 $t_1t_2=-1$. 因此 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=\\frac{t_1^2t_2^2}{4}+t_1t_2=\\frac14-1=-\\frac34$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>将抛物线上的点参数化为 $X(t)=\\left(\\frac{t^{2}}{2},t\\right)$. 设 $A=X(t_{1})$、$B=X(t_{2})$. 抛物线上参数为 $t_{1}$，$t_{2}$ 的两点所连弦的方程为</p><p>$(t_{1}+t_{2})y=2x+t_{1}t_{2}$. 抛物线 $y^{2}=2x$ 的焦点为 $F\\left(\\frac{1}{2},0\\right)$，代入弦方程得 $t_{1}t_{2}=-1$. 因此 $\\overrightarrow{OA}\\cdot\\overrightarrow{OB}=\\frac{t_{1}^{2}t_{2}^{2}}{4}+t_{1}t_{2}=\\frac{1}{4}-1=-\\frac{3}{4}$，故选 B.</p>"
         },
         {
           "num": 11,
-          "body": "一间民房的屋顶有如图三种不同的盖法：\r\n\\begin{circlelist}\r\n\\item 单向倾斜；\r\n\\item 双向倾斜；\r\n\\item 四向倾斜.\r\n\\end{circlelist}\r\n记三种盖法屋顶面积分别为 $P_1$，$P_2$，$P_3$. 若屋顶斜面与水平面所成的角都是 $\\alpha$，则（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/new_curriculum_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>一间民房的屋顶有如图三种不同的盖法：</p><ol class=\"enumerate\"><li><p>单向倾斜；</p></li><li><p>双向倾斜；</p></li><li><p>四向倾斜.</p></li></ol><p>记三种盖法屋顶面积分别为 $P_{1}$，$P_{2}$，$P_{3}$. 若屋顶斜面与水平面所成的角都是 $\\alpha$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$P_3 > P_2 > P_1$",
-            "$P_3 > P_2 = P_1$",
-            "$P_3 = P_2 > P_1$",
-            "$P_3 = P_2 = P_1$"
+            "$P_{3} > P_{2} > P_{1}$",
+            "$P_{3} > P_{2} = P_{1}$",
+            "$P_{3} = P_{2} > P_{1}$",
+            "$P_{3} = P_{2} = P_{1}$"
           ],
           "answer": "D",
-          "solution": "设三种屋顶在水平面上的公共投影面积为 $S_0$. 对于任一斜面，若斜面与水平面的夹角为 $\\alpha$，则其水平投影面积等于斜面面积乘 $\\cos\\alpha$. 三种盖法的各斜面投影共同恰好覆盖同一个水平屋顶，所以\r\n$P_1\\cos\\alpha=P_2\\cos\\alpha=P_3\\cos\\alpha=S_0$. 由于屋顶不是竖直面，$\\cos\\alpha>0$，故 $P_1=P_2=P_3$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设三种屋顶在水平面上的公共投影面积为 $S_{0}$. 对于任一斜面，若斜面与水平面的夹角为 $\\alpha$，则其水平投影面积等于斜面面积乘 $\\cos\\alpha$. 三种盖法的各斜面投影共同恰好覆盖同一个水平屋顶，所以</p><p>$P_{1}\\cos\\alpha=P_{2}\\cos\\alpha=P_{3}\\cos\\alpha=S_{0}$. 由于屋顶不是竖直面，$\\cos\\alpha>0$，故 $P_{1}=P_{2}=P_{3}$，选 D.</p>"
         },
         {
           "num": 12,
-          "body": "如图，小圆圈表示网络的结点，结点之间的连线表示它们有网线相联. 连线标注的数字表示该段网线单位时间内可以通过的最大信息量. 现从结点 $A$ 向结点 $B$ 传递信息，信息可以分开沿不同的路线同时传递. 则单位时间内传递的最大信息量为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/new_curriculum_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，小圆圈表示网络的结点，结点之间的连线表示它们有网线相联. 连线标注的数字表示该段网线单位时间内可以通过的最大信息量. 现从结点 $A$ 向结点 $B$ 传递信息，信息可以分开沿不同的路线同时传递. 则单位时间内传递的最大信息量为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$26$",
             "$24$",
@@ -312,9 +149,7 @@
             "$19$"
           ],
           "answer": "D",
-          "solution": "按图在从 $B$ 出发的四条支路上分别安排 $3$，$4$，$6$，$6$ 单位的信息. 前两条支路经过的中间网线容量分别为 $5$，$6$，后两条支路经过的中间网线容量分别为 $6$，$8$，所以这些安排均不超过相应网线的容量. 前两条支路在右侧共用的容量为 $12$ 的网线通过 $3+4=7$ 单位，后两条支路在右侧共用的另一条容量为 $12$ 的网线通过 $6+6=12$ 单位，因而上述安排确实可以同时传递 $3+4+6+6=19$ 单位的信息.\r\n\r\n另一方面，割去下列四条网线后，$B$ 与 $A$ 不再连通：从 $B$ 出发的最上方容量为 $3$ 的网线、从 $B$ 出发的第二条容量为 $4$ 的网线、第三条分支通向右侧下方结点的容量为 $6$ 的网线，以及从 $B$ 出发的最下方容量为 $6$ 的网线. 这个割的容量为 $3+4+6+6=19$，所以任何传输方案的总量都不超过 $19$. 因此最大信息量为 $19$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按图在从 $B$ 出发的四条支路上分别安排 $3$，$4$，$6$，$6$ 单位的信息. 前两条支路经过的中间网线容量分别为 $5$，$6$，后两条支路经过的中间网线容量分别为 $6$，$8$，所以这些安排均不超过相应网线的容量. 前两条支路在右侧共用的容量为 $12$ 的网线通过 $3+4=7$ 单位，后两条支路在右侧共用的另一条容量为 $12$ 的网线通过 $6+6=12$ 单位，因而上述安排确实可以同时传递 $3+4+6+6=19$ 单位的信息.</p><p>另一方面，割去下列四条网线后，$B$ 与 $A$ 不再连通：从 $B$ 出发的最上方容量为 $3$ 的网线、从 $B$ 出发的第二条容量为 $4$ 的网线、第三条分支通向右侧下方结点的容量为 $6$ 的网线，以及从 $B$ 出发的最下方容量为 $6$ 的网线. 这个割的容量为 $3+4+6+6=19$，所以任何传输方案的总量都不超过 $19$. 因此最大信息量为 $19$，选 D.</p>"
         }
       ]
     },
@@ -323,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)=\\sin x + \\sqrt{3}\\cos x$ 的最大值是 _______ {}.",
-          "choices": [],
+          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)=\\sin x + \\sqrt{3}\\cos x$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "2",
-          "solution": "由 $\\sin x+\\sqrt3\\cos x=2\\left(\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\right)=2\\sin\\left(x+\\frac\\pi3\\right)$，且正弦函数的最大值为 $1$，所以函数最大值为 $2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $\\sin x+\\sqrt{3}\\cos x=2\\left(\\frac{1}{2}\\sin x+\\frac{\\sqrt{3}}{2}\\cos x\\right)=2\\sin\\left(x+\\frac{\\pi}{3}\\right)$，且正弦函数的最大值为 $1$，所以函数最大值为 $2$."
         },
         {
           "num": 14,
-          "body": "一个工厂有若干个车间，今采用分层抽样方法从全厂某天的 $2048$ 件产品中抽取一个容量为 $128$ 的样本进行质量检查. 若一车间这一天生产 $256$ 件产品，则从该车间抽取的产品件数为 _______ {}.",
-          "choices": [],
+          "body": "一个工厂有若干个车间，今采用分层抽样方法从全厂某天的 $2048$ 件产品中抽取一个容量为 $128$ 的样本进行质量检查. 若一车间这一天生产 $256$ 件产品，则从该车间抽取的产品件数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "16",
-          "solution": "分层抽样时，各层抽取数与该层产品数成比例. 抽样比例为\r\n$\\frac{128}{2048}=\\frac1{16}$，所以第一车间抽取\r\n$256\\times\\frac1{16}=16$ 件.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分层抽样时，各层抽取数与该层产品数成比例. 抽样比例为</p><p>$\\frac{128}{2048}=\\frac{1}{16}$，所以第一车间抽取</p><p>$256\\times\\frac{1}{16}=16$ 件.</p>"
         },
         {
           "num": 15,
-          "body": "在空间中，\r\n\\begin{circlelist}\r\n\\item 若四点不共面，则这四点中任何三点都不共线.\r\n\\item 若两条直线没有公共点，则这两条直线是异面直线.\r\n\\end{circlelist}\r\n\r\n以上两个命题中，逆命题为真命题的是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\circled{2}\\)",
-          "solution": "命题 $\\circled{1}$ 的逆命题是“若四点中任何三点都不共线，则这四点不共面”. 取同一平面内一个一般四边形的四个顶点，任何三点都不共线，但四点共面，所以逆命题 $\\circled{1}$ 为假.\r\n\r\n命题 $\\circled{2}$ 的逆命题是“若两条直线是异面直线，则两条直线没有公共点”. 异面直线的定义正是不同在任何一个平面内且不相交的两条直线，所以该逆命题为真. 因此应填 $\\circled{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>在空间中，</p><ol class=\"enumerate\"><li><p>若四点不共面，则这四点中任何三点都不共线.</p></li><li><p>若两条直线没有公共点，则这两条直线是异面直线.</p></li></ol><p>以上两个命题中，逆命题为真命题的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$②$",
+          "solution": "<p>命题 $①$ 的逆命题是“若四点中任何三点都不共线，则这四点不共面”. 取同一平面内一个一般四边形的四个顶点，任何三点都不共线，但四点共面，所以逆命题 $①$ 为假.</p><p>命题 $②$ 的逆命题是“若两条直线是异面直线，则两条直线没有公共点”. 异面直线的定义正是不同在任何一个平面内且不相交的两条直线，所以该逆命题为真. 因此应填 $②$.</p>"
         },
         {
           "num": 16,
-          "body": "设 $\\{a_n\\}$ 是公比为 $q$ 的等比数列，$S_n$ 是它的前 $n$ 项和. 若 $|S_n|$ 是等差数列，则 $q = _______ {}$.",
-          "choices": [],
+          "body": "设 $\\{a_{n}\\}$ 是公比为 $q$ 的等比数列，$S_{n}$ 是它的前 $n$ 项和. 若 $|S_{n}|$ 是等差数列，则 $q =\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
           "answer": "1",
-          "solution": "按本题所用等比数列的定义，首项 $a_1\\ne0$，公比 $q\\ne0$. 设 $c=|a_1|>0$. 由 $S_1=a_1$、$S_2=a_1(1+q)$、$S_3=a_1(1+q+q^2)$，且 $q^2+q+1>0$，得\r\n$|S_1|=c$，$|S_2|=c|1+q|$，$|S_3|=c(1+q+q^2)$.\r\n因 $|S_n|$ 为等差数列，前三项满足\r\n$2|S_2|=|S_1|+|S_3|$，\r\n即 $2|1+q|=q^2+q+2$.\r\n\r\n若 $q\\geq-1$，则左边为 $2q+2$，从而 $q^2-q=0$，得 $q=0$ 或 $q=1$. 因为 $q\\ne0$，故此时 $q=1$. 若 $q<-1$，则上式化为 $-2q-2=q^2+q+2$，即 $q^2+3q+4=0$，其判别式 $9-16<0$，无实数解. 因此 $q=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按本题所用等比数列的定义，首项 $a_{1}\\ne0$，公比 $q\\ne0$. 设 $c=|a_{1}|>0$. 由 $S_{1}=a_{1}$、$S_{2}=a_{1}(1+q)$、$S_{3}=a_{1}(1+q+q^{2})$，且 $q^{2}+q+1>0$，得</p><p>$|S_{1}|=c$，$|S_{2}|=c|1+q|$，$|S_{3}|=c(1+q+q^{2})$.</p><p>因 $|S_{n}|$ 为等差数列，前三项满足</p><p>$2|S_{2}|=|S_{1}|+|S_{3}|$，</p><p>即 $2|1+q|=q^{2}+q+2$.</p><p>若 $q\\geq-1$，则左边为 $2q+2$，从而 $q^{2}-q=0$，得 $q=0$ 或 $q=1$. 因为 $q\\ne0$，故此时 $q=1$. 若 $q&#x3C;-1$，则上式化为 $-2q-2=q^{2}+q+2$，即 $q^{2}+3q+4=0$，其判别式 $9-16&#x3C;0$，无实数解. 因此 $q=1$.</p>"
         }
       ]
     },
@@ -364,30 +191,24 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知等差数列前三项为 $a$，$4$，$3a$，前 $n$ 项的和为 $S_n$，$S_k = 2550$.\r\n\r\n\n(1) 求 $a$ 及 $k$ 的值；\n\n(2) 求 $\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac{1}{S_1}+\\frac{1}{S_2}+\\cdots+\\frac{1}{S_n}\\right)$.",
-          "choices": [],
+          "body": "<p>已知等差数列前三项为 $a$，$4$，$3a$，前 $n$ 项的和为 $S_{n}$，$S_{k} = 2550$.</p><ol class=\"enumerate\"><li><p>求 $a$ 及 $k$ 的值；</p></li><li><p>求 $\\displaystyle\\lim_{n\\to\\infty}\\left(\\frac{1}{S_{1}}+\\frac{1}{S_{2}}+\\cdots+\\frac{1}{S_{n}}\\right)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由等差数列性质，$a+3a=2\\times4$，得 $a=2$，公差 $d=2$. 因而 $S_k=2k+\\frac{k(k-1)}{2}\\times2=k^2+k=2550$，解得 $k=50$（舍去 $k=-51$）.\n\n(2) $S_n=n(n+1)$，所以\r\n$\\displaystyle\\sum_{i=1}^{n}\\frac1{S_i}=\\frac1{1\\times2}+\\frac1{2\\times3}+\\cdots+\\frac1{n(n+1)}=\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\cdots+\\left(\\frac1n-\\frac1{n+1}\\right)=1-\\frac1{n+1}$.\r\n因此极限为 $1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由等差数列性质，$a+3a=2\\times4$，得 $a=2$，公差 $d=2$. 因而 $S_{k}=2k+\\frac{k(k-1)}{2}\\times2=k^{2}+k=2550$，解得 $k=50$（舍去 $k=-51$）.</p></li><li><p>$S_{n}=n(n+1)$，所以</p><p>$\\displaystyle\\sum_{i=1}^{n}\\frac{1}{S_{i}}=\\frac{1}{1\\times2}+\\frac{1}{2\\times3}+\\cdots+\\frac{1}{n(n+1)}=\\left(1-\\frac{1}{2}\\right)+\\left(\\frac{1}{2}-\\frac{1}{3}\\right)+\\cdots+\\left(\\frac{1}{n}-\\frac{1}{n+1}\\right)=1-\\frac{1}{n+1}$.</p><p>因此极限为 $1$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "设计一幅宣传画，要求画面面积为 $4840\\mathrm{~cm}^2$，画面的宽与高的比为 $\\lambda$（$\\lambda < 1$），画面的上，下各有 $8\\mathrm{~cm}$ 空白，左，右各有 $5\\mathrm{~cm}$ 空白. 怎样确定画面的高与宽尺寸，能使宣传画所用纸张面积最小？\r\n\r\n由宽高比及画面面积可知 $0<\\lambda<1$. 设画面高为 $x\\mathrm{~cm}$，则宽为 $\\lambda x\\mathrm{~cm}$，且 $\\lambda x^2=4840$. 纸张面积 $S=(x+16)(\\lambda x+10)=4840+(16\\lambda+10)x+160$.\r\n由 $x=22\\frac{\\sqrt{10}}{\\sqrt{\\lambda}}$，得\r\n\n$$\nS=5000+44\\sqrt{10}\\left(8\\sqrt{\\lambda}+\\frac5{\\sqrt{\\lambda}}\\right)\n$$\n\r\n由均值不等式，\r\n$8\\sqrt{\\lambda}+\\dfrac5{\\sqrt{\\lambda}}\\geq2\\sqrt{40}$，等号成立当且仅当\r\n$8\\sqrt{\\lambda}=\\dfrac5{\\sqrt{\\lambda}}$. 因此 $S$ 在 $\\lambda=\\frac{5}{8}$ 时取最小值. 此时 $x=88$，画面宽为 $\\lambda x=55$，故画面高、宽分别为 $88\\mathrm{~cm}$、$55\\mathrm{~cm}$.",
-          "choices": [],
+          "body": "<p>设计一幅宣传画，要求画面面积为 $4840\\mathrm{~cm}^{2}$，画面的宽与高的比为 $\\lambda$（$\\lambda &#x3C; 1$），画面的上，下各有 $8\\mathrm{~cm}$ 空白，左，右各有 $5\\mathrm{~cm}$ 空白. 怎样确定画面的高与宽尺寸，能使宣传画所用纸张面积最小？</p><p>由宽高比及画面面积可知 $0&#x3C;\\lambda&#x3C;1$. 设画面高为 $x\\mathrm{~cm}$，则宽为 $\\lambda x\\mathrm{~cm}$，且 $\\lambda x^{2}=4840$. 纸张面积 $S=(x+16)(\\lambda x+10)=4840+(16\\lambda+10)x+160$.</p><p>由 $x=22\\frac{\\sqrt{10}}{\\sqrt{\\lambda}}$，得</p>\n$$\nS=5000+44\\sqrt{10}\\left(8\\sqrt{\\lambda}+\\frac{5}{\\sqrt{\\lambda}}\\right)\n$$\n<p>由均值不等式，</p><p>$8\\sqrt{\\lambda}+\\dfrac5{\\sqrt{\\lambda}}\\geq2\\sqrt{40}$，等号成立当且仅当</p><p>$8\\sqrt{\\lambda}=\\dfrac5{\\sqrt{\\lambda}}$. 因此 $S$ 在 $\\lambda=\\frac{5}{8}$ 时取最小值. 此时 $x=88$，画面宽为 $\\lambda x=55$，故画面高、宽分别为 $88\\mathrm{~cm}$、$55\\mathrm{~cm}$.</p>",
+          "choices": null,
           "answer": "",
-          "solution": "",
-          "hasAnswer": false,
-          "hasSolution": false
+          "solution": ""
         },
         {
           "num": 19,
-          "body": "如图，用 $A$，$B$，$C$ 三类不同的元件连接成两个系统 $N_1$，$N_2$. 当元件 $A$，$B$，$C$ 都正常工作时，系统 $N_1$ 正常工作；当元件 $A$ 正常工作且元件 $B$，$C$ 至少有一个正常工作时，系统 $N_2$ 正常工作. 已知元件 $A$，$B$，$C$ 正常工作的概率依次为 $0.80$，$0.90$，$0.90$.\r\n\r\n\n(1) 求系统 $N_1$ 正常工作的概率 $P_1$；\n\n(2) 求系统 $N_2$ 正常工作的概率 $P_2$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/new_curriculum_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，用 $A$，$B$，$C$ 三类不同的元件连接成两个系统 $N_{1}$，$N_{2}$. 当元件 $A$，$B$，$C$ 都正常工作时，系统 $N_{1}$ 正常工作；当元件 $A$ 正常工作且元件 $B$，$C$ 至少有一个正常工作时，系统 $N_{2}$ 正常工作. 已知元件 $A$，$B$，$C$ 正常工作的概率依次为 $0.80$，$0.90$，$0.90$.</p><ol class=\"enumerate\"><li><p>求系统 $N_{1}$ 正常工作的概率 $P_{1}$；</p></li><li><p>求系统 $N_{2}$ 正常工作的概率 $P_{2}$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由相互独立性，$P_1=0.80\\times0.90\\times0.90=0.648$，故系统 $N_1$ 正常工作的概率为 $0.648$.\n\n(2) $P_2=0.80\\left[1-(1-0.90)(1-0.90)\\right]=0.792$，故系统 $N_2$ 正常工作的概率为 $0.792$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由相互独立性，$P_{1}=0.80\\times0.90\\times0.90=0.648$，故系统 $N_{1}$ 正常工作的概率为 $0.648$.</p></li><li><p>$P_{2}=0.80\\left[1-(1-0.90)(1-0.90)\\right]=0.792$，故系统 $N_{2}$ 正常工作的概率为 $0.792$.</p></li></ol>"
         }
       ]
     },
@@ -396,42 +217,33 @@
       "problems": [
         {
           "num": 20,
-          "body": "如图，以正四棱锥 $V-ABCD$ 底面中心 $O$ 为坐标原点建立空间直角坐标系 $O-xyz$，其中 $Ox \\parallel BC$，$Oy \\parallel AB$. $E$ 为 $VC$ 中点，正四棱锥底面边长为 $2a$，高为 $h_0$.\r\n\r\n\n(1) 求 $\\cos\\left\\langle \\overrightarrow{BE},\\overrightarrow{DE} \\right\\rangle$；\n\n(2) 记面 $BCV$ 为 $\\alpha$，面 $DCV$ 为 $\\beta$，若 $\\angle BED$ 是二面角 $\\alpha-VC-\\beta$ 的平面角，求 $\\cos\\angle BED$ 的值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/new_curriculum_liberal/q20a_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，以正四棱锥 $V-ABCD$ 底面中心 $O$ 为坐标原点建立空间直角坐标系 $O-xyz$，其中 $Ox \\parallel BC$，$Oy \\parallel AB$. $E$ 为 $VC$ 中点，正四棱锥底面边长为 $2a$，高为 $h_{0}$.</p><ol class=\"enumerate\"><li><p>求 $\\cos\\left\\langle \\overrightarrow{BE},\\overrightarrow{DE}\\right\\rangle$；</p></li><li><p>记面 $BCV$ 为 $\\alpha$，面 $DCV$ 为 $\\beta$，若 $\\angle BED$ 是二面角 $\\alpha-VC-\\beta$ 的平面角，求 $\\cos\\angle BED$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q20a_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取 $B(a,a,0)$，$C(-a,a,0)$，$D(-a,-a,0)$，$V(0,0,h_0)$，则 $E=(-\\frac{a}{2},\\frac{a}{2},\\frac{h_0}{2})$. 因此 $\\overrightarrow{BE}=\\left(-\\frac{3a}{2},-\\frac a2,\\frac{h_0}{2}\\right)$，$\\overrightarrow{DE}=\\left(\\frac a2,\\frac{3a}{2},\\frac{h_0}{2}\\right)$.\r\n\n$$\n\\overrightarrow{BE}\\cdot\\overrightarrow{DE}=-\\frac{3a^2}{4}-\\frac{3a^2}{4}+\\frac{h_0^2}{4}=\\frac{h_0^2-6a^2}{4}\n$$\n\r\n又\r\n\n$$\n|\\overrightarrow{BE}|=|\\overrightarrow{DE}|=\\frac12\\sqrt{10a^2+h_0^2}\n$$\n\r\n从而\r\n\n$$\n\\cos\\left\\langle\\overrightarrow{BE},\\overrightarrow{DE}\\right\\rangle=\\frac{h_0^2-6a^2}{10a^2+h_0^2}\n$$\n\n(2) 因为 $\\angle BED$ 是二面角 $\\alpha-VC-\\beta$ 的平面角，所以 $BE$、$DE$ 都垂直于棱 $VC$. 又 $\\overrightarrow{CV}=(a,-a,h_0)$，于是\r\n$\\overrightarrow{BE}\\cdot\\overrightarrow{CV}=0$，即\r\n$-\\frac{3a^2}{2}+\\frac{a^2}{2}+\\frac{h_0^2}{2}=0$，从而 $h_0^2=2a^2$. 代回第（1）问的结果，得 $\\cos\\angle BED=-\\frac13$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取 $B(a,a,0)$，$C(-a,a,0)$，$D(-a,-a,0)$，$V(0,0,h_{0})$，则 $E=(-\\frac{a}{2},\\frac{a}{2},\\frac{h_{0}}{2})$. 因此 $\\overrightarrow{BE}=\\left(-\\frac{3a}{2},-\\frac{a}{2},\\frac{h_{0}}{2}\\right)$，$\\overrightarrow{DE}=\\left(\\frac{a}{2},\\frac{3a}{2},\\frac{h_{0}}{2}\\right)$.</p>\n$$\n\\overrightarrow{BE}\\cdot\\overrightarrow{DE}=-\\frac{3a^{2}}{4}-\\frac{3a^{2}}{4}+\\frac{h_{0}^{2}}{4}=\\frac{h_{0}^{2}-6a^{2}}{4}\n$$\n<p>又</p>\n$$\n|\\overrightarrow{BE}|=|\\overrightarrow{DE}|=\\frac{1}{2}\\sqrt{10a^{2}+h_{0}^{2}}\n$$\n<p>从而</p>\n$$\n\\cos\\left\\langle\\overrightarrow{BE},\\overrightarrow{DE}\\right\\rangle=\\frac{h_{0}^{2}-6a^{2}}{10a^{2}+h_{0}^{2}}\n$$\n</li><li><p>因为 $\\angle BED$ 是二面角 $\\alpha-VC-\\beta$ 的平面角，所以 $BE$、$DE$ 都垂直于棱 $VC$. 又 $\\overrightarrow{CV}=(a,-a,h_{0})$，于是</p><p>$\\overrightarrow{BE}\\cdot\\overrightarrow{CV}=0$，即</p><p>$-\\frac{3a^{2}}{2}+\\frac{a^{2}}{2}+\\frac{h_{0}^{2}}{2}=0$，从而 $h_{0}^{2}=2a^{2}$. 代回第（1）问的结果，得 $\\cos\\angle BED=-\\frac{1}{3}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "如图，在底面是直角梯形的四棱锥 $S-ABCD$ 中，$\\angle ABC = 90^\\circ$，$SA \\perp$ 面 $ABCD$，$SA = AB = BC = 1$，$AD = \\frac{1}{2}$.\r\n\r\n\n(1) 求四棱锥 $S-ABCD$ 的体积；\n\n(2) 求面 $SCD$ 与面 $SBA$ 所成的二面角的正切值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2001/img/new_curriculum_liberal/q20b_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在底面是直角梯形的四棱锥 $S-ABCD$ 中，$\\angle ABC = 90^{\\circ}$，$SA \\perp$ 面 $ABCD$，$SA = AB = BC = 1$，$AD = \\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>求四棱锥 $S-ABCD$ 的体积；</p></li><li><p>求面 $SCD$ 与面 $SBA$ 所成的二面角的正切值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q20b_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 底面直角梯形 $ABCD$ 的面积为 $\\frac12(BC+AD)AB=\\frac12\\left(1+\\frac12\\right)=\\frac34$，所以四棱锥体积为 $\\frac13\\times1\\times\\frac34=\\frac14$.\n\n(2) 延长 $BA$、$CD$ 相交于 $E$，连接 $SE$，则 $SE$ 是所求二面角的棱. 由 $AD\\parallel BC$，三角形 $EAD$ 与 $EBC$ 相似，且 $\\frac{EA}{EB}=\\frac{AD}{BC}=\\frac12$. 又 $EB=EA+AB$，所以 $EA=1$，从而 $EB=2$. 由于 $SA\\perp$ 面 $ABCD$，有 $SE^2=SA^2+AE^2=2$，$SB^2=SA^2+AB^2=2$，而 $EB^2=4$，故 $SE^2+SB^2=EB^2$，即 $SE\\perp SB$.\r\n\r\n由于 $SA\\perp$ 面 $ABCD$，且 $SA\\subset$ 面 $SEB$，所以面 $SEB\\perp$ 面 $EBC$，交线为 $EB$. 又 $BC\\perp EB$，故 $BC\\perp$ 面 $SEB$，所以 $SB$ 是 $CS$ 在面 $SEB$ 上的射影. 因为 $SB\\perp SE$，由射影定理得 $CS\\perp SE$. 因而 $SB$、$SC$ 分别是两侧面内垂直于棱 $SE$ 的直线，$\\angle BSC$ 是所求二面角的平面角. 又 $BC\\perp SB$，所以 $\\tan\\angle BSC=\\frac{BC}{SB}=\\frac{1}{\\sqrt2}=\\frac{\\sqrt2}{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>底面直角梯形 $ABCD$ 的面积为 $\\frac{1}{2}(BC+AD)AB=\\frac{1}{2}\\left(1+\\frac{1}{2}\\right)=\\frac{3}{4}$，所以四棱锥体积为 $\\frac{1}{3}\\times1\\times\\frac{3}{4}=\\frac{1}{4}$.</p></li><li><p>延长 $BA$、$CD$ 相交于 $E$，连接 $SE$，则 $SE$ 是所求二面角的棱. 由 $AD\\parallel BC$，三角形 $EAD$ 与 $EBC$ 相似，且 $\\frac{EA}{EB}=\\frac{AD}{BC}=\\frac{1}{2}$. 又 $EB=EA+AB$，所以 $EA=1$，从而 $EB=2$. 由于 $SA\\perp$ 面 $ABCD$，有 $SE^{2}=SA^{2}+AE^{2}=2$，$SB^{2}=SA^{2}+AB^{2}=2$，而 $EB^{2}=4$，故 $SE^{2}+SB^{2}=EB^{2}$，即 $SE\\perp SB$.</p><p>由于 $SA\\perp$ 面 $ABCD$，且 $SA\\subset$ 面 $SEB$，所以面 $SEB\\perp$ 面 $EBC$，交线为 $EB$. 又 $BC\\perp EB$，故 $BC\\perp$ 面 $SEB$，所以 $SB$ 是 $CS$ 在面 $SEB$ 上的射影. 因为 $SB\\perp SE$，由射影定理得 $CS\\perp SE$. 因而 $SB$、$SC$ 分别是两侧面内垂直于棱 $SE$ 的直线，$\\angle BSC$ 是所求二面角的平面角. 又 $BC\\perp SB$，所以 $\\tan\\angle BSC=\\frac{BC}{SB}=\\frac{1}{\\sqrt{2}}=\\frac{\\sqrt{2}}{2}$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知函数 $f(x) = x^3 - 3ax^2 + 2bx$ 在点 $x = 1$ 处有极小值 $-1$. 试确定 $a$，$b$ 的值，并求出 $f(x)$ 的单调区间.",
-          "choices": [],
+          "body": "已知函数 $f(x) = x^{3} - 3ax^{2} + 2bx$ 在点 $x = 1$ 处有极小值 $-1$. 试确定 $a$，$b$ 的值，并求出 $f(x)$ 的单调区间.",
+          "choices": null,
           "answer": "",
-          "solution": "由 $f(1)=-1$，且 $x=1$ 是可导函数的极小值点，得 $f'(1)=0$，所以\r\n\n$$\n\\begin{cases}\r\n1-3a+2b=-1,\\\\\r\n3-6a+2b=0\r\n\\end{cases}\n$$\n\r\n两式相减得 $-3a=-1$，所以 $a=\\frac13$；代入第一式得 $b=-\\frac12$. 此时 $f(x)=x^3-x^2-x$，且 $f'(x)=3x^2-2x-1=(3x+1)(x-1)$.\r\n故 $f(x)$ 在 $(-\\infty,-\\frac13)$ 和 $(1,+\\infty)$ 上为增函数，在 $(-\\frac13,1)$ 上为减函数；特别地，$f'(x)$ 在 $x=1$ 左侧为负、右侧为正，故 $x=1$ 确为极小值点.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由 $f(1)=-1$，且 $x=1$ 是可导函数的极小值点，得 $f'(1)=0$，所以</p>\n$$\n\\begin{cases}1-3a+2b=-1,\\\\  3-6a+2b=0\\end{cases}\n$$\n<p>两式相减得 $-3a=-1$，所以 $a=\\frac{1}{3}$；代入第一式得 $b=-\\frac{1}{2}$. 此时 $f(x)=x^{3}-x^{2}-x$，且 $f'(x)=3x^{2}-2x-1=(3x+1)(x-1)$.</p><p>故 $f(x)$ 在 $(-\\infty,-\\frac{1}{3})$ 和 $(1,+\\infty)$ 上为增函数，在 $(-\\frac{1}{3},1)$ 上为减函数；特别地，$f'(x)$ 在 $x=1$ 左侧为负、右侧为正，故 $x=1$ 确为极小值点.</p>"
         },
         {
           "num": 23,
-          "body": "设 $0 < \\theta < \\frac{\\pi}{2}$，曲线 $x^2\\sin\\theta + y^2\\cos\\theta = 1$ 和 $x^2\\cos\\theta - y^2\\sin\\theta = 1$ 有 $4$ 个不同的交点.\r\n\r\n\n(1) 求 $\\theta$ 的取值范围；\n\n(2) 证明这 $4$ 个交点共圆，并求圆半径的取值范围.",
-          "choices": [],
+          "body": "<p>设 $0 &#x3C; \\theta &#x3C; \\frac{\\pi}{2}$，曲线 $x^{2}\\sin\\theta + y^{2}\\cos\\theta = 1$ 和 $x^{2}\\cos\\theta - y^{2}\\sin\\theta = 1$ 有 $4$ 个不同的交点.</p><ol class=\"enumerate\"><li><p>求 $\\theta$ 的取值范围；</p></li><li><p>证明这 $4$ 个交点共圆，并求圆半径的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 令 $u=x^2$，$v=y^2$，联立两曲线方程，相加、相减得\r\n\n$$\n\\begin{cases}\r\n(\\sin\\theta+\\cos\\theta)u+(\\cos\\theta-\\sin\\theta)v=2,\\\\\r\n(\\sin\\theta-\\cos\\theta)u+(\\sin\\theta+\\cos\\theta)v=0\r\n\\end{cases}\n$$\n\r\n解得 $u=\\sin\\theta+\\cos\\theta$，$v=\\cos\\theta-\\sin\\theta$. 要有四个不同交点，必须且只需 $x^2>0$、$y^2>0$，此时 $x$、$y$ 分别可取正、负两个值，共有四个组合. 对于 $0<\\theta<\\frac\\pi2$，有 $\\sin\\theta+\\cos\\theta>0$，而\r\n$\\cos\\theta-\\sin\\theta>0$ 等价于 $\\theta<\\frac\\pi4$，所以 $0<\\theta<\\frac\\pi4$.\n\n(2) 由上式，$x^2+y^2=(\\sin\\theta+\\cos\\theta)+(\\cos\\theta-\\sin\\theta)=2\\cos\\theta$，故四个交点都满足以原点为圆心、半径 $r=\\sqrt{2\\cos\\theta}$ 的圆方程，因而共圆. 当 $0<\\theta<\\frac\\pi4$ 时，$\\sqrt[4]{2}<r<\\sqrt2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>令 $u=x^{2}$，$v=y^{2}$，联立两曲线方程，相加、相减得</p>\n$$\n\\begin{cases}(\\sin\\theta+\\cos\\theta)u+(\\cos\\theta-\\sin\\theta)v=2,\\\\\n\n(\\sin\\theta-\\cos\\theta)u+(\\sin\\theta+\\cos\\theta)v=0\\end{cases}\n$$\n<p>解得 $u=\\sin\\theta+\\cos\\theta$，$v=\\cos\\theta-\\sin\\theta$. 要有四个不同交点，必须且只需 $x^{2}>0$、$y^{2}>0$，此时 $x$、$y$ 分别可取正、负两个值，共有四个组合. 对于 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{2}$，有 $\\sin\\theta+\\cos\\theta>0$，而</p><p>$\\cos\\theta-\\sin\\theta>0$ 等价于 $\\theta&#x3C;\\frac{\\pi}{4}$，所以 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{4}$.</p></li><li><p>由上式，$x^{2}+y^{2}=(\\sin\\theta+\\cos\\theta)+(\\cos\\theta-\\sin\\theta)=2\\cos\\theta$，故四个交点都满足以原点为圆心、半径 $r=\\sqrt{2\\cos\\theta}$ 的圆方程，因而共圆. 当 $0&#x3C;\\theta&#x3C;\\frac{\\pi}{4}$ 时，$\\sqrt[4]{2}&#x3C;r&#x3C;\\sqrt{2}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

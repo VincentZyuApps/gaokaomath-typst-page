@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,8 +11,8 @@
 #part-header("单选题")
 
 #problem(1)[
-设集合 $M=\{-1,0,1\}$，$N=\{x | x^2 <= x\}$，则 $M inter N=$（ ）
-  #choices([$\{0\}$], [$\{0,1\}$], [$\{-1,1\}$], [$\{-1,0,1\}$], cols: 4)
+设集合 #mi(`M=\{-1,0,1\}`)，#mi(`N=\{x\mid x^{2}\le x\}`)，则 #mi(`M\cap N=`)（ ）
+  #choices([#mi(`\{0\}`)], [#mi(`\{0,1\}`)], [#mi(`\{-1,1\}`)], [#mi(`\{-1,0,1\}`)], cols: 2)
 ]
 
 #answer([B])
@@ -20,26 +20,38 @@
 #solution[
 由
 
-$ x^2 <= x <=> x(x-1) <= 0 $
 
-得 $0 <= x <= 1$，所以 $N=[0,1]$. 因而
+#align(center)[#mitex(`
+x^{2}\le x\iff x(x-1)\leqslant0
+`)]
 
-$ M inter N=\{-1,0,1\} inter [0,1]=\{0,1\} $
+
+得 #mi(`0\le x\leqslant1`)，所以 #mi(`N=[0,1]`). 因而
+
+
+#align(center)[#mitex(`
+M\cap N=\{-1,0,1\}\cap[0,1]=\{0,1\}
+`)]
+
 
 故选 B.
 ]
 
 #problem(2)[
-命题“若 $alpha =(pi)/(4)$，则 $tan alpha =1$”的逆否命题是（ ）
-  #choices([若 $alpha != (pi)/(4)$，则 $tan alpha \n e q1$], [若 $alpha =(pi)/(4)$，则 $tan alpha \n e q1$], [若 $tan alpha \n e q1$，则 $alpha != (pi)/(4)$], [若 $tan alpha \n e q1$，则 $alpha =(pi)/(4)$], cols: 1)
+命题“若 #mi(`\alpha=\frac{\pi}{4}`)，则 #mi(`\tan\alpha=1`)”的逆否命题是（ ）
+  #choices([若 #mi(`\alpha\neq\frac{\pi}{4}`)，则 #mi(`\tan\alpha\neq1`)], [若 #mi(`\alpha=\frac{\pi}{4}`)，则 #mi(`\tan\alpha\neq1`)], [若 #mi(`\tan\alpha\neq1`)，则 #mi(`\alpha\neq\frac{\pi}{4}`)], [若 #mi(`\tan\alpha\neq1`)，则 #mi(`\alpha=\frac{\pi}{4}`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-原命题是“若 $p: alpha =(pi)/(4)$，则 $q: tan alpha =1$”. 逆否命题的形式为“若非 $q$，则非 $p$”，即
+原命题是“若 #mi(`p:\alpha=\frac{\pi}{4}`)，则 #mi(`q:\tan\alpha=1`)”. 逆否命题的形式为“若非 #mi(`q`)，则非 #mi(`p`)”，即
 
-$ tan alpha \n e q1\L o n g r i g h t a r r o w alpha != (pi)/(4) $
+
+#align(center)[#mitex(`
+\tan\alpha\neq1\Longrightarrow\alpha\neq\frac{\pi}{4}
+`)]
+
 
 这正是选项 C.
 ]
@@ -47,10 +59,8 @@ $ tan alpha \n e q1\L o n g r i g h t a r r o w alpha != (pi)/(4) $
 #problem(3)[
 某几何体的正视图和侧视图均如下图所示，则该几何体的俯视图不可能是（ ）
 
-
-
-#align(center)[#image("/papers/2012/img/hunan_science/q3_fig1.png", width: 52%)]
-  #choices([#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/hunan_science/q3_optA.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/hunan_science/q3_optB.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/hunan_science/q3_optC.png", height: 100%, fit: "contain")]]], [#align(center)[#box(height: 2.8cm)[#image("/papers/2012/img/hunan_science/q3_optD.png", height: 100%, fit: "contain")]]], cols: 2)
+[max width=0.52\linewidth]img/2012/hunan_science/q3_fig1.png
+  #choices([[width=0.15\paperwidth]img/2012/hunan_science/q3_optA.png], [[width=0.15\paperwidth]img/2012/hunan_science/q3_optB.png], [[width=0.15\paperwidth]img/2012/hunan_science/q3_optC.png], [[width=0.15\paperwidth]img/2012/hunan_science/q3_optD.png], cols: 1)
 ]
 
 #answer([D])
@@ -58,54 +68,70 @@ $ tan alpha \n e q1\L o n g r i g h t a r r o w alpha != (pi)/(4) $
 #solution[
 俯视图的外轮廓对应下部，内轮廓对应上部. 由正视图和侧视图可知，上部在正、侧两个方向上的投影都是宽度相同的矩形. 选项 A 可以由同轴的上下两个圆柱组成，选项 B 可以由圆柱上放置一个边平行于投影方向的正四棱柱组成，选项 C 可以由正四棱柱上放置一个两直角边等长且分别平行于两个投影方向的直三棱柱组成，三者均能得到题给的正视图和侧视图.
 
-选项 D 的内轮廓是图示方向的等边三角形. 设其边长为 $s$，则它在水平方向和竖直方向的投影长度分别为 $s$ 和 $(sqrt(3))/(2)s$，二者不相等. 因而以该三角形为底面的直棱柱在正、侧两个方向的投影矩形宽度不可能相同，与题给视图矛盾. 所以不可能的是 D.
+选项 D 的内轮廓是图示方向的等边三角形. 设其边长为 #mi(`s`)，则它在水平方向和竖直方向的投影长度分别为 #mi(`s`) 和 #mi(`\frac{\sqrt{3}}{2}s`)，二者不相等. 因而以该三角形为底面的直棱柱在正、侧两个方向的投影矩形宽度不可能相同，与题给视图矛盾. 所以不可能的是 D.
 ]
 
 #problem(4)[
-设某大学的女生体重 $y$（单位：$k g$）与身高 $x$（单位：$c m$）具有线性相关关系，根据一组样本数据 $(x_i,y_i)$（$i=1$，$2$，$dots.c$，$n$），用最小二乘法建立的回归方程为 $\h a t{y}=0.85 x-85.71$，则下列结论中不正确的是（ ）
-  #choices([$y$ 与 $x$ 具有正的线性相关关系], [回归直线过样本点的中心 $(overline(x),overline(y))$], [若该大学某女生身高增加 $1 c m$，则其体重约增加 $0.85 k g$], [若该大学某女生身高为 $170 c m$，则可断定其体重必为 $58.79 k g$], cols: 1)
+设某大学的女生体重 #mi(`y`)（单位：#mi(`\mathrm{kg}`)）与身高 #mi(`x`)（单位：#mi(`\mathrm{cm}`)）具有线性相关关系，根据一组样本数据 #mi(`(x_{i},y_{i})`)（#mi(`i=1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`n`)），用最小二乘法建立的回归方程为 #mi(`\hat{y}=0.85x-85.71`)，则下列结论中不正确的是（ ）
+  #choices([#mi(`y`) 与 #mi(`x`) 具有正的线性相关关系], [回归直线过样本点的中心 #mi(`(\overline{x},\overline{y})`)], [若该大学某女生身高增加 #mi(`1\,\mathrm{cm}`)，则其体重约增加 #mi(`0.85\,\mathrm{kg}`)], [若该大学某女生身高为 #mi(`170\,\mathrm{cm}`)，则可断定其体重必为 #mi(`58.79\,\mathrm{kg}`)], cols: 1)
 ]
 
 #answer([D])
 
 #solution[
-回归方程的斜率 $0.85>0$，所以 $x$ 与 $y$ 具有正的线性相关关系，A 正确. 最小二乘回归直线必经过样本中心 $(overline(x),overline(y))$，B 正确.
+回归方程的斜率 #mi(`0.85>0`)，所以 #mi(`x`) 与 #mi(`y`) 具有正的线性相关关系，A 正确. 最小二乘回归直线必经过样本中心 #mi(`(\overline{x},\overline{y})`)，B 正确.
 
-斜率的含义是：在回归意义下，身高每增加 $1 c m$，体重的平均预测值约增加 $0.85 k g$，所以 C 的“约”是合理的. 当 $x=170 c m$ 时只能得到预测值
+斜率的含义是：在回归意义下，身高每增加 #mi(`1\,\mathrm{cm}`)，体重的平均预测值约增加 #mi(`0.85\,\mathrm{kg}`)，所以 C 的“约”是合理的. 当 #mi(`x=170\,\mathrm{cm}`) 时只能得到预测值
 
-$ \h a t y=0.85 times 170 -85.71=58.79 k g $
 
-回归方程不能断定每一位身高为 $170 c m$ 的女生体重必为该值. 故不正确的是 D.
+#align(center)[#mitex(`
+\hat y=0.85\times170-85.71=58.79\,\mathrm{kg}
+`)]
+
+
+回归方程不能断定每一位身高为 #mi(`170\,\mathrm{cm}`) 的女生体重必为该值. 故不正确的是 D.
 ]
 
 #problem(5)[
-已知双曲线 $C:(x^2)/(a^2)-(y^2)/(b^2)=1$ 的焦距为 $10$，点 $P(2,1)$ 在 $C$ 的渐近线上，则 $C$ 的方程为（ ）
-  #choices([$(x^2)/(20)-(y^2)/(5)=1$], [$(x^2)/(5)-(y^2)/(20)=1$], [$(x^2)/(80)-(y^2)/(20)=1$], [$(x^2)/(20)-(y^2)/(80)=1$], cols: 2)
+已知双曲线 #mi(`C:\frac{x^{2}}{a^{2}}-\frac{y^{2}}{b^{2}}=1`) 的焦距为 #mi(`10`)，点 #mi(`P(2,1)`) 在 #mi(`C`) 的渐近线上，则 #mi(`C`) 的方程为（ ）
+  #choices([#mi(`\frac{x^{2}}{20}-\frac{y^{2}}{5}=1`)], [#mi(`\frac{x^{2}}{5}-\frac{y^{2}}{20}=1`)], [#mi(`\frac{x^{2}}{80}-\frac{y^{2}}{20}=1`)], [#mi(`\frac{x^{2}}{20}-\frac{y^{2}}{80}=1`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-双曲线的焦距为 $10$，所以 $2 c=10$，即 $c=5$. 对双曲线有
+双曲线的焦距为 #mi(`10`)，所以 #mi(`2c=10`)，即 #mi(`c=5`). 对双曲线有
 
-$ c^2=a^2+b^2 $
 
-从而 $a^2+b^2=25$.
+#align(center)[#mitex(`
+c^{2}=a^{2}+b^{2}
+`)]
 
-其渐近线为 $y= +- (b)/(a)x$. 点 $P(2,1)$ 在其中一条渐近线上，且 $a$，$b>0$，故
-$1=(b)/(a) times 2$，$b=(a)/(2)$.
-代入 $a^2+b^2=25$，得
-$a^2+(a^2)/(4)=25$，$a^2=20$，$b^2=5$.
+
+从而 #mi(`a^{2}+b^{2}=25`).
+
+其渐近线为 #mi(`y=\pm\frac{b}{a}x`). 点 #mi(`P(2,1)`) 在其中一条渐近线上，且 #mi(`a`)，#mi(`b>0`)，故
+
+#mi(`1=\frac{b}{a}\times2`)，#mi(`b=\frac{a}{2}`).
+
+代入 #mi(`a^{2}+b^{2}=25`)，得
+
+#mi(`a^{2}+\frac{a^{2}}{4}=25`)，#mi(`a^{2}=20`)，#mi(`b^{2}=5`).
+
 所以双曲线方程为
 
-$ (x^2)/(20)-(y^2)/(5)=1 $
+
+#align(center)[#mitex(`
+\frac{x^{2}}{20}-\frac{y^{2}}{5}=1
+`)]
+
 
 故选 A.
 ]
 
 #problem(6)[
-函数 $f(x)= sin x- cos (x+(pi)/(6))$ 的值域为（ ）
-  #choices([$[-2,2]$], [$[-sqrt(3),sqrt(3)]$], [$[-1,1]$], [$[-(sqrt(3))/(2),(sqrt(3))/(2)]$], cols: 1)
+函数 #mi(`f(x)=\sin x-\cos\left(x+\frac{\pi}{6}\right)`) 的值域为（ ）
+  #choices([#mi(`[-2,2]`)], [#mi(`[-\sqrt{3},\sqrt{3}]`)], [#mi(`[-1,1]`)], [#mi(`\left[-\frac{\sqrt{3}}{2},\frac{\sqrt{3}}{2}\right]`)], cols: 1)
 ]
 
 #answer([B])
@@ -113,18 +139,26 @@ $ (x^2)/(20)-(y^2)/(5)=1 $
 #solution[
 利用和角公式，
 
-$ f(x)= sin x-((sqrt(3))/(2) cos x-(1)/(2) sin x)=(3)/(2) sin x-(sqrt(3))/(2) cos x=sqrt(3) sin (x-(pi)/(6)) $
 
-由于 $-1 <= sin (x-(pi)/(6)) <= 1$，所以
+#align(center)[#mitex(`
+f(x)=\sin x-\left(\frac{\sqrt{3}}{2}\cos x-\frac{1}{2}\sin x\right)=\frac{3}{2}\sin x-\frac{\sqrt{3}}{2}\cos x=\sqrt{3}\sin\left(x-\frac{\pi}{6}\right)
+`)]
 
-$ -sqrt(3) <= f(x)\l e q s l a n t s q r t(3) $
 
-值域为 $[-sqrt(3),sqrt(3)]$，故选 B.
+由于 #mi(`-1\le\sin\left(x-\frac{\pi}{6}\right)\leqslant1`)，所以
+
+
+#align(center)[#mitex(`
+-\sqrt{3}\le f(x)\le\sqrt{3}
+`)]
+
+
+值域为 #mi(`[-\sqrt{3},\sqrt{3}]`)，故选 B.
 ]
 
 #problem(7)[
-在 $triangle A B C$ 中，$A B=2$，$A C=3$，$arrow(A B)\c d o t a r r o w(B C)=1$，则 $B C=$（ ）
-  #choices([$sqrt(3)$], [$sqrt(7)$], [$2 sqrt(2)$], [$sqrt(23)$], cols: 4)
+在 #mi(`\triangle ABC`) 中，#mi(`AB=2`)，#mi(`AC=3`)，#mi(`\overrightarrow{AB}\cdot\overrightarrow{BC}=1`)，则 #mi(`BC=`)（ ）
+  #choices([#mi(`\sqrt{3}`)], [#mi(`\sqrt{7}`)], [#mi(`2\sqrt{2}`)], [#mi(`\sqrt{23}`)], cols: 2)
 ]
 
 #answer([A])
@@ -132,47 +166,78 @@ $ -sqrt(3) <= f(x)\l e q s l a n t s q r t(3) $
 #solution[
 由向量关系
 
-$ arrow(A C)=arrow(A B)+arrow(B C) $
+
+#align(center)[#mitex(`
+\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{BC}
+`)]
+
 
 得
 
-$ A C^2=|arrow(A B)+arrow(B C)|^2 =A B^2+B C^2+2 arrow(A B)\c d o t a r r o w(B C) $
 
-代入 $A C=3$，$A B=2$，$arrow(A B)\c d o t a r r o w(B C)=1$，有
-$9=4+B C^2+2$，$B C^2=3$.
-因为边长为正，$B C=sqrt(3)$，故选 A.
+#align(center)[#mitex(`
+AC^{2}=|\overrightarrow{AB}+\overrightarrow{BC}|^{2}  =AB^{2}+BC^{2}+2\overrightarrow{AB}\cdot\overrightarrow{BC}
+`)]
+
+
+代入 #mi(`AC=3`)，#mi(`AB=2`)，#mi(`\overrightarrow{AB}\cdot\overrightarrow{BC}=1`)，有
+
+#mi(`9=4+BC^{2}+2`)，#mi(`BC^{2}=3`).
+
+因为边长为正，#mi(`BC=\sqrt{3}`)，故选 A.
 ]
 
 #problem(8)[
-已知两条直线 $l_1:y=m$ 和 $l_2:y=(8)/(2 m+1)$（$m>0$），$l_1$ 与函数 $y=| log _2 x|$ 的图象从左至右相交于点 $A$，$B$，$l_2$ 与函数 $y=| log _2 x|$ 的图象从左至右相交于点 $C$，$D$. 记线段 $A C$ 和 $B D$ 在 $x$ 轴上的投影长度分别为 $a$，$b$. 当 $m$ 变化时，$(b)/(a)$ 的最小值为（ ）
-  #choices([$16 sqrt(2)$], [$8 sqrt(2)$], [$8 root(3, 4)$], [$4 root(3, 4)$], cols: 4)
+已知两条直线 #mi(`l_{1}:y=m`) 和 #mi(`l_{2}:y=\frac{8}{2m+1}`)（#mi(`m>0`)），#mi(`l_{1}`) 与函数 #mi(`y=|\log_{2} x|`) 的图象从左至右相交于点 #mi(`A`)，#mi(`B`)，#mi(`l_{2}`) 与函数 #mi(`y=|\log_{2} x|`) 的图象从左至右相交于点 #mi(`C`)，#mi(`D`). 记线段 #mi(`AC`) 和 #mi(`BD`) 在 #mi(`x`) 轴上的投影长度分别为 #mi(`a`)，#mi(`b`). 当 #mi(`m`) 变化时，#mi(`\frac{b}{a}`) 的最小值为（ ）
+  #choices([#mi(`16\sqrt{2}`)], [#mi(`8\sqrt{2}`)], [#mi(`8\sqrt[3]{4}`)], [#mi(`4\sqrt[3]{4}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-对任意 $h>0$，方程 $| log _(2) x|=h$ 的两个交点横坐标为 $2^(-h)$ 和 $2^h$. 因而令
-$A=(2^(-m),m)$，$B=(2^m,m)$，$C=(2^(-n),n)$，$D=(2^n,n)$
-其中 $n=(8)/(2 m+1)$.
+对任意 #mi(`h>0`)，方程 #mi(`|\log_{2}x|=h`) 的两个交点横坐标为 #mi(`2^{-h}`) 和 #mi(`2^{h}`). 因而令
 
-于是两条线段在 $x$ 轴上的投影长度为
-$a=|2^(-n)-2^(-m)|$，$b=|2^n-2^m|$.
-当 $m != n$ 时，整理得
+#mi(`A=(2^{-m},m)`)，#mi(`B=(2^{m},m)`)，#mi(`C=(2^{-n},n)`)，#mi(`D=(2^{n},n)`)
 
-$ (b)/(a)=2^(m+n)=2^(m+(8)/(2 m+1)) $
+其中 #mi(`n=\dfrac{8}{2m+1}`).
 
-当 $m=n$ 时，$a=b=0$，比值无意义；下述取得最小值的 $m=(3)/(2)$ 满足 $m != n$，所以不影响最小值的求取.
-只需令 $g(m)=m+(8)/(2 m+1)$，其中 $m>0$. 有
+于是两条线段在 #mi(`x`) 轴上的投影长度为
 
-$ g'(m)=1-(16)/((2 m+1)^2) $
+#mi(`a=|2^{-n}-2^{-m}|`)，#mi(`b=|2^{n}-2^{m}|`).
 
-所以 $g'(m)<0$（$0<m<(3)/(2)$），$g'(m)>0$（$m>(3)/(2)$），最小值在 $m=(3)/(2)$ 处取得. 此时 $n=2$，且
+当 #mi(`m\neq n`) 时，整理得
 
-$ g((3)/(2))=(3)/(2)+2=(7)/(2) $
+
+#align(center)[#mitex(`
+\frac{b}{a}=2^{m+n}=2^{m+\frac{8}{2m+1}}
+`)]
+
+
+当 #mi(`m=n`) 时，#mi(`a=b=0`)，比值无意义；下述取得最小值的 #mi(`m=\frac{3}{2}`) 满足 #mi(`m\neq n`)，所以不影响最小值的求取.
+
+只需令 #mi(`g(m)=m+\dfrac8{2m+1}`)，其中 #mi(`m>0`). 有
+
+
+#align(center)[#mitex(`
+g'(m)=1-\frac{16}{(2m+1)^{2}}
+`)]
+
+
+所以 #mi(`g'(m)<0`)（#mi(`0<m<\frac{3}{2}`)），#mi(`g'(m)>0`)（#mi(`m>\frac{3}{2}`)），最小值在 #mi(`m=\frac{3}{2}`) 处取得. 此时 #mi(`n=2`)，且
+
+
+#align(center)[#mitex(`
+g\left(\frac{3}{2}\right)=\frac{3}{2}+2=\frac{7}{2}
+`)]
+
 
 故
 
-$ min (b)/(a)=2^((7)/(2))=8 sqrt(2) $
+
+#align(center)[#mitex(`
+\min\frac{b}{a}=2^{\frac{7}{2}}=8\sqrt{2}
+`)]
+
 
 选 B.
 ]
@@ -180,538 +245,379 @@ $ min (b)/(a)=2^((7)/(2))=8 sqrt(2) $
 #part-header("选做题：填空题")
 
 #problem(9)[
-在直角坐标系 $x O y$ 中，已知曲线 $C_1:\b e g i n{c a s e s} x=t+1,\\ y=1-2 t, \e n d{c a s e s}$（$t$ 为参数）与曲线 $C_2:\b e g i n{c a s e s} x=a sin theta ,\\ y=3 cos theta , \e n d{c a s e s}$（$theta$ 为参数，$a>0$）有一个公共点在 $x$ 轴上，则 $a=$#blank(){}.
+在直角坐标系 #mi(`xOy`) 中，已知曲线 #mi(`C_{1}:\begin{cases}x=t+1,\\  y=1-2t,\end{cases}`)（#mi(`t`) 为参数）与曲线 #mi(`C_{2}:\begin{cases}x=a\sin\theta,\\
+
+y=3\cos\theta,\end{cases}`)（#mi(`\theta`) 为参数，#mi(`a>0`)）有一个公共点在 #mi(`x`) 轴上，则 #mi(`a=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$(3)/(2)$])
+#answer([#mi(`\frac{3}{2}`)])
 
 #solution[
-由 $x=t+1$，$y=1-2 t$，消去参数 $t=x-1$，得
+由 #mi(`x=t+1`)，#mi(`y=1-2t`)，消去参数 #mi(`t=x-1`)，得
 
-$ y=1-2(x-1)=3-2 x $
 
-曲线 $C_1$ 与 $x$ 轴的交点满足 $y=0$，所以 $x=(3)/(2)$.
+#align(center)[#mitex(`
+y=1-2(x-1)=3-2x
+`)]
 
-曲线 $C_2$ 与 $x$ 轴的交点满足 $3 cos theta =0$，此时
 
-$ x=a sin theta = +- a $
+曲线 #mi(`C_{1}`) 与 #mi(`x`) 轴的交点满足 #mi(`y=0`)，所以 #mi(`x=\frac{3}{2}`).
 
-公共点的横坐标为正的 $(3)/(2)$，故必须有 $a=(3)/(2)$.
+曲线 #mi(`C_{2}`) 与 #mi(`x`) 轴的交点满足 #mi(`3\cos\theta=0`)，此时
+
+
+#align(center)[#mitex(`
+x=a\sin\theta=\pm a
+`)]
+
+
+公共点的横坐标为正的 #mi(`\frac{3}{2}`)，故必须有 #mi(`a=\frac{3}{2}`).
 ]
 
 #problem(10)[
-不等式 $|2 x+1|-2|x-1|>0$ 的解集为#blank(){}.
+不等式 #mi(`|2x+1|-2|x-1|>0`) 的解集为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$\{x | x>(1)/(4)\}$])
+#answer([#mi(`\left\{x\mid x>\frac{1}{4}\right\}`)])
 
 #solution[
 因为两边均为非负数，原不等式等价于平方后的不等式
 
-$ (2 x+1)^2>4(x-1)^2 $
+
+#align(center)[#mitex(`
+(2x+1)^{2}>4(x-1)^{2}
+`)]
+
 
 展开并整理，得
 
-$ 4 x^2+4 x+1>4 x^2-8 x+4 \i f f12 x>3 <=> x>(1)/(4) $
+
+#align(center)[#mitex(`
+4x^{2}+4x+1>4x^{2}-8x+4  \iff12x>3  \iff x>\frac{1}{4}
+`)]
+
 
 所以解集为
 
-$ \{x | x>(1)/(4)\} $
+
+#align(center)[#mitex(`
+\left\{x\mid x>\frac{1}{4}\right\}
+`)]
 ]
 
 #problem(11)[
-如图，过点 $P$ 的直线与 $\o d o t O$ 相交于 $A$，$B$ 两点. 若 $P A=1$，$A B=2$，$P O=3$，则 $\o d o t O$ 的半径等于#blank(){}.
+如图，过点 #mi(`P`) 的直线与 #mi(`\odot O`) 相交于 #mi(`A`)，#mi(`B`) 两点. 若 #mi(`PA=1`)，#mi(`AB=2`)，#mi(`PO=3`)，则 #mi(`\odot O`) 的半径等于\underline{\hspace{2.5em}}.
 
-
-#align(center)[#image("/papers/2012/img/hunan_science/q11_fig1.png", width: 42%)]
+[max width=0.42\linewidth]img/2012/hunan_science/q11_fig1.png
 ]
 
-#answer([$sqrt(6)$])
+#answer([#mi(`\sqrt{6}`)])
 
 #solution[
-直线 $P A B$ 是圆的一条割线，且 $P A=1$，$A B=2$，所以 $P B=P A+A B=3$. 由点 $P$ 的幂定理，
+直线 #mi(`PAB`) 是圆的一条割线，且 #mi(`PA=1`)，#mi(`AB=2`)，所以 #mi(`PB=PA+AB=3`). 由点 #mi(`P`) 的幂定理，
 
-$ P A dot P B=P O^2-r^2 $
 
-代入 $P O=3$，得到
-$1 times 3 =3^2-r^2$，$r^2=6$.
-半径为 $r=sqrt(6)$.
+#align(center)[#mitex(`
+PA\cdot PB=PO^{2}-r^{2}
+`)]
+
+
+代入 #mi(`PO=3`)，得到
+
+#mi(`1\times3=3^{2}-r^{2}`)，#mi(`r^{2}=6`).
+
+半径为 #mi(`r=\sqrt{6}`).
 ]
 
 #part-header("填空题")
 
 #problem(12)[
-已知复数 $z=(3+ i )^2$（$i$ 为虚数单位），则 $|z|=$#blank(){}.
+已知复数 #mi(`z=(3+\mathrm{i})^{2}`)（#mi(`\mathrm{i}`) 为虚数单位），则 #mi(`|z|=`)\underline{\hspace{2.5em}}.
 ]
 
-#answer([$10$])
+#answer([#mi(`10`)])
 
 #solution[
-复数模满足 $|z w|=|z||w|$，所以
+复数模满足 #mi(`|zw|=|z||w|`)，所以
 
-$ |z|=|(3+ i )^2|=|3+ i |^2=(sqrt(3^2+1^2))^2=10 $
+
+#align(center)[#mitex(`
+|z|=|(3+\mathrm{i})^{2}|=|3+\mathrm{i}|^{2}=(\sqrt{3^{2}+1^{2}})^{2}=10
+`)]
 ]
 
 #problem(13)[
-$(2 sqrt(x)-(1)/(sqrt(x)))^6$ 的二项展开式中的常数项为#blank(){}.（用数字作答）
+#mi(`\left(2\sqrt{x}-\frac{1}{\sqrt{x}}\right)^{6}`) 的二项展开式中的常数项为\underline{\hspace{2.5em}}.（用数字作答）
 ]
 
-#answer([$-160$])
+#answer([#mi(`-160`)])
 
 #solution[
-由于题式中含有 $sqrt(x)$ 的倒数，需有 $x>0$. 将通项写成
+由于题式中含有 #mi(`\sqrt{x}`) 的倒数，需有 #mi(`x>0`). 将通项写成
 
-$ C_6^j(2 sqrt(x))^(6-j)(-(1)/(sqrt(x)))^j =C_6^(j) 2^(6-j)(-1)^j x^(3-j) $
 
-其中 $j=0$，$1$，$\l d o t s$，$6$. 要得到常数项，必须有 $3-j=0$，即 $j=3$. 因此常数项为
+#align(center)[#mitex(`
+\mathrm{C}_{6}^{j}(2\sqrt{x})^{6-j}\left(-\frac{1}{\sqrt{x}}\right)^{j}  =\mathrm{C}_{6}^{j}2^{6-j}(-1)^{j} x^{3-j}
+`)]
 
-$ C_6^3 2^3(-1)^3=20 times 8 times (-1)=-160 $
+
+其中 #mi(`j=0`)，#mi(`1`)，#mi(`\ldots`)，#mi(`6`). 要得到常数项，必须有 #mi(`3-j=0`)，即 #mi(`j=3`). 因此常数项为
+
+
+#align(center)[#mitex(`
+\mathrm{C}_{6}^{3} 2^{3}(-1)^{3}=20\times8\times(-1)=-160
+`)]
 ]
 
 #problem(14)[
-如果执行如图所示的程序框图，输入 $x=-1$，$n=3$，则输出的数 $S=$#blank(){}.
+如果执行如图所示的程序框图，输入 #mi(`x=-1`)，#mi(`n=3`)，则输出的数 #mi(`S=`)\underline{\hspace{2.5em}}.
 
-\texfigure[max width=0.56\linewidth]{img_repaint/2012/hunan_science/q14_fig1.tex}
+\texfigure[max width=0.56\linewidth]img_repaint/2012/hunan_science/q14_fig1.tex
 ]
 
-#answer([$-4$])
+#answer([#mi(`-4`)])
 
 #solution[
-程序先置 $S=6$，$i=n-1=2$. 当 $i >= 0$ 时执行
-$S=S dot x+i+1$，$i=i-1$.
-代入 $x=-1$，逐次计算为
+程序先置 #mi(`S=6`)，#mi(`i=n-1=2`). 当 #mi(`i\geqslant0`) 时执行
 
-$ S=6\l o n g m a p s t o -3\l o n g m a p s t o5\l o n g m a p s t o-4 $
+#mi(`S=S\cdot x+i+1`)，#mi(`i=i-1`).
 
-对应的 $i$ 依次为 $2$，$1$，$0$，因为
-$6(-1)+2+1=-3$，$(-3)(-1)+1+1=5$，$5(-1)+0+1=-4$.
-此后 $i=-1<0$，循环结束，故输出 $S=-4$.
+代入 #mi(`x=-1`)，逐次计算为
+
+
+#align(center)[#mitex(`
+S=6\longmapsto -3\longmapsto5\longmapsto-4
+`)]
+
+
+对应的 #mi(`i`) 依次为 #mi(`2`)，#mi(`1`)，#mi(`0`)，因为
+
+#mi(`6(-1)+2+1=-3`)，#mi(`(-3)(-1)+1+1=5`)，#mi(`5(-1)+0+1=-4`).
+
+此后 #mi(`i=-1<0`)，循环结束，故输出 #mi(`S=-4`).
 ]
 
 #problem(15)[
-函数 $f(x)= sin ( omega x+ phi.alt )$ 的导函数 $y=f'(x)$ 的部分图象如图所示，其中，$P$ 为图象与 $y$ 轴的交点，$A$，$C$ 为图象与 $x$ 轴的两个交点，$B$ 为图象的最低点.
+函数 #mi(`f(x)=\sin(\omega x+\varphi)`) 的导函数 #mi(`y=f'(x)`) 的部分图象如图所示，其中，#mi(`P`) 为图象与 #mi(`y`) 轴的交点，#mi(`A`)，#mi(`C`) 为图象与 #mi(`x`) 轴的两个交点，#mi(`B`) 为图象的最低点.
 
 
-+ (1) 若 $phi.alt =(pi)/(6)$，点 $P$ 的坐标为 $(0,(3 sqrt(3))/(2))$，则 $omega =$#blank(){}.
-+ (2) 若在曲线段 $\o v e r s e t{\f r o w n}{A B C}$ 与 $x$ 轴所围成的区域内随机取一点，则该点在 $triangle A B C$ 内的概率为#blank(){}.
++ (1) 
 
 
 
-#align(center)[#image("/papers/2012/img/hunan_science/q15_fig1.png", width: 36%)]
+[max width=0.36\linewidth]img/2012/hunan_science/q15_fig1.png
 ]
 
-#answer([$3\)；\((pi)/(4)$])
+#answer([#mi(`3`)；#mi(`\frac{\pi}{4}`)])
 
 #solution[
-由 $f(x)= sin ( omega x+ phi.alt )$，得
+由 #mi(`f(x)=\sin(\omega x+\varphi)`)，得
 
-$ f'(x)= omega cos ( omega x+ phi.alt ) $
+
+#align(center)[#mitex(`
+f'(x)=\omega\cos(\omega x+\varphi)
+`)]
+
 
 在第一个小问中，
 
-$ f'(0)= omega cos (pi)/(6)=(sqrt(3))/(2) omega =(3 sqrt(3))/(2) $
 
-所以 $omega =3$.
+#align(center)[#mitex(`
+f'(0)=\omega\cos\frac{\pi}{6}=\frac{\sqrt{3}}{2}\omega=\frac{3\sqrt{3}}{2}
+`)]
+
+
+所以 #mi(`\omega=3`).
 
 于是导函数为
 
-$ y=3 cos (3 x+(pi)/(6)) $
+
+#align(center)[#mitex(`
+y=3\cos\left(3x+\frac{\pi}{6}\right)
+`)]
+
 
 相邻两个零点对应
-$3 x+(pi)/(6)=(pi)/(2)$，$(3 pi)/(2)$，
-即 $x_A=(pi)/(9)$，$x_C=(4 pi)/(9)$. 两点间的横坐标距离为 $(pi)/(3)$. 最低点满足相位为 $pi$，所以
-$x_B=(5 pi)/(18)$，$y_B=-3$.
-三角形 $A B C$ 的面积为
 
-$ S_( triangle A B C)=(1)/(2) dot (pi)/(3) dot 3 =(pi)/(2) $
+#mi(`3x+\frac{\pi}{6}=\frac{\pi}{2}`)，#mi(`\frac{3\pi}{2}`)，
+
+即 #mi(`x_{A}=\frac{\pi}{9}`)，#mi(`x_{C}=\frac{4\pi}{9}`). 两点间的横坐标距离为 #mi(`\frac{\pi}{3}`). 最低点满足相位为 #mi(`\pi`)，所以
+
+#mi(`x_{B}=\frac{5\pi}{18}`)，#mi(`y_{B}=-3`).
+
+三角形 #mi(`ABC`) 的面积为
 
 
-曲线段在 $A$，$C$ 之间位于 $x$ 轴下方，所围区域面积为
+#align(center)[#mitex(`
+S_{\triangle ABC}=\frac{1}{2}\cdot\frac{\pi}{3}\cdot3=\frac{\pi}{2}
+`)]
 
-$ S=integral_((pi)/(9))^(4(pi)/(9))-3 cos (3 x+(pi)/(6)) \m a t h r m d x {}=-. sin (3 x+(pi)/(6))|_((pi)/(9))^(4(pi)/(9))=2 $
+
+曲线段在 #mi(`A`)，#mi(`C`) 之间位于 #mi(`x`) 轴下方，所围区域面积为
+
+
+#align(center)[#mitex(`
+S=\int_{\frac{\pi}{9}}^{4\frac{\pi}{9}}-3\cos\left(3x+\frac{\pi}{6}\right)\,\mathrm{d}x{}=-\left.\sin\left(3x+\frac{\pi}{6}\right)\right|_{\frac{\pi}{9}}^{4\frac{\pi}{9}}=2
+`)]
+
 
 因此随机取点落在三角形内的概率为
 
-$ (S_( triangle A B C))/(S)=((pi)/(2))/(2)=(pi)/(4) $
+
+#align(center)[#mitex(`
+\frac{S_{\triangle ABC}}{S}=\frac{\frac{\pi}{2}}{2}=\frac{\pi}{4}
+`)]
 ]
 
 #problem(16)[
-设 $N=2^n$（$n\i n b o l d(N)^*$，$n >= 2$），将 $N$ 个数 $x_1$，$x_2$，$dots.c$，$x_N$ 依次放入编号为 $1$，$2$，$dots.c$，$N$ 的 $N$ 个位置，得到排列 $P_0=x_(1) x_2 dots.c x_N$. 将该排列中分别位于奇数与偶数位置的数取出，并按原顺序依次放入对应的前 $(N)/(2)$ 和后 $(N)/(2)$ 个位置，得到排列 $P_1=x_(1) x_3 dots.c x_(N-1)x_(2) x_4 dots.c x_N$，将此操作称为 $C$ 变换. 将 $P_1$ 分成两段，每段 $(N)/(2)$ 个数，并对每段作 $C$ 变换，得到 $P_2$；当 $2 <= i <= n-2$ 时，将 $P_i$ 分成 $2^i$ 段，每段 $(N)/(2^i)$ 个数，并对每段作 $C$ 变换，得到 $P_(i+1)$. 例如，当 $N=8$ 时，$P_2=x_(1) x_(5) x_(3) x_(7) x_(2) x_(6) x_(4) x_8$，此时 $x_7$ 位于 $P_2$ 中的第 $4$ 个位置.
+设 #mi(`N=2^{n}`)（#mi(`n\in\mathbf{N}^{*}`)，#mi(`n\geqslant2`)），将 #mi(`N`) 个数 #mi(`x_{1}`)，#mi(`x_{2}`)，#mi(`\cdots`)，#mi(`x_{N}`) 依次放入编号为 #mi(`1`)，#mi(`2`)，#mi(`\cdots`)，#mi(`N`) 的 #mi(`N`) 个位置，得到排列 #mi(`P_{0}=x_{1}x_{2}\cdots x_{N}`). 将该排列中分别位于奇数与偶数位置的数取出，并按原顺序依次放入对应的前 #mi(`\frac{N}{2}`) 和后 #mi(`\frac{N}{2}`) 个位置，得到排列 #mi(`P_{1}=x_{1}x_{3}\cdots x_{N-1}x_{2}x_{4}\cdots x_{N}`)，将此操作称为 #mi(`C`) 变换. 将 #mi(`P_{1}`) 分成两段，每段 #mi(`\frac{N}{2}`) 个数，并对每段作 #mi(`C`) 变换，得到 #mi(`P_{2}`)；当 #mi(`2\le i\le n-2`) 时，将 #mi(`P_{i}`) 分成 #mi(`2^{i}`) 段，每段 #mi(`\frac{N}{2^{i}}`) 个数，并对每段作 #mi(`C`) 变换，得到 #mi(`P_{i+1}`). 例如，当 #mi(`N=8`) 时，#mi(`P_{2}=x_{1}x_{5}x_{3}x_{7}x_{2}x_{6}x_{4}x_{8}`)，此时 #mi(`x_{7}`) 位于 #mi(`P_{2}`) 中的第 #mi(`4`) 个位置.
 
 
-+ (1) 当 $N=16$ 时，$x_7$ 位于 $P_2$ 中的第#blank(){}个位置；
-+ (2) 当 $N=2^n$（$n >= 8$）时，$x_(173)$ 位于 $P_4$ 中的第#blank(){}个位置.
++ (1)
 ]
 
-#answer([$6\)；\(3 dot 2 ""^(n-4)+11$])
+#answer([#mi(`6`)；#mi(`3\cdot 2^{n-4}+11`)])
 
 #solution[
-当 $N=16$ 时，第一次变换后
-
-$ P_1=x_(1) x_(3) x_(5) x_(7) x_(9) x_(11)x_(13)x_(15)x_(2) x_(4) x_(6) x_(8) x_(10)x_(12)x_(14)x_(16) $
-
-将前后两段分别作 $C$ 变换，得到
-
-$ \b e g i n{a l i g n e d} P_2={}&x_(1) x_(5) x_(9) x_(13)x_(3) x_(7) x_(11)x_(15)\\ {}&x_(2) x_(6) x_(10)x_(14)x_(4) x_(8) x_(12)x_(16). \e n d{a l i g n e d} $
-
-所以 $x_7$ 位于第 $6$ 个位置.
-
-一般地，用从 $0$ 开始的下标 $j-1$ 表示 $x_j$，并写成 $n$ 位二进制数
-
-$ j-1=(b_(n-1)b_(n-2) dots.c b_(1) b_0)_2 $
-
-每次在各段内作奇偶位置重排，相当于把当前段内最低位 $b_0$ 移到该段最前面. 因此经过 $i$ 次变换后，$x_j$ 的位置下标的二进制排列为
-
-$ (b_(0) b_1 dots.c b_(i-1)b_(n-1)b_(n-2) dots.c b_i)_2 $
+当 #mi(`N=16`) 时，第一次变换后
 
 
-对 $x_(173)$，有 $173-1=172=(10101100)_2$. 当 $n >= 8$ 时，在高位补零不影响下面的计算. 经过 $4$ 次变换后，位置的零起始下标为
+#align(center)[#mitex(`
+P_{1}=x_{1}x_{3}x_{5}x_{7}x_{9}x_{11}x_{13}x_{15}x_{2}x_{4}x_{6}x_{8}x_{10}x_{12}x_{14}x_{16}
+`)]
 
-$ (0011 b_(n-1) dots.c b_4)_2=3 dot 2 ""^(n-4)+10 $
 
-题目中的位置从 $1$ 开始编号，所以位置为
+将前后两段分别作 #mi(`C`) 变换，得到
 
-$ 3 dot 2 ""^(n-4)+11 $
+
+#align(center)[#mitex(`
+\begin{aligned}P_{2}={}&x_{1}x_{5}x_{9}x_{13}x_{3}x_{7}x_{11}x_{15}\\{}&x_{2}x_{6}x_{10}x_{14}x_{4}x_{8}x_{12}x_{16}.\end{aligned}
+`)]
+
+
+所以 #mi(`x_{7}`) 位于第 #mi(`6`) 个位置.
+
+一般地，用从 #mi(`0`) 开始的下标 #mi(`j-1`) 表示 #mi(`x_{j}`)，并写成 #mi(`n`) 位二进制数
+
+
+#align(center)[#mitex(`
+j-1=(b_{n-1}b_{n-2}\cdots b_{1}b_{0})_{2}
+`)]
+
+
+每次在各段内作奇偶位置重排，相当于把当前段内最低位 #mi(`b_{0}`) 移到该段最前面. 因此经过 #mi(`i`) 次变换后，#mi(`x_{j}`) 的位置下标的二进制排列为
+
+
+#align(center)[#mitex(`
+(b_{0}b_{1}\cdots b_{i-1}b_{n-1}b_{n-2}\cdots b_{i})_{2}
+`)]
+
+
+对 #mi(`x_{173}`)，有 #mi(`173-1=172=(10101100)_{2}`). 当 #mi(`n\geqslant8`) 时，在高位补零不影响下面的计算. 经过 #mi(`4`) 次变换后，位置的零起始下标为
+
+
+#align(center)[#mitex(`
+(0011\,b_{n-1}\cdots b_{4})_{2}=3\cdot2^{n-4}+10
+`)]
+
+
+题目中的位置从 #mi(`1`) 开始编号，所以位置为
+
+
+#align(center)[#mitex(`
+3\cdot2^{n-4}+11
+`)]
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-某超市为了了解顾客的购物量及结算时间等信息，安排一名员工随机收集了在该超市购物的 $100$ 位顾客的相关数据，如下表所示.
+某超市为了了解顾客的购物量及结算时间等信息，安排一名员工随机收集了在该超市购物的 #mi(`100`) 位顾客的相关数据，如下表所示.
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}
 \hline
+
 一次购物量 & 1至4件 & 5至8件 & 9至12件 & 13至16件 & 17件及以上 \\
+
 \hline
-顾客数（人） & $x$ & 30 & 25 & $y$ & 10 \\
+
+顾客数（人） & #mi(`x`) & 30 & 25 & #mi(`y`) & 10 \\
+
 \hline
+
 结算时间（分钟/人） & 1 & 1.5 & 2 & 2.5 & 3 \\
+
 \hline
-\end{tabular}
-\end{center}
 
-已知这 $100$ 位顾客中一次购物量超过 $8$ 件的顾客占 $55\%$.
+已知这 #mi(`100`) 位顾客中一次购物量超过 #mi(`8`) 件的顾客占 #mi(`55\%`).
 
 
-+ (1) 确定 $x$，$y$ 的值，并求顾客一次购物的结算时间 $X$ 的分布列与数学期望；
-+ (2) 若某顾客到达收银台时前面恰有 $2$ 位顾客需结算，且各顾客的结算相互独立，求该顾客结算前的等候时间不超过 $2.5$ 分钟的概率.（注：将频率视为概率）
++ (1) 
 
 
 
-+ (1) 由一次购物量超过 $8$ 件的顾客占 $55\%$，得
 
-$ 25+y+10=100 times 55 \%=55 $
-
-所以 $y=20$. 再由顾客总数为 $100$，得
-
-$ x+30+25+20+10=100 $
-
-从而 $x=15$.
-
-结算时间 $X$ 的可能取值及其频率如下：
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|c|}
-\hline
-$X$&$1$&$1.5$&$2$&$2.5$&$3$\\
-\hline
-$P$&$(15)/(100)$&$(30)/(100)$&$(25)/(100)$&$(20)/(100)$&$(10)/(100)$\\
-\hline
-\end{tabular}
-\end{center}
-即 $P(X=1)=(3)/(20)$，$P(X=1.5)=(3)/(10)$，$P(X=2)=(1)/(4)$，$P(X=2.5)=(1)/(5)$，$P(X=3)=(1)/(10)$.
-因此
-
-$ E(X)=1 dot (3)/(20)+1.5 dot (3)/(10)+2 dot (1)/(4)+2.5 dot (1)/(5)+3 dot (1)/(10)=1.9 $
-+ (2) 设前面的两位顾客结算时间分别为 $X_1$，$X_2$. 由独立性，
-等候时间不超过 $2.5$ 分钟的事件为
-$(X_1,X_2)=(1,1)$，$(1,1.5)$，$(1.5,1)$.
-所以所求概率为
-
-$ P(X_1+X_2 <= 2 .5)=((3)/(20))^2 +2 dot (3)/(20) dot (3)/(10)=(9)/(400)+(18)/(200)=(9)/(80) $
++ (1)
 ]
 
 #problem(18)[
-如图，在四棱锥 $P-A B C D$ 中，$P A bot$ 平面 $A B C D$，$A B=4$，$B C=3$，$A D=5$，$angle D A B= angle A B C=90^ degree$，$E$ 是 $C D$ 的中点.
+如图，在四棱锥 #mi(`P-ABCD`) 中，#mi(`PA\perp`) 平面 #mi(`ABCD`)，#mi(`AB=4`)，#mi(`BC=3`)，#mi(`AD=5`)，#mi(`\angle DAB=\angle ABC=90^{\circ}`)，#mi(`E`) 是 #mi(`CD`) 的中点.
 
 
-+ (1) 证明：$C D bot$ 平面 $P A E$；
-+ (2) 若直线 $P B$ 与平面 $P A E$ 所成的角和 $P B$ 与平面 $A B C D$ 所成的角相等，求四棱锥 $P-A B C D$ 的体积.
-
-
-
-#align(center)[#image("/papers/2012/img/hunan_science/q18_fig1.png", width: 72%)]
++ (1) 
 
 
 
-+ (1) 在底面 $A B C D$ 中，取 $A(0,0,0)$、$B(4,0,0)$、$C(4,3,0)$、$D(0,5,0)$ 为各点坐标.
-因为 $E$ 是 $C D$ 的中点，所以 $E(2,4,0)$. 从而
-$arrow(C D)=(-4,2,0)$，$arrow(A E)=(2,4,0)$，
-且
+[max width=0.72\linewidth]img/2012/hunan_science/q18_fig1.png
 
-$ arrow(C D)\c d o t a r r o w(A E)=-8+8=0 $
 
-又因为 $P A bot$ 平面 $A B C D$，所以 $C D bot P A$. 直线 $P A$ 与 $A E$ 相交且都在平面 $P A E$ 内，直线 $C D$ 垂直于这两条相交直线，故
-
-$ C D bot "平面 "P A E $
-+ (2) 设 $P A=h$，则 $P(0,0,h)$. 梯形 $A B C D$ 的面积为
-
-$ S_(A B C D)=(A D+B C)/(2) dot A B =(5+3)/(2) dot 4 =16 $
-
-设直线 $P B$ 与平面 $P A E$、平面 $A B C D$ 所成的角分别为 $alpha$，$beta$. 平面 $P A E$ 的一个法向量可取
-
-$ arrow(A P)\t i m e s a r r o w(A E)=(-4 h,2 h,0) $
-
-而
-$arrow(P B)=(4,0,-h)$，$|P B|=sqrt(h^2+16)$.
-因此
-
-$ sin alpha =(|arrow(P B){ dot }(arrow(A P)\t i m e s a r r o w(A E))|)/(|P B| |arrow(A P)\t i m e s a r r o w(A E)|)=(8)/(sqrt(5)sqrt(h^2+16)) $
-
-直线 $P B$ 与底面所成角满足
-
-$ sin beta =(P A)/(P B)=(h)/(sqrt(h^2+16)) $
-
-题设 $alpha = beta$，且两角均为锐角或直角，故正弦相等，得
-$(8)/(sqrt(5)sqrt(h^2+16))=(h)/(sqrt(h^2+16))$，$h=(8)/(sqrt(5))$.
-所以四棱锥体积为
-
-$ V=(1)/(3)S_(A B C D) dot P A =(1)/(3) dot 16 dot (8)/(sqrt(5))=(128 sqrt(5))/(15) $
++ (1)
 ]
 
 #problem(19)[
-已知数列 $\{a_n\}$ 的各项均为正数，记 $A(n)=a_1+a_2+ dots.c +a_n$，$B(n)=a_2+a_3+ dots.c +a_(n+1)$，$C(n)=a_3+a_4+ dots.c +a_(n+2)$，$n=1$，$2$，$dots.c$.
+已知数列 #mi(`\{a_{n}\}`) 的各项均为正数，记 #mi(`A(n)=a_{1}+a_{2}+\cdots+a_{n}`)，#mi(`B(n)=a_{2}+a_{3}+\cdots+a_{n+1}`)，#mi(`C(n)=a_{3}+a_{4}+\cdots+a_{n+2}`)，#mi(`n=1`)，#mi(`2`)，#mi(`\cdots`).
 
 
-+ (1) 若 $a_1=1$，$a_2=5$，且对任意 $n\i n b o l d(N)^*$，三个数 $A(n)$，$B(n)$，$C(n)$ 组成等差数列，求数列 $\{a_n\}$ 的通项公式；
-+ (2) 证明：数列 $\{a_n\}$ 是公比为 $q$ 的等比数列的充分必要条件是：对任意 $n\i n b o l d(N)^*$，三个数 $A(n)$，$B(n)$，$C(n)$ 组成公比为 $q$ 的等比数列.
++ (1) 
 
 
 
-+ (1) 对任意 $n$，由 $A(n)$，$B(n)$，$C(n)$ 成等差数列，有
 
-$ A(n)+C(n)=2 B(n) $
-
-代入三组和式并消去公共项，得到
-
-$ a_1-a_(n+1)=a_2-a_(n+2) $
-
-即
-
-$ a_(n+2)-a_(n+1)=a_2-a_1=4 $
-
-所以数列从第一项开始公差为 $4$，结合 $a_1=1$，得
-
-$ a_n=a_1+(n-1) dot 4 =4 n-3 $
-+ (2) 先证必要性. 若 $\{a_n\}$ 是公比为 $q$ 的等比数列，则
-$B(n)=q A(n)$，$C(n)=q B(n)=q^(2) A(n)$.
-故 $A(n)$，$B(n)$，$C(n)$ 成公比为 $q$ 的等比数列.
-
-再证充分性. 已知对任意 $n$，
-$B(n)=q A(n)$，$C(n)=q B(n)$.
-取相邻两式相减. 由 $B(n)-B(n-1)=a_(n+1)$，以及
-
-$ A(n)-A(n-1)=a_n $
-
-对 $n >= 2$ 有
-
-$ a_(n+1)=B(n)-B(n-1) =q(A(n)-A(n-1)) =q a_n $
-
-当 $n=1$ 时，$B(1)=q A(1)$ 给出 $a_2=q a_1$. 因而对所有 $n >= 1$ 都有 $a_(n+1)=q a_n$，所以 $\{a_n\}$ 是公比为 $q$ 的等比数列. 必要性与充分性均成立.
++ (1)
 ]
 
 #problem(20)[
-某企业接到生产 $3000$ 台某产品的 $A$，$B$，$C$ 三种部件的订单，每台产品需要这三种部件的数量分别为 $2$，$2$，$1$（单位：件）. 已知每个工人每天可生产 $A$ 部件 $6$ 件，或 $B$ 部件 $3$ 件，或 $C$ 部件 $2$ 件. 该企业计划安排 $200$ 名工人分成三组分别生产这三种部件，生产 $B$ 部件的人数与生产 $A$ 部件的人数成正比，比例系数为 $k$（$k$ 为正整数）.
+某企业接到生产 #mi(`3000`) 台某产品的 #mi(`A`)，#mi(`B`)，#mi(`C`) 三种部件的订单，每台产品需要这三种部件的数量分别为 #mi(`2`)，#mi(`2`)，#mi(`1`)（单位：件）. 已知每个工人每天可生产 #mi(`A`) 部件 #mi(`6`) 件，或 #mi(`B`) 部件 #mi(`3`) 件，或 #mi(`C`) 部件 #mi(`2`) 件. 该企业计划安排 #mi(`200`) 名工人分成三组分别生产这三种部件，生产 #mi(`B`) 部件的人数与生产 #mi(`A`) 部件的人数成正比，比例系数为 #mi(`k`)（#mi(`k`) 为正整数）.
 
 
-+ (1) 设生产 $A$ 部件的人数为 $x$，分别写出完成 $A$，$B$，$C$ 三种部件生产需要的时间；
-+ (2) 假设这三种部件的生产同时开工，试确定正整数 $k$ 的值，使完成订单任务的时间最短，并给出时间最短时具体的人数分组方案.
++ (1) 
 
 
 
-+ (1) 生产三种部件分别需要
-$T_A(x)=(3000 dot 2)/(6 x)=(1000)/(x)$，$T_B(x)=(3000 dot 2)/(3 k x)=(2000)/(k x)$
 
-$ T_C(x)=(3000)/(2[200-(1+k)x])=(1500)/(200-(1+k)x) $
-
-其中 $x\i n b o l d(N)^*$，且 $(1+k)x<200$.
-+ (2) 完成订单所需时间为
-
-$ T= max \{T_A(x),T_B(x),T_C(x)\} $
-
-先考察 $k=1$. 当 $x <= 72$ 时，
-
-$ T >= T_B(x)=(2000)/(x) >= (2000)/(72)=(250)/(9) $
-
-当 $x >= 73$ 时，$200-2 x <= 54$，故
-
-$ T >= T_C(x)=(1500)/(200-2 x) >= (1500)/(54)=(250)/(9) $
-
-
-当 $k=2$ 时，
-$T_A(x)=T_B(x)=(1000)/(x)$，$T_C(x)=(1500)/(200-3 x)$，$x <= 66$.
-若 $x <= 44$，则
-
-$ T >= (1000)/(x) >= (1000)/(44)=(250)/(11) $
-
-取 $x=44$ 时，
-$T_A=T_B=(250)/(11)$，$T_C=(1500)/(68)=(375)/(17)<(250)/(11)$.
-若 $x >= 45$，则
-
-$ T >= T_C(x) >= (1500)/(200-3 dot 45)=(300)/(13)>(250)/(11) $
-
-所以 $k=2$ 时最小时间为 $(250)/(11)$，人数分组为
-$x=44$，$k x=88$，$200-(1+k)x=68$.
-
-最后考察 $k >= 3$. 此时 $T_B(x) <= T_A(x)$，且可行的 $x$ 范围包含在 $k=3$ 的可行范围内，而 $T_C(x)$ 随 $k$ 增大而不减. 对 $k=3$，若 $x <= 36$，则
-
-$ T >= T_A(x) >= (1000)/(36)=(250)/(9) $
-
-若 $x >= 37$，则
-
-$ T >= T_C(x) >= (1500)/(200-4 dot 37)=(375)/(13)>(250)/(9) $
-
-因此所有 $k >= 3$ 都有 $T >= (250)/(9)>(250)/(11)$. 综上，最优值为 $k=2$，最短时间为 $(250)/(11)$ 天，方案为 $A$，$B$，$C$ 三组分别 $44$，$88$，$68$ 人.
++ (1)
 ]
 
 #problem(21)[
-在直角坐标系 $x O y$ 中，曲线 $C_1$ 上的点均在圆 $C_2:(x-5)^2+y^2=9$ 外，且对 $C_1$ 上任意一点 $M$，$M$ 到直线 $x=-2$ 的距离等于该点与圆 $C_2$ 上点的距离的最小值.
+在直角坐标系 #mi(`xOy`) 中，曲线 #mi(`C_{1}`) 上的点均在圆 #mi(`C_{2}:(x-5)^{2}+y^{2}=9`) 外，且对 #mi(`C_{1}`) 上任意一点 #mi(`M`)，#mi(`M`) 到直线 #mi(`x=-2`) 的距离等于该点与圆 #mi(`C_{2}`) 上点的距离的最小值.
 
 
-+ (1) 求曲线 $C_1$ 的方程；
-+ (2) 设 $P(x_0,y_0)$（$y_0 != +- 3$）为圆 $C_2$ 外一点，过 $P$ 作圆 $C_2$ 的两条切线，分别与曲线 $C_1$ 相交于点 $A$，$B$ 和 $C$，$D$. 证明：当 $P$ 在直线 $x=-4$ 上运动时，四点 $A$，$B$，$C$，$D$ 的纵坐标之积为定值.
++ (1) 
 
 
 
-+ (1) 设 $M(x,y)$ 为 $C_1$ 上一点. 因为 $M$ 在圆 $C_2$ 外，$M$ 到圆上点的最小距离等于 $M$ 到圆心 $O(5,0)$ 的距离减去半径 $3$，即
 
-$ sqrt((x-5)^2+y^2)-3 $
-
-题设给出
-
-$ |x+2|=sqrt((x-5)^2+y^2)-3 $
-
-若 $x <= -2$，则 $|x+2|=-x-2$，从而
-
-$ sqrt((x-5)^2+y^2)=1-x $
-
-平方得
-$(x-5)^2+y^2=(1-x)^2$，$y^2=8 x-24<0$
-矛盾. 因此 $x>-2$，于是 $|x+2|=x+2$，有
-
-$ sqrt((x-5)^2+y^2)=x+5 $
-
-平方整理得
-$(x-5)^2+y^2=(x+5)^2$，$y^2=20 x$.
-反之，曲线 $y^2=20 x$ 上的点满足 $x >= 0$，代回等式可验证确在圆外且满足距离条件. 故
-
-$ C_1:y^2=20 x $
-+ (2) 设 $P=(-4,y_0)$，其中 $y_0 != +- 3$. 直线 $x=-4$ 到圆心的距离为 $9$，不可能是切线；水平直线 $y=y_0$ 只有在 $y_0= +- 3$ 时才与圆相切，也已被题设排除. 因此两条切线的斜率均为有限非零数，过 $P$ 的这类直线可写成
-
-$ y-y_0=k(x+4) $
-
-将 $x=(y-y_0)/(k)-4$ 代入 $y^2=20 x$，得
-
-$ k y^2-20 y+20 y_0+80 k=0 $
-
-因此该直线与抛物线交点的两个纵坐标之积为
-
-$ (20(y_0+4 k))/(k) $
-
-
-设两条切线的斜率为 $k_1$，$k_2$. 切线与圆
-
-$ (x-5)^2+y^2=9 $
-
-相切的条件是圆心到直线
-
-$ k x-y+4 k+y_0=0 $
-
-的距离等于 $3$，即
-
-$ (|9 k+y_0|)/(sqrt(k^2+1))=3 $
-
-平方整理为
-
-$ 72 k^2+18 y_(0) k+y_0^2-9=0 $
-
-故
-$k_1+k_2=-(y_0)/(4)$，$k_(1) k_2=(y_0^2-9)/(72)$.
-四个交点纵坐标的乘积为
-
-$ (20(y_0+4 k_1))/(k_1) dot (20(y_0+4 k_2))/(k_2)=400(y_0^2+4 y_0(k_1+k_2)+16 k_(1) k_2)/(k_(1) k_2) $
-
-代入 $k_1+k_2$ 与 $k_(1) k_2$，得
-
-$ 400((16)/(72)(y_0^2-9))/((y_0^2-9)/(72))=6400 $
-
-所以该乘积为定值 $6400$.
++ (1)
 ]
 
 #problem(22)[
-已知函数 $f(x)= e ""^(a x)-x$，其中 $a\n e q0$.
+已知函数 #mi(`f(x)=\mathrm{e}^{ax}-x`)，其中 #mi(`a\neq0`).
 
 
-+ (1) 若对一切 $x in RR$，$f(x) >= 1$ 恒成立，求 $a$ 的取值集合；
-+ (2) 在函数 $f(x)$ 的图象上取定两点 $A(x_1,f(x_1))$，$B(x_2,f(x_2))$（$x_1<x_2$），记直线 $A B$ 的斜率为 $k$. 问：是否存在 $x_0 in (x_1,x_2)$，使 $f'(x_0)>k$ 成立？若存在，求 $x_0$ 的取值范围；若不存在，请说明理由.
++ (1) 
 
 
 
-+ (1) 若 $a<0$，则当 $x -> + oo$ 时，$e ""^(a x) -> 0$，从而
 
-$ f(x)= e ""^(a x)-x -> - oo $
-
-不可能恒有 $f(x) >= 1$. 所以必须 $a>0$.
-
-当 $a>0$ 时，
-$f'(x)=a e ""^(a x)-1$，$f''(x)=a^2 e ""^(a x)>0$.
-因此 $f$ 在唯一的极小点
-$a e ""^(a x)=1$，$\L o n g r i g h t a r r o w$，$x=-(ln a)/(a)$
-处取得最小值. 代入得
-
-$ f_( min )=(1)/(a)+(ln a)/(a)=(1+ ln a)/(a) $
-
-故题设条件等价于
-
-$ 1+ ln a >= a $
-
-令 $h(a)=a-1- ln a$，则
-$h'(a)=1-(1)/(a)$，$h(1)=0$.
-函数 $h$ 在 $a=1$ 处取得最小值 $0$，所以 $h(a) >= 0$，且等号仅在 $a=1$ 时成立. 因而
-
-$ a=1 $
-+ (2) 记
-
-$ D=(e ""^(a x_2)- e ""^(a x_1))/(x_2-x_1) $
-
-由 $a\n e q0$，有 $(D)/(a)>0$. 又函数 $g(x)=a e ""^(a x)$ 满足
-
-$ g'(x)=a^2 e ""^(a x)>0 $
-
-所以 $g$ 严格递增. 由拉格朗日中值定理，存在唯一的 $c in (x_1,x_2)$，使
-
-$ a e ""^(a c)=D $
-
-解得
-
-$ c=(1)/(a) ln (e ""^(a x_2)- e ""^(a x_1))/(a(x_2-x_1)) $
-
-另一方面，直线 $A B$ 的斜率为
-
-$ k=(e ""^(a x_2)- e ""^(a x_1))/(x_2-x_1)-1=D-1 $
-
-而
-
-$ f'(x)=a e ""^(a x)-1=g(x)-1 $
-
-因此
-
-$ f'(x)>k <=> g(x)>D <=> x>c $
-
-在 $x in (x_1,x_2)$ 内，所有满足条件的 $x_0$ 构成区间
-
-$ ( (1)/(a) ln (e ""^(a x_2)- e ""^(a x_1))/(a(x_2-x_1)), x_2 ) $
-
-所以这样的 $x_0$ 存在.
++ (1)
 ]
 

@@ -1,150 +1,15 @@
 {
+  "title": "2005年普通高等学校招生全国统一考试",
+  "subtitle": "2005年山东卷（文）",
   "year": "2005",
   "slug": "shandong_liberal",
-  "title": "2005年山东卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "$\\{a_n\\}$ 是首项 $a_1 = 1$，公差 $d = 3$ 的等差数列. 如果 $a_n = 2005$，则序号 $n$ 等于（$ $）",
+          "body": "$\\{a_{n}\\}$ 是首项 $a_{1} = 1$，公差 $d = 3$ 的等差数列. 如果 $a_{n} = 2005$，则序号 $n$ 等于（$ $）",
           "choices": [
             "$667$",
             "$668$",
@@ -152,41 +17,35 @@
             "$670$"
           ],
           "answer": "C",
-          "solution": "由等差数列通项公式，$a_n=a_1+(n-1)d=1+3(n-1)=3n-2$. 由 $a_n=2005$ 得 $3n-2=2005$，所以 $n=669$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由等差数列通项公式，$a_{n}=a_{1}+(n-1)d=1+3(n-1)=3n-2$. 由 $a_{n}=2005$ 得 $3n-2=2005$，所以 $n=669$，故选 C."
         },
         {
           "num": 2,
           "body": "下列大小关系正确的是（$ $）",
           "choices": [
-            "$0.4^{3} < 3^{0.4} < \\log_{4}0.3$",
-            "$0.4^{3} < \\log_{4}0.3 < 3^{0.4}$",
-            "$\\log_{4}0.3 < 0.4^3 < 3^{0.4}$",
-            "$\\log_{4}0.3 < 3^{0.4} < 0.4^3$"
+            "$0.4^{3}&#x3C; 3^{0.4}&#x3C; \\log_{4}0.3$",
+            "$0.4^{3}&#x3C; \\log_{4}0.3 &#x3C; 3^{0.4}$",
+            "$\\log_{4}0.3 &#x3C; 0.4^{3} &#x3C; 3^{0.4}$",
+            "$\\log_{4}0.3 &#x3C; 3^{0.4}&#x3C; 0.4^{3}$"
           ],
           "answer": "C",
-          "solution": "因为 $0<0.4<1$，所以 $0<0.4^3<1$；又因为 $3>1$，所以 $3^{0.4}>1$. 由于对数的底数 $4>1$，而 $0<0.3<1$，故 $\\log_4 0.3<0$. 因此 $\\log_4 0.3<0.4^3<3^{0.4}$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $0&#x3C;0.4&#x3C;1$，所以 $0&#x3C;0.4^{3}&#x3C;1$；又因为 $3>1$，所以 $3^{0.4}>1$. 由于对数的底数 $4>1$，而 $0&#x3C;0.3&#x3C;1$，故 $\\log_{4} 0.3&#x3C;0$. 因此 $\\log_{4} 0.3&#x3C;0.4^{3}&#x3C;3^{0.4}$，故选 C."
         },
         {
           "num": 3,
           "body": "函数 $y = \\frac{1 - x}{x}$（$x \\neq 0$）的反函数图象大致是（$ $）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/shandong_liberal/q3_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/shandong_liberal/q3_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/shandong_liberal/q3_optC_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2005/img/shandong_liberal/q3_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_optA_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_optB_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_optC_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shandong_liberal/q3_optD_nolabel.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "B",
-          "solution": "由 $y=\\dfrac{1-x}{x}$ 得 $x(y+1)=1$，所以反函数为 $y=\\dfrac{1}{x+1}$，其定义域为 $x\\neq -1$. 该双曲线的中心为 $(-1,0)$，且当 $x>-1$ 时 $y>0$，当 $x<-1$ 时 $y<0$. 因此图象与选项 B 相符，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $y=\\dfrac{1-x}{x}$ 得 $x(y+1)=1$，所以反函数为 $y=\\dfrac{1}{x+1}$，其定义域为 $x\\neq -1$. 该双曲线的中心为 $(-1,0)$，且当 $x>-1$ 时 $y>0$，当 $x&#x3C;-1$ 时 $y&#x3C;0$. 因此图象与选项 B 相符，故选 B."
         },
         {
           "num": 4,
-          "body": "已知函数 $y = \\sin \\left( x - \\frac{\\pi}{12} \\right) \\cos \\left( x - \\frac{\\pi}{12} \\right)$，则下列判断正确的是（$ $）",
+          "body": "已知函数 $y = \\sin \\left( x - \\frac{\\pi}{12}\\right) \\cos \\left( x - \\frac{\\pi}{12}\\right)$，则下列判断正确的是（$ $）",
           "choices": [
             "此函数的最小周期为 $2\\pi$，其图象的一个对称中心是 $\\left(\\frac{\\pi}{12}, 0\\right)$",
             "此函数的最小周期为 $\\pi$，其图象的一个对称中心是 $\\left(\\frac{\\pi}{12}, 0\\right)$",
@@ -194,9 +53,7 @@
             "此函数的最小周期为 $\\pi$，其图象的一个对称中心是 $\\left(\\frac{\\pi}{6}, 0\\right)$"
           ],
           "answer": "B",
-          "solution": "令 $u=x-\\dfrac{\\pi}{12}$，则 $y=\\sin u\\cos u=\\dfrac12\\sin 2u=\\dfrac12\\sin\\left(2x-\\dfrac{\\pi}{6}\\right)$. 因此最小正周期为 $\\pi$. 当 $x=\\dfrac{\\pi}{12}$ 时，$u=0$，函数值为 $0$，且函数关于该点中心对称，所以一个对称中心为 $\\left(\\dfrac{\\pi}{12},0\\right)$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "令 $u=x-\\dfrac{\\pi}{12}$，则 $y=\\sin u\\cos u=\\dfrac{1}{2}\\sin 2u=\\dfrac{1}{2}\\sin\\left(2x-\\dfrac{\\pi}{6}\\right)$. 因此最小正周期为 $\\pi$. 当 $x=\\dfrac{\\pi}{12}$ 时，$u=0$，函数值为 $0$，且函数关于该点中心对称，所以一个对称中心为 $\\left(\\dfrac{\\pi}{12},0\\right)$，故选 B."
         },
         {
           "num": 5,
@@ -204,17 +61,15 @@
           "choices": [
             "$f(x) = \\sin x$",
             "$f(x) = -|x + 1|$",
-            "$f(x) = \\frac{1}{2} (a^x + a^{-x})$",
+            "$f(x) = \\frac{1}{2}(a^{x} + a^{-x})$",
             "$f(x) = \\ln \\frac{2 - x}{2 + x}$"
           ],
           "answer": "D",
-          "solution": "选项 A 中，$f'(x)=\\cos x>0$（$-1\\le x\\leqslant1<\\dfrac\\pi2$），所以函数在 $[-1,1]$ 上单调递增，不合题意. 选项 B 中，$f(0)=-1\\neq0$，不可能是奇函数. 选项 C 满足 $f(-x)=f(x)$，是偶函数而不是奇函数.\r\n\r\n选项 D 的定义域包含 $[-1,1]$，且\r\n$f(-x)=\\ln\\dfrac{2+x}{2-x}=-\\ln\\dfrac{2-x}{2+x}=-f(x)$，所以它是奇函数. 又\r\n$f'(x)=-\\dfrac{1}{2-x}-\\dfrac{1}{2+x}=-\\dfrac{4}{4-x^2}<0$（$-1\\le x\\leqslant1$），故它在 $[-1,1]$ 上单调递减. 因此选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>选项 A 中，$f'(x)=\\cos x>0$（$-1\\le x\\leqslant1&#x3C;\\dfrac\\pi2$），所以函数在 $[-1,1]$ 上单调递增，不合题意. 选项 B 中，$f(0)=-1\\neq0$，不可能是奇函数. 选项 C 满足 $f(-x)=f(x)$，是偶函数而不是奇函数.</p><p>选项 D 的定义域包含 $[-1,1]$，且</p><p>$f(-x)=\\ln\\dfrac{2+x}{2-x}=-\\ln\\dfrac{2-x}{2+x}=-f(x)$，所以它是奇函数. 又</p><p>$f'(x)=-\\dfrac{1}{2-x}-\\dfrac{1}{2+x}=-\\dfrac{4}{4-x^2}&#x3C;0$（$-1\\le x\\leqslant1$），故它在 $[-1,1]$ 上单调递减. 因此选 D.</p>"
         },
         {
           "num": 6,
-          "body": "如果 $\\left(3x - \\frac{1}{\\sqrt[3]{x^2}}\\right)^n$ 的展开式中各项系数之和为 $128$，则展开式中 $\\frac{1}{x^3}$ 的系数是（$ $）",
+          "body": "如果 $\\left(3x - \\frac{1}{\\sqrt[3]{x^{2}}}\\right)^{n}$ 的展开式中各项系数之和为 $128$，则展开式中 $\\frac{1}{x^{3}}$ 的系数是（$ $）",
           "choices": [
             "$7$",
             "$-7$",
@@ -222,13 +77,11 @@
             "$-21$"
           ],
           "answer": "C",
-          "solution": "令展开式中的 $x=1$，各项系数之和为 $\\left(3-1\\right)^n=2^n$. 所以 $2^n=128=2^7$，得 $n=7$. 展开式的通项中，若从第二项取 $k$ 次，则该项为\r\n$\\mathrm C_7^k3^{7-k}(-1)^kx^{7-k-\\frac{2k}{3}}$. 要含有 $x^{-3}$，应满足 $7-k-\\dfrac{2k}{3}=-3$，即 $k=6$. 所求系数为 $\\mathrm C_7^6 3=21$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令展开式中的 $x=1$，各项系数之和为 $\\left(3-1\\right)^{n}=2^{n}$. 所以 $2^{n}=128=2^{7}$，得 $n=7$. 展开式的通项中，若从第二项取 $k$ 次，则该项为</p><p>$\\mathrm{C}_{7}^{k}3^{7-k}(-1)^{k}x^{7-k-\\frac{2k}{3}}$. 要含有 $x^{-3}$，应满足 $7-k-\\dfrac{2k}{3}=-3$，即 $k=6$. 所求系数为 $\\mathrm{C}_{7}^{6} 3=21$，故选 C.</p>"
         },
         {
           "num": 7,
-          "body": "函数 $f(x) = \\begin{cases}\r\n\\sin (\\pi x^2), & -1 < x < 0,\\\\\r\n\\mathrm{e}^{x - 1}, & x \\ge 0.\r\n\\end{cases}$ 若 $f(1) + f(a) = 2$，则 $a$ 的所有可能值为（$ $）",
+          "body": "函数 $f(x) = \\begin{cases}\\sin (\\pi x^{2}),&#x26;-1 &#x3C; x &#x3C; 0,\\\\  \\mathrm{e}^{x - 1},&#x26;x \\ge 0.\\end{cases}$ 若 $f(1) + f(a) = 2$，则 $a$ 的所有可能值为（$ $）",
           "choices": [
             "$1$",
             "$-\\frac{\\sqrt{2}}{2}$",
@@ -236,13 +89,11 @@
             "$1$，$\\frac{\\sqrt{2}}{2}$"
           ],
           "answer": "C",
-          "solution": "由 $f(1)=\\mathrm{e}^0=1$，得 $f(a)=1$. 当 $-1<a<0$ 时，$0<a^2<1$，所以 $0<\\pi a^2<\\pi$，方程 $\\sin(\\pi a^2)=1$ 只有解 $\\pi a^2=\\dfrac\\pi2$，从而 $a=-\\dfrac{\\sqrt2}{2}$. 当 $a\\geqslant0$ 时，$\\mathrm{e}^{a-1}=1$，所以 $a=1$. 因此所有可能值为 $1$，$-\\dfrac{\\sqrt2}{2}$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $f(1)=\\mathrm{e}^{0}=1$，得 $f(a)=1$. 当 $-1&#x3C;a&#x3C;0$ 时，$0&#x3C;a^{2}&#x3C;1$，所以 $0&#x3C;\\pi a^{2}&#x3C;\\pi$，方程 $\\sin(\\pi a^{2})=1$ 只有解 $\\pi a^{2}=\\dfrac\\pi2$，从而 $a=-\\dfrac{\\sqrt{2}}{2}$. 当 $a\\geqslant0$ 时，$\\mathrm{e}^{a-1}=1$，所以 $a=1$. 因此所有可能值为 $1$，$-\\dfrac{\\sqrt{2}}{2}$，故选 C."
         },
         {
           "num": 8,
-          "body": "已知向量 $\\mathbf{a}$，$\\mathbf{b}$，且 $\\overrightarrow{AB} = \\mathbf{a} + 2\\mathbf{b}$，$\\overrightarrow{BC} = -5\\mathbf{a} + 6\\mathbf{b}$，$\\overrightarrow{CD} = 7\\mathbf{a} - 2\\mathbf{b}$，则一定共线的三点是（$ $）",
+          "body": "已知向量 $\\mathbf{a}$，$\\mathbf{b}$，且 $\\overrightarrow{AB}= \\mathbf{a}+ 2\\mathbf{b}$，$\\overrightarrow{BC}= -5\\mathbf{a}+ 6\\mathbf{b}$，$\\overrightarrow{CD}= 7\\mathbf{a}- 2\\mathbf{b}$，则一定共线的三点是（$ $）",
           "choices": [
             "A，B，D",
             "A，B，C",
@@ -250,23 +101,19 @@
             "A，C，D"
           ],
           "answer": "A",
-          "solution": "由向量的加法，\r\n$\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}=3\\mathbf{a}+6\\mathbf{b}=3(\\mathbf{a}+2\\mathbf{b})=3\\overrightarrow{AB}$. 因而 $\\overrightarrow{AD}$ 与 $\\overrightarrow{AB}$ 平行，点 $A$，$B$，$D$ 共线，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由向量的加法，</p><p>$\\overrightarrow{AD}=\\overrightarrow{AB}+\\overrightarrow{BC}+\\overrightarrow{CD}=3\\mathbf{a}+6\\mathbf{b}=3(\\mathbf{a}+2\\mathbf{b})=3\\overrightarrow{AB}$. 因而 $\\overrightarrow{AD}$ 与 $\\overrightarrow{AB}$ 平行，点 $A$，$B$，$D$ 共线，故选 A.</p>"
         },
         {
           "num": 9,
           "body": "设地球的半径为 $R$，若甲地位于北纬 $45^{\\circ}$ 东经 $120^{\\circ}$，乙地位于南纬 $75^{\\circ}$ 东经 $120^{\\circ}$，则甲，乙两地的球面距离为（$ $）",
           "choices": [
-            "$\\sqrt{3} R$",
-            "$\\frac{5}{6} R$",
-            "$\\frac{5\\pi}{6} R$",
-            "$\\frac{2\\pi}{3} R$"
+            "$\\sqrt{3}R$",
+            "$\\frac{5}{6}R$",
+            "$\\frac{5\\pi}{6}R$",
+            "$\\frac{2\\pi}{3}R$"
           ],
           "answer": "D",
-          "solution": "甲、乙两地经度相同，所以它们在同一条经线上. 甲地纬度为 $45^{\\circ}$，乙地纬度为 $-75^{\\circ}$，两地对应的地心角为 $45^{\\circ}-(-75^{\\circ})=120^{\\circ}=\\dfrac{2\\pi}{3}$. 因此球面距离为 $R\\cdot\\dfrac{2\\pi}{3}=\\dfrac{2\\pi}{3}R$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "甲、乙两地经度相同，所以它们在同一条经线上. 甲地纬度为 $45^{\\circ}$，乙地纬度为 $-75^{\\circ}$，两地对应的地心角为 $45^{\\circ}-(-75^{\\circ})=120^{\\circ}=\\dfrac{2\\pi}{3}$. 因此球面距离为 $R\\cdot\\dfrac{2\\pi}{3}=\\dfrac{2\\pi}{3}R$，故选 D."
         },
         {
           "num": 10,
@@ -278,13 +125,11 @@
             "$\\frac{11}{12}$"
           ],
           "answer": "D",
-          "solution": "用对立事件计算. 五个人都没有中奖的概率为 $\\dfrac{\\mathrm C_7^5}{\\mathrm C_{10}^5}=\\dfrac{21}{252}=\\dfrac1{12}$. 所以至少有一人中奖的概率为 $1-\\dfrac1{12}=\\dfrac{11}{12}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "用对立事件计算. 五个人都没有中奖的概率为 $\\dfrac{\\mathrm{C}_7^5}{\\mathrm{C}_{10}^5}=\\dfrac{21}{252}=\\dfrac1{12}$. 所以至少有一人中奖的概率为 $1-\\dfrac1{12}=\\dfrac{11}{12}$，故选 D."
         },
         {
           "num": 11,
-          "body": "设集合 $A$，$B$ 是全集 $U$ 的两个子集，则 $A \\subsetneq B$ 是 $(\\complement_U A) \\cup B = U$ 的（$ $）",
+          "body": "设集合 $A$，$B$ 是全集 $U$ 的两个子集，则 $A \\subsetneq B$ 是 $(\\complement_{U} A) \\cup B = U$ 的（$ $）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -292,13 +137,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "由集合运算，$(\\complement_U A)\\cup B=U$ 等价于不存在属于 $A$ 但不属于 $B$ 的元素，即等价于 $A\\subseteq B$. 因此 $A\\subsetneq B$ 能推出该等式，但该等式成立时也可能有 $A=B$，所以 $A\\subsetneq B$ 是充分不必要条件，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由集合运算，$(\\complement_{U} A)\\cup B=U$ 等价于不存在属于 $A$ 但不属于 $B$ 的元素，即等价于 $A\\subseteq B$. 因此 $A\\subsetneq B$ 能推出该等式，但该等式成立时也可能有 $A=B$，所以 $A\\subsetneq B$ 是充分不必要条件，故选 A."
         },
         {
           "num": 12,
-          "body": "设直线 $l: 2x + y + 2 = 0$ 关于原点对称的直线为 $l'$，若 $l'$ 与椭圆 $x^2 + \\frac{y^2}{4} = 1$ 的交点为 $A$，$B$，点 $P$ 为椭圆上的动点，则使 $\\triangle PAB$ 的面积为 $\\frac{1}{2}$ 的点 $P$ 的个数为（$ $）",
+          "body": "设直线 $l: 2x + y + 2 = 0$ 关于原点对称的直线为 $l'$，若 $l'$ 与椭圆 $x^{2} + \\frac{y^{2}}{4}= 1$ 的交点为 $A$，$B$，点 $P$ 为椭圆上的动点，则使 $\\triangle PAB$ 的面积为 $\\frac{1}{2}$ 的点 $P$ 的个数为（$ $）",
           "choices": [
             "$1$",
             "$2$",
@@ -306,9 +149,7 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "关于原点对称后，$l'$ 的方程为 $2x+y-2=0$. 将椭圆参数化为 $x=\\cos t$，$y=2\\sin t$，代入 $l'$ 得 $\\cos t+\\sin t=1$，所以两个交点为 $(1,0)$ 和 $(0,2)$，从而 $|AB|=\\sqrt5$. 若点 $P$ 到直线 $AB$ 的距离为 $h$，则 $\\triangle PAB$ 的面积为 $\\dfrac12\\sqrt5h$. 由面积为 $\\dfrac12$ 得 $h=\\dfrac1{\\sqrt5}$，于是\r\n$\\left|2x+y-2\\right|=1$，即点 $P$ 在直线 $2x+y=1$ 或 $2x+y=3$ 上.\r\n\r\n对于直线 $2x+y=c$，代入椭圆得\r\n$2x^2-cx+\\dfrac{c^2}{4}-1=0$，其判别式为 $8-c^2$. 当 $c=1$ 时判别式为 $7>0$，有两个交点；当 $c=3$ 时判别式为 $-1<0$，没有交点. 所以满足条件的点 $P$ 有 $2$ 个，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>关于原点对称后，$l'$ 的方程为 $2x+y-2=0$. 将椭圆参数化为 $x=\\cos t$，$y=2\\sin t$，代入 $l'$ 得 $\\cos t+\\sin t=1$，所以两个交点为 $(1,0)$ 和 $(0,2)$，从而 $|AB|=\\sqrt{5}$. 若点 $P$ 到直线 $AB$ 的距离为 $h$，则 $\\triangle PAB$ 的面积为 $\\dfrac{1}{2}\\sqrt{5}h$. 由面积为 $\\dfrac{1}{2}$ 得 $h=\\dfrac1{\\sqrt{5}}$，于是</p><p>$\\left|2x+y-2\\right|=1$，即点 $P$ 在直线 $2x+y=1$ 或 $2x+y=3$ 上.</p><p>对于直线 $2x+y=c$，代入椭圆得</p><p>$2x^{2}-cx+\\dfrac{c^2}{4}-1=0$，其判别式为 $8-c^{2}$. 当 $c=1$ 时判别式为 $7>0$，有两个交点；当 $c=3$ 时判别式为 $-1&#x3C;0$，没有交点. 所以满足条件的点 $P$ 有 $2$ 个，故选 B.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "某学校共有教师 $490$ 人，其中不到 $40$ 岁的有 $350$ 人，$40$ 岁及以上的有 $140$ 人，为了解普通话在该校教师中的推广普及情况，用分层抽样的方法，从全体教师中抽取一个容量为 $70$ 人的样本进行普通话水平测试，其中在不到 $40$ 岁的教师中应抽取的人数是 _______ {}.",
-          "choices": [],
+          "body": "某学校共有教师 $490$ 人，其中不到 $40$ 岁的有 $350$ 人，$40$ 岁及以上的有 $140$ 人，为了解普通话在该校教师中的推广普及情况，用分层抽样的方法，从全体教师中抽取一个容量为 $70$ 人的样本进行普通话水平测试，其中在不到 $40$ 岁的教师中应抽取的人数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "50",
-          "solution": "分层抽样时各层的抽样比相同. 不到 $40$ 岁教师应抽取的人数为 $70\\cdot\\dfrac{350}{490}=70\\cdot\\dfrac57=50$，所以填 $50$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "分层抽样时各层的抽样比相同. 不到 $40$ 岁教师应抽取的人数为 $70\\cdot\\dfrac{350}{490}=70\\cdot\\dfrac{5}{7}=50$，所以填 $50$."
         },
         {
           "num": 14,
-          "body": "设双曲线 $\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{b^{2}} = 1$（$a > 0$，$b > 0$）的右焦点为 $F$，右准线 $l$ 与两条渐近线交于 $P$，$Q$ 两点，如果 $\\triangle PQF$ 是直角三角形，则双曲线的离心率 $e =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt2\\)",
-          "solution": "设双曲线的焦半距为 $c$，则 $c^2=a^2+b^2$，右焦点为 $F=(c,0)$，右准线为 $x=\\dfrac{a^2}{c}$. 令 $d=\\dfrac{a^2}{c}$，则渐近线与准线的交点为 $P=\\left(d,\\dfrac{bd}{a}\\right)$，$Q=\\left(d,-\\dfrac{bd}{a}\\right)$. 因为 $PQ$ 是竖直线，在 $P$ 处两边的方向向量可取 $\\overrightarrow{PQ}=\\left(0,-\\dfrac{2ab}{c}\\right)$、$\\overrightarrow{PF}=\\left(c-d,-\\dfrac{ab}{c}\\right)$，有 $\\overrightarrow{PQ}\\cdot\\overrightarrow{PF}=\\dfrac{2a^2b^2}{c^2}\\ne0$. 在 $Q$ 处，$\\overrightarrow{QP}=\\left(0,\\dfrac{2ab}{c}\\right)$、$\\overrightarrow{QF}=\\left(c-d,\\dfrac{ab}{c}\\right)$，所以 $\\overrightarrow{QP}\\cdot\\overrightarrow{QF}=\\dfrac{2a^2b^2}{c^2}\\ne0$. 因而直角只能在 $F$ 处.\r\n\r\n在 $F$ 处，$\\overrightarrow{FP}=\\left(d-c,\\dfrac{ab}{c}\\right)$，$\\overrightarrow{FQ}=\\left(d-c,-\\dfrac{ab}{c}\\right)$. 直角条件为\r\n$\\overrightarrow{FP}\\cdot\\overrightarrow{FQ}=\\left(c-d\\right)^2-\\left(\\dfrac{ab}{c}\\right)^2=0$，即\r\n$\\left(c-d\\right)^2=\\left(\\dfrac{bd}{a}\\right)^2$.\r\n\r\n由于 $c-d=\\dfrac{c^2-a^2}{c}=\\dfrac{b^2}{c}>0$，而 $\\dfrac{bd}{a}=\\dfrac{ab}{c}>0$，取正平方根得 $b^2=ab$. 由 $a$，$b>0$ 得 $a=b$，从而 $c=\\sqrt2a$，所以 $e=\\dfrac ca=\\sqrt2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）的右焦点为 $F$，右准线 $l$ 与两条渐近线交于 $P$，$Q$ 两点，如果 $\\triangle PQF$ 是直角三角形，则双曲线的离心率 $e =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{2}$",
+          "solution": "<p>设双曲线的焦半距为 $c$，则 $c^{2}=a^{2}+b^{2}$，右焦点为 $F=(c,0)$，右准线为 $x=\\dfrac{a^2}{c}$. 令 $d=\\dfrac{a^2}{c}$，则渐近线与准线的交点为 $P=\\left(d,\\dfrac{bd}{a}\\right)$，$Q=\\left(d,-\\dfrac{bd}{a}\\right)$. 因为 $PQ$ 是竖直线，在 $P$ 处两边的方向向量可取 $\\overrightarrow{PQ}=\\left(0,-\\dfrac{2ab}{c}\\right)$、$\\overrightarrow{PF}=\\left(c-d,-\\dfrac{ab}{c}\\right)$，有 $\\overrightarrow{PQ}\\cdot\\overrightarrow{PF}=\\dfrac{2a^2b^2}{c^2}\\ne0$. 在 $Q$ 处，$\\overrightarrow{QP}=\\left(0,\\dfrac{2ab}{c}\\right)$、$\\overrightarrow{QF}=\\left(c-d,\\dfrac{ab}{c}\\right)$，所以 $\\overrightarrow{QP}\\cdot\\overrightarrow{QF}=\\dfrac{2a^2b^2}{c^2}\\ne0$. 因而直角只能在 $F$ 处.</p><p>在 $F$ 处，$\\overrightarrow{FP}=\\left(d-c,\\dfrac{ab}{c}\\right)$，$\\overrightarrow{FQ}=\\left(d-c,-\\dfrac{ab}{c}\\right)$. 直角条件为</p><p>$\\overrightarrow{FP}\\cdot\\overrightarrow{FQ}=\\left(c-d\\right)^{2}-\\left(\\dfrac{ab}{c}\\right)^{2}=0$，即</p><p>$\\left(c-d\\right)^{2}=\\left(\\dfrac{bd}{a}\\right)^{2}$.</p><p>由于 $c-d=\\dfrac{c^2-a^2}{c}=\\dfrac{b^2}{c}>0$，而 $\\dfrac{bd}{a}=\\dfrac{ab}{c}>0$，取正平方根得 $b^{2}=ab$. 由 $a$，$b>0$ 得 $a=b$，从而 $c=\\sqrt{2}a$，所以 $e=\\dfrac{c}{a}=\\sqrt{2}$.</p>"
         },
         {
           "num": 15,
-          "body": "设 $x$，$y$ 满足约束条件$\\begin{cases}\r\nx + y \\le 5,\\\\\r\n3x + 2y \\le 12,\\\\\r\n0 \\le x \\le 3,\\\\\r\n0 \\le y \\le 4\r\n\\end{cases}$ 则使得目标函数 $z = 6x + 5y$ 的最大的点 $(x,y)$ 是 _______ {}.",
-          "choices": [],
-          "answer": "\\((2,3)\\)",
-          "solution": "由约束条件，\r\n$z=6x+5y=3(x+y)+(3x+2y)\\leqslant3\\cdot5+12=27$.\r\n\r\n当且仅当 $x+y=5$ 且 $3x+2y=12$ 时取等号. 解方程组\r\n$\\begin{cases}\r\nx+y=5,\\\\\r\n3x+2y=12\r\n\\end{cases}$ 得 $x=2$，$y=3$，且该点满足 $0\\le x\\leqslant3$、$0\\le y\\leqslant4$. 因此目标函数取得最大值的点为 $(2,3)$，所以填 $(2,3)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $x$，$y$ 满足约束条件$\\begin{cases}x + y \\le 5,\\\\  3x + 2y \\le 12,\\\\  0 \\le x \\le 3,\\\\  0 \\le y \\le 4\\end{cases}$ 则使得目标函数 $z = 6x + 5y$ 的最大的点 $(x,y)$ 是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(2,3)$",
+          "solution": "<p>由约束条件，</p><p>$z=6x+5y=3(x+y)+(3x+2y)\\leqslant3\\cdot5+12=27$.</p><p>当且仅当 $x+y=5$ 且 $3x+2y=12$ 时取等号. 解方程组</p><p>$\\begin{cases}x+y=5,\\\\  3x+2y=12\\end{cases}$ 得 $x=2$，$y=3$，且该点满足 $0\\le x\\leqslant3$、$0\\le y\\leqslant4$. 因此目标函数取得最大值的点为 $(2,3)$，所以填 $(2,3)$.</p>"
         },
         {
           "num": 16,
-          "body": "已知 $m$，$n$ 是不同的直线，$\\alpha$，$\\beta$ 是不重合的平面，给出下列命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $m \\parallel \\alpha$，则 $m$ 平行于平面 $\\alpha$ 内的任一条直线；\r\n\\item 若 $\\alpha \\parallel \\beta$，$m \\subset \\alpha$，$n \\subset \\beta$，则 $m \\parallel n$；\r\n\\item 若 $m \\perp \\alpha$，$n \\perp \\beta$，$m \\parallel n$，则 $\\alpha \\parallel \\beta$；\r\n\\item 若 $\\alpha \\parallel \\beta$，$m \\subset \\alpha$，则 $m \\parallel \\beta$.\r\n\\end{circlelist}\r\n\r\n上面的命题中，真命题的序号是（写出所有真命题的序号） _______ {}.",
-          "choices": [],
-          "answer": "\\(3\\)，\\(4\\)",
-          "solution": "命题 1 不成立，因为直线 $m$ 虽与平面 $\\alpha$ 平行，但不一定与平面内的每一条直线平行. 命题 2 不成立，因为两个平行平面内任取的两条直线方向不一定相同. 命题 3 中，两条互相平行且分别垂直于两个平面的直线具有同一法向方向，因此两个不重合平面平行，命题 3 成立. 命题 4 中，平面 $\\alpha$ 内的直线不与平面 $\\beta$ 相交，且其方向平行于平面 $\\beta$，所以命题 4 成立. 真命题的序号为 $3$，$4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知 $m$，$n$ 是不同的直线，$\\alpha$，$\\beta$ 是不重合的平面，给出下列命题：</p><ol class=\"enumerate\"><li><p>若 $m \\parallel \\alpha$，则 $m$ 平行于平面 $\\alpha$ 内的任一条直线；</p></li><li><p>若 $\\alpha \\parallel \\beta$，$m \\subset \\alpha$，$n \\subset \\beta$，则 $m \\parallel n$；</p></li><li><p>若 $m \\perp \\alpha$，$n \\perp \\beta$，$m \\parallel n$，则 $\\alpha \\parallel \\beta$；</p></li><li><p>若 $\\alpha \\parallel \\beta$，$m \\subset \\alpha$，则 $m \\parallel \\beta$.</p></li></ol><p>上面的命题中，真命题的序号是（写出所有真命题的序号）<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$3$，$4$",
+          "solution": "命题 1 不成立，因为直线 $m$ 虽与平面 $\\alpha$ 平行，但不一定与平面内的每一条直线平行. 命题 2 不成立，因为两个平行平面内任取的两条直线方向不一定相同. 命题 3 中，两条互相平行且分别垂直于两个平面的直线具有同一法向方向，因此两个不重合平面平行，命题 3 成立. 命题 4 中，平面 $\\alpha$ 内的直线不与平面 $\\beta$ 相交，且其方向平行于平面 $\\beta$，所以命题 4 成立. 真命题的序号为 $3$，$4$."
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知向量 $\\mathbf{m} = (\\cos \\theta, \\sin \\theta)$ 和 $\\mathbf{n} = (\\sqrt{2} - \\sin \\theta, \\cos \\theta)$，$\\theta \\in (\\pi, 2\\pi)$，且 $|\\mathbf{m} + \\mathbf{n}| = \\frac{8\\sqrt{2}}{5}$，求 $\\cos \\left(\\frac{\\theta}{2} + \\frac{\\pi}{8}\\right)$ 的值.",
-          "choices": [],
+          "body": "已知向量 $\\mathbf{m}= (\\cos \\theta, \\sin \\theta)$ 和 $\\mathbf{n}= (\\sqrt{2}- \\sin \\theta, \\cos \\theta)$，$\\theta \\in (\\pi, 2\\pi)$，且 $|\\mathbf{m}+ \\mathbf{n}| = \\frac{8\\sqrt{2}}{5}$，求 $\\cos \\left(\\frac{\\theta}{2}+ \\frac{\\pi}{8}\\right)$ 的值.",
+          "choices": null,
           "answer": "",
-          "solution": "由题意，\r\n$\\mathbf{m}+\\mathbf{n}=(\\cos\\theta-\\sin\\theta+\\sqrt2,\\sin\\theta+\\cos\\theta)$. 因此\r\n$\\left|\\mathbf{m}+\\mathbf{n}\\right|^2=4+2\\sqrt2(\\cos\\theta-\\sin\\theta)$. 代入已知条件得\r\n$4+2\\sqrt2(\\cos\\theta-\\sin\\theta)=\\dfrac{128}{25}$，从而 $\\cos\\theta-\\sin\\theta=\\dfrac{7\\sqrt2}{25}$，即\r\n$\\cos\\left(\\theta+\\dfrac\\pi4\\right)=\\dfrac7{25}$.\r\n\r\n因为 $\\theta\\in(\\pi,2\\pi)$，所以 $\\theta+\\dfrac\\pi4\\in\\left(\\dfrac{5\\pi}{4},\\dfrac{9\\pi}{4}\\right)$. 令 $\\gamma=\\arccos\\dfrac7{25}$，则在此区间内只能有 $\\theta+\\dfrac\\pi4=2\\pi-\\gamma$. 于是\r\n$\\dfrac\\theta2+\\dfrac\\pi8=\\pi-\\dfrac\\gamma2$. 又 $\\sin\\gamma=\\dfrac{24}{25}$，故\r\n$\\cos\\dfrac\\gamma2=\\sqrt{\\dfrac{1+\\cos\\gamma}{2}}=\\dfrac45$. 因而所求值为 $-\\dfrac45$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由题意，</p><p>$\\mathbf{m}+\\mathbf{n}=(\\cos\\theta-\\sin\\theta+\\sqrt{2},\\sin\\theta+\\cos\\theta)$. 因此</p><p>$\\left|\\mathbf{m}+\\mathbf{n}\\right|^{2}=4+2\\sqrt{2}(\\cos\\theta-\\sin\\theta)$. 代入已知条件得</p><p>$4+2\\sqrt{2}(\\cos\\theta-\\sin\\theta)=\\dfrac{128}{25}$，从而 $\\cos\\theta-\\sin\\theta=\\dfrac{7\\sqrt{2}}{25}$，即</p><p>$\\cos\\left(\\theta+\\dfrac\\pi4\\right)=\\dfrac7{25}$.</p><p>因为 $\\theta\\in(\\pi,2\\pi)$，所以 $\\theta+\\dfrac\\pi4\\in\\left(\\dfrac{5\\pi}{4},\\dfrac{9\\pi}{4}\\right)$. 令 $\\gamma=\\arccos\\dfrac7{25}$，则在此区间内只能有 $\\theta+\\dfrac\\pi4=2\\pi-\\gamma$. 于是</p><p>$\\dfrac\\theta2+\\dfrac\\pi8=\\pi-\\dfrac\\gamma2$. 又 $\\sin\\gamma=\\dfrac{24}{25}$，故</p><p>$\\cos\\dfrac\\gamma2=\\sqrt{\\dfrac{1+\\cos\\gamma}{2}}=\\dfrac{4}{5}$. 因而所求值为 $-\\dfrac{4}{5}$.</p>"
         },
         {
           "num": 18,
-          "body": "袋中装有黑球和白球共 $7$ 个，从中任取 $2$ 个球都是白球的概率为 $\\frac{1}{7}$，现有甲，乙两人从袋中轮流摸取 $1$ 球，甲先取，乙后取，然后甲再取…，取后不放回，直到两人中有一人取到白球时既终止，每个球在每一次被取出的机会是等可能的.\r\n\r\n\n(1) 求袋中原有的白球的个数；\n\n(2) 求取球 $2$ 次终止的概率；\n\n(3) 求甲取到白球的概率.",
-          "choices": [],
+          "body": "<p>袋中装有黑球和白球共 $7$ 个，从中任取 $2$ 个球都是白球的概率为 $\\frac{1}{7}$，现有甲，乙两人从袋中轮流摸取 $1$ 球，甲先取，乙后取，然后甲再取…，取后不放回，直到两人中有一人取到白球时既终止，每个球在每一次被取出的机会是等可能的.</p><ol class=\"enumerate\"><li><p>求袋中原有的白球的个数；</p></li><li><p>求取球 $2$ 次终止的概率；</p></li><li><p>求甲取到白球的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设白球有 $w$ 个，则 $\\dfrac{\\mathrm C_w^2}{\\mathrm C_7^2}=\\dfrac17$. 所以 $w(w-1)=6$，由 $0\\le w\\leqslant7$ 得 $w=3$，黑球有 $4$ 个.\n\n(2) 取球两次终止必须先取到黑球、再取到白球，所以概率为 $\\dfrac47\\cdot\\dfrac36=\\dfrac27$.\n\n(3) 甲在第 $1$，$3$，$5$，$7$ 次取球. 白球在第 1 次被甲取到的概率为 $\\dfrac37$；在第 3 次被甲取到的概率为 $\\dfrac47\\cdot\\dfrac36\\cdot\\dfrac35=\\dfrac6{35}$；在第 5 次被甲取到的概率为 $\\dfrac47\\cdot\\dfrac36\\cdot\\dfrac25\\cdot\\dfrac14\\cdot1=\\dfrac1{35}$. 第 7 次不可能才首次取到白球，因为只有 $4$ 个黑球. 因此甲取到白球的概率为 $\\dfrac37+\\dfrac6{35}+\\dfrac1{35}=\\dfrac{22}{35}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设白球有 $w$ 个，则 $\\dfrac{\\mathrm{C}_w^2}{\\mathrm{C}_7^2}=\\dfrac{1}{7}$. 所以 $w(w-1)=6$，由 $0\\le w\\leqslant7$ 得 $w=3$，黑球有 $4$ 个.</p></li><li><p>取球两次终止必须先取到黑球、再取到白球，所以概率为 $\\dfrac{4}{7}\\cdot\\dfrac{3}{6}=\\dfrac{2}{7}$.</p></li><li><p>甲在第 $1$，$3$，$5$，$7$ 次取球. 白球在第 1 次被甲取到的概率为 $\\dfrac{3}{7}$；在第 3 次被甲取到的概率为 $\\dfrac{4}{7}\\cdot\\dfrac{3}{6}\\cdot\\dfrac{3}{5}=\\dfrac6{35}$；在第 5 次被甲取到的概率为 $\\dfrac{4}{7}\\cdot\\dfrac{3}{6}\\cdot\\dfrac{2}{5}\\cdot\\dfrac{1}{4}\\cdot1=\\dfrac1{35}$. 第 7 次不可能才首次取到白球，因为只有 $4$ 个黑球. 因此甲取到白球的概率为 $\\dfrac{3}{7}+\\dfrac6{35}+\\dfrac1{35}=\\dfrac{22}{35}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知 $x = 1$ 是函数 $f(x) = mx^3 - 3(m + 1)x^2 + nx + 1$ 的一个极值点，其中 $m$，$n \\in \\mathbb{R}$，$m < 0$.\r\n\r\n\n(1) 求 $m$ 与 $n$ 的关系式；\n\n(2) 求 $f(x)$ 的单调区间.",
-          "choices": [],
+          "body": "<p>已知 $x = 1$ 是函数 $f(x) = mx^{3} - 3(m + 1)x^{2} + nx + 1$ 的一个极值点，其中 $m$，$n \\in \\mathbb{R}$，$m &#x3C; 0$.</p><ol class=\"enumerate\"><li><p>求 $m$ 与 $n$ 的关系式；</p></li><li><p>求 $f(x)$ 的单调区间.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $x=1$ 是可导函数的极值点，所以 $f'(1)=0$. 而 $f'(x)=3mx^2-6(m+1)x+n$，故 $3m-6(m+1)+n=0$，即 $n=3m+6$.\n\n(2) 代入上式，得\r\n$f'(x)=3m\\left(x-1\\right)\\left(x-\\dfrac{m+2}{m}\\right)$. 记 $r=\\dfrac{m+2}{m}=1+\\dfrac2m$，由于 $m<0$，有 $r<1$. 又因 $3m<0$，所以 $f'(x)<0$ 在 $(-\\infty,r)$ 和 $(1,+\\infty)$ 上成立，$f'(x)>0$ 在 $(r,1)$ 上成立. 因此 $f(x)$ 在 $\\left(-\\infty,\\dfrac{m+2}{m}\\right)$ 和 $(1,+\\infty)$ 上单调递减，在 $\\left(\\dfrac{m+2}{m},1\\right)$ 上单调递增.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $x=1$ 是可导函数的极值点，所以 $f'(1)=0$. 而 $f'(x)=3mx^{2}-6(m+1)x+n$，故 $3m-6(m+1)+n=0$，即 $n=3m+6$.</p></li><li><p>代入上式，得</p><p>$f'(x)=3m\\left(x-1\\right)\\left(x-\\dfrac{m+2}{m}\\right)$. 记 $r=\\dfrac{m+2}{m}=1+\\dfrac{2}{m}$，由于 $m&#x3C;0$，有 $r&#x3C;1$. 又因 $3m&#x3C;0$，所以 $f'(x)&#x3C;0$ 在 $(-\\infty,r)$ 和 $(1,+\\infty)$ 上成立，$f'(x)>0$ 在 $(r,1)$ 上成立. 因此 $f(x)$ 在 $\\left(-\\infty,\\dfrac{m+2}{m}\\right)$ 和 $(1,+\\infty)$ 上单调递减，在 $\\left(\\dfrac{m+2}{m},1\\right)$ 上单调递增.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "如图，已知长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$，$AB = 2$，$AA_{1} = 1$，直线 $BD$ 与平面 $AA_{1}B_{1}B$ 所成的角为 $30^{\\circ}$，$AE$ 垂直 $BD$ 于 $E$，$F$ 为 $A_{1}B_{1}$ 的中点.\r\n\r\n\n(1) 求异面直线 $AE$ 与 $BF$ 所成的角；\n\n(2) 求平面 $BDF$ 与平面 $AA_{1}B$ 所成的二面角（锐角）的大小；\n\n(3) 求点 $A$ 到平面 $BDF$ 的距离.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2005/img/shandong_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，已知长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$，$AB = 2$，$AA_{1}= 1$，直线 $BD$ 与平面 $AA_{1}B_{1}B$ 所成的角为 $30^{\\circ}$，$AE$ 垂直 $BD$ 于 $E$，$F$ 为 $A_{1}B_{1}$ 的中点.</p><ol class=\"enumerate\"><li><p>求异面直线 $AE$ 与 $BF$ 所成的角；</p></li><li><p>求平面 $BDF$ 与平面 $AA_{1}B$ 所成的二面角（锐角）的大小；</p></li><li><p>求点 $A$ 到平面 $BDF$ 的距离.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shandong_liberal/q22_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立直角坐标系，令 $B=(0,0,0)$，$C=(w,0,0)$，$A=(0,2,0)$，$D=(w,2,0)$，并令竖直方向为 $z$ 轴. 则平面 $AA_1B_1B$ 为平面 $x=0$，且 $\\overrightarrow{BD}=(w,2,0)$. 由直线与平面所成角的定义，\r\n$\\sin30^{\\circ}=\\dfrac{w}{\\sqrt{w^2+4}}$，解得 $w=\\dfrac2{\\sqrt3}$. 此时 $A_1=(0,2,1)$，$B_1=(0,0,1)$，故 $F=(0,1,1)$.\r\n\r\n\n(1) 设 $E=t\\overrightarrow{BD}$. 由 $AE\\perp BD$，有 $(A-E)\\cdot\\overrightarrow{BD}=0$，从而 $t=\\dfrac34$，所以 $E=\\left(\\dfrac{3w}{4},\\dfrac32,0\\right)$. 因此 $\\overrightarrow{AE}=\\left(\\dfrac{3w}{4},-\\dfrac12,0\\right)$，$\\overrightarrow{BF}=(0,1,1)$. 于是\r\n$\\left|\\overrightarrow{AE}\\cdot\\overrightarrow{BF}\\right|=\\dfrac12$，$\\left|\\overrightarrow{AE}\\right|=1$，$\\left|\\overrightarrow{BF}\\right|=\\sqrt2$. 设所成锐角为 $\\theta$，则 $\\cos\\theta=\\dfrac{\\frac{1}{2}}{\\sqrt2}=\\dfrac{\\sqrt2}{4}$，所以 $\\theta=\\arccos\\dfrac{\\sqrt2}{4}$.\n\n(2) 平面 $BDF$ 的一个法向量为\r\n$\\overrightarrow{BD}\\times\\overrightarrow{BF}=(2,-w,w)$，平面 $AA_1B$ 的一个法向量为 $(1,0,0)$. 所以两平面所成锐角 $\\varphi$ 满足 $\\cos\\varphi=\\dfrac2{\\sqrt{4+2w^2}}=\\sqrt{\\dfrac35}$，故 $\\varphi=\\arccos\\sqrt{\\dfrac35}$.\n\n(3) 由法向量可知平面 $BDF$ 的方程为 $2x-wy+wz=0$. 点 $A=(0,2,0)$ 到该平面的距离为\r\n$\\dfrac{|0-2w+0|}{\\sqrt{4+2w^2}}=\\dfrac2{\\sqrt5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立直角坐标系，令 $B=(0,0,0)$，$C=(w,0,0)$，$A=(0,2,0)$，$D=(w,2,0)$，并令竖直方向为 $z$ 轴. 则平面 $AA_{1}B_{1}B$ 为平面 $x=0$，且 $\\overrightarrow{BD}=(w,2,0)$. 由直线与平面所成角的定义，</p><p>$\\sin30^{\\circ}=\\dfrac{w}{\\sqrt{w^{2}+4}}$，解得 $w=\\dfrac2{\\sqrt{3}}$. 此时 $A_{1}=(0,2,1)$，$B_{1}=(0,0,1)$，故 $F=(0,1,1)$.</p><ol class=\"enumerate\"><li><p>设 $E=t\\overrightarrow{BD}$. 由 $AE\\perp BD$，有 $(A-E)\\cdot\\overrightarrow{BD}=0$，从而 $t=\\dfrac{3}{4}$，所以 $E=\\left(\\dfrac{3w}{4},\\dfrac{3}{2},0\\right)$. 因此 $\\overrightarrow{AE}=\\left(\\dfrac{3w}{4},-\\dfrac{1}{2},0\\right)$，$\\overrightarrow{BF}=(0,1,1)$. 于是</p><p>$\\left|\\overrightarrow{AE}\\cdot\\overrightarrow{BF}\\right|=\\dfrac{1}{2}$，$\\left|\\overrightarrow{AE}\\right|=1$，$\\left|\\overrightarrow{BF}\\right|=\\sqrt{2}$. 设所成锐角为 $\\theta$，则 $\\cos\\theta=\\dfrac{\\frac{1}{2}}{\\sqrt{2}}=\\dfrac{\\sqrt{2}}{4}$，所以 $\\theta=\\arccos\\dfrac{\\sqrt{2}}{4}$.</p></li><li><p>平面 $BDF$ 的一个法向量为</p><p>$\\overrightarrow{BD}\\times\\overrightarrow{BF}=(2,-w,w)$，平面 $AA_{1}B$ 的一个法向量为 $(1,0,0)$. 所以两平面所成锐角 $\\varphi$ 满足 $\\cos\\varphi=\\dfrac2{\\sqrt{4+2w^{2}}}=\\sqrt{\\dfrac{3}{5}}$，故 $\\varphi=\\arccos\\sqrt{\\dfrac{3}{5}}$.</p></li><li><p>由法向量可知平面 $BDF$ 的方程为 $2x-wy+wz=0$. 点 $A=(0,2,0)$ 到该平面的距离为</p><p>$\\dfrac{|0-2w+0|}{\\sqrt{4+2w^{2}}}=\\dfrac2{\\sqrt{5}}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知数列 $\\{a_{n}\\}$ 的首项 $a_1 = 5$，前 $n$ 项和为 $S_{n}$，且 $S_{n+1} = 2S_{n} + n + 5$（$n \\in \\mathbf{N}^{*}$）.\r\n\r\n\n(1) 证明数列 $\\{a_{n} + 1\\}$ 是等比数列；\n\n(2) 令 $f(x) = a_1x + a_2x^2 + \\cdots + a_nx^n$，求函数 $f(x)$ 在点 $x = 1$ 处的导数 $f'(1)$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 的首项 $a_{1} = 5$，前 $n$ 项和为 $S_{n}$，且 $S_{n+1}= 2S_{n}+ n + 5$（$n \\in \\mathbf{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>证明数列 $\\{a_{n}+ 1\\}$ 是等比数列；</p></li><li><p>令 $f(x) = a_{1}x + a_{2}x^{2} + \\cdots + a_{n}x^{n}$，求函数 $f(x)$ 在点 $x = 1$ 处的导数 $f'(1)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由已知式，$a_{n+1}=S_{n+1}-S_n=S_n+n+5$. 当 $n=1$ 时，$S_2=2S_1+1+5=16$，所以 $a_2=S_2-S_1=11=2a_1+1$. 当 $n\\geqslant2$ 时，$S_n=2S_{n-1}+n+4$，从而\r\n$a_{n+1}+1=S_n+n+6=2S_{n-1}+2n+10=2\\left(S_{n-1}+n+5\\right)=2(a_n+1)$.\r\n因此对所有 $n\\in\\mathbb{N}^*$，都有 $a_{n+1}+1=2(a_n+1)$，且 $a_1+1=6$，所以 $\\{a_n+1\\}$ 是首项为 $6$、公比为 $2$ 的等比数列.\n\n(2) 由上题，$a_k=6\\cdot2^{k-1}-1=3\\cdot2^k-1$. 于是\r\n$f'(1)=\\sum_{k=1}^nka_k=3\\sum_{k=1}^nk2^k-\\sum_{k=1}^nk$. 又 $\\sum_{k=1}^nk2^k=(n-1)2^{n+1}+2$，$\\sum_{k=1}^nk=\\dfrac{n(n+1)}2$，所以\r\n$f'(1)=3(n-1)2^{n+1}+6-\\dfrac{n(n+1)}2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由已知式，$a_{n+1}=S_{n+1}-S_{n}=S_{n}+n+5$. 当 $n=1$ 时，$S_{2}=2S_{1}+1+5=16$，所以 $a_{2}=S_{2}-S_{1}=11=2a_{1}+1$. 当 $n\\geqslant2$ 时，$S_{n}=2S_{n-1}+n+4$，从而</p><p>$a_{n+1}+1=S_{n}+n+6=2S_{n-1}+2n+10=2\\left(S_{n-1}+n+5\\right)=2(a_{n}+1)$.</p><p>因此对所有 $n\\in\\mathbb{N}^{*}$，都有 $a_{n+1}+1=2(a_{n}+1)$，且 $a_{1}+1=6$，所以 $\\{a_{n}+1\\}$ 是首项为 $6$、公比为 $2$ 的等比数列.</p></li><li><p>由上题，$a_{k}=6\\cdot2^{k-1}-1=3\\cdot2^{k}-1$. 于是</p><p>$f'(1)=\\sum_{k=1}^{n}ka_{k}=3\\sum_{k=1}^{n}k2^{k}-\\sum_{k=1}^{n}k$. 又 $\\sum_{k=1}^{n}k2^{k}=(n-1)2^{n+1}+2$，$\\sum_{k=1}^{n}k=\\dfrac{n(n+1)}2$，所以</p><p>$f'(1)=3(n-1)2^{n+1}+6-\\dfrac{n(n+1)}2$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知动圆过定点 $\\left(\\frac{p}{2}, 0\\right)$，且与直线 $x = -\\frac{p}{2}$ 相切，其中 $p > 0$.\r\n\r\n\n(1) 求动圆圆心 $C$ 的轨迹的方程；\n\n(2) 设 $A$，$B$ 是轨迹 $C$ 上异于原点 $O$ 的两个不同点，直线 $OA$ 和 $OB$ 的倾斜角分别为 $\\alpha$ 和 $\\beta$，当 $\\alpha$，$\\beta$ 变化且 $\\alpha + \\beta = \\frac\\pi4$，证明直线 $AB$ 恒过定点，并求出该定点的坐标.",
-          "choices": [],
+          "body": "<p>已知动圆过定点 $\\left(\\frac{p}{2}, 0\\right)$，且与直线 $x = -\\frac{p}{2}$ 相切，其中 $p > 0$.</p><ol class=\"enumerate\"><li><p>求动圆圆心 $C$ 的轨迹的方程；</p></li><li><p>设 $A$，$B$ 是轨迹 $C$ 上异于原点 $O$ 的两个不同点，直线 $OA$ 和 $OB$ 的倾斜角分别为 $\\alpha$ 和 $\\beta$，当 $\\alpha$，$\\beta$ 变化且 $\\alpha + \\beta = \\frac{\\pi}{4}$，证明直线 $AB$ 恒过定点，并求出该定点的坐标.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设动圆圆心为 $C=(x,y)$，则圆经过 $P=\\left(\\dfrac p2,0\\right)$，且与直线 $x=-\\dfrac p2$ 相切，所以半径的平方分别为\r\n$\\left(x-\\dfrac p2\\right)^2+y^2$ 和 $\\left(x+\\dfrac p2\\right)^2$. 令二者相等，得 $y^2=2px$. 因此圆心轨迹为抛物线 $y^2=2px$.\n\n(2) 设 $u=\\cot\\alpha$，$v=\\cot\\beta$. 因为 $A$、$B$ 异于原点，且抛物线 $y^2=2px$ 与 $x$ 轴只有原点交点，所以 $A$、$B$ 的纵坐标均不为零. 直线 $OA$ 的方程可写为 $x=uy$，代入抛物线方程得 $y=2pu$，从而 $A=(2pu^2,2pu)$；同理 $B=(2pv^2,2pv)$. 直接将这两点代入可得直线 $AB$ 的方程为\r\n$x-(u+v)y+2puv=0$. 由 $\\tan(\\alpha+\\beta)=\\tan\\dfrac\\pi4=1$，有\r\n$\\dfrac{u+v}{uv-1}=1$，即 $u+v=uv-1$. 令 $s=u+v$，则 $uv=s+1$，直线方程化为\r\n$x+2p+s(2p-y)=0$. 因此点 $(-2p,2p)$ 对任意允许的 $u$，$v$ 都在直线 $AB$ 上，故直线 $AB$ 恒过定点 $(-2p,2p)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设动圆圆心为 $C=(x,y)$，则圆经过 $P=\\left(\\dfrac{p}{2},0\\right)$，且与直线 $x=-\\dfrac{p}{2}$ 相切，所以半径的平方分别为</p><p>$\\left(x-\\dfrac{p}{2}\\right)^{2}+y^{2}$ 和 $\\left(x+\\dfrac{p}{2}\\right)^{2}$. 令二者相等，得 $y^{2}=2px$. 因此圆心轨迹为抛物线 $y^{2}=2px$.</p></li><li><p>设 $u=\\cot\\alpha$，$v=\\cot\\beta$. 因为 $A$、$B$ 异于原点，且抛物线 $y^{2}=2px$ 与 $x$ 轴只有原点交点，所以 $A$、$B$ 的纵坐标均不为零. 直线 $OA$ 的方程可写为 $x=uy$，代入抛物线方程得 $y=2pu$，从而 $A=(2pu^{2},2pu)$；同理 $B=(2pv^{2},2pv)$. 直接将这两点代入可得直线 $AB$ 的方程为</p><p>$x-(u+v)y+2puv=0$. 由 $\\tan(\\alpha+\\beta)=\\tan\\dfrac\\pi4=1$，有</p><p>$\\dfrac{u+v}{uv-1}=1$，即 $u+v=uv-1$. 令 $s=u+v$，则 $uv=s+1$，直线方程化为</p><p>$x+2p+s(2p-y)=0$. 因此点 $(-2p,2p)$ 对任意允许的 $u$，$v$ 都在直线 $AB$ 上，故直线 $AB$ 恒过定点 $(-2p,2p)$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

@@ -1,248 +1,95 @@
 {
+  "title": "2023年普通高等学校招生全国统一考试",
+  "subtitle": "2023年上海卷（秋）",
   "year": "2023",
   "slug": "shanghai",
-  "title": "2023年上海卷（秋）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "设 $x\\in\\mathbb{R}$，不等式 $\\left|x-2\\right|<1$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left(1,3\\right)\\)",
-          "solution": "由 $\\left|x-2\\right|<1$ 得 $-1<x-2<1$，所以 $1<x<3$，故解集为 $\\left(1,3\\right)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $x\\in\\mathbb{R}$，不等式 $\\left|x-2\\right|&#x3C;1$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left(1,3\\right)$",
+          "solution": "由 $\\left|x-2\\right|&#x3C;1$ 得 $-1&#x3C;x-2&#x3C;1$，所以 $1&#x3C;x&#x3C;3$，故解集为 $\\left(1,3\\right)$."
         },
         {
           "num": 2,
-          "body": "若向量 $\\mathbf{a}=\\left(-2,3\\right)$，$\\mathbf{b}=\\left(1,2\\right)$，则 $\\mathbf{a}\\cdot\\mathbf{b}= _______ {}$.",
-          "choices": [],
-          "answer": "\\(4\\)",
-          "solution": "由向量数量积的坐标公式，$\\mathbf{a}\\cdot\\mathbf{b}=\\left(-2\\right)\\times 1+3\\times 2=4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若向量 $\\mathbf{a}=\\left(-2,3\\right)$，$\\mathbf{b}=\\left(1,2\\right)$，则 $\\mathbf{a}\\cdot\\mathbf{b}=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$4$",
+          "solution": "由向量数量积的坐标公式，$\\mathbf{a}\\cdot\\mathbf{b}=\\left(-2\\right)\\times 1+3\\times 2=4$."
         },
         {
           "num": 3,
-          "body": "若数列 $\\{a_n\\}$ 是首项为 $3$，公比为 $2$ 的等比数列，其前 $n$ 项和为 $S_n$，则 $S_6= _______ {}$.",
-          "choices": [],
-          "answer": "\\(189\\)",
-          "solution": "由等比数列前 $n$ 项和公式 $S_n=3\\times \\frac{1-2^n}{1-2}$，得 $S_6=3\\times \\frac{1-2^6}{1-2}=3\\times 63=189$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若数列 $\\{a_{n}\\}$ 是首项为 $3$，公比为 $2$ 的等比数列，其前 $n$ 项和为 $S_{n}$，则 $S_{6}=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$189$",
+          "solution": "由等比数列前 $n$ 项和公式 $S_{n}=3\\times \\frac{1-2^{n}}{1-2}$，得 $S_{6}=3\\times \\frac{1-2^{6}}{1-2}=3\\times 63=189$."
         },
         {
           "num": 4,
-          "body": "若 $\\tan A=3$，则 $\\tan 2A= _______ {}$.",
-          "choices": [],
-          "answer": "\\(-\\frac34\\)",
-          "solution": "由正切二倍角公式 $\\tan 2A=\\frac{2\\tan A}{1-\\tan^2 A}$，代入 $\\tan A=3$ 得 $\\tan 2A=\\frac{2\\times 3}{1-3^2}=-\\frac34$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若 $\\tan A=3$，则 $\\tan 2A=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$-\\frac{3}{4}$",
+          "solution": "由正切二倍角公式 $\\tan 2A=\\frac{2\\tan A}{1-\\tan^{2} A}$，代入 $\\tan A=3$ 得 $\\tan 2A=\\frac{2\\times 3}{1-3^{2}}=-\\frac{3}{4}$."
         },
         {
           "num": 5,
-          "body": "函数 $y=\\begin{cases}\r\n2^x,&x>0,\\\\\r\n1,&x\\le 0,\r\n\\end{cases}$ 的值域为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left[1,+\\infty\\right)\\)",
-          "solution": "当 $x\\le 0$ 时，$y=1$；当 $x>0$ 时，$y=2^x>2^0=1$，所以 $y$ 的取值恒满足 $y\\ge 1$，且 $1$ 与大于 $1$ 的每个值都能取到，故值域为 $\\left[1,+\\infty\\right)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y=\\begin{cases}2^{x},&#x26;x>0,\\\\  1,&#x26;x\\le 0,\\end{cases}$ 的值域为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left[1,+\\infty\\right)$",
+          "solution": "当 $x\\le 0$ 时，$y=1$；当 $x>0$ 时，$y=2^{x}>2^{0}=1$，所以 $y$ 的取值恒满足 $y\\ge 1$，且 $1$ 与大于 $1$ 的每个值都能取到，故值域为 $\\left[1,+\\infty\\right)$."
         },
         {
           "num": 6,
-          "body": "若复数 $z=1+\\mathrm{i}$（$\\mathrm{i}$ 为虚数单位），则 $\\left|1-\\mathrm{i} z\\right|= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\sqrt5\\)",
-          "solution": "由 $z=1+\\mathrm{i}$ 得 $1-\\mathrm{i} z=1-\\mathrm{i}\\left(1+\\mathrm{i}\\right)=1-\\mathrm{i}-\\mathrm{i}^2=2-\\mathrm{i}$，所以 $\\left|1-\\mathrm{i} z\\right|=\\sqrt{2^2+\\left(-1\\right)^2}=\\sqrt5$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若复数 $z=1+\\mathrm{i}$（$\\mathrm{i}$ 为虚数单位），则 $\\left|1-\\mathrm{i}z\\right|=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\sqrt{5}$",
+          "solution": "由 $z=1+\\mathrm{i}$ 得 $1-\\mathrm{i}z=1-\\mathrm{i}\\left(1+\\mathrm{i}\\right)=1-\\mathrm{i}-\\mathrm{i}^{2}=2-\\mathrm{i}$，所以 $\\left|1-\\mathrm{i}z\\right|=\\sqrt{2^{2}+\\left(-1\\right)^{2}}=\\sqrt{5}$."
         },
         {
           "num": 7,
-          "body": "设 $m\\in\\mathbb{R}$. 若圆 $x^2+y^2-4y-m=0$ 的面积为 $\\pi$，则 $m= _______ {}$.",
-          "choices": [],
-          "answer": "\\(-3\\)",
-          "solution": "配方得 $x^2+\\left(y-2\\right)^2=m+4$，故该方程表示圆当且仅当 $m+4>0$，此时半径 $r=\\sqrt{m+4}$，由面积为 $\\pi$ 得 $r=1$，于是 $m+4=1$，解得 $m=-3$，满足 $m+4>0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $m\\in\\mathbb{R}$. 若圆 $x^{2}+y^{2}-4y-m=0$ 的面积为 $\\pi$，则 $m=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$-3$",
+          "solution": "配方得 $x^{2}+\\left(y-2\\right)^{2}=m+4$，故该方程表示圆当且仅当 $m+4>0$，此时半径 $r=\\sqrt{m+4}$，由面积为 $\\pi$ 得 $r=1$，于是 $m+4=1$，解得 $m=-3$，满足 $m+4>0$."
         },
         {
           "num": 8,
-          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边长分别为 $a$，$b$，$c$. 若 $a=4$，$b=5$，$c=6$，则 $\\sin A= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\frac{\\sqrt7}{4}\\)",
-          "solution": "由余弦定理 $\\cos A=\\frac{b^2+c^2-a^2}{2bc}=\\frac{25+36-16}{2\\times 5\\times 6}=\\frac34$，因为 $A$ 为三角形内角，$\\sin A>0$，所以 $\\sin A=\\sqrt{1-\\cos^2 A}=\\sqrt{1-\\frac{9}{16}}=\\frac{\\sqrt7}{4}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 所对的边长分别为 $a$，$b$，$c$. 若 $a=4$，$b=5$，$c=6$，则 $\\sin A=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\frac{\\sqrt{7}}{4}$",
+          "solution": "由余弦定理 $\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2bc}=\\frac{25+36-16}{2\\times 5\\times 6}=\\frac{3}{4}$，因为 $A$ 为三角形内角，$\\sin A>0$，所以 $\\sin A=\\sqrt{1-\\cos^{2} A}=\\sqrt{1-\\frac{9}{16}}=\\frac{\\sqrt{7}}{4}$."
         },
         {
           "num": 9,
-          "body": "国内生产总值（GDP）是衡量地区经济状况的最佳指标. 根据统计数据显示，某市在 2020 年间经济高质量增长，GDP 稳步增长，第一季度和第四季度的 GDP 分别为 $232$ 亿元和 $241$ 亿元，且四个季度 GDP 逐季度增长. 若这四个季度 GDP 的中位数与平均数相等，则该市 2020 年的 GDP 总额为 _______ {} 亿元.",
-          "choices": [],
-          "answer": "\\(946\\)",
-          "solution": "设第二，三季度的GDP分别为 $b$，$c$（单位为亿元），则四个季度依次为 $232$，$b$，$c$，$241$，且逐季度增长，故 $232\\le b\\le c\\le 241$. 中位数为 $\\frac{b+c}{2}$，平均数为 $\\frac{232+b+c+241}{4}$. 由两者相等得 $\\frac{b+c}{2}=\\frac{232+b+c+241}{4}$，化简得 $b+c=473$. 故全年总额为 $232+b+c+241=232+473+241=946$. 例如取 $b=235$，$c=238$即满足逐季度增长，故该取值可实现.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "国内生产总值（GDP）是衡量地区经济状况的最佳指标. 根据统计数据显示，某市在 2020 年间经济高质量增长，GDP 稳步增长，第一季度和第四季度的 GDP 分别为 $232$ 亿元和 $241$ 亿元，且四个季度 GDP 逐季度增长. 若这四个季度 GDP 的中位数与平均数相等，则该市 2020 年的 GDP 总额为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 亿元.",
+          "choices": null,
+          "answer": "$946$",
+          "solution": "设第二，三季度的GDP分别为 $b$，$c$（单位为亿元），则四个季度依次为 $232$，$b$，$c$，$241$，且逐季度增长，故 $232\\le b\\le c\\le 241$. 中位数为 $\\frac{b+c}{2}$，平均数为 $\\frac{232+b+c+241}{4}$. 由两者相等得 $\\frac{b+c}{2}=\\frac{232+b+c+241}{4}$，化简得 $b+c=473$. 故全年总额为 $232+b+c+241=232+473+241=946$. 例如取 $b=235$，$c=238$即满足逐季度增长，故该取值可实现."
         },
         {
           "num": 10,
-          "body": "已知对任意给定的实数 $x$，都有\r\n$\\left(1+2023x\\right)^{100}+\\left(2023-x\\right)^{100}=a_0+a_1x+a_2x^2+\\cdots+a_{100}x^{100},$\r\n其中 $a_0$，$a_1$，$\\cdots$，$a_{100}\\in\\mathbb{R}$. 若 $a_k<0$，其中 $k\\in\\{0,1,2,\\cdots,100\\}$，则正整数 $k$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(49\\)",
-          "solution": "由二项式定理比较 $x^{k}$ 的系数，得 $a_{k}=\\mathrm C_{100}^{k}2023^{k}+\\mathrm C_{100}^{k}\\left(-1\\right)^{k}2023^{100-k}=\\mathrm C_{100}^{k}\\left(2023^{k}+\\left(-1\\right)^{k}2023^{100-k}\\right)$. 当 $k$为偶数时，$a_{k}=\\mathrm C_{100}^{k}\\left(2023^{k}+2023^{100-k}\\right)>0$. 当 $k$为奇数时，$a_{k}=\\mathrm C_{100}^{k}\\left(2023^{k}-2023^{100-k}\\right)$. 此时 $a_{k}<0$当且仅当 $2023^{k}<2023^{100-k}$，即 $k<100-k$，亦即 $k<50$. 故满足 $a_{k}<0$的正整数 $k$必为小于 $50$的奇数，其最大值为 $49$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知对任意给定的实数 $x$，都有</p><p>$\\left(1+2023x\\right)^{100}+\\left(2023-x\\right)^{100}=a_{0}+a_{1}x+a_{2}x^{2}+\\cdots+a_{100}x^{100},$</p><p>其中 $a_{0}$，$a_{1}$，$\\cdots$，$a_{100}\\in\\mathbb{R}$. 若 $a_{k}&#x3C;0$，其中 $k\\in\\{0,1,2,\\cdots,100\\}$，则正整数 $k$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$49$",
+          "solution": "由二项式定理比较 $x^{k}$ 的系数，得 $a_{k}=\\mathrm{C}_{100}^{k}2023^{k}+\\mathrm{C}_{100}^{k}\\left(-1\\right)^{k}2023^{100-k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}+\\left(-1\\right)^{k}2023^{100-k}\\right)$. 当 $k$为偶数时，$a_{k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}+2023^{100-k}\\right)>0$. 当 $k$为奇数时，$a_{k}=\\mathrm{C}_{100}^{k}\\left(2023^{k}-2023^{100-k}\\right)$. 此时 $a_{k}&#x3C;0$当且仅当 $2023^{k}&#x3C;2023^{100-k}$，即 $k&#x3C;100-k$，亦即 $k&#x3C;50$. 故满足 $a_{k}&#x3C;0$的正整数 $k$必为小于 $50$的奇数，其最大值为 $49$."
         },
         {
           "num": 11,
-          "body": "某公园欲建设一段斜坡，斜坡面是一平面，坡面与水平地面所成角为 $\\theta$，坡顶距离水平地面的垂直高度为 $4$ 米，游客从坡底沿着斜坡面向上直行，每走 $1$ 米消耗的体力为 $1.025-\\cos\\theta$，当 $\\theta= _______ {}$ 时，游客走斜坡所消耗的总体力最小.",
-          "choices": [],
-          "answer": "\\(\\arccos\\frac{40}{41}\\)",
-          "solution": "记 $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$，斜坡长为 $\\frac{4}{\\sin\\theta}$，总体力为 $E\\left(\\theta\\right)=\\frac{4\\left(1.025-\\cos\\theta\\right)}{\\sin\\theta}$. 记 $a=1.025=\\frac{41}{40}$，则 $E\\left(\\theta\\right)=\\frac{4\\left(a-\\cos\\theta\\right)}{\\sin\\theta}$. 求导得 $E^{\\prime}\\left(\\theta\\right)=\\frac{4\\left(1-a\\cos\\theta\\right)}{\\sin^{2}\\theta}$. 令 $E^{\\prime}\\left(\\theta\\right)=0$得 $\\cos\\theta=\\frac{1}{a}=\\frac{40}{41}$. 因为 $\\cos\\theta$在 $\\left(0,\\frac{\\pi}{2}\\right)$上严格递减，故总体力先减后增，在 $\\cos\\theta=\\frac{40}{41}$处取得最小值，即 $\\theta=\\arccos\\frac{40}{41}$时总体力最小.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某公园欲建设一段斜坡，斜坡面是一平面，坡面与水平地面所成角为 $\\theta$，坡顶距离水平地面的垂直高度为 $4$ 米，游客从坡底沿着斜坡面向上直行，每走 $1$ 米消耗的体力为 $1.025-\\cos\\theta$，当 $\\theta=\\underline{\\hspace{2.5em}}{}$ 时，游客走斜坡所消耗的总体力最小.",
+          "choices": null,
+          "answer": "$\\arccos\\frac{40}{41}$",
+          "solution": "记 $\\theta\\in\\left(0,\\frac{\\pi}{2}\\right)$，斜坡长为 $\\frac{4}{\\sin\\theta}$，总体力为 $E\\left(\\theta\\right)=\\frac{4\\left(1.025-\\cos\\theta\\right)}{\\sin\\theta}$. 记 $a=1.025=\\frac{41}{40}$，则 $E\\left(\\theta\\right)=\\frac{4\\left(a-\\cos\\theta\\right)}{\\sin\\theta}$. 求导得 $E^{\\prime}\\left(\\theta\\right)=\\frac{4\\left(1-a\\cos\\theta\\right)}{\\sin^{2}\\theta}$. 令 $E^{\\prime}\\left(\\theta\\right)=0$得 $\\cos\\theta=\\frac{1}{a}=\\frac{40}{41}$. 因为 $\\cos\\theta$在 $\\left(0,\\frac{\\pi}{2}\\right)$上严格递减，故总体力先减后增，在 $\\cos\\theta=\\frac{40}{41}$处取得最小值，即 $\\theta=\\arccos\\frac{40}{41}$时总体力最小."
         },
         {
           "num": 12,
-          "body": "空间中有三个定点 $A$，$B$，$C$，且 $AB=BC=CA=1$. 若在空间中任取 $2$ 个不同的点，使它们与 $A$，$B$，$C$ 恰好成为一个正四棱锥的五个顶点，则不同的取法共有 _______ {} 种.",
-          "choices": [],
-          "answer": "\\(9\\)",
-          "solution": "正四棱锥指底面为正方形且顶点在底面的投影为中心的棱锥，记底面边长为 $s$，侧棱长为 $l$，则底面相邻两顶点距离为 $s$，相对两顶点距离为 $s\\sqrt{2}$，顶点到任一底面顶点的距离为 $l$. 设五个顶点中 $A$，$B$，$C$两两距离为 $1$. 若 $A$，$B$，$C$均为底面顶点，则其中三点为正方形三顶点，必为等腰直角三角形，不可能边长全为 $1$，故舍去. 于是 $A$，$B$，$C$中恰一点为锥顶，另两点为底面顶点. 若另两点在底面相邻，则 $s=1$，$l=1$，高 $h=\\sqrt{l^{2}-\\left(s/\\sqrt{2}\\right)^{2}}=\\frac{1}{\\sqrt{2}}>0$，可行；若另两点在底面相对，则对角线长为 $1$，故 $s=\\frac{1}{\\sqrt{2}}$，$l=1$，高 $h=\\sqrt{1-\\left(\\frac{1}{2}\\right)^{2}}=\\frac{\\sqrt{3}}{2}>0$，可行. 别无其他情形. 固定锥顶的选择有 $3$种. 当另两点相邻时，以 $C$为锥顶、$A$，$B$为底面相邻顶点为例，建坐标 $A\\left(-\\frac12,0,0\\right)$，$B\\left(\\frac12,0,0\\right)$，$C\\left(0,\\frac{\\sqrt{3}}{2},0\\right)$. 底面中心 $O=\\left(0,y_{0},z_{0}\\right)$满足 $\\left|OA\\right|=\\frac{1}{\\sqrt{2}}$，即 $y_{0}^{2}+z_{0}^{2}=\\frac14$，且 $\\overrightarrow{CO}$垂直于底面，故 $\\overrightarrow{CO}\\cdot\\overrightarrow{OA}=0$，算得 $y_{0}=\\frac{\\sqrt{3}}{6}$，$z_{0}^{2}=\\frac16$. 于是 $z_{0}$有正负两解，各唯一确定底面平面及经中心对称的另两顶点，即无序点对有两个；三个锥顶选择共得 $3\\times 2=6$个. 当另两点相对时，以 $C$为锥顶、$A$，$B$为对角线为例，记 $M$为 $AB$中点，则中心必为 $M$，底面为过 $M$且法向量为 $\\overrightarrow{CM}$的平面，唯一；另两顶点为该平面内过 $M$且垂直于 $AB$的直线上到 $M$距离为 $\\frac12$的两点，作为无序点对唯一. 三个锥顶选择共得 $3$个. 两类距离图不同，且锥顶是唯一与其余四点距离全为 $1$的点，故上述 $6+3=9$个无序点对两两不同. 所以不同的取法共有 $9$种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "空间中有三个定点 $A$，$B$，$C$，且 $AB=BC=CA=1$. 若在空间中任取 $2$ 个不同的点，使它们与 $A$，$B$，$C$ 恰好成为一个正四棱锥的五个顶点，则不同的取法共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种.",
+          "choices": null,
+          "answer": "$9$",
+          "solution": "正四棱锥指底面为正方形且顶点在底面的投影为中心的棱锥，记底面边长为 $s$，侧棱长为 $l$，则底面相邻两顶点距离为 $s$，相对两顶点距离为 $s\\sqrt{2}$，顶点到任一底面顶点的距离为 $l$. 设五个顶点中 $A$，$B$，$C$两两距离为 $1$. 若 $A$，$B$，$C$均为底面顶点，则其中三点为正方形三顶点，必为等腰直角三角形，不可能边长全为 $1$，故舍去. 于是 $A$，$B$，$C$中恰一点为锥顶，另两点为底面顶点. 若另两点在底面相邻，则 $s=1$，$l=1$，高 $h=\\sqrt{l^{2}-\\left(s/\\sqrt{2}\\right)^{2}}=\\frac{1}{\\sqrt{2}}>0$，可行；若另两点在底面相对，则对角线长为 $1$，故 $s=\\frac{1}{\\sqrt{2}}$，$l=1$，高 $h=\\sqrt{1-\\left(\\frac{1}{2}\\right)^{2}}=\\frac{\\sqrt{3}}{2}>0$，可行. 别无其他情形. 固定锥顶的选择有 $3$种. 当另两点相邻时，以 $C$为锥顶、$A$，$B$为底面相邻顶点为例，建坐标 $A\\left(-\\frac{1}{2},0,0\\right)$，$B\\left(\\frac{1}{2},0,0\\right)$，$C\\left(0,\\frac{\\sqrt{3}}{2},0\\right)$. 底面中心 $O=\\left(0,y_{0},z_{0}\\right)$满足 $\\left|OA\\right|=\\frac{1}{\\sqrt{2}}$，即 $y_{0}^{2}+z_{0}^{2}=\\frac{1}{4}$，且 $\\overrightarrow{CO}$垂直于底面，故 $\\overrightarrow{CO}\\cdot\\overrightarrow{OA}=0$，算得 $y_{0}=\\frac{\\sqrt{3}}{6}$，$z_{0}^{2}=\\frac{1}{6}$. 于是 $z_{0}$有正负两解，各唯一确定底面平面及经中心对称的另两顶点，即无序点对有两个；三个锥顶选择共得 $3\\times 2=6$个. 当另两点相对时，以 $C$为锥顶、$A$，$B$为对角线为例，记 $M$为 $AB$中点，则中心必为 $M$，底面为过 $M$且法向量为 $\\overrightarrow{CM}$的平面，唯一；另两顶点为该平面内过 $M$且垂直于 $AB$的直线上到 $M$距离为 $\\frac{1}{2}$的两点，作为无序点对唯一. 三个锥顶选择共得 $3$个. 两类距离图不同，且锥顶是唯一与其余四点距离全为 $1$的点，故上述 $6+3=9$个无序点对两两不同. 所以不同的取法共有 $9$种."
         }
       ]
     },
@@ -251,7 +98,7 @@
       "problems": [
         {
           "num": 13,
-          "body": "已知集合 $P=\\{1,2\\}$，$Q=\\{2,3\\}$. 若 $M=\\{x\\mid x\\in P,\\ x\\notin Q\\}$，则 $M=$（ ）.",
+          "body": "已知集合 $P=\\{1,2\\}$，$Q=\\{2,3\\}$. 若 $M=\\{x\\mid x\\in P,\\ x\\notin Q\\}$，则 $M=$（ ）.",
           "choices": [
             "$\\{1\\}$",
             "$\\{2\\}$",
@@ -259,13 +106,11 @@
             "$\\{1,2,3\\}$"
           ],
           "answer": "A",
-          "solution": "由 $P=\\{1,2\\}$，$Q=\\{2,3\\}$，$M=\\{x\\mid x\\in P,x\\notin Q\\}$恰为属于 $P$但不属于 $Q$的元素，即 $M=\\{1\\}$. 故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $P=\\{1,2\\}$，$Q=\\{2,3\\}$，$M=\\{x\\mid x\\in P,x\\notin Q\\}$恰为属于 $P$但不属于 $Q$的元素，即 $M=\\{1\\}$. 故选 A."
         },
         {
           "num": 14,
-          "body": "为了解某校高中男生身高与体重的关系，随机选取 $50$ 名男生的身高与体重的数据，绘制散点图，如图所示，下列说法正确的是（ ）.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/shanghai/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>为了解某校高中男生身高与体重的关系，随机选取 $50$ 名男生的身高与体重的数据，绘制散点图，如图所示，下列说法正确的是（ ）.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "身高越高，体重越重",
             "身高越高，体重越轻",
@@ -273,37 +118,31 @@
             "身高与体重之间呈负相关"
           ],
           "answer": "C",
-          "solution": "散点图横轴为身高，纵轴为体重，点云总体随身高增大而上移，但并非严格单调，且有个别偏离点. 这正是正相关的统计特征，而不是“身高越高体重一定越重”的确定性断言. 故身高与体重之间呈正相关，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "散点图横轴为身高，纵轴为体重，点云总体随身高增大而上移，但并非严格单调，且有个别偏离点. 这正是正相关的统计特征，而不是“身高越高体重一定越重”的确定性断言. 故身高与体重之间呈正相关，选 C."
         },
         {
           "num": 15,
-          "body": "已知 $a>0$，函数 $y=\\sin x$ 在区间 $\\left[a,2a\\right]$ 上的最小值为 $s$，在区间 $\\left[2a,3a\\right]$ 上的最小值为 $t$，当 $a$ 变化时，下列一定不成立的是（ ）.",
+          "body": "已知 $a>0$，函数 $y=\\sin x$ 在区间 $\\left[a,2a\\right]$ 上的最小值为 $s$，在区间 $\\left[2a,3a\\right]$ 上的最小值为 $t$，当 $a$ 变化时，下列一定不成立的是（ ）.",
           "choices": [
             "$s>0,t>0$",
-            "$s>0$，$t<0$",
-            "$s<0$，$t<0$",
-            "$s<0$，$t>0$"
+            "$s>0$，$t&#x3C;0$",
+            "$s&#x3C;0$，$t&#x3C;0$",
+            "$s&#x3C;0$，$t>0$"
           ],
           "answer": "D",
-          "solution": "设 $a>0$，$s$为 $\\sin x$在 $\\left[a,2a\\right]$上的最小值，$t$为在 $\\left[2a,3a\\right]$上的最小值. 若 $t>0$，则 $\\sin x$在闭区间 $\\left[2a,3a\\right]$上恒正，故该连通区间必含于某一个 $\\left(2k\\pi,\\left(2k+1\\right)\\pi\\right)$（$k\\ge 0$为整数）内，即 $2k\\pi<2a$且 $3a<\\left(2k+1\\right)\\pi$. 由此 $a>k\\pi$且 $a<\\frac{\\left(2k+1\\right)\\pi}{3}$，必有 $k\\pi<\\frac{\\left(2k+1\\right)\\pi}{3}$，即 $k<1$，故 $k=0$，$3a<\\pi$，$a<\\frac{\\pi}{3}$. 此时 $\\left[a,2a\\right]\\subset\\left(0,\\pi\\right)$，$\\sin x>0$，故 $s>0$. 于是 $t>0$必推出 $s>0$，$s<0$且 $t>0$不可能. 另方面，取 $a=\\frac{\\pi}{6}$时两区间的最小值均为正，故 A可成立；取 $a=\\frac{2\\pi}{5}$时 $s>0$而 $t<0$，故 B可成立；取 $a=2\\pi$时两区间的最小值均为 $-1$，故 C可成立. 因此一定不成立的是 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设 $a>0$，$s$为 $\\sin x$在 $\\left[a,2a\\right]$上的最小值，$t$为在 $\\left[2a,3a\\right]$上的最小值. 若 $t>0$，则 $\\sin x$在闭区间 $\\left[2a,3a\\right]$上恒正，故该连通区间必含于某一个 $\\left(2k\\pi,\\left(2k+1\\right)\\pi\\right)$（$k\\ge 0$为整数）内，即 $2k\\pi&#x3C;2a$且 $3a&#x3C;\\left(2k+1\\right)\\pi$. 由此 $a>k\\pi$且 $a&#x3C;\\frac{\\left(2k+1\\right)\\pi}{3}$，必有 $k\\pi&#x3C;\\frac{\\left(2k+1\\right)\\pi}{3}$，即 $k&#x3C;1$，故 $k=0$，$3a&#x3C;\\pi$，$a&#x3C;\\frac{\\pi}{3}$. 此时 $\\left[a,2a\\right]\\subset\\left(0,\\pi\\right)$，$\\sin x>0$，故 $s>0$. 于是 $t>0$必推出 $s>0$，$s&#x3C;0$且 $t>0$不可能. 另方面，取 $a=\\frac{\\pi}{6}$时两区间的最小值均为正，故 A可成立；取 $a=\\frac{2\\pi}{5}$时 $s>0$而 $t&#x3C;0$，故 B可成立；取 $a=2\\pi$时两区间的最小值均为 $-1$，故 C可成立. 因此一定不成立的是 D."
         },
         {
           "num": 16,
-          "body": "对于曲线 $C$，若存在点 $M$，使得对任意的点 $P\\in C$，都存在 $Q\\in C$，且 $\\left|PM\\right|\\cdot\\left|QM\\right|=1$，则称曲线 $C$ 为“自相关曲线”. 有以下结论：\r\n\\begin{circlelist}\r\n\\item 任何椭圆都是“自相关曲线”；\r\n\\item 存在双曲线是“自相关曲线”. 关于上述两个结论，说法正确的是（ ）.\r\n\\end{circlelist}",
+          "body": "<p>对于曲线 $C$，若存在点 $M$，使得对任意的点 $P\\in C$，都存在 $Q\\in C$，且 $\\left|PM\\right|\\cdot\\left|QM\\right|=1$，则称曲线 $C$ 为“自相关曲线”. 有以下结论：</p><ol class=\"enumerate\"><li><p>任何椭圆都是“自相关曲线”；</p></li><li><p>存在双曲线是“自相关曲线”. 关于上述两个结论，说法正确的是（ ）.</p></li></ol>",
           "choices": [
-            "\\circled{1} 成立，\\circled{2} 成立",
-            "\\circled{1} 成立，\\circled{2} 不成立",
-            "\\circled{1} 不成立，\\circled{2} 成立",
-            "\\circled{1} 不成立，\\circled{2} 不成立"
+            "① 成立，② 成立",
+            "① 成立，② 不成立",
+            "① 不成立，② 成立",
+            "① 不成立，② 不成立"
           ],
           "answer": "B",
-          "solution": "记 $d_{M}\\left(P\\right)=\\left|PM\\right|$. 若 $M\\in C$，取 $P=M$则 $\\left|PM\\right|=0$，任何 $Q$都使乘积为 $0$，故 $M$必在 $C$外. 对紧连通的 $C$（椭圆），$d_{M}$的像 $D$为连通紧集，即闭区间 $D=\\left[m,M_{d}\\right]$，其中 $m=\\min_{C}d_{M}>0$，$M_{d}=\\max_{C}d_{M}$. 条件化为对一切 $d\\in D$有 $\\frac1d\\in D$，当且仅当 $mM_{d}=1$；此时倒数映射恰为该区间到自身的双射. 对任一椭圆 $C$，取 $P_{0}\\in C$及固定方向，令 $M\\left(t\\right)=P_{0}+t\\mathbf{v}$（$t\\ge 0$），则 $m\\left(t\\right)$，$M_{d}\\left(t\\right)$关于 $t$均连续，$g\\left(t\\right)=m\\left(t\\right)M_{d}\\left(t\\right)$连续. $t=0$时 $M\\in C$故 $g=0$；$C$有界而 $\\left|M\\left(t\\right)\\right|\\to+\\infty$，故 $m\\left(t\\right)\\to+\\infty$，$g\\left(t\\right)\\to+\\infty$. 由介值定理有 $t^{\\ast}$使 $g=1$，对应 $M^{\\ast}$满足 $mM_{d}=1$，即为所求. 故任何椭圆都是自相关曲线，\\circled{1}成立. 设 $C$为任一双曲线，则 $C$为平面闭无界集. 若 $M\\in C$已不可能如上. 若 $M\\notin C$，距离函数在闭集 $C$上达到最小值 $m=\\min_{C}\\left|PM\\right|>0$；又 $C$无界故距离无上界，取 $P\\in C$使 $\\left|PM\\right|>\\frac1m$，则对一切 $Q\\in C$有 $\\left|PM\\right|\\cdot\\left|QM\\right|\\ge\\left|PM\\right|m>1$，无 $Q$使乘积为 $1$. 故不存在双曲线是自相关曲线，\\circled{2}不成立. 于是\\circled{1}成立\\circled{2}不成立，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "记 $d_{M}\\left(P\\right)=\\left|PM\\right|$. 若 $M\\in C$，取 $P=M$则 $\\left|PM\\right|=0$，任何 $Q$都使乘积为 $0$，故 $M$必在 $C$外. 对紧连通的 $C$（椭圆），$d_{M}$的像 $D$为连通紧集，即闭区间 $D=\\left[m,M_{d}\\right]$，其中 $m=\\min_{C}d_{M}>0$，$M_{d}=\\max_{C}d_{M}$. 条件化为对一切 $d\\in D$有 $\\frac{1}{d}\\in D$，当且仅当 $mM_{d}=1$；此时倒数映射恰为该区间到自身的双射. 对任一椭圆 $C$，取 $P_{0}\\in C$及固定方向，令 $M\\left(t\\right)=P_{0}+t\\mathbf{v}$（$t\\ge 0$），则 $m\\left(t\\right)$，$M_{d}\\left(t\\right)$关于 $t$均连续，$g\\left(t\\right)=m\\left(t\\right)M_{d}\\left(t\\right)$连续. $t=0$时 $M\\in C$故 $g=0$；$C$有界而 $\\left|M\\left(t\\right)\\right|\\to+\\infty$，故 $m\\left(t\\right)\\to+\\infty$，$g\\left(t\\right)\\to+\\infty$. 由介值定理有 $t^{\\ast}$使 $g=1$，对应 $M^{\\ast}$满足 $mM_{d}=1$，即为所求. 故任何椭圆都是自相关曲线，①成立. 设 $C$为任一双曲线，则 $C$为平面闭无界集. 若 $M\\in C$已不可能如上. 若 $M\\notin C$，距离函数在闭集 $C$上达到最小值 $m=\\min_{C}\\left|PM\\right|>0$；又 $C$无界故距离无上界，取 $P\\in C$使 $\\left|PM\\right|>\\frac{1}{m}$，则对一切 $Q\\in C$有 $\\left|PM\\right|\\cdot\\left|QM\\right|\\ge\\left|PM\\right|m>1$，无 $Q$使乘积为 $1$. 故不存在双曲线是自相关曲线，②不成立. 于是①成立②不成立，选 B."
         }
       ]
     },
@@ -312,51 +151,40 @@
       "problems": [
         {
           "num": 17,
-          "body": "2023 年 6 月 7 日，21 世纪汽车博览会在上海举行. 已知某汽车模型公司共有 $25$ 个汽车模型，其外观和内饰的颜色分布如下表所示：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n\\hline\r\n& 红色外观 & 蓝色外观\\\\\r\n\\hline\r\n米色内饰 & $12$ & $8$\\\\\r\n棕色内饰 & $2$ & $3$\\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 小明从这些汽车模型中随机取出一个，记事件 A 为“小明取到红色外观的汽车模型”，事件 B 为“小明取到棕色内饰的汽车模型”，求 $P(B)$ 和 $P(B\\mid A)$，并据此判断事件 A 和事件 B 是否独立；\n\n(2) 该公司举行抽奖活动，规定在一次抽奖中，每人可以一次性从这些汽车模型中随机取出两个汽车模型，并给出以下假设：\r\n\\begin{enumerate}\n\n(3) 取出的两个汽车模型会出现三种结果，即外观和内饰均为同色，外观和内饰均不为同色，以及仅外观或仅内饰为同色；\n\n(4) 按出现结果的可能性大小，概率越小奖项越高；\n\n(5) 抽奖活动的奖金金额为：一等奖 $600$ 元，二等奖 $300$ 元，三等奖 $150$ 元.\n\r\n请分析各奖项对应的结果，设 $X$ 为奖金额，写出 $X$ 的分布并求其数学期望.\r\n\\end{enumerate}",
-          "choices": [],
+          "body": "<p>2023 年 6 月 7 日，21 世纪汽车博览会在上海举行. 已知某汽车模型公司共有 $25$ 个汽车模型，其外观和内饰的颜色分布如下表所示：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td><td style=\"text-align: center\"> 红色外观 </td><td style=\"text-align: center\"> 蓝色外观</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>米色内饰 </td><td style=\"text-align: center\"> $12$ </td><td style=\"text-align: center\"> $8$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>棕色内饰 </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>小明从这些汽车模型中随机取出一个，记事件 A 为“小明取到红色外观的汽车模型”，事件 B 为“小明取到棕色内饰的汽车模型”，求 $P(B)$ 和 $P(B\\mid A)$，并据此判断事件 A 和事件 B 是否独立；</p></li><li><p>该公司举行抽奖活动，规定在一次抽奖中，每人可以一次性从这些汽车模型中随机取出两个汽车模型，并给出以下假设：</p><p></p><ol class=\"enumerate\"><li><p>取出的两个汽车模型会出现三种结果，即外观和内饰均为同色，外观和内饰均不为同色，以及仅外观或仅内饰为同色；</p></li><li><p>按出现结果的可能性大小，概率越小奖项越高；</p></li><li><p>抽奖活动的奖金金额为：一等奖 $600$ 元，二等奖 $300$ 元，三等奖 $150$ 元.</p></li></ol><p></p><p>请分析各奖项对应的结果，设 $X$ 为奖金额，写出 $X$ 的分布并求其数学期望.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 红色外观共有 $12+2=14$ 个，棕色内饰共有 $2+3=5$ 个，所以 $P(B)=\\frac{5}{25}=\\frac15$，$P(B\\mid A)=\\frac{2}{14}=\\frac17$.\r\n因为 $P(B\\mid A)\\ne P(B)$，所以事件 $A$ 和事件 $B$ 不独立.\n\n(2) 从 $25$ 个模型中一次取出 $2$ 个，不计顺序，总取法数为 $\\mathrm C_{25}^{2}=300$.\r\n“外观和内饰均为同色”即两模型出自同一格，取法数为 $\\mathrm C_{12}^{2}+\\mathrm C_{8}^{2}+\\mathrm C_{2}^{2}+\\mathrm C_{3}^{2}=66+28+1+3=98$，故其概率为 $\\frac{98}{300}=\\frac{49}{150}$.\r\n\r\n“外观和内饰均不为同色”即外观不同且内饰不同，只能是红米与蓝棕、蓝米与红棕的组合，取法数为 $12\\times 3+8\\times 2=36+16=52$，故其概率为 $\\frac{52}{300}=\\frac{13}{75}$.\r\n\r\n“仅外观或仅内饰为同色”为余下情形，取法数为 $12\\times 2+8\\times 3+12\\times 8+2\\times 3=24+24+96+6=150$，与 $300-98-52=150$一致，故其概率为 $\\frac{150}{300}=\\frac12$.\r\n\r\n由“概率越小奖项越高”可知：$P(X=600)=\\frac{13}{75}$，$P(X=300)=\\frac{49}{150}$，$P(X=150)=\\frac12$.\r\n因此 $E(X)=600\\times \\frac{13}{75}+300\\times \\frac{49}{150}+150\\times \\frac12=104+98+75=277$.\r\n故 $X$ 的分布列为\r\n{\\centering\r\n\\begin{tabular}{c|ccc}\r\n$X$ & $600$ & $300$ & $150$ \\\\\r\n\\hline\r\n$P$ & $\\frac{13}{75}$ & $\\frac{49}{150}$ & $\\frac12$\r\n\\end{tabular}\r\n\\par}\r\n且 $E(X)=277$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>红色外观共有 $12+2=14$ 个，棕色内饰共有 $2+3=5$ 个，所以 $P(B)=\\frac{5}{25}=\\frac{1}{5}$，$P(B\\mid A)=\\frac{2}{14}=\\frac{1}{7}$.</p><p>因为 $P(B\\mid A)\\ne P(B)$，所以事件 $A$ 和事件 $B$ 不独立.</p></li><li><p>从 $25$ 个模型中一次取出 $2$ 个，不计顺序，总取法数为 $\\mathrm{C}_{25}^{2}=300$.</p><p>“外观和内饰均为同色”即两模型出自同一格，取法数为 $\\mathrm{C}_{12}^{2}+\\mathrm{C}_{8}^{2}+\\mathrm{C}_{2}^{2}+\\mathrm{C}_{3}^{2}=66+28+1+3=98$，故其概率为 $\\frac{98}{300}=\\frac{49}{150}$.</p><p>“外观和内饰均不为同色”即外观不同且内饰不同，只能是红米与蓝棕、蓝米与红棕的组合，取法数为 $12\\times 3+8\\times 2=36+16=52$，故其概率为 $\\frac{52}{300}=\\frac{13}{75}$.</p><p>“仅外观或仅内饰为同色”为余下情形，取法数为 $12\\times 2+8\\times 3+12\\times 8+2\\times 3=24+24+96+6=150$，与 $300-98-52=150$一致，故其概率为 $\\frac{150}{300}=\\frac{1}{2}$.</p><p>由“概率越小奖项越高”可知：$P(X=600)=\\frac{13}{75}$，$P(X=300)=\\frac{49}{150}$，$P(X=150)=\\frac{1}{2}$.</p><p>因此 $E(X)=600\\times \\frac{13}{75}+300\\times \\frac{49}{150}+150\\times \\frac{1}{2}=104+98+75=277$.</p><p>故 $X$ 的分布列为</p><p><span class=\"macro macro-centering\"></span><br></p><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$X$ </td><td style=\"text-align: center\"> $600$ </td><td style=\"text-align: center\"> $300$ </td><td style=\"text-align: center\"> $150$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{13}{75}$ </td><td style=\"text-align: center\"> $\\frac{49}{150}$ </td><td style=\"text-align: center\"> $\\frac{1}{2}$</td></tr></tbody></table><br><span class=\"macro macro-par\"></span><p></p><p>且 $E(X)=277$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "在四棱柱 $ABCD-A_1B_1C_1D_1$ 中，$AB\\parallel DC$，$AB\\perp AD$，$AB=2$，$AD=3$，$DC=4$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2023/img/shanghai/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>在四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AB\\parallel DC$，$AB\\perp AD$，$AB=2$，$AD=3$，$DC=4$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "注：按本页现稿，题干仅有“在四棱柱 $ABCD-A_1B_1C_1D_1$ 中，$AB\\parallel DC$，$AB\\perp AD$，$AB=2$，$AD=3$，$DC=4$.”一句加题图，未含小问；原PDF题面另有两个小问：求证 $A_1B\\parallel$ 平面 $DCC_1D_1$；若直四棱柱 $ABCD-A_1B_1C_1D_1$ 的体积为 $36$，求二面角 $A_1-BD-A$ 的大小. 以下按原PDF两小问求解，结论不与现稿已给条件矛盾.\r\n\n(1) 因为 $ABCD-A_1B_1C_1D_1$ 为四棱柱，所以 $AA_1\\parallel DD_1$，$DD_1\\subset$ 平面 $DCC_1D_1$，$AA_1\\not\\subset$ 平面 $DCC_1D_1$，故 $AA_1\\parallel$ 平面 $DCC_1D_1$；又 $AB\\parallel DC$，$DC\\subset$ 平面 $DCC_1D_1$，$AB\\not\\subset$ 平面 $DCC_1D_1$，故 $AB\\parallel$ 平面 $DCC_1D_1$；$AB\\cap AA_1=A$，所以平面 $ABB_1A_1\\parallel$ 平面 $DCC_1D_1$；$A_1B\\subset$ 平面 $ABB_1A_1$，故 $A_1B\\parallel$ 平面 $DCC_1D_1$.\n\n(2) 直四棱柱的侧棱垂直于底面. 底面 $ABCD$ 为直角梯形，面积 $S_{ABCD}=\\frac{AB+DC}{2}\\cdot AD=\\frac{2+4}{2}\\times 3=9$，由体积为 $36$ 得高 $AA_1=\\frac{36}{9}=4$. 设 $H$ 为点 $A$ 在直线 $BD$ 上的投影，则 $AH\\perp BD$；因为 $AA_1\\perp$ 底面 $ABCD$，所以 $AA_1\\perp BD$，故 $BD\\perp$ 平面 $A_1AH$，于是 $A_1H\\perp BD$，$\\angle A_1HA$ 即二面角 $A_1-BD-A$ 的平面角. 在直角三角形 $ABD$ 中，$BD=\\sqrt{AB^2+AD^2}=\\sqrt{13}$，$AH=\\frac{AB\\cdot AD}{BD}=\\frac{6}{\\sqrt{13}}$，所以 $\\tan\\angle A_1HA=\\frac{AA_1}{AH}=\\frac{4}{\\frac{6}{\\sqrt{13}}}=\\frac{2\\sqrt{13}}{3}$. 故二面角 $A_1-BD-A$ 的大小为 $\\arctan\\frac{2\\sqrt{13}}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>注：按本页现稿，题干仅有“在四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AB\\parallel DC$，$AB\\perp AD$，$AB=2$，$AD=3$，$DC=4$.”一句加题图，未含小问；原PDF题面另有两个小问：求证 $A_{1}B\\parallel$ 平面 $DCC_{1}D_{1}$；若直四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 的体积为 $36$，求二面角 $A_{1}-BD-A$ 的大小. 以下按原PDF两小问求解，结论不与现稿已给条件矛盾.</p><ol class=\"enumerate\"><li><p>因为 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 为四棱柱，所以 $AA_{1}\\parallel DD_{1}$，$DD_{1}\\subset$ 平面 $DCC_{1}D_{1}$，$AA_{1}\\not\\subset$ 平面 $DCC_{1}D_{1}$，故 $AA_{1}\\parallel$ 平面 $DCC_{1}D_{1}$；又 $AB\\parallel DC$，$DC\\subset$ 平面 $DCC_{1}D_{1}$，$AB\\not\\subset$ 平面 $DCC_{1}D_{1}$，故 $AB\\parallel$ 平面 $DCC_{1}D_{1}$；$AB\\cap AA_{1}=A$，所以平面 $ABB_{1}A_{1}\\parallel$ 平面 $DCC_{1}D_{1}$；$A_{1}B\\subset$ 平面 $ABB_{1}A_{1}$，故 $A_{1}B\\parallel$ 平面 $DCC_{1}D_{1}$.</p></li><li><p>直四棱柱的侧棱垂直于底面. 底面 $ABCD$ 为直角梯形，面积 $S_{ABCD}=\\frac{AB+DC}{2}\\cdot AD=\\frac{2+4}{2}\\times 3=9$，由体积为 $36$ 得高 $AA_{1}=\\frac{36}{9}=4$. 设 $H$ 为点 $A$ 在直线 $BD$ 上的投影，则 $AH\\perp BD$；因为 $AA_{1}\\perp$ 底面 $ABCD$，所以 $AA_{1}\\perp BD$，故 $BD\\perp$ 平面 $A_{1}AH$，于是 $A_{1}H\\perp BD$，$\\angle A_{1}HA$ 即二面角 $A_{1}-BD-A$ 的平面角. 在直角三角形 $ABD$ 中，$BD=\\sqrt{AB^{2}+AD^{2}}=\\sqrt{13}$，$AH=\\frac{AB\\cdot AD}{BD}=\\frac{6}{\\sqrt{13}}$，所以 $\\tan\\angle A_{1}HA=\\frac{AA_{1}}{AH}=\\frac{4}{\\frac{6}{\\sqrt{13}}}=\\frac{2\\sqrt{13}}{3}$. 故二面角 $A_{1}-BD-A$ 的大小为 $\\arctan\\frac{2\\sqrt{13}}{3}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "设函数 $f(x)=\\frac{x^2+(3a+1)x+c}{x+a}$，$a$，$c\\in\\mathbb{R}$\r\n\n(1) 当 $a=0$ 时，是否存在实数 $c$，使得 $y=f(x)$ 为奇函数，请说明理由；\n\n(2) 若函数 $y=f(x)$ 的图像过点 $(1,3)$，且其与 $x$ 轴的负半轴有两个不同的交点，求 $c$ 的值及 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>设函数 $f(x)=\\frac{x^{2}+(3a+1)x+c}{x+a}$，$a$，$c\\in\\mathbb{R}$</p><ol class=\"enumerate\"><li><p>当 $a=0$ 时，是否存在实数 $c$，使得 $y=f(x)$ 为奇函数，请说明理由；</p></li><li><p>若函数 $y=f(x)$ 的图像过点 $(1,3)$，且其与 $x$ 轴的负半轴有两个不同的交点，求 $c$ 的值及 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $a=0$ 时，$f(x)=\\frac{x^2+x+c}{x}=x+1+\\frac{c}{x}$，定义域为 $x\\ne 0$，关于原点对称. 对任意 $x\\ne 0$，有 $f(-x)=-x+1-\\frac{c}{x}$，于是 $f(x)+f(-x)=2\\ne 0$，即 $f(-x)\\ne -f(x)$，所以不存在实数 $c$ 使 $y=f(x)$ 为奇函数.\n\n(2) 由图像过点 $(1,3)$，得 $f(1)=3\\iff \\frac{1+(3a+1)+c}{1+a}=3$，化简得 $c=1$.\r\n此时 $f(x)=\\frac{x^2+(3a+1)x+1}{x+a}$，其与 $x$ 轴的交点由分子 $x^2+(3a+1)x+1=0$ 给出，且根须异于 $-a$. 两根之积为 $1>0$，故两根同号；要使其为两个不同的负根，需要两根之和为负且判别式大于 $0$：$-(3a+1)<0$，$(3a+1)^2-4>0$.\r\n前者给出 $a>-\\frac13$，后者在此条件下化为 $3a+1>2$，即 $a>\\frac13$.\r\n此外，当 $a=\\frac12$ 时，$x^2+\\left(3a+1\\right)x+1=x^2+\\frac52x+1=\\left(x+\\frac12\\right)\\left(x+2\\right)$，与分母 $x+a=x+\\frac12$ 约去后，只剩一个负半轴交点，因此还需排除 $a=\\frac12$.\r\n故 $c=1$，$a\\in\\left(\\frac13,\\frac12\\right)\\cup\\left(\\frac12,+\\infty\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=0$ 时，$f(x)=\\frac{x^{2}+x+c}{x}=x+1+\\frac{c}{x}$，定义域为 $x\\ne 0$，关于原点对称. 对任意 $x\\ne 0$，有 $f(-x)=-x+1-\\frac{c}{x}$，于是 $f(x)+f(-x)=2\\ne 0$，即 $f(-x)\\ne -f(x)$，所以不存在实数 $c$ 使 $y=f(x)$ 为奇函数.</p></li><li><p>由图像过点 $(1,3)$，得 $f(1)=3\\iff \\frac{1+(3a+1)+c}{1+a}=3$，化简得 $c=1$.</p><p>此时 $f(x)=\\frac{x^{2}+(3a+1)x+1}{x+a}$，其与 $x$ 轴的交点由分子 $x^{2}+(3a+1)x+1=0$ 给出，且根须异于 $-a$. 两根之积为 $1>0$，故两根同号；要使其为两个不同的负根，需要两根之和为负且判别式大于 $0$：$-(3a+1)&#x3C;0$，$(3a+1)^{2}-4>0$.</p><p>前者给出 $a>-\\frac{1}{3}$，后者在此条件下化为 $3a+1>2$，即 $a>\\frac{1}{3}$.</p><p>此外，当 $a=\\frac{1}{2}$ 时，$x^{2}+\\left(3a+1\\right)x+1=x^{2}+\\frac{5}{2}x+1=\\left(x+\\frac{1}{2}\\right)\\left(x+2\\right)$，与分母 $x+a=x+\\frac{1}{2}$ 约去后，只剩一个负半轴交点，因此还需排除 $a=\\frac{1}{2}$.</p><p>故 $c=1$，$a\\in\\left(\\frac{1}{3},\\frac{1}{2}\\right)\\cup\\left(\\frac{1}{2},+\\infty\\right)$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知抛物线 $\\Gamma:y^2=4x$，第一象限内点 $A$ 在 $\\Gamma$ 上，$A$ 的纵坐标是 $a$.\r\n\n(1) 若 $A$ 到准线的距离为 $3$，求 $a$；\n\n(2) 若 $a=4$，$B$ 在 $x$ 轴上，且线段 $AB$ 的中点在 $\\Gamma$ 上，求点 $B$ 的坐标及坐标原点 $O$ 到直线 $AB$ 的距离；\n\n(3) 直线 $l:x=-3$，令 $P$ 是第一象限 $\\Gamma$ 上异于 A 的一点，直线 $AP$ 交 $l$ 于 $Q$，$H$ 是 $P$ 在 $l$ 上的投影，若点 A 满足“对于任意 $P$ 都有 $\\left|HQ\\right|>4$”，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知抛物线 $\\Gamma:y^{2}=4x$，第一象限内点 $A$ 在 $\\Gamma$ 上，$A$ 的纵坐标是 $a$.</p><ol class=\"enumerate\"><li><p>若 $A$ 到准线的距离为 $3$，求 $a$；</p></li><li><p>若 $a=4$，$B$ 在 $x$ 轴上，且线段 $AB$ 的中点在 $\\Gamma$ 上，求点 $B$ 的坐标及坐标原点 $O$ 到直线 $AB$ 的距离；</p></li><li><p>直线 $l:x=-3$，令 $P$ 是第一象限 $\\Gamma$ 上异于 A 的一点，直线 $AP$ 交 $l$ 于 $Q$，$H$ 是 $P$ 在 $l$ 上的投影，若点 A 满足“对于任意 $P$ 都有 $\\left|HQ\\right|>4$”，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设点 $A\\left(\\frac{a^2}{4},a\\right)$. 抛物线 $y^2=4x$ 的准线为 $x=-1$，点 $A$ 到准线的距离为 $\\frac{a^2}{4}+1$. 由题意 $\\frac{a^2}{4}+1=3$，得 $a^2=8$；$A$ 在第一象限，故 $a=2\\sqrt2$.\n\n(2) 当 $a=4$ 时，$A(4,4)$. 设 $B(x,0)$，则 $AB$ 的中点为 $\\left(\\frac{x+4}{2},2\\right)$. 该点在 $\\Gamma$ 上，所以 $2^2=4\\cdot \\frac{x+4}{2}$，解得 $x=-2$，故 $B(-2,0)$. 直线 $AB$ 的方程为 $2x-3y+4=0$，于是原点 $O$ 到直线 $AB$ 的距离为 $\\frac{4}{\\sqrt{2^2+(-3)^2}}=\\frac{4}{\\sqrt{13}}$.\n\n(3) 设 $P\\left(\\frac{u^2}{4},u\\right)$，其中 $u>0$ 且 $u\\ne a$. 又 $A\\left(\\frac{a^2}{4},a\\right)$，则直线 $AP$ 的斜率为 $\\frac{u-a}{\\frac{u^2-a^2}{4}}=\\frac{4}{u+a}$. 由此得直线 $AP$ 与 $x=-3$ 交于 $Q\\left(-3,\\frac{au-12}{u+a}\\right)$. 而 $H(-3,u)$，故 $\\left|HQ\\right|=\\left|u-\\frac{au-12}{u+a}\\right|=\\frac{u^2+12}{u+a}$，其中最后一个等号是因为 $\\frac{u^2+12}{u+a}>0$.\r\n题设要求 $\\frac{u^2+12}{u+a}>4$ 对任意 $u>0$，$u\\ne a$ 成立，即 $u^2-4u+12-4a>0$.\r\n左边视为关于 $u$ 的二次函数，其最小值在 $u=2$ 处取得，最小值为 $8-4a$.\r\n因此若 $a<2$，则不等式恒成立；若 $a=2$，则左边化为 $(u-2)^2$，其等号只在 $u=2$ 处取得，而这时 $P=A$ 被排除，所以仍成立；若 $a>2$，取 $u=2$（此时 $u\\ne a$，允许）即不成立.\r\n又 $A$ 在第一象限，故 $a>0$.\r\n所以 $a\\in\\left(0,2\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设点 $A\\left(\\frac{a^{2}}{4},a\\right)$. 抛物线 $y^{2}=4x$ 的准线为 $x=-1$，点 $A$ 到准线的距离为 $\\frac{a^{2}}{4}+1$. 由题意 $\\frac{a^{2}}{4}+1=3$，得 $a^{2}=8$；$A$ 在第一象限，故 $a=2\\sqrt{2}$.</p></li><li><p>当 $a=4$ 时，$A(4,4)$. 设 $B(x,0)$，则 $AB$ 的中点为 $\\left(\\frac{x+4}{2},2\\right)$. 该点在 $\\Gamma$ 上，所以 $2^{2}=4\\cdot \\frac{x+4}{2}$，解得 $x=-2$，故 $B(-2,0)$. 直线 $AB$ 的方程为 $2x-3y+4=0$，于是原点 $O$ 到直线 $AB$ 的距离为 $\\frac{4}{\\sqrt{2^{2}+(-3)^{2}}}=\\frac{4}{\\sqrt{13}}$.</p></li><li><p>设 $P\\left(\\frac{u^{2}}{4},u\\right)$，其中 $u>0$ 且 $u\\ne a$. 又 $A\\left(\\frac{a^{2}}{4},a\\right)$，则直线 $AP$ 的斜率为 $\\frac{u-a}{\\frac{u^{2}-a^{2}}{4}}=\\frac{4}{u+a}$. 由此得直线 $AP$ 与 $x=-3$ 交于 $Q\\left(-3,\\frac{au-12}{u+a}\\right)$. 而 $H(-3,u)$，故 $\\left|HQ\\right|=\\left|u-\\frac{au-12}{u+a}\\right|=\\frac{u^{2}+12}{u+a}$，其中最后一个等号是因为 $\\frac{u^{2}+12}{u+a}>0$.</p><p>题设要求 $\\frac{u^{2}+12}{u+a}>4$ 对任意 $u>0$，$u\\ne a$ 成立，即 $u^{2}-4u+12-4a>0$.</p><p>左边视为关于 $u$ 的二次函数，其最小值在 $u=2$ 处取得，最小值为 $8-4a$.</p><p>因此若 $a&#x3C;2$，则不等式恒成立；若 $a=2$，则左边化为 $(u-2)^{2}$，其等号只在 $u=2$ 处取得，而这时 $P=A$ 被排除，所以仍成立；若 $a>2$，取 $u=2$（此时 $u\\ne a$，允许）即不成立.</p><p>又 $A$ 在第一象限，故 $a>0$.</p><p>所以 $a\\in\\left(0,2\\right]$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知 $f(x)=\\ln x$. 曲线 $y=f(x)$ 在点 $\\left(a_1,f(a_1)\\right)$ 处的切线交 $y$ 轴于点 $(0,a_2)$，且 $a_2>0$；曲线 $y=f(x)$ 在点 $\\left(a_2,f(a_2)\\right)$ 处的切线交 $y$ 轴于点 $(0,a_3)$；以此类推，直至 $a_m\\le 0$ 时停止，得到数列 $\\{a_n\\}$.\r\n\n(1) 证明：当正整数 $n\\ge 2$ 时，$a_n=\\ln a_{n-1}-1$；\n\n(2) 当正整数 $n\\ge 2$ 时，试比较 $a_n$ 与 $a_{n-1}-2$ 的大小；\n\n(3) 若正整数 $k\\ge 3$，是否存在 $k$ 使得 $a_1$，$a_2$，$\\cdots$，$a_k$ 依次成等差数列？若存在，求出 $k$ 的所有取值；若不存在，试说明理由.",
-          "choices": [],
+          "body": "<p>已知 $f(x)=\\ln x$. 曲线 $y=f(x)$ 在点 $\\left(a_{1},f(a_{1})\\right)$ 处的切线交 $y$ 轴于点 $(0,a_{2})$，且 $a_{2}>0$；曲线 $y=f(x)$ 在点 $\\left(a_{2},f(a_{2})\\right)$ 处的切线交 $y$ 轴于点 $(0,a_{3})$；以此类推，直至 $a_{m}\\le 0$ 时停止，得到数列 $\\{a_{n}\\}$.</p><ol class=\"enumerate\"><li><p>证明：当正整数 $n\\ge 2$ 时，$a_{n}=\\ln a_{n-1}-1$；</p></li><li><p>当正整数 $n\\ge 2$ 时，试比较 $a_{n}$ 与 $a_{n-1}-2$ 的大小；</p></li><li><p>若正整数 $k\\ge 3$，是否存在 $k$ 使得 $a_{1}$，$a_{2}$，$\\cdots$，$a_{k}$ 依次成等差数列？若存在，求出 $k$ 的所有取值；若不存在，试说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 曲线 $y=\\ln x$ 在点 $\\left(a_{n-1},\\ln a_{n-1}\\right)$ 处的切线方程为 $y-\\ln a_{n-1}=\\frac1{a_{n-1}}\\left(x-a_{n-1}\\right)$. 令 $x=0$，得该切线与 $y$ 轴的交点纵坐标为 $\\ln a_{n-1}-1$，所以 $a_n=\\ln a_{n-1}-1$.\n\n(2) 由 $\\ln x\\le x-1$（$x>0$，当且仅当 $x=1$ 时取等号）得 $a_n=\\ln a_{n-1}-1\\le a_{n-1}-1-1=a_{n-1}-2$，当且仅当 $a_{n-1}=1$ 时取等号.\n\n(3) 记 $h(x)=\\mathrm{e}^{x+1}+\\ln x-1-2x$（$x>0$）. 若 $a_1$，$a_2$，$a_3$ 成等差数列，则 $a_1+a_3=2a_2$. 由 （1） 知 $a_1=\\mathrm{e}^{a_2+1}$，且 $a_3=\\ln a_2-1$，故 $h(a_2)=0$. 又 $h^{\\prime}(x)=\\mathrm{e}^{x+1}+\\frac1x-2>0$（$x>0$，因为 $\\mathrm{e}^{x+1}>\\mathrm{e}>2$），所以 $h(x)$ 在 $(0,+\\infty)$ 上严格递增. 并且 $\\displaystyle\\lim_{x\\to 0^+}h(x)=-\\infty$，$h(1)=\\mathrm{e}^2-3>0$，故方程 $h(x)=0$ 在 $(0,1)$ 内有唯一解，从而存在唯一的 $a_2\\in(0,1)$ 使得 $a_1$，$a_2$，$a_3$ 成等差数列. 此时 $a_3=\\ln a_2-1<0$，所以序列在 $a_3$ 处停止，即 $m=3$；任何 $k\\ge 4$ 的等差数列都须以同样的 $a_1$，$a_2$，$a_3$ 开头，与序列已终止矛盾. 故存在 $k$，且 $k$ 的所有取值为 $k=3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>曲线 $y=\\ln x$ 在点 $\\left(a_{n-1},\\ln a_{n-1}\\right)$ 处的切线方程为 $y-\\ln a_{n-1}=\\frac{1}{a_{n-1}}\\left(x-a_{n-1}\\right)$. 令 $x=0$，得该切线与 $y$ 轴的交点纵坐标为 $\\ln a_{n-1}-1$，所以 $a_{n}=\\ln a_{n-1}-1$.</p></li><li><p>由 $\\ln x\\le x-1$（$x>0$，当且仅当 $x=1$ 时取等号）得 $a_{n}=\\ln a_{n-1}-1\\le a_{n-1}-1-1=a_{n-1}-2$，当且仅当 $a_{n-1}=1$ 时取等号.</p></li><li><p>记 $h(x)=\\mathrm{e}^{x+1}+\\ln x-1-2x$（$x>0$）. 若 $a_{1}$，$a_{2}$，$a_{3}$ 成等差数列，则 $a_{1}+a_{3}=2a_{2}$. 由 （1） 知 $a_{1}=\\mathrm{e}^{a_2+1}$，且 $a_{3}=\\ln a_{2}-1$，故 $h(a_{2})=0$. 又 $h^{\\prime}(x)=\\mathrm{e}^{x+1}+\\frac{1}{x}-2>0$（$x>0$，因为 $\\mathrm{e}^{x+1}>\\mathrm{e}>2$），所以 $h(x)$ 在 $(0,+\\infty)$ 上严格递增. 并且 $\\displaystyle\\lim_{x\\to 0^+}h(x)=-\\infty$，$h(1)=\\mathrm{e}^{2}-3>0$，故方程 $h(x)=0$ 在 $(0,1)$ 内有唯一解，从而存在唯一的 $a_{2}\\in(0,1)$ 使得 $a_{1}$，$a_{2}$，$a_{3}$ 成等差数列. 此时 $a_{3}=\\ln a_{2}-1&#x3C;0$，所以序列在 $a_{3}$ 处停止，即 $m=3$；任何 $k\\ge 4$ 的等差数列都须以同样的 $a_{1}$，$a_{2}$，$a_{3}$ 开头，与序列已终止矛盾. 故存在 $k$，且 $k$ 的所有取值为 $k=3$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

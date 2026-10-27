@@ -1,144 +1,15 @@
 {
+  "title": "2007年普通高等学校招生全国统一考试",
+  "subtitle": "2007年安徽卷（文）",
   "year": "2007",
   "slug": "anhui_liberal",
-  "title": "2007年安徽卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若 $A = \\{x \\mid x^2 = 1\\}$，$B = \\{x \\mid x^2 - 2x - 3 = 0\\}$，则 $A \\cap B =$（ ）",
+          "body": "若 $A = \\{x \\mid x^{2} = 1\\}$，$B = \\{x \\mid x^{2} - 2x - 3 = 0\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$\\{3\\}$",
             "$\\{1\\}$",
@@ -146,13 +17,11 @@
             "$\\{-1\\}$"
           ],
           "answer": "D",
-          "solution": "由 $x^{2}=1$ 得 $x=1$ 或 $x=-1$，所以 $A=\\{-1,1\\}$. 因式分解\r\n$x^{2}-2x-3=(x-3)(x+1)$，得 $B=\\{-1,3\\}$. 因而\r\n$A\\cap B=\\{-1\\}$，对应选项 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $x^{2}=1$ 得 $x=1$ 或 $x=-1$，所以 $A=\\{-1,1\\}$. 因式分解</p><p>$x^{2}-2x-3=(x-3)(x+1)$，得 $B=\\{-1,3\\}$. 因而</p><p>$A\\cap B=\\{-1\\}$，对应选项 D.</p>"
         },
         {
           "num": 2,
-          "body": "椭圆 $x^{2} + 4y^{2} = 1$ 的离心率为（ ）",
+          "body": "椭圆 $x^{2}+ 4y^{2}= 1$ 的离心率为（ ）",
           "choices": [
             "$\\frac{\\sqrt{3}}{2}$",
             "$\\frac{3}{4}$",
@@ -160,13 +29,11 @@
             "$\\frac{2}{3}$"
           ],
           "answer": "A",
-          "solution": "将椭圆方程化为标准形式\r\n$\\dfrac{x^{2}}{1^{2}}+\\dfrac{y^{2}}{\\left(\\frac12\\right)^{2}}=1$. 因此半长轴\r\n$a=1$，半短轴 $b=\\frac12$，焦半距\r\n$c=\\sqrt{a^{2}-b^{2}}=\\frac{\\sqrt3}{2}$. 所以离心率\r\n$e=\\dfrac ca=\\dfrac{\\sqrt3}{2}$，对应选项 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>将椭圆方程化为标准形式</p><p>$\\dfrac{x^{2}}{1^{2}}+\\dfrac{y^{2}}{\\left(\\frac{1}{2}\\right)^{2}}=1$. 因此半长轴</p><p>$a=1$，半短轴 $b=\\frac{1}{2}$，焦半距</p><p>$c=\\sqrt{a^{2}-b^{2}}=\\frac{\\sqrt{3}}{2}$. 所以离心率</p><p>$e=\\dfrac{c}{a}=\\dfrac{\\sqrt{3}}{2}$，对应选项 A.</p>"
         },
         {
           "num": 3,
-          "body": "等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 若 $a_{2} = 1$，$a_{3} = 3$，$S_{4} =$（ ）",
+          "body": "等差数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$. 若 $a_{2}= 1$，$a_{3}= 3$，$S_{4}=$（ ）",
           "choices": [
             "$12$",
             "$10$",
@@ -174,13 +41,11 @@
             "$6$"
           ],
           "answer": "C",
-          "solution": "设等差数列的公差为 $d$. 由 $a_{3}-a_{2}=3-1$ 得 $d=2$，从而\r\n$a_{1}=a_{2}-d=-1$. 因此\r\n$S_{4}=a_{1}+a_{2}+a_{3}+a_{4}=-1+1+3+5=8$，对应选项 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的公差为 $d$. 由 $a_{3}-a_{2}=3-1$ 得 $d=2$，从而</p><p>$a_{1}=a_{2}-d=-1$. 因此</p><p>$S_{4}=a_{1}+a_{2}+a_{3}+a_{4}=-1+1+3+5=8$，对应选项 C.</p>"
         },
         {
           "num": 4,
-          "body": "下列函数中，反函数是其自身的函数为（ ）",
+          "body": "下列函数中，反函数是其自身的函数为（ ）",
           "choices": [
             "$f(x) = x^{2}$（$x \\in [0, +\\infty)$）",
             "$f(x) = x^{3}$（$x \\in (-\\infty, +\\infty)$）",
@@ -188,13 +53,11 @@
             "$f(x) = \\frac{1}{x}$（$x \\in (0, +\\infty)$）"
           ],
           "answer": "D",
-          "solution": "逐项求反函数. 选项 A 的反函数为 $y=\\sqrt{x}$，不等于原函数；选项 B 的反函数为\r\n$y=\\sqrt[3]{x}$，不等于原函数；选项 C 的反函数为 $y=\\ln x$，定义域也不同；\r\n选项 D 在 $(0,+\\infty)$ 上满足 $f(f(x))=\\dfrac{1}{\\frac{1}{x}}=x$，故其反函数就是自身，\r\n对应选项 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>逐项求反函数. 选项 A 的反函数为 $y=\\sqrt{x}$，不等于原函数；选项 B 的反函数为</p><p>$y=\\sqrt[3]{x}$，不等于原函数；选项 C 的反函数为 $y=\\ln x$，定义域也不同；</p><p>选项 D 在 $(0,+\\infty)$ 上满足 $f(f(x))=\\dfrac{1}{\\frac{1}{x}}=x$，故其反函数就是自身，</p><p>对应选项 D.</p>"
         },
         {
           "num": 5,
-          "body": "若圆 $x^{2} + y^{2} - 2x - 4y = 0$ 的圆心到直线 $x - y + a = 0$ 的距离为 $\\frac{\\sqrt{2}}{2}$，则 $a$ 的值为（ ）",
+          "body": "若圆 $x^{2}+ y^{2}- 2x - 4y = 0$ 的圆心到直线 $x - y + a = 0$ 的距离为 $\\frac{\\sqrt{2}}{2}$，则 $a$ 的值为（ ）",
           "choices": [
             "$-2$ 或 $2$",
             "$\\frac{1}{2}$ 或 $\\frac{3}{2}$",
@@ -202,13 +65,11 @@
             "$-2$ 或 $0$"
           ],
           "answer": "C",
-          "solution": "将圆的方程配方得\r\n$(x-1)^{2}+(y-2)^{2}=5$，所以圆心为 $O(1,2)$. 圆心到直线\r\n$x-y+a=0$ 的距离为\r\n\n$$\n\\frac{|1-2+a|}{\\sqrt{1^{2}+(-1)^{2}}}=\\frac{|a-1|}{\\sqrt2}\n$$\n\r\n由题意 $\\dfrac{|a-1|}{\\sqrt2}=\\dfrac{\\sqrt2}{2}$，得 $|a-1|=1$，所以\r\n$a=0$ 或 $a=2$，对应选项 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>将圆的方程配方得</p><p>$(x-1)^{2}+(y-2)^{2}=5$，所以圆心为 $O(1,2)$. 圆心到直线</p><p>$x-y+a=0$ 的距离为</p>\n$$\n\\frac{|1-2+a|}{\\sqrt{1^{2}+(-1)^{2}}}=\\frac{|a-1|}{\\sqrt{2}}\n$$\n<p>由题意 $\\dfrac{|a-1|}{\\sqrt{2}}=\\dfrac{\\sqrt{2}}{2}$，得 $|a-1|=1$，所以</p><p>$a=0$ 或 $a=2$，对应选项 C.</p>"
         },
         {
           "num": 6,
-          "body": "设 $l$，$m$，$n$ 均为直线，其中 $m$，$n$ 在平面 $\\alpha$ 内，“$l \\perp \\alpha$”是“$l \\perp m$ 且 $l \\perp n$”的（ ）",
+          "body": "设 $l$，$m$，$n$ 均为直线，其中 $m$，$n$ 在平面 $\\alpha$ 内，“$l \\perp \\alpha$”是“$l \\perp m$ 且 $l \\perp n$”的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -216,27 +77,23 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "若 $l\\perp\\alpha$，则 $l$ 垂直于平面 $\\alpha$ 内的直线，因而\r\n$l\\perp m$ 且 $l\\perp n$，所以“$l\\perp\\alpha$”是该结论的充分条件.\r\n\r\n它不是必要条件. 例如取 $\\alpha:z=0$，取平面内的直线\r\n$m:y=0$、$n:y=1$，再取平面内的直线 $l:x=0$. 直线 $l$ 分别与\r\n$m$，$n$ 垂直，但 $l\\subset\\alpha$，所以 $l$ 不垂直于 $\\alpha$. 因此对应选项 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若 $l\\perp\\alpha$，则 $l$ 垂直于平面 $\\alpha$ 内的直线，因而</p><p>$l\\perp m$ 且 $l\\perp n$，所以“$l\\perp\\alpha$”是该结论的充分条件.</p><p>它不是必要条件. 例如取 $\\alpha:z=0$，取平面内的直线</p><p>$m:y=0$、$n:y=1$，再取平面内的直线 $l:x=0$. 直线 $l$ 分别与</p><p>$m$，$n$ 垂直，但 $l\\subset\\alpha$，所以 $l$ 不垂直于 $\\alpha$. 因此对应选项 A.</p>"
         },
         {
           "num": 7,
-          "body": "图中的图象所表示的函数的解析式为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/anhui_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>图中的图象所表示的函数的解析式为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "$y = \\frac{3}{2} |x - 1|$（$0 \\le x \\le 2$）",
-            "$y = \\frac{3}{2} - \\frac{3}{2} |x - 1|$（$0 \\le x \\le 2$）",
-            "$y = \\frac{3}{2} - |x - 1|$（$0 \\le x \\le 2$）",
+            "$y = \\frac{3}{2}|x - 1|$（$0 \\le x \\le 2$）",
+            "$y = \\frac{3}{2}- \\frac{3}{2}|x - 1|$（$0 \\le x \\le 2$）",
+            "$y = \\frac{3}{2}- |x - 1|$（$0 \\le x \\le 2$）",
             "$y = 1 - |x - 1|$（$0 \\le x \\le 2$）"
           ],
           "answer": "B",
-          "solution": "从图象可读出折线经过 $(0,0)$、$\\left(1,\\frac32\\right)$、$(2,0)$. 当\r\n$0\\le x\\leqslant1$ 时，直线斜率为 $\\frac32$，函数为 $y=\\frac32x$；当\r\n$1\\le x\\leqslant2$ 时，函数为 $y=\\frac32(2-x)$. 将两段合写为\r\n$y=\\frac32-\\frac32|x-1|$，定义域为 $0\\le x\\leqslant2$，对应选项 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>从图象可读出折线经过 $(0,0)$、$\\left(1,\\frac{3}{2}\\right)$、$(2,0)$. 当</p><p>$0\\le x\\leqslant1$ 时，直线斜率为 $\\frac{3}{2}$，函数为 $y=\\frac{3}{2}x$；当</p><p>$1\\le x\\leqslant2$ 时，函数为 $y=\\frac{3}{2}(2-x)$. 将两段合写为</p><p>$y=\\frac{3}{2}-\\frac{3}{2}|x-1|$，定义域为 $0\\le x\\leqslant2$，对应选项 B.</p>"
         },
         {
           "num": 8,
-          "body": "设 $a > 1$，且 $m = \\log_a(a^2 + 1)$，$n = \\log_a(a - 1)$，$p = \\log_a(2a)$，则 $m$，$n$，$p$ 的大小关系为（ ）",
+          "body": "设 $a > 1$，且 $m = \\log_{a}(a^{2} + 1)$，$n = \\log_{a}(a - 1)$，$p = \\log_{a}(2a)$，则 $m$，$n$，$p$ 的大小关系为（ ）",
           "choices": [
             "$n > m > p$",
             "$m > p > n$",
@@ -244,27 +101,23 @@
             "$p > m > n$"
           ],
           "answer": "B",
-          "solution": "因为 $a>1$，对数函数 $\\log_a x$ 在正数范围内单调递增. 又\r\n$a^{2}+1-2a=(a-1)^{2}>0$，所以 $a^{2}+1>2a$，从而 $m>p$. 同时\r\n$2a>a-1>0$，所以 $p>n$. 因而 $m>p>n$，对应选项 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $a>1$，对数函数 $\\log_{a} x$ 在正数范围内单调递增. 又</p><p>$a^{2}+1-2a=(a-1)^{2}>0$，所以 $a^{2}+1>2a$，从而 $m>p$. 同时</p><p>$2a>a-1>0$，所以 $p>n$. 因而 $m>p>n$，对应选项 B.</p>"
         },
         {
           "num": 9,
-          "body": "如果点 $P$ 在平面区域 $\\begin{cases}\r\n2x - y + 2 \\ge 0,\\\\\r\nx + y - 2 \\le 0,\\\\\r\n2y - 1 \\ge 0\r\n\\end{cases}$ 上，点 $Q$ 在曲线 $x^{2} + (y + 2)^{2} = 1$ 上，那么 $\\left|PQ\\right|$ 的最小值为（ ）",
+          "body": "如果点 $P$ 在平面区域 $\\begin{cases}2x - y + 2 \\ge 0,\\\\  x + y - 2 \\le 0,\\\\  2y - 1 \\ge 0\\end{cases}$ 上，点 $Q$ 在曲线 $x^{2}+ (y + 2)^{2}= 1$ 上，那么 $\\left|PQ\\right|$ 的最小值为（ ）",
           "choices": [
             "$\\frac{3}{2}$",
-            "$\\frac{4}{\\sqrt{5}} - 1$",
-            "$2\\sqrt{2} - 1$",
-            "$\\sqrt{2} - 1$"
+            "$\\frac{4}{\\sqrt{5}}- 1$",
+            "$2\\sqrt{2}- 1$",
+            "$\\sqrt{2}- 1$"
           ],
           "answer": "A",
-          "solution": "曲线 $x^{2}+(y+2)^{2}=1$ 的圆心为 $O(0,-2)$，半径为 $1$. 对任意满足条件的\r\n$P(x,y)$，由 $y\\ge\\frac12$ 得\r\n\n$$\n|PO|=\\sqrt{x^{2}+(y+2)^{2}}\\ge y+2\\ge\\frac52\n$$\n\r\n由三角不等式，任意圆上点 $Q$ 满足\r\n$\\left|PQ\\right|\\ge\\bigl||PO|-|OQ|\\bigr|\\ge\\frac52-1=\\frac32$.\r\n\r\n点 $P=\\left(0,\\frac12\\right)$ 满足三个不等式，点 $Q=(0,-1)$ 在该圆上，且\r\n$\\left|PQ\\right|=\\frac32$. 所以最小值为 $\\frac32$，对应选项 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>曲线 $x^{2}+(y+2)^{2}=1$ 的圆心为 $O(0,-2)$，半径为 $1$. 对任意满足条件的</p><p>$P(x,y)$，由 $y\\ge\\frac{1}{2}$ 得</p>\n$$\n|PO|=\\sqrt{x^{2}+(y+2)^{2}}\\ge y+2\\ge\\frac{5}{2}\n$$\n<p>由三角不等式，任意圆上点 $Q$ 满足</p><p>$\\left|PQ\\right|\\ge\\bigl||PO|-|OQ|\\bigr|\\ge\\frac{5}{2}-1=\\frac{3}{2}$.</p><p>点 $P=\\left(0,\\frac{1}{2}\\right)$ 满足三个不等式，点 $Q=(0,-1)$ 在该圆上，且</p><p>$\\left|PQ\\right|=\\frac{3}{2}$. 所以最小值为 $\\frac{3}{2}$，对应选项 A.</p>"
         },
         {
           "num": 10,
-          "body": "把边长为 $\\sqrt{2}$ 的正方形 $ABCD$ 沿对角线 $AC$ 折成直二面角，折成直二面角后，在 $A$，$B$，$C$，$D$ 四点所在的球面上，$B$ 与 $D$ 两点之间的球面距离为（ ）",
+          "body": "把边长为 $\\sqrt{2}$ 的正方形 $ABCD$ 沿对角线 $AC$ 折成直二面角，折成直二面角后，在 $A$，$B$，$C$，$D$ 四点所在的球面上，$B$ 与 $D$ 两点之间的球面距离为（ ）",
           "choices": [
             "$\\sqrt{2}\\pi$",
             "$\\pi$",
@@ -272,13 +125,11 @@
             "$\\frac{\\pi}{3}$"
           ],
           "answer": "C",
-          "solution": "折叠后取坐标系，使折痕 $AC$ 为 $x$ 轴，并令两个互相垂直的平面分别为\r\n$z=0$ 与 $y=0$. 因为 $|AC|=\\sqrt2\\cdot\\sqrt2=2$，可取\r\n$A=(0,0,0)$，$C=(2,0,0)$，$B=(1,1,0)$，$D=(1,0,1)$.\r\n点 $O=(1,0,0)$ 到四点的距离均为 $1$，故这四点所在球面的球心为 $O$，半径为\r\n$R=1$. 又\r\n$\\overrightarrow{OB}=(0,1,0)$、$\\overrightarrow{OD}=(0,0,1)$，所以\r\n$\\overrightarrow{OB}\\cdot\\overrightarrow{OD}=0$，中心角 $\\angle BOD=\\frac\\pi2$.\r\n球面距离等于半径乘中心角，故\r\n$s=R\\angle BOD=\\frac\\pi2$，对应选项 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>折叠后取坐标系，使折痕 $AC$ 为 $x$ 轴，并令两个互相垂直的平面分别为</p><p>$z=0$ 与 $y=0$. 因为 $|AC|=\\sqrt{2}\\cdot\\sqrt{2}=2$，可取</p><p>$A=(0,0,0)$，$C=(2,0,0)$，$B=(1,1,0)$，$D=(1,0,1)$.</p><p>点 $O=(1,0,0)$ 到四点的距离均为 $1$，故这四点所在球面的球心为 $O$，半径为</p><p>$R=1$. 又</p><p>$\\overrightarrow{OB}=(0,1,0)$、$\\overrightarrow{OD}=(0,0,1)$，所以</p><p>$\\overrightarrow{OB}\\cdot\\overrightarrow{OD}=0$，中心角 $\\angle BOD=\\frac{\\pi}{2}$.</p><p>球面距离等于半径乘中心角，故</p><p>$s=R\\angle BOD=\\frac{\\pi}{2}$，对应选项 C.</p>"
         },
         {
           "num": 11,
-          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 既是奇函数，又是周期函数，$T$ 是它的一个正周期. 若将方程 $f(x) = 0$ 在闭区间 $[-T, T]$ 上的根的个数记为 $n$，则 $n$ 可能为（ ）",
+          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 既是奇函数，又是周期函数，$T$ 是它的一个正周期. 若将方程 $f(x) = 0$ 在闭区间 $[-T, T]$ 上的根的个数记为 $n$，则 $n$ 可能为（ ）",
           "choices": [
             "$0$",
             "$1$",
@@ -286,9 +137,7 @@
             "$5$"
           ],
           "answer": "D",
-          "solution": "因为 $f$ 是奇函数，$f(0)=0$. 又 $T$ 是正周期，所以\r\n$f(-T)=f(0)=0$、$f(T)=f(0)=0$. 另外由周期性和奇性，\r\n\n$$\nf\\left(\\frac T2\\right)=f\\left(-\\frac T2+T\\right)=f\\left(-\\frac T2\\right)\r\n= -f\\left(\\frac T2\\right)\n$$\n\r\n故 $f\\left(\\frac T2\\right)=0$，同理 $f\\left(-\\frac T2\\right)=0$. 因而\r\n$-T$，$-\\frac T2$，$0$，$\\frac T2$，$T$ 都是闭区间 $[-T,T]$ 内的根，根的个数至少为\r\n$5$. 例如 $f(x)=\\sin\\frac{2\\pi x}{T}$ 是奇函数且以 $T$ 为正周期，在该区间内恰有这五个根，\r\n所以 $n$ 可能为 $5$，对应选项 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $f$ 是奇函数，$f(0)=0$. 又 $T$ 是正周期，所以</p><p>$f(-T)=f(0)=0$、$f(T)=f(0)=0$. 另外由周期性和奇性，</p>\n$$\nf\\left(\\frac{T}{2}\\right)=f\\left(-\\frac{T}{2}+T\\right)=f\\left(-\\frac{T}{2}\\right)  = -f\\left(\\frac{T}{2}\\right)\n$$\n<p>故 $f\\left(\\frac{T}{2}\\right)=0$，同理 $f\\left(-\\frac{T}{2}\\right)=0$. 因而</p><p>$-T$，$-\\frac{T}{2}$，$0$，$\\frac{T}{2}$，$T$ 都是闭区间 $[-T,T]$ 内的根，根的个数至少为</p><p>$5$. 例如 $f(x)=\\sin\\frac{2\\pi x}{T}$ 是奇函数且以 $T$ 为正周期，在该区间内恰有这五个根，</p><p>所以 $n$ 可能为 $5$，对应选项 D.</p>"
         }
       ]
     },
@@ -297,39 +146,31 @@
       "problems": [
         {
           "num": 12,
-          "body": "已知 $(1 - x)^{5} = a_{0} + a_{1}x + a_{2}x^{2} + a_{3}x^{3} + a_{4}x^{4} + a_{5}x^{5}$，则 $(a_{0} + a_{2} + a_{4})(a_{1} + a_{3} + a_{5})$ 的值等于 _______ {}.",
-          "choices": [],
-          "answer": "\\(-256\\)",
-          "solution": "令 $P(x)=(1-x)^{5}=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+a_{4}x^{4}+a_{5}x^{5}$. 取\r\n$x=1$ 和 $x=-1$，得\r\n$P(1)=a_{0}+a_{1}+a_{2}+a_{3}+a_{4}+a_{5}=0$，以及\r\n$P(-1)=a_{0}-a_{1}+a_{2}-a_{3}+a_{4}-a_{5}=32$. 因而\r\n$a_{0}+a_{2}+a_{4}=\\frac{P(1)+P(-1)}2=16$，$a_{1}+a_{3}+a_{5}=\\frac{P(1)-P(-1)}2=-16$.\r\n所求值为 $16\\times(-16)=-256$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $(1 - x)^{5}= a_{0}+ a_{1}x + a_{2}x^{2}+ a_{3}x^{3}+ a_{4}x^{4}+ a_{5}x^{5}$，则 $(a_{0}+ a_{2}+ a_{4})(a_{1}+ a_{3}+ a_{5})$ 的值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-256$",
+          "solution": "<p>令 $P(x)=(1-x)^{5}=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+a_{4}x^{4}+a_{5}x^{5}$. 取</p><p>$x=1$ 和 $x=-1$，得</p><p>$P(1)=a_{0}+a_{1}+a_{2}+a_{3}+a_{4}+a_{5}=0$，以及</p><p>$P(-1)=a_{0}-a_{1}+a_{2}-a_{3}+a_{4}-a_{5}=32$. 因而</p><p>$a_{0}+a_{2}+a_{4}=\\frac{P(1)+P(-1)}{2}=16$，$a_{1}+a_{3}+a_{5}=\\frac{P(1)-P(-1)}{2}=-16$.</p><p>所求值为 $16\\times(-16)=-256$.</p>"
         },
         {
           "num": 13,
-          "body": "在四面体 $O - ABC$ 中，$\\overrightarrow{AB} = \\mathbf{a}$，$\\overrightarrow{OB} = \\mathbf{b}$，$\\overrightarrow{OC} = \\mathbf{c}$，$D$ 为 $BC$ 的中点，$E$ 为 $AD$ 的中点，则 $\\overrightarrow{OE} =$ _______ {}.（用 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 表示）",
-          "choices": [],
-          "answer": "\\(-\\frac12\\mathbf{a}+\\frac34\\mathbf{b}+\\frac14\\mathbf{c}\\)",
-          "solution": "以 $O$ 为原点，用位置向量表示各点. 由 $\\overrightarrow{AB}=\\mathbf{a}$ 和\r\n$\\overrightarrow{OB}=\\mathbf{b}$，得 $\\overrightarrow{OA}=\\mathbf{b}-\\mathbf{a}$，而\r\n$\\overrightarrow{OC}=\\mathbf{c}$. 因为 $D$ 是 $BC$ 的中点，\r\n\n$$\n\\overrightarrow{OD}=\\frac{\\overrightarrow{OB}+\\overrightarrow{OC}}2\r\n=\\frac12\\mathbf{b}+\\frac12\\mathbf{c}\n$$\n\r\n又因为 $E$ 是 $AD$ 的中点，\r\n\n$$\n\\overrightarrow{OE}=\\frac{\\overrightarrow{OA}+\\overrightarrow{OD}}2\r\n=\\frac12\\left(\\mathbf{b}-\\mathbf{a}+\\frac12\\mathbf{b}+\\frac12\\mathbf{c}\\right)\r\n=-\\frac12\\mathbf{a}+\\frac34\\mathbf{b}+\\frac14\\mathbf{c}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在四面体 $O - ABC$ 中，$\\overrightarrow{AB}= \\mathbf{a}$，$\\overrightarrow{OB}= \\mathbf{b}$，$\\overrightarrow{OC}= \\mathbf{c}$，$D$ 为 $BC$ 的中点，$E$ 为 $AD$ 的中点，则 $\\overrightarrow{OE}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（用 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$ 表示）",
+          "choices": null,
+          "answer": "$-\\frac{1}{2}\\mathbf{a}+\\frac{3}{4}\\mathbf{b}+\\frac{1}{4}\\mathbf{c}$",
+          "solution": "<p>以 $O$ 为原点，用位置向量表示各点. 由 $\\overrightarrow{AB}=\\mathbf{a}$ 和</p><p>$\\overrightarrow{OB}=\\mathbf{b}$，得 $\\overrightarrow{OA}=\\mathbf{b}-\\mathbf{a}$，而</p><p>$\\overrightarrow{OC}=\\mathbf{c}$. 因为 $D$ 是 $BC$ 的中点，</p>\n$$\n\\overrightarrow{OD}=\\frac{\\overrightarrow{OB}+\\overrightarrow{OC}}{2}  =\\frac{1}{2}\\mathbf{b}+\\frac{1}{2}\\mathbf{c}\n$$\n<p>又因为 $E$ 是 $AD$ 的中点，</p>\n$$\n\\overrightarrow{OE}=\\frac{\\overrightarrow{OA}+\\overrightarrow{OD}}{2}  =\\frac{1}{2}\\left(\\mathbf{b}-\\mathbf{a}+\\frac{1}{2}\\mathbf{b}+\\frac{1}{2}\\mathbf{c}\\right)  =-\\frac{1}{2}\\mathbf{a}+\\frac{3}{4}\\mathbf{b}+\\frac{1}{4}\\mathbf{c}\n$$"
         },
         {
           "num": 14,
-          "body": "在正方体上任意选择两条棱，则这两条棱相互平行的概率为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac3{11}\\)",
-          "solution": "正方体有 $12$ 条棱，任意选择两条棱的总数为\r\n$\\mathrm C_{12}^{2}=66$. 正方体的棱按方向分为三组，每组有四条互相平行的棱，\r\n所以相互平行的棱对共有\r\n$3\\mathrm C_{4}^{2}=18$ 对. 因此所求概率为\r\n\n$$\n\\frac{18}{66}=\\frac3{11}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在正方体上任意选择两条棱，则这两条棱相互平行的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{3}{11}$",
+          "solution": "<p>正方体有 $12$ 条棱，任意选择两条棱的总数为</p><p>$\\mathrm{C}_{12}^{2}=66$. 正方体的棱按方向分为三组，每组有四条互相平行的棱，</p><p>所以相互平行的棱对共有</p><p>$3\\mathrm{C}_{4}^{2}=18$ 对. 因此所求概率为</p>\n$$\n\\frac{18}{66}=\\frac{3}{11}\n$$"
         },
         {
           "num": 15,
-          "body": "函数 $f(x)=3\\sin\\left(2x-\\frac{\\pi}{3}\\right)$ 的图象为 $C$，如下结论中正确的是 _______ {}.（写出所有正确结论的编号）\r\n\r\n\\begin{circlelist}\r\n\\item 图象 $C$ 关于直线 $x = \\frac{11\\pi}{12}$ 对称；\r\n\\item 图象 $C$ 关于点 $\\left(\\frac{2\\pi}{3},0\\right)$ 对称；\r\n\\item 函数 $f(x)$ 在区间 $\\left(-\\frac{\\pi}{12}, \\frac{5\\pi}{12}\\right)$ 内是增函数；\r\n\\item 由 $y = 3\\sin 2x$ 的图象向右平移 $\\frac{\\pi}{3}$ 个单位长度可以得到图象 $C$.\r\n\\end{circlelist}",
-          "choices": [],
-          "answer": "\\(\\circled{1}\\circled{2}\\circled{3}\\)",
-          "solution": "对结论 1，正弦函数的对称轴满足\r\n$2x-\\frac\\pi3=\\frac\\pi2+k\\pi$，即\r\n$x=\\frac{5\\pi}{12}+\\frac{k\\pi}{2}$. 取 $k=1$ 得\r\n$x=\\frac{11\\pi}{12}$，所以结论 1 正确.\r\n\r\n对结论 2，图象的中心对称点的横坐标满足\r\n$2x-\\frac\\pi3=k\\pi$，即 $x=\\frac\\pi6+\\frac{k\\pi}{2}$. 取\r\n$x=\\frac{2\\pi}{3}$ 时 $k=1$，且对于任意 $h$，\r\n\n$$\nf\\left(\\frac{2\\pi}{3}+h\\right)+f\\left(\\frac{2\\pi}{3}-h\\right)=0\n$$\n\r\n所以结论 2 正确.\r\n\r\n对结论 3，当 $x\\in\\left(-\\frac\\pi{12},\\frac{5\\pi}{12}\\right)$ 时，\r\n$2x-\\frac\\pi3\\in\\left(-\\frac\\pi2,\\frac\\pi2\\right)$，从而\r\n$f'(x)=6\\cos\\left(2x-\\frac\\pi3\\right)>0$，所以结论 3 正确.\r\n\r\n将 $y=3\\sin2x$ 的图象向右平移 $\\frac\\pi3$ 后得到\r\n$y=3\\sin\\left(2x-\\frac{2\\pi}{3}\\right)$，而不是\r\n$y=3\\sin\\left(2x-\\frac\\pi3\\right)$. 实际上应向右平移 $\\frac\\pi6$，所以结论 4 错误.\r\n故正确结论的编号为 $1$，$2$，$3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>函数 $f(x)=3\\sin\\left(2x-\\frac{\\pi}{3}\\right)$ 的图象为 $C$，如下结论中正确的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有正确结论的编号）</p><ol class=\"enumerate\"><li><p>图象 $C$ 关于直线 $x = \\frac{11\\pi}{12}$ 对称；</p></li><li><p>图象 $C$ 关于点 $\\left(\\frac{2\\pi}{3},0\\right)$ 对称；</p></li><li><p>函数 $f(x)$ 在区间 $\\left(-\\frac{\\pi}{12}, \\frac{5\\pi}{12}\\right)$ 内是增函数；</p></li><li><p>由 $y = 3\\sin 2x$ 的图象向右平移 $\\frac{\\pi}{3}$ 个单位长度可以得到图象 $C$.</p></li></ol>",
+          "choices": null,
+          "answer": "$①②③$",
+          "solution": "<p>对结论 1，正弦函数的对称轴满足</p><p>$2x-\\frac{\\pi}{3}=\\frac{\\pi}{2}+k\\pi$，即</p><p>$x=\\frac{5\\pi}{12}+\\frac{k\\pi}{2}$. 取 $k=1$ 得</p><p>$x=\\frac{11\\pi}{12}$，所以结论 1 正确.</p><p>对结论 2，图象的中心对称点的横坐标满足</p><p>$2x-\\frac{\\pi}{3}=k\\pi$，即 $x=\\frac{\\pi}{6}+\\frac{k\\pi}{2}$. 取</p><p>$x=\\frac{2\\pi}{3}$ 时 $k=1$，且对于任意 $h$，</p>\n$$\nf\\left(\\frac{2\\pi}{3}+h\\right)+f\\left(\\frac{2\\pi}{3}-h\\right)=0\n$$\n<p>所以结论 2 正确.</p><p>对结论 3，当 $x\\in\\left(-\\frac{\\pi}{12},\\frac{5\\pi}{12}\\right)$ 时，</p><p>$2x-\\frac{\\pi}{3}\\in\\left(-\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$，从而</p><p>$f'(x)=6\\cos\\left(2x-\\frac{\\pi}{3}\\right)>0$，所以结论 3 正确.</p><p>将 $y=3\\sin2x$ 的图象向右平移 $\\frac{\\pi}{3}$ 后得到</p><p>$y=3\\sin\\left(2x-\\frac{2\\pi}{3}\\right)$，而不是</p><p>$y=3\\sin\\left(2x-\\frac{\\pi}{3}\\right)$. 实际上应向右平移 $\\frac{\\pi}{6}$，所以结论 4 错误.</p><p>故正确结论的编号为 $1$，$2$，$3$.</p>"
         }
       ]
     },
@@ -339,59 +180,46 @@
         {
           "num": 16,
           "body": "解不等式：$(|3x-1|-1)(\\sin x-2)>0$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "$\\sin x\\le 1$，所以 $\\sin x-2<0$. 因而原不等式等价于 $\\lvert 3x-1\\rvert-1<0$，即 $\\lvert 3x-1\\rvert<1$. 所以 $-1<3x-1<1$，解得 $0<x<\\frac{2}{3}$. 故原不等式的解集为 $\\left(0,\\frac{2}{3}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "$\\sin x\\le 1$，所以 $\\sin x-2&#x3C;0$. 因而原不等式等价于 $\\lvert 3x-1\\rvert-1&#x3C;0$，即 $\\lvert 3x-1\\rvert&#x3C;1$. 所以 $-1&#x3C;3x-1&#x3C;1$，解得 $0&#x3C;x&#x3C;\\frac{2}{3}$. 故原不等式的解集为 $\\left(0,\\frac{2}{3}\\right)$."
         },
         {
           "num": 17,
-          "body": "如图，在六面体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，四边形 $ABCD$ 是边长为 2 的正方形，四边形 $A_{1}B_{1}C_{1}D_{1}$ 是边长为 1 的正方形，$DD_{1} \\perp$ 平面 $A_{1}B_{1}C_{1}D_{1}$，$DD_{1} \\perp$ 平面 $ABCD$，$DD_{1} = 2$.\r\n\r\n\n(1) 求证：$A_{1}C_{1}$ 与 $AC$ 共面，$B_{1}D_{1}$ 与 $BD$ 共面；\n\n(2) 求证：平面 $A_{1}ACC_{1} \\perp$ 平面 $B_{1}BDD_{1}$；\n\n(3) 求二面角 $A - BB_{1} - C$ 的大小.（用反三角函数值表示）\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/anhui_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在六面体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，四边形 $ABCD$ 是边长为 2 的正方形，四边形 $A_{1}B_{1}C_{1}D_{1}$ 是边长为 1 的正方形，$DD_{1}\\perp$ 平面 $A_{1}B_{1}C_{1}D_{1}$，$DD_{1}\\perp$ 平面 $ABCD$，$DD_{1}= 2$.</p><ol class=\"enumerate\"><li><p>求证：$A_{1}C_{1}$ 与 $AC$ 共面，$B_{1}D_{1}$ 与 $BD$ 共面；</p></li><li><p>求证：平面 $A_{1}ACC_{1}\\perp$ 平面 $B_{1}BDD_{1}$；</p></li><li><p>求二面角 $A - BB_{1}- C$ 的大小.（用反三角函数值表示）</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 建立空间直角坐标系，取 $D$ 为原点，令 $DC$，$DA$，$DD_{1}$ 分别为 $x$，$y$，$z$ 轴的正方向. 由题意可取\r\n$D(0,0,0)$，$C(2,0,0)$，$A(0,2,0)$，$B(2,2,0)$，$D_{1}(0,0,2)$，$C_{1}(1,0,2)$，$A_{1}(0,1,2)$，$B_{1}(1,1,2)$. 因此 $\\overrightarrow{A_{1}C_{1}}=(1,-1,0)=\\frac12\\overrightarrow{AC}$，$\\overrightarrow{B_{1}D_{1}}=(-1,-1,0)=\\frac12\\overrightarrow{BD}$，所以 $A_{1}C_{1}\\parallel AC$，$B_{1}D_{1}\\parallel BD$，从而 $A_{1}C_{1}$ 与 $AC$ 共面，$B_{1}D_{1}$ 与 $BD$ 共面.\n\n(2) 在所取坐标系中，平面 $B_{1}BDD_{1}$ 内的两条方向向量可取\r\n$\\overrightarrow{DB}=(2,2,0)$ 和 $\\overrightarrow{DD_{1}}=(0,0,2)$. 向量\r\n$\\mathbf{n}_{2}=(1,-1,0)$ 同时垂直于它们，因而是平面 $B_{1}BDD_{1}$ 的一个法向量.\r\n又 $\\overrightarrow{AC}=(2,-2,0)=2\\mathbf{n}_{2}$，所以 $AC\\perp$ 平面\r\n$B_{1}BDD_{1}$. 由于 $AC\\subset$ 平面 $A_{1}ACC_{1}$，可得平面\r\n$A_{1}ACC_{1}\\perp$ 平面 $B_{1}BDD_{1}$.\n\n(3) 设 $\\mathbf{u}=\\overrightarrow{BB_{1}}=(-1,-1,2)$，则 $\\mathbf{u}\\cdot\\mathbf{u}=6$. 过 $B$ 作平面垂直于 $BB_{1}$，将 $\\overrightarrow{BA}$ 与 $\\overrightarrow{BC}$ 投影到这个平面上，所得两个方向向量分别为\r\n\n$$\n\\mathbf{p}=\\overrightarrow{BA}-\\frac{\\overrightarrow{BA}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}\r\n=(-2,0,0)-\\frac13(-1,-1,2)\r\n=\\left(-\\frac53,\\frac13,-\\frac23\\right)\n$$\n\r\n和\r\n\n$$\n\\mathbf{q}=\\overrightarrow{BC}-\\frac{\\overrightarrow{BC}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}\r\n=(0,-2,0)-\\frac13(-1,-1,2)\r\n=\\left(\\frac13,-\\frac53,-\\frac23\\right)\n$$\n\r\n这两个方向所成的角就是二面角 $A-BB_{1}-C$ 的平面角 $\\theta$. 于是 $\\mathbf{p}\\cdot\\mathbf{q}=-\\frac23$，且 $|\\mathbf{p}|^{2}=|\\mathbf{q}|^{2}=\\frac{10}{3}$，所以\r\n\n$$\n\\cos\\theta=\\frac{\\mathbf{p}\\cdot\\mathbf{q}}{|\\mathbf{p}||\\mathbf{q}|}\r\n=\\frac{-\\frac23}{\\frac{10}{3}}=-\\frac15\n$$\n\r\n故二面角 $A-BB_{1}-C$ 的大小为 $\\arccos\\left(-\\frac15\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>建立空间直角坐标系，取 $D$ 为原点，令 $DC$，$DA$，$DD_{1}$ 分别为 $x$，$y$，$z$ 轴的正方向. 由题意可取</p><p>$D(0,0,0)$，$C(2,0,0)$，$A(0,2,0)$，$B(2,2,0)$，$D_{1}(0,0,2)$，$C_{1}(1,0,2)$，$A_{1}(0,1,2)$，$B_{1}(1,1,2)$. 因此 $\\overrightarrow{A_{1}C_{1}}=(1,-1,0)=\\frac{1}{2}\\overrightarrow{AC}$，$\\overrightarrow{B_{1}D_{1}}=(-1,-1,0)=\\frac{1}{2}\\overrightarrow{BD}$，所以 $A_{1}C_{1}\\parallel AC$，$B_{1}D_{1}\\parallel BD$，从而 $A_{1}C_{1}$ 与 $AC$ 共面，$B_{1}D_{1}$ 与 $BD$ 共面.</p></li><li><p>在所取坐标系中，平面 $B_{1}BDD_{1}$ 内的两条方向向量可取</p><p>$\\overrightarrow{DB}=(2,2,0)$ 和 $\\overrightarrow{DD_{1}}=(0,0,2)$. 向量</p><p>$\\mathbf{n}_{2}=(1,-1,0)$ 同时垂直于它们，因而是平面 $B_{1}BDD_{1}$ 的一个法向量.</p><p>又 $\\overrightarrow{AC}=(2,-2,0)=2\\mathbf{n}_{2}$，所以 $AC\\perp$ 平面</p><p>$B_{1}BDD_{1}$. 由于 $AC\\subset$ 平面 $A_{1}ACC_{1}$，可得平面</p><p>$A_{1}ACC_{1}\\perp$ 平面 $B_{1}BDD_{1}$.</p></li><li><p>设 $\\mathbf{u}=\\overrightarrow{BB_{1}}=(-1,-1,2)$，则 $\\mathbf{u}\\cdot\\mathbf{u}=6$. 过 $B$ 作平面垂直于 $BB_{1}$，将 $\\overrightarrow{BA}$ 与 $\\overrightarrow{BC}$ 投影到这个平面上，所得两个方向向量分别为</p>\n$$\n\\mathbf{p}=\\overrightarrow{BA}-\\frac{\\overrightarrow{BA}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}=(-2,0,0)-\\frac{1}{3}(-1,-1,2)  =\\left(-\\frac{5}{3},\\frac{1}{3},-\\frac{2}{3}\\right)\n$$\n<p>和</p>\n$$\n\\mathbf{q}=\\overrightarrow{BC}-\\frac{\\overrightarrow{BC}\\cdot\\mathbf{u}}{\\mathbf{u}\\cdot\\mathbf{u}}\\mathbf{u}=(0,-2,0)-\\frac{1}{3}(-1,-1,2)  =\\left(\\frac{1}{3},-\\frac{5}{3},-\\frac{2}{3}\\right)\n$$\n<p>这两个方向所成的角就是二面角 $A-BB_{1}-C$ 的平面角 $\\theta$. 于是 $\\mathbf{p}\\cdot\\mathbf{q}=-\\frac{2}{3}$，且 $|\\mathbf{p}|^{2}=|\\mathbf{q}|^{2}=\\frac{10}{3}$，所以</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{p}\\cdot\\mathbf{q}}{|\\mathbf{p}||\\mathbf{q}|}=\\frac{-\\frac{2}{3}}{\\frac{10}{3}}=-\\frac{1}{5}\n$$\n<p>故二面角 $A-BB_{1}-C$ 的大小为 $\\arccos\\left(-\\frac{1}{5}\\right)$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "设 $F$ 是抛物线 $G: x^{2} = 4y$ 的焦点.\r\n\r\n\n(1) 过点 $P(0, -4)$ 作抛物线 $G$ 的切线，求切线方程；\n\n(2) 设 $A$，$B$ 为抛物线 $G$ 上异于原点的两点，且满足 $\\overrightarrow{FA} \\cdot \\overrightarrow{FB} = 0$，延长 $AF$，$BF$ 分别交抛物线 $G$ 于点 $C$，$D$，求四边形 $ABCD$ 面积的最小值.",
-          "choices": [],
+          "body": "<p>设 $F$ 是抛物线 $G: x^{2}= 4y$ 的焦点.</p><ol class=\"enumerate\"><li><p>过点 $P(0, -4)$ 作抛物线 $G$ 的切线，求切线方程；</p></li><li><p>设 $A$，$B$ 为抛物线 $G$ 上异于原点的两点，且满足 $\\overrightarrow{FA}\\cdot \\overrightarrow{FB}= 0$，延长 $AF$，$BF$ 分别交抛物线 $G$ 于点 $C$，$D$，求四边形 $ABCD$ 面积的最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设切点为 $X(2t,t^{2})$. 由 $x^{2}=4y$ 得 $y'=\\frac{x}{2}$，所以在 $X$ 处切线的斜率为 $t$，切线方程为 $y-t^{2}=t(x-2t)$，即 $y=tx-t^{2}$. 将 $P(0,-4)$ 代入，得 $-4=-t^{2}$，所以 $t=\\pm2$. 因而所求切线方程为 $y=2x-4$ 或 $y=-2x-4$.\n\n(2) 抛物线的焦点为 $F(0,1)$. 设 $A(2u,u^{2})$，$B(2v,v^{2})$，其中 $u\\neq0$，$v\\neq0$. 对于参数为 $s$ 的点 $X(2s,s^{2})$，点 $F$，$A$，$X$ 共线的条件为\r\n\n$$\nu(s^{2}-1)-s(u^{2}-1)=(s-u)(us+1)=0\n$$\n\r\n除去 $s=u$ 对应的点 $A$，直线 $AF$ 与抛物线的另一交点 $C$ 的参数为 $-\\frac{1}{u}$. 同理，$D$ 的参数为 $-\\frac{1}{v}$.\r\n\r\n由于\r\n$|FA|=\\sqrt{4u^{2}+(u^{2}-1)^{2}}=u^{2}+1$，$|FC|=\\sqrt{\\frac4{u^{2}}+\\left(\\frac1{u^{2}}-1\\right)^{2}}=\\frac{u^{2}+1}{u^{2}}$，\r\n且 $A$，$F$，$C$ 三点依次在同一直线上，所以\r\n\n$$\n|AC|=\\frac{(u^{2}+1)^{2}}{u^{2}}\n$$\n\r\n同理 $|BD|=\\frac{(v^{2}+1)^{2}}{v^{2}}$. 由 $\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=0$，直线 $AC$ 与 $BD$ 垂直，因此四边形 $ABCD$ 的面积为\r\n\n$$\nS=\\frac12|AC||BD|\n$$\n\r\n令\r\n$p_{1}=\\frac{2u}{u^{2}+1}$，$q_{1}=\\frac{u^{2}-1}{u^{2}+1}$，$p_{2}=\\frac{2v}{v^{2}+1}$，$q_{2}=\\frac{v^{2}-1}{v^{2}+1}$.\r\n则 $p_{1}^{2}+q_{1}^{2}=p_{2}^{2}+q_{2}^{2}=1$，而已知条件给出 $p_{1}p_{2}+q_{1}q_{2}=0$. 两个单位向量垂直，所以 $p_{2}^{2}=q_{1}^{2}$，从而 $p_{1}^{2}+p_{2}^{2}=1$. 又\r\n$|AC|=\\frac4{p_{1}^{2}}$，$|BD|=\\frac4{p_{2}^{2}}$，\r\n故\r\n\n$$\nS=\\frac8{p_{1}^{2}p_{2}^{2}}\r\n\\ge\\frac8{\\left(\\frac{p_{1}^{2}+p_{2}^{2}}2\\right)^{2}}\r\n=32\n$$\n\r\n当 $p_{1}^{2}=p_{2}^{2}=\\frac12$ 时等号成立，例如取 $u=\\sqrt2-1$，$v=\\sqrt2+1$. 所以四边形 $ABCD$ 面积的最小值为 $32$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设切点为 $X(2t,t^{2})$. 由 $x^{2}=4y$ 得 $y'=\\frac{x}{2}$，所以在 $X$ 处切线的斜率为 $t$，切线方程为 $y-t^{2}=t(x-2t)$，即 $y=tx-t^{2}$. 将 $P(0,-4)$ 代入，得 $-4=-t^{2}$，所以 $t=\\pm2$. 因而所求切线方程为 $y=2x-4$ 或 $y=-2x-4$.</p></li><li><p>抛物线的焦点为 $F(0,1)$. 设 $A(2u,u^{2})$，$B(2v,v^{2})$，其中 $u\\neq0$，$v\\neq0$. 对于参数为 $s$ 的点 $X(2s,s^{2})$，点 $F$，$A$，$X$ 共线的条件为</p>\n$$\nu(s^{2}-1)-s(u^{2}-1)=(s-u)(us+1)=0\n$$\n<p>除去 $s=u$ 对应的点 $A$，直线 $AF$ 与抛物线的另一交点 $C$ 的参数为 $-\\frac{1}{u}$. 同理，$D$ 的参数为 $-\\frac{1}{v}$.</p><p>由于</p><p>$|FA|=\\sqrt{4u^{2}+(u^{2}-1)^{2}}=u^{2}+1$，$|FC|=\\sqrt{\\frac{4}{u^{2}}+\\left(\\frac{1}{u^{2}}-1\\right)^{2}}=\\frac{u^{2}+1}{u^{2}}$，</p><p>且 $A$，$F$，$C$ 三点依次在同一直线上，所以</p>\n$$\n|AC|=\\frac{(u^{2}+1)^{2}}{u^{2}}\n$$\n<p>同理 $|BD|=\\frac{(v^{2}+1)^{2}}{v^{2}}$. 由 $\\overrightarrow{FA}\\cdot\\overrightarrow{FB}=0$，直线 $AC$ 与 $BD$ 垂直，因此四边形 $ABCD$ 的面积为</p>\n$$\nS=\\frac{1}{2}|AC||BD|\n$$\n<p>令</p><p>$p_{1}=\\frac{2u}{u^{2}+1}$，$q_{1}=\\frac{u^{2}-1}{u^{2}+1}$，$p_{2}=\\frac{2v}{v^{2}+1}$，$q_{2}=\\frac{v^{2}-1}{v^{2}+1}$.</p><p>则 $p_{1}^{2}+q_{1}^{2}=p_{2}^{2}+q_{2}^{2}=1$，而已知条件给出 $p_{1}p_{2}+q_{1}q_{2}=0$. 两个单位向量垂直，所以 $p_{2}^{2}=q_{1}^{2}$，从而 $p_{1}^{2}+p_{2}^{2}=1$. 又</p><p>$|AC|=\\frac{4}{p_{1}^{2}}$，$|BD|=\\frac{4}{p_{2}^{2}}$，</p><p>故</p>\n$$\nS=\\frac{8}{p_{1}^{2}p_{2}^{2}}\\ge\\frac{8}{\\left(\\frac{p_{1}^{2}+p_{2}^{2}}{2}\\right)^{2}}=32\n$$\n<p>当 $p_{1}^{2}=p_{2}^{2}=\\frac{1}{2}$ 时等号成立，例如取 $u=\\sqrt{2}-1$，$v=\\sqrt{2}+1$. 所以四边形 $ABCD$ 面积的最小值为 $32$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "在医学生物学试验中，经常以果蝇作为试验对象，一个关有 $6$ 只果蝇的笼子里，不慎混入了两只苍蝇（此时笼内共有 $8$ 只蝇子：$6$ 只果蝇和 $2$ 只苍蝇），只好把笼子打开一个小孔，让蝇子一只一只地往外飞，直到两只苍蝇都飞出，再关闭小孔.\r\n\r\n\n(1) 求笼内恰好剩下 $1$ 只果蝇的概率；\n\n(2) 求笼内至少剩下 $5$ 只果蝇的概率.",
-          "choices": [],
+          "body": "<p>在医学生物学试验中，经常以果蝇作为试验对象，一个关有 $6$ 只果蝇的笼子里，不慎混入了两只苍蝇（此时笼内共有 $8$ 只蝇子：$6$ 只果蝇和 $2$ 只苍蝇），只好把笼子打开一个小孔，让蝇子一只一只地往外飞，直到两只苍蝇都飞出，再关闭小孔.</p><ol class=\"enumerate\"><li><p>求笼内恰好剩下 $1$ 只果蝇的概率；</p></li><li><p>求笼内至少剩下 $5$ 只果蝇的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 只考虑两只苍蝇在依次飞出顺序中的位置. 这两个位置从 $8$ 个位置中任取，所有可能情形共有 $\\mathrm C_{8}^{2}$ 种，且等可能. 设两只苍蝇的位置为 $i<j$，则第 $j$ 只飞出的是第二只苍蝇，此时笼内剩下的果蝇数为 $8-j$. 恰好剩下 $1$ 只果蝇等价于 $j=7$，有 $6$ 种选择 $i$，所以所求概率为 $\\frac{6}{\\mathrm C_{8}^{2}}=\\frac3{14}$.\n\n(2) 笼内至少剩下 $5$ 只果蝇等价于 $8-j\\geqslant5$，即 $j\\leqslant3$. 这等价于两只苍蝇的位置都在前 $3$ 个位置中，共有 $\\mathrm C_{3}^{2}$ 种情形，所以所求概率为 $\\frac{\\mathrm C_{3}^{2}}{\\mathrm C_{8}^{2}}=\\frac3{28}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>只考虑两只苍蝇在依次飞出顺序中的位置. 这两个位置从 $8$ 个位置中任取，所有可能情形共有 $\\mathrm{C}_{8}^{2}$ 种，且等可能. 设两只苍蝇的位置为 $i&#x3C;j$，则第 $j$ 只飞出的是第二只苍蝇，此时笼内剩下的果蝇数为 $8-j$. 恰好剩下 $1$ 只果蝇等价于 $j=7$，有 $6$ 种选择 $i$，所以所求概率为 $\\frac{6}{\\mathrm{C}_{8}^{2}}=\\frac{3}{14}$.</p></li><li><p>笼内至少剩下 $5$ 只果蝇等价于 $8-j\\geqslant5$，即 $j\\leqslant3$. 这等价于两只苍蝇的位置都在前 $3$ 个位置中，共有 $\\mathrm{C}_{3}^{2}$ 种情形，所以所求概率为 $\\frac{\\mathrm{C}_{3}^{2}}{\\mathrm{C}_{8}^{2}}=\\frac{3}{28}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设函数 $f(x) = -\\cos^2 x - 4t\\sin \\frac{x}{2}\\cos \\frac{x}{2} + 4t^3 + t^2 - 3t + 4$，$x \\in \\mathbb{R}$，其中 $|t| \\le 1$. 将 $f(x)$ 的最小值记为 $g(t)$.\r\n\r\n\n(1) 求 $g(t)$ 的表达式；\n\n(2) 讨论 $g(t)$ 在区间 $(-1, 1)$ 内的单调性并求极值.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = -\\cos^{2} x - 4t\\sin \\frac{x}{2}\\cos \\frac{x}{2}+ 4t^{3} + t^{2} - 3t + 4$，$x \\in \\mathbb{R}$，其中 $|t| \\le 1$. 将 $f(x)$ 的最小值记为 $g(t)$.</p><ol class=\"enumerate\"><li><p>求 $g(t)$ 的表达式；</p></li><li><p>讨论 $g(t)$ 在区间 $(-1, 1)$ 内的单调性并求极值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 利用 $\\cos^{2}x=1-\\sin^{2}x$ 以及 $2\\sin\\frac{x}{2}\\cos\\frac{x}{2}=\\sin x$，有\r\n\n$$\nf(x)=\\sin^{2}x-2t\\sin x+4t^{3}+t^{2}-3t+3\r\n=(\\sin x-t)^{2}+4t^{3}-3t+3\n$$\n\r\n当 $|t|\\leqslant1$ 时，可以取到 $\\sin x=t$，故 $f(x)$ 的最小值为\r\n$g(t)=4t^{3}-3t+3$，$-1\\le t\\leqslant1$.\n\n(2) $g'(t)=12t^{2}-3=3(2t-1)(2t+1)$. 因此 $g'(t)>0$ 在 $(-1,-\\frac12)$ 和 $(\\frac12,1)$ 内成立，$g'(t)<0$ 在 $(-\\frac12,\\frac12)$ 内成立. 所以 $g(t)$ 在 $(-1,-\\frac12)$ 和 $(\\frac12,1)$ 内单调递增，在 $(-\\frac12,\\frac12)$ 内单调递减.\r\n\r\n又 $g(-\\frac12)=4$，$g(\\frac12)=2$，所以 $g(t)$ 在 $(-1,1)$ 内的极大值为 $4$，在 $t=-\\frac12$ 处取得；极小值为 $2$，在 $t=\\frac12$ 处取得.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>利用 $\\cos^{2}x=1-\\sin^{2}x$ 以及 $2\\sin\\frac{x}{2}\\cos\\frac{x}{2}=\\sin x$，有</p>\n$$\nf(x)=\\sin^{2}x-2t\\sin x+4t^{3}+t^{2}-3t+3  =(\\sin x-t)^{2}+4t^{3}-3t+3\n$$\n<p>当 $|t|\\leqslant1$ 时，可以取到 $\\sin x=t$，故 $f(x)$ 的最小值为</p><p>$g(t)=4t^{3}-3t+3$，$-1\\le t\\leqslant1$.</p></li><li><p>$g'(t)=12t^{2}-3=3(2t-1)(2t+1)$. 因此 $g'(t)>0$ 在 $(-1,-\\frac{1}{2})$ 和 $(\\frac{1}{2},1)$ 内成立，$g'(t)&#x3C;0$ 在 $(-\\frac{1}{2},\\frac{1}{2})$ 内成立. 所以 $g(t)$ 在 $(-1,-\\frac{1}{2})$ 和 $(\\frac{1}{2},1)$ 内单调递增，在 $(-\\frac{1}{2},\\frac{1}{2})$ 内单调递减.</p><p>又 $g(-\\frac{1}{2})=4$，$g(\\frac{1}{2})=2$，所以 $g(t)$ 在 $(-1,1)$ 内的极大值为 $4$，在 $t=-\\frac{1}{2}$ 处取得；极小值为 $2$，在 $t=\\frac{1}{2}$ 处取得.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "某国采用养老储备金制度. 公民在就业的第一年就交纳养老储备金，数目为 $a_1$；以后每年交纳的数目均比上一年增加 $d$（$d > 0$）. 因此，历年所交纳的储备金数目 $a_1$，$a_2$，$\\cdots$ 是一个公差为 $d$ 的等差数列. 与此同时，国家给予优惠的计息政策，不仅采用固定利率，而且计算复利. 这就是说，如果固定年利率为 $r$（$r > 0$），那么，在第 $n$ 年末，第一年所交纳的储备金就变为 $a_1(1 + r)^{n-1}$；第二年所交纳的储备金就变为 $a_2(1 + r)^{n-2}$，$\\cdots$. 以 $T_n$ 表示到第 $n$ 年末所累计的储备金总额.\r\n\r\n\n(1) 写出 $T_{n}$ 与 $T_{n-1}$ （ $n \\ge 2$ ）的递推关系式；\n\n(2) 求证：$T_{n} = A_{n} + B_{n}$. 其中 $\\{A_{n}\\}$ 是一个等比数列，$\\{B_{n}\\}$ 是一个等差数列.",
-          "choices": [],
+          "body": "<p>某国采用养老储备金制度. 公民在就业的第一年就交纳养老储备金，数目为 $a_{1}$；以后每年交纳的数目均比上一年增加 $d$（$d > 0$）. 因此，历年所交纳的储备金数目 $a_{1}$，$a_{2}$，$\\cdots$ 是一个公差为 $d$ 的等差数列. 与此同时，国家给予优惠的计息政策，不仅采用固定利率，而且计算复利. 这就是说，如果固定年利率为 $r$（$r > 0$），那么，在第 $n$ 年末，第一年所交纳的储备金就变为 $a_{1}(1 + r)^{n-1}$；第二年所交纳的储备金就变为 $a_{2}(1 + r)^{n-2}$，$\\cdots$. 以 $T_{n}$ 表示到第 $n$ 年末所累计的储备金总额.</p><ol class=\"enumerate\"><li><p>写出 $T_{n}$ 与 $T_{n-1}$ （ $n \\ge 2$ ）的递推关系式；</p></li><li><p>求证：$T_{n}= A_{n}+ B_{n}$. 其中 $\\{A_{n}\\}$ 是一个等比数列，$\\{B_{n}\\}$ 是一个等差数列.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 令 $q=1+r$，则第 $n$ 年末以前各年缴纳的储备金经过计息后的总额为\r\n$T_{n}=a_{1}q^{n-1}+a_{2}q^{n-2}+\\cdots+a_{n}$，而\r\n$qT_{n-1}=a_{1}q^{n-1}+a_{2}q^{n-2}+\\cdots+a_{n-1}q$. 因为 $a_n=a_1+(n-1)d$，所以\r\n$T_n=qT_{n-1}+a_n=(1+r)T_{n-1}+a_1+(n-1)d$，$n\\geqslant2$.\n\n(2) 取\r\n$C=\\frac{a_1r+d}{r^{2}}$，$A_n=C(1+r)^n$，$B_n=-\\frac{d}{r}n-C$.\r\n由于 $1+r$ 为常数，$\\{A_n\\}$ 是公比为 $1+r$ 的等比数列；又 $B_{n+1}-B_n=-\\frac{d}{r}$ 为常数，$\\{B_n\\}$ 是等差数列.\r\n\r\n下面证明 $T_n=A_n+B_n$. 当 $n=1$ 时，\r\n\n$$\nA_1+B_1=C(1+r)-\\frac{d}{r}-C=Cr-\\frac{d}{r}=a_1=T_1\n$$\n\r\n若 $T_{n-1}=A_{n-1}+B_{n-1}$，则由第（1）问的递推关系式，\r\n\n$$\nT_n=(1+r)(A_{n-1}+B_{n-1})+a_1+(n-1)d\r\n=A_n+(1+r)\\left(-\\frac{d}{r}(n-1)-C\\right)+a_1+(n-1)d\n$$\n\r\n由 $Cr=a_1+\\frac{d}{r}$ 得\r\n$a_1-(1+r)C=-C-\\frac{d}{r}$，又\r\n$-(1+r)\\frac{d}{r}(n-1)+(n-1)d=-\\frac{d}{r}(n-1)$，所以\r\n\n$$\nT_n=A_n-\\frac{d}{r}(n-1)-C-\\frac{d}{r}=A_n-\\frac{d}{r}n-C=A_n+B_n\n$$\n\r\n由数学归纳法，$T_n=A_n+B_n$ 对所有正整数 $n$ 成立.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>令 $q=1+r$，则第 $n$ 年末以前各年缴纳的储备金经过计息后的总额为</p><p>$T_{n}=a_{1}q^{n-1}+a_{2}q^{n-2}+\\cdots+a_{n}$，而</p><p>$qT_{n-1}=a_{1}q^{n-1}+a_{2}q^{n-2}+\\cdots+a_{n-1}q$. 因为 $a_{n}=a_{1}+(n-1)d$，所以</p><p>$T_{n}=qT_{n-1}+a_{n}=(1+r)T_{n-1}+a_{1}+(n-1)d$，$n\\geqslant2$.</p></li><li><p>取</p><p>$C=\\frac{a_{1}r+d}{r^{2}}$，$A_{n}=C(1+r)^{n}$，$B_{n}=-\\frac{d}{r}n-C$.</p><p>由于 $1+r$ 为常数，$\\{A_{n}\\}$ 是公比为 $1+r$ 的等比数列；又 $B_{n+1}-B_{n}=-\\frac{d}{r}$ 为常数，$\\{B_{n}\\}$ 是等差数列.</p><p>下面证明 $T_{n}=A_{n}+B_{n}$. 当 $n=1$ 时，</p>\n$$\nA_{1}+B_{1}=C(1+r)-\\frac{d}{r}-C=Cr-\\frac{d}{r}=a_{1}=T_{1}\n$$\n<p>若 $T_{n-1}=A_{n-1}+B_{n-1}$，则由第（1）问的递推关系式，</p>\n$$\nT_{n}=(1+r)(A_{n-1}+B_{n-1})+a_{1}+(n-1)d  =A_{n}+(1+r)\\left(-\\frac{d}{r}(n-1)-C\\right)+a_{1}+(n-1)d\n$$\n<p>由 $Cr=a_{1}+\\frac{d}{r}$ 得</p><p>$a_{1}-(1+r)C=-C-\\frac{d}{r}$，又</p><p>$-(1+r)\\frac{d}{r}(n-1)+(n-1)d=-\\frac{d}{r}(n-1)$，所以</p>\n$$\nT_{n}=A_{n}-\\frac{d}{r}(n-1)-C-\\frac{d}{r}=A_{n}-\\frac{d}{r}n-C=A_{n}+B_{n}\n$$\n<p>由数学归纳法，$T_{n}=A_{n}+B_{n}$ 对所有正整数 $n$ 成立.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

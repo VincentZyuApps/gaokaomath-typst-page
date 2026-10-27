@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -11,7 +12,7 @@
 #part-header("填空题")
 
 #problem(1)[
-$\l g20 + log _(100)25 =$#blank(){}.
+$\l g 20 + log _(100)25 =$#blank(){}.
 ]
 
 #answer([2])
@@ -19,7 +20,7 @@ $\l g20 + log _(100)25 =$#blank(){}.
 #solution[
 由对数的运算性质，
 
-$ \l g20+ log _(100)25=\l g20+(\l g25)/(\l g100)=\l g20+(2\l g5)/(2)=\l g(20 dot 5 )=\l g100=2 $
+$ \l g 20+ log _(100)25=\l g 20+(\l g 25)/(\l g 100)=\l g 20+(2\l g 5)/(2)=\l g(20 dot 5 )=\l g 100=2 $
 ]
 
 #problem(2)[
@@ -86,7 +87,7 @@ $ V=(1)/(3)S h=(1)/(3)\c d o t s q r t(3) dot 2 sqrt((2)/(3))=(2 sqrt(2))/(3) $
 
 #problem(6)[
 某工程的工序流程图如下（工时数单位：天）：
-则工程总时数为#blank(){}$"天"$.
+则工程总时数为#blank(){}$""天""$.
 
 
 #align(center)[#image("/papers/1998/img/shanghai_liberal/q6_fig1.png", width: 72%)]

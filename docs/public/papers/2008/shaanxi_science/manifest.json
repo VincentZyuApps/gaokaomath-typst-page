@@ -1,150 +1,15 @@
 {
+  "title": "2008年普通高等学校招生全国统一考试",
+  "subtitle": "2008年陕西卷（理）",
   "year": "2008",
   "slug": "shaanxi_science",
-  "title": "2008年陕西卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "复数 $\\frac{\\mathrm{i}(2 + \\mathrm{i})}{1 - 2\\mathrm{i}}$ 等于（ ）",
+          "body": "复数 $\\frac{\\mathrm{i}(2 + \\mathrm{i})}{1 - 2\\mathrm{i}}$ 等于（ ）",
           "choices": [
             "$\\mathrm{i}$",
             "$-\\mathrm{i}$",
@@ -152,13 +17,11 @@
             "$-1$"
           ],
           "answer": "D",
-          "solution": "先化简分子，得 $\\mathrm{i}(2+\\mathrm{i})=2\\mathrm{i}+\\mathrm{i}^2=-1+2\\mathrm{i}$. 因为分母的共轭复数为 $1+2\\mathrm{i}$，所以\r\n\n$$\n\\frac{-1+2\\mathrm{i}}{1-2\\mathrm{i}}=\\frac{(-1+2\\mathrm{i})(1+2\\mathrm{i})}{(1-2\\mathrm{i})(1+2\\mathrm{i})}=\\frac{-5}{5}=-1\n$$\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>先化简分子，得 $\\mathrm{i}(2+\\mathrm{i})=2\\mathrm{i}+\\mathrm{i}^{2}=-1+2\\mathrm{i}$. 因为分母的共轭复数为 $1+2\\mathrm{i}$，所以</p>\n$$\n\\frac{-1+2\\mathrm{i}}{1-2\\mathrm{i}}=\\frac{(-1+2\\mathrm{i})(1+2\\mathrm{i})}{(1-2\\mathrm{i})(1+2\\mathrm{i})}=\\frac{-5}{5}=-1\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 2,
-          "body": "已知全集 $U = \\{1, 2, 3, 4, 5\\}$，集合 $A = \\{x \\mid x^2 - 3x + 2 = 0\\}$，$B = \\{x \\mid x = 2a, a \\in A\\}$，则集合 $\\complement_U(A \\cup B)$ 中元素的个数为（ ）",
+          "body": "已知全集 $U = \\{1, 2, 3, 4, 5\\}$，集合 $A = \\{x \\mid x^{2} - 3x + 2 = 0\\}$，$B = \\{x \\mid x = 2a, a \\in A\\}$，则集合 $\\complement_{U}(A \\cup B)$ 中元素的个数为（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -166,13 +29,11 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "由 $x^2-3x+2=(x-1)(x-2)$，得 $A=\\{1,2\\}$. 因而\r\n$B=\\{2a\\mid a\\in A\\}=\\{2,4\\}$，从而 $A\\cup B=\\{1,2,4\\}$. 在全集 $U$ 中取补集，得\r\n\n$$\n\\complement_U(A\\cup B)=\\{3,5\\}\n$$\n\r\n其中有 $2$ 个元素，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $x^{2}-3x+2=(x-1)(x-2)$，得 $A=\\{1,2\\}$. 因而</p><p>$B=\\{2a\\mid a\\in A\\}=\\{2,4\\}$，从而 $A\\cup B=\\{1,2,4\\}$. 在全集 $U$ 中取补集，得</p>\n$$\n\\complement_{U}(A\\cup B)=\\{3,5\\}\n$$\n<p>其中有 $2$ 个元素，故选 B.</p>"
         },
         {
           "num": 3,
-          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 若 $c = \\sqrt{2}$，$b = \\sqrt{6}$，$B = 120^{\\circ}$，则 $a$ 等于（ ）",
+          "body": "$\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 若 $c = \\sqrt{2}$，$b = \\sqrt{6}$，$B = 120^{\\circ}$，则 $a$ 等于（ ）",
           "choices": [
             "$\\sqrt{6}$",
             "$2$",
@@ -180,13 +41,11 @@
             "$\\sqrt{2}$"
           ],
           "answer": "D",
-          "solution": "由余弦定理，$b^2=a^2+c^2-2ac\\cos B$. 代入 $b=\\sqrt{6}$，$c=\\sqrt{2}$，$B=120^{\\circ}$ 以及 $\\cos120^{\\circ}=-\\frac12$，得\r\n\n$$\n6=a^2+2-2a\\sqrt{2}\\left(-\\frac12\\right)=a^2+\\sqrt{2}a+2\n$$\n\r\n于是 $a^2+\\sqrt{2}a-4=0$，解得 $a=\\sqrt{2}$ 或 $a=-2\\sqrt{2}$. 因为边长为正，故 $a=\\sqrt{2}$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由余弦定理，$b^{2}=a^{2}+c^{2}-2ac\\cos B$. 代入 $b=\\sqrt{6}$，$c=\\sqrt{2}$，$B=120^{\\circ}$ 以及 $\\cos120^{\\circ}=-\\frac{1}{2}$，得</p>\n$$\n6=a^{2}+2-2a\\sqrt{2}\\left(-\\frac{1}{2}\\right)=a^{2}+\\sqrt{2}a+2\n$$\n<p>于是 $a^{2}+\\sqrt{2}a-4=0$，解得 $a=\\sqrt{2}$ 或 $a=-2\\sqrt{2}$. 因为边长为正，故 $a=\\sqrt{2}$，选 D.</p>"
         },
         {
           "num": 4,
-          "body": "已知 $\\{a_{n}\\}$ 是等差数列，$a_{1} + a_{2} = 4$，$a_{7} + a_{8} = 28$，则该数列前 $10$ 项和 $S_{10}$ 等于（ ）",
+          "body": "已知 $\\{a_{n}\\}$ 是等差数列，$a_{1}+ a_{2}= 4$，$a_{7}+ a_{8}= 28$，则该数列前 $10$ 项和 $S_{10}$ 等于（ ）",
           "choices": [
             "$64$",
             "$100$",
@@ -194,13 +53,11 @@
             "$120$"
           ],
           "answer": "B",
-          "solution": "设等差数列的首项为 $a_1$，公差为 $d$. 由题意\r\n$2a_1+d=4$，$2a_1+13d=28$.\r\n两式相减得 $12d=24$，所以 $d=2$，再由第一式得 $a_1=1$. 因此 $a_{10}=a_1+9d=19$，从而\r\n\n$$\nS_{10}=\\frac{10(a_1+a_{10})}{2}=5(1+19)=100\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的首项为 $a_{1}$，公差为 $d$. 由题意</p><p>$2a_{1}+d=4$，$2a_{1}+13d=28$.</p><p>两式相减得 $12d=24$，所以 $d=2$，再由第一式得 $a_{1}=1$. 因此 $a_{10}=a_{1}+9d=19$，从而</p>\n$$\nS_{10}=\\frac{10(a_{1}+a_{10})}{2}=5(1+19)=100\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 5,
-          "body": "直线 $\\sqrt{3} x - y + m = 0$ 与圆 $x^{2} + y^{2} - 2x - 2 = 0$ 相切，则实数 $m$ 等于（ ）",
+          "body": "直线 $\\sqrt{3}x - y + m = 0$ 与圆 $x^{2}+ y^{2}- 2x - 2 = 0$ 相切，则实数 $m$ 等于（ ）",
           "choices": [
             "$\\sqrt{3}$ 或 $-\\sqrt{3}$",
             "$-\\sqrt{3}$ 或 $3\\sqrt{3}$",
@@ -208,13 +65,11 @@
             "$-3\\sqrt{3}$ 或 $3\\sqrt{3}$"
           ],
           "answer": "C",
-          "solution": "将圆的方程配方，得\r\n\n$$\n(x-1)^2+y^2=3\n$$\n\r\n所以圆心为 $O(1,0)$，半径为 $\\sqrt{3}$. 直线与圆相切，当且仅当圆心到直线的距离等于半径，即\r\n\n$$\n\\frac{|\\sqrt{3}+m|}{\\sqrt{3+1}}=\\sqrt{3}\n$$\n\r\n因此 $|\\sqrt{3}+m|=2\\sqrt{3}$，解得 $m=\\sqrt{3}$ 或 $m=-3\\sqrt{3}$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>将圆的方程配方，得</p>\n$$\n(x-1)^{2}+y^{2}=3\n$$\n<p>所以圆心为 $O(1,0)$，半径为 $\\sqrt{3}$. 直线与圆相切，当且仅当圆心到直线的距离等于半径，即</p>\n$$\n\\frac{|\\sqrt{3}+m|}{\\sqrt{3+1}}=\\sqrt{3}\n$$\n<p>因此 $|\\sqrt{3}+m|=2\\sqrt{3}$，解得 $m=\\sqrt{3}$ 或 $m=-3\\sqrt{3}$. 故选 C.</p>"
         },
         {
           "num": 6,
-          "body": "“$a = \\frac{1}{8}$”是“对任意的正数 $x$，$2x + \\frac{a}{x} \\ge 1$”的（ ）",
+          "body": "“$a = \\frac{1}{8}$”是“对任意的正数 $x$，$2x + \\frac{a}{x}\\ge 1$”的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -222,13 +77,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "设命题 $p$ 为 $a=\\frac18$，命题 $q$ 为对任意 $x>0$，有 $2x+\\frac{a}{x}\\geqslant1$. 当 $a=\\frac18$ 时，由基本不等式\r\n\n$$\n2x+\\frac{1}{8x}\\geqslant2\\sqrt{2x\\cdot\\frac{1}{8x}}=1\n$$\n\r\n所以 $p$ 能推出 $q$.\r\n\r\n反过来，由 $x>0$，命题 $q$ 等价于 $2x^2-x+a\\geqslant0$ 对任意 $x>0$ 成立. 该二次函数的最小值在 $x=\\frac14$ 处取得，故必须有 $a-\\frac18\\geqslant0$，即 $a\\ge\\frac18$. 例如 $a=\\frac14$ 时 $q$ 成立而 $p$ 不成立，因此 $p$ 不是必要条件，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设命题 $p$ 为 $a=\\frac{1}{8}$，命题 $q$ 为对任意 $x>0$，有 $2x+\\frac{a}{x}\\geqslant1$. 当 $a=\\frac{1}{8}$ 时，由基本不等式</p>\n$$\n2x+\\frac{1}{8x}\\geqslant2\\sqrt{2x\\cdot\\frac{1}{8x}}=1\n$$\n<p>所以 $p$ 能推出 $q$.</p><p>反过来，由 $x>0$，命题 $q$ 等价于 $2x^{2}-x+a\\geqslant0$ 对任意 $x>0$ 成立. 该二次函数的最小值在 $x=\\frac{1}{4}$ 处取得，故必须有 $a-\\frac{1}{8}\\geqslant0$，即 $a\\ge\\frac{1}{8}$. 例如 $a=\\frac{1}{4}$ 时 $q$ 成立而 $p$ 不成立，因此 $p$ 不是必要条件，故选 A.</p>"
         },
         {
           "num": 7,
-          "body": "已知函数 $f(x) = 2^{x + 3}$，$f^{-1}(x)$ 是 $f(x)$ 的反函数，若 $mn = 16$（$m$，$n \\in \\mathbb{R}^+$），则 $f^{-1}(m) + f^{-1}(n)$ 的值为（ ）",
+          "body": "已知函数 $f(x) = 2^{x + 3}$，$f^{-1}(x)$ 是 $f(x)$ 的反函数，若 $mn = 16$（$m$，$n \\in \\mathbb{R}^{+}$），则 $f^{-1}(m) + f^{-1}(n)$ 的值为（ ）",
           "choices": [
             "$-2$",
             "$1$",
@@ -236,13 +89,11 @@
             "$10$"
           ],
           "answer": "A",
-          "solution": "由 $y=2^{x+3}$ 得 $x=\\log_2 y-3$，所以 $f^{-1}(x)=\\log_2x-3$，其中 $x>0$. 因为 $m$，$n>0$ 且 $mn=16$，所以\r\n\n$$\nf^{-1}(m)+f^{-1}(n)=\\log_2m+\\log_2n-6=\\log_2(mn)-6=4-6=-2\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $y=2^{x+3}$ 得 $x=\\log_{2} y-3$，所以 $f^{-1}(x)=\\log_{2}x-3$，其中 $x>0$. 因为 $m$，$n>0$ 且 $mn=16$，所以</p>\n$$\nf^{-1}(m)+f^{-1}(n)=\\log_{2}m+\\log_{2}n-6=\\log_{2}(mn)-6=4-6=-2\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 8,
-          "body": "双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$（$a > 0$，$b > 0$）的左、右焦点分别是 $F_1$，$F_2$，过 $F_1$ 作倾斜角为 $30^\\circ$ 的直线交双曲线右支于 $M$ 点. 若 $MF_{2}$ 垂直于 $x$ 轴，则双曲线的离心率为（ ）",
+          "body": "双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 0$，$b > 0$）的左、右焦点分别是 $F_{1}$，$F_{2}$，过 $F_{1}$ 作倾斜角为 $30^{\\circ}$ 的直线交双曲线右支于 $M$ 点. 若 $MF_{2}$ 垂直于 $x$ 轴，则双曲线的离心率为（ ）",
           "choices": [
             "$\\sqrt{6}$",
             "$\\sqrt{3}$",
@@ -250,27 +101,23 @@
             "$\\frac{\\sqrt{3}}{3}$"
           ],
           "answer": "B",
-          "solution": "设双曲线的焦半距为 $c$，则左右焦点为 $F_1(-c,0)$、$F_2(c,0)$，且 $c^2=a^2+b^2$. 过 $F_1$ 且倾斜角为 $30^{\\circ}$ 的直线为 $y=\\frac{x+c}{\\sqrt{3}}$. 由 $MF_2$ 垂直于 $x$ 轴，得 $M$ 的横坐标为 $c$，故 $M=\\left(c,\\frac{2c}{\\sqrt{3}}\\right)$.\r\n\r\n将点 $M$ 代入双曲线方程，得\r\n\n$$\n\\frac{c^2}{a^2}-\\frac{4c^2}{3b^2}=1\n$$\n\r\n令 $e=\\frac ca$，则 $b^2=a^2(e^2-1)$，从而\r\n\n$$\ne^2-\\frac{4e^2}{3(e^2-1)}=1\n$$\n\r\n化简得 $3e^4-10e^2+3=0$，即 $(e^2-3)(3e^2-1)=0$. 双曲线的离心率满足 $e>1$，所以 $e=\\sqrt{3}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设双曲线的焦半距为 $c$，则左右焦点为 $F_{1}(-c,0)$、$F_{2}(c,0)$，且 $c^{2}=a^{2}+b^{2}$. 过 $F_{1}$ 且倾斜角为 $30^{\\circ}$ 的直线为 $y=\\frac{x+c}{\\sqrt{3}}$. 由 $MF_{2}$ 垂直于 $x$ 轴，得 $M$ 的横坐标为 $c$，故 $M=\\left(c,\\frac{2c}{\\sqrt{3}}\\right)$.</p><p>将点 $M$ 代入双曲线方程，得</p>\n$$\n\\frac{c^{2}}{a^{2}}-\\frac{4c^{2}}{3b^{2}}=1\n$$\n<p>令 $e=\\frac{c}{a}$，则 $b^{2}=a^{2}(e^{2}-1)$，从而</p>\n$$\ne^{2}-\\frac{4e^{2}}{3(e^{2}-1)}=1\n$$\n<p>化简得 $3e^{4}-10e^{2}+3=0$，即 $(e^{2}-3)(3e^{2}-1)=0$. 双曲线的离心率满足 $e>1$，所以 $e=\\sqrt{3}$，故选 B.</p>"
         },
         {
           "num": 9,
-          "body": "如图，$\\alpha \\perp \\beta$，$\\alpha \\cap \\beta = l$，$A \\in \\alpha$，$B \\in \\beta$，$A$，$B$ 到 $l$ 的距离分别是 $a$ 和 $b$，$AB$ 与 $\\alpha$，$\\beta$ 所成的角分别是 $\\theta$ 和 $\\varphi$，$AB$ 在 $\\alpha$，$\\beta$ 内的射影分别是 $m$ 和 $n$，若 $a > b$，则（ ）\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/shaanxi_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，$\\alpha \\perp \\beta$，$\\alpha \\cap \\beta = l$，$A \\in \\alpha$，$B \\in \\beta$，$A$，$B$ 到 $l$ 的距离分别是 $a$ 和 $b$，$AB$ 与 $\\alpha$，$\\beta$ 所成的角分别是 $\\theta$ 和 $\\varphi$，$AB$ 在 $\\alpha$，$\\beta$ 内的射影分别是 $m$ 和 $n$，若 $a > b$，则（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\theta > \\varphi$，$m > n$",
-            "$\\theta >\\varphi$，$m < n$",
-            "$\\theta < \\varphi$，$m < n$",
-            "$\\theta < \\varphi$，$m > n$"
+            "$\\theta >\\varphi$，$m &#x3C; n$",
+            "$\\theta &#x3C; \\varphi$，$m &#x3C; n$",
+            "$\\theta &#x3C; \\varphi$，$m > n$"
           ],
           "answer": "D",
-          "solution": "取交线 $l$ 为 $x$ 轴，取 $\\alpha$ 内垂直于 $l$ 的方向为 $y$ 轴，取 $\\beta$ 内垂直于 $l$ 的方向为 $z$ 轴. 适当取坐标方向，可设\r\n$A=(u,a,0)$，$B=(v,0,b)$.\r\n记 $L=|AB|$，则 $\\overrightarrow{AB}=(v-u,-a,b)$. 因为直线与平面的夹角的正弦等于方向向量在平面法向方向上的分量与向量长度之比，所以\r\n$\\sin\\theta=\\frac{b}{L}$，$\\sin\\varphi=\\frac{a}{L}$.\r\n按直线与平面夹角定义，$0\\le\\theta$，$\\varphi\\le\\frac{\\pi}{2}$，且 $a>b\\geqslant0$，所以正弦在 $[0,\\frac{\\pi}{2}]$ 上单调递增，由 $\\sin\\theta<\\sin\\varphi$ 可得 $\\theta<\\varphi$.\r\n\r\n$AB$ 在 $\\alpha$ 内的射影方向向量为 $(v-u,-a,0)$，在 $\\beta$ 内的射影方向向量为 $(v-u,0,b)$，于是\r\n$m^2=(v-u)^2+a^2$，$n^2=(v-u)^2+b^2$.\r\n由 $a>b\\geqslant0$ 得 $m^2-n^2=a^2-b^2>0$，从而 $m>n$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>取交线 $l$ 为 $x$ 轴，取 $\\alpha$ 内垂直于 $l$ 的方向为 $y$ 轴，取 $\\beta$ 内垂直于 $l$ 的方向为 $z$ 轴. 适当取坐标方向，可设</p><p>$A=(u,a,0)$，$B=(v,0,b)$.</p><p>记 $L=|AB|$，则 $\\overrightarrow{AB}=(v-u,-a,b)$. 因为直线与平面的夹角的正弦等于方向向量在平面法向方向上的分量与向量长度之比，所以</p><p>$\\sin\\theta=\\frac{b}{L}$，$\\sin\\varphi=\\frac{a}{L}$.</p><p>按直线与平面夹角定义，$0\\le\\theta$，$\\varphi\\le\\frac{\\pi}{2}$，且 $a>b\\geqslant0$，所以正弦在 $[0,\\frac{\\pi}{2}]$ 上单调递增，由 $\\sin\\theta&#x3C;\\sin\\varphi$ 可得 $\\theta&#x3C;\\varphi$.</p><p>$AB$ 在 $\\alpha$ 内的射影方向向量为 $(v-u,-a,0)$，在 $\\beta$ 内的射影方向向量为 $(v-u,0,b)$，于是</p><p>$m^{2}=(v-u)^{2}+a^{2}$，$n^{2}=(v-u)^{2}+b^{2}$.</p><p>由 $a>b\\geqslant0$ 得 $m^{2}-n^{2}=a^{2}-b^{2}>0$，从而 $m>n$，故选 D.</p>"
         },
         {
           "num": 10,
-          "body": "已知实数 $x$，$y$ 满足 $\\begin{cases}\r\ny \\ge 1,\\\\\r\ny \\le 2x - 1,\\\\\r\nx + y \\le m,\r\n\\end{cases}$ 如果目标函数 $z = x - y$ 的最小值为 $-1$，则实数 $m$ 等于（ ）",
+          "body": "已知实数 $x$，$y$ 满足 $\\begin{cases}y \\ge 1,\\\\  y \\le 2x - 1,\\\\  x + y \\le m,\\end{cases}$ 如果目标函数 $z = x - y$ 的最小值为 $-1$，则实数 $m$ 等于（ ）",
           "choices": [
             "$7$",
             "$5$",
@@ -278,13 +125,11 @@
             "$3$"
           ],
           "answer": "B",
-          "solution": "由 $y\\geqslant1$ 且 $y\\leqslant2x-1$，得 $x\\geqslant1$. 又由 $y\\geqslant1$ 和 $x+y\\le m$，得 $x\\le m-1$，所以可行域由三条边界直线围成，其三个顶点为\r\n$A=(1,1)$，$B=\\left(\\frac{m+1}{3},\\frac{2m-1}{3}\\right)$，$C=(m-1,1)$\r\n其中 $B$ 是 $y=2x-1$ 与 $x+y=m$ 的交点，且可行域存在时 $m\\geqslant2$.\r\n\r\n目标函数 $z=x-y$ 在三个顶点处的值分别为\r\n$z(A)=0$，$z(B)=\\frac{2-m}{3}$，$z(C)=m-2$.\r\n当 $m\\geqslant2$ 时，$z(B)\\leqslant0\\le z(C)$，故最小值为 $\\frac{2-m}{3}$. 由题设\r\n\n$$\n\\frac{2-m}{3}=-1\n$$\n\r\n解得 $m=5$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $y\\geqslant1$ 且 $y\\leqslant2x-1$，得 $x\\geqslant1$. 又由 $y\\geqslant1$ 和 $x+y\\le m$，得 $x\\le m-1$，所以可行域由三条边界直线围成，其三个顶点为</p><p>$A=(1,1)$，$B=\\left(\\frac{m+1}{3},\\frac{2m-1}{3}\\right)$，$C=(m-1,1)$</p><p>其中 $B$ 是 $y=2x-1$ 与 $x+y=m$ 的交点，且可行域存在时 $m\\geqslant2$.</p><p>目标函数 $z=x-y$ 在三个顶点处的值分别为</p><p>$z(A)=0$，$z(B)=\\frac{2-m}{3}$，$z(C)=m-2$.</p><p>当 $m\\geqslant2$ 时，$z(B)\\leqslant0\\le z(C)$，故最小值为 $\\frac{2-m}{3}$. 由题设</p>\n$$\n\\frac{2-m}{3}=-1\n$$\n<p>解得 $m=5$，故选 B.</p>"
         },
         {
           "num": 11,
-          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足 $f(x + y) = f(x) + f(y) + 2xy$（$x$，$y \\in \\mathbb{R}$），$f(1) = 2$，则 $f(-3)$ 等于（ ）",
+          "body": "定义在 $\\mathbb{R}$ 上的函数 $f(x)$ 满足 $f(x + y) = f(x) + f(y) + 2xy$（$x$，$y \\in \\mathbb{R}$），$f(1) = 2$，则 $f(-3)$ 等于（ ）",
           "choices": [
             "$2$",
             "$3$",
@@ -292,13 +137,11 @@
             "$9$"
           ],
           "answer": "C",
-          "solution": "令 $y=0$，由函数方程得 $f(x)=f(x)+f(0)$，所以 $f(0)=0$. 由 $f(1)=2$ 逐次计算\r\n\n$$\nf(2)=f(1+1)=2f(1)+2=6\n$$\n\r\n\n$$\nf(3)=f(2+1)=f(2)+f(1)+4=12\n$$\n\r\n再令 $x=3$，$y=-3$，则\r\n\n$$\n0=f(0)=f(3)+f(-3)+2\\cdot3\\cdot(-3)=12+f(-3)-18\n$$\n\r\n因此 $f(-3)=6$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $y=0$，由函数方程得 $f(x)=f(x)+f(0)$，所以 $f(0)=0$. 由 $f(1)=2$ 逐次计算</p>\n$$\nf(2)=f(1+1)=2f(1)+2=6\n$$\n\n$$\nf(3)=f(2+1)=f(2)+f(1)+4=12\n$$\n<p>再令 $x=3$，$y=-3$，则</p>\n$$\n0=f(0)=f(3)+f(-3)+2\\cdot3\\cdot(-3)=12+f(-3)-18\n$$\n<p>因此 $f(-3)=6$，故选 C.</p>"
         },
         {
           "num": 12,
-          "body": "为提高信息在传输中的抗干扰能力，通常在原信息中按一定规则加入相关数据组成传输信息. 设定原信息为 $a_0a_1a_2$，$a_i \\in \\{0, 1\\}$（$i = 0$，$1$，$2$），传输信息为 $h_0a_0a_1a_2h_1$，其中 $h_0 = a_0 \\oplus a_1$，$h_1 = h_0 \\oplus a_2$，$\\oplus$ 运算规则为：$0 \\oplus 0 = 0$，$0 \\oplus 1 = 1$，$1 \\oplus 0 = 1$，$1 \\oplus 1 = 0$. 例如原信息为 $111$，则传输信息为 $01111$. 传输信息在传输过程中受到干扰可能导致接收信息出错，则下列接收信息一定有误的是（ ）",
+          "body": "为提高信息在传输中的抗干扰能力，通常在原信息中按一定规则加入相关数据组成传输信息. 设定原信息为 $a_{0}a_{1}a_{2}$，$a_{i} \\in \\{0, 1\\}$（$i = 0$，$1$，$2$），传输信息为 $h_{0}a_{0}a_{1}a_{2}h_{1}$，其中 $h_{0} = a_{0} \\oplus a_{1}$，$h_{1} = h_{0} \\oplus a_{2}$，$\\oplus$ 运算规则为：$0 \\oplus 0 = 0$，$0 \\oplus 1 = 1$，$1 \\oplus 0 = 1$，$1 \\oplus 1 = 0$. 例如原信息为 $111$，则传输信息为 $01111$. 传输信息在传输过程中受到干扰可能导致接收信息出错，则下列接收信息一定有误的是（ ）",
           "choices": [
             "$11010$",
             "$01100$",
@@ -306,9 +149,7 @@
             "$00011$"
           ],
           "answer": "C",
-          "solution": "接收信息的形式为 $h_0a_0a_1a_2h_1$，因此必须同时满足\r\n$h_0=a_0\\oplus a_1$，$h_1=h_0\\oplus a_2$.\r\n逐项检验可得：\r\n$11010:\\ 1=1\\oplus0$，$0=1\\oplus1;$\r\n$01100:\\ 0=1\\oplus1$，$0=0\\oplus0;$\r\n$10111:\\ 1=0\\oplus1$，$1\\neq1\\oplus1=0;$\r\n$00011:\\ 0=0\\oplus0$，$1=0\\oplus1$.\r\n只有 $10111$ 不满足校验规则，所以它一定有误，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>接收信息的形式为 $h_{0}a_{0}a_{1}a_{2}h_{1}$，因此必须同时满足</p><p>$h_{0}=a_{0}\\oplus a_{1}$，$h_{1}=h_{0}\\oplus a_{2}$.</p><p>逐项检验可得：</p><p>$11010:\\ 1=1\\oplus0$，$0=1\\oplus1;$</p><p>$01100:\\ 0=1\\oplus1$，$0=0\\oplus0;$</p><p>$10111:\\ 1=0\\oplus1$，$1\\neq1\\oplus1=0;$</p><p>$00011:\\ 0=0\\oplus0$，$1=0\\oplus1$.</p><p>只有 $10111$ 不满足校验规则，所以它一定有误，故选 C.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "$\\displaystyle\\lim_{n\\to \\infty}\\frac{(1 + a)n + 1}{n + a} = 2$，则 $a =$ _______ {}.",
-          "choices": [],
+          "body": "$\\displaystyle\\lim_{n\\to \\infty}\\frac{(1 + a)n + 1}{n + a}= 2$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "1",
-          "solution": "分子、分母同除以 $n$，得\r\n\n$$\n\\lim_{n\\to\\infty}\\frac{(1+a)n+1}{n+a}=\\lim_{n\\to\\infty}\\frac{1+a+\\frac1n}{1+\\frac an}=1+a\n$$\n\r\n由题设极限等于 $2$，所以 $1+a=2$，即 $a=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分子、分母同除以 $n$，得</p>\n$$\n\\lim_{n\\to\\infty}\\frac{(1+a)n+1}{n+a}=\\lim_{n\\to\\infty}\\frac{1+a+\\frac{1}{n}}{1+\\frac{a}{n}}=1+a\n$$\n<p>由题设极限等于 $2$，所以 $1+a=2$，即 $a=1$.</p>"
         },
         {
           "num": 14,
-          "body": "长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的各顶点都在球 $O$ 的球面上，其中 $AB:AD:AA_{1} = 1:1:\\sqrt{2}$，$A$，$B$ 两点的球面距离记为 $m$，$A$，$D_{1}$ 两点的球面距离记为 $n$，则 $\\frac{m}{n}$ 的值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\dfrac{1}{2}\\)",
-          "solution": "长方体的空间对角线为球的直径. 取 $AB=AD=1$，$AA_1=\\sqrt{2}$，则\r\n\n$$\n2R=\\sqrt{AB^2+AD^2+AA_1^2}=\\sqrt{1+1+2}=2\n$$\n\r\n所以球半径 $R=1$. 设球心为 $O$，由于球面距离取较短球面弧长且 $R=1$，其数值等于相应圆心角（弧度），分别记为 $m$ 和 $n$. 由弦长公式\r\n$AB=2R\\sin\\frac m2$，$AD_1=2R\\sin\\frac n2$.\r\n又 $AB=1$，$AD_1=\\sqrt{AD^2+AA_1^2}=\\sqrt3$，故\r\n$1=2\\sin\\frac m2$，$\\sqrt3=2\\sin\\frac n2$.\r\n取两点间的较短球面弧，得 $m=\\frac\\pi3$，$n=\\frac{2\\pi}3$，从而\r\n\n$$\n\\frac mn=\\frac12\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的各顶点都在球 $O$ 的球面上，其中 $AB:AD:AA_{1}= 1:1:\\sqrt{2}$，$A$，$B$ 两点的球面距离记为 $m$，$A$，$D_{1}$ 两点的球面距离记为 $n$，则 $\\frac{m}{n}$ 的值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\dfrac{1}{2}$",
+          "solution": "<p>长方体的空间对角线为球的直径. 取 $AB=AD=1$，$AA_{1}=\\sqrt{2}$，则</p>\n$$\n2R=\\sqrt{AB^{2}+AD^{2}+AA_{1}^{2}}=\\sqrt{1+1+2}=2\n$$\n<p>所以球半径 $R=1$. 设球心为 $O$，由于球面距离取较短球面弧长且 $R=1$，其数值等于相应圆心角（弧度），分别记为 $m$ 和 $n$. 由弦长公式</p><p>$AB=2R\\sin\\frac{m}{2}$，$AD_{1}=2R\\sin\\frac{n}{2}$.</p><p>又 $AB=1$，$AD_{1}=\\sqrt{AD^{2}+AA_{1}^{2}}=\\sqrt{3}$，故</p><p>$1=2\\sin\\frac{m}{2}$，$\\sqrt{3}=2\\sin\\frac{n}{2}$.</p><p>取两点间的较短球面弧，得 $m=\\frac{\\pi}{3}$，$n=\\frac{2\\pi}{3}$，从而</p>\n$$\n\\frac{m}{n}=\\frac{1}{2}\n$$"
         },
         {
           "num": 15,
-          "body": "关于平面向量 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$，有下列三个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 若 $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c}$，则 $\\mathbf{b} = \\mathbf{c}$；\r\n\\item 若 $\\mathbf{a} = (1, k)$，$\\mathbf{b} = (-2, 6)$，$\\mathbf{a} \\parallel \\mathbf{b}$，则 $k = -3$；\r\n\\item 非零向量 $\\mathbf{a}$ 和 $\\mathbf{b}$ 满足 $|\\mathbf{a}| = |\\mathbf{b}| = |\\mathbf{a} - \\mathbf{b}|$，则 $\\mathbf{a}$ 与 $\\mathbf{a} + \\mathbf{b}$ 的夹角为 $60^{\\circ}$.\r\n\\end{circlelist}\r\n\r\n其中真命题的序号为 _______ {}.（写出所有真命题的序号）.",
-          "choices": [],
-          "answer": "\\(\\circled{2}\\)",
-          "solution": "第一个命题中，由 $\\mathbf{a}\\cdot\\mathbf{b}=\\mathbf{a}\\cdot\\mathbf{c}$ 只能得到 $\\mathbf{a}\\cdot(\\mathbf{b}-\\mathbf{c})=0$，不能推出 $\\mathbf{b}=\\mathbf{c}$. 例如取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,0)$，$\\mathbf{c}=(0,1)$，等式成立而 $\\mathbf{b}\\neq\\mathbf{c}$，所以第一个命题错误.\r\n\r\n第二个命题中，向量平行等价于对应坐标的行列式为零，即\r\n\n$$\n\\begin{vmatrix}1&k\\\\-2&6\\end{vmatrix}=6+2k=0\n$$\n\r\n所以 $k=-3$，第二个命题正确.\r\n\r\n第三个命题中，设 $|\\mathbf{a}|=|\\mathbf{b}|=r>0$. 由 $|\\mathbf{a}-\\mathbf{b}|=r$，得\r\n\n$$\nr^2=|\\mathbf{a}-\\mathbf{b}|^2=2r^2-2\\mathbf{a}\\cdot\\mathbf{b}\n$$\n\r\n所以 $\\mathbf{a}\\cdot\\mathbf{b}=\\frac{r^2}{2}$. 因而\r\n$\\mathbf{a}\\cdot(\\mathbf{a}+\\mathbf{b})=\\frac{3r^2}{2}$，$|\\mathbf{a}+\\mathbf{b}|=\\sqrt{3}r$.\r\n若设 $\\mathbf{a}$ 与 $\\mathbf{a}+\\mathbf{b}$ 的夹角为 $\\gamma$，则\r\n\n$$\n\\cos\\gamma=\\frac{\\frac{3r^2}{2}}{r\\cdot\\sqrt3r}=\\frac{\\sqrt3}{2}\n$$\n\r\n即 $\\gamma=30^{\\circ}$，而不是 $60^{\\circ}$，所以第三个命题错误. 因此真命题的序号为 $\\circled{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>关于平面向量 $\\mathbf{a}$，$\\mathbf{b}$，$\\mathbf{c}$，有下列三个命题：</p><ol class=\"enumerate\"><li><p>若 $\\mathbf{a}\\cdot \\mathbf{b}= \\mathbf{a}\\cdot \\mathbf{c}$，则 $\\mathbf{b}= \\mathbf{c}$；</p></li><li><p>若 $\\mathbf{a}= (1, k)$，$\\mathbf{b}= (-2, 6)$，$\\mathbf{a}\\parallel \\mathbf{b}$，则 $k = -3$；</p></li><li><p>非零向量 $\\mathbf{a}$ 和 $\\mathbf{b}$ 满足 $|\\mathbf{a}| = |\\mathbf{b}| = |\\mathbf{a}- \\mathbf{b}|$，则 $\\mathbf{a}$ 与 $\\mathbf{a}+ \\mathbf{b}$ 的夹角为 $60^{\\circ}$.</p></li></ol><p>其中真命题的序号为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有真命题的序号）.</p>",
+          "choices": null,
+          "answer": "$②$",
+          "solution": "<p>第一个命题中，由 $\\mathbf{a}\\cdot\\mathbf{b}=\\mathbf{a}\\cdot\\mathbf{c}$ 只能得到 $\\mathbf{a}\\cdot(\\mathbf{b}-\\mathbf{c})=0$，不能推出 $\\mathbf{b}=\\mathbf{c}$. 例如取 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=(0,0)$，$\\mathbf{c}=(0,1)$，等式成立而 $\\mathbf{b}\\neq\\mathbf{c}$，所以第一个命题错误.</p><p>第二个命题中，向量平行等价于对应坐标的行列式为零，即</p>\n$$\n\\begin{vmatrix}1&#x26;k\\\\-2&#x26;6\\end{vmatrix}=6+2k=0\n$$\n<p>所以 $k=-3$，第二个命题正确.</p><p>第三个命题中，设 $|\\mathbf{a}|=|\\mathbf{b}|=r>0$. 由 $|\\mathbf{a}-\\mathbf{b}|=r$，得</p>\n$$\nr^{2}=|\\mathbf{a}-\\mathbf{b}|^{2}=2r^{2}-2\\mathbf{a}\\cdot\\mathbf{b}\n$$\n<p>所以 $\\mathbf{a}\\cdot\\mathbf{b}=\\frac{r^{2}}{2}$. 因而</p><p>$\\mathbf{a}\\cdot(\\mathbf{a}+\\mathbf{b})=\\frac{3r^{2}}{2}$，$|\\mathbf{a}+\\mathbf{b}|=\\sqrt{3}r$.</p><p>若设 $\\mathbf{a}$ 与 $\\mathbf{a}+\\mathbf{b}$ 的夹角为 $\\gamma$，则</p>\n$$\n\\cos\\gamma=\\frac{\\frac{3r^{2}}{2}}{r\\cdot\\sqrt{3}r}=\\frac{\\sqrt{3}}{2}\n$$\n<p>即 $\\gamma=30^{\\circ}$，而不是 $60^{\\circ}$，所以第三个命题错误. 因此真命题的序号为 $②$.</p>"
         },
         {
           "num": 16,
-          "body": "某地奥运火炬接力传递路线共分$6$段. 传递活动分别由$6$名火炬手完成. 如果第一棒火炬手只能从甲、乙、丙三人中产生，最后一棒火炬手只能从甲、乙两人中产生，则不同的传递方案共有 _______ {}种. （用数字作答）",
-          "choices": [],
+          "body": "某地奥运火炬接力传递路线共分$6$段. 传递活动分别由$6$名火炬手完成. 如果第一棒火炬手只能从甲、乙、丙三人中产生，最后一棒火炬手只能从甲、乙两人中产生，则不同的传递方案共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>种. （用数字作答）",
+          "choices": null,
           "answer": "96",
-          "solution": "分两类计数. 若第一棒由甲或乙担任，有 $2$ 种选法；此时最后一棒只能由甲、乙中的另一人担任，有 $1$ 种选法，其余四名火炬手任意排列，有 $4!$ 种方案，共有 $2\\cdot1\\cdot4!=48$ 种.\r\n\r\n若第一棒由丙担任，有 $1$ 种选法；最后一棒可由甲或乙担任，有 $2$ 种选法，其余四名火炬手任意排列，有 $4!$ 种方案，共有 $1\\cdot2\\cdot4!=48$ 种. 所以不同的传递方案共有\r\n\n$$\n48+48=96\n$$\n\r\n种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分两类计数. 若第一棒由甲或乙担任，有 $2$ 种选法；此时最后一棒只能由甲、乙中的另一人担任，有 $1$ 种选法，其余四名火炬手任意排列，有 $4!$ 种方案，共有 $2\\cdot1\\cdot4!=48$ 种.</p><p>若第一棒由丙担任，有 $1$ 种选法；最后一棒可由甲或乙担任，有 $2$ 种选法，其余四名火炬手任意排列，有 $4!$ 种方案，共有 $1\\cdot2\\cdot4!=48$ 种. 所以不同的传递方案共有</p>\n$$\n48+48=96\n$$\n<p>种.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知函数 $f(x) = 2\\sin \\frac{x}{4}\\cos \\frac{x}{4} - 2\\sqrt{3}\\sin^2 \\frac{x}{4} + \\sqrt{3}$.\r\n\n(1) 求函数 $f(x)$ 的最小正周期及最值；\n\n(2) 令 $g(x) = f\\left(x + \\frac{\\pi}{3}\\right)$，判断函数 $g(x)$ 的奇偶性，并说明理由.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = 2\\sin \\frac{x}{4}\\cos \\frac{x}{4}- 2\\sqrt{3}\\sin^{2} \\frac{x}{4}+ \\sqrt{3}$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的最小正周期及最值；</p></li><li><p>令 $g(x) = f\\left(x + \\frac{\\pi}{3}\\right)$，判断函数 $g(x)$ 的奇偶性，并说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 利用降幂公式，得\r\n\n$$\nf(x)=\\sin\\frac{x}{2}-\\sqrt{3}\\left(1-\\cos\\frac{x}{2}\\right)+\\sqrt{3}=\\sin\\frac{x}{2}+\\sqrt{3}\\cos\\frac{x}{2}=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{3}\\right)\n$$\n\r\n因此，函数 $f(x)$ 的最小正周期为 $4\\pi$，最大值为 $2$，最小值为 $-2$.\n\n(2) 由上式，\r\n\n$$\ng(x)=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{6}+\\frac{\\pi}{3}\\right)=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{2}\\right)=2\\cos\\frac{x}{2}\n$$\n\r\n所以 $g(-x)=2\\cos\\left(-\\frac{x}{2}\\right)=2\\cos\\frac{x}{2}=g(x)$，故 $g(x)$ 是偶函数.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>利用降幂公式，得</p>\n$$\nf(x)=\\sin\\frac{x}{2}-\\sqrt{3}\\left(1-\\cos\\frac{x}{2}\\right)+\\sqrt{3}=\\sin\\frac{x}{2}+\\sqrt{3}\\cos\\frac{x}{2}=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{3}\\right)\n$$\n<p>因此，函数 $f(x)$ 的最小正周期为 $4\\pi$，最大值为 $2$，最小值为 $-2$.</p></li><li><p>由上式，</p>\n$$\ng(x)=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{6}+\\frac{\\pi}{3}\\right)=2\\sin\\left(\\frac{x}{2}+\\frac{\\pi}{2}\\right)=2\\cos\\frac{x}{2}\n$$\n<p>所以 $g(-x)=2\\cos\\left(-\\frac{x}{2}\\right)=2\\cos\\frac{x}{2}=g(x)$，故 $g(x)$ 是偶函数.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "某射击测试规则为：每人最多射击 $3$ 次，击中目标即终止射击，第 $i$ 次击中目标得 $4-i$ 分（$i = 1$，$2$，$3$），$3$ 次均未击中目标得 $0$ 分. 已知某射手每次击中目标的概率为 $0.8$，其各次射击结果互不影响.\r\n\n(1) 求该射手恰好射击两次的概率；\n\n(2) 该射手的得分记为 $\\xi$，求随机变量 $\\xi$ 的分布列及数学期望.",
-          "choices": [],
+          "body": "<p>某射击测试规则为：每人最多射击 $3$ 次，击中目标即终止射击，第 $i$ 次击中目标得 $4-i$ 分（$i = 1$，$2$，$3$），$3$ 次均未击中目标得 $0$ 分. 已知某射手每次击中目标的概率为 $0.8$，其各次射击结果互不影响.</p><ol class=\"enumerate\"><li><p>求该射手恰好射击两次的概率；</p></li><li><p>该射手的得分记为 $\\xi$，求随机变量 $\\xi$ 的分布列及数学期望.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 恰好射击两次，表示第一次未击中、第二次击中，因此所求概率为 $P=0.2\\times0.8=0.16$.\n\n(2) 得分为 $3$ 分、$2$ 分、$1$ 分、$0$ 分的事件分别为第一次击中、第一次未击中而第二次击中、前两次未击中而第三次击中、三次均未击中. 因此 $P(\\xi=3)=0.8$，$P(\\xi=2)=0.2\\times0.8=0.16$，$P(\\xi=1)=0.2^2\\times0.8=0.032$，$P(\\xi=0)=0.2^3=0.008$.\r\n所以 $\\xi$ 的分布列为：$P(\\xi=0)=0.008$，$P(\\xi=1)=0.032$；\r\n\r\n$P(\\xi=2)=0.16$，$P(\\xi=3)=0.8$. 从而\r\n\n$$\nE\\xi=0\\times0.008+1\\times0.032+2\\times0.16+3\\times0.8=2.752\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>恰好射击两次，表示第一次未击中、第二次击中，因此所求概率为 $P=0.2\\times0.8=0.16$.</p></li><li><p>得分为 $3$ 分、$2$ 分、$1$ 分、$0$ 分的事件分别为第一次击中、第一次未击中而第二次击中、前两次未击中而第三次击中、三次均未击中. 因此 $P(\\xi=3)=0.8$，$P(\\xi=2)=0.2\\times0.8=0.16$，$P(\\xi=1)=0.2^{2}\\times0.8=0.032$，$P(\\xi=0)=0.2^{3}=0.008$.</p><p>所以 $\\xi$ 的分布列为：$P(\\xi=0)=0.008$，$P(\\xi=1)=0.032$；</p><p>$P(\\xi=2)=0.16$，$P(\\xi=3)=0.8$. 从而</p>\n$$\nE\\xi=0\\times0.008+1\\times0.032+2\\times0.16+3\\times0.8=2.752\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "三棱锥被平行于底面 $ABC$ 的平面所截得的几何体如图所示，截面为 $A_{1}B_{1}C_{1}$，$\\angle BAC = 90^{\\circ}$，$A_{1}A \\perp$ 平面 $ABC$，$A_{1}A = \\sqrt{3}$，$AB = \\sqrt{2}$，$AC = 2$，$A_{1}C_{1} = 1$，$\\frac{BD}{DC} = \\frac{1}{2}$.\r\n\r\n\n(1) 证明：平面 $A_{1}AD$ $\\perp$ 平面 $BCC_{1}B_{1}$；\n\n(2) 求二面角 $A-CC_{1}-B$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/shaanxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>三棱锥被平行于底面 $ABC$ 的平面所截得的几何体如图所示，截面为 $A_{1}B_{1}C_{1}$，$\\angle BAC = 90^{\\circ}$，$A_{1}A \\perp$ 平面 $ABC$，$A_{1}A = \\sqrt{3}$，$AB = \\sqrt{2}$，$AC = 2$，$A_{1}C_{1}= 1$，$\\frac{BD}{DC}= \\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>证明：平面 $A_{1}AD$ $\\perp$ 平面 $BCC_{1}B_{1}$；</p></li><li><p>求二面角 $A-CC_{1}-B$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shaanxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立空间直角坐标系，使 $A$ 为原点，$AB$，$AC$，$AA_{1}$ 分别沿 $x$，$y$，$z$ 轴正方向. 由已知条件，\r\n$A=(0,0,0)$，$B=(\\sqrt{2},0,0)$，$C=(0,2,0)$，$A_{1}=(0,0,\\sqrt{3})$.\r\n由于截面 $A_{1}B_{1}C_{1}$ 平行于底面 $ABC$，且 $A_{1}C_{1}=1$，$AC=2$，所以截面与底面的相似比为 $\\frac{1}{2}$，从而\r\n$B_{1}=\\left(\\frac{\\sqrt{2}}{2},0,\\sqrt{3}\\right)$，$C_{1}=(0,1,\\sqrt{3})$.\r\n又因为 $\\frac{BD}{DC}=\\frac{1}{2}$，所以 $\\frac{BD}{BC}=\\frac{1}{3}$，于是\r\n\n$$\nD=B+\\frac{1}{3}\\overrightarrow{BC}=\\left(\\frac{2\\sqrt{2}}{3},\\frac{2}{3},0\\right)\n$$\n\r\n\r\n\n(1) 平面 $A_{1}AD$ 的两个方向向量可取 $\\overrightarrow{AA_{1}}=(0,0,\\sqrt{3})$ 和 $\\overrightarrow{AD}=\\left(\\frac{2\\sqrt{2}}{3},\\frac{2}{3},0\\right)$，故其法向量可取\r\n\n$$\n\\mathbf{n}_{1}=(\\sqrt{3},-\\sqrt{6},0)\n$$\n\r\n平面 $BCC_{1}B_{1}$ 的两个方向向量可取 $\\overrightarrow{BC}=(-\\sqrt{2},2,0)$ 和 $\\overrightarrow{BB_{1}}=\\left(-\\frac{\\sqrt{2}}{2},0,\\sqrt{3}\\right)$，故其法向量可取\r\n\n$$\n\\mathbf{n}_{2}=(2\\sqrt{3},\\sqrt{6},\\sqrt{2})\n$$\n\r\n于是 $\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=6-6=0$，两平面的法向量互相垂直，因此平面 $A_{1}AD\\perp$ 平面 $BCC_{1}B_{1}$.\n\n(2) 二面角 $A-CC_{1}-B$ 是沿棱 $CC_{1}$ 的指定二面角. 为确定该角而不混淆其补角，取过 $C$ 且垂直于 $CC_{1}$ 的平面作截面. 令\r\n\n$$\n\\mathbf{e}=\\frac{\\overrightarrow{CC_{1}}}{|CC_{1}|}=\\left(0,-\\frac12,\\frac{\\sqrt{3}}2\\right)\n$$\n\r\n截面内的两条射线分别是 $\\overrightarrow{CA}$ 和 $\\overrightarrow{CB}$ 在 $\\mathbf{e}^\\perp$ 上的正射影. 记\r\n$\\mathbf{u}=\\overrightarrow{CA}=(0,-2,0)$，$\\mathbf{v}=\\overrightarrow{CB}=(\\sqrt{2},-2,0)$.\r\n因 $\\mathbf{u}\\cdot\\mathbf{e}=\\mathbf{v}\\cdot\\mathbf{e}=1$，两条射线的投影向量分别为\r\n\n$$\n\\mathbf{u}_{\\perp}=\\mathbf{u}-\\left(\\mathbf{u}\\cdot\\mathbf{e}\\right)\\mathbf{e}=\\left(0,-\\frac32,-\\frac{\\sqrt{3}}2\\right)\n$$\n\r\n\n$$\n\\mathbf{v}_{\\perp}=\\mathbf{v}-\\left(\\mathbf{v}\\cdot\\mathbf{e}\\right)\\mathbf{e}=\\left(\\sqrt{2},-\\frac32,-\\frac{\\sqrt{3}}2\\right)\n$$\n\r\n因此这两个投影向量的夹角就是所求二面角. 直接计算得\r\n$\\mathbf{u}_{\\perp}\\cdot\\mathbf{v}_{\\perp}=3$，$|\\mathbf{u}_{\\perp}|=\\sqrt{3}$，$|\\mathbf{v}_{\\perp}|=\\sqrt{5}$.\r\n设二面角的大小为 $\\omega$，则\r\n\n$$\n\\cos\\omega=\\frac{\\mathbf{u}_{\\perp}\\cdot\\mathbf{v}_{\\perp}}{|\\mathbf{u}_{\\perp}|\\,|\\mathbf{v}_{\\perp}|}\r\n=\\frac{3}{\\sqrt{15}}=\\frac{\\sqrt{15}}{5}\n$$\n\r\n所求二面角为 $\\omega=\\arccos\\frac{\\sqrt{15}}{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立空间直角坐标系，使 $A$ 为原点，$AB$，$AC$，$AA_{1}$ 分别沿 $x$，$y$，$z$ 轴正方向. 由已知条件，</p><p>$A=(0,0,0)$，$B=(\\sqrt{2},0,0)$，$C=(0,2,0)$，$A_{1}=(0,0,\\sqrt{3})$.</p><p>由于截面 $A_{1}B_{1}C_{1}$ 平行于底面 $ABC$，且 $A_{1}C_{1}=1$，$AC=2$，所以截面与底面的相似比为 $\\frac{1}{2}$，从而</p><p>$B_{1}=\\left(\\frac{\\sqrt{2}}{2},0,\\sqrt{3}\\right)$，$C_{1}=(0,1,\\sqrt{3})$.</p><p>又因为 $\\frac{BD}{DC}=\\frac{1}{2}$，所以 $\\frac{BD}{BC}=\\frac{1}{3}$，于是</p>\n$$\nD=B+\\frac{1}{3}\\overrightarrow{BC}=\\left(\\frac{2\\sqrt{2}}{3},\\frac{2}{3},0\\right)\n$$\n<ol class=\"enumerate\"><li><p>平面 $A_{1}AD$ 的两个方向向量可取 $\\overrightarrow{AA_{1}}=(0,0,\\sqrt{3})$ 和 $\\overrightarrow{AD}=\\left(\\frac{2\\sqrt{2}}{3},\\frac{2}{3},0\\right)$，故其法向量可取</p>\n$$\n\\mathbf{n}_{1}=(\\sqrt{3},-\\sqrt{6},0)\n$$\n<p>平面 $BCC_{1}B_{1}$ 的两个方向向量可取 $\\overrightarrow{BC}=(-\\sqrt{2},2,0)$ 和 $\\overrightarrow{BB_{1}}=\\left(-\\frac{\\sqrt{2}}{2},0,\\sqrt{3}\\right)$，故其法向量可取</p>\n$$\n\\mathbf{n}_{2}=(2\\sqrt{3},\\sqrt{6},\\sqrt{2})\n$$\n<p>于是 $\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=6-6=0$，两平面的法向量互相垂直，因此平面 $A_{1}AD\\perp$ 平面 $BCC_{1}B_{1}$.</p></li><li><p>二面角 $A-CC_{1}-B$ 是沿棱 $CC_{1}$ 的指定二面角. 为确定该角而不混淆其补角，取过 $C$ 且垂直于 $CC_{1}$ 的平面作截面. 令</p>\n$$\n\\mathbf{e}=\\frac{\\overrightarrow{CC_{1}}}{|CC_{1}|}=\\left(0,-\\frac{1}{2},\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>截面内的两条射线分别是 $\\overrightarrow{CA}$ 和 $\\overrightarrow{CB}$ 在 $\\mathbf{e}^{\\perp}$ 上的正射影. 记</p><p>$\\mathbf{u}=\\overrightarrow{CA}=(0,-2,0)$，$\\mathbf{v}=\\overrightarrow{CB}=(\\sqrt{2},-2,0)$.</p><p>因 $\\mathbf{u}\\cdot\\mathbf{e}=\\mathbf{v}\\cdot\\mathbf{e}=1$，两条射线的投影向量分别为</p>\n$$\n\\mathbf{u}_{\\perp}=\\mathbf{u}-\\left(\\mathbf{u}\\cdot\\mathbf{e}\\right)\\mathbf{e}=\\left(0,-\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)\n$$\n\n$$\n\\mathbf{v}_{\\perp}=\\mathbf{v}-\\left(\\mathbf{v}\\cdot\\mathbf{e}\\right)\\mathbf{e}=\\left(\\sqrt{2},-\\frac{3}{2},-\\frac{\\sqrt{3}}{2}\\right)\n$$\n<p>因此这两个投影向量的夹角就是所求二面角. 直接计算得</p><p>$\\mathbf{u}_{\\perp}\\cdot\\mathbf{v}_{\\perp}=3$，$|\\mathbf{u}_{\\perp}|=\\sqrt{3}$，$|\\mathbf{v}_{\\perp}|=\\sqrt{5}$.</p><p>设二面角的大小为 $\\omega$，则</p>\n$$\n\\cos\\omega=\\frac{\\mathbf{u}_{\\perp}\\cdot\\mathbf{v}_{\\perp}}{|\\mathbf{u}_{\\perp}|\\,|\\mathbf{v}_{\\perp}|}=\\frac{3}{\\sqrt{15}}=\\frac{\\sqrt{15}}{5}\n$$\n<p>所求二面角为 $\\omega=\\arccos\\frac{\\sqrt{15}}{5}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知抛物线 $C: y = 2x^2$，直线 $y = kx + 2$ 交 $C$ 于 $A$，$B$ 两点. $M$ 是线段 $AB$ 的中点，过 $M$ 作 $x$ 轴的垂线交 $C$ 于点 $N$.\r\n\n(1) 证明：抛物线 $C$ 在点 $N$ 处的切线与 $AB$ 平行；\n\n(2) 是否存在实数 $k$ 使 $\\overrightarrow{NA} \\cdot \\overrightarrow{NB} = 0$. 若存在，求 $k$ 的值；若不存在，说明理由.",
-          "choices": [],
+          "body": "<p>已知抛物线 $C: y = 2x^{2}$，直线 $y = kx + 2$ 交 $C$ 于 $A$，$B$ 两点. $M$ 是线段 $AB$ 的中点，过 $M$ 作 $x$ 轴的垂线交 $C$ 于点 $N$.</p><ol class=\"enumerate\"><li><p>证明：抛物线 $C$ 在点 $N$ 处的切线与 $AB$ 平行；</p></li><li><p>是否存在实数 $k$ 使 $\\overrightarrow{NA}\\cdot \\overrightarrow{NB}= 0$. 若存在，求 $k$ 的值；若不存在，说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设直线与抛物线的两个交点的横坐标分别为 $x_{1}$，$x_{2}$，则 $x_{1}$，$x_{2}$ 是方程 $2x^{2}-kx-2=0$ 的两个根. 由韦达定理，\r\n$x_{1}+x_{2}=\\frac{k}{2}$，$x_{1}x_{2}=-1$.\r\n记 $s=x_{1}+x_{2}=\\frac{k}{2}$，则\r\n\n$$\nM=\\left(\\frac{x_{1}+x_{2}}{2},\\frac{2x_{1}^{2}+2x_{2}^{2}}{2}\\right)=\\left(\\frac{k}{4},\\frac{k^{2}}{4}+2\\right)\n$$\n\r\n所以\r\n\n$$\nN=\\left(\\frac{k}{4},2\\left(\\frac{k}{4}\\right)^{2}\\right)=\\left(\\frac{k}{4},\\frac{k^{2}}{8}\\right)\n$$\n\r\n\r\n\n(1) 抛物线 $y=2x^{2}$ 在横坐标为 $x$ 处的切线斜率为 $4x$. 因此抛物线在点 $N$ 处的切线斜率为 $4\\cdot\\frac{k}{4}=k$，而直线 $AB$ 的斜率也是 $k$，故该切线与 $AB$ 平行.\n\n(2) 记 $d=x_{1}-x_{2}$. 由于方程 $2x^{2}-kx-2=0$ 的判别式为 $k^{2}+16>0$，所以 $d\\neq0$. 又有 $N=\\left(\\frac{s}{2},\\frac{s^{2}}{2}\\right)$，且\r\n$x_{1}=\\frac{s+d}{2}$，$x_{2}=\\frac{s-d}{2}$.\r\n从而\r\n\n$$\n\\overrightarrow{NA}=\\left(\\frac{d}{2},\\frac{d(2s+d)}{2}\\right)\n$$\n\r\n\n$$\n\\overrightarrow{NB}=\\left(-\\frac{d}{2},\\frac{d(d-2s)}{2}\\right)\n$$\n\r\n于是\r\n\n$$\n\\overrightarrow{NA}\\cdot\\overrightarrow{NB}=\\frac{d^{2}}{4}\\left(d^{2}-4s^{2}-1\\right)\n$$\n\r\n由 $x_{1}x_{2}=-1$，得 $d^{2}=(x_{1}+x_{2})^{2}-4x_{1}x_{2}=s^{2}+4$，所以\r\n\n$$\n\\overrightarrow{NA}\\cdot\\overrightarrow{NB}=\\frac{3d^{2}}{4}(1-s^{2})\n$$\n\r\n因此 $\\overrightarrow{NA}\\cdot\\overrightarrow{NB}=0$ 等价于 $s^{2}=1$，即 $\\left(\\frac{k}{2}\\right)^{2}=1$. 所以存在这样的实数，且 $k=\\pm2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设直线与抛物线的两个交点的横坐标分别为 $x_{1}$，$x_{2}$，则 $x_{1}$，$x_{2}$ 是方程 $2x^{2}-kx-2=0$ 的两个根. 由韦达定理，</p><p>$x_{1}+x_{2}=\\frac{k}{2}$，$x_{1}x_{2}=-1$.</p><p>记 $s=x_{1}+x_{2}=\\frac{k}{2}$，则</p>\n$$\nM=\\left(\\frac{x_{1}+x_{2}}{2},\\frac{2x_{1}^{2}+2x_{2}^{2}}{2}\\right)=\\left(\\frac{k}{4},\\frac{k^{2}}{4}+2\\right)\n$$\n<p>所以</p>\n$$\nN=\\left(\\frac{k}{4},2\\left(\\frac{k}{4}\\right)^{2}\\right)=\\left(\\frac{k}{4},\\frac{k^{2}}{8}\\right)\n$$\n<ol class=\"enumerate\"><li><p>抛物线 $y=2x^{2}$ 在横坐标为 $x$ 处的切线斜率为 $4x$. 因此抛物线在点 $N$ 处的切线斜率为 $4\\cdot\\frac{k}{4}=k$，而直线 $AB$ 的斜率也是 $k$，故该切线与 $AB$ 平行.</p></li><li><p>记 $d=x_{1}-x_{2}$. 由于方程 $2x^{2}-kx-2=0$ 的判别式为 $k^{2}+16>0$，所以 $d\\neq0$. 又有 $N=\\left(\\frac{s}{2},\\frac{s^{2}}{2}\\right)$，且</p><p>$x_{1}=\\frac{s+d}{2}$，$x_{2}=\\frac{s-d}{2}$.</p><p>从而</p>\n$$\n\\overrightarrow{NA}=\\left(\\frac{d}{2},\\frac{d(2s+d)}{2}\\right)\n$$\n\n$$\n\\overrightarrow{NB}=\\left(-\\frac{d}{2},\\frac{d(d-2s)}{2}\\right)\n$$\n<p>于是</p>\n$$\n\\overrightarrow{NA}\\cdot\\overrightarrow{NB}=\\frac{d^{2}}{4}\\left(d^{2}-4s^{2}-1\\right)\n$$\n<p>由 $x_{1}x_{2}=-1$，得 $d^{2}=(x_{1}+x_{2})^{2}-4x_{1}x_{2}=s^{2}+4$，所以</p>\n$$\n\\overrightarrow{NA}\\cdot\\overrightarrow{NB}=\\frac{3d^{2}}{4}(1-s^{2})\n$$\n<p>因此 $\\overrightarrow{NA}\\cdot\\overrightarrow{NB}=0$ 等价于 $s^{2}=1$，即 $\\left(\\frac{k}{2}\\right)^{2}=1$. 所以存在这样的实数，且 $k=\\pm2$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知函数 $f(x) = \\frac{kx + 1}{x^2 + c}$（$c > 0$且 $c \\neq 1$，$k \\in \\mathbb{R}$）恰有一个极大值点和一个极小值点. 其中一个是 $x = -c$.\r\n\n(1) 求函数 $f(x)$ 的另一个极值点；\n\n(2) 求函数 $f(x)$ 的极大值 $M$ 和极小值 $m$，并求 $M - m \\ge 1$ 时 $k$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\frac{kx + 1}{x^{2} + c}$（$c > 0$且 $c \\neq 1$，$k \\in \\mathbb{R}$）恰有一个极大值点和一个极小值点. 其中一个是 $x = -c$.</p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的另一个极值点；</p></li><li><p>求函数 $f(x)$ 的极大值 $M$ 和极小值 $m$，并求 $M - m \\ge 1$ 时 $k$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "函数的定义域为 $\\mathbb{R}$，且\r\n\n$$\nf'(x)=\\frac{-kx^{2}-2x+kc}{(x^{2}+c)^{2}}\n$$\n\r\n由于 $x=-c$ 是极值点，必有 $f'(-c)=0$，即\r\n\n$$\nc\\left(2+k-kc\\right)=0\n$$\n\r\n由 $c>0$，得 $k=\\frac{2}{c-1}$. 此时\r\n\n$$\n-kx^{2}-2x+kc=-k(x+c)(x-1)\n$$\n\r\n所以函数的另一个极值点为 $x=1$.\r\n\r\n当 $c>1$ 时，$k>0$，由导数符号可知 $x=-c$ 是极小值点，$x=1$ 是极大值点；当 $0<c<1$ 时，$k<0$，由导数符号可知 $x=-c$ 是极大值点，$x=1$ 是极小值点. 直接计算得\r\n$f(-c)=-\\frac{1}{c(c-1)}$，$f(1)=\\frac{1}{c-1}$.\r\n\r\n\n(1) 函数的另一个极值点的横坐标为 $x=1$，对应的极值点为 $\\left(1,\\frac{1}{c-1}\\right)$.\n\n(2) 当 $c>1$ 时，\r\n$M=\\frac{1}{c-1}$，$m=-\\frac{1}{c(c-1)}$，$M-m=\\frac{c+1}{c(c-1)}$.\r\n此时 $M-m\\geqslant1$ 等价于 $c^{2}-2c-1\\leqslant0$. 结合 $c>1$，得 $1<c\\leqslant1+\\sqrt{2}$.\r\n\r\n当 $0<c<1$ 时，\r\n$M=\\frac{1}{c(1-c)}$，$m=-\\frac{1}{1-c}$，$M-m=\\frac{c+1}{c(1-c)}>1$.\r\n所以此时所有 $0<c<1$ 均满足条件. 由 $k=\\frac{2}{c-1}$，当 $0<c<1$ 时 $k<-2$，当 $1<c\\leqslant1+\\sqrt{2}$ 时 $k\\ge\\sqrt{2}$. 因此 $k$ 的取值范围为\r\n\n$$\n(-\\infty,-2)\\cup[\\sqrt{2},+\\infty)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>函数的定义域为 $\\mathbb{R}$，且</p>\n$$\nf'(x)=\\frac{-kx^{2}-2x+kc}{(x^{2}+c)^{2}}\n$$\n<p>由于 $x=-c$ 是极值点，必有 $f'(-c)=0$，即</p>\n$$\nc\\left(2+k-kc\\right)=0\n$$\n<p>由 $c>0$，得 $k=\\frac{2}{c-1}$. 此时</p>\n$$\n-kx^{2}-2x+kc=-k(x+c)(x-1)\n$$\n<p>所以函数的另一个极值点为 $x=1$.</p><p>当 $c>1$ 时，$k>0$，由导数符号可知 $x=-c$ 是极小值点，$x=1$ 是极大值点；当 $0&#x3C;c&#x3C;1$ 时，$k&#x3C;0$，由导数符号可知 $x=-c$ 是极大值点，$x=1$ 是极小值点. 直接计算得</p><p>$f(-c)=-\\frac{1}{c(c-1)}$，$f(1)=\\frac{1}{c-1}$.</p><ol class=\"enumerate\"><li><p>函数的另一个极值点的横坐标为 $x=1$，对应的极值点为 $\\left(1,\\frac{1}{c-1}\\right)$.</p></li><li><p>当 $c>1$ 时，</p><p>$M=\\frac{1}{c-1}$，$m=-\\frac{1}{c(c-1)}$，$M-m=\\frac{c+1}{c(c-1)}$.</p><p>此时 $M-m\\geqslant1$ 等价于 $c^{2}-2c-1\\leqslant0$. 结合 $c>1$，得 $1&#x3C;c\\leqslant1+\\sqrt{2}$.</p><p>当 $0&#x3C;c&#x3C;1$ 时，</p><p>$M=\\frac{1}{c(1-c)}$，$m=-\\frac{1}{1-c}$，$M-m=\\frac{c+1}{c(1-c)}>1$.</p><p>所以此时所有 $0&#x3C;c&#x3C;1$ 均满足条件. 由 $k=\\frac{2}{c-1}$，当 $0&#x3C;c&#x3C;1$ 时 $k&#x3C;-2$，当 $1&#x3C;c\\leqslant1+\\sqrt{2}$ 时 $k\\ge\\sqrt{2}$. 因此 $k$ 的取值范围为</p>\n$$\n(-\\infty,-2)\\cup[\\sqrt{2},+\\infty)\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "已知数列 $\\{a_{n}\\}$ 的首项 $a_1 = \\frac{3}{5}$，$a_{n+1} = \\frac{3a_n}{2a_n + 1}$，$n = 1$，$2$，$\\cdots$.\r\n\n(1) 求 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 证明：对任意的 $x > 0$，$a_{n} \\ge \\frac{1}{1 + x} - \\frac{1}{(1 + x)^{2}} \\left( \\frac{2}{3^{n}} - x \\right)$，$n = 1$，$2$，$\\cdots$；\n\n(3) 证明：$a_{1} + a_{2} + \\dots + a_{n} > \\frac{n^{2}}{n + 1}$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 的首项 $a_{1} = \\frac{3}{5}$，$a_{n+1}= \\frac{3a_{n}}{2a_{n} + 1}$，$n = 1$，$2$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>证明：对任意的 $x > 0$，$a_{n}\\ge \\frac{1}{1 + x}- \\frac{1}{(1 + x)^{2}}\\left( \\frac{2}{3^{n}}- x \\right)$，$n = 1$，$2$，$\\cdots$；</p></li><li><p>证明：$a_{1}+ a_{2}+ \\dots + a_{n}> \\frac{n^{2}}{n + 1}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "由 $a_{1}>0$ 及递推关系可知各项均为正数. 令 $b_{n}=\\frac{1}{a_{n}}$，则 $b_{1}=\\frac{5}{3}$，$b_{n+1}=\\frac{2a_{n}+1}{3a_{n}}=\\frac{2}{3}+\\frac{1}{3}b_{n}$.\r\n因此 $b_{n+1}-1=\\frac{1}{3}(b_{n}-1)$，且 $b_{1}-1=\\frac{2}{3}$.\r\n从而 $b_{n}-1=\\frac{2}{3^{n}}$，故\r\n\n$$\na_{n}=\\frac{1}{b_{n}}=\\frac{1}{1+\\frac{2}{3^{n}}}=\\frac{3^{n}}{3^{n}+2}\n$$\n\r\n\r\n\n(1) $\\displaystyle a_{n}=\\frac{3^{n}}{3^{n}+2}$.\n\n(2) 记 $t=\\frac{2}{3^{n}}$. 对任意 $x>0$，有\r\n\n$$\na_{n}-\\left[\\frac{1}{1+x}-\\frac{1}{(1+x)^{2}}\\left(\\frac{2}{3^{n}}-x\\right)\\right]\r\n=\\frac{1}{1+t}-\\frac{1+2x-t}{(1+x)^{2}}=\\frac{(x-t)^{2}}{(1+t)(1+x)^{2}}\\geqslant0\n$$\n\r\n所以\r\n\n$$\na_{n}\\ge\\frac{1}{1+x}-\\frac{1}{(1+x)^{2}}\\left(\\frac{2}{3^{n}}-x\\right)\n$$\n\n(3) 对上面的不等式从 $i=1$ 到 $i=n$ 求和，并令 $x=\\frac{1}{n}>0$. 由\r\n\n$$\n2\\sum_{i=1}^{n}\\frac{1}{3^{i}}=1-\\frac{1}{3^{n}}\n$$\n\r\n可得\r\n\n$$\na_{1}+a_{2}+\\cdots+a_{n}\\ge\\frac{n}{1+x}-\\frac{1}{(1+x)^{2}}\\left(1-\\frac{1}{3^{n}}-nx\\right)=\\frac{n+2nx-1+3^{-n}}{(1+x)^{2}}\n$$\n\r\n代入 $x=\\frac{1}{n}$，得\r\n\n$$\na_{1}+a_{2}+\\cdots+a_{n}\\ge\\frac{n^{2}}{(n+1)^{2}}\\left(n+1+\\frac{1}{3^{n}}\\right)=\\frac{n^{2}}{n+1}+\\frac{n^{2}}{3^{n}(n+1)^{2}}>\\frac{n^{2}}{n+1}\n$$\n\r\n结论得证.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由 $a_{1}>0$ 及递推关系可知各项均为正数. 令 $b_{n}=\\frac{1}{a_{n}}$，则 $b_{1}=\\frac{5}{3}$，$b_{n+1}=\\frac{2a_{n}+1}{3a_{n}}=\\frac{2}{3}+\\frac{1}{3}b_{n}$.</p><p>因此 $b_{n+1}-1=\\frac{1}{3}(b_{n}-1)$，且 $b_{1}-1=\\frac{2}{3}$.</p><p>从而 $b_{n}-1=\\frac{2}{3^{n}}$，故</p>\n$$\na_{n}=\\frac{1}{b_{n}}=\\frac{1}{1+\\frac{2}{3^{n}}}=\\frac{3^{n}}{3^{n}+2}\n$$\n<ol class=\"enumerate\"><li><p>$\\displaystyle a_{n}=\\frac{3^{n}}{3^{n}+2}$.</p></li><li><p>记 $t=\\frac{2}{3^{n}}$. 对任意 $x>0$，有</p>\n$$\na_{n}-\\left[\\frac{1}{1+x}-\\frac{1}{(1+x)^{2}}\\left(\\frac{2}{3^{n}}-x\\right)\\right]  =\\frac{1}{1+t}-\\frac{1+2x-t}{(1+x)^{2}}=\\frac{(x-t)^{2}}{(1+t)(1+x)^{2}}\\geqslant0\n$$\n<p>所以</p>\n$$\na_{n}\\ge\\frac{1}{1+x}-\\frac{1}{(1+x)^{2}}\\left(\\frac{2}{3^{n}}-x\\right)\n$$\n</li><li><p>对上面的不等式从 $i=1$ 到 $i=n$ 求和，并令 $x=\\frac{1}{n}>0$. 由</p>\n$$\n2\\sum_{i=1}^{n}\\frac{1}{3^{i}}=1-\\frac{1}{3^{n}}\n$$\n<p>可得</p>\n$$\na_{1}+a_{2}+\\cdots+a_{n}\\ge\\frac{n}{1+x}-\\frac{1}{(1+x)^{2}}\\left(1-\\frac{1}{3^{n}}-nx\\right)=\\frac{n+2nx-1+3^{-n}}{(1+x)^{2}}\n$$\n<p>代入 $x=\\frac{1}{n}$，得</p>\n$$\na_{1}+a_{2}+\\cdots+a_{n}\\ge\\frac{n^{2}}{(n+1)^{2}}\\left(n+1+\\frac{1}{3^{n}}\\right)=\\frac{n^{2}}{n+1}+\\frac{n^{2}}{3^{n}(n+1)^{2}}>\\frac{n^{2}}{n+1}\n$$\n<p>结论得证.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

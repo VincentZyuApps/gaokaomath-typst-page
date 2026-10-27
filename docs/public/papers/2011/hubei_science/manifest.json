@@ -1,144 +1,15 @@
 {
+  "title": "2011年普通高等学校招生全国统一考试",
+  "subtitle": "2011年湖北卷（理）",
   "year": "2011",
   "slug": "hubei_science",
-  "title": "2011年湖北卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "$\\mathrm{i}$ 为虚数单位，则 $\\left(\\frac{1+\\mathrm{i}}{1-\\mathrm{i}}\\right)^{2011}=$（ ）",
+          "body": "$\\mathrm{i}$ 为虚数单位，则 $\\left(\\frac{1+\\mathrm{i}}{1-\\mathrm{i}}\\right)^{2011}=$（ ）",
           "choices": [
             "$-\\mathrm{i}$",
             "$-1$",
@@ -146,13 +17,11 @@
             "$1$"
           ],
           "answer": "A",
-          "solution": "因为 $\\dfrac{1+\\mathrm{i}}{1-\\mathrm{i}}=\\dfrac{(1+\\mathrm{i})^2}{1+1}=\\mathrm{i}$，而 $2011=4\\times502+3$，所以 $\\left(\\dfrac{1+\\mathrm{i}}{1-\\mathrm{i}}\\right)^{2011}=\\mathrm{i}^{2011}=\\mathrm{i}^3=-\\mathrm{i}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $\\dfrac{1+\\mathrm{i}}{1-\\mathrm{i}}=\\dfrac{(1+\\mathrm{i})^2}{1+1}=\\mathrm{i}$，而 $2011=4\\times502+3$，所以 $\\left(\\dfrac{1+\\mathrm{i}}{1-\\mathrm{i}}\\right)^{2011}=\\mathrm{i}^{2011}=\\mathrm{i}^{3}=-\\mathrm{i}$，故选 A."
         },
         {
           "num": 2,
-          "body": "已知 $U=\\{y\\mid y=\\log_2x,x>1\\}$，$P=\\left\\{y\\mid y=\\dfrac{1}{x},x>2\\right\\}$，则 $\\complement_U P=$（ ）",
+          "body": "已知 $U=\\{y\\mid y=\\log_{2}x,x>1\\}$，$P=\\left\\{y\\mid y=\\dfrac{1}{x},x>2\\right\\}$，则 $\\complement_{U} P=$（ ）",
           "choices": [
             "$\\left[\\dfrac{1}{2},+\\infty\\right)$",
             "$\\left(0,\\dfrac{1}{2}\\right)$",
@@ -160,13 +29,11 @@
             "$\\left(-\\infty,0\\right)\\cup\\left[\\dfrac{1}{2},+\\infty\\right)$"
           ],
           "answer": "A",
-          "solution": "当 $x>1$ 时，$\\log_2x>0$，所以 $U=(0,+\\infty)$. 当 $x>2$ 时，$0<\\dfrac{1}{x}<\\dfrac{1}{2}$，所以 $P=\\left(0,\\dfrac{1}{2}\\right)$. 因此在全集 $U$ 中取补集，得 $\\complement_U P=\\left[\\dfrac{1}{2},+\\infty\\right)$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "当 $x>1$ 时，$\\log_{2}x>0$，所以 $U=(0,+\\infty)$. 当 $x>2$ 时，$0&#x3C;\\dfrac{1}{x}&#x3C;\\dfrac{1}{2}$，所以 $P=\\left(0,\\dfrac{1}{2}\\right)$. 因此在全集 $U$ 中取补集，得 $\\complement_{U} P=\\left[\\dfrac{1}{2},+\\infty\\right)$，故选 A."
         },
         {
           "num": 3,
-          "body": "已知函数 $f(x)=\\sqrt{3}\\sin x-\\cos x$，$x\\in\\mathbb{R}$. 若 $f(x)\\geqslant1$，则 $x$ 的取值范围为（ ）",
+          "body": "已知函数 $f(x)=\\sqrt{3}\\sin x-\\cos x$，$x\\in\\mathbb{R}$. 若 $f(x)\\geqslant1$，则 $x$ 的取值范围为（ ）",
           "choices": [
             "$\\left\\{x\\mid k\\pi+\\dfrac{\\pi}{3}\\le x\\le k\\pi+\\pi,k\\in\\mathbb{Z}\\right\\}$",
             "$\\left\\{x\\mid 2k\\pi+\\dfrac{\\pi}{3}\\le x\\leqslant2k\\pi+\\pi,k\\in\\mathbb{Z}\\right\\}$",
@@ -174,13 +41,11 @@
             "$\\left\\{x\\mid 2k\\pi+\\dfrac{\\pi}{6}\\le x\\leqslant2k\\pi+\\dfrac{5\\pi}{6},k\\in\\mathbb{Z}\\right\\}$"
           ],
           "answer": "B",
-          "solution": "由 $\\sqrt{3}\\sin x-\\cos x=2\\sin\\left(x-\\dfrac{\\pi}{6}\\right)$，原不等式等价于 $\\sin\\left(x-\\dfrac{\\pi}{6}\\right)\\ge\\dfrac{1}{2}$. 因此 $\\dfrac{\\pi}{6}+2k\\pi\\le x-\\dfrac{\\pi}{6}\\le\\dfrac{5\\pi}{6}+2k\\pi$，其中 $k\\in\\mathbb{Z}$，即 $2k\\pi+\\dfrac{\\pi}{3}\\le x\\leqslant2k\\pi+\\pi$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $\\sqrt{3}\\sin x-\\cos x=2\\sin\\left(x-\\dfrac{\\pi}{6}\\right)$，原不等式等价于 $\\sin\\left(x-\\dfrac{\\pi}{6}\\right)\\ge\\dfrac{1}{2}$. 因此 $\\dfrac{\\pi}{6}+2k\\pi\\le x-\\dfrac{\\pi}{6}\\le\\dfrac{5\\pi}{6}+2k\\pi$，其中 $k\\in\\mathbb{Z}$，即 $2k\\pi+\\dfrac{\\pi}{3}\\le x\\leqslant2k\\pi+\\pi$. 故选 B."
         },
         {
           "num": 4,
-          "body": "将两个顶点在抛物线 $y^2=2px$（$p>0$）上，另一个顶点是此抛物线焦点的正三角形个数记为 $n$，则（ ）",
+          "body": "将两个顶点在抛物线 $y^{2}=2px$（$p>0$）上，另一个顶点是此抛物线焦点的正三角形个数记为 $n$，则（ ）",
           "choices": [
             "$n=0$",
             "$n=1$",
@@ -188,13 +53,11 @@
             "$n\\geqslant3$"
           ],
           "answer": "C",
-          "solution": "抛物线的焦点为 $F\\left(\\dfrac{p}{2},0\\right)$. 用参数 $t$ 表示抛物线上的点 $P(t)=\\left(\\dfrac{p}{2}t^2,pt\\right)$，则\r\n\n$$\n\\overrightarrow{FP(t)}=\\left(\\dfrac{p}{2}(t^2-1),pt\\right)\n$$\n\r\n\n$$\n|FP(t)|=\\dfrac{p}{2}(t^2+1)\n$$\n\r\n若 $P(t)$、$P(s)$ 与 $F$ 构成正三角形，则 $|FP(t)|=|FP(s)|$，从而 $s^2=t^2$. 因两点不能重合，$t\\ne0$，故 $s=-t$. 此时\r\n$\\overrightarrow{FP(t)}\\cdot\\overrightarrow{FP(-t)}=\\frac{p^2}{4}\\left(t^4-6t^2+1\\right)$，$|FP(t)|=|FP(-t)|=\\frac{p}{2}(t^2+1)$.\r\n正三角形在顶点 $F$ 处的角为 $60^\\circ$，所以\r\n\n$$\n\\frac{p^2}{4}\\left(t^4-6t^2+1\\right)=|FP(t)|\\,|FP(-t)|\\cos60^\\circ=\\frac{p^2}{8}(t^2+1)^2\n$$\n\r\n约去正数 $\\dfrac{p^2}{8}$，得 $2\\left(t^4-6t^2+1\\right)=(t^2+1)^2$，即 $t^4-14t^2+1=0$. 令 $u=t^2$，则 $u^2-14u+1=0$，所以 $u=7\\pm4\\sqrt{3}=(2\\pm\\sqrt{3})^2$，有两个正值. 每个正值确定一对点 $P(t)$，$P(-t)$，因此正三角形共有 $2$ 个，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>抛物线的焦点为 $F\\left(\\dfrac{p}{2},0\\right)$. 用参数 $t$ 表示抛物线上的点 $P(t)=\\left(\\dfrac{p}{2}t^{2},pt\\right)$，则</p>\n$$\n\\overrightarrow{FP(t)}=\\left(\\dfrac{p}{2}(t^{2}-1),pt\\right)\n$$\n\n$$\n|FP(t)|=\\dfrac{p}{2}(t^{2}+1)\n$$\n<p>若 $P(t)$、$P(s)$ 与 $F$ 构成正三角形，则 $|FP(t)|=|FP(s)|$，从而 $s^{2}=t^{2}$. 因两点不能重合，$t\\ne0$，故 $s=-t$. 此时</p><p>$\\overrightarrow{FP(t)}\\cdot\\overrightarrow{FP(-t)}=\\frac{p^{2}}{4}\\left(t^{4}-6t^{2}+1\\right)$，$|FP(t)|=|FP(-t)|=\\frac{p}{2}(t^{2}+1)$.</p><p>正三角形在顶点 $F$ 处的角为 $60^{\\circ}$，所以</p>\n$$\n\\frac{p^{2}}{4}\\left(t^{4}-6t^{2}+1\\right)=|FP(t)|\\,|FP(-t)|\\cos60^{\\circ}=\\frac{p^{2}}{8}(t^{2}+1)^{2}\n$$\n<p>约去正数 $\\dfrac{p^2}{8}$，得 $2\\left(t^{4}-6t^{2}+1\\right)=(t^{2}+1)^{2}$，即 $t^{4}-14t^{2}+1=0$. 令 $u=t^{2}$，则 $u^{2}-14u+1=0$，所以 $u=7\\pm4\\sqrt{3}=(2\\pm\\sqrt{3})^{2}$，有两个正值. 每个正值确定一对点 $P(t)$，$P(-t)$，因此正三角形共有 $2$ 个，故选 C.</p>"
         },
         {
           "num": 5,
-          "body": "已知随机变量 $\\xi$ 服从正态分布 $N(2,\\sigma^2)$，且 $P(\\xi<4)=0.8$，则 $P(0<\\xi<2)=$（ ）",
+          "body": "已知随机变量 $\\xi$ 服从正态分布 $N(2,\\sigma^{2})$，且 $P(\\xi&#x3C;4)=0.8$，则 $P(0&#x3C;\\xi&#x3C;2)=$（ ）",
           "choices": [
             "$0.6$",
             "$0.4$",
@@ -202,27 +65,23 @@
             "$0.2$"
           ],
           "answer": "C",
-          "solution": "正态分布关于其均值 $2$ 对称，所以 $P(\\xi<2)=P(\\xi>2)=0.5$. 又因为 $P(\\xi<4)=0.8$，故 $P(2<\\xi<4)=0.8-0.5=0.3$. 由关于 $2$ 的对称性，$P(0<\\xi<2)=P(2<\\xi<4)=0.3$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "正态分布关于其均值 $2$ 对称，所以 $P(\\xi&#x3C;2)=P(\\xi>2)=0.5$. 又因为 $P(\\xi&#x3C;4)=0.8$，故 $P(2&#x3C;\\xi&#x3C;4)=0.8-0.5=0.3$. 由关于 $2$ 的对称性，$P(0&#x3C;\\xi&#x3C;2)=P(2&#x3C;\\xi&#x3C;4)=0.3$，故选 C."
         },
         {
           "num": 6,
-          "body": "已知定义在 $\\mathbb{R}$ 上的奇函数 $f(x)$ 和偶函数 $g(x)$ 满足 $f(x)+g(x)=a^x-a^{-x}+2$（$a>0$，且 $a\\neq1$）. 若 $g(2)=a$，则 $f(2)=$（ ）",
+          "body": "已知定义在 $\\mathbb{R}$ 上的奇函数 $f(x)$ 和偶函数 $g(x)$ 满足 $f(x)+g(x)=a^{x}-a^{-x}+2$（$a>0$，且 $a\\neq1$）. 若 $g(2)=a$，则 $f(2)=$（ ）",
           "choices": [
             "$2$",
             "$\\dfrac{15}{4}$",
             "$\\dfrac{17}{4}$",
-            "$a^2$"
+            "$a^{2}$"
           ],
           "answer": "B",
-          "solution": "令 $x=2$，利用 $f$ 为奇函数、$g$ 为偶函数，分别得到\r\n\n$$\nf(2)+g(2)=a^2-a^{-2}+2\n$$\n\r\n\n$$\n-f(2)+g(2)=a^{-2}-a^2+2\n$$\n\r\n两式相加并代入 $g(2)=a$，得 $2a=4$，所以 $a=2$. 再代入第一式，得 $f(2)=4-\\dfrac{1}{4}+2-2=\\dfrac{15}{4}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $x=2$，利用 $f$ 为奇函数、$g$ 为偶函数，分别得到</p>\n$$\nf(2)+g(2)=a^{2}-a^{-2}+2\n$$\n\n$$\n-f(2)+g(2)=a^{-2}-a^{2}+2\n$$\n<p>两式相加并代入 $g(2)=a$，得 $2a=4$，所以 $a=2$. 再代入第一式，得 $f(2)=4-\\dfrac{1}{4}+2-2=\\dfrac{15}{4}$，故选 B.</p>"
         },
         {
           "num": 7,
-          "body": "如图，用 $K$，$A_{1}$，$A_{2}$ 三类不同的元件连接成一个系统. 当 $K$ 正常工作且 $A_{1}$，$A_{2}$ 至少有一个正常工作时，系统正常工作. 已知 $K$，$A_{1}$，$A_{2}$ 正常工作的概率依次为 $0.9$，$0.8$，$0.8$，则系统正常工作的概率为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hubei_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，用 $K$，$A_{1}$，$A_{2}$ 三类不同的元件连接成一个系统. 当 $K$ 正常工作且 $A_{1}$，$A_{2}$ 至少有一个正常工作时，系统正常工作. 已知 $K$，$A_{1}$，$A_{2}$ 正常工作的概率依次为 $0.9$，$0.8$，$0.8$，则系统正常工作的概率为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$0.960$",
             "$0.864$",
@@ -230,13 +89,11 @@
             "$0.576$"
           ],
           "answer": "B",
-          "solution": "在独立工作假设下，$A_{1}$、$A_{2}$ 至少有一个正常工作的概率为 $1-(1-0.8)(1-0.8)=0.96$. 系统还要求 $K$ 正常工作，因此系统正常工作的概率为 $0.9\\times0.96=0.864$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "在独立工作假设下，$A_{1}$、$A_{2}$ 至少有一个正常工作的概率为 $1-(1-0.8)(1-0.8)=0.96$. 系统还要求 $K$ 正常工作，因此系统正常工作的概率为 $0.9\\times0.96=0.864$，故选 B."
         },
         {
           "num": 8,
-          "body": "已知向量 $\\mathbf{a}=(x+z,3)$，$\\mathbf{b}=(2,y-z)$，且 $\\mathbf{a}\\perp\\mathbf{b}$. 若 $x$，$y$ 满足不等式 $|x|+|y|\\leqslant1$，则 $z$ 的取值范围为（ ）",
+          "body": "已知向量 $\\mathbf{a}=(x+z,3)$，$\\mathbf{b}=(2,y-z)$，且 $\\mathbf{a}\\perp\\mathbf{b}$. 若 $x$，$y$ 满足不等式 $|x|+|y|\\leqslant1$，则 $z$ 的取值范围为（ ）",
           "choices": [
             "$[-2,2]$",
             "$[-2,3]$",
@@ -244,13 +101,11 @@
             "$[-3,3]$"
           ],
           "answer": "D",
-          "solution": "由向量垂直得 $2(x+z)+3(y-z)=0$，所以 $z=2x+3y$. 在区域 $|x|+|y|\\leqslant1$ 上，$|z|\\leqslant2|x|+3|y|\\leqslant3(|x|+|y|)\\leqslant3$. 当 $(x,y)=(0,1)$ 时 $z=3$，当 $(x,y)=(0,-1)$ 时 $z=-3$；由于区域连通且线性函数取得介于最大值和最小值之间的所有值，故 $z\\in[-3,3]$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由向量垂直得 $2(x+z)+3(y-z)=0$，所以 $z=2x+3y$. 在区域 $|x|+|y|\\leqslant1$ 上，$|z|\\leqslant2|x|+3|y|\\leqslant3(|x|+|y|)\\leqslant3$. 当 $(x,y)=(0,1)$ 时 $z=3$，当 $(x,y)=(0,-1)$ 时 $z=-3$；由于区域连通且线性函数取得介于最大值和最小值之间的所有值，故 $z\\in[-3,3]$，选 D."
         },
         {
           "num": 9,
-          "body": "若实数 $a$，$b$ 满足 $a\\geqslant0$，$b\\geqslant0$，且 $ab=0$，则称 $a$ 与 $b$ 互补. 记 $\\varphi(a,b)=\\sqrt{a^2+b^2}-a-b$，那么 $\\varphi(a,b)=0$ 是 $a$ 与 $b$ 互补的（ ）",
+          "body": "若实数 $a$，$b$ 满足 $a\\geqslant0$，$b\\geqslant0$，且 $ab=0$，则称 $a$ 与 $b$ 互补. 记 $\\varphi(a,b)=\\sqrt{a^{2}+b^{2}}-a-b$，那么 $\\varphi(a,b)=0$ 是 $a$ 与 $b$ 互补的（ ）",
           "choices": [
             "必要而不充分条件",
             "充分而不必要条件",
@@ -258,13 +113,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "若 $a$、$b$ 互补，则 $ab=0$，从而 $a^2+b^2=(a+b)^2$. 因 $a+b\\geqslant0$，有 $\\sqrt{a^2+b^2}=a+b$，即 $\\varphi(a,b)=0$. 反之，若 $\\varphi(a,b)=0$，则同样有 $\\sqrt{a^2+b^2}=a+b$，两边平方得 $a^2+b^2=a^2+2ab+b^2$，所以 $ab=0$. 因此该条件是充要条件，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若 $a$、$b$ 互补，则 $ab=0$，从而 $a^{2}+b^{2}=(a+b)^{2}$. 因 $a+b\\geqslant0$，有 $\\sqrt{a^{2}+b^{2}}=a+b$，即 $\\varphi(a,b)=0$. 反之，若 $\\varphi(a,b)=0$，则同样有 $\\sqrt{a^{2}+b^{2}}=a+b$，两边平方得 $a^{2}+b^{2}=a^{2}+2ab+b^{2}$，所以 $ab=0$. 因此该条件是充要条件，选 C."
         },
         {
           "num": 10,
-          "body": "放射性元素由于不断有原子放射出微粒子而变成其他元素，其含量不断减少，这种现象称为衰变. 假设在放射性同位素铯 137 的衰变过程中，其含量 $M$（单位：太贝克）与时间 $t$（单位：年）满足函数关系：$M(t)=M_0 2^{-\\frac{t}{30}}$，其中 $M_0$ 为 $t=0$ 时铯 137 的含量. 已知 $t=30$ 时，铯 137 含量的变化率是 $-10\\ln2$（太贝克/年），则 $M(60)=$（ ）",
+          "body": "放射性元素由于不断有原子放射出微粒子而变成其他元素，其含量不断减少，这种现象称为衰变. 假设在放射性同位素铯 137 的衰变过程中，其含量 $M$（单位：太贝克）与时间 $t$（单位：年）满足函数关系：$M(t)=M_{0} 2^{-\\frac{t}{30}}$，其中 $M_{0}$ 为 $t=0$ 时铯 137 的含量. 已知 $t=30$ 时，铯 137 含量的变化率是 $-10\\ln2$（太贝克/年），则 $M(60)=$（ ）",
           "choices": [
             "$5\\text{ 太贝克}$",
             "$75\\ln2\\text{ 太贝克}$",
@@ -272,9 +125,7 @@
             "$150\\text{ 太贝克}$"
           ],
           "answer": "D",
-          "solution": "由 $M(t)=M_0 2^{-\\frac{t}{30}}$，得 $M'(t)=-\\dfrac{\\ln2}{30}M_0 2^{-\\frac{t}{30}}$. 代入 $t=30$ 及 $M'(30)=-10\\ln2$，得 $-\\dfrac{\\ln2}{60}M_0=-10\\ln2$，所以 $M_0=600$. 因此 $M(60)=600\\cdot2^{-2}=150$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $M(t)=M_{0} 2^{-\\frac{t}{30}}$，得 $M'(t)=-\\dfrac{\\ln2}{30}M_{0} 2^{-\\frac{t}{30}}$. 代入 $t=30$ 及 $M'(30)=-10\\ln2$，得 $-\\dfrac{\\ln2}{60}M_{0}=-10\\ln2$，所以 $M_{0}=600$. 因此 $M(60)=600\\cdot2^{-2}=150$，故选 D."
         }
       ]
     },
@@ -283,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "$\\left(x-\\dfrac{1}{3\\sqrt{x}}\\right)^{18}$ 的展开式中含 $x^{15}$ 的项的系数为 _______ {}.（结果用数值表示）",
-          "choices": [],
-          "answer": "\\(17\\)",
-          "solution": "展开时取第二项 $\\dfrac{1}{3\\sqrt{x}}$ 共 $k$ 次，所得项的幂为 $x^{18-k}x^{-\\frac{k}{2}}=x^{18-3\\frac{k}{2}}$. 令 $18-\\dfrac{3k}{2}=15$，得 $k=2$. 故所求系数为 $\\mathrm C_{18}^{2}\\left(-\\dfrac{1}{3}\\right)^2=\\dfrac{18\\times17}{2\\times9}=17$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\left(x-\\dfrac{1}{3\\sqrt{x}}\\right)^{18}$ 的展开式中含 $x^{15}$ 的项的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（结果用数值表示）",
+          "choices": null,
+          "answer": "$17$",
+          "solution": "展开时取第二项 $\\dfrac{1}{3\\sqrt{x}}$ 共 $k$ 次，所得项的幂为 $x^{18-k}x^{-\\frac{k}{2}}=x^{18-3\\frac{k}{2}}$. 令 $18-\\dfrac{3k}{2}=15$，得 $k=2$. 故所求系数为 $\\mathrm{C}_{18}^{2}\\left(-\\dfrac{1}{3}\\right)^{2}=\\dfrac{18\\times17}{2\\times9}=17$."
         },
         {
           "num": 12,
-          "body": "在 $30$ 瓶饮料中，有 $3$ 瓶已过了保质期. 从这 $30$ 瓶饮料中任取 $2$ 瓶，则至少取到 $1$ 瓶已过保质期饮料的概率为 _______ {}.（结果用最简分数表示）",
-          "choices": [],
-          "answer": "\\(\\dfrac{28}{145}\\)",
-          "solution": "从全部 $\\mathrm C_{30}^{2}$ 种取法中，取到至少一瓶过期饮料的情形可用对立事件计算. 两瓶均未过期的取法有 $\\mathrm C_{27}^{2}$ 种，因此所求概率为 $1-\\dfrac{\\mathrm C_{27}^{2}}{\\mathrm C_{30}^{2}}=1-\\dfrac{351}{435}=\\dfrac{84}{435}=\\dfrac{28}{145}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $30$ 瓶饮料中，有 $3$ 瓶已过了保质期. 从这 $30$ 瓶饮料中任取 $2$ 瓶，则至少取到 $1$ 瓶已过保质期饮料的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（结果用最简分数表示）",
+          "choices": null,
+          "answer": "$\\dfrac{28}{145}$",
+          "solution": "从全部 $\\mathrm{C}_{30}^{2}$ 种取法中，取到至少一瓶过期饮料的情形可用对立事件计算. 两瓶均未过期的取法有 $\\mathrm{C}_{27}^{2}$ 种，因此所求概率为 $1-\\dfrac{\\mathrm{C}_{27}^{2}}{\\mathrm{C}_{30}^{2}}=1-\\dfrac{351}{435}=\\dfrac{84}{435}=\\dfrac{28}{145}$."
         },
         {
           "num": 13,
-          "body": "《九章算术》“竹九节”问题：现有一根 $9$ 节的竹子，自上而下各节的容积成等差数列，上面 $4$ 节的容积共 $3\\text{ 升}$，下面 $3$ 节的容积共 $4\\text{ 升}$，则第 $5$ 节的容积为 _______ {}$\\text{升}$.",
-          "choices": [],
-          "answer": "\\(\\dfrac{67}{66}\\)",
-          "solution": "设第 $1$ 节容积为 $a$，公差为 $d$. 由前 $4$ 节和后 $3$ 节的和分别为 $3$、$4$，得 $4a+6d=3$ 及 $3a+21d=4$. 两式相减得 $a-15d=-1$，即 $a=15d-1$. 代入第一式，得 $4(15d-1)+6d=3$，所以 $d=\\dfrac{7}{66}$，进而 $a=\\dfrac{13}{22}$. 因此第 $5$ 节容积为 $a+4d=\\dfrac{13}{22}+\\dfrac{28}{66}=\\dfrac{67}{66}\\text{ 升}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "《九章算术》“竹九节”问题：现有一根 $9$ 节的竹子，自上而下各节的容积成等差数列，上面 $4$ 节的容积共 $3\\text{ 升}$，下面 $3$ 节的容积共 $4\\text{ 升}$，则第 $5$ 节的容积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{升}$.",
+          "choices": null,
+          "answer": "$\\dfrac{67}{66}$",
+          "solution": "设第 $1$ 节容积为 $a$，公差为 $d$. 由前 $4$ 节和后 $3$ 节的和分别为 $3$、$4$，得 $4a+6d=3$ 及 $3a+21d=4$. 两式相减得 $a-15d=-1$，即 $a=15d-1$. 代入第一式，得 $4(15d-1)+6d=3$，所以 $d=\\dfrac{7}{66}$，进而 $a=\\dfrac{13}{22}$. 因此第 $5$ 节容积为 $a+4d=\\dfrac{13}{22}+\\dfrac{28}{66}=\\dfrac{67}{66}\\text{ 升}$."
         },
         {
           "num": 14,
-          "body": "如图，直角坐标系 $xOy$ 所在的平面为 $\\alpha$，直角坐标系 $x'Oy'$（其中 $y'$ 轴与 $y$ 轴重合）所在的平面为 $\\beta$，$\\angle xOx'=45^\\circ$.\r\n\r\n\n(1) 已知平面 $\\beta$ 内有一点 $P'\\left(2\\sqrt{2},2\\right)$，则点 $P'$ 在平面 $\\alpha$ 内的射影 $P$ 的坐标为 _______ {}.\n\n(2) 已知平面 $\\beta$ 内的曲线 $C'$ 的方程是 $\\left(x'-\\sqrt{2}\\right)^2+2y'^2-2=0$，则曲线 $C'$ 在平面 $\\alpha$ 内的射影 $C$ 的方程是 _______ {}.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hubei_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\left(2,2\\right)\\)；\\(\\left(x-1\\right)^2+y^2=1\\)",
-          "solution": "由于两个坐标系的 $y$ 轴重合，且 $x'$ 轴与 $x$ 轴成 $45^\\circ$，所以平面 $\\beta$ 内点的坐标投影到平面 $\\alpha$ 后满足 $x=x'\\cos45^\\circ=\\dfrac{x'}{\\sqrt{2}}$，$y=y'$. 对 $P'$ 得 $x=2$、$y=2$，故 $P=\\left(2,2\\right)$. 对曲线方程代入 $x'=\\sqrt{2}x$、$y'=y$，得 $2(x-1)^2+2y^2-2=0$，化简为 $\\left(x-1\\right)^2+y^2=1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，直角坐标系 $xOy$ 所在的平面为 $\\alpha$，直角坐标系 $x'Oy'$（其中 $y'$ 轴与 $y$ 轴重合）所在的平面为 $\\beta$，$\\angle xOx'=45^{\\circ}$.</p><ol class=\"enumerate\"><li><p>已知平面 $\\beta$ 内有一点 $P'\\left(2\\sqrt{2},2\\right)$，则点 $P'$ 在平面 $\\alpha$ 内的射影 $P$ 的坐标为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li><li><p>已知平面 $\\beta$ 内的曲线 $C'$ 的方程是 $\\left(x'-\\sqrt{2}\\right)^{2}+2y'^{2}-2=0$，则曲线 $C'$ 在平面 $\\alpha$ 内的射影 $C$ 的方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\left(2,2\\right)$；$\\left(x-1\\right)^{2}+y^{2}=1$",
+          "solution": "由于两个坐标系的 $y$ 轴重合，且 $x'$ 轴与 $x$ 轴成 $45^{\\circ}$，所以平面 $\\beta$ 内点的坐标投影到平面 $\\alpha$ 后满足 $x=x'\\cos45^{\\circ}=\\dfrac{x'}{\\sqrt{2}}$，$y=y'$. 对 $P'$ 得 $x=2$、$y=2$，故 $P=\\left(2,2\\right)$. 对曲线方程代入 $x'=\\sqrt{2}x$、$y'=y$，得 $2(x-1)^{2}+2y^{2}-2=0$，化简为 $\\left(x-1\\right)^{2}+y^{2}=1$."
         },
         {
           "num": 15,
-          "body": "给 $n$ 个自上而下相连的正方形着黑色或白色. 当 $n\\leqslant4$ 时，在所有不同的着色方案中，黑色正方形互不相邻的着色方案如图所示：\r\n\r\n由此推断，当 $n=6$ 时，黑色正方形互不相邻的着色方案共有 _______ {} 种，至少有两个黑色正方形相邻的着色方案共有 _______ {} 种.（结果用数值表示）\r\n{\\problemresetlayout\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hubei_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n}",
-          "choices": [],
-          "answer": "\\(21\\)，\\(43\\)",
-          "solution": "设 $a_n$ 表示 $n$ 个正方形中黑色正方形互不相邻的着色方案数. 按最下面一个正方形的颜色分类：若它为白色，有 $a_{n-1}$ 种；若它为黑色，则倒数第二个必须为白色，有 $a_{n-2}$ 种. 因此当 $n\\geqslant3$ 时，$a_n=a_{n-1}+a_{n-2}$. 由图得 $a_1=2$、$a_2=3$，所以 $a_3=5$、$a_4=8$、$a_5=13$、$a_6=21$. 全部着色方案共有 $2^6=64$ 种，至少有两个黑色正方形相邻的方案数为 $64-21=43$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>给 $n$ 个自上而下相连的正方形着黑色或白色. 当 $n\\leqslant4$ 时，在所有不同的着色方案中，黑色正方形互不相邻的着色方案如图所示：</p><p>由此推断，当 $n=6$ 时，黑色正方形互不相邻的着色方案共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种，至少有两个黑色正方形相邻的着色方案共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种.（结果用数值表示）</p><p><span class=\"macro macro-problemresetlayout\"></span> <div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div> </p>",
+          "choices": null,
+          "answer": "$21$，$43$",
+          "solution": "设 $a_{n}$ 表示 $n$ 个正方形中黑色正方形互不相邻的着色方案数. 按最下面一个正方形的颜色分类：若它为白色，有 $a_{n-1}$ 种；若它为黑色，则倒数第二个必须为白色，有 $a_{n-2}$ 种. 因此当 $n\\geqslant3$ 时，$a_{n}=a_{n-1}+a_{n-2}$. 由图得 $a_{1}=2$、$a_{2}=3$，所以 $a_{3}=5$、$a_{4}=8$、$a_{5}=13$、$a_{6}=21$. 全部着色方案共有 $2^{6}=64$ 种，至少有两个黑色正方形相邻的方案数为 $64-21=43$."
         }
       ]
     },
@@ -333,60 +174,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a=1$，$b=2$，$\\cos C=\\dfrac{1}{4}$.\r\n\n(1) 求 $\\triangle ABC$ 的周长；\n\n(2) 求 $\\cos(A-C)$ 的值.",
-          "choices": [],
+          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对的边分别为 $a$，$b$，$c$. 已知 $a=1$，$b=2$，$\\cos C=\\dfrac{1}{4}$.</p><ol class=\"enumerate\"><li><p>求 $\\triangle ABC$ 的周长；</p></li><li><p>求 $\\cos(A-C)$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由余弦定理，$\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}$，所以 $\\dfrac{1+4-c^2}{4}=\\dfrac{1}{4}$，得 $c^2=4$. 因边长为正，$c=2$，故三角形周长为 $a+b+c=1+2+2=5$.\n\n(2) 由余弦定理，$\\cos A=\\dfrac{b^2+c^2-a^2}{2bc}=\\dfrac{4+4-1}{8}=\\dfrac{7}{8}$. 因 $A$、$C$ 是三角形内角，$\\sin A=\\dfrac{\\sqrt{15}}{8}$，$\\sin C=\\dfrac{\\sqrt{15}}{4}$. 因此 $\\cos(A-C)=\\cos A\\cos C+\\sin A\\sin C=\\dfrac{7}{32}+\\dfrac{15}{32}=\\dfrac{11}{16}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由余弦定理，$\\cos C=\\dfrac{a^2+b^2-c^2}{2ab}$，所以 $\\dfrac{1+4-c^2}{4}=\\dfrac{1}{4}$，得 $c^{2}=4$. 因边长为正，$c=2$，故三角形周长为 $a+b+c=1+2+2=5$.</p></li><li><p>由余弦定理，$\\cos A=\\dfrac{b^2+c^2-a^2}{2bc}=\\dfrac{4+4-1}{8}=\\dfrac{7}{8}$. 因 $A$、$C$ 是三角形内角，$\\sin A=\\dfrac{\\sqrt{15}}{8}$，$\\sin C=\\dfrac{\\sqrt{15}}{4}$. 因此 $\\cos(A-C)=\\cos A\\cos C+\\sin A\\sin C=\\dfrac{7}{32}+\\dfrac{15}{32}=\\dfrac{11}{16}$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "提高过江大桥的车辆通行能力可改善整个城市的交通状况. 在一般情况下，大桥上的车流速度 $v$（单位：千米/小时）是车流密度 $x$（单位：辆/千米）的函数. 当桥上的车流密度达到 $200\\text{ 辆/千米}$ 时，造成堵塞，此时车流速度为 $0$；当车流密度不超过 $20\\text{ 辆/千米}$ 时，车流速度为 $60\\text{ 千米/小时}$；研究表明：当 $20\\le x\\leqslant200$ 时，车流速度 $v$ 是车流密度 $x$ 的一次函数.\r\n\n(1) 当 $0\\le x\\leqslant200$ 时，求函数 $v(x)$ 的表达式；\n\n(2) 当车流密度 $x$ 为多大时，车流量（单位时间内通过桥上某观测点的车辆数，单位：辆/小时）$f(x)=x\\cdot v(x)$ 可以达到最大，并求出最大值.（精确到 $1\\text{ 辆/小时}$）",
-          "choices": [],
+          "body": "<p>提高过江大桥的车辆通行能力可改善整个城市的交通状况. 在一般情况下，大桥上的车流速度 $v$（单位：千米/小时）是车流密度 $x$（单位：辆/千米）的函数. 当桥上的车流密度达到 $200\\text{ 辆/千米}$ 时，造成堵塞，此时车流速度为 $0$；当车流密度不超过 $20\\text{ 辆/千米}$ 时，车流速度为 $60\\text{ 千米/小时}$；研究表明：当 $20\\le x\\leqslant200$ 时，车流速度 $v$ 是车流密度 $x$ 的一次函数.</p><ol class=\"enumerate\"><li><p>当 $0\\le x\\leqslant200$ 时，求函数 $v(x)$ 的表达式；</p></li><li><p>当车流密度 $x$ 为多大时，车流量（单位时间内通过桥上某观测点的车辆数，单位：辆/小时）$f(x)=x\\cdot v(x)$ 可以达到最大，并求出最大值.（精确到 $1\\text{ 辆/小时}$）</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $0\\le x\\leqslant20$ 时，$v(x)=60$. 当 $20\\le x\\leqslant200$ 时，直线经过 $(20,60)$ 和 $(200,0)$，斜率为 $\\dfrac{0-60}{200-20}=-\\dfrac{1}{3}$，故 $v(x)=60-\\dfrac{1}{3}(x-20)=\\dfrac{200-x}{3}$. 因此\r\n\n$$\nv(x)=\\begin{cases}\r\n60,&0\\le x\\leqslant20,\\\\[2pt]\r\n\\dfrac{200-x}{3},&20<x\\leqslant200.\r\n\\end{cases}\n$$\n\n(2) 当 $0\\le x\\leqslant20$ 时，$f(x)=60x$，且 $f'(x)=60>0$，所以其最大值为 $1200$. 当 $20<x\\leqslant200$ 时，$f(x)=\\dfrac{x(200-x)}{3}=\\dfrac{10000-(x-100)^2}{3}$，所以在 $x=100$ 时取得最大值 $\\dfrac{10000}{3}$. 比较 $\\dfrac{10000}{3}>1200$，故车流密度为 $100\\text{ 辆/千米}$ 时车流量最大；按题意精确到 $1$ 辆/小时，车流量最大值为 $3333\\text{ 辆/小时}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $0\\le x\\leqslant20$ 时，$v(x)=60$. 当 $20\\le x\\leqslant200$ 时，直线经过 $(20,60)$ 和 $(200,0)$，斜率为 $\\dfrac{0-60}{200-20}=-\\dfrac{1}{3}$，故 $v(x)=60-\\dfrac{1}{3}(x-20)=\\dfrac{200-x}{3}$. 因此</p>\n$$\nv(x)=\\begin{cases}60,&#x26;0\\le x\\leqslant20,\\\\[2pt]  \\dfrac{200-x}{3},&#x26;20&#x3C;x\\leqslant200.\\end{cases}\n$$\n</li><li><p>当 $0\\le x\\leqslant20$ 时，$f(x)=60x$，且 $f'(x)=60>0$，所以其最大值为 $1200$. 当 $20&#x3C;x\\leqslant200$ 时，$f(x)=\\dfrac{x(200-x)}{3}=\\dfrac{10000-(x-100)^2}{3}$，所以在 $x=100$ 时取得最大值 $\\dfrac{10000}{3}$. 比较 $\\dfrac{10000}{3}>1200$，故车流密度为 $100\\text{ 辆/千米}$ 时车流量最大；按题意精确到 $1$ 辆/小时，车流量最大值为 $3333\\text{ 辆/小时}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，已知正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 的各棱长都是 $4$，$E$ 是 $BC$ 的中点，动点 $F$ 在侧棱 $CC_{1}$ 上，且不与点 $C$ 重合.\r\n\n(1) 当 $CF=1$ 时，求证：$EF\\perp A_{1}C$；\n\n(2) 设二面角 $C-AF-E$ 的大小为 $\\theta$，求 $\\tan\\theta$ 的最小值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2011/img/hubei_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，已知正三棱柱 $ABC-A_{1}B_{1}C_{1}$ 的各棱长都是 $4$，$E$ 是 $BC$ 的中点，动点 $F$ 在侧棱 $CC_{1}$ 上，且不与点 $C$ 重合.</p><ol class=\"enumerate\"><li><p>当 $CF=1$ 时，求证：$EF\\perp A_{1}C$；</p></li><li><p>设二面角 $C-AF-E$ 的大小为 $\\theta$，求 $\\tan\\theta$ 的最小值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/hubei_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立空间直角坐标系，取 $A=(0,0,0)$，$B=(4,0,0)$，$C=(2,2\\sqrt{3},0)$，并令竖直方向为 $z$ 轴，则 $A_{1}=(0,0,4)$，$C_{1}=(2,2\\sqrt{3},4)$，$E=(3,\\sqrt{3},0)$. 设 $CF=t$，则 $0<t\\leqslant4$，且 $F=(2,2\\sqrt{3},t)$.\r\n\n(1) 当 $t=1$ 时，$\\overrightarrow{EF}=(-1,\\sqrt{3},1)$，$\\overrightarrow{A_{1}C}=(2,2\\sqrt{3},-4)$. 于是 $\\overrightarrow{EF}\\cdot\\overrightarrow{A_{1}C}=-2+6-4=0$，所以 $EF\\perp A_{1}C$.\n\n(2) 由 $\\overrightarrow{AC}=(2,2\\sqrt{3},0)$，$\\overrightarrow{AF}=(2,2\\sqrt{3},t)$，$\\overrightarrow{AE}=(3,\\sqrt{3},0)$，有\r\n\n$$\n\\overrightarrow{AC}\\times\\overrightarrow{AF}=2t\\left(\\sqrt{3},-1,0\\right)\n$$\n\r\n\n$$\n\\overrightarrow{AE}\\times\\overrightarrow{AF}=\\left(\\sqrt{3}t,-3t,4\\sqrt{3}\\right)\n$$\n\r\n因此可取平面 $ACF$ 和平面 $AEF$ 的法向量\r\n$\\mathbf{n}_1=\\left(\\sqrt{3},-1,0\\right)$，$\\mathbf{n}_2=\\left(\\sqrt{3}t,-3t,4\\sqrt{3}\\right)$.\r\n二面角取其锐角，故\r\n\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}_1\\times\\mathbf{n}_2|}{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}=\\frac{\\sqrt{t^2+16}}{\\sqrt{3}t}\n$$\n\r\n因此\r\n\n$$\n\\tan^2\\theta=\\frac{t^2+16}{3t^2}=\\frac{1}{3}+\\frac{16}{3t^2}\n$$\n\r\n由于 $0<t\\leqslant4$，上式随 $t$ 增大而减小，所以在 $t=4$，即 $F=C_{1}$ 时取得最小值，且 $\\tan\\theta=\\dfrac{\\sqrt{32}}{4\\sqrt{3}}=\\dfrac{\\sqrt{6}}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立空间直角坐标系，取 $A=(0,0,0)$，$B=(4,0,0)$，$C=(2,2\\sqrt{3},0)$，并令竖直方向为 $z$ 轴，则 $A_{1}=(0,0,4)$，$C_{1}=(2,2\\sqrt{3},4)$，$E=(3,\\sqrt{3},0)$. 设 $CF=t$，则 $0&#x3C;t\\leqslant4$，且 $F=(2,2\\sqrt{3},t)$.</p><ol class=\"enumerate\"><li><p>当 $t=1$ 时，$\\overrightarrow{EF}=(-1,\\sqrt{3},1)$，$\\overrightarrow{A_{1}C}=(2,2\\sqrt{3},-4)$. 于是 $\\overrightarrow{EF}\\cdot\\overrightarrow{A_{1}C}=-2+6-4=0$，所以 $EF\\perp A_{1}C$.</p></li><li><p>由 $\\overrightarrow{AC}=(2,2\\sqrt{3},0)$，$\\overrightarrow{AF}=(2,2\\sqrt{3},t)$，$\\overrightarrow{AE}=(3,\\sqrt{3},0)$，有</p>\n$$\n\\overrightarrow{AC}\\times\\overrightarrow{AF}=2t\\left(\\sqrt{3},-1,0\\right)\n$$\n\n$$\n\\overrightarrow{AE}\\times\\overrightarrow{AF}=\\left(\\sqrt{3}t,-3t,4\\sqrt{3}\\right)\n$$\n<p>因此可取平面 $ACF$ 和平面 $AEF$ 的法向量</p><p>$\\mathbf{n}_{1}=\\left(\\sqrt{3},-1,0\\right)$，$\\mathbf{n}_{2}=\\left(\\sqrt{3}t,-3t,4\\sqrt{3}\\right)$.</p><p>二面角取其锐角，故</p>\n$$\n\\tan\\theta=\\frac{|\\mathbf{n}_{1}\\times\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}=\\frac{\\sqrt{t^{2}+16}}{\\sqrt{3}t}\n$$\n<p>因此</p>\n$$\n\\tan^{2}\\theta=\\frac{t^{2}+16}{3t^{2}}=\\frac{1}{3}+\\frac{16}{3t^{2}}\n$$\n<p>由于 $0&#x3C;t\\leqslant4$，上式随 $t$ 增大而减小，所以在 $t=4$，即 $F=C_{1}$ 时取得最小值，且 $\\tan\\theta=\\dfrac{\\sqrt{32}}{4\\sqrt{3}}=\\dfrac{\\sqrt{6}}{3}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知数列 $\\{a_n\\}$ 的前 $n$ 项和为 $S_n$，且满足 $a_1=a$，$a\\neq0$，$a_{n+1}=rS_n$，$n\\in\\mathbb{N}^*$，$r\\in\\mathbb{R}$，$r\\neq-1$.\r\n\n(1) 求数列 $\\{a_n\\}$ 的通项公式；\n\n(2) 若存在 $k\\in\\mathbb{N}^*$，使得 $S_{k+1}$，$S_k$，$S_{k+2}$ 成等差数列，试判断：对于任意的 $m\\in\\mathbb{N}^*$，且 $m\\geqslant2$，$a_{m+1}$，$a_m$，$a_{m+2}$ 是否成等差数列，并证明你的结论.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，且满足 $a_{1}=a$，$a\\neq0$，$a_{n+1}=rS_{n}$，$n\\in\\mathbb{N}^{*}$，$r\\in\\mathbb{R}$，$r\\neq-1$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若存在 $k\\in\\mathbb{N}^{*}$，使得 $S_{k+1}$，$S_{k}$，$S_{k+2}$ 成等差数列，试判断：对于任意的 $m\\in\\mathbb{N}^{*}$，且 $m\\geqslant2$，$a_{m+1}$，$a_{m}$，$a_{m+2}$ 是否成等差数列，并证明你的结论.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $a_{n+1}=rS_n$ 得 $a_{n+2}=rS_{n+1}=r(S_n+a_{n+1})=(1+r)a_{n+1}$. 又 $a_2=ra$. 当 $r=0$ 时，$a_1=a$，且 $a_n=0$（$n\\geqslant2$）. 当 $r\\neq0$ 时，递推关系给出 $a_n=ar(1+r)^{n-2}$（$n\\geqslant2$）.\n\n(2) 由等差数列条件，$2S_k=S_{k+1}+S_{k+2}$. 利用 $S_{k+1}=S_k+a_{k+1}$ 和 $S_{k+2}=S_k+a_{k+1}+a_{k+2}$，得 $a_{k+2}=-2a_{k+1}$. 若 $r=0$，则对任意 $m\\geqslant2$，$a_m=a_{m+1}=a_{m+2}=0$，结论成立. 若 $r\\neq0$，则由第一问及 $a\\neq0$、$r\\neq-1$ 可知 $a_{k+1}\\neq0$，且 $a_{k+2}=(1+r)a_{k+1}$，所以 $1+r=-2$，即 $r=-3$. 于是对任意 $m\\geqslant2$，有 $a_{m+1}=-2a_m$、$a_{m+2}=-2a_{m+1}=4a_m$，从而 $a_{m+1}+a_{m+2}=2a_m$. 因此 $a_{m+1}$，$a_m$，$a_{m+2}$ 对任意 $m\\geqslant2$ 均成等差数列.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $a_{n+1}=rS_{n}$ 得 $a_{n+2}=rS_{n+1}=r(S_{n}+a_{n+1})=(1+r)a_{n+1}$. 又 $a_{2}=ra$. 当 $r=0$ 时，$a_{1}=a$，且 $a_{n}=0$（$n\\geqslant2$）. 当 $r\\neq0$ 时，递推关系给出 $a_{n}=ar(1+r)^{n-2}$（$n\\geqslant2$）.</p></li><li><p>由等差数列条件，$2S_{k}=S_{k+1}+S_{k+2}$. 利用 $S_{k+1}=S_{k}+a_{k+1}$ 和 $S_{k+2}=S_{k}+a_{k+1}+a_{k+2}$，得 $a_{k+2}=-2a_{k+1}$. 若 $r=0$，则对任意 $m\\geqslant2$，$a_{m}=a_{m+1}=a_{m+2}=0$，结论成立. 若 $r\\neq0$，则由第一问及 $a\\neq0$、$r\\neq-1$ 可知 $a_{k+1}\\neq0$，且 $a_{k+2}=(1+r)a_{k+1}$，所以 $1+r=-2$，即 $r=-3$. 于是对任意 $m\\geqslant2$，有 $a_{m+1}=-2a_{m}$、$a_{m+2}=-2a_{m+1}=4a_{m}$，从而 $a_{m+1}+a_{m+2}=2a_{m}$. 因此 $a_{m+1}$，$a_{m}$，$a_{m+2}$ 对任意 $m\\geqslant2$ 均成等差数列.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "平面内与两定点 $A_{1}(-a,0)$，$A_{2}(a,0)$（$a>0$）连线的斜率之积等于非零常数 $m$ 的点的轨迹，加上 $A_{1}$，$A_{2}$ 两点所成的曲线 $C$ 可以是圆、椭圆或双曲线.\r\n\n(1) 求曲线 $C$ 的方程，并讨论 $C$ 的形状与 $m$ 值的关系；\n\n(2) 当 $m=-1$ 时，对应的曲线为 $C_1$；对给定的 $m\\in(-1,0)\\cup(0,+\\infty)$，对应的曲线为 $C_2$. 设 $F_1$，$F_2$ 是 $C_2$ 的两个焦点. 试问：在 $C_1$ 上，是否存在点 $N$，使得 $\\triangle F_1NF_2$ 的面积 $S=|m|a^2$？若存在，求 $\\tan\\angle F_1NF_2$ 的值；若不存在，请说明理由.",
-          "choices": [],
+          "body": "<p>平面内与两定点 $A_{1}(-a,0)$，$A_{2}(a,0)$（$a>0$）连线的斜率之积等于非零常数 $m$ 的点的轨迹，加上 $A_{1}$，$A_{2}$ 两点所成的曲线 $C$ 可以是圆、椭圆或双曲线.</p><ol class=\"enumerate\"><li><p>求曲线 $C$ 的方程，并讨论 $C$ 的形状与 $m$ 值的关系；</p></li><li><p>当 $m=-1$ 时，对应的曲线为 $C_{1}$；对给定的 $m\\in(-1,0)\\cup(0,+\\infty)$，对应的曲线为 $C_{2}$. 设 $F_{1}$，$F_{2}$ 是 $C_{2}$ 的两个焦点. 试问：在 $C_{1}$ 上，是否存在点 $N$，使得 $\\triangle F_{1}NF_{2}$ 的面积 $S=|m|a^{2}$？若存在，求 $\\tan\\angle F_{1}NF_{2}$ 的值；若不存在，请说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设轨迹上的一般点为 $M(x,y)$，当 $x\\neq\\pm a$ 时，两条连线的斜率乘积为 $\\dfrac{y}{x+a}\\cdot\\dfrac{y}{x-a}=\\dfrac{y^2}{x^2-a^2}=m$，所以 $mx^2-y^2=ma^2$. 两定点 $A_1$、$A_2$ 也满足该方程，故曲线 $C$ 的方程为 $mx^2-y^2=ma^2$. 当 $m<-1$ 时，方程化为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{(-m)a^2}=1$，是焦点在 $y$ 轴上的椭圆；当 $m=-1$ 时，方程为 $x^2+y^2=a^2$，是圆；当 $-1<m<0$ 时，方程化为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{(-m)a^2}=1$，是焦点在 $x$ 轴上的椭圆；当 $m>0$ 时，方程化为 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{ma^2}=1$，是焦点在 $x$ 轴上的双曲线.\n\n(2) 由第一问，$C_1$ 为圆 $x^2+y^2=a^2$. 无论 $-1<m<0$ 还是 $m>0$，曲线 $C_2$ 的焦点均为 $F_1\\left(-a\\sqrt{1+m},0\\right)$、$F_2\\left(a\\sqrt{1+m},0\\right)$. 设 $N=(x,y)\\in C_1$，则\r\n\n$$\nS=\\frac{1}{2}|F_1F_2||y|=a\\sqrt{1+m}|y|\n$$\n\r\n由 $S=|m|a^2$，得 $|y|=\\dfrac{|m|a}{\\sqrt{1+m}}$. 在圆 $C_1$ 上存在这样的点的充要条件是 $|y|\\le a$，即 $|m|\\le\\sqrt{1+m}$. 当 $-1<m<0$ 时，$|m|=-m$，于是 $m^2\\leqslant1+m$，即 $m^2-m-1\\leqslant0$，结合该区间得 $m\\in\\left[\\dfrac{1-\\sqrt{5}}{2},0\\right)$. 当 $m>0$ 时，同样由 $m^2-m-1\\leqslant0$，并结合该区间得 $m\\in\\left(0,\\dfrac{1+\\sqrt{5}}{2}\\right]$. 所以存在条件为 $m\\in\\left[\\dfrac{1-\\sqrt{5}}{2},0\\right)\\cup\\left(0,\\dfrac{1+\\sqrt{5}}{2}\\right]$.\r\n\r\n当存在时，令 $\\mathbf{u}=\\overrightarrow{NF_1}$、$\\mathbf{v}=\\overrightarrow{NF_2}$. 由 $N\\in C_1$ 得 $\\mathbf{u}\\cdot\\mathbf{v}=a^2-a^2(1+m)=-ma^2$，又 $|\\mathbf{u}\\times\\mathbf{v}|=2a\\sqrt{1+m}|y|=2|m|a^2$. 因此\r\n\n$$\n\\tan\\angle F_1NF_2=\\frac{|\\mathbf{u}\\times\\mathbf{v}|}{\\mathbf{u}\\cdot\\mathbf{v}}=-\\frac{2|m|}{m}\n$$\n\r\n所以当 $m\\in\\left[\\dfrac{1-\\sqrt{5}}{2},0\\right)$ 时，$\\tan\\angle F_1NF_2=2$；当 $m\\in\\left(0,\\dfrac{1+\\sqrt{5}}{2}\\right]$ 时，$\\tan\\angle F_1NF_2=-2$. 其余给定的 $m$ 不存在满足条件的点 $N$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设轨迹上的一般点为 $M(x,y)$，当 $x\\neq\\pm a$ 时，两条连线的斜率乘积为 $\\dfrac{y}{x+a}\\cdot\\dfrac{y}{x-a}=\\dfrac{y^2}{x^2-a^2}=m$，所以 $mx^{2}-y^{2}=ma^{2}$. 两定点 $A_{1}$、$A_{2}$ 也满足该方程，故曲线 $C$ 的方程为 $mx^{2}-y^{2}=ma^{2}$. 当 $m&#x3C;-1$ 时，方程化为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{(-m)a^2}=1$，是焦点在 $y$ 轴上的椭圆；当 $m=-1$ 时，方程为 $x^{2}+y^{2}=a^{2}$，是圆；当 $-1&#x3C;m&#x3C;0$ 时，方程化为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{(-m)a^2}=1$，是焦点在 $x$ 轴上的椭圆；当 $m>0$ 时，方程化为 $\\dfrac{x^2}{a^2}-\\dfrac{y^2}{ma^2}=1$，是焦点在 $x$ 轴上的双曲线.</p></li><li><p>由第一问，$C_{1}$ 为圆 $x^{2}+y^{2}=a^{2}$. 无论 $-1&#x3C;m&#x3C;0$ 还是 $m>0$，曲线 $C_{2}$ 的焦点均为 $F_{1}\\left(-a\\sqrt{1+m},0\\right)$、$F_{2}\\left(a\\sqrt{1+m},0\\right)$. 设 $N=(x,y)\\in C_{1}$，则</p>\n$$\nS=\\frac{1}{2}|F_{1}F_{2}||y|=a\\sqrt{1+m}|y|\n$$\n<p>由 $S=|m|a^{2}$，得 $|y|=\\dfrac{|m|a}{\\sqrt{1+m}}$. 在圆 $C_{1}$ 上存在这样的点的充要条件是 $|y|\\le a$，即 $|m|\\le\\sqrt{1+m}$. 当 $-1&#x3C;m&#x3C;0$ 时，$|m|=-m$，于是 $m^{2}\\leqslant1+m$，即 $m^{2}-m-1\\leqslant0$，结合该区间得 $m\\in\\left[\\dfrac{1-\\sqrt{5}}{2},0\\right)$. 当 $m>0$ 时，同样由 $m^{2}-m-1\\leqslant0$，并结合该区间得 $m\\in\\left(0,\\dfrac{1+\\sqrt{5}}{2}\\right]$. 所以存在条件为 $m\\in\\left[\\dfrac{1-\\sqrt{5}}{2},0\\right)\\cup\\left(0,\\dfrac{1+\\sqrt{5}}{2}\\right]$.</p><p>当存在时，令 $\\mathbf{u}=\\overrightarrow{NF_1}$、$\\mathbf{v}=\\overrightarrow{NF_2}$. 由 $N\\in C_{1}$ 得 $\\mathbf{u}\\cdot\\mathbf{v}=a^{2}-a^{2}(1+m)=-ma^{2}$，又 $|\\mathbf{u}\\times\\mathbf{v}|=2a\\sqrt{1+m}|y|=2|m|a^{2}$. 因此</p>\n$$\n\\tan\\angle F_{1}NF_{2}=\\frac{|\\mathbf{u}\\times\\mathbf{v}|}{\\mathbf{u}\\cdot\\mathbf{v}}=-\\frac{2|m|}{m}\n$$\n<p>所以当 $m\\in\\left[\\dfrac{1-\\sqrt{5}}{2},0\\right)$ 时，$\\tan\\angle F_{1}NF_{2}=2$；当 $m\\in\\left(0,\\dfrac{1+\\sqrt{5}}{2}\\right]$ 时，$\\tan\\angle F_{1}NF_{2}=-2$. 其余给定的 $m$ 不存在满足条件的点 $N$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "(1) 已知函数 $f(x)=\\ln x-x+1$，$x\\in(0,+\\infty)$，求函数 $f(x)$ 的最大值.\n\n(2) 设 $a_k$，$b_k$（$k=1$，$2$，$\\dots$，$n$）均为正数，证明：\r\n\r\n\\begin{circlelist}\n\n(3) 若 $a_1b_1+a_2b_2+\\dots+a_nb_n\\le b_1+b_2+\\dots+b_n$，则 $a_1^{b_1}a_2^{b_2}\\cdots a_n^{b_n}\\leqslant1$；\n\n(4) 若 $b_1+b_2+\\dots+b_n=1$，则 $\\dfrac{1}{n}\\le b_1^{b_1}b_2^{b_2}\\cdots b_n^{b_n}\\le b_1^2+b_2^2+\\dots+b_n^2$.\r\n\\end{circlelist}",
-          "choices": [],
+          "body": "<ol class=\"enumerate\"><li><p>已知函数 $f(x)=\\ln x-x+1$，$x\\in(0,+\\infty)$，求函数 $f(x)$ 的最大值.</p></li><li><p>设 $a_{k}$，$b_{k}$（$k=1$，$2$，$\\dots$，$n$）均为正数，证明：</p><p></p><ol class=\"enumerate\"><li><p>若 $a_{1}b_{1}+a_{2}b_{2}+\\dots+a_{n}b_{n}\\le b_{1}+b_{2}+\\dots+b_{n}$，则 $a_{1}^{b_1}a_{2}^{b_2}\\cdots a_{n}^{b_n}\\leqslant1$；</p></li><li><p>若 $b_{1}+b_{2}+\\dots+b_{n}=1$，则 $\\dfrac{1}{n}\\le b_{1}^{b_1}b_{2}^{b_2}\\cdots b_{n}^{b_n}\\le b_{1}^{2}+b_{2}^{2}+\\dots+b_{n}^{2}$.</p></li></ol><p></p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $f'(x)=\\dfrac{1}{x}-1=\\dfrac{1-x}{x}$，所以 $f'(x)>0$ 在 $(0,1)$ 上成立，$f'(1)=0$，且 $f'(x)<0$ 在 $(1,+\\infty)$ 上成立. 因此 $f(x)$ 在 $(0,1)$ 上递增、在 $(1,+\\infty)$ 上递减，最大值在 $x=1$ 处取得，且 $f(1)=0$.\n\n(2) 由第一问，对任意正数 $u$，都有 $\\ln u-u+1\\leqslant0$，即 $\\ln u\\le u-1$.\r\n\\begin{enumerate}\n\n(3) 将 $u=a_k$ 代入并乘以正数 $b_k$，再求和，得 $\\sum_{k=1}^{n}b_k\\ln a_k\\le\\sum_{k=1}^{n}a_kb_k-\\sum_{k=1}^{n}b_k\\leqslant0$. 两边取指数，得 $a_1^{b_1}a_2^{b_2}\\cdots a_n^{b_n}\\leqslant1$.\n\n(4) 记 $B=b_1^{b_1}b_2^{b_2}\\cdots b_n^{b_n}$，$s=b_1^2+b_2^2+\\dots+b_n^2$. 先取 $a_k=\\dfrac{1}{nb_k}$，则 $\\sum_{k=1}^{n}a_kb_k=1=\\sum_{k=1}^{n}b_k$，由上一结论得 $\\prod_{k=1}^{n}\\left(\\dfrac{1}{nb_k}\\right)^{b_k}\\leqslant1$，即 $\\dfrac{1}{nB}\\leqslant1$，所以 $B\\ge\\dfrac{1}{n}$. 再取 $a_k=\\dfrac{b_k}{s}$，则 $\\sum_{k=1}^{n}a_kb_k=1=\\sum_{k=1}^{n}b_k$，由上一结论得 $\\prod_{k=1}^{n}\\left(\\dfrac{b_k}{s}\\right)^{b_k}\\leqslant1$. 由于 $\\sum_{k=1}^{n}b_k=1$，故 $\\dfrac{B}{s}\\leqslant1$，即 $B\\le s=b_1^2+b_2^2+\\dots+b_n^2$.\n\r\n\\end{enumerate}",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $f'(x)=\\dfrac{1}{x}-1=\\dfrac{1-x}{x}$，所以 $f'(x)>0$ 在 $(0,1)$ 上成立，$f'(1)=0$，且 $f'(x)&#x3C;0$ 在 $(1,+\\infty)$ 上成立. 因此 $f(x)$ 在 $(0,1)$ 上递增、在 $(1,+\\infty)$ 上递减，最大值在 $x=1$ 处取得，且 $f(1)=0$.</p></li><li><p>由第一问，对任意正数 $u$，都有 $\\ln u-u+1\\leqslant0$，即 $\\ln u\\le u-1$.</p><p></p><ol class=\"enumerate\"><li><p>将 $u=a_{k}$ 代入并乘以正数 $b_{k}$，再求和，得 $\\sum_{k=1}^{n}b_{k}\\ln a_{k}\\le\\sum_{k=1}^{n}a_{k}b_{k}-\\sum_{k=1}^{n}b_{k}\\leqslant0$. 两边取指数，得 $a_{1}^{b_1}a_{2}^{b_2}\\cdots a_{n}^{b_n}\\leqslant1$.</p></li><li><p>记 $B=b_{1}^{b_1}b_{2}^{b_2}\\cdots b_{n}^{b_n}$，$s=b_{1}^{2}+b_{2}^{2}+\\dots+b_{n}^{2}$. 先取 $a_{k}=\\dfrac{1}{nb_k}$，则 $\\sum_{k=1}^{n}a_{k}b_{k}=1=\\sum_{k=1}^{n}b_{k}$，由上一结论得 $\\prod_{k=1}^{n}\\left(\\dfrac{1}{nb_k}\\right)^{b_k}\\leqslant1$，即 $\\dfrac{1}{nB}\\leqslant1$，所以 $B\\ge\\dfrac{1}{n}$. 再取 $a_{k}=\\dfrac{b_k}{s}$，则 $\\sum_{k=1}^{n}a_{k}b_{k}=1=\\sum_{k=1}^{n}b_{k}$，由上一结论得 $\\prod_{k=1}^{n}\\left(\\dfrac{b_k}{s}\\right)^{b_k}\\leqslant1$. 由于 $\\sum_{k=1}^{n}b_{k}=1$，故 $\\dfrac{B}{s}\\leqslant1$，即 $B\\le s=b_{1}^{2}+b_{2}^{2}+\\dots+b_{n}^{2}$.</p></li></ol><p></p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

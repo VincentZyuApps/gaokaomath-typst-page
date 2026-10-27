@@ -1,164 +1,27 @@
 {
+  "title": "2022年普通高等学校招生全国统一考试",
+  "subtitle": "2022年新高考I卷",
   "year": "2022",
   "slug": "new_gaokao_paper_1",
-  "title": "2022年新高考I卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "多选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "多选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "多选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "多选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若集合 $M=\\{x\\mid \\sqrt{x}<4\\}$，$N=\\{x\\mid 3x\\ge 1\\}$，则 $M\\cap N=$（ ）",
+          "body": "若集合 $M=\\{x\\mid \\sqrt{x}&#x3C;4\\}$，$N=\\{x\\mid 3x\\ge 1\\}$，则 $M\\cap N=$（ ）",
           "choices": [
-            "$\\{x\\mid 0\\le x<2\\}$",
-            "$\\left\\{x\\mid \\frac13\\le x<2\\right\\}$",
-            "$\\{x\\mid 3\\le x<16\\}$",
-            "$\\left\\{x\\mid \\frac13\\le x<16\\right\\}$"
+            "$\\{x\\mid 0\\le x&#x3C;2\\}$",
+            "$\\left\\{x\\mid \\frac{1}{3}\\le x&#x3C;2\\right\\}$",
+            "$\\{x\\mid 3\\le x&#x3C;16\\}$",
+            "$\\left\\{x\\mid \\frac{1}{3}\\le x&#x3C;16\\right\\}$"
           ],
           "answer": "D",
-          "solution": "因为 $\\sqrt{x}$ 有意义要求 $x\\ge 0$，而 $\\sqrt{x}<4$ 两边均为非负数，平方得 $x<16$，所以 $M=\\left\\{x\\mid 0\\le x<16\\right\\}$. 由 $3x\\ge 1$ 得 $x\\ge \\frac13$，所以 $N=\\left\\{x\\mid x\\ge \\frac13\\right\\}$. 因此 $M\\cap N=\\left\\{x\\mid \\frac13\\le x<16\\right\\}$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $\\sqrt{x}$ 有意义要求 $x\\ge 0$，而 $\\sqrt{x}&#x3C;4$ 两边均为非负数，平方得 $x&#x3C;16$，所以 $M=\\left\\{x\\mid 0\\le x&#x3C;16\\right\\}$. 由 $3x\\ge 1$ 得 $x\\ge \\frac{1}{3}$，所以 $N=\\left\\{x\\mid x\\ge \\frac{1}{3}\\right\\}$. 因此 $M\\cap N=\\left\\{x\\mid \\frac{1}{3}\\le x&#x3C;16\\right\\}$. 故选 D."
         },
         {
           "num": 2,
-          "body": "若 $\\mathrm{i}(1-z)=1$，则 $z+\\overline{z}=$（ ）",
+          "body": "若 $\\mathrm{i}(1-z)=1$，则 $z+\\overline{z}=$（ ）",
           "choices": [
             "$-2$",
             "$-1$",
@@ -166,13 +29,11 @@
             "2"
           ],
           "answer": "D",
-          "solution": "因为 $\\mathrm{i}\\left(1-z\\right)=1$，所以 $1-z=\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，这里用到了 $\\mathrm{i}\\cdot \\left(-\\mathrm{i}\\right)=1$. 于是 $z=1+\\mathrm{i}$，$\\overline{z}=1-\\mathrm{i}$. 相加得 $z+\\overline{z}=2$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $\\mathrm{i}\\left(1-z\\right)=1$，所以 $1-z=\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，这里用到了 $\\mathrm{i}\\cdot \\left(-\\mathrm{i}\\right)=1$. 于是 $z=1+\\mathrm{i}$，$\\overline{z}=1-\\mathrm{i}$. 相加得 $z+\\overline{z}=2$. 故选 D."
         },
         {
           "num": 3,
-          "body": "在 $\\triangle ABC$ 中，点 $D$ 在边 $AB$ 上，$BD=2DA$. 记 $\\overrightarrow{CA}=\\mathbf{m}$，$\\overrightarrow{CD}=\\mathbf{n}$，则 $\\overrightarrow{CB}=$（ ）",
+          "body": "在 $\\triangle ABC$ 中，点 $D$ 在边 $AB$ 上，$BD=2DA$. 记 $\\overrightarrow{CA}=\\mathbf{m}$，$\\overrightarrow{CD}=\\mathbf{n}$，则 $\\overrightarrow{CB}=$（ ）",
           "choices": [
             "$3\\mathbf{m}-2\\mathbf{n}$",
             "$-2\\mathbf{m}+3\\mathbf{n}$",
@@ -180,69 +41,59 @@
             "$2\\mathbf{m}+3\\mathbf{n}$"
           ],
           "answer": "B",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/new_gaokao_paper_1/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n因为点 $D$ 在边 $AB$ 上且 $BD=2DA$，所以 $\\overrightarrow{AD}=\\frac13\\overrightarrow{AB}$. 于是 $\\mathbf{n}=\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}=\\mathbf{m}+\\frac13\\overrightarrow{AB}$. 又 $\\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}=\\overrightarrow{CB}-\\mathbf{m}$，代入得 $\\mathbf{n}=\\mathbf{m}+\\frac13\\left(\\overrightarrow{CB}-\\mathbf{m}\\right)=\\frac23\\mathbf{m}+\\frac13\\overrightarrow{CB}$. 两边乘以 $3$ 并移项得 $\\overrightarrow{CB}=3\\mathbf{n}-2\\mathbf{m}=-2\\mathbf{m}+3\\mathbf{n}$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_1/q3_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因为点 $D$ 在边 $AB$ 上且 $BD=2DA$，所以 $\\overrightarrow{AD}=\\frac{1}{3}\\overrightarrow{AB}$. 于是 $\\mathbf{n}=\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}=\\mathbf{m}+\\frac{1}{3}\\overrightarrow{AB}$. 又 $\\overrightarrow{AB}=\\overrightarrow{CB}-\\overrightarrow{CA}=\\overrightarrow{CB}-\\mathbf{m}$，代入得 $\\mathbf{n}=\\mathbf{m}+\\frac{1}{3}\\left(\\overrightarrow{CB}-\\mathbf{m}\\right)=\\frac{2}{3}\\mathbf{m}+\\frac{1}{3}\\overrightarrow{CB}$. 两边乘以 $3$ 并移项得 $\\overrightarrow{CB}=3\\mathbf{n}-2\\mathbf{m}=-2\\mathbf{m}+3\\mathbf{n}$. 故选 B.</p>"
         },
         {
           "num": 4,
-          "body": "南水北调工程缓解了北方一些地区水资源短缺问题，其中一部分水蓄入某水库. 已知该水库水位为海拔 $148.5\\text{m}$ 时，相应水面的面积为 $140.0\\text{km}^2$；水位为海拔 $157.5\\text{m}$ 时，相应水面的面积为 $180.0\\text{km}^2$. 将该水库在这两个水位间的形状看作一个棱台，则该水库水位从海拔 $148.5\\text{m}$ 上升到 $157.5\\text{m}$ 时，增加的水量约为（$\\sqrt7\\approx 2.65$）（ ）",
+          "body": "南水北调工程缓解了北方一些地区水资源短缺问题，其中一部分水蓄入某水库. 已知该水库水位为海拔 $148.5\\text{m}$ 时，相应水面的面积为 $140.0\\text{km}^{2}$；水位为海拔 $157.5\\text{m}$ 时，相应水面的面积为 $180.0\\text{km}^{2}$. 将该水库在这两个水位间的形状看作一个棱台，则该水库水位从海拔 $148.5\\text{m}$ 上升到 $157.5\\text{m}$ 时，增加的水量约为（$\\sqrt{7}\\approx 2.65$）（ ）",
           "choices": [
-            "$1.0\\times 10^9\\text{m}^3$",
-            "$1.2\\times 10^9\\text{m}^3$",
-            "$1.4\\times 10^9\\text{m}^3$",
-            "$1.6\\times 10^9\\text{m}^3$"
+            "$1.0\\times 10^{9}\\text{m}^{3}$",
+            "$1.2\\times 10^{9}\\text{m}^{3}$",
+            "$1.4\\times 10^{9}\\text{m}^{3}$",
+            "$1.6\\times 10^{9}\\text{m}^{3}$"
           ],
           "answer": "C",
-          "solution": "因为水位从海拔 $148.5\\text{ m}$ 上升到 $157.5\\text{ m}$，所以棱台的高为 $h=157.5-148.5=9\\text{ m}$. 记下底面积为 $S=140.0\\text{ km}^2=140\\times 10^6\\text{ m}^2$，上底面积为 $S^{\\prime}=180.0\\text{ km}^2=180\\times 10^6\\text{ m}^2$，这里用到了 $1\\text{ km}^2=10^6\\text{ m}^2$. 由棱台体积公式 $V=\\frac13h\\left(S+S^{\\prime}+\\sqrt{SS^{\\prime}}\\right)$，而 $\\sqrt{SS^{\\prime}}=\\sqrt{140\\times 180}\\times 10^6\\text{ m}^2=60\\sqrt{7}\\times 10^6\\text{ m}^2\\approx 60\\times 2.65\\times 10^6\\text{ m}^2=159\\times 10^6\\text{ m}^2$. 所以 $V\\approx \\frac13\\times 9\\times \\left(140+180+159\\right)\\times 10^6\\text{ m}^3=1437\\times 10^6\\text{ m}^3=1.437\\times 10^9\\text{ m}^3$. 故增加的水量约为 $1.4\\times 10^9\\text{ m}^3$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为水位从海拔 $148.5\\text{ m}$ 上升到 $157.5\\text{ m}$，所以棱台的高为 $h=157.5-148.5=9\\text{ m}$. 记下底面积为 $S=140.0\\text{ km}^{2}=140\\times 10^{6}\\text{ m}^{2}$，上底面积为 $S^{\\prime}=180.0\\text{ km}^{2}=180\\times 10^{6}\\text{ m}^{2}$，这里用到了 $1\\text{ km}^{2}=10^{6}\\text{ m}^{2}$. 由棱台体积公式 $V=\\frac{1}{3}h\\left(S+S^{\\prime}+\\sqrt{SS^{\\prime}}\\right)$，而 $\\sqrt{SS^{\\prime}}=\\sqrt{140\\times 180}\\times 10^{6}\\text{ m}^{2}=60\\sqrt{7}\\times 10^{6}\\text{ m}^{2}\\approx 60\\times 2.65\\times 10^{6}\\text{ m}^{2}=159\\times 10^{6}\\text{ m}^{2}$. 所以 $V\\approx \\frac{1}{3}\\times 9\\times \\left(140+180+159\\right)\\times 10^{6}\\text{ m}^{3}=1437\\times 10^{6}\\text{ m}^{3}=1.437\\times 10^{9}\\text{ m}^{3}$. 故增加的水量约为 $1.4\\times 10^{9}\\text{ m}^{3}$，选 C."
         },
         {
           "num": 5,
-          "body": "从 $2$ 至 $8$ 的 $7$ 个整数中随机取 $2$ 个不同的数，则这 $2$ 个数互质的概率为（ ）",
+          "body": "从 $2$ 至 $8$ 的 $7$ 个整数中随机取 $2$ 个不同的数，则这 $2$ 个数互质的概率为（ ）",
           "choices": [
-            "$\\dfrac16$",
-            "$\\dfrac13$",
-            "$\\dfrac12$",
-            "$\\dfrac23$"
+            "$\\dfrac{1}{6}$",
+            "$\\dfrac{1}{3}$",
+            "$\\dfrac{1}{2}$",
+            "$\\dfrac{2}{3}$"
           ],
           "answer": "D",
-          "solution": "从 $2$ 至 $8$ 的 $7$ 个整数中任取 $2$ 个不同数的取法共有 $\\mathrm C_7^2=21$ 种. 若两数不互质，则它们有大于 $1$ 的公约数. 在 $2$，$3$，$4$，$5$，$6$，$7$，$8$ 中，偶数为 $2$，$4$，$6$，$8$，其中任取 $2$ 个均不互质，共有 $\\mathrm C_4^2=6$ 种，即 $\\left(2,4\\right)$，$\\left(2,6\\right)$，$\\left(2,8\\right)$，$\\left(4,6\\right)$，$\\left(4,8\\right)$，$\\left(6,8\\right)$. 既非全偶又不互质的只能是 $3$ 与 $6$ 的组合，即 $\\left(3,6\\right)$. 其余含 $5$，$7$ 或 $3$ 与非 $6$ 偶数的组合均互质. 所以不互质的取法共 $6+1=7$ 种，互质的取法共 $21-7=14$ 种. 因此所求概率为 $\\frac{14}{21}=\\frac23$. 故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "从 $2$ 至 $8$ 的 $7$ 个整数中任取 $2$ 个不同数的取法共有 $\\mathrm{C}_{7}^{2}=21$ 种. 若两数不互质，则它们有大于 $1$ 的公约数. 在 $2$，$3$，$4$，$5$，$6$，$7$，$8$ 中，偶数为 $2$，$4$，$6$，$8$，其中任取 $2$ 个均不互质，共有 $\\mathrm{C}_{4}^{2}=6$ 种，即 $\\left(2,4\\right)$，$\\left(2,6\\right)$，$\\left(2,8\\right)$，$\\left(4,6\\right)$，$\\left(4,8\\right)$，$\\left(6,8\\right)$. 既非全偶又不互质的只能是 $3$ 与 $6$ 的组合，即 $\\left(3,6\\right)$. 其余含 $5$，$7$ 或 $3$ 与非 $6$ 偶数的组合均互质. 所以不互质的取法共 $6+1=7$ 种，互质的取法共 $21-7=14$ 种. 因此所求概率为 $\\frac{14}{21}=\\frac{2}{3}$. 故选 D."
         },
         {
           "num": 6,
-          "body": "记函数 $f(x)=\\sin\\left(\\omega x+\\frac{\\pi}{4}\\right)+b$（$\\omega>0$） 的最小正周期为 $T$. 若 $\\frac{2\\pi}{3}<T<\\pi$，且 $y=f(x)$ 的图象关于点 $\\left(\\frac{3\\pi}{2},2\\right)$ 中心对称，则 $f\\left(\\frac{\\pi}{2}\\right)=$（ ）",
+          "body": "记函数 $f(x)=\\sin\\left(\\omega x+\\frac{\\pi}{4}\\right)+b$（$\\omega>0$） 的最小正周期为 $T$. 若 $\\frac{2\\pi}{3}&#x3C;T&#x3C;\\pi$，且 $y=f(x)$ 的图象关于点 $\\left(\\frac{3\\pi}{2},2\\right)$ 中心对称，则 $f\\left(\\frac{\\pi}{2}\\right)=$（ ）",
           "choices": [
             "1",
-            "$\\dfrac32$",
-            "$\\dfrac52$",
+            "$\\dfrac{3}{2}$",
+            "$\\dfrac{5}{2}$",
             "3"
           ],
           "answer": "A",
-          "solution": "因为 $f\\left(x\\right)=\\sin\\left(\\omega x+\\frac{\\pi}{4}\\right)+b$ 的最小正周期为 $T=\\frac{2\\pi}{\\omega}$，由 $\\frac{2\\pi}{3}<T<\\pi$ 得 $2<\\omega<3$. 若 $y=f\\left(x\\right)$ 的图象关于点 $\\left(\\frac{3\\pi}{2},2\\right)$ 中心对称，则正弦部分的中心纵坐标为 $0$，所以 $b=2$，且 $\\sin\\left(\\frac{3\\pi}{2}\\omega+\\frac{\\pi}{4}\\right)=0$. 于是存在 $k\\in\\mathbb{Z}$，使得 $\\frac{3\\pi}{2}\\omega+\\frac{\\pi}{4}=k\\pi$. 两边除以 $\\pi$ 得 $\\frac32\\omega+\\frac14=k$，即 $\\omega=\\frac{4k-1}{6}$. 结合 $2<\\omega<3$ 得 $2<\\frac{4k-1}{6}<3$，即 $\\frac{13}{4}<k<\\frac{19}{4}$. 因为 $k\\in\\mathbb{Z}$，所以 $k=4$，从而 $\\omega=\\frac{15}{6}=\\frac52$. 因此 $f\\left(x\\right)=\\sin\\left(\\frac52x+\\frac{\\pi}{4}\\right)+2$，所以 $f\\left(\\frac{\\pi}{2}\\right)=\\sin\\left(\\frac{5\\pi}{4}+\\frac{\\pi}{4}\\right)+2=\\sin\\left(\\frac{3\\pi}{2}\\right)+2=-1+2=1$. 故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $f\\left(x\\right)=\\sin\\left(\\omega x+\\frac{\\pi}{4}\\right)+b$ 的最小正周期为 $T=\\frac{2\\pi}{\\omega}$，由 $\\frac{2\\pi}{3}&#x3C;T&#x3C;\\pi$ 得 $2&#x3C;\\omega&#x3C;3$. 若 $y=f\\left(x\\right)$ 的图象关于点 $\\left(\\frac{3\\pi}{2},2\\right)$ 中心对称，则正弦部分的中心纵坐标为 $0$，所以 $b=2$，且 $\\sin\\left(\\frac{3\\pi}{2}\\omega+\\frac{\\pi}{4}\\right)=0$. 于是存在 $k\\in\\mathbb{Z}$，使得 $\\frac{3\\pi}{2}\\omega+\\frac{\\pi}{4}=k\\pi$. 两边除以 $\\pi$ 得 $\\frac{3}{2}\\omega+\\frac{1}{4}=k$，即 $\\omega=\\frac{4k-1}{6}$. 结合 $2&#x3C;\\omega&#x3C;3$ 得 $2&#x3C;\\frac{4k-1}{6}&#x3C;3$，即 $\\frac{13}{4}&#x3C;k&#x3C;\\frac{19}{4}$. 因为 $k\\in\\mathbb{Z}$，所以 $k=4$，从而 $\\omega=\\frac{15}{6}=\\frac{5}{2}$. 因此 $f\\left(x\\right)=\\sin\\left(\\frac{5}{2}x+\\frac{\\pi}{4}\\right)+2$，所以 $f\\left(\\frac{\\pi}{2}\\right)=\\sin\\left(\\frac{5\\pi}{4}+\\frac{\\pi}{4}\\right)+2=\\sin\\left(\\frac{3\\pi}{2}\\right)+2=-1+2=1$. 故选 A."
         },
         {
           "num": 7,
-          "body": "设 $a=0.1\\mathrm{e}^{0.1}$，$b=\\frac{0.1}{1-0.1}$，$c=-\\ln 0.9$，则（ ）",
+          "body": "设 $a=0.1\\mathrm{e}^{0.1}$，$b=\\frac{0.1}{1-0.1}$，$c=-\\ln 0.9$，则（ ）",
           "choices": [
-            "$a<b<c$",
-            "$c<b<a$",
-            "$c<a<b$",
-            "$a<c<b$"
+            "$a&#x3C;b&#x3C;c$",
+            "$c&#x3C;b&#x3C;a$",
+            "$c&#x3C;a&#x3C;b$",
+            "$a&#x3C;c&#x3C;b$"
           ],
           "answer": "C",
-          "solution": "记 $x=0.1$，则 $a=x\\mathrm{e}^{x}$，$b=\\frac{x}{1-x}=\\frac19$，$c=-\\ln\\left(1-x\\right)$. 先证 $a<b$. 设 $h\\left(x\\right)=\\left(1-x\\right)\\mathrm{e}^{x}$，$x\\in\\left[0,0.1\\right]$，则 $h^{\\prime}\\left(x\\right)=-\\mathrm{e}^{x}+\\left(1-x\\right)\\mathrm{e}^{x}=-x\\mathrm{e}^{x}\\le 0$，且仅在 $x=0$ 处取零，所以 $h\\left(x\\right)$ 在 $\\left[0,0.1\\right]$ 上单调递减. 因为 $h\\left(0\\right)=1$，所以 $h\\left(0.1\\right)<1$，即 $0.9\\mathrm{e}^{0.1}<1$，也就是 $\\mathrm{e}^{0.1}<\\frac{10}{9}$. 两边乘以 $0.1$ 得 $0.1\\mathrm{e}^{0.1}<\\frac19$，即 $a<b$. 再证 $c<a$. 设 $k\\left(x\\right)=x\\mathrm{e}^{x}+\\ln\\left(1-x\\right)$，$x\\in\\left[0,0.1\\right]$，则 $k\\left(0\\right)=0$，且 $k^{\\prime}\\left(x\\right)=\\mathrm{e}^{x}+x\\mathrm{e}^{x}-\\frac{1}{1-x}=\\left(1+x\\right)\\mathrm{e}^{x}-\\frac{1}{1-x}$，$k^{\\prime}\\left(0\\right)=0$. 又 $k^{\\prime\\prime}\\left(x\\right)=\\left(2+x\\right)\\mathrm{e}^{x}-\\frac{1}{\\left(1-x\\right)^2}$. 为证 $k^{\\prime\\prime}\\left(x\\right)>0$，先证 $\\mathrm{e}^{x}\\ge 1+x$. 设 $s\\left(x\\right)=\\mathrm{e}^{x}-x-1$，则 $s^{\\prime}\\left(x\\right)=\\mathrm{e}^{x}-1\\ge 0$，$x\\ge 0$，所以 $s\\left(x\\right)$ 单调递增，又 $s\\left(0\\right)=0$，故 $x\\ge 0$ 时 $\\mathrm{e}^{x}\\ge 1+x$. 于是 $\\left(2+x\\right)\\mathrm{e}^{x}\\ge \\left(2+x\\right)\\left(1+x\\right)$. 而 $\\left(2+x\\right)\\left(1+x\\right)-\\frac{1}{\\left(1-x\\right)^2}=\\frac{1-x-3x^2+x^3+x^4}{\\left(1-x\\right)^2}$，分子 $=1-x-3x^2+x^3+x^4\\ge 1-0.1-0.03=0.87>0$，$x\\in\\left[0,0.1\\right]$，所以 $k^{\\prime\\prime}\\left(x\\right)>0$，$x\\in\\left[0,0.1\\right]$. 因此 $k^{\\prime}\\left(x\\right)$ 单调递增，又 $k^{\\prime}\\left(0\\right)=0$，故 $x\\in\\left(0,0.1\\right]$ 时 $k^{\\prime}\\left(x\\right)>0$. 从而 $k\\left(x\\right)$ 单调递增，又 $k\\left(0\\right)=0$，故 $k\\left(0.1\\right)>0$，即 $0.1\\mathrm{e}^{0.1}+\\ln 0.9>0$，也就是 $-\\ln 0.9<0.1\\mathrm{e}^{0.1}$，即 $c<a$. 结合 $a<b$ 得 $c<a<b$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "记 $x=0.1$，则 $a=x\\mathrm{e}^{x}$，$b=\\frac{x}{1-x}=\\frac{1}{9}$，$c=-\\ln\\left(1-x\\right)$. 先证 $a&#x3C;b$. 设 $h\\left(x\\right)=\\left(1-x\\right)\\mathrm{e}^{x}$，$x\\in\\left[0,0.1\\right]$，则 $h^{\\prime}\\left(x\\right)=-\\mathrm{e}^{x}+\\left(1-x\\right)\\mathrm{e}^{x}=-x\\mathrm{e}^{x}\\le 0$，且仅在 $x=0$ 处取零，所以 $h\\left(x\\right)$ 在 $\\left[0,0.1\\right]$ 上单调递减. 因为 $h\\left(0\\right)=1$，所以 $h\\left(0.1\\right)&#x3C;1$，即 $0.9\\mathrm{e}^{0.1}&#x3C;1$，也就是 $\\mathrm{e}^{0.1}&#x3C;\\frac{10}{9}$. 两边乘以 $0.1$ 得 $0.1\\mathrm{e}^{0.1}&#x3C;\\frac{1}{9}$，即 $a&#x3C;b$. 再证 $c&#x3C;a$. 设 $k\\left(x\\right)=x\\mathrm{e}^{x}+\\ln\\left(1-x\\right)$，$x\\in\\left[0,0.1\\right]$，则 $k\\left(0\\right)=0$，且 $k^{\\prime}\\left(x\\right)=\\mathrm{e}^{x}+x\\mathrm{e}^{x}-\\frac{1}{1-x}=\\left(1+x\\right)\\mathrm{e}^{x}-\\frac{1}{1-x}$，$k^{\\prime}\\left(0\\right)=0$. 又 $k^{\\prime\\prime}\\left(x\\right)=\\left(2+x\\right)\\mathrm{e}^{x}-\\frac{1}{\\left(1-x\\right)^{2}}$. 为证 $k^{\\prime\\prime}\\left(x\\right)>0$，先证 $\\mathrm{e}^{x}\\ge 1+x$. 设 $s\\left(x\\right)=\\mathrm{e}^{x}-x-1$，则 $s^{\\prime}\\left(x\\right)=\\mathrm{e}^{x}-1\\ge 0$，$x\\ge 0$，所以 $s\\left(x\\right)$ 单调递增，又 $s\\left(0\\right)=0$，故 $x\\ge 0$ 时 $\\mathrm{e}^{x}\\ge 1+x$. 于是 $\\left(2+x\\right)\\mathrm{e}^{x}\\ge \\left(2+x\\right)\\left(1+x\\right)$. 而 $\\left(2+x\\right)\\left(1+x\\right)-\\frac{1}{\\left(1-x\\right)^{2}}=\\frac{1-x-3x^{2}+x^{3}+x^{4}}{\\left(1-x\\right)^{2}}$，分子 $=1-x-3x^{2}+x^{3}+x^{4}\\ge 1-0.1-0.03=0.87>0$，$x\\in\\left[0,0.1\\right]$，所以 $k^{\\prime\\prime}\\left(x\\right)>0$，$x\\in\\left[0,0.1\\right]$. 因此 $k^{\\prime}\\left(x\\right)$ 单调递增，又 $k^{\\prime}\\left(0\\right)=0$，故 $x\\in\\left(0,0.1\\right]$ 时 $k^{\\prime}\\left(x\\right)>0$. 从而 $k\\left(x\\right)$ 单调递增，又 $k\\left(0\\right)=0$，故 $k\\left(0.1\\right)>0$，即 $0.1\\mathrm{e}^{0.1}+\\ln 0.9>0$，也就是 $-\\ln 0.9&#x3C;0.1\\mathrm{e}^{0.1}$，即 $c&#x3C;a$. 结合 $a&#x3C;b$ 得 $c&#x3C;a&#x3C;b$. 故选 C."
         },
         {
           "num": 8,
-          "body": "已知正四棱锥的侧棱长为 $l$，其各顶点都在同一球面上. 若该球的体积为 $36\\pi$，且 $3\\le l\\le 3\\sqrt3$，则该正四棱锥体积的取值范围是（ ）",
+          "body": "已知正四棱锥的侧棱长为 $l$，其各顶点都在同一球面上. 若该球的体积为 $36\\pi$，且 $3\\le l\\le 3\\sqrt{3}$，则该正四棱锥体积的取值范围是（ ）",
           "choices": [
             "$\\left[18,\\frac{81}{4}\\right]$",
             "$\\left[\\frac{27}{4},\\frac{81}{4}\\right]$",
@@ -250,9 +101,7 @@
             "$[18,27]$"
           ],
           "answer": "C",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/new_gaokao_paper_1/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n因为球体积 $\\frac43\\pi R^3=36\\pi$，所以 $R^3=27$，故 $R=3$. 设正四棱锥底面正方形边长为 $2a$，$a>0$，高为 $h$，$h>0$，侧棱长为 $l$，则底面对角线长的一半为 $\\sqrt{2}a$，故 $l^2=2a^2+h^2$. 又各顶点共球，球心在高线上，所以 $R^2=2a^2+\\left(h-R\\right)^2$，即 $2a^2=2Rh-h^2$. 代入 $R=3$ 得 $2a^2=6h-h^2$. 与 $l^2=2a^2+h^2$ 联立消去 $a$ 得 $l^2=6h$，即 $h=\\frac{l^2}{6}$. 体积为 $V=\\frac13\\cdot \\left(2a\\right)^2h=\\frac43a^2h=\\frac23h\\left(l^2-h^2\\right)$. 代入 $h=\\frac{l^2}{6}$ 得 $V\\left(l\\right)=\\frac{l^4}{9}-\\frac{l^6}{324}$，$3\\le l\\le 3\\sqrt{3}$. 求导得 $V^{\\prime}\\left(l\\right)=\\frac{4l^3}{9}-\\frac{l^5}{54}=\\frac{l^3\\left(24-l^2\\right)}{54}$. 令 $V^{\\prime}\\left(l\\right)=0$ 得 $l=2\\sqrt{6}$，且 $3<2\\sqrt{6}<3\\sqrt{3}$. 当 $3\\le l<2\\sqrt{6}$ 时 $V^{\\prime}\\left(l\\right)>0$，当 $2\\sqrt{6}<l\\le 3\\sqrt{3}$ 时 $V^{\\prime}\\left(l\\right)<0$，所以 $V\\left(l\\right)$ 先增后减，最大值在 $l=2\\sqrt{6}$ 处取得，为 $V\\left(2\\sqrt{6}\\right)=\\frac{576}{9}-\\frac{13824}{324}=64-\\frac{128}{3}=\\frac{64}{3}$. 端点值为 $V\\left(3\\right)=9-\\frac{729}{324}=\\frac{27}{4}$，$V\\left(3\\sqrt{3}\\right)=81-\\frac{19683}{324}=\\frac{81}{4}$. 因为 $\\frac{27}{4}<\\frac{81}{4}$，所以最小值为 $\\frac{27}{4}$. 故体积取值范围是 $\\left[\\frac{27}{4},\\frac{64}{3}\\right]$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_1/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因为球体积 $\\frac{4}{3}\\pi R^{3}=36\\pi$，所以 $R^{3}=27$，故 $R=3$. 设正四棱锥底面正方形边长为 $2a$，$a>0$，高为 $h$，$h>0$，侧棱长为 $l$，则底面对角线长的一半为 $\\sqrt{2}a$，故 $l^{2}=2a^{2}+h^{2}$. 又各顶点共球，球心在高线上，所以 $R^{2}=2a^{2}+\\left(h-R\\right)^{2}$，即 $2a^{2}=2Rh-h^{2}$. 代入 $R=3$ 得 $2a^{2}=6h-h^{2}$. 与 $l^{2}=2a^{2}+h^{2}$ 联立消去 $a$ 得 $l^{2}=6h$，即 $h=\\frac{l^{2}}{6}$. 体积为 $V=\\frac{1}{3}\\cdot \\left(2a\\right)^{2}h=\\frac{4}{3}a^{2}h=\\frac{2}{3}h\\left(l^{2}-h^{2}\\right)$. 代入 $h=\\frac{l^{2}}{6}$ 得 $V\\left(l\\right)=\\frac{l^{4}}{9}-\\frac{l^{6}}{324}$，$3\\le l\\le 3\\sqrt{3}$. 求导得 $V^{\\prime}\\left(l\\right)=\\frac{4l^{3}}{9}-\\frac{l^{5}}{54}=\\frac{l^{3}\\left(24-l^{2}\\right)}{54}$. 令 $V^{\\prime}\\left(l\\right)=0$ 得 $l=2\\sqrt{6}$，且 $3&#x3C;2\\sqrt{6}&#x3C;3\\sqrt{3}$. 当 $3\\le l&#x3C;2\\sqrt{6}$ 时 $V^{\\prime}\\left(l\\right)>0$，当 $2\\sqrt{6}&#x3C;l\\le 3\\sqrt{3}$ 时 $V^{\\prime}\\left(l\\right)&#x3C;0$，所以 $V\\left(l\\right)$ 先增后减，最大值在 $l=2\\sqrt{6}$ 处取得，为 $V\\left(2\\sqrt{6}\\right)=\\frac{576}{9}-\\frac{13824}{324}=64-\\frac{128}{3}=\\frac{64}{3}$. 端点值为 $V\\left(3\\right)=9-\\frac{729}{324}=\\frac{27}{4}$，$V\\left(3\\sqrt{3}\\right)=81-\\frac{19683}{324}=\\frac{81}{4}$. 因为 $\\frac{27}{4}&#x3C;\\frac{81}{4}$，所以最小值为 $\\frac{27}{4}$. 故体积取值范围是 $\\left[\\frac{27}{4},\\frac{64}{3}\\right]$，选 C.</p>"
         }
       ]
     },
@@ -261,21 +110,19 @@
       "problems": [
         {
           "num": 9,
-          "body": "已知正方体 $ABCD-A_1B_1C_1D_1$，则（ ）",
+          "body": "已知正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$，则（ ）",
           "choices": [
-            "直线 $BC_1$ 与 $DA_1$ 所成的角为 $90^\\circ$",
-            "直线 $BC_1$ 与 $CA_1$ 所成的角为 $90^\\circ$",
-            "直线 $BC_1$ 与平面 $BB_1D_1D$ 所成的角为 $45^\\circ$",
-            "直线 $BC_1$ 与平面 $ABCD$ 所成的角为 $45^\\circ$"
+            "直线 $BC_{1}$ 与 $DA_{1}$ 所成的角为 $90^{\\circ}$",
+            "直线 $BC_{1}$ 与 $CA_{1}$ 所成的角为 $90^{\\circ}$",
+            "直线 $BC_{1}$ 与平面 $BB_{1}D_{1}D$ 所成的角为 $45^{\\circ}$",
+            "直线 $BC_{1}$ 与平面 $ABCD$ 所成的角为 $45^{\\circ}$"
           ],
           "answer": "ABD",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/new_gaokao_paper_1/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n设正方体棱长为 $1$，取 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$A_1(0,0,1)$，$B_1(1,0,1)$，$C_1(1,1,1)$. 因为 $\\overrightarrow{BC_1}=(0,1,1)$，$\\overrightarrow{DA_1}=(0,-1,1)$，内积为 $0$，所以两直线垂直，故A正确. 因为 $\\overrightarrow{CA_1}=(-1,-1,1)$ 与 $\\overrightarrow{BC_1}$ 的内积为 $0$，所以 $BC_1\\perp CA_1$，故B正确. 因为 $BB_1\\perp A_1C_1$ 且 $B_1D_1\\perp A_1C_1$，所以 $A_1C_1\\perp$ 平面 $BB_1D_1D$. 设 $O_1$ 为 $A_1C_1$ 与 $B_1D_1$ 的交点，则 $C_1O_1\\perp$ 平面 $BB_1D_1D$，而 $B$ 在该平面内，所以 $BO_1$ 为 $BC_1$ 在该平面上的射影，所成角为 $\\angle C_1BO_1$. 因为 $\\lvert C_1O_1\\rvert=\\frac{\\sqrt{2}}{2}$，$\\lvert BC_1\\rvert=\\sqrt{2}$，所以 $\\sin\\angle C_1BO_1=\\frac{1}{2}$，夹角为 $30^\\circ$，故C错误. 因为 $C_1C\\perp$ 平面 $ABCD$，所以 $BC_1$ 与底面所成角为 $\\angle C_1BC=45^\\circ$，故D正确. 综上选ABD.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_1/q9_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>设正方体棱长为 $1$，取 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$A_{1}(0,0,1)$，$B_{1}(1,0,1)$，$C_{1}(1,1,1)$. 因为 $\\overrightarrow{BC_1}=(0,1,1)$，$\\overrightarrow{DA_1}=(0,-1,1)$，内积为 $0$，所以两直线垂直，故A正确. 因为 $\\overrightarrow{CA_1}=(-1,-1,1)$ 与 $\\overrightarrow{BC_1}$ 的内积为 $0$，所以 $BC_{1}\\perp CA_{1}$，故B正确. 因为 $BB_{1}\\perp A_{1}C_{1}$ 且 $B_{1}D_{1}\\perp A_{1}C_{1}$，所以 $A_{1}C_{1}\\perp$ 平面 $BB_{1}D_{1}D$. 设 $O_{1}$ 为 $A_{1}C_{1}$ 与 $B_{1}D_{1}$ 的交点，则 $C_{1}O_{1}\\perp$ 平面 $BB_{1}D_{1}D$，而 $B$ 在该平面内，所以 $BO_{1}$ 为 $BC_{1}$ 在该平面上的射影，所成角为 $\\angle C_{1}BO_{1}$. 因为 $\\lvert C_{1}O_{1}\\rvert=\\frac{\\sqrt{2}}{2}$，$\\lvert BC_{1}\\rvert=\\sqrt{2}$，所以 $\\sin\\angle C_{1}BO_{1}=\\frac{1}{2}$，夹角为 $30^{\\circ}$，故C错误. 因为 $C_{1}C\\perp$ 平面 $ABCD$，所以 $BC_{1}$ 与底面所成角为 $\\angle C_{1}BC=45^{\\circ}$，故D正确. 综上选ABD.</p>"
         },
         {
           "num": 10,
-          "body": "已知函数 $f(x)=x^3-x+1$，则（ ）",
+          "body": "已知函数 $f(x)=x^{3}-x+1$，则（ ）",
           "choices": [
             "$f(x)$ 有两个极值点",
             "$f(x)$ 有三个零点",
@@ -283,37 +130,31 @@
             "直线 $y=2x$ 是曲线 $y=f(x)$ 的切线"
           ],
           "answer": "AC",
-          "solution": "因为 $f'(x)=3x^2-1$，令 $f'(x)=0$ 得 $x=\\pm\\frac{\\sqrt{3}}{3}$，且 $f'$ 在这两点两侧变号，所以 $f(x)$ 有两个极值点，故A正确. 因为当 $x<-\\frac{\\sqrt{3}}{3}$ 或 $x>\\frac{\\sqrt{3}}{3}$ 时 $f'(x)>0$，当 $-\\frac{\\sqrt{3}}{3}<x<\\frac{\\sqrt{3}}{3}$ 时 $f'(x)<0$，所以 $x=-\\frac{\\sqrt{3}}{3}$ 为极大值点，$x=\\frac{\\sqrt{3}}{3}$ 为极小值点. 又 $f\\left(-\\frac{\\sqrt{3}}{3}\\right)=1+\\frac{2\\sqrt{3}}{9}>0$，$f\\left(\\frac{\\sqrt{3}}{3}\\right)=1-\\frac{2\\sqrt{3}}{9}>0$，且当 $x\\to -\\infty$ 时 $f(x)\\to -\\infty$，当 $x\\to +\\infty$ 时 $f(x)\\to +\\infty$，所以 $f(x)$ 仅在 $\\left(-\\infty,-\\frac{\\sqrt{3}}{3}\\right)$ 内有一个零点，故B错误. 因为 $h(x)=x^3-x$ 满足 $h(-x)=-h(x)$，为奇函数，图象关于原点对称，而 $f(x)=h(x)+1$ 为其向上平移 $1$ 个单位，所以 $y=f(x)$ 关于 $(0,1)$ 中心对称，故C正确. 因为令 $f'(x)=2$ 得 $x=\\pm 1$，$f(1)=1$ 处切线为 $y=2x-1$，$f(-1)=1$ 处切线为 $y=2x+3$，斜率为 $2$ 的切点仅此两处，均不给出 $y=2x$，所以 $y=2x$ 不是切线，故D错误. 综上选AC.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $f'(x)=3x^{2}-1$，令 $f'(x)=0$ 得 $x=\\pm\\frac{\\sqrt{3}}{3}$，且 $f'$ 在这两点两侧变号，所以 $f(x)$ 有两个极值点，故A正确. 因为当 $x&#x3C;-\\frac{\\sqrt{3}}{3}$ 或 $x>\\frac{\\sqrt{3}}{3}$ 时 $f'(x)>0$，当 $-\\frac{\\sqrt{3}}{3}&#x3C;x&#x3C;\\frac{\\sqrt{3}}{3}$ 时 $f'(x)&#x3C;0$，所以 $x=-\\frac{\\sqrt{3}}{3}$ 为极大值点，$x=\\frac{\\sqrt{3}}{3}$ 为极小值点. 又 $f\\left(-\\frac{\\sqrt{3}}{3}\\right)=1+\\frac{2\\sqrt{3}}{9}>0$，$f\\left(\\frac{\\sqrt{3}}{3}\\right)=1-\\frac{2\\sqrt{3}}{9}>0$，且当 $x\\to -\\infty$ 时 $f(x)\\to -\\infty$，当 $x\\to +\\infty$ 时 $f(x)\\to +\\infty$，所以 $f(x)$ 仅在 $\\left(-\\infty,-\\frac{\\sqrt{3}}{3}\\right)$ 内有一个零点，故B错误. 因为 $h(x)=x^{3}-x$ 满足 $h(-x)=-h(x)$，为奇函数，图象关于原点对称，而 $f(x)=h(x)+1$ 为其向上平移 $1$ 个单位，所以 $y=f(x)$ 关于 $(0,1)$ 中心对称，故C正确. 因为令 $f'(x)=2$ 得 $x=\\pm 1$，$f(1)=1$ 处切线为 $y=2x-1$，$f(-1)=1$ 处切线为 $y=2x+3$，斜率为 $2$ 的切点仅此两处，均不给出 $y=2x$，所以 $y=2x$ 不是切线，故D错误. 综上选AC."
         },
         {
           "num": 11,
-          "body": "已知 $O$ 为坐标原点，点 $A(1,1)$ 在抛物线 $C:\\ x^2=2py$（$p>0$） 上，过点 $B(0,-1)$ 的直线交 $C$ 于 $P$，$Q$ 两点，则（ ）",
+          "body": "已知 $O$ 为坐标原点，点 $A(1,1)$ 在抛物线 $C:\\ x^{2}=2py$（$p>0$） 上，过点 $B(0,-1)$ 的直线交 $C$ 于 $P$，$Q$ 两点，则（ ）",
           "choices": [
             "$C$ 的准线为 $y=-1$",
             "直线 $AB$ 与 $C$ 相切",
-            "$|OP|\\cdot |OQ|>|OA|^2$",
-            "$|BP|\\cdot |BQ|>|BA|^2$"
+            "$|OP|\\cdot |OQ|>|OA|^{2}$",
+            "$|BP|\\cdot |BQ|>|BA|^{2}$"
           ],
           "answer": "BCD",
-          "solution": "由 $A(1,1)$ 在 $x^2=2py$ 上得 $1=2p$，即 $p=\\frac{1}{2}$，故抛物线为 $x^2=y$，准线为 $y=-\\frac{1}{4}$，所以A错误. 因为 $k_{AB}=\\frac{1-(-1)}{1-0}=2$，直线 $AB$ 为 $y=2x-1$，联立 $y=x^2$ 得 $x^2-2x+1=0$，即 $(x-1)^2=0$，有重根 $x=1$，所以 $AB$ 与 $C$ 相切，故B正确. 设过 $B(0,-1)$ 交 $C$ 于 $P$，$Q$ 两点的直线为 $l$，记 $P(x_1,y_1)$，$Q(x_2,y_2)$. 若 $l$ 斜率不存在，则 $l$ 为 $x=0$ 或 $x=t\\ne 0$，每条竖直线与 $y=x^2$ 至多交于一点，不构成两点 $P$，$Q$，所以交于两点的 $l$ 必有斜率，设为 $y=kx-1$. 联立 $x^2=kx-1$ 得 $x^2-kx+1=0$，有两个不同交点的充要条件是 $\\Delta=k^2-4>0$，即 $\\lvert k\\rvert>2$，此时根与系数关系为 $x_1+x_2=k$，$x_1x_2=1$，且 $y_1=x_1^2$，$y_2=x_2^2$. 因为 $\\lvert OP\\rvert=\\sqrt{x_1^2+y_1^2}=\\lvert x_1\\rvert\\sqrt{1+x_1^2}$，$\\lvert OQ\\rvert=\\lvert x_2\\rvert\\sqrt{1+x_2^2}$，所以 $\\lvert OP\\rvert\\cdot\\lvert OQ\\rvert=\\lvert x_1x_2\\rvert\\sqrt{(1+x_1^2)(1+x_2^2)}=\\sqrt{1+x_1^2+x_2^2+x_1^2x_2^2}$. 又 $x_1^2+x_2^2=(x_1+x_2)^2-2x_1x_2=k^2-2$，$x_1^2x_2^2=1$，所以上式等于 $\\sqrt{2+k^2-2}=\\lvert k\\rvert$. 因为 $\\lvert k\\rvert>2$，所以 $\\lvert OP\\rvert\\cdot\\lvert OQ\\rvert=\\lvert k\\rvert>2$. 又 $\\lvert OA\\rvert^2=1^2+1^2=2$，所以 $\\lvert OP\\rvert\\cdot\\lvert OQ\\rvert>\\lvert OA\\rvert^2$，故C正确. 因为 $y_1+1=kx_1$，$y_2+1=kx_2$，所以 $\\lvert BP\\rvert=\\sqrt{x_1^2+(y_1+1)^2}=\\lvert x_1\\rvert\\sqrt{1+k^2}$由相同计算 $\\lvert BQ\\rvert=\\lvert x_2\\rvert\\sqrt{1+k^2}$，于是 $\\lvert BP\\rvert\\cdot\\lvert BQ\\rvert=\\lvert x_1x_2\\rvert(1+k^2)=1+k^2$. 又 $\\lvert BA\\rvert^2=(1-0)^2+(1+1)^2=5$，而 $1+k^2>5$ 等价于 $k^2>4$，恰为 $\\Delta>0$ 的条件，所以 $\\lvert BP\\rvert\\cdot\\lvert BQ\\rvert>\\lvert BA\\rvert^2$，故D正确. 综上选BCD.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $A(1,1)$ 在 $x^{2}=2py$ 上得 $1=2p$，即 $p=\\frac{1}{2}$，故抛物线为 $x^{2}=y$，准线为 $y=-\\frac{1}{4}$，所以A错误. 因为 $k_{AB}=\\frac{1-(-1)}{1-0}=2$，直线 $AB$ 为 $y=2x-1$，联立 $y=x^{2}$ 得 $x^{2}-2x+1=0$，即 $(x-1)^{2}=0$，有重根 $x=1$，所以 $AB$ 与 $C$ 相切，故B正确. 设过 $B(0,-1)$ 交 $C$ 于 $P$，$Q$ 两点的直线为 $l$，记 $P(x_{1},y_{1})$，$Q(x_{2},y_{2})$. 若 $l$ 斜率不存在，则 $l$ 为 $x=0$ 或 $x=t\\ne 0$，每条竖直线与 $y=x^{2}$ 至多交于一点，不构成两点 $P$，$Q$，所以交于两点的 $l$ 必有斜率，设为 $y=kx-1$. 联立 $x^{2}=kx-1$ 得 $x^{2}-kx+1=0$，有两个不同交点的充要条件是 $\\Delta=k^{2}-4>0$，即 $\\lvert k\\rvert>2$，此时根与系数关系为 $x_{1}+x_{2}=k$，$x_{1}x_{2}=1$，且 $y_{1}=x_{1}^{2}$，$y_{2}=x_{2}^{2}$. 因为 $\\lvert OP\\rvert=\\sqrt{x_{1}^{2}+y_{1}^{2}}=\\lvert x_{1}\\rvert\\sqrt{1+x_{1}^{2}}$，$\\lvert OQ\\rvert=\\lvert x_{2}\\rvert\\sqrt{1+x_{2}^{2}}$，所以 $\\lvert OP\\rvert\\cdot\\lvert OQ\\rvert=\\lvert x_{1}x_{2}\\rvert\\sqrt{(1+x_{1}^{2})(1+x_{2}^{2})}=\\sqrt{1+x_{1}^{2}+x_{2}^{2}+x_{1}^{2}x_{2}^{2}}$. 又 $x_{1}^{2}+x_{2}^{2}=(x_{1}+x_{2})^{2}-2x_{1}x_{2}=k^{2}-2$，$x_{1}^{2}x_{2}^{2}=1$，所以上式等于 $\\sqrt{2+k^{2}-2}=\\lvert k\\rvert$. 因为 $\\lvert k\\rvert>2$，所以 $\\lvert OP\\rvert\\cdot\\lvert OQ\\rvert=\\lvert k\\rvert>2$. 又 $\\lvert OA\\rvert^{2}=1^{2}+1^{2}=2$，所以 $\\lvert OP\\rvert\\cdot\\lvert OQ\\rvert>\\lvert OA\\rvert^{2}$，故C正确. 因为 $y_{1}+1=kx_{1}$，$y_{2}+1=kx_{2}$，所以 $\\lvert BP\\rvert=\\sqrt{x_{1}^{2}+(y_{1}+1)^{2}}=\\lvert x_{1}\\rvert\\sqrt{1+k^{2}}$由相同计算 $\\lvert BQ\\rvert=\\lvert x_{2}\\rvert\\sqrt{1+k^{2}}$，于是 $\\lvert BP\\rvert\\cdot\\lvert BQ\\rvert=\\lvert x_{1}x_{2}\\rvert(1+k^{2})=1+k^{2}$. 又 $\\lvert BA\\rvert^{2}=(1-0)^{2}+(1+1)^{2}=5$，而 $1+k^{2}>5$ 等价于 $k^{2}>4$，恰为 $\\Delta>0$ 的条件，所以 $\\lvert BP\\rvert\\cdot\\lvert BQ\\rvert>\\lvert BA\\rvert^{2}$，故D正确. 综上选BCD."
         },
         {
           "num": 12,
-          "body": "已知函数 $f(x)$ 及其导函数 $f'(x)$ 的定义域均为 $\\mathbb{R}$，记 $g(x)=f'(x)$. 若 $f\\left(\\frac32-2x\\right)$，$g(2+x)$ 均为偶函数，则（ ）",
+          "body": "已知函数 $f(x)$ 及其导函数 $f'(x)$ 的定义域均为 $\\mathbb{R}$，记 $g(x)=f'(x)$. 若 $f\\left(\\frac{3}{2}-2x\\right)$，$g(2+x)$ 均为偶函数，则（ ）",
           "choices": [
             "$f(0)=0$",
-            "$g\\left(-\\frac12\\right)=0$",
+            "$g\\left(-\\frac{1}{2}\\right)=0$",
             "$f(-1)=f(4)$",
             "$g(-1)=g(2)$"
           ],
           "answer": "BC",
-          "solution": "因为 $f\\left(\\frac{3}{2}-2x\\right)$ 为偶函数，所以对一切 $x\\in\\mathbb{R}$ 有 $f\\left(\\frac{3}{2}+2x\\right)=f\\left(\\frac{3}{2}-2x\\right)$. 令 $t=2x$，则 $f\\left(\\frac{3}{2}+t\\right)=f\\left(\\frac{3}{2}-t\\right)$，即 $f(x)$ 关于 $x=\\frac{3}{2}$ 对称，故 $f(3-x)=f(x)$. 于是 $f(-1)=f(3-(-1))=f(4)$，所以C正确. 因为 $g(2+x)$ 为偶函数，所以 $g(2-x)=g(2+x)$，即 $g(4-x)=g(x)$，故 $g(x)$ 关于 $x=2$ 对称. 对 $f(3-x)=f(x)$ 两边求导得 $-f'(3-x)=f'(x)$，即 $g(3-x)=-g(x)$. 由 $g(4-x)=g(x)$ 得 $g(x+1)=g(4-(x+1))=g(3-x)=-g(x)$，所以 $g(x+1)=-g(x)$，进而 $g(x+2)=-g(x+1)=g(x)$，即 $g$ 以 $2$ 为周期. 在 $g(3-x)=-g(x)$ 中令 $x=\\frac{3}{2}$ 得 $g\\left(\\frac{3}{2}\\right)=0$，再由周期 $2$ 得 $g\\left(-\\frac{1}{2}\\right)=g\\left(\\frac{3}{2}\\right)=0$，所以B正确. 因为 $f(0)$ 的值可平移而不破坏对称关系，不能由题设唯一确定，例如取 $g(x)=\\cos(\\pi x)$ 及其原函数 $f(x)=\\frac{\\sin(\\pi x)}{\\pi}+C$ 即满足全部对称条件，而 $C$ 任意，所以A不能成立. 因为由周期与 $g(x+1)=-g(x)$ 得 $g(-1)=g(1)$ 且 $g(2)=-g(1)$，所以 $g(-1)=g(2)$ 当且仅当 $g(2)=0$，而上例中 $g(2)=1\\ne 0$，此时 $g(-1)=-1\\ne g(2)$，故D不成立. 综上选BC.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $f\\left(\\frac{3}{2}-2x\\right)$ 为偶函数，所以对一切 $x\\in\\mathbb{R}$ 有 $f\\left(\\frac{3}{2}+2x\\right)=f\\left(\\frac{3}{2}-2x\\right)$. 令 $t=2x$，则 $f\\left(\\frac{3}{2}+t\\right)=f\\left(\\frac{3}{2}-t\\right)$，即 $f(x)$ 关于 $x=\\frac{3}{2}$ 对称，故 $f(3-x)=f(x)$. 于是 $f(-1)=f(3-(-1))=f(4)$，所以C正确. 因为 $g(2+x)$ 为偶函数，所以 $g(2-x)=g(2+x)$，即 $g(4-x)=g(x)$，故 $g(x)$ 关于 $x=2$ 对称. 对 $f(3-x)=f(x)$ 两边求导得 $-f'(3-x)=f'(x)$，即 $g(3-x)=-g(x)$. 由 $g(4-x)=g(x)$ 得 $g(x+1)=g(4-(x+1))=g(3-x)=-g(x)$，所以 $g(x+1)=-g(x)$，进而 $g(x+2)=-g(x+1)=g(x)$，即 $g$ 以 $2$ 为周期. 在 $g(3-x)=-g(x)$ 中令 $x=\\frac{3}{2}$ 得 $g\\left(\\frac{3}{2}\\right)=0$，再由周期 $2$ 得 $g\\left(-\\frac{1}{2}\\right)=g\\left(\\frac{3}{2}\\right)=0$，所以B正确. 因为 $f(0)$ 的值可平移而不破坏对称关系，不能由题设唯一确定，例如取 $g(x)=\\cos(\\pi x)$ 及其原函数 $f(x)=\\frac{\\sin(\\pi x)}{\\pi}+C$ 即满足全部对称条件，而 $C$ 任意，所以A不能成立. 因为由周期与 $g(x+1)=-g(x)$ 得 $g(-1)=g(1)$ 且 $g(2)=-g(1)$，所以 $g(-1)=g(2)$ 当且仅当 $g(2)=0$，而上例中 $g(2)=1\\ne 0$，此时 $g(-1)=-1\\ne g(2)$，故D不成立. 综上选BC."
         }
       ]
     },
@@ -322,39 +163,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "$\\left(1-\\frac{y}{x}\\right)(x+y)^8$ 的展开式中 $x^2y^6$ 的系数为 _______ {}（用数字作答）.",
-          "choices": [],
-          "answer": "\\(-28\\)",
-          "solution": "因为 $\\left(1-\\frac{y}{x}\\right)(x+y)^8=(x+y)^8-\\frac{y}{x}(x+y)^8$. 在 $(x+y)^8$ 中，$x^2y^6$ 来自 $k=6$ 项，系数为 $\\mathrm C_8^6=28$. 在 $\\frac{y}{x}(x+y)^8$ 中，要得到 $x^2y^6$，需 $(x+y)^8$ 提供 $x^3y^5$，即 $k=5$ 项，系数为 $\\mathrm C_8^5=56$，带负号后贡献为 $-56$. 所以所求系数为 $28-56=-28$. 故答案为 $-28$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\left(1-\\frac{y}{x}\\right)(x+y)^{8}$ 的展开式中 $x^{2}y^{6}$ 的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（用数字作答）.",
+          "choices": null,
+          "answer": "$-28$",
+          "solution": "因为 $\\left(1-\\frac{y}{x}\\right)(x+y)^{8}=(x+y)^{8}-\\frac{y}{x}(x+y)^{8}$. 在 $(x+y)^{8}$ 中，$x^{2}y^{6}$ 来自 $k=6$ 项，系数为 $\\mathrm{C}_{8}^{6}=28$. 在 $\\frac{y}{x}(x+y)^{8}$ 中，要得到 $x^{2}y^{6}$，需 $(x+y)^{8}$ 提供 $x^{3}y^{5}$，即 $k=5$ 项，系数为 $\\mathrm{C}_{8}^{5}=56$，带负号后贡献为 $-56$. 所以所求系数为 $28-56=-28$. 故答案为 $-28$."
         },
         {
           "num": 14,
-          "body": "写出与圆 $x^2+y^2=1$ 和 $(x-3)^2+(y-4)^2=16$ 都相切的一条直线的方程 _______ {}.",
-          "choices": [],
-          "answer": "\\(x=-1\\)",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/new_gaokao_paper_1/q14_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n记两圆圆心为 $O(0,0)$，$O_1(3,4)$，半径分别为 $1$，$4$. 因为 $\\lvert OO_1\\rvert=5=1+4$，所以两圆外切，共有三条公切线. 直线 $x=-1$ 到 $O$ 的距离为 $1$，到 $O_1$ 的距离为 $\\lvert 3-(-1)\\rvert=4$，恰等于两圆半径，所以该直线与两圆都相切. 故可填 $x=-1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "写出与圆 $x^{2}+y^{2}=1$ 和 $(x-3)^{2}+(y-4)^{2}=16$ 都相切的一条直线的方程<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$x=-1$",
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_1/q14_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>记两圆圆心为 $O(0,0)$，$O_{1}(3,4)$，半径分别为 $1$，$4$. 因为 $\\lvert OO_{1}\\rvert=5=1+4$，所以两圆外切，共有三条公切线. 直线 $x=-1$ 到 $O$ 的距离为 $1$，到 $O_{1}$ 的距离为 $\\lvert 3-(-1)\\rvert=4$，恰等于两圆半径，所以该直线与两圆都相切. 故可填 $x=-1$.</p>"
         },
         {
           "num": 15,
-          "body": "若曲线 $y=(x+a)\\mathrm{e}^x$ 有两条过坐标原点的切线，则 $a$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\((-\\infty,-4)\\cup(0,+\\infty)\\)",
-          "solution": "设切点横坐标为 $x_0$，记 $f(x)=(x+a)\\mathrm{e}^x$，则 $f'(x)=(x+a+1)\\mathrm{e}^x$. 切线方程为 $y-(x_0+a)\\mathrm{e}^{x_0}=(x_0+a+1)\\mathrm{e}^{x_0}(x-x_0)$. 因为切线过原点，所以 $-(x_0+a)\\mathrm{e}^{x_0}=-(x_0+a+1)\\mathrm{e}^{x_0}x_0$. 又 $\\mathrm{e}^{x_0}\\ne 0$，约去后得 $x_0+a=(x_0+a+1)x_0$，整理为 $x_0^2+ax_0-a=0$. 若 $x_0=1$，上式化为 $1=0$，不可能，所以切点横坐标满足 $x_0\\ne 1$. 由 $x_0+a=(x_0+a+1)x_0$ 得 $a=\\frac{x_0^2}{1-x_0}$，进而 $x_0+a+1=\\frac{1}{1-x_0}$，故切线斜率可记为 $m(x_0)=\\frac{\\mathrm{e}^{x_0}}{1-x_0}$. 该二次方程的判别式为 $\\Delta=a^2+4a$. 当 $\\Delta>0$，即 $a<-4$ 或 $a>0$ 时，方程有两个不同实根 $r_1\\ne r_2$，且乘积为 $-a\\ne 0$，故两根均非零，每根给出一条过原点的切线. 下证两根给出的切线不同. 当 $a>0$ 时，两根一正一负；正根 $r=\\frac{-a+\\sqrt{a^2+4a}}{2}<1$，因为 $\\sqrt{a^2+4a}<a+2$，故两根皆小于 $1$. 而 $m'(r)=\\frac{(2-r)\\mathrm{e}^r}{(1-r)^2}>0$（$r<1$），所以 $m$ 在 $(-\\infty,1)$ 上严格递增，两根斜率不同. 当 $a<-4$ 时，两根之和与乘积均为 $-a>4$，故两根皆大于 $1$；由 $(r_1-1)(r_2-1)=r_1r_2-(r_1+r_2)+1=1$，记 $t_1=r_1-1$，$t_2=r_2-1$，则 $t_1t_2=1$ 且 $t_1\\ne 1$. 若两切线斜率相等，则 $\\frac{\\mathrm{e}^{r_1}}{1-r_1}=\\frac{\\mathrm{e}^{r_2}}{1-r_2}$，即 $\\frac{\\mathrm{e}^{t_1}}{t_1}=\\frac{\\mathrm{e}^{t_2}}{t_2}$，结合 $t_2=\\frac{1}{t_1}$ 得 $t_1-\\frac{1}{t_1}=2\\ln t_1$. 记 $\\eta(t)=t-\\frac1t-2\\ln t$（$t>0$，$t\\ne 1$），则 $\\eta'(t)=\\left(1-\\frac1t\\right)^2>0$，所以 $\\eta$ 在 $(0,1)$ 和 $(1,+\\infty)$ 上分别严格递增，又 $\\eta(1)=0$，故 $t-\\frac1t=2\\ln t$ 只有解 $t=1$，与 $t_1\\ne 1$ 矛盾. 因此两根斜率不同，给出两条不同切线. 反之当 $\\Delta\\le 0$ 时二次方程至多一根，至多一条过原点的切线. 故取值范围是 $(-\\infty,-4)\\cup(0,+\\infty)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若曲线 $y=(x+a)\\mathrm{e}^{x}$ 有两条过坐标原点的切线，则 $a$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(-\\infty,-4)\\cup(0,+\\infty)$",
+          "solution": "设切点横坐标为 $x_{0}$，记 $f(x)=(x+a)\\mathrm{e}^{x}$，则 $f'(x)=(x+a+1)\\mathrm{e}^{x}$. 切线方程为 $y-(x_{0}+a)\\mathrm{e}^{x_0}=(x_{0}+a+1)\\mathrm{e}^{x_0}(x-x_{0})$. 因为切线过原点，所以 $-(x_{0}+a)\\mathrm{e}^{x_0}=-(x_{0}+a+1)\\mathrm{e}^{x_0}x_{0}$. 又 $\\mathrm{e}^{x_0}\\ne 0$，约去后得 $x_{0}+a=(x_{0}+a+1)x_{0}$，整理为 $x_{0}^{2}+ax_{0}-a=0$. 若 $x_{0}=1$，上式化为 $1=0$，不可能，所以切点横坐标满足 $x_{0}\\ne 1$. 由 $x_{0}+a=(x_{0}+a+1)x_{0}$ 得 $a=\\frac{x_{0}^{2}}{1-x_{0}}$，进而 $x_{0}+a+1=\\frac{1}{1-x_{0}}$，故切线斜率可记为 $m(x_{0})=\\frac{\\mathrm{e}^{x_0}}{1-x_{0}}$. 该二次方程的判别式为 $\\Delta=a^{2}+4a$. 当 $\\Delta>0$，即 $a&#x3C;-4$ 或 $a>0$ 时，方程有两个不同实根 $r_{1}\\ne r_{2}$，且乘积为 $-a\\ne 0$，故两根均非零，每根给出一条过原点的切线. 下证两根给出的切线不同. 当 $a>0$ 时，两根一正一负；正根 $r=\\frac{-a+\\sqrt{a^{2}+4a}}{2}&#x3C;1$，因为 $\\sqrt{a^{2}+4a}&#x3C;a+2$，故两根皆小于 $1$. 而 $m'(r)=\\frac{(2-r)\\mathrm{e}^{r}}{(1-r)^{2}}>0$（$r&#x3C;1$），所以 $m$ 在 $(-\\infty,1)$ 上严格递增，两根斜率不同. 当 $a&#x3C;-4$ 时，两根之和与乘积均为 $-a>4$，故两根皆大于 $1$；由 $(r_{1}-1)(r_{2}-1)=r_{1}r_{2}-(r_{1}+r_{2})+1=1$，记 $t_{1}=r_{1}-1$，$t_{2}=r_{2}-1$，则 $t_{1}t_{2}=1$ 且 $t_{1}\\ne 1$. 若两切线斜率相等，则 $\\frac{\\mathrm{e}^{r_1}}{1-r_{1}}=\\frac{\\mathrm{e}^{r_2}}{1-r_{2}}$，即 $\\frac{\\mathrm{e}^{t_1}}{t_{1}}=\\frac{\\mathrm{e}^{t_2}}{t_{2}}$，结合 $t_{2}=\\frac{1}{t_{1}}$ 得 $t_{1}-\\frac{1}{t_{1}}=2\\ln t_{1}$. 记 $\\eta(t)=t-\\frac{1}{t}-2\\ln t$（$t>0$，$t\\ne 1$），则 $\\eta'(t)=\\left(1-\\frac{1}{t}\\right)^{2}>0$，所以 $\\eta$ 在 $(0,1)$ 和 $(1,+\\infty)$ 上分别严格递增，又 $\\eta(1)=0$，故 $t-\\frac{1}{t}=2\\ln t$ 只有解 $t=1$，与 $t_{1}\\ne 1$ 矛盾. 因此两根斜率不同，给出两条不同切线. 反之当 $\\Delta\\le 0$ 时二次方程至多一根，至多一条过原点的切线. 故取值范围是 $(-\\infty,-4)\\cup(0,+\\infty)$."
         },
         {
           "num": 16,
-          "body": "已知椭圆 $C:\\ \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$），$C$ 的上顶点为 $A$，两个焦点为 $F_1$，$F_2$，离心率为 $\\frac12$. 过 $F_1$ 且垂直于 $AF_2$ 的直线与 $C$ 交于 $D$，$E$ 两点，$|DE|=6$，则 $\\triangle ADE$ 的周长是 _______ {}.",
-          "choices": [],
-          "answer": "\\(13\\)",
-          "solution": "因为离心率 $e=\\frac{c}{a}=\\frac{1}{2}$，所以 $a=2c$，$b^2=a^2-c^2=3c^2$，椭圆方程为 $\\frac{x^2}{4c^2}+\\frac{y^2}{3c^2}=1$. 记上顶点为 $A(0,b)$，焦点为 $F_1(-c,0)$，$F_2(c,0)$. 因为 $\\lvert AF_1\\rvert=\\lvert AF_2\\rvert=a$ 且 $\\lvert F_1F_2\\rvert=2c=a$，所以 $\\triangle AF_1F_2$ 为边长 $a$ 的等边三角形. 过 $F_1$ 且垂直于 $AF_2$ 的直线即等边三角形从 $F_1$ 向对边 $AF_2$ 作的高，也是 $AF_2$ 的垂直平分线，故其上任一点到 $A$ 与到 $F_2$ 距离相等，特别有 $\\lvert AD\\rvert=\\lvert DF_2\\rvert$，$\\lvert AE\\rvert=\\lvert EF_2\\rvert$. 因为 $AF_2$ 斜率为 $-\\frac{b}{c}=-\\sqrt{3}$，所以 $DE$ 斜率为 $\\frac{1}{\\sqrt{3}}$，方程为 $y=\\frac{1}{\\sqrt{3}}(x+c)$. 联立椭圆方程得 $\\frac{x^2}{4c^2}+\\frac{(x+c)^2}{9c^2}=1$，即 $13x^2+8cx-32c^2=0$. 设 $D$，$E$ 横坐标为 $x_D$，$x_E$，则 $x_D+x_E=-\\frac{8c}{13}$，$x_Dx_E=-\\frac{32c^2}{13}$. 由弦长公式得 $\\lvert DE\\rvert=\\sqrt{1+\\frac{1}{3}}\\lvert x_D-x_E\\rvert=\\frac{2}{\\sqrt{3}}\\sqrt{(x_D+x_E)^2-4x_Dx_E}=\\frac{2}{\\sqrt{3}}\\sqrt{\\frac{64c^2}{169}+\\frac{128c^2}{13}}=\\frac{48}{13}c$. 由 $\\lvert DE\\rvert=6$ 得 $c=\\frac{13}{8}$，从而 $a=2c=\\frac{13}{4}$. 因为 $F_1$ 在椭圆内，$D$，$E$ 分居 $F_1$ 两侧，所以 $\\lvert DE\\rvert=\\lvert DF_1\\rvert+\\lvert EF_1\\rvert$. 于是 $\\triangle ADE$ 周长等于 $(\\lvert AD\\rvert+\\lvert AE\\rvert)+\\lvert DE\\rvert=(\\lvert DF_2\\rvert+\\lvert DF_1\\rvert)+(\\lvert EF_2\\rvert+\\lvert EF_1\\rvert)=2a+2a=4a=13$. 故答案为 $13$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知椭圆 $C:\\ \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$（$a>b>0$），$C$ 的上顶点为 $A$，两个焦点为 $F_{1}$，$F_{2}$，离心率为 $\\frac{1}{2}$. 过 $F_{1}$ 且垂直于 $AF_{2}$ 的直线与 $C$ 交于 $D$，$E$ 两点，$|DE|=6$，则 $\\triangle ADE$ 的周长是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$13$",
+          "solution": "因为离心率 $e=\\frac{c}{a}=\\frac{1}{2}$，所以 $a=2c$，$b^{2}=a^{2}-c^{2}=3c^{2}$，椭圆方程为 $\\frac{x^{2}}{4c^{2}}+\\frac{y^{2}}{3c^{2}}=1$. 记上顶点为 $A(0,b)$，焦点为 $F_{1}(-c,0)$，$F_{2}(c,0)$. 因为 $\\lvert AF_{1}\\rvert=\\lvert AF_{2}\\rvert=a$ 且 $\\lvert F_{1}F_{2}\\rvert=2c=a$，所以 $\\triangle AF_{1}F_{2}$ 为边长 $a$ 的等边三角形. 过 $F_{1}$ 且垂直于 $AF_{2}$ 的直线即等边三角形从 $F_{1}$ 向对边 $AF_{2}$ 作的高，也是 $AF_{2}$ 的垂直平分线，故其上任一点到 $A$ 与到 $F_{2}$ 距离相等，特别有 $\\lvert AD\\rvert=\\lvert DF_{2}\\rvert$，$\\lvert AE\\rvert=\\lvert EF_{2}\\rvert$. 因为 $AF_{2}$ 斜率为 $-\\frac{b}{c}=-\\sqrt{3}$，所以 $DE$ 斜率为 $\\frac{1}{\\sqrt{3}}$，方程为 $y=\\frac{1}{\\sqrt{3}}(x+c)$. 联立椭圆方程得 $\\frac{x^{2}}{4c^{2}}+\\frac{(x+c)^{2}}{9c^{2}}=1$，即 $13x^{2}+8cx-32c^{2}=0$. 设 $D$，$E$ 横坐标为 $x_{D}$，$x_{E}$，则 $x_{D}+x_{E}=-\\frac{8c}{13}$，$x_{D}x_{E}=-\\frac{32c^{2}}{13}$. 由弦长公式得 $\\lvert DE\\rvert=\\sqrt{1+\\frac{1}{3}}\\lvert x_{D}-x_{E}\\rvert=\\frac{2}{\\sqrt{3}}\\sqrt{(x_{D}+x_{E})^{2}-4x_{D}x_{E}}=\\frac{2}{\\sqrt{3}}\\sqrt{\\frac{64c^{2}}{169}+\\frac{128c^{2}}{13}}=\\frac{48}{13}c$. 由 $\\lvert DE\\rvert=6$ 得 $c=\\frac{13}{8}$，从而 $a=2c=\\frac{13}{4}$. 因为 $F_{1}$ 在椭圆内，$D$，$E$ 分居 $F_{1}$ 两侧，所以 $\\lvert DE\\rvert=\\lvert DF_{1}\\rvert+\\lvert EF_{1}\\rvert$. 于是 $\\triangle ADE$ 周长等于 $(\\lvert AD\\rvert+\\lvert AE\\rvert)+\\lvert DE\\rvert=(\\lvert DF_{2}\\rvert+\\lvert DF_{1}\\rvert)+(\\lvert EF_{2}\\rvert+\\lvert EF_{1}\\rvert)=2a+2a=4a=13$. 故答案为 $13$."
         }
       ]
     },
@@ -363,60 +196,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "记 $S_n$ 为数列 $\\{a_n\\}$ 的前 $n$ 项和，已知 $a_1=1$，数列 $\\left\\{\\frac{S_n}{a_n}\\right\\}$ 是公差为 $\\frac13$ 的等差数列.\r\n\r\n\n(1) 求 $\\{a_n\\}$ 的通项公式；\n\n(2) 证明：$\\frac1{a_1}+\\frac1{a_2}+\\cdots+\\frac1{a_n}<2$.",
-          "choices": [],
+          "body": "<p>记 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和，已知 $a_{1}=1$，数列 $\\left\\{\\frac{S_{n}}{a_{n}}\\right\\}$ 是公差为 $\\frac{1}{3}$ 的等差数列.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>证明：$\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\cdots+\\frac{1}{a_{n}}&#x3C;2$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为\r\n$\\frac{S_1}{a_1}=1$，且 $\\left\\{\\frac{S_n}{a_n}\\right\\}$ 是公差为 $\\frac13$ 的等差数列，所以\r\n$\\frac{S_n}{a_n}=1+\\frac{n-1}{3}=\\frac{n+2}{3}$.\r\n于是\r\n$S_n=\\frac{n+2}{3}a_n$.\r\n当 $n\\ge 2$ 时，$S_{n-1}=\\frac{n+1}{3}a_{n-1}$，所以\r\n$a_n=S_n-S_{n-1}=\\frac{n+2}{3}a_n-\\frac{n+1}{3}a_{n-1}$，整理得\r\n$(n-1)a_n=(n+1)a_{n-1}$.\r\n因为 $n\\ge 2$ 时 $n-1>0$，且由 $a_1=1$ 递推，所以各 $a_n\\ne 0$，所以\r\n$\\frac{a_n}{a_{n-1}}=\\frac{n+1}{n-1}$（$n\\ge 2$）.\r\n因此\r\n$a_n=a_1\\cdot \\frac{a_2}{a_1}\\cdot \\frac{a_3}{a_2}\\cdots \\frac{a_n}{a_{n-1}}=1\\cdot \\frac31\\cdot \\frac42\\cdots \\frac{n}{n-2}\\cdot \\frac{n+1}{n-1}=\\frac{n(n+1)}{2}$.\r\n又当 $n=1$ 时，$\\frac{1\\cdot 2}{2}=1=a_1$，所以对一切正整数 $n$，$a_n=\\frac{n(n+1)}{2}$.\n\n(2) 由（1）知\r\n$\\frac1{a_n}=\\frac{2}{n(n+1)}=2\\left(\\frac1n-\\frac1{n+1}\\right)$.\r\n因此\r\n$\\frac1{a_1}+\\frac1{a_2}+\\cdots+\\frac1{a_n}=2\\sum_{k=1}^n\\left(\\frac1k-\\frac1{k+1}\\right)=2\\left(1-\\frac1{n+1}\\right)<2$.\r\n证毕.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为</p><p>$\\frac{S_{1}}{a_{1}}=1$，且 $\\left\\{\\frac{S_{n}}{a_{n}}\\right\\}$ 是公差为 $\\frac{1}{3}$ 的等差数列，所以</p><p>$\\frac{S_{n}}{a_{n}}=1+\\frac{n-1}{3}=\\frac{n+2}{3}$.</p><p>于是</p><p>$S_{n}=\\frac{n+2}{3}a_{n}$.</p><p>当 $n\\ge 2$ 时，$S_{n-1}=\\frac{n+1}{3}a_{n-1}$，所以</p><p>$a_{n}=S_{n}-S_{n-1}=\\frac{n+2}{3}a_{n}-\\frac{n+1}{3}a_{n-1}$，整理得</p><p>$(n-1)a_{n}=(n+1)a_{n-1}$.</p><p>因为 $n\\ge 2$ 时 $n-1>0$，且由 $a_{1}=1$ 递推，所以各 $a_{n}\\ne 0$，所以</p><p>$\\frac{a_{n}}{a_{n-1}}=\\frac{n+1}{n-1}$（$n\\ge 2$）.</p><p>因此</p><p>$a_{n}=a_{1}\\cdot \\frac{a_{2}}{a_{1}}\\cdot \\frac{a_{3}}{a_{2}}\\cdots \\frac{a_{n}}{a_{n-1}}=1\\cdot \\frac{3}{1}\\cdot \\frac{4}{2}\\cdots \\frac{n}{n-2}\\cdot \\frac{n+1}{n-1}=\\frac{n(n+1)}{2}$.</p><p>又当 $n=1$ 时，$\\frac{1\\cdot 2}{2}=1=a_{1}$，所以对一切正整数 $n$，$a_{n}=\\frac{n(n+1)}{2}$.</p></li><li><p>由（1）知</p><p>$\\frac{1}{a_{n}}=\\frac{2}{n(n+1)}=2\\left(\\frac{1}{n}-\\frac{1}{n+1}\\right)$.</p><p>因此</p><p>$\\frac{1}{a_{1}}+\\frac{1}{a_{2}}+\\cdots+\\frac{1}{a_{n}}=2\\sum_{k=1}^{n}\\left(\\frac{1}{k}-\\frac{1}{k+1}\\right)=2\\left(1-\\frac{1}{n+1}\\right)&#x3C;2$.</p><p>证毕.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "记 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\frac{\\cos A}{1+\\sin A}=\\frac{\\sin 2B}{1+\\cos 2B}$.\r\n\r\n\n(1) 若 $C=\\frac{2\\pi}{3}$，求 $B$；\n\n(2) 求 $\\frac{a^2+b^2}{c^2}$ 的最小值.",
-          "choices": [],
+          "body": "<p>记 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，已知 $\\frac{\\cos A}{1+\\sin A}=\\frac{\\sin 2B}{1+\\cos 2B}$.</p><ol class=\"enumerate\"><li><p>若 $C=\\frac{2\\pi}{3}$，求 $B$；</p></li><li><p>求 $\\frac{a^{2}+b^{2}}{c^{2}}$ 的最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $B\\in(0,\\pi)$ 且 $1+\\cos 2B=2\\cos^2B$，所以 $B\\ne \\frac{\\pi}{2}$，且\r\n$\\frac{\\sin 2B}{1+\\cos 2B}=\\frac{2\\sin B\\cos B}{2\\cos^2B}=\\frac{\\sin B}{\\cos B}$.\r\n所以已知条件化为\r\n$\\frac{\\cos A}{1+\\sin A}=\\frac{\\sin B}{\\cos B}$，即\r\n$\\cos A\\cos B=\\sin B(1+\\sin A)$，整理得\r\n$\\cos A\\cos B-\\sin A\\sin B=\\sin B$，即\r\n$\\cos(A+B)=\\sin B$.\r\n因为 $A+B=\\pi-C$，所以\r\n$\\sin B=-\\cos C$.\r\n当 $C=\\frac{2\\pi}{3}$ 时，\r\n$\\sin B=-\\cos\\frac{2\\pi}{3}=\\frac12$.\r\n又此时 $A+B=\\frac{\\pi}{3}$，所以 $0<B<\\frac{\\pi}{3}$，故\r\n$B=\\frac{\\pi}{6}$.\n\n(2) 由（1）已证 $\\sin B=-\\cos C>0$，因为 $B\\in(0,\\pi)$，$C\\in(0,\\pi)$，所以\r\n$\\frac{\\pi}{2}<C<\\pi$，$0<B<\\frac{\\pi}{2}$.\r\n又 $-\\cos C=\\sin\\left(C-\\frac{\\pi}{2}\\right)$，所以\r\n$\\sin B=\\sin\\left(C-\\frac{\\pi}{2}\\right)$.\r\n因为 $B\\in\\left(0,\\frac{\\pi}{2}\\right)$，$C-\\frac{\\pi}{2}\\in\\left(0,\\frac{\\pi}{2}\\right)$，而正弦函数在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上单调递增，所以\r\n$B=C-\\frac{\\pi}{2}$，即\r\n$C=\\frac{\\pi}{2}+B$.\r\n从而 $A=\\pi-B-C=\\frac{\\pi}{2}-2B$.\r\n因为 $A>0$，所以 $B<\\frac{\\pi}{4}$，结合 $B>0$ 得\r\n$B\\in\\left(0,\\frac{\\pi}{4}\\right)$，$C\\in\\left(\\frac{\\pi}{2},\\frac{3\\pi}{4}\\right)$.\r\n由正弦定理，\r\n$\\frac{a^2+b^2}{c^2}=\\frac{\\sin^2A+\\sin^2B}{\\sin^2C}$.\r\n因为 $\\sin A=\\sin\\left(\\frac{\\pi}{2}-2B\\right)=\\cos 2B$，$\\sin C=\\sin\\left(\\frac{\\pi}{2}+B\\right)=\\cos B$，所以\r\n$\\frac{a^2+b^2}{c^2}=\\frac{\\cos^22B+\\sin^2B}{\\cos^2B}$.\r\n又 $\\cos 2B=2\\cos^2B-1$，$\\sin^2B=1-\\cos^2B$，所以分子为 $\\left(2\\cos^2B-1\\right)^2+1-\\cos^2B$，即\r\n$\\frac{a^2+b^2}{c^2}=4\\cos^2B+\\frac{2}{\\cos^2B}-5$.\r\n记 $t=\\cos^2B$，因为 $B\\in\\left(0,\\frac{\\pi}{4}\\right)$，所以 $t\\in\\left(\\frac12,1\\right)$.\r\n于是 $\\frac{a^2+b^2}{c^2}=4t+\\frac{2}{t}-5$.\r\n因为 $4t>0$，$\\frac{2}{t}>0$，由均值不等式，\r\n$4t+\\frac{2}{t}\\ge 2\\sqrt{4t\\cdot \\frac{2}{t}}=2\\sqrt8=4\\sqrt2$，所以\r\n$\\frac{a^2+b^2}{c^2}\\ge 4\\sqrt2-5$.\r\n当且仅当 $4t=\\frac{2}{t}$，即 $t=\\frac{\\sqrt2}{2}$ 时取等号.\r\n因为 $\\frac12<\\frac{\\sqrt2}{2}<1$，故该 $t$ 落在 $\\left(\\frac12,1\\right)$ 内可取，对应 $B\\in\\left(0,\\frac{\\pi}{4}\\right)$ 存在.\r\n所以 $\\frac{a^2+b^2}{c^2}$ 的最小值为 $4\\sqrt2-5$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $B\\in(0,\\pi)$ 且 $1+\\cos 2B=2\\cos^{2}B$，所以 $B\\ne \\frac{\\pi}{2}$，且</p><p>$\\frac{\\sin 2B}{1+\\cos 2B}=\\frac{2\\sin B\\cos B}{2\\cos^{2}B}=\\frac{\\sin B}{\\cos B}$.</p><p>所以已知条件化为</p><p>$\\frac{\\cos A}{1+\\sin A}=\\frac{\\sin B}{\\cos B}$，即</p><p>$\\cos A\\cos B=\\sin B(1+\\sin A)$，整理得</p><p>$\\cos A\\cos B-\\sin A\\sin B=\\sin B$，即</p><p>$\\cos(A+B)=\\sin B$.</p><p>因为 $A+B=\\pi-C$，所以</p><p>$\\sin B=-\\cos C$.</p><p>当 $C=\\frac{2\\pi}{3}$ 时，</p><p>$\\sin B=-\\cos\\frac{2\\pi}{3}=\\frac{1}{2}$.</p><p>又此时 $A+B=\\frac{\\pi}{3}$，所以 $0&#x3C;B&#x3C;\\frac{\\pi}{3}$，故</p><p>$B=\\frac{\\pi}{6}$.</p></li><li><p>由（1）已证 $\\sin B=-\\cos C>0$，因为 $B\\in(0,\\pi)$，$C\\in(0,\\pi)$，所以</p><p>$\\frac{\\pi}{2}&#x3C;C&#x3C;\\pi$，$0&#x3C;B&#x3C;\\frac{\\pi}{2}$.</p><p>又 $-\\cos C=\\sin\\left(C-\\frac{\\pi}{2}\\right)$，所以</p><p>$\\sin B=\\sin\\left(C-\\frac{\\pi}{2}\\right)$.</p><p>因为 $B\\in\\left(0,\\frac{\\pi}{2}\\right)$，$C-\\frac{\\pi}{2}\\in\\left(0,\\frac{\\pi}{2}\\right)$，而正弦函数在 $\\left(0,\\frac{\\pi}{2}\\right)$ 上单调递增，所以</p><p>$B=C-\\frac{\\pi}{2}$，即</p><p>$C=\\frac{\\pi}{2}+B$.</p><p>从而 $A=\\pi-B-C=\\frac{\\pi}{2}-2B$.</p><p>因为 $A>0$，所以 $B&#x3C;\\frac{\\pi}{4}$，结合 $B>0$ 得</p><p>$B\\in\\left(0,\\frac{\\pi}{4}\\right)$，$C\\in\\left(\\frac{\\pi}{2},\\frac{3\\pi}{4}\\right)$.</p><p>由正弦定理，</p><p>$\\frac{a^{2}+b^{2}}{c^{2}}=\\frac{\\sin^{2}A+\\sin^{2}B}{\\sin^{2}C}$.</p><p>因为 $\\sin A=\\sin\\left(\\frac{\\pi}{2}-2B\\right)=\\cos 2B$，$\\sin C=\\sin\\left(\\frac{\\pi}{2}+B\\right)=\\cos B$，所以</p><p>$\\frac{a^{2}+b^{2}}{c^{2}}=\\frac{\\cos^{2}2B+\\sin^{2}B}{\\cos^{2}B}$.</p><p>又 $\\cos 2B=2\\cos^{2}B-1$，$\\sin^{2}B=1-\\cos^{2}B$，所以分子为 $\\left(2\\cos^{2}B-1\\right)^{2}+1-\\cos^{2}B$，即</p><p>$\\frac{a^{2}+b^{2}}{c^{2}}=4\\cos^{2}B+\\frac{2}{\\cos^{2}B}-5$.</p><p>记 $t=\\cos^{2}B$，因为 $B\\in\\left(0,\\frac{\\pi}{4}\\right)$，所以 $t\\in\\left(\\frac{1}{2},1\\right)$.</p><p>于是 $\\frac{a^{2}+b^{2}}{c^{2}}=4t+\\frac{2}{t}-5$.</p><p>因为 $4t>0$，$\\frac{2}{t}>0$，由均值不等式，</p><p>$4t+\\frac{2}{t}\\ge 2\\sqrt{4t\\cdot \\frac{2}{t}}=2\\sqrt{8}=4\\sqrt{2}$，所以</p><p>$\\frac{a^{2}+b^{2}}{c^{2}}\\ge 4\\sqrt{2}-5$.</p><p>当且仅当 $4t=\\frac{2}{t}$，即 $t=\\frac{\\sqrt{2}}{2}$ 时取等号.</p><p>因为 $\\frac{1}{2}&#x3C;\\frac{\\sqrt{2}}{2}&#x3C;1$，故该 $t$ 落在 $\\left(\\frac{1}{2},1\\right)$ 内可取，对应 $B\\in\\left(0,\\frac{\\pi}{4}\\right)$ 存在.</p><p>所以 $\\frac{a^{2}+b^{2}}{c^{2}}$ 的最小值为 $4\\sqrt{2}-5$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，直三棱柱 $ABC-A_1B_1C_1$ 的体积为 $4$，$\\triangle A_1BC$ 的面积为 $2\\sqrt2$.\r\n\r\n\n(1) 求 $A$ 到平面 $A_1BC$ 的距离；\n\n(2) 设 $D$ 为 $A_1C$ 的中点，$AA_1=AB$，平面 $A_1BC\\perp$ 平面 $ABB_1A_1$，求二面角 $A-BD-C$ 的正弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/new_gaokao_paper_1/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，直三棱柱 $ABC-A_{1}B_{1}C_{1}$ 的体积为 $4$，$\\triangle A_{1}BC$ 的面积为 $2\\sqrt{2}$.</p><ol class=\"enumerate\"><li><p>求 $A$ 到平面 $A_{1}BC$ 的距离；</p></li><li><p>设 $D$ 为 $A_{1}C$ 的中点，$AA_{1}=AB$，平面 $A_{1}BC\\perp$ 平面 $ABB_{1}A_{1}$，求二面角 $A-BD-C$ 的正弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_1/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2022/img/new_gaokao_paper_1/q19_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\n(1) 设点 $A$ 到平面 $A_1BC$ 的距离为 $h$，则\r\n$V_{A-A_1BC}=\\frac13S_{\\triangle A_1BC}\\cdot h=\\frac13\\cdot 2\\sqrt2\\cdot h=\\frac{2\\sqrt2}{3}h$.\r\n又三棱锥 $A-A_1BC$ 与三棱锥 $A_1-ABC$ 为同一几何体，而\r\n$V_{A_1-ABC}=\\frac13V_{ABC-A_1B_1C_1}=\\frac43$，所以\r\n$V_{A-A_1BC}=\\frac43$.\r\n解得 $h=\\sqrt2$.\r\n所以点 $A$ 到平面 $A_1BC$ 的距离为 $\\sqrt2$.\n\n(2) 取 $A_1B$ 的中点 $E$，连接 $AE$，因为 $AA_1=AB$，所以\r\n$AE\\perp A_1B$.\r\n又平面 $A_1BC\\perp$ 平面 $ABB_1A_1$，交线为 $A_1B$，且 $AE\\subset$ 平面 $ABB_1A_1$，所以\r\n$AE\\perp$ 平面 $A_1BC$.\r\n因此 $AE$ 即为点 $A$ 到平面 $A_1BC$ 的距离，由（1）得 $AE=\\sqrt2$.\r\n在直三棱柱中，$BB_1\\perp$ 平面 $ABC$，因为 $BC\\subset$ 平面 $ABC$，所以 $BB_1\\perp BC$.\r\n又 $AE\\perp$ 平面 $A_1BC$，$BC\\subset$ 平面 $A_1BC$，所以 $AE\\perp BC$.\r\n因为 $AE$，$BB_1\\subset$ 平面 $ABB_1A_1$ 且相交，所以\r\n$BC\\perp$ 平面 $ABB_1A_1$.\r\n因此 $BC\\perp AB$，$BC\\perp BB_1$，而 $AB\\perp BB_1$，故 $BC$，$BA$，$BB_1$ 两两垂直.\r\n以 $B$ 为原点，分别以 $BC$，$BA$，$BB_1$ 为 $x$ 轴、$y$ 轴、$z$ 轴建立空间直角坐标系.\r\n因为 $ABB_1A_1$ 为 $AA_1=AB$ 的矩形，故为正方形，所以 $A_1B=\\sqrt2AB$，$AE=\\frac12A_1B=\\frac{\\sqrt2}{2}AB$.\r\n由 $AE=\\sqrt2$ 得 $AB=2$，所以 $AA_1=2$，$A_1B=2\\sqrt2$.\r\n又 $BC\\perp$ 平面 $ABB_1A_1$，所以 $BC\\perp A_1B$，故 $S_{\\triangle A_1BC}=\\frac12A_1B\\cdot BC=2\\sqrt2$，解得 $BC=2$.\r\n则 $A(0,2,0)$，$A_1(0,2,2)$，$B(0,0,0)$，$C(2,0,0)$，所以 $A_1C$ 的中点 $D(1,1,1)$.\r\n则 $\\overrightarrow{BD}=(1,1,1)$，$\\overrightarrow{BA}=(0,2,0)$，$\\overrightarrow{BC}=(2,0,0)$.\r\n设平面 $ABD$ 的一个法向量 $\\mathbf{m}=(x,y,z)$，则由 $\\mathbf{m}\\cdot \\overrightarrow{BD}=x+y+z=0$ 和 $\\mathbf{m}\\cdot \\overrightarrow{BA}=2y=0$ 可取 $\\mathbf{m}=(1,0,-1)$.\r\n设平面 $BDC$ 的一个法向量 $\\mathbf{n}=(a,b,c)$，则由 $\\mathbf{n}\\cdot \\overrightarrow{BD}=a+b+c=0$ 和 $\\mathbf{n}\\cdot \\overrightarrow{BC}=2a=0$ 可取 $\\mathbf{n}=(0,1,-1)$.\r\n则 $\\cos\\langle\\mathbf{m},\\mathbf{n}\\rangle=\\frac{\\mathbf{m}\\cdot \\mathbf{n}}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{1}{\\sqrt2\\times \\sqrt2}=\\frac12$，所以二面角 $A-BD-C$ 的正弦值为 $\\sqrt{1-\\left(\\frac12\\right)^2}=\\frac{\\sqrt3}{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_gaokao_paper_1/q19_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><ol class=\"enumerate\"><li><p>设点 $A$ 到平面 $A_{1}BC$ 的距离为 $h$，则</p><p>$V_{A-A_1BC}=\\frac{1}{3}S_{\\triangle A_1BC}\\cdot h=\\frac{1}{3}\\cdot 2\\sqrt{2}\\cdot h=\\frac{2\\sqrt{2}}{3}h$.</p><p>又三棱锥 $A-A_{1}BC$ 与三棱锥 $A_{1}-ABC$ 为同一几何体，而</p><p>$V_{A_1-ABC}=\\frac{1}{3}V_{ABC-A_1B_1C_1}=\\frac{4}{3}$，所以</p><p>$V_{A-A_1BC}=\\frac{4}{3}$.</p><p>解得 $h=\\sqrt{2}$.</p><p>所以点 $A$ 到平面 $A_{1}BC$ 的距离为 $\\sqrt{2}$.</p></li><li><p>取 $A_{1}B$ 的中点 $E$，连接 $AE$，因为 $AA_{1}=AB$，所以</p><p>$AE\\perp A_{1}B$.</p><p>又平面 $A_{1}BC\\perp$ 平面 $ABB_{1}A_{1}$，交线为 $A_{1}B$，且 $AE\\subset$ 平面 $ABB_{1}A_{1}$，所以</p><p>$AE\\perp$ 平面 $A_{1}BC$.</p><p>因此 $AE$ 即为点 $A$ 到平面 $A_{1}BC$ 的距离，由（1）得 $AE=\\sqrt{2}$.</p><p>在直三棱柱中，$BB_{1}\\perp$ 平面 $ABC$，因为 $BC\\subset$ 平面 $ABC$，所以 $BB_{1}\\perp BC$.</p><p>又 $AE\\perp$ 平面 $A_{1}BC$，$BC\\subset$ 平面 $A_{1}BC$，所以 $AE\\perp BC$.</p><p>因为 $AE$，$BB_{1}\\subset$ 平面 $ABB_{1}A_{1}$ 且相交，所以</p><p>$BC\\perp$ 平面 $ABB_{1}A_{1}$.</p><p>因此 $BC\\perp AB$，$BC\\perp BB_{1}$，而 $AB\\perp BB_{1}$，故 $BC$，$BA$，$BB_{1}$ 两两垂直.</p><p>以 $B$ 为原点，分别以 $BC$，$BA$，$BB_{1}$ 为 $x$ 轴、$y$ 轴、$z$ 轴建立空间直角坐标系.</p><p>因为 $ABB_{1}A_{1}$ 为 $AA_{1}=AB$ 的矩形，故为正方形，所以 $A_{1}B=\\sqrt{2}AB$，$AE=\\frac{1}{2}A_{1}B=\\frac{\\sqrt{2}}{2}AB$.</p><p>由 $AE=\\sqrt{2}$ 得 $AB=2$，所以 $AA_{1}=2$，$A_{1}B=2\\sqrt{2}$.</p><p>又 $BC\\perp$ 平面 $ABB_{1}A_{1}$，所以 $BC\\perp A_{1}B$，故 $S_{\\triangle A_1BC}=\\frac{1}{2}A_{1}B\\cdot BC=2\\sqrt{2}$，解得 $BC=2$.</p><p>则 $A(0,2,0)$，$A_{1}(0,2,2)$，$B(0,0,0)$，$C(2,0,0)$，所以 $A_{1}C$ 的中点 $D(1,1,1)$.</p><p>则 $\\overrightarrow{BD}=(1,1,1)$，$\\overrightarrow{BA}=(0,2,0)$，$\\overrightarrow{BC}=(2,0,0)$.</p><p>设平面 $ABD$ 的一个法向量 $\\mathbf{m}=(x,y,z)$，则由 $\\mathbf{m}\\cdot \\overrightarrow{BD}=x+y+z=0$ 和 $\\mathbf{m}\\cdot \\overrightarrow{BA}=2y=0$ 可取 $\\mathbf{m}=(1,0,-1)$.</p><p>设平面 $BDC$ 的一个法向量 $\\mathbf{n}=(a,b,c)$，则由 $\\mathbf{n}\\cdot \\overrightarrow{BD}=a+b+c=0$ 和 $\\mathbf{n}\\cdot \\overrightarrow{BC}=2a=0$ 可取 $\\mathbf{n}=(0,1,-1)$.</p><p>则 $\\cos\\langle\\mathbf{m},\\mathbf{n}\\rangle=\\frac{\\mathbf{m}\\cdot \\mathbf{n}}{|\\mathbf{m}||\\mathbf{n}|}=\\frac{1}{\\sqrt{2}\\times \\sqrt{2}}=\\frac{1}{2}$，所以二面角 $A-BD-C$ 的正弦值为 $\\sqrt{1-\\left(\\frac{1}{2}\\right)^{2}}=\\frac{\\sqrt{3}}{2}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "一医疗团队为研究某地的一种地方性疾病与当地居民的卫生习惯（卫生习惯分为良好和不够良好两类）的关系，在已患该疾病的病例中随机调查了 $100$ 例（称为病例组），同时在未患该疾病的人群中随机调查了 $100$ 人（称为对照组），得到如下数据：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|}\r\n\\hline\r\n & 不够良好 & 良好 \\\\\r\n\\hline\r\n病例组 & 40 & 60 \\\\\r\n\\hline\r\n对照组 & 10 & 90 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 能否有 $99\\%$ 的把握认为患该疾病群体与未患该疾病群体的卫生习惯有差异？\n\n(2) 从该地的人群中任选一人，$A$ 表示事件“选到的人卫生习惯不够良好”，$B$ 表示事件“选到的人患有该疾病”. $\\frac{P(B\\mid A)}{P(\\overline B\\mid A)}$ 与 $\\frac{P(B\\mid \\overline A)}{P(\\overline B\\mid \\overline A)}$ 的比值是卫生习惯不够良好对患该疾病风险程度的一项度量指标，记该指标为 $R$.\r\n\r\n\\begin{enumerate}\n\n(3) 证明：$R=\\frac{P(B\\mid A)}{P(\\overline B\\mid A)}\\div \\frac{P(B\\mid \\overline A)}{P(\\overline B\\mid \\overline A)}=\\frac{P(A\\mid B)}{P(\\overline A\\mid B)}\\cdot \\frac{P(\\overline A\\mid \\overline B)}{P(A\\mid \\overline B)};$\n\n(4) 利用该调查数据，给出 $P(A\\mid B)$，$P(A\\mid \\overline B)$ 的估计值，并利用（1）的结果给出 $R$ 的估计值.\n\r\n\r\n附：$K^2=\\frac{n(ad-bc)^2}{(a+b)(c+d)(a+c)(b+d)}$，\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|}\r\n\\hline\r\n$P(K^2\\ge k)$ & 0.050 & 0.010 & 0.001 \\\\\r\n\\hline\r\n$k$ & 3.841 & 6.635 & 10.828 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\\end{enumerate}",
-          "choices": [],
+          "body": "<p>一医疗团队为研究某地的一种地方性疾病与当地居民的卫生习惯（卫生习惯分为良好和不够良好两类）的关系，在已患该疾病的病例中随机调查了 $100$ 例（称为病例组），同时在未患该疾病的人群中随机调查了 $100$ 人（称为对照组），得到如下数据：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> 不够良好 </td><td style=\"text-align: center; border-right: 1px solid\"> 良好 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>病例组 </td><td style=\"text-align: center; border-right: 1px solid\"> 40 </td><td style=\"text-align: center; border-right: 1px solid\"> 60 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>对照组 </td><td style=\"text-align: center; border-right: 1px solid\"> 10 </td><td style=\"text-align: center; border-right: 1px solid\"> 90 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>能否有 $99\\%$ 的把握认为患该疾病群体与未患该疾病群体的卫生习惯有差异？</p></li><li><p>从该地的人群中任选一人，$A$ 表示事件“选到的人卫生习惯不够良好”，$B$ 表示事件“选到的人患有该疾病”. $\\frac{P(B\\mid A)}{P(\\overline B\\mid A)}$ 与 $\\frac{P(B\\mid \\overline A)}{P(\\overline B\\mid \\overline A)}$ 的比值是卫生习惯不够良好对患该疾病风险程度的一项度量指标，记该指标为 $R$.</p><p></p><ol class=\"enumerate\"><li><p>证明：$R=\\frac{P(B\\mid A)}{P(\\overline B\\mid A)}\\div \\frac{P(B\\mid \\overline A)}{P(\\overline B\\mid \\overline A)}=\\frac{P(A\\mid B)}{P(\\overline A\\mid B)}\\cdot \\frac{P(\\overline A\\mid \\overline B)}{P(A\\mid \\overline B)};$</p></li><li><p>利用该调查数据，给出 $P(A\\mid B)$，$P(A\\mid \\overline B)$ 的估计值，并利用（1）的结果给出 $R$ 的估计值.</p></li></ol><p></p><p>附：$K^{2}=\\frac{n(ad-bc)^{2}}{(a+b)(c+d)(a+c)(b+d)}$，</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$P(K^{2}\\ge k)$ </td><td style=\"text-align: center; border-right: 1px solid\"> 0.050 </td><td style=\"text-align: center; border-right: 1px solid\"> 0.010 </td><td style=\"text-align: center; border-right: 1px solid\"> 0.001 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$k$ </td><td style=\"text-align: center; border-right: 1px solid\"> 3.841 </td><td style=\"text-align: center; border-right: 1px solid\"> 6.635 </td><td style=\"text-align: center; border-right: 1px solid\"> 10.828 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 补全列联表：\r\n{\\centering\r\n\\begin{tabular}{|c|c|c|c|}\r\n\\hline\r\n& 不够良好 & 良好 & 合计 \\\\\r\n\\hline\r\n病例组 & 40 & 60 & 100 \\\\\r\n\\hline\r\n对照组 & 10 & 90 & 100 \\\\\r\n\\hline\r\n合计 & 50 & 150 & 200 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\par}\r\n因为 $40\\times 90-10\\times 60=3000$，所以\r\n$K^2=\\frac{200(40\\times 90-10\\times 60)^2}{100\\times 100\\times 50\\times 150}=24$.\r\n因为 $24>6.635$，所以有 $99\\%$ 的把握认为两类人群的卫生习惯有差异.\n\n(2) \\begin{enumerate}\n\n(3) 证明：\r\n$R=\\frac{P(B\\mid A)}{P(\\overline B\\mid A)}\\div \\frac{P(B\\mid \\overline A)}{P(\\overline B\\mid \\overline A)}=\\frac{\\frac{P(AB)}{P(A)}}{\\frac{P(A\\overline B)}{P(A)}}\\div \\frac{\\frac{P(\\overline AB)}{P(\\overline A)}}{\\frac{P(\\overline A\\overline B)}{P(\\overline A)}}=\\frac{P(AB)}{P(A\\overline B)}\\cdot \\frac{P(\\overline A\\overline B)}{P(\\overline AB)}=\\frac{P(A\\mid B)}{P(\\overline A\\mid B)}\\cdot \\frac{P(\\overline A\\mid \\overline B)}{P(A\\mid \\overline B)}$.\n\n(4) 由调查数据估计 $P(A\\mid B)=\\frac{40}{100}=\\frac25$，$P(A\\mid \\overline B)=\\frac{10}{100}=\\frac1{10}$.\r\n于是 $P(\\overline A\\mid B)=\\frac35$，$P(\\overline A\\mid \\overline B)=\\frac9{10}$.\r\n代入（1）得 $R=\\frac{\\frac25}{\\frac35}\\cdot \\frac{\\frac9{10}}{\\frac1{10}}=6$.\n\r\n\\end{enumerate}",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>补全列联表：</p><p><span class=\"macro macro-centering\"></span><br></p><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> 不够良好 </td><td style=\"text-align: center; border-right: 1px solid\"> 良好 </td><td style=\"text-align: center; border-right: 1px solid\"> 合计 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>病例组 </td><td style=\"text-align: center; border-right: 1px solid\"> 40 </td><td style=\"text-align: center; border-right: 1px solid\"> 60 </td><td style=\"text-align: center; border-right: 1px solid\"> 100 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>对照组 </td><td style=\"text-align: center; border-right: 1px solid\"> 10 </td><td style=\"text-align: center; border-right: 1px solid\"> 90 </td><td style=\"text-align: center; border-right: 1px solid\"> 100 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>合计 </td><td style=\"text-align: center; border-right: 1px solid\"> 50 </td><td style=\"text-align: center; border-right: 1px solid\"> 150 </td><td style=\"text-align: center; border-right: 1px solid\"> 200 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table><br><span class=\"macro macro-par\"></span><p></p><p>因为 $40\\times 90-10\\times 60=3000$，所以</p><p>$K^{2}=\\frac{200(40\\times 90-10\\times 60)^{2}}{100\\times 100\\times 50\\times 150}=24$.</p><p>因为 $24>6.635$，所以有 $99\\%$ 的把握认为两类人群的卫生习惯有差异.</p></li><li><p></p><ol class=\"enumerate\"><li><p>证明：</p><p>$R=\\frac{P(B\\mid A)}{P(\\overline B\\mid A)}\\div \\frac{P(B\\mid \\overline A)}{P(\\overline B\\mid \\overline A)}=\\frac{\\frac{P(AB)}{P(A)}}{\\frac{P(A\\overline B)}{P(A)}}\\div \\frac{\\frac{P(\\overline AB)}{P(\\overline A)}}{\\frac{P(\\overline A\\overline B)}{P(\\overline A)}}=\\frac{P(AB)}{P(A\\overline B)}\\cdot \\frac{P(\\overline A\\overline B)}{P(\\overline AB)}=\\frac{P(A\\mid B)}{P(\\overline A\\mid B)}\\cdot \\frac{P(\\overline A\\mid \\overline B)}{P(A\\mid \\overline B)}$.</p></li><li><p>由调查数据估计 $P(A\\mid B)=\\frac{40}{100}=\\frac{2}{5}$，$P(A\\mid \\overline B)=\\frac{10}{100}=\\frac{1}{10}$.</p><p>于是 $P(\\overline A\\mid B)=\\frac{3}{5}$，$P(\\overline A\\mid \\overline B)=\\frac{9}{10}$.</p><p>代入（1）得 $R=\\frac{\\frac{2}{5}}{\\frac{3}{5}}\\cdot \\frac{\\frac{9}{10}}{\\frac{1}{10}}=6$.</p></li></ol><p></p></li></ol>"
         },
         {
           "num": 21,
-          "body": "已知点 $A(2,1)$ 在双曲线 $C:\\ \\frac{x^2}{a^2}-\\frac{y^2}{a^2-1}=1$（$a>1$） 上，直线 $l$ 交 $C$ 于 $P$，$Q$ 两点，直线 $AP$，$AQ$ 的斜率之和为 $0$.\r\n\r\n\n(1) 求 $l$ 的斜率；\n\n(2) 若 $\\tan \\angle PAQ=2\\sqrt2$，求 $\\triangle PAQ$ 的面积.",
-          "choices": [],
+          "body": "<p>已知点 $A(2,1)$ 在双曲线 $C:\\ \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{a^{2}-1}=1$（$a>1$） 上，直线 $l$ 交 $C$ 于 $P$，$Q$ 两点，直线 $AP$，$AQ$ 的斜率之和为 $0$.</p><ol class=\"enumerate\"><li><p>求 $l$ 的斜率；</p></li><li><p>若 $\\tan \\angle PAQ=2\\sqrt{2}$，求 $\\triangle PAQ$ 的面积.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $A(2,1)\\in C$，所以 $\\frac{4}{a^2}-\\frac{1}{a^2-1}=1$，整理得 $a^4-4a^2+4=0$，即 $\\left(a^2-2\\right)^2=0$，解得 $a^2=2$.\r\n故双曲线方程为 $\\frac{x^2}{2}-y^2=1$.\r\n若直线 $l$ 的斜率不存在，则可设 $l:x=t$.\r\n当 $t=2$ 时，直线 $l$ 经过点 $A$，此时直线 $AP$ 或 $AQ$ 的斜率不存在，与题意不符.\r\n当 $t\\ne 2$ 时，直线 $l$ 与双曲线 $C$ 的交点可设为 $P(t,y_1)$，$Q(t,y_2)$，由 $\\frac{t^2}{2}-y^2=1$ ，所以 $y_1+y_2=0$，从而 $k_{AP}+k_{AQ}=\\frac{y_1-1}{t-2}+\\frac{y_2-1}{t-2}=\\frac{y_1+y_2-2}{t-2}=-\\frac{2}{t-2}\\ne 0$，这与已知条件矛盾.\r\n所以直线 $l$ 的斜率存在，设 $l:y=kx+m$，$P(x_1,y_1)$，$Q(x_2,y_2)$.\r\n联立 $y=kx+m$ 和 $\\frac{x^2}{2}-y^2=1$，得到 $\\left(1-2k^2\\right)x^2-4mkx-2m^2-2=0$.\r\n因为是一元二次方程，所以 $k\\ne \\pm \\frac{\\sqrt2}{2}$，且判别式 $\\Delta=16m^2k^2+4\\left(1-2k^2\\right)\\left(2m^2+2\\right)=8\\left(m^2+1-2k^2\\right)>0$，即 $m^2+1-2k^2>0$.\r\n由韦达定理，$x_1+x_2=\\frac{4mk}{1-2k^2}=-\\frac{4mk}{2k^2-1}$，$x_1x_2=\\frac{-2m^2-2}{1-2k^2}=\\frac{2m^2+2}{2k^2-1}$.\r\n因为直线 $AP$，$AQ$ 斜率存在，所以 $P$，$Q$ 均不为 $A$，故 $l$ 不过点 $A$.\r\n由 $k_{AP}+k_{AQ}=0$ 得 $\\frac{y_1-1}{x_1-2}+\\frac{y_2-1}{x_2-2}=0$，即 $\\left(x_1-2\\right)\\left(kx_2+m-1\\right)+\\left(x_2-2\\right)\\left(kx_1+m-1\\right)=0$，即 $2kx_1x_2+(m-1-2k)\\left(x_1+x_2\\right)-4(m-1)=0$.\r\n代入韦达结果，通分后分子为 $2k\\left(2m^2+2\\right)+(m-1-2k)(-4mk)-4(m-1)\\left(2k^2-1\\right)$.\r\n展开后 $4km^2$ 与 $-4m^2k$ 相消，$8mk^2$ 与 $-8mk^2$ 相消，余下 $4(k+mk+m+2k^2-1)=4(k+1)(m+2k-1)$，所以化简得 $(k+1)(m+2k-1)=0$.\r\n若 $m=1-2k$，则直线 $l$ 过点 $A$，与题意不符，故 $k=-1$.\n\n(2) 由（1）知 $k=-1$，则 $x_1x_2=2m^2+2>0$，所以 $x_1$，$x_2$ 同号.\r\n不妨设直线 $PA$，$AQ$ 的倾斜角为 $\\alpha$，$\\beta$（$\\alpha<\\frac{\\pi}{2}<\\beta$），因为 $k_{AP}+k_{AQ}=0$，所以 $\\alpha+\\beta=\\pi$.\r\n当 $P$，$Q$ 均在双曲线左支时，$\\angle PAQ=2\\alpha$，所以 $\\tan 2\\alpha=2\\sqrt2$，即 $\\sqrt2\\tan^2\\alpha+\\tan\\alpha-\\sqrt2=0$，分解得 $\\left(\\sqrt2\\tan\\alpha-1\\right)(\\tan\\alpha+\\sqrt2)=0$，解得 $\\tan\\alpha=\\frac{\\sqrt2}{2}$（负值舍去）.\r\n此时 $PA$ 的斜率等于渐近线 $y=\\frac{\\sqrt2}{2}x$ 的斜率，与双曲线左支无交点，舍去.\r\n当 $P$，$Q$ 均在双曲线右支时，$\\tan\\angle PAQ=2\\sqrt2$，所以 $\\tan(\\beta-\\alpha)=2\\sqrt2$，即 $\\tan 2\\alpha=-2\\sqrt2$，也就是 $\\sqrt2\\tan^2\\alpha-\\tan\\alpha-\\sqrt2=0$，分解得 $\\left(\\sqrt2\\tan\\alpha+1\\right)(\\tan\\alpha-\\sqrt2)=0$，解得 $\\tan\\alpha=\\sqrt2$（负值舍去）.\r\n于是 $PA:y=\\sqrt2(x-2)+1$，$AQ:y=-\\sqrt2(x-2)+1$.\r\n联立 $y=\\sqrt2(x-2)+1$ 和 $\\frac{x^2}{2}-y^2=1$，得到 $\\frac32x^2+2\\left(\\sqrt2-4\\right)x+10-4\\sqrt2=0$.\r\n因为方程有一个根为 $2$，由韦达定理两根之和为 $\\frac{16-4\\sqrt2}{3}$，所以另一根为 $\\frac{10-4\\sqrt2}{3}$，得 $P\\left(\\frac{10-4\\sqrt2}{3},\\frac{4\\sqrt2-5}{3}\\right)$. 联立 $y=-\\sqrt2(x-2)+1$ 和 $\\dfrac{x^2}{2}-y^2=1$，得 $\\frac32x^2-2\\left(\\sqrt2+4\\right)x+10+4\\sqrt2=0$. 该方程同样以 $2$ 为一根，由韦达定理两根之和为 $\\frac{16+4\\sqrt2}{3}$，所以另一根为 $\\frac{10+4\\sqrt2}{3}$，得 $Q\\left(\\frac{10+4\\sqrt2}{3},\\frac{-4\\sqrt2-5}{3}\\right)$.\r\n所以 $PQ:x+y-\\frac53=0$，$|PQ|=\\frac{16}{3}$.\r\n点 $A$ 到直线 $PQ$ 的距离为 $d=\\frac{\\left|2+1-\\frac53\\right|}{\\sqrt2}=\\frac{2\\sqrt2}{3}$.\r\n故 $S_{\\triangle PAQ}=\\frac12\\cdot \\frac{16}{3}\\cdot \\frac{2\\sqrt2}{3}=\\frac{16\\sqrt2}{9}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $A(2,1)\\in C$，所以 $\\frac{4}{a^{2}}-\\frac{1}{a^{2}-1}=1$，整理得 $a^{4}-4a^{2}+4=0$，即 $\\left(a^{2}-2\\right)^{2}=0$，解得 $a^{2}=2$.</p><p>故双曲线方程为 $\\frac{x^{2}}{2}-y^{2}=1$.</p><p>若直线 $l$ 的斜率不存在，则可设 $l:x=t$.</p><p>当 $t=2$ 时，直线 $l$ 经过点 $A$，此时直线 $AP$ 或 $AQ$ 的斜率不存在，与题意不符.</p><p>当 $t\\ne 2$ 时，直线 $l$ 与双曲线 $C$ 的交点可设为 $P(t,y_{1})$，$Q(t,y_{2})$，由 $\\frac{t^{2}}{2}-y^{2}=1$ ，所以 $y_{1}+y_{2}=0$，从而 $k_{AP}+k_{AQ}=\\frac{y_{1}-1}{t-2}+\\frac{y_{2}-1}{t-2}=\\frac{y_{1}+y_{2}-2}{t-2}=-\\frac{2}{t-2}\\ne 0$，这与已知条件矛盾.</p><p>所以直线 $l$ 的斜率存在，设 $l:y=kx+m$，$P(x_{1},y_{1})$，$Q(x_{2},y_{2})$.</p><p>联立 $y=kx+m$ 和 $\\frac{x^{2}}{2}-y^{2}=1$，得到 $\\left(1-2k^{2}\\right)x^{2}-4mkx-2m^{2}-2=0$.</p><p>因为是一元二次方程，所以 $k\\ne \\pm \\frac{\\sqrt{2}}{2}$，且判别式 $\\Delta=16m^{2}k^{2}+4\\left(1-2k^{2}\\right)\\left(2m^{2}+2\\right)=8\\left(m^{2}+1-2k^{2}\\right)>0$，即 $m^{2}+1-2k^{2}>0$.</p><p>由韦达定理，$x_{1}+x_{2}=\\frac{4mk}{1-2k^{2}}=-\\frac{4mk}{2k^{2}-1}$，$x_{1}x_{2}=\\frac{-2m^{2}-2}{1-2k^{2}}=\\frac{2m^{2}+2}{2k^{2}-1}$.</p><p>因为直线 $AP$，$AQ$ 斜率存在，所以 $P$，$Q$ 均不为 $A$，故 $l$ 不过点 $A$.</p><p>由 $k_{AP}+k_{AQ}=0$ 得 $\\frac{y_{1}-1}{x_{1}-2}+\\frac{y_{2}-1}{x_{2}-2}=0$，即 $\\left(x_{1}-2\\right)\\left(kx_{2}+m-1\\right)+\\left(x_{2}-2\\right)\\left(kx_{1}+m-1\\right)=0$，即 $2kx_{1}x_{2}+(m-1-2k)\\left(x_{1}+x_{2}\\right)-4(m-1)=0$.</p><p>代入韦达结果，通分后分子为 $2k\\left(2m^{2}+2\\right)+(m-1-2k)(-4mk)-4(m-1)\\left(2k^{2}-1\\right)$.</p><p>展开后 $4km^{2}$ 与 $-4m^{2}k$ 相消，$8mk^{2}$ 与 $-8mk^{2}$ 相消，余下 $4(k+mk+m+2k^{2}-1)=4(k+1)(m+2k-1)$，所以化简得 $(k+1)(m+2k-1)=0$.</p><p>若 $m=1-2k$，则直线 $l$ 过点 $A$，与题意不符，故 $k=-1$.</p></li><li><p>由（1）知 $k=-1$，则 $x_{1}x_{2}=2m^{2}+2>0$，所以 $x_{1}$，$x_{2}$ 同号.</p><p>不妨设直线 $PA$，$AQ$ 的倾斜角为 $\\alpha$，$\\beta$（$\\alpha&#x3C;\\frac{\\pi}{2}&#x3C;\\beta$），因为 $k_{AP}+k_{AQ}=0$，所以 $\\alpha+\\beta=\\pi$.</p><p>当 $P$，$Q$ 均在双曲线左支时，$\\angle PAQ=2\\alpha$，所以 $\\tan 2\\alpha=2\\sqrt{2}$，即 $\\sqrt{2}\\tan^{2}\\alpha+\\tan\\alpha-\\sqrt{2}=0$，分解得 $\\left(\\sqrt{2}\\tan\\alpha-1\\right)(\\tan\\alpha+\\sqrt{2})=0$，解得 $\\tan\\alpha=\\frac{\\sqrt{2}}{2}$（负值舍去）.</p><p>此时 $PA$ 的斜率等于渐近线 $y=\\frac{\\sqrt{2}}{2}x$ 的斜率，与双曲线左支无交点，舍去.</p><p>当 $P$，$Q$ 均在双曲线右支时，$\\tan\\angle PAQ=2\\sqrt{2}$，所以 $\\tan(\\beta-\\alpha)=2\\sqrt{2}$，即 $\\tan 2\\alpha=-2\\sqrt{2}$，也就是 $\\sqrt{2}\\tan^{2}\\alpha-\\tan\\alpha-\\sqrt{2}=0$，分解得 $\\left(\\sqrt{2}\\tan\\alpha+1\\right)(\\tan\\alpha-\\sqrt{2})=0$，解得 $\\tan\\alpha=\\sqrt{2}$（负值舍去）.</p><p>于是 $PA:y=\\sqrt{2}(x-2)+1$，$AQ:y=-\\sqrt{2}(x-2)+1$.</p><p>联立 $y=\\sqrt{2}(x-2)+1$ 和 $\\frac{x^{2}}{2}-y^{2}=1$，得到 $\\frac{3}{2}x^{2}+2\\left(\\sqrt{2}-4\\right)x+10-4\\sqrt{2}=0$.</p><p>因为方程有一个根为 $2$，由韦达定理两根之和为 $\\frac{16-4\\sqrt{2}}{3}$，所以另一根为 $\\frac{10-4\\sqrt{2}}{3}$，得 $P\\left(\\frac{10-4\\sqrt{2}}{3},\\frac{4\\sqrt{2}-5}{3}\\right)$. 联立 $y=-\\sqrt{2}(x-2)+1$ 和 $\\dfrac{x^2}{2}-y^{2}=1$，得 $\\frac{3}{2}x^{2}-2\\left(\\sqrt{2}+4\\right)x+10+4\\sqrt{2}=0$. 该方程同样以 $2$ 为一根，由韦达定理两根之和为 $\\frac{16+4\\sqrt{2}}{3}$，所以另一根为 $\\frac{10+4\\sqrt{2}}{3}$，得 $Q\\left(\\frac{10+4\\sqrt{2}}{3},\\frac{-4\\sqrt{2}-5}{3}\\right)$.</p><p>所以 $PQ:x+y-\\frac{5}{3}=0$，$|PQ|=\\frac{16}{3}$.</p><p>点 $A$ 到直线 $PQ$ 的距离为 $d=\\frac{\\left|2+1-\\frac{5}{3}\\right|}{\\sqrt{2}}=\\frac{2\\sqrt{2}}{3}$.</p><p>故 $S_{\\triangle PAQ}=\\frac{1}{2}\\cdot \\frac{16}{3}\\cdot \\frac{2\\sqrt{2}}{3}=\\frac{16\\sqrt{2}}{9}$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知函数 $f(x)=\\mathrm{e}^x-ax$，$g(x)=ax-\\ln x$ 有相同的最小值.\r\n\r\n\n(1) 求 $a$；\n\n(2) 证明：存在直线 $y=b$，其与两条曲线 $y=f(x)$ 和 $y=g(x)$ 共有三个不同的交点，并且从左到右的三个交点的横坐标成等差数列.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=\\mathrm{e}^{x}-ax$，$g(x)=ax-\\ln x$ 有相同的最小值.</p><ol class=\"enumerate\"><li><p>求 $a$；</p></li><li><p>证明：存在直线 $y=b$，其与两条曲线 $y=f(x)$ 和 $y=g(x)$ 共有三个不同的交点，并且从左到右的三个交点的横坐标成等差数列.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 对 $f(x)=\\mathrm{e}^x-ax$（$x\\in\\mathbb{R}$）有 $f^{\\prime}(x)=\\mathrm{e}^x-a$.\r\n当 $a\\le 0$ 时，$f^{\\prime}(x)>0$ 恒成立，所以 $f$ 在 $\\mathbb{R}$ 上单调递增，无最小值，故 $a>0$.\r\n此时由 $f^{\\prime}(x)=0$ 得 $x=\\ln a$，当 $x<\\ln a$ 时 $f^{\\prime}(x)<0$，当 $x>\\ln a$ 时 $f^{\\prime}(x)>0$，所以 $f$ 的最小值为 $f(\\ln a)=a-a\\ln a$.\r\n对 $g(x)=ax-\\ln x$（$x>0$）有 $g^{\\prime}(x)=a-\\frac1x$.\r\n因为 $a>0$，当 $0<x<\\frac1a$ 时 $g^{\\prime}(x)<0$，故 $g$ 在 $\\left(0,\\frac1a\\right)$ 上为减函数.\r\n当 $x>\\frac1a$ 时 $g^{\\prime}(x)>0$，故 $g$ 在 $\\left(\\frac1a,+\\infty\\right)$ 上为增函数.\r\n故 $g$ 的最小值为 $g\\left(\\frac1a\\right)=1-\\ln\\frac1a=1+\\ln a$.\r\n因为 $f$ 和 $g$ 有相同的最小值，故 $a-a\\ln a=1+\\ln a$，整理为 $a-1=(a+1)\\ln a$，即 $\\frac{a-1}{a+1}=\\ln a$.\r\n设 $\\phi(a)=\\frac{a-1}{a+1}-\\ln a$（$a>0$），则 $\\phi^{\\prime}(a)=\\frac{2}{(1+a)^2}-\\frac1a=-\\frac{a^2+1}{a(1+a)^2}<0$.\r\n故 $\\phi$ 单调递减，而 $\\phi(1)=0$，所以唯一解为 $a=1$.\n\n(2) 由（1）知 $f(x)=\\mathrm{e}^x-x$，$g(x)=x-\\ln x$，最小值均为 $1$.\r\n当 $b>1$ 时，设 $S(x)=\\mathrm{e}^x-x-b$，则 $S^{\\prime}(x)=\\mathrm{e}^x-1$.\r\n当 $x<0$ 时 $S^{\\prime}(x)<0$，当 $x>0$ 时 $S^{\\prime}(x)>0$，故 $S$ 在 $(-\\infty,0)$ 上为减函数，在 $(0,+\\infty)$ 上为增函数，所以 $S(x)_{\\min}=S(0)=1-b<0$.\r\n而 $S(-b)=\\mathrm{e}^{-b}>0$，$S(b)=\\mathrm{e}^b-2b$.\r\n设 $u(b)=\\mathrm{e}^b-2b$（$b>1$），则 $u^{\\prime}(b)=\\mathrm{e}^b-2>\\mathrm{e}-2>0$，故 $u$ 在 $(1,+\\infty)$ 上为增函数，所以 $u(b)>u(1)=\\mathrm{e}-2>0$.\r\n故 $S(b)>0$，所以 $S(x)=0$ 有两个不同零点，即 $\\mathrm{e}^x-x=b$ 有两个不同解.\r\n设 $T(x)=x-\\ln x-b$（$x>0$），则 $T^{\\prime}(x)=\\frac{x-1}{x}$.\r\n当 $0<x<1$ 时 $T^{\\prime}(x)<0$，当 $x>1$ 时 $T^{\\prime}(x)>0$，故 $T$ 在 $(0,1)$ 上为减函数，在 $(1,+\\infty)$ 上为增函数，所以 $T(x)_{\\min}=T(1)=1-b<0$.\r\n而 $T(\\mathrm{e}^{-b})=\\mathrm{e}^{-b}>0$，$T(\\mathrm{e}^b)=\\mathrm{e}^b-2b>0$，故 $T(x)=0$ 有两个不同零点，即 $x-\\ln x=b$ 有两个不同解.\r\n当 $b=1$ 时，由（1）的单调性，所以两方程各仅有一个解，当 $b<1$ 时均无解.\r\n故若直线 $y=b$ 与两曲线共有三个不同交点，则 $b>1$.\r\n设 $h(x)=\\mathrm{e}^x+\\ln x-2x$（$x>0$），则 $h^{\\prime}(x)=\\mathrm{e}^x+\\frac1x-2$.\r\n设 $s(x)=\\mathrm{e}^x-x-1$（$x>0$），则 $s^{\\prime}(x)=\\mathrm{e}^x-1>0$，故 $s$ 在 $(0,+\\infty)$ 上为增函数，所以 $s(x)>s(0)=0$，即 $\\mathrm{e}^x>x+1$.\r\n所以 $h^{\\prime}(x)>x+\\frac1x-1\\ge 2-1>0$，故 $h$ 在 $(0,+\\infty)$ 上为增函数.\r\n而 $h(1)=\\mathrm{e}-2>0$，并且 $h\\left(\\frac1{\\mathrm{e}^3}\\right)=\\mathrm{e}^{\\frac1{\\mathrm{e}^3}}-3-\\frac2{\\mathrm{e}^3}<\\mathrm{e}-3-\\frac2{\\mathrm{e}^3}<0$，故 $h$ 在 $(0,+\\infty)$ 上有且只有一个零点 $x_0$，且 $\\frac1{\\mathrm{e}^3}<x_0<1$.\r\n当 $0<x<x_0$ 时 $h(x)<0$，即 $\\mathrm{e}^x-x<x-\\ln x$，即 $f(x)<g(x)$.\r\n当 $x>x_0$ 时 $h(x)>0$，即 $f(x)>g(x)$.\r\n因此若直线 $y=b$ 与两曲线共有三个不同交点，则 $b=f(x_0)=g(x_0)>1$.\r\n此时 $\\mathrm{e}^x-x=b$ 有两个不同根 $x_1$，$x_0$（$x_1<0<x_0$），$x-\\ln x=b$ 有两个不同根 $x_0$，$x_4$（$0<x_0<1<x_4$）.\r\n故 $\\mathrm{e}^{x_1}-x_1=b$，$\\mathrm{e}^{x_0}-x_0=b$，$x_4-\\ln x_4-b=0$，$x_0-\\ln x_0-b=0$.\r\n所以 $x_4-b=\\ln x_4$，即 $\\mathrm{e}^{x_4-b}=x_4$，从而 $\\mathrm{e}^{x_4-b}-\\left(x_4-b\\right)-b=0$，故 $x_4-b$ 为方程 $\\mathrm{e}^x-x=b$ 的解.\r\n又由 $x_0-\\ln x_0-b=0$ 得 $\\ln x_0=x_0-b$，即 $\\mathrm{e}^{x_0-b}=x_0$，从而 $\\mathrm{e}^{x_0-b}-\\left(x_0-b\\right)-b=0$，故 $x_0-b$ 也为方程 $\\mathrm{e}^x-x=b$ 的解.\r\n又 $\\mathrm{e}^{x_1}-x_1=b$ 可化为 $\\mathrm{e}^{x_1}=x_1+b$，即 $x_1-\\ln\\left(x_1+b\\right)=0$，即 $\\left(x_1+b\\right)-\\ln\\left(x_1+b\\right)-b=0$，故 $x_1+b$ 为方程 $x-\\ln x=b$ 的解.\r\n又 $\\mathrm{e}^{x_0}-x_0=b$ 可化为 $\\mathrm{e}^{x_0}=x_0+b$，即 $x_0-\\ln\\left(x_0+b\\right)=0$，即 $\\left(x_0+b\\right)-\\ln\\left(x_0+b\\right)-b=0$，故 $x_0+b$ 也为方程 $x-\\ln x=b$ 的解.\r\n所以 $\\{x_1,x_0\\}=\\{x_0-b,x_4-b\\}$，而 $b>1$，$x_0\\in(0,1)$，故 $x_0-b<0<x_0$，因此 $x_0-b$ 必为负根 $x_1$，$x_4-b$ 必为正根 $x_0$，即 $x_1=x_0-b$，$x_0=x_4-b$，于是 $x_1+x_4=2x_0$.\r\n所以直线 $y=b$ 与两条曲线从左到右的三个交点的横坐标成等差数列.\r\n证毕.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>对 $f(x)=\\mathrm{e}^{x}-ax$（$x\\in\\mathbb{R}$）有 $f^{\\prime}(x)=\\mathrm{e}^{x}-a$.</p><p>当 $a\\le 0$ 时，$f^{\\prime}(x)>0$ 恒成立，所以 $f$ 在 $\\mathbb{R}$ 上单调递增，无最小值，故 $a>0$.</p><p>此时由 $f^{\\prime}(x)=0$ 得 $x=\\ln a$，当 $x&#x3C;\\ln a$ 时 $f^{\\prime}(x)&#x3C;0$，当 $x>\\ln a$ 时 $f^{\\prime}(x)>0$，所以 $f$ 的最小值为 $f(\\ln a)=a-a\\ln a$.</p><p>对 $g(x)=ax-\\ln x$（$x>0$）有 $g^{\\prime}(x)=a-\\frac{1}{x}$.</p><p>因为 $a>0$，当 $0&#x3C;x&#x3C;\\frac{1}{a}$ 时 $g^{\\prime}(x)&#x3C;0$，故 $g$ 在 $\\left(0,\\frac{1}{a}\\right)$ 上为减函数.</p><p>当 $x>\\frac{1}{a}$ 时 $g^{\\prime}(x)>0$，故 $g$ 在 $\\left(\\frac{1}{a},+\\infty\\right)$ 上为增函数.</p><p>故 $g$ 的最小值为 $g\\left(\\frac{1}{a}\\right)=1-\\ln\\frac{1}{a}=1+\\ln a$.</p><p>因为 $f$ 和 $g$ 有相同的最小值，故 $a-a\\ln a=1+\\ln a$，整理为 $a-1=(a+1)\\ln a$，即 $\\frac{a-1}{a+1}=\\ln a$.</p><p>设 $\\phi(a)=\\frac{a-1}{a+1}-\\ln a$（$a>0$），则 $\\phi^{\\prime}(a)=\\frac{2}{(1+a)^{2}}-\\frac{1}{a}=-\\frac{a^{2}+1}{a(1+a)^{2}}&#x3C;0$.</p><p>故 $\\phi$ 单调递减，而 $\\phi(1)=0$，所以唯一解为 $a=1$.</p></li><li><p>由（1）知 $f(x)=\\mathrm{e}^{x}-x$，$g(x)=x-\\ln x$，最小值均为 $1$.</p><p>当 $b>1$ 时，设 $S(x)=\\mathrm{e}^{x}-x-b$，则 $S^{\\prime}(x)=\\mathrm{e}^{x}-1$.</p><p>当 $x&#x3C;0$ 时 $S^{\\prime}(x)&#x3C;0$，当 $x>0$ 时 $S^{\\prime}(x)>0$，故 $S$ 在 $(-\\infty,0)$ 上为减函数，在 $(0,+\\infty)$ 上为增函数，所以 $S(x)_{\\min}=S(0)=1-b&#x3C;0$.</p><p>而 $S(-b)=\\mathrm{e}^{-b}>0$，$S(b)=\\mathrm{e}^{b}-2b$.</p><p>设 $u(b)=\\mathrm{e}^{b}-2b$（$b>1$），则 $u^{\\prime}(b)=\\mathrm{e}^{b}-2>\\mathrm{e}-2>0$，故 $u$ 在 $(1,+\\infty)$ 上为增函数，所以 $u(b)>u(1)=\\mathrm{e}-2>0$.</p><p>故 $S(b)>0$，所以 $S(x)=0$ 有两个不同零点，即 $\\mathrm{e}^{x}-x=b$ 有两个不同解.</p><p>设 $T(x)=x-\\ln x-b$（$x>0$），则 $T^{\\prime}(x)=\\frac{x-1}{x}$.</p><p>当 $0&#x3C;x&#x3C;1$ 时 $T^{\\prime}(x)&#x3C;0$，当 $x>1$ 时 $T^{\\prime}(x)>0$，故 $T$ 在 $(0,1)$ 上为减函数，在 $(1,+\\infty)$ 上为增函数，所以 $T(x)_{\\min}=T(1)=1-b&#x3C;0$.</p><p>而 $T(\\mathrm{e}^{-b})=\\mathrm{e}^{-b}>0$，$T(\\mathrm{e}^{b})=\\mathrm{e}^{b}-2b>0$，故 $T(x)=0$ 有两个不同零点，即 $x-\\ln x=b$ 有两个不同解.</p><p>当 $b=1$ 时，由（1）的单调性，所以两方程各仅有一个解，当 $b&#x3C;1$ 时均无解.</p><p>故若直线 $y=b$ 与两曲线共有三个不同交点，则 $b>1$.</p><p>设 $h(x)=\\mathrm{e}^{x}+\\ln x-2x$（$x>0$），则 $h^{\\prime}(x)=\\mathrm{e}^{x}+\\frac{1}{x}-2$.</p><p>设 $s(x)=\\mathrm{e}^{x}-x-1$（$x>0$），则 $s^{\\prime}(x)=\\mathrm{e}^{x}-1>0$，故 $s$ 在 $(0,+\\infty)$ 上为增函数，所以 $s(x)>s(0)=0$，即 $\\mathrm{e}^{x}>x+1$.</p><p>所以 $h^{\\prime}(x)>x+\\frac{1}{x}-1\\ge 2-1>0$，故 $h$ 在 $(0,+\\infty)$ 上为增函数.</p><p>而 $h(1)=\\mathrm{e}-2>0$，并且 $h\\left(\\frac{1}{\\mathrm{e}^{3}}\\right)=\\mathrm{e}^{\\frac{1}{\\mathrm{e}^{3}}}-3-\\frac{2}{\\mathrm{e}^{3}}&#x3C;\\mathrm{e}-3-\\frac{2}{\\mathrm{e}^{3}}&#x3C;0$，故 $h$ 在 $(0,+\\infty)$ 上有且只有一个零点 $x_{0}$，且 $\\frac{1}{\\mathrm{e}^{3}}&#x3C;x_{0}&#x3C;1$.</p><p>当 $0&#x3C;x&#x3C;x_{0}$ 时 $h(x)&#x3C;0$，即 $\\mathrm{e}^{x}-x&#x3C;x-\\ln x$，即 $f(x)&#x3C;g(x)$.</p><p>当 $x>x_{0}$ 时 $h(x)>0$，即 $f(x)>g(x)$.</p><p>因此若直线 $y=b$ 与两曲线共有三个不同交点，则 $b=f(x_{0})=g(x_{0})>1$.</p><p>此时 $\\mathrm{e}^{x}-x=b$ 有两个不同根 $x_{1}$，$x_{0}$（$x_{1}&#x3C;0&#x3C;x_{0}$），$x-\\ln x=b$ 有两个不同根 $x_{0}$，$x_{4}$（$0&#x3C;x_{0}&#x3C;1&#x3C;x_{4}$）.</p><p>故 $\\mathrm{e}^{x_1}-x_{1}=b$，$\\mathrm{e}^{x_0}-x_{0}=b$，$x_{4}-\\ln x_{4}-b=0$，$x_{0}-\\ln x_{0}-b=0$.</p><p>所以 $x_{4}-b=\\ln x_{4}$，即 $\\mathrm{e}^{x_4-b}=x_{4}$，从而 $\\mathrm{e}^{x_4-b}-\\left(x_{4}-b\\right)-b=0$，故 $x_{4}-b$ 为方程 $\\mathrm{e}^{x}-x=b$ 的解.</p><p>又由 $x_{0}-\\ln x_{0}-b=0$ 得 $\\ln x_{0}=x_{0}-b$，即 $\\mathrm{e}^{x_0-b}=x_{0}$，从而 $\\mathrm{e}^{x_0-b}-\\left(x_{0}-b\\right)-b=0$，故 $x_{0}-b$ 也为方程 $\\mathrm{e}^{x}-x=b$ 的解.</p><p>又 $\\mathrm{e}^{x_1}-x_{1}=b$ 可化为 $\\mathrm{e}^{x_1}=x_{1}+b$，即 $x_{1}-\\ln\\left(x_{1}+b\\right)=0$，即 $\\left(x_{1}+b\\right)-\\ln\\left(x_{1}+b\\right)-b=0$，故 $x_{1}+b$ 为方程 $x-\\ln x=b$ 的解.</p><p>又 $\\mathrm{e}^{x_0}-x_{0}=b$ 可化为 $\\mathrm{e}^{x_0}=x_{0}+b$，即 $x_{0}-\\ln\\left(x_{0}+b\\right)=0$，即 $\\left(x_{0}+b\\right)-\\ln\\left(x_{0}+b\\right)-b=0$，故 $x_{0}+b$ 也为方程 $x-\\ln x=b$ 的解.</p><p>所以 $\\{x_{1},x_{0}\\}=\\{x_{0}-b,x_{4}-b\\}$，而 $b>1$，$x_{0}\\in(0,1)$，故 $x_{0}-b&#x3C;0&#x3C;x_{0}$，因此 $x_{0}-b$ 必为负根 $x_{1}$，$x_{4}-b$ 必为正根 $x_{0}$，即 $x_{1}=x_{0}-b$，$x_{0}=x_{4}-b$，于是 $x_{1}+x_{4}=2x_{0}$.</p><p>所以直线 $y=b$ 与两条曲线从左到右的三个交点的横坐标成等差数列.</p><p>证毕.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

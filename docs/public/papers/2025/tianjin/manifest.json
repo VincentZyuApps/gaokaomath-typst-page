@@ -1,138 +1,15 @@
 {
+  "title": "2025年普通高等学校招生全国统一考试",
+  "subtitle": "2025年天津卷",
   "year": "2025",
   "slug": "tianjin",
-  "title": "2025年天津卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知集合 $\\mathcal U=\\{1,2,3,4,5\\}$，$A=\\{1,3\\}$，$B=\\{2,3,5\\}$，则 $\\mathcal U\\smallsetminus(A\\cup B)=$（ ）",
+          "body": "已知集合 $\\mathcal{U}=\\{1,2,3,4,5\\}$，$A=\\{1,3\\}$，$B=\\{2,3,5\\}$，则 $\\mathcal{U}\\smallsetminus(A\\cup B)=$（ ）",
           "choices": [
             "$\\{1,2,3,4\\}$",
             "$\\{2,3,4\\}$",
@@ -140,13 +17,11 @@
             "$\\{4\\}$"
           ],
           "answer": "D",
-          "solution": "按本页现稿与原PDF题面，计算结果均为 $\\{4\\}$，对应现稿 D与原PDF D，故结论一致. 因为 $A=\\{1,3\\}$，$B=\\{2,3,5\\}$，所以 $A\\cup B=\\{1,2,3,5\\}$，故 $\\mathcal U\\smallsetminus\\left( A\\cup B \\right)=\\{4\\}$. 对照现稿选项，只有 D为 $\\{4\\}$，故排除 A，B，C；对照原PDF选项，同样只有 D为 $\\{4\\}$，故排除 A，B，C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "按本页现稿与原PDF题面，计算结果均为 $\\{4\\}$，对应现稿 D与原PDF D，故结论一致. 因为 $A=\\{1,3\\}$，$B=\\{2,3,5\\}$，所以 $A\\cup B=\\{1,2,3,5\\}$，故 $\\mathcal{U}\\smallsetminus\\left( A\\cup B \\right)=\\{4\\}$. 对照现稿选项，只有 D为 $\\{4\\}$，故排除 A，B，C；对照原PDF选项，同样只有 D为 $\\{4\\}$，故排除 A，B，C."
         },
         {
           "num": 2,
-          "body": "设 $x\\in\\mathbb{R}$，则“$x=0$”是“$\\sin 2x=0$”的（ ）",
+          "body": "设 $x\\in\\mathbb{R}$，则“$x=0$”是“$\\sin 2x=0$”的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -154,27 +29,23 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "按本页现稿与原PDF题面表述等价，结论均为 A. 因为 $x=0$ 时 $\\sin 2x=\\sin 0=0$，所以“$x=0$”是“$\\sin 2x=0$”的充分条件；因为存在 $x=\\pi$ 使 $\\sin 2x=0$ 但 $x\\ne 0$，所以不是必要条件. 故是充分不必要条件，选 A，故排除 B，C，D，其中 B颠倒了方向，C要求双向成立，D否认了已成立的充分性.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "按本页现稿与原PDF题面表述等价，结论均为 A. 因为 $x=0$ 时 $\\sin 2x=\\sin 0=0$，所以“$x=0$”是“$\\sin 2x=0$”的充分条件；因为存在 $x=\\pi$ 使 $\\sin 2x=0$ 但 $x\\ne 0$，所以不是必要条件. 故是充分不必要条件，选 A，故排除 B，C，D，其中 B颠倒了方向，C要求双向成立，D否认了已成立的充分性."
         },
         {
           "num": 3,
-          "body": "已知函数 $y=f(x)$ 的图象如下，则 $f(x)$ 的解析式可能为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/tianjin/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>已知函数 $y=f(x)$ 的图象如下，则 $f(x)$ 的解析式可能为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q3_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$f(x)=\\frac{x}{1-|x|}$",
             "$f(x)=\\frac{x}{|x|-1}$",
-            "$f(x)=\\frac{|x|}{1-x^2}$",
-            "$f(x)=\\frac{|x|}{x^2-1}$"
+            "$f(x)=\\frac{|x|}{1-x^{2}}$",
+            "$f(x)=\\frac{|x|}{x^{2}-1}$"
           ],
           "answer": "D",
-          "solution": "按本页现稿与原PDF题面条件等价，结论均为 D. 因为图象关于 $y$ 轴对称，所以 $f\\left( x \\right)$ 为偶函数. 因为选项 A中 $f\\left( -x \\right)=-f\\left( x \\right)$，选项 B中 $f\\left( -x \\right)=-f\\left( x \\right)$，所以 A，B均为奇函数，故排除 A，B. 因为当 $0<x<1$ 时 $\\frac{\\left| x \\right|}{1-x^{2}}>0$，$\\frac{\\left| x \\right|}{x^{2}-1}<0$，而图象在 $\\left( 0,1 \\right)$ 内为负，所以排除 C. 因为当 $x>1$ 时选项 A，C均为负，与右支为正不符，而选项 D在 $\\left( 0,1 \\right)$ 内为负，在 $\\left( 1,+\\infty \\right)$ 内为正且趋于 $0$，与图象相符，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "按本页现稿与原PDF题面条件等价，结论均为 D. 因为图象关于 $y$ 轴对称，所以 $f\\left( x \\right)$ 为偶函数. 因为选项 A中 $f\\left( -x \\right)=-f\\left( x \\right)$，选项 B中 $f\\left( -x \\right)=-f\\left( x \\right)$，所以 A，B均为奇函数，故排除 A，B. 因为当 $0&#x3C;x&#x3C;1$ 时 $\\frac{\\left| x \\right|}{1-x^{2}}>0$，$\\frac{\\left| x \\right|}{x^{2}-1}&#x3C;0$，而图象在 $\\left( 0,1 \\right)$ 内为负，所以排除 C. 因为当 $x>1$ 时选项 A，C均为负，与右支为正不符，而选项 D在 $\\left( 0,1 \\right)$ 内为负，在 $\\left( 1,+\\infty \\right)$ 内为正且趋于 $0$，与图象相符，故选 D."
         },
         {
           "num": 4,
-          "body": "若 $m$ 为直线，$\\alpha$，$\\beta$ 为两个平面，则下列结论中正确的是（ ）",
+          "body": "若 $m$ 为直线，$\\alpha$，$\\beta$ 为两个平面，则下列结论中正确的是（ ）",
           "choices": [
             "若 $m\\parallel \\alpha$，$n\\subset \\alpha$，则 $m\\parallel n$",
             "若 $m\\perp\\alpha$，$m\\perp\\beta$，则 $\\alpha\\perp\\beta$",
@@ -182,27 +53,23 @@
             "若 $m\\subset\\alpha$，$\\alpha\\perp\\beta$，则 $m\\perp\\beta$"
           ],
           "answer": "C",
-          "solution": "按本页现稿 A项与原PDF A项不同，但结论均为 C. 现稿 A为“若 $m\\parallel \\alpha$，$n\\subset \\alpha$，则 $m\\parallel n$”，原PDF A为“若 $m\\parallel \\alpha$，$m\\parallel \\beta$，则 $\\alpha\\parallel \\beta$”. 因为现稿 A中 $m$ 与 $n$ 可为异面直线，所以现稿 A错误；因为存在两个相交平面同时平行于同一条直线，所以原PDF A错误，故两版 A均排除. 因为若 $m\\perp \\alpha$ 且 $m\\perp \\beta$，则 $\\alpha$ 与 $\\beta$ 的法向量平行，所以 $\\alpha\\parallel \\beta$，而不是 $\\alpha\\perp \\beta$，故 B错误. 因为 $m\\parallel \\alpha$ 时在 $\\alpha$ 内存在直线 $n$ 使 $n\\parallel m$，又 $m\\perp \\beta$，所以 $n\\perp \\beta$，而 $\\alpha$ 内存在一条直线垂直于 $\\beta$，所以 $\\alpha\\perp \\beta$，故 C正确. 因为 $m\\subset \\alpha$ 且 $\\alpha\\perp \\beta$ 时 $m$ 可与 $\\beta$ 平行，相交或在 $\\beta$ 内，不一定垂直，所以 D错误. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "按本页现稿 A项与原PDF A项不同，但结论均为 C. 现稿 A为“若 $m\\parallel \\alpha$，$n\\subset \\alpha$，则 $m\\parallel n$”，原PDF A为“若 $m\\parallel \\alpha$，$m\\parallel \\beta$，则 $\\alpha\\parallel \\beta$”. 因为现稿 A中 $m$ 与 $n$ 可为异面直线，所以现稿 A错误；因为存在两个相交平面同时平行于同一条直线，所以原PDF A错误，故两版 A均排除. 因为若 $m\\perp \\alpha$ 且 $m\\perp \\beta$，则 $\\alpha$ 与 $\\beta$ 的法向量平行，所以 $\\alpha\\parallel \\beta$，而不是 $\\alpha\\perp \\beta$，故 B错误. 因为 $m\\parallel \\alpha$ 时在 $\\alpha$ 内存在直线 $n$ 使 $n\\parallel m$，又 $m\\perp \\beta$，所以 $n\\perp \\beta$，而 $\\alpha$ 内存在一条直线垂直于 $\\beta$，所以 $\\alpha\\perp \\beta$，故 C正确. 因为 $m\\subset \\alpha$ 且 $\\alpha\\perp \\beta$ 时 $m$ 可与 $\\beta$ 平行，相交或在 $\\beta$ 内，不一定垂直，所以 D错误. 故选 C."
         },
         {
           "num": 5,
-          "body": "下列说法中错误的是（ ）",
+          "body": "下列说法中错误的是（ ）",
           "choices": [
-            "若 $X\\sim N(\\mu,\\sigma^2)$，则 $P(X\\le\\mu-\\sigma)=P(X\\ge\\mu+\\sigma)$",
-            "若 $X\\sim N(1,2^2)$，$Y\\sim N(2,2^2)$，则 $P(X<1)<P(Y<2)$",
+            "若 $X\\sim N(\\mu,\\sigma^{2})$，则 $P(X\\le\\mu-\\sigma)=P(X\\ge\\mu+\\sigma)$",
+            "若 $X\\sim N(1,2^{2})$，$Y\\sim N(2,2^{2})$，则 $P(X&#x3C;1)&#x3C;P(Y&#x3C;2)$",
             "$|r|$ 越接近 1，相关性越强",
             "$|r|$ 越接近 0，相关性越弱"
           ],
           "answer": "B",
-          "solution": "按本页现稿与原PDF题面条件等价，结论均为 B. 因为 $X\\sim N\\left( \\mu,\\sigma^{2} \\right)$ 关于 $X=\\mu$ 对称，所以 $P\\left( X\\le \\mu-\\sigma \\right)=P\\left( X\\ge \\mu+\\sigma \\right)$，故 A正确. 因为 $X\\sim N\\left( 1,2^{2} \\right)$ 时 $\\frac{X-1}{2}\\sim N\\left( 0,1 \\right)$，所以 $P\\left( X<1 \\right)=P\\left( \\frac{X-1}{2}<0 \\right)=\\Phi\\left( 0 \\right)=0.5$；同理 $Y\\sim N\\left( 2,2^{2} \\right)$ 时 $P\\left( Y<2 \\right)=0.5$，用 $\\le$ 同样得 $0.5$，所以 $P\\left( X<1 \\right)<P\\left( Y<2 \\right)$ 不成立，故 B错误. 因为样本相关系数的绝对值越接近 $1$，成对数据的线性相关程度越强，越接近 $0$ 则越弱，所以 C，D正确. 故说法错误的是 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "按本页现稿与原PDF题面条件等价，结论均为 B. 因为 $X\\sim N\\left( \\mu,\\sigma^{2}\\right)$ 关于 $X=\\mu$ 对称，所以 $P\\left( X\\le \\mu-\\sigma \\right)=P\\left( X\\ge \\mu+\\sigma \\right)$，故 A正确. 因为 $X\\sim N\\left( 1,2^{2}\\right)$ 时 $\\frac{X-1}{2}\\sim N\\left( 0,1 \\right)$，所以 $P\\left( X&#x3C;1 \\right)=P\\left( \\frac{X-1}{2}&#x3C;0 \\right)=\\Phi\\left( 0 \\right)=0.5$；同理 $Y\\sim N\\left( 2,2^{2}\\right)$ 时 $P\\left( Y&#x3C;2 \\right)=0.5$，用 $\\le$ 同样得 $0.5$，所以 $P\\left( X&#x3C;1 \\right)&#x3C;P\\left( Y&#x3C;2 \\right)$ 不成立，故 B错误. 因为样本相关系数的绝对值越接近 $1$，成对数据的线性相关程度越强，越接近 $0$ 则越弱，所以 C，D正确. 故说法错误的是 B."
         },
         {
           "num": 6,
-          "body": "记 $S_n$ 为数列 $\\{a_n\\}$ 的前 $n$ 项和. 已知 $S_n=-n^2+8n$，则数列 $\\{|a_n|\\}$ 的前 12 项和为（ ）",
+          "body": "记 $S_{n}$ 为数列 $\\{a_{n}\\}$ 的前 $n$ 项和. 已知 $S_{n}=-n^{2}+8n$，则数列 $\\{|a_{n}|\\}$ 的前 12 项和为（ ）",
           "choices": [
             "112",
             "48",
@@ -210,13 +77,11 @@
             "64"
           ],
           "answer": "C",
-          "solution": "按本页现稿选项与原PDF选项编排不同，但 $80$ 对应两版 C，结论均为 C. 因为 $S_{n}=-n^{2}+8n$，所以 $a_{1}=S_{1}=7$；当 $n\\ge 2$ 时 $a_{n}=S_{n}-S_{n-1}=-2n+9$，而 $n=1$ 代入同样得 $7$，故对一切 $n$ 有 $a_{n}=-2n+9$. 因为 $a_{n}\\ge 0$ 得 $n\\le 4$，$a_{n}\\le 0$ 得 $n\\ge 5$（其中 $a_{4}=1$，$a_{5}=-1$），所以 $\\sum_{k=1}^{12}\\left| a_{k} \\right|=\\sum_{k=1}^{4}a_{k}-\\sum_{k=5}^{12}a_{k}=2S_{4}-S_{12}$. 因为 $S_{4}=16$，$S_{12}=-48$，所以上式为 $2\\times 16-\\left( -48 \\right)=80$. 故选 C，故排除其他三项.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "按本页现稿选项与原PDF选项编排不同，但 $80$ 对应两版 C，结论均为 C. 因为 $S_{n}=-n^{2}+8n$，所以 $a_{1}=S_{1}=7$；当 $n\\ge 2$ 时 $a_{n}=S_{n}-S_{n-1}=-2n+9$，而 $n=1$ 代入同样得 $7$，故对一切 $n$ 有 $a_{n}=-2n+9$. 因为 $a_{n}\\ge 0$ 得 $n\\le 4$，$a_{n}\\le 0$ 得 $n\\ge 5$（其中 $a_{4}=1$，$a_{5}=-1$），所以 $\\sum_{k=1}^{12}\\left| a_{k}\\right|=\\sum_{k=1}^{4}a_{k}-\\sum_{k=5}^{12}a_{k}=2S_{4}-S_{12}$. 因为 $S_{4}=16$，$S_{12}=-48$，所以上式为 $2\\times 16-\\left( -48 \\right)=80$. 故选 C，故排除其他三项."
         },
         {
           "num": 7,
-          "body": "函数 $f(x)=0.3^x-\\sqrt{x}$ 的零点所在区间是（ ）",
+          "body": "函数 $f(x)=0.3^{x}-\\sqrt{x}$ 的零点所在区间是（ ）",
           "choices": [
             "$(0,0.3)$",
             "$(0.3,0.5)$",
@@ -224,37 +89,31 @@
             "$(1,2)$"
           ],
           "answer": "B",
-          "solution": "因为 $y=0.3^{x}$ 在 $\\mathbb{R}$ 上单调递减，$y=\\sqrt{x}$ 在 $\\left[ 0,+\\infty \\right)$ 上单调递增，所以 $f\\left( x \\right)=0.3^{x}-\\sqrt{x}$ 在定义域 $\\left[ 0,+\\infty \\right)$ 上单调递减. 因为 $f\\left( 0 \\right)=1>0$，$0.3<0.5$ 蕴含 $0.3^{0.3}>0.3^{0.5}=\\sqrt{0.3}$，所以 $f\\left( 0.3 \\right)=0.3^{0.3}-\\sqrt{0.3}>0$；因为 $0.3<0.5$ 蕴含 $0.3^{0.5}<0.5^{0.5}$，所以 $f\\left( 0.5 \\right)=0.3^{0.5}-\\sqrt{0.5}<0$. 因为 $f\\left( x \\right)$ 在 $\\left[ 0.3,0.5 \\right]$ 上连续且 $f\\left( 0.3 \\right)>0$，$f\\left( 0.5 \\right)<0$，所以由零点存在性定理，存在 $x_{0}\\in\\left( 0.3,0.5 \\right)$ 使 $f\\left( x_{0} \\right)=0$；又 $f\\left( x \\right)$ 单调递减，所以零点唯一，只能落在该区间内. 因为 $f\\left( 0 \\right)>0$，$f\\left( 0.3 \\right)>0$，所以 $\\left( 0,0.3 \\right)$ 内无零点，故排除 A；因为 $f\\left( 0.5 \\right)<0$ 且递减，所以 $\\left( 0.5,1 \\right)$，$\\left( 1,2 \\right)$ 内全为负，故排除 C，D. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $y=0.3^{x}$ 在 $\\mathbb{R}$ 上单调递减，$y=\\sqrt{x}$ 在 $\\left[ 0,+\\infty \\right)$ 上单调递增，所以 $f\\left( x \\right)=0.3^{x}-\\sqrt{x}$ 在定义域 $\\left[ 0,+\\infty \\right)$ 上单调递减. 因为 $f\\left( 0 \\right)=1>0$，$0.3&#x3C;0.5$ 蕴含 $0.3^{0.3}>0.3^{0.5}=\\sqrt{0.3}$，所以 $f\\left( 0.3 \\right)=0.3^{0.3}-\\sqrt{0.3}>0$；因为 $0.3&#x3C;0.5$ 蕴含 $0.3^{0.5}&#x3C;0.5^{0.5}$，所以 $f\\left( 0.5 \\right)=0.3^{0.5}-\\sqrt{0.5}&#x3C;0$. 因为 $f\\left( x \\right)$ 在 $\\left[ 0.3,0.5 \\right]$ 上连续且 $f\\left( 0.3 \\right)>0$，$f\\left( 0.5 \\right)&#x3C;0$，所以由零点存在性定理，存在 $x_{0}\\in\\left( 0.3,0.5 \\right)$ 使 $f\\left( x_{0}\\right)=0$；又 $f\\left( x \\right)$ 单调递减，所以零点唯一，只能落在该区间内. 因为 $f\\left( 0 \\right)>0$，$f\\left( 0.3 \\right)>0$，所以 $\\left( 0,0.3 \\right)$ 内无零点，故排除 A；因为 $f\\left( 0.5 \\right)&#x3C;0$ 且递减，所以 $\\left( 0.5,1 \\right)$，$\\left( 1,2 \\right)$ 内全为负，故排除 C，D. 故选 B."
         },
         {
           "num": 8,
-          "body": "$f(x)=\\sin(\\omega x+\\varphi)$（$\\omega>0$，$-\\pi<\\varphi<\\pi$），在 $\\left[-\\frac{5\\pi}{12},\\frac{\\pi}{12}\\right]$ 上单调递增，且 $x=\\frac{\\pi}{12}$ 是它的一条对称轴，$(\\frac{\\pi}{3},0)$ 是它的一个对称中心.\r\n\r\n当 $x\\in[0,\\frac{\\pi}{2}]$ 时，$f(x)$ 的最小值为（ ）",
+          "body": "<p>$f(x)=\\sin(\\omega x+\\varphi)$（$\\omega>0$，$-\\pi&#x3C;\\varphi&#x3C;\\pi$），在 $\\left[-\\frac{5\\pi}{12},\\frac{\\pi}{12}\\right]$ 上单调递增，且 $x=\\frac{\\pi}{12}$ 是它的一条对称轴，$(\\frac{\\pi}{3},0)$ 是它的一个对称中心.</p><p>当 $x\\in[0,\\frac{\\pi}{2}]$ 时，$f(x)$ 的最小值为（ ）</p>",
           "choices": [
-            "$-\\frac{\\sqrt3}{2}$",
-            "$-\\frac12$",
+            "$-\\frac{\\sqrt{3}}{2}$",
+            "$-\\frac{1}{2}$",
             "1",
             "0"
           ],
           "answer": "A",
-          "solution": "按本页现稿与原PDF题面条件等价，结论均为 A. 设最小正周期为 $T$，则 $T=\\frac{2\\pi}{\\omega}$. 因为 $f\\left( x \\right)$ 在 $\\left[ -\\frac{5\\pi}{12},\\frac{\\pi}{12} \\right]$ 上单调递增，该区间长度为 $\\frac{\\pi}{2}$，而正弦型函数任一单调区间长度不超过 $\\frac{T}{2}$，所以 $\\frac{\\pi}{2}\\le \\frac{T}{2}$，即 $T\\ge \\pi$，故 $0<\\omega \\le 2$. 因为 $x=\\frac{\\pi}{12}$ 是对称轴，所以 $\\omega \\cdot \\frac{\\pi}{12}+\\varphi =\\frac{\\pi}{2}+k\\pi$（$k\\in \\mathbb{Z}$）；因为 $\\left( \\frac{\\pi}{3},0 \\right)$ 是对称中心，所以 $\\omega \\cdot \\frac{\\pi}{3}+\\varphi =m\\pi$（$m\\in \\mathbb{Z}$）. 两式相减得 $\\frac{\\omega \\pi}{4}=\\left( m-k \\right)\\pi -\\frac{\\pi}{2}$，即 $\\omega =4\\left( m-k \\right)-2$，记 $n=m-k-1\\in \\mathbb{Z}$，则 $\\omega =4n+2$. 反向看，对称轴与对称中心距离为 $\\frac{\\pi}{3}-\\frac{\\pi}{12}=\\frac{\\pi}{4}$，必为 $\\frac{\\left( 2t+1 \\right)T}{4}$（$t=0,1,2,\\cdots$），所以 $\\frac{\\pi}{4}=\\frac{\\left( 2t+1 \\right)T}{4}$，即 $T=\\frac{\\pi}{2t+1}$. 结合 $T\\ge \\pi$ 得 $2t+1\\le 1$，故 $t=0$，于是 $T=\\pi$，$\\omega =\\frac{2\\pi}{T}=2$，这与 $0<\\omega \\le 2$ 及 $\\omega =4n+2$ 联立同样只剩 $n=0$，$\\omega =2$. 代入得 $\\frac{\\pi}{6}+\\varphi =\\frac{\\pi}{2}+k\\pi$，$\\frac{2\\pi}{3}+\\varphi =m\\pi$，即 $\\varphi =\\frac{\\pi}{3}+k\\pi =m\\pi -\\frac{2\\pi}{3}$. 因为 $-\\pi <\\varphi <\\pi$，所以候选 $\\varphi =\\frac{\\pi}{3}$（$k=0$，$m=1$）或 $\\varphi =-\\frac{2\\pi}{3}$（$k=-1$，$m=0$）. 若 $\\varphi =-\\frac{2\\pi}{3}$，则 $2x+\\varphi \\in \\left[ -\\frac{3\\pi}{2},-\\frac{\\pi}{2} \\right]$ 当 $x\\in \\left[ -\\frac{5\\pi}{12},\\frac{\\pi}{12} \\right]$，正弦在该相位区间上单调递减，与题设递增矛盾，故舍去；若 $\\varphi =\\frac{\\pi}{3}$，则相位为 $\\left[ -\\frac{\\pi}{2},\\frac{\\pi}{2} \\right]$，单调递增，符合题设. 故 $f\\left( x \\right)=\\sin \\left( 2x+\\frac{\\pi}{3} \\right)$. 当 $x\\in \\left[ 0,\\frac{\\pi}{2} \\right]$ 时 $2x+\\frac{\\pi}{3}\\in \\left[ \\frac{\\pi}{3},\\frac{4\\pi}{3} \\right]$，在 $\\left[ \\frac{\\pi}{3},\\frac{\\pi}{2} \\right]$ 上递增，在 $\\left[ \\frac{\\pi}{2},\\frac{4\\pi}{3} \\right]$ 上递减，所以最小值在端点取得. 因为 $\\sin \\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}$，$\\sin \\frac{4\\pi}{3}=-\\frac{\\sqrt{3}}{2}$，所以最小值为 $-\\frac{\\sqrt{3}}{2}$. 按本页现稿 C为 $1$，按原PDF C为 $-1$，两种 C均与最小值不符而排除，故两版结论均为 A，另排除 B，D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "按本页现稿与原PDF题面条件等价，结论均为 A. 设最小正周期为 $T$，则 $T=\\frac{2\\pi}{\\omega}$. 因为 $f\\left( x \\right)$ 在 $\\left[ -\\frac{5\\pi}{12},\\frac{\\pi}{12}\\right]$ 上单调递增，该区间长度为 $\\frac{\\pi}{2}$，而正弦型函数任一单调区间长度不超过 $\\frac{T}{2}$，所以 $\\frac{\\pi}{2}\\le \\frac{T}{2}$，即 $T\\ge \\pi$，故 $0&#x3C;\\omega \\le 2$. 因为 $x=\\frac{\\pi}{12}$ 是对称轴，所以 $\\omega \\cdot \\frac{\\pi}{12}+\\varphi =\\frac{\\pi}{2}+k\\pi$（$k\\in \\mathbb{Z}$）；因为 $\\left( \\frac{\\pi}{3},0 \\right)$ 是对称中心，所以 $\\omega \\cdot \\frac{\\pi}{3}+\\varphi =m\\pi$（$m\\in \\mathbb{Z}$）. 两式相减得 $\\frac{\\omega \\pi}{4}=\\left( m-k \\right)\\pi -\\frac{\\pi}{2}$，即 $\\omega =4\\left( m-k \\right)-2$，记 $n=m-k-1\\in \\mathbb{Z}$，则 $\\omega =4n+2$. 反向看，对称轴与对称中心距离为 $\\frac{\\pi}{3}-\\frac{\\pi}{12}=\\frac{\\pi}{4}$，必为 $\\frac{\\left( 2t+1 \\right)T}{4}$（$t=0,1,2,\\cdots$），所以 $\\frac{\\pi}{4}=\\frac{\\left( 2t+1 \\right)T}{4}$，即 $T=\\frac{\\pi}{2t+1}$. 结合 $T\\ge \\pi$ 得 $2t+1\\le 1$，故 $t=0$，于是 $T=\\pi$，$\\omega =\\frac{2\\pi}{T}=2$，这与 $0&#x3C;\\omega \\le 2$ 及 $\\omega =4n+2$ 联立同样只剩 $n=0$，$\\omega =2$. 代入得 $\\frac{\\pi}{6}+\\varphi =\\frac{\\pi}{2}+k\\pi$，$\\frac{2\\pi}{3}+\\varphi =m\\pi$，即 $\\varphi =\\frac{\\pi}{3}+k\\pi =m\\pi -\\frac{2\\pi}{3}$. 因为 $-\\pi &#x3C;\\varphi &#x3C;\\pi$，所以候选 $\\varphi =\\frac{\\pi}{3}$（$k=0$，$m=1$）或 $\\varphi =-\\frac{2\\pi}{3}$（$k=-1$，$m=0$）. 若 $\\varphi =-\\frac{2\\pi}{3}$，则 $2x+\\varphi \\in \\left[ -\\frac{3\\pi}{2},-\\frac{\\pi}{2}\\right]$ 当 $x\\in \\left[ -\\frac{5\\pi}{12},\\frac{\\pi}{12}\\right]$，正弦在该相位区间上单调递减，与题设递增矛盾，故舍去；若 $\\varphi =\\frac{\\pi}{3}$，则相位为 $\\left[ -\\frac{\\pi}{2},\\frac{\\pi}{2}\\right]$，单调递增，符合题设. 故 $f\\left( x \\right)=\\sin \\left( 2x+\\frac{\\pi}{3}\\right)$. 当 $x\\in \\left[ 0,\\frac{\\pi}{2}\\right]$ 时 $2x+\\frac{\\pi}{3}\\in \\left[ \\frac{\\pi}{3},\\frac{4\\pi}{3}\\right]$，在 $\\left[ \\frac{\\pi}{3},\\frac{\\pi}{2}\\right]$ 上递增，在 $\\left[ \\frac{\\pi}{2},\\frac{4\\pi}{3}\\right]$ 上递减，所以最小值在端点取得. 因为 $\\sin \\frac{\\pi}{3}=\\frac{\\sqrt{3}}{2}$，$\\sin \\frac{4\\pi}{3}=-\\frac{\\sqrt{3}}{2}$，所以最小值为 $-\\frac{\\sqrt{3}}{2}$. 按本页现稿 C为 $1$，按原PDF C为 $-1$，两种 C均与最小值不符而排除，故两版结论均为 A，另排除 B，D."
         },
         {
           "num": 9,
-          "body": "双曲线 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$（$a>0$，$b>0$）的左，右焦点分别为 $F_1$，$F_2$，以右焦点 $F_2$ 为焦点的抛物线 $y^2=2px$（$p>0$）与双曲线在第一象限交于 $P$，若 $|PF_1|+|PF_2|=3|F_1F_2|$，则双曲线离心率 $e=$（ ）",
+          "body": "双曲线 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$（$a>0$，$b>0$）的左，右焦点分别为 $F_{1}$，$F_{2}$，以右焦点 $F_{2}$ 为焦点的抛物线 $y^{2}=2px$（$p>0$）与双曲线在第一象限交于 $P$，若 $|PF_{1}|+|PF_{2}|=3|F_{1}F_{2}|$，则双曲线离心率 $e=$（ ）",
           "choices": [
             "2",
             "5",
-            "$\\frac{\\sqrt2+1}{2}$",
-            "$\\frac{\\sqrt5+1}{2}$"
+            "$\\frac{\\sqrt{2}+1}{2}$",
+            "$\\frac{\\sqrt{5}+1}{2}$"
           ],
           "answer": "A",
-          "solution": "记双曲线半焦距为 $c$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，$|F_{1}F_{2}|=2c$，$c^{2}=a^{2}+b^{2}$. 因为 $P$ 在第一象限，在双曲线右支上，所以 $|PF_{1}|-|PF_{2}|=2a$. 又 $|PF_{1}|+|PF_{2}|=3|F_{1}F_{2}|=6c$，两式相加减解得 $|PF_{1}|=3c+a$，$|PF_{2}|=3c-a$. 因为抛物线 $y^{2}=2px$ 的焦点为 $\\left(\\frac{p}{2},0\\right)$，该焦点就是 $F_{2}(c,0)$，所以 $\\frac{p}{2}=c$，即 $p=2c$，抛物线为 $y^{2}=4cx$，准线为 $x=-c$. 设 $P=(x_{0},y_{0})$（$x_{0}>0$，$y_{0}>0$），由抛物线定义，$|PF_{2}|$ 等于 $P$ 到准线 $x=-c$ 的距离，所以 $|PF_{2}|=x_{0}+c$，故 $x_{0}=|PF_{2}|-c=2c-a$. 将 $P$ 代入两条曲线方程，得 $y_{0}^{2}=4cx_{0}=4c(2c-a)$，$\\frac{x_{0}^{2}}{a^{2}}-\\frac{y_{0}^{2}}{b^{2}}=1$. 代入 $x_{0}=2c-a$ 得 $\\frac{(2c-a)^{2}}{a^{2}}-\\frac{4c(2c-a)}{b^{2}}=1$，移项得 $\\frac{4c(c-a)}{a^{2}}=\\frac{4c(2c-a)}{b^{2}}$，即 $\\frac{c-a}{a^{2}}=\\frac{2c-a}{b^{2}}$. 因为 $b^{2}=c^{2}-a^{2}$，所以 $(c^{2}-a^{2})(c-a)=a^{2}(2c-a)$. 记 $e=\\frac{c}{a}>1$，上式除以 $a^{3}$ 得 $(e^{2}-1)(e-1)=2e-1$，即 $e^{3}-e^{2}-3e+2=0$，分解得 $(e-2)(e^{2}+e-1)=0$. 方程 $e^{2}+e-1=0$ 的正根为 $\\frac{\\sqrt{5}-1}{2}<1$，舍去，所以 $e=2$. 回代检验 $x_{0}=2c-a=a(2e-1)=3a>0$，$y_{0}^{2}=4c(2c-a)>0$，$|PF_{2}|=3c-a=5a>0$，均成立，故选：A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "记双曲线半焦距为 $c$，则 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，$|F_{1}F_{2}|=2c$，$c^{2}=a^{2}+b^{2}$. 因为 $P$ 在第一象限，在双曲线右支上，所以 $|PF_{1}|-|PF_{2}|=2a$. 又 $|PF_{1}|+|PF_{2}|=3|F_{1}F_{2}|=6c$，两式相加减解得 $|PF_{1}|=3c+a$，$|PF_{2}|=3c-a$. 因为抛物线 $y^{2}=2px$ 的焦点为 $\\left(\\frac{p}{2},0\\right)$，该焦点就是 $F_{2}(c,0)$，所以 $\\frac{p}{2}=c$，即 $p=2c$，抛物线为 $y^{2}=4cx$，准线为 $x=-c$. 设 $P=(x_{0},y_{0})$（$x_{0}>0$，$y_{0}>0$），由抛物线定义，$|PF_{2}|$ 等于 $P$ 到准线 $x=-c$ 的距离，所以 $|PF_{2}|=x_{0}+c$，故 $x_{0}=|PF_{2}|-c=2c-a$. 将 $P$ 代入两条曲线方程，得 $y_{0}^{2}=4cx_{0}=4c(2c-a)$，$\\frac{x_{0}^{2}}{a^{2}}-\\frac{y_{0}^{2}}{b^{2}}=1$. 代入 $x_{0}=2c-a$ 得 $\\frac{(2c-a)^{2}}{a^{2}}-\\frac{4c(2c-a)}{b^{2}}=1$，移项得 $\\frac{4c(c-a)}{a^{2}}=\\frac{4c(2c-a)}{b^{2}}$，即 $\\frac{c-a}{a^{2}}=\\frac{2c-a}{b^{2}}$. 因为 $b^{2}=c^{2}-a^{2}$，所以 $(c^{2}-a^{2})(c-a)=a^{2}(2c-a)$. 记 $e=\\frac{c}{a}>1$，上式除以 $a^{3}$ 得 $(e^{2}-1)(e-1)=2e-1$，即 $e^{3}-e^{2}-3e+2=0$，分解得 $(e-2)(e^{2}+e-1)=0$. 方程 $e^{2}+e-1=0$ 的正根为 $\\frac{\\sqrt{5}-1}{2}&#x3C;1$，舍去，所以 $e=2$. 回代检验 $x_{0}=2c-a=a(2e-1)=3a>0$，$y_{0}^{2}=4c(2c-a)>0$，$|PF_{2}|=3c-a=5a>0$，均成立，故选：A."
         }
       ]
     },
@@ -263,57 +122,45 @@
       "problems": [
         {
           "num": 10,
-          "body": "已知 $\\mathrm{i}$ 是虚数单位，则 $\\left|\\frac{3+\\mathrm{i}}{\\mathrm{i}}\\right|= _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\sqrt{10}\\)",
-          "solution": "因为 $\\frac{3-\\mathrm{i}}{\\mathrm{i}}=\\frac{3}{\\mathrm{i}}-1$，$\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以 $\\frac{3-\\mathrm{i}}{\\mathrm{i}}=-1-3\\mathrm{i}$. 故 $\\left|\\frac{3-\\mathrm{i}}{\\mathrm{i}}\\right|=\\sqrt{(-1)^{2}+(-3)^{2}}=\\sqrt{10}$. 若按现稿 $3+\\mathrm{i}$ 计算，$\\frac{3+\\mathrm{i}}{\\mathrm{i}}=1-3\\mathrm{i}$，模同样为 $\\sqrt{10}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\mathrm{i}$ 是虚数单位，则 $\\left|\\frac{3+\\mathrm{i}}{\\mathrm{i}}\\right|=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\sqrt{10}$",
+          "solution": "因为 $\\frac{3-\\mathrm{i}}{\\mathrm{i}}=\\frac{3}{\\mathrm{i}}-1$，$\\frac{1}{\\mathrm{i}}=-\\mathrm{i}$，所以 $\\frac{3-\\mathrm{i}}{\\mathrm{i}}=-1-3\\mathrm{i}$. 故 $\\left|\\frac{3-\\mathrm{i}}{\\mathrm{i}}\\right|=\\sqrt{(-1)^{2}+(-3)^{2}}=\\sqrt{10}$. 若按现稿 $3+\\mathrm{i}$ 计算，$\\frac{3+\\mathrm{i}}{\\mathrm{i}}=1-3\\mathrm{i}$，模同样为 $\\sqrt{10}$."
         },
         {
           "num": 11,
-          "body": "在 $(x-1)^6$ 的展开式中，$x^3$ 项系数为 $_______ {}$.",
-          "choices": [],
-          "answer": "\\(-20\\)",
-          "solution": "由二项式定理，$(x-1)^{6}=\\sum_{k=0}^{6}\\mathrm C_{6}^{k}x^{k}(-1)^{6-k}$. 含 $x^{3}$ 的项对应 $k=3$，系数为 $\\mathrm C_{6}^{3}(-1)^{3}=-20$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $(x-1)^{6}$ 的展开式中，$x^{3}$ 项系数为 $\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$-20$",
+          "solution": "由二项式定理，$(x-1)^{6}=\\sum_{k=0}^{6}\\mathrm{C}_{6}^{k}x^{k}(-1)^{6-k}$. 含 $x^{3}$ 的项对应 $k=3$，系数为 $\\mathrm{C}_{6}^{3}(-1)^{3}=-20$."
         },
         {
           "num": 12,
-          "body": "$l_1:x-y+6=0$ 与 $x$ 轴，$y$ 轴交点分别为 $A$，$B$，又与 $(x+1)^2+(y-3)^2=r^2$ 交于 $C$，$D$，且 $|AB|=3|CD|$，则 $r= _______ {}$.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "在 $l_{1}:x-y+6=0$ 中令 $y=0$ 得 $x=-6$，令 $x=0$ 得 $y=6$，所以 $A=(-6,0)$，$B=(0,6)$，$|AB|=\\sqrt{6^{2}+6^{2}}=6\\sqrt{2}$. 圆心为 $(-1,3)$，它到 $l_{1}$ 的距离为 $d=\\frac{|-1-3+6|}{\\sqrt{2}}=\\sqrt{2}$. 按原PDF $r>0$，现稿未显写该条件但同样按半径 $r>0$ 求解. 设弦 $CD$ 的中点为 $M$，则 $|CD|=2\\sqrt{r^{2}-d^{2}}=2\\sqrt{r^{2}-2}$，其中要求 $r>d$. 由 $|AB|=3|CD|$ 得 $6\\sqrt{2}=6\\sqrt{r^{2}-2}$，解得 $r^{2}=4$. 因为 $r>0$，所以 $r=2$，满足 $r>d$，直线确实交圆于两点.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$l_{1}:x-y+6=0$ 与 $x$ 轴，$y$ 轴交点分别为 $A$，$B$，又与 $(x+1)^{2}+(y-3)^{2}=r^{2}$ 交于 $C$，$D$，且 $|AB|=3|CD|$，则 $r=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "在 $l_{1}:x-y+6=0$ 中令 $y=0$ 得 $x=-6$，令 $x=0$ 得 $y=6$，所以 $A=(-6,0)$，$B=(0,6)$，$|AB|=\\sqrt{6^{2}+6^{2}}=6\\sqrt{2}$. 圆心为 $(-1,3)$，它到 $l_{1}$ 的距离为 $d=\\frac{|-1-3+6|}{\\sqrt{2}}=\\sqrt{2}$. 按原PDF $r>0$，现稿未显写该条件但同样按半径 $r>0$ 求解. 设弦 $CD$ 的中点为 $M$，则 $|CD|=2\\sqrt{r^{2}-d^{2}}=2\\sqrt{r^{2}-2}$，其中要求 $r>d$. 由 $|AB|=3|CD|$ 得 $6\\sqrt{2}=6\\sqrt{r^{2}-2}$，解得 $r^{2}=4$. 因为 $r>0$，所以 $r=2$，满足 $r>d$，直线确实交圆于两点."
         },
         {
           "num": 13,
-          "body": "小桐一周跑 $2$ 次，一次 $5$ 圈或 $6$ 圈. 第一次跑 $5$ 圈或 $6$ 圈概率各为 $0.5$；若第一次跑 $5$ 圈，则第二次分别跑 $5$ 圈，$6$ 圈的概率为 $0.4$，$0.6$；若第一次跑 $6$ 圈，则第二次分别跑 $5$ 圈，$6$ 圈的概率为 $0.6$，$0.4$.\r\n则一周跑 $11$ 圈的概率为 $_______ {}$；若一周至少跑 $11$ 圈为达标，则连续跑 $4$ 周，记合格周数为 $X$，则 $E(X)= _______ {}$.",
-          "choices": [],
-          "answer": "\\(0.6\\)；\\(3.2\\)",
-          "solution": "记 $B$ 为第一次跑 $5$ 圈的事件，$C$ 为第二次跑 $5$ 圈的事件，则 $P(B)=0.5$，$P(C\\mid B)=0.4$，$P(C\\mid B^{\\mathrm c})=0.6$. 一周跑 $11$ 圈当且仅当两次恰为 $5$ 圈与 $6$ 圈的组合，由全概率公式，$P(11)=P(B)P(C^{\\mathrm c}\\mid B)+P(B^{\\mathrm c})P(C\\mid B^{\\mathrm c})=0.5\\times 0.6+0.5\\times 0.6=0.6$. 一周跑 $12$ 圈当且仅当两次都跑 $6$ 圈，所以 $P(12)=P(B^{\\mathrm c})P(C^{\\mathrm c}\\mid B^{\\mathrm c})=0.5\\times 0.4=0.2$. 因此一周至少跑 $11$ 圈的概率为 $P(D)=P(11)+P(12)=0.6+0.2=0.8$. 各周跑步圈数相互独立，所以每周围是否达标是独立重复试验，$X\\sim B(4,0.8)$，故 $E(X)=4\\times 0.8=3.2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>小桐一周跑 $2$ 次，一次 $5$ 圈或 $6$ 圈. 第一次跑 $5$ 圈或 $6$ 圈概率各为 $0.5$；若第一次跑 $5$ 圈，则第二次分别跑 $5$ 圈，$6$ 圈的概率为 $0.4$，$0.6$；若第一次跑 $6$ 圈，则第二次分别跑 $5$ 圈，$6$ 圈的概率为 $0.6$，$0.4$.</p><p>则一周跑 $11$ 圈的概率为 $\\underline{\\hspace{2.5em}}{}$；若一周至少跑 $11$ 圈为达标，则连续跑 $4$ 周，记合格周数为 $X$，则 $E(X)=\\underline{\\hspace{2.5em}}{}$.</p>",
+          "choices": null,
+          "answer": "$0.6$；$3.2$",
+          "solution": "记 $B$ 为第一次跑 $5$ 圈的事件，$C$ 为第二次跑 $5$ 圈的事件，则 $P(B)=0.5$，$P(C\\mid B)=0.4$，$P(C\\mid B^{\\mathrm{c}})=0.6$. 一周跑 $11$ 圈当且仅当两次恰为 $5$ 圈与 $6$ 圈的组合，由全概率公式，$P(11)=P(B)P(C^{\\mathrm{c}}\\mid B)+P(B^{\\mathrm{c}})P(C\\mid B^{\\mathrm{c}})=0.5\\times 0.6+0.5\\times 0.6=0.6$. 一周跑 $12$ 圈当且仅当两次都跑 $6$ 圈，所以 $P(12)=P(B^{\\mathrm{c}})P(C^{\\mathrm{c}}\\mid B^{\\mathrm{c}})=0.5\\times 0.4=0.2$. 因此一周至少跑 $11$ 圈的概率为 $P(D)=P(11)+P(12)=0.6+0.2=0.8$. 各周跑步圈数相互独立，所以每周围是否达标是独立重复试验，$X\\sim B(4,0.8)$，故 $E(X)=4\\times 0.8=3.2$."
         },
         {
           "num": 14,
-          "body": "$\\triangle ABC$ 中，$D$ 为 $AB$ 中点，$\\overrightarrow{CE}=\\frac13\\overrightarrow{CD}$，$\\overrightarrow{AC}= \\mathbf{b}$，$\\overrightarrow{AB}=\\mathbf{a}$.\r\n则 $\\overrightarrow{AE}= _______ {}$（用 $\\mathbf{a}$，$\\mathbf{b}$ 表示）；若 $|\\overrightarrow{AE}|=5$，$\\overrightarrow{AE}\\perp\\overrightarrow{CB}$，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{CD}= _______ {}$.\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/tianjin/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\frac16\\mathbf{a}+\\frac23\\mathbf{b}\\)，\\(-15\\)",
-          "solution": "以 $A$ 为起点，记 $\\overrightarrow{AB}=\\mathbf{a}$，$\\overrightarrow{AC}=\\mathbf{b}$. 按本页现稿“$D$ 为 $AB$ 中点”与原PDF“$\\overrightarrow{AD}=\\frac12\\overrightarrow{AB}$”等价，现稿“$\\overrightarrow{AE}\\perp\\overrightarrow{CB}$”与原PDF“$\\overrightarrow{AE}\\perp\\overrightarrow{BC}$”为同一直线垂直，两版结论一致. 因为 $D$ 为 $AB$ 中点，所以 $\\overrightarrow{AD}=\\frac12\\mathbf{a}$. 因为 $\\overrightarrow{CE}=\\frac13\\overrightarrow{CD}$，所以 $\\overrightarrow{AE}=\\overrightarrow{AC}+\\overrightarrow{CE}=\\mathbf{b}+\\frac13\\overrightarrow{CD}$. 又 $\\overrightarrow{CD}=\\overrightarrow{AD}-\\overrightarrow{AC}=\\frac12\\mathbf{a}-\\mathbf{b}$，代入得 $\\overrightarrow{AE}=\\mathbf{b}+\\frac13\\left(\\frac12\\mathbf{a}-\\mathbf{b}\\right)=\\frac16\\mathbf{a}+\\frac23\\mathbf{b}$，这是第一空. 记 $\\mathbf{v}=\\overrightarrow{AE}$，则 $\\overrightarrow{BC}=\\mathbf{b}-\\mathbf{a}$，$\\overrightarrow{CD}=\\frac12\\mathbf{a}-\\mathbf{b}$. 因为 $\\overrightarrow{AE}\\perp \\overrightarrow{BC}$，所以 $\\mathbf{v}\\cdot(\\mathbf{b}-\\mathbf{a})=0$，即 $\\mathbf{v}\\cdot\\mathbf{a}=\\mathbf{v}\\cdot\\mathbf{b}$，记此公共值为 $s$. 于是 $\\mathbf{v}\\cdot\\overrightarrow{CD}=\\mathbf{v}\\cdot\\left(\\frac12\\mathbf{a}-\\mathbf{b}\\right)=\\frac{s}{2}-s=-\\frac{s}{2}$. 另一方面，$|\\mathbf{v}|^{2}=\\mathbf{v}\\cdot\\mathbf{v}=\\mathbf{v}\\cdot\\left(\\frac16\\mathbf{a}+\\frac23\\mathbf{b}\\right)=\\frac{s}{6}+\\frac{2s}{3}=\\frac{5s}{6}$. 已知 $|\\mathbf{v}|=5$，所以 $\\frac{5s}{6}=25$，解得 $s=30$. 故 $\\overrightarrow{AE}\\cdot\\overrightarrow{CD}=-\\frac{s}{2}=-15$，这是第二空.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>$\\triangle ABC$ 中，$D$ 为 $AB$ 中点，$\\overrightarrow{CE}=\\frac{1}{3}\\overrightarrow{CD}$，$\\overrightarrow{AC}= \\mathbf{b}$，$\\overrightarrow{AB}=\\mathbf{a}$.</p><p>则 $\\overrightarrow{AE}=\\underline{\\hspace{2.5em}}{}$（用 $\\mathbf{a}$，$\\mathbf{b}$ 表示）；若 $|\\overrightarrow{AE}|=5$，$\\overrightarrow{AE}\\perp\\overrightarrow{CB}$，则 $\\overrightarrow{AE}\\cdot\\overrightarrow{CD}=\\underline{\\hspace{2.5em}}{}$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$\\frac{1}{6}\\mathbf{a}+\\frac{2}{3}\\mathbf{b}$，$-15$",
+          "solution": "以 $A$ 为起点，记 $\\overrightarrow{AB}=\\mathbf{a}$，$\\overrightarrow{AC}=\\mathbf{b}$. 按本页现稿“$D$ 为 $AB$ 中点”与原PDF“$\\overrightarrow{AD}=\\frac{1}{2}\\overrightarrow{AB}$”等价，现稿“$\\overrightarrow{AE}\\perp\\overrightarrow{CB}$”与原PDF“$\\overrightarrow{AE}\\perp\\overrightarrow{BC}$”为同一直线垂直，两版结论一致. 因为 $D$ 为 $AB$ 中点，所以 $\\overrightarrow{AD}=\\frac{1}{2}\\mathbf{a}$. 因为 $\\overrightarrow{CE}=\\frac{1}{3}\\overrightarrow{CD}$，所以 $\\overrightarrow{AE}=\\overrightarrow{AC}+\\overrightarrow{CE}=\\mathbf{b}+\\frac{1}{3}\\overrightarrow{CD}$. 又 $\\overrightarrow{CD}=\\overrightarrow{AD}-\\overrightarrow{AC}=\\frac{1}{2}\\mathbf{a}-\\mathbf{b}$，代入得 $\\overrightarrow{AE}=\\mathbf{b}+\\frac{1}{3}\\left(\\frac{1}{2}\\mathbf{a}-\\mathbf{b}\\right)=\\frac{1}{6}\\mathbf{a}+\\frac{2}{3}\\mathbf{b}$，这是第一空. 记 $\\mathbf{v}=\\overrightarrow{AE}$，则 $\\overrightarrow{BC}=\\mathbf{b}-\\mathbf{a}$，$\\overrightarrow{CD}=\\frac{1}{2}\\mathbf{a}-\\mathbf{b}$. 因为 $\\overrightarrow{AE}\\perp \\overrightarrow{BC}$，所以 $\\mathbf{v}\\cdot(\\mathbf{b}-\\mathbf{a})=0$，即 $\\mathbf{v}\\cdot\\mathbf{a}=\\mathbf{v}\\cdot\\mathbf{b}$，记此公共值为 $s$. 于是 $\\mathbf{v}\\cdot\\overrightarrow{CD}=\\mathbf{v}\\cdot\\left(\\frac{1}{2}\\mathbf{a}-\\mathbf{b}\\right)=\\frac{s}{2}-s=-\\frac{s}{2}$. 另一方面，$|\\mathbf{v}|^{2}=\\mathbf{v}\\cdot\\mathbf{v}=\\mathbf{v}\\cdot\\left(\\frac{1}{6}\\mathbf{a}+\\frac{2}{3}\\mathbf{b}\\right)=\\frac{s}{6}+\\frac{2s}{3}=\\frac{5s}{6}$. 已知 $|\\mathbf{v}|=5$，所以 $\\frac{5s}{6}=25$，解得 $s=30$. 故 $\\overrightarrow{AE}\\cdot\\overrightarrow{CD}=-\\frac{s}{2}=-15$，这是第二空."
         },
         {
           "num": 15,
-          "body": "若 $a$，$b\\in\\mathbb{R}$，对任意 $x\\in[-2,2]$，都有 $(2a+b)x^2+bx-a-1\\le0$，则 $2a+b$ 的最小值为 $_______ {}$.",
-          "choices": [],
-          "answer": "\\(-4\\)",
-          "solution": "记 $t=2a+b$，则 $b=t-2a$，原不等式化为 $tx^{2}+(t-2a)x-a-1\\le 0$ 对任意 $x\\in[-2,2]$ 成立，即 $t(x^{2}+x)+a(-2x-1)-1\\le 0$. 取 $x=-\\frac12\\in[-2,2]$，此时 $x^{2}+x=-\\frac14$，$-2x-1=0$，不等式变为 $-\\frac{t}{4}-1\\le 0$，解得 $t\\ge -4$. 因此任何满足条件的 $(a,b)$ 必有 $2a+b\\ge -4$. 取 $a=0$，$b=-4$，则 $t=-4$，原不等式左边为 $-4x^{2}-4x-1=-(2x+1)^{2}\\le 0$，对一切实数 $x$ 成立，当然对 $x\\in[-2,2]$ 成立，等号在 $x=-\\frac12$ 处取得. 所以 $-4$ 可以取到，故 $2a+b$ 的最小值为 $-4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若 $a$，$b\\in\\mathbb{R}$，对任意 $x\\in[-2,2]$，都有 $(2a+b)x^{2}+bx-a-1\\le0$，则 $2a+b$ 的最小值为 $\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$-4$",
+          "solution": "记 $t=2a+b$，则 $b=t-2a$，原不等式化为 $tx^{2}+(t-2a)x-a-1\\le 0$ 对任意 $x\\in[-2,2]$ 成立，即 $t(x^{2}+x)+a(-2x-1)-1\\le 0$. 取 $x=-\\frac{1}{2}\\in[-2,2]$，此时 $x^{2}+x=-\\frac{1}{4}$，$-2x-1=0$，不等式变为 $-\\frac{t}{4}-1\\le 0$，解得 $t\\ge -4$. 因此任何满足条件的 $(a,b)$ 必有 $2a+b\\ge -4$. 取 $a=0$，$b=-4$，则 $t=-4$，原不等式左边为 $-4x^{2}-4x-1=-(2x+1)^{2}\\le 0$，对一切实数 $x$ 成立，当然对 $x\\in[-2,2]$ 成立，等号在 $x=-\\frac{1}{2}$ 处取得. 所以 $-4$ 可以取到，故 $2a+b$ 的最小值为 $-4$."
         }
       ]
     },
@@ -322,51 +169,40 @@
       "problems": [
         {
           "num": 16,
-          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 对边分别为 $a$，$b$，$c$. 已知 $a\\sin B=\\sqrt3\\,b\\cos A$，$c-2b=1$，$a=\\sqrt7$.\r\n\n(1) 求 $A$；\n\n(2) 求 $c$；\n\n(3) 求 $\\sin(A+2B)$.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 对边分别为 $a$，$b$，$c$. 已知 $a\\sin B=\\sqrt{3}\\,b\\cos A$，$c-2b=1$，$a=\\sqrt{7}$.</p><ol class=\"enumerate\"><li><p>求 $A$；</p></li><li><p>求 $c$；</p></li><li><p>求 $\\sin(A+2B)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $a\\sin B=\\sqrt3\\,b\\cos A$，由正弦定理 $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$ 得 $a\\sin B=b\\sin A$，所以 $b\\sin A=\\sqrt3\\,b\\cos A$.因为 $b>0$，若 $\\cos A=0$ 则由上式得 $\\sin A=0$，与 $\\sin^2 A+\\cos^2 A=1$ 矛盾，所以 $\\cos A\\ne 0$，故 $\\tan A=\\sqrt3$.因为 $A\\in\\left(0,\\pi\\right)$，所以 $A=\\frac{\\pi}{3}$.\n\n(2) 因为 $A=\\frac{\\pi}{3}$，所以 $\\cos A=\\frac{1}{2}$.由余弦定理 $a^2=b^2+c^2-2bc\\cos A$ 及 $c-2b=1$ 得 $c=2b+1$，代入 $a=\\sqrt7$ 得 $7=b^2+\\left(2b+1\\right)^2-b\\left(2b+1\\right)$，化简得 $b^2+b-2=0$，即 $\\left(b+2\\right)\\left(b-1\\right)=0$.因为 $b>0$，所以 $b=1$，从而 $c=3$.经检验 $1$，$3$，$\\sqrt7$ 满足三角形三边关系，故 $c=3$.\n\n(3) 由余弦定理 $b^2=a^2+c^2-2ac\\cos B$，代入 $a=\\sqrt7$，$b=1$，$c=3$ 得 $1=7+9-6\\sqrt7\\cos B$，所以 $\\cos B=\\frac{5\\sqrt7}{14}$.因为 $0<\\frac{5\\sqrt7}{14}<1$，所以 $B\\in\\left(0,\\frac{\\pi}{2}\\right)$ 为锐角，故 $\\sin B>0$，于是 $\\sin B=\\sqrt{1-\\cos^2 B}=\\sqrt{1-\\frac{175}{196}}=\\frac{\\sqrt{21}}{14}$.从而 $\\cos 2B=2\\cos^2 B-1=2\\times\\frac{175}{196}-1=\\frac{11}{14}$，$\\sin 2B=2\\sin B\\cos B=2\\times\\frac{\\sqrt{21}}{14}\\times\\frac{5\\sqrt7}{14}=\\frac{5\\sqrt3}{14}$.因此 $\\sin\\left(A+2B\\right)=\\sin A\\cos 2B+\\cos A\\sin 2B=\\frac{\\sqrt3}{2}\\times\\frac{11}{14}+\\frac12\\times\\frac{5\\sqrt3}{14}=\\frac{4\\sqrt3}{7}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a\\sin B=\\sqrt{3}\\,b\\cos A$，由正弦定理 $\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$ 得 $a\\sin B=b\\sin A$，所以 $b\\sin A=\\sqrt{3}\\,b\\cos A$.因为 $b>0$，若 $\\cos A=0$ 则由上式得 $\\sin A=0$，与 $\\sin^{2} A+\\cos^{2} A=1$ 矛盾，所以 $\\cos A\\ne 0$，故 $\\tan A=\\sqrt{3}$.因为 $A\\in\\left(0,\\pi\\right)$，所以 $A=\\frac{\\pi}{3}$.</p></li><li><p>因为 $A=\\frac{\\pi}{3}$，所以 $\\cos A=\\frac{1}{2}$.由余弦定理 $a^{2}=b^{2}+c^{2}-2bc\\cos A$ 及 $c-2b=1$ 得 $c=2b+1$，代入 $a=\\sqrt{7}$ 得 $7=b^{2}+\\left(2b+1\\right)^{2}-b\\left(2b+1\\right)$，化简得 $b^{2}+b-2=0$，即 $\\left(b+2\\right)\\left(b-1\\right)=0$.因为 $b>0$，所以 $b=1$，从而 $c=3$.经检验 $1$，$3$，$\\sqrt{7}$ 满足三角形三边关系，故 $c=3$.</p></li><li><p>由余弦定理 $b^{2}=a^{2}+c^{2}-2ac\\cos B$，代入 $a=\\sqrt{7}$，$b=1$，$c=3$ 得 $1=7+9-6\\sqrt{7}\\cos B$，所以 $\\cos B=\\frac{5\\sqrt{7}}{14}$.因为 $0&#x3C;\\frac{5\\sqrt{7}}{14}&#x3C;1$，所以 $B\\in\\left(0,\\frac{\\pi}{2}\\right)$ 为锐角，故 $\\sin B>0$，于是 $\\sin B=\\sqrt{1-\\cos^{2} B}=\\sqrt{1-\\frac{175}{196}}=\\frac{\\sqrt{21}}{14}$.从而 $\\cos 2B=2\\cos^{2} B-1=2\\times\\frac{175}{196}-1=\\frac{11}{14}$，$\\sin 2B=2\\sin B\\cos B=2\\times\\frac{\\sqrt{21}}{14}\\times\\frac{5\\sqrt{7}}{14}=\\frac{5\\sqrt{3}}{14}$.因此 $\\sin\\left(A+2B\\right)=\\sin A\\cos 2B+\\cos A\\sin 2B=\\frac{\\sqrt{3}}{2}\\times\\frac{11}{14}+\\frac{1}{2}\\times\\frac{5\\sqrt{3}}{14}=\\frac{4\\sqrt{3}}{7}$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "正方体 $ABCD-A_1B_1C_1D_1$ 的棱长为 4，$E$，$F$ 分别为 $A_1D_1$，$C_1B_1$ 中点，且 $CG=3GC_1$.\r\n\r\n\n(1) 求证：$GF\\perp$ 平面 $FBE$；\n\n(2) 求平面 $FBE$ 与平面 $EBG$ 的夹角余弦；\n\n(3) 求四面体 $D-FBE$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/tianjin/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 的棱长为 4，$E$，$F$ 分别为 $A_{1}D_{1}$，$C_{1}B_{1}$ 中点，且 $CG=3GC_{1}$.</p><ol class=\"enumerate\"><li><p>求证：$GF\\perp$ 平面 $FBE$；</p></li><li><p>求平面 $FBE$ 与平面 $EBG$ 的夹角余弦；</p></li><li><p>求四面体 $D-FBE$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取 $D\\left(0,0,0\\right)$，$A\\left(4,0,0\\right)$，$B\\left(4,4,0\\right)$，$C\\left(0,4,0\\right)$，$D_1\\left(0,0,4\\right)$，$A_1\\left(4,0,4\\right)$，$B_1\\left(4,4,4\\right)$，$C_1\\left(0,4,4\\right)$.因为 $E$，$F$ 分别为 $A_1D_1$，$C_1B_1$ 中点，所以 $E\\left(2,0,4\\right)$，$F\\left(2,4,4\\right)$.因为 $G$ 按本页题图在棱 $CC_1$ 上，与原PDF“$G$ 在线段 $CC_1$ 上”一致（现稿文字只写 $CG=3GC_1$，未显写该限定），故取线段内分点，而 $\\left|CC_1\\right|=4$，所以 $\\left|CG\\right|=3$，故 $G\\left(0,4,3\\right)$.于是 $\\overrightarrow{EF}=\\left(0,4,0\\right)$，$\\overrightarrow{EB}=\\left(2,4,-4\\right)$，$\\overrightarrow{FG}=\\left(-2,0,-1\\right)$.设平面 $FBE$ 的一个法向量为 $\\mathbf{n}=\\left(x,y,z\\right)$，则 $\\overrightarrow{EF}\\cdot\\mathbf{n}=4y=0$，$\\overrightarrow{EB}\\cdot\\mathbf{n}=2x+4y-4z=0$.取 $x=2$ 得 $y=0$，$z=1$，故可取 $\\mathbf{n}=\\left(2,0,1\\right)$.因为 $\\overrightarrow{FG}=\\left(-2,0,-1\\right)=-\\mathbf{n}$，所以 $\\overrightarrow{FG}$ 平行于平面 $FBE$ 的法向量，故 $GF\\perp$ 平面 $FBE$.\n\n(2) 由上问知平面 $FBE$ 的一个法向量可取 $\\mathbf{n}_1=\\left(2,0,1\\right)$.又 $\\overrightarrow{EG}=\\left(-2,4,-1\\right)$，$\\overrightarrow{BG}=\\left(-4,0,3\\right)$.设平面 $EBG$ 的一个法向量为 $\\mathbf{n}_2=\\left(x,y,z\\right)$，则 $\\overrightarrow{EG}\\cdot\\mathbf{n}_2=-2x+4y-z=0$，$\\overrightarrow{BG}\\cdot\\mathbf{n}_2=-4x+3z=0$.取 $x=6$ 得 $z=8$，$y=5$，故可取 $\\mathbf{n}_2=\\left(6,5,8\\right)$.于是 $\\mathbf{n}_1\\cdot\\mathbf{n}_2=12+0+8=20$，$\\left|\\mathbf{n}_1\\right|=\\sqrt{4+0+1}=\\sqrt5$，$\\left|\\mathbf{n}_2\\right|=\\sqrt{36+25+64}=\\sqrt{125}=5\\sqrt5$.所以所求夹角余弦为 $\\frac{\\left|\\mathbf{n}_1\\cdot\\mathbf{n}_2\\right|}{\\left|\\mathbf{n}_1\\right|\\left|\\mathbf{n}_2\\right|}=\\frac{20}{\\sqrt5\\times 5\\sqrt5}=\\frac{20}{25}=\\frac45$.\n\n(3) 因为 $\\overrightarrow{EF}=\\left(0,4,0\\right)$，$\\overrightarrow{BF}=\\left(-2,0,4\\right)$，所以 $\\overrightarrow{EF}\\cdot\\overrightarrow{BF}=0\\times\\left(-2\\right)+4\\times 0+0\\times 4=0$，故 $EF\\perp BF$.又 $\\left|EF\\right|=4$，$\\left|BF\\right|=\\sqrt{\\left(-2\\right)^2+0^2+4^2}=2\\sqrt5$，所以 $S_{\\triangle BFE}=\\frac12\\left|EF\\right|\\cdot\\left|BF\\right|=\\frac12\\times 4\\times 2\\sqrt5=4\\sqrt5$.又 $\\overrightarrow{DE}=\\left(2,0,4\\right)$，因为由第（1）问 $\\overrightarrow{FG}$ 即平面 $FBE$ 的法向，所以点 $D$ 到平面 $FBE$ 的距离可用该法向按投影计算，得 $d=\\frac{\\left|\\overrightarrow{DE}\\cdot\\overrightarrow{FG}\\right|}{\\left|\\overrightarrow{FG}\\right|}=\\frac{\\left|2\\times\\left(-2\\right)+0\\times 0+4\\times\\left(-1\\right)\\right|}{\\sqrt5}=\\frac{8}{\\sqrt5}$.所以 $V_{D-BFE}=\\frac13\\cdot d\\cdot S_{\\triangle BFE}=\\frac13\\times\\frac{8}{\\sqrt5}\\times 4\\sqrt5=\\frac{32}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取 $D\\left(0,0,0\\right)$，$A\\left(4,0,0\\right)$，$B\\left(4,4,0\\right)$，$C\\left(0,4,0\\right)$，$D_{1}\\left(0,0,4\\right)$，$A_{1}\\left(4,0,4\\right)$，$B_{1}\\left(4,4,4\\right)$，$C_{1}\\left(0,4,4\\right)$.因为 $E$，$F$ 分别为 $A_{1}D_{1}$，$C_{1}B_{1}$ 中点，所以 $E\\left(2,0,4\\right)$，$F\\left(2,4,4\\right)$.因为 $G$ 按本页题图在棱 $CC_{1}$ 上，与原PDF“$G$ 在线段 $CC_{1}$ 上”一致（现稿文字只写 $CG=3GC_{1}$，未显写该限定），故取线段内分点，而 $\\left|CC_{1}\\right|=4$，所以 $\\left|CG\\right|=3$，故 $G\\left(0,4,3\\right)$.于是 $\\overrightarrow{EF}=\\left(0,4,0\\right)$，$\\overrightarrow{EB}=\\left(2,4,-4\\right)$，$\\overrightarrow{FG}=\\left(-2,0,-1\\right)$.设平面 $FBE$ 的一个法向量为 $\\mathbf{n}=\\left(x,y,z\\right)$，则 $\\overrightarrow{EF}\\cdot\\mathbf{n}=4y=0$，$\\overrightarrow{EB}\\cdot\\mathbf{n}=2x+4y-4z=0$.取 $x=2$ 得 $y=0$，$z=1$，故可取 $\\mathbf{n}=\\left(2,0,1\\right)$.因为 $\\overrightarrow{FG}=\\left(-2,0,-1\\right)=-\\mathbf{n}$，所以 $\\overrightarrow{FG}$ 平行于平面 $FBE$ 的法向量，故 $GF\\perp$ 平面 $FBE$.</p></li><li><p>由上问知平面 $FBE$ 的一个法向量可取 $\\mathbf{n}_{1}=\\left(2,0,1\\right)$.又 $\\overrightarrow{EG}=\\left(-2,4,-1\\right)$，$\\overrightarrow{BG}=\\left(-4,0,3\\right)$.设平面 $EBG$ 的一个法向量为 $\\mathbf{n}_{2}=\\left(x,y,z\\right)$，则 $\\overrightarrow{EG}\\cdot\\mathbf{n}_{2}=-2x+4y-z=0$，$\\overrightarrow{BG}\\cdot\\mathbf{n}_{2}=-4x+3z=0$.取 $x=6$ 得 $z=8$，$y=5$，故可取 $\\mathbf{n}_{2}=\\left(6,5,8\\right)$.于是 $\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}=12+0+8=20$，$\\left|\\mathbf{n}_{1}\\right|=\\sqrt{4+0+1}=\\sqrt{5}$，$\\left|\\mathbf{n}_{2}\\right|=\\sqrt{36+25+64}=\\sqrt{125}=5\\sqrt{5}$.所以所求夹角余弦为 $\\frac{\\left|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}\\right|}{\\left|\\mathbf{n}_{1}\\right|\\left|\\mathbf{n}_{2}\\right|}=\\frac{20}{\\sqrt{5}\\times 5\\sqrt{5}}=\\frac{20}{25}=\\frac{4}{5}$.</p></li><li><p>因为 $\\overrightarrow{EF}=\\left(0,4,0\\right)$，$\\overrightarrow{BF}=\\left(-2,0,4\\right)$，所以 $\\overrightarrow{EF}\\cdot\\overrightarrow{BF}=0\\times\\left(-2\\right)+4\\times 0+0\\times 4=0$，故 $EF\\perp BF$.又 $\\left|EF\\right|=4$，$\\left|BF\\right|=\\sqrt{\\left(-2\\right)^{2}+0^{2}+4^{2}}=2\\sqrt{5}$，所以 $S_{\\triangle BFE}=\\frac{1}{2}\\left|EF\\right|\\cdot\\left|BF\\right|=\\frac{1}{2}\\times 4\\times 2\\sqrt{5}=4\\sqrt{5}$.又 $\\overrightarrow{DE}=\\left(2,0,4\\right)$，因为由第（1）问 $\\overrightarrow{FG}$ 即平面 $FBE$ 的法向，所以点 $D$ 到平面 $FBE$ 的距离可用该法向按投影计算，得 $d=\\frac{\\left|\\overrightarrow{DE}\\cdot\\overrightarrow{FG}\\right|}{\\left|\\overrightarrow{FG}\\right|}=\\frac{\\left|2\\times\\left(-2\\right)+0\\times 0+4\\times\\left(-1\\right)\\right|}{\\sqrt{5}}=\\frac{8}{\\sqrt{5}}$.所以 $V_{D-BFE}=\\frac{1}{3}\\cdot d\\cdot S_{\\triangle BFE}=\\frac{1}{3}\\times\\frac{8}{\\sqrt{5}}\\times 4\\sqrt{5}=\\frac{32}{3}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "已知椭圆 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$（$a>b>0$）的左焦点为 $F$，右顶点为 $A$，$P$ 为 $x=a$ 上一点，且直线 $PF$ 的斜率为 $\\frac13$，$\\triangle PFA$ 的面积为 $\\frac32$，离心率为 $\\frac12$.\r\n\n(1) 求椭圆方程；\n\n(2) 过 $P$ 的直线与椭圆有唯一交点 $B$（异于 $A$），证明 $PF$ 平分 $\\angle AFB$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/tianjin/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>已知椭圆 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$（$a>b>0$）的左焦点为 $F$，右顶点为 $A$，$P$ 为 $x=a$ 上一点，且直线 $PF$ 的斜率为 $\\frac{1}{3}$，$\\triangle PFA$ 的面积为 $\\frac{3}{2}$，离心率为 $\\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆方程；</p></li><li><p>过 $P$ 的直线与椭圆有唯一交点 $B$（异于 $A$），证明 $PF$ 平分 $\\angle AFB$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设椭圆半焦距为 $c$，则左焦点为 $F\\left(-c,0\\right)$，右顶点为 $A\\left(a,0\\right)$.由离心率 $e=\\frac12$ 得 $\\frac{c}{a}=\\frac12$，所以 $a=2c$.因为 $P$ 在直线 $x=a$ 上，设 $P\\left(a,m\\right)$，则直线 $PF$ 的斜率为 $\\frac{m-0}{a-\\left(-c\\right)}=\\frac{m}{a+c}=\\frac13$.因为 $a+c=3c>0$，所以 $m$ 与斜率同号，得 $m>0$，即 $P$ 在 $x$ 轴上方，且 $m=c$，故 $P\\left(2c,c\\right)$.又 $\\left|AF\\right|=a+c=3c$，点 $P$ 到 $x$ 轴的距离为 $\\left|m\\right|=c$，所以 $S_{\\triangle PFA}=\\frac12\\times 3c\\times c=\\frac{3c^2}{2}$.由题意该面积为 $\\frac32$，得 $\\frac{3c^2}{2}=\\frac32$.因为 $c>0$，所以 $c=1$，从而 $a=2$，$b^2=a^2-c^2=4-1=3$，故椭圆方程为 $\\frac{x^2}{4}+\\frac{y^2}{3}=1$.\n\n(2) 由上问知 $P\\left(2,1\\right)$，$F\\left(-1,0\\right)$，$A\\left(2,0\\right)$.若过 $P$ 的直线无斜率，则为 $x=2$，与椭圆的唯一公共点为 $A\\left(2,0\\right)$，不符合 $B$ 异于 $A$，所以该直线斜率存在.设其方程为 $\\ell:y=kx+m$.因为 $P\\left(2,1\\right)$ 在直线上，所以 $1=2k+m$，即 $m=1-2k$.联立 $y=kx+m$ 与 $\\frac{x^2}{4}+\\frac{y^2}{3}=1$，消去 $y$ 得 $\\left(3+4k^2\\right)x^2+8kmx+4m^2-12=0$.因为 $\\ell$ 与椭圆只有一个公共点，所以判别式为零，即 $\\left(8km\\right)^2-4\\left(3+4k^2\\right)\\left(4m^2-12\\right)=0$.两边除以 $16$ 得 $4k^2m^2-\\left(3+4k^2\\right)\\left(m^2-3\\right)=0$，展开得 $-3m^2+9+12k^2=0$，即 $4k^2-m^2+3=0$.代入 $m=1-2k$ 得 $4k^2-\\left(1-2k\\right)^2+3=0$，即 $4k^2-\\left(1-4k+4k^2\\right)+3=4k+2=0$，解得 $k=-\\frac12$，$m=2$.故 $\\ell:y=-\\frac12x+2$.将其代入椭圆方程得 $4x^2-8x+4=0$，即 $x=1$，$y=\\frac32$，故 $B\\left(1,\\frac32\\right)$，确异于 $A$.此时 $\\overrightarrow{FB}=\\left(2,\\frac32\\right)$，$\\overrightarrow{FP}=\\left(3,1\\right)$，$\\overrightarrow{FA}=\\left(3,0\\right)$.于是 $\\overrightarrow{FB}\\cdot\\overrightarrow{FP}=6+\\frac32=\\frac{15}{2}>0$，$\\overrightarrow{FA}\\cdot\\overrightarrow{FP}=9>0$，故 $\\angle BFP$，$\\angle PFA$ 均为锐角，且 $\\cos\\angle BFP=\\frac{\\overrightarrow{FB}\\cdot\\overrightarrow{FP}}{\\left|\\overrightarrow{FB}\\right|\\left|\\overrightarrow{FP}\\right|}=\\frac{3\\sqrt{10}}{10}$，$\\cos\\angle PFA=\\frac{\\overrightarrow{FA}\\cdot\\overrightarrow{FP}}{\\left|\\overrightarrow{FA}\\right|\\left|\\overrightarrow{FP}\\right|}=\\frac{3\\sqrt{10}}{10}$.因为两角都在 $\\left(0,\\frac{\\pi}{2}\\right)$ 内且余弦相等，所以 $\\angle BFP=\\angle PFA$，故 $PF$ 平分 $\\angle AFB$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆半焦距为 $c$，则左焦点为 $F\\left(-c,0\\right)$，右顶点为 $A\\left(a,0\\right)$.由离心率 $e=\\frac{1}{2}$ 得 $\\frac{c}{a}=\\frac{1}{2}$，所以 $a=2c$.因为 $P$ 在直线 $x=a$ 上，设 $P\\left(a,m\\right)$，则直线 $PF$ 的斜率为 $\\frac{m-0}{a-\\left(-c\\right)}=\\frac{m}{a+c}=\\frac{1}{3}$.因为 $a+c=3c>0$，所以 $m$ 与斜率同号，得 $m>0$，即 $P$ 在 $x$ 轴上方，且 $m=c$，故 $P\\left(2c,c\\right)$.又 $\\left|AF\\right|=a+c=3c$，点 $P$ 到 $x$ 轴的距离为 $\\left|m\\right|=c$，所以 $S_{\\triangle PFA}=\\frac{1}{2}\\times 3c\\times c=\\frac{3c^{2}}{2}$.由题意该面积为 $\\frac{3}{2}$，得 $\\frac{3c^{2}}{2}=\\frac{3}{2}$.因为 $c>0$，所以 $c=1$，从而 $a=2$，$b^{2}=a^{2}-c^{2}=4-1=3$，故椭圆方程为 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$.</p></li><li><p>由上问知 $P\\left(2,1\\right)$，$F\\left(-1,0\\right)$，$A\\left(2,0\\right)$.若过 $P$ 的直线无斜率，则为 $x=2$，与椭圆的唯一公共点为 $A\\left(2,0\\right)$，不符合 $B$ 异于 $A$，所以该直线斜率存在.设其方程为 $\\ell:y=kx+m$.因为 $P\\left(2,1\\right)$ 在直线上，所以 $1=2k+m$，即 $m=1-2k$.联立 $y=kx+m$ 与 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$，消去 $y$ 得 $\\left(3+4k^{2}\\right)x^{2}+8kmx+4m^{2}-12=0$.因为 $\\ell$ 与椭圆只有一个公共点，所以判别式为零，即 $\\left(8km\\right)^{2}-4\\left(3+4k^{2}\\right)\\left(4m^{2}-12\\right)=0$.两边除以 $16$ 得 $4k^{2}m^{2}-\\left(3+4k^{2}\\right)\\left(m^{2}-3\\right)=0$，展开得 $-3m^{2}+9+12k^{2}=0$，即 $4k^{2}-m^{2}+3=0$.代入 $m=1-2k$ 得 $4k^{2}-\\left(1-2k\\right)^{2}+3=0$，即 $4k^{2}-\\left(1-4k+4k^{2}\\right)+3=4k+2=0$，解得 $k=-\\frac{1}{2}$，$m=2$.故 $\\ell:y=-\\frac{1}{2}x+2$.将其代入椭圆方程得 $4x^{2}-8x+4=0$，即 $x=1$，$y=\\frac{3}{2}$，故 $B\\left(1,\\frac{3}{2}\\right)$，确异于 $A$.此时 $\\overrightarrow{FB}=\\left(2,\\frac{3}{2}\\right)$，$\\overrightarrow{FP}=\\left(3,1\\right)$，$\\overrightarrow{FA}=\\left(3,0\\right)$.于是 $\\overrightarrow{FB}\\cdot\\overrightarrow{FP}=6+\\frac{3}{2}=\\frac{15}{2}>0$，$\\overrightarrow{FA}\\cdot\\overrightarrow{FP}=9>0$，故 $\\angle BFP$，$\\angle PFA$ 均为锐角，且 $\\cos\\angle BFP=\\frac{\\overrightarrow{FB}\\cdot\\overrightarrow{FP}}{\\left|\\overrightarrow{FB}\\right|\\left|\\overrightarrow{FP}\\right|}=\\frac{3\\sqrt{10}}{10}$，$\\cos\\angle PFA=\\frac{\\overrightarrow{FA}\\cdot\\overrightarrow{FP}}{\\left|\\overrightarrow{FA}\\right|\\left|\\overrightarrow{FP}\\right|}=\\frac{3\\sqrt{10}}{10}$.因为两角都在 $\\left(0,\\frac{\\pi}{2}\\right)$ 内且余弦相等，所以 $\\angle BFP=\\angle PFA$，故 $PF$ 平分 $\\angle AFB$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知数列 $\\{a_n\\}$ 为等差数列，$\\{b_n\\}$ 为等比数列，$a_1=b_1=2$，$a_2=b_2+1$，$a_3=b_3$.\r\n\n(1) 求 $\\{a_n\\}$，$\\{b_n\\}$ 的通项；\n\n(2) $\\forall n\\in\\mathbb{N}^*$，$I=\\{0,1\\}$，定义 $T_n=\\{p_1a_1b_1+p_2a_2b_2+\\cdots+p_na_nb_n\\mid p_i\\in I,i=1,\\dots,n\\}$.\r\n\\begin{enumerate}\n\n(3) 求证：对任意 $t\\in T_n$，有 $t<a_{n+1}b_{n+1}$；\n\n(4) 求 $T_n$ 的所有元素之和.\n\r\n\\end{enumerate}",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 为等差数列，$\\{b_{n}\\}$ 为等比数列，$a_{1}=b_{1}=2$，$a_{2}=b_{2}+1$，$a_{3}=b_{3}$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$，$\\{b_{n}\\}$ 的通项；</p></li><li><p>$\\forall n\\in\\mathbb{N}^{*}$，$I=\\{0,1\\}$，定义 $T_{n}=\\{p_{1}a_{1}b_{1}+p_{2}a_{2}b_{2}+\\cdots+p_{n}a_{n}b_{n}\\mid p_{i}\\in I,i=1,\\dots,n\\}$.</p><p></p><ol class=\"enumerate\"><li><p>求证：对任意 $t\\in T_{n}$，有 $t&#x3C;a_{n+1}b_{n+1}$；</p></li><li><p>求 $T_{n}$ 的所有元素之和.</p></li></ol><p></p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设等差数列 $\\left\\{a_n\\right\\}$ 的公差为 $d$，等比数列 $\\left\\{b_n\\right\\}$ 的公比为 $q$.由 $a_1=b_1=2$，$a_2=b_2+1$，$a_3=b_3$ 得 $2+d=2q+1$，$2+2d=2q^2$.由第一式得 $d=2q-1$，代入第二式得 $2+2\\left(2q-1\\right)=2q^2$，即 $q^2-2q=0$，故 $q=0$ 或 $q=2$，对应 $d=-1$ 或 $d=3$.若 $q=0$，则 $b_1=2$，$b_2=0$，此时 $b_3/b_2$ 无意义，$\\left\\{b_n\\right\\}$ 不成等比数列，故舍去.所以 $d=3$，$q=2$.故 $a_n=2+3\\left(n-1\\right)=3n-1$，$b_n=2\\times 2^{n-1}=2^n$.\n\n(2) \\begin{enumerate}\n\n(3) 由上问得 $a_nb_n=\\left(3n-1\\right)2^n>0$.对任意 $t\\in T_n$，因为每项系数 $p_i\\in\\left\\{0,1\\right\\}$，所以 $t\\le a_1b_1+a_2b_2+\\cdots+a_nb_n$.记 $S_n=a_1b_1+a_2b_2+\\cdots+a_nb_n$，则 $S_n=2\\times 2+5\\times 2^2+\\cdots+\\left(3n-1\\right)2^n$.于是 $2S_n=2\\times 2^2+5\\times 2^3+\\cdots+\\left(3n-1\\right)2^{n+1}$.两式相减得 $-S_n=4+3\\left(2^2+2^3+\\cdots+2^n\\right)-\\left(3n-1\\right)2^{n+1}$.因为 $2^2+2^3+\\cdots+2^n=2^{n+1}-4$，所以 $-S_n=4+3\\left(2^{n+1}-4\\right)-\\left(3n-1\\right)2^{n+1}=-8+\\left(4-3n\\right)2^{n+1}$，故 $S_n=8+\\left(3n-4\\right)2^{n+1}$.又 $a_{n+1}b_{n+1}=\\left(3n+2\\right)2^{n+1}$，所以 $a_{n+1}b_{n+1}-S_n=6\\times 2^{n+1}-8$.当 $n=1$ 时该差为 $16>0$，且随 $n$ 增大而增大，故对一切 $n\\ge 1$ 恒大于零.因此对任意 $t\\in T_n$ 都有 $t\\le S_n<a_{n+1}b_{n+1}$.\n\n(4) 在 $T_n$ 的全部 $2^n$ 个元素中，固定某一下标 $i$ 并令 $p_i=1$，其余 $n-1$ 个系数仍可在 $\\left\\{0,1\\right\\}$ 中自由取值，共有 $2^{n-1}$ 种组合，所以每个 $a_ib_i$ 在求和时恰出现 $2^{n-1}$ 次.因此 $T_n$ 的所有元素之和为 $2^{n-1}\\sum_{i=1}^n a_ib_i=2^{n-1}S_n=2^{n-1}\\left[8+\\left(3n-4\\right)2^{n+1}\\right]$.\n\r\n\\end{enumerate}",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设等差数列 $\\left\\{a_{n}\\right\\}$ 的公差为 $d$，等比数列 $\\left\\{b_{n}\\right\\}$ 的公比为 $q$.由 $a_{1}=b_{1}=2$，$a_{2}=b_{2}+1$，$a_{3}=b_{3}$ 得 $2+d=2q+1$，$2+2d=2q^{2}$.由第一式得 $d=2q-1$，代入第二式得 $2+2\\left(2q-1\\right)=2q^{2}$，即 $q^{2}-2q=0$，故 $q=0$ 或 $q=2$，对应 $d=-1$ 或 $d=3$.若 $q=0$，则 $b_{1}=2$，$b_{2}=0$，此时 $b_{3}/b_{2}$ 无意义，$\\left\\{b_{n}\\right\\}$ 不成等比数列，故舍去.所以 $d=3$，$q=2$.故 $a_{n}=2+3\\left(n-1\\right)=3n-1$，$b_{n}=2\\times 2^{n-1}=2^{n}$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>由上问得 $a_{n}b_{n}=\\left(3n-1\\right)2^{n}>0$.对任意 $t\\in T_{n}$，因为每项系数 $p_{i}\\in\\left\\{0,1\\right\\}$，所以 $t\\le a_{1}b_{1}+a_{2}b_{2}+\\cdots+a_{n}b_{n}$.记 $S_{n}=a_{1}b_{1}+a_{2}b_{2}+\\cdots+a_{n}b_{n}$，则 $S_{n}=2\\times 2+5\\times 2^{2}+\\cdots+\\left(3n-1\\right)2^{n}$.于是 $2S_{n}=2\\times 2^{2}+5\\times 2^{3}+\\cdots+\\left(3n-1\\right)2^{n+1}$.两式相减得 $-S_{n}=4+3\\left(2^{2}+2^{3}+\\cdots+2^{n}\\right)-\\left(3n-1\\right)2^{n+1}$.因为 $2^{2}+2^{3}+\\cdots+2^{n}=2^{n+1}-4$，所以 $-S_{n}=4+3\\left(2^{n+1}-4\\right)-\\left(3n-1\\right)2^{n+1}=-8+\\left(4-3n\\right)2^{n+1}$，故 $S_{n}=8+\\left(3n-4\\right)2^{n+1}$.又 $a_{n+1}b_{n+1}=\\left(3n+2\\right)2^{n+1}$，所以 $a_{n+1}b_{n+1}-S_{n}=6\\times 2^{n+1}-8$.当 $n=1$ 时该差为 $16>0$，且随 $n$ 增大而增大，故对一切 $n\\ge 1$ 恒大于零.因此对任意 $t\\in T_{n}$ 都有 $t\\le S_{n}&#x3C;a_{n+1}b_{n+1}$.</p></li><li><p>在 $T_{n}$ 的全部 $2^{n}$ 个元素中，固定某一下标 $i$ 并令 $p_{i}=1$，其余 $n-1$ 个系数仍可在 $\\left\\{0,1\\right\\}$ 中自由取值，共有 $2^{n-1}$ 种组合，所以每个 $a_{i}b_{i}$ 在求和时恰出现 $2^{n-1}$ 次.因此 $T_{n}$ 的所有元素之和为 $2^{n-1}\\sum_{i=1}^{n} a_{i}b_{i}=2^{n-1}S_{n}=2^{n-1}\\left[8+\\left(3n-4\\right)2^{n+1}\\right]$.</p></li></ol><p></p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知 $f(x)=ax-(\\ln x)^2$.\r\n\n(1) 当 $a=1$ 时，求 $f(x)$ 在点 $(1,f(1))$ 处的切线方程；\n\n(2) 当 $f(x)$ 有三个零点 $x_1<x_2<x_3$ 时，\r\n\\begin{enumerate}\n\n(3) 求 $a$ 的取值范围；\n\n(4) 证明 $(\\ln x_2-\\ln x_1)\\cdot \\ln x_3<\\frac{4\\mathrm{e}}{\\mathrm{e}-1}$.\n\r\n\\end{enumerate}",
-          "choices": [],
+          "body": "<p>已知 $f(x)=ax-(\\ln x)^{2}$.</p><ol class=\"enumerate\"><li><p>当 $a=1$ 时，求 $f(x)$ 在点 $(1,f(1))$ 处的切线方程；</p></li><li><p>当 $f(x)$ 有三个零点 $x_{1}&#x3C;x_{2}&#x3C;x_{3}$ 时，</p><p></p><ol class=\"enumerate\"><li><p>求 $a$ 的取值范围；</p></li><li><p>证明 $(\\ln x_{2}-\\ln x_{1})\\cdot \\ln x_{3}&#x3C;\\frac{4\\mathrm{e}}{\\mathrm{e}-1}$.</p></li></ol><p></p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $a=1$ 时，$f\\left(x\\right)=x-\\left(\\ln x\\right)^2$ 的定义域为 $x>0$，求导得 $f'\\left(x\\right)=1-\\frac{2\\ln x}{x}$.所以 $f'\\left(1\\right)=1$，且 $f\\left(1\\right)=1$，故切线为 $y-1=1\\times\\left(x-1\\right)$，即 $y=x$.\n\n(2) \\begin{enumerate}\n\n(3) 令 $f\\left(x\\right)=0$ 得 $a=\\frac{\\left(\\ln x\\right)^2}{x}$.设 $g\\left(x\\right)=\\frac{\\left(\\ln x\\right)^2}{x}$，$x>0$，则 $g'\\left(x\\right)=\\frac{2\\ln x-\\left(\\ln x\\right)^2}{x^2}=\\frac{\\ln x\\left(2-\\ln x\\right)}{x^2}$.由 $g'\\left(x\\right)=0$ 得 $x=1$ 或 $x=\\mathrm{e}^2$，且 $g\\left(1\\right)=0$，$g\\left(\\mathrm{e}^2\\right)=\\frac{4}{\\mathrm{e}^2}$.当 $0<x<1$ 时 $g'\\left(x\\right)<0$，当 $1<x<\\mathrm{e}^2$ 时 $g'\\left(x\\right)>0$，当 $x>\\mathrm{e}^2$ 时 $g'\\left(x\\right)<0$.又当 $x\\to 0^+$ 时 $g\\left(x\\right)\\to +\\infty$，当 $x\\to +\\infty$ 时 $g\\left(x\\right)\\to 0$.\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2025/img/tianjin/q20_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n因此 $g$ 在 $\\left(0,1\\right)$ 上从 $+\\infty$ 严格递减到 $0$，在 $\\left(1,\\mathrm{e}^2\\right)$ 上从 $0$ 严格递增到 $\\frac{4}{\\mathrm{e}^2}$，在 $\\left(\\mathrm{e}^2,+\\infty\\right)$ 上从 $\\frac{4}{\\mathrm{e}^2}$ 严格递减到 $0$.故方程 $a=g\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内恰有三个根，当且仅当 $0<a<\\frac{4}{\\mathrm{e}^2}$.\n\n(4) 由上问 $g$ 的单调性及 $a=g\\left(x\\right)$ 有三个根，推出 $0<x_1<1<x_2<\\mathrm{e}^2<x_3$.设 $\\ln x_1=t_1$，$\\ln x_2=t_2$，$\\ln x_3=t_3$，则 $t_1<0<t_2<2<t_3$，且 $a\\mathrm{e}^{t_1}=t_1^2$，$a\\mathrm{e}^{t_2}=t_2^2$，$a\\mathrm{e}^{t_3}=t_3^2$.由后两式取对数得 $\\ln a+t_2=2\\ln t_2$，$\\ln a+t_3=2\\ln t_3$，两式相减得 $t_3-t_2=2\\left(\\ln t_3-\\ln t_2\\right)$. 记 $u=\\frac{t_3}{t_2}>1$，$s=\\sqrt{u}>1$，则 $\\frac{t_3-t_2}{\\ln t_3-\\ln t_2}=t_2\\frac{u-1}{\\ln u}$. 因为当 $s>1$ 时 $\\ln s<\\frac12\\left(s-\\frac1s\\right)$（令 $h\\left(s\\right)=\\frac12\\left(s-\\frac1s\\right)-\\ln s$，则 $h\\left(1\\right)=0$，$h'\\left(s\\right)=\\frac{\\left(s-1\\right)^2}{2s^2}>0$），所以 $\\ln u=2\\ln s<s-\\frac1s=\\frac{u-1}{\\sqrt{u}}$，故 $\\frac{u-1}{\\ln u}>\\sqrt{u}$. 于是 $\\frac{t_3-t_2}{\\ln t_3-\\ln t_2}>t_2\\sqrt{u}=\\sqrt{t_2t_3}$. 结合左端等于 $2$ 得 $2>\\sqrt{t_2t_3}$，所以 $t_2t_3<4$.所要证的 $\\left(\\ln x_2-\\ln x_1\\right)\\ln x_3=\\left(t_2-t_1\\right)t_3=t_2t_3+\\left(-t_1t_3\\right)$，只需分别界定两项之和.因为 $t_1<0$ 且 $t_1^2=a\\mathrm{e}^{t_1}<a$，其中 $\\mathrm{e}^{t_1}<1$ 用了 $t_1<0$，所以 $-t_1<\\sqrt{a}$.又由 $a\\mathrm{e}^{t_3}=t_3^2$ 得 $\\sqrt{a}\\,t_3=\\frac{t_3^2}{\\mathrm{e}^{\\frac{t_3}{2}}}$.于是 $-t_1t_3<\\sqrt{a}\\,t_3=\\frac{t_3^2}{\\mathrm{e}^{\\frac{t_3}{2}}}$.设 $\\varphi\\left(t\\right)=\\frac{t^2}{\\mathrm{e}^{\\frac{t}{2}}}$，$t>2$，则 $\\varphi'\\left(t\\right)=\\frac{t\\left(4-t\\right)}{2\\mathrm{e}^{\\frac{t}{2}}}$.所以当 $2<t<4$ 时 $\\varphi'\\left(t\\right)>0$，当 $t>4$ 时 $\\varphi'\\left(t\\right)<0$，故 $\\varphi\\left(t\\right)$ 在 $t=4$ 处取得最大值 $\\varphi\\left(4\\right)=\\frac{16}{\\mathrm{e}^2}$.而 $\\frac{16}{\\mathrm{e}^2}<\\frac{4}{\\mathrm{e}-1}$，因为此式等价于 $4\\left(\\mathrm{e}-1\\right)<\\mathrm{e}^2$，即 $\\mathrm{e}^2-4\\mathrm{e}+4=\\left(\\mathrm{e}-2\\right)^2>0$.从而 $-t_1t_3<\\frac{16}{\\mathrm{e}^2}<\\frac{4}{\\mathrm{e}-1}$.结合 $t_2t_3<4$ 得 $\\left(t_2-t_1\\right)t_3<4+\\frac{4}{\\mathrm{e}-1}=\\frac{4\\mathrm{e}}{\\mathrm{e}-1}$，即 $\\left(\\ln x_2-\\ln x_1\\right)\\cdot\\ln x_3<\\frac{4\\mathrm{e}}{\\mathrm{e}-1}$.\n\r\n\\end{enumerate}",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $a=1$ 时，$f\\left(x\\right)=x-\\left(\\ln x\\right)^{2}$ 的定义域为 $x>0$，求导得 $f'\\left(x\\right)=1-\\frac{2\\ln x}{x}$.所以 $f'\\left(1\\right)=1$，且 $f\\left(1\\right)=1$，故切线为 $y-1=1\\times\\left(x-1\\right)$，即 $y=x$.</p></li><li><p></p><ol class=\"enumerate\"><li><p>令 $f\\left(x\\right)=0$ 得 $a=\\frac{\\left(\\ln x\\right)^{2}}{x}$.设 $g\\left(x\\right)=\\frac{\\left(\\ln x\\right)^{2}}{x}$，$x>0$，则 $g'\\left(x\\right)=\\frac{2\\ln x-\\left(\\ln x\\right)^{2}}{x^{2}}=\\frac{\\ln x\\left(2-\\ln x\\right)}{x^{2}}$.由 $g'\\left(x\\right)=0$ 得 $x=1$ 或 $x=\\mathrm{e}^{2}$，且 $g\\left(1\\right)=0$，$g\\left(\\mathrm{e}^{2}\\right)=\\frac{4}{\\mathrm{e}^{2}}$.当 $0&#x3C;x&#x3C;1$ 时 $g'\\left(x\\right)&#x3C;0$，当 $1&#x3C;x&#x3C;\\mathrm{e}^{2}$ 时 $g'\\left(x\\right)>0$，当 $x>\\mathrm{e}^{2}$ 时 $g'\\left(x\\right)&#x3C;0$.又当 $x\\to 0^{+}$ 时 $g\\left(x\\right)\\to +\\infty$，当 $x\\to +\\infty$ 时 $g\\left(x\\right)\\to 0$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/tianjin/q20_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>因此 $g$ 在 $\\left(0,1\\right)$ 上从 $+\\infty$ 严格递减到 $0$，在 $\\left(1,\\mathrm{e}^{2}\\right)$ 上从 $0$ 严格递增到 $\\frac{4}{\\mathrm{e}^{2}}$，在 $\\left(\\mathrm{e}^{2},+\\infty\\right)$ 上从 $\\frac{4}{\\mathrm{e}^{2}}$ 严格递减到 $0$.故方程 $a=g\\left(x\\right)$ 在 $\\left(0,+\\infty\\right)$ 内恰有三个根，当且仅当 $0&#x3C;a&#x3C;\\frac{4}{\\mathrm{e}^{2}}$.</p></li><li><p>由上问 $g$ 的单调性及 $a=g\\left(x\\right)$ 有三个根，推出 $0&#x3C;x_{1}&#x3C;1&#x3C;x_{2}&#x3C;\\mathrm{e}^{2}&#x3C;x_{3}$.设 $\\ln x_{1}=t_{1}$，$\\ln x_{2}=t_{2}$，$\\ln x_{3}=t_{3}$，则 $t_{1}&#x3C;0&#x3C;t_{2}&#x3C;2&#x3C;t_{3}$，且 $a\\mathrm{e}^{t_1}=t_{1}^{2}$，$a\\mathrm{e}^{t_2}=t_{2}^{2}$，$a\\mathrm{e}^{t_3}=t_{3}^{2}$.由后两式取对数得 $\\ln a+t_{2}=2\\ln t_{2}$，$\\ln a+t_{3}=2\\ln t_{3}$，两式相减得 $t_{3}-t_{2}=2\\left(\\ln t_{3}-\\ln t_{2}\\right)$. 记 $u=\\frac{t_{3}}{t_{2}}>1$，$s=\\sqrt{u}>1$，则 $\\frac{t_{3}-t_{2}}{\\ln t_{3}-\\ln t_{2}}=t_{2}\\frac{u-1}{\\ln u}$. 因为当 $s>1$ 时 $\\ln s&#x3C;\\frac{1}{2}\\left(s-\\frac{1}{s}\\right)$（令 $h\\left(s\\right)=\\frac{1}{2}\\left(s-\\frac{1}{s}\\right)-\\ln s$，则 $h\\left(1\\right)=0$，$h'\\left(s\\right)=\\frac{\\left(s-1\\right)^{2}}{2s^{2}}>0$），所以 $\\ln u=2\\ln s&#x3C;s-\\frac{1}{s}=\\frac{u-1}{\\sqrt{u}}$，故 $\\frac{u-1}{\\ln u}>\\sqrt{u}$. 于是 $\\frac{t_{3}-t_{2}}{\\ln t_{3}-\\ln t_{2}}>t_{2}\\sqrt{u}=\\sqrt{t_{2}t_{3}}$. 结合左端等于 $2$ 得 $2>\\sqrt{t_{2}t_{3}}$，所以 $t_{2}t_{3}&#x3C;4$.所要证的 $\\left(\\ln x_{2}-\\ln x_{1}\\right)\\ln x_{3}=\\left(t_{2}-t_{1}\\right)t_{3}=t_{2}t_{3}+\\left(-t_{1}t_{3}\\right)$，只需分别界定两项之和.因为 $t_{1}&#x3C;0$ 且 $t_{1}^{2}=a\\mathrm{e}^{t_1}&#x3C;a$，其中 $\\mathrm{e}^{t_1}&#x3C;1$ 用了 $t_{1}&#x3C;0$，所以 $-t_{1}&#x3C;\\sqrt{a}$.又由 $a\\mathrm{e}^{t_3}=t_{3}^{2}$ 得 $\\sqrt{a}\\,t_{3}=\\frac{t_{3}^{2}}{\\mathrm{e}^{\\frac{t_3}{2}}}$.于是 $-t_{1}t_{3}&#x3C;\\sqrt{a}\\,t_{3}=\\frac{t_{3}^{2}}{\\mathrm{e}^{\\frac{t_3}{2}}}$.设 $\\varphi\\left(t\\right)=\\frac{t^{2}}{\\mathrm{e}^{\\frac{t}{2}}}$，$t>2$，则 $\\varphi'\\left(t\\right)=\\frac{t\\left(4-t\\right)}{2\\mathrm{e}^{\\frac{t}{2}}}$.所以当 $2&#x3C;t&#x3C;4$ 时 $\\varphi'\\left(t\\right)>0$，当 $t>4$ 时 $\\varphi'\\left(t\\right)&#x3C;0$，故 $\\varphi\\left(t\\right)$ 在 $t=4$ 处取得最大值 $\\varphi\\left(4\\right)=\\frac{16}{\\mathrm{e}^{2}}$.而 $\\frac{16}{\\mathrm{e}^{2}}&#x3C;\\frac{4}{\\mathrm{e}-1}$，因为此式等价于 $4\\left(\\mathrm{e}-1\\right)&#x3C;\\mathrm{e}^{2}$，即 $\\mathrm{e}^{2}-4\\mathrm{e}+4=\\left(\\mathrm{e}-2\\right)^{2}>0$.从而 $-t_{1}t_{3}&#x3C;\\frac{16}{\\mathrm{e}^{2}}&#x3C;\\frac{4}{\\mathrm{e}-1}$.结合 $t_{2}t_{3}&#x3C;4$ 得 $\\left(t_{2}-t_{1}\\right)t_{3}&#x3C;4+\\frac{4}{\\mathrm{e}-1}=\\frac{4\\mathrm{e}}{\\mathrm{e}-1}$，即 $\\left(\\ln x_{2}-\\ln x_{1}\\right)\\cdot\\ln x_{3}&#x3C;\\frac{4\\mathrm{e}}{\\mathrm{e}-1}$.</p></li></ol><p></p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

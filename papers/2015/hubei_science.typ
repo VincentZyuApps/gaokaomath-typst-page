@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -430,7 +431,7 @@ $ x cos t+2 y sin t=4 $
 令 $P=(p,(p)/(2))$，$Q=(q,-(q)/(2))$. 在题设两交点存在时，$cos t+ sin t$ 与 $cos t- sin t$ 均不为零. 将切线分别与 $l_1$，$l_2$ 联立，得
 $p=(4)/(cos t+ sin t)$，$q=(4)/(cos t- sin t)$. 因而
 
-$ S_( triangle O P Q)=(1)/(2)|\det\b e g i n{p m a t r i x}p&(p)/(2)\\q&-(q)/(2)\e n d{p m a t r i x}| =(|p q|)/(2)=(8)/(| cos ""^(2) t- sin ""^(2) t|)=(8)/(| cos 2 t|) >= 8 $
+$ S_( triangle O P Q)=(1)/(2)|det\b e g i n{p m a t r i x}p&(p)/(2)\\q&-(q)/(2)\e n d{p m a t r i x}| =(|p q|)/(2)=(8)/(| cos ""^(2) t- sin ""^(2) t|)=(8)/(| cos 2 t|) >= 8 $
 
 当 $t=0$ 或 $t=(pi)/(2)$ 时取等号，故面积存在最小值，且最小值为 $8$.
 ]

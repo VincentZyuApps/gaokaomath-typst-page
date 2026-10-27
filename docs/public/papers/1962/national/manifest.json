@@ -1,167 +1,83 @@
 {
+  "title": "1962年普通高等学校招生全国统一考试",
+  "subtitle": "1962年全国卷",
   "year": "1962",
   "slug": "national",
-  "title": "1962年全国卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
       "problems": [
         {
           "num": 1,
-          "body": "某工厂第三年的产量比第一年的产量增长 $21\\%$.\r\n\r\n\n(1) 问平均每年比上一年增长百分之几？\n\n(2) 第一年的产量是第三年的产量的百分之几？（精确到 $1\\%$）",
-          "choices": [],
+          "body": "<p>某工厂第三年的产量比第一年的产量增长 $21\\%$.</p><ol class=\"enumerate\"><li><p>问平均每年比上一年增长百分之几？</p></li><li><p>第一年的产量是第三年的产量的百分之几？（精确到 $1\\%$）</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设第一年的产量为 $Q_1$，第三年的产量为 $Q_3$，则 $Q_3=1.21Q_1$.\r\n\r\n\n(1) 设平均每年比上一年增长 $x\\%$. 每年的产量相对于上一年的增长因数为 $1+\\frac{x}{100}$，连续增长两年后有\r\n\n$$\n\\left(1+\\frac{x}{100}\\right)^2=\\frac{Q_3}{Q_1}=1.21=\\frac{121}{100}\n$$\n\r\n因为增长因数为正，所以 $1+\\frac{x}{100}=\\frac{11}{10}$，从而 $x=10$. 因此平均每年比上一年增长 $10\\%$.\n\n(2) 第一年的产量占第三年的比例为\r\n\n$$\n\\frac{Q_1}{Q_3}=\\frac{1}{1.21}=\\frac{100}{121}=0.826446\\ldots\n$$\n\r\n换算成百分数得 $82.6446\\ldots\\%$，精确到 $1\\%$ 为 $83\\%$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设第一年的产量为 $Q_{1}$，第三年的产量为 $Q_{3}$，则 $Q_{3}=1.21Q_{1}$.</p><ol class=\"enumerate\"><li><p>设平均每年比上一年增长 $x\\%$. 每年的产量相对于上一年的增长因数为 $1+\\frac{x}{100}$，连续增长两年后有</p>\n$$\n\\left(1+\\frac{x}{100}\\right)^{2}=\\frac{Q_{3}}{Q_{1}}=1.21=\\frac{121}{100}\n$$\n<p>因为增长因数为正，所以 $1+\\frac{x}{100}=\\frac{11}{10}$，从而 $x=10$. 因此平均每年比上一年增长 $10\\%$.</p></li><li><p>第一年的产量占第三年的比例为</p>\n$$\n\\frac{Q_{1}}{Q_{3}}=\\frac{1}{1.21}=\\frac{100}{121}=0.826446\\ldots\n$$\n<p>换算成百分数得 $82.6446\\ldots\\%$，精确到 $1\\%$ 为 $83\\%$.</p></li></ol>"
         },
         {
           "num": 2,
-          "body": "求 $\\left(1-2\\mathrm{i}\\right)^5$ 的实部.",
-          "choices": [],
+          "body": "求 $\\left(1-2\\mathrm{i}\\right)^{5}$ 的实部.",
+          "choices": null,
           "answer": "",
-          "solution": "由二项式定理，\r\n\n$$\n\\begin{aligned}\r\n\\left(1-2\\mathrm{i}\\right)^5\r\n&=1+\\mathrm C_5^1(-2\\mathrm{i})+\\mathrm C_5^2(-2\\mathrm{i})^2+\\mathrm C_5^3(-2\\mathrm{i})^3+\\mathrm C_5^4(-2\\mathrm{i})^4+(-2\\mathrm{i})^5\\\\\r\n&=1-10\\mathrm{i}-40+80\\mathrm{i}+80-32\\mathrm{i}=41+38\\mathrm{i}.\r\n\\end{aligned}\n$$\n\r\n所以 $\\left(1-2\\mathrm{i}\\right)^5$ 的实部为 $41$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由二项式定理，</p>\n$$\n\\begin{aligned}\\left(1-2\\mathrm{i}\\right)^{5}&#x26;=1+\\mathrm{C}_{5}^{1}(-2\\mathrm{i})+\\mathrm{C}_{5}^{2}(-2\\mathrm{i})^{2}+\\mathrm{C}_{5}^{3}(-2\\mathrm{i})^{3}+\\mathrm{C}_{5}^{4}(-2\\mathrm{i})^{4}+(-2\\mathrm{i})^{5}\\\\&#x26;=1-10\\mathrm{i}-40+80\\mathrm{i}+80-32\\mathrm{i}=41+38\\mathrm{i}.\\end{aligned}\n$$\n<p>所以 $\\left(1-2\\mathrm{i}\\right)^{5}$ 的实部为 $41$.</p>"
         },
         {
           "num": 3,
           "body": "解方程：$\\log\\left(x-5\\right)+\\log\\left(x+3\\right)-2\\log2=\\log\\left(2x-9\\right)$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "原方程有意义必须满足 $x-5>0$，$x+3>0$，$2x-9>0$.\r\n三个条件合起来得到定义域 $x>5$. 在此定义域内，利用对数的运算性质，原方程等价于\r\n\n$$\n\\log\\frac{\\left(x-5\\right)\\left(x+3\\right)}{4}=\\log\\left(2x-9\\right)\n$$\n\r\n因此\r\n\n$$\n\\left(x-5\\right)\\left(x+3\\right)=4\\left(2x-9\\right)\n$$\n\r\n展开并移项得 $x^2-10x+21=0$，即 $\\left(x-3\\right)\\left(x-7\\right)=0$.\r\n候选根为 $x=3$ 或 $x=7$. 其中 $x=3$ 不满足定义域 $x>5$，舍去；$x=7$ 满足定义域，且代入原方程时两边均为 $\\log5$. 所以原方程的解为 $x=7$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>原方程有意义必须满足 $x-5>0$，$x+3>0$，$2x-9>0$.</p><p>三个条件合起来得到定义域 $x>5$. 在此定义域内，利用对数的运算性质，原方程等价于</p>\n$$\n\\log\\frac{\\left(x-5\\right)\\left(x+3\\right)}{4}=\\log\\left(2x-9\\right)\n$$\n<p>因此</p>\n$$\n\\left(x-5\\right)\\left(x+3\\right)=4\\left(2x-9\\right)\n$$\n<p>展开并移项得 $x^{2}-10x+21=0$，即 $\\left(x-3\\right)\\left(x-7\\right)=0$.</p><p>候选根为 $x=3$ 或 $x=7$. 其中 $x=3$ 不满足定义域 $x>5$，舍去；$x=7$ 满足定义域，且代入原方程时两边均为 $\\log5$. 所以原方程的解为 $x=7$.</p>"
         },
         {
           "num": 4,
-          "body": "求 $\\sin\\left(2\\arcsin\\frac45\\right)$ 的值.",
-          "choices": [],
+          "body": "求 $\\sin\\left(2\\arcsin\\frac{4}{5}\\right)$ 的值.",
+          "choices": null,
           "answer": "",
-          "solution": "设 $a=\\arcsin\\frac45$. 按反正弦函数的值域，$0<a<\\frac{\\pi}{2}$，所以\r\n$\\sin a=\\frac45$. 又因 $0<a<\\frac{\\pi}{2}$，所以\r\n\n$$\n\\cos a=\\sqrt{1-\\sin^2a}=\\sqrt{1-\\left(\\frac45\\right)^2}=\\frac35\n$$\n\r\n利用正弦的二倍角公式，\r\n\n$$\n\\sin\\left(2\\arcsin\\frac45\\right)=\\sin2a=2\\sin a\\cos a=2\\cdot\\frac45\\cdot\\frac35=\\frac{24}{25}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $a=\\arcsin\\frac{4}{5}$. 按反正弦函数的值域，$0&#x3C;a&#x3C;\\frac{\\pi}{2}$，所以</p><p>$\\sin a=\\frac{4}{5}$. 又因 $0&#x3C;a&#x3C;\\frac{\\pi}{2}$，所以</p>\n$$\n\\cos a=\\sqrt{1-\\sin^{2}a}=\\sqrt{1-\\left(\\frac{4}{5}\\right)^{2}}=\\frac{3}{5}\n$$\n<p>利用正弦的二倍角公式，</p>\n$$\n\\sin\\left(2\\arcsin\\frac{4}{5}\\right)=\\sin2a=2\\sin a\\cos a=2\\cdot\\frac{4}{5}\\cdot\\frac{3}{5}=\\frac{24}{25}\n$$"
         },
         {
           "num": 5,
-          "body": "求证：\r\n\r\n\n(1) 圆内接平行四边形是矩形.\n\n(2) 圆外切平行四边形是菱形.",
-          "choices": [],
+          "body": "<p>求证：</p><ol class=\"enumerate\"><li><p>圆内接平行四边形是矩形.</p></li><li><p>圆外切平行四边形是菱形.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设平行四边形 $ABCD$ 内接于一个圆. 平行四边形的对角相等，所以 $\\angle A=\\angle C$. 圆内接四边形的对角互补，所以 $\\angle A+\\angle C=180^\\circ$. 联立两式得 $2\\angle A=180^\\circ$，即 $\\angle A=\\angle C=90^\\circ$. 平行四边形有一个直角就是矩形，因此 $ABCD$ 是矩形.\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1962/img/national/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n(2) 设平行四边形 $ABCD$ 的四边分别与圆相切，切点 $E$，$F$，$G$，$H$ 依次位于 $AB$，$BC$，$CD$，$DA$ 上（如图）. 由同一点向圆所作的两条切线段相等，得 $AE=AH$，$BE=BF$，$CG=CF$，$DG=DH$. 又因为 $AB=AE+EB$，$CD=CG+GD$，$AD=AH+HD$，$BC=BF+FC$，\r\n所以将四个切线段等式相加可得\r\n\n$$\nAB+CD=AE+EB+CG+GD=AH+BF+CF+HD=AD+BC\n$$\n\r\n平行四边形的对边相等，即 $AB=CD$，$AD=BC$. 代入上式得 $2AB=2BC$，从而 $AB=BC$. 平行四边形的四条边均相等，所以 $ABCD$ 是菱形.\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1962/img/national/q5_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设平行四边形 $ABCD$ 内接于一个圆. 平行四边形的对角相等，所以 $\\angle A=\\angle C$. 圆内接四边形的对角互补，所以 $\\angle A+\\angle C=180^{\\circ}$. 联立两式得 $2\\angle A=180^{\\circ}$，即 $\\angle A=\\angle C=90^{\\circ}$. 平行四边形有一个直角就是矩形，因此 $ABCD$ 是矩形.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q5_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li><li><p>设平行四边形 $ABCD$ 的四边分别与圆相切，切点 $E$，$F$，$G$，$H$ 依次位于 $AB$，$BC$，$CD$，$DA$ 上（如图）. 由同一点向圆所作的两条切线段相等，得 $AE=AH$，$BE=BF$，$CG=CF$，$DG=DH$. 又因为 $AB=AE+EB$，$CD=CG+GD$，$AD=AH+HD$，$BC=BF+FC$，</p><p>所以将四个切线段等式相加可得</p>\n$$\nAB+CD=AE+EB+CG+GD=AH+BF+CF+HD=AD+BC\n$$\n<p>平行四边形的对边相等，即 $AB=CD$，$AD=BC$. 代入上式得 $2AB=2BC$，从而 $AB=BC$. 平行四边形的四条边均相等，所以 $ABCD$ 是菱形.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q5_solution_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p></li></ol>"
         },
         {
           "num": 6,
-          "body": "解方程组：$\\begin{cases}\r\ny^2-4x-2y+1=0,\\\\\r\ny=x+a.\r\n\\end{cases}$\r\n并讨论：$a$ 取哪些实数值时，这个方程组\r\n\r\n\n(1) 有不同的两组实数解；\n\n(2) 有相同的两组实数解；\n\n(3) 没有实数解.",
-          "choices": [],
+          "body": "<p>解方程组：$\\begin{cases}y^{2}-4x-2y+1=0,\\\\  y=x+a.\\end{cases}$</p><p>并讨论：$a$ 取哪些实数值时，这个方程组</p><ol class=\"enumerate\"><li><p>有不同的两组实数解；</p></li><li><p>有相同的两组实数解；</p></li><li><p>没有实数解.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "由第二个方程得 $x=y-a$. 代入第一个方程，得到\r\n\n$$\ny^2-4\\left(y-a\\right)-2y+1=0\n$$\n\r\n即\r\n\n$$\ny^2-6y+4a+1=0\n$$\n\r\n这个关于 $y$ 的二次方程的判别式为\r\n\n$$\n\\Delta=(-6)^2-4\\left(4a+1\\right)=16\\left(2-a\\right)\n$$\n\r\n\r\n当 $a\\leq2$ 时，\r\n\n$$\ny=\\frac{6\\pm\\sqrt{16\\left(2-a\\right)}}{2}=3\\pm2\\sqrt{2-a}\n$$\n\r\n再由 $x=y-a$ 得相应的解为\r\n\n$$\n\\begin{cases}\r\nx_1=3-a+2\\sqrt{2-a},\\\\\r\ny_1=3+2\\sqrt{2-a},\r\n\\end{cases}\r\n\\qquad\r\n\\begin{cases}\r\nx_2=3-a-2\\sqrt{2-a},\\\\\r\ny_2=3-2\\sqrt{2-a}.\r\n\\end{cases}\n$$\n\r\n\r\n\n(1) 当 $a<2$ 时，$\\sqrt{2-a}>0$，上述两组解的 $y$ 值不同，因而方程组有不同的两组实数解.\n\n(2) 当 $a=2$ 时，两个根重合，且两组解都为 $(x,y)=(1,3)$，所以方程组有相同的两组实数解.\n\n(3) 当 $a>2$ 时，$\\Delta<0$，关于 $y$ 的方程没有实根，因而方程组没有实数解.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由第二个方程得 $x=y-a$. 代入第一个方程，得到</p>\n$$\ny^{2}-4\\left(y-a\\right)-2y+1=0\n$$\n<p>即</p>\n$$\ny^{2}-6y+4a+1=0\n$$\n<p>这个关于 $y$ 的二次方程的判别式为</p>\n$$\n\\Delta=(-6)^{2}-4\\left(4a+1\\right)=16\\left(2-a\\right)\n$$\n<p>当 $a\\leq2$ 时，</p>\n$$\ny=\\frac{6\\pm\\sqrt{16\\left(2-a\\right)}}{2}=3\\pm2\\sqrt{2-a}\n$$\n<p>再由 $x=y-a$ 得相应的解为</p>\n$$\n\\begin{cases}x_{1}=3-a+2\\sqrt{2-a},\\\\  y_{1}=3+2\\sqrt{2-a},\\end{cases}  \\qquad  \\begin{cases}x_{2}=3-a-2\\sqrt{2-a},\\\\  y_{2}=3-2\\sqrt{2-a}.\\end{cases}\n$$\n<ol class=\"enumerate\"><li><p>当 $a&#x3C;2$ 时，$\\sqrt{2-a}>0$，上述两组解的 $y$ 值不同，因而方程组有不同的两组实数解.</p></li><li><p>当 $a=2$ 时，两个根重合，且两组解都为 $(x,y)=(1,3)$，所以方程组有相同的两组实数解.</p></li><li><p>当 $a>2$ 时，$\\Delta&#x3C;0$，关于 $y$ 的方程没有实根，因而方程组没有实数解.</p></li></ol>"
         },
         {
           "num": 7,
-          "body": "如图，$ABCD$ 和 $A'B'C'D'$ 都是正方形，而 $A'$，$B'$，$C'$，$D'$ 顺次分 $AB$，$BC$，$CD$，$DA$ 成 $m:n$，并设 $AB=1$.\r\n\r\n\n(1) 求正方形 $A'B'C'D'$ 的面积；\n\n(2) 证明：正方形 $A'B'C'D'$ 的面积不小于 $\\frac12$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1962/img/national/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，$ABCD$ 和 $A'B'C'D'$ 都是正方形，而 $A'$，$B'$，$C'$，$D'$ 顺次分 $AB$，$BC$，$CD$，$DA$ 成 $m:n$，并设 $AB=1$.</p><ol class=\"enumerate\"><li><p>求正方形 $A'B'C'D'$ 的面积；</p></li><li><p>证明：正方形 $A'B'C'D'$ 的面积不小于 $\\frac{1}{2}$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "由内分条件可知 $m>0$，$n>0$. 对于点 $A'$，有\r\n$AA':A'B=m:n$，且 $AA'+A'B=AB=1$，\r\n故 $AA'=\\frac{m}{m+n}$，$A'B=\\frac{n}{m+n}$.\r\n同理，点 $B'$ 将 $BC$ 按 $m:n$ 内分，所以 $BB'=\\frac{m}{m+n}$. 因为 $A'B\\subset AB$，$BB'\\subset BC$，且 $AB\\perp BC$，三角形 $A'BB'$ 在 $B$ 处为直角，$A'B'$ 是正方形 $A'B'C'D'$ 的边.\r\n\r\n\n(1) 由勾股定理，\r\n\n$$\nA'B'^2=A'B^2+BB'^2\r\n=\\left(\\frac{n}{m+n}\\right)^2+\\left(\\frac{m}{m+n}\\right)^2\r\n=\\frac{m^2+n^2}{\\left(m+n\\right)^2}\n$$\n\r\n所以正方形 $A'B'C'D'$ 的面积为 $\\dfrac{m^2+n^2}{\\left(m+n\\right)^2}$.\n\n(2) 将上述面积与 $\\frac12$ 作差，得\r\n\n$$\n\\begin{aligned}\r\n\\frac{m^2+n^2}{\\left(m+n\\right)^2}-\\frac12\r\n&=\\frac{2\\left(m^2+n^2\\right)-\\left(m+n\\right)^2}{2\\left(m+n\\right)^2}\\\\\r\n&=\\frac{\\left(m-n\\right)^2}{2\\left(m+n\\right)^2}\\geq0.\r\n\\end{aligned}\n$$\n\r\n因此正方形 $A'B'C'D'$ 的面积不小于 $\\frac12$. 当且仅当 $m=n$ 时取等号.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由内分条件可知 $m>0$，$n>0$. 对于点 $A'$，有</p><p>$AA':A'B=m:n$，且 $AA'+A'B=AB=1$，</p><p>故 $AA'=\\frac{m}{m+n}$，$A'B=\\frac{n}{m+n}$.</p><p>同理，点 $B'$ 将 $BC$ 按 $m:n$ 内分，所以 $BB'=\\frac{m}{m+n}$. 因为 $A'B\\subset AB$，$BB'\\subset BC$，且 $AB\\perp BC$，三角形 $A'BB'$ 在 $B$ 处为直角，$A'B'$ 是正方形 $A'B'C'D'$ 的边.</p><ol class=\"enumerate\"><li><p>由勾股定理，</p>\n$$\nA'B'^{2}=A'B^{2}+BB'^{2}  =\\left(\\frac{n}{m+n}\\right)^{2}+\\left(\\frac{m}{m+n}\\right)^{2}  =\\frac{m^{2}+n^{2}}{\\left(m+n\\right)^{2}}\n$$\n<p>所以正方形 $A'B'C'D'$ 的面积为 $\\dfrac{m^2+n^2}{\\left(m+n\\right)^2}$.</p></li><li><p>将上述面积与 $\\frac{1}{2}$ 作差，得</p>\n$$\n\\begin{aligned}\\frac{m^2+n^2}{\\left(m+n\\right)^2}-\\frac{1}{2}&#x26;=\\frac{2\\left(m^2+n^2\\right)-\\left(m+n\\right)^2}{2\\left(m+n\\right)^2}\\\\&#x26;=\\frac{\\left(m-n\\right)^2}{2\\left(m+n\\right)^2}\\geq0.\\end{aligned}\n$$\n<p>因此正方形 $A'B'C'D'$ 的面积不小于 $\\frac{1}{2}$. 当且仅当 $m=n$ 时取等号.</p></li></ol>"
         },
         {
           "num": 8,
-          "body": "$D$ 是 $\\triangle ABC$ 内的一点，已知 $AB=AC=1$，$\\angle CAB=63^\\circ$，$\\angle DAB=33^\\circ$，$\\angle DBA=27^\\circ$，求 $CD$. （$\\sin27^\\circ=0.4540$，最后结果计算到小数点后两位.）",
-          "choices": [],
+          "body": "$D$ 是 $\\triangle ABC$ 内的一点，已知 $AB=AC=1$，$\\angle CAB=63^{\\circ}$，$\\angle DAB=33^{\\circ}$，$\\angle DBA=27^{\\circ}$，求 $CD$. （$\\sin27^{\\circ}=0.4540$，最后结果计算到小数点后两位.）",
+          "choices": null,
           "answer": "",
-          "solution": "在 $\\triangle ABD$ 中，\r\n\n$$\n\\angle BDA=180^\\circ-\\angle DAB-\\angle DBA=180^\\circ-33^\\circ-27^\\circ=120^\\circ\n$$\n\r\n由正弦定理，\r\n\n$$\n\\frac{AD}{\\sin27^\\circ}=\\frac{AB}{\\sin120^\\circ}=\\frac{1}{\\frac{\\sqrt3}{2}}\n$$\n\r\n所以\r\n\n$$\nAD=\\frac{2}{\\sqrt3}\\sin27^\\circ\n$$\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1962/img/national/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n由于 $D$ 在 $\\angle CAB$ 的内部，\r\n\n$$\n\\angle DAC=\\angle CAB-\\angle DAB=63^\\circ-33^\\circ=30^\\circ\n$$\n\r\n在 $\\triangle ADC$ 中使用余弦定理，并记 $s=\\sin27^\\circ=0.4540$，得\r\n\n$$\n\\begin{aligned}\r\nCD^2\r\n&=AC^2+AD^2-2AC\\cdot AD\\cos30^\\circ\\\\\r\n&=1+\\frac43s^2-2s=1+\\frac43(0.4540)^2-2(0.4540)\\\\\r\n&=1+0.274821\\ldots-0.9080=0.366821\\ldots.\r\n\\end{aligned}\n$$\n\r\n因此\r\n\n$$\nCD=\\sqrt{0.366821\\ldots}=0.605657\\ldots\n$$\n\r\n按题意精确到小数点后两位，得 $CD=0.61$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>在 $\\triangle ABD$ 中，</p>\n$$\n\\angle BDA=180^{\\circ}-\\angle DAB-\\angle DBA=180^{\\circ}-33^{\\circ}-27^{\\circ}=120^{\\circ}\n$$\n<p>由正弦定理，</p>\n$$\n\\frac{AD}{\\sin27^{\\circ}}=\\frac{AB}{\\sin120^{\\circ}}=\\frac{1}{\\frac{\\sqrt{3}}{2}}\n$$\n<p>所以</p>\n$$\nAD=\\frac{2}{\\sqrt{3}}\\sin27^{\\circ}\n$$\n<p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q8_solution_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由于 $D$ 在 $\\angle CAB$ 的内部，</p>\n$$\n\\angle DAC=\\angle CAB-\\angle DAB=63^{\\circ}-33^{\\circ}=30^{\\circ}\n$$\n<p>在 $\\triangle ADC$ 中使用余弦定理，并记 $s=\\sin27^{\\circ}=0.4540$，得</p>\n$$\n\\begin{aligned}CD^{2}&#x26;=AC^{2}+AD^{2}-2AC\\cdot AD\\cos30^{\\circ}\\\\&#x26;=1+\\frac{4}{3}s^{2}-2s=1+\\frac{4}{3}(0.4540)^{2}-2(0.4540)\\\\&#x26;=1+0.274821\\ldots-0.9080=0.366821\\ldots.\\end{aligned}\n$$\n<p>因此</p>\n$$\nCD=\\sqrt{0.366821\\ldots}=0.605657\\ldots\n$$\n<p>按题意精确到小数点后两位，得 $CD=0.61$.</p>"
         },
         {
           "num": 9,
-          "body": "由正方体 $ABCD-A_1B_1C_1D_1$ 的顶点 $A$ 作这个正方体的对角线 $A_1C$ 的垂线，垂足为 $E$. 证明：$A_1E:EC=1:2$. （要求画图）",
-          "choices": [],
+          "body": "由正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 的顶点 $A$ 作这个正方体的对角线 $A_{1}C$ 的垂线，垂足为 $E$. 证明：$A_{1}E:EC=1:2$. （要求画图）",
+          "choices": null,
           "answer": "",
-          "solution": "连接 $AC$. 由于 $AA_1$ 垂直于正方体的底面 $ABCD$，而 $AC$ 在底面内，所以 $AA_1\\perp AC$. 因此 $\\triangle A_1AC$ 是以 $A_1C$ 为斜边的直角三角形. 设正方体的棱长为 $l$，则\r\n$A_1A=l$，$AC=\\sqrt2l$.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1962/img/national/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n由题意，$AE\\perp A_1C$，所以 $AE$ 是直角三角形 $A_1AC$ 斜边上的高. 根据直角三角形斜边上的高所分成的两个直角三角形与原三角形相似，得到射影定理\r\n$A_1A^2=A_1E\\cdot A_1C$，$AC^2=EC\\cdot A_1C$.\r\n两式相除，消去正数 $A_1C$，得\r\n\n$$\n\\frac{A_1E}{EC}=\\frac{A_1A^2}{AC^2}=\\frac{l^2}{\\left(\\sqrt2l\\right)^2}=\\frac12\n$$\n\r\n所以 $A_1E:EC=1:2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>连接 $AC$. 由于 $AA_{1}$ 垂直于正方体的底面 $ABCD$，而 $AC$ 在底面内，所以 $AA_{1}\\perp AC$. 因此 $\\triangle A_{1}AC$ 是以 $A_{1}C$ 为斜边的直角三角形. 设正方体的棱长为 $l$，则</p><p>$A_{1}A=l$，$AC=\\sqrt{2}l$.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/national/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>由题意，$AE\\perp A_{1}C$，所以 $AE$ 是直角三角形 $A_{1}AC$ 斜边上的高. 根据直角三角形斜边上的高所分成的两个直角三角形与原三角形相似，得到射影定理</p><p>$A_{1}A^{2}=A_{1}E\\cdot A_{1}C$，$AC^{2}=EC\\cdot A_{1}C$.</p><p>两式相除，消去正数 $A_{1}C$，得</p>\n$$\n\\frac{A_{1}E}{EC}=\\frac{A_{1}A^{2}}{AC^{2}}=\\frac{l^{2}}{\\left(\\sqrt{2}l\\right)^{2}}=\\frac{1}{2}\n$$\n<p>所以 $A_{1}E:EC=1:2$.</p>"
         },
         {
           "num": 10,
           "body": "求证：两两相交而不通过同一点的四条直线必在同一平面内.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "在四条直线中任取两条，记为 $a$，$b$，并设它们的交点为 $P$. 由题意，另外两条直线不可能都通过 $P$，因此可以把其中一条记为 $c$，使得 $c$ 不通过 $P$.\r\n\r\n由于各直线两两相交，$c$ 分别与 $a$，$b$ 相交. 设交点分别为 $Q$，$R$. 若 $Q=R$，则这个交点同时在 $a$ 和 $b$ 上，只能是 $a$ 与 $b$ 的交点 $P$，这与 $c$ 不通过 $P$ 矛盾，所以 $Q\\neq R$. 直线 $a$，$b$ 确定一个平面 $\\pi$，且 $Q$，$R$ 都在 $\\pi$ 内，因此直线 $c$ 也在平面 $\\pi$ 内.\r\n\r\n设剩下的第四条直线为 $d$. 若 $d$ 通过 $P$，则 $d$ 与 $c$ 的交点记为 $S$. 因为 $c$ 不通过 $P$，所以 $S\\neq P$，且 $P$，$S$ 都在平面 $\\pi$ 内，从而直线 $d$ 在平面 $\\pi$ 内.\r\n\r\n若 $d$ 不通过 $P$，设 $d$ 与 $a$，$b$ 的交点分别为 $U$，$V$. 两点都不等于 $P$，且若 $U=V$，则该点同时在 $a$，$b$ 上，仍只能是 $P$，矛盾. 所以 $U\\neq V$，而 $U$，$V$ 都在平面 $\\pi$ 内，从而直线 $d$ 也在平面 $\\pi$ 内.\r\n\r\n综上，四条直线 $a$，$b$，$c$，$d$ 均在同一平面 $\\pi$ 内，命题得证.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>在四条直线中任取两条，记为 $a$，$b$，并设它们的交点为 $P$. 由题意，另外两条直线不可能都通过 $P$，因此可以把其中一条记为 $c$，使得 $c$ 不通过 $P$.</p><p>由于各直线两两相交，$c$ 分别与 $a$，$b$ 相交. 设交点分别为 $Q$，$R$. 若 $Q=R$，则这个交点同时在 $a$ 和 $b$ 上，只能是 $a$ 与 $b$ 的交点 $P$，这与 $c$ 不通过 $P$ 矛盾，所以 $Q\\neq R$. 直线 $a$，$b$ 确定一个平面 $\\pi$，且 $Q$，$R$ 都在 $\\pi$ 内，因此直线 $c$ 也在平面 $\\pi$ 内.</p><p>设剩下的第四条直线为 $d$. 若 $d$ 通过 $P$，则 $d$ 与 $c$ 的交点记为 $S$. 因为 $c$ 不通过 $P$，所以 $S\\neq P$，且 $P$，$S$ 都在平面 $\\pi$ 内，从而直线 $d$ 在平面 $\\pi$ 内.</p><p>若 $d$ 不通过 $P$，设 $d$ 与 $a$，$b$ 的交点分别为 $U$，$V$. 两点都不等于 $P$，且若 $U=V$，则该点同时在 $a$，$b$ 上，仍只能是 $P$，矛盾. 所以 $U\\neq V$，而 $U$，$V$ 都在平面 $\\pi$ 内，从而直线 $d$ 也在平面 $\\pi$ 内.</p><p>综上，四条直线 $a$，$b$，$c$，$d$ 均在同一平面 $\\pi$ 内，命题得证.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

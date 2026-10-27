@@ -1,260 +1,81 @@
 {
+  "title": "1993年普通高等学校招生全国统一考试",
+  "subtitle": "1993年上海卷",
   "year": "1993",
   "slug": "shanghai",
-  "title": "1993年上海卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 24,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 25,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 26,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "函数 $y = x^2 - 2x + 3$ 的最小值是 _______ {}.",
-          "choices": [],
+          "body": "函数 $y = x^{2} - 2x + 3$ 的最小值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "2",
-          "solution": "配方得 $y=x^2-2x+3=(x-1)^2+2$. 因为 $(x-1)^2\\ge 0$，所以 $y\\ge 2$，当 $x=1$ 时取等号，故最小值为 $2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "配方得 $y=x^{2}-2x+3=(x-1)^{2}+2$. 因为 $(x-1)^{2}\\ge 0$，所以 $y\\ge 2$，当 $x=1$ 时取等号，故最小值为 $2$."
         },
         {
           "num": 2,
-          "body": "函数 $y = \\cos^2(\\omega x)$（$\\omega > 0$）的最小正周期是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{\\pi}{\\omega}\\)",
-          "solution": "由二倍角公式，$\\cos^2(\\omega x)=\\frac{1+\\cos(2\\omega x)}{2}$. 因为 $\\omega>0$，$\\cos(2\\omega x)$ 的最小正周期为 $\\frac{\\pi}{\\omega}$，加上常数和乘以非零常数不改变周期，所以原函数的最小正周期为 $\\frac{\\pi}{\\omega}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y = \\cos^{2}(\\omega x)$（$\\omega > 0$）的最小正周期是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{\\pi}{\\omega}$",
+          "solution": "由二倍角公式，$\\cos^{2}(\\omega x)=\\frac{1+\\cos(2\\omega x)}{2}$. 因为 $\\omega>0$，$\\cos(2\\omega x)$ 的最小正周期为 $\\frac{\\pi}{\\omega}$，加上常数和乘以非零常数不改变周期，所以原函数的最小正周期为 $\\frac{\\pi}{\\omega}$."
         },
         {
           "num": 3,
-          "body": "设 $z = \\cos \\frac{7\\pi}{5} + \\mathrm{i} \\sin \\frac{7\\pi}{5}$，$\\mathrm{i}$ 是虚数单位，则 $z$ 的辐角主值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{7\\pi}{5}\\)",
-          "solution": "题中复数已经写成三角形式 $z=\\cos\\frac{7\\pi}{5}+\\mathrm{i}\\sin\\frac{7\\pi}{5}$. 按本卷复数辐角主值的约定 $0\\le\\arg z<2\\pi$，且 $\\frac{7\\pi}{5}$ 属于该区间，故 $\\arg z=\\frac{7\\pi}{5}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $z = \\cos \\frac{7\\pi}{5}+ \\mathrm{i}\\sin \\frac{7\\pi}{5}$，$\\mathrm{i}$ 是虚数单位，则 $z$ 的辐角主值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{7\\pi}{5}$",
+          "solution": "题中复数已经写成三角形式 $z=\\cos\\frac{7\\pi}{5}+\\mathrm{i}\\sin\\frac{7\\pi}{5}$. 按本卷复数辐角主值的约定 $0\\le\\arg z&#x3C;2\\pi$，且 $\\frac{7\\pi}{5}$ 属于该区间，故 $\\arg z=\\frac{7\\pi}{5}$."
         },
         {
           "num": 4,
-          "body": "$1\\text{ 名}$老师和$4\\text{ 名}$获奖同学排成一排照相留念，若老师不排在两端，则共有不同排法 _______ {}$\\text{种}$（结果用数值表示）.",
-          "choices": [],
+          "body": "$1\\text{ 名}$老师和$4\\text{ 名}$获奖同学排成一排照相留念，若老师不排在两端，则共有不同排法<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{种}$（结果用数值表示）.",
+          "choices": null,
           "answer": "72",
-          "solution": "老师不能排在两端，因此老师有第 $2$、第 $3$、第 $4$ 个位置，共有 $3$ 种选法. 每确定老师的位置后，$4$ 名同学任意排列，有 $4!=24$ 种排法. 所以不同排法共有 $3\\times 4!=72$ 种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "老师不能排在两端，因此老师有第 $2$、第 $3$、第 $4$ 个位置，共有 $3$ 种选法. 每确定老师的位置后，$4$ 名同学任意排列，有 $4!=24$ 种排法. 所以不同排法共有 $3\\times 4!=72$ 种."
         },
         {
           "num": 5,
-          "body": "函数 $y = \\arccos x$（$-1 \\le x \\le 0$）的反函数是 _______ {}.",
-          "choices": [],
-          "answer": "\\(y = \\cos x\\)（\\(\\frac{\\pi}{2} \\le x \\le \\pi\\)）",
-          "solution": "原函数为 $y=\\arccos x$，其定义域为 $[-1,0]$，值域为 $\\left[\\frac{\\pi}{2},\\pi\\right]$. 交换自变量和因变量，得到反函数 $y=\\cos x$，并且其定义域为原函数的值域 $\\left[\\frac{\\pi}{2},\\pi\\right]$，故反函数为 $y=\\cos x$，$\\frac{\\pi}{2}\\le x\\le\\pi$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y = \\arccos x$（$-1 \\le x \\le 0$）的反函数是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$y = \\cos x$（$\\frac{\\pi}{2}\\le x \\le \\pi$）",
+          "solution": "原函数为 $y=\\arccos x$，其定义域为 $[-1,0]$，值域为 $\\left[\\frac{\\pi}{2},\\pi\\right]$. 交换自变量和因变量，得到反函数 $y=\\cos x$，并且其定义域为原函数的值域 $\\left[\\frac{\\pi}{2},\\pi\\right]$，故反函数为 $y=\\cos x$，$\\frac{\\pi}{2}\\le x\\le\\pi$."
         },
         {
           "num": 6,
-          "body": "$P$ 点分 $\\overline{AB}$ 所成的比是 $-3$，则 $B$ 点分 $\\overline{AP}$ 所成的比是 _______ {}.",
-          "choices": [],
+          "body": "$P$ 点分 $\\overline{AB}$ 所成的比是 $-3$，则 $B$ 点分 $\\overline{AP}$ 所成的比是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "2",
-          "solution": "取有向线段 $\\overline{AP}$ 和 $\\overline{PB}$ 的方向分别为从 $A$ 到 $P$、从 $P$ 到 $B$，则\r\n$\\frac{\\overline{AP}}{\\overline{PB}}=-3$. 设 $\\overline{AP}=t\\overline{AB}$，则 $\\overline{PB}=(1-t)\\overline{AB}$，从而 $\\frac{t}{1-t}=-3$，解得 $t=\\frac{3}{2}$. 因而 $P$ 在 $B$ 的外侧，且 $\\overline{BP}=\\frac{1}{2}\\overline{AB}$. 所以 $B$ 分 $\\overline{AP}$ 所成的比为 $\\frac{\\overline{AB}}{\\overline{BP}}=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>取有向线段 $\\overline{AP}$ 和 $\\overline{PB}$ 的方向分别为从 $A$ 到 $P$、从 $P$ 到 $B$，则</p><p>$\\frac{\\overline{AP}}{\\overline{PB}}=-3$. 设 $\\overline{AP}=t\\overline{AB}$，则 $\\overline{PB}=(1-t)\\overline{AB}$，从而 $\\frac{t}{1-t}=-3$，解得 $t=\\frac{3}{2}$. 因而 $P$ 在 $B$ 的外侧，且 $\\overline{BP}=\\frac{1}{2}\\overline{AB}$. 所以 $B$ 分 $\\overline{AP}$ 所成的比为 $\\frac{\\overline{AB}}{\\overline{BP}}=2$.</p>"
         },
         {
           "num": 7,
-          "body": "已知圆台的上、下底面半径分别是 $10 \\mathrm{~cm}$ 和 $20 \\mathrm{~cm}$，它的侧面展开后所得扇环的圆心角是 $180^{\\circ}$，那么圆台的侧面积是 _______ {} $\\mathrm{cm}^{2}$（结果中保留 $\\pi$）.",
-          "choices": [],
-          "answer": "\\(600\\pi\\)",
-          "solution": "设扇环的内、外半径分别为 $l_1$、$l_2$. 扇环圆心角为 $\\pi$，内弧长和外弧长分别等于圆台上、下底面的周长，因此\r\n$\\pi l_1=2\\pi\\times 10$，$\\pi l_2=2\\pi\\times 20$，解得 $l_1=20$，$l_2=40$. 圆台侧面积等于扇环面积，所以\r\n\n$$\nS=\\frac{\\pi}{2}\\left(l_2^2-l_1^2\\right)=\\frac{\\pi}{2}\\left(40^2-20^2\\right)=600\\pi\n$$\n\r\n故圆台的侧面积为 $600\\pi\\ \\mathrm{cm}^{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆台的上、下底面半径分别是 $10 \\mathrm{~cm}$ 和 $20 \\mathrm{~cm}$，它的侧面展开后所得扇环的圆心角是 $180^{\\circ}$，那么圆台的侧面积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> $\\mathrm{cm}^{2}$（结果中保留 $\\pi$）.",
+          "choices": null,
+          "answer": "$600\\pi$",
+          "solution": "<p>设扇环的内、外半径分别为 $l_{1}$、$l_{2}$. 扇环圆心角为 $\\pi$，内弧长和外弧长分别等于圆台上、下底面的周长，因此</p><p>$\\pi l_{1}=2\\pi\\times 10$，$\\pi l_{2}=2\\pi\\times 20$，解得 $l_{1}=20$，$l_{2}=40$. 圆台侧面积等于扇环面积，所以</p>\n$$\nS=\\frac{\\pi}{2}\\left(l_{2}^{2}-l_{1}^{2}\\right)=\\frac{\\pi}{2}\\left(40^{2}-20^{2}\\right)=600\\pi\n$$\n<p>故圆台的侧面积为 $600\\pi\\ \\mathrm{cm}^{2}$.</p>"
         },
         {
           "num": 8,
-          "body": "已知等比数列 $\\{a_n\\}$（$a_n \\in \\mathbb{R}$），$a_1 + a_2 = 9$，$a_1 \\cdot a_2 \\cdot a_3 = 27$，且 $S_n = a_1 + a_2 + \\cdots + a_n$（$n = 1$，$2$，$\\cdots$），则 $\\displaystyle\\lim_{n \\to \\infty} S_n =$ _______ {}.",
-          "choices": [],
+          "body": "已知等比数列 $\\{a_{n}\\}$（$a_{n} \\in \\mathbb{R}$），$a_{1} + a_{2} = 9$，$a_{1} \\cdot a_{2} \\cdot a_{3} = 27$，且 $S_{n} = a_{1} + a_{2} + \\cdots + a_{n}$（$n = 1$，$2$，$\\cdots$），则 $\\displaystyle\\lim_{n \\to \\infty}S_{n} =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "12",
-          "solution": "设等比数列的公比为 $q$，则 $a_2=a_1q$，且\r\n$a_1a_2a_3=a_1^3q^3=(a_1q)^3=a_2^3=27$. 因为 $a_2\\in\\mathbb{R}$，故 $a_2=3$. 由 $a_1+a_2=9$ 得 $a_1=6$，于是 $q=\\frac{a_2}{a_1}=\\frac{1}{2}$. 由于 $|q|<1$，无穷等比级数收敛，且\r\n\n$$\n\\lim_{n\\to\\infty}S_n=\\frac{a_1}{1-q}=\\frac{6}{1-\\frac{1}{2}}=12\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等比数列的公比为 $q$，则 $a_{2}=a_{1}q$，且</p><p>$a_{1}a_{2}a_{3}=a_{1}^{3}q^{3}=(a_{1}q)^{3}=a_{2}^{3}=27$. 因为 $a_{2}\\in\\mathbb{R}$，故 $a_{2}=3$. 由 $a_{1}+a_{2}=9$ 得 $a_{1}=6$，于是 $q=\\frac{a_{2}}{a_{1}}=\\frac{1}{2}$. 由于 $|q|&#x3C;1$，无穷等比级数收敛，且</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{a_{1}}{1-q}=\\frac{6}{1-\\frac{1}{2}}=12\n$$"
         },
         {
           "num": 9,
-          "body": "在极坐标系中，过点 $M\\left(2, \\frac{\\pi}{2}\\right)$ 且平行于极轴的直线的极坐标方程是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\rho \\sin \\theta = 2\\)",
-          "solution": "极坐标与直角坐标的关系为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 点 $M\\left(2,\\frac{\\pi}{2}\\right)$ 的直角坐标为 $(0,2)$，过该点且平行于极轴的直线是 $y=2$. 因而其极坐标方程为 $\\rho\\sin\\theta=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在极坐标系中，过点 $M\\left(2, \\frac{\\pi}{2}\\right)$ 且平行于极轴的直线的极坐标方程是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\rho \\sin \\theta = 2$",
+          "solution": "极坐标与直角坐标的关系为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 点 $M\\left(2,\\frac{\\pi}{2}\\right)$ 的直角坐标为 $(0,2)$，过该点且平行于极轴的直线是 $y=2$. 因而其极坐标方程为 $\\rho\\sin\\theta=2$."
         },
         {
           "num": 10,
-          "body": "如图，正方体 $ABCD - A_1B_1C_1D_1$ 中，过顶点 $B$，$D$，$C_1$ 作截面，则二面角 $B - DC_1 - C$ 的大小是 _______ {}（用反三角函数表示）.\r\n\r\n\\begin{minipage}{\\linewidth}\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1993/img/shanghai/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\end{minipage}",
-          "choices": [],
-          "answer": "\\(\\arccos \\frac{\\sqrt{3}}{3}\\)",
-          "solution": "取正方体棱长为 $1$，建立坐标系\r\n$A(0,0,0)$、$B(1,0,0)$、$C(1,1,0)$、$D(0,1,0)$、$C_1(1,1,1)$. 二面角 $B-DC_1-C$ 的两个面分别为平面 $BDC_1$ 和平面 $DCC_1$.\r\n\r\n在平面 $BDC_1$ 内，取\r\n$\\overrightarrow{DC_1}=(1,0,1)$、$\\overrightarrow{DB}=(1,-1,0)$，则该平面的一个法向量为\r\n$\\mathbf{n}_1=\\overrightarrow{DC_1}\\times\\overrightarrow{DB}=(1,1,-1)$. 平面 $DCC_1$ 是 $y=1$，其法向量可取 $\\mathbf{n}_2=(0,1,0)$. 因此两平面所成的较小角 $\\varphi$ 满足\r\n\n$$\n\\cos\\varphi=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n\r\n故二面角的大小为 $\\arccos\\frac{\\sqrt{3}}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，过顶点 $B$，$D$，$C_{1}$ 作截面，则二面角 $B - DC_{1} - C$ 的大小是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>（用反三角函数表示）.</p><div class=\"environment minipage\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></div>",
+          "choices": null,
+          "answer": "$\\arccos \\frac{\\sqrt{3}}{3}$",
+          "solution": "<p>取正方体棱长为 $1$，建立坐标系</p><p>$A(0,0,0)$、$B(1,0,0)$、$C(1,1,0)$、$D(0,1,0)$、$C_{1}(1,1,1)$. 二面角 $B-DC_{1}-C$ 的两个面分别为平面 $BDC_{1}$ 和平面 $DCC_{1}$.</p><p>在平面 $BDC_{1}$ 内，取</p><p>$\\overrightarrow{DC_1}=(1,0,1)$、$\\overrightarrow{DB}=(1,-1,0)$，则该平面的一个法向量为</p><p>$\\mathbf{n}_{1}=\\overrightarrow{DC_1}\\times\\overrightarrow{DB}=(1,1,-1)$. 平面 $DCC_{1}$ 是 $y=1$，其法向量可取 $\\mathbf{n}_{2}=(0,1,0)$. 因此两平面所成的较小角 $\\varphi$ 满足</p>\n$$\n\\cos\\varphi=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}\n$$\n<p>故二面角的大小为 $\\arccos\\frac{\\sqrt{3}}{3}$.</p>"
         }
       ]
     },
@@ -263,21 +84,19 @@
       "problems": [
         {
           "num": 11,
-          "body": "函数 $y = x + a$ 与 $y = \\log_a x$ 的图象可能是（ ）",
+          "body": "函数 $y = x + a$ 与 $y = \\log_{a} x$ 的图象可能是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1993/img/shanghai/q11_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1993/img/shanghai/q11_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1993/img/shanghai/q11_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/1993/img/shanghai/q11_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai/q11_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai/q11_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai/q11_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/shanghai/q11_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "C",
-          "solution": "由对数函数的定义，必须有 $a>0$ 且 $a\\neq 1$. 曲线 $y=\\log_a x$ 的定义域为 $x>0$，经过点 $(1,0)$，并以 $x=0$ 为渐近线；当 $a>1$ 时它递增且向下凸，当 $0<a<1$ 时它递减且向上凸. 直线 $y=x+a$ 的斜率为 $1$，与两坐标轴的交点分别为 $(0,a)$ 和 $(-a,0)$. 对照四个图象，只有第三个图象同时满足对数曲线的渐近线、经过点 $(1,0)$ 及单调性，并满足直线的截距关系，故正确选项为第三项.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由对数函数的定义，必须有 $a>0$ 且 $a\\neq 1$. 曲线 $y=\\log_{a} x$ 的定义域为 $x>0$，经过点 $(1,0)$，并以 $x=0$ 为渐近线；当 $a>1$ 时它递增且向下凸，当 $0&#x3C;a&#x3C;1$ 时它递减且向上凸. 直线 $y=x+a$ 的斜率为 $1$，与两坐标轴的交点分别为 $(0,a)$ 和 $(-a,0)$. 对照四个图象，只有第三个图象同时满足对数曲线的渐近线、经过点 $(1,0)$ 及单调性，并满足直线的截距关系，故正确选项为第三项."
         },
         {
           "num": 12,
-          "body": "$(x - 1)^{9}$ 按 $x$ 降幂排列的展开式中，系数最大的项是（ ）",
+          "body": "$(x - 1)^{9}$ 按 $x$ 降幂排列的展开式中，系数最大的项是（ ）",
           "choices": [
             "第4项和第5项",
             "第5项",
@@ -285,41 +104,35 @@
             "第6项"
           ],
           "answer": "B",
-          "solution": "按 $x$ 的降幂排列，二项式通项为\r\n$T_{k+1}=\\mathrm C_9^k x^{9-k}(-1)^k$，其中 $k=0$，$1$，$\\ldots$，$9$. 只有 $k$ 为偶数时系数为正；这些正系数依次为\r\n$\\mathrm C_9^0=1$、$\\mathrm C_9^2=36$、$\\mathrm C_9^4=126$、$\\mathrm C_9^6=84$、$\\mathrm C_9^8=9$. 最大系数为 $126$，对应 $k=4$，即第 $5$ 项，故第 $5$ 项正确.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按 $x$ 的降幂排列，二项式通项为</p><p>$T_{k+1}=\\mathrm{C}_{9}^{k} x^{9-k}(-1)^{k}$，其中 $k=0$，$1$，$\\ldots$，$9$. 只有 $k$ 为偶数时系数为正；这些正系数依次为</p><p>$\\mathrm{C}_{9}^{0}=1$、$\\mathrm{C}_{9}^{2}=36$、$\\mathrm{C}_{9}^{4}=126$、$\\mathrm{C}_{9}^{6}=84$、$\\mathrm{C}_{9}^{8}=9$. 最大系数为 $126$，对应 $k=4$，即第 $5$ 项，故第 $5$ 项正确.</p>"
         },
         {
           "num": 13,
-          "body": "在区间 $(0, +\\infty)$ 上为增函数的是（ ）",
+          "body": "在区间 $(0, +\\infty)$ 上为增函数的是（ ）",
           "choices": [
-            "$y = \\operatorname{arccot} x$",
-            "$y = \\log_{\\frac{1}{2}} x$",
+            "$y = \\operatorname{arccot}x$",
+            "$y = \\log_{\\frac{1}{2}}x$",
             "$y = -2^{x}$",
             "$y = x^{\\frac{1}{3}}$"
           ],
           "answer": "D",
-          "solution": "在 $(0,+\\infty)$ 上，$y=\\operatorname{arccot}x$ 为减函数，$y=\\log_{\\frac12}x$ 的底数小于 $1$，为减函数，$y=-2^x$ 也是减函数. 而\r\n$y=x^{\\frac13}$ 的导数为 $y'=\\frac{1}{3x^{\\frac23}}>0$，所以它在 $(0,+\\infty)$ 上为增函数，故第 $4$ 个选项正确.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在 $(0,+\\infty)$ 上，$y=\\operatorname{arccot}x$ 为减函数，$y=\\log_{\\frac{1}{2}}x$ 的底数小于 $1$，为减函数，$y=-2^{x}$ 也是减函数. 而</p><p>$y=x^{\\frac{1}{3}}$ 的导数为 $y'=\\frac{1}{3x^{\\frac{2}{3}}}>0$，所以它在 $(0,+\\infty)$ 上为增函数，故第 $4$ 个选项正确.</p>"
         },
         {
           "num": 14,
-          "body": "下列不等式中正确的是（ ）",
+          "body": "下列不等式中正确的是（ ）",
           "choices": [
-            "$\\arcsin \\left(-\\frac{1}{4}\\right) < \\arcsin \\left(-\\frac{1}{3}\\right)$",
-            "$\\arccos \\left(-\\frac{1}{4}\\right) < \\arccos \\frac{1}{3}$",
-            "$\\arctan \\frac{1}{4} < \\arcsin \\frac{1}{4}$",
-            "$\\operatorname{arccot} \\frac{1}{3} < \\arctan \\frac{1}{3}$"
+            "$\\arcsin \\left(-\\frac{1}{4}\\right) &#x3C; \\arcsin \\left(-\\frac{1}{3}\\right)$",
+            "$\\arccos \\left(-\\frac{1}{4}\\right) &#x3C; \\arccos \\frac{1}{3}$",
+            "$\\arctan \\frac{1}{4}&#x3C; \\arcsin \\frac{1}{4}$",
+            "$\\operatorname{arccot}\\frac{1}{3}&#x3C; \\arctan \\frac{1}{3}$"
           ],
           "answer": "C",
-          "solution": "反正弦函数在 $[-1,1]$ 上递增，而 $-\\frac14>-\\frac13$，所以\r\n$\\arcsin\\left(-\\frac14\\right)>\\arcsin\\left(-\\frac13\\right)$，选项 A 错. 反余弦函数在 $[-1,1]$ 上递减，而 $-\\frac14<\\frac13$，所以\r\n$\\arccos\\left(-\\frac14\\right)>\\arccos\\frac13$，选项 B 错.\r\n\r\n设 $\\alpha=\\arctan\\frac14$，$\\beta=\\arcsin\\frac14$. 则 $\\alpha$、$\\beta\\in\\left(0,\\frac\\pi2\\right)$，且\r\n$\\tan\\alpha=\\frac14$，$\\tan\\beta=\\frac{\\frac{1}{4}}{\\sqrt{1-\\frac{1}{16}}}=\\frac{1}{\\sqrt{15}}$. 因为 $\\sqrt{15}<4$，所以 $\\frac{1}{\\sqrt{15}} > \\frac14$，从而 $\\beta>\\alpha$，选项 C 正确.\r\n\r\n对 $t>0$，有 $\\operatorname{arccot}t=\\frac\\pi2-\\arctan t$，且 $0<\\arctan\\frac13<\\frac\\pi4$，故 $\\operatorname{arccot}\\frac13>\\arctan\\frac13$，选项 D 错. 因此选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>反正弦函数在 $[-1,1]$ 上递增，而 $-\\frac{1}{4}>-\\frac{1}{3}$，所以</p><p>$\\arcsin\\left(-\\frac{1}{4}\\right)>\\arcsin\\left(-\\frac{1}{3}\\right)$，选项 A 错. 反余弦函数在 $[-1,1]$ 上递减，而 $-\\frac{1}{4}&#x3C;\\frac{1}{3}$，所以</p><p>$\\arccos\\left(-\\frac{1}{4}\\right)>\\arccos\\frac{1}{3}$，选项 B 错.</p><p>设 $\\alpha=\\arctan\\frac{1}{4}$，$\\beta=\\arcsin\\frac{1}{4}$. 则 $\\alpha$、$\\beta\\in\\left(0,\\frac{\\pi}{2}\\right)$，且</p><p>$\\tan\\alpha=\\frac{1}{4}$，$\\tan\\beta=\\frac{\\frac{1}{4}}{\\sqrt{1-\\frac{1}{16}}}=\\frac{1}{\\sqrt{15}}$. 因为 $\\sqrt{15}&#x3C;4$，所以 $\\frac{1}{\\sqrt{15}}> \\frac{1}{4}$，从而 $\\beta>\\alpha$，选项 C 正确.</p><p>对 $t>0$，有 $\\operatorname{arccot}t=\\frac{\\pi}{2}-\\arctan t$，且 $0&#x3C;\\arctan\\frac{1}{3}&#x3C;\\frac{\\pi}{4}$，故 $\\operatorname{arccot}\\frac{1}{3}>\\arctan\\frac{1}{3}$，选项 D 错. 因此选 C.</p>"
         },
         {
           "num": 15,
-          "body": "动点 $P$ 到直线 $x + 4 = 0$ 的距离减去它到点 $M(2,0)$ 的距离之差等于$2$，则点 $P$ 的轨迹是（ ）",
+          "body": "动点 $P$ 到直线 $x + 4 = 0$ 的距离减去它到点 $M(2,0)$ 的距离之差等于$2$，则点 $P$ 的轨迹是（ ）",
           "choices": [
             "直线",
             "椭圆",
@@ -327,13 +140,11 @@
             "抛物线"
           ],
           "answer": "D",
-          "solution": "设动点为 $P(x,y)$. 由题意，\r\n\n$$\n\\sqrt{(x-2)^2+y^2}=|x+4|-2\n$$\n\r\n因此必须有 $|x+4|\\ge 2$. 当 $x\\ge-4$ 时，条件化为 $x\\ge-2$，平方并整理得\r\n$(x-2)^2+y^2=(x+2)^2$，$\\Longrightarrow$，$y^2=8x$.\r\n该方程本身要求 $x\\geqslant0$，所以这一支全部满足原条件. 当 $x<-4$ 时，条件要求 $x\\le-6$，平方得\r\n$(x-2)^2+y^2=(-x-6)^2$，$\\Longrightarrow$，$y^2=16(x+2)<0$\r\n不可能有实数点. 故轨迹为抛物线 $y^2=8x$，选 $D$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设动点为 $P(x,y)$. 由题意，</p>\n$$\n\\sqrt{(x-2)^{2}+y^{2}}=|x+4|-2\n$$\n<p>因此必须有 $|x+4|\\ge 2$. 当 $x\\ge-4$ 时，条件化为 $x\\ge-2$，平方并整理得</p><p>$(x-2)^{2}+y^{2}=(x+2)^{2}$，$\\Longrightarrow$，$y^{2}=8x$.</p><p>该方程本身要求 $x\\geqslant0$，所以这一支全部满足原条件. 当 $x&#x3C;-4$ 时，条件要求 $x\\le-6$，平方得</p><p>$(x-2)^{2}+y^{2}=(-x-6)^{2}$，$\\Longrightarrow$，$y^{2}=16(x+2)&#x3C;0$</p><p>不可能有实数点. 故轨迹为抛物线 $y^{2}=8x$，选 $D$.</p>"
         },
         {
           "num": 16,
-          "body": "设有三个命题：\r\n\r\n\\begin{circlelist}\r\n\\item 底面是平行四边形的四棱柱是平行六面体；\r\n\\item 底面是矩形的平行六面体是长方体；\r\n\\item 直四棱柱是直平行六面体.\r\n\\end{circlelist}\r\n\r\n以上命题中真命题的个数是（ ）",
+          "body": "<p>设有三个命题：</p><ol class=\"enumerate\"><li><p>底面是平行四边形的四棱柱是平行六面体；</p></li><li><p>底面是矩形的平行六面体是长方体；</p></li><li><p>直四棱柱是直平行六面体.</p></li></ol><p>以上命题中真命题的个数是（ ）</p>",
           "choices": [
             "0",
             "1",
@@ -341,13 +152,11 @@
             "3"
           ],
           "answer": "B",
-          "solution": "命题甲正确：四棱柱的两个底面平行且全等，若底面是平行四边形，则四个侧面也都是平行四边形，所以它是平行六面体.\r\n\r\n命题乙不一定正确. 平行六面体的一个底面可以是矩形，但侧棱不必垂直于底面，因此不一定是长方体.\r\n\r\n命题丙不一定正确. 直四棱柱只保证侧棱垂直于底面，底面四边形不一定是平行四边形，因此不一定是直平行六面体. 所以真命题只有 $1$ 个，选 $B$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>命题甲正确：四棱柱的两个底面平行且全等，若底面是平行四边形，则四个侧面也都是平行四边形，所以它是平行六面体.</p><p>命题乙不一定正确. 平行六面体的一个底面可以是矩形，但侧棱不必垂直于底面，因此不一定是长方体.</p><p>命题丙不一定正确. 直四棱柱只保证侧棱垂直于底面，底面四边形不一定是平行四边形，因此不一定是直平行六面体. 所以真命题只有 $1$ 个，选 $B$.</p>"
         },
         {
           "num": 17,
-          "body": "在直角坐标系中平移坐标轴，把原点 $O(0,0)$ 移到 $O'(2,-5)$，点 $A$ 在新坐标系中的坐标为 $(-3,7)$，则点 $A$ 在原坐标系中的坐标是（ ）",
+          "body": "在直角坐标系中平移坐标轴，把原点 $O(0,0)$ 移到 $O'(2,-5)$，点 $A$ 在新坐标系中的坐标为 $(-3,7)$，则点 $A$ 在原坐标系中的坐标是（ ）",
           "choices": [
             "$(-1,2)$",
             "$(1,-2)$",
@@ -355,13 +164,11 @@
             "$(5,-12)$"
           ],
           "answer": "A",
-          "solution": "平移坐标轴只改变原点位置，不改变坐标轴方向. 新原点 $O'(2,-5)$ 在原坐标系中的坐标为 $(2,-5)$，而点 $A$ 从新原点出发的坐标向量为 $(-3,7)$. 因此\r\n\n$$\n\\overrightarrow{OA}=\\overrightarrow{OO'}+\\overrightarrow{O'A}=(2,-5)+(-3,7)=(-1,2)\n$$\n\r\n故点 $A$ 在原坐标系中的坐标为 $(-1,2)$，选 $A$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>平移坐标轴只改变原点位置，不改变坐标轴方向. 新原点 $O'(2,-5)$ 在原坐标系中的坐标为 $(2,-5)$，而点 $A$ 从新原点出发的坐标向量为 $(-3,7)$. 因此</p>\n$$\n\\overrightarrow{OA}=\\overrightarrow{OO'}+\\overrightarrow{O'A}=(2,-5)+(-3,7)=(-1,2)\n$$\n<p>故点 $A$ 在原坐标系中的坐标为 $(-1,2)$，选 $A$.</p>"
         },
         {
           "num": 18,
-          "body": "设 $a$，$b$ 是两条异面直线. 在下列命题中正确的是（ ）",
+          "body": "设 $a$，$b$ 是两条异面直线. 在下列命题中正确的是（ ）",
           "choices": [
             "有且仅有一条直线与 $a$，$b$ 都垂直",
             "有一平面与 $a$，$b$ 都垂直",
@@ -369,13 +176,11 @@
             "过空间中任一点必可作一条直线与 $a$，$b$ 都相交"
           ],
           "answer": "C",
-          "solution": "取直线 $a$ 上任一点 $A$，过 $A$ 作直线 $b'\\parallel b$. 因为 $a$、$b$ 是异面直线，二者方向不平行，故直线 $a$ 与 $b'$ 唯一确定一个平面 $\\pi$，且 $\\pi\\parallel b$. 若另有一个过直线 $a$ 且平行于 $b$ 的平面，则它也必须包含过 $A$ 的平行于 $b$ 的直线，因而与 $\\pi$ 重合，所以该平面唯一.\r\n\r\n选项 A 错：设 $m$ 是 $a$、$b$ 的公垂线，则所有与 $m$ 平行的直线都分别与 $a$、$b$ 垂直，故不可能只有一条. 选项 B 错：若平面同时垂直于 $a$、$b$，则 $a$、$b$ 的方向都应平行于该平面的法向量，从而 $a\\parallel b$，与异面矛盾. 选项 D 也不成立：取过 $a$ 且平行于 $b$ 的平面 $\\pi$ 内、但不在 $a$ 上的一点 $X$. 任取过 $X$ 且与 $a$ 相交的直线，它的交点和 $X$ 都在 $\\pi$ 内，故整条直线在 $\\pi$ 内；而 $b\\parallel\\pi$ 且 $b$ 不在 $\\pi$ 内，所以该直线不可能与 $b$ 相交. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>取直线 $a$ 上任一点 $A$，过 $A$ 作直线 $b'\\parallel b$. 因为 $a$、$b$ 是异面直线，二者方向不平行，故直线 $a$ 与 $b'$ 唯一确定一个平面 $\\pi$，且 $\\pi\\parallel b$. 若另有一个过直线 $a$ 且平行于 $b$ 的平面，则它也必须包含过 $A$ 的平行于 $b$ 的直线，因而与 $\\pi$ 重合，所以该平面唯一.</p><p>选项 A 错：设 $m$ 是 $a$、$b$ 的公垂线，则所有与 $m$ 平行的直线都分别与 $a$、$b$ 垂直，故不可能只有一条. 选项 B 错：若平面同时垂直于 $a$、$b$，则 $a$、$b$ 的方向都应平行于该平面的法向量，从而 $a\\parallel b$，与异面矛盾. 选项 D 也不成立：取过 $a$ 且平行于 $b$ 的平面 $\\pi$ 内、但不在 $a$ 上的一点 $X$. 任取过 $X$ 且与 $a$ 相交的直线，它的交点和 $X$ 都在 $\\pi$ 内，故整条直线在 $\\pi$ 内；而 $b\\parallel\\pi$ 且 $b$ 不在 $\\pi$ 内，所以该直线不可能与 $b$ 相交. 故选 C.</p>"
         },
         {
           "num": 19,
-          "body": "函数 $y = \\cos \\left(2x + \\frac{\\pi}{2}\\right)$ 的图象的一条对称轴方程是（ ）",
+          "body": "函数 $y = \\cos \\left(2x + \\frac{\\pi}{2}\\right)$ 的图象的一条对称轴方程是（ ）",
           "choices": [
             "$x = -\\frac{\\pi}{2}$",
             "$x = -\\frac{\\pi}{4}$",
@@ -383,23 +188,19 @@
             "$x = \\pi$"
           ],
           "answer": "B",
-          "solution": "函数可写为 $y=\\cos\\left(2x+\\frac\\pi2\\right)=-\\sin 2x$. 对于余弦函数，对称轴经过其极大值点或极小值点. 极大值点满足\r\n$2x+\\frac\\pi2=2k\\pi$，从而 $x=-\\frac\\pi4+k\\pi$，其中 $k\\in\\mathbb{Z}$. 因此 $x=-\\frac\\pi4$ 是一条对称轴，选 $B$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>函数可写为 $y=\\cos\\left(2x+\\frac{\\pi}{2}\\right)=-\\sin 2x$. 对于余弦函数，对称轴经过其极大值点或极小值点. 极大值点满足</p><p>$2x+\\frac{\\pi}{2}=2k\\pi$，从而 $x=-\\frac{\\pi}{4}+k\\pi$，其中 $k\\in\\mathbb{Z}$. 因此 $x=-\\frac{\\pi}{4}$ 是一条对称轴，选 $B$.</p>"
         },
         {
           "num": 20,
-          "body": "$a + b > 2c$ 的一个充分条件是（ ）",
+          "body": "$a + b > 2c$ 的一个充分条件是（ ）",
           "choices": [
             "$a > c$ 或 $b > c$",
-            "$a > c$ 且 $b < c$",
+            "$a > c$ 且 $b &#x3C; c$",
             "$a > c$ 且 $b > c$",
-            "$a > c$ 或 $b < c$"
+            "$a > c$ 或 $b &#x3C; c$"
           ],
           "answer": "C",
-          "solution": "若 $a>c$ 且 $b>c$，则两式相加得到 $a+b>2c$，所以选项 C 是充分条件.\r\n\r\n其余选项都不能保证结论：只满足 $a>c$ 或只满足 $b<c$ 时，另一个数可以取得足够小，使 $a+b\\leqslant2c$；选项 B 也没有保证 $b>c$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若 $a>c$ 且 $b>c$，则两式相加得到 $a+b>2c$，所以选项 C 是充分条件.</p><p>其余选项都不能保证结论：只满足 $a>c$ 或只满足 $b&#x3C;c$ 时，另一个数可以取得足够小，使 $a+b\\leqslant2c$；选项 B 也没有保证 $b>c$. 故选 C.</p>"
         }
       ]
     },
@@ -409,59 +210,46 @@
         {
           "num": 21,
           "body": "已知角 $\\alpha$ 的顶点与直角坐标系的原点重合，始边在 $x$ 轴的正半轴上，终边经过点 $P(-1,2)$，求 $\\sin \\left(2\\alpha + \\frac{2\\pi}{3}\\right)$ 的值.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "因为 $r = |OP| = \\sqrt{(-1)^2 + 2^2} = \\sqrt{5}$，所以\r\n$\\sin \\alpha = \\frac{2}{\\sqrt{5}}$，$\\cos \\alpha = -\\frac{1}{\\sqrt{5}}$. 因而\r\n$\\sin 2\\alpha = 2\\sin \\alpha\\cos \\alpha = -\\frac{4}{5}$，\r\n$\\cos 2\\alpha = 1 - 2\\sin^2\\alpha = -\\frac{3}{5}$. 所以\r\n\n$$\n\\sin\\left(2\\alpha + \\frac{2\\pi}{3}\\right)\r\n= \\sin 2\\alpha\\cos\\frac{2\\pi}{3} + \\cos 2\\alpha\\sin\\frac{2\\pi}{3}\r\n= \\frac{4 - 3\\sqrt{3}}{10}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>因为 $r = |OP| = \\sqrt{(-1)^{2} + 2^{2}}= \\sqrt{5}$，所以</p><p>$\\sin \\alpha = \\frac{2}{\\sqrt{5}}$，$\\cos \\alpha = -\\frac{1}{\\sqrt{5}}$. 因而</p><p>$\\sin 2\\alpha = 2\\sin \\alpha\\cos \\alpha = -\\frac{4}{5}$，</p><p>$\\cos 2\\alpha = 1 - 2\\sin^{2}\\alpha = -\\frac{3}{5}$. 所以</p>\n$$\n\\sin\\left(2\\alpha + \\frac{2\\pi}{3}\\right)  = \\sin 2\\alpha\\cos\\frac{2\\pi}{3}+ \\cos 2\\alpha\\sin\\frac{2\\pi}{3}= \\frac{4 - 3\\sqrt{3}}{10}\n$$"
         },
         {
           "num": 22,
           "body": "已知 $z = \\frac{a - \\mathrm{i}}{1 - \\mathrm{i}}$，其中 $\\mathrm{i}$ 为虚数单位，$a > 0$，复数 $w = z(z + \\mathrm{i})$ 的虚部减去它的实部所得的差等于 $\\frac{3}{2}$，求复数 $w$ 的模.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "$w = \\frac{a - \\mathrm{i}}{1 - \\mathrm{i}}\\left(\\frac{a - \\mathrm{i}}{1 - \\mathrm{i}} + \\mathrm{i}\\right) = \\frac{(a - \\mathrm{i})(a + 1)}{(1 - \\mathrm{i})^2} = \\frac{a + 1}{2}(1 + a\\mathrm{i})$. 由已知条件，$\\frac{a + 1}{2}a - \\frac{a + 1}{2} = \\frac{3}{2}$，即 $a^2 = 4$. 由已知 $a > 0$，故 $a = 2$. 于是 $|w| = \\left|\\frac{3}{2} + 3\\mathrm{i}\\right| = \\frac{3}{2}\\sqrt{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "$w = \\frac{a - \\mathrm{i}}{1 - \\mathrm{i}}\\left(\\frac{a - \\mathrm{i}}{1 - \\mathrm{i}}+ \\mathrm{i}\\right) = \\frac{(a - \\mathrm{i})(a + 1)}{(1 - \\mathrm{i})^{2}}= \\frac{a + 1}{2}(1 + a\\mathrm{i})$. 由已知条件，$\\frac{a + 1}{2}a - \\frac{a + 1}{2}= \\frac{3}{2}$，即 $a^{2} = 4$. 由已知 $a > 0$，故 $a = 2$. 于是 $|w| = \\left|\\frac{3}{2}+ 3\\mathrm{i}\\right| = \\frac{3}{2}\\sqrt{5}$."
         },
         {
           "num": 23,
-          "body": "抛物线 $y = -\\frac{x^2}{2}$ 与过点 $M(0,-1)$ 的直线 $l$ 相交于 $A$，$B$ 两点，$O$ 为坐标原点. 若直线 $OA$ 与 $OB$ 的斜率之和为 $1$，求直线 $l$ 的方程.",
-          "choices": [],
+          "body": "抛物线 $y = -\\frac{x^{2}}{2}$ 与过点 $M(0,-1)$ 的直线 $l$ 相交于 $A$，$B$ 两点，$O$ 为坐标原点. 若直线 $OA$ 与 $OB$ 的斜率之和为 $1$，求直线 $l$ 的方程.",
+          "choices": null,
           "answer": "",
-          "solution": "设点 $A$ 和点 $B$ 的坐标分别为 $(x_1,y_1)$ 和 $(x_2,y_2)$. 由条件可设直线 $l$ 的方程为 $y = kx - 1$. 设直线 $OA$ 和 $OB$ 的斜率分别为 $k_{OA}$ 和 $k_{OB}$，则由条件有\r\n$k_{OA} + k_{OB} = \\frac{y_1}{x_1} + \\frac{y_2}{x_2} = 1$.\r\n由于 $y_1 = -\\frac{x_1^2}{2}$，$y_2 = -\\frac{x_2^2}{2}$，故代入上式后得 $-\\frac{1}{2}(x_1 + x_2) = 1$. 于是\r\n\n$$\nk = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{\\left(-\\frac{x_2^2}{2}\\right) - \\left(-\\frac{x_1^2}{2}\\right)}{x_2 - x_1} = -\\frac{1}{2}(x_1 + x_2) = 1\n$$\n\r\n因此直线 $l$ 的方程为 $y = x - 1$.\r\n\r\n代入抛物线方程得 $x^2+2x-2=0$，其判别式为 $12>0$，故直线 $y=x-1$ 确实与抛物线交于两个不同的实点，所求直线有效.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设点 $A$ 和点 $B$ 的坐标分别为 $(x_{1},y_{1})$ 和 $(x_{2},y_{2})$. 由条件可设直线 $l$ 的方程为 $y = kx - 1$. 设直线 $OA$ 和 $OB$ 的斜率分别为 $k_{OA}$ 和 $k_{OB}$，则由条件有</p><p>$k_{OA}+ k_{OB}= \\frac{y_{1}}{x_{1}}+ \\frac{y_{2}}{x_{2}}= 1$.</p><p>由于 $y_{1} = -\\frac{x_{1}^{2}}{2}$，$y_{2} = -\\frac{x_{2}^{2}}{2}$，故代入上式后得 $-\\frac{1}{2}(x_{1} + x_{2}) = 1$. 于是</p>\n$$\nk = \\frac{y_{2} - y_{1}}{x_{2} - x_{1}}= \\frac{\\left(-\\frac{x_{2}^{2}}{2}\\right) - \\left(-\\frac{x_{1}^{2}}{2}\\right)}{x_{2} - x_{1}}= -\\frac{1}{2}(x_{1} + x_{2}) = 1\n$$\n<p>因此直线 $l$ 的方程为 $y = x - 1$.</p><p>代入抛物线方程得 $x^{2}+2x-2=0$，其判别式为 $12>0$，故直线 $y=x-1$ 确实与抛物线交于两个不同的实点，所求直线有效.</p>"
         },
         {
           "num": 24,
-          "body": "如图，已知二面角 $\\alpha - PQ - \\beta$ 为 $60^{\\circ}$，点 $A$ 和点 $B$ 分别在平面 $\\alpha$ 和平面 $\\beta$ 上，点 $C$ 在棱 $PQ$ 上，$\\angle ACP = \\angle BCP = 30^{\\circ}$，$CA = CB = a$.\r\n\r\n\n(1) 求证 $AB \\perp PQ$.\n\n(2) 求点 $B$ 到平面 $\\alpha$ 的距离.\n\n(3) 设 $R$ 是线段 $CA$ 上的一点，直线 $BR$ 与平面 $\\alpha$ 所成角的大小为 $45^{\\circ}$，求线段 $CR$ 的长度.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1993/img/shanghai/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，已知二面角 $\\alpha - PQ - \\beta$ 为 $60^{\\circ}$，点 $A$ 和点 $B$ 分别在平面 $\\alpha$ 和平面 $\\beta$ 上，点 $C$ 在棱 $PQ$ 上，$\\angle ACP = \\angle BCP = 30^{\\circ}$，$CA = CB = a$.</p><ol class=\"enumerate\"><li><p>求证 $AB \\perp PQ$.</p></li><li><p>求点 $B$ 到平面 $\\alpha$ 的距离.</p></li><li><p>设 $R$ 是线段 $CA$ 上的一点，直线 $BR$ 与平面 $\\alpha$ 所成角的大小为 $45^{\\circ}$，求线段 $CR$ 的长度.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q24_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 在平面 $\\beta$ 内作 $BD \\perp PQ$，垂足为 $D$，连接 $AD$. 因 $\\angle BCD = \\angle ACD$，且 $BC = AC$，$DC$ 为公共边，故 $\\triangle BCD \\cong \\triangle ACD$，所以 $AD \\perp PQ$. 于是 $PQ \\perp$ 平面 $ABD$，故 $AB \\perp PQ$.\n\n(2) 因 $BD \\perp PQ$，$AD \\perp PQ$，故 $\\angle ADB$ 为二面角 $\\alpha - PQ - \\beta$ 的平面角，$\\angle ADB = 60^{\\circ}$. 在 $\\mathrm{Rt}\\triangle BCD$ 中，因为 $BC = a$，$\\angle BCD = 30^{\\circ}$，所以 $BD = \\frac{1}{2}a$. 过 $B$ 作 $BH \\perp AD$，$H$ 为垂足. 因为 $PQ \\perp$ 平面 $ABD$，所以平面 $ABD \\perp \\alpha$，$BH \\perp \\alpha$. 于是点 $B$ 到平面 $\\alpha$ 的距离为 $BH = BD \\cdot \\sin 60^{\\circ} = \\frac{\\sqrt{3}}{4}a$.\n\n(3) 连接 $HR$. 因 $BH \\perp \\alpha$，故 $\\angle BRH$ 是 $BR$ 与平面 $\\alpha$ 所成的角，$\\angle BRH = 45^{\\circ}$. 因 $BH = \\frac{\\sqrt{3}}{4}a$，故 $BR = \\frac{\\sqrt{6}}{4}a$. 在 $\\triangle ABD$ 中，$AD = BD$，$\\angle ADB = 60^{\\circ}$，所以 $\\triangle ABD$ 为正三角形，$AB = BD = \\frac{a}{2}$. 在 $\\triangle ABC$ 中，$AC = BC = a$，由余弦定理得 $\\cos \\angle BCA = \\frac{a^2 + a^2 - \\left(\\frac{a}{2}\\right)^2}{2 \\cdot a \\cdot a} = \\frac{7}{8}$.\r\n在 $\\triangle BCR$ 中，设 $x = CR$，由余弦定理得 $\\left(\\frac{\\sqrt{6}}{4}a\\right)^2 = x^2 + a^2 - 2ax \\cdot \\frac{7}{8}$，\r\n即 $8x^2 - 14ax + 5a^2 = 0$. 所以 $x_1 = \\frac{1}{2}a$，$x_2 = \\frac{5}{4}a$.\r\n由于 $\\frac{5}{4}a > a$，故 $x_2 = \\frac{5}{4}a$ 舍去. 因此 $CR$ 的长为 $\\frac{1}{2}a$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>在平面 $\\beta$ 内作 $BD \\perp PQ$，垂足为 $D$，连接 $AD$. 因 $\\angle BCD = \\angle ACD$，且 $BC = AC$，$DC$ 为公共边，故 $\\triangle BCD \\cong \\triangle ACD$，所以 $AD \\perp PQ$. 于是 $PQ \\perp$ 平面 $ABD$，故 $AB \\perp PQ$.</p></li><li><p>因 $BD \\perp PQ$，$AD \\perp PQ$，故 $\\angle ADB$ 为二面角 $\\alpha - PQ - \\beta$ 的平面角，$\\angle ADB = 60^{\\circ}$. 在 $\\mathrm{Rt}\\triangle BCD$ 中，因为 $BC = a$，$\\angle BCD = 30^{\\circ}$，所以 $BD = \\frac{1}{2}a$. 过 $B$ 作 $BH \\perp AD$，$H$ 为垂足. 因为 $PQ \\perp$ 平面 $ABD$，所以平面 $ABD \\perp \\alpha$，$BH \\perp \\alpha$. 于是点 $B$ 到平面 $\\alpha$ 的距离为 $BH = BD \\cdot \\sin 60^{\\circ}= \\frac{\\sqrt{3}}{4}a$.</p></li><li><p>连接 $HR$. 因 $BH \\perp \\alpha$，故 $\\angle BRH$ 是 $BR$ 与平面 $\\alpha$ 所成的角，$\\angle BRH = 45^{\\circ}$. 因 $BH = \\frac{\\sqrt{3}}{4}a$，故 $BR = \\frac{\\sqrt{6}}{4}a$. 在 $\\triangle ABD$ 中，$AD = BD$，$\\angle ADB = 60^{\\circ}$，所以 $\\triangle ABD$ 为正三角形，$AB = BD = \\frac{a}{2}$. 在 $\\triangle ABC$ 中，$AC = BC = a$，由余弦定理得 $\\cos \\angle BCA = \\frac{a^{2} + a^{2} - \\left(\\frac{a}{2}\\right)^{2}}{2 \\cdot a \\cdot a}= \\frac{7}{8}$.</p><p>在 $\\triangle BCR$ 中，设 $x = CR$，由余弦定理得 $\\left(\\frac{\\sqrt{6}}{4}a\\right)^{2} = x^{2} + a^{2} - 2ax \\cdot \\frac{7}{8}$，</p><p>即 $8x^{2} - 14ax + 5a^{2} = 0$. 所以 $x_{1} = \\frac{1}{2}a$，$x_{2} = \\frac{5}{4}a$.</p><p>由于 $\\frac{5}{4}a > a$，故 $x_{2} = \\frac{5}{4}a$ 舍去. 因此 $CR$ 的长为 $\\frac{1}{2}a$.</p></li></ol>"
         },
         {
           "num": 25,
-          "body": "设数列 $\\{a_n\\}$ 的前 $n$ 项和 $S_n = na + n(n - 1)b$（$n = 1$，$2$，$\\cdots$），$a$，$b$ 是常数且 $b \\neq 0$.\r\n\r\n\n(1) 证明 $\\{a_n\\}$ 是等差数列.\n\n(2) 证明以 $\\left(a_n, \\frac{S_n}{n} - 1\\right)$ 为坐标的点 $P_n$（$n = 1$，$2$，$\\cdots$）都落在同一条直线上，并写出此直线的方程.\n\n(3) 设 $a = 1$，$b = \\frac{1}{2}$，$C$ 是以 $(r,r)$ 为圆心，$r$ 为半径的圆（$r > 0$）. 求使得点 $P_1$，$P_2$，$P_3$ 都落在圆 $C$ 外时，$r$ 的取值范围.",
-          "choices": [],
+          "body": "<p>设数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n} = na + n(n - 1)b$（$n = 1$，$2$，$\\cdots$），$a$，$b$ 是常数且 $b \\neq 0$.</p><ol class=\"enumerate\"><li><p>证明 $\\{a_{n}\\}$ 是等差数列.</p></li><li><p>证明以 $\\left(a_{n}, \\frac{S_{n}}{n}- 1\\right)$ 为坐标的点 $P_{n}$（$n = 1$，$2$，$\\cdots$）都落在同一条直线上，并写出此直线的方程.</p></li><li><p>设 $a = 1$，$b = \\frac{1}{2}$，$C$ 是以 $(r,r)$ 为圆心，$r$ 为半径的圆（$r > 0$）. 求使得点 $P_{1}$，$P_{2}$，$P_{3}$ 都落在圆 $C$ 外时，$r$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由条件得 $a_1 = S_1 = a$. 当 $n \\ge 2$ 时，有\r\n\n$$\na_n = S_n - S_{n - 1} = \\left[na + n(n - 1)b\\right] - \\left[(n - 1)a + (n - 1)(n - 2)b\\right] = a + 2(n - 1)b\n$$\n\r\n因此，当 $n \\ge 2$ 时，$a_n - a_{n - 1} = \\left[a + 2(n - 1)b\\right] - \\left[a + 2(n - 2)b\\right] = 2b$.\r\n因此，$\\{a_n\\}$ 是以 $a$ 为首项，$2b$ 为公差的等差数列.\n\n(2) 因为 $b \\neq 0$，对于 $n \\ge 2$，有\r\n\n$$\n\\frac{\\left(\\frac{S_n}{n} - 1\\right) - \\left(\\frac{S_1}{1} - 1\\right)}{a_n - a_1}\r\n= \\frac{\\frac{na + n(n - 1)b}{n} - a}{a + 2(n - 1)b - a}\r\n= \\frac{(n - 1)b}{2(n - 1)b}\r\n= \\frac{1}{2}\n$$\n\r\n因此，所有的点 $P_n\\left(a_n,\\frac{S_n}{n} - 1\\right)$（$n = 1$，$2$，$\\cdots$）都落在通过 $P_1(a,a - 1)$ 且以 $\\frac{1}{2}$ 为斜率的直线上. 此直线方程为 $y - (a - 1) = \\frac{1}{2}(x - a)$，即 $x - 2y + a - 2 = 0$.\n\n(3) 当 $a = 1$，$b = \\frac{1}{2}$ 时，$P_n$ 的坐标为 $\\left(n,\\frac{n - 1}{2}\\right)$. 使 $P_1(1,0)$，$P_2\\left(2,\\frac{1}{2}\\right)$，$P_3(3,1)$ 都落在圆 $C$ 外的条件是\r\n\n$$\n\\begin{cases}\r\n(r - 1)^2 + r^2 > r^2,\\\\\r\n(r - 2)^2 + \\left(r - \\frac{1}{2}\\right)^2 > r^2,\\\\\r\n(r - 3)^2 + (r - 1)^2 > r^2.\r\n\\end{cases}\n$$\n\r\n即等价于\r\n\n$$\n\\begin{cases}\r\n(r - 1)^2 > 0,\\\\\r\nr^2 - 5r + \\frac{17}{4} > 0,\\\\\r\nr^2 - 8r + 10 > 0.\r\n\\end{cases}\n$$\n\r\n由第一个不等式，得 $r \\neq 1$；由第二个不等式，得 $r < \\frac{5}{2} - \\sqrt{2}$ 或 $r > \\frac{5}{2} + \\sqrt{2}$；由第三个不等式，得 $r < 4 - \\sqrt{6}$ 或 $r > 4 + \\sqrt{6}$. 再注意到 $r > 0$，且\r\n\n$$\n1 < \\frac{5}{2} - \\sqrt{2} < 4 - \\sqrt{6} < \\frac{5}{2} + \\sqrt{2} < 4 + \\sqrt{6}\n$$\n\r\n故使 $P_1$，$P_2$，$P_3$ 都落在圆 $C$ 外时，$r$ 的取值范围是\r\n$(0,1) \\cup \\left(1,\\frac{5}{2} - \\sqrt{2}\\right) \\cup (4 + \\sqrt{6}, +\\infty)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由条件得 $a_{1} = S_{1} = a$. 当 $n \\ge 2$ 时，有</p>\n$$\na_{n} = S_{n} - S_{n - 1}= \\left[na + n(n - 1)b\\right] - \\left[(n - 1)a + (n - 1)(n - 2)b\\right] = a + 2(n - 1)b\n$$\n<p>因此，当 $n \\ge 2$ 时，$a_{n} - a_{n - 1}= \\left[a + 2(n - 1)b\\right] - \\left[a + 2(n - 2)b\\right] = 2b$.</p><p>因此，$\\{a_{n}\\}$ 是以 $a$ 为首项，$2b$ 为公差的等差数列.</p></li><li><p>因为 $b \\neq 0$，对于 $n \\ge 2$，有</p>\n$$\n\\frac{\\left(\\frac{S_{n}}{n} - 1\\right) - \\left(\\frac{S_{1}}{1} - 1\\right)}{a_{n} - a_{1}}= \\frac{\\frac{na + n(n - 1)b}{n} - a}{a + 2(n - 1)b - a}= \\frac{(n - 1)b}{2(n - 1)b}= \\frac{1}{2}\n$$\n<p>因此，所有的点 $P_{n}\\left(a_{n},\\frac{S_{n}}{n}- 1\\right)$（$n = 1$，$2$，$\\cdots$）都落在通过 $P_{1}(a,a - 1)$ 且以 $\\frac{1}{2}$ 为斜率的直线上. 此直线方程为 $y - (a - 1) = \\frac{1}{2}(x - a)$，即 $x - 2y + a - 2 = 0$.</p></li><li><p>当 $a = 1$，$b = \\frac{1}{2}$ 时，$P_{n}$ 的坐标为 $\\left(n,\\frac{n - 1}{2}\\right)$. 使 $P_{1}(1,0)$，$P_{2}\\left(2,\\frac{1}{2}\\right)$，$P_{3}(3,1)$ 都落在圆 $C$ 外的条件是</p>\n$$\n\\begin{cases}(r - 1)^{2} + r^{2} > r^{2},\\\\  (r - 2)^{2} + \\left(r - \\frac{1}{2}\\right)^{2} > r^{2},\\\\  (r - 3)^{2} + (r - 1)^{2} > r^{2}.\\end{cases}\n$$\n<p>即等价于</p>\n$$\n\\begin{cases}(r - 1)^{2} > 0,\\\\  r^{2} - 5r + \\frac{17}{4}> 0,\\\\  r^{2} - 8r + 10 > 0.\\end{cases}\n$$\n<p>由第一个不等式，得 $r \\neq 1$；由第二个不等式，得 $r &#x3C; \\frac{5}{2}- \\sqrt{2}$ 或 $r > \\frac{5}{2}+ \\sqrt{2}$；由第三个不等式，得 $r &#x3C; 4 - \\sqrt{6}$ 或 $r > 4 + \\sqrt{6}$. 再注意到 $r > 0$，且</p>\n$$\n1 &#x3C; \\frac{5}{2}- \\sqrt{2}&#x3C; 4 - \\sqrt{6}&#x3C; \\frac{5}{2}+ \\sqrt{2}&#x3C; 4 + \\sqrt{6}\n$$\n<p>故使 $P_{1}$，$P_{2}$，$P_{3}$ 都落在圆 $C$ 外时，$r$ 的取值范围是</p><p>$(0,1) \\cup \\left(1,\\frac{5}{2}- \\sqrt{2}\\right) \\cup (4 + \\sqrt{6}, +\\infty)$.</p></li></ol>"
         },
         {
           "num": 26,
-          "body": "如图，$P$ 为椭圆 $\\frac{x^2}{a^2} + y^2 = 1$ 上的一个动点，它与长轴端点不重合，$a \\ge \\sqrt{2}$，点 $F_1$ 和点 $F_2$ 分别是双曲线 $\\frac{x^2}{a^2} - y^2 = 1$ 的左焦点和右焦点，$\\varphi = \\angle F_1PF_2$.\r\n\r\n\n(1) 求 $\\tan\\varphi$ 的表达式（用 $a$ 及描述点 $P$ 位置的一个变量来表示）.\n\n(2) 当 $a$ 固定时，求 $\\varphi$ 的最小值 $\\varphi_0$.\n\n(3) 当 $a$ 在区间 $[\\sqrt{2}, \\sqrt{3}]$ 上变化时，求 $\\varphi_0$ 的取值范围.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/1993/img/shanghai/q26_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，$P$ 为椭圆 $\\frac{x^{2}}{a^{2}}+ y^{2} = 1$ 上的一个动点，它与长轴端点不重合，$a \\ge \\sqrt{2}$，点 $F_{1}$ 和点 $F_{2}$ 分别是双曲线 $\\frac{x^{2}}{a^{2}}- y^{2} = 1$ 的左焦点和右焦点，$\\varphi = \\angle F_{1}PF_{2}$.</p><ol class=\"enumerate\"><li><p>求 $\\tan\\varphi$ 的表达式（用 $a$ 及描述点 $P$ 位置的一个变量来表示）.</p></li><li><p>当 $a$ 固定时，求 $\\varphi$ 的最小值 $\\varphi_{0}$.</p></li><li><p>当 $a$ 在区间 $[\\sqrt{2}, \\sqrt{3}]$ 上变化时，求 $\\varphi_{0}$ 的取值范围.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai/q26_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 双曲线的半焦距 $c = \\sqrt{a^2 + 1}$，焦点为 $F_1(-\\sqrt{a^2 + 1},0)$ 和 $F_2(\\sqrt{a^2 + 1},0)$. 设 $P(x_0,y_0)$ 为椭圆上一点，与长轴的端点 $A_1$ 及 $A_2$ 不重合，由对称性，不妨设 $0 < y_0 \\le 1$.\r\n\r\n作 $PH \\perp F_1F_2$，垂足为 $H$. 记 $\\alpha = \\angle F_1PH$，$\\beta = \\angle HPF_2$，则 $\\varphi = \\alpha + \\beta$. 因 $\\tan \\alpha = \\frac{x_0 + \\sqrt{a^2 + 1}}{y_0}$，$\\tan \\beta = \\frac{\\sqrt{a^2 + 1} - x_0}{y_0}$，\r\n故\r\n\n$$\n\\tan \\varphi\r\n= \\tan(\\alpha + \\beta)\r\n= \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta}\r\n= \\frac{2\\sqrt{a^2 + 1} \\cdot y_0}{x_0^2 + y_0^2 - (a^2 + 1)}\n$$\n\r\n由于 $P(x_0,y_0)$ 在椭圆上，$x_0^2 = a^2(1 - y_0^2)$，故 $\\tan \\varphi = -\\frac{2\\sqrt{a^2 + 1} \\cdot y_0}{(a^2 - 1)y_0^2 + 1}$.\n\n(2) 由于 $a \\ge \\sqrt{2}$，故 $a^2 - 1 \\ge 1$，$\\tan \\varphi < 0$，$\\frac{\\pi}{2} < \\varphi < \\pi$. 又\r\n\n$$\n\\tan(\\pi - \\varphi)\r\n= \\frac{2\\sqrt{a^2 + 1} \\cdot y_0}{(a^2 - 1)y_0^2 + 1}\r\n= \\frac{2\\sqrt{a^2 + 1}}{(a^2 - 1)y_0 + \\frac{1}{y_0}}\r\n\\le \\sqrt{\\frac{a^2 + 1}{a^2 - 1}}\n$$\n\r\n当且仅当 $(a^2 - 1)y_0 = \\frac{1}{y_0}$，即 $y_0 = \\frac{1}{\\sqrt{a^2 - 1}} \\le 1$ 时取“$=$”号. 由于 $0 < \\pi - \\varphi < \\frac{\\pi}{2}$，且正切函数在 $\\left(0,\\frac{\\pi}{2}\\right)$ 内是增函数，故有 $\\pi - \\varphi \\le \\arctan\\sqrt{\\frac{a^2 + 1}{a^2 - 1}}$.\r\n于是 $\\varphi \\ge \\pi - \\arctan\\sqrt{\\frac{a^2 + 1}{a^2 - 1}}$，\r\n从而 $\\varphi_0 = \\pi - \\arctan\\sqrt{\\frac{a^2 + 1}{a^2 - 1}}$.\n\n(3) $\\varphi_0 = \\pi - \\arctan\\sqrt{1 + \\frac{2}{a^2 - 1}}$. 由 $\\sqrt{2} \\le a \\le \\sqrt{3}$，故 $2 \\le a^2 \\le 3$，$1 \\le a^2 - 1 \\le 2$，于是\r\n$1 \\le \\frac{2}{a^2 - 1} \\le 2$，$2 \\le 1 + \\frac{2}{a^2 - 1} \\le 3$，\r\n$\\sqrt{2} \\le \\sqrt{1 + \\frac{2}{a^2 - 1}} \\le \\sqrt{3}$.\r\n由反正切函数单调性，\r\n\n$$\n\\arctan\\sqrt{2} \\le \\arctan\\sqrt{1 + \\frac{2}{a^2 - 1}} \\le \\arctan\\sqrt{3} = \\frac{\\pi}{3}\n$$\n\r\n于是 $\\frac{2\\pi}{3} \\le \\varphi_0 \\le \\pi - \\arctan\\sqrt{2}$.\r\n故 $\\varphi_0$ 的取值范围是 $\\left[\\frac{2\\pi}{3}, \\pi - \\arctan\\sqrt{2}\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>双曲线的半焦距 $c = \\sqrt{a^{2} + 1}$，焦点为 $F_{1}(-\\sqrt{a^{2} + 1},0)$ 和 $F_{2}(\\sqrt{a^{2} + 1},0)$. 设 $P(x_{0},y_{0})$ 为椭圆上一点，与长轴的端点 $A_{1}$ 及 $A_{2}$ 不重合，由对称性，不妨设 $0 &#x3C; y_{0} \\le 1$.</p><p>作 $PH \\perp F_{1}F_{2}$，垂足为 $H$. 记 $\\alpha = \\angle F_{1}PH$，$\\beta = \\angle HPF_{2}$，则 $\\varphi = \\alpha + \\beta$. 因 $\\tan \\alpha = \\frac{x_{0} + \\sqrt{a^2 + 1}}{y_{0}}$，$\\tan \\beta = \\frac{\\sqrt{a^2 + 1}- x_{0}}{y_{0}}$，</p><p>故</p>\n$$\n\\tan \\varphi  = \\tan(\\alpha + \\beta)  = \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta}= \\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{x_{0}^{2} + y_{0}^{2} - (a^{2} + 1)}\n$$\n<p>由于 $P(x_{0},y_{0})$ 在椭圆上，$x_{0}^{2} = a^{2}(1 - y_{0}^{2})$，故 $\\tan \\varphi = -\\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{(a^{2} - 1)y_{0}^{2} + 1}$.</p></li><li><p>由于 $a \\ge \\sqrt{2}$，故 $a^{2} - 1 \\ge 1$，$\\tan \\varphi &#x3C; 0$，$\\frac{\\pi}{2}&#x3C; \\varphi &#x3C; \\pi$. 又</p>\n$$\n\\tan(\\pi - \\varphi)  = \\frac{2\\sqrt{a^2 + 1}\\cdot y_{0}}{(a^{2} - 1)y_{0}^{2} + 1}= \\frac{2\\sqrt{a^{2} + 1}}{(a^{2} - 1)y_{0} + \\frac{1}{y_0}}\\le \\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}\n$$\n<p>当且仅当 $(a^{2} - 1)y_{0} = \\frac{1}{y_{0}}$，即 $y_{0} = \\frac{1}{\\sqrt{a^{2} - 1}}\\le 1$ 时取“$=$”号. 由于 $0 &#x3C; \\pi - \\varphi &#x3C; \\frac{\\pi}{2}$，且正切函数在 $\\left(0,\\frac{\\pi}{2}\\right)$ 内是增函数，故有 $\\pi - \\varphi \\le \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$.</p><p>于是 $\\varphi \\ge \\pi - \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$，</p><p>从而 $\\varphi_{0} = \\pi - \\arctan\\sqrt{\\frac{a^{2} + 1}{a^{2} - 1}}$.</p></li><li><p>$\\varphi_{0} = \\pi - \\arctan\\sqrt{1 + \\frac{2}{a^{2} - 1}}$. 由 $\\sqrt{2}\\le a \\le \\sqrt{3}$，故 $2 \\le a^{2} \\le 3$，$1 \\le a^{2} - 1 \\le 2$，于是</p><p>$1 \\le \\frac{2}{a^{2} - 1}\\le 2$，$2 \\le 1 + \\frac{2}{a^{2} - 1}\\le 3$，</p><p>$\\sqrt{2}\\le \\sqrt{1 + \\frac{2}{a^{2} - 1}}\\le \\sqrt{3}$.</p><p>由反正切函数单调性，</p>\n$$\n\\arctan\\sqrt{2}\\le \\arctan\\sqrt{1 + \\frac{2}{a^{2} - 1}}\\le \\arctan\\sqrt{3}= \\frac{\\pi}{3}\n$$\n<p>于是 $\\frac{2\\pi}{3}\\le \\varphi_{0} \\le \\pi - \\arctan\\sqrt{2}$.</p><p>故 $\\varphi_{0}$ 的取值范围是 $\\left[\\frac{2\\pi}{3}, \\pi - \\arctan\\sqrt{2}\\right]$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

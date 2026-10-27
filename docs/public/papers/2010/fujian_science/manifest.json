@@ -1,156 +1,15 @@
 {
+  "title": "2010年普通高等学校招生全国统一考试",
+  "subtitle": "2010年福建卷（理）",
   "year": "2010",
   "slug": "fujian_science",
-  "title": "2010年福建卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "计算 $\\sin 43^{\\circ} \\cos 13^{\\circ} - \\cos 43^{\\circ} \\sin 13^{\\circ}$ 的结果等于（ ）",
+          "body": "计算 $\\sin 43^{\\circ}\\cos 13^{\\circ}- \\cos 43^{\\circ}\\sin 13^{\\circ}$ 的结果等于（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$\\frac{\\sqrt{3}}{3}$",
@@ -158,27 +17,23 @@
             "$\\frac{\\sqrt{3}}{2}$"
           ],
           "answer": "A",
-          "solution": "由正弦的两角差公式，原式\r\n\n$$\n\\sin 43^{\\circ}\\cos 13^{\\circ}-\\cos 43^{\\circ}\\sin 13^{\\circ}=\\sin 30^{\\circ}=\\frac{1}{2}\n$$\n\r\n因此选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由正弦的两角差公式，原式</p>\n$$\n\\sin 43^{\\circ}\\cos 13^{\\circ}-\\cos 43^{\\circ}\\sin 13^{\\circ}=\\sin 30^{\\circ}=\\frac{1}{2}\n$$\n<p>因此选择 A.</p>"
         },
         {
           "num": 2,
-          "body": "以抛物线 $y^{2} = 4x$ 的焦点为圆心，且过坐标原点的圆的方程为（ ）",
+          "body": "以抛物线 $y^{2}= 4x$ 的焦点为圆心，且过坐标原点的圆的方程为（ ）",
           "choices": [
-            "$x^{2} + y^{2} + 2x = 0$",
-            "$x^{2} + y^{2} + x = 0$",
-            "$x^{2} + y^{2} - x = 0$",
-            "$x^{2} + y^{2} - 2x = 0$"
+            "$x^{2}+ y^{2}+ 2x = 0$",
+            "$x^{2}+ y^{2}+ x = 0$",
+            "$x^{2}+ y^{2}- x = 0$",
+            "$x^{2}+ y^{2}- 2x = 0$"
           ],
           "answer": "D",
-          "solution": "抛物线 $y^{2}=4x$ 的标准方程为 $y^{2}=4px$，所以 $p=1$，焦点为 $F(1,0)$. 以 $F$ 为圆心且过原点的圆的半径为 $1$，故其方程为\r\n\n$$\n(x-1)^{2}+y^{2}=1\n$$\n\r\n即 $x^{2}+y^{2}-2x=0$. 因此选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>抛物线 $y^{2}=4x$ 的标准方程为 $y^{2}=4px$，所以 $p=1$，焦点为 $F(1,0)$. 以 $F$ 为圆心且过原点的圆的半径为 $1$，故其方程为</p>\n$$\n(x-1)^{2}+y^{2}=1\n$$\n<p>即 $x^{2}+y^{2}-2x=0$. 因此选择 D.</p>"
         },
         {
           "num": 3,
-          "body": "设等差数列 $\\{a_n\\}$ 前 $n$ 项和为 $S_n$. 若 $a_1 = -11$，$a_4 + a_6 = -6$，则当 $S_n$ 取最小值时，$n$ 等于（ ）",
+          "body": "设等差数列 $\\{a_{n}\\}$ 前 $n$ 项和为 $S_{n}$. 若 $a_{1} = -11$，$a_{4} + a_{6} = -6$，则当 $S_{n}$ 取最小值时，$n$ 等于（ ）",
           "choices": [
             "6",
             "7",
@@ -186,13 +41,11 @@
             "9"
           ],
           "answer": "A",
-          "solution": "设等差数列的公差为 $d$. 由 $a_{1}=-11$ 及 $a_{4}+a_{6}=2a_{5}=-6$，得 $a_{5}=-3$，从而\r\n$d=\\frac{a_{5}-a_{1}}{4}=2$，$a_{n}=-11+2(n-1)=2n-13$.\r\n于是\r\n\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}=n(n-12)=\\left(n-6\\right)^{2}-36\n$$\n\r\n当 $n$ 为正整数时，$S_{n}$ 在 $n=6$ 时取得最小值，因此选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的公差为 $d$. 由 $a_{1}=-11$ 及 $a_{4}+a_{6}=2a_{5}=-6$，得 $a_{5}=-3$，从而</p><p>$d=\\frac{a_{5}-a_{1}}{4}=2$，$a_{n}=-11+2(n-1)=2n-13$.</p><p>于是</p>\n$$\nS_{n}=\\frac{n(a_{1}+a_{n})}{2}=n(n-12)=\\left(n-6\\right)^{2}-36\n$$\n<p>当 $n$ 为正整数时，$S_{n}$ 在 $n=6$ 时取得最小值，因此选择 A.</p>"
         },
         {
           "num": 4,
-          "body": "函数 $f(x) = \\begin{cases}\r\nx^2 + 2x - 3, & x \\le 0,\\\\\r\n-2 + \\ln x, & x > 0,\r\n\\end{cases}$ 的零点个数为（ ）",
+          "body": "函数 $f(x) = \\begin{cases}x^{2} + 2x - 3,&#x26;x \\le 0,\\\\  -2 + \\ln x,&#x26;x > 0,\\end{cases}$ 的零点个数为（ ）",
           "choices": [
             "0",
             "1",
@@ -200,13 +53,11 @@
             "3"
           ],
           "answer": "C",
-          "solution": "当 $x\\leqslant0$ 时，令 $f(x)=0$，有\r\n\n$$\nx^{2}+2x-3=(x-1)(x+3)=0\n$$\n\r\n其中只有 $x=-3$ 满足 $x\\leqslant0$. 当 $x>0$ 时，令 $f(x)=0$，得 $-2+\\ln x=0$，所以 $x=\\mathrm{e}^{2}>0$. 因而函数共有两个零点，选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>当 $x\\leqslant0$ 时，令 $f(x)=0$，有</p>\n$$\nx^{2}+2x-3=(x-1)(x+3)=0\n$$\n<p>其中只有 $x=-3$ 满足 $x\\leqslant0$. 当 $x>0$ 时，令 $f(x)=0$，得 $-2+\\ln x=0$，所以 $x=\\mathrm{e}^{2}>0$. 因而函数共有两个零点，选择 C.</p>"
         },
         {
           "num": 5,
-          "body": "阅读如图所示的程序框图，运行相应的程序，输出的 $i$ 值等于（ ）\r\n\r\n\\texfigure[max width=0.40\\linewidth]{img_repaint/2010/fujian_science/q5_fig1.tex}",
+          "body": "<p>阅读如图所示的程序框图，运行相应的程序，输出的 $i$ 值等于（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.40<span class=\"macro macro-linewidth\"></span>]img_repaint/2010/fujian_science/q5_fig1.tex</p>",
           "choices": [
             "2",
             "3",
@@ -214,13 +65,11 @@
             "5"
           ],
           "answer": "C",
-          "solution": "程序开始时 $s=0$，$i=1$. 每次循环先计算 $a=i\\times2^{i}$，再令 $s=s+a$，最后令 $i=i+1$.\r\n\r\n第一次循环后，$a=1\\times2^{1}=2$，$s=2$，$i=2$，尚有 $s\\leqslant11$. 第二次循环后，$a=2\\times2^{2}=8$，$s=10$，$i=3$，仍有 $s\\leqslant11$. 第三次循环后，$a=3\\times2^{3}=24$，$s=34>11$，此时 $i=4$，所以输出 $4$，选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>程序开始时 $s=0$，$i=1$. 每次循环先计算 $a=i\\times2^{i}$，再令 $s=s+a$，最后令 $i=i+1$.</p><p>第一次循环后，$a=1\\times2^{1}=2$，$s=2$，$i=2$，尚有 $s\\leqslant11$. 第二次循环后，$a=2\\times2^{2}=8$，$s=10$，$i=3$，仍有 $s\\leqslant11$. 第三次循环后，$a=3\\times2^{3}=24$，$s=34>11$，此时 $i=4$，所以输出 $4$，选择 C.</p>"
         },
         {
           "num": 6,
-          "body": "如图，若 $\\Omega$ 是长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 被平面 $EFGH$ 截去几何体 $EFGHB_{1}C_{1}$ 后得到的几何体，其中 $E$ 为线段 $A_{1}B_{1}$ 上异于 $B_{1}$ 的点，$F$ 为线段 $BB_{1}$ 上异于 $B_{1}$ 的点，且 $EH \\parallel A_{1}D_{1}$，则下列结论中不正确的是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，若 $\\Omega$ 是长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 被平面 $EFGH$ 截去几何体 $EFGHB_{1}C_{1}$ 后得到的几何体，其中 $E$ 为线段 $A_{1}B_{1}$ 上异于 $B_{1}$ 的点，$F$ 为线段 $BB_{1}$ 上异于 $B_{1}$ 的点，且 $EH \\parallel A_{1}D_{1}$，则下列结论中不正确的是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$EH \\parallel FG$",
             "四边形 $EFGH$ 是矩形",
@@ -228,13 +77,11 @@
             "$\\Omega$ 是棱台"
           ],
           "answer": "D",
-          "solution": "由 $EH\\parallel A_{1}D_{1}\\parallel BC$，截面所在平面平行于 $BC$. 因而该平面在右侧面 $BCC_{1}B_{1}$ 内的截线 $FG$ 也平行于 $BC$，所以 $EH\\parallel FG$. 另外，$EF$ 和 $HG$ 分别是截面与两个相对侧面的交线，故 $EF\\parallel HG$，从而四边形 $EFGH$ 是平行四边形. 由于 $A_{1}D_{1}\\perp$ 平面 $A_{1}ABB_{1}$，且 $EH\\parallel A_{1}D_{1}$，而 $EF$ 在平面 $A_{1}ABB_{1}$ 内，所以 $EF\\perp EH$，于是四边形 $EFGH$ 是矩形.\r\n\r\n在平面 $A_{1}ABB_{1}$ 内，被截去部分的截面为三角形 $EFB_{1}$，所以剩余部分的截面为五边形 $AA_{1}EFB$. 在相对的平面 $D_{1}DCC_{1}$ 内，剩余部分的截面为与之全等且平行的五边形 $DD_{1}HGC$，对应顶点的连线都平行于 $BC$，故 $\\Omega$ 是五棱柱. 因此选项 C 正确，选项 D“$\\Omega$ 是棱台”不正确，选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $EH\\parallel A_{1}D_{1}\\parallel BC$，截面所在平面平行于 $BC$. 因而该平面在右侧面 $BCC_{1}B_{1}$ 内的截线 $FG$ 也平行于 $BC$，所以 $EH\\parallel FG$. 另外，$EF$ 和 $HG$ 分别是截面与两个相对侧面的交线，故 $EF\\parallel HG$，从而四边形 $EFGH$ 是平行四边形. 由于 $A_{1}D_{1}\\perp$ 平面 $A_{1}ABB_{1}$，且 $EH\\parallel A_{1}D_{1}$，而 $EF$ 在平面 $A_{1}ABB_{1}$ 内，所以 $EF\\perp EH$，于是四边形 $EFGH$ 是矩形.</p><p>在平面 $A_{1}ABB_{1}$ 内，被截去部分的截面为三角形 $EFB_{1}$，所以剩余部分的截面为五边形 $AA_{1}EFB$. 在相对的平面 $D_{1}DCC_{1}$ 内，剩余部分的截面为与之全等且平行的五边形 $DD_{1}HGC$，对应顶点的连线都平行于 $BC$，故 $\\Omega$ 是五棱柱. 因此选项 C 正确，选项 D“$\\Omega$ 是棱台”不正确，选择 D.</p>"
         },
         {
           "num": 7,
-          "body": "若点 $O$ 和点 $F(-2,0)$ 分别为双曲线 $\\frac{x^2}{a^2} - y^2 = 1$ （$a > 0$）的中心和左焦点，点 $P$ 为双曲线右支上的任意一点，则 $\\overrightarrow{OP} \\cdot \\overrightarrow{FP}$ 的取值范围为（ ）",
+          "body": "若点 $O$ 和点 $F(-2,0)$ 分别为双曲线 $\\frac{x^{2}}{a^{2}}- y^{2} = 1$ （$a > 0$）的中心和左焦点，点 $P$ 为双曲线右支上的任意一点，则 $\\overrightarrow{OP}\\cdot \\overrightarrow{FP}$ 的取值范围为（ ）",
           "choices": [
             "$\\left[3 - 2\\sqrt{3}, +\\infty\\right)$",
             "$\\left[3 + 2\\sqrt{3}, + \\infty\\right)$",
@@ -242,13 +89,11 @@
             "$\\left[\\frac{7}{4}, +\\infty\\right)$"
           ],
           "answer": "B",
-          "solution": "双曲线的焦距参数满足 $c=2$，且 $c^{2}=a^{2}+1$，所以 $a^{2}=3$. 对于右支上的点 $P(x,y)$，有 $x\\ge\\sqrt{3}$，且\r\n$\\frac{x^{2}}{3}-y^{2}=1$，$y^{2}=\\frac{x^{2}}{3}-1$.\r\n又 $\\overrightarrow{OP}=(x,y)$，$\\overrightarrow{FP}=(x+2,y)$，故\r\n\n$$\n\\overrightarrow{OP}\\cdot\\overrightarrow{FP}=x^{2}+2x+y^{2}=\\frac{4}{3}x^{2}+2x-1\n$$\n\r\n令 $h(x)=\\frac{4}{3}x^{2}+2x-1$，则 $h'(x)=\\frac{8}{3}x+2>0$（$x\\ge\\sqrt{3}$），所以该式在 $x\\ge\\sqrt{3}$ 上递增，最小值在 $x=\\sqrt{3}$ 时取得，最小值为\r\n\n$$\n\\frac{4}{3}\\cdot3+2\\sqrt{3}-1=3+2\\sqrt{3}\n$$\n\r\n所以取值范围为 $\\left[3+2\\sqrt{3},+\\infty\\right)$，选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线的焦距参数满足 $c=2$，且 $c^{2}=a^{2}+1$，所以 $a^{2}=3$. 对于右支上的点 $P(x,y)$，有 $x\\ge\\sqrt{3}$，且</p><p>$\\frac{x^{2}}{3}-y^{2}=1$，$y^{2}=\\frac{x^{2}}{3}-1$.</p><p>又 $\\overrightarrow{OP}=(x,y)$，$\\overrightarrow{FP}=(x+2,y)$，故</p>\n$$\n\\overrightarrow{OP}\\cdot\\overrightarrow{FP}=x^{2}+2x+y^{2}=\\frac{4}{3}x^{2}+2x-1\n$$\n<p>令 $h(x)=\\frac{4}{3}x^{2}+2x-1$，则 $h'(x)=\\frac{8}{3}x+2>0$（$x\\ge\\sqrt{3}$），所以该式在 $x\\ge\\sqrt{3}$ 上递增，最小值在 $x=\\sqrt{3}$ 时取得，最小值为</p>\n$$\n\\frac{4}{3}\\cdot3+2\\sqrt{3}-1=3+2\\sqrt{3}\n$$\n<p>所以取值范围为 $\\left[3+2\\sqrt{3},+\\infty\\right)$，选择 B.</p>"
         },
         {
           "num": 8,
-          "body": "设不等式组 $\\begin{cases}\r\nx \\ge 1,\\\\\r\nx - 2y + 3 \\ge 0,\\\\\r\ny \\ge x\r\n\\end{cases}$ 所表示的平面区域是 $\\Omega_1$，平面区域 $\\Omega_2$ 与 $\\Omega_1$ 关于直线 $3x - 4y - 9 = 0$ 对称. 对于 $\\Omega_1$ 中的任意点 $A$ 与 $\\Omega_2$ 中的任意点 $B$，$|AB|$ 的最小值等于（ ）",
+          "body": "设不等式组 $\\begin{cases}x \\ge 1,\\\\  x - 2y + 3 \\ge 0,\\\\  y \\ge x\\end{cases}$ 所表示的平面区域是 $\\Omega_{1}$，平面区域 $\\Omega_{2}$ 与 $\\Omega_{1}$ 关于直线 $3x - 4y - 9 = 0$ 对称. 对于 $\\Omega_{1}$ 中的任意点 $A$ 与 $\\Omega_{2}$ 中的任意点 $B$，$|AB|$ 的最小值等于（ ）",
           "choices": [
             "$\\frac{28}{5}$",
             "4",
@@ -256,13 +101,11 @@
             "2"
           ],
           "answer": "B",
-          "solution": "不等式组等价于\r\n$x\\geqslant1$，$x\\le y\\le\\frac{x+3}{2}$.\r\n故 $1\\le x\\leqslant3$，区域 $\\Omega_{1}$ 是顶点为 $(1,1)$，$(1,2)$，$(3,3)$ 的三角形. 直线 $3x-4y-9=0$ 在这三个顶点处的左端分别为 $-10$，$-14$，$-12$，所以 $\\Omega_{1}$ 在该直线的一侧，且到直线的最小距离为\r\n\n$$\n\\frac{10}{\\sqrt{3^{2}+(-4)^{2}}}=2\n$$\n\r\n在点 $(1,1)$ 处取得.\r\n\r\n$\\Omega_{2}$ 是 $\\Omega_{1}$ 关于该直线的对称图形. 任取 $A\\in\\Omega_{1}$，$B\\in\\Omega_{2}$，连接 $A$，$B$ 的线段经过该直线时，线段长度不小于 $A$ 和 $B$ 到该直线的距离之和，而这两个距离都不小于 $2$，故 $|AB|\\geqslant4$. 取 $A=(1,1)$，取其关于直线的对称点 $B$，则 $|AB|=4$，所以最小值为 $4$，选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>不等式组等价于</p><p>$x\\geqslant1$，$x\\le y\\le\\frac{x+3}{2}$.</p><p>故 $1\\le x\\leqslant3$，区域 $\\Omega_{1}$ 是顶点为 $(1,1)$，$(1,2)$，$(3,3)$ 的三角形. 直线 $3x-4y-9=0$ 在这三个顶点处的左端分别为 $-10$，$-14$，$-12$，所以 $\\Omega_{1}$ 在该直线的一侧，且到直线的最小距离为</p>\n$$\n\\frac{10}{\\sqrt{3^{2}+(-4)^{2}}}=2\n$$\n<p>在点 $(1,1)$ 处取得.</p><p>$\\Omega_{2}$ 是 $\\Omega_{1}$ 关于该直线的对称图形. 任取 $A\\in\\Omega_{1}$，$B\\in\\Omega_{2}$，连接 $A$，$B$ 的线段经过该直线时，线段长度不小于 $A$ 和 $B$ 到该直线的距离之和，而这两个距离都不小于 $2$，故 $|AB|\\geqslant4$. 取 $A=(1,1)$，取其关于直线的对称点 $B$，则 $|AB|=4$，所以最小值为 $4$，选择 B.</p>"
         },
         {
           "num": 9,
-          "body": "对于复数 $a$，$b$，$c$，$d$，若集合 $S = \\{a, b, c, d\\}$ 具有性质“对任意 $x$，$y \\in S$，必有 $xy \\in S$”，则当 $\\begin{cases}\r\na = 1,\\\\\r\nb^2 = 1,\\\\\r\nc^2 = b\r\n\\end{cases}$ 时，$b + c + d$ 等于（ ）",
+          "body": "对于复数 $a$，$b$，$c$，$d$，若集合 $S = \\{a, b, c, d\\}$ 具有性质“对任意 $x$，$y \\in S$，必有 $xy \\in S$”，则当 $\\begin{cases}a = 1,\\\\  b^{2} = 1,\\\\  c^{2} = b\\end{cases}$ 时，$b + c + d$ 等于（ ）",
           "choices": [
             "1",
             "$-1$",
@@ -270,23 +113,19 @@
             "$\\mathrm{i}$"
           ],
           "answer": "B",
-          "solution": "因为 $S$ 是由四个元素组成的集合，$a$，$b$，$c$，$d$ 互不相同. 由 $a=1$ 及 $b^{2}=1$，且 $b\\neq a$，得 $b=-1$. 再由 $c^{2}=b=-1$，得 $c=\\mathrm{i}$ 或 $c=-\\mathrm{i}$.\r\n\r\n由集合的乘法封闭性，$bc=-c\\in S$. 由于 $1$，$-1$，$c$ 已在集合中，第四个元素只能是 $d=-c$. 因而\r\n\n$$\nb+c+d=-1+c-c=-1\n$$\n\r\n所以选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $S$ 是由四个元素组成的集合，$a$，$b$，$c$，$d$ 互不相同. 由 $a=1$ 及 $b^{2}=1$，且 $b\\neq a$，得 $b=-1$. 再由 $c^{2}=b=-1$，得 $c=\\mathrm{i}$ 或 $c=-\\mathrm{i}$.</p><p>由集合的乘法封闭性，$bc=-c\\in S$. 由于 $1$，$-1$，$c$ 已在集合中，第四个元素只能是 $d=-c$. 因而</p>\n$$\nb+c+d=-1+c-c=-1\n$$\n<p>所以选择 B.</p>"
         },
         {
           "num": 10,
-          "body": "对于具有相同定义域 $D$ 的函数 $f(x)$ 和 $g(x)$，若存在函数 $h(x) = kx + b$ （$k$，$b$ 为常数），对任给的正数 $m$，存在相应的 $x_0 \\in D$，使得当 $x \\in D$ 且 $x > x_0$ 时，总有 $\\begin{cases}\r\n0 < f(x) - h(x) < m,\\\\\r\n0 < h(x) - g(x) < m,\r\n\\end{cases}$ 则称直线 $l: y = kx + b$ 为曲线 $y = f(x)$ 与 $y = g(x)$ 的“分渐近线”. 给出定义域均为 $D = \\{x \\mid x > 1\\}$ 的四组函数如下：\r\n\\begin{circlelist}\r\n\\item $f(x)=x^{2}$，$g(x) = \\sqrt{x}$；\r\n\\item $f(x) = 10^{-x} + 2$，$g(x) = \\frac{2x - 3}{x}$；\r\n\\item $f(x) = \\frac{x^2 + 1}{x^2}$，$g(x) = \\frac{x\\ln x + 1}{\\ln x}$；\r\n\\item $f(x) = \\frac{2x^2}{x + 1}$，$g(x) = 2(x - 1 - \\mathrm{e}^{-x})$.\r\n\\end{circlelist}\r\n其中，曲线 $y = f(x)$ 与 $y = g(x)$ 存在“分渐近线”的是（ ）",
+          "body": "<p>对于具有相同定义域 $D$ 的函数 $f(x)$ 和 $g(x)$，若存在函数 $h(x) = kx + b$ （$k$，$b$ 为常数），对任给的正数 $m$，存在相应的 $x_{0} \\in D$，使得当 $x \\in D$ 且 $x > x_{0}$ 时，总有 $\\begin{cases}0 &#x3C; f(x) - h(x) &#x3C; m,\\\\\n\n0 &#x3C; h(x) - g(x) &#x3C; m,\\end{cases}$ 则称直线 $l: y = kx + b$ 为曲线 $y = f(x)$ 与 $y = g(x)$ 的“分渐近线”. 给出定义域均为 $D = \\{x \\mid x > 1\\}$ 的四组函数如下：</p><ol class=\"enumerate\"><li><p>$f(x)=x^{2}$，$g(x) = \\sqrt{x}$；</p></li><li><p>$f(x) = 10^{-x}+ 2$，$g(x) = \\frac{2x - 3}{x}$；</p></li><li><p>$f(x) = \\frac{x^{2} + 1}{x^{2}}$，$g(x) = \\frac{x\\ln x + 1}{\\ln x}$；</p></li><li><p>$f(x) = \\frac{2x^{2}}{x + 1}$，$g(x) = 2(x - 1 - \\mathrm{e}^{-x})$.</p></li></ol><p>其中，曲线 $y = f(x)$ 与 $y = g(x)$ 存在“分渐近线”的是（ ）</p>",
           "choices": [
-            "\\circled{1}\\circled{4}",
-            "\\circled{2}\\circled{3}",
-            "\\circled{2}\\circled{4}",
-            "\\circled{3}\\circled{4}"
+            "①④",
+            "②③",
+            "②④",
+            "③④"
           ],
           "answer": "C",
-          "solution": "“分渐近线”的定义等价于存在直线 $h(x)=kx+b$，使得当 $x\\to+\\infty$ 时，$f(x)-h(x)\\to0^{+}$，且 $h(x)-g(x)\\to0^{+}$.\r\n\r\n对于第$\\circled{1}$组，无论直线 $h(x)=kx+b$ 的常数 $k$，$b$ 取何值，都有\r\n\n$$\nx^{2}-h(x)=x^{2}-kx-b\\longrightarrow+\\infty\n$$\n\r\n不可能满足 $f(x)-h(x)\\to0^{+}$，所以第$\\circled{1}$组不满足.\r\n\r\n对于第$\\circled{2}$组，取 $h(x)=2$，则\r\n$f(x)-h(x)=10^{-x}>0$，$h(x)-g(x)=2-\\frac{2x-3}{x}=\\frac{3}{x}>0$\r\n二者都趋于 $0$，所以第$\\circled{2}$组满足.\r\n\r\n对于第$\\circled{3}$组，$f(x)=1+\\frac{1}{x^{2}}\\to1$，而 $g(x)=x+\\frac{1}{\\ln x}\\to+\\infty$，不可能满足.\r\n\r\n对于第$\\circled{4}$组，取 $h(x)=2x-2$，则\r\n$f(x)-h(x)=\\frac{2}{x+1}>0$，$h(x)-g(x)=2\\mathrm{e}^{-x}>0$\r\n二者都趋于 $0$，所以第$\\circled{4}$组满足. 因此满足条件的是第$\\circled{2}$、$\\circled{4}$组，选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>“分渐近线”的定义等价于存在直线 $h(x)=kx+b$，使得当 $x\\to+\\infty$ 时，$f(x)-h(x)\\to0^{+}$，且 $h(x)-g(x)\\to0^{+}$.</p><p>对于第$①$组，无论直线 $h(x)=kx+b$ 的常数 $k$，$b$ 取何值，都有</p>\n$$\nx^{2}-h(x)=x^{2}-kx-b\\longrightarrow+\\infty\n$$\n<p>不可能满足 $f(x)-h(x)\\to0^{+}$，所以第$①$组不满足.</p><p>对于第$②$组，取 $h(x)=2$，则</p><p>$f(x)-h(x)=10^{-x}>0$，$h(x)-g(x)=2-\\frac{2x-3}{x}=\\frac{3}{x}>0$</p><p>二者都趋于 $0$，所以第$②$组满足.</p><p>对于第$③$组，$f(x)=1+\\frac{1}{x^{2}}\\to1$，而 $g(x)=x+\\frac{1}{\\ln x}\\to+\\infty$，不可能满足.</p><p>对于第$④$组，取 $h(x)=2x-2$，则</p><p>$f(x)-h(x)=\\frac{2}{x+1}>0$，$h(x)-g(x)=2\\mathrm{e}^{-x}>0$</p><p>二者都趋于 $0$，所以第$④$组满足. 因此满足条件的是第$②$、$④$组，选择 C.</p>"
         }
       ]
     },
@@ -295,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "在等比数列 $\\{a_{n}\\}$ 中，若公比 $q = 4$，且前3项之和等于21，则该数列的通项公式为 $a_{n} = _______ {}$.",
-          "choices": [],
-          "answer": "\\(4^{n-1}\\)",
-          "solution": "设首项为 $a_{1}$. 由前三项之和为 $21$ 及公比 $q=4$，有\r\n$a_{1}+4a_{1}+16a_{1}=21$，$21a_{1}=21$，$a_{1}=1$.\r\n所以通项公式为 $a_{n}=a_{1}q^{n-1}=4^{n-1}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在等比数列 $\\{a_{n}\\}$ 中，若公比 $q = 4$，且前3项之和等于21，则该数列的通项公式为 $a_{n}=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$4^{n-1}$",
+          "solution": "<p>设首项为 $a_{1}$. 由前三项之和为 $21$ 及公比 $q=4$，有</p><p>$a_{1}+4a_{1}+16a_{1}=21$，$21a_{1}=21$，$a_{1}=1$.</p><p>所以通项公式为 $a_{n}=a_{1}q^{n-1}=4^{n-1}$.</p>"
         },
         {
           "num": 12,
-          "body": "若一个底面是正三角形的三棱柱的正视图如图所示，\r\n则其表面积等于 _______ {}.\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/fujian_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(6 + 2\\sqrt{3}\\)",
-          "solution": "由正视图可知，该正三棱柱的底面边长为 $2$，侧棱长为 $1$. 因而一个底面的面积为\r\n\n$$\n\\frac{1}{2}\\times2\\times\\sqrt{3}=\\sqrt{3}\n$$\n\r\n两个底面的总面积为 $2\\sqrt{3}$，三个侧面的总面积为\r\n\n$$\n3\\times2\\times1=6\n$$\n\r\n所以三棱柱的表面积为 $6+2\\sqrt{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>若一个底面是正三角形的三棱柱的正视图如图所示，</p><p>则其表面积等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$6 + 2\\sqrt{3}$",
+          "solution": "<p>由正视图可知，该正三棱柱的底面边长为 $2$，侧棱长为 $1$. 因而一个底面的面积为</p>\n$$\n\\frac{1}{2}\\times2\\times\\sqrt{3}=\\sqrt{3}\n$$\n<p>两个底面的总面积为 $2\\sqrt{3}$，三个侧面的总面积为</p>\n$$\n3\\times2\\times1=6\n$$\n<p>所以三棱柱的表面积为 $6+2\\sqrt{3}$.</p>"
         },
         {
           "num": 13,
-          "body": "某次知识竞赛规则如下：在主办方预设的5个问题中，选手若能连续正确回答出两个问题，即停止答题，晋级下一轮. 假设某选手正确回答每个问题的概率都是0.8，且每个问题的回答结果相互独立，则该选手恰好回答了4个问题就晋级下一轮的概率等于 _______ {}.",
-          "choices": [],
+          "body": "某次知识竞赛规则如下：在主办方预设的5个问题中，选手若能连续正确回答出两个问题，即停止答题，晋级下一轮. 假设某选手正确回答每个问题的概率都是0.8，且每个问题的回答结果相互独立，则该选手恰好回答了4个问题就晋级下一轮的概率等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
           "answer": "0.128",
-          "solution": "记回答正确为 $C$，回答错误为 $W$. 要恰好回答到第4个问题才因连续正确两个问题而晋级，第3、4个问题必须为 $C$，且第2个问题必须为 $W$，否则第2、3个问题已经连续正确. 第1个问题可为 $C$ 或 $W$，因此所求概率为\r\n\n$$\n(0.8+0.2)\\times0.2\\times0.8\\times0.8=0.128\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>记回答正确为 $C$，回答错误为 $W$. 要恰好回答到第4个问题才因连续正确两个问题而晋级，第3、4个问题必须为 $C$，且第2个问题必须为 $W$，否则第2、3个问题已经连续正确. 第1个问题可为 $C$ 或 $W$，因此所求概率为</p>\n$$\n(0.8+0.2)\\times0.2\\times0.8\\times0.8=0.128\n$$"
         },
         {
           "num": 14,
-          "body": "已知函数 $f(x) = 3\\sin \\left( \\omega x - \\frac{\\pi}{6} \\right)$（$\\omega > 0$）和 $g(x) = 2\\cos (2x + \\varphi) + 1$ 的图象的对称轴完全相同. 若 $x \\in \\left[0, \\frac{\\pi}{2}\\right]$，则 $f(x)$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left[-\\frac{3}{2},3\\right]\\)",
-          "solution": "函数 $f$ 的对称轴为\r\n$x=\\frac{\\frac{\\pi}{2}+k\\pi+\\frac{\\pi}{6}}{\\omega}=\\frac{\\frac{2\\pi}{3}+k\\pi}{\\omega}$，$k\\in\\mathbb{Z}$.\r\n函数 $g$ 的对称轴为 $2x+\\varphi=k\\pi$，相邻对称轴的距离为 $\\frac{\\pi}{2}$. 两组对称轴完全相同，所以 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，即 $\\omega=2$. 因而在 $0\\le x\\le\\frac{\\pi}{2}$ 时，\r\n\n$$\nf(x)=3\\sin\\left(2x-\\frac{\\pi}{6}\\right)\n$$\n\r\n其自变量范围为 $\\left[-\\frac{\\pi}{6},\\frac{5\\pi}{6}\\right]$. 该范围包含 $\\frac{\\pi}{2}$，所以最大值为 $3$；左端点给出最小值 $3\\sin\\left(-\\frac{\\pi}{6}\\right)=-\\frac{3}{2}$. 因此取值范围为 $\\left[-\\frac{3}{2},3\\right]$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知函数 $f(x) = 3\\sin \\left( \\omega x - \\frac{\\pi}{6}\\right)$（$\\omega > 0$）和 $g(x) = 2\\cos (2x + \\varphi) + 1$ 的图象的对称轴完全相同. 若 $x \\in \\left[0, \\frac{\\pi}{2}\\right]$，则 $f(x)$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left[-\\frac{3}{2},3\\right]$",
+          "solution": "<p>函数 $f$ 的对称轴为</p><p>$x=\\frac{\\frac{\\pi}{2}+k\\pi+\\frac{\\pi}{6}}{\\omega}=\\frac{\\frac{2\\pi}{3}+k\\pi}{\\omega}$，$k\\in\\mathbb{Z}$.</p><p>函数 $g$ 的对称轴为 $2x+\\varphi=k\\pi$，相邻对称轴的距离为 $\\frac{\\pi}{2}$. 两组对称轴完全相同，所以 $\\frac{\\pi}{\\omega}=\\frac{\\pi}{2}$，即 $\\omega=2$. 因而在 $0\\le x\\le\\frac{\\pi}{2}$ 时，</p>\n$$\nf(x)=3\\sin\\left(2x-\\frac{\\pi}{6}\\right)\n$$\n<p>其自变量范围为 $\\left[-\\frac{\\pi}{6},\\frac{5\\pi}{6}\\right]$. 该范围包含 $\\frac{\\pi}{2}$，所以最大值为 $3$；左端点给出最小值 $3\\sin\\left(-\\frac{\\pi}{6}\\right)=-\\frac{3}{2}$. 因此取值范围为 $\\left[-\\frac{3}{2},3\\right]$.</p>"
         },
         {
           "num": 15,
-          "body": "已知定义域为 $(0, +\\infty)$ 的函数 $f(x)$ 满足：\r\n\n(1) 对任意 $x \\in (0, +\\infty)$，恒有 $f(2x) = 2f(x)$ 成立；\n\n(2) 当 $x \\in (1, 2]$ 时，$f(x) = 2 - x$.\n\r\n给出结论如下：\r\n\\begin{circlelist}\r\n\\item 对任意 $m \\in \\mathbb{Z}$，有 $f(2^{m}) = 0$；\r\n\\item 函数 $f(x)$ 的值域为 $[0, +\\infty)$；\r\n\\item 存在 $n \\in \\mathbb{Z}$，使得 $f(2^{n+1}) = 9$；\r\n\\item “函数 $f(x)$ 在区间 $(a, b)$ 上单调递减”的充要条件是“存在 $k \\in \\mathbb{Z}$，使得 $(a, b) \\subseteq (2^{k}, 2^{k+1})$”.\r\n\\end{circlelist}\r\n其中所有正确结论的序号是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\circled{1}\\circled{2}\\circled{4}\\)",
-          "solution": "由 $f(2)=0$ 及 $f(2)=2f(1)$，得 $f(1)=0$. 对任意整数 $m$，反复使用 $f(2x)=2f(x)$ 及其等价式 $f(x)=2f(\\frac{x}{2})$，可得 $f(2^{m})=0$，所以结论$\\circled{1}$正确.\r\n\r\n对任意整数 $k$，当 $2^{k}<x\\leqslant2^{k+1}$ 时，令 $u=2^{-k}x$，则 $1<u\\leqslant2$，从而\r\n\n$$\nf(x)=2^{k}f(u)=2^{k}(2-u)=2^{k+1}-x\n$$\n\r\n在每个区间 $\\left(2^{k},2^{k+1}\\right]$ 上，函数值属于 $[0,2^{k})$，而 $k$ 可任意增大，所以值域为 $[0,+\\infty)$，结论$\\circled{2}$正确.\r\n\r\n由结论$\\circled{1}$，所有 $f(2^{n+1})$ 都等于 $0$，不可能等于 $9$，所以结论$\\circled{3}$错误.\r\n\r\n在每个开区间 $\\left(2^{k},2^{k+1}\\right)$ 内，$f(x)=2^{k+1}-x$，严格单调递减. 若 $(a,b)$ 跨过某个 $2^{k}$，则函数在该点右侧由 $0$ 跳到接近 $2^{k}$ 的正值，不可能在整个 $(a,b)$ 上单调递减. 因此结论$\\circled{4}$正确. 所有正确结论的序号为 $\\circled{1}$$\\circled{2}$$\\circled{4}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>已知定义域为 $(0, +\\infty)$ 的函数 $f(x)$ 满足：</p><ol class=\"enumerate\"><li><p>对任意 $x \\in (0, +\\infty)$，恒有 $f(2x) = 2f(x)$ 成立；</p></li><li><p>当 $x \\in (1, 2]$ 时，$f(x) = 2 - x$.</p></li></ol><p>给出结论如下：</p><ol class=\"enumerate\"><li><p>对任意 $m \\in \\mathbb{Z}$，有 $f(2^{m}) = 0$；</p></li><li><p>函数 $f(x)$ 的值域为 $[0, +\\infty)$；</p></li><li><p>存在 $n \\in \\mathbb{Z}$，使得 $f(2^{n+1}) = 9$；</p></li><li><p>“函数 $f(x)$ 在区间 $(a, b)$ 上单调递减”的充要条件是“存在 $k \\in \\mathbb{Z}$，使得 $(a, b) \\subseteq (2^{k}, 2^{k+1})$”.</p></li></ol><p>其中所有正确结论的序号是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
+          "answer": "$①②④$",
+          "solution": "<p>由 $f(2)=0$ 及 $f(2)=2f(1)$，得 $f(1)=0$. 对任意整数 $m$，反复使用 $f(2x)=2f(x)$ 及其等价式 $f(x)=2f(\\frac{x}{2})$，可得 $f(2^{m})=0$，所以结论$①$正确.</p><p>对任意整数 $k$，当 $2^{k}&#x3C;x\\leqslant2^{k+1}$ 时，令 $u=2^{-k}x$，则 $1&#x3C;u\\leqslant2$，从而</p>\n$$\nf(x)=2^{k}f(u)=2^{k}(2-u)=2^{k+1}-x\n$$\n<p>在每个区间 $\\left(2^{k},2^{k+1}\\right]$ 上，函数值属于 $[0,2^{k})$，而 $k$ 可任意增大，所以值域为 $[0,+\\infty)$，结论$②$正确.</p><p>由结论$①$，所有 $f(2^{n+1})$ 都等于 $0$，不可能等于 $9$，所以结论$③$错误.</p><p>在每个开区间 $\\left(2^{k},2^{k+1}\\right)$ 内，$f(x)=2^{k+1}-x$，严格单调递减. 若 $(a,b)$ 跨过某个 $2^{k}$，则函数在该点右侧由 $0$ 跳到接近 $2^{k}$ 的正值，不可能在整个 $(a,b)$ 上单调递减. 因此结论$④$正确. 所有正确结论的序号为 $①$$②$$④$.</p>"
         }
       ]
     },
@@ -345,48 +174,38 @@
       "problems": [
         {
           "num": 16,
-          "body": "设 $S$ 是不等式 $x^{2} - x - 6 \\le 0$ 的解集，整数 $m$，$n \\in S$.\r\n\n(1) 记使得“$m + n = 0$ 成立的有序数组 $(m, n)$”为事件 $A$，试列举 $A$ 包含的基本事件；\n\n(2) 设 $\\xi = m^2$，求 $\\xi$ 的分布列及其数学期望 $E(\\xi)$.",
-          "choices": [],
+          "body": "<p>设 $S$ 是不等式 $x^{2}- x - 6 \\le 0$ 的解集，整数 $m$，$n \\in S$.</p><ol class=\"enumerate\"><li><p>记使得“$m + n = 0$ 成立的有序数组 $(m, n)$”为事件 $A$，试列举 $A$ 包含的基本事件；</p></li><li><p>设 $\\xi = m^{2}$，求 $\\xi$ 的分布列及其数学期望 $E(\\xi)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 解不等式得\r\n\n$$\nx^{2}-x-6=(x-3)(x+2)\\leqslant0\n$$\n\r\n所以 $S=[-2,3]$. 因为 $m$，$n$ 是 $S$ 中的整数，故 $m$，$n$ 各有 $6$ 种等可能取值，有序数组共有 $36$ 个.\r\n\r\n事件 $A$ 要求 $n=-m$. 在 $S$ 中逐一取 $m=-2$，$-1$，$0$，$1$，$2$，$3$，得到\r\n\n$$\nA=\\{(-2,2),(-1,1),(0,0),(1,-1),(2,-2)\\}\n$$\n\n(2) 由于题目要求计算概率和分布列，按随机试验的标准解释，$m$，$n$ 在 $S$ 中的整数里独立等可能取值，故 $m$ 在 $\\{-2,-1,0,1,2,3\\}$ 中等可能取值，\r\n$P(\\xi=0)=\\frac16$，$P(\\xi=1)=\\frac26=\\frac13$\r\n$P(\\xi=4)=\\frac26=\\frac13$，$P(\\xi=9)=\\frac16$.\r\n因此\r\n\n$$\nE(\\xi)=0\\cdot\\frac16+1\\cdot\\frac13+4\\cdot\\frac13+9\\cdot\\frac16=\\frac{19}{6}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>解不等式得</p>\n$$\nx^{2}-x-6=(x-3)(x+2)\\leqslant0\n$$\n<p>所以 $S=[-2,3]$. 因为 $m$，$n$ 是 $S$ 中的整数，故 $m$，$n$ 各有 $6$ 种等可能取值，有序数组共有 $36$ 个.</p><p>事件 $A$ 要求 $n=-m$. 在 $S$ 中逐一取 $m=-2$，$-1$，$0$，$1$，$2$，$3$，得到</p>\n$$\nA=\\{(-2,2),(-1,1),(0,0),(1,-1),(2,-2)\\}\n$$\n</li><li><p>由于题目要求计算概率和分布列，按随机试验的标准解释，$m$，$n$ 在 $S$ 中的整数里独立等可能取值，故 $m$ 在 $\\{-2,-1,0,1,2,3\\}$ 中等可能取值，</p><p>$P(\\xi=0)=\\frac{1}{6}$，$P(\\xi=1)=\\frac{2}{6}=\\frac{1}{3}$</p><p>$P(\\xi=4)=\\frac{2}{6}=\\frac{1}{3}$，$P(\\xi=9)=\\frac{1}{6}$.</p><p>因此</p>\n$$\nE(\\xi)=0\\cdot\\frac{1}{6}+1\\cdot\\frac{1}{3}+4\\cdot\\frac{1}{3}+9\\cdot\\frac{1}{6}=\\frac{19}{6}\n$$\n</li></ol>"
         },
         {
           "num": 17,
-          "body": "已知中心在坐标原点 $O$ 的椭圆 $C$ 经过点 $A(2,3)$，且点 $F(2,0)$ 为其右焦点.\r\n\n(1) 求椭圆 $C$ 的方程；\n\n(2) 是否存在平行于 $OA$ 的直线 $l$，使得直线 $l$ 与椭圆 $C$ 有公共点，且直线 $OA$ 与 $l$ 的距离等于 $4$？若存在，求出直线 $l$ 的方程；若不存在，请说明理由.",
-          "choices": [],
+          "body": "<p>已知中心在坐标原点 $O$ 的椭圆 $C$ 经过点 $A(2,3)$，且点 $F(2,0)$ 为其右焦点.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的方程；</p></li><li><p>是否存在平行于 $OA$ 的直线 $l$，使得直线 $l$ 与椭圆 $C$ 有公共点，且直线 $OA$ 与 $l$ 的距离等于 $4$？若存在，求出直线 $l$ 的方程；若不存在，请说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设椭圆的标准方程为\r\n$\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，$a>b>0$.\r\n右焦点为 $F(2,0)$，所以 $c=2$，$a^{2}-b^{2}=c^{2}=4$. 由点 $A(2,3)$ 在椭圆上，得\r\n\n$$\n\\frac{4}{a^{2}}+\\frac{9}{b^{2}}=1\n$$\n\r\n令 $a^{2}=u$，则 $b^{2}=u-4$，从而\r\n$\\frac4u+\\frac9{u-4}=1$，$\\Longrightarrow$，$u^{2}-17u+16=0$.\r\n解得 $u=1$ 或 $u=16$. 因 $u=a^{2}>c^{2}=4$，故 $a^{2}=16$，$b^{2}=12$，椭圆方程为\r\n\n$$\n\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\n$$\n\n(2) 直线 $OA$ 的方程为 $3x-2y=0$. 设与它平行的直线为\r\n\n$$\nl:3x-2y+\\lambda=0\n$$\n\r\n由两平行直线的距离为 $4$，得\r\n$\\frac{|\\lambda|}{\\sqrt{13}}=4$，$\\lambda^{2}=208$.\r\n在直线 $l$ 上，$y=\\frac{(3x+\\lambda)}{2}$. 代入椭圆方程，得\r\n\n$$\n3x^{2}+(3x+\\lambda)^{2}=48\n$$\n\r\n即\r\n\n$$\n12x^{2}+6\\lambda x+\\lambda^{2}-48=0\n$$\n\r\n其判别式为\r\n\n$$\n\\Delta=(6\\lambda)^{2}-4\\times12(\\lambda^{2}-48)=2304-12\\lambda^{2}=-192<0\n$$\n\r\n所以直线 $l$ 与椭圆没有公共点，不存在这样的直线.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的标准方程为</p><p>$\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，$a>b>0$.</p><p>右焦点为 $F(2,0)$，所以 $c=2$，$a^{2}-b^{2}=c^{2}=4$. 由点 $A(2,3)$ 在椭圆上，得</p>\n$$\n\\frac{4}{a^{2}}+\\frac{9}{b^{2}}=1\n$$\n<p>令 $a^{2}=u$，则 $b^{2}=u-4$，从而</p><p>$\\frac{4}{u}+\\frac{9}{u-4}=1$，$\\Longrightarrow$，$u^{2}-17u+16=0$.</p><p>解得 $u=1$ 或 $u=16$. 因 $u=a^{2}>c^{2}=4$，故 $a^{2}=16$，$b^{2}=12$，椭圆方程为</p>\n$$\n\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\n$$\n</li><li><p>直线 $OA$ 的方程为 $3x-2y=0$. 设与它平行的直线为</p>\n$$\nl:3x-2y+\\lambda=0\n$$\n<p>由两平行直线的距离为 $4$，得</p><p>$\\frac{|\\lambda|}{\\sqrt{13}}=4$，$\\lambda^{2}=208$.</p><p>在直线 $l$ 上，$y=\\frac{(3x+\\lambda)}{2}$. 代入椭圆方程，得</p>\n$$\n3x^{2}+(3x+\\lambda)^{2}=48\n$$\n<p>即</p>\n$$\n12x^{2}+6\\lambda x+\\lambda^{2}-48=0\n$$\n<p>其判别式为</p>\n$$\n\\Delta=(6\\lambda)^{2}-4\\times12(\\lambda^{2}-48)=2304-12\\lambda^{2}=-192&#x3C;0\n$$\n<p>所以直线 $l$ 与椭圆没有公共点，不存在这样的直线.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，圆柱 $O O_{1}$ 内有一个三棱柱 $A B C - A_{1}B_{1}C_{1}$，三棱柱的底面为圆柱底面的内接三角形，且 $A B$ 是圆 $O$ 的直径.\r\n\r\n\n(1) 证明：平面 $A_{1}ACC_{1}$ $\\perp$ 平面 $B_{1}BCC_{1}$；\n\n(2) 设 $AB = AA_{1}$，在圆柱 $OO_{1}$ 内随机选取一点. 记该点取自于三棱柱 $ABC - A_{1}B_{1}C_{1}$ 内的概率为 $p$.\r\n\\begin{enumerate}\n\n(3) 当点 $C$ 在圆周上运动时，求 $p$ 的最大值；\n\n(4) 记平面 $A_{1}ACC_{1}$ 与平面 $B_{1}OC$ 所成的角为 $\\theta$ （$0^{\\circ} < \\theta \\le 90^{\\circ}$），当 $p$ 取最大值时，求 $\\cos \\theta$ 的值.\n\r\n\\end{enumerate}\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/fujian_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，圆柱 $O O_{1}$ 内有一个三棱柱 $A B C - A_{1}B_{1}C_{1}$，三棱柱的底面为圆柱底面的内接三角形，且 $A B$ 是圆 $O$ 的直径.</p><ol class=\"enumerate\"><li><p>证明：平面 $A_{1}ACC_{1}$ $\\perp$ 平面 $B_{1}BCC_{1}$；</p></li><li><p>设 $AB = AA_{1}$，在圆柱 $OO_{1}$ 内随机选取一点. 记该点取自于三棱柱 $ABC - A_{1}B_{1}C_{1}$ 内的概率为 $p$.</p><p></p><ol class=\"enumerate\"><li><p>当点 $C$ 在圆周上运动时，求 $p$ 的最大值；</p></li><li><p>记平面 $A_{1}ACC_{1}$ 与平面 $B_{1}OC$ 所成的角为 $\\theta$ （$0^{\\circ}&#x3C; \\theta \\le 90^{\\circ}$），当 $p$ 取最大值时，求 $\\cos \\theta$ 的值.</p></li></ol><p></p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $AB$ 是圆 $O$ 的直径，根据圆周角定理，\r\n$\\angle ACB=90^{\\circ}$，$AC\\perp BC$.\r\n由图中三棱柱的侧棱垂直于底面，得 $CC_{1}\\perp$ 平面 $ABC$. 平面 $A_{1}ACC_{1}$ 与平面 $B_{1}BCC_{1}$ 的交线为 $CC_{1}$，它们分别在底面 $ABC$ 上的截线为 $AC$ 和 $BC$，且 $AC\\perp CC_{1}$，$BC\\perp CC_{1}$. 因此两平面所成的二面角等于其在底面上的截线 $AC$ 与 $BC$ 的夹角. 由于 $AC\\perp BC$，故两平面所成的二面角为直角，即\r\n\n$$\n\\text{平面 }A_{1}ACC_{1}\\perp\\text{平面 }B_{1}BCC_{1}\n$$\n\n(2) 设圆柱底面半径为 $r$. 则 $AB=2r$，又 $AB=AA_{1}$，所以圆柱高为 $2r$. 三棱柱与圆柱的高相同，故\r\n\n$$\np=\\frac{\\frac12 AC\\cdot BC\\cdot2r}{\\pi r^{2}\\cdot2r}=\\frac{AC\\cdot BC}{2\\pi r^{2}}\n$$\n\r\n由 $\\angle ACB=90^{\\circ}$，有\r\n\n$$\nAC^{2}+BC^{2}=AB^{2}=4r^{2}\n$$\n\r\n因此\r\n\n$$\nAC\\cdot BC\\le\\frac{AC^{2}+BC^{2}}{2}=2r^{2}\n$$\n\r\n当且仅当 $AC=BC=\\sqrt{2}r$ 时取等号. 所以\r\n\n$$\np_{\\max}=\\frac{1}{\\pi}\n$$\n\r\n\r\n当 $p$ 取最大值时，取空间直角坐标系，使\r\n$O=(0,0,0)$，$A=(-r,0,0)$，$B=(r,0,0)$，$C=(0,r,0)$\r\n$A_{1}=(-r,0,2r)$，$B_{1}=(r,0,2r)$.\r\n平面 $A_{1}ACC_{1}$ 的一个法向量可取 $\\mathbf{n}_{1}=(1,-1,0)$，平面 $B_{1}OC$ 的一个法向量可取 $\\mathbf{n}_{2}=(2,0,-1)$. 因而\r\n\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}\r\n=\\frac{2}{\\sqrt{2}\\sqrt{5}}=\\frac{\\sqrt{10}}{5}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $AB$ 是圆 $O$ 的直径，根据圆周角定理，</p><p>$\\angle ACB=90^{\\circ}$，$AC\\perp BC$.</p><p>由图中三棱柱的侧棱垂直于底面，得 $CC_{1}\\perp$ 平面 $ABC$. 平面 $A_{1}ACC_{1}$ 与平面 $B_{1}BCC_{1}$ 的交线为 $CC_{1}$，它们分别在底面 $ABC$ 上的截线为 $AC$ 和 $BC$，且 $AC\\perp CC_{1}$，$BC\\perp CC_{1}$. 因此两平面所成的二面角等于其在底面上的截线 $AC$ 与 $BC$ 的夹角. 由于 $AC\\perp BC$，故两平面所成的二面角为直角，即</p>\n$$\n\\text{平面 }A_{1}ACC_{1}\\perp\\text{平面 }B_{1}BCC_{1}\n$$\n</li><li><p>设圆柱底面半径为 $r$. 则 $AB=2r$，又 $AB=AA_{1}$，所以圆柱高为 $2r$. 三棱柱与圆柱的高相同，故</p>\n$$\np=\\frac{\\frac{1}{2}AC\\cdot BC\\cdot2r}{\\pi r^{2}\\cdot2r}=\\frac{AC\\cdot BC}{2\\pi r^{2}}\n$$\n<p>由 $\\angle ACB=90^{\\circ}$，有</p>\n$$\nAC^{2}+BC^{2}=AB^{2}=4r^{2}\n$$\n<p>因此</p>\n$$\nAC\\cdot BC\\le\\frac{AC^{2}+BC^{2}}{2}=2r^{2}\n$$\n<p>当且仅当 $AC=BC=\\sqrt{2}r$ 时取等号. 所以</p>\n$$\np_{\\max}=\\frac{1}{\\pi}\n$$\n<p>当 $p$ 取最大值时，取空间直角坐标系，使</p><p>$O=(0,0,0)$，$A=(-r,0,0)$，$B=(r,0,0)$，$C=(0,r,0)$</p><p>$A_{1}=(-r,0,2r)$，$B_{1}=(r,0,2r)$.</p><p>平面 $A_{1}ACC_{1}$ 的一个法向量可取 $\\mathbf{n}_{1}=(1,-1,0)$，平面 $B_{1}OC$ 的一个法向量可取 $\\mathbf{n}_{2}=(2,0,-1)$. 因而</p>\n$$\n\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{2}\\sqrt{5}}=\\frac{\\sqrt{10}}{5}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "某港口 $O$ 要将一件重要物品用小艇送到一艘正在航行的轮船上. 在小艇出发时，轮船位于港口 $O$ 北偏西 $30^{\\circ}$ 且与该港口相距 $20\\text{ 海里}$ 的 $A$ 处，并以 $30\\text{ 海里/小时}$ 的航行速度沿正东方向匀速行驶. 假设该小艇沿直线方向以 $v\\text{ 海里/小时}$ 的航行速度匀速行驶，经过 $t\\text{ 小时}$ 与轮船相遇.\r\n\n(1) 若希望相遇时小艇的航行距离最小，则小艇航行速度的大小应为多少？\n\n(2) 假设小艇的最高航行速度只能达到 $30\\text{ 海里/小时}$，试设计航行方案（即确定航行方向与航行速度的大小），使得小艇能以最短时间与轮船相遇，并说明理由.",
-          "choices": [],
+          "body": "<p>某港口 $O$ 要将一件重要物品用小艇送到一艘正在航行的轮船上. 在小艇出发时，轮船位于港口 $O$ 北偏西 $30^{\\circ}$ 且与该港口相距 $20\\text{ 海里}$ 的 $A$ 处，并以 $30\\text{ 海里/小时}$ 的航行速度沿正东方向匀速行驶. 假设该小艇沿直线方向以 $v\\text{ 海里/小时}$ 的航行速度匀速行驶，经过 $t\\text{ 小时}$ 与轮船相遇.</p><ol class=\"enumerate\"><li><p>若希望相遇时小艇的航行距离最小，则小艇航行速度的大小应为多少？</p></li><li><p>假设小艇的最高航行速度只能达到 $30\\text{ 海里/小时}$，试设计航行方案（即确定航行方向与航行速度的大小），使得小艇能以最短时间与轮船相遇，并说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取港口 $O$ 为原点，正东方向为 $x$ 轴，正北方向为 $y$ 轴. 轮船初始位置为\r\n\n$$\nA=(-10,10\\sqrt{3})\n$$\n\r\n经过 $t$ 小时后的位置为\r\n\n$$\nR(t)=(30t-10,10\\sqrt{3})\n$$\n\r\n小艇航行距离的平方为\r\n\n$$\nd^{2}(t)=(30t-10)^{2}+300=900\\left(t-\\frac13\\right)^{2}+300\n$$\n\r\n所以当 $t=\\frac13$ 时距离最小，最小距离为 $10\\sqrt3$. 此时\r\n\n$$\nv=\\frac{d(t)}{t}=\\frac{10\\sqrt3}{\\frac{1}{3}}=30\\sqrt3\\text{ 海里/小时}\n$$\n\n(2) 若小艇速度不超过 $30\\text{ 海里/小时}$，相遇必须满足 $d(t)\\leqslant30t$. 因而\r\n$(30t-10)^{2}+300\\leqslant900t^{2}$，$\\Longrightarrow$，$t\\ge\\frac23$.\r\n所以最短相遇时间为 $t=\\frac23$. 此时轮船位置为\r\n\n$$\nR\\left(\\frac23\\right)=(10,10\\sqrt3)\n$$\n\r\n小艇从 $O$ 到该点的距离为 $20$，所需速度为\r\n\n$$\n\\frac{20}{\\frac{2}{3}}=30\\text{ 海里/小时}\n$$\n\r\n方向向量为 $(10,10\\sqrt3)$，即与正东方向成 $60^{\\circ}$ 角，也就是北偏东 $30^{\\circ}$. 该方案达到速度上限且时间最短.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取港口 $O$ 为原点，正东方向为 $x$ 轴，正北方向为 $y$ 轴. 轮船初始位置为</p>\n$$\nA=(-10,10\\sqrt{3})\n$$\n<p>经过 $t$ 小时后的位置为</p>\n$$\nR(t)=(30t-10,10\\sqrt{3})\n$$\n<p>小艇航行距离的平方为</p>\n$$\nd^{2}(t)=(30t-10)^{2}+300=900\\left(t-\\frac{1}{3}\\right)^{2}+300\n$$\n<p>所以当 $t=\\frac{1}{3}$ 时距离最小，最小距离为 $10\\sqrt{3}$. 此时</p>\n$$\nv=\\frac{d(t)}{t}=\\frac{10\\sqrt{3}}{\\frac{1}{3}}=30\\sqrt{3}\\text{ 海里/小时}\n$$\n</li><li><p>若小艇速度不超过 $30\\text{ 海里/小时}$，相遇必须满足 $d(t)\\leqslant30t$. 因而</p><p>$(30t-10)^{2}+300\\leqslant900t^{2}$，$\\Longrightarrow$，$t\\ge\\frac{2}{3}$.</p><p>所以最短相遇时间为 $t=\\frac{2}{3}$. 此时轮船位置为</p>\n$$\nR\\left(\\frac{2}{3}\\right)=(10,10\\sqrt{3})\n$$\n<p>小艇从 $O$ 到该点的距离为 $20$，所需速度为</p>\n$$\n\\frac{20}{\\frac{2}{3}}=30\\text{ 海里/小时}\n$$\n<p>方向向量为 $(10,10\\sqrt{3})$，即与正东方向成 $60^{\\circ}$ 角，也就是北偏东 $30^{\\circ}$. 该方案达到速度上限且时间最短.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "(1) 已知函数 $f(x) = x^3 - x$，其图象记为曲线 $C$.\r\n    \\begin{enumerate}\n\n(2) 求函数 $f(x)$ 的单调区间；\n\n(3) 证明：若对于任意非零实数 $x_{1}$，曲线 $C$ 与其在点 $P_{1}(x_{1}, f(x_{1}))$ 处的切线交于另一点 $P_{2}(x_{2}, f(x_{2}))$，曲线 $C$ 与其在点 $P_{2}(x_{2}, f(x_{2}))$ 处的切线交于另一点 $P_{3}(x_{3}, f(x_{3}))$，线段 $P_{1}P_{2}$，$P_{2}P_{3}$ 与曲线 $C$ 所围成封闭图形的面积分别为 $S_{1}$，$S_{2}$，则 $\\frac{S_{1}}{S_{2}}$ 为定值；\n\r\n\\item 对于一般的三次函数 $g(x) = ax^3 + bx^2 + cx + d$ （$a \\neq 0$），请给出类似于（1）（ii） 的正确命题，并予以证明.\r\n\\end{enumerate}",
-          "choices": [],
+          "body": "<ol class=\"enumerate\"><li><p>已知函数 $f(x) = x^{3} - x$，其图象记为曲线 $C$.</p><p></p><ol class=\"enumerate\"><li><p>求函数 $f(x)$ 的单调区间；</p></li><li><p>证明：若对于任意非零实数 $x_{1}$，曲线 $C$ 与其在点 $P_{1}(x_{1}, f(x_{1}))$ 处的切线交于另一点 $P_{2}(x_{2}, f(x_{2}))$，曲线 $C$ 与其在点 $P_{2}(x_{2}, f(x_{2}))$ 处的切线交于另一点 $P_{3}(x_{3}, f(x_{3}))$，线段 $P_{1}P_{2}$，$P_{2}P_{3}$ 与曲线 $C$ 所围成封闭图形的面积分别为 $S_{1}$，$S_{2}$，则 $\\frac{S_{1}}{S_{2}}$ 为定值；</p></li></ol><p></p></li><li><p>对于一般的三次函数 $g(x) = ax^{3} + bx^{2} + cx + d$ （$a \\neq 0$），请给出类似于（1）（ii） 的正确命题，并予以证明.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) \\begin{enumerate}\n\n(2) $f'(x)=3x^{2}-1$. 当 $x<-\\frac{\\sqrt3}{3}$ 或 $x>\\frac{\\sqrt3}{3}$ 时，$f'(x)>0$；当 $-\\frac{\\sqrt3}{3}<x<\\frac{\\sqrt3}{3}$ 时，$f'(x)<0$. 因此函数在\r\n\n$$\n\\left(-\\infty,-\\frac{\\sqrt3}{3}\\right) \\text{和} \\left(\\frac{\\sqrt3}{3},+\\infty\\right)\n$$\n\r\n上单调递增，在\r\n\n$$\n\\left(-\\frac{\\sqrt3}{3},\\frac{\\sqrt3}{3}\\right)\n$$\n\r\n上单调递减.\n\n(3) 设曲线在 $P_{1}(x_{1},f(x_{1}))$ 处的切线为 $L_{1}$. 因为 $f'(x_{1})=3x_{1}^{2}-1$，所以\r\n\n$$\nL_{1}:y=(3x_{1}^{2}-1)x-2x_{1}^{3}\n$$\n\r\n曲线与该切线的交点横坐标满足\r\n\n$$\nx^{3}-x=(3x_{1}^{2}-1)x-2x_{1}^{3}\n$$\n\r\n即\r\n\n$$\n(x-x_{1})^{2}(x+2x_{1})=0\n$$\n\r\n除去切点 $x=x_{1}$，另一交点的横坐标为 $x_{2}=-2x_{1}$. 同理，$x_{3}=-2x_{2}=4x_{1}$.\r\n\r\n切线与曲线之差为\r\n\n$$\nf(x)-L_{1}(x)=(x-x_{1})^{2}(x+2x_{1})\n$$\n\r\n令 $x=x_{1}+(x_{2}-x_{1})u$，可得两交点之间所围面积为\r\n\n$$\nS_{1}=|x_{2}-x_{1}|^{4}\\int_{0}^{1}u^{2}(1-u)\\,\\mathrm du\r\n=\\frac{|x_{2}-x_{1}|^{4}}{12}\n$$\n\r\n同理\r\n\n$$\nS_{2}=\\frac{|x_{3}-x_{2}|^{4}}{12}\n$$\n\r\n由于 $x_{2}=-2x_{1}$，$x_{3}=-2x_{2}$，有 $|x_{3}-x_{2}|=2|x_{2}-x_{1}|$. 因此\r\n\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{1}{2^{4}}=\\frac{1}{16}\n$$\n\r\n为定值.\n\r\n\\item 设一般三次函数为 $g(x)=ax^{3}+bx^{2}+cx+d$，其中 $a\\neq0$. 正确命题为：对于任意满足 $3ax_{1}+b\\neq0$ 的实数 $x_{1}$，若曲线在 $P_{1}$ 处的切线与曲线交于另一点 $P_{2}$，再在 $P_{2}$ 处作切线并与曲线交于另一点 $P_{3}$，则由线段 $P_{1}P_{2}$、$P_{2}P_{3}$ 及曲线围成的面积 $S_{1}$、$S_{2}$ 满足\r\n\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{1}{16}\n$$\n\r\n\r\n事实上，设切点横坐标为 $u$，其切线为 $L_{u}$. 直接展开得\r\n\n$$\ng(x)-L_{u}(x)=(x-u)^{2}\\left(a(x+2u)+b\\right)\n$$\n\r\n所以另一交点的横坐标为\r\n\n$$\nv=-2u-\\frac{b}{a}\n$$\n\r\n条件 $3au+b\\neq0$ 正好保证 $v\\neq u$. 对下一点有\r\n$w=-2v-\\frac{b}{a}$，$|w-v|=2|v-u|$.\r\n而在横坐标为 $u$，$v$ 的两个交点之间，面积为\r\n\n$$\n|a|\\int_{\\min\\{u,v\\}}^{\\max\\{u,v\\}}|(x-u)^{2}(x-v)|\\,\\mathrm dx\r\n=\\frac{|a|}{12}|v-u|^{4}\n$$\n\r\n因此\r\n\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{|v-u|^{4}}{|w-v|^{4}}=\\frac{1}{16}\n$$\n\r\n参数 $c$，$d$ 在切线差 $g(x)-L_u(x)$ 中消去，因此不影响上述比值.\r\n\\end{enumerate}",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p></p><ol class=\"enumerate\"><li><p>$f'(x)=3x^{2}-1$. 当 $x&#x3C;-\\frac{\\sqrt{3}}{3}$ 或 $x>\\frac{\\sqrt{3}}{3}$ 时，$f'(x)>0$；当 $-\\frac{\\sqrt{3}}{3}&#x3C;x&#x3C;\\frac{\\sqrt{3}}{3}$ 时，$f'(x)&#x3C;0$. 因此函数在</p>\n$$\n\\left(-\\infty,-\\frac{\\sqrt{3}}{3}\\right) \\text{和} \\left(\\frac{\\sqrt{3}}{3},+\\infty\\right)\n$$\n<p>上单调递增，在</p>\n$$\n\\left(-\\frac{\\sqrt{3}}{3},\\frac{\\sqrt{3}}{3}\\right)\n$$\n<p>上单调递减.</p></li><li><p>设曲线在 $P_{1}(x_{1},f(x_{1}))$ 处的切线为 $L_{1}$. 因为 $f'(x_{1})=3x_{1}^{2}-1$，所以</p>\n$$\nL_{1}:y=(3x_{1}^{2}-1)x-2x_{1}^{3}\n$$\n<p>曲线与该切线的交点横坐标满足</p>\n$$\nx^{3}-x=(3x_{1}^{2}-1)x-2x_{1}^{3}\n$$\n<p>即</p>\n$$\n(x-x_{1})^{2}(x+2x_{1})=0\n$$\n<p>除去切点 $x=x_{1}$，另一交点的横坐标为 $x_{2}=-2x_{1}$. 同理，$x_{3}=-2x_{2}=4x_{1}$.</p><p>切线与曲线之差为</p>\n$$\nf(x)-L_{1}(x)=(x-x_{1})^{2}(x+2x_{1})\n$$\n<p>令 $x=x_{1}+(x_{2}-x_{1})u$，可得两交点之间所围面积为</p>\n$$\nS_{1}=|x_{2}-x_{1}|^{4}\\int_{0}^{1}u^{2}(1-u)\\,\\mathrm{d}u  =\\frac{|x_{2}-x_{1}|^{4}}{12}\n$$\n<p>同理</p>\n$$\nS_{2}=\\frac{|x_{3}-x_{2}|^{4}}{12}\n$$\n<p>由于 $x_{2}=-2x_{1}$，$x_{3}=-2x_{2}$，有 $|x_{3}-x_{2}|=2|x_{2}-x_{1}|$. 因此</p>\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{1}{2^{4}}=\\frac{1}{16}\n$$\n<p>为定值.</p></li></ol><p></p></li><li><p>设一般三次函数为 $g(x)=ax^{3}+bx^{2}+cx+d$，其中 $a\\neq0$. 正确命题为：对于任意满足 $3ax_{1}+b\\neq0$ 的实数 $x_{1}$，若曲线在 $P_{1}$ 处的切线与曲线交于另一点 $P_{2}$，再在 $P_{2}$ 处作切线并与曲线交于另一点 $P_{3}$，则由线段 $P_{1}P_{2}$、$P_{2}P_{3}$ 及曲线围成的面积 $S_{1}$、$S_{2}$ 满足</p>\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{1}{16}\n$$\n<p>事实上，设切点横坐标为 $u$，其切线为 $L_{u}$. 直接展开得</p>\n$$\ng(x)-L_{u}(x)=(x-u)^{2}\\left(a(x+2u)+b\\right)\n$$\n<p>所以另一交点的横坐标为</p>\n$$\nv=-2u-\\frac{b}{a}\n$$\n<p>条件 $3au+b\\neq0$ 正好保证 $v\\neq u$. 对下一点有</p><p>$w=-2v-\\frac{b}{a}$，$|w-v|=2|v-u|$.</p><p>而在横坐标为 $u$，$v$ 的两个交点之间，面积为</p>\n$$\n|a|\\int_{\\min\\{u,v\\}}^{\\max\\{u,v\\}}|(x-u)^{2}(x-v)|\\,\\mathrm{d}x  =\\frac{|a|}{12}|v-u|^{4}\n$$\n<p>因此</p>\n$$\n\\frac{S_{1}}{S_{2}}=\\frac{|v-u|^{4}}{|w-v|^{4}}=\\frac{1}{16}\n$$\n<p>参数 $c$，$d$ 在切线差 $g(x)-L_{u}(x)$ 中消去，因此不影响上述比值.</p></li></ol>"
         }
       ]
     },
@@ -395,33 +214,26 @@
       "problems": [
         {
           "num": 21,
-          "body": "已知矩阵 $M = \\begin{pmatrix}1 & a\\\\ b & 1 \\end{pmatrix}$，$N = \\begin{pmatrix}c & 2\\\\ 0 & d \\end{pmatrix}$，且 $MN = \\begin{pmatrix}2 & 0\\\\ -2 & 0 \\end{pmatrix}$.\r\n\n(1) 求实数 $a$，$b$，$c$，$d$ 的值；\n\n(2) 求直线 $y = 3x$ 在矩阵 $M$ 所对应的线性变换下的像的方程.",
-          "choices": [],
+          "body": "<p>已知矩阵 $M = \\begin{pmatrix}1 &#x26; a\\\\ b &#x26; 1\\end{pmatrix}$，$N = \\begin{pmatrix}c &#x26; 2\\\\ 0 &#x26; d\\end{pmatrix}$，且 $MN = \\begin{pmatrix}2 &#x26; 0\\\\ -2 &#x26; 0\\end{pmatrix}$.</p><ol class=\"enumerate\"><li><p>求实数 $a$，$b$，$c$，$d$ 的值；</p></li><li><p>求直线 $y = 3x$ 在矩阵 $M$ 所对应的线性变换下的像的方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由矩阵乘法\r\n\n$$\nMN=\\begin{pmatrix}c&2+ad\\\\bc&2b+d\\end{pmatrix}=\\begin{pmatrix}2&0\\\\-2&0\\end{pmatrix}\n$$\n\r\n得到\r\n$c=2$，$ad=-2$，$bc=-2$，$2b+d=0$.\r\n由 $c=2$ 和 $bc=-2$ 得 $b=-1$，再由 $2b+d=0$ 得 $d=2$，最后由 $ad=-2$ 得 $a=-1$. 所以\r\n$a=-1$，$b=-1$，$c=2$，$d=2$.\n\n(2) 矩阵 $M$ 对点 $(x,y)$ 的变换为\r\n\n$$\n\\begin{pmatrix}x'\\\\y'\\end{pmatrix}\r\n=\\begin{pmatrix}1&-1\\\\-1&1\\end{pmatrix}\r\n\\begin{pmatrix}x\\\\y\\end{pmatrix},\r\n\\qquad x'=x-y,  y'=-x+y\n$$\n\r\n原直线上点可写为 $(t,3t)$. 其像为\r\n\n$$\n(x',y')=(-2t,2t)\n$$\n\r\n所以像上的点满足 $y'=-x'$. 又 $t$ 可取任意实数，故直线的像为 $y=-x$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由矩阵乘法</p>\n$$\nMN=\\begin{pmatrix}c&#x26;2+ad\\\\bc&#x26;2b+d\\end{pmatrix}=\\begin{pmatrix}2&#x26;0\\\\-2&#x26;0\\end{pmatrix}\n$$\n<p>得到</p><p>$c=2$，$ad=-2$，$bc=-2$，$2b+d=0$.</p><p>由 $c=2$ 和 $bc=-2$ 得 $b=-1$，再由 $2b+d=0$ 得 $d=2$，最后由 $ad=-2$ 得 $a=-1$. 所以</p><p>$a=-1$，$b=-1$，$c=2$，$d=2$.</p></li><li><p>矩阵 $M$ 对点 $(x,y)$ 的变换为</p>\n$$\n\\begin{pmatrix}x'\\\\y'\\end{pmatrix}  =\\begin{pmatrix}1&#x26;-1\\\\-1&#x26;1\\end{pmatrix}  \\begin{pmatrix}x\\\\y\\end{pmatrix},  \\qquad x'=x-y,  y'=-x+y\n$$\n<p>原直线上点可写为 $(t,3t)$. 其像为</p>\n$$\n(x',y')=(-2t,2t)\n$$\n<p>所以像上的点满足 $y'=-x'$. 又 $t$ 可取任意实数，故直线的像为 $y=-x$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "在直角坐标系 $xOy$ 中，直线 $l$ 的参数方程为 $\\begin{cases}\r\nx = 3 - \\frac{\\sqrt{2}}{2} t,\\\\\r\ny = \\sqrt{5} - \\frac{\\sqrt{2}}{2} t.\r\n\\end{cases}$（$t$ 为参数）. 在极坐标系（与直角坐标系 $xOy$ 取相同的长度单位，且以原点 $O$ 为极点，以 $x$ 轴正半轴为极轴）中，圆 $C$ 的方程为 $\\rho = 2\\sqrt{5}\\sin \\theta$.\r\n\n(1) 求圆 $C$ 的直角坐标方程；\n\n(2) 设圆 $C$ 与直线 $l$ 交于点 $A$，$B$，若点 $P$ 的坐标为 $(3, \\sqrt{5})$，求 $|PA| + |PB|$.",
-          "choices": [],
+          "body": "<p>在直角坐标系 $xOy$ 中，直线 $l$ 的参数方程为 $\\begin{cases}x = 3 - \\frac{\\sqrt{2}}{2} t,\\\\\n\ny = \\sqrt{5} - \\frac{\\sqrt{2}}{2} t.\\end{cases}$（$t$ 为参数）. 在极坐标系（与直角坐标系 $xOy$ 取相同的长度单位，且以原点 $O$ 为极点，以 $x$ 轴正半轴为极轴）中，圆 $C$ 的方程为 $\\rho = 2\\sqrt{5}\\sin \\theta$.</p><ol class=\"enumerate\"><li><p>求圆 $C$ 的直角坐标方程；</p></li><li><p>设圆 $C$ 与直线 $l$ 交于点 $A$，$B$，若点 $P$ 的坐标为 $(3, \\sqrt{5})$，求 $|PA| + |PB|$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，有\r\n$\\rho^{2}=x^{2}+y^{2}$，$\\rho\\sin\\theta=y$.\r\n将 $\\rho=2\\sqrt5\\sin\\theta$ 两边乘以 $\\rho$，得\r\n\n$$\nx^{2}+y^{2}=2\\sqrt5y\n$$\n\r\n所以圆 $C$ 的直角坐标方程为\r\n\n$$\nx^{2}+y^{2}-2\\sqrt5y=0\n$$\n\n(2) 直线上的点可参数化为\r\n$x=3-\\frac{\\sqrt2}{2}t$，$y=\\sqrt5-\\frac{\\sqrt2}{2}t$.\r\n将其代入圆的方程，得\r\n\n$$\nt^{2}-3\\sqrt2t+4=0\n$$\n\r\n所以两个交点对应的参数为\r\n$t_{1}=\\sqrt2$，$t_{2}=2\\sqrt2$.\r\n参数方程中的方向向量长度为 $1$，且 $t=0$ 对应点 $P(3,\\sqrt5)$，故\r\n$|PA|=|t_{1}|=\\sqrt2$，$|PB|=|t_{2}|=2\\sqrt2$.\r\n因此 $|PA|+|PB|=3\\sqrt2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由极坐标与直角坐标的关系 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$，有</p><p>$\\rho^{2}=x^{2}+y^{2}$，$\\rho\\sin\\theta=y$.</p><p>将 $\\rho=2\\sqrt{5}\\sin\\theta$ 两边乘以 $\\rho$，得</p>\n$$\nx^{2}+y^{2}=2\\sqrt{5}y\n$$\n<p>所以圆 $C$ 的直角坐标方程为</p>\n$$\nx^{2}+y^{2}-2\\sqrt{5}y=0\n$$\n</li><li><p>直线上的点可参数化为</p><p>$x=3-\\frac{\\sqrt{2}}{2}t$，$y=\\sqrt{5}-\\frac{\\sqrt{2}}{2}t$.</p><p>将其代入圆的方程，得</p>\n$$\nt^{2}-3\\sqrt{2}t+4=0\n$$\n<p>所以两个交点对应的参数为</p><p>$t_{1}=\\sqrt{2}$，$t_{2}=2\\sqrt{2}$.</p><p>参数方程中的方向向量长度为 $1$，且 $t=0$ 对应点 $P(3,\\sqrt{5})$，故</p><p>$|PA|=|t_{1}|=\\sqrt{2}$，$|PB|=|t_{2}|=2\\sqrt{2}$.</p><p>因此 $|PA|+|PB|=3\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "已知函数 $f(x) = |x - a|$.\r\n\n(1) 若不等式 $f(x) \\le 3$ 的解集为 $\\{x \\mid -1 \\le x \\le 5\\}$，求实数 $a$ 的值；\n\n(2) 在（1）的条件下，若 $f(x) + f(x + 5) \\ge m$ 对一切实数 $x$ 恒成立，求实数 $m$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = |x - a|$.</p><ol class=\"enumerate\"><li><p>若不等式 $f(x) \\le 3$ 的解集为 $\\{x \\mid -1 \\le x \\le 5\\}$，求实数 $a$ 的值；</p></li><li><p>在（1）的条件下，若 $f(x) + f(x + 5) \\ge m$ 对一切实数 $x$ 恒成立，求实数 $m$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 不等式 $|x-a|\\leqslant3$ 的解集为\r\n\n$$\na-3\\le x\\le a+3\n$$\n\r\n与题给解集 $[-1,5]$ 比较端点，得 $a-3=-1$，所以 $a=2$.\n\n(2) 代入 $a=2$，有\r\n\n$$\nf(x)+f(x+5)=|x-2|+|x+3|\n$$\n\r\n由三角不等式，\r\n\n$$\n|x-2|+|x+3|\\ge|(x-2)-(x+3)|=5\n$$\n\r\n当 $-3\\le x\\leqslant2$ 时等号成立，所以左端的最小值为 $5$. 因而不等式对一切实数 $x$ 恒成立，当且仅当 $m\\leqslant5$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>不等式 $|x-a|\\leqslant3$ 的解集为</p>\n$$\na-3\\le x\\le a+3\n$$\n<p>与题给解集 $[-1,5]$ 比较端点，得 $a-3=-1$，所以 $a=2$.</p></li><li><p>代入 $a=2$，有</p>\n$$\nf(x)+f(x+5)=|x-2|+|x+3|\n$$\n<p>由三角不等式，</p>\n$$\n|x-2|+|x+3|\\ge|(x-2)-(x+3)|=5\n$$\n<p>当 $-3\\le x\\leqslant2$ 时等号成立，所以左端的最小值为 $5$. 因而不等式对一切实数 $x$ 恒成立，当且仅当 $m\\leqslant5$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

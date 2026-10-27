@@ -1,144 +1,15 @@
 {
+  "title": "2006年普通高等学校招生全国统一考试",
+  "subtitle": "2006年江苏卷",
   "year": "2006",
   "slug": "jiangsu",
-  "title": "2006年江苏卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知 $a \\in \\mathbb{R}$，函数 $f(x) = \\sin x - |a|$，$x \\in \\mathbb{R}$ 为奇函数，则 $a =$（ ）",
+          "body": "已知 $a \\in \\mathbb{R}$，函数 $f(x) = \\sin x - |a|$，$x \\in \\mathbb{R}$ 为奇函数，则 $a =$（ ）",
           "choices": [
             "$0$",
             "$1$",
@@ -146,13 +17,11 @@
             "$\\pm1$"
           ],
           "answer": "A",
-          "solution": "因为函数为奇函数，所以对任意 $x\\in\\mathbb{R}$，有 $f(-x)=-f(x)$. 由 $f(-x)=-\\sin x-|a|$，而 $-f(x)=-\\sin x+|a|$，可得 $-|a|=|a|$. 由于 $|a|\\geqslant0$，故 $|a|=0$，即 $a=0$，所以选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为函数为奇函数，所以对任意 $x\\in\\mathbb{R}$，有 $f(-x)=-f(x)$. 由 $f(-x)=-\\sin x-|a|$，而 $-f(x)=-\\sin x+|a|$，可得 $-|a|=|a|$. 由于 $|a|\\geqslant0$，故 $|a|=0$，即 $a=0$，所以选 A."
         },
         {
           "num": 2,
-          "body": "圆 $(x - 1)^2 + (y + \\sqrt{3})^2 = 1$ 的切线方程中有一个是（ ）",
+          "body": "圆 $(x - 1)^{2} + (y + \\sqrt{3})^{2} = 1$ 的切线方程中有一个是（ ）",
           "choices": [
             "$x - y = 0$",
             "$x + y = 0$",
@@ -160,13 +29,11 @@
             "$y = 0$"
           ],
           "answer": "C",
-          "solution": "圆的圆心为 $O(1,-\\sqrt{3})$，半径为 $1$. 直线 $x-y=0$ 到 $O$ 的距离为 $\\dfrac{1+\\sqrt{3}}{\\sqrt{2}}\\neq1$，直线 $x+y=0$ 到 $O$ 的距离为 $\\dfrac{\\sqrt{3}-1}{\\sqrt{2}}\\neq1$，直线 $y=0$ 到 $O$ 的距离为 $\\sqrt{3}\\neq1$. 直线 $x=0$ 到 $O$ 的距离为 $1$，因此它是圆的一条切线，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "圆的圆心为 $O(1,-\\sqrt{3})$，半径为 $1$. 直线 $x-y=0$ 到 $O$ 的距离为 $\\dfrac{1+\\sqrt{3}}{\\sqrt{2}}\\neq1$，直线 $x+y=0$ 到 $O$ 的距离为 $\\dfrac{\\sqrt{3}-1}{\\sqrt{2}}\\neq1$，直线 $y=0$ 到 $O$ 的距离为 $\\sqrt{3}\\neq1$. 直线 $x=0$ 到 $O$ 的距离为 $1$，因此它是圆的一条切线，故选 C."
         },
         {
           "num": 3,
-          "body": "某人 $5$ 次上班途中所花的时间（单位：\\text{分钟}）分别为 $x$，$y$，$10$，$11$，$9$. 已知这组数据的平均数为 $10$，方差为 $2$，则 $|x - y|$ 的值为（ ）",
+          "body": "某人 $5$ 次上班途中所花的时间（单位：<span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">分钟</span></span>）分别为 $x$，$y$，$10$，$11$，$9$. 已知这组数据的平均数为 $10$，方差为 $2$，则 $|x - y|$ 的值为（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -174,13 +41,11 @@
             "$4$"
           ],
           "answer": "D",
-          "solution": "由平均数为 $10$，得 $x+y+10+11+9=5\\times10$，所以 $x+y=20$. 由方差为 $2$，得\r\n\n$$\n\\frac{(x-10)^2+(y-10)^2+(10-10)^2+(11-10)^2+(9-10)^2}{5}=2\n$$\n\r\n即 $(x-10)^2+(y-10)^2=8$. 令 $u=x-10$，则 $y-10=-u$，从而 $2u^2=8$，所以 $|u|=2$. 因此 $|x-y|=|u-(-u)|=2|u|=4$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由平均数为 $10$，得 $x+y+10+11+9=5\\times10$，所以 $x+y=20$. 由方差为 $2$，得</p>\n$$\n\\frac{(x-10)^{2}+(y-10)^{2}+(10-10)^{2}+(11-10)^{2}+(9-10)^{2}}{5}=2\n$$\n<p>即 $(x-10)^{2}+(y-10)^{2}=8$. 令 $u=x-10$，则 $y-10=-u$，从而 $2u^{2}=8$，所以 $|u|=2$. 因此 $|x-y|=|u-(-u)|=2|u|=4$，故选 D.</p>"
         },
         {
           "num": 4,
-          "body": "为了得到函数 $y = 2\\sin \\left(\\frac{x}{3} + \\frac{\\pi}{6}\\right)$，$x \\in \\mathbb{R}$ 的图象，只需把函数 $y = 2\\sin x$，$x \\in \\mathbb{R}$ 的图象上所有的点（ ）",
+          "body": "为了得到函数 $y = 2\\sin \\left(\\frac{x}{3}+ \\frac{\\pi}{6}\\right)$，$x \\in \\mathbb{R}$ 的图象，只需把函数 $y = 2\\sin x$，$x \\in \\mathbb{R}$ 的图象上所有的点（ ）",
           "choices": [
             "向左平移 $\\frac{\\pi}{6}$ 个单位长度，再把所得各点的横坐标缩短到原来的 $\\frac{1}{3}$ 倍（纵坐标不变）",
             "向右平移 $\\frac{\\pi}{6}$ 个单位长度，再把所得各点的横坐标缩短到原来的 $\\frac{1}{3}$ 倍（纵坐标不变）",
@@ -188,13 +53,11 @@
             "向右平移 $\\frac{\\pi}{6}$ 个单位长度，再把所得各点的横坐标伸长到原来的 $3$ 倍（纵坐标不变）"
           ],
           "answer": "C",
-          "solution": "设原图象上的点为 $(u,2\\sin u)$. 目标函数在横坐标 $X$ 处的函数值为 $2\\sin\\left(\\dfrac{X}{3}+\\dfrac{\\pi}{6}\\right)$，因此应取 $u=\\dfrac{X}{3}+\\dfrac{\\pi}{6}$，即 $X=3\\left(u-\\dfrac{\\pi}{6}\\right)$. 这正是先把横坐标向左平移 $\\dfrac{\\pi}{6}$，再把所得横坐标伸长到原来的 $3$ 倍，纵坐标不变，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设原图象上的点为 $(u,2\\sin u)$. 目标函数在横坐标 $X$ 处的函数值为 $2\\sin\\left(\\dfrac{X}{3}+\\dfrac{\\pi}{6}\\right)$，因此应取 $u=\\dfrac{X}{3}+\\dfrac{\\pi}{6}$，即 $X=3\\left(u-\\dfrac{\\pi}{6}\\right)$. 这正是先把横坐标向左平移 $\\dfrac{\\pi}{6}$，再把所得横坐标伸长到原来的 $3$ 倍，纵坐标不变，故选 C."
         },
         {
           "num": 5,
-          "body": "$\\left(\\sqrt{x} -\\frac{1}{3x}\\right)^{10}$ 的展开式中含 $x$ 的正整数指数幂的项数是（ ）",
+          "body": "$\\left(\\sqrt{x}-\\frac{1}{3x}\\right)^{10}$ 的展开式中含 $x$ 的正整数指数幂的项数是（ ）",
           "choices": [
             "$0$",
             "$2$",
@@ -202,27 +65,23 @@
             "$6$"
           ],
           "answer": "B",
-          "solution": "展开式的第 $k+1$ 项为\r\n\n$$\n\\mathrm C_{10}^{k}(\\sqrt{x})^{10-k}\\left(-\\frac{1}{3x}\\right)^k\n$$\n\r\n其中 $k=0$，$1$，$\\ldots$，$10$. 该项中 $x$ 的指数为 $\\dfrac{10-k}{2}-k=5-\\dfrac{3k}{2}$. 要使指数为正整数，$k$ 必须为偶数；当 $k=0$ 时指数为 $5$，当 $k=2$ 时指数为 $2$，而 $k\\geqslant4$ 时指数为负数. 所以符合条件的项有 $2$ 项，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>展开式的第 $k+1$ 项为</p>\n$$\n\\mathrm{C}_{10}^{k}(\\sqrt{x})^{10-k}\\left(-\\frac{1}{3x}\\right)^{k}\n$$\n<p>其中 $k=0$，$1$，$\\ldots$，$10$. 该项中 $x$ 的指数为 $\\dfrac{10-k}{2}-k=5-\\dfrac{3k}{2}$. 要使指数为正整数，$k$ 必须为偶数；当 $k=0$ 时指数为 $5$，当 $k=2$ 时指数为 $2$，而 $k\\geqslant4$ 时指数为负数. 所以符合条件的项有 $2$ 项，故选 B.</p>"
         },
         {
           "num": 6,
-          "body": "已知两点 $M(-2,0)$，$N(2,0)$，点 $P$ 为坐标平面内的动点，满足 $\\left|\\overrightarrow{MN}\\right| \\cdot \\left|\\overrightarrow{MP}\\right| + \\overrightarrow{MN} \\cdot \\overrightarrow{NP} = 0$，则动点 $P(x,y)$ 的轨迹方程为（ ）",
+          "body": "已知两点 $M(-2,0)$，$N(2,0)$，点 $P$ 为坐标平面内的动点，满足 $\\left|\\overrightarrow{MN}\\right| \\cdot \\left|\\overrightarrow{MP}\\right| + \\overrightarrow{MN}\\cdot \\overrightarrow{NP}= 0$，则动点 $P(x,y)$ 的轨迹方程为（ ）",
           "choices": [
-            "$y^{2} = 8x$",
-            "$y^{2} = -8x$",
-            "$y^{2} = 4x$",
-            "$y^{2} = -4x$"
+            "$y^{2}= 8x$",
+            "$y^{2}= -8x$",
+            "$y^{2}= 4x$",
+            "$y^{2}= -4x$"
           ],
           "answer": "B",
-          "solution": "有 $\\overrightarrow{MN}=(4,0)$，$\\left|\\overrightarrow{MN}\\right|=4$，$\\overrightarrow{MP}=(x+2,y)$，$\\overrightarrow{NP}=(x-2,y)$. 代入已知条件，得\r\n\n$$\n4\\sqrt{(x+2)^2+y^2}+4(x-2)=0\n$$\n\r\n即 $\\sqrt{(x+2)^2+y^2}=2-x$，所以 $x\\leqslant2$. 两边平方得 $(x+2)^2+y^2=(2-x)^2$，化简为 $y^2=-8x$. 该方程的点满足 $x\\leqslant0$，自动满足平方前的条件，故轨迹方程为 $y^2=-8x$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>有 $\\overrightarrow{MN}=(4,0)$，$\\left|\\overrightarrow{MN}\\right|=4$，$\\overrightarrow{MP}=(x+2,y)$，$\\overrightarrow{NP}=(x-2,y)$. 代入已知条件，得</p>\n$$\n4\\sqrt{(x+2)^{2}+y^{2}}+4(x-2)=0\n$$\n<p>即 $\\sqrt{(x+2)^{2}+y^{2}}=2-x$，所以 $x\\leqslant2$. 两边平方得 $(x+2)^{2}+y^{2}=(2-x)^{2}$，化简为 $y^{2}=-8x$. 该方程的点满足 $x\\leqslant0$，自动满足平方前的条件，故轨迹方程为 $y^{2}=-8x$，选 B.</p>"
         },
         {
           "num": 7,
-          "body": "若 $A$，$B$，$C$ 为三个集合，$A \\cup B = B \\cap C$，则一定有（ ）",
+          "body": "若 $A$，$B$，$C$ 为三个集合，$A \\cup B = B \\cap C$，则一定有（ ）",
           "choices": [
             "$A \\subseteq C$",
             "$C \\subseteq A$",
@@ -230,27 +89,23 @@
             "$A \\neq \\emptyset$"
           ],
           "answer": "A",
-          "solution": "由 $A\\cup B=B\\cap C$，且 $A\\subseteq A\\cup B$，可得 $A\\subseteq B\\cap C$. 于是 $A\\subseteq C$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $A\\cup B=B\\cap C$，且 $A\\subseteq A\\cup B$，可得 $A\\subseteq B\\cap C$. 于是 $A\\subseteq C$，故选 A."
         },
         {
           "num": 8,
-          "body": "设 $a$，$b$，$c$ 是互不相等的正数，则下列不等式中不恒成立的是（ ）",
+          "body": "设 $a$，$b$，$c$ 是互不相等的正数，则下列不等式中不恒成立的是（ ）",
           "choices": [
             "$|a - b| \\le |a - c| + |b - c|$",
-            "$a^2 +\\frac{1}{a^2}\\ge a + \\frac{1}{a}$",
-            "$|a - b| + \\frac{1}{a - b} \\ge 2$",
-            "$\\sqrt{a + 3} -\\sqrt{a + 1}\\le \\sqrt{a + 2} -\\sqrt{a}$"
+            "$a^{2} +\\frac{1}{a^{2}}\\ge a + \\frac{1}{a}$",
+            "$|a - b| + \\frac{1}{a - b}\\ge 2$",
+            "$\\sqrt{a + 3}-\\sqrt{a + 1}\\le \\sqrt{a + 2}-\\sqrt{a}$"
           ],
           "answer": "C",
-          "solution": "第一个不等式是绝对值的三角不等式，恒成立. 对第二个不等式，令 $t=a+\\dfrac1a$，由 $a>0$ 知 $t\\geqslant2$，且\r\n\n$$\na^2+\\frac1{a^2}-a-\\frac1a=t^2-t-2=(t-2)(t+1)\\geqslant0\n$$\n\r\n所以第二个不等式恒成立. 对第四个不等式，有\r\n$\\sqrt{a+3}-\\sqrt{a+1}=\\frac{2}{\\sqrt{a+3}+\\sqrt{a+1}}$，$\\sqrt{a+2}-\\sqrt a=\\frac{2}{\\sqrt{a+2}+\\sqrt a}$.\r\n由于 $\\sqrt{a+3}+\\sqrt{a+1}>\\sqrt{a+2}+\\sqrt a$，故第四个不等式恒成立. 第三个不等式中 $a-b$ 可能为负数，例如取 $a=1$，$b=2$，$c=3$，则左边为 $1-1=0<2$，所以第三个不等式不恒成立，故选第三项.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>第一个不等式是绝对值的三角不等式，恒成立. 对第二个不等式，令 $t=a+\\dfrac{1}{a}$，由 $a>0$ 知 $t\\geqslant2$，且</p>\n$$\na^{2}+\\frac{1}{a^{2}}-a-\\frac{1}{a}=t^{2}-t-2=(t-2)(t+1)\\geqslant0\n$$\n<p>所以第二个不等式恒成立. 对第四个不等式，有</p><p>$\\sqrt{a+3}-\\sqrt{a+1}=\\frac{2}{\\sqrt{a+3}+\\sqrt{a+1}}$，$\\sqrt{a+2}-\\sqrt{a}=\\frac{2}{\\sqrt{a+2}+\\sqrt{a}}$.</p><p>由于 $\\sqrt{a+3}+\\sqrt{a+1}>\\sqrt{a+2}+\\sqrt{a}$，故第四个不等式恒成立. 第三个不等式中 $a-b$ 可能为负数，例如取 $a=1$，$b=2$，$c=3$，则左边为 $1-1=0&#x3C;2$，所以第三个不等式不恒成立，故选第三项.</p>"
         },
         {
           "num": 9,
-          "body": "两个相同的正四棱锥组成如图所示的几何体，可放入棱长为 $1$ 的正方体内，使正四棱锥的底面 $ABCD$ 与正方体的某一个平面平行，且各顶点均在正方体的面上，则这样的几何体体积的可能值有（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangsu/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>两个相同的正四棱锥组成如图所示的几何体，可放入棱长为 $1$ 的正方体内，使正四棱锥的底面 $ABCD$ 与正方体的某一个平面平行，且各顶点均在正方体的面上，则这样的几何体体积的可能值有（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$1$ 个",
             "$2$ 个",
@@ -258,13 +113,11 @@
             "无穷多个"
           ],
           "answer": "D",
-          "solution": "说明存在无穷多个符合条件的几何体即可. 在棱长为 $1$ 的正方体中取坐标系，令正方体为 $[0,1]^3$，并令公共正方形底面的中心为 $O=(\\frac12,\\frac12,\\frac12)$. 取任意 $\\theta\\in[0,\\frac\\pi4]$，令 $R=\\dfrac{1}{2\\cos\\theta}$，在平面 $z=\\frac12$ 内取正方形的四个顶点为\r\n$\\left(\\frac12+R\\cos\\theta,\\frac12+R\\sin\\theta,\\frac12\\right)$，$\\left(\\frac12-R\\sin\\theta,\\frac12+R\\cos\\theta,\\frac12\\right)$\r\n$\\left(\\frac12-R\\cos\\theta,\\frac12-R\\sin\\theta,\\frac12\\right)$，$\\left(\\frac12+R\\sin\\theta,\\frac12-R\\cos\\theta,\\frac12\\right)$.\r\n因为 $0\\le\\theta\\le\\frac\\pi4$，这四个点分别落在正方体的侧面上，且它们构成以 $O$ 为中心、外接半径为 $R$ 的正方形. 其边长为 $s=\\sqrt2R=\\dfrac{1}{\\sqrt2\\cos\\theta}$. 再取两个棱锥顶点为 $U=(\\frac12,\\frac12,1)$ 和 $V=(\\frac12,\\frac12,0)$，则 $U$、$V$ 都在正方体的面上，且两个正四棱锥的高均为 $\\frac12$，因而它们相同，底面也与正方体的一个面平行. 两个棱锥的总体积为\r\n\n$$\nV=2\\times\\frac13s^2\\times\\frac12=\\frac{s^2}{3}=\\frac{1}{6\\cos^2\\theta}\n$$\n\r\n当 $\\theta$ 连续变化时，$V$ 取得无穷多个不同的值，所以选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>说明存在无穷多个符合条件的几何体即可. 在棱长为 $1$ 的正方体中取坐标系，令正方体为 $[0,1]^{3}$，并令公共正方形底面的中心为 $O=(\\frac{1}{2},\\frac{1}{2},\\frac{1}{2})$. 取任意 $\\theta\\in[0,\\frac{\\pi}{4}]$，令 $R=\\dfrac{1}{2\\cos\\theta}$，在平面 $z=\\frac{1}{2}$ 内取正方形的四个顶点为</p><p>$\\left(\\frac{1}{2}+R\\cos\\theta,\\frac{1}{2}+R\\sin\\theta,\\frac{1}{2}\\right)$，$\\left(\\frac{1}{2}-R\\sin\\theta,\\frac{1}{2}+R\\cos\\theta,\\frac{1}{2}\\right)$</p><p>$\\left(\\frac{1}{2}-R\\cos\\theta,\\frac{1}{2}-R\\sin\\theta,\\frac{1}{2}\\right)$，$\\left(\\frac{1}{2}+R\\sin\\theta,\\frac{1}{2}-R\\cos\\theta,\\frac{1}{2}\\right)$.</p><p>因为 $0\\le\\theta\\le\\frac{\\pi}{4}$，这四个点分别落在正方体的侧面上，且它们构成以 $O$ 为中心、外接半径为 $R$ 的正方形. 其边长为 $s=\\sqrt{2}R=\\dfrac{1}{\\sqrt{2}\\cos\\theta}$. 再取两个棱锥顶点为 $U=(\\frac{1}{2},\\frac{1}{2},1)$ 和 $V=(\\frac{1}{2},\\frac{1}{2},0)$，则 $U$、$V$ 都在正方体的面上，且两个正四棱锥的高均为 $\\frac{1}{2}$，因而它们相同，底面也与正方体的一个面平行. 两个棱锥的总体积为</p>\n$$\nV=2\\times\\frac{1}{3}s^{2}\\times\\frac{1}{2}=\\frac{s^{2}}{3}=\\frac{1}{6\\cos^{2}\\theta}\n$$\n<p>当 $\\theta$ 连续变化时，$V$ 取得无穷多个不同的值，所以选 D.</p>"
         },
         {
           "num": 10,
-          "body": "图中有一个信号源和五个接收器. 接收器与信号源在同一个串联线路中时，就能接收到信号，否则就不能接收到信号. 若将图中左端的六个接线点随机地平均分成三组. 将右端的六个接线点也随机地平均分成三组，再把所有六组中每组的两个接线点用导线连接，则这五个接收器能同时接收到信号的概率是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangsu/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>图中有一个信号源和五个接收器. 接收器与信号源在同一个串联线路中时，就能接收到信号，否则就不能接收到信号. 若将图中左端的六个接线点随机地平均分成三组. 将右端的六个接线点也随机地平均分成三组，再把所有六组中每组的两个接线点用导线连接，则这五个接收器能同时接收到信号的概率是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q10_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{4}{45}$",
             "$\\frac{1}{36}$",
@@ -272,9 +125,7 @@
             "$\\frac{8}{15}$"
           ],
           "answer": "D",
-          "solution": "把每条横向线路看作一个顶点，共有 $6$ 个顶点，其中一个代表信号源，另外五个代表接收器. 左端的随机分组给出这 $6$ 个顶点的一种完全匹配，右端的随机分组给出另一种完全匹配. 信号源与某个接收器能同时接收到信号，当且仅当这两个顶点在两种完全匹配组成的图中连通；所以五个接收器都能接收到信号，当且仅当两种完全匹配的并图是一个包含全部 $6$ 个顶点的六边形.\r\n\r\n固定左端的一种完全匹配. 六个有标号点的完全匹配总数为 $5\\times3\\times1=15$，右端的完全匹配也等可能地有 $15$ 种. 若右端匹配与左端匹配没有公共边，则并图中不会出现由一条公共边形成的二边形. 两个完全匹配的并图由交替边组成偶数边的环；在六个顶点上，没有公共边时只能是一个六边形.\r\n\r\n设左端匹配的三条边为三组. 用容斥原理，右端匹配没有公共边的种数为\r\n\n$$\n15-3\\times3+3\\times1-1=8\n$$\n\r\n因此所求概率为 $\\dfrac{8}{15}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>把每条横向线路看作一个顶点，共有 $6$ 个顶点，其中一个代表信号源，另外五个代表接收器. 左端的随机分组给出这 $6$ 个顶点的一种完全匹配，右端的随机分组给出另一种完全匹配. 信号源与某个接收器能同时接收到信号，当且仅当这两个顶点在两种完全匹配组成的图中连通；所以五个接收器都能接收到信号，当且仅当两种完全匹配的并图是一个包含全部 $6$ 个顶点的六边形.</p><p>固定左端的一种完全匹配. 六个有标号点的完全匹配总数为 $5\\times3\\times1=15$，右端的完全匹配也等可能地有 $15$ 种. 若右端匹配与左端匹配没有公共边，则并图中不会出现由一条公共边形成的二边形. 两个完全匹配的并图由交替边组成偶数边的环；在六个顶点上，没有公共边时只能是一个六边形.</p><p>设左端匹配的三条边为三组. 用容斥原理，右端匹配没有公共边的种数为</p>\n$$\n15-3\\times3+3\\times1-1=8\n$$\n<p>因此所求概率为 $\\dfrac{8}{15}$，故选 D.</p>"
         }
       ]
     },
@@ -283,57 +134,45 @@
       "problems": [
         {
           "num": 11,
-          "body": "在 $\\triangle ABC$ 中，已知 $BC = 12$，$A = 60^{\\circ}$，$B = 45^{\\circ}$，则 $AC =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(4\\sqrt{6}\\)",
-          "solution": "由正弦定理，\r\n\n$$\n\\frac{AC}{\\sin45^{\\circ}}=\\frac{BC}{\\sin60^{\\circ}}=\\frac{12}{\\sin60^{\\circ}}\n$$\n\r\n所以 $AC=12\\dfrac{\\sin45^{\\circ}}{\\sin60^{\\circ}}=12\\dfrac{\\frac{\\sqrt2}{2}}{\\frac{\\sqrt3}{2}}=4\\sqrt6$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在 $\\triangle ABC$ 中，已知 $BC = 12$，$A = 60^{\\circ}$，$B = 45^{\\circ}$，则 $AC =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$4\\sqrt{6}$",
+          "solution": "<p>由正弦定理，</p>\n$$\n\\frac{AC}{\\sin45^{\\circ}}=\\frac{BC}{\\sin60^{\\circ}}=\\frac{12}{\\sin60^{\\circ}}\n$$\n<p>所以 $AC=12\\dfrac{\\sin45^{\\circ}}{\\sin60^{\\circ}}=12\\dfrac{\\frac{\\sqrt{2}}{2}}{\\frac{\\sqrt{3}}{2}}=4\\sqrt{6}$.</p>"
         },
         {
           "num": 12,
-          "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}\r\n2x - y \\le 2,\\\\\r\nx - y \\ge -1,\\\\\r\nx + y \\ge 1.\r\n\\end{cases}$，则 $z = 2x + 3y$ 的最大值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(18\\)",
-          "solution": "由约束条件可写成 $y\\geqslant2x-2$，$y\\le x+1$，$y\\geqslant1-x$. 因为目标函数 $z=2x+3y$ 中 $y$ 的系数为正，所以固定 $x$ 时应取最大的可行 $y$，即 $y=x+1$. 使该上界与下界有公共点需要 $x+1\\geqslant2x-2$ 且 $x+1\\geqslant1-x$，从而 $0\\le x\\leqslant3$. 于是 $z\\leqslant2x+3(x+1)=5x+3\\leqslant18$. 当 $x=3$，$y=4$ 时三个约束均满足，且 $z=18$，所以最大值为 $18$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设变量 $x$，$y$ 满足约束条件 $\\begin{cases}2x - y \\le 2,\\\\  x - y \\ge -1,\\\\  x + y \\ge 1.\\end{cases}$，则 $z = 2x + 3y$ 的最大值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$18$",
+          "solution": "由约束条件可写成 $y\\geqslant2x-2$，$y\\le x+1$，$y\\geqslant1-x$. 因为目标函数 $z=2x+3y$ 中 $y$ 的系数为正，所以固定 $x$ 时应取最大的可行 $y$，即 $y=x+1$. 使该上界与下界有公共点需要 $x+1\\geqslant2x-2$ 且 $x+1\\geqslant1-x$，从而 $0\\le x\\leqslant3$. 于是 $z\\leqslant2x+3(x+1)=5x+3\\leqslant18$. 当 $x=3$，$y=4$ 时三个约束均满足，且 $z=18$，所以最大值为 $18$."
         },
         {
           "num": 13,
-          "body": "今有 $2$ 个红球，$3$ 个黄球，$4$ 个白球，同色球不加以区分，将这 $9$ 个球排成一列有 _______ {} 种不同的方法.（用数字作答）",
-          "choices": [],
-          "answer": "\\(1260\\)",
-          "solution": "先把 $9$ 个位置排满，再除去同色球交换造成的重复. 红球、黄球、白球分别有 $2$、$3$、$4$ 个，同色球不加以区分，所以不同排列数为\r\n\n$$\n\\frac{9!}{2!3!4!}=1260\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "今有 $2$ 个红球，$3$ 个黄球，$4$ 个白球，同色球不加以区分，将这 $9$ 个球排成一列有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种不同的方法.（用数字作答）",
+          "choices": null,
+          "answer": "$1260$",
+          "solution": "<p>先把 $9$ 个位置排满，再除去同色球交换造成的重复. 红球、黄球、白球分别有 $2$、$3$、$4$ 个，同色球不加以区分，所以不同排列数为</p>\n$$\n\\frac{9!}{2!3!4!}=1260\n$$"
         },
         {
           "num": 14,
-          "body": "$\\cot 20^{\\circ}\\cos 10^{\\circ} + \\sqrt{3}\\sin 10^{\\circ}\\tan 70^{\\circ} - 2\\cos 40^{\\circ} =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "由 $\\tan70^{\\circ}=\\cot20^{\\circ}$，且 $\\cos10^{\\circ}+\\sqrt3\\sin10^{\\circ}=2\\cos50^{\\circ}$，原式为\r\n\n$$\n2\\cos50^{\\circ}\\cot20^{\\circ}-2\\cos40^{\\circ}=2\\sin40^{\\circ}\\cot20^{\\circ}-2\\cos40^{\\circ}\n$$\n\r\n又 $\\sin40^{\\circ}\\cos20^{\\circ}-\\cos40^{\\circ}\\sin20^{\\circ}=\\sin20^{\\circ}$，所以\r\n\n$$\n2\\sin40^{\\circ}\\cot20^{\\circ}-2\\cos40^{\\circ}=2\\frac{\\sin20^{\\circ}}{\\sin20^{\\circ}}=2\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\cot 20^{\\circ}\\cos 10^{\\circ}+ \\sqrt{3}\\sin 10^{\\circ}\\tan 70^{\\circ}- 2\\cos 40^{\\circ}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "<p>由 $\\tan70^{\\circ}=\\cot20^{\\circ}$，且 $\\cos10^{\\circ}+\\sqrt{3}\\sin10^{\\circ}=2\\cos50^{\\circ}$，原式为</p>\n$$\n2\\cos50^{\\circ}\\cot20^{\\circ}-2\\cos40^{\\circ}=2\\sin40^{\\circ}\\cot20^{\\circ}-2\\cos40^{\\circ}\n$$\n<p>又 $\\sin40^{\\circ}\\cos20^{\\circ}-\\cos40^{\\circ}\\sin20^{\\circ}=\\sin20^{\\circ}$，所以</p>\n$$\n2\\sin40^{\\circ}\\cot20^{\\circ}-2\\cos40^{\\circ}=2\\frac{\\sin20^{\\circ}}{\\sin20^{\\circ}}=2\n$$"
         },
         {
           "num": 15,
-          "body": "对正整数 $n$，设曲线 $y = x^n (1 - x)$ 在 $x = 2$ 处的切线与 $y$ 轴交点的纵坐标为 $a_n$，则数列 $\\left\\{\\frac{a_n}{n + 1}\\right\\}$ 的前 $n$ 项和的公式是 _______ {}.",
-          "choices": [],
-          "answer": "\\(2^{n+1}-2\\)",
-          "solution": "令 $y=x^n(1-x)$，则 $y'=nx^{n-1}(1-x)-x^n=x^{n-1}[n-(n+1)x]$. 在 $x=2$ 处，切点纵坐标为 $y(2)=-2^n$，切线斜率为 $y'(2)=-(n+2)2^{n-1}$. 因而切线方程为 $y+2^n=-(n+2)2^{n-1}(x-2)$，令 $x=0$，得 $a_n=(n+1)2^n$. 所以\r\n\n$$\n\\sum_{k=1}^{n}\\frac{a_k}{k+1}=\\sum_{k=1}^{n}2^k=2^{n+1}-2\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "对正整数 $n$，设曲线 $y = x^{n} (1 - x)$ 在 $x = 2$ 处的切线与 $y$ 轴交点的纵坐标为 $a_{n}$，则数列 $\\left\\{\\frac{a_{n}}{n + 1}\\right\\}$ 的前 $n$ 项和的公式是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2^{n+1}-2$",
+          "solution": "<p>令 $y=x^{n}(1-x)$，则 $y'=nx^{n-1}(1-x)-x^{n}=x^{n-1}[n-(n+1)x]$. 在 $x=2$ 处，切点纵坐标为 $y(2)=-2^{n}$，切线斜率为 $y'(2)=-(n+2)2^{n-1}$. 因而切线方程为 $y+2^{n}=-(n+2)2^{n-1}(x-2)$，令 $x=0$，得 $a_{n}=(n+1)2^{n}$. 所以</p>\n$$\n\\sum_{k=1}^{n}\\frac{a_{k}}{k+1}=\\sum_{k=1}^{n}2^{k}=2^{n+1}-2\n$$"
         },
         {
           "num": 16,
-          "body": "不等式 $\\log_2\\left(x + \\frac{1}{x} + 6\\right)\\le 3$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left(-3-2\\sqrt{2},-3+2\\sqrt{2}\\right)\\cup\\{1\\}\\)",
-          "solution": "首先要求对数的真数为正，且 $x\\neq0$. 由于底数 $2>1$，不等式等价于\r\n\n$$\n0<x+\\frac1x+6\\leqslant8\n$$\n\r\n右侧不等式化为 $\\dfrac{(x-1)^2}{x}\\leqslant0$. 当 $x>0$ 时只能有 $x=1$；当 $x<0$ 时右侧不等式自动成立，但还要满足真数为正，即\r\n\n$$\nx+\\frac1x+6>0 \\Longleftrightarrow  x^2+6x+1<0\n$$\n\r\n其中最后一步乘以负数 $x$ 时不等号方向改变. 方程 $x^2+6x+1=0$ 的两根为 $-3-2\\sqrt2$ 和 $-3+2\\sqrt2$，故负数解为 $\\left(-3-2\\sqrt2,-3+2\\sqrt2\\right)$. 所以解集为\r\n\n$$\n\\left(-3-2\\sqrt2,-3+2\\sqrt2\\right)\\cup\\{1\\}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "不等式 $\\log_{2}\\left(x + \\frac{1}{x}+ 6\\right)\\le 3$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left(-3-2\\sqrt{2},-3+2\\sqrt{2}\\right)\\cup\\{1\\}$",
+          "solution": "<p>首先要求对数的真数为正，且 $x\\neq0$. 由于底数 $2>1$，不等式等价于</p>\n$$\n0&#x3C;x+\\frac{1}{x}+6\\leqslant8\n$$\n<p>右侧不等式化为 $\\dfrac{(x-1)^2}{x}\\leqslant0$. 当 $x>0$ 时只能有 $x=1$；当 $x&#x3C;0$ 时右侧不等式自动成立，但还要满足真数为正，即</p>\n$$\nx+\\frac{1}{x}+6>0 \\Longleftrightarrow  x^{2}+6x+1&#x3C;0\n$$\n<p>其中最后一步乘以负数 $x$ 时不等号方向改变. 方程 $x^{2}+6x+1=0$ 的两根为 $-3-2\\sqrt{2}$ 和 $-3+2\\sqrt{2}$，故负数解为 $\\left(-3-2\\sqrt{2},-3+2\\sqrt{2}\\right)$. 所以解集为</p>\n$$\n\\left(-3-2\\sqrt{2},-3+2\\sqrt{2}\\right)\\cup\\{1\\}\n$$"
         }
       ]
     },
@@ -342,51 +181,40 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知三点 $P(5,2)$，$F_{1}(-6,0)$，$F_{2}(6,0)$.\r\n\r\n\n(1) 求以 $F_{1}$，$F_{2}$ 为焦点且过点 $P$ 的椭圆的标准方程；\n\n(2) 设点 $P$，$F_{1}$，$F_{2}$ 关于直线 $y = x$ 的对称点分别为 $P'$，$F_{1}'$，$F_{2}'$，求以 $F_{1}'$，$F_{2}'$ 为焦点且过点 $P'$ 的双曲线的标准方程.",
-          "choices": [],
+          "body": "<p>已知三点 $P(5,2)$，$F_{1}(-6,0)$，$F_{2}(6,0)$.</p><ol class=\"enumerate\"><li><p>求以 $F_{1}$，$F_{2}$ 为焦点且过点 $P$ 的椭圆的标准方程；</p></li><li><p>设点 $P$，$F_{1}$，$F_{2}$ 关于直线 $y = x$ 的对称点分别为 $P'$，$F_{1}'$，$F_{2}'$，求以 $F_{1}'$，$F_{2}'$ 为焦点且过点 $P'$ 的双曲线的标准方程.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设所求椭圆的标准方程为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$，其中 $a>b>0$，焦距参数为 $c$. 由焦点坐标知 $c=6$，且\r\n$PF_1=\\sqrt{(5+6)^2+2^2}=5\\sqrt{5}$，$PF_2=\\sqrt{(5-6)^2+2^2}=\\sqrt{5}$. 因为椭圆上任一点到两焦点的距离之和等于 $2a$，所以 $2a=6\\sqrt{5}$，即 $a^2=45$. 又 $b^2=a^2-c^2=45-36=9$，故椭圆的标准方程为 $\\dfrac{x^2}{45}+\\dfrac{y^2}{9}=1$.\n\n(2) 关于直线 $y=x$ 对称后，$P'=(2,5)$，$F_1'=(0,-6)$，$F_2'=(0,6)$. 设所求双曲线的标准方程为 $\\dfrac{y^2}{a_1^2}-\\dfrac{x^2}{b_1^2}=1$，则焦距参数仍为 $c_1=6$. 由双曲线定义，$2a_1=|P'F_1'-P'F_2'|=\\sqrt{2^2+11^2}-\\sqrt{2^2+(-1)^2}=4\\sqrt{5}$，所以 $a_1^2=20$. 因而 $b_1^2=c_1^2-a_1^2=36-20=16$，所求双曲线的标准方程为 $\\dfrac{y^2}{20}-\\dfrac{x^2}{16}=1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设所求椭圆的标准方程为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$，其中 $a>b>0$，焦距参数为 $c$. 由焦点坐标知 $c=6$，且</p><p>$PF_{1}=\\sqrt{(5+6)^{2}+2^{2}}=5\\sqrt{5}$，$PF_{2}=\\sqrt{(5-6)^{2}+2^{2}}=\\sqrt{5}$. 因为椭圆上任一点到两焦点的距离之和等于 $2a$，所以 $2a=6\\sqrt{5}$，即 $a^{2}=45$. 又 $b^{2}=a^{2}-c^{2}=45-36=9$，故椭圆的标准方程为 $\\dfrac{x^2}{45}+\\dfrac{y^2}{9}=1$.</p></li><li><p>关于直线 $y=x$ 对称后，$P'=(2,5)$，$F_{1}'=(0,-6)$，$F_{2}'=(0,6)$. 设所求双曲线的标准方程为 $\\dfrac{y^2}{a_1^2}-\\dfrac{x^2}{b_1^2}=1$，则焦距参数仍为 $c_{1}=6$. 由双曲线定义，$2a_{1}=|P'F_{1}'-P'F_{2}'|=\\sqrt{2^{2}+11^{2}}-\\sqrt{2^{2}+(-1)^{2}}=4\\sqrt{5}$，所以 $a_{1}^{2}=20$. 因而 $b_{1}^{2}=c_{1}^{2}-a_{1}^{2}=36-20=16$，所求双曲线的标准方程为 $\\dfrac{y^2}{20}-\\dfrac{x^2}{16}=1$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "请您设计一个帐篷. 它下部的形状是高为 $1\\mathrm{~m}$ 的正六棱柱，上部的形状是侧棱长为 $3\\mathrm{~m}$ 的正六棱锥（如图所示）. 试问当帐篷的顶点 $O$ 到底面中心 $O_{1}$ 的距离为多少时，帐篷的体积最大？\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangsu/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>请您设计一个帐篷. 它下部的形状是高为 $1\\mathrm{~m}$ 的正六棱柱，上部的形状是侧棱长为 $3\\mathrm{~m}$ 的正六棱锥（如图所示）. 试问当帐篷的顶点 $O$ 到底面中心 $O_{1}$ 的距离为多少时，帐篷的体积最大？</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "设 $OO_{1}=x\\mathrm{~m}$. 由于正六棱柱的高为 $1\\mathrm{~m}$，所以正六棱锥的高为 $(x-1)\\mathrm{~m}$. 设正六棱锥底面正六边形的边长为 $s$，正六边形的中心到顶点的距离等于边长，故由侧棱长为 $3\\mathrm{~m}$ 得\r\n$s^2+(x-1)^2=3^2$，即 $s^2=8+2x-x^2$. 正六棱锥非退化时 $1<x<4$.\r\n\r\n底面正六边形的面积为 $S=\\dfrac{3\\sqrt{3}}{2}s^2=\\dfrac{3\\sqrt{3}}{2}(8+2x-x^2)$，于是帐篷的体积为\r\n$V(x)=S\\cdot1+\\dfrac13S(x-1)=\\dfrac{\\sqrt{3}}{2}(8+2x-x^2)(x+2)$.\r\n因此 $V'(x)=\\dfrac{\\sqrt{3}}{2}(12-3x^2)$. 当 $1<x<2$ 时，$V'(x)>0$；当 $2<x<4$ 时，$V'(x)<0$. 所以当 $x=2$ 时体积最大，即 $OO_{1}=2\\mathrm{~m}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $OO_{1}=x\\mathrm{~m}$. 由于正六棱柱的高为 $1\\mathrm{~m}$，所以正六棱锥的高为 $(x-1)\\mathrm{~m}$. 设正六棱锥底面正六边形的边长为 $s$，正六边形的中心到顶点的距离等于边长，故由侧棱长为 $3\\mathrm{~m}$ 得</p><p>$s^{2}+(x-1)^{2}=3^{2}$，即 $s^{2}=8+2x-x^{2}$. 正六棱锥非退化时 $1&#x3C;x&#x3C;4$.</p><p>底面正六边形的面积为 $S=\\dfrac{3\\sqrt{3}}{2}s^{2}=\\dfrac{3\\sqrt{3}}{2}(8+2x-x^{2})$，于是帐篷的体积为</p><p>$V(x)=S\\cdot1+\\dfrac{1}{3}S(x-1)=\\dfrac{\\sqrt{3}}{2}(8+2x-x^{2})(x+2)$.</p><p>因此 $V'(x)=\\dfrac{\\sqrt{3}}{2}(12-3x^{2})$. 当 $1&#x3C;x&#x3C;2$ 时，$V'(x)>0$；当 $2&#x3C;x&#x3C;4$ 时，$V'(x)&#x3C;0$. 所以当 $x=2$ 时体积最大，即 $OO_{1}=2\\mathrm{~m}$.</p>"
         },
         {
           "num": 19,
-          "body": "在正三角形 $ABC$ 中，$E$，$F$，$P$ 分别是 $AB$，$AC$，$BC$ 边上的点. 满足 $AE:EB=CF:FA=CP:PB=1:2$（如图1）. 将 $\\triangle AEF$ 沿 $EF$ 折起到 $\\triangle A_{1}EF$ 的位置. 使二面角 $A_{1}-EF-B$ 成直二面角，连接 $A_{1}B$，$A_{1}P$（如图2）.\r\n\r\n\n(1) 求证：$A_{1}E \\perp$ 平面 $BEP$；\n\n(2) 求直线 $A_{1}E$ 与平面 $A_{1}BP$ 所成角的大小；\n\n(3) 求二面角 $B - A_{1}P - F$ 的大小.（用反三角函数表示）\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2006/img/jiangsu/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>在正三角形 $ABC$ 中，$E$，$F$，$P$ 分别是 $AB$，$AC$，$BC$ 边上的点. 满足 $AE:EB=CF:FA=CP:PB=1:2$（如图1）. 将 $\\triangle AEF$ 沿 $EF$ 折起到 $\\triangle A_{1}EF$ 的位置. 使二面角 $A_{1}-EF-B$ 成直二面角，连接 $A_{1}B$，$A_{1}P$（如图2）.</p><ol class=\"enumerate\"><li><p>求证：$A_{1}E \\perp$ 平面 $BEP$；</p></li><li><p>求直线 $A_{1}E$ 与平面 $A_{1}BP$ 所成角的大小；</p></li><li><p>求二面角 $B - A_{1}P - F$ 的大小.（用反三角函数表示）</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangsu/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取正三角形 $ABC$ 的边长为 $3$，建立空间直角坐标系，使折叠前的平面 $ABC$ 为 $z=0$，并取\r\n$B=(0,0,0)$，$C=(3,0,0)$，$A=\\left(\\dfrac32,\\dfrac{3\\sqrt3}{2},0\\right)$. 由题设的分点关系可得 $E=(1,\\sqrt3,0)$，$F=\\left(\\dfrac52,\\dfrac{\\sqrt3}{2},0\\right)$，$P=(2,0,0)$.\r\n\r\n由 $AE=1$，$AF=2$，$EF=\\sqrt3$，有 $AE^2+EF^2=AF^2$，所以 $AE\\perp EF$. 折叠后 $A_1E\\perp EF$ 仍成立；又因为二面角 $A_1-EF-B$ 为直二面角，平面 $A_1EF\\perp$ 平面 $BEF$，所以平面 $A_1EF$ 内垂直于 $EF$ 的直线 $A_1E$ 垂直于平面 $BEF$. 由于 $B$，$E$，$P$ 均在原平面 $ABC$ 内，平面 $BEP=BEF$，故 $A_1E\\perp$ 平面 $BEP$.\n\n(2) 由 $A_1E\\perp$ 平面 $ABC$ 且 $A_1E=AE=1$，取图示折叠方向可得 $A_1=(1,\\sqrt3,1)$. 在平面 $A_1BP$ 内取 $\\overrightarrow{BP}=(2,0,0)$，$\\overrightarrow{BA_1}=(1,\\sqrt3,1)$，则该平面的一个法向量为\r\n$\\mathbf{n}=\\overrightarrow{BP}\\times\\overrightarrow{BA_1}=(0,-2,2\\sqrt3)$. 取直线 $A_1E$ 的方向向量 $\\mathbf{u}=(0,0,1)$，设直线与平面所成的角为 $\\theta$，则\r\n$\\sin\\theta=\\dfrac{|\\mathbf{u}\\cdot\\mathbf{n}|}{|\\mathbf{u}|\\,|\\mathbf{n}|}=\\dfrac{2\\sqrt3}{4}=\\dfrac{\\sqrt3}{2}$. 因为 $0<\\theta<\\dfrac\\pi2$，所以 $\\theta=60^{\\circ}$.\n\n(3) 取过 $P$ 且垂直于棱 $A_1P$ 的平面作截面. 令 $\\mathbf{u}=\\overrightarrow{PA_1}=(-1,\\sqrt3,1)$，则 $|\\mathbf{u}|^2=5$. 记 $\\mathbf{b}=\\overrightarrow{PB}=(-2,0,0)$，$\\mathbf{f}=\\overrightarrow{PF}=\\left(\\dfrac12,\\dfrac{\\sqrt3}{2},0\\right)$，它们在该截面上的投影分别为\r\n$\\mathbf{b}_{\\perp}=\\mathbf{b}-\\dfrac{\\mathbf{b}\\cdot\\mathbf{u}}{|\\mathbf{u}|^2}\\mathbf{u}=\\left(-\\dfrac85,-\\dfrac{2\\sqrt3}{5},-\\dfrac25\\right)$，\r\n$\\mathbf{f}_{\\perp}=\\mathbf{f}-\\dfrac{\\mathbf{f}\\cdot\\mathbf{u}}{|\\mathbf{u}|^2}\\mathbf{u}=\\left(\\dfrac7{10},\\dfrac{3\\sqrt3}{10},-\\dfrac15\\right)$.\r\n\r\n于是 $\\mathbf{b}_{\\perp}\\cdot\\mathbf{f}_{\\perp}=-\\dfrac75$，$|\\mathbf{b}_{\\perp}|=\\dfrac4{\\sqrt5}$，$|\\mathbf{f}_{\\perp}|=\\dfrac2{\\sqrt5}$. 设二面角 $B-A_1P-F$ 为 $\\varphi$，则截面内两射线的夹角满足\r\n$\\cos\\varphi=\\dfrac{\\mathbf{b}_{\\perp}\\cdot\\mathbf{f}_{\\perp}}{|\\mathbf{b}_{\\perp}|\\,|\\mathbf{f}_{\\perp}|}=-\\dfrac78$. 因此 $\\varphi=\\arccos\\left(-\\dfrac78\\right)=\\pi-\\arccos\\dfrac78$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取正三角形 $ABC$ 的边长为 $3$，建立空间直角坐标系，使折叠前的平面 $ABC$ 为 $z=0$，并取</p><p>$B=(0,0,0)$，$C=(3,0,0)$，$A=\\left(\\dfrac{3}{2},\\dfrac{3\\sqrt{3}}{2},0\\right)$. 由题设的分点关系可得 $E=(1,\\sqrt{3},0)$，$F=\\left(\\dfrac{5}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$，$P=(2,0,0)$.</p><p>由 $AE=1$，$AF=2$，$EF=\\sqrt{3}$，有 $AE^{2}+EF^{2}=AF^{2}$，所以 $AE\\perp EF$. 折叠后 $A_{1}E\\perp EF$ 仍成立；又因为二面角 $A_{1}-EF-B$ 为直二面角，平面 $A_{1}EF\\perp$ 平面 $BEF$，所以平面 $A_{1}EF$ 内垂直于 $EF$ 的直线 $A_{1}E$ 垂直于平面 $BEF$. 由于 $B$，$E$，$P$ 均在原平面 $ABC$ 内，平面 $BEP=BEF$，故 $A_{1}E\\perp$ 平面 $BEP$.</p></li><li><p>由 $A_{1}E\\perp$ 平面 $ABC$ 且 $A_{1}E=AE=1$，取图示折叠方向可得 $A_{1}=(1,\\sqrt{3},1)$. 在平面 $A_{1}BP$ 内取 $\\overrightarrow{BP}=(2,0,0)$，$\\overrightarrow{BA_1}=(1,\\sqrt{3},1)$，则该平面的一个法向量为</p><p>$\\mathbf{n}=\\overrightarrow{BP}\\times\\overrightarrow{BA_1}=(0,-2,2\\sqrt{3})$. 取直线 $A_{1}E$ 的方向向量 $\\mathbf{u}=(0,0,1)$，设直线与平面所成的角为 $\\theta$，则</p><p>$\\sin\\theta=\\dfrac{|\\mathbf{u}\\cdot\\mathbf{n}|}{|\\mathbf{u}|\\,|\\mathbf{n}|}=\\dfrac{2\\sqrt{3}}{4}=\\dfrac{\\sqrt{3}}{2}$. 因为 $0&#x3C;\\theta&#x3C;\\dfrac\\pi2$，所以 $\\theta=60^{\\circ}$.</p></li><li><p>取过 $P$ 且垂直于棱 $A_{1}P$ 的平面作截面. 令 $\\mathbf{u}=\\overrightarrow{PA_1}=(-1,\\sqrt{3},1)$，则 $|\\mathbf{u}|^{2}=5$. 记 $\\mathbf{b}=\\overrightarrow{PB}=(-2,0,0)$，$\\mathbf{f}=\\overrightarrow{PF}=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{3}}{2},0\\right)$，它们在该截面上的投影分别为</p><p>$\\mathbf{b}_{\\perp}=\\mathbf{b}-\\dfrac{\\mathbf{b}\\cdot\\mathbf{u}}{|\\mathbf{u}|^2}\\mathbf{u}=\\left(-\\dfrac{8}{5},-\\dfrac{2\\sqrt{3}}{5},-\\dfrac{2}{5}\\right)$，</p><p>$\\mathbf{f}_{\\perp}=\\mathbf{f}-\\dfrac{\\mathbf{f}\\cdot\\mathbf{u}}{|\\mathbf{u}|^2}\\mathbf{u}=\\left(\\dfrac7{10},\\dfrac{3\\sqrt{3}}{10},-\\dfrac{1}{5}\\right)$.</p><p>于是 $\\mathbf{b}_{\\perp}\\cdot\\mathbf{f}_{\\perp}=-\\dfrac{7}{5}$，$|\\mathbf{b}_{\\perp}|=\\dfrac4{\\sqrt{5}}$，$|\\mathbf{f}_{\\perp}|=\\dfrac2{\\sqrt{5}}$. 设二面角 $B-A_{1}P-F$ 为 $\\varphi$，则截面内两射线的夹角满足</p><p>$\\cos\\varphi=\\dfrac{\\mathbf{b}_{\\perp}\\cdot\\mathbf{f}_{\\perp}}{|\\mathbf{b}_{\\perp}|\\,|\\mathbf{f}_{\\perp}|}=-\\dfrac{7}{8}$. 因此 $\\varphi=\\arccos\\left(-\\dfrac{7}{8}\\right)=\\pi-\\arccos\\dfrac{7}{8}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设 $a$ 为实数，设函数 $f(x) = a\\sqrt{1 - x^2} + \\sqrt{1 + x} + \\sqrt{1 - x}$ 的最大值为 $g(a)$.\r\n\r\n\n(1) 设 $t = \\sqrt{1 + x} + \\sqrt{1 - x}$，求 $t$ 的取值范围，并把 $f(x)$ 表示为 $t$ 的函数 $m(t)$；\n\n(2) 求 $g(a)$；\n\n(3) 试求满足 $g(a) = g\\left(\\frac{1}{a}\\right)$ 的所有实数 $a$.",
-          "choices": [],
+          "body": "<p>设 $a$ 为实数，设函数 $f(x) = a\\sqrt{1 - x^{2}}+ \\sqrt{1 + x}+ \\sqrt{1 - x}$ 的最大值为 $g(a)$.</p><ol class=\"enumerate\"><li><p>设 $t = \\sqrt{1 + x}+ \\sqrt{1 - x}$，求 $t$ 的取值范围，并把 $f(x)$ 表示为 $t$ 的函数 $m(t)$；</p></li><li><p>求 $g(a)$；</p></li><li><p>试求满足 $g(a) = g\\left(\\frac{1}{a}\\right)$ 的所有实数 $a$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由根式有意义知 $-1\\le x\\leqslant1$. 令 $t=\\sqrt{1+x}+\\sqrt{1-x}$，则\r\n$t^2=2+2\\sqrt{1-x^2}$，所以 $\\sqrt2\\le t\\leqslant2$. 由 $\\sqrt{1-x^2}=\\dfrac{t^2-2}{2}$，得\r\n$f(x)=a\\sqrt{1-x^2}+t=\\dfrac{a}{2}t^2+t-a=:m(t)$，其中 $t\\in[\\sqrt2,2]$.\n\n(2) \\examdisplaycases{g(a) =}{\r\na+2, & a>-\\dfrac{1}{2},\\\\\r\n-a-\\dfrac{1}{2a}, & -\\dfrac{\\sqrt{2}}{2}<a\\leqslant-\\dfrac{1}{2},\\\\\r\n\\sqrt{2}, & a\\leqslant-\\dfrac{\\sqrt{2}}{2}.\r\n}\r\n由 $m'(t)=at+1$ 可分类讨论. 当 $a>-\\dfrac12$ 时，函数在区间 $[\\sqrt2,2]$ 上的最大值在 $t=2$ 处取得，故 $g(a)=m(2)=a+2$. 当 $-\\dfrac{\\sqrt2}{2}<a\\le-\\dfrac12$ 时，顶点 $t_0=-\\dfrac1a\\in[\\sqrt2,2]$，故 $g(a)=m(t_0)=-a-\\dfrac1{2a}$. 当 $a\\le-\\dfrac{\\sqrt2}{2}$ 时，$m(t)$ 在该区间上递减，故 $g(a)=m(\\sqrt2)=\\sqrt2$.\n\n(3) 因为 $g\\left(\\dfrac1a\\right)$ 有意义，所以先要求 $a\\neq0$. 当 $a>0$ 时，$g(a)=a+2$，$g\\left(\\dfrac1a\\right)=\\dfrac1a+2$，于是 $a=1$. 当 $a<0$ 且 $-\\sqrt2\\le a\\le-\\dfrac{\\sqrt2}{2}$ 时，$\\dfrac1a$ 仍在区间 $\\left[-\\sqrt2,-\\dfrac{\\sqrt2}{2}\\right]$ 内，所以两边都等于 $\\sqrt2$. 若 $a<-\\sqrt2$，则 $g(a)=\\sqrt2$，而 $\\dfrac1a>-\\dfrac{\\sqrt2}{2}$，由上面的分段式知 $g\\left(\\dfrac1a\\right)>\\sqrt2$，不满足等式. 若 $-\\dfrac{\\sqrt2}{2}<a<0$，则 $g(a)>\\sqrt2$，而 $\\dfrac1a<-\\sqrt2$，故 $g\\left(\\dfrac1a\\right)=\\sqrt2$，也不满足等式. 因此 $a\\in\\left[-\\sqrt2,-\\dfrac{\\sqrt2}{2}\\right]\\cup\\{1\\}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由根式有意义知 $-1\\le x\\leqslant1$. 令 $t=\\sqrt{1+x}+\\sqrt{1-x}$，则</p><p>$t^{2}=2+2\\sqrt{1-x^{2}}$，所以 $\\sqrt{2}\\le t\\leqslant2$. 由 $\\sqrt{1-x^{2}}=\\dfrac{t^2-2}{2}$，得</p><p>$f(x)=a\\sqrt{1-x^{2}}+t=\\dfrac{a}{2}t^{2}+t-a=:m(t)$，其中 $t\\in[\\sqrt{2},2]$.</p></li><li><p><span class=\"macro macro-examdisplaycases\"></span>g(a) =<br>a+2, &#x26; a>-<span class=\"macro macro-dfrac\"></span>12,<br class=\"linebreak\"><br>-a-<span class=\"macro macro-dfrac\"></span>12a, &#x26; -<span class=\"macro macro-dfrac\"></span><span class=\"macro macro-sqrt\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">2</span></span>2&#x3C;a<span class=\"macro macro-le\"></span>-<span class=\"macro macro-dfrac\"></span>12,<br class=\"linebreak\"><br><span class=\"macro macro-sqrt\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">2</span></span>, &#x26; a<span class=\"macro macro-le\"></span>-<span class=\"macro macro-dfrac\"></span><span class=\"macro macro-sqrt\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">2</span></span>2.<br></p><p>由 $m'(t)=at+1$ 可分类讨论. 当 $a>-\\dfrac{1}{2}$ 时，函数在区间 $[\\sqrt{2},2]$ 上的最大值在 $t=2$ 处取得，故 $g(a)=m(2)=a+2$. 当 $-\\dfrac{\\sqrt{2}}{2}&#x3C;a\\le-\\dfrac{1}{2}$ 时，顶点 $t_{0}=-\\dfrac{1}{a}\\in[\\sqrt{2},2]$，故 $g(a)=m(t_{0})=-a-\\dfrac1{2a}$. 当 $a\\le-\\dfrac{\\sqrt{2}}{2}$ 时，$m(t)$ 在该区间上递减，故 $g(a)=m(\\sqrt{2})=\\sqrt{2}$.</p></li><li><p>因为 $g\\left(\\dfrac{1}{a}\\right)$ 有意义，所以先要求 $a\\neq0$. 当 $a>0$ 时，$g(a)=a+2$，$g\\left(\\dfrac{1}{a}\\right)=\\dfrac{1}{a}+2$，于是 $a=1$. 当 $a&#x3C;0$ 且 $-\\sqrt{2}\\le a\\le-\\dfrac{\\sqrt{2}}{2}$ 时，$\\dfrac{1}{a}$ 仍在区间 $\\left[-\\sqrt{2},-\\dfrac{\\sqrt{2}}{2}\\right]$ 内，所以两边都等于 $\\sqrt{2}$. 若 $a&#x3C;-\\sqrt{2}$，则 $g(a)=\\sqrt{2}$，而 $\\dfrac{1}{a}>-\\dfrac{\\sqrt{2}}{2}$，由上面的分段式知 $g\\left(\\dfrac{1}{a}\\right)>\\sqrt{2}$，不满足等式. 若 $-\\dfrac{\\sqrt{2}}{2}&#x3C;a&#x3C;0$，则 $g(a)>\\sqrt{2}$，而 $\\dfrac{1}{a}&#x3C;-\\sqrt{2}$，故 $g\\left(\\dfrac{1}{a}\\right)=\\sqrt{2}$，也不满足等式. 因此 $a\\in\\left[-\\sqrt{2},-\\dfrac{\\sqrt{2}}{2}\\right]\\cup\\{1\\}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "设数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$，$\\{c_{n}\\}$ 满足：$b_{n} = a_{n} - a_{n+2}$，$c_{n} = a_{n} + 2a_{n+1} + 3a_{n+2}$（$n = 1$，$2$，$3$，$\\cdots$），证明：$\\{a_{n}\\}$ 为等差数列的充分必要条件是 $\\{c_{n}\\}$ 为等差数列且 $b_{n} \\le b_{n+1}$（$n = 1$，$2$，$3$，$\\cdots$）.",
-          "choices": [],
+          "body": "设数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$，$\\{c_{n}\\}$ 满足：$b_{n}= a_{n}- a_{n+2}$，$c_{n}= a_{n}+ 2a_{n+1}+ 3a_{n+2}$（$n = 1$，$2$，$3$，$\\cdots$），证明：$\\{a_{n}\\}$ 为等差数列的充分必要条件是 $\\{c_{n}\\}$ 为等差数列且 $b_{n}\\le b_{n+1}$（$n = 1$，$2$，$3$，$\\cdots$）.",
+          "choices": null,
           "answer": "",
-          "solution": "设 $\\{c_n\\}$ 的公差为 $d_2$.\r\n\r\n若 $\\{a_n\\}$ 为等差数列，设其公差为 $d$，则 $a_{n+1}-a_n=d$. 因而 $b_n=a_n-a_{n+2}=-2d$，从而 $b_n=b_{n+1}$. 又\r\n$c_n=a_n+2(a_n+d)+3(a_n+2d)=6a_n+8d$，所以 $c_{n+1}-c_n=6d$ 为常数，$\\{c_n\\}$ 为等差数列. 必要性成立.\r\n\r\n反之，设 $\\{c_n\\}$ 为公差为 $d_2$ 的等差数列，且 $b_n\\le b_{n+1}$. 由定义得\r\n$c_n-c_{n+2}=b_n+2b_{n+1}+3b_{n+2}=-2d_2$，将下标整体加 $1$ 得\r\n$b_{n+1}+2b_{n+2}+3b_{n+3}=-2d_2$.\r\n两式相减，得到\r\n$(b_{n+1}-b_n)+2(b_{n+2}-b_{n+1})+3(b_{n+3}-b_{n+2})=0$.\r\n由于三个括号内的量均非负，只能分别为零，故 $b_n=b_{n+1}$ 对所有 $n$ 成立. 记这个常数为 $d_3$，即 $a_{n+2}=a_n-d_3$.\r\n\r\n于是 $c_n=4a_n+2a_{n+1}-3d_3$，从而\r\n$c_{n+1}-c_n=2(a_{n+1}-a_n)-2d_3=d_2$. 因此 $a_{n+1}-a_n=\\dfrac12d_2+d_3$ 为常数，$\\{a_n\\}$ 是等差数列. 充分性成立，命题得证.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $\\{c_{n}\\}$ 的公差为 $d_{2}$.</p><p>若 $\\{a_{n}\\}$ 为等差数列，设其公差为 $d$，则 $a_{n+1}-a_{n}=d$. 因而 $b_{n}=a_{n}-a_{n+2}=-2d$，从而 $b_{n}=b_{n+1}$. 又</p><p>$c_{n}=a_{n}+2(a_{n}+d)+3(a_{n}+2d)=6a_{n}+8d$，所以 $c_{n+1}-c_{n}=6d$ 为常数，$\\{c_{n}\\}$ 为等差数列. 必要性成立.</p><p>反之，设 $\\{c_{n}\\}$ 为公差为 $d_{2}$ 的等差数列，且 $b_{n}\\le b_{n+1}$. 由定义得</p><p>$c_{n}-c_{n+2}=b_{n}+2b_{n+1}+3b_{n+2}=-2d_{2}$，将下标整体加 $1$ 得</p><p>$b_{n+1}+2b_{n+2}+3b_{n+3}=-2d_{2}$.</p><p>两式相减，得到</p><p>$(b_{n+1}-b_{n})+2(b_{n+2}-b_{n+1})+3(b_{n+3}-b_{n+2})=0$.</p><p>由于三个括号内的量均非负，只能分别为零，故 $b_{n}=b_{n+1}$ 对所有 $n$ 成立. 记这个常数为 $d_{3}$，即 $a_{n+2}=a_{n}-d_{3}$.</p><p>于是 $c_{n}=4a_{n}+2a_{n+1}-3d_{3}$，从而</p><p>$c_{n+1}-c_{n}=2(a_{n+1}-a_{n})-2d_{3}=d_{2}$. 因此 $a_{n+1}-a_{n}=\\dfrac{1}{2}d_{2}+d_{3}$ 为常数，$\\{a_{n}\\}$ 是等差数列. 充分性成立，命题得证.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

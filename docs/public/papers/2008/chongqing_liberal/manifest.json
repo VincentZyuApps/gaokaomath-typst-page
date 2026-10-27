@@ -1,150 +1,15 @@
 {
+  "title": "2008年普通高等学校招生全国统一考试",
+  "subtitle": "2008年重庆卷（文）",
   "year": "2008",
   "slug": "chongqing_liberal",
-  "title": "2008年重庆卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "已知 $\\{a_{n}\\}$ 为等差数列，$a_{2} + a_{8} = 12$，则 $a_{5}$ 等于（ ）",
+          "body": "已知 $\\{a_{n}\\}$ 为等差数列，$a_{2}+ a_{8}= 12$，则 $a_{5}$ 等于（ ）",
           "choices": [
             "$4$",
             "$5$",
@@ -152,13 +17,11 @@
             "$7$"
           ],
           "answer": "C",
-          "solution": "等差数列中，首项到第九项关于第五项对称，因此 $a_{2}+a_{8}=2a_{5}$. 由已知得 $2a_{5}=12$，所以 $a_{5}=6$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "等差数列中，首项到第九项关于第五项对称，因此 $a_{2}+a_{8}=2a_{5}$. 由已知得 $2a_{5}=12$，所以 $a_{5}=6$，故选 C."
         },
         {
           "num": 2,
-          "body": "设 $x$ 是实数，则 $x > 0$ 是“$|x| > 0$”的（ ）",
+          "body": "设 $x$ 是实数，则 $x > 0$ 是“$|x| > 0$”的（ ）",
           "choices": [
             "充分而不必要条件",
             "必要而不充分条件",
@@ -166,27 +29,23 @@
             "既不充分也不必要条件"
           ],
           "answer": "A",
-          "solution": "若 $x>0$，则 $|x|=x>0$，所以 $x>0$ 是 $|x|>0$ 的充分条件. 但 $x=-1$ 时 $|x|=1>0$，而 $x>0$ 不成立，所以它不是必要条件，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若 $x>0$，则 $|x|=x>0$，所以 $x>0$ 是 $|x|>0$ 的充分条件. 但 $x=-1$ 时 $|x|=1>0$，而 $x>0$ 不成立，所以它不是必要条件，故选 A."
         },
         {
           "num": 3,
-          "body": "曲线 $C$： $\\begin{cases}\r\nx = \\cos\\theta - 1,\\\\\r\ny = \\sin\\theta + 1,\r\n\\end{cases}$（$\\theta$ 为参数）的普通方程为（ ）",
+          "body": "曲线 $C$： $\\begin{cases}x = \\cos\\theta - 1,\\\\\n\ny = \\sin\\theta + 1,\\end{cases}$（$\\theta$ 为参数）的普通方程为（ ）",
           "choices": [
-            "$(x - 1)^2 + (y + 1)^2 = 1$",
-            "$(x + 1)^{2} + (y + 1)^{2} = 1$",
-            "$(x + 1)^{2} + (y - 1)^{2} = 1$",
-            "$(x - 1)^{2} + (y - 1)^{2} = 1$"
+            "$(x - 1)^{2} + (y + 1)^{2} = 1$",
+            "$(x + 1)^{2}+ (y + 1)^{2}= 1$",
+            "$(x + 1)^{2}+ (y - 1)^{2}= 1$",
+            "$(x - 1)^{2}+ (y - 1)^{2}= 1$"
           ],
           "answer": "C",
-          "solution": "由参数方程得 $x+1=\\cos\\theta$，$y-1=\\sin\\theta$. 两式平方相加，得到 $(x+1)^{2}+(y-1)^{2}=1$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由参数方程得 $x+1=\\cos\\theta$，$y-1=\\sin\\theta$. 两式平方相加，得到 $(x+1)^{2}+(y-1)^{2}=1$，故选 C."
         },
         {
           "num": 4,
-          "body": "若点 $P$ 分有向线段 $\\overrightarrow{AB}$ 所成的比为 $-\\frac{1}{3}$，则点 $B$ 分有向线段 $\\overrightarrow{PA}$ 所成的比是（ ）",
+          "body": "若点 $P$ 分有向线段 $\\overrightarrow{AB}$ 所成的比为 $-\\frac{1}{3}$，则点 $B$ 分有向线段 $\\overrightarrow{PA}$ 所成的比是（ ）",
           "choices": [
             "$-\\frac{3}{2}$",
             "$-\\frac{1}{2}$",
@@ -194,13 +53,11 @@
             "$3$"
           ],
           "answer": "A",
-          "solution": "按有向线段的比的定义，$\\dfrac{\\overrightarrow{AP}}{\\overrightarrow{PB}}=-\\dfrac{1}{3}$. 设 $\\overrightarrow{AB}=\\mathbf{u}$，则 $\\overrightarrow{AP}=-\\dfrac{1}{2}\\mathbf{u}$，从而 $\\overrightarrow{PB}=\\overrightarrow{AB}-\\overrightarrow{AP}=\\dfrac{3}{2}\\mathbf{u}$. 因此\r\n\n$$\n\\frac{\\overrightarrow{PB}}{\\overrightarrow{BA}}=\\frac{\\frac{3}{2}\\mathbf{u}}{-\\mathbf{u}}=-\\frac{3}{2}\n$$\n\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按有向线段的比的定义，$\\dfrac{\\overrightarrow{AP}}{\\overrightarrow{PB}}=-\\dfrac{1}{3}$. 设 $\\overrightarrow{AB}=\\mathbf{u}$，则 $\\overrightarrow{AP}=-\\dfrac{1}{2}\\mathbf{u}$，从而 $\\overrightarrow{PB}=\\overrightarrow{AB}-\\overrightarrow{AP}=\\dfrac{3}{2}\\mathbf{u}$. 因此</p>\n$$\n\\frac{\\overrightarrow{PB}}{\\overrightarrow{BA}}=\\frac{\\frac{3}{2}\\mathbf{u}}{-\\mathbf{u}}=-\\frac{3}{2}\n$$\n<p>故选 A.</p>"
         },
         {
           "num": 5,
-          "body": "某校高三年级有男生 $500$ 人，女生 $400$ 人. 为了解该年级学生的健康情况，从男生中任意抽取 $25$ 人，从女生中任意抽取 $20$ 人进行调查. 这种抽样方法是（ ）",
+          "body": "某校高三年级有男生 $500$ 人，女生 $400$ 人. 为了解该年级学生的健康情况，从男生中任意抽取 $25$ 人，从女生中任意抽取 $20$ 人进行调查. 这种抽样方法是（ ）",
           "choices": [
             "简单随机抽样法",
             "抽签法",
@@ -208,27 +65,23 @@
             "分层抽样法"
           ],
           "answer": "D",
-          "solution": "总体按性别分成男生、女生两层，分别从男生层抽取 $25$ 人、从女生层抽取 $20$ 人，且抽取比例分别为 $\\dfrac{25}{500}=\\dfrac{20}{400}=\\dfrac{1}{20}$. 这是分层抽样，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "总体按性别分成男生、女生两层，分别从男生层抽取 $25$ 人、从女生层抽取 $20$ 人，且抽取比例分别为 $\\dfrac{25}{500}=\\dfrac{20}{400}=\\dfrac{1}{20}$. 这是分层抽样，故选 D."
         },
         {
           "num": 6,
-          "body": "函数 $y = 10^{x^{2} - 1}$（$0 < x \\le 1$）的反函数是（ ）",
+          "body": "函数 $y = 10^{x^{2} - 1}$（$0 &#x3C; x \\le 1$）的反函数是（ ）",
           "choices": [
             "$y = -\\sqrt{1 + \\lg x}$（$x > \\frac{1}{10}$）",
             "$y = \\sqrt{1 + \\lg x}$（$x > \\frac{1}{10}$）",
-            "$y = -\\sqrt{1 + \\lg x}$（$\\frac{1}{10} < x \\le 1$）",
-            "$y = \\sqrt{1 + \\lg x}$（$\\frac{1}{10} < x \\le 1$）"
+            "$y = -\\sqrt{1 + \\lg x}$（$\\frac{1}{10}&#x3C; x \\le 1$）",
+            "$y = \\sqrt{1 + \\lg x}$（$\\frac{1}{10}&#x3C; x \\le 1$）"
           ],
           "answer": "D",
-          "solution": "原函数的定义域为 $0<x\\leqslant1$. 因为 $x^{2}$ 在该区间上单调递增，且 $10^{x^{2}-1}$ 也随指数单调递增，所以原函数在该区间上单调递增，值域为 $\\dfrac{1}{10}<y\\leqslant1$. 交换 $x$，$y$，有 $x=10^{y^{2}-1}$，于是 $y^{2}=1+\\lg x$. 因为原函数的自变量满足 $y>0$，故反函数为 $y=\\sqrt{1+\\lg x}$，定义域为 $\\dfrac{1}{10}<x\\leqslant1$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "原函数的定义域为 $0&#x3C;x\\leqslant1$. 因为 $x^{2}$ 在该区间上单调递增，且 $10^{x^{2}-1}$ 也随指数单调递增，所以原函数在该区间上单调递增，值域为 $\\dfrac{1}{10}&#x3C;y\\leqslant1$. 交换 $x$，$y$，有 $x=10^{y^{2}-1}$，于是 $y^{2}=1+\\lg x$. 因为原函数的自变量满足 $y>0$，故反函数为 $y=\\sqrt{1+\\lg x}$，定义域为 $\\dfrac{1}{10}&#x3C;x\\leqslant1$，故选 D."
         },
         {
           "num": 7,
-          "body": "函数 $f(x) = \\frac{\\sqrt{x}}{x + 1}$ 的最大值为（ ）",
+          "body": "函数 $f(x) = \\frac{\\sqrt{x}}{x + 1}$ 的最大值为（ ）",
           "choices": [
             "$\\frac{2}{5}$",
             "$\\frac{1}{2}$",
@@ -236,13 +89,11 @@
             "$1$"
           ],
           "answer": "B",
-          "solution": "令 $t=\\sqrt{x}\\geqslant0$，则 $f(x)=\\dfrac{t}{t^{2}+1}$. 由 $(t-1)^{2}\\geqslant0$ 得 $t^{2}+1\\geqslant2t$，所以 $f(x)\\le\\dfrac12$. 当 $t=1$，即 $x=1$ 时取等号，故最大值为 $\\dfrac12$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "令 $t=\\sqrt{x}\\geqslant0$，则 $f(x)=\\dfrac{t}{t^{2}+1}$. 由 $(t-1)^{2}\\geqslant0$ 得 $t^{2}+1\\geqslant2t$，所以 $f(x)\\le\\dfrac{1}{2}$. 当 $t=1$，即 $x=1$ 时取等号，故最大值为 $\\dfrac{1}{2}$，选 B."
         },
         {
           "num": 8,
-          "body": "若双曲线 $\\frac{x^2}{3} - \\frac{16y^2}{p^2} = 1$ 的左焦点在抛物线 $y^2 = 2px$ 的准线上，则 $p$ 的值为（ ）",
+          "body": "若双曲线 $\\frac{x^{2}}{3}- \\frac{16y^{2}}{p^{2}}= 1$ 的左焦点在抛物线 $y^{2} = 2px$ 的准线上，则 $p$ 的值为（ ）",
           "choices": [
             "$2$",
             "$3$",
@@ -250,13 +101,11 @@
             "$4 \\sqrt{2}$"
           ],
           "answer": "C",
-          "solution": "双曲线的半实轴平方为 $3$，半虚轴平方为 $\\dfrac{p^{2}}{16}$，所以其焦距的一半满足 $c^{2}=3+\\dfrac{p^{2}}{16}$. 抛物线 $y^{2}=2px$ 的准线为 $x=-\\dfrac{p}{2}$，而双曲线左焦点为 $(-c,0)$. 由左焦点在准线上，得 $c=\\dfrac{p}{2}$. 因而\r\n\n$$\n3+\\frac{p^{2}}{16}=\\frac{p^{2}}{4}\n$$\n\r\n解得 $p^{2}=16$. 由 $c=\\dfrac{p}{2}>0$ 可知 $p>0$，故 $p=4$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线的半实轴平方为 $3$，半虚轴平方为 $\\dfrac{p^{2}}{16}$，所以其焦距的一半满足 $c^{2}=3+\\dfrac{p^{2}}{16}$. 抛物线 $y^{2}=2px$ 的准线为 $x=-\\dfrac{p}{2}$，而双曲线左焦点为 $(-c,0)$. 由左焦点在准线上，得 $c=\\dfrac{p}{2}$. 因而</p>\n$$\n3+\\frac{p^{2}}{16}=\\frac{p^{2}}{4}\n$$\n<p>解得 $p^{2}=16$. 由 $c=\\dfrac{p}{2}>0$ 可知 $p>0$，故 $p=4$，选 C.</p>"
         },
         {
           "num": 9,
-          "body": "从编号为 $1$，$2$，$\\ldots$，$10$ 的 $10$ 个大小相同的球中任取 $4$ 个，则所取 $4$ 个球的最大号码是 $6$ 的概率为（ ）",
+          "body": "从编号为 $1$，$2$，$\\ldots$，$10$ 的 $10$ 个大小相同的球中任取 $4$ 个，则所取 $4$ 个球的最大号码是 $6$ 的概率为（ ）",
           "choices": [
             "$\\frac{1}{84}$",
             "$\\frac{1}{21}$",
@@ -264,13 +113,11 @@
             "$\\frac{3}{5}$"
           ],
           "answer": "B",
-          "solution": "任取 $4$ 个球的总取法数为 $\\mathrm C_{10}^{4}$. 最大号码为 $6$ 时必须取到编号 $6$，其余三个球从编号 $1$ 至 $5$ 中取，取法数为 $\\mathrm C_{5}^{3}$. 因此所求概率为\r\n\n$$\n\\frac{\\mathrm C_{5}^{3}}{\\mathrm C_{10}^{4}}=\\frac{10}{210}=\\frac{1}{21}\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>任取 $4$ 个球的总取法数为 $\\mathrm{C}_{10}^{4}$. 最大号码为 $6$ 时必须取到编号 $6$，其余三个球从编号 $1$ 至 $5$ 中取，取法数为 $\\mathrm{C}_{5}^{3}$. 因此所求概率为</p>\n$$\n\\frac{\\mathrm{C}_{5}^{3}}{\\mathrm{C}_{10}^{4}}=\\frac{10}{210}=\\frac{1}{21}\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 10,
-          "body": "若 $\\left(x+\\frac{1}{2x}\\right)^{n}$ 的展开式中前三项的系数成等差数列，则展开式中 $x^{4}$ 项的系数为（ ）",
+          "body": "若 $\\left(x+\\frac{1}{2x}\\right)^{n}$ 的展开式中前三项的系数成等差数列，则展开式中 $x^{4}$ 项的系数为（ ）",
           "choices": [
             "$6$",
             "$7$",
@@ -278,27 +125,23 @@
             "$9$"
           ],
           "answer": "B",
-          "solution": "前三项的系数分别为 $1$、$\\dfrac{n}{2}$、$\\dfrac{n(n-1)}{8}$. 因为前三项存在，$n\\geqslant2$，它们成等差数列，所以\r\n\n$$\n2\\cdot\\frac{n}{2}=1+\\frac{n(n-1)}{8}\n$$\n\r\n整理得 $n^{2}-9n+8=0$，故 $n=1$ 或 $n=8$，结合 $n\\geqslant2$ 得 $n=8$. 展开式中 $x^{4}$ 项对应取 $\\left(\\dfrac{1}{2x}\\right)^{2}$，其系数为\r\n\n$$\n\\mathrm C_{8}^{2}\\left(\\frac{1}{2}\\right)^{2}=7\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>前三项的系数分别为 $1$、$\\dfrac{n}{2}$、$\\dfrac{n(n-1)}{8}$. 因为前三项存在，$n\\geqslant2$，它们成等差数列，所以</p>\n$$\n2\\cdot\\frac{n}{2}=1+\\frac{n(n-1)}{8}\n$$\n<p>整理得 $n^{2}-9n+8=0$，故 $n=1$ 或 $n=8$，结合 $n\\geqslant2$ 得 $n=8$. 展开式中 $x^{4}$ 项对应取 $\\left(\\dfrac{1}{2x}\\right)^{2}$，其系数为</p>\n$$\n\\mathrm{C}_{8}^{2}\\left(\\frac{1}{2}\\right)^{2}=7\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 11,
-          "body": "如图，模块$\\circled{1}\\sim\\circled{5}$均由 $4$ 个棱长为 $1$ 的小正方体构成，模块$\\circled{6}$由 $15$ 个棱长为 $1$ 的小正方体构成. 现从模块$\\circled{1}\\sim\\circled{5}$中选出三个放到模块$\\circled{6}$上，使得模块$\\circled{6}$成为一个棱长为 $3$ 的大正方体. 则下列选择方案中，能够完成任务的为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/chongqing_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，模块$①\\sim⑤$均由 $4$ 个棱长为 $1$ 的小正方体构成，模块$(6)$由 $15$ 个棱长为 $1$ 的小正方体构成. 现从模块$①\\sim⑤$中选出三个放到模块$(6)$上，使得模块$(6)$成为一个棱长为 $3$ 的大正方体. 则下列选择方案中，能够完成任务的为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q11_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "模块$\\circled{1}\\circled{2}\\circled{5}$",
-            "模块$\\circled{1}\\circled{3}\\circled{5}$",
-            "模块$\\circled{2}\\circled{4}\\circled{6}$",
-            "模块$\\circled{3}\\circled{4}\\circled{5}$"
+            "模块$①②⑤$",
+            "模块$①③⑤$",
+            "模块$②④(6)$",
+            "模块$③④⑤$"
           ],
           "answer": "A",
-          "solution": "模块 $\\circled{6}$ 已有 $15$ 个小正方体，而棱长为 $3$ 的大正方体共有 $27$ 个小正方体，所以还需补入 $27-15=12$ 个空缺位置. 三个待放模块各有 $4$ 个小正方体，因此可行的放置必须使它们全部落在空缺位置中，且彼此不重叠.\r\n\r\n按图中模块 $\\circled{6}$ 的方向，将模块 $\\circled{5}$ 旋转后放入右下角的空缺处. 此时，最上层的空缺分成左侧的斜线区域和右上方的区域：模块 $\\circled{1}$（三连方块末端上凸）恰好填入左侧区域，模块 $\\circled{2}$（$2\\times2$ 方形平板）恰好填入右上方区域. 这三个模块占据的 $12$ 个位置互不重叠，并且正好补齐全部空缺，所以方案 $\\circled{1}\\circled{2}\\circled{5}$ 可行.\r\n\r\n其余方案中，方案 $\\circled{2}\\circled{4}\\circled{6}$ 含有模块 $\\circled{6}$，不符合只能从模块 $\\circled{1}\\sim\\circled{5}$ 中选取三个模块的条件. 对方案 $\\circled{1}\\circled{3}\\circled{5}$ 和方案 $\\circled{3}\\circled{4}\\circled{5}$ 按图逐层核对模块的全部旋转放置位置时，模块 $\\circled{3}$ 的凸出小正方体都会与已占位置重合，或使剩余空缺至少有一格无法填入；因此两方案都不能补齐 $12$ 个空缺. 故能够完成任务的方案为模块 $\\circled{1}$、$\\circled{2}$、$\\circled{5}$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>模块 $(6)$ 已有 $15$ 个小正方体，而棱长为 $3$ 的大正方体共有 $27$ 个小正方体，所以还需补入 $27-15=12$ 个空缺位置. 三个待放模块各有 $4$ 个小正方体，因此可行的放置必须使它们全部落在空缺位置中，且彼此不重叠.</p><p>按图中模块 $(6)$ 的方向，将模块 $⑤$ 旋转后放入右下角的空缺处. 此时，最上层的空缺分成左侧的斜线区域和右上方的区域：模块 $①$（三连方块末端上凸）恰好填入左侧区域，模块 $②$（$2\\times2$ 方形平板）恰好填入右上方区域. 这三个模块占据的 $12$ 个位置互不重叠，并且正好补齐全部空缺，所以方案 $①②⑤$ 可行.</p><p>其余方案中，方案 $②④(6)$ 含有模块 $(6)$，不符合只能从模块 $①\\sim⑤$ 中选取三个模块的条件. 对方案 $①③⑤$ 和方案 $③④⑤$ 按图逐层核对模块的全部旋转放置位置时，模块 $③$ 的凸出小正方体都会与已占位置重合，或使剩余空缺至少有一格无法填入；因此两方案都不能补齐 $12$ 个空缺. 故能够完成任务的方案为模块 $①$、$②$、$⑤$，选 A.</p>"
         },
         {
           "num": 12,
-          "body": "函数 $f(x) = \\frac{\\sin x}{\\sqrt{5 + 4\\cos x}}$（$0 \\le x \\le 2\\pi$）的值域是（ ）",
+          "body": "函数 $f(x) = \\frac{\\sin x}{\\sqrt{5 + 4\\cos x}}$（$0 \\le x \\le 2\\pi$）的值域是（ ）",
           "choices": [
             "$\\left[-\\frac{1}{4},\\frac{1}{4}\\right]$",
             "$\\left[-\\frac{1}{3},\\frac{1}{3}\\right]$",
@@ -306,9 +149,7 @@
             "$\\left[-\\frac{2}{3},\\frac{2}{3}\\right]$"
           ],
           "answer": "C",
-          "solution": "因为 $5+4\\cos x\\geqslant1>0$，所以函数有意义. 令 $t=\\cos x\\in[-1,1]$，则\r\n\n$$\nf^{2}(x)=\\frac{1-t^{2}}{5+4t}=:h(t)\n$$\n\r\n求导得\r\n\n$$\nh'(t)=-\\frac{2(2t+1)(t+2)}{(5+4t)^{2}}\n$$\n\r\n在 $[-1,1]$ 上，$t+2>0$ 且分母恒为正，所以 $h'(t)>0$ 当 $-1\\le t<-\\dfrac12$，$h'(t)<0$ 当 $-\\dfrac12<t\\leqslant1$. 因此 $h(t)$ 在 $t=-\\dfrac12$ 处取得最大值，且\r\n\n$$\nh\\left(-\\frac12\\right)=\\frac{1-\\frac14}{5-2}=\\frac14\n$$\n\r\n因此 $|f(x)|\\le\\dfrac12$. 当 $\\cos x=-\\dfrac12$ 时，取 $x=\\dfrac{2\\pi}{3}$ 和 $x=\\dfrac{4\\pi}{3}$，分别得到 $f(x)=\\dfrac12$ 和 $f(x)=-\\dfrac12$. 又 $f(x)$ 在 $[0,2\\pi]$ 上连续，由介值定理可知它取得两端点之间的所有值，故值域为 $\\left[-\\dfrac12,\\dfrac12\\right]$，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $5+4\\cos x\\geqslant1>0$，所以函数有意义. 令 $t=\\cos x\\in[-1,1]$，则</p>\n$$\nf^{2}(x)=\\frac{1-t^{2}}{5+4t}=:h(t)\n$$\n<p>求导得</p>\n$$\nh'(t)=-\\frac{2(2t+1)(t+2)}{(5+4t)^{2}}\n$$\n<p>在 $[-1,1]$ 上，$t+2>0$ 且分母恒为正，所以 $h'(t)>0$ 当 $-1\\le t&#x3C;-\\dfrac{1}{2}$，$h'(t)&#x3C;0$ 当 $-\\dfrac{1}{2}&#x3C;t\\leqslant1$. 因此 $h(t)$ 在 $t=-\\dfrac{1}{2}$ 处取得最大值，且</p>\n$$\nh\\left(-\\frac{1}{2}\\right)=\\frac{1-\\frac{1}{4}}{5-2}=\\frac{1}{4}\n$$\n<p>因此 $|f(x)|\\le\\dfrac{1}{2}$. 当 $\\cos x=-\\dfrac{1}{2}$ 时，取 $x=\\dfrac{2\\pi}{3}$ 和 $x=\\dfrac{4\\pi}{3}$，分别得到 $f(x)=\\dfrac{1}{2}$ 和 $f(x)=-\\dfrac{1}{2}$. 又 $f(x)$ 在 $[0,2\\pi]$ 上连续，由介值定理可知它取得两端点之间的所有值，故值域为 $\\left[-\\dfrac{1}{2},\\dfrac{1}{2}\\right]$，选 C.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "设集合 $U = \\{1, 2, 3, 4, 5\\}$，$A = \\{2, 3, 4\\}$，$B = \\{4, 5\\}$，则 $A \\cap (\\complement_U B) =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\{2,3\\}\\)",
-          "solution": "由全集 $U$ 得 $\\complement_{U}B=\\{1,2,3\\}$. 因而\r\n\n$$\nA\\cap\\left(\\complement_{U}B\\right)=\\{2,3,4\\}\\cap\\{1,2,3\\}=\\{2,3\\}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设集合 $U = \\{1, 2, 3, 4, 5\\}$，$A = \\{2, 3, 4\\}$，$B = \\{4, 5\\}$，则 $A \\cap (\\complement_{U} B) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\{2,3\\}$",
+          "solution": "<p>由全集 $U$ 得 $\\complement_{U}B=\\{1,2,3\\}$. 因而</p>\n$$\nA\\cap\\left(\\complement_{U}B\\right)=\\{2,3,4\\}\\cap\\{1,2,3\\}=\\{2,3\\}\n$$"
         },
         {
           "num": 14,
-          "body": "若 $x > 0$，则 $\\left(2x^{\\frac{1}{4}} + 3^{\\frac{3}{2}}\\right)\\left(2x^{\\frac{1}{4}} - 3^{\\frac{3}{2}}\\right) - 4x^{-\\frac{1}{2}}\\left(x - x^{\\frac{1}{2}}\\right) =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-23\\)",
-          "solution": "利用平方差公式，并注意 $x>0$，原式为\r\n\n$$\n\\left(2x^{\\frac14}\\right)^{2}-\\left(3^{\\frac32}\\right)^{2}-4x^{-\\frac12}\\left(x-x^{\\frac12}\\right)\r\n=4x^{\\frac12}-27-4\\left(x^{\\frac12}-1\\right)=-23\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若 $x > 0$，则 $\\left(2x^{\\frac{1}{4}}+ 3^{\\frac{3}{2}}\\right)\\left(2x^{\\frac{1}{4}}- 3^{\\frac{3}{2}}\\right) - 4x^{-\\frac{1}{2}}\\left(x - x^{\\frac{1}{2}}\\right) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-23$",
+          "solution": "<p>利用平方差公式，并注意 $x>0$，原式为</p>\n$$\n\\left(2x^{\\frac{1}{4}}\\right)^{2}-\\left(3^{\\frac{3}{2}}\\right)^{2}-4x^{-\\frac{1}{2}}\\left(x-x^{\\frac{1}{2}}\\right)  =4x^{\\frac{1}{2}}-27-4\\left(x^{\\frac{1}{2}}-1\\right)=-23\n$$"
         },
         {
           "num": 15,
-          "body": "已知圆 $C: x^{2} + y^{2} + 2x + ay - 3 = 0$（$a$ 为实数）上任意一点关于直线 $l: x - y + 2 = 0$ 的对称点都在圆 $C$ 上，则 $a =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-2\\)",
-          "solution": "将圆方程配方，得\r\n\n$$\n\\left(x+1\\right)^{2}+\\left(y+\\frac{a}{2}\\right)^{2}=4+\\frac{a^{2}}{4}\n$$\n\r\n所以圆心为 $O\\left(-1,-\\dfrac{a}{2}\\right)$. 一个圆关于直线反射后仍与自身重合，当且仅当圆心在该直线上. 代入直线 $x-y+2=0$，得\r\n\n$$\n-1+\\frac{a}{2}+2=0\n$$\n\r\n即 $a=-2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知圆 $C: x^{2}+ y^{2}+ 2x + ay - 3 = 0$（$a$ 为实数）上任意一点关于直线 $l: x - y + 2 = 0$ 的对称点都在圆 $C$ 上，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-2$",
+          "solution": "<p>将圆方程配方，得</p>\n$$\n\\left(x+1\\right)^{2}+\\left(y+\\frac{a}{2}\\right)^{2}=4+\\frac{a^{2}}{4}\n$$\n<p>所以圆心为 $O\\left(-1,-\\dfrac{a}{2}\\right)$. 一个圆关于直线反射后仍与自身重合，当且仅当圆心在该直线上. 代入直线 $x-y+2=0$，得</p>\n$$\n-1+\\frac{a}{2}+2=0\n$$\n<p>即 $a=-2$.</p>"
         },
         {
           "num": 16,
-          "body": "某人有 $3$ 种颜色的灯泡（每种颜色的灯泡足够多），要在如图所示的 $6$ 个点\r\n$A$、$B$、$C$、$A_1$、$B_1$、$C_1$ 上各装一个灯泡，要求同一条线段两端的灯泡不同色，\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/chongqing_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\r\n则不同的安装方法共有 _______ {} 种. （用数字作答）",
-          "choices": [],
+          "body": "<p>某人有 $3$ 种颜色的灯泡（每种颜色的灯泡足够多），要在如图所示的 $6$ 个点</p><p>$A$、$B$、$C$、$A_{1}$、$B_{1}$、$C_{1}$ 上各装一个灯泡，要求同一条线段两端的灯泡不同色，</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p>则不同的安装方法共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> 种. （用数字作答）</p>",
+          "choices": null,
           "answer": "12",
-          "solution": "图中的线段构成一个三棱柱的棱图：上、下两个三角形的三个顶点各两两相连，并有三条对应的竖棱相连. 先给上三角形 $ABC$ 安装灯泡，三个顶点两两相连，因此三种颜色必须各用一次，有 $3!=6$ 种方法.\r\n\r\n固定上三角形的一种颜色后，下三角形 $A_{1}B_{1}C_{1}$ 也必须三色各异；同时 $A_{1}$、$B_{1}$、$C_{1}$ 不能分别与 $A$、$B$、$C$ 同色. 在三种颜色的排列中，满足这三个限制的只有两个循环排列. 所以总安装方法数为 $6\\times2=12$ 种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>图中的线段构成一个三棱柱的棱图：上、下两个三角形的三个顶点各两两相连，并有三条对应的竖棱相连. 先给上三角形 $ABC$ 安装灯泡，三个顶点两两相连，因此三种颜色必须各用一次，有 $3!=6$ 种方法.</p><p>固定上三角形的一种颜色后，下三角形 $A_{1}B_{1}C_{1}$ 也必须三色各异；同时 $A_{1}$、$B_{1}$、$C_{1}$ 不能分别与 $A$、$B$、$C$ 同色. 在三种颜色的排列中，满足这三个限制的只有两个循环排列. 所以总安装方法数为 $6\\times2=12$ 种.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $b^2 + c^2 = a^2 + \\sqrt{3}bc$，求：\r\n\n(1) $A$ 的大小；\n\n(2) $2\\sin B\\cos C - \\sin (B - C)$ 的值.",
-          "choices": [],
+          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $b^{2} + c^{2} = a^{2} + \\sqrt{3}bc$，求：</p><ol class=\"enumerate\"><li><p>$A$ 的大小；</p></li><li><p>$2\\sin B\\cos C - \\sin (B - C)$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A$. 与已知等式比较，得 $2bc\\cos A=\\sqrt{3}bc$. 因为 $b$，$c>0$，所以 $\\cos A=\\dfrac{\\sqrt{3}}{2}$. 又 $0<A<\\pi$，故 $A=\\dfrac{\\pi}{6}$.\n\n(2) 利用两角差公式，\r\n\n$$\n2\\sin B\\cos C-\\sin\\left(B-C\\right)=\\sin B\\cos C+\\cos B\\sin C=\\sin\\left(B+C\\right)\n$$\n\r\n由 $A+B+C=\\pi$ 及 $A=\\dfrac{\\pi}{6}$，得 $B+C=\\dfrac{5\\pi}{6}$，所以原式等于 $\\sin\\dfrac{5\\pi}{6}=\\dfrac12$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A$. 与已知等式比较，得 $2bc\\cos A=\\sqrt{3}bc$. 因为 $b$，$c>0$，所以 $\\cos A=\\dfrac{\\sqrt{3}}{2}$. 又 $0&#x3C;A&#x3C;\\pi$，故 $A=\\dfrac{\\pi}{6}$.</p></li><li><p>利用两角差公式，</p>\n$$\n2\\sin B\\cos C-\\sin\\left(B-C\\right)=\\sin B\\cos C+\\cos B\\sin C=\\sin\\left(B+C\\right)\n$$\n<p>由 $A+B+C=\\pi$ 及 $A=\\dfrac{\\pi}{6}$，得 $B+C=\\dfrac{5\\pi}{6}$，所以原式等于 $\\sin\\dfrac{5\\pi}{6}=\\dfrac{1}{2}$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "在每道单项选择题给出的 $4$ 个备选答案中，只有一个是正确的. 若对 $4$ 道选择题中的每一道都任意选定一个答案，求这 $4$ 道题中：\r\n\n(1) 恰有两道题答对的概率；\n\n(2) 至少答对一道题的概率.",
-          "choices": [],
+          "body": "<p>在每道单项选择题给出的 $4$ 个备选答案中，只有一个是正确的. 若对 $4$ 道选择题中的每一道都任意选定一个答案，求这 $4$ 道题中：</p><ol class=\"enumerate\"><li><p>恰有两道题答对的概率；</p></li><li><p>至少答对一道题的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 各道题的选择相互独立，每道题答对的概率为 $\\dfrac14$，答错的概率为 $\\dfrac34$. 四道题中恰有两道答对的概率为\r\n\n$$\n\\mathrm C_{4}^{2}\\left(\\frac14\\right)^{2}\\left(\\frac34\\right)^{2}=\\frac{27}{128}\n$$\n\n(2) “至少答对一道题”是“没有答对任何题”的对立事件. 所以所求概率为\r\n\n$$\n1-\\left(\\frac34\\right)^{4}=1-\\frac{81}{256}=\\frac{175}{256}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>各道题的选择相互独立，每道题答对的概率为 $\\dfrac{1}{4}$，答错的概率为 $\\dfrac{3}{4}$. 四道题中恰有两道答对的概率为</p>\n$$\n\\mathrm{C}_{4}^{2}\\left(\\frac{1}{4}\\right)^{2}\\left(\\frac{3}{4}\\right)^{2}=\\frac{27}{128}\n$$\n</li><li><p>“至少答对一道题”是“没有答对任何题”的对立事件. 所以所求概率为</p>\n$$\n1-\\left(\\frac{3}{4}\\right)^{4}=1-\\frac{81}{256}=\\frac{175}{256}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "设函数 $f(x) = x^{3} + ax^{2} - 9x - 1$（$a < 0$）. 若曲线 $y = f(x)$ 的斜率最小的切线与直线 $12x + y = 6$ 平行，求：\r\n\n(1) $a$ 的值；\n\n(2) 函数 $f(x)$ 的单调区间.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = x^{3}+ ax^{2}- 9x - 1$（$a &#x3C; 0$）. 若曲线 $y = f(x)$ 的斜率最小的切线与直线 $12x + y = 6$ 平行，求：</p><ol class=\"enumerate\"><li><p>$a$ 的值；</p></li><li><p>函数 $f(x)$ 的单调区间.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 曲线在横坐标 $x$ 处的切线斜率为 $f'(x)=3x^{2}+2ax-9$. 这是关于 $x$ 的开口向上的二次函数，其最小值为 $-\\dfrac{a^{2}}{3}-9$. 直线 $12x+y=6$ 的斜率为 $-12$，所以\r\n\n$$\n-\\frac{a^{2}}{3}-9=-12\n$$\n\r\n得 $a^{2}=9$. 结合 $a<0$，得 $a=-3$.\n\n(2) 此时 $f'(x)=3x^{2}-6x-9=3(x+1)(x-3)$. 因此 $f'(x)>0$ 时，$x\\in(-\\infty,-1)\\cup(3,+\\infty)$，函数在这两个区间上递增；$f'(x)<0$ 时，$x\\in(-1,3)$，函数在该区间上递减.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>曲线在横坐标 $x$ 处的切线斜率为 $f'(x)=3x^{2}+2ax-9$. 这是关于 $x$ 的开口向上的二次函数，其最小值为 $-\\dfrac{a^{2}}{3}-9$. 直线 $12x+y=6$ 的斜率为 $-12$，所以</p>\n$$\n-\\frac{a^{2}}{3}-9=-12\n$$\n<p>得 $a^{2}=9$. 结合 $a&#x3C;0$，得 $a=-3$.</p></li><li><p>此时 $f'(x)=3x^{2}-6x-9=3(x+1)(x-3)$. 因此 $f'(x)>0$ 时，$x\\in(-\\infty,-1)\\cup(3,+\\infty)$，函数在这两个区间上递增；$f'(x)&#x3C;0$ 时，$x\\in(-1,3)$，函数在该区间上递减.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "如图，$\\alpha$ 和 $\\beta$ 为平面，$\\alpha \\cap \\beta = l$，$A \\in \\alpha$，$B \\in \\beta$，$AB = 5$，$A$，$B$ 在棱 $l$ 上的射影分别为 $A'$，$B'$，$AA' = 3$，$BB' = 2$. 若二面角 $\\alpha - l - \\beta$ 的大小为 $\\frac{2\\pi}{3}$，求：\r\n\r\n\n(1) 点 $B$ 到平面 $\\alpha$ 的距离；\n\n(2) 异面直线 $l$ 与 $AB$ 所成的角. （用反三角函数表示）\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/chongqing_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，$\\alpha$ 和 $\\beta$ 为平面，$\\alpha \\cap \\beta = l$，$A \\in \\alpha$，$B \\in \\beta$，$AB = 5$，$A$，$B$ 在棱 $l$ 上的射影分别为 $A'$，$B'$，$AA' = 3$，$BB' = 2$. 若二面角 $\\alpha - l - \\beta$ 的大小为 $\\frac{2\\pi}{3}$，求：</p><ol class=\"enumerate\"><li><p>点 $B$ 到平面 $\\alpha$ 的距离；</p></li><li><p>异面直线 $l$ 与 $AB$ 所成的角. （用反三角函数表示）</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 在垂直于 $l$ 的截面中，设从 $l$ 分别指向 $A$、$B$ 的横截面向量为 $\\mathbf{u}$、$\\mathbf{v}$，则 $|\\mathbf{u}|=3$，$|\\mathbf{v}|=2$，且它们的夹角为二面角 $\\dfrac{2\\pi}{3}$. 向量 $\\overrightarrow{AB}$ 垂直于 $l$ 的分量为 $\\mathbf{v}-\\mathbf{u}$，故\r\n\n$$\n|\\mathbf{v}-\\mathbf{u}|^{2}=3^{2}+2^{2}-2\\cdot3\\cdot2\\cos\\frac{2\\pi}{3}=19\n$$\n\r\n在垂直于 $l$ 的截面内，$AA'$ 与 $BB'$ 的夹角为 $\\dfrac{2\\pi}{3}$，故直线 $BB'$ 与平面 $\\alpha$ 所成的锐角为 $\\dfrac{\\pi}{3}$，所以点 $B$ 到平面 $\\alpha$ 的距离为\r\n\n$$\n2\\sin\\frac{\\pi}{3}=\\sqrt{3}\n$$\n\n(2) 由 $AB=5$，沿 $l$ 的分量长度为 $A'B'$，有 $AB^{2}=A'B'^{2}+19$，从而 $A'B'^{2}=6$. 设异面直线 $l$ 与 $AB$ 所成的锐角为 $\\theta$，则 $AB$ 垂直于 $l$ 的分量长度为 $5\\sin\\theta$，所以\r\n\n$$\n\\sin\\theta=\\frac{\\sqrt{19}}{5}\n$$\n\r\n故 $\\theta=\\arcsin\\dfrac{\\sqrt{19}}{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>在垂直于 $l$ 的截面中，设从 $l$ 分别指向 $A$、$B$ 的横截面向量为 $\\mathbf{u}$、$\\mathbf{v}$，则 $|\\mathbf{u}|=3$，$|\\mathbf{v}|=2$，且它们的夹角为二面角 $\\dfrac{2\\pi}{3}$. 向量 $\\overrightarrow{AB}$ 垂直于 $l$ 的分量为 $\\mathbf{v}-\\mathbf{u}$，故</p>\n$$\n|\\mathbf{v}-\\mathbf{u}|^{2}=3^{2}+2^{2}-2\\cdot3\\cdot2\\cos\\frac{2\\pi}{3}=19\n$$\n<p>在垂直于 $l$ 的截面内，$AA'$ 与 $BB'$ 的夹角为 $\\dfrac{2\\pi}{3}$，故直线 $BB'$ 与平面 $\\alpha$ 所成的锐角为 $\\dfrac{\\pi}{3}$，所以点 $B$ 到平面 $\\alpha$ 的距离为</p>\n$$\n2\\sin\\frac{\\pi}{3}=\\sqrt{3}\n$$\n</li><li><p>由 $AB=5$，沿 $l$ 的分量长度为 $A'B'$，有 $AB^{2}=A'B'^{2}+19$，从而 $A'B'^{2}=6$. 设异面直线 $l$ 与 $AB$ 所成的锐角为 $\\theta$，则 $AB$ 垂直于 $l$ 的分量长度为 $5\\sin\\theta$，所以</p>\n$$\n\\sin\\theta=\\frac{\\sqrt{19}}{5}\n$$\n<p>故 $\\theta=\\arcsin\\dfrac{\\sqrt{19}}{5}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "如图，$M(-2,0)$ 和 $N(2,0)$ 是平面上的两点，动点 $P$ 满足： $\\left||PM|-|PN|\\right| = 2$.\r\n\r\n\n(1) 求点 $P$ 的轨迹方程；\n\n(2) 设 $d$ 为点 $P$ 到直线 $l: x = \\frac{1}{2}$ 的距离，若 $|PM| = 2|PN|^2$，求 $\\frac{|PM|}{d}$ 的值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/chongqing_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，$M(-2,0)$ 和 $N(2,0)$ 是平面上的两点，动点 $P$ 满足： $\\left||PM|-|PN|\\right| = 2$.</p><ol class=\"enumerate\"><li><p>求点 $P$ 的轨迹方程；</p></li><li><p>设 $d$ 为点 $P$ 到直线 $l: x = \\frac{1}{2}$ 的距离，若 $|PM| = 2|PN|^{2}$，求 $\\frac{|PM|}{d}$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/chongqing_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $|PM|=m$，$|PN|=n$. 条件为 $|m-n|=2$，而两定点 $M$，$N$ 的距离为 $4$，所以轨迹是焦点为 $M$，$N$、实轴长为 $2$ 的双曲线. 其半实轴 $a=1$，焦半距 $c=2$，故 $b^{2}=c^{2}-a^{2}=3$，轨迹方程为\r\n\n$$\n\\frac{x^{2}}{1^{2}}-\\frac{y^{2}}{3}=1\n$$\n\n(2) 由 $|PM|=2|PN|^{2}$ 及 $|m-n|=2$ 分情况讨论. 若 $m-n=2$，则 $2n^{2}-n-2=0$，由 $n>0$ 得 $n=\\dfrac{1+\\sqrt{17}}{4}$. 若 $n-m=2$，则 $2n^{2}-n+2=0$，无实根，所以只能有 $m-n=2$.\r\n\r\n由两点距离平方之差，$m^{2}-n^{2}=8x$，故 $x=\\dfrac{(m-n)(m+n)}{8}=\\dfrac{m+n}{4}=\\dfrac{n+1}{2}$. 因而到直线 $x=\\dfrac12$ 的距离为 $d=\\dfrac{n}{2}$. 于是\r\n\n$$\n\\frac{|PM|}{d}=\\frac{m}{d}=\\frac{n+2}{\\frac{n}{2}}=2+\\frac4n=1+\\sqrt{17}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $|PM|=m$，$|PN|=n$. 条件为 $|m-n|=2$，而两定点 $M$，$N$ 的距离为 $4$，所以轨迹是焦点为 $M$，$N$、实轴长为 $2$ 的双曲线. 其半实轴 $a=1$，焦半距 $c=2$，故 $b^{2}=c^{2}-a^{2}=3$，轨迹方程为</p>\n$$\n\\frac{x^{2}}{1^{2}}-\\frac{y^{2}}{3}=1\n$$\n</li><li><p>由 $|PM|=2|PN|^{2}$ 及 $|m-n|=2$ 分情况讨论. 若 $m-n=2$，则 $2n^{2}-n-2=0$，由 $n>0$ 得 $n=\\dfrac{1+\\sqrt{17}}{4}$. 若 $n-m=2$，则 $2n^{2}-n+2=0$，无实根，所以只能有 $m-n=2$.</p><p>由两点距离平方之差，$m^{2}-n^{2}=8x$，故 $x=\\dfrac{(m-n)(m+n)}{8}=\\dfrac{m+n}{4}=\\dfrac{n+1}{2}$. 因而到直线 $x=\\dfrac{1}{2}$ 的距离为 $d=\\dfrac{n}{2}$. 于是</p>\n$$\n\\frac{|PM|}{d}=\\frac{m}{d}=\\frac{n+2}{\\frac{n}{2}}=2+\\frac{4}{n}=1+\\sqrt{17}\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "设各项均为正数的数列 $\\{a_{n}\\}$ 满足 $a_1 = 2$，$a_n = a_{n+1}^{\\frac{3}{2}} a_{n+2}$（$n \\in \\mathbb{N}^*$）.\r\n\n(1) 若 $a_2 = \\frac{1}{4}$，求 $a_3$，$a_4$，并猜想 $a_{2008}$ 的值 （不需证明）；\n\n(2) 若 $2\\sqrt{2} \\le a_1a_2 \\cdots a_n < 4$ 对 $n \\ge 2$ 恒成立，求 $a_2$ 的值.",
-          "choices": [],
+          "body": "<p>设各项均为正数的数列 $\\{a_{n}\\}$ 满足 $a_{1} = 2$，$a_{n} = a_{n+1}^{\\frac{3}{2}}a_{n+2}$（$n \\in \\mathbb{N}^{*}$）.</p><ol class=\"enumerate\"><li><p>若 $a_{2} = \\frac{1}{4}$，求 $a_{3}$，$a_{4}$，并猜想 $a_{2008}$ 的值 （不需证明）；</p></li><li><p>若 $2\\sqrt{2}\\le a_{1}a_{2} \\cdots a_{n} &#x3C; 4$ 对 $n \\ge 2$ 恒成立，求 $a_{2}$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由递推式在 $n=1$ 时得\r\n\n$$\n2=\\left(\\frac14\\right)^{\\frac32}a_{3}=\\frac18a_{3}\n$$\n\r\n所以 $a_{3}=16$. 再令 $n=2$，得\r\n\n$$\n\\frac14=16^{\\frac32}a_{4}=64a_{4}\n$$\n\r\n所以 $a_{4}=\\dfrac{1}{256}$. 由此得到前几项的指数为 $1$，$-2$，$4$，$-8$，故猜想 $a_{n}=2^{(-2)^{n-1}}$，从而 $a_{2008}=2^{(-2)^{2007}}$.\n\n(2) 令 $c_{n}=\\log_{2}a_{n}$. 因为各项为正，递推式等价于\r\n\n$$\nc_{n}=\\frac32c_{n+1}+c_{n+2}\n$$\n\r\n其特征方程为 $r^{2}+\\dfrac32r-1=0$，根为 $\\dfrac12$、$-2$，所以\r\n\n$$\nc_{n}=A\\left(\\frac12\\right)^{n-1}+B(-2)^{n-1}\n$$\n\r\n设 $S_{n}=c_{1}+c_{2}+\\cdots+c_{n}$，则\r\n\n$$\nS_{n}=2A\\left(1-2^{-n}\\right)+\\frac{B}{3}\\left(1-(-2)^{n}\\right)\n$$\n\r\n题设给出 $\\dfrac32\\le S_{n}<2$（$n\\geqslant2$），所以 $S_n$ 有界，必须有 $B=0$. 又 $c_{1}=\\log_{2}2=1$，故 $A=1$，从而 $c_{2}=\\dfrac12$. 因此 $a_{2}=2^{c_{2}}=\\sqrt{2}$. 反之取 $a_{2}=\\sqrt{2}$ 时，$S_{n}=2(1-2^{-n})$，对所有 $n\\geqslant2$ 都满足 $\\dfrac32\\le S_{n}<2$，故该值确实符合题设条件.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由递推式在 $n=1$ 时得</p>\n$$\n2=\\left(\\frac{1}{4}\\right)^{\\frac{3}{2}}a_{3}=\\frac{1}{8}a_{3}\n$$\n<p>所以 $a_{3}=16$. 再令 $n=2$，得</p>\n$$\n\\frac{1}{4}=16^{\\frac{3}{2}}a_{4}=64a_{4}\n$$\n<p>所以 $a_{4}=\\dfrac{1}{256}$. 由此得到前几项的指数为 $1$，$-2$，$4$，$-8$，故猜想 $a_{n}=2^{(-2)^{n-1}}$，从而 $a_{2008}=2^{(-2)^{2007}}$.</p></li><li><p>令 $c_{n}=\\log_{2}a_{n}$. 因为各项为正，递推式等价于</p>\n$$\nc_{n}=\\frac{3}{2}c_{n+1}+c_{n+2}\n$$\n<p>其特征方程为 $r^{2}+\\dfrac{3}{2}r-1=0$，根为 $\\dfrac{1}{2}$、$-2$，所以</p>\n$$\nc_{n}=A\\left(\\frac{1}{2}\\right)^{n-1}+B(-2)^{n-1}\n$$\n<p>设 $S_{n}=c_{1}+c_{2}+\\cdots+c_{n}$，则</p>\n$$\nS_{n}=2A\\left(1-2^{-n}\\right)+\\frac{B}{3}\\left(1-(-2)^{n}\\right)\n$$\n<p>题设给出 $\\dfrac{3}{2}\\le S_{n}&#x3C;2$（$n\\geqslant2$），所以 $S_{n}$ 有界，必须有 $B=0$. 又 $c_{1}=\\log_{2}2=1$，故 $A=1$，从而 $c_{2}=\\dfrac{1}{2}$. 因此 $a_{2}=2^{c_{2}}=\\sqrt{2}$. 反之取 $a_{2}=\\sqrt{2}$ 时，$S_{n}=2(1-2^{-n})$，对所有 $n\\geqslant2$ 都满足 $\\dfrac{3}{2}\\le S_{n}&#x3C;2$，故该值确实符合题设条件.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

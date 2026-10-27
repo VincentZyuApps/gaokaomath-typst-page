@@ -1,150 +1,15 @@
 {
+  "title": "2007年普通高等学校招生全国统一考试",
+  "subtitle": "2007年大纲II卷（文）",
   "year": "2007",
   "slug": "syllabus_paper_2_liberal",
-  "title": "2007年大纲II卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "$\\cos 330^{\\circ}=$（ ）",
+          "body": "$\\cos 330^{\\circ}=$（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$-\\frac{1}{2}$",
@@ -152,13 +17,11 @@
             "$-\\frac{\\sqrt{3}}{2}$"
           ],
           "answer": "C",
-          "solution": "因为 $330^{\\circ}=360^{\\circ}-30^{\\circ}$，所以\r\n$\\cos 330^{\\circ}=\\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}$，选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $330^{\\circ}=360^{\\circ}-30^{\\circ}$，所以</p><p>$\\cos 330^{\\circ}=\\cos 30^{\\circ}=\\frac{\\sqrt{3}}{2}$，选择 C.</p>"
         },
         {
           "num": 2,
-          "body": "设集合 $U=\\{1,2,3,4\\}$，$A=\\{1,2\\}$，$B=\\{2,4\\}$，则 $\\complement_U(A\\cup B)=$（ ）",
+          "body": "设集合 $U=\\{1,2,3,4\\}$，$A=\\{1,2\\}$，$B=\\{2,4\\}$，则 $\\complement_{U}(A\\cup B)=$（ ）",
           "choices": [
             "$\\{2\\}$",
             "$\\{3\\}$",
@@ -166,13 +29,11 @@
             "$\\{1,4\\}$"
           ],
           "answer": "B",
-          "solution": "先求并集：$A\\cup B=\\{1,2,4\\}$. 因此在全集 $U$ 中取补集得\r\n$\\complement_U(A\\cup B)=\\{3\\}$，选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>先求并集：$A\\cup B=\\{1,2,4\\}$. 因此在全集 $U$ 中取补集得</p><p>$\\complement_{U}(A\\cup B)=\\{3\\}$，选择 B.</p>"
         },
         {
           "num": 3,
-          "body": "函数 $f(x)=|\\sin x|$ 的一个单调递增区间是（ ）",
+          "body": "函数 $f(x)=|\\sin x|$ 的一个单调递增区间是（ ）",
           "choices": [
             "$\\left(-\\frac{\\pi}{4},\\frac{\\pi}{4}\\right)$",
             "$\\left(\\frac{\\pi}{4},\\frac{3\\pi}{4}\\right)$",
@@ -180,27 +41,23 @@
             "$\\left(\\frac{3\\pi}{2},2\\pi\\right)$"
           ],
           "answer": "C",
-          "solution": "在 $(\\pi,\\frac{3\\pi}{2})$ 内，$\\sin x<0$，故\r\n$f(x)=|\\sin x|=-\\sin x$，且 $f'(x)=-\\cos x>0$，所以函数在该区间上单调递增，选择 C.\r\n对于选项 A，区间跨过 $x=0$，函数先减后增；对于选项 B，区间跨过\r\n$x=\\frac{\\pi}{2}$，函数先增后减；对于选项 D，$\\cos x>0$，故\r\n$f'(x)=-\\cos x<0$，函数单调递减. 所以其他选项均不符合.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在 $(\\pi,\\frac{3\\pi}{2})$ 内，$\\sin x&#x3C;0$，故</p><p>$f(x)=|\\sin x|=-\\sin x$，且 $f'(x)=-\\cos x>0$，所以函数在该区间上单调递增，选择 C.</p><p>对于选项 A，区间跨过 $x=0$，函数先减后增；对于选项 B，区间跨过</p><p>$x=\\frac{\\pi}{2}$，函数先增后减；对于选项 D，$\\cos x>0$，故</p><p>$f'(x)=-\\cos x&#x3C;0$，函数单调递减. 所以其他选项均不符合.</p>"
         },
         {
           "num": 4,
-          "body": "以下四个数中的最大者是（ ）",
+          "body": "以下四个数中的最大者是（ ）",
           "choices": [
-            "$(\\ln 2)^2$",
+            "$(\\ln 2)^{2}$",
             "$\\ln\\left(\\ln 2\\right)$",
             "$\\ln\\sqrt{2}$",
             "$\\ln 2$"
           ],
           "answer": "D",
-          "solution": "因为 $1<2<\\mathrm{e}$，所以 $0<\\ln 2<1$. 从而\r\n$(\\ln 2)^2<\\ln 2$，$\\ln\\sqrt{2}=\\frac12\\ln 2<\\ln 2$，而\r\n$\\ln(\\ln 2)<0<\\ln 2$. 因此最大者为 $\\ln 2$，选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $1&#x3C;2&#x3C;\\mathrm{e}$，所以 $0&#x3C;\\ln 2&#x3C;1$. 从而</p><p>$(\\ln 2)^{2}&#x3C;\\ln 2$，$\\ln\\sqrt{2}=\\frac{1}{2}\\ln 2&#x3C;\\ln 2$，而</p><p>$\\ln(\\ln 2)&#x3C;0&#x3C;\\ln 2$. 因此最大者为 $\\ln 2$，选择 D.</p>"
         },
         {
           "num": 5,
-          "body": "不等式 $\\frac{x-2}{x+3}>0$ 的解集是（ ）",
+          "body": "不等式 $\\frac{x-2}{x+3}>0$ 的解集是（ ）",
           "choices": [
             "$\\left(-3,2\\right)$",
             "$\\left(2,+\\infty\\right)$",
@@ -208,13 +65,11 @@
             "$\\left(-\\infty,-2\\right)\\cup\\left(3,+\\infty\\right)$"
           ],
           "answer": "C",
-          "solution": "分子和分母的零点分别为 $x=2$ 和 $x=-3$，据此分区间判断符号：\r\n当 $x<-3$ 或 $x>2$ 时，分式为正；当 $-3<x<2$ 时，分式为负.\r\n又 $x=-3$ 不在定义域内，$x=2$ 不满足严格不等式，所以解集为\r\n$\\left(-\\infty,-3\\right)\\cup\\left(2,+\\infty\\right)$，选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分子和分母的零点分别为 $x=2$ 和 $x=-3$，据此分区间判断符号：</p><p>当 $x&#x3C;-3$ 或 $x>2$ 时，分式为正；当 $-3&#x3C;x&#x3C;2$ 时，分式为负.</p><p>又 $x=-3$ 不在定义域内，$x=2$ 不满足严格不等式，所以解集为</p><p>$\\left(-\\infty,-3\\right)\\cup\\left(2,+\\infty\\right)$，选择 C.</p>"
         },
         {
           "num": 6,
-          "body": "在 $\\triangle ABC$ 中，已知 $D$ 是 $AB$ 边上一点，若 $\\overrightarrow{AD}=2\\overrightarrow{DB}$，$\\overrightarrow{CD}=\\frac{1}{3}\\overrightarrow{CA}+\\lambda\\overrightarrow{CB}$，则 $\\lambda=$（ ）",
+          "body": "在 $\\triangle ABC$ 中，已知 $D$ 是 $AB$ 边上一点，若 $\\overrightarrow{AD}=2\\overrightarrow{DB}$，$\\overrightarrow{CD}=\\frac{1}{3}\\overrightarrow{CA}+\\lambda\\overrightarrow{CB}$，则 $\\lambda=$（ ）",
           "choices": [
             "$\\frac{2}{3}$",
             "$\\frac{1}{3}$",
@@ -222,13 +77,11 @@
             "$-\\frac{2}{3}$"
           ],
           "answer": "A",
-          "solution": "设 $\\overrightarrow{CA}=\\mathbf{u}$，$\\overrightarrow{CB}=\\mathbf{v}$. 由\r\n$\\overrightarrow{AD}=2\\overrightarrow{DB}$，可得\r\n$\\overrightarrow{AD}=\\frac23\\overrightarrow{AB}$. 因而\r\n$\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}\r\n=\\mathbf{u}+\\frac23\\left(\\mathbf{v}-\\mathbf{u}\\right)\r\n=\\frac13\\mathbf{u}+\\frac23\\mathbf{v}$.\r\n与题设 $\\overrightarrow{CD}=\\frac13\\overrightarrow{CA}+\\lambda\\overrightarrow{CB}$ 比较，得\r\n$\\lambda=\\frac23$，选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $\\overrightarrow{CA}=\\mathbf{u}$，$\\overrightarrow{CB}=\\mathbf{v}$. 由</p><p>$\\overrightarrow{AD}=2\\overrightarrow{DB}$，可得</p><p>$\\overrightarrow{AD}=\\frac{2}{3}\\overrightarrow{AB}$. 因而</p><p>$\\overrightarrow{CD}=\\overrightarrow{CA}+\\overrightarrow{AD}=\\mathbf{u}+\\frac{2}{3}\\left(\\mathbf{v}-\\mathbf{u}\\right)  =\\frac{1}{3}\\mathbf{u}+\\frac{2}{3}\\mathbf{v}$.</p><p>与题设 $\\overrightarrow{CD}=\\frac{1}{3}\\overrightarrow{CA}+\\lambda\\overrightarrow{CB}$ 比较，得</p><p>$\\lambda=\\frac{2}{3}$，选择 A.</p>"
         },
         {
           "num": 7,
-          "body": "已知正三棱锥的侧棱长与底面边长的 $2$ 倍，则侧棱与底面所成角的余弦值等于（ ）",
+          "body": "已知正三棱锥的侧棱长与底面边长的 $2$ 倍，则侧棱与底面所成角的余弦值等于（ ）",
           "choices": [
             "$\\frac{\\sqrt{3}}{6}$",
             "$\\frac{\\sqrt{3}}{4}$",
@@ -236,13 +89,11 @@
             "$\\frac{\\sqrt{3}}{2}$"
           ],
           "answer": "A",
-          "solution": "设正三棱锥的底面边长为 $a$，顶点为 $S$，底面中心为 $O$，底面顶点为 $A$.\r\n正三棱锥的高 $SO$ 垂直底面，故 $SA$ 在底面上的射影为 $AO$.\r\n正三角形中心到顶点的距离为 $AO=\\frac{a}{\\sqrt{3}}$，而题设给出 $SA=2a$.\r\n设侧棱与底面所成角为 $\\theta$，则\r\n$\\cos\\theta=\\frac{AO}{SA}=\\frac{\\frac{a}{\\sqrt{3}}}{2a}=\\frac{\\sqrt{3}}{6}$.\r\n所以选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正三棱锥的底面边长为 $a$，顶点为 $S$，底面中心为 $O$，底面顶点为 $A$.</p><p>正三棱锥的高 $SO$ 垂直底面，故 $SA$ 在底面上的射影为 $AO$.</p><p>正三角形中心到顶点的距离为 $AO=\\frac{a}{\\sqrt{3}}$，而题设给出 $SA=2a$.</p><p>设侧棱与底面所成角为 $\\theta$，则</p><p>$\\cos\\theta=\\frac{AO}{SA}=\\frac{\\frac{a}{\\sqrt{3}}}{2a}=\\frac{\\sqrt{3}}{6}$.</p><p>所以选择 A.</p>"
         },
         {
           "num": 8,
-          "body": "已知曲线 $y=\\frac{x^2}{4}$ 的一条切线的斜率为 $\\frac{1}{2}$，则切点的横坐标为（ ）",
+          "body": "已知曲线 $y=\\frac{x^{2}}{4}$ 的一条切线的斜率为 $\\frac{1}{2}$，则切点的横坐标为（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -250,27 +101,23 @@
             "$4$"
           ],
           "answer": "A",
-          "solution": "由导数的几何意义，曲线在横坐标为 $x$ 处的切线斜率为\r\n$y'=\\frac{x}{2}$. 题设斜率为 $\\frac12$，所以\r\n$\\frac{x}{2}=\\frac12$，解得切点横坐标 $x=1$，选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由导数的几何意义，曲线在横坐标为 $x$ 处的切线斜率为</p><p>$y'=\\frac{x}{2}$. 题设斜率为 $\\frac{1}{2}$，所以</p><p>$\\frac{x}{2}=\\frac{1}{2}$，解得切点横坐标 $x=1$，选择 A.</p>"
         },
         {
           "num": 9,
-          "body": "把函数 $y=\\mathrm{e}^x$ 的图象按向量 $\\mathbf{a}=(2,0)$ 平移，得到 $y=f(x)$ 的图象，则 $f(x)=$（ ）",
+          "body": "把函数 $y=\\mathrm{e}^{x}$ 的图象按向量 $\\mathbf{a}=(2,0)$ 平移，得到 $y=f(x)$ 的图象，则 $f(x)=$（ ）",
           "choices": [
-            "$\\mathrm{e}^x+2$",
-            "$\\mathrm{e}^x-2$",
+            "$\\mathrm{e}^{x}+2$",
+            "$\\mathrm{e}^{x}-2$",
             "$\\mathrm{e}^{x-2}$",
             "$\\mathrm{e}^{x+2}$"
           ],
           "answer": "C",
-          "solution": "原图象上点 $(t,\\mathrm{e}^t)$ 按向量 $(2,0)$ 平移后变为\r\n$(t+2,\\mathrm{e}^t)$. 令新横坐标 $x=t+2$，即 $t=x-2$，故新图象的函数为\r\n$f(x)=\\mathrm{e}^{x-2}$，选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>原图象上点 $(t,\\mathrm{e}^{t})$ 按向量 $(2,0)$ 平移后变为</p><p>$(t+2,\\mathrm{e}^{t})$. 令新横坐标 $x=t+2$，即 $t=x-2$，故新图象的函数为</p><p>$f(x)=\\mathrm{e}^{x-2}$，选择 C.</p>"
         },
         {
           "num": 10,
-          "body": "$5$ 位同学报名参加两个课外活动小组，每位同学限报其中的一个小组，则不同的报名方法共有（ ）",
+          "body": "$5$ 位同学报名参加两个课外活动小组，每位同学限报其中的一个小组，则不同的报名方法共有（ ）",
           "choices": [
             "$10\\text{ 种}$",
             "$20\\text{ 种}$",
@@ -278,13 +125,11 @@
             "$32\\text{ 种}$"
           ],
           "answer": "D",
-          "solution": "每位同学都有 $2$ 种选择，且各人的选择相互独立，所以报名方法数为\r\n$2^5=32$，选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>每位同学都有 $2$ 种选择，且各人的选择相互独立，所以报名方法数为</p><p>$2^{5}=32$，选择 D.</p>"
         },
         {
           "num": 11,
-          "body": "已知椭圆的长轴长是短轴长的 $2$ 倍，则椭圆的离心率为（ ）",
+          "body": "已知椭圆的长轴长是短轴长的 $2$ 倍，则椭圆的离心率为（ ）",
           "choices": [
             "$\\frac{1}{3}$",
             "$\\frac{\\sqrt{3}}{3}$",
@@ -292,13 +137,11 @@
             "$\\frac{\\sqrt{3}}{2}$"
           ],
           "answer": "D",
-          "solution": "设椭圆半长轴、半短轴和半焦距分别为 $a$，$b$，$c$. 由长轴长是短轴长的 $2$ 倍，\r\n$2a=2(2b)$，所以 $a=2b$. 又\r\n$c^2=a^2-b^2=3b^2$，故\r\n$e=\\frac{c}{a}=\\frac{\\sqrt{3}b}{2b}=\\frac{\\sqrt{3}}{2}$.\r\n因此选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设椭圆半长轴、半短轴和半焦距分别为 $a$，$b$，$c$. 由长轴长是短轴长的 $2$ 倍，</p><p>$2a=2(2b)$，所以 $a=2b$. 又</p><p>$c^{2}=a^{2}-b^{2}=3b^{2}$，故</p><p>$e=\\frac{c}{a}=\\frac{\\sqrt{3}b}{2b}=\\frac{\\sqrt{3}}{2}$.</p><p>因此选择 D.</p>"
         },
         {
           "num": 12,
-          "body": "设 $F_1$，$F_2$ 分别是双曲线 $x^2-\\frac{y^2}{9}=1$ 的左、右焦点，若点 $P$ 在双曲线上，且 $\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=0$，则 $\\left|\\overrightarrow{PF_1}+\\overrightarrow{PF_2}\\right|=$（ ）",
+          "body": "设 $F_{1}$，$F_{2}$ 分别是双曲线 $x^{2}-\\frac{y^{2}}{9}=1$ 的左、右焦点，若点 $P$ 在双曲线上，且 $\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=0$，则 $\\left|\\overrightarrow{PF_1}+\\overrightarrow{PF_2}\\right|=$（ ）",
           "choices": [
             "$\\sqrt{10}$",
             "$2\\sqrt{10}$",
@@ -306,9 +149,7 @@
             "$2\\sqrt{5}$"
           ],
           "answer": "B",
-          "solution": "双曲线 $x^2-\\frac{y^2}{9}=1$ 中，$a^2=1$，$b^2=9$，所以\r\n$c^2=a^2+b^2=10$，两焦点间距离为 $F_1F_2=2\\sqrt{10}$.\r\n由 $\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=0$，三角形\r\n$PF_1F_2$ 在 $P$ 处为直角，因此由勾股定理\r\n$|PF_1|^2+|PF_2|^2=|F_1F_2|^2=40$.\r\n又两向量垂直，故\r\n$\\left|\\overrightarrow{PF_1}+\\overrightarrow{PF_2}\\right|^2\r\n=|PF_1|^2+|PF_2|^2=40$，从而\r\n$\\left|\\overrightarrow{PF_1}+\\overrightarrow{PF_2}\\right|=2\\sqrt{10}$，选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>双曲线 $x^{2}-\\frac{y^{2}}{9}=1$ 中，$a^{2}=1$，$b^{2}=9$，所以</p><p>$c^{2}=a^{2}+b^{2}=10$，两焦点间距离为 $F_{1}F_{2}=2\\sqrt{10}$.</p><p>由 $\\overrightarrow{PF_1}\\cdot\\overrightarrow{PF_2}=0$，三角形</p><p>$PF_{1}F_{2}$ 在 $P$ 处为直角，因此由勾股定理</p><p>$|PF_{1}|^{2}+|PF_{2}|^{2}=|F_{1}F_{2}|^{2}=40$.</p><p>又两向量垂直，故</p><p>$\\left|\\overrightarrow{PF_1}+\\overrightarrow{PF_2}\\right|^{2}  =|PF_{1}|^{2}+|PF_{2}|^{2}=40$，从而</p><p>$\\left|\\overrightarrow{PF_1}+\\overrightarrow{PF_2}\\right|=2\\sqrt{10}$，选择 B.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "一个总体含有 $100$ 个个体，以简单随机抽样方式从该总体中抽取一个容量为 $5$ 的样本，则指定的某个个体被抽到的概率为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{1}{20}\\)",
-          "solution": "从 $100$ 个个体中等可能抽取 $5$ 个，样本总数为\r\n$\\mathrm C_{100}^{5}$. 若指定个体被抽到，还需从其余 $99$ 个个体中抽取 $4$ 个，\r\n有 $\\mathrm C_{99}^{4}$ 个样本. 因此所求概率为\r\n$\\frac{\\mathrm C_{99}^{4}}{\\mathrm C_{100}^{5}}=\\frac{5}{100}=\\frac{1}{20}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "一个总体含有 $100$ 个个体，以简单随机抽样方式从该总体中抽取一个容量为 $5$ 的样本，则指定的某个个体被抽到的概率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{1}{20}$",
+          "solution": "<p>从 $100$ 个个体中等可能抽取 $5$ 个，样本总数为</p><p>$\\mathrm{C}_{100}^{5}$. 若指定个体被抽到，还需从其余 $99$ 个个体中抽取 $4$ 个，</p><p>有 $\\mathrm{C}_{99}^{4}$ 个样本. 因此所求概率为</p><p>$\\frac{\\mathrm{C}_{99}^{4}}{\\mathrm{C}_{100}^{5}}=\\frac{5}{100}=\\frac{1}{20}$.</p>"
         },
         {
           "num": 14,
-          "body": "已知数列的通项 $a_n=-5n+2$，则其前 $n$ 项和为 $S_n=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{-5n^2-n}{2}\\)",
-          "solution": "$S_n=\\sum_{k=1}^{n}a_k=\\sum_{k=1}^{n}(-5k+2)\r\n=-5\\frac{n(n+1)}{2}+2n\r\n=\\frac{-5n^2-n}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知数列的通项 $a_{n}=-5n+2$，则其前 $n$ 项和为 $S_{n}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{-5n^{2}-n}{2}$",
+          "solution": "$S_{n}=\\sum_{k=1}^{n}a_{k}=\\sum_{k=1}^{n}(-5k+2)  =-5\\frac{n(n+1)}{2}+2n  =\\frac{-5n^{2}-n}{2}$."
         },
         {
           "num": 15,
-          "body": "一个正四棱柱的各个顶点在一个直径为 $2\\text{ cm}$ 的球面上. 如果正四棱柱的底面边长为 $1\\text{ cm}$，那么该棱柱的表面积为 _______ {}$\\text{cm}^2$.",
-          "choices": [],
-          "answer": "\\(2+4\\sqrt{2}\\)",
-          "solution": "设正四棱柱的高为 $h$. 球的直径是棱柱的空间对角线，故\r\n$1^2+1^2+h^2=2^2$，解得 $h=\\sqrt{2}$. 因而棱柱表面积为\r\n$2\\times1^2+4\\times1\\times\\sqrt{2}=2+4\\sqrt{2}\\ \\text{cm}^2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "一个正四棱柱的各个顶点在一个直径为 $2\\text{ cm}$ 的球面上. 如果正四棱柱的底面边长为 $1\\text{ cm}$，那么该棱柱的表面积为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>$\\text{cm}^{2}$.",
+          "choices": null,
+          "answer": "$2+4\\sqrt{2}$",
+          "solution": "<p>设正四棱柱的高为 $h$. 球的直径是棱柱的空间对角线，故</p><p>$1^{2}+1^{2}+h^{2}=2^{2}$，解得 $h=\\sqrt{2}$. 因而棱柱表面积为</p><p>$2\\times1^{2}+4\\times1\\times\\sqrt{2}=2+4\\sqrt{2}\\ \\text{cm}^{2}$.</p>"
         },
         {
           "num": 16,
-          "body": "$(1+2x^2)\\left(x+\\frac{1}{x}\\right)^8$ 的展开式中常数项为 _______ {}.（用数字作答）",
-          "choices": [],
+          "body": "$(1+2x^{2})\\left(x+\\frac{1}{x}\\right)^{8}$ 的展开式中常数项为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（用数字作答）",
+          "choices": null,
           "answer": "182",
-          "solution": "二项式 $\\left(x+\\frac{1}{x}\\right)^8$ 的通项为\r\n$\\mathrm C_8^k x^{8-k}\\left(\\frac{1}{x}\\right)^k=\\mathrm C_8^k x^{8-2k}$，其中 $k=0$，$1$，$\\ldots$，$8$. 其中的常数项对应 $8-2k=0$，即 $k=4$，所以常数项为 $\\mathrm C_8^4=70$.\r\n\r\n在 $2x^2\\left(x+\\frac{1}{x}\\right)^8$ 中，只有 $\\left(x+\\frac{1}{x}\\right)^8$ 的 $x^{-2}$ 项能与 $2x^2$ 相乘得到常数项. 由 $8-2k=-2$ 得 $k=5$，该项系数为 $\\mathrm C_8^5=56$，所以贡献为 $2\\mathrm C_8^5=112$.\r\n\r\n因此原展开式的常数项为 $70+112=182$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>二项式 $\\left(x+\\frac{1}{x}\\right)^{8}$ 的通项为</p><p>$\\mathrm{C}_{8}^{k} x^{8-k}\\left(\\frac{1}{x}\\right)^{k}=\\mathrm{C}_{8}^{k} x^{8-2k}$，其中 $k=0$，$1$，$\\ldots$，$8$. 其中的常数项对应 $8-2k=0$，即 $k=4$，所以常数项为 $\\mathrm{C}_{8}^{4}=70$.</p><p>在 $2x^{2}\\left(x+\\frac{1}{x}\\right)^{8}$ 中，只有 $\\left(x+\\frac{1}{x}\\right)^{8}$ 的 $x^{-2}$ 项能与 $2x^{2}$ 相乘得到常数项. 由 $8-2k=-2$ 得 $k=5$，该项系数为 $\\mathrm{C}_{8}^{5}=56$，所以贡献为 $2\\mathrm{C}_{8}^{5}=112$.</p><p>因此原展开式的常数项为 $70+112=182$.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "设等比数列 $\\{a_n\\}$ 的公比 $q<1$，前 $n$ 项和为 $S_n$，已知 $a_3=2$，$S_4=5S_2$，求 $\\{a_n\\}$ 的通项公式.",
-          "choices": [],
+          "body": "设等比数列 $\\{a_{n}\\}$ 的公比 $q&#x3C;1$，前 $n$ 项和为 $S_{n}$，已知 $a_{3}=2$，$S_{4}=5S_{2}$，求 $\\{a_{n}\\}$ 的通项公式.",
+          "choices": null,
           "answer": "",
-          "solution": "设首项为 $a_1$. 由 $a_3=a_1q^2=2$，知 $q\\ne0$，且 $a_1=\\frac{2}{q^2}\\ne0$. 由前四项和与前两项和的关系，得\r\n$a_1(1+q+q^2+q^3)=5a_1(1+q)$. 约去非零的 $a_1$，并因式分解，得\r\n$(1+q)(1+q^2)=5(1+q)$，即 $(1+q)(q^2-4)=0$.\r\n\r\n所以 $q=-1$，或 $q=2$，或 $q=-2$. 结合题设 $q<1$，舍去 $q=2$，得到 $q=-1$ 或 $q=-2$.\r\n\r\n当 $q=-1$ 时，$a_1=2$，所以 $a_n=2(-1)^{n-1}$. 当 $q=-2$ 时，$a_1=\\frac12$，所以 $a_n=\\frac12(-2)^{n-1}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设首项为 $a_{1}$. 由 $a_{3}=a_{1}q^{2}=2$，知 $q\\ne0$，且 $a_{1}=\\frac{2}{q^{2}}\\ne0$. 由前四项和与前两项和的关系，得</p><p>$a_{1}(1+q+q^{2}+q^{3})=5a_{1}(1+q)$. 约去非零的 $a_{1}$，并因式分解，得</p><p>$(1+q)(1+q^{2})=5(1+q)$，即 $(1+q)(q^{2}-4)=0$.</p><p>所以 $q=-1$，或 $q=2$，或 $q=-2$. 结合题设 $q&#x3C;1$，舍去 $q=2$，得到 $q=-1$ 或 $q=-2$.</p><p>当 $q=-1$ 时，$a_{1}=2$，所以 $a_{n}=2(-1)^{n-1}$. 当 $q=-2$ 时，$a_{1}=\\frac{1}{2}$，所以 $a_{n}=\\frac{1}{2}(-2)^{n-1}$.</p>"
         },
         {
           "num": 18,
-          "body": "在 $\\triangle ABC$ 中，已知内角 $A=\\frac{\\pi}{3}$，边 $BC=2\\sqrt{3}$，设内角 $B=x$，周长为 $y$.\r\n\r\n\n(1) 求函数 $y=f(x)$ 的解析式和定义域；\n\n(2) 求 $y$ 的最大值.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，已知内角 $A=\\frac{\\pi}{3}$，边 $BC=2\\sqrt{3}$，设内角 $B=x$，周长为 $y$.</p><ol class=\"enumerate\"><li><p>求函数 $y=f(x)$ 的解析式和定义域；</p></li><li><p>求 $y$ 的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 三角形内角和给出 $C=\\pi-A-B=\\frac{2\\pi}{3}-x$. 因为三角形的三个内角均为正角，所以定义域为 $0<x<\\frac{2\\pi}{3}$. 设 $CA=b$，$AB=c$. 由正弦定理，$\\frac{b}{\\sin x}=\\frac{BC}{\\sin A}=\\frac{2\\sqrt{3}}{\\sin\\frac{\\pi}{3}}=4$，所以 $b=4\\sin x$. 同理，$\\frac{c}{\\sin\\left(\\frac{2\\pi}{3}-x\\right)}=4$，所以 $c=4\\sin\\left(\\frac{2\\pi}{3}-x\\right)$. 因此周长为 $y=f(x)=2\\sqrt{3}+4\\sin x+4\\sin\\left(\\frac{2\\pi}{3}-x\\right)$，其中 $0<x<\\frac{2\\pi}{3}$.\n\n(2) 利用和差化积公式，$\\sin x+\\sin\\left(\\frac{2\\pi}{3}-x\\right)=2\\sin\\frac{\\pi}{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)=\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)$，从而 $y=2\\sqrt{3}+4\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)$. 当且仅当 $x=\\frac{\\pi}{3}$ 时，$\\cos\\left(x-\\frac{\\pi}{3}\\right)=1$，所以 $y$ 的最大值为 $2\\sqrt{3}+4\\sqrt{3}=6\\sqrt{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>三角形内角和给出 $C=\\pi-A-B=\\frac{2\\pi}{3}-x$. 因为三角形的三个内角均为正角，所以定义域为 $0&#x3C;x&#x3C;\\frac{2\\pi}{3}$. 设 $CA=b$，$AB=c$. 由正弦定理，$\\frac{b}{\\sin x}=\\frac{BC}{\\sin A}=\\frac{2\\sqrt{3}}{\\sin\\frac{\\pi}{3}}=4$，所以 $b=4\\sin x$. 同理，$\\frac{c}{\\sin\\left(\\frac{2\\pi}{3}-x\\right)}=4$，所以 $c=4\\sin\\left(\\frac{2\\pi}{3}-x\\right)$. 因此周长为 $y=f(x)=2\\sqrt{3}+4\\sin x+4\\sin\\left(\\frac{2\\pi}{3}-x\\right)$，其中 $0&#x3C;x&#x3C;\\frac{2\\pi}{3}$.</p></li><li><p>利用和差化积公式，$\\sin x+\\sin\\left(\\frac{2\\pi}{3}-x\\right)=2\\sin\\frac{\\pi}{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)=\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)$，从而 $y=2\\sqrt{3}+4\\sqrt{3}\\cos\\left(x-\\frac{\\pi}{3}\\right)$. 当且仅当 $x=\\frac{\\pi}{3}$ 时，$\\cos\\left(x-\\frac{\\pi}{3}\\right)=1$，所以 $y$ 的最大值为 $2\\sqrt{3}+4\\sqrt{3}=6\\sqrt{3}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "从某批产品中，有放回地抽取产品二次，每次随机抽取 $1$ 件，假设事件 $A$：“取出的 $2$ 件产品中至多有 $1$ 件是二等品”的概率 $P(A)=0.96$.\r\n\r\n\n(1) 求从该批产品中任取 $1$ 件是二等品的概率 $p$；\n\n(2) 若该批产品共有 $100$ 件，从中任意抽取 $2$ 件，求事件 $B$：“取出的 $2$ 件产品中至少有一件二等品”的概率 $P(B)$.",
-          "choices": [],
+          "body": "<p>从某批产品中，有放回地抽取产品二次，每次随机抽取 $1$ 件，假设事件 $A$：“取出的 $2$ 件产品中至多有 $1$ 件是二等品”的概率 $P(A)=0.96$.</p><ol class=\"enumerate\"><li><p>求从该批产品中任取 $1$ 件是二等品的概率 $p$；</p></li><li><p>若该批产品共有 $100$ 件，从中任意抽取 $2$ 件，求事件 $B$：“取出的 $2$ 件产品中至少有一件二等品”的概率 $P(B)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设任取一件产品是二等品的概率为 $p$. 有放回抽取使两次抽取相互独立，事件 $A$ 的对立事件是“两次取出的产品都是二等品”，所以 $P(A)=1-p^2=0.96$. 因此 $p^2=0.04$，又 $p\\geqslant0$，故 $p=0.2$.\n\n(2) 若该批产品共有 $100$ 件，则二等品有 $100\\times0.2=20$ 件，非二等品有 $80$ 件. 任意抽取 $2$ 件时，事件 $B$ 的对立事件是抽到的两件均为非二等品，因此 $P(B)=1-\\frac{\\mathrm C_{80}^{2}}{\\mathrm C_{100}^{2}}=1-\\frac{80\\times79}{100\\times99}=\\frac{179}{495}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设任取一件产品是二等品的概率为 $p$. 有放回抽取使两次抽取相互独立，事件 $A$ 的对立事件是“两次取出的产品都是二等品”，所以 $P(A)=1-p^{2}=0.96$. 因此 $p^{2}=0.04$，又 $p\\geqslant0$，故 $p=0.2$.</p></li><li><p>若该批产品共有 $100$ 件，则二等品有 $100\\times0.2=20$ 件，非二等品有 $80$ 件. 任意抽取 $2$ 件时，事件 $B$ 的对立事件是抽到的两件均为非二等品，因此 $P(B)=1-\\frac{\\mathrm{C}_{80}^{2}}{\\mathrm{C}_{100}^{2}}=1-\\frac{80\\times79}{100\\times99}=\\frac{179}{495}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "如图，在四棱锥 $S-ABCD$ 中，底面 $ABCD$ 为正方形，侧棱 $SD\\perp$ 底面 $ABCD$，$E$，$F$ 分别是 $AB$，$SC$ 的中点.\r\n\r\n\n(1) 求证：$EF\\parallel$ 平面 $SAD$；\n\n(2) 设 $SD=2CD$，求二面角 $A-EF-D$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/syllabus_paper_2_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在四棱锥 $S-ABCD$ 中，底面 $ABCD$ 为正方形，侧棱 $SD\\perp$ 底面 $ABCD$，$E$，$F$ 分别是 $AB$，$SC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$EF\\parallel$ 平面 $SAD$；</p></li><li><p>设 $SD=2CD$，求二面角 $A-EF-D$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_2_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设正方形边长 $CD=a>0$，$SD=h$. 建立空间直角坐标系，取 $D=(0,0,0)$，$A=(a,0,0)$，$C=(0,a,0)$，$B=(a,a,0)$，$S=(0,0,h)$. 于是 $E=\\left(a,\\frac{a}{2},0\\right)$，$F=\\left(0,\\frac{a}{2},\\frac{h}{2}\\right)$，所以 $\\overrightarrow{EF}=\\left(-a,0,\\frac{h}{2}\\right)$. 平面 $SAD$ 的方程为 $y=0$，且 $\\overrightarrow{EF}$ 的第二个坐标为 $0$，同时 $E$ 不在平面 $SAD$ 上，故 $EF\\parallel$ 平面 $SAD$.\n\n(2) 由 $SD=2CD$ 得 $h=2a$. 二面角的大小与图形的相似缩放无关，令 $a=1$，则 $A=(1,0,0)$，$D=(0,0,0)$，$E=\\left(1,\\frac12,0\\right)$，$F=\\left(0,\\frac12,1\\right)$. 取平面 $AEF$ 和平面 $DEF$ 的法向量 $\\mathbf{n}_1=2(\\overrightarrow{EF}\\times\\overrightarrow{EA})=(1,0,1)$，$\\mathbf{n}_2=2(\\overrightarrow{EF}\\times\\overrightarrow{ED})=(1,-2,1)$. 因此二面角 $A-EF-D$ 的平面角 $\\theta$ 满足 $\\cos\\theta=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}{|\\mathbf{n}_1||\\mathbf{n}_2|}=\\frac{2}{\\sqrt{2}\\sqrt{6}}=\\frac{\\sqrt{3}}{3}$. 所以二面角 $A-EF-D$ 的大小为 $\\arccos\\frac{\\sqrt{3}}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设正方形边长 $CD=a>0$，$SD=h$. 建立空间直角坐标系，取 $D=(0,0,0)$，$A=(a,0,0)$，$C=(0,a,0)$，$B=(a,a,0)$，$S=(0,0,h)$. 于是 $E=\\left(a,\\frac{a}{2},0\\right)$，$F=\\left(0,\\frac{a}{2},\\frac{h}{2}\\right)$，所以 $\\overrightarrow{EF}=\\left(-a,0,\\frac{h}{2}\\right)$. 平面 $SAD$ 的方程为 $y=0$，且 $\\overrightarrow{EF}$ 的第二个坐标为 $0$，同时 $E$ 不在平面 $SAD$ 上，故 $EF\\parallel$ 平面 $SAD$.</p></li><li><p>由 $SD=2CD$ 得 $h=2a$. 二面角的大小与图形的相似缩放无关，令 $a=1$，则 $A=(1,0,0)$，$D=(0,0,0)$，$E=\\left(1,\\frac{1}{2},0\\right)$，$F=\\left(0,\\frac{1}{2},1\\right)$. 取平面 $AEF$ 和平面 $DEF$ 的法向量 $\\mathbf{n}_{1}=2(\\overrightarrow{EF}\\times\\overrightarrow{EA})=(1,0,1)$，$\\mathbf{n}_{2}=2(\\overrightarrow{EF}\\times\\overrightarrow{ED})=(1,-2,1)$. 因此二面角 $A-EF-D$ 的平面角 $\\theta$ 满足 $\\cos\\theta=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}||\\mathbf{n}_{2}|}=\\frac{2}{\\sqrt{2}\\sqrt{6}}=\\frac{\\sqrt{3}}{3}$. 所以二面角 $A-EF-D$ 的大小为 $\\arccos\\frac{\\sqrt{3}}{3}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "在直角坐标系 $xOy$ 中，以 $O$ 为圆心的圆与直线 $x-\\sqrt{3}y=4$ 相切.\r\n\r\n\n(1) 求圆 $O$ 的方程；\n\n(2) 圆 $O$ 与 $x$ 轴相交于 $A$，$B$ 两点，圆内的动点 $P$ 使 $|PA|$，$|PO|$，$|PB|$ 成等比数列，求 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}$ 的取值范围.",
-          "choices": [],
+          "body": "<p>在直角坐标系 $xOy$ 中，以 $O$ 为圆心的圆与直线 $x-\\sqrt{3}y=4$ 相切.</p><ol class=\"enumerate\"><li><p>求圆 $O$ 的方程；</p></li><li><p>圆 $O$ 与 $x$ 轴相交于 $A$，$B$ 两点，圆内的动点 $P$ 使 $|PA|$，$|PO|$，$|PB|$ 成等比数列，求 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 圆心为原点，圆到直线 $x-\\sqrt{3}y=4$ 的距离就是半径，因此 $r=\\frac{4}{\\sqrt{1+3}}=2$，圆 $O$ 的方程为 $x^2+y^2=4$.\n\n(2) 不妨设 $A=(-2,0)$，$B=(2,0)$，并设圆内动点 $P=(x,y)$. 由 $|PA|$，$|PO|$，$|PB|$ 成等比数列，得 $|PO|^2=|PA||PB|$. 两边平方，得到 $(x^2+y^2)^2=\\bigl((x+2)^2+y^2\\bigr)\\bigl((x-2)^2+y^2\\bigr)$. 令 $r^2=x^2+y^2$，则上式化为 $r^4=(r^2+4+4x)(r^2+4-4x)$，从而 $2x^2=r^2+2$，即 $x^2-y^2=2$. 因为 $P$ 在圆内，$r^2<4$，所以由 $r^2=2+2y^2$ 得 $0\\le y^2<1$. 又 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(-2-x,-y)\\cdot(2-x,-y)=x^2+y^2-4=2y^2-2$. 因此 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}$ 的取值范围为 $[-2,0)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>圆心为原点，圆到直线 $x-\\sqrt{3}y=4$ 的距离就是半径，因此 $r=\\frac{4}{\\sqrt{1+3}}=2$，圆 $O$ 的方程为 $x^{2}+y^{2}=4$.</p></li><li><p>不妨设 $A=(-2,0)$，$B=(2,0)$，并设圆内动点 $P=(x,y)$. 由 $|PA|$，$|PO|$，$|PB|$ 成等比数列，得 $|PO|^{2}=|PA||PB|$. 两边平方，得到 $(x^{2}+y^{2})^{2}=\\bigl((x+2)^{2}+y^{2}\\bigr)\\bigl((x-2)^{2}+y^{2}\\bigr)$. 令 $r^{2}=x^{2}+y^{2}$，则上式化为 $r^{4}=(r^{2}+4+4x)(r^{2}+4-4x)$，从而 $2x^{2}=r^{2}+2$，即 $x^{2}-y^{2}=2$. 因为 $P$ 在圆内，$r^{2}&#x3C;4$，所以由 $r^{2}=2+2y^{2}$ 得 $0\\le y^{2}&#x3C;1$. 又 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}=(-2-x,-y)\\cdot(2-x,-y)=x^{2}+y^{2}-4=2y^{2}-2$. 因此 $\\overrightarrow{PA}\\cdot\\overrightarrow{PB}$ 的取值范围为 $[-2,0)$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知函数 $f(x)=\\frac{1}{3}ax^3-bx^2+(2-b)x+1$ 在 $x=x_1$ 处取得极大值，在 $x=x_2$ 处取得极小值，且 $0<x_1<1<x_2<2$.\r\n\r\n\n(1) 证明 $a>0$；\n\n(2) 若 $z=a+2b$，求 $z$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x)=\\frac{1}{3}ax^{3}-bx^{2}+(2-b)x+1$ 在 $x=x_{1}$ 处取得极大值，在 $x=x_{2}$ 处取得极小值，且 $0&#x3C;x_{1}&#x3C;1&#x3C;x_{2}&#x3C;2$.</p><ol class=\"enumerate\"><li><p>证明 $a>0$；</p></li><li><p>若 $z=a+2b$，求 $z$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $f'(x)=ax^2-2bx+2-b$. 由于 $x_1$，$x_2$ 是两个不同的极值点，依据可导函数极值点处导数为零，$x_1$，$x_2$ 是 $f'(x)=0$ 的两个不同的根，因此 $a\\ne0$，且 $f'(x)=a(x-x_1)(x-x_2)$. 在 $x_1$ 的右侧且充分接近 $x_1$ 时，函数从极大值下降，故导数为负；此时 $(x-x_1)(x-x_2)<0$，所以 $a>0$.\n\n(2) 比较 $f'(x)=a(x-x_1)(x-x_2)$ 与 $f'(x)=ax^2-2bx+2-b$ 的系数，得\r\n$2b=a(x_1+x_2)$，$2-b=ax_1x_2$. 将第一式给出的 $b=\\frac{a(x_1+x_2)}{2}$ 代入第二式，得\r\n$2=a\\left(x_1x_2+\\frac{x_1+x_2}{2}\\right)$，所以\r\n$a=\\frac{4}{x_1+x_2+2x_1x_2}$. 于是\r\n$z=a+2b=a\\left(1+x_1+x_2\\right)=\\frac{4(1+x_1+x_2)}{x_1+x_2+2x_1x_2}$.\r\n\r\n记 $u=x_1$，$v=x_2$. 在 $0<u<1$，$1<v<2$ 时，分母 $u+v+2uv>0$. 固定 $v$，随着 $u$ 增大，$z$ 严格减小，因为\r\n$\\frac{\\partial z}{\\partial u}=-\\frac{4(1+2v+2v^2)}{(u+v+2uv)^2}<0$. 同理，固定 $u$ 时，\r\n$\\frac{\\partial z}{\\partial v}=-\\frac{4(1+2u+2u^2)}{(u+v+2uv)^2}<0$，所以 $z$ 也随着 $v$ 增大而严格减小.\r\n\r\n因此，当 $u\\to1^-$，$v\\to2^-$ 时，$z\\to\\frac{16}{7}$；当 $u\\to0^+$，$v\\to1^+$ 时，$z\\to8$. 由于边界不属于题设范围，且 $z$ 在该区域内连续，故 $z$ 的取值范围为 $\\left(\\frac{16}{7},8\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=ax^{2}-2bx+2-b$. 由于 $x_{1}$，$x_{2}$ 是两个不同的极值点，依据可导函数极值点处导数为零，$x_{1}$，$x_{2}$ 是 $f'(x)=0$ 的两个不同的根，因此 $a\\ne0$，且 $f'(x)=a(x-x_{1})(x-x_{2})$. 在 $x_{1}$ 的右侧且充分接近 $x_{1}$ 时，函数从极大值下降，故导数为负；此时 $(x-x_{1})(x-x_{2})&#x3C;0$，所以 $a>0$.</p></li><li><p>比较 $f'(x)=a(x-x_{1})(x-x_{2})$ 与 $f'(x)=ax^{2}-2bx+2-b$ 的系数，得</p><p>$2b=a(x_{1}+x_{2})$，$2-b=ax_{1}x_{2}$. 将第一式给出的 $b=\\frac{a(x_{1}+x_{2})}{2}$ 代入第二式，得</p><p>$2=a\\left(x_{1}x_{2}+\\frac{x_{1}+x_{2}}{2}\\right)$，所以</p><p>$a=\\frac{4}{x_{1}+x_{2}+2x_{1}x_{2}}$. 于是</p><p>$z=a+2b=a\\left(1+x_{1}+x_{2}\\right)=\\frac{4(1+x_{1}+x_{2})}{x_{1}+x_{2}+2x_{1}x_{2}}$.</p><p>记 $u=x_{1}$，$v=x_{2}$. 在 $0&#x3C;u&#x3C;1$，$1&#x3C;v&#x3C;2$ 时，分母 $u+v+2uv>0$. 固定 $v$，随着 $u$ 增大，$z$ 严格减小，因为</p><p>$\\frac{\\partial z}{\\partial u}=-\\frac{4(1+2v+2v^{2})}{(u+v+2uv)^{2}}&#x3C;0$. 同理，固定 $u$ 时，</p><p>$\\frac{\\partial z}{\\partial v}=-\\frac{4(1+2u+2u^{2})}{(u+v+2uv)^{2}}&#x3C;0$，所以 $z$ 也随着 $v$ 增大而严格减小.</p><p>因此，当 $u\\to1^{-}$，$v\\to2^{-}$ 时，$z\\to\\frac{16}{7}$；当 $u\\to0^{+}$，$v\\to1^{+}$ 时，$z\\to8$. 由于边界不属于题设范围，且 $z$ 在该区域内连续，故 $z$ 的取值范围为 $\\left(\\frac{16}{7},8\\right)$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

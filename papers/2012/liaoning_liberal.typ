@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,383 +11,306 @@
 #part-header("单选题")
 
 #problem(1)[
-已知向量 $bold(a)= (1, -1)$，$bold(b)= (2, x)$. 若 $bold(a) dot bold(b)= 1$，则 $x =$（ ）
-  #choices([$-1$], [$-(1)/(2)$], [$(1)/(2)$], [$1$], cols: 4)
+已知向量 #mi(`\mathbf{a}= (1, -1)`)，#mi(`\mathbf{b}= (2, x)`). 若 #mi(`\mathbf{a}\cdot \mathbf{b}= 1`)，则 #mi(`x =`)（ ）
+  #choices([#mi(`-1`)], [#mi(`-\frac{1}{2}`)], [#mi(`\frac{1}{2}`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-由向量数量积的坐标公式，$bold(a)\c d o t b o l d(b)=1 times 2 +(-1) times x=2-x$. 由已知 $2-x=1$，解得 $x=1$，故选 D.
+由向量数量积的坐标公式，#mi(`\mathbf{a}\cdot\mathbf{b}=1\times2+(-1)\times x=2-x`). 由已知 #mi(`2-x=1`)，解得 #mi(`x=1`)，故选 D.
 ]
 
 #problem(2)[
-已知全集 $U = \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\}$，集合 $A = \{0, 1, 3, 5, 8\}$，集合 $B = \{2, 4, 5, 6, 8\}$，则 $(\c o m p l e m e n t_U A) inter (\c o m p l e m e n t_U B) =$（ ）
-  #choices([$\{5, 8\}$], [$\{7, 9\}$], [$\{0, 1, 3\}$], [$\{2, 4, 6\}$], cols: 4)
+已知全集 #mi(`U = \{0, 1, 2, 3, 4, 5, 6, 7, 8, 9\}`)，集合 #mi(`A = \{0, 1, 3, 5, 8\}`)，集合 #mi(`B = \{2, 4, 5, 6, 8\}`)，则 #mi(`(\complement_{U} A) \cap (\complement_{U} B) =`)（ ）
+  #choices([#mi(`\{5, 8\}`)], [#mi(`\{7, 9\}`)], [#mi(`\{0, 1, 3\}`)], [#mi(`\{2, 4, 6\}`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-在全集 $U$ 中，$\c o m p l e m e n t_U A=\{2,4,6,7,9\}$，$\c o m p l e m e n t_U B=\{0,1,3,7,9\}$. 因此 $(\c o m p l e m e n t_U A) inter (\c o m p l e m e n t_U B)=\{7,9\}$，故选 B.
+在全集 #mi(`U`) 中，#mi(`\complement_{U} A=\{2,4,6,7,9\}`)，#mi(`\complement_{U} B=\{0,1,3,7,9\}`). 因此 #mi(`\left(\complement_{U} A\right)\cap\left(\complement_{U} B\right)=\{7,9\}`)，故选 B.
 ]
 
 #problem(3)[
-复数 $(1)/(1 + i)=$（ ）
-  #choices([$(1)/(2)- (1)/(2) i$], [$(1)/(2)+ (1)/(2) i$], [$1 - i$], [$1 + i$], cols: 2)
+复数 #mi(`\frac{1}{1 + \mathrm{i}}=`)（ ）
+  #choices([#mi(`\frac{1}{2}- \frac{1}{2}\mathrm{i}`)], [#mi(`\frac{1}{2}+ \frac{1}{2}\mathrm{i}`)], [#mi(`1 - \mathrm{i}`)], [#mi(`1 + \mathrm{i}`)], cols: 1)
 ]
 
 #answer([A])
 
 #solution[
-分子分母同乘以 $1- i$，得 $(1)/(1+ i)=(1- i)/((1+ i )(1- i ))=(1- i)/(1- i ""^(2))=(1- i)/(2)=(1)/(2)-(1)/(2) i$. 故选 A.
+分子分母同乘以 #mi(`1-\mathrm{i}`)，得 #mi(`\displaystyle\frac{1}{1+\mathrm{i}}=\frac{1-\mathrm{i}}{(1+\mathrm{i})(1-\mathrm{i})}=\frac{1-\mathrm{i}}{1-\mathrm{i}^{2}}=\frac{1-\mathrm{i}}{2}=\frac{1}{2}-\frac{1}{2}\mathrm{i}`). 故选 A.
 ]
 
 #problem(4)[
-在等差数列 $\{a_(n)\}$ 中，已知 $a_(4) + a_(8) = 16$，则 $a_(2) + a_(10) =$（ ）
-  #choices([$12$], [$16$], [$20$], [$24$], cols: 4)
+在等差数列 #mi(`\{a_{n}\}`) 中，已知 #mi(`a_{4}+ a_{8}= 16`)，则 #mi(`a_{2}+ a_{10}=`)（ ）
+  #choices([#mi(`12`)], [#mi(`16`)], [#mi(`20`)], [#mi(`24`)], cols: 4)
 ]
 
 #answer([B])
 
 #solution[
-等差数列中，等距离的两项之和相等，所以 $a_4+a_8=2 a_6$，从而 $a_6=8$. 同理，$a_2+a_(10)=2 a_6=16$，故选 B.
+等差数列中，等距离的两项之和相等，所以 #mi(`a_{4}+a_{8}=2a_{6}`)，从而 #mi(`a_{6}=8`). 同理，#mi(`a_{2}+a_{10}=2a_{6}=16`)，故选 B.
 ]
 
 #problem(5)[
-已知命题 $p: forall x_1$，$x_2 in RR$，$(f(x_2) - f(x_1))(x_2 - x_1) >= 0$，则 $\n e g p$ 是（ ）
-  #choices([$exists x_(1),x_(2) in RR$，$(f(x_(2)) - f(x_(1)))(x_(2) - x_(1)) <= 0$], [$forall x_(1)$，$x_(2) in RR$，$(f(x_(2)) - f(x_(1)))(x_(2) - x_(1)) <= 0$], [$exists x_(1)$，$x_(2) in RR$，$(f(x_(2)) - f(x_(1)))(x_(2) - x_(1)) < 0$], [$forall x_(1)$，$x_(2) in RR$，$(f(x_(2)) - f(x_(1)))(x_(2) - x_(1)) < 0$], cols: 1)
+已知命题 #mi(`p: \forall x_{1}`)，#mi(`x_{2} \in \mathbb{R}`)，#mi(`(f(x_{2}) - f(x_{1}))(x_{2} - x_{1}) \ge 0`)，则 #mi(`\neg p`) 是（ ）
+  #choices([#mi(`\exists x_{1},x_{2}\in \mathbb{R}`)，#mi(`(f(x_{2}) - f(x_{1}))(x_{2}- x_{1}) \le 0`)], [#mi(`\forall x_{1}`)，#mi(`x_{2}\in \mathbb{R}`)，#mi(`(f(x_{2}) - f(x_{1}))(x_{2}- x_{1}) \le 0`)], [#mi(`\exists x_{1}`)，#mi(`x_{2}\in \mathbb{R}`)，#mi(`(f(x_{2}) - f(x_{1}))(x_{2}- x_{1}) < 0`)], [#mi(`\forall x_{1}`)，#mi(`x_{2}\in \mathbb{R}`)，#mi(`(f(x_{2}) - f(x_{1}))(x_{2}- x_{1}) < 0`)], cols: 1)
 ]
 
 #answer([C])
 
 #solution[
-命题 $p$ 是“对任意 $x_1$，$x_2 in RR$，不等式 $(f(x_2)-f(x_1))(x_2-x_1) >= 0$ 成立”. 否定全称量词得到存在量词，否定不等式 $>= 0$ 得到 $<0$. 因此 $\n e g p$ 为“存在 $x_1$，$x_2 in RR$，使 $(f(x_2)-f(x_1))(x_2-x_1)<0$”，故选 C.
+命题 #mi(`p`) 是“对任意 #mi(`x_{1}`)，#mi(`x_{2}\in\mathbb{R}`)，不等式 #mi(`(f(x_{2})-f(x_{1}))(x_{2}-x_{1})\geqslant0`) 成立”. 否定全称量词得到存在量词，否定不等式 #mi(`\geqslant0`) 得到 #mi(`<0`). 因此 #mi(`\neg p`) 为“存在 #mi(`x_{1}`)，#mi(`x_{2}\in\mathbb{R}`)，使 #mi(`(f(x_{2})-f(x_{1}))(x_{2}-x_{1})<0`)”，故选 C.
 ]
 
 #problem(6)[
-已知 $sin alpha - cos alpha = sqrt(2)$，$alpha in (0, pi )$，则 $tan alpha =$（ ）
-  #choices([$-1$], [$-(sqrt(2))/(2)$], [$(sqrt(2))/(2)$], [$1$], cols: 2)
+已知 #mi(`\sin \alpha - \cos \alpha = \sqrt{2}`)，#mi(`\alpha \in (0, \pi)`)，则 #mi(`\tan \alpha =`)（ ）
+  #choices([#mi(`-1`)], [#mi(`-\frac{\sqrt{2}}{2}`)], [#mi(`\frac{\sqrt{2}}{2}`)], [#mi(`1`)], cols: 2)
 ]
 
 #answer([A])
 
 #solution[
-由和差化积公式，$sin alpha - cos alpha =sqrt(2) sin ( alpha -(pi)/(4))$. 于是 $sin ( alpha -(pi)/(4))=1$. 又 $alpha in (0, pi )$，所以 $alpha -(pi)/(4) in (-(pi)/(4),(3 pi)/(4))$，只能有 $alpha -(pi)/(4)=(pi)/(2)$，即 $alpha =(3 pi)/(4)$. 因而 $tan alpha =-1$，故选 A.
+由和差化积公式，#mi(`\sin\alpha-\cos\alpha=\sqrt{2}\sin\left(\alpha-\frac{\pi}{4}\right)`). 于是 #mi(`\sin\left(\alpha-\frac{\pi}{4}\right)=1`). 又 #mi(`\alpha\in(0,\pi)`)，所以 #mi(`\alpha-\frac{\pi}{4}\in\left(-\frac{\pi}{4},\frac{3\pi}{4}\right)`)，只能有 #mi(`\alpha-\frac{\pi}{4}=\frac{\pi}{2}`)，即 #mi(`\alpha=\frac{3\pi}{4}`). 因而 #mi(`\tan\alpha=-1`)，故选 A.
 ]
 
 #problem(7)[
-将圆 $x^(2) + y^(2) - 2 x - 4 y + 1 = 0$ 平分的直线是（ ）
-  #choices([$x + y - 1 = 0$], [$x + y + 3 = 0$], [$x - y + 1 = 0$], [$x - y + 3 = 0$], cols: 4)
+将圆 #mi(`x^{2}+ y^{2}- 2x - 4y + 1 = 0`) 平分的直线是（ ）
+  #choices([#mi(`x + y - 1 = 0`)], [#mi(`x + y + 3 = 0`)], [#mi(`x - y + 1 = 0`)], [#mi(`x - y + 3 = 0`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-将圆的方程配方，得 $(x-1)^2+(y-2)^2=4$，所以圆心为 $(1,2)$. 平分圆的直线必须经过圆心，逐项代入可得：$x+y-1=2$，$x+y+3=6$，$x-y+1=0$，$x-y+3=2$. 只有选项 C 的直线经过圆心，故选 C.
+将圆的方程配方，得 #mi(`\left(x-1\right)^{2}+\left(y-2\right)^{2}=4`)，所以圆心为 #mi(`\left(1,2\right)`). 平分圆的直线必须经过圆心，逐项代入可得：#mi(`x+y-1=2`)，#mi(`x+y+3=6`)，#mi(`x-y+1=0`)，#mi(`x-y+3=2`). 只有选项 C 的直线经过圆心，故选 C.
 ]
 
 #problem(8)[
-函数 $y = (1)/(2)x^2 - ln x$ 的单调递减区间为（ ）
-  #choices([$(-1, 1]$], [$(0,1]$], [$[1, + oo )$], [$(0, + oo )$], cols: 4)
+函数 #mi(`y = \frac{1}{2}x^{2} - \ln x`) 的单调递减区间为（ ）
+  #choices([#mi(`(-1, 1]`)], [#mi(`(0,1]`)], [#mi(`[1, +\infty)`)], [#mi(`(0, +\infty)`)], cols: 2)
 ]
 
 #answer([B])
 
 #solution[
-函数定义域为 $x>0$，且 $y'=x-(1)/(x)=(x^2-1)/(x)$. 当 $0<x<1$ 时，$y'<0$；当 $x>1$ 时，$y'>0$. 因此函数在 $(0,1]$ 上单调递减，故选 B.
+函数定义域为 #mi(`x>0`)，且 #mi(`\displaystyle y'=x-\frac{1}{x}=\frac{x^{2}-1}{x}`). 当 #mi(`0<x<1`) 时，#mi(`y'<0`)；当 #mi(`x>1`) 时，#mi(`y'>0`). 因此函数在 #mi(`(0,1]`) 上单调递减，故选 B.
 ]
 
 #problem(9)[
-设变量 $x$，$y$ 满足 $\b e g i n{c a s e s} x - y <= 10 ,\\ 0 <= x + y <= 20 ,\\ 0 <= y <= 15 , \e n d{c a s e s}$ 则 $2 x + 3 y$ 的最大值为（ ）
-  #choices([$20$], [$35$], [$45$], [$55$], cols: 4)
+设变量 #mi(`x`)，#mi(`y`) 满足 #mi(`\begin{cases}x - y \le 10,\\  0 \le x + y \le 20,\\  0 \le y \le 15,\end{cases}`) 则 #mi(`2x + 3y`) 的最大值为（ ）
+  #choices([#mi(`20`)], [#mi(`35`)], [#mi(`45`)], [#mi(`55`)], cols: 4)
 ]
 
 #answer([D])
 
 #solution[
-由 $x+y <= 20$ 和 $y <= 15$，有 $2 x+3 y=2(x+y)+y <= 2 times 20 +15=55$. 取 $(x,y)=(5,15)$ 时，$x-y=-10 <= 10$，$0 <= x+y=20 <= 20$，且 $0 <= y=15 <= 15$，满足全部约束并使目标函数等于 $55$. 因此最大值为 $55$，故选 D.
+由 #mi(`x+y\leqslant20`) 和 #mi(`y\leqslant15`)，有 #mi(`2x+3y=2(x+y)+y\leqslant2\times20+15=55`). 取 #mi(`(x,y)=(5,15)`) 时，#mi(`x-y=-10\leqslant10`)，#mi(`0\le x+y=20\leqslant20`)，且 #mi(`0\le y=15\leqslant15`)，满足全部约束并使目标函数等于 #mi(`55`). 因此最大值为 #mi(`55`)，故选 D.
 ]
 
 #problem(10)[
-执行如图所示的程序框图，则输出的 $S$ 值是（ ）
+执行如图所示的程序框图，则输出的 #mi(`S`) 值是（ ）
 
-
-#align(center)[#image("/papers/2012/img/liaoning_liberal/q10_fig1.png", width: 78%)]
-  #choices([$4$], [$(3)/(2)$], [$(2)/(3)$], [$-1$], cols: 4)
+[max width=0.78\linewidth]img/2012/liaoning_liberal/q10_fig1.png
+  #choices([#mi(`4`)], [#mi(`\frac{3}{2}`)], [#mi(`\frac{2}{3}`)], [#mi(`-1`)], cols: 2)
 ]
 
 #answer([D])
 
 #solution[
-初始时 $S=4$，$i=1$. 循环条件为 $i<6$，每次循环先将 $S$ 更新为 $(2)/(2-S)$，再令 $i$ 增加 $1$. 五次循环中 $S$ 依次为 $\d i s p l a y s t y l e4\l o n g m a p s t o-1\l o n g m a p s t o(2)/(3)\l o n g m a p s t o(3)/(2)\l o n g m a p s t o4\l o n g m a p s t o-1$. 此时 $i=6$，循环结束，输出 $S=-1$，故选 D.
+初始时 #mi(`S=4`)，#mi(`i=1`). 循环条件为 #mi(`i<6`)，每次循环先将 #mi(`S`) 更新为 #mi(`\displaystyle\frac{2}{2-S}`)，再令 #mi(`i`) 增加 #mi(`1`). 五次循环中 #mi(`S`) 依次为 #mi(`\displaystyle4\longmapsto-1\longmapsto\frac{2}{3}\longmapsto\frac{3}{2}\longmapsto4\longmapsto-1`). 此时 #mi(`i=6`)，循环结束，输出 #mi(`S=-1`)，故选 D.
 ]
 
 #problem(11)[
-在长为 $12 ~c m$ 的线段 $A B$ 上任取一点 $C$. 现作一矩形，邻边长分别等于线段 $A C$，$C B$ 的长，则该矩形面积大于 $20 ~c m^(2)$ 的概率为（ ）
-  #choices([$(1)/(6)$], [$(1)/(3)$], [$(2)/(3)$], [$(4)/(5)$], cols: 4)
+在长为 #mi(`12 \mathrm{~cm}`) 的线段 #mi(`AB`) 上任取一点 #mi(`C`). 现作一矩形，邻边长分别等于线段 #mi(`AC`)，#mi(`CB`) 的长，则该矩形面积大于 #mi(`20 \mathrm{~cm}^{2}`) 的概率为（ ）
+  #choices([#mi(`\frac{1}{6}`)], [#mi(`\frac{1}{3}`)], [#mi(`\frac{2}{3}`)], [#mi(`\frac{4}{5}`)], cols: 2)
 ]
 
 #answer([C])
 
 #solution[
-设 $A C=x$，则 $C B=12-x$，其中 $0<x<12$. 矩形面积为 $x(12-x)$. 由题意，$x(12-x)>20$，即 $x^2-12 x+20<0$，所以 $(x-2)(x-10)<0$，从而 $2<x<10$. 有利长度为 $10-2=8$，线段总长度为 $12$，故所求概率为 $(8)/(12)=(2)/(3)$，选 C.
+设 #mi(`AC=x`)，则 #mi(`CB=12-x`)，其中 #mi(`0<x<12`). 矩形面积为 #mi(`x(12-x)`). 由题意，#mi(`x(12-x)>20`)，即 #mi(`x^{2}-12x+20<0`)，所以 #mi(`(x-2)(x-10)<0`)，从而 #mi(`2<x<10`). 有利长度为 #mi(`10-2=8`)，线段总长度为 #mi(`12`)，故所求概率为 #mi(`\displaystyle\frac{8}{12}=\frac{2}{3}`)，选 C.
 ]
 
 #problem(12)[
-已知 $P$，$Q$ 为抛物线 $x^(2) = 2 y$ 上两点，点 $P$，$Q$ 的横坐标分别为 $4$，$-2$. 过 $P$，$Q$ 分别作抛物线的切线，两切线交于点 $A$，则点 $A$ 的纵坐标为（ ）
-  #choices([$1$], [$3$], [$-4$], [$-8$], cols: 4)
+已知 #mi(`P`)，#mi(`Q`) 为抛物线 #mi(`x^{2}= 2y`) 上两点，点 #mi(`P`)，#mi(`Q`) 的横坐标分别为 #mi(`4`)，#mi(`-2`). 过 #mi(`P`)，#mi(`Q`) 分别作抛物线的切线，两切线交于点 #mi(`A`)，则点 #mi(`A`) 的纵坐标为（ ）
+  #choices([#mi(`1`)], [#mi(`3`)], [#mi(`-4`)], [#mi(`-8`)], cols: 4)
 ]
 
 #answer([C])
 
 #solution[
-抛物线方程为 $y=(x^2)/(2)$，所以在横坐标为 $u$ 的点处，切线斜率为 $u$，切线方程为 $y=u x-(u^2)/(2)$. 因此，点 $P$ 处的切线为 $y=4 x-8$，点 $Q$ 处的切线为 $y=-2 x-2$. 联立得 $4 x-8=-2 x-2$，所以 $x=1$，代回得 $y=-4$. 故选 C.
+抛物线方程为 #mi(`\displaystyle y=\frac{x^{2}}{2}`)，所以在横坐标为 #mi(`u`) 的点处，切线斜率为 #mi(`u`)，切线方程为 #mi(`\displaystyle y=u x-\frac{u^{2}}{2}`). 因此，点 #mi(`P`) 处的切线为 #mi(`y=4x-8`)，点 #mi(`Q`) 处的切线为 #mi(`y=-2x-2`). 联立得 #mi(`4x-8=-2x-2`)，所以 #mi(`x=1`)，代回得 #mi(`y=-4`). 故选 C.
 ]
 
 #part-header("填空题")
 
 #problem(13)[
-一个几何体的三视图如图所示，则该几何体的体积为#blank(){}.
+一个几何体的三视图如图所示，则该几何体的体积为\underline{\hspace{2.5em}}.
 
-
-#align(center)[#image("/papers/2012/img/liaoning_liberal/q13_fig1.png", width: 92%)]
+[max width=0.92\linewidth]img/2012/liaoning_liberal/q13_fig1.png
 ]
 
-#answer([$12 + pi$])
+#answer([#mi(`12 + \pi`)])
 
 #solution[
-由三视图可知，该几何体由一个长、宽、高分别为 $4$，$3$，$1$ 的长方体和一个底面半径为 $1$、高为 $1$ 的圆柱叠合而成. 因此体积为 $V=4 times 3 times 1 + pi times 1 ""^2 times 1 =12+ pi$.
+由三视图可知，该几何体由一个长、宽、高分别为 #mi(`4`)，#mi(`3`)，#mi(`1`) 的长方体和一个底面半径为 #mi(`1`)、高为 #mi(`1`) 的圆柱叠合而成. 因此体积为 #mi(`\displaystyle V=4\times3\times1+\pi\times1^{2}\times1=12+\pi`).
 ]
 
 #problem(14)[
-已知等比数列 $\{a_(n)\}$ 为递增数列. 若 $a_1 > 0$，且 $2(a_n + a_(n+2)) = 5 a_(n+1)$，则数列 $\{a_n\}$ 的公比 $q =\f i l l i n b l a n k{}$.
+已知等比数列 #mi(`\{a_{n}\}`) 为递增数列. 若 #mi(`a_{1} > 0`)，且 #mi(`2(a_{n} + a_{n+2}) = 5a_{n+1}`)，则数列 #mi(`\{a_{n}\}`) 的公比 #mi(`q =\underline{\hspace{2.5em}}{}`).
 ]
 
-#answer([$2$])
+#answer([#mi(`2`)])
 
 #solution[
-设等比数列的公比为 $q$，则 $a_(n+1)=q a_n$，$a_(n+2)=q^(2) a_n$. 由于 $a_1>0$，且数列递增，相关各项不为零，可将已知等式除以 $a_n$，得 $2(1+q^2)=5 q$，即 $2 q^2-5 q+2=0$. 因而 $(2 q-1)(q-2)=0$，所以 $q=(1)/(2)$ 或 $q=2$. 递增且首项为正时必须有 $q>1$，故 $q=2$.
+设等比数列的公比为 #mi(`q`)，则 #mi(`a_{n+1}=qa_{n}`)，#mi(`a_{n+2}=q^{2}a_{n}`). 由于 #mi(`a_{1}>0`)，且数列递增，相关各项不为零，可将已知等式除以 #mi(`a_{n}`)，得 #mi(`2(1+q^{2})=5q`)，即 #mi(`2q^{2}-5q+2=0`). 因而 #mi(`\left(2q-1\right)\left(q-2\right)=0`)，所以 #mi(`q=\frac{1}{2}`) 或 #mi(`q=2`). 递增且首项为正时必须有 #mi(`q>1`)，故 #mi(`q=2`).
 ]
 
 #problem(15)[
-已知双曲线 $x^(2) - y^(2) = 1$，点 $F_(1)$，$F_(2)$ 为其两个焦点，点 $P$ 为双曲线上一点. 若 $P F_(1) bot P F_(2)$，则 $|P F_(1)| + |P F_(2)|$ 的值为#blank(){}.
+已知双曲线 #mi(`x^{2}- y^{2}= 1`)，点 #mi(`F_{1}`)，#mi(`F_{2}`) 为其两个焦点，点 #mi(`P`) 为双曲线上一点. 若 #mi(`PF_{1}\perp PF_{2}`)，则 #mi(`|PF_{1}| + |PF_{2}|`) 的值为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$2 sqrt(3)$])
+#answer([#mi(`2\sqrt{3}`)])
 
 #solution[
-双曲线 $x^2-y^2=1$ 的焦点为 $F_1(-sqrt(2),0)$，$F_2(sqrt(2),0)$. 设 $P(x,y)$，则
-$arrow(P F_1)=(-x-sqrt(2),-y)$，$arrow(P F_2)=(sqrt(2)-x,-y)$. 由 $P F_1 bot P F_2$，有
-$arrow(P F_1)\c d o t a r r o w(P F_2)=x^2+y^2-2=0$. 结合双曲线方程，得 $x^2+y^2=2$，故三角形 $P F_(1) F_2$ 是以 $F_(1) F_2=2 sqrt(2)$ 为斜边的直角三角形，从而 $P F_1^2+P F_2^2=8$. 又双曲线定义给出 $|P F_1-P F_2|=2$. 因此 $(P F_1+P F_2)^2=2(P F_1^2+P F_2^2)-(P F_1-P F_2)^2=16-4=12$，所以 $P F_1+P F_2=2 sqrt(3)$.
+双曲线 #mi(`x^{2}-y^{2}=1`) 的焦点为 #mi(`F_{1}\left(-\sqrt{2},0\right)`)，#mi(`F_{2}\left(\sqrt{2},0\right)`). 设 #mi(`P(x,y)`)，则
+
+#mi(`\overrightarrow{PF_1}=\left(-x-\sqrt{2},-y\right)`)，#mi(`\overrightarrow{PF_2}=\left(\sqrt{2}-x,-y\right)`). 由 #mi(`PF_{1}\perp PF_{2}`)，有
+
+#mi(`\overrightarrow{PF_1}\cdot\overrightarrow{PF_2}=x^{2}+y^{2}-2=0`). 结合双曲线方程，得 #mi(`x^{2}+y^{2}=2`)，故三角形 #mi(`PF_{1}F_{2}`) 是以 #mi(`F_{1}F_{2}=2\sqrt{2}`) 为斜边的直角三角形，从而 #mi(`PF_{1}^{2}+PF_{2}^{2}=8`). 又双曲线定义给出 #mi(`\left|PF_{1}-PF_{2}\right|=2`). 因此 #mi(`\left(PF_{1}+PF_{2}\right)^{2}=2\left(PF_{1}^{2}+PF_{2}^{2}\right)-\left(PF_{1}-PF_{2}\right)^{2}=16-4=12`)，所以 #mi(`PF_{1}+PF_{2}=2\sqrt{3}`).
 ]
 
 #problem(16)[
-已知点 $P$，$A$，$B$，$C$，$D$ 是球 $O$ 表面上的点，$P A bot$ 平面 $A B C D$，四边形 $A B C D$ 是边长为 $2 sqrt(3)$ 的正方形. 若 $P A = 2 sqrt(6)$，则 $triangle O A B$ 的面积为#blank(){}.
+已知点 #mi(`P`)，#mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 是球 #mi(`O`) 表面上的点，#mi(`PA \perp`) 平面 #mi(`ABCD`)，四边形 #mi(`ABCD`) 是边长为 #mi(`2\sqrt{3}`) 的正方形. 若 #mi(`PA = 2\sqrt{6}`)，则 #mi(`\triangle OAB`) 的面积为\underline{\hspace{2.5em}}.
 ]
 
-#answer([$3 sqrt(3)$])
+#answer([#mi(`3\sqrt{3}`)])
 
 #solution[
-设正方形中心为 $H$. 正方形边长为 $2 sqrt(3)$，所以其对角线为 $2 sqrt(6)$，从而 $A H=sqrt(6)$. 由于 $A$，$B$，$C$，$D$ 在球面上，球心 $O$ 在过 $H$ 且垂直于平面 $A B C D$ 的直线上.
+设正方形中心为 #mi(`H`). 正方形边长为 #mi(`2\sqrt{3}`)，所以其对角线为 #mi(`2\sqrt{6}`)，从而 #mi(`AH=\sqrt{6}`). 由于 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 在球面上，球心 #mi(`O`) 在过 #mi(`H`) 且垂直于平面 #mi(`ABCD`) 的直线上.
 
-取平面 $A B C D$ 为水平面. 因为 $P A bot$ 平面 $A B C D$，且 $P A=2 sqrt(6)$，设球心到平面 $A B C D$ 的距离为 $h$. 由 $O A=O P$，并且 $A H=sqrt(6)$，得到 $A H^2+h^2=A H^2+(2 sqrt(6)-h)^2$，所以 $h=sqrt(6)$.
+取平面 #mi(`ABCD`) 为水平面. 因为 #mi(`PA\perp`) 平面 #mi(`ABCD`)，且 #mi(`PA=2\sqrt{6}`)，设球心到平面 #mi(`ABCD`) 的距离为 #mi(`h`). 由 #mi(`OA=OP`)，并且 #mi(`AH=\sqrt{6}`)，得到 #mi(`\displaystyle AH^{2}+h^{2}=AH^{2}+(2\sqrt{6}-h)^{2}`)，所以 #mi(`h=\sqrt{6}`).
 
-在正方形平面内，$H$ 到边 $A B$ 的距离为 $sqrt(3)$. 因而球心 $O$ 到直线 $A B$ 的距离为 $sqrt(h^2+(sqrt(3))^2)=sqrt(6+3)=3$. 所以 $S_( triangle O A B)=(1)/(2) dot A B dot 3 =(1)/(2) dot 2 sqrt(3) dot 3 =3 sqrt(3)$.
+在正方形平面内，#mi(`H`) 到边 #mi(`AB`) 的距离为 #mi(`\sqrt{3}`). 因而球心 #mi(`O`) 到直线 #mi(`AB`) 的距离为 #mi(`\sqrt{h^{2}+\left(\sqrt{3}\right)^{2}}=\sqrt{6+3}=3`). 所以 #mi(`S_{\triangle OAB}=\frac{1}{2}\cdot AB\cdot3=\frac{1}{2}\cdot2\sqrt{3}\cdot3=3\sqrt{3}`).
 ]
 
 #part-header("解答题")
 
 #problem(17)[
-在 $triangle A B C$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 角 $A$，$B$，$C$ 成等差数列.
+在 #mi(`\triangle ABC`) 中，角 #mi(`A`)，#mi(`B`)，#mi(`C`) 的对边分别为 #mi(`a`)，#mi(`b`)，#mi(`c`). 角 #mi(`A`)，#mi(`B`)，#mi(`C`) 成等差数列.
 
-+ (1) 求 $cos B$ 的值；
-+ (2) 若边 $a$，$b$，$c$ 成等比数列，求 $sin A sin C$ 的值.
+
++ (1)
 ]
 
 #solution[
-+ (1) 因为角 $A$，$B$，$C$ 成等差数列，所以 $A+C=2 B$. 又三角形内角和为 $A+B+C= pi$，故 $3 B= pi$，即 $B=(pi)/(3)$. 因此 $cos B=(1)/(2)$.
-+ (2) 由正弦定理，存在同一个外接圆半径 $R$，使 $a=2 R sin A$，$b=2 R sin B$，$c=2 R sin C$. 由 $a$，$b$，$c$ 成等比数列，得 $b^2=a c$，所以
-$(2 R sin B)^2=(2 R sin A)(2 R sin C)$，即 $sin ""^(2) B= sin A sin C$. 结合 $B=(pi)/(3)$，得 $sin A sin C= sin ""^2(pi)/(3)=(3)/(4)$.
++ (1)
 ]
 
 #problem(18)[
-如图，直三棱柱 $A B C - A'B'C'$，$angle B A C = 90^ degree$，$A B = A C = sqrt(2)$，$A A' = 1$，点 $M$，$N$ 分别为 $A'B$ 和 $B'C'$ 的中点.
-
-+ (1) 证明： $M N parallel$ 平面 $A'A C C'$；
-+ (2) 求三棱锥 $A' - M N C$ 的体积. （锥体体积公式 $V = (1)/(3)S h$，其中 $S$ 为底面积，$h$ 为高）
+如图，直三棱柱 #mi(`ABC - A'B'C'`)，#mi(`\angle BAC = 90^{\circ}`)，#mi(`AB = AC = \sqrt{2}`)，#mi(`AA' = 1`)，点 #mi(`M`)，#mi(`N`) 分别为 #mi(`A'B`) 和 #mi(`B'C'`) 的中点.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2012/img/liaoning_liberal/q18_fig1.png", width: 62%)]
+
+
+[max width=0.62\linewidth]img/2012/liaoning_liberal/q18_fig1.png
 ]
 
 #solution[
-+ (1) 建立空间直角坐标系，取 $A$ 为原点，令 $A B$，$A C$，$A A'$ 分别为三个坐标轴正方向，则
-$A=(0,0,0)$，$B=(sqrt(2),0,0)$，$C=(0,sqrt(2),0)$，$A'=(0,0,1)$，$B'=(sqrt(2),0,1)$，$C'=(0,sqrt(2),1)$. 因为 $M$，$N$ 分别为 $A'B$，$B'C'$ 的中点，所以
-$M=((sqrt(2))/(2),0,(1)/(2))$，$N=((sqrt(2))/(2),(sqrt(2))/(2),1)$. 从而 $arrow(M N)=(0,(sqrt(2))/(2),(1)/(2))$. 平面 $A'A C C'$ 的方程为 $x=0$，而直线 $M N$ 上各点的 $x$ 坐标恒为 $(sqrt(2))/(2)$，故 $M N parallel$ 平面 $A'A C C'$.
-+ (2) 由上面的坐标，$arrow(A'M)=((sqrt(2))/(2),0,-(1)/(2))$，$arrow(A'N)=((sqrt(2))/(2),(sqrt(2))/(2),0)$，$arrow(A'C)=(0,sqrt(2),-1)$. 计算得
-
-$ arrow(A'M)\t i m e s a r r o w(A'N)=((sqrt(2))/(4),-(sqrt(2))/(4),(1)/(2)) $
-
-从而
-
-$ (arrow(A'M)\t i m e s a r r o w(A'N))\c d o t a r r o w(A'C)=0-(sqrt(2))/(4)\c d o t s q r t(2)+(1)/(2) dot (-1)=-1 $
-
-因此三棱锥体积为
-$V=(1)/(6)|(arrow(A'M)\t i m e s a r r o w(A'N))\c d o t a r r o w(A'C)|=(1)/(6)$.
++ (1)
 ]
 
 #problem(19)[
-电视传媒公司为了解某地区观众对某类体育节目的收视情况，随机抽取了 $100" 名"$ 观众进行调查，其中女性有 $55" 名"$. 下面是根据调查结果绘制的观众日均收看该体育节目时间的频率分布直方图：
+电视传媒公司为了解某地区观众对某类体育节目的收视情况，随机抽取了 #mi(`100\text{ \text{名}}`) 观众进行调查，其中女性有 #mi(`55\text{ \text{名}}`). 下面是根据调查结果绘制的观众日均收看该体育节目时间的频率分布直方图：
 
-将日均收看该体育节目时间不低于 $40" 分钟"$ 的观众称为“体育迷”，已知“体育迷”中有 $10" 名"$ 女性.
+将日均收看该体育节目时间不低于 #mi(`40\text{ \text{分钟}}`) 的观众称为“体育迷”，已知“体育迷”中有 #mi(`10\text{ \text{名}}`) 女性.
 
 
-+ (1) 根据已知条件完成下面的 $2 times 2$ 列联表，并据此资料你是否认为“体育迷”与性别有关？
++ (1) 
 
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
+
+
+附：#mi(`\chi^{2} = \frac{n\left(n_{11}n_{22}- n_{12}n_{21}\right)^{2}}{n_{1+}n_{2+}n_{+1}n_{+2}}`).
+
+#mi(`P(\chi^{2} \ge k)`) & #mi(`0.05`) & #mi(`0.01`) \\
+
 \hline
- & 非体育迷 & 体育迷 & 合计\\ \hline
-男 & & & \\\hline
-女 & & & \\\hline
-合计 & & & \\\hline
-\end{tabular}
-\end{center}
-+ (2) 将日均收看该体育节目不低于 $50" 分钟"$ 的观众称为“超级体育迷”，已知“超级体育迷”中有 $2" 名"$ 女性. 若从“超级体育迷”中任意选取 $2" 人"$，求至少有 $1" 名"$ 女性观众的概率.
 
+#mi(`k`) & #mi(`3.841`) & #mi(`6.635`)
 
-附：$chi ""^2 = (n(n_(11){n}_(22) - n_(12)n_(21))^2)/(n_(1+)n_(2+)n_(+1)n_(+2))$.
-\begin{center}
-\begin{tabular}{c|cc}
-$P( chi ""^2 >= k)$ & $0.05$ & $0.01$ \\
-\hline
-$k$ & $3.841$ & $6.635$
-\end{tabular}
-\end{center}
-
-
-#align(center)[#image("/papers/2012/img/liaoning_liberal/q19_fig2.png", width: 50%)]
+[width=0.5\linewidth]img/2012/liaoning_liberal/q19_fig2.png
 ]
 
 #solution[
-+ (1) 直方图各组组距为 $10$，所以各组人数等于频率分布直方图的高乘以组距再乘以总人数. 收看时间不低于 $40$ 分钟的体育迷共有 $100 times 10 times 0 .020+100 times 10 times 0 .005=25$ 人，故非体育迷共有 $100-25=75$ 人. 女性体育迷有 $10$ 人，女性非体育迷有 $55-10=45$ 人；男性共有 $100-55=45$ 人，其中体育迷有 $25-10=15$ 人，非体育迷有 $45-15=30$ 人. 列联表为
-
-\begin{center}
-\begin{tabular}{|c|c|c|c|}
-\hline
- & 非体育迷 & 体育迷 & 合计 \\ \hline
-男 & $30$ & $15$ & $45$ \\ \hline
-女 & $45$ & $10$ & $55$ \\ \hline
-合计 & $75$ & $25$ & $100$ \\ \hline
-\end{tabular}
-\end{center}
-
-取行分别为男性、女性，列分别为非体育迷、体育迷，代入附给的公式得
-
-$ chi ""^2=(100(30 times 10 -15 times 45 )^2)/(45 times 55 times 75 times 25)=(100)/(33) approx 3 .030<3.841 $
-
-因此在 $0.05$ 的显著性水平下，不能拒绝“体育迷与性别无关”的原假设，即没有足够证据认为“体育迷”与性别有关；这不等于证明二者无关.
-+ (2) 收看时间不低于 $50$ 分钟的观众共有 $100 times 10 times 0 .005=5$ 人，其中女性 $2$ 人，男性 $3$ 人. 从这 $5$ 人中任取 $2$ 人，至少有 $1$ 名女性的概率为
-$\d i s p l a y s t y l e1-(C_3^2)/(C_5^2)=1-(3)/(10)=(7)/(10)$.
++ (1)
 ]
 
 #problem(20)[
-如图，动圆 $C_1: x^2 + y^2 = t^2$，$1 < t < 3$，与椭圆 $C_2: (x^2)/(9)+ y^2 = 1$ 相交于 $A$，$B$，$C$，$D$ 四点，点 $A_1$，$A_2$ 分别为 $C_2$ 的左，右顶点.
-
-+ (1) 当 $t$ 为何值时，矩形 $A B C D$ 的面积取得最大值？ 并求出其最大面积；
-+ (2) 求直线 $A A_1$ 与直线 $A_(2) B$ 交点 $M$ 的轨迹方程.
+如图，动圆 #mi(`C_{1}: x^{2} + y^{2} = t^{2}`)，#mi(`1 < t < 3`)，与椭圆 #mi(`C_{2}: \frac{x^{2}}{9}+ y^{2} = 1`) 相交于 #mi(`A`)，#mi(`B`)，#mi(`C`)，#mi(`D`) 四点，点 #mi(`A_{1}`)，#mi(`A_{2}`) 分别为 #mi(`C_{2}`) 的左，右顶点.
 
 
++ (1) 
 
-#align(center)[#image("/papers/2012/img/liaoning_liberal/q20_fig1.png", width: 72%)]
+
+
+[max width=0.72\linewidth]img/2012/liaoning_liberal/q20_fig1.png
 ]
 
 #solution[
-+ (1) 按图中标号设 $A=(u,v)$，其中 $u<0$，$v>0$，则 $B=(u,-v)$. 由 $A$ 在圆和椭圆上，得
-$u^2+v^2=t^2$，$(u^2)/(9)+v^2=1$. 两式相减，得 $u^2=(9(t^2-1))/(8)$，$v^2=(9-t^2)/(8)$. 矩形 $A B C D$ 的两边长分别为 $2|u|$，$2 v$，所以面积为
-$S=4|u v|=(3)/(2)sqrt((t^2-1)(9-t^2))$.
-
-令 $z=t^2$，则 $1<z<9$，且 $(z-1)(9-z)=16-(z-5)^2 <= 16$，等号当且仅当 $z=5$. 因此当 $t=sqrt(5)$ 时面积最大，最大面积为 $(3)/(2) times 4 =6$.
-+ (2) 设交点 $M$ 的坐标为 $(X,Y)$，且椭圆的左、右顶点分别为 $A_1=(-3,0)$，$A_2=(3,0)$. 直线 $A A_1$ 和直线 $A_(2) B$ 的方程分别为
-$Y=(v(X+3))/(u+3)$，$Y=-(v(X-3))/(u-3)$. 由于 $v>0$，联立两式并交叉相乘，得
-
-$ (X+3)(u-3)=-(X-3)(u+3) $
-
-即 $2 X u-18=0$，所以 $X u=9$. 再代回第一条直线方程，得
-
-$ Y=(v((9)/(u)+3))/(u+3)=(3 v)/(u) $
-
-于是
-$(X^2)/(9)-Y^2=(9)/(u^2)-(9 v^2)/(u^2)=(9(1-v^2))/(u^2)=(9 dot (u^2)/(9))/(u^2)=1$.
-
-由于 $-3<u<0$，且 $v>0$，所以 $X=(9)/(u)<-3$，$Y=(3 v)/(u)<0$. 反之，双曲线 $(X^2)/(9)-Y^2=1$ 的任一点满足 $X<-3$，$Y<0$ 时，取 $u=(9)/(X)$，$v=Y(u)/(3)$，即可得到 $-3<u<0$，$v>0$ 及椭圆交点 $A$. 此时
-$t^2=u^2+v^2=1+(8 u^2)/(9) in (1,9)$，所以确有 $1<t<3$. 故轨迹为 $(X^2)/(9)-Y^2=1$，其中 $X<-3$，$Y<0$.
++ (1)
 ]
 
 #problem(21)[
-设 $f(x) = ln x + sqrt(x)- 1$，证明：
+设 #mi(`f(x) = \ln x + \sqrt{x}- 1`)，证明：
 
-+ (1) 当 $x > 1$ 时，$f(x) < (3)/(2)(x - 1)$；
-+ (2) 当 $1 < x < 3$ 时，$f(x) < (9(x - 1))/(x + 5)$.
+
++ (1)
 ]
 
 #solution[
-+ (1) 令 $t=sqrt(x)$，则 $t>1$，且 $f(x)=2 ln t+t-1$. 设
-$g(t)=(3)/(2)(t^2-1)-2 ln t-t+1$. 有 $g(1)=0$，且
-$g'(t)=3 t-(2)/(t)-1=((3 t+2)(t-1))/(t)>0$. 所以 $g(t)>g(1)=0$，即 $f(x)<(3)/(2)(x-1)$.
-+ (2) 设 $h(x)=(9(x-1))/(x+5)- ln x-sqrt(x)+1$. 有 $h(1)=0$. 令 $t=sqrt(x)$，则 $1<t<sqrt(3)$，并且
-$h'(x)=(54)/((x+5)^2)-(1)/(x)-(1)/(2 sqrt(x))=(108 t^2-(t+2)(t^2+5)^2)/(2 t^2(t^2+5)^2)$.
-分子可因式分解为
-$\d i s p l a y s t y l e108 t^2-(t+2)(t^2+5)^2=(t-1)(-t^4-3 t^3-13 t^2+75 t+50)$. 当 $1<t<sqrt(3)$ 时，$t^4<3 t^2$，$t^3<3 t$，所以
-$-t^4-3 t^3-13 t^2+75 t+50>-3 t^2-9 t-13 t^2+75 t+50=-16 t^2+66 t+50$. 又因 $t^2<3$、$t>1$，有 $-16 t^2+66 t+50>-48+66+50=68>0$. 因此 $h'(x)>0$，从而 $h(x)>h(1)=0$，即 $f(x)<(9(x-1))/(x+5)$.
++ (1)
 ]
 
 #part-header("选考题：解答题")
 
 #problem(22)[
-如图，$\o d o t O$ 和 $\o d o t O'$ 相交于 $A$，$B$ 两点，过 $A$ 作两圆的切线分别交两圆于 $C$，$D$ 两点，连接 $D B$ 并延长交 $\o d o t O$ 于点 $E$. 证明：
-
-+ (1) $A C dot B D = A D dot A B$；
-+ (2) $A C = A E$.
+如图，#mi(`\odot O`) 和 #mi(`\odot O'`) 相交于 #mi(`A`)，#mi(`B`) 两点，过 #mi(`A`) 作两圆的切线分别交两圆于 #mi(`C`)，#mi(`D`) 两点，连接 #mi(`DB`) 并延长交 #mi(`\odot O`) 于点 #mi(`E`). 证明：
 
 
++ (1) 
 
-#align(center)[#image("/papers/2012/img/liaoning_liberal/q22_fig1_rgb.png", width: 46%)]
+
+
+[max width=0.46\linewidth]img/2012/liaoning_liberal/q22_fig1_rgb.png
 ]
 
 #solution[
-+ (1) 由图中切线的位置，$A C$ 是 $\o d o t O'$ 在 $A$ 处的切线，$A D$ 是 $\o d o t O$ 在 $A$ 处的切线. 由切线与弦所夹角的定理，$angle A C B= angle D A B$，$angle C A B= angle A D B$，所以 $triangle A C B tilde triangle A D B$. 因而
-$(A C)/(A D)=(A B)/(B D)$，即 $A C dot B D=A D dot A B$.
-+ (2) 由上面的相似三角形，得 $angle A B C= angle D B A$. 又 $A$，$B$，$C$，$E$ 在 $\o d o t O$ 上，故圆内接四边形 $A B C E$ 的对角互补，$angle A E C+ angle A B C=180^ degree$. 因为 $D$，$B$，$E$ 共线，$angle E B A=180^ degree - angle D B A$. 同弧所对的圆周角相等，$angle E C A= angle E B A$. 因此 $angle E C A=180^ degree - angle A B C= angle A E C$，所以在三角形 $A C E$ 中，$A E=A C$.
++ (1)
 ]
 
 #problem(23)[
-在直角坐标系 $x O y$ 中，圆 $C_1: x^2 + y^2 = 4$，圆 $C_2: (x - 2)^2 + y^2 = 4$.
+在直角坐标系 #mi(`xOy`) 中，圆 #mi(`C_{1}: x^{2} + y^{2} = 4`)，圆 #mi(`C_{2}: (x - 2)^{2} + y^{2} = 4`).
 
-+ (1) 在以 $O$ 为极点，$x$ 轴非负半轴为极轴的极坐标系中，分别写出圆 $C_1$，$C_2$ 的极坐标方程，并求出圆 $C_1$，$C_2$ 的交点坐标 （用极坐标表示）；
-+ (2) 求圆 $C_1$ 与 $C_2$ 的公共弦的参数方程.
+
++ (1)
 ]
 
 #solution[
-+ (1) 在极坐标中，$x= rho cos theta$，$y= rho sin theta$. 圆 $C_1$ 的方程化为 $rho ""^2=4$，即 $rho =2$. 圆 $C_2$ 的方程为 $x^2+y^2=4 x$，所以 $rho ""^2=4 rho cos theta$，除去极点后得 $rho =4 cos theta$. 两圆交点满足 $2=4 cos theta$，故 $theta = +- (pi)/(3)$，交点的极坐标为 $(2,(pi)/(3))$，$(2,-(pi)/(3))$.
-+ (2) 两圆的直角坐标方程相减，得 $x=1$. 代入 $C_1$ 得 $1+y^2=4$，所以 $-sqrt(3) <= y\l e q s l a n t s q r t(3)$. 令参数为 $t=y$，公共弦的参数方程为
-$\b e g i n{c a s e s} x=1,\\ y=t, \e n d{c a s e s} -sqrt(3) <= t\l e q s l a n t s q r t(3).$
++ (1)
 ]
 
 #problem(24)[
-已知 $f(x) = |a x + 1|$（$a in RR$），不等式 $f(x) <= 3$ 的解集为 $\{x | -2 <= x <= 1 \}$.
+已知 #mi(`f(x) = |ax + 1|`)（#mi(`a \in \mathbb{R}`)），不等式 #mi(`f(x) \le 3`) 的解集为 #mi(`\{x \mid -2 \le x \le 1\}`).
 
-+ (1) 求 $a$ 的值；
-+ (2) 若 $|f(x)-2 f((x)/(2))| <= k$ 恒成立，求 $k$ 的取值范围.
+
++ (1)
 ]
 
 #solution[
-+ (1) 因为解集是有界区间，所以 $a\n e q0$. 不等式 $|a x+1| <= 3$ 的两个端点分别满足 $a x+1=3$ 或 $a x+1=-3$，其中点为 $-(1)/(a)$. 题给解集 $[-2,1]$ 的中点为 $-(1)/(2)$，故 $-(1)/(a)=-(1)/(2)$，解得 $a=2$. 代回可验证 $|2 x+1| <= 3$ 的解集确为 $[-2,1]$.
-+ (2) 由 $a=2$，有 $f(x)=|2 x+1|$，$f((x)/(2))=|x+1|$. 记
-$g(x)=||2 x+1|-2|x+1||$. 按临界点 $-1$，$-(1)/(2)$ 分情况：
-$g(x)=\b e g i n{c a s e s} 1,&x<-1,\\ |4 x+3|,&-1 <= x<-(1)/(2),\\ 1,&x >= -(1)/(2). \e n d{c a s e s}$
-中间区间内 $-1 <= 4 x+3<1$，所以处处有 $g(x) <= 1$，且在区间外恒有 $g(x)=1$. 因此 $g(x)$ 的最大值为 $1$，原不等式对一切实数 $x$ 恒成立的充要条件是 $k >= 1$.
++ (1)
 ]
 

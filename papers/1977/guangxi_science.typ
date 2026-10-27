@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,213 +11,231 @@
 #part-header("解答题")
 
 #problem(1)[
-$x$ 为何值时：
+#mi(`x`) 为何值时：
 
 
-+ (1) $(|x|)/(x)$ 的值是 $1$？
-+ (2) $(|x|)/(x)$ 的值是 $-1$？
-+ (3) $(|x|)/(x)$ 没有意义？
++ (1) 
++ (2)
 ]
 
 #solution[
-根据分母 $x$ 是否为零，分三种情形讨论：
+根据分母 #mi(`x`) 是否为零，分三种情形讨论：
 
 
-+ (1) 当 $x>0$ 时，$|x|=x$，所以 $(|x|)/(x)=1$，故第（1）问的解为 $x>0$.
-+ (2) 当 $x<0$ 时，$|x|=-x$，所以 $(|x|)/(x)=-1$，故第（2）问的解为 $x<0$.
-+ (3) 当 $x=0$ 时分母为零，$(|x|)/(x)$ 没有意义，故第（3）问的解为 $x=0$.
++ (1) 
++ (2)
 ]
 
 #problem(2)[
-不查表求：$\l g2-2\l g4+\l g5+\l g16$ 的值.
+不查表求：#mi(`\lg2-2\lg4+\lg5+\lg16`) 的值.
 ]
 
 #solution[
-由对数的幂运算法则，$\l g4=\l g(2^2)=2\l g2$，$\l g16=\l g(2^4)=4\l g2$. 又因为 $\l g5=\l g(10)/(2)=\l g10-\l g2=1-\l g2$，所以
+由对数的幂运算法则，#mi(`\lg4=\lg\left(2^{2}\right)=2\lg2`)，#mi(`\lg16=\lg\left(2^{4}\right)=4\lg2`). 又因为 #mi(`\lg5=\lg\frac{10}{2}=\lg10-\lg2=1-\lg2`)，所以
 
 
-$ \l g2-2\l g4+\l g5+\l g16=\l g2-4\l g2+(1-\l g2)+4\l g2=1 $
+#align(center)[#mitex(`
+\lg2-2\lg4+\lg5+\lg16=\lg2-4\lg2+(1-\lg2)+4\lg2=1
+`)]
 ]
 
 #problem(3)[
-计算：$cot ( -60^ degree ) sin 240 ""^ degree -2 cos ( -60^ degree )+ tan ""^2 150^ degree$.
+计算：#mi(`\cot\left( -60^{\circ} \right)\sin240^{\circ}-2\cos\left( -60^{\circ} \right)+\tan^{2} 150^{\circ}`).
 ]
 
 #solution[
-利用诱导公式，$cot ( -60^ degree )=- cot 60^ degree =-(sqrt(3))/(3)$，$sin 240 ""^ degree =- sin 60 ""^ degree =-(sqrt(3))/(2)$，$cos ( -60^ degree )= cos 60 ""^ degree =(1)/(2)$，并且 $tan 150 ""^ degree =- tan 30 ""^ degree =-(sqrt(3))/(3)$. 因此
+利用诱导公式，#mi(`\cot\left( -60^{\circ} \right)=-\cot60^{\circ}=-\frac{\sqrt{3}}{3}`)，#mi(`\sin240^{\circ}=-\sin60^{\circ}=-\frac{\sqrt{3}}{2}`)，#mi(`\cos\left( -60^{\circ} \right)=\cos60^{\circ}=\frac{1}{2}`)，并且 #mi(`\tan150^{\circ}=-\tan30^{\circ}=-\frac{\sqrt{3}}{3}`). 因此
 
 
-$ \b e g i n{g a t h e r e d} "原式"=(-(sqrt(3))/(3))(-(sqrt(3))/(2))-2 dot (1)/(2)+(-(sqrt(3))/(3))^2\\ =(1)/(2)-1+(1)/(3)=-(1)/(6)\e n d{g a t h e r e d} $
+#align(center)[#mitex(`
+\begin{gathered}\text{\text{原式}}=\left(-\frac{\sqrt{3}}{3}\right)\left(-\frac{\sqrt{3}}{2}\right)-2\cdot\frac{1}{2}+\left(-\frac{\sqrt{3}}{3}\right)^2\\
+
+=\frac{1}{2}-1+\frac{1}{3}=-\frac{1}{6}\end{gathered}
+`)]
 ]
 
 #problem(4)[
-计算：$( -1(1)/(2))^2+81^((3)/(4))-( -1 )^0\div 0 .2+( -2 )^(-3)$.
+计算：#mi(`\left( -1\frac{1}{2}\right)^{2}+81^{\frac{3}{4}}-\left( -1 \right)^{0}\div0.2+\left( -2 \right)^{-3}`).
 ]
 
 #solution[
-先逐项化简：$(-1(1)/(2))^2=(-(3)/(2))^2=(9)/(4)$，$81^((3)/(4))=(3^4)^((3)/(4))=3^3=27$，$(-1)^0\div 0 .2=1\div(1)/(5)=5$，以及 $(-2)^(-3)=(1)/((-2)^3)=-(1)/(8)$.
+先逐项化简：#mi(`\left(-1\frac{1}{2}\right)^{2}=\left(-\frac{3}{2}\right)^{2}=\frac{9}{4}`)，#mi(`81^{\frac{3}{4}}=\left(3^{4}\right)^{\frac{3}{4}}=3^{3}=27`)，#mi(`\left(-1\right)^{0}\div0.2=1\div\frac{1}{5}=5`)，以及 #mi(`\left(-2\right)^{-3}=\frac{1}{\left(-2\right)^{3}}=-\frac{1}{8}`).
 
-所以原式 $=(9)/(4)+27-5-(1)/(8)=22+(18)/(8)-(1)/(8)=(193)/(8)=24(1)/(8)$.
+所以原式 #mi(`=\frac{9}{4}+27-5-\frac{1}{8}=22+\frac{18}{8}-\frac{1}{8}=\frac{193}{8}=24\frac{1}{8}`).
 ]
 
 #problem(5)[
-求 $A(7,5)$ 和 $B(1,-3)$ 两点间的距离.
+求 #mi(`A\left(7,5\right)`) 和 #mi(`B\left(1,-3\right)`) 两点间的距离.
 ]
 
 #solution[
 由两点间的距离公式，
 
 
-$ |A B|=sqrt((7-1)^2+(5-(-3))^2)=sqrt(6^2+8^2)=sqrt(100)=10 $
+#align(center)[#mitex(`
+|AB|=\sqrt{\left(7-1\right)^{2}+\left(5-\left(-3\right)\right)^{2}}=\sqrt{6^{2}+8^{2}}=\sqrt{100}=10
+`)]
 
 
-所以两点 $A(7,5)$ 和 $B(1,-3)$ 间的距离为 $10$.
+所以两点 #mi(`A\left(7,5\right)`) 和 #mi(`B\left(1,-3\right)`) 间的距离为 #mi(`10`).
 ]
 
 #problem(6)[
-红旗机械厂生产 $360" 台"$ 车床，原计划若干天完成，在党的十一大精神鼓舞下，实际每天比原计划多生产 $12" 台"$，结果提前 $8" 天"$ 完成任务. 问实际每天生产多少台车床？
+红旗机械厂生产 #mi(`360\text{ \text{台}}`) 车床，原计划若干天完成，在党的十一大精神鼓舞下，实际每天比原计划多生产 #mi(`12\text{ \text{台}}`)，结果提前 #mi(`8\text{ \text{天}}`) 完成任务. 问实际每天生产多少台车床？
 ]
 
 #solution[
-设实际每天生产 $x" 台"$ 车床，则原计划每天生产 $(x-12)" 台"$. 由于原计划的日产量为正且实际日产量更多，必须有 $x>12$. 按原计划需要 $(360)/(x-12)$ 天，按实际计划需要 $(360)/(x)$ 天.
+设实际每天生产 #mi(`x\text{ \text{台}}`) 车床，则原计划每天生产 #mi(`\left(x-12\right)\text{ \text{台}}`). 由于原计划的日产量为正且实际日产量更多，必须有 #mi(`x>12`). 按原计划需要 #mi(`\frac{360}{x-12}`) 天，按实际计划需要 #mi(`\frac{360}{x}`) 天.
 
-由实际比原计划提前 $8$ 天，得
-
-
-$ (360)/(x-12)-(360)/(x)=8 $
+由实际比原计划提前 #mi(`8`) 天，得
 
 
-因为 $x>12$，分母 $x(x-12) != 0$，可以去分母，得到 $360 x-360(x-12)=8 x(x-12)$，即 $8 x^2-96 x-4320=0$. 两边同除以 $8$，得
+#align(center)[#mitex(`
+\frac{360}{x-12}-\frac{360}{x}=8
+`)]
 
-$x^2-12 x-540=0$，$(x-30)(x+18)=0$，
 
-所以 $x=30$ 或 $x=-18$. 因为 $x>12$，舍去 $x=-18$，保留 $x=30$. 代回检验时，原计划日产量为 $30-12=18$ 台，原计划用时 $360\div 18 =20$ 天，实际用时 $360\div 30 =12$ 天，确实提前 $20-12=8$ 天.
+因为 #mi(`x>12`)，分母 #mi(`x\left(x-12\right)\ne0`)，可以去分母，得到 #mi(`360x-360\left(x-12\right)=8x\left(x-12\right)`)，即 #mi(`8x^{2}-96x-4320=0`). 两边同除以 #mi(`8`)，得
 
-答：实际每天生产 $30" 台"$ 车床.
+#mi(`x^{2}-12x-540=0`)，#mi(`\left(x-30\right)\left(x+18\right)=0`)，
+
+所以 #mi(`x=30`) 或 #mi(`x=-18`). 因为 #mi(`x>12`)，舍去 #mi(`x=-18`)，保留 #mi(`x=30`). 代回检验时，原计划日产量为 #mi(`30-12=18`) 台，原计划用时 #mi(`360\div18=20`) 天，实际用时 #mi(`360\div30=12`) 天，确实提前 #mi(`20-12=8`) 天.
+
+答：实际每天生产 #mi(`30\text{ \text{台}}`) 车床.
 ]
 
 #problem(7)[
-在四边形 $A B C D$ 中，$E$，$F$ 分别是对角线 $A C$，$B D$ 的中点，$M$，$N$ 分别是 $A B$，$C D$ 的中点，求证 $E F$ 与 $M N$ 互相平分.
+在四边形 #mi(`ABCD`) 中，#mi(`E`)，#mi(`F`) 分别是对角线 #mi(`AC`)，#mi(`BD`) 的中点，#mi(`M`)，#mi(`N`) 分别是 #mi(`AB`)，#mi(`CD`) 的中点，求证 #mi(`EF`) 与 #mi(`MN`) 互相平分.
 
-
-#align(center)[#image("/papers/1977/img/guangxi_science/q7_fig1.png", width: 5.6cm)]
+[max width=5.6cm]img/1977/guangxi_science/q7_fig1.png
 ]
 
 #solution[
-连接 $E M$，$E N$，$F M$，$F N$. 在三角形 $A C D$ 中，$E$ 和 $N$ 分别是边 $A C$ 和 $C D$ 的中点. 由三角形中位线定理，$E N parallel A D$，且 $E N=(1)/(2)A D$.
+连接 #mi(`EM`)，#mi(`EN`)，#mi(`FM`)，#mi(`FN`). 在三角形 #mi(`ACD`) 中，#mi(`E`) 和 #mi(`N`) 分别是边 #mi(`AC`) 和 #mi(`CD`) 的中点. 由三角形中位线定理，#mi(`EN\parallel AD`)，且 #mi(`EN=\frac{1}{2}AD`).
 
-在三角形 $A B D$ 中，$M$ 和 $F$ 分别是边 $A B$ 和 $B D$ 的中点. 由三角形中位线定理，$M F parallel A D$，且 $M F=(1)/(2)A D$. 因此 $M F parallel E N$ 且 $M F=E N$. 四边形 $M F N E$ 有一组对边平行且相等，所以是平行四边形.
+在三角形 #mi(`ABD`) 中，#mi(`M`) 和 #mi(`F`) 分别是边 #mi(`AB`) 和 #mi(`BD`) 的中点. 由三角形中位线定理，#mi(`MF\parallel AD`)，且 #mi(`MF=\frac{1}{2}AD`). 因此 #mi(`MF\parallel EN`) 且 #mi(`MF=EN`). 四边形 #mi(`MFNE`) 有一组对边平行且相等，所以是平行四边形.
 
-在平行四边形 $M F N E$ 中，$M N$ 和 $F E$ 正好是两条对角线. 平行四边形的两条对角线互相平分，所以 $E F$ 与 $M N$ 互相平分.
+在平行四边形 #mi(`MFNE`) 中，#mi(`MN`) 和 #mi(`FE`) 正好是两条对角线. 平行四边形的两条对角线互相平分，所以 #mi(`EF`) 与 #mi(`MN`) 互相平分.
 ]
 
 #problem(8)[
-已知正四棱锥底面边长为 $6" 厘米"$，侧棱是高的 $2$ 倍. 求这棱锥的体积. （精确到 $0.1" 立方厘米"$）.
+已知正四棱锥底面边长为 #mi(`6\text{ \text{厘米}}`)，侧棱是高的 #mi(`2`) 倍. 求这棱锥的体积. （精确到 #mi(`0.1\text{ \text{立方厘米}}`)）.
 
-
-#align(center)[#image("/papers/1977/img/guangxi_science/q8_fig1.png", width: 4.8cm)]
+[max width=4.8cm]img/1977/guangxi_science/q8_fig1.png
 ]
 
 #solution[
-设正四棱锥为 $V"-"A B C D$，底面中心为 $O$，高为 $V O$. 因为底面 $A B C D$ 是边长为 $6" 厘米"$ 的正方形，且 $O$ 是其对角线交点，正方形的两条对角线互相垂直且平分，所以在直角三角形 $A O D$ 中，$A O=D O$，$angle A O D=90^ degree$，从而
+设正四棱锥为 #mi(`V\text{-}ABCD`)，底面中心为 #mi(`O`)，高为 #mi(`VO`). 因为底面 #mi(`ABCD`) 是边长为 #mi(`6\text{ \text{厘米}}`) 的正方形，且 #mi(`O`) 是其对角线交点，正方形的两条对角线互相垂直且平分，所以在直角三角形 #mi(`AOD`) 中，#mi(`AO=DO`)，#mi(`\angle AOD=90^{\circ}`)，从而
 
-$2 A O^2=A D^2=6^2$，$A O^2=18$
+#mi(`2AO^{2}=AD^{2}=6^{2}`)，#mi(`AO^{2}=18`)
 
-在直角三角形 $V O A$ 中，侧棱是高的 $2$ 倍，即 $V A=2 V O$，由勾股定理有 $V A^2=V O^2+A O^2$. 因此 $4 V O^2=V O^2+18$，解得 $V O^2=6$，由于高为正，$V O=sqrt(6)" 厘米"$.
+在直角三角形 #mi(`VOA`) 中，侧棱是高的 #mi(`2`) 倍，即 #mi(`VA=2VO`)，由勾股定理有 #mi(`VA^{2}=VO^{2}+AO^{2}`). 因此 #mi(`4VO^{2}=VO^{2}+18`)，解得 #mi(`VO^{2}=6`)，由于高为正，#mi(`VO=\sqrt{6}\text{ \text{厘米}}`).
 
-棱锥的底面积为 $6^2=36" 平方厘米"$，所以体积为
-
-
-$ V_("棱锥")=(1)/(3) times 36 \t i m e s s q r t(6)=12 sqrt(6)" 立方厘米" approx 29 .3939" 立方厘米" $
+棱锥的底面积为 #mi(`6^{2}=36\text{ \text{平方厘米}}`)，所以体积为
 
 
-精确到 $0.1" 立方厘米"$ 时，$29.3939\l d o t s$ 应四舍五入为 $29.4$.
+#align(center)[#mitex(`
+V_{\text{\text{棱锥}}}=\frac{1}{3}\times36\times\sqrt{6}=12\sqrt{6}\text{ \text{立方厘米}}\approx29.3939\text{ \text{立方厘米}}
+`)]
 
-答：这棱锥的体积约为 $29.4" 立方厘米"$.
+
+精确到 #mi(`0.1\text{ \text{立方厘米}}`) 时，#mi(`29.3939\ldots`) 应四舍五入为 #mi(`29.4`).
+
+答：这棱锥的体积约为 #mi(`29.4\text{ \text{立方厘米}}`).
 ]
 
 #problem(9)[
-把一块钢板冲成上面是半圆形，下面是矩形的零件，已知零件的周长是 $P$，怎样才能使冲出的零件面积最大？
+把一块钢板冲成上面是半圆形，下面是矩形的零件，已知零件的周长是 #mi(`P`)，怎样才能使冲出的零件面积最大？
 
-
-#align(center)[#image("/papers/1977/img/guangxi_science/q9_fig1.png", width: 6.0cm)]
+[max width=6.0cm]img/1977/guangxi_science/q9_fig1.png
 ]
 
 #solution[
-设半圆的直径（也是矩形的宽）为 $x$，矩形的高为 $h$，零件面积为 $S$. 半圆的弧长为 $(pi x)/(2)$，所以周长条件给出 $(pi x)/(2)+x+2 h=P$，即
+设半圆的直径（也是矩形的宽）为 #mi(`x`)，矩形的高为 #mi(`h`)，零件面积为 #mi(`S`). 半圆的弧长为 #mi(`\frac{\pi x}{2}`)，所以周长条件给出 #mi(`\frac{\pi x}{2}+x+2h=P`)，即
 
 
-$ h=(1)/(2)(P-(pi x)/(2)-x)=(2 P-( pi +2)x)/(4) $
+#align(center)[#mitex(`
+h=\frac{1}{2}\left(P-\frac{\pi x}{2}-x\right)=\frac{2P-\left(\pi+2\right)x}{4}
+`)]
 
 
-由于周长 $P>0$，且 $x>0$ 与 $h>0$，变量范围为 $0<x<(2 P)/(pi +2)$. 半圆面积为 $(pi)/(8)x^2$，矩形面积为 $x h$，因此
+由于周长 #mi(`P>0`)，且 #mi(`x>0`) 与 #mi(`h>0`)，变量范围为 #mi(`0<x<\frac{2P}{\pi+2}`). 半圆面积为 #mi(`\frac{\pi}{8}x^{2}`)，矩形面积为 #mi(`xh`)，因此
 
 
-$ \b e g i n{g a t h e r e d} S=(pi)/(8)x^2+x dot (2 P-( pi +2)x)/(4)\\ =-(pi +4)/(8)x^2+(P)/(2)x\\ =-(pi +4)/(8)(x-(2 P)/(pi +4))^2+(P^2)/(2( pi +4))\e n d{g a t h e r e d} $
+#align(center)[#mitex(`
+\begin{gathered}S=\frac{\pi}{8}x^2+x\cdot\frac{2P-\left(\pi+2\right)x}{4}\\
+
+=-\frac{\pi+4}{8}x^2+\frac{P}{2}x\\
+
+=-\frac{\pi+4}{8}\left(x-\frac{2P}{\pi+4}\right)^2+\frac{P^{2}}{2\left(\pi+4\right)}\end{gathered}
+`)]
 
 
-因为 $pi +4>0$，平方项前的系数为负，所以当 $x=(2 P)/(pi +4)$ 时面积取得最大值. 这个值满足可行范围，因为 $pi +4> pi +2$. 此时矩形的高为
+因为 #mi(`\pi+4>0`)，平方项前的系数为负，所以当 #mi(`x=\frac{2P}{\pi+4}`) 时面积取得最大值. 这个值满足可行范围，因为 #mi(`\pi+4>\pi+2`). 此时矩形的高为
 
 
-$ h=(2 P-( pi +2)(2 P)/(pi +4))/(4)=(P)/(pi +4) $
+#align(center)[#mitex(`
+h=\frac{2P-\left(\pi+2\right)\frac{2P}{\pi+4}}{4}=\frac{P}{\pi+4}
+`)]
 
 
-于是矩形的宽与高之比为 $x:h=(2 P)/(pi +4):(P)/(pi +4)=2:1$.
+于是矩形的宽与高之比为 #mi(`x:h=\frac{2P}{\pi+4}:\frac{P}{\pi+4}=2:1`).
 
-答：当矩形的宽与高之比为 $2:1$ 时，冲出的零件面积最大.
+答：当矩形的宽与高之比为 #mi(`2:1`) 时，冲出的零件面积最大.
 ]
 
 #part-header("选作题")
 
 #problem(10)[
-解方程组 $\b e g i n{c a s e s} root(3, (x+y)^2)+2 root(3, (x-y)^2)=3 root(3, x^2-y^2),\\ 3 x-2 y=13 \e n d{c a s e s}$.
+解方程组 #mi(`\begin{cases}\sqrt[3]{\left(x+y\right)^2}+2\sqrt[3]{\left(x-y\right)^2}=3\sqrt[3]{x^2-y^2},\\  3x-2y=13\end{cases}`).
 ]
 
 #solution[
-设 $a=root(3, x+y)$，$b=root(3, x-y)$. 因为 $x^2-y^2=(x+y)(x-y)$，且实数的立方根满足乘法关系，所以
-$root(3, (x+y)^2)=a^2$，$root(3, (x-y)^2)=b^2$，$root(3, x^2-y^2)=a b$. 原方程组等价于
+设 #mi(`a=\sqrt[3]{x+y}`)，#mi(`b=\sqrt[3]{x-y}`). 因为 #mi(`x^{2}-y^{2}=\left(x+y\right)\left(x-y\right)`)，且实数的立方根满足乘法关系，所以
+
+#mi(`\sqrt[3]{\left(x+y\right)^{2}}=a^{2}`)，#mi(`\sqrt[3]{\left(x-y\right)^{2}}=b^{2}`)，#mi(`\sqrt[3]{x^{2}-y^{2}}=ab`). 原方程组等价于
 
 
-$ \b e g i n{c a s e s} a^2+2 b^2=3 a b,\\ 3 x-2 y=13 \e n d{c a s e s} $
+#align(center)[#mitex(`
+\begin{cases}a^{2}+2b^{2}=3ab,\\  3x-2y=13\end{cases}
+`)]
 
 
-将第一式移项并因式分解，得 $a^2-3 a b+2 b^2=0$，即 $(a-b)(a-2 b)=0$. 所以需要分别求解下面两种情形.
+将第一式移项并因式分解，得 #mi(`a^{2}-3ab+2b^{2}=0`)，即 #mi(`\left(a-b\right)\left(a-2b\right)=0`). 所以需要分别求解下面两种情形.
 
 
-+ (1) 当 $a-b=0$ 时，$a=b$. 立方根函数在实数上单调递增，因此 $x+y=x-y$，从而 $y=0$. 代入第二个方程得 $3 x=13$，所以 $x=(13)/(3)$. 这一情形给出 $(x,y)=((13)/(3),0)$.
-+ (2) 当 $a-2 b=0$ 时，$a=2 b$. 两边立方得 $x+y=8(x-y)$，即 $7 x-9 y=0$. 联立第二个方程，得
++ (1) 
 
 
-$ \b e g i n{c a s e s} 7 x-9 y=0,\\ 3 x-2 y=13, \e n d{c a s e s} y=(7 x)/(9), 3 x-(14 x)/(9)=13, x=9, y=7 $
 
-
-得到 $(x,y)=(9,7)$. 直接代入核对：当 $(x,y)=((13)/(3),0)$ 时 $a=b$；当 $(x,y)=(9,7)$ 时 $x+y=16$，$x-y=2$，故 $a=root(3, 16)=2 root(3, 2)=2 b$. 两组解都满足 $3 x-2 y=13$，所以没有遗漏.
-
-
-答：原方程组的解为 $(x,y)=((13)/(3),0)$ 或 $(x,y)=(9,7)$.
+答：原方程组的解为 #mi(`\left(x,y\right)=\left(\frac{13}{3},0\right)`) 或 #mi(`\left(x,y\right)=\left(9,7\right)`).
 ]
 
 #problem(11)[
-线段 $A B$ 之三等分点依次为 $C$，$D$，以 $C D$ 为直径画圆，在圆周上任取一点 $P$. 求证 $tan angle A P C dot tan angle B P D=(1)/(4)$.
+线段 #mi(`AB`) 之三等分点依次为 #mi(`C`)，#mi(`D`)，以 #mi(`CD`) 为直径画圆，在圆周上任取一点 #mi(`P`). 求证 #mi(`\tan\angle APC\cdot\tan\angle BPD=\frac{1}{4}`).
 
-
-#align(center)[#image("/papers/1977/img/guangxi_science/q11_fig1.png", width: 8.0cm)]
+[max width=8.0cm]img/1977/guangxi_science/q11_fig1.png
 ]
 
 #solution[
-以下取 $P in.not \{C,D\}$，否则题中的正切无意义. 设 $A C=C D=D B=a$，于是 $A D=2 a$，$B C=2 a$. 因为 $C D$ 是所作圆的直径，且 $P$ 在圆周上，由圆周角定理得 $angle C P D=90^ degree$，即 $P C bot P D$.
+以下取 #mi(`P\notin\{C,D\}`)，否则题中的正切无意义. 设 #mi(`AC=CD=DB=a`)，于是 #mi(`AD=2a`)，#mi(`BC=2a`). 因为 #mi(`CD`) 是所作圆的直径，且 #mi(`P`) 在圆周上，由圆周角定理得 #mi(`\angle CPD=90^{\circ}`)，即 #mi(`PC\perp PD`).
 
-过 $D$ 作 $D E parallel C P$，交 $P B$ 于 $E$. 在三角形 $B C P$ 中，$D$ 在 $B C$ 上，$E$ 在 $B P$ 上，且 $D E parallel C P$，所以三角形 $B D E$ 与三角形 $B C P$ 相似. 相似比为
-$(B D)/(B C)=(a)/(2 a)=(1)/(2)$，从而 $D E=(1)/(2)C P$. 又因 $D E parallel C P$ 且 $C P bot P D$，所以 $D E bot P D$，三角形 $P D E$ 是直角三角形，故
-$tan angle B P D=(D E)/(P D)$.
+过 #mi(`D`) 作 #mi(`DE\parallel CP`)，交 #mi(`PB`) 于 #mi(`E`). 在三角形 #mi(`BCP`) 中，#mi(`D`) 在 #mi(`BC`) 上，#mi(`E`) 在 #mi(`BP`) 上，且 #mi(`DE\parallel CP`)，所以三角形 #mi(`BDE`) 与三角形 #mi(`BCP`) 相似. 相似比为
 
-过 $C$ 作 $C F parallel D P$，交 $P A$ 于 $F$. 在三角形 $A D P$ 中，$C$ 在 $A D$ 上，$F$ 在 $A P$ 上，且 $C F parallel D P$，所以三角形 $A C F$ 与三角形 $A D P$ 相似. 相似比为
-$(A C)/(A D)=(a)/(2 a)=(1)/(2)$，从而 $C F=(1)/(2)D P$. 又因 $C F parallel D P$ 且 $D P bot P C$，所以 $C F bot P C$，三角形 $P C F$ 是直角三角形，故 $tan angle A P C=(C F)/(P C)$.
+#mi(`\frac{BD}{BC}=\frac{a}{2a}=\frac{1}{2}`)，从而 #mi(`DE=\frac{1}{2}CP`). 又因 #mi(`DE\parallel CP`) 且 #mi(`CP\perp PD`)，所以 #mi(`DE\perp PD`)，三角形 #mi(`PDE`) 是直角三角形，故
+
+#mi(`\tan\angle BPD=\frac{DE}{PD}`).
+
+过 #mi(`C`) 作 #mi(`CF\parallel DP`)，交 #mi(`PA`) 于 #mi(`F`). 在三角形 #mi(`ADP`) 中，#mi(`C`) 在 #mi(`AD`) 上，#mi(`F`) 在 #mi(`AP`) 上，且 #mi(`CF\parallel DP`)，所以三角形 #mi(`ACF`) 与三角形 #mi(`ADP`) 相似. 相似比为
+
+#mi(`\frac{AC}{AD}=\frac{a}{2a}=\frac{1}{2}`)，从而 #mi(`CF=\frac{1}{2}DP`). 又因 #mi(`CF\parallel DP`) 且 #mi(`DP\perp PC`)，所以 #mi(`CF\perp PC`)，三角形 #mi(`PCF`) 是直角三角形，故 #mi(`\tan\angle APC=\frac{CF}{PC}`).
 
 因此
 
 
-$ tan angle A P C dot tan angle B P D=(C F)/(P C) dot (D E)/(P D)=((1)/(2)D P)/(P C) dot ((1)/(2)C P)/(P D)=(1)/(4) $
+#align(center)[#mitex(`
+\tan\angle APC\cdot\tan\angle BPD=\frac{CF}{PC}\cdot\frac{DE}{PD}=\frac{\frac{1}{2}DP}{PC}\cdot\frac{\frac{1}{2}CP}{PD}=\frac{1}{4}
+`)]
 
 
 证毕.

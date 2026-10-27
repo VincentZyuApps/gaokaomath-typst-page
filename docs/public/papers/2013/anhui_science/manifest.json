@@ -1,144 +1,15 @@
 {
+  "title": "2013年普通高等学校招生全国统一考试",
+  "subtitle": "2013年安徽卷（理）",
   "year": "2013",
   "slug": "anhui_science",
-  "title": "2013年安徽卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "设 $\\mathrm{i}$ 是虚数单位，$\\overline{z}$ 是复数 $z$ 的共轭复数，若 $z \\cdot \\overline{z}\\mathrm{i} + 2 = 2z$，则 $z =$（ ）",
+          "body": "设 $\\mathrm{i}$ 是虚数单位，$\\overline{z}$ 是复数 $z$ 的共轭复数，若 $z \\cdot \\overline{z}\\mathrm{i}+ 2 = 2z$，则 $z =$（ ）",
           "choices": [
             "$1 + \\mathrm{i}$",
             "$1 - \\mathrm{i}$",
@@ -146,13 +17,11 @@
             "$-1 - \\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "设 $z=u+v\\mathrm{i}$，其中 $u$，$v\\in\\mathbb{R}$，则 $\\overline{z}=u-v\\mathrm{i}$，且\r\n\n$$\nz\\overline{z}\\mathrm{i}+2=(u^2+v^2)\\mathrm{i}+2=2u+2v\\mathrm{i}\n$$\n\r\n比较实部与虚部，得\r\n$2u=2$，$u^2+v^2=2v$.\r\n所以 $u=1$，且 $1+v^2=2v$，即 $(v-1)^2=0$，从而 $v=1$. 因此 $z=1+\\mathrm{i}$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $z=u+v\\mathrm{i}$，其中 $u$，$v\\in\\mathbb{R}$，则 $\\overline{z}=u-v\\mathrm{i}$，且</p>\n$$\nz\\overline{z}\\mathrm{i}+2=(u^{2}+v^{2})\\mathrm{i}+2=2u+2v\\mathrm{i}\n$$\n<p>比较实部与虚部，得</p><p>$2u=2$，$u^{2}+v^{2}=2v$.</p><p>所以 $u=1$，且 $1+v^{2}=2v$，即 $(v-1)^{2}=0$，从而 $v=1$. 因此 $z=1+\\mathrm{i}$，选 A.</p>"
         },
         {
           "num": 2,
-          "body": "如图所示，程序框图（算法流程图）的输出结果是（ ）\r\n\r\n\\texfigure[max width=0.40\\linewidth]{img_repaint/2013/anhui_science/q2_fig1.tex}",
+          "body": "<p>如图所示，程序框图（算法流程图）的输出结果是（ ）</p><p><span class=\"macro macro-texfigure\"></span>[max width=0.40<span class=\"macro macro-linewidth\"></span>]img_repaint/2013/anhui_science/q2_fig1.tex</p>",
           "choices": [
             "$\\frac{1}{6}$",
             "$\\frac{25}{24}$",
@@ -160,13 +29,11 @@
             "$\\frac{11}{12}$"
           ],
           "answer": "D",
-          "solution": "流程开始时 $s=0$，$n=2$. 当 $n<8$ 时，依次执行 $s\\leftarrow s+\\dfrac{1}{n}$ 和 $n\\leftarrow n+2$：\r\n$s=\\frac12$，$n=4$；$s=\\frac12+\\frac14=\\frac34$，$n=6$；\r\n$s=\\frac34+\\frac16=\\frac{11}{12}$，$n=8$.\r\n此时不满足 $n<8$，循环结束，输出 $\\dfrac{11}{12}$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>流程开始时 $s=0$，$n=2$. 当 $n&#x3C;8$ 时，依次执行 $s\\leftarrow s+\\dfrac{1}{n}$ 和 $n\\leftarrow n+2$：</p><p>$s=\\frac{1}{2}$，$n=4$；$s=\\frac{1}{2}+\\frac{1}{4}=\\frac{3}{4}$，$n=6$；</p><p>$s=\\frac{3}{4}+\\frac{1}{6}=\\frac{11}{12}$，$n=8$.</p><p>此时不满足 $n&#x3C;8$，循环结束，输出 $\\dfrac{11}{12}$，选 D.</p>"
         },
         {
           "num": 3,
-          "body": "在下列命题中，不是公理的是（ ）",
+          "body": "在下列命题中，不是公理的是（ ）",
           "choices": [
             "平行于同一个平面的两个平面相互平行",
             "过不在同一条直线上的三点，有且只有一个平面",
@@ -174,13 +41,11 @@
             "如果两个不重合的平面有一个公共点，那么它们有且只有一条过该点的公共直线"
           ],
           "answer": "A",
-          "solution": "选项 B、C、D 分别是“过不在同一直线上的三点确定一个平面”“直线上两点在平面内则直线在平面内”和“两相交平面的交集为过公共点的一条直线”等空间基本公理.\r\n\r\n选项 A“平行于同一个平面的两个平面相互平行”是由平行平面的性质得到的结论，不是公理. 因此选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>选项 B、C、D 分别是“过不在同一直线上的三点确定一个平面”“直线上两点在平面内则直线在平面内”和“两相交平面的交集为过公共点的一条直线”等空间基本公理.</p><p>选项 A“平行于同一个平面的两个平面相互平行”是由平行平面的性质得到的结论，不是公理. 因此选 A.</p>"
         },
         {
           "num": 4,
-          "body": "“$a \\le 0$”是“函数 $f(x) = |(ax - 1)x|$ 在区间 $(0, +\\infty)$ 内单调递增”的（ ）",
+          "body": "“$a \\le 0$”是“函数 $f(x) = |(ax - 1)x|$ 在区间 $(0, +\\infty)$ 内单调递增”的（ ）",
           "choices": [
             "充分不必要条件",
             "必要不充分条件",
@@ -188,13 +53,11 @@
             "既不充分也不必要条件"
           ],
           "answer": "C",
-          "solution": "当 $a\\leqslant0$ 且 $x>0$ 时，$ax-1<0$，所以\r\n$f(x)=x(1-ax)$，$f'(x)=1-2ax\\geqslant1>0$.\r\n因此 $f(x)$ 在 $(0,+\\infty)$ 内单调递增.\r\n\r\n反之，若 $a>0$，取\r\n$x_1=\\frac{1}{2a}$，$x_2=\\frac{3}{4a}$，\r\n则 $0<x_1<x_2<\\dfrac1a$，并且\r\n$f(x_1)=x_1(1-ax_1)=\\frac{1}{4a}$，$f(x_2)=x_2(1-ax_2)=\\frac{3}{16a}<\\frac{1}{4a}=f(x_1)$.\r\n故此时函数不单调递增. 于是 $a\\leqslant0$ 是所述单调性的充分必要条件，选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>当 $a\\leqslant0$ 且 $x>0$ 时，$ax-1&#x3C;0$，所以</p><p>$f(x)=x(1-ax)$，$f'(x)=1-2ax\\geqslant1>0$.</p><p>因此 $f(x)$ 在 $(0,+\\infty)$ 内单调递增.</p><p>反之，若 $a>0$，取</p><p>$x_{1}=\\frac{1}{2a}$，$x_{2}=\\frac{3}{4a}$，</p><p>则 $0&#x3C;x_{1}&#x3C;x_{2}&#x3C;\\dfrac{1}{a}$，并且</p><p>$f(x_{1})=x_{1}(1-ax_{1})=\\frac{1}{4a}$，$f(x_{2})=x_{2}(1-ax_{2})=\\frac{3}{16a}&#x3C;\\frac{1}{4a}=f(x_{1})$.</p><p>故此时函数不单调递增. 于是 $a\\leqslant0$ 是所述单调性的充分必要条件，选 C.</p>"
         },
         {
           "num": 5,
-          "body": "某班级有 50 名学生，其中有 30 名男生和 20 名女生，随机询问了该班五名男生和五名女生在某次数学测验中的成绩，五名男生的成绩分别为 86，94，88，92，90. 五名女生的成绩分别为 88，93，93，88，93. 下列说法一定正确的是（ ）",
+          "body": "某班级有 50 名学生，其中有 30 名男生和 20 名女生，随机询问了该班五名男生和五名女生在某次数学测验中的成绩，五名男生的成绩分别为 86，94，88，92，90. 五名女生的成绩分别为 88，93，93，88，93. 下列说法一定正确的是（ ）",
           "choices": [
             "这种抽样方法是一种分层抽样",
             "这种抽样方法是一种系统抽样",
@@ -202,27 +65,23 @@
             "该班男生成绩的平均数小于该班女生成绩的平均数"
           ],
           "answer": "C",
-          "solution": "分层抽样要求各层按总体人数比例抽取，男生、女生人数之比为 $30:20=3:2$，而样本人数之比为 $5:5=1:1$，所以选项 A 不正确；题目没有给出编号和按固定间隔抽取的过程，不能认定为系统抽样，选项 B 也不一定正确.\r\n\r\n五名男生的平均成绩为\r\n\n$$\n\\overline{x}_{\\text{男}}=\\frac{86+94+88+92+90}{5}=90\n$$\n\r\n方差为\r\n\n$$\ns_{\\text{男}}^2=\\frac{(-4)^2+4^2+(-2)^2+2^2+0^2}{5}=8\n$$\n\r\n五名女生的平均成绩为\r\n\n$$\n\\overline{x}_{\\text{女}}=\\frac{88+93+93+88+93}{5}=91\n$$\n\r\n方差为\r\n\n$$\ns_{\\text{女}}^2=\\frac{(-3)^2+2^2+2^2+(-3)^2+2^2}{5}=6\n$$\n\r\n所以 $s_{\\text{男}}^2>s_{\\text{女}}^2$. 样本平均数不能推出全班男女生成绩平均数的大小，故一定正确的是 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分层抽样要求各层按总体人数比例抽取，男生、女生人数之比为 $30:20=3:2$，而样本人数之比为 $5:5=1:1$，所以选项 A 不正确；题目没有给出编号和按固定间隔抽取的过程，不能认定为系统抽样，选项 B 也不一定正确.</p><p>五名男生的平均成绩为</p>\n$$\n\\overline{x}_{\\text{男}}=\\frac{86+94+88+92+90}{5}=90\n$$\n<p>方差为</p>\n$$\ns_{\\text{男}}^{2}=\\frac{(-4)^{2}+4^{2}+(-2)^{2}+2^{2}+0^{2}}{5}=8\n$$\n<p>五名女生的平均成绩为</p>\n$$\n\\overline{x}_{\\text{女}}=\\frac{88+93+93+88+93}{5}=91\n$$\n<p>方差为</p>\n$$\ns_{\\text{女}}^{2}=\\frac{(-3)^{2}+2^{2}+2^{2}+(-3)^{2}+2^{2}}{5}=6\n$$\n<p>所以 $s_{\\text{男}}^{2}>s_{\\text{女}}^{2}$. 样本平均数不能推出全班男女生成绩平均数的大小，故一定正确的是 C.</p>"
         },
         {
           "num": 6,
-          "body": "已知一元二次不等式 $f(x) < 0$ 的解集为 $\\left\\{x \\mid x < -1 \\text{\\ 或\\ } x > \\frac{1}{2}\\right\\}$，则 $f(10^x) > 0$ 的解集为（ ）",
+          "body": "已知一元二次不等式 $f(x) &#x3C; 0$ 的解集为 $\\left\\{x \\mid x &#x3C; -1 \\text{\\ 或\\ }x > \\frac{1}{2}\\right\\}$，则 $f(10^{x}) > 0$ 的解集为（ ）",
           "choices": [
-            "$\\{x \\mid x < -1 \\text{\\ 或\\ } x > -\\lg 2\\}$",
-            "$\\{x \\mid -1 < x < -\\lg 2\\}$",
+            "$\\{x \\mid x &#x3C; -1 \\text{\\ 或\\ }x > -\\lg 2\\}$",
+            "$\\{x \\mid -1 &#x3C; x &#x3C; -\\lg 2\\}$",
             "$\\{x \\mid x > -\\lg 2\\}$",
-            "$\\{x \\mid x < -\\lg 2\\}$"
+            "$\\{x \\mid x &#x3C; -\\lg 2\\}$"
           ],
           "answer": "D",
-          "solution": "由题意，二次函数 $f(t)$ 在区间 $(-\\infty,-1)\\cup\\left(\\dfrac12,+\\infty\\right)$ 上为负，因此在两根之间为正，即\r\n\n$$\nf(t)>0\\Longleftrightarrow -1<t<\\frac12\n$$\n\r\n令 $t=10^x$，由于 $10^x>0$，不等式 $-1<10^x<\\dfrac12$ 等价于\r\n\n$$\n10^x<\\frac12\\Longleftrightarrow x<\\lg\\frac12=-\\lg2\n$$\n\r\n所以解集为 $\\{x\\mid x<-\\lg2\\}$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由题意，二次函数 $f(t)$ 在区间 $(-\\infty,-1)\\cup\\left(\\dfrac{1}{2},+\\infty\\right)$ 上为负，因此在两根之间为正，即</p>\n$$\nf(t)>0\\Longleftrightarrow -1&#x3C;t&#x3C;\\frac{1}{2}\n$$\n<p>令 $t=10^{x}$，由于 $10^{x}>0$，不等式 $-1&#x3C;10^{x}&#x3C;\\dfrac{1}{2}$ 等价于</p>\n$$\n10^{x}&#x3C;\\frac{1}{2}\\Longleftrightarrow x&#x3C;\\lg\\frac{1}{2}=-\\lg2\n$$\n<p>所以解集为 $\\{x\\mid x&#x3C;-\\lg2\\}$，选 D.</p>"
         },
         {
           "num": 7,
-          "body": "在极坐标系中，圆 $\\rho = 2\\cos \\theta$ 的垂直于极轴的两条切线方程分别为（ ）",
+          "body": "在极坐标系中，圆 $\\rho = 2\\cos \\theta$ 的垂直于极轴的两条切线方程分别为（ ）",
           "choices": [
             "$\\theta = 0$（$\\rho \\in \\mathbb{R}$）和 $\\rho \\cos \\theta = 2$",
             "$\\theta = \\frac{\\pi}{2}$（$\\rho \\in \\mathbb{R}$）和 $\\rho \\cos \\theta = 2$",
@@ -230,13 +89,11 @@
             "$\\theta = 0$（$\\rho \\in \\mathbb{R}$）和 $\\rho \\cos \\theta = 1$"
           ],
           "answer": "B",
-          "solution": "由极坐标关系 $x=\\rho\\cos\\theta$，将 $\\rho=2\\cos\\theta$ 化为\r\n\n$$\n\\rho^2=2\\rho\\cos\\theta\\Longleftrightarrow x^2+y^2=2x\r\n\\Longleftrightarrow (x-1)^2+y^2=1\n$$\n\r\n这是圆心为 $(1,0)$、半径为 $1$ 的圆. 其垂直于极轴，即垂直于 $x$ 轴的两条切线为 $x=0$ 和 $x=2$.\r\n\r\n其中 $x=0$ 的极坐标方程可写为 $\\theta=\\dfrac\\pi2$（$\\rho\\in\\mathbb{R}$），而 $x=2$ 的极坐标方程为 $\\rho\\cos\\theta=2$. 因此选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由极坐标关系 $x=\\rho\\cos\\theta$，将 $\\rho=2\\cos\\theta$ 化为</p>\n$$\n\\rho^{2}=2\\rho\\cos\\theta\\Longleftrightarrow x^{2}+y^{2}=2x  \\Longleftrightarrow (x-1)^{2}+y^{2}=1\n$$\n<p>这是圆心为 $(1,0)$、半径为 $1$ 的圆. 其垂直于极轴，即垂直于 $x$ 轴的两条切线为 $x=0$ 和 $x=2$.</p><p>其中 $x=0$ 的极坐标方程可写为 $\\theta=\\dfrac\\pi2$（$\\rho\\in\\mathbb{R}$），而 $x=2$ 的极坐标方程为 $\\rho\\cos\\theta=2$. 因此选 B.</p>"
         },
         {
           "num": 8,
-          "body": "函数 $y = f(x)$ 的图象如图所示，在区间 $[a, b]$ 上可找到 $n$（$n \\ge 2$） 个不同的数 $x_1$，$x_2$，$\\cdots$，$x_n$，使得 $\\frac{f(x_1)}{x_1} = \\frac{f(x_2)}{x_2} = \\cdots = \\frac{f(x_n)}{x_n}$，则 $n$ 的取值范围为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>函数 $y = f(x)$ 的图象如图所示，在区间 $[a, b]$ 上可找到 $n$（$n \\ge 2$） 个不同的数 $x_{1}$，$x_{2}$，$\\cdots$，$x_{n}$，使得 $\\frac{f(x_{1})}{x_{1}}= \\frac{f(x_{2})}{x_{2}}= \\cdots = \\frac{f(x_{n})}{x_{n}}$，则 $n$ 的取值范围为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q8_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\{2, 3\\}$",
             "$\\{2, 3, 4\\}$",
@@ -244,13 +101,11 @@
             "$\\{3, 4, 5\\}$"
           ],
           "answer": "B",
-          "solution": "因为区间 $[a,b]$ 位于纵轴右侧，故 $x>0$，且图象位于 $x$ 轴上方，所以公共比值 $k$ 必须满足 $k\\geqslant0$. 等式\r\n\n$$\n\\frac{f(x_1)}{x_1}=\\frac{f(x_2)}{x_2}=\\cdots=\\frac{f(x_n)}{x_n}=k\n$$\n\r\n表示直线 $y=kx$ 与曲线 $y=f(x)$ 有 $n$ 个不同交点. 直接观察图象可知，任意过原点的直线与该曲线的交点数不超过 $4$. 当 $k=0$ 时，交点为曲线与 $x$ 轴的两个端点，得到 $n=2$；取图中与某个波峰或波谷相切的临界斜率，可得到 $n=3$；取一段使直线在左、右两个隆起处各交两次的正斜率，可得到 $n=4$. 因此 $2$，$3$，$4$ 三种情形均可实现.\r\n\r\n所以在题设 $n\\geqslant2$ 下，$n$ 的取值范围为 $\\{2,3,4\\}$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为区间 $[a,b]$ 位于纵轴右侧，故 $x>0$，且图象位于 $x$ 轴上方，所以公共比值 $k$ 必须满足 $k\\geqslant0$. 等式</p>\n$$\n\\frac{f(x_{1})}{x_{1}}=\\frac{f(x_{2})}{x_{2}}=\\cdots=\\frac{f(x_{n})}{x_{n}}=k\n$$\n<p>表示直线 $y=kx$ 与曲线 $y=f(x)$ 有 $n$ 个不同交点. 直接观察图象可知，任意过原点的直线与该曲线的交点数不超过 $4$. 当 $k=0$ 时，交点为曲线与 $x$ 轴的两个端点，得到 $n=2$；取图中与某个波峰或波谷相切的临界斜率，可得到 $n=3$；取一段使直线在左、右两个隆起处各交两次的正斜率，可得到 $n=4$. 因此 $2$，$3$，$4$ 三种情形均可实现.</p><p>所以在题设 $n\\geqslant2$ 下，$n$ 的取值范围为 $\\{2,3,4\\}$，选 B.</p>"
         },
         {
           "num": 9,
-          "body": "在平面直角坐标系中， $O$ 是坐标原点，两定点 $A$，$B$ 满足 $\\left|\\overrightarrow{OA}\\right| = \\left|\\overrightarrow{OB}\\right| = \\overrightarrow{OA} \\cdot \\overrightarrow{OB} = 2$，则点集 $\\left\\{P \\mid \\overrightarrow{OP} = \\lambda \\overrightarrow{OA} + \\mu \\overrightarrow{OB}, |\\lambda| + |\\mu| \\le 1, \\lambda, \\mu \\in \\mathbb{R}\\right\\}$ 所表示的区域的面积是（ ）",
+          "body": "在平面直角坐标系中， $O$ 是坐标原点，两定点 $A$，$B$ 满足 $\\left|\\overrightarrow{OA}\\right| = \\left|\\overrightarrow{OB}\\right| = \\overrightarrow{OA}\\cdot \\overrightarrow{OB}= 2$，则点集 $\\left\\{P \\mid \\overrightarrow{OP}= \\lambda \\overrightarrow{OA}+ \\mu \\overrightarrow{OB}, |\\lambda| + |\\mu| \\le 1, \\lambda, \\mu \\in \\mathbb{R}\\right\\}$ 所表示的区域的面积是（ ）",
           "choices": [
             "$2\\sqrt{2}$",
             "$2\\sqrt{3}$",
@@ -258,13 +113,11 @@
             "$4\\sqrt{3}$"
           ],
           "answer": "D",
-          "solution": "设 $\\mathbf{u}=\\overrightarrow{OA}$，$\\mathbf{v}=\\overrightarrow{OB}$. 由\r\n$|\\mathbf{u}|=|\\mathbf{v}|=2$，$\\mathbf{u}\\cdot\\mathbf{v}=2$，\r\n得\r\n\n$$\n\\cos\\angle AOB=\\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}=\\frac12\n$$\n\r\n所以 $\\angle AOB=\\dfrac\\pi3$.\r\n\r\n在参数平面 $(\\lambda,\\mu)$ 中，条件 $|\\lambda|+|\\mu|\\leqslant1$ 表示顶点为 $(\\pm1,0)$，$(0,\\pm1)$ 的菱形，其面积为 $2$. 映射 $(\\lambda,\\mu)\\mapsto\\lambda\\mathbf{u}+\\mu\\mathbf{v}$ 的面积伸缩因子为\r\n\n$$\n|\\mathbf{u}|\\,|\\mathbf{v}|\\sin\\angle AOB=2\\cdot2\\cdot\\frac{\\sqrt3}{2}=2\\sqrt3\n$$\n\r\n故所表示区域的面积为 $2\\cdot2\\sqrt3=4\\sqrt3$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $\\mathbf{u}=\\overrightarrow{OA}$，$\\mathbf{v}=\\overrightarrow{OB}$. 由</p><p>$|\\mathbf{u}|=|\\mathbf{v}|=2$，$\\mathbf{u}\\cdot\\mathbf{v}=2$，</p><p>得</p>\n$$\n\\cos\\angle AOB=\\frac{\\mathbf{u}\\cdot\\mathbf{v}}{|\\mathbf{u}||\\mathbf{v}|}=\\frac{1}{2}\n$$\n<p>所以 $\\angle AOB=\\dfrac\\pi3$.</p><p>在参数平面 $(\\lambda,\\mu)$ 中，条件 $|\\lambda|+|\\mu|\\leqslant1$ 表示顶点为 $(\\pm1,0)$，$(0,\\pm1)$ 的菱形，其面积为 $2$. 映射 $(\\lambda,\\mu)\\mapsto\\lambda\\mathbf{u}+\\mu\\mathbf{v}$ 的面积伸缩因子为</p>\n$$\n|\\mathbf{u}|\\,|\\mathbf{v}|\\sin\\angle AOB=2\\cdot2\\cdot\\frac{\\sqrt{3}}{2}=2\\sqrt{3}\n$$\n<p>故所表示区域的面积为 $2\\cdot2\\sqrt{3}=4\\sqrt{3}$，选 D.</p>"
         },
         {
           "num": 10,
-          "body": "若函数 $f(x) = x^3 + ax^2 + bx + c$ 有极值点 $x_1$，$x_2$，且 $f(x_1) = x_1$，则关于 $x$ 的方程 $3(f(x))^2 + 2af(x) + b = 0$ 的不同实数根个数是（ ）",
+          "body": "若函数 $f(x) = x^{3} + ax^{2} + bx + c$ 有极值点 $x_{1}$，$x_{2}$，且 $f(x_{1}) = x_{1}$，则关于 $x$ 的方程 $3(f(x))^{2} + 2af(x) + b = 0$ 的不同实数根个数是（ ）",
           "choices": [
             "3",
             "4",
@@ -272,9 +125,7 @@
             "6"
           ],
           "answer": "A",
-          "solution": "记两个极值点按横坐标从小到大为 $r<s$. 由于三次项系数为正，$r$ 为极大值点，$s$ 为极小值点，且 $f(r)>f(s)$. 原方程可写为\r\n\n$$\nf'(f(x))=3(f(x))^2+2af(x)+b=0\n$$\n\r\n而 $f'(t)=3t^2+2at+b$ 的两个根正是 $r$，$s$，所以原方程等价于\r\n\n$$\nf(x)=r \\text{或}  f(x)=s\n$$\n\r\n\r\n若题设中的极值点满足 $f(r)=r$，则 $s>r=f(r)>f(s)$. 水平线 $y=r=f(r)$ 在极大值处相切并在右侧再交一次，共有两个不同交点；水平线 $y=s>f(r)$ 只与三次曲线交一次.\r\n\r\n若题设中的极值点满足 $f(s)=s$，则 $r<s=f(s)<f(r)$. 水平线 $y=s=f(s)$ 在极小值处相切并在左侧再交一次，共有两个不同交点；水平线 $y=r<f(s)$ 只与三次曲线交一次.\r\n\r\n两种情形下不同实根总数均为 $2+1=3$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>记两个极值点按横坐标从小到大为 $r&#x3C;s$. 由于三次项系数为正，$r$ 为极大值点，$s$ 为极小值点，且 $f(r)>f(s)$. 原方程可写为</p>\n$$\nf'(f(x))=3(f(x))^{2}+2af(x)+b=0\n$$\n<p>而 $f'(t)=3t^{2}+2at+b$ 的两个根正是 $r$，$s$，所以原方程等价于</p>\n$$\nf(x)=r \\text{或}  f(x)=s\n$$\n<p>若题设中的极值点满足 $f(r)=r$，则 $s>r=f(r)>f(s)$. 水平线 $y=r=f(r)$ 在极大值处相切并在右侧再交一次，共有两个不同交点；水平线 $y=s>f(r)$ 只与三次曲线交一次.</p><p>若题设中的极值点满足 $f(s)=s$，则 $r&#x3C;s=f(s)&#x3C;f(r)$. 水平线 $y=s=f(s)$ 在极小值处相切并在左侧再交一次，共有两个不同交点；水平线 $y=r&#x3C;f(s)$ 只与三次曲线交一次.</p><p>两种情形下不同实根总数均为 $2+1=3$，选 A.</p>"
         }
       ]
     },
@@ -283,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "若 $\\left(x + \\frac{a}{\\sqrt[3]{x}}\\right)^8$ 的展开式中 $x^4$ 的系数为7，则实数 $a =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{1}{2}\\)",
-          "solution": "展开式的通项为\r\n\n$$\n\\mathrm C_8^j x^{8-j}\\left(\\frac{a}{\\sqrt[3]{x}}\\right)^j\r\n=\\mathrm C_8^j a^j x^{8-j-\\frac j3}\r\n=\\mathrm C_8^j a^j x^{8-\\frac{4j}{3}}\n$$\n\r\n其中 $j=0$，$1$，$\\ldots$，$8$. 要得到 $x^4$，必须满足\r\n\n$$\n8-\\frac{4j}{3}=4\n$$\n\r\n解得 $j=3$. 因此 $x^4$ 的系数为\r\n\n$$\n\\mathrm C_8^3a^3=56a^3=7\n$$\n\r\n所以 $a^3=\\dfrac18$. 由于 $a$ 为实数，得 $a=\\dfrac12$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若 $\\left(x + \\frac{a}{\\sqrt[3]{x}}\\right)^{8}$ 的展开式中 $x^{4}$ 的系数为7，则实数 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{1}{2}$",
+          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{8}^{j} x^{8-j}\\left(\\frac{a}{\\sqrt[3]{x}}\\right)^{j}  =\\mathrm{C}_{8}^{j} a^{j} x^{8-j-\\frac{j}{3}}=\\mathrm{C}_{8}^{j} a^{j} x^{8-\\frac{4j}{3}}\n$$\n<p>其中 $j=0$，$1$，$\\ldots$，$8$. 要得到 $x^{4}$，必须满足</p>\n$$\n8-\\frac{4j}{3}=4\n$$\n<p>解得 $j=3$. 因此 $x^{4}$ 的系数为</p>\n$$\n\\mathrm{C}_{8}^{3}a^{3}=56a^{3}=7\n$$\n<p>所以 $a^{3}=\\dfrac{1}{8}$. 由于 $a$ 为实数，得 $a=\\dfrac{1}{2}$.</p>"
         },
         {
           "num": 12,
-          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对边的长分别为 $a$，$b$，$c$. 若 $b + c = 2a$，$3\\sin A = 5\\sin B$，则角 $C =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{2\\pi}{3}\\)",
-          "solution": "由正弦定理，\r\n\n$$\n\\frac{a}{b}=\\frac{\\sin A}{\\sin B}=\\frac53\n$$\n\r\n设 $a=5t$，$b=3t$，其中 $t>0$. 由 $b+c=2a$ 得\r\n\n$$\nc=2a-b=10t-3t=7t\n$$\n\r\n在三角形 $ABC$ 中使用余弦定理，\r\n\n$$\n\\cos C=\\frac{a^2+b^2-c^2}{2ab}\r\n=\\frac{25t^2+9t^2-49t^2}{2\\cdot5t\\cdot3t}\r\n=-\\frac12\n$$\n\r\n因为 $0<C<\\pi$，所以 $C=\\dfrac{2\\pi}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对边的长分别为 $a$，$b$，$c$. 若 $b + c = 2a$，$3\\sin A = 5\\sin B$，则角 $C =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{2\\pi}{3}$",
+          "solution": "<p>由正弦定理，</p>\n$$\n\\frac{a}{b}=\\frac{\\sin A}{\\sin B}=\\frac{5}{3}\n$$\n<p>设 $a=5t$，$b=3t$，其中 $t>0$. 由 $b+c=2a$ 得</p>\n$$\nc=2a-b=10t-3t=7t\n$$\n<p>在三角形 $ABC$ 中使用余弦定理，</p>\n$$\n\\cos C=\\frac{a^{2}+b^{2}-c^{2}}{2ab}=\\frac{25t^{2}+9t^{2}-49t^{2}}{2\\cdot5t\\cdot3t}=-\\frac{1}{2}\n$$\n<p>因为 $0&#x3C;C&#x3C;\\pi$，所以 $C=\\dfrac{2\\pi}{3}$.</p>"
         },
         {
           "num": 13,
-          "body": "已知直线 $y = a$ 交抛物线 $y = x^2$ 于 $A$，$B$ 两点，若该抛物线上存在点 $C$，使得 $\\angle ACB$ 为直角，则 $a$ 的取值范围为 _______ {}.",
-          "choices": [],
-          "answer": "\\([1,+\\infty)\\)",
-          "solution": "直线与抛物线有两个交点，故 $a>0$，可设\r\n$A=(-\\sqrt a,a)$，$B=(\\sqrt a,a)$，$C=(t,t^2)$.\r\n点 $C$ 不应与 $A$，$B$ 重合. 由 $\\angle ACB=90^\\circ$，有\r\n\n$$\n\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=0\n$$\n\r\n代入坐标，得\r\n\n$$\n(-\\sqrt a-t,a-t^2)\\cdot(\\sqrt a-t,a-t^2)=0\n$$\n\r\n即\r\n\n$$\nt^2-a+(a-t^2)^2=0\r\n\\Longleftrightarrow (t^2-a)(t^2-a+1)=0\n$$\n\r\n其中 $t^2=a$ 时 $C=A$ 或 $C=B$，不符合角的定义；因此必须有\r\n\n$$\nt^2=a-1\n$$\n\r\n存在实数 $t$ 的充要条件是 $a-1\\geqslant0$. 当 $a\\geqslant1$ 时取 $t=\\sqrt{a-1}$ 即可得到满足条件的点 $C$，故 $a$ 的取值范围为 $[1,+\\infty)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知直线 $y = a$ 交抛物线 $y = x^{2}$ 于 $A$，$B$ 两点，若该抛物线上存在点 $C$，使得 $\\angle ACB$ 为直角，则 $a$ 的取值范围为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$[1,+\\infty)$",
+          "solution": "<p>直线与抛物线有两个交点，故 $a>0$，可设</p><p>$A=(-\\sqrt{a},a)$，$B=(\\sqrt{a},a)$，$C=(t,t^{2})$.</p><p>点 $C$ 不应与 $A$，$B$ 重合. 由 $\\angle ACB=90^{\\circ}$，有</p>\n$$\n\\overrightarrow{CA}\\cdot\\overrightarrow{CB}=0\n$$\n<p>代入坐标，得</p>\n$$\n(-\\sqrt{a}-t,a-t^{2})\\cdot(\\sqrt{a}-t,a-t^{2})=0\n$$\n<p>即</p>\n$$\nt^{2}-a+(a-t^{2})^{2}=0  \\Longleftrightarrow (t^{2}-a)(t^{2}-a+1)=0\n$$\n<p>其中 $t^{2}=a$ 时 $C=A$ 或 $C=B$，不符合角的定义；因此必须有</p>\n$$\nt^{2}=a-1\n$$\n<p>存在实数 $t$ 的充要条件是 $a-1\\geqslant0$. 当 $a\\geqslant1$ 时取 $t=\\sqrt{a-1}$ 即可得到满足条件的点 $C$，故 $a$ 的取值范围为 $[1,+\\infty)$.</p>"
         },
         {
           "num": 14,
-          "body": "如图，互不相同的点 $A_{1}$，$A_{2}$，$\\cdots$，$A_{n}$，$\\cdots$ 和 $B_{1}$，$B_{2}$，$\\cdots$，$B_{n}$，$\\cdots$ 分别在角 $O$ 的两条边上. 所有 $A_{n}B_{n}$ 相互平行，且所有梯形 $A_{n}B_{n}B_{n+1}A_{n+1}$ 的面积均相等. 设 $OA_{n} = a_{n}$. 若 $a_{1} = 1$，$a_{2} = 2$，则数列 $\\{a_{n}\\}$ 的通项公式是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(a_n=\\sqrt{3n-2}\\)",
-          "solution": "由于所有 $A_nB_n$ 相互平行，三角形 $OA_nB_n$ 彼此相似，所以存在正常数 $r$，使得\r\n$OB_n=r\\,OA_n$，$A_nB_n=\\sqrt{1+r^2-2r\\cos\\angle O}\\,a_n$.\r\n设该常数为 $d>0$. 两条平行边 $A_nB_n$、$A_{n+1}B_{n+1}$ 的距离也与 $a_{n+1}-a_n$ 成正比，设比例常数为 $h>0$. 因此梯形面积为\r\n\n$$\nS_n=\\frac12\\bigl(da_n+da_{n+1}\\bigr)h(a_{n+1}-a_n)\r\n=\\frac{dh}{2}\\left(a_{n+1}^2-a_n^2\\right)\n$$\n\r\n题设各梯形面积相等，所以 $a_{n+1}^2-a_n^2$ 为定值. 由 $a_1=1$、$a_2=2$，该定值为 $4-1=3$，从而\r\n\n$$\na_n^2=a_1^2+3(n-1)=1+3(n-1)=3n-2\n$$\n\r\n因为 $a_n=OA_n>0$，故 $a_n=\\sqrt{3n-2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，互不相同的点 $A_{1}$，$A_{2}$，$\\cdots$，$A_{n}$，$\\cdots$ 和 $B_{1}$，$B_{2}$，$\\cdots$，$B_{n}$，$\\cdots$ 分别在角 $O$ 的两条边上. 所有 $A_{n}B_{n}$ 相互平行，且所有梯形 $A_{n}B_{n}B_{n+1}A_{n+1}$ 的面积均相等. 设 $OA_{n}= a_{n}$. 若 $a_{1}= 1$，$a_{2}= 2$，则数列 $\\{a_{n}\\}$ 的通项公式是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q14_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$a_{n}=\\sqrt{3n-2}$",
+          "solution": "<p>由于所有 $A_{n}B_{n}$ 相互平行，三角形 $OA_{n}B_{n}$ 彼此相似，所以存在正常数 $r$，使得</p><p>$OB_{n}=r\\,OA_{n}$，$A_{n}B_{n}=\\sqrt{1+r^{2}-2r\\cos\\angle O}\\,a_{n}$.</p><p>设该常数为 $d>0$. 两条平行边 $A_{n}B_{n}$、$A_{n+1}B_{n+1}$ 的距离也与 $a_{n+1}-a_{n}$ 成正比，设比例常数为 $h>0$. 因此梯形面积为</p>\n$$\nS_{n}=\\frac{1}{2}\\bigl(da_{n}+da_{n+1}\\bigr)h(a_{n+1}-a_{n})  =\\frac{dh}{2}\\left(a_{n+1}^{2}-a_{n}^{2}\\right)\n$$\n<p>题设各梯形面积相等，所以 $a_{n+1}^{2}-a_{n}^{2}$ 为定值. 由 $a_{1}=1$、$a_{2}=2$，该定值为 $4-1=3$，从而</p>\n$$\na_{n}^{2}=a_{1}^{2}+3(n-1)=1+3(n-1)=3n-2\n$$\n<p>因为 $a_{n}=OA_{n}>0$，故 $a_{n}=\\sqrt{3n-2}$.</p>"
         },
         {
           "num": 15,
-          "body": "如图，正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的棱长为 $1$，$P$ 为 $BC$ 中点，$Q$ 为线段 $CC_{1}$ 上的动点，过 $A$，$P$，$Q$ 的平面截该正方体所得的截面记为 $S$，则下列命题正确的是 _______ {}.（写出所有正确命题的编号）\r\n\r\n\\begin{circlelist}\r\n\\item 当 $0 < CQ < \\frac{1}{2}$ 时，$S$ 为四边形；\r\n    \\item 当 $CQ = \\frac{1}{2}$ 时，$S$ 为等腰梯形；\r\n\\item 当 $CQ = \\frac{3}{4}$ 时，$S$ 与 $C_{1}D_{1}$ 交点 $R$ 满足 $C_{1}R = \\frac{1}{3}$；\r\n    \\item 当 $\\frac{3}{4} < CQ < 1$ 时，$S$ 为六边形；\r\n\\item 当 $CQ = 1$ 时，$S$ 的面积为 $\\frac{\\sqrt{6}}{2}$.\r\n\\end{circlelist}\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(\\circled{1}\\circled{2}\\circled{3}\\circled{5}\\)",
-          "solution": "建立直角坐标系，令\r\n$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$\r\n$A_1=(0,0,1)$，$B_1=(1,0,1)$，$C_1=(1,1,1)$，$D_1=(0,1,1)$.\r\n设 $CQ=t$，则 $0\\le t\\leqslant1$，且\r\n$P=\\left(1,\\frac12,0\\right)$，$Q=(1,1,t)$.\r\n平面 $APQ$ 的方程为\r\n\n$$\nt x-2t y+z=0\n$$\n\r\n\r\n当 $0<t<\\dfrac12$ 时，平面与正方体的边交于\r\n$A$，$P$，$Q$，$E=(0,1,2t)\\in DD_1$，\r\n所以截面是四边形，命题 1 正确.\r\n\r\n当 $t=\\dfrac12$ 时，$E=D_1$，截面为四边形 $APQD_1$. 其中\r\n\n$$\n\\overrightarrow{AD_1}=(0,1,1)=2\\overrightarrow{PQ}\n$$\n\r\n所以 $AD_1\\parallel PQ$，并且\r\n$|AP|=\\sqrt{1+\\frac14}=\\frac{\\sqrt5}{2}$，$|QD_1|=\\sqrt{1+\\frac14}=\\frac{\\sqrt5}{2}$.\r\n故该四边形为等腰梯形，命题 2 正确.\r\n\r\n当 $t\\ge\\dfrac12$ 时，平面还与棱 $D_1A_1$、$C_1D_1$ 分别交于\r\n$H=\\left(0,\\frac{1}{2t},1\\right)$，$R=\\left(2-\\frac1t,1,1\\right)$.\r\n当 $t=\\dfrac34$ 时，\r\n\n$$\nC_1R=1-\\left(2-\\frac{1}{t}\\right)=\\frac1t-1=\\frac13\n$$\n\r\n命题 3 正确.\r\n\r\n当 $\\dfrac34<t<1$ 时，截面顶点依次为 $A$，$P$，$Q$，$R$，$H$，是五边形而不是六边形，命题 4 错误.\r\n\r\n当 $t=1$ 时，$Q=C_1$，$H=(0,\\frac12,1)$，截面为四边形 $APC_1H$. 将其分成三角形 $APC_1$ 和 $AC_1H$，有\r\n\n$$\nS_{\\triangle APC_1}=\\frac12\\left|\\overrightarrow{AP}\\times\\overrightarrow{AC_1}\\right|=\\frac{\\sqrt6}{4}\n$$\n\r\n\n$$\nS_{\\triangle AC_1H}=\\frac12\\left|\\overrightarrow{AC_1}\\times\\overrightarrow{AH}\\right|=\\frac{\\sqrt6}{4}\n$$\n\r\n所以\r\n\n$$\nS=\\frac{\\sqrt6}{2}\n$$\n\r\n命题 5 正确. 因此正确命题的编号为 $1$，$2$，$3$，$5$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图，正方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 的棱长为 $1$，$P$ 为 $BC$ 中点，$Q$ 为线段 $CC_{1}$ 上的动点，过 $A$，$P$，$Q$ 的平面截该正方体所得的截面记为 $S$，则下列命题正确的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有正确命题的编号）</p><ol class=\"enumerate\"><li><p>当 $0 &#x3C; CQ &#x3C; \\frac{1}{2}$ 时，$S$ 为四边形；</p></li><li><p>当 $CQ = \\frac{1}{2}$ 时，$S$ 为等腰梯形；</p></li><li><p>当 $CQ = \\frac{3}{4}$ 时，$S$ 与 $C_{1}D_{1}$ 交点 $R$ 满足 $C_{1}R = \\frac{1}{3}$；</p></li><li><p>当 $\\frac{3}{4}&#x3C; CQ &#x3C; 1$ 时，$S$ 为六边形；</p></li><li><p>当 $CQ = 1$ 时，$S$ 的面积为 $\\frac{\\sqrt{6}}{2}$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$①②③⑤$",
+          "solution": "<p>建立直角坐标系，令</p><p>$A=(0,0,0)$，$B=(1,0,0)$，$C=(1,1,0)$，$D=(0,1,0)$</p><p>$A_{1}=(0,0,1)$，$B_{1}=(1,0,1)$，$C_{1}=(1,1,1)$，$D_{1}=(0,1,1)$.</p><p>设 $CQ=t$，则 $0\\le t\\leqslant1$，且</p><p>$P=\\left(1,\\frac{1}{2},0\\right)$，$Q=(1,1,t)$.</p><p>平面 $APQ$ 的方程为</p>\n$$\nt x-2t y+z=0\n$$\n<p>当 $0&#x3C;t&#x3C;\\dfrac{1}{2}$ 时，平面与正方体的边交于</p><p>$A$，$P$，$Q$，$E=(0,1,2t)\\in DD_{1}$，</p><p>所以截面是四边形，命题 1 正确.</p><p>当 $t=\\dfrac{1}{2}$ 时，$E=D_{1}$，截面为四边形 $APQD_{1}$. 其中</p>\n$$\n\\overrightarrow{AD_1}=(0,1,1)=2\\overrightarrow{PQ}\n$$\n<p>所以 $AD_{1}\\parallel PQ$，并且</p><p>$|AP|=\\sqrt{1+\\frac{1}{4}}=\\frac{\\sqrt{5}}{2}$，$|QD_{1}|=\\sqrt{1+\\frac{1}{4}}=\\frac{\\sqrt{5}}{2}$.</p><p>故该四边形为等腰梯形，命题 2 正确.</p><p>当 $t\\ge\\dfrac{1}{2}$ 时，平面还与棱 $D_{1}A_{1}$、$C_{1}D_{1}$ 分别交于</p><p>$H=\\left(0,\\frac{1}{2t},1\\right)$，$R=\\left(2-\\frac{1}{t},1,1\\right)$.</p><p>当 $t=\\dfrac{3}{4}$ 时，</p>\n$$\nC_{1}R=1-\\left(2-\\frac{1}{t}\\right)=\\frac{1}{t}-1=\\frac{1}{3}\n$$\n<p>命题 3 正确.</p><p>当 $\\dfrac{3}{4}&#x3C;t&#x3C;1$ 时，截面顶点依次为 $A$，$P$，$Q$，$R$，$H$，是五边形而不是六边形，命题 4 错误.</p><p>当 $t=1$ 时，$Q=C_{1}$，$H=(0,\\frac{1}{2},1)$，截面为四边形 $APC_{1}H$. 将其分成三角形 $APC_{1}$ 和 $AC_{1}H$，有</p>\n$$\nS_{\\triangle APC_1}=\\frac{1}{2}\\left|\\overrightarrow{AP}\\times\\overrightarrow{AC_1}\\right|=\\frac{\\sqrt{6}}{4}\n$$\n\n$$\nS_{\\triangle AC_1H}=\\frac{1}{2}\\left|\\overrightarrow{AC_1}\\times\\overrightarrow{AH}\\right|=\\frac{\\sqrt{6}}{4}\n$$\n<p>所以</p>\n$$\nS=\\frac{\\sqrt{6}}{2}\n$$\n<p>命题 5 正确. 因此正确命题的编号为 $1$，$2$，$3$，$5$.</p>"
         }
       ]
     },
@@ -333,60 +174,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "已知函数 $f(x) = 4\\cos \\omega x \\cdot \\sin \\left( \\omega x + \\frac{\\pi}{4} \\right)$（$\\omega > 0$）的最小正周期为 $\\pi$.\r\n\n(1) 求 $\\omega$ 的值；\n\n(2) 讨论 $f(x)$ 在区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 上的单调性.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = 4\\cos \\omega x \\cdot \\sin \\left( \\omega x + \\frac{\\pi}{4}\\right)$（$\\omega > 0$）的最小正周期为 $\\pi$.</p><ol class=\"enumerate\"><li><p>求 $\\omega$ 的值；</p></li><li><p>讨论 $f(x)$ 在区间 $\\left[0, \\frac{\\pi}{2}\\right]$ 上的单调性.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 利用积化和差公式，得\r\n\n$$\nf(x)=2\\left[\\sin\\left(2\\omega x+\\frac{\\pi}{4}\\right)+\\sin\\frac{\\pi}{4}\\right]=2\\sin\\left(2\\omega x+\\frac{\\pi}{4}\\right)+\\sqrt{2}\n$$\n\r\n因此，函数的最小正周期为 $\\dfrac{2\\pi}{2\\omega}=\\dfrac{\\pi}{\\omega}$. 由题意 $\\dfrac{\\pi}{\\omega}=\\pi$，解得 $\\omega=1$.\n\n(2) 由（1）知 $\\omega=1$，所以\r\n\n$$\nf'(x)=4\\cos\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n\r\n当 $0\\le x<\\dfrac{\\pi}{8}$ 时，$\\dfrac{\\pi}{4}\\leqslant2x+\\dfrac{\\pi}{4}<\\dfrac{\\pi}{2}$，从而 $f'(x)>0$；当 $\\dfrac{\\pi}{8}<x\\le\\dfrac{\\pi}{2}$ 时，$\\dfrac{\\pi}{2}<2x+\\dfrac{\\pi}{4}\\le\\dfrac{5\\pi}{4}$，从而 $f'(x)<0$. 因此，$f(x)$ 在区间 $\\left[0,\\dfrac{\\pi}{8}\\right]$ 上单调递增，在区间 $\\left[\\dfrac{\\pi}{8},\\dfrac{\\pi}{2}\\right]$ 上单调递减.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>利用积化和差公式，得</p>\n$$\nf(x)=2\\left[\\sin\\left(2\\omega x+\\frac{\\pi}{4}\\right)+\\sin\\frac{\\pi}{4}\\right]=2\\sin\\left(2\\omega x+\\frac{\\pi}{4}\\right)+\\sqrt{2}\n$$\n<p>因此，函数的最小正周期为 $\\dfrac{2\\pi}{2\\omega}=\\dfrac{\\pi}{\\omega}$. 由题意 $\\dfrac{\\pi}{\\omega}=\\pi$，解得 $\\omega=1$.</p></li><li><p>由（1）知 $\\omega=1$，所以</p>\n$$\nf'(x)=4\\cos\\left(2x+\\frac{\\pi}{4}\\right)\n$$\n<p>当 $0\\le x&#x3C;\\dfrac{\\pi}{8}$ 时，$\\dfrac{\\pi}{4}\\leqslant2x+\\dfrac{\\pi}{4}&#x3C;\\dfrac{\\pi}{2}$，从而 $f'(x)>0$；当 $\\dfrac{\\pi}{8}&#x3C;x\\le\\dfrac{\\pi}{2}$ 时，$\\dfrac{\\pi}{2}&#x3C;2x+\\dfrac{\\pi}{4}\\le\\dfrac{5\\pi}{4}$，从而 $f'(x)&#x3C;0$. 因此，$f(x)$ 在区间 $\\left[0,\\dfrac{\\pi}{8}\\right]$ 上单调递增，在区间 $\\left[\\dfrac{\\pi}{8},\\dfrac{\\pi}{2}\\right]$ 上单调递减.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "设函数 $f(x) = ax - (1 + a^2)x^2$，其中 $a > 0$，区间 $I = \\{x \\mid f(x) > 0\\}$.\r\n\n(1) 求 $I$ 的长度（注：区间 $(\\alpha, \\beta)$ 的长度定义为 $\\beta - \\alpha$）；\n\n(2) 给定常数 $k \\in (0,1)$，当 $1 - k \\le a \\le 1 + k$ 时，求 $I$ 长度的最小值.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = ax - (1 + a^{2})x^{2}$，其中 $a > 0$，区间 $I = \\{x \\mid f(x) > 0\\}$.</p><ol class=\"enumerate\"><li><p>求 $I$ 的长度（注：区间 $(\\alpha, \\beta)$ 的长度定义为 $\\beta - \\alpha$）；</p></li><li><p>给定常数 $k \\in (0,1)$，当 $1 - k \\le a \\le 1 + k$ 时，求 $I$ 长度的最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $a>0$ 且 $1+a^2>0$，所以\r\n\n$$\nf(x)=x\\left[a-(1+a^2)x\\right]>0\n$$\n\r\n当且仅当 $0<x<\\dfrac{a}{1+a^2}$. 因此 $I=\\left(0,\\dfrac{a}{1+a^2}\\right)$，其长度为\r\n\n$$\nL=\\frac{a}{1+a^2}\n$$\n\n(2) 对 $a>0$，有\r\n\n$$\nL'(a)=\\frac{1-a^2}{(1+a^2)^2}\n$$\n\r\n所以 $L(a)$ 在 $(0,1)$ 上单调递增，在 $(1,+\\infty)$ 上单调递减. 因而在区间 $[1-k,1+k]$ 上，最小值只能在两个端点处取得. 比较两端点的函数值：\r\n\n$$\n\\frac{1-k}{1+(1-k)^2}-\\frac{1+k}{1+(1+k)^2}\r\n=\\frac{-2k^3}{\\left[1+(1-k)^2\\right]\\left[1+(1+k)^2\\right]}<0\n$$\n\r\n故最小值在 $a=1-k$ 时取得，最小值为\r\n\n$$\n\\frac{1-k}{1+(1-k)^2}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a>0$ 且 $1+a^{2}>0$，所以</p>\n$$\nf(x)=x\\left[a-(1+a^{2})x\\right]>0\n$$\n<p>当且仅当 $0&#x3C;x&#x3C;\\dfrac{a}{1+a^2}$. 因此 $I=\\left(0,\\dfrac{a}{1+a^2}\\right)$，其长度为</p>\n$$\nL=\\frac{a}{1+a^{2}}\n$$\n</li><li><p>对 $a>0$，有</p>\n$$\nL'(a)=\\frac{1-a^{2}}{(1+a^{2})^{2}}\n$$\n<p>所以 $L(a)$ 在 $(0,1)$ 上单调递增，在 $(1,+\\infty)$ 上单调递减. 因而在区间 $[1-k,1+k]$ 上，最小值只能在两个端点处取得. 比较两端点的函数值：</p>\n$$\n\\frac{1-k}{1+(1-k)^{2}}-\\frac{1+k}{1+(1+k)^{2}}=\\frac{-2k^{3}}{\\left[1+(1-k)^{2}\\right]\\left[1+(1+k)^{2}\\right]}&#x3C;0\n$$\n<p>故最小值在 $a=1-k$ 时取得，最小值为</p>\n$$\n\\frac{1-k}{1+(1-k)^{2}}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "设椭圆 $E: \\frac{x^2}{a^2} + \\frac{y^2}{1-a^2} = 1$ 的焦点在 $x$ 轴上.\r\n\n(1) 若椭圆 $E$ 的焦距为 $1$，求椭圆 $E$ 的方程；\n\n(2) 设 $F_{1}$，$F_{2}$ 分别是椭圆 $E$ 的左，右焦点，$P$ 为椭圆 $E$ 上第一象限内的点. 直线 $F_{2}P$ 交 $y$ 轴于点 $Q$，并且 $F_{1}P \\perp F_{1}Q$，证明：当 $a$ 变化时，点 $P$ 在某定直线上.",
-          "choices": [],
+          "body": "<p>设椭圆 $E: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{1-a^{2}}= 1$ 的焦点在 $x$ 轴上.</p><ol class=\"enumerate\"><li><p>若椭圆 $E$ 的焦距为 $1$，求椭圆 $E$ 的方程；</p></li><li><p>设 $F_{1}$，$F_{2}$ 分别是椭圆 $E$ 的左，右焦点，$P$ 为椭圆 $E$ 上第一象限内的点. 直线 $F_{2}P$ 交 $y$ 轴于点 $Q$，并且 $F_{1}P \\perp F_{1}Q$，证明：当 $a$ 变化时，点 $P$ 在某定直线上.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由椭圆的焦点在 $x$ 轴上，得 $a^2>1-a^2>0$. 设焦半距为 $c$，则\r\n\n$$\nc^2=a^2-(1-a^2)=2a^2-1\n$$\n\r\n椭圆的焦距为 $1$，所以 $2c=1$，即 $c=\\dfrac{1}{2}$. 从而 $2a^2-1=\\dfrac{1}{4}$，解得 $a^2=\\dfrac{5}{8}$，于是 $1-a^2=\\dfrac{3}{8}$. 所求椭圆方程为\r\n\n$$\n\\frac{x^2}{\\frac{5}{8}}+\\frac{y^2}{\\frac{3}{8}}=1\n$$\n\n(2) 设 $P=(x,y)$，$Q=(0,t)$，并记 $F_1=(-c,0)$，$F_2=(c,0)$，其中 $c=\\sqrt{2a^2-1}>0$. 因为直线 $F_2P$ 与 $y$ 轴相交，所以 $x\\ne c$；由 $F_2$，$P$，$Q$ 三点共线，得\r\n\n$$\nt=-\\frac{cy}{x-c}\n$$\n\r\n又因为 $F_1P\\perp F_1Q$，所以\r\n\n$$\n\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_1Q}=(x+c,y)\\cdot(c,t)=0\n$$\n\r\n即 $c(x+c)+yt=0$. 代入 $t=-\\dfrac{cy}{x-c}$，并利用 $c>0$，得\r\n\n$$\n(x+c)-\\frac{y^2}{x-c}=0\n$$\n\r\n即 $y^2=(x+c)(x-c)=x^2-c^2$. 因此\r\n\n$$\nx^2-y^2=c^2=2a^2-1\n$$\n\r\n将 $y^2=x^2-2a^2+1$ 代入椭圆方程的等价形式\r\n\n$$\nx^2(1-a^2)+a^2y^2=a^2(1-a^2)\n$$\n\r\n得\r\n\n$$\nx^2(1-a^2)+a^2(x^2-2a^2+1)=a^2(1-a^2)\n$$\n\r\n从而 $x^2=a^4$. 由于 $P$ 在第一象限，故 $x=a^2$. 再由 $y^2=x^2-2a^2+1=(1-a^2)^2$ 以及 $y>0$，得 $y=1-a^2$. 所以点 $P$ 总满足\r\n\n$$\nx+y=1\n$$\n\r\n故点 $P$ 在定直线 $x+y=1$ 上.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由椭圆的焦点在 $x$ 轴上，得 $a^{2}>1-a^{2}>0$. 设焦半距为 $c$，则</p>\n$$\nc^{2}=a^{2}-(1-a^{2})=2a^{2}-1\n$$\n<p>椭圆的焦距为 $1$，所以 $2c=1$，即 $c=\\dfrac{1}{2}$. 从而 $2a^{2}-1=\\dfrac{1}{4}$，解得 $a^{2}=\\dfrac{5}{8}$，于是 $1-a^{2}=\\dfrac{3}{8}$. 所求椭圆方程为</p>\n$$\n\\frac{x^{2}}{\\frac{5}{8}}+\\frac{y^{2}}{\\frac{3}{8}}=1\n$$\n</li><li><p>设 $P=(x,y)$，$Q=(0,t)$，并记 $F_{1}=(-c,0)$，$F_{2}=(c,0)$，其中 $c=\\sqrt{2a^{2}-1}>0$. 因为直线 $F_{2}P$ 与 $y$ 轴相交，所以 $x\\ne c$；由 $F_{2}$，$P$，$Q$ 三点共线，得</p>\n$$\nt=-\\frac{cy}{x-c}\n$$\n<p>又因为 $F_{1}P\\perp F_{1}Q$，所以</p>\n$$\n\\overrightarrow{F_1P}\\cdot\\overrightarrow{F_1Q}=(x+c,y)\\cdot(c,t)=0\n$$\n<p>即 $c(x+c)+yt=0$. 代入 $t=-\\dfrac{cy}{x-c}$，并利用 $c>0$，得</p>\n$$\n(x+c)-\\frac{y^{2}}{x-c}=0\n$$\n<p>即 $y^{2}=(x+c)(x-c)=x^{2}-c^{2}$. 因此</p>\n$$\nx^{2}-y^{2}=c^{2}=2a^{2}-1\n$$\n<p>将 $y^{2}=x^{2}-2a^{2}+1$ 代入椭圆方程的等价形式</p>\n$$\nx^{2}(1-a^{2})+a^{2}y^{2}=a^{2}(1-a^{2})\n$$\n<p>得</p>\n$$\nx^{2}(1-a^{2})+a^{2}(x^{2}-2a^{2}+1)=a^{2}(1-a^{2})\n$$\n<p>从而 $x^{2}=a^{4}$. 由于 $P$ 在第一象限，故 $x=a^{2}$. 再由 $y^{2}=x^{2}-2a^{2}+1=(1-a^{2})^{2}$ 以及 $y>0$，得 $y=1-a^{2}$. 所以点 $P$ 总满足</p>\n$$\nx+y=1\n$$\n<p>故点 $P$ 在定直线 $x+y=1$ 上.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，圆锥顶点为 $P$. 底面圆心为 $O$，其母线与底面所成的角为 $22.5^{\\circ}$. $AB$ 和 $CD$ 是底面圆 $O$ 上的两条平行的弦，轴 $OP$ 与平面 $PCD$ 所成的角为 $60^{\\circ}$.\r\n\r\n\n(1) 证明：平面 $PAB$ 与平面 $PCD$ 的交线平行于底面；\n\n(2) 求 $\\cos\\angle COD$.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2013/img/anhui_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，圆锥顶点为 $P$. 底面圆心为 $O$，其母线与底面所成的角为 $22.5^{\\circ}$. $AB$ 和 $CD$ 是底面圆 $O$ 上的两条平行的弦，轴 $OP$ 与平面 $PCD$ 所成的角为 $60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>证明：平面 $PAB$ 与平面 $PCD$ 的交线平行于底面；</p></li><li><p>求 $\\cos\\angle COD$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $AB\\parallel CD$，所以过点 $P$ 且平行于 $AB$ 的直线，同时也平行于 $CD$. 这条直线在平面 $PAB$ 内，也在平面 $PCD$ 内，因而它就是两平面的交线. 又由于 $AB$ 在底面内，故该交线平行于底面.\n\n(2) 设底面圆的半径为 $R$，圆锥的高 $OP=h$，取弦 $CD$ 的中点 $M$. 因为 $OM\\perp CD$，且 $OP\\perp$ 底面，所以 $OP\\perp CD$ 且 $OP\\perp OM$，从而 $CD\\perp$ 平面 $OPM$. 又 $CD$ 在平面 $PCD$ 内，所以平面 $OPM$ 与平面 $PCD$ 垂直，二者的交线为 $PM$. 因此，直线 $OP$ 在平面 $PCD$ 内的射影为 $PM$，故直线 $OP$ 与平面 $PCD$ 所成的角就是 $\\angle OPM=60^{\\circ}$. 在直角三角形 $OPM$ 中，\r\n\n$$\nOM=OP\\tan60^{\\circ}=\\sqrt{3}h\n$$\n\r\n母线与底面所成的角为 $22.5^{\\circ}$，所以在圆锥的轴截面中\r\n\n$$\n\\frac{h}{R}=\\tan22.5^{\\circ}=\\sqrt{2}-1\n$$\n\r\n于是\r\n\n$$\n\\frac{OM}{R}=\\sqrt{3}\\tan22.5^{\\circ}=\\sqrt{3}(\\sqrt{2}-1)\n$$\n\r\n令 $\\theta=\\angle COD$. 在直角三角形 $COM$ 中，$\\angle COM=\\dfrac{\\theta}{2}$，因此\r\n\n$$\n\\cos\\frac{\\theta}{2}=\\frac{OM}{R}=\\sqrt{3}(\\sqrt{2}-1)\n$$\n\r\n由二倍角公式，得\r\n\n$$\n\\cos\\theta=2\\cos^2\\frac{\\theta}{2}-1=2\\cdot3(\\sqrt{2}-1)^2-1=17-12\\sqrt{2}\n$$\n\r\n所以 $\\cos\\angle COD=17-12\\sqrt{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $AB\\parallel CD$，所以过点 $P$ 且平行于 $AB$ 的直线，同时也平行于 $CD$. 这条直线在平面 $PAB$ 内，也在平面 $PCD$ 内，因而它就是两平面的交线. 又由于 $AB$ 在底面内，故该交线平行于底面.</p></li><li><p>设底面圆的半径为 $R$，圆锥的高 $OP=h$，取弦 $CD$ 的中点 $M$. 因为 $OM\\perp CD$，且 $OP\\perp$ 底面，所以 $OP\\perp CD$ 且 $OP\\perp OM$，从而 $CD\\perp$ 平面 $OPM$. 又 $CD$ 在平面 $PCD$ 内，所以平面 $OPM$ 与平面 $PCD$ 垂直，二者的交线为 $PM$. 因此，直线 $OP$ 在平面 $PCD$ 内的射影为 $PM$，故直线 $OP$ 与平面 $PCD$ 所成的角就是 $\\angle OPM=60^{\\circ}$. 在直角三角形 $OPM$ 中，</p>\n$$\nOM=OP\\tan60^{\\circ}=\\sqrt{3}h\n$$\n<p>母线与底面所成的角为 $22.5^{\\circ}$，所以在圆锥的轴截面中</p>\n$$\n\\frac{h}{R}=\\tan22.5^{\\circ}=\\sqrt{2}-1\n$$\n<p>于是</p>\n$$\n\\frac{OM}{R}=\\sqrt{3}\\tan22.5^{\\circ}=\\sqrt{3}(\\sqrt{2}-1)\n$$\n<p>令 $\\theta=\\angle COD$. 在直角三角形 $COM$ 中，$\\angle COM=\\dfrac{\\theta}{2}$，因此</p>\n$$\n\\cos\\frac{\\theta}{2}=\\frac{OM}{R}=\\sqrt{3}(\\sqrt{2}-1)\n$$\n<p>由二倍角公式，得</p>\n$$\n\\cos\\theta=2\\cos^{2}\\frac{\\theta}{2}-1=2\\cdot3(\\sqrt{2}-1)^{2}-1=17-12\\sqrt{2}\n$$\n<p>所以 $\\cos\\angle COD=17-12\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "设函数 $f_{n}(x) = -1 + x + \\frac{x^{2}}{2^{2}} + \\frac{x^{3}}{3^{2}} + \\cdots + \\frac{x^{n}}{n^{2}}$ （$x \\in \\mathbb{R}$，$n \\in \\mathbb{N}^{*}$）. 证明：\r\n\n(1) 对每个 $n \\in \\mathbb{N}^*$，存在唯一的 $x_n \\in \\left[\\frac{2}{3}, 1\\right]$，满足 $f_n(x_n) = 0$；\n\n(2) 对任意 $p \\in \\mathbb{N}^*$，由上一问中 $x_n$ 构成的数列 $\\{x_n\\}$ 满足 $0 < x_n - x_{n+p} < \\frac{1}{n}$.",
-          "choices": [],
+          "body": "<p>设函数 $f_{n}(x) = -1 + x + \\frac{x^{2}}{2^{2}}+ \\frac{x^{3}}{3^{2}}+ \\cdots + \\frac{x^{n}}{n^{2}}$ （$x \\in \\mathbb{R}$，$n \\in \\mathbb{N}^{*}$）. 证明：</p><ol class=\"enumerate\"><li><p>对每个 $n \\in \\mathbb{N}^{*}$，存在唯一的 $x_{n} \\in \\left[\\frac{2}{3}, 1\\right]$，满足 $f_{n}(x_{n}) = 0$；</p></li><li><p>对任意 $p \\in \\mathbb{N}^{*}$，由上一问中 $x_{n}$ 构成的数列 $\\{x_{n}\\}$ 满足 $0 &#x3C; x_{n} - x_{n+p}&#x3C; \\frac{1}{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 对 $x\\in\\left[\\dfrac{2}{3},1\\right]$，有\r\n\n$$\nf_n'(x)=1+\\frac{x}{2}+\\frac{x^2}{3}+\\cdots+\\frac{x^{n-1}}{n}>0\n$$\n\r\n所以 $f_n(x)$ 在区间 $\\left[\\dfrac{2}{3},1\\right]$ 上单调递增. 另一方面，\r\n\n$$\n\\sum_{r=1}^{n}\\frac{(\\frac{2}{3})^r}{r^2}\r\n<\\frac{2}{3}+\\frac{1}{4}\\sum_{r=2}^{\\infty}\\left(\\frac{2}{3}\\right)^r\r\n=1\n$$\n\r\n从而 $f_n\\left(\\dfrac{2}{3}\\right)<0$. 当 $n=1$ 时，$f_1(1)=0$；当 $n\\geqslant2$ 时，\r\n\n$$\nf_n(1)=\\sum_{r=1}^{n}\\frac{1}{r^2}-1>0\n$$\n\r\n因此由零点存在定理，方程 $f_n(x)=0$ 在 $\\left[\\dfrac{2}{3},1\\right]$ 内至少有一个根；结合 $f_n$ 的严格单调性，根至多有一个. 所以，对每个 $n\\in\\mathbb{N}^*$，存在唯一的 $x_n\\in\\left[\\dfrac{2}{3},1\\right]$ 满足 $f_n(x_n)=0$.\n\n(2) 因为 $x_n>0$，所以\r\n\n$$\nf_{n+p}(x_n)=f_n(x_n)+\\sum_{r=n+1}^{n+p}\\frac{x_n^r}{r^2}\r\n=\\sum_{r=n+1}^{n+p}\\frac{x_n^r}{r^2}>0\n$$\n\r\n又 $f_{n+p}(x_{n+p})=0$，且 $f_{n+p}$ 在 $\\left[\\dfrac{2}{3},1\\right]$ 上单调递增，故 $x_n>x_{n+p}$. 由拉格朗日中值定理，存在 $\\xi\\in(x_{n+p},x_n)$，使得\r\n\n$$\nf_{n+p}(x_n)-f_{n+p}(x_{n+p})=f_{n+p}'(\\xi)(x_n-x_{n+p})\n$$\n\r\n由于 $f_{n+p}'(\\xi)\\geqslant1$，且 $x_n\\leqslant1$，所以\r\n\n$$\n0<x_n-x_{n+p}\\le\\sum_{r=n+1}^{n+p}\\frac{x_n^r}{r^2}\r\n<\\sum_{r=n+1}^{\\infty}\\frac{1}{r^2}\r\n<\\int_n^{\\infty}\\frac{1}{x^2}\\,\\mathrm{d}x=\\frac{1}{n}\n$$\n\r\n故 $0<x_n-x_{n+p}<\\dfrac{1}{n}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>对 $x\\in\\left[\\dfrac{2}{3},1\\right]$，有</p>\n$$\nf_{n}'(x)=1+\\frac{x}{2}+\\frac{x^{2}}{3}+\\cdots+\\frac{x^{n-1}}{n}>0\n$$\n<p>所以 $f_{n}(x)$ 在区间 $\\left[\\dfrac{2}{3},1\\right]$ 上单调递增. 另一方面，</p>\n$$\n\\sum_{r=1}^{n}\\frac{(\\frac{2}{3})^{r}}{r^{2}}&#x3C;\\frac{2}{3}+\\frac{1}{4}\\sum_{r=2}^{\\infty}\\left(\\frac{2}{3}\\right)^{r}  =1\n$$\n<p>从而 $f_{n}\\left(\\dfrac{2}{3}\\right)&#x3C;0$. 当 $n=1$ 时，$f_{1}(1)=0$；当 $n\\geqslant2$ 时，</p>\n$$\nf_{n}(1)=\\sum_{r=1}^{n}\\frac{1}{r^{2}}-1>0\n$$\n<p>因此由零点存在定理，方程 $f_{n}(x)=0$ 在 $\\left[\\dfrac{2}{3},1\\right]$ 内至少有一个根；结合 $f_{n}$ 的严格单调性，根至多有一个. 所以，对每个 $n\\in\\mathbb{N}^{*}$，存在唯一的 $x_{n}\\in\\left[\\dfrac{2}{3},1\\right]$ 满足 $f_{n}(x_{n})=0$.</p></li><li><p>因为 $x_{n}>0$，所以</p>\n$$\nf_{n+p}(x_{n})=f_{n}(x_{n})+\\sum_{r=n+1}^{n+p}\\frac{x_{n}^{r}}{r^{2}}=\\sum_{r=n+1}^{n+p}\\frac{x_{n}^{r}}{r^{2}}>0\n$$\n<p>又 $f_{n+p}(x_{n+p})=0$，且 $f_{n+p}$ 在 $\\left[\\dfrac{2}{3},1\\right]$ 上单调递增，故 $x_{n}>x_{n+p}$. 由拉格朗日中值定理，存在 $\\xi\\in(x_{n+p},x_{n})$，使得</p>\n$$\nf_{n+p}(x_{n})-f_{n+p}(x_{n+p})=f_{n+p}'(\\xi)(x_{n}-x_{n+p})\n$$\n<p>由于 $f_{n+p}'(\\xi)\\geqslant1$，且 $x_{n}\\leqslant1$，所以</p>\n$$\n0&#x3C;x_{n}-x_{n+p}\\le\\sum_{r=n+1}^{n+p}\\frac{x_{n}^{r}}{r^{2}}&#x3C;\\sum_{r=n+1}^{\\infty}\\frac{1}{r^{2}}&#x3C;\\int_{n}^{\\infty}\\frac{1}{x^{2}}\\,\\mathrm{d}x=\\frac{1}{n}\n$$\n<p>故 $0&#x3C;x_{n}-x_{n+p}&#x3C;\\dfrac{1}{n}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "某高校数学系计划在周六和周日各举行一次主题不同的心理测试活动. 分别由李老师和张老师负责，已知该系共有 $n$ 位学生，每次活动均需该系 $k$ 位学生参加（$n$ 和 $k$ 都是固定的正整数）. 假设李老师和张老师分别将各自活动通知的信息独立，随机地发给该系 $k$ 位学生，且所发信息都能收到. 记该系收到李老师或张老师所发活动通知信息的学生人数为 $X$.\r\n\n(1) 求该系学生甲收到李老师或张老师所发活动通知信息的概率；\n\n(2) 求使 $P(X = m)$ 取得最大值的整数 $m$.",
-          "choices": [],
+          "body": "<p>某高校数学系计划在周六和周日各举行一次主题不同的心理测试活动. 分别由李老师和张老师负责，已知该系共有 $n$ 位学生，每次活动均需该系 $k$ 位学生参加（$n$ 和 $k$ 都是固定的正整数）. 假设李老师和张老师分别将各自活动通知的信息独立，随机地发给该系 $k$ 位学生，且所发信息都能收到. 记该系收到李老师或张老师所发活动通知信息的学生人数为 $X$.</p><ol class=\"enumerate\"><li><p>求该系学生甲收到李老师或张老师所发活动通知信息的概率；</p></li><li><p>求使 $P(X = m)$ 取得最大值的整数 $m$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设事件 $A$ 为学生甲收到李老师的通知，事件 $B$ 为学生甲收到张老师的通知. 则\r\n\n$$\nP(A)=P(B)=\\frac{k}{n}\n$$\n\r\n由两位老师独立随机发放通知，事件 $A$，$B$ 相互独立，所以\r\n\n$$\nP(A\\cup B)=P(A)+P(B)-P(A)P(B)\r\n=\\frac{2k}{n}-\\frac{k^2}{n^2}\n$$\n\n(2) 设两次通知涉及的学生集合分别为 $S_1$，$S_2$，并令 $Y=|S_1\\cap S_2|$. 则 $X=2k-Y$. 固定 $S_1$ 后，若 $Y=j$，则从 $S_1$ 中选出 $j$ 人，再从其余 $n-k$ 人中选出 $k-j$ 人，因此\r\n\n$$\nP(X=m)=P(Y=2k-m)=\\frac{\\mathrm C_k^{2k-m}\\mathrm C_{n-k}^{m-k}}{\\mathrm C_n^k}\n$$\n\r\n其中 $\\max(0,2k-n)\\leqslant2k-m\\le k$. 记\r\n\n$$\np_j=\\frac{\\mathrm C_k^j\\mathrm C_{n-k}^{k-j}}{\\mathrm C_n^k}\n$$\n\r\n对相邻的两个可能值，有\r\n\n$$\n\\frac{p_{j+1}}{p_j}=\\frac{(k-j)^2}{(j+1)(n-2k+j+1)}\n$$\n\r\n因此\r\n\n$$\np_{j+1}\\ge p_j\r\n\\Longleftrightarrow\r\n(k-j)^2\\ge(j+1)(n-2k+j+1)\r\n\\Longleftrightarrow\r\n(k+1)^2\\ge(n+2)(j+1)\n$$\n\r\n令 $q=\\dfrac{(k+1)^2}{n+2}$. 由上式可知，$\\{p_j\\}$ 先递增后递减；当 $q\\notin\\mathbb{Z}$ 时，最大值在 $j=\\lfloor q\\rfloor$ 处取得，于是\r\n\n$$\nm=2k-\\left\\lfloor\\frac{(k+1)^2}{n+2}\\right\\rfloor\n$$\n\r\n当 $q\\in\\mathbb{Z}$ 时，$p_{q-1}=p_q$ 且它们均为最大值，故使 $P(X=m)$ 取得最大值的整数为\r\n$m=2k-q+1 \\text{或}  m=2k-q$，$q=\\frac{(k+1)^2}{n+2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设事件 $A$ 为学生甲收到李老师的通知，事件 $B$ 为学生甲收到张老师的通知. 则</p>\n$$\nP(A)=P(B)=\\frac{k}{n}\n$$\n<p>由两位老师独立随机发放通知，事件 $A$，$B$ 相互独立，所以</p>\n$$\nP(A\\cup B)=P(A)+P(B)-P(A)P(B)  =\\frac{2k}{n}-\\frac{k^{2}}{n^{2}}\n$$\n</li><li><p>设两次通知涉及的学生集合分别为 $S_{1}$，$S_{2}$，并令 $Y=|S_{1}\\cap S_{2}|$. 则 $X=2k-Y$. 固定 $S_{1}$ 后，若 $Y=j$，则从 $S_{1}$ 中选出 $j$ 人，再从其余 $n-k$ 人中选出 $k-j$ 人，因此</p>\n$$\nP(X=m)=P(Y=2k-m)=\\frac{\\mathrm{C}_{k}^{2k-m}\\mathrm{C}_{n-k}^{m-k}}{\\mathrm{C}_{n}^{k}}\n$$\n<p>其中 $\\max(0,2k-n)\\leqslant2k-m\\le k$. 记</p>\n$$\np_{j}=\\frac{\\mathrm{C}_{k}^{j}\\mathrm{C}_{n-k}^{k-j}}{\\mathrm{C}_{n}^{k}}\n$$\n<p>对相邻的两个可能值，有</p>\n$$\n\\frac{p_{j+1}}{p_{j}}=\\frac{(k-j)^{2}}{(j+1)(n-2k+j+1)}\n$$\n<p>因此</p>\n$$\np_{j+1}\\ge p_{j}  \\Longleftrightarrow  (k-j)^{2}\\ge(j+1)(n-2k+j+1)  \\Longleftrightarrow  (k+1)^{2}\\ge(n+2)(j+1)\n$$\n<p>令 $q=\\dfrac{(k+1)^2}{n+2}$. 由上式可知，$\\{p_{j}\\}$ 先递增后递减；当 $q\\notin\\mathbb{Z}$ 时，最大值在 $j=\\lfloor q\\rfloor$ 处取得，于是</p>\n$$\nm=2k-\\left\\lfloor\\frac{(k+1)^{2}}{n+2}\\right\\rfloor\n$$\n<p>当 $q\\in\\mathbb{Z}$ 时，$p_{q-1}=p_{q}$ 且它们均为最大值，故使 $P(X=m)$ 取得最大值的整数为</p><p>$m=2k-q+1 \\text{或}  m=2k-q$，$q=\\frac{(k+1)^{2}}{n+2}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

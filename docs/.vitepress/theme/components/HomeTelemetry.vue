@@ -100,7 +100,7 @@ interface PaperItem {
 }
 
 const totalCount = ref(777);
-const pdfCount = ref(577);
+const pdfCount = ref(777);
 const isLoaded = ref(false);
 
 onMounted(async () => {
@@ -180,7 +180,7 @@ const metricItems = computed(() => {
       current: pdf,
       target: total,
       percentage: pdfPercent.toFixed(1),
-      badgeText: `${pdf} 套就绪`,
+      badgeText: pdfPercent >= 100 ? '全量就绪' : `${pdf} 套就绪`,
       badgeType: pdfPercent >= 100 ? 'success' : 'progress'
     },
     {

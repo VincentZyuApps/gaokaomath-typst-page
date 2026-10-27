@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -33,7 +34,7 @@ $ A=(A inter B) union (A inter \c o m p l e m e n t_U B)=\{3\} union \{9\}=\{3,9
 #answer([A])
 
 #solution[
-由题意，分母 $a+ i b\n e q0$，交叉相乘得
+由题意，分母 $a+ i b\n e q 0$，交叉相乘得
 
 $ 1+2 i =(a+ i b)(1+ i )=(a-b)+(a+b) i $
 

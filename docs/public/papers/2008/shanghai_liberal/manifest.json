@@ -1,239 +1,88 @@
 {
+  "title": "2008年普通高等学校招生全国统一考试",
+  "subtitle": "2008年上海卷（秋文）",
   "year": "2008",
   "slug": "shanghai_liberal",
-  "title": "2008年上海卷（秋文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "填空题",
       "problems": [
         {
           "num": 1,
-          "body": "不等式 $|x - 1| < 1$ 的解集是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left(0,2\\right)\\)",
-          "solution": "由绝对值不等式的等价关系，\r\n\n$$\n|x-1|<1\\Longleftrightarrow -1<x-1<1\\Longleftrightarrow 0<x<2\n$$\n\r\n所以解集为 $\\left(0,2\\right)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "不等式 $|x - 1| &#x3C; 1$ 的解集是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left(0,2\\right)$",
+          "solution": "<p>由绝对值不等式的等价关系，</p>\n$$\n|x-1|&#x3C;1\\Longleftrightarrow -1&#x3C;x-1&#x3C;1\\Longleftrightarrow 0&#x3C;x&#x3C;2\n$$\n<p>所以解集为 $\\left(0,2\\right)$.</p>"
         },
         {
           "num": 2,
-          "body": "若集合 $A = \\{x \\mid x \\le 2\\}$，$B = \\{x \\mid x \\ge a\\}$ 满足 $A \\cap B = \\{2\\}$，则实数 $a =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "当 $a\\leqslant2$ 时，$A\\cap B=\\{x\\mid a\\le x\\leqslant2\\}$. 若 $a<2$，交集含有无穷多个数；若 $a>2$，交集为空集. 只有 $a=2$ 时交集恰为 $\\{2\\}$，所以 $a=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若集合 $A = \\{x \\mid x \\le 2\\}$，$B = \\{x \\mid x \\ge a\\}$ 满足 $A \\cap B = \\{2\\}$，则实数 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "当 $a\\leqslant2$ 时，$A\\cap B=\\{x\\mid a\\le x\\leqslant2\\}$. 若 $a&#x3C;2$，交集含有无穷多个数；若 $a>2$，交集为空集. 只有 $a=2$ 时交集恰为 $\\{2\\}$，所以 $a=2$."
         },
         {
           "num": 3,
-          "body": "若复数 $z$ 满足 $z = \\mathrm{i}(2 - z)$ （$\\mathrm{i}$ 是虚数单位），则 $z =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(1+\\mathrm{i}\\)",
-          "solution": "将题设等式移项，得 $(1+\\mathrm{i})z=2\\mathrm{i}$. 因为 $1+\\mathrm{i}\\neq0$，所以\r\n\n$$\nz=\\frac{2\\mathrm{i}}{1+\\mathrm{i}}=\\frac{2\\mathrm{i}(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\mathrm{i}(1-\\mathrm{i})=1+\\mathrm{i}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若复数 $z$ 满足 $z = \\mathrm{i}(2 - z)$ （$\\mathrm{i}$ 是虚数单位），则 $z =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$1+\\mathrm{i}$",
+          "solution": "<p>将题设等式移项，得 $(1+\\mathrm{i})z=2\\mathrm{i}$. 因为 $1+\\mathrm{i}\\neq0$，所以</p>\n$$\nz=\\frac{2\\mathrm{i}}{1+\\mathrm{i}}=\\frac{2\\mathrm{i}(1-\\mathrm{i})}{(1+\\mathrm{i})(1-\\mathrm{i})}=\\mathrm{i}(1-\\mathrm{i})=1+\\mathrm{i}\n$$"
         },
         {
           "num": 4,
-          "body": "若函数 $f(x)$ 的反函数为 $f^{-1}(x)=\\log_{2}x$，则 $f(x)=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2^x\\)",
-          "solution": "函数 $y=\\log_{2}x$ 的定义域为 $x>0$，值域为 $\\mathbb{R}$，其反函数由交换变量得到 $y=2^x$. 题设给出的反函数为 $f^{-1}(x)=\\log_{2}x$，因此原函数为 $f(x)=2^x$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若函数 $f(x)$ 的反函数为 $f^{-1}(x)=\\log_{2}x$，则 $f(x)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2^{x}$",
+          "solution": "函数 $y=\\log_{2}x$ 的定义域为 $x>0$，值域为 $\\mathbb{R}$，其反函数由交换变量得到 $y=2^{x}$. 题设给出的反函数为 $f^{-1}(x)=\\log_{2}x$，因此原函数为 $f(x)=2^{x}$."
         },
         {
           "num": 5,
-          "body": "若向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $|\\mathbf{a}| = 1$，$|\\mathbf{b}| = 2$，且 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\frac{\\pi}{3}$，则 $|\\mathbf{a} + \\mathbf{b}| =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt{7}\\)",
-          "solution": "由向量和的模的平方公式，\r\n\n$$\n|\\mathbf{a}+\\mathbf{b}|^2=|\\mathbf{a}|^2+|\\mathbf{b}|^2+2|\\mathbf{a}||\\mathbf{b}|\\cos\\frac{\\pi}{3}=1^2+2^2+2\\cdot1\\cdot2\\cdot\\frac12=7\n$$\n\r\n由于模长非负，得 $|\\mathbf{a}+\\mathbf{b}|=\\sqrt7$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $|\\mathbf{a}| = 1$，$|\\mathbf{b}| = 2$，且 $\\mathbf{a}$ 与 $\\mathbf{b}$ 的夹角为 $\\frac{\\pi}{3}$，则 $|\\mathbf{a}+ \\mathbf{b}| =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{7}$",
+          "solution": "<p>由向量和的模的平方公式，</p>\n$$\n|\\mathbf{a}+\\mathbf{b}|^{2}=|\\mathbf{a}|^{2}+|\\mathbf{b}|^{2}+2|\\mathbf{a}||\\mathbf{b}|\\cos\\frac{\\pi}{3}=1^{2}+2^{2}+2\\cdot1\\cdot2\\cdot\\frac{1}{2}=7\n$$\n<p>由于模长非负，得 $|\\mathbf{a}+\\mathbf{b}|=\\sqrt{7}$.</p>"
         },
         {
           "num": 6,
-          "body": "若直线 $ax - y + 1 = 0$ 经过抛物线 $y^{2} = 4x$ 的焦点，则实数 $a =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-1\\)",
-          "solution": "抛物线 $y^2=4x$ 的标准形式为 $y^2=4px$，故 $p=1$，焦点为 $(1,0)$. 将焦点坐标代入直线方程，得\r\n$a\\cdot1-0+1=0$，\r\n所以 $a=-1$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若直线 $ax - y + 1 = 0$ 经过抛物线 $y^{2}= 4x$ 的焦点，则实数 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-1$",
+          "solution": "<p>抛物线 $y^{2}=4x$ 的标准形式为 $y^{2}=4px$，故 $p=1$，焦点为 $(1,0)$. 将焦点坐标代入直线方程，得</p><p>$a\\cdot1-0+1=0$，</p><p>所以 $a=-1$.</p>"
         },
         {
           "num": 7,
-          "body": "若 $z$ 是实系数方程 $x^{2} + 2x + p = 0$ 的一个虚根，且 $|z| = 2$，则 $p =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(4\\)",
-          "solution": "设虚根为 $z$. 因为方程是实系数方程，且 $z$ 为非实根，所以其另一根为 $\\overline{z}$. 由韦达定理，\r\n$p=z\\overline{z}=|z|^2=2^2=4$.\r\n因此 $p=4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若 $z$ 是实系数方程 $x^{2}+ 2x + p = 0$ 的一个虚根，且 $|z| = 2$，则 $p =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$4$",
+          "solution": "<p>设虚根为 $z$. 因为方程是实系数方程，且 $z$ 为非实根，所以其另一根为 $\\overline{z}$. 由韦达定理，</p><p>$p=z\\overline{z}=|z|^{2}=2^{2}=4$.</p><p>因此 $p=4$.</p>"
         },
         {
           "num": 8,
-          "body": "在平面直角坐标系中，从五个点：$A(0,0)$，$B(2,0)$，$C(1,1)$，$D(0,2)$，$E(2,2)$ 中任取三个，这三点能构成三角形的概率是 _______ {}. （结果用分数表示）",
-          "choices": [],
-          "answer": "\\(\\frac{4}{5}\\)",
-          "solution": "从五个点中任取三个点的取法总数为 $\\mathrm C_5^3=10$. 对平面向量 $(u_1,v_1)$、$(u_2,v_2)$，记 $\\det((u_1,v_1),(u_2,v_2))=u_1v_2-v_1u_2$. 三点共线当且仅当以其中一点为起点的两条向量的行列式为零. 十组点对应的行列式（取绝对值）依次为\r\n$|\\det(\\overrightarrow{AB},\\overrightarrow{AC})|=2$，$|\\det(\\overrightarrow{AB},\\overrightarrow{AD})|=4$，$|\\det(\\overrightarrow{AB},\\overrightarrow{AE})|=4$.\r\n$|\\det(\\overrightarrow{AC},\\overrightarrow{AD})|=2$，$|\\det(\\overrightarrow{AC},\\overrightarrow{AE})|=0$，$|\\det(\\overrightarrow{AD},\\overrightarrow{AE})|=4$.\r\n$|\\det(\\overrightarrow{BC},\\overrightarrow{BD})|=0$，$|\\det(\\overrightarrow{BC},\\overrightarrow{BE})|=2$，$|\\det(\\overrightarrow{BD},\\overrightarrow{BE})|=4$，$|\\det(\\overrightarrow{CD},\\overrightarrow{CE})|=2$.\r\n因此只有 $A$，$C$，$E$ 和 $B$，$C$，$D$ 三点共线，不能构成三角形的取法有 $2$ 种.\r\n\r\n所以能构成三角形的取法有 $10-2=8$ 种，所求概率为\r\n\n$$\n\\frac{8}{10}=\\frac45\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在平面直角坐标系中，从五个点：$A(0,0)$，$B(2,0)$，$C(1,1)$，$D(0,2)$，$E(2,2)$ 中任取三个，这三点能构成三角形的概率是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>. （结果用分数表示）",
+          "choices": null,
+          "answer": "$\\frac{4}{5}$",
+          "solution": "<p>从五个点中任取三个点的取法总数为 $\\mathrm{C}_{5}^{3}=10$. 对平面向量 $(u_{1},v_{1})$、$(u_{2},v_{2})$，记 $\\det((u_{1},v_{1}),(u_{2},v_{2}))=u_{1}v_{2}-v_{1}u_{2}$. 三点共线当且仅当以其中一点为起点的两条向量的行列式为零. 十组点对应的行列式（取绝对值）依次为</p><p>$|\\det(\\overrightarrow{AB},\\overrightarrow{AC})|=2$，$|\\det(\\overrightarrow{AB},\\overrightarrow{AD})|=4$，$|\\det(\\overrightarrow{AB},\\overrightarrow{AE})|=4$.</p><p>$|\\det(\\overrightarrow{AC},\\overrightarrow{AD})|=2$，$|\\det(\\overrightarrow{AC},\\overrightarrow{AE})|=0$，$|\\det(\\overrightarrow{AD},\\overrightarrow{AE})|=4$.</p><p>$|\\det(\\overrightarrow{BC},\\overrightarrow{BD})|=0$，$|\\det(\\overrightarrow{BC},\\overrightarrow{BE})|=2$，$|\\det(\\overrightarrow{BD},\\overrightarrow{BE})|=4$，$|\\det(\\overrightarrow{CD},\\overrightarrow{CE})|=2$.</p><p>因此只有 $A$，$C$，$E$ 和 $B$，$C$，$D$ 三点共线，不能构成三角形的取法有 $2$ 种.</p><p>所以能构成三角形的取法有 $10-2=8$ 种，所求概率为</p>\n$$\n\\frac{8}{10}=\\frac{4}{5}\n$$"
         },
         {
           "num": 9,
-          "body": "若函数 $f(x) = (x + a)(bx + 2a)$ （常数 $a$，$b \\in \\mathbb{R}$）是偶函数，且它的值域为 $\\left(-\\infty, 4\\right]$，则该函数的解析式 $f(x)=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-2x^2+4\\)",
-          "solution": "展开函数式，得\r\n\n$$\nf(x)=(x+a)(bx+2a)=bx^2+a(b+2)x+2a^2\n$$\n\r\n函数为偶函数，所以一次项系数必须为零，即 $a(b+2)=0$.\r\n\r\n若 $a=0$，则 $f(x)=bx^2$. 当 $b<0$ 时值域为 $\\left(-\\infty,0\\right]$，当 $b=0$ 时值域为 $\\{0\\}$，当 $b>0$ 时值域为 $\\left[0,+\\infty\\right)$，均不可能是 $\\left(-\\infty,4\\right]$. 因而只能有 $b=-2$，此时\r\n\n$$\nf(x)=-2x^2+2a^2\n$$\n\r\n其值域为 $\\left(-\\infty,2a^2\\right]$. 由题设 $2a^2=4$，故 $f(x)=-2x^2+4$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若函数 $f(x) = (x + a)(bx + 2a)$ （常数 $a$，$b \\in \\mathbb{R}$）是偶函数，且它的值域为 $\\left(-\\infty, 4\\right]$，则该函数的解析式 $f(x)=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-2x^{2}+4$",
+          "solution": "<p>展开函数式，得</p>\n$$\nf(x)=(x+a)(bx+2a)=bx^{2}+a(b+2)x+2a^{2}\n$$\n<p>函数为偶函数，所以一次项系数必须为零，即 $a(b+2)=0$.</p><p>若 $a=0$，则 $f(x)=bx^{2}$. 当 $b&#x3C;0$ 时值域为 $\\left(-\\infty,0\\right]$，当 $b=0$ 时值域为 $\\{0\\}$，当 $b>0$ 时值域为 $\\left[0,+\\infty\\right)$，均不可能是 $\\left(-\\infty,4\\right]$. 因而只能有 $b=-2$，此时</p>\n$$\nf(x)=-2x^{2}+2a^{2}\n$$\n<p>其值域为 $\\left(-\\infty,2a^{2}\\right]$. 由题设 $2a^{2}=4$，故 $f(x)=-2x^{2}+4$.</p>"
         },
         {
           "num": 10,
-          "body": "已知总体的各个体的值由小到大依次为 $2$，$3$，$3$，$7$，$a$，$b$，$12$，$13.7$，$18.3$，$20$，且总体的中位数为 $10.5$. 若要使该总体的方差最小，则 $a$，$b$ 的取值分别是 _______ {}.",
-          "choices": [],
-          "answer": "\\(a=10.5\\)，\\(b=10.5\\)",
-          "solution": "总体共有 $10$ 个数据，中位数为中间两个数据的平均数，因此\r\n$\\frac{a+b}{2}=10.5$，$a+b=21$.\r\n由于其余数据固定，且 $a+b$ 固定，总体平均数也固定. 于是方差最小时，等价于 $a^2+b^2$ 最小. 由\r\n\n$$\na^2+b^2\\ge\\frac{(a+b)^2}{2}=\\frac{21^2}{2}\n$$\n\r\n等号成立当且仅当 $a=b$. 结合 $a+b=21$，得到 $a=b=10.5$，且满足原数据的大小顺序. 因此取值分别为 $a=10.5$，$b=10.5$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知总体的各个体的值由小到大依次为 $2$，$3$，$3$，$7$，$a$，$b$，$12$，$13.7$，$18.3$，$20$，且总体的中位数为 $10.5$. 若要使该总体的方差最小，则 $a$，$b$ 的取值分别是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$a=10.5$，$b=10.5$",
+          "solution": "<p>总体共有 $10$ 个数据，中位数为中间两个数据的平均数，因此</p><p>$\\frac{a+b}{2}=10.5$，$a+b=21$.</p><p>由于其余数据固定，且 $a+b$ 固定，总体平均数也固定. 于是方差最小时，等价于 $a^{2}+b^{2}$ 最小. 由</p>\n$$\na^{2}+b^{2}\\ge\\frac{(a+b)^{2}}{2}=\\frac{21^{2}}{2}\n$$\n<p>等号成立当且仅当 $a=b$. 结合 $a+b=21$，得到 $a=b=10.5$，且满足原数据的大小顺序. 因此取值分别为 $a=10.5$，$b=10.5$.</p>"
         },
         {
           "num": 11,
-          "body": "在平面直角坐标系中，点 $A$，$B$，$C$ 的坐标分别为 $(0,1)$，$(4,2)$，$(2,6)$. 如果 $P(x,y)$ 是 $\\triangle ABC$ 围成的区域（含边界）上的点，那么当 $w = xy$ 取到最大值时，点 $P$ 的坐标是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left(\\frac{5}{2},5\\right)\\)",
-          "solution": "三角形区域的两条上边界所在直线分别为\r\n$AC:y=1+\\frac52x$，$BC:y=-2x+10$.\r\n区域内 $x\\geqslant0$，所以固定 $x$ 时，$w=xy$ 随 $y$ 增大而增大，只需考察上边界 $AC$ 与 $BC$.\r\n\r\n当 $0\\le x\\leqslant2$ 时，点在边 $AC$ 上方界，\r\n\n$$\nw=x\\left(1+\\frac52x\\right)=x+\\frac52x^2\\leqslant2+\\frac52\\cdot2^2=12\n$$\n\r\n当 $2\\le x\\leqslant4$ 时，点在边 $BC$ 上方界，\r\n\n$$\nw=x(10-2x)=-2\\left(x-\\frac52\\right)^2+\\frac{25}{2}\\le\\frac{25}{2}\n$$\n\r\n等号在 $x=\\frac52$ 时取得，此时 $y=10-2\\cdot\\frac52=5$. 因此最大值取得时点 $P$ 的坐标为 $\\left(\\frac52,5\\right)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在平面直角坐标系中，点 $A$，$B$，$C$ 的坐标分别为 $(0,1)$，$(4,2)$，$(2,6)$. 如果 $P(x,y)$ 是 $\\triangle ABC$ 围成的区域（含边界）上的点，那么当 $w = xy$ 取到最大值时，点 $P$ 的坐标是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left(\\frac{5}{2},5\\right)$",
+          "solution": "<p>三角形区域的两条上边界所在直线分别为</p><p>$AC:y=1+\\frac{5}{2}x$，$BC:y=-2x+10$.</p><p>区域内 $x\\geqslant0$，所以固定 $x$ 时，$w=xy$ 随 $y$ 增大而增大，只需考察上边界 $AC$ 与 $BC$.</p><p>当 $0\\le x\\leqslant2$ 时，点在边 $AC$ 上方界，</p>\n$$\nw=x\\left(1+\\frac{5}{2}x\\right)=x+\\frac{5}{2}x^{2}\\leqslant2+\\frac{5}{2}\\cdot2^{2}=12\n$$\n<p>当 $2\\le x\\leqslant4$ 时，点在边 $BC$ 上方界，</p>\n$$\nw=x(10-2x)=-2\\left(x-\\frac{5}{2}\\right)^{2}+\\frac{25}{2}\\le\\frac{25}{2}\n$$\n<p>等号在 $x=\\frac{5}{2}$ 时取得，此时 $y=10-2\\cdot\\frac{5}{2}=5$. 因此最大值取得时点 $P$ 的坐标为 $\\left(\\frac{5}{2},5\\right)$.</p>"
         }
       ]
     },
@@ -242,7 +91,7 @@
       "problems": [
         {
           "num": 12,
-          "body": "设 $P$ 是椭圆 $\\frac{x^2}{25} + \\frac{y^2}{16} = 1$ 上的点. 若 $F_1$，$F_2$ 是椭圆的两个焦点，则 $\\left|PF_1\\right| + \\left|PF_2\\right|$ 等于（ ）",
+          "body": "设 $P$ 是椭圆 $\\frac{x^{2}}{25}+ \\frac{y^{2}}{16}= 1$ 上的点. 若 $F_{1}$，$F_{2}$ 是椭圆的两个焦点，则 $\\left|PF_{1}\\right| + \\left|PF_{2}\\right|$ 等于（ ）",
           "choices": [
             "$4$",
             "$5$",
@@ -250,13 +99,11 @@
             "$10$"
           ],
           "answer": "D",
-          "solution": "椭圆 $\\frac{x^2}{25}+\\frac{y^2}{16}=1$ 的长半轴为 $5$. 椭圆上任一点到两个焦点的距离之和等于长轴长，即\r\n$|PF_1|+|PF_2|=2\\times5=10$.\r\n所以正确选项为 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>椭圆 $\\frac{x^{2}}{25}+\\frac{y^{2}}{16}=1$ 的长半轴为 $5$. 椭圆上任一点到两个焦点的距离之和等于长轴长，即</p><p>$|PF_{1}|+|PF_{2}|=2\\times5=10$.</p><p>所以正确选项为 D.</p>"
         },
         {
           "num": 13,
-          "body": "给定空间中的直线 $l$ 及平面 $\\alpha$，条件“直线 $l$ 与平面 $\\alpha$ 内无数条直线都垂直”是“直线 $l$ 与平面 $\\alpha$ 垂直”的（ ）",
+          "body": "给定空间中的直线 $l$ 及平面 $\\alpha$，条件“直线 $l$ 与平面 $\\alpha$ 内无数条直线都垂直”是“直线 $l$ 与平面 $\\alpha$ 垂直”的（ ）",
           "choices": [
             "充分非必要条件",
             "必要非充分条件",
@@ -264,13 +111,11 @@
             "既非充分又非必要条件"
           ],
           "answer": "B",
-          "solution": "若 $l\\perp\\alpha$，则直线 $l$ 垂直于平面 $\\alpha$ 内所有与其相交的直线，因而必垂直于平面内无数条直线，所以题述条件是必要条件.\r\n\r\n反之，取 $\\alpha$ 为 $xOy$ 平面，取 $l$ 为 $x$ 轴. 对任意 $c\\in\\mathbb{R}$，平面 $\\alpha$ 内的直线 $m_c\\colon x=c$ 都与 $l$ 相交且垂直，因此 $l$ 与平面 $\\alpha$ 内无数条直线垂直；但 $l\\subset\\alpha$，所以 $l$ 不垂直于 $\\alpha$. 因此题述条件不是充分条件，故为必要非充分条件，正确选项为 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>若 $l\\perp\\alpha$，则直线 $l$ 垂直于平面 $\\alpha$ 内所有与其相交的直线，因而必垂直于平面内无数条直线，所以题述条件是必要条件.</p><p>反之，取 $\\alpha$ 为 $xOy$ 平面，取 $l$ 为 $x$ 轴. 对任意 $c\\in\\mathbb{R}$，平面 $\\alpha$ 内的直线 $m_{c}\\colon x=c$ 都与 $l$ 相交且垂直，因此 $l$ 与平面 $\\alpha$ 内无数条直线垂直；但 $l\\subset\\alpha$，所以 $l$ 不垂直于 $\\alpha$. 因此题述条件不是充分条件，故为必要非充分条件，正确选项为 B.</p>"
         },
         {
           "num": 14,
-          "body": "若数列 $\\{a_{n}\\}$ 是首项为 $1$，公比为 $a - \\frac{3}{2}$ 的无穷等比数列，且 $\\{a_{n}\\}$ 各项的和为 $a$，则 $a$ 的值是（ ）",
+          "body": "若数列 $\\{a_{n}\\}$ 是首项为 $1$，公比为 $a - \\frac{3}{2}$ 的无穷等比数列，且 $\\{a_{n}\\}$ 各项的和为 $a$，则 $a$ 的值是（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -278,13 +123,11 @@
             "$\\frac{5}{4}$"
           ],
           "answer": "B",
-          "solution": "设无穷等比数列的公比为 $q=a-\\frac32$. 由于各项和存在，必须满足 $|q|<1$，且\r\n\n$$\na=\\frac{1}{1-q}=\\frac{1}{1-(a-\\frac32)}=\\frac{1}{\\frac52-a}\n$$\n\r\n于是\r\n\n$$\na\\left(\\frac52-a\\right)=1\r\n\\Longleftrightarrow 2a^2-5a+2=0\n$$\n\r\n解得 $a=2$ 或 $a=\\frac12$. 当 $a=\\frac12$ 时，$q=-1$，不满足 $|q|<1$，舍去；当 $a=2$ 时，$q=\\frac12$，满足收敛条件. 因此正确选项为 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设无穷等比数列的公比为 $q=a-\\frac{3}{2}$. 由于各项和存在，必须满足 $|q|&#x3C;1$，且</p>\n$$\na=\\frac{1}{1-q}=\\frac{1}{1-(a-\\frac{3}{2})}=\\frac{1}{\\frac{5}{2}-a}\n$$\n<p>于是</p>\n$$\na\\left(\\frac{5}{2}-a\\right)=1  \\Longleftrightarrow 2a^{2}-5a+2=0\n$$\n<p>解得 $a=2$ 或 $a=\\frac{1}{2}$. 当 $a=\\frac{1}{2}$ 时，$q=-1$，不满足 $|q|&#x3C;1$，舍去；当 $a=2$ 时，$q=\\frac{1}{2}$，满足收敛条件. 因此正确选项为 B.</p>"
         },
         {
           "num": 15,
-          "body": "如图，在平面直角坐标系中，$\\Omega$ 是一个与 $x$ 轴的正半轴，$y$ 轴的正半轴分别相切于点 $C$，$D$ 的定圆所围成区域（含边界），$A$，$B$，$C$，$D$ 是该圆的四等分点. 若点 $P(x, y)$，点 $P'(x', y')$ 满足 $x \\le x'$ 且 $y \\ge y'$，则称 $P$ 优于 $P'$. 如果 $\\Omega$ 中的点 $Q$ 满足：不存在 $\\Omega$ 中的其它点优于 $Q$，那么所有这样的点 $Q$ 组成的集合是劣弧（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/shanghai_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
+          "body": "<p>如图，在平面直角坐标系中，$\\Omega$ 是一个与 $x$ 轴的正半轴，$y$ 轴的正半轴分别相切于点 $C$，$D$ 的定圆所围成区域（含边界），$A$，$B$，$C$，$D$ 是该圆的四等分点. 若点 $P(x, y)$，点 $P'(x', y')$ 满足 $x \\le x'$ 且 $y \\ge y'$，则称 $P$ 优于 $P'$. 如果 $\\Omega$ 中的点 $Q$ 满足：不存在 $\\Omega$ 中的其它点优于 $Q$，那么所有这样的点 $Q$ 组成的集合是劣弧（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q15_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": [
             "弧 $AB$",
             "弧 $BC$",
@@ -292,9 +135,7 @@
             "弧 $DA$"
           ],
           "answer": "D",
-          "solution": "设圆的半径为 $r>0$，则其圆心为 $(r,r)$，四等分点可表示为\r\n$A=(r,2r)$，$B=(2r,r)$，$C=(r,0)$，$D=(0,r)$.\r\n先看圆盘内部的点. 若点在内部，向左上方作足够短的移动仍在圆盘内，所得点的横坐标更小、纵坐标更大，因此该点不可能是题述集合中的点.\r\n\r\n在劣弧 $AB$（不含端点 $A$）和劣弧 $BC$ 上，点 $A$ 的横坐标不大于该点、纵坐标不小于该点，所以这些点均被 $A$ 优于. 在劣弧 $CD$（不含端点 $D$）上，沿圆弧向 $D$ 移动可得到横坐标更小且纵坐标更大的圆盘内点，所以这些点也都不满足条件.\r\n\r\n对劣弧 $DA$ 上任一点 $Q$，若圆盘内另有点 $P$ 满足 $x_P\\le x_Q$、$y_P\\ge y_Q$，则相对于圆心有\r\n$r-x_P\\ge r-x_Q$，$y_P-r\\ge y_Q-r$\r\n且至少一个不等号严格成立，从而 $P$ 到圆心的距离大于 $Q$ 到圆心的距离 $r$，这与 $P$ 在圆盘内矛盾. 因此劣弧 $DA$ 上的点恰好满足题设条件，正确选项为 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设圆的半径为 $r>0$，则其圆心为 $(r,r)$，四等分点可表示为</p><p>$A=(r,2r)$，$B=(2r,r)$，$C=(r,0)$，$D=(0,r)$.</p><p>先看圆盘内部的点. 若点在内部，向左上方作足够短的移动仍在圆盘内，所得点的横坐标更小、纵坐标更大，因此该点不可能是题述集合中的点.</p><p>在劣弧 $AB$（不含端点 $A$）和劣弧 $BC$ 上，点 $A$ 的横坐标不大于该点、纵坐标不小于该点，所以这些点均被 $A$ 优于. 在劣弧 $CD$（不含端点 $D$）上，沿圆弧向 $D$ 移动可得到横坐标更小且纵坐标更大的圆盘内点，所以这些点也都不满足条件.</p><p>对劣弧 $DA$ 上任一点 $Q$，若圆盘内另有点 $P$ 满足 $x_{P}\\le x_{Q}$、$y_{P}\\ge y_{Q}$，则相对于圆心有</p><p>$r-x_{P}\\ge r-x_{Q}$，$y_{P}-r\\ge y_{Q}-r$</p><p>且至少一个不等号严格成立，从而 $P$ 到圆心的距离大于 $Q$ 到圆心的距离 $r$，这与 $P$ 在圆盘内矛盾. 因此劣弧 $DA$ 上的点恰好满足题设条件，正确选项为 D.</p>"
         }
       ]
     },
@@ -303,60 +144,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "如图，在棱长为 $2$ 的正方体 $ABCD-A_1B_1C_1D_1$ 中，$E$ 是 $BC_1$ 的中点. 求直线 $DE$ 与平面 $ABCD$ 所成角的大小.（结果用反三角函数表示）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/shanghai_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，在棱长为 $2$ 的正方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$E$ 是 $BC_{1}$ 的中点. 求直线 $DE$ 与平面 $ABCD$ 所成角的大小.（结果用反三角函数表示）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q16_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立空间直角坐标系，令 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，$A_1=(0,0,2)$，则 $C_1=(2,2,2)$. 由于 $E$ 是 $BC_1$ 的中点，所以 $E=(2,1,1)$. 设 $E_0=(2,1,0)$，则 $E_0$ 是点 $E$ 在平面 $ABCD$ 上的射影，且\r\n\r\n$DE_0=\\sqrt{(2-0)^2+(1-2)^2}=\\sqrt{5}$，$EE_0=1$. 因此，直线 $DE$ 与平面 $ABCD$ 所成角就是直角三角形 $DEE_0$ 的锐角 $\\theta$，从而\r\n\r\n\n$$\n\\tan\\theta=\\frac{EE_0}{DE_0}=\\frac{1}{\\sqrt{5}}=\\frac{\\sqrt{5}}{5}\n$$\n\r\n\r\n所以直线 $DE$ 与平面 $ABCD$ 所成角为 $\\arctan\\frac{\\sqrt{5}}{5}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立空间直角坐标系，令 $A=(0,0,0)$，$B=(2,0,0)$，$D=(0,2,0)$，$A_{1}=(0,0,2)$，则 $C_{1}=(2,2,2)$. 由于 $E$ 是 $BC_{1}$ 的中点，所以 $E=(2,1,1)$. 设 $E_{0}=(2,1,0)$，则 $E_{0}$ 是点 $E$ 在平面 $ABCD$ 上的射影，且</p><p>$DE_{0}=\\sqrt{(2-0)^{2}+(1-2)^{2}}=\\sqrt{5}$，$EE_{0}=1$. 因此，直线 $DE$ 与平面 $ABCD$ 所成角就是直角三角形 $DEE_{0}$ 的锐角 $\\theta$，从而</p>\n$$\n\\tan\\theta=\\frac{EE_{0}}{DE_{0}}=\\frac{1}{\\sqrt{5}}=\\frac{\\sqrt{5}}{5}\n$$\n<p>所以直线 $DE$ 与平面 $ABCD$ 所成角为 $\\arctan\\frac{\\sqrt{5}}{5}$.</p>"
         },
         {
           "num": 17,
-          "body": "如图，某住宅小区的平面图呈扇形 $AOC$. 小区的两个出入口设置在点 $A$ 及点 $C$ 处，小区里有两条笔直的小路 $AD$，$DC$，且拐弯处的转角为 $120^{\\circ}$. 已知某人从 $C$ 沿 $CD$ 走到 $D$ 用了 $10\\text{ 分钟}$，从 $D$ 沿 $DA$ 走到 $A$ 用了 $6\\text{ 分钟}$. 若此人步行的速度为每分钟 $50\\text{ 米}$，求该扇形的半径 $OA$ 的长.（精确到 $1\\text{ 米}$）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2008/img/shanghai_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，某住宅小区的平面图呈扇形 $AOC$. 小区的两个出入口设置在点 $A$ 及点 $C$ 处，小区里有两条笔直的小路 $AD$，$DC$，且拐弯处的转角为 $120^{\\circ}$. 已知某人从 $C$ 沿 $CD$ 走到 $D$ 用了 $10\\text{ 分钟}$，从 $D$ 沿 $DA$ 走到 $A$ 用了 $6\\text{ 分钟}$. 若此人步行的速度为每分钟 $50\\text{ 米}$，求该扇形的半径 $OA$ 的长.（精确到 $1\\text{ 米}$）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/shanghai_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "由图可知 $A$，$D$，$O$ 共线，且 $D$ 在线段 $AO$ 上. 设扇形半径 $OA=R$. 由步行速度可得\r\n\r\n$AD=6\\times50=300\\text{ 米}$，$CD=10\\times50=500\\text{ 米}$，所以 $OD=R-300$. 又因为 $\\angle CDA=120^{\\circ}$，而射线 $DO$ 与射线 $DA$ 方向相反，所以 $\\angle ODC=60^{\\circ}$.\r\n\r\n在三角形 $ODC$ 中，由余弦定理，\r\n\r\n\n$$\nR^2=(R-300)^2+500^2-2(R-300)\\times500\\cos60^{\\circ}\n$$\n\r\n\r\n整理得\r\n\r\n\n$$\nR^2=R^2-1100R+490000\n$$\n\r\n\r\n所以 $R=\\frac{490000}{1100}=445.\\overline{45}\\text{ 米}$. 按题意精确到 $1$ 米，得扇形半径 $OA$ 的长约为 $445\\text{ 米}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由图可知 $A$，$D$，$O$ 共线，且 $D$ 在线段 $AO$ 上. 设扇形半径 $OA=R$. 由步行速度可得</p><p>$AD=6\\times50=300\\text{ 米}$，$CD=10\\times50=500\\text{ 米}$，所以 $OD=R-300$. 又因为 $\\angle CDA=120^{\\circ}$，而射线 $DO$ 与射线 $DA$ 方向相反，所以 $\\angle ODC=60^{\\circ}$.</p><p>在三角形 $ODC$ 中，由余弦定理，</p>\n$$\nR^{2}=(R-300)^{2}+500^{2}-2(R-300)\\times500\\cos60^{\\circ}\n$$\n<p>整理得</p>\n$$\nR^{2}=R^{2}-1100R+490000\n$$\n<p>所以 $R=\\frac{490000}{1100}=445.\\overline{45}\\text{ 米}$. 按题意精确到 $1$ 米，得扇形半径 $OA$ 的长约为 $445\\text{ 米}$.</p>"
         },
         {
           "num": 18,
-          "body": "已知函数 $f(x) = \\sin 2x$，$g(x) = \\cos \\left(2x + \\frac{\\pi}{6}\\right)$，直线 $x = t$（$t \\in \\mathbb{R}$）与函数 $f(x)$，$g(x)$ 的图象分别交于 $M$，$N$ 两点.\r\n\r\n\n(1) 当 $t = \\frac{\\pi}{4}$ 时，求 $|MN|$ 的值；\n\n(2) 求 $\\left|MN\\right|$ 在 $t \\in \\left[0, \\frac{\\pi}{2}\\right]$ 时的最大值.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\sin 2x$，$g(x) = \\cos \\left(2x + \\frac{\\pi}{6}\\right)$，直线 $x = t$（$t \\in \\mathbb{R}$）与函数 $f(x)$，$g(x)$ 的图象分别交于 $M$，$N$ 两点.</p><ol class=\"enumerate\"><li><p>当 $t = \\frac{\\pi}{4}$ 时，求 $|MN|$ 的值；</p></li><li><p>求 $\\left|MN\\right|$ 在 $t \\in \\left[0, \\frac{\\pi}{2}\\right]$ 时的最大值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $t=\\frac{\\pi}{4}$ 时，\r\n\n$$\n\\lvert MN\\rvert=\\left|\\sin\\frac{\\pi}{2}-\\cos\\frac{2\\pi}{3}\\right|=\\left|1+\\frac{1}{2}\\right|=\\frac{3}{2}\n$$\n\n(2) 由于 $M$，$N$ 的横坐标相同，\r\n\n$$\n\\lvert MN\\rvert=\\left|\\sin2t-\\cos\\left(2t+\\frac{\\pi}{6}\\right)\\right|=\\left|\\sin2t-\\sin\\left(\\frac{\\pi}{3}-2t\\right)\\right|=\\sqrt{3}\\left|\\sin\\left(2t-\\frac{\\pi}{6}\\right)\\right|\n$$\n\r\n当 $t\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，$2t-\\frac{\\pi}{6}\\in\\left[-\\frac{\\pi}{6},\\frac{5\\pi}{6}\\right]$，其中包含 $\\frac{\\pi}{2}$，因此 $\\left|\\sin\\left(2t-\\frac{\\pi}{6}\\right)\\right|$ 的最大值为 $1$. 所以 $\\lvert MN\\rvert$ 的最大值为 $\\sqrt{3}$，此时 $t=\\frac{\\pi}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $t=\\frac{\\pi}{4}$ 时，</p>\n$$\n\\lvert MN\\rvert=\\left|\\sin\\frac{\\pi}{2}-\\cos\\frac{2\\pi}{3}\\right|=\\left|1+\\frac{1}{2}\\right|=\\frac{3}{2}\n$$\n</li><li><p>由于 $M$，$N$ 的横坐标相同，</p>\n$$\n\\lvert MN\\rvert=\\left|\\sin2t-\\cos\\left(2t+\\frac{\\pi}{6}\\right)\\right|=\\left|\\sin2t-\\sin\\left(\\frac{\\pi}{3}-2t\\right)\\right|=\\sqrt{3}\\left|\\sin\\left(2t-\\frac{\\pi}{6}\\right)\\right|\n$$\n<p>当 $t\\in\\left[0,\\frac{\\pi}{2}\\right]$ 时，$2t-\\frac{\\pi}{6}\\in\\left[-\\frac{\\pi}{6},\\frac{5\\pi}{6}\\right]$，其中包含 $\\frac{\\pi}{2}$，因此 $\\left|\\sin\\left(2t-\\frac{\\pi}{6}\\right)\\right|$ 的最大值为 $1$. 所以 $\\lvert MN\\rvert$ 的最大值为 $\\sqrt{3}$，此时 $t=\\frac{\\pi}{3}$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "已知函数 $f(x) = 2^x - \\frac{1}{2^{|x|}}$.\r\n\r\n\n(1) 若 $f(x) = 2$，求 $x$ 的值；\n\n(2) 若 $2^{t}f(2t) + mf(t) \\ge 0$ 对于 $t \\in \\left[1,2\\right]$ 恒成立，求实数 $m$ 的取值范围.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = 2^{x} - \\frac{1}{2^{|x|}}$.</p><ol class=\"enumerate\"><li><p>若 $f(x) = 2$，求 $x$ 的值；</p></li><li><p>若 $2^{t}f(2t) + mf(t) \\ge 0$ 对于 $t \\in \\left[1,2\\right]$ 恒成立，求实数 $m$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 当 $x<0$ 时，$|x|=-x$，所以 $f(x)=2^x-\\frac{1}{2^{-x}}=2^x-2^x=0$，不可能满足 $f(x)=2$.\r\n\r\n当 $x\\geqslant0$ 时，令 $u=2^x>0$，则 $f(x)=u-\\frac{1}{u}=2$. 因而\r\n$u^2-2u-1=0$，\r\n解得 $u=1+\\sqrt{2}$ 或 $u=1-\\sqrt{2}$. 因为 $u>0$，所以 $u=1+\\sqrt{2}$，从而\r\n$x=\\log_{2}(1+\\sqrt{2})$.\n\n(2) 当 $t\\in\\left[1,2\\right]$ 时，$t>0$，故 $f(t)=2^t-2^{-t}>0$. 令 $u=2^t$，则 $u\\in\\left[2,4\\right]$，且 $f(t)=u-\\frac{1}{u}=\\frac{u^2-1}{u}$，$f(2t)=u^2-\\frac{1}{u^2}=\\frac{(u^2-1)(u^2+1)}{u^2}$.\r\n因此\r\n\n$$\n\\frac{2^tf(2t)}{f(t)}\r\n=\\frac{u\\cdot\\frac{(u^2-1)(u^2+1)}{u^2}}{\\frac{u^2-1}{u}}=u^2+1=2^{2t}+1\n$$\n\r\n原不等式等价于 $m\\ge-(2^{2t}+1)$.\r\n这里 $t\\in\\left[1,2\\right]$，右端的最大值为 $-5$，所以不等式对所有 $t\\in\\left[1,2\\right]$ 恒成立的充要条件是 $m\\ge-5$. 因此 $m$ 的取值范围为 $\\left[-5,+\\infty\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>当 $x&#x3C;0$ 时，$|x|=-x$，所以 $f(x)=2^{x}-\\frac{1}{2^{-x}}=2^{x}-2^{x}=0$，不可能满足 $f(x)=2$.</p><p>当 $x\\geqslant0$ 时，令 $u=2^{x}>0$，则 $f(x)=u-\\frac{1}{u}=2$. 因而</p><p>$u^{2}-2u-1=0$，</p><p>解得 $u=1+\\sqrt{2}$ 或 $u=1-\\sqrt{2}$. 因为 $u>0$，所以 $u=1+\\sqrt{2}$，从而</p><p>$x=\\log_{2}(1+\\sqrt{2})$.</p></li><li><p>当 $t\\in\\left[1,2\\right]$ 时，$t>0$，故 $f(t)=2^{t}-2^{-t}>0$. 令 $u=2^{t}$，则 $u\\in\\left[2,4\\right]$，且 $f(t)=u-\\frac{1}{u}=\\frac{u^{2}-1}{u}$，$f(2t)=u^{2}-\\frac{1}{u^{2}}=\\frac{(u^{2}-1)(u^{2}+1)}{u^{2}}$.</p><p>因此</p>\n$$\n\\frac{2^{t}f(2t)}{f(t)}=\\frac{u\\cdot\\frac{(u^{2}-1)(u^{2}+1)}{u^{2}}}{\\frac{u^{2}-1}{u}}=u^{2}+1=2^{2t}+1\n$$\n<p>原不等式等价于 $m\\ge-(2^{2t}+1)$.</p><p>这里 $t\\in\\left[1,2\\right]$，右端的最大值为 $-5$，所以不等式对所有 $t\\in\\left[1,2\\right]$ 恒成立的充要条件是 $m\\ge-5$. 因此 $m$ 的取值范围为 $\\left[-5,+\\infty\\right)$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知双曲线 $C: \\frac{x^2}{2} - y^2 = 1$.\r\n\r\n\n(1) 求双曲线 $C$ 的渐近线方程；\n\n(2) 已知点 $M$ 的坐标为 $(0,1)$. 设 $P$ 是双曲线 $C$ 上的点，$Q$ 是点 $P$ 关于原点的对称点. 记 $\\lambda = \\overrightarrow{MP} \\cdot \\overrightarrow{MQ}$，求 $\\lambda$ 的取值范围；\n\n(3) 已知点 $D$，$E$，$M$ 的坐标分别为 $(-2, -1)$，$(2, -1)$，$(0, 1)$，$P$ 为双曲线 $C$ 上在第一象限内的点. 记 $l$ 为经过原点与点 $P$ 的直线，$s$ 为 $\\triangle DEM$ 截直线 $l$ 所得线段的长. 试将 $s$ 表示为直线 $l$ 的斜率 $k$ 的函数.",
-          "choices": [],
+          "body": "<p>已知双曲线 $C: \\frac{x^{2}}{2}- y^{2} = 1$.</p><ol class=\"enumerate\"><li><p>求双曲线 $C$ 的渐近线方程；</p></li><li><p>已知点 $M$ 的坐标为 $(0,1)$. 设 $P$ 是双曲线 $C$ 上的点，$Q$ 是点 $P$ 关于原点的对称点. 记 $\\lambda = \\overrightarrow{MP}\\cdot \\overrightarrow{MQ}$，求 $\\lambda$ 的取值范围；</p></li><li><p>已知点 $D$，$E$，$M$ 的坐标分别为 $(-2, -1)$，$(2, -1)$，$(0, 1)$，$P$ 为双曲线 $C$ 上在第一象限内的点. 记 $l$ 为经过原点与点 $P$ 的直线，$s$ 为 $\\triangle DEM$ 截直线 $l$ 所得线段的长. 试将 $s$ 表示为直线 $l$ 的斜率 $k$ 的函数.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 将双曲线方程中的常数项 $1$ 换成 $0$，得到渐近线方程\r\n$\\frac{x^2}{2}-y^2=0$，\r\n即 $y=\\pm\\frac{\\sqrt{2}}{2}x$.\n\n(2) 设 $P=(x,y)$，则 $Q=(-x,-y)$. 因而\r\n\n$$\n\\lambda=\\overrightarrow{MP}\\cdot\\overrightarrow{MQ}=(x,y-1)\\cdot(-x,-y-1)=1-x^2-y^2\n$$\n\r\n由 $P\\in C$ 得 $x^2=2y^2+2$，所以\r\n\n$$\n\\lambda=1-(2y^2+2)-y^2=-3y^2-1\\le-1\n$$\n\r\n当 $y=0$ 时取到 $-1$，而当 $|y|$ 无限增大时，$\\lambda$ 趋于负无穷，因此 $\\lambda$ 的取值范围为 $\\left(-\\infty,-1\\right]$.\n\n(3) 设直线 $l$ 的方程为 $y=kx$. 因为 $P$ 在双曲线 $C$ 的第一象限内，所以 $k>0$，且\r\n\n$$\n\\frac{x^2}{2}-k^2x^2=1\n$$\n\r\n要有第一象限内的交点，必须 $\\frac{1}{2}-k^2>0$，故 $k\\in\\left(0,\\frac{\\sqrt{2}}{2}\\right)$.\r\n\r\n直线 $EM$ 的方程为 $y=-x+1$，它与 $l$ 的交点在第一象限方向上. 解得交点横坐标为 $\\frac{1}{k+1}$，所以从原点到该交点的长度为\r\n\n$$\n\\frac{\\sqrt{1+k^2}}{k+1}\n$$\n\r\n\r\n直线与边 $DM$ 的交点满足 $kx=x+1$，故其横坐标为 $x=\\frac{1}{k-1}=-\\frac{1}{1-k}$. 这个交点在线段 $DM$ 上当且仅当 $-2\\le-\\frac{1}{1-k}<0$，即 $0<k\\le\\frac{1}{2}$. 此时交点到原点的长度为 $\\frac{\\sqrt{1+k^2}}{1-k}$，于是\r\n\n$$\ns(k)=\\frac{\\sqrt{1+k^2}}{k+1}+\\frac{\\sqrt{1+k^2}}{1-k}=\\frac{2\\sqrt{1+k^2}}{1-k^2}\n$$\n\r\n\r\n当 $\\frac{1}{2}<k<\\frac{\\sqrt{2}}{2}$ 时，直线的另一侧不能与 $DM$ 相交，而与边 $DE$ 相交. 交点满足 $y=-1$，故 $x=-\\frac{1}{k}$，且到原点的长度为 $\\frac{\\sqrt{1+k^2}}{k}$，于是\r\n\n$$\ns(k)=\\frac{\\sqrt{1+k^2}}{k+1}+\\frac{\\sqrt{1+k^2}}{k}=\\frac{(2k+1)\\sqrt{1+k^2}}{k(k+1)}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>将双曲线方程中的常数项 $1$ 换成 $0$，得到渐近线方程</p><p>$\\frac{x^{2}}{2}-y^{2}=0$，</p><p>即 $y=\\pm\\frac{\\sqrt{2}}{2}x$.</p></li><li><p>设 $P=(x,y)$，则 $Q=(-x,-y)$. 因而</p>\n$$\n\\lambda=\\overrightarrow{MP}\\cdot\\overrightarrow{MQ}=(x,y-1)\\cdot(-x,-y-1)=1-x^{2}-y^{2}\n$$\n<p>由 $P\\in C$ 得 $x^{2}=2y^{2}+2$，所以</p>\n$$\n\\lambda=1-(2y^{2}+2)-y^{2}=-3y^{2}-1\\le-1\n$$\n<p>当 $y=0$ 时取到 $-1$，而当 $|y|$ 无限增大时，$\\lambda$ 趋于负无穷，因此 $\\lambda$ 的取值范围为 $\\left(-\\infty,-1\\right]$.</p></li><li><p>设直线 $l$ 的方程为 $y=kx$. 因为 $P$ 在双曲线 $C$ 的第一象限内，所以 $k>0$，且</p>\n$$\n\\frac{x^{2}}{2}-k^{2}x^{2}=1\n$$\n<p>要有第一象限内的交点，必须 $\\frac{1}{2}-k^{2}>0$，故 $k\\in\\left(0,\\frac{\\sqrt{2}}{2}\\right)$.</p><p>直线 $EM$ 的方程为 $y=-x+1$，它与 $l$ 的交点在第一象限方向上. 解得交点横坐标为 $\\frac{1}{k+1}$，所以从原点到该交点的长度为</p>\n$$\n\\frac{\\sqrt{1+k^{2}}}{k+1}\n$$\n<p>直线与边 $DM$ 的交点满足 $kx=x+1$，故其横坐标为 $x=\\frac{1}{k-1}=-\\frac{1}{1-k}$. 这个交点在线段 $DM$ 上当且仅当 $-2\\le-\\frac{1}{1-k}&#x3C;0$，即 $0&#x3C;k\\le\\frac{1}{2}$. 此时交点到原点的长度为 $\\frac{\\sqrt{1+k^{2}}}{1-k}$，于是</p>\n$$\ns(k)=\\frac{\\sqrt{1+k^{2}}}{k+1}+\\frac{\\sqrt{1+k^{2}}}{1-k}=\\frac{2\\sqrt{1+k^{2}}}{1-k^{2}}\n$$\n<p>当 $\\frac{1}{2}&#x3C;k&#x3C;\\frac{\\sqrt{2}}{2}$ 时，直线的另一侧不能与 $DM$ 相交，而与边 $DE$ 相交. 交点满足 $y=-1$，故 $x=-\\frac{1}{k}$，且到原点的长度为 $\\frac{\\sqrt{1+k^{2}}}{k}$，于是</p>\n$$\ns(k)=\\frac{\\sqrt{1+k^{2}}}{k+1}+\\frac{\\sqrt{1+k^{2}}}{k}=\\frac{(2k+1)\\sqrt{1+k^2}}{k(k+1)}\n$$\n</li></ol>"
         },
         {
           "num": 21,
-          "body": "已知数列 $\\{a_{n}\\}$：$a_{1} = 1$，$a_{2} = 2$，$a_{3} = r$，$a_{n+3} = a_{n} + 2$（$n$ 是正整数），与数列 $\\{b_{n}\\}$：$b_{1} = 1$，$b_{2} = 0$，$b_{3} = -1$，$b_{4} = 0$，$b_{n+4} = b_{n}$（$n$ 是正整数）. 记 $T_{n} = b_{1}a_{1} + b_{2}a_{2} + b_{3}a_{3} + \\cdots + b_{n}a_{n}$.\r\n\r\n\n(1) 若 $a_1 + a_2 + a_3 + \\cdots + a_{12} = 64$，求 $r$ 的值；\n\n(2) 求证：当 $n$ 是正整数时，$T_{12n} = -4n$；\n\n(3) 已知 $r > 0$，且存在正整数 $m$，使得在 $T_{12m+1}$，$T_{12m+2}$，$\\cdots$，$T_{12m+12}$ 中有 4 项为 100，求 $r$ 的值，并指出哪 4 项为 100.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$：$a_{1}= 1$，$a_{2}= 2$，$a_{3}= r$，$a_{n+3}= a_{n}+ 2$（$n$ 是正整数），与数列 $\\{b_{n}\\}$：$b_{1}= 1$，$b_{2}= 0$，$b_{3}= -1$，$b_{4}= 0$，$b_{n+4}= b_{n}$（$n$ 是正整数）. 记 $T_{n}= b_{1}a_{1}+ b_{2}a_{2}+ b_{3}a_{3}+ \\cdots + b_{n}a_{n}$.</p><ol class=\"enumerate\"><li><p>若 $a_{1} + a_{2} + a_{3} + \\cdots + a_{12}= 64$，求 $r$ 的值；</p></li><li><p>求证：当 $n$ 是正整数时，$T_{12n}= -4n$；</p></li><li><p>已知 $r > 0$，且存在正整数 $m$，使得在 $T_{12m+1}$，$T_{12m+2}$，$\\cdots$，$T_{12m+12}$ 中有 4 项为 100，求 $r$ 的值，并指出哪 4 项为 100.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由递推关系，前 $12$ 项为 $1$，$2$，$r$，$3$，$4$，$r+2$，$5$，$6$，$r+4$，$7$，$8$，$r+6$. 因而\r\n$a_1+a_2+\\cdots+a_{12}=48+4r$.\r\n由题设 $48+4r=64$，解得 $r=4$.\n\n(2) 由 $a_{n+3}=a_n+2$ 可知，对 $1\\le j\\leqslant12$，有 $a_{12k+j}=a_j+8k$. 又因为 $b_n$ 的一个周期为 $1$，$0$，$-1$，$0$，所以每连续 $12$ 项中只有下标 $12k+1$，$12k+3$，$12k+5$，$12k+7$，$12k+9$，$12k+11$ 对 $T_n$ 有贡献. 因此\r\n\n$$\nT_{12(k+1)}-T_{12k}=a_{12k+1}-a_{12k+3}+a_{12k+5}-a_{12k+7}+a_{12k+9}-a_{12k+11}\n$$\n\r\n代入各项的表达式，得\r\n\n$$\nT_{12(k+1)}-T_{12k}=(8k+1)-(8k+r)+(8k+4)-(8k+5)+(8k+r+4)-(8k+8)=-4\n$$\n\r\n直接计算 $T_{12}=a_1-a_3+a_5-a_7+a_9-a_{11}=-4$，所以每个长度为 $12$ 的分组贡献 $-4$，从而 $T_{12n}=-4n$.\n\n(3) 由上面的结论 $T_{12m}=-4m$，并利用 $a_{12m+1}=8m+1$、$a_{12m+3}=8m+r$、$a_{12m+5}=8m+4$、$a_{12m+7}=8m+5$、$a_{12m+9}=8m+r+4$、$a_{12m+11}=8m+8$，以及相应的 $b_n$ 周期，逐项累加得到\r\n$T_{12m+1}=T_{12m+2}=1+4m$，\r\n$T_{12m+3}=T_{12m+4}=1-r-4m$，\r\n$T_{12m+5}=T_{12m+6}=5-r+4m$，\r\n$T_{12m+7}=T_{12m+8}=-r-4m$，\r\n$T_{12m+9}=T_{12m+10}=4+4m$，\r\n$T_{12m+11}=T_{12m+12}=-4-4m$.\r\n\r\n其中 $m$ 为正整数、$r>0$，所以第二、第四和第六组的值均小于 $0$. 若第一组的值等于 $100$，则 $m=\\frac{99}{4}$，与 $m$ 为正整数矛盾. 要有四项为 $100$，只能使第三组和第五组同时等于 $100$. 于是\r\n\n$$\n\\begin{cases}\r\n5-r+4m=100,\\\\\r\n4+4m=100.\r\n\\end{cases}\n$$\n\r\n由此得 $m=24$，$r=1$. 所以为 $100$ 的四项是 $T_{12m+5}$，$T_{12m+6}$，$T_{12m+9}$，$T_{12m+10}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由递推关系，前 $12$ 项为 $1$，$2$，$r$，$3$，$4$，$r+2$，$5$，$6$，$r+4$，$7$，$8$，$r+6$. 因而</p><p>$a_{1}+a_{2}+\\cdots+a_{12}=48+4r$.</p><p>由题设 $48+4r=64$，解得 $r=4$.</p></li><li><p>由 $a_{n+3}=a_{n}+2$ 可知，对 $1\\le j\\leqslant12$，有 $a_{12k+j}=a_{j}+8k$. 又因为 $b_{n}$ 的一个周期为 $1$，$0$，$-1$，$0$，所以每连续 $12$ 项中只有下标 $12k+1$，$12k+3$，$12k+5$，$12k+7$，$12k+9$，$12k+11$ 对 $T_{n}$ 有贡献. 因此</p>\n$$\nT_{12(k+1)}-T_{12k}=a_{12k+1}-a_{12k+3}+a_{12k+5}-a_{12k+7}+a_{12k+9}-a_{12k+11}\n$$\n<p>代入各项的表达式，得</p>\n$$\nT_{12(k+1)}-T_{12k}=(8k+1)-(8k+r)+(8k+4)-(8k+5)+(8k+r+4)-(8k+8)=-4\n$$\n<p>直接计算 $T_{12}=a_{1}-a_{3}+a_{5}-a_{7}+a_{9}-a_{11}=-4$，所以每个长度为 $12$ 的分组贡献 $-4$，从而 $T_{12n}=-4n$.</p></li><li><p>由上面的结论 $T_{12m}=-4m$，并利用 $a_{12m+1}=8m+1$、$a_{12m+3}=8m+r$、$a_{12m+5}=8m+4$、$a_{12m+7}=8m+5$、$a_{12m+9}=8m+r+4$、$a_{12m+11}=8m+8$，以及相应的 $b_{n}$ 周期，逐项累加得到</p><p>$T_{12m+1}=T_{12m+2}=1+4m$，</p><p>$T_{12m+3}=T_{12m+4}=1-r-4m$，</p><p>$T_{12m+5}=T_{12m+6}=5-r+4m$，</p><p>$T_{12m+7}=T_{12m+8}=-r-4m$，</p><p>$T_{12m+9}=T_{12m+10}=4+4m$，</p><p>$T_{12m+11}=T_{12m+12}=-4-4m$.</p><p>其中 $m$ 为正整数、$r>0$，所以第二、第四和第六组的值均小于 $0$. 若第一组的值等于 $100$，则 $m=\\frac{99}{4}$，与 $m$ 为正整数矛盾. 要有四项为 $100$，只能使第三组和第五组同时等于 $100$. 于是</p>\n$$\n\\begin{cases}5-r+4m=100,\\\\  4+4m=100.\\end{cases}\n$$\n<p>由此得 $m=24$，$r=1$. 所以为 $100$ 的四项是 $T_{12m+5}$，$T_{12m+6}$，$T_{12m+9}$，$T_{12m+10}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

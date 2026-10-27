@@ -1,4 +1,4 @@
-// 历年全国高考数学真题 - Typst 高清排版
+// 历年全国高考数学真题 - Typst 高清排版 (AST + MiTeX 终极版)
 #import "/templates/exam.typ": *
 
 #show: exam-setup.with(
@@ -11,291 +11,317 @@
 #part-header("填空题")
 
 #problem(1)[
-不等式 $|x+2|<1$ 的解集是#blank(){}.
+不等式 #mi(`\left|x+2\right|<1`) 的解集是\underline{\hspace{2.5em}}.
 
-$(-3,-1)$
+#mi(`\left(-3,-1\right)`)
 ]
 
 #solution[
-由绝对值不等式得 $-1<x+2<1$，所以 $-3<x<-1$. 因此解集为 $(-3,-1)$.
+由绝对值不等式得 #mi(`-1<x+2<1`)，所以 #mi(`-3<x<-1`). 因此解集为 #mi(`\left(-3,-1\right)`).
 ]
 
 #problem(2)[
-函数 $y=root(3, x)-1$ 的反函数是#blank(){}.
+函数 #mi(`y=\sqrt[3]{x}-1`) 的反函数是\underline{\hspace{2.5em}}.
 
-$y=(x+1)^3$
+#mi(`y=\left(x+1\right)^{3}`)
 ]
 
 #solution[
-令原函数中的自变量与函数值互换，得 $x=root(3, y)-1$. 移项并立方，得 $root(3, y)=x+1$，所以反函数为 $y=(x+1)^3$.
+令原函数中的自变量与函数值互换，得 #mi(`x=\sqrt[3]{y}-1`). 移项并立方，得 #mi(`\sqrt[3]{y}=x+1`)，所以反函数为 #mi(`y=\left(x+1\right)^{3}`).
 ]
 
 #problem(3)[
-点 $(0,1)$ 到直线 $x+y=2$ 的距离是#blank(){}.
+点 #mi(`(0,1)`) 到直线 #mi(`x+y=2`) 的距离是\underline{\hspace{2.5em}}.
 
-$(sqrt(2))/(2)$
+#mi(`\dfrac{\sqrt{2}}{2}`)
 ]
 
 #solution[
-将直线写成 $x+y-2=0$. 由点到直线的距离公式，所求距离为
-$(|0+1-2|)/(sqrt(1^2+1^2))=(1)/(sqrt(2))=(sqrt(2))/(2)$.
+将直线写成 #mi(`x+y-2=0`). 由点到直线的距离公式，所求距离为
+
+#mi(`\dfrac{\left|0+1-2\right|}{\sqrt{1^{2}+1^{2}}}=\dfrac{1}{\sqrt{2}}=\dfrac{\sqrt{2}}{2}`).
 ]
 
 #problem(4)[
-函数 $y= sin (pi x)/(2)$ 的最小正周期是#blank(){}.
+函数 #mi(`y=\sin\dfrac{\pi x}{2}`) 的最小正周期是\underline{\hspace{2.5em}}.
 
-$4$
+#mi(`4`)
 ]
 
 #solution[
-正弦函数 $sin u$ 的最小正周期为 $2 pi$. 令 $u=(pi x)/(2)$，当 $x$ 增加 $T$ 时，须有 $(pi T)/(2)=2 pi$，从而 $T=4$.
+正弦函数 #mi(`\sin u`) 的最小正周期为 #mi(`2\pi`). 令 #mi(`u=\dfrac{\pi x}{2}`)，当 #mi(`x`) 增加 #mi(`T`) 时，须有 #mi(`\dfrac{\pi T}{2}=2\pi`)，从而 #mi(`T=4`).
 ]
 
 #problem(5)[
-如果一个圆的圆心在点 $(2,4)$，并且经过点 $(0,3)$，那么这个圆的方程是#blank(){}.
+如果一个圆的圆心在点 #mi(`(2,4)`)，并且经过点 #mi(`(0,3)`)，那么这个圆的方程是\underline{\hspace{2.5em}}.
 
-$(x-2)^2+(y-4)^2=5$
+#mi(`\left(x-2\right)^{2}+\left(y-4\right)^{2}=5`)
 ]
 
 #solution[
 半径的平方等于圆心到已知点的距离平方，因此
-$r^2=(0-2)^2+(3-4)^2=4+1=5$. 代入圆的标准方程，得 $(x-2)^2+(y-4)^2=5$.
+
+#mi(`r^{2}=\left(0-2\right)^{2}+\left(3-4\right)^{2}=4+1=5`). 代入圆的标准方程，得 #mi(`\left(x-2\right)^{2}+\left(y-4\right)^{2}=5`).
 ]
 
 #problem(6)[
-若平面 $alpha$ 及这个平面外的一条直线 $l$ 同时垂直于直线 $m$，则直线 $l$ 和平面 $alpha$ 的位置关系是#blank(){}.
+若平面 #mi(`\alpha`) 及这个平面外的一条直线 #mi(`l`) 同时垂直于直线 #mi(`m`)，则直线 #mi(`l`) 和平面 #mi(`\alpha`) 的位置关系是\underline{\hspace{2.5em}}.
 
-$l parallel alpha$
+#mi(`l\parallel\alpha`)
 ]
 
 #solution[
-因为平面 $alpha bot m$，所以直线 $m$ 是平面 $alpha$ 的法线方向. 又因为 $l bot m$，直线 $l$ 的方向与平面 $alpha$ 平行. 题设说明 $l$ 在平面 $alpha$ 外，故 $l$ 不在该平面内，从而 $l parallel alpha$.
+因为平面 #mi(`\alpha\perp m`)，所以直线 #mi(`m`) 是平面 #mi(`\alpha`) 的法线方向. 又因为 #mi(`l\perp m`)，直线 #mi(`l`) 的方向与平面 #mi(`\alpha`) 平行. 题设说明 #mi(`l`) 在平面 #mi(`\alpha`) 外，故 #mi(`l`) 不在该平面内，从而 #mi(`l\parallel\alpha`).
 ]
 
 #problem(7)[
-函数 $y= sin ""^(2)x- cos ""^(2)x$ 的最小值是#blank(){}.
+函数 #mi(`y=\sin^{2}x-\cos^{2}x`) 的最小值是\underline{\hspace{2.5em}}.
 
-$-1$
+#mi(`-1`)
 ]
 
 #solution[
-由二倍角公式，$sin ""^(2)x- cos ""^(2)x=- cos 2 x$. 因为 $-1 <= cos 2 x <= 1$，所以 $- cos 2 x$ 的最小值为 $-1$，且在 $cos 2 x=1$ 时取得.
+由二倍角公式，#mi(`\sin^{2}x-\cos^{2}x=-\cos 2x`). 因为 #mi(`-1\le\cos 2x\leqslant1`)，所以 #mi(`-\cos 2x`) 的最小值为 #mi(`-1`)，且在 #mi(`\cos 2x=1`) 时取得.
 ]
 
 #problem(8)[
-方程 $9^(x)-7 dot 3 ""^(x)-18=0$ 的解是#blank(){}.
+方程 #mi(`9^{x}-7\cdot3^{x}-18=0`) 的解是\underline{\hspace{2.5em}}.
 
-$x=2$
+#mi(`x=2`)
 ]
 
 #solution[
-令 $t=3^x$，则 $t>0$，且 $9^x=t^2$. 原方程化为 $t^2-7 t-18=0$，即 $(t-9)(t+2)=0$. 由于 $t>0$，只能取 $t=9=3^2$，所以 $x=2$.
+令 #mi(`t=3^{x}`)，则 #mi(`t>0`)，且 #mi(`9^{x}=t^{2}`). 原方程化为 #mi(`t^{2}-7t-18=0`)，即 #mi(`(t-9)(t+2)=0`). 由于 #mi(`t>0`)，只能取 #mi(`t=9=3^{2}`)，所以 #mi(`x=2`).
 ]
 
 #problem(9)[
-若 $tan alpha =-2$，且 $sin alpha <0$，则 $cos alpha$ 的值是#blank(){}.
+若 #mi(`\tan\alpha=-2`)，且 #mi(`\sin\alpha<0`)，则 #mi(`\cos\alpha`) 的值是\underline{\hspace{2.5em}}.
 
-$(sqrt(5))/(5)$
+#mi(`\dfrac{\sqrt{5}}{5}`)
 ]
 
 #solution[
-由 $tan alpha <0$ 且 $sin alpha <0$，可知 $cos alpha >0$. 又
-$1+ tan ""^2 alpha =(1)/(cos ""^2 alpha)$，所以 $cos ""^2 alpha =(1)/(1+4)=(1)/(5)$. 结合 $cos alpha >0$，得 $cos alpha =(sqrt(5))/(5)$.
+由 #mi(`\tan\alpha<0`) 且 #mi(`\sin\alpha<0`)，可知 #mi(`\cos\alpha>0`). 又
+
+#mi(`1+\tan^{2}\alpha=\dfrac{1}{\cos^2\alpha}`)，所以 #mi(`\cos^{2}\alpha=\dfrac{1}{1+4}=\dfrac{1}{5}`). 结合 #mi(`\cos\alpha>0`)，得 #mi(`\cos\alpha=\dfrac{\sqrt{5}}{5}`).
 ]
 
 #problem(10)[
-已知 $O$ 为直角坐标系的原点，点 $A$ 的坐标为 $(1,3)$，点 $B$ 的坐标为 $(0,3)$. 若把 $triangle O A B$ 绕 $y$ 轴旋转一周，则所得旋转体的体积是#blank(){}.
+已知 #mi(`O`) 为直角坐标系的原点，点 #mi(`A`) 的坐标为 #mi(`(1,3)`)，点 #mi(`B`) 的坐标为 #mi(`(0,3)`). 若把 #mi(`\triangle OAB`) 绕 #mi(`y`) 轴旋转一周，则所得旋转体的体积是\underline{\hspace{2.5em}}.
 
-$pi$
+#mi(`\pi`)
 ]
 
 #solution[
-三角形 $O A B$ 的边 $O B$ 在旋转轴 $y$ 轴上，边 $A B$ 垂直于旋转轴，且 $A B=1$，$O B=3$. 旋转后所得立体是底面半径为 $1$、高为 $3$ 的圆锥，因此体积为 $(1)/(3) pi dot 1 ""^2 dot 3 = pi$.
+三角形 #mi(`OAB`) 的边 #mi(`OB`) 在旋转轴 #mi(`y`) 轴上，边 #mi(`AB`) 垂直于旋转轴，且 #mi(`AB=1`)，#mi(`OB=3`). 旋转后所得立体是底面半径为 #mi(`1`)、高为 #mi(`3`) 的圆锥，因此体积为 #mi(`\dfrac{1}{3}\pi\cdot1^{2}\cdot3=\pi`).
 ]
 
 #part-header("单选题")
 
 #problem(11)[
-设 $z$ 为复数，$z$ 是 $overline(z)$ 的共轭复数，则 $z=overline(z)$ 是 $z$ 为实数的（ ）
-
+设 #mi(`z`) 为复数，#mi(`z`) 是 #mi(`\bar{z}`) 的共轭复数，则 #mi(`z=\bar{z}`) 是 #mi(`z`) 为实数的（ ）
 
 C
   #choices([充分但不必要的条件], [必要但不充分的条件], [充分而且必要的条件], [既不充分也不必要的条件], cols: 4)
 ]
 
 #solution[
-设 $z=a+b i$，其中 $a$，$b$ 为实数，则 $overline(z)=a-b i$. 因而 $z=overline(z)$ 当且仅当 $a+b i=a-b i$，即 $b=0$. 这又当且仅当 $z=a$ 为实数，所以该条件是充分且必要的，选 C.
+设 #mi(`z=a+bi`)，其中 #mi(`a`)，#mi(`b`) 为实数，则 #mi(`\bar{z}=a-bi`). 因而 #mi(`z=\bar{z}`) 当且仅当 #mi(`a+bi=a-bi`)，即 #mi(`b=0`). 这又当且仅当 #mi(`z=a`) 为实数，所以该条件是充分且必要的，选 C.
 ]
 
 #problem(12)[
 下列各式中，正确的是（ ）
 
-
 C
-  #choices([$arcsin (-(pi)/(3))=-(sqrt(3))/(2)$], [$sin ( arcsin (pi)/(3))=(pi)/(3)$], [$arcsin ( sin (5 pi)/(4))=-(pi)/(4)$], [$sin [ arccos (-(1)/(2))]=-(sqrt(3))/(2)$], cols: 1)
+  #choices([#mi(`\arcsin\left(-\dfrac{\pi}{3}\right)=-\dfrac{\sqrt{3}}{2}`)], [#mi(`\sin\left(\arcsin\dfrac{\pi}{3}\right)=\dfrac{\pi}{3}`)], [#mi(`\arcsin\left(\sin\dfrac{5\pi}{4}\right)=-\dfrac{\pi}{4}`)], [#mi(`\sin\left[\arccos\left(-\dfrac{1}{2}\right)\right]=-\dfrac{\sqrt{3}}{2}`)], cols: 1)
 ]
 
 #solution[
-反正弦函数的定义域为 $[-1,1]$，所以第一项中的 $-(pi)/(3)$ 和第二项中的 $(pi)/(3)$ 都不在定义域内. 又 $sin (5 pi)/(4)=-(sqrt(2))/(2)$，且反正弦函数的值域为 $[-(pi)/(2),(pi)/(2)]$，故第三项的左边等于 $-(pi)/(4)$. 最后，$arccos (-(1)/(2))=(2 pi)/(3)$，所以第四项的左边为 $(sqrt(3))/(2)$. 因此只有第三项正确.
+反正弦函数的定义域为 #mi(`[-1,1]`)，所以第一项中的 #mi(`-\dfrac{\pi}{3}`) 和第二项中的 #mi(`\dfrac{\pi}{3}`) 都不在定义域内. 又 #mi(`\sin\dfrac{5\pi}{4}=-\dfrac{\sqrt{2}}{2}`)，且反正弦函数的值域为 #mi(`\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]`)，故第三项的左边等于 #mi(`-\dfrac{\pi}{4}`). 最后，#mi(`\arccos\left(-\dfrac{1}{2}\right)=\dfrac{2\pi}{3}`)，所以第四项的左边为 #mi(`\dfrac{\sqrt{3}}{2}`). 因此只有第三项正确.
 ]
 
 #problem(13)[
-已知函数 $f(x)=\l g(x^2-3 x+2)$ 的定义域为 $F$，函数 $g(x)=\l g(x-1)+\l g(x-2)$ 的定义域为 $G$，那么（ ）
-
+已知函数 #mi(`f(x)=\lg\left(x^{2}-3x+2\right)`) 的定义域为 #mi(`F`)，函数 #mi(`g(x)=\lg(x-1)+\lg(x-2)`) 的定义域为 #mi(`G`)，那么（ ）
 
 D
-  #choices([$F inter G= emptyset$], [$F=G$], [$F subset G$], [$G subset F$], cols: 2)
+  #choices([#mi(`F\cap G=\varnothing`)], [#mi(`F=G`)], [#mi(`F\subset G`)], [#mi(`G\subset F`)], cols: 2)
 ]
 
 #solution[
-由对数真数须为正，$f$ 的定义域满足 $x^2-3 x+2=(x-1)(x-2)>0$，所以 $F=(- oo ,1) union (2,+ oo )$. 函数 $g$ 的两个对数须分别有意义，故 $x-1>0$ 且 $x-2>0$，从而 $G=(2,+ oo )$. 因此 $G subset F$，选 D.
+由对数真数须为正，#mi(`f`) 的定义域满足 #mi(`x^{2}-3x+2=(x-1)(x-2)>0`)，所以 #mi(`F=\left(-\infty,1\right)\cup\left(2,+\infty\right)`). 函数 #mi(`g`) 的两个对数须分别有意义，故 #mi(`x-1>0`) 且 #mi(`x-2>0`)，从而 #mi(`G=\left(2,+\infty\right)`). 因此 #mi(`G\subset F`)，选 D.
 ]
 
 #problem(14)[
-若一个棱锥的底面是边数大于 $3$ 的凸多边形，它的顶点到底面各边的距离都相等，则这个棱锥的底面多边形（ ）
-
+若一个棱锥的底面是边数大于 #mi(`3`) 的凸多边形，它的顶点到底面各边的距离都相等，则这个棱锥的底面多边形（ ）
 
 B
   #choices([必为正多边形], [必有内切圆], [必有外接圆], [必既有内切圆又有外接圆], cols: 4)
 ]
 
 #solution[
-设棱锥顶点为 $P$，$H$ 为 $P$ 在底面上的射影，并设底面各边所在直线为 $e_i$. 从 $H$ 向 $e_i$ 作垂线，垂足为 $E_i$，记 $P H=h$，$H E_i=d_i$. 因为 $P H$ 垂直底面，而 $H E_i$ 在底面内且垂直 $e_i$，所以 $P H bot H E_i$，从而 $P E_i^2=P H^2+H E_i^2=h^2+d_i^2$. 点 $P$ 到各边的距离相等，故各个 $P E_i$ 相等，从而各个 $d_i$ 相等. 对于边数大于 $3$ 的凸多边形，这样的等距点 $H$ 必在多边形内部；因此，以 $H$ 为圆心、以公共距离为半径的圆同时与底面各边相切，是底面的内切圆. 所以底面多边形必有内切圆，选 B.
+设棱锥顶点为 #mi(`P`)，#mi(`H`) 为 #mi(`P`) 在底面上的射影，并设底面各边所在直线为 #mi(`e_{i}`). 从 #mi(`H`) 向 #mi(`e_{i}`) 作垂线，垂足为 #mi(`E_{i}`)，记 #mi(`PH=h`)，#mi(`HE_{i}=d_{i}`). 因为 #mi(`PH`) 垂直底面，而 #mi(`HE_{i}`) 在底面内且垂直 #mi(`e_{i}`)，所以 #mi(`PH\perp HE_{i}`)，从而 #mi(`PE_{i}^{2}=PH^{2}+HE_{i}^{2}=h^{2}+d_{i}^{2}`). 点 #mi(`P`) 到各边的距离相等，故各个 #mi(`PE_{i}`) 相等，从而各个 #mi(`d_{i}`) 相等. 对于边数大于 #mi(`3`) 的凸多边形，这样的等距点 #mi(`H`) 必在多边形内部；因此，以 #mi(`H`) 为圆心、以公共距离为半径的圆同时与底面各边相切，是底面的内切圆. 所以底面多边形必有内切圆，选 B.
 ]
 
 #problem(15)[
-若平移坐标轴，把坐标系 $x o y$ 的原点 $O$ 移到点 $O'$，$O'$ 在原坐标系中的坐标为 $(2,-1)$，则原坐标系中的曲线 $y=x^3$ 在新坐标系 $x'o'y'$ 中的方程是（ ）
-
+若平移坐标轴，把坐标系 #mi(`xoy`) 的原点 #mi(`O`) 移到点 #mi(`O'`)，#mi(`O'`) 在原坐标系中的坐标为 #mi(`(2,-1)`)，则原坐标系中的曲线 #mi(`y=x^{3}`) 在新坐标系 #mi(`x'o'y'`) 中的方程是（ ）
 
 D
-  #choices([$y'+1=(x'-2)^3$], [$y'+1=(x'+2)^3$], [$y'-1=(x'-2)^3$], [$y'-1=(x'+2)^3$], cols: 4)
+  #choices([#mi(`y'+1=\left(x'-2\right)^{3}`)], [#mi(`y'+1=\left(x'+2\right)^{3}`)], [#mi(`y'-1=\left(x'-2\right)^{3}`)], [#mi(`y'-1=\left(x'+2\right)^{3}`)], cols: 1)
 ]
 
 #solution[
-平移后两坐标系的轴方向相同，而新原点在旧坐标系中的坐标为 $(2,-1)$，所以同一点的坐标满足 $x=x'+2$，$y=y'-1$. 代入原方程 $y=x^3$，得 $y'-1=(x'+2)^3$，因此选 D.
+平移后两坐标系的轴方向相同，而新原点在旧坐标系中的坐标为 #mi(`(2,-1)`)，所以同一点的坐标满足 #mi(`x=x'+2`)，#mi(`y=y'-1`). 代入原方程 #mi(`y=x^{3}`)，得 #mi(`y'-1=\left(x'+2\right)^{3}`)，因此选 D.
 ]
 
 #part-header("解答题")
 
 #problem(16)[
-+ (1) 在直角坐标系内，方程 $\b e g i n{c a s e s} x=3 cot phi.alt \\ y=2\csc phi.alt \e n d{c a s e s}$（$phi.alt$ 是参数）表示什么曲线？画出它的图形.
-+ (2) 在极坐标系内，方程 $(2 sin theta)/(rho)=1$ 表示什么曲线？画出它的图形.
++ (1)
 ]
 
 #solution[
-+ (1) 由 $cot phi.alt =(x)/(3)$，$\csc phi.alt =(y)/(2)$，以及恒等式 $\csc^2 phi.alt - cot ""^2 phi.alt =1$，得 $(y^2)/(4)-(x^2)/(9)=1$. 因而曲线是以原点为中心、实轴在 $y$ 轴上的双曲线，顶点为 $(0,2)$，$(0,-2)$，渐近线为 $y=(2)/(3)x$ 和 $y=-(2)/(3)x$. 参数取遍允许值时，两支均能得到.
-+ (2) 原式要求 $rho != 0$，且由 $(2 sin theta)/(rho)=1$ 得 $rho =2 sin theta$. 由极坐标关系 $y= rho sin theta$ 和 $rho ""^2=x^2+y^2$，有 $rho ""^2=2 rho sin theta =2 y$，所以 $x^2+y^2=2 y$，即 $x^2+(y-1)^2=1$. 因而曲线所在的圆圆心为 $(0,1)$、半径为 $1$；严格按原方程的定义域，原点不属于曲线.
++ (1)
 ]
 
 #problem(17)[
-+ (1) 求 $(x^(3)-(1)/(x^(2)))^(15)$ 的展开式中的常数项.
-+ (2) 从六个数字 $1$，$2$，$3$，$4$，$5$，$6$ 中任取四个不同的数字，有多少种取法？由这六个数字可以组成多少个没有重复数字的四位偶数？
-+ (3) 在一列球中，第 1 个球的半径为 $1$，第 2 个球的直径是第 1 个球的半径，以后每一个球的直径都是前一个球的半径，这样无限继续下去，求所有这些球的表面积的和.
++ (1) 
++ (2)
 ]
 
 #solution[
-+ (1) 展开式通项中，若取 $k$ 个 $-(1)/(x^2)$，则该项为 $C_(15)^(k)(x^3)^(15-k)(-(1)/(x^2))^k$，其中 $x$ 的指数为 $3(15-k)-2 k=45-5 k$. 要成为常数项，须有 $45-5 k=0$，即 $k=9$. 所以常数项为 $(-1)^9 C_(15)^(9)=-C_(15)^(6)=-5005$.
-+ (2) 任取四个不同的数字，取法数为 $C_6^4=15$. 四位偶数的个位必须从 $2$，$4$，$6$ 中选取，有 $3$ 种；个位确定后，千位、百位、十位从余下的五个数字中依次选取，排列数为 $5 dot 4 dot 3$. 因此四位偶数共有 $3 dot 5 dot 4 dot 3 =180$ 个.
-+ (3) 设第 $n$ 个球的半径为 $r_n$. 由题意，$r_1=1$，且 $r_(n+1)=(r_n)/(2)$，所以 $r_n=(1)/(2^(n-1))$. 所有球的表面积之和为 $4\p i s u m_(n=1)^( oo )r_n^2=4\p i s u m_(n=1)^( oo )((1)/(4))^(n-1)=(4 pi)/(1-(1)/(4))=(16 pi)/(3)$.
++ (1) 
++ (2)
 ]
 
 #problem(18)[
-设 $triangle A B C$ 的两个内角 $A$，$B$ 所对的边分别为 $a$，$b$. 若复数 $z_1$ 的模为 $a$，幅角为 $B$；复数 $z_2$ 的模为 $b$，幅角为 $-A$. 求证 $z_1+z_2$ 为实数.
+设 #mi(`\triangle ABC`) 的两个内角 #mi(`A`)，#mi(`B`) 所对的边分别为 #mi(`a`)，#mi(`b`). 若复数 #mi(`z_{1}`) 的模为 #mi(`a`)，幅角为 #mi(`B`)；复数 #mi(`z_{2}`) 的模为 #mi(`b`)，幅角为 #mi(`-A`). 求证 #mi(`z_{1}+z_{2}`) 为实数.
 ]
 
 #solution[
-由复数的三角形式，$z_1=a( cos B+ i sin B)$，$z_2=b( cos A- i sin A)$. 因此
-$z_1+z_2=(a cos B+b cos A)+ i (a sin B-b sin A)$.
+由复数的三角形式，#mi(`z_{1}=a\left(\cos B+\mathrm{i}\sin B\right)`)，#mi(`z_{2}=b\left(\cos A-\mathrm{i}\sin A\right)`). 因此
 
-由正弦定理，存在外接圆半径 $R$，使得 $a=2 R sin A$，$b=2 R sin B$. 所以 $a sin B=b sin A=2 R sin A sin B$，从而 $z_1+z_2$ 的虚部为零，故 $z_1+z_2$ 为实数.
+#mi(`z_{1}+z_{2}=\left(a\cos B+b\cos A\right)+\mathrm{i}\left(a\sin B-b\sin A\right)`).
+
+由正弦定理，存在外接圆半径 #mi(`R`)，使得 #mi(`a=2R\sin A`)，#mi(`b=2R\sin B`). 所以 #mi(`a\sin B=b\sin A=2R\sin A\sin B`)，从而 #mi(`z_{1}+z_{2}`) 的虚部为零，故 #mi(`z_{1}+z_{2}`) 为实数.
 ]
 
 #problem(19)[
-解三角方程 $cos ""^(2) x+ cos ""^(2) 3 x=1$.
+解三角方程 #mi(`\cos^{2}x+\cos^{2}3x=1`).
 ]
 
 #solution[
-由半角变换，原方程等价于 $(1+ cos 2 x)/(2)+(1+ cos 6 x)/(2)=1$，即 $cos 2 x+ cos 6 x=0$. 利用和差化积，得 $2 cos 4 x cos 2 x=0$. 因而
-$cos 4 x=0$ 或 $cos 2 x=0$，分别得到 $x=(pi)/(8)+(k pi)/(4)$ 或 $x=(pi)/(4)+(k pi)/(2)$，其中 $k in ZZ$. 所以原方程的解为这两类解的并集.
+由半角变换，原方程等价于 #mi(`\dfrac{1+\cos2x}{2}+\dfrac{1+\cos6x}{2}=1`)，即 #mi(`\cos2x+\cos6x=0`). 利用和差化积，得 #mi(`2\cos4x\cos2x=0`). 因而
+
+#mi(`\cos4x=0`) 或 #mi(`\cos2x=0`)，分别得到 #mi(`x=\dfrac{\pi}{8}+\dfrac{k\pi}{4}`) 或 #mi(`x=\dfrac{\pi}{4}+\dfrac{k\pi}{2}`)，其中 #mi(`k\in\mathbb{Z}`). 所以原方程的解为这两类解的并集.
 ]
 
 #problem(20)[
-已知函数 $f(x)$ 对其定义域内的任意两个实数 $a$，$b$，当 $a<b$ 时，都有 $f(a)<f(b)$. 试用反证法证明：方程 $f(x)=0$ 至多有一个实数根.
+已知函数 #mi(`f(x)`) 对其定义域内的任意两个实数 #mi(`a`)，#mi(`b`)，当 #mi(`a<b`) 时，都有 #mi(`f(a)<f(b)`). 试用反证法证明：方程 #mi(`f(x)=0`) 至多有一个实数根.
 ]
 
 #solution[
-假设方程 $f(x)=0$ 至少有两个不同的实数根，设它们为 $x_1$，$x_2$. 不妨设 $x_1<x_2$. 由题设函数严格递增，应有 $f(x_1)<f(x_2)$. 但 $x_1$，$x_2$ 都是方程的根，所以 $f(x_1)=f(x_2)=0$，这与 $f(x_1)<f(x_2)$ 矛盾. 因此假设不成立，方程 $f(x)=0$ 至多有一个实数根.
+假设方程 #mi(`f(x)=0`) 至少有两个不同的实数根，设它们为 #mi(`x_{1}`)，#mi(`x_{2}`). 不妨设 #mi(`x_{1}<x_{2}`). 由题设函数严格递增，应有 #mi(`f(x_{1})<f(x_{2})`). 但 #mi(`x_{1}`)，#mi(`x_{2}`) 都是方程的根，所以 #mi(`f(x_{1})=f(x_{2})=0`)，这与 #mi(`f(x_{1})<f(x_{2})`) 矛盾. 因此假设不成立，方程 #mi(`f(x)=0`) 至多有一个实数根.
 ]
 
 #problem(21)[
-对于一切大于 $1$ 的自然数 $n$，证明：$(1+(1)/(3))(1+(1)/(5)) dots.c (1+(1)/(2 n-1))>(sqrt(2 n+1))/(2)$.
+对于一切大于 #mi(`1`) 的自然数 #mi(`n`)，证明：#mi(`\left(1+\dfrac{1}{3}\right)\left(1+\dfrac{1}{5}\right)\cdots\left(1+\dfrac{1}{2n-1}\right)>\dfrac{\sqrt{2n+1}}{2}`).
 ]
 
 #solution[
-记 $P_n=prod_(j=2)^(n)(1+(1)/(2 j-1))=prod_(j=2)^(n)(2 j)/(2 j-1)$. 当 $n=2$ 时，$P_2=(4)/(3)>(sqrt(5))/(2)$，因为 $(16)/(9)>(5)/(4)$.
+记 #mi(`P_{n}=\displaystyle\prod_{j=2}^{n}\left(1+\dfrac{1}{2j-1}\right)=\prod_{j=2}^{n}\dfrac{2j}{2j-1}`). 当 #mi(`n=2`) 时，#mi(`P_{2}=\dfrac{4}{3}>\dfrac{\sqrt{5}}{2}`)，因为 #mi(`\dfrac{16}{9}>\dfrac{5}{4}`).
 
-假设对某个大于等于 $2$ 的自然数 $n$ 有 $P_n>(sqrt(2 n+1))/(2)$. 注意到
-$(P_(n+1))/(P_n)=(2 n+2)/(2 n+1)$，且
-$((2 n+2)/(2 n+1))^2-(2 n+3)/(2 n+1)=(1)/((2 n+1)^2)>0$. 因而 $(2 n+2)/(2 n+1)>sqrt((2 n+3)/(2 n+1))$. 结合归纳假设，得
-$P_(n+1)>(sqrt(2 n+1))/(2)sqrt((2 n+3)/(2 n+1))=(sqrt(2 n+3))/(2)$.
+假设对某个大于等于 #mi(`2`) 的自然数 #mi(`n`) 有 #mi(`P_{n}>\dfrac{\sqrt{2n+1}}{2}`). 注意到
 
-由数学归纳法，所证不等式对一切大于 $1$ 的自然数 $n$ 成立.
+#mi(`\dfrac{P_{n+1}}{P_n}=\dfrac{2n+2}{2n+1}`)，且
+
+#mi(`\left(\dfrac{2n+2}{2n+1}\right)^{2}-\dfrac{2n+3}{2n+1}=\dfrac{1}{(2n+1)^2}>0`). 因而 #mi(`\dfrac{2n+2}{2n+1}>\sqrt{\dfrac{2n+3}{2n+1}}`). 结合归纳假设，得
+
+#mi(`P_{n+1}>\dfrac{\sqrt{2n+1}}{2}\sqrt{\dfrac{2n+3}{2n+1}}=\dfrac{\sqrt{2n+3}}{2}`).
+
+由数学归纳法，所证不等式对一切大于 #mi(`1`) 的自然数 #mi(`n`) 成立.
 ]
 
 #problem(22)[
-在三棱锥 $P-A B C$ 中，顶点 $P$ 到 $B C$，$A C$，$A B$ 的距离分别为 $h_1$，$h_2$，$h_3$，二面角 $P-B C-A= alpha _1$，$P-A C-B= alpha _2$，$P-A B-C= alpha _3$. $alpha _1$，$alpha _2$，$alpha _3$ 都是锐角，且依次成等差数列，$h_1$，$h_2$，$h_3$ 依次成等比数列. 求证：$alpha _1= alpha _2= alpha _3$.
+在三棱锥 #mi(`P-ABC`) 中，顶点 #mi(`P`) 到 #mi(`BC`)，#mi(`AC`)，#mi(`AB`) 的距离分别为 #mi(`h_{1}`)，#mi(`h_{2}`)，#mi(`h_{3}`)，二面角 #mi(`P-BC-A=\alpha_{1}`)，#mi(`P-AC-B=\alpha_{2}`)，#mi(`P-AB-C=\alpha_{3}`). #mi(`\alpha_{1}`)，#mi(`\alpha_{2}`)，#mi(`\alpha_{3}`) 都是锐角，且依次成等差数列，#mi(`h_{1}`)，#mi(`h_{2}`)，#mi(`h_{3}`) 依次成等比数列. 求证：#mi(`\alpha_{1}=\alpha_{2}=\alpha_{3}`).
 ]
 
 #solution[
-记三棱锥体积为 $V$，底面三角形面积为 $S$. 设从 $A$ 到 $B C$ 的高为 $h_a$. 以 $B C$ 为棱作垂直截面，则点 $P$ 到 $B C$ 的距离为 $h_1$，而点 $A$ 到平面 $P B C$ 的距离为 $h_a sin alpha _1$. 所以
-$V=(1)/(3)S_( triangle P B C)h_a sin alpha _1=(1)/(3)S h_1 sin alpha _1$.
+记三棱锥体积为 #mi(`V`)，底面三角形面积为 #mi(`S`). 设从 #mi(`A`) 到 #mi(`BC`) 的高为 #mi(`h_{a}`). 以 #mi(`BC`) 为棱作垂直截面，则点 #mi(`P`) 到 #mi(`BC`) 的距离为 #mi(`h_{1}`)，而点 #mi(`A`) 到平面 #mi(`PBC`) 的距离为 #mi(`h_{a}\sin\alpha_{1}`). 所以
 
-同理，$V=(1)/(3)S h_2 sin alpha _2=(1)/(3)S h_3 sin alpha _3$，从而
-$h_1 sin alpha _1=h_2 sin alpha _2=h_3 sin alpha _3$. 由于 $h_1$，$h_2$，$h_3$ 成等比数列，$h_2^2=h_(1) h_3$. 设上述公共值为 $c$，则
-$sin ""^2 alpha _2=(c^2)/(h_2^2)=(c^2)/(h_(1) h_3)= sin alpha _1 sin alpha _3$.
+#mi(`V=\dfrac{1}{3}S_{\triangle PBC}h_{a}\sin\alpha_{1}=\dfrac{1}{3}S h_{1}\sin\alpha_{1}`).
 
-又因 $alpha _1$，$alpha _2$，$alpha _3$ 成等差数列，$alpha _2=(alpha _1+ alpha _3)/(2)$. 令 $d=(alpha _3- alpha _1)/(2)$，则
-$sin alpha _1 sin alpha _3= sin ( alpha _2-d) sin ( alpha _2+d)= sin ""^2 alpha _2- sin ""^(2) d$. 与前式比较，得 $sin ""^(2) d=0$. 因为两角均为锐角，故 $d=0$，即 $alpha _1= alpha _3$. 再由等差关系，得到 $alpha _1= alpha _2= alpha _3$.
+同理，#mi(`V=\dfrac{1}{3}S h_{2}\sin\alpha_{2}=\dfrac{1}{3}S h_{3}\sin\alpha_{3}`)，从而
+
+#mi(`h_{1}\sin\alpha_{1}=h_{2}\sin\alpha_{2}=h_{3}\sin\alpha_{3}`). 由于 #mi(`h_{1}`)，#mi(`h_{2}`)，#mi(`h_{3}`) 成等比数列，#mi(`h_{2}^{2}=h_{1}h_{3}`). 设上述公共值为 #mi(`c`)，则
+
+#mi(`\sin^{2}\alpha_{2}=\dfrac{c^2}{h_2^2}=\dfrac{c^2}{h_1h_3}=\sin\alpha_{1}\sin\alpha_{3}`).
+
+又因 #mi(`\alpha_{1}`)，#mi(`\alpha_{2}`)，#mi(`\alpha_{3}`) 成等差数列，#mi(`\alpha_{2}=\dfrac{\alpha_1+\alpha_3}{2}`). 令 #mi(`d=\dfrac{\alpha_3-\alpha_1}{2}`)，则
+
+#mi(`\sin\alpha_{1}\sin\alpha_{3}=\sin\left(\alpha_{2}-d\right)\sin\left(\alpha_{2}+d\right)=\sin^{2}\alpha_{2}-\sin^{2}d`). 与前式比较，得 #mi(`\sin^{2}d=0`). 因为两角均为锐角，故 #mi(`d=0`)，即 #mi(`\alpha_{1}=\alpha_{3}`). 再由等差关系，得到 #mi(`\alpha_{1}=\alpha_{2}=\alpha_{3}`).
 ]
 
 #problem(23)[
-已知直线 $y=x+m$ 和曲线 $x^3+2 y^3+y^4-1=0$ 交于 $A$，$B$ 两点，$P$ 是这条直线上的点，且 $|P A| dot |P B|=2$. 求：当 $m$ 变化时，点 $P$ 的轨迹方程，并说明轨迹是什么图形.
+已知直线 #mi(`y=x+m`) 和曲线 #mi(`x^{3}+2y^{3}+y^{4}-1=0`) 交于 #mi(`A`)，#mi(`B`) 两点，#mi(`P`) 是这条直线上的点，且 #mi(`\left|PA\right|\cdot\left|PB\right|=2`). 求：当 #mi(`m`) 变化时，点 #mi(`P`) 的轨迹方程，并说明轨迹是什么图形.
 ]
 
 #solution[
-设 $P=(x,y)$. 直线 $y=x+m$ 的方向向量为 $(1,1)$，故可用参数 $t$ 表示这条直线上的点：$Q(t)=(x+t,y+t)$. 设 $A=Q(u)$，$B=Q(v)$，则 $|P A|=sqrt(2)|u|$，$|P B|=sqrt(2)|v|$，所以题设条件等价于 $|u v|=1$. 令 $\v a r e p s i l o n=u v$，则 $\v a r e p s i l o n=1$ 或 $\v a r e p s i l o n=-1$，再令 $s=u+v$.
+设 #mi(`P=(x,y)`). 直线 #mi(`y=x+m`) 的方向向量为 #mi(`(1,1)`)，故可用参数 #mi(`t`) 表示这条直线上的点：#mi(`Q(t)=(x+t,y+t)`). 设 #mi(`A=Q(u)`)，#mi(`B=Q(v)`)，则 #mi(`\left|PA\right|=\sqrt{2}\left|u\right|`)，#mi(`\left|PB\right|=\sqrt{2}\left|v\right|`)，所以题设条件等价于 #mi(`\left|uv\right|=1`). 令 #mi(`\varepsilon=uv`)，则 #mi(`\varepsilon=1`) 或 #mi(`\varepsilon=-1`)，再令 #mi(`s=u+v`).
 
-把 $Q(t)$ 代入曲线方程，得到
+把 #mi(`Q(t)`) 代入曲线方程，得到
 
-$ G(t)=t^4+c_(3) t^3+c_(2) t^2+c_(1) t+c_0 $
 
-其中 $c_3=4 y+3$，$c_2=3 x+6 y^2+6 y$，$c_1=3 x^2+4 y^3+6 y^2$，$c_0=x^3+2 y^3+y^4-1$.
+#align(center)[#mitex(`
+G(t)=t^{4}+c_{3}t^{3}+c_{2}t^{2}+c_{1}t+c_{0}
+`)]
 
-因为 $u$，$v$ 是交点 $A$，$B$ 对应的参数，且 $u+v=s$，$u v=\v a r e p s i l o n$，所以记 $q_1(t)=t^2-s t+\v a r e p s i l o n$，它是 $G(t)$ 的因式. 设另一因式为 $q_2(t)=t^2+q t+r$. 比较三次项和常数项，分别得到 $q=c_3+s$，$r=\v a r e p s i l o n c_0$，从而
 
-$ G(t)=(t^2-s t+\v a r e p s i l o n)(t^2+(c_3+s)t+\v a r e p s i l o n c_0) $
+其中 #mi(`c_{3}=4y+3`)，#mi(`c_{2}=3x+6y^{2}+6y`)，#mi(`c_{1}=3x^{2}+4y^{3}+6y^{2}`)，#mi(`c_{0}=x^{3}+2y^{3}+y^{4}-1`).
+
+因为 #mi(`u`)，#mi(`v`) 是交点 #mi(`A`)，#mi(`B`) 对应的参数，且 #mi(`u+v=s`)，#mi(`uv=\varepsilon`)，所以记 #mi(`q_{1}(t)=t^{2}-st+\varepsilon`)，它是 #mi(`G(t)`) 的因式. 设另一因式为 #mi(`q_{2}(t)=t^{2}+qt+r`). 比较三次项和常数项，分别得到 #mi(`q=c_{3}+s`)，#mi(`r=\varepsilon c_{0}`)，从而
+
+
+#align(center)[#mitex(`
+G(t)=\left(t^{2}-st+\varepsilon\right)\left(t^{2}+(c_{3}+s)t+\varepsilon c_{0}\right)
+`)]
 
 
 再比较二次项和一次项，得到
 
-$ \b e g i n{c a s e s} s^2+c_(3) s+c_2-\v a r e p s i l o n c_0-\v a r e p s i l o n=0,\\ \v a r e p s i l o n(1-c_0)s+\v a r e p s i l o n c_3-c_1=0. \e n d{c a s e s} $
 
-这组方程连同根的实性条件，给出了轨迹的充要条件. 第一因式必须有两个不同的实根 $u$，$v$，即 $s^2-4\v a r e p s i l o n>0$. 第二因式若没有实根，则不会产生新的交点；若有实根，则这些实根必须与 $u$，$v$ 重合，否则直线还会与曲线交于题设以外的点. 因此条件可写为
-$s^2-4\v a r e p s i l o n>0$，（$(c_3+s)^2-4\v a r e p s i l o n c_0<0 "或"q_2(t) | q_1(t)^2$）.
-其中 $\v a r e p s i l o n=1$ 表示 $P$ 在 $A$，$B$ 的同侧，$\v a r e p s i l o n=-1$ 表示 $P$ 在 $A$，$B$ 之间. 这里的整段条件中的“或”只针对第二个因式：它的判别式为负，或它整除 $q_1(t)^2$. 后一种情形包含了两个交点处的切触等边界情形. 反过来，满足这些条件的 $x$，$y$ 由上述因式分解得到恰有两个不同的交点，并且 $|P A||P B|=2|u v|=2$，所以这些条件也是充分的.
+#align(center)[#mitex(`
+\begin{cases}s^{2}+c_{3}s+c_{2}-\varepsilon c_{0}-\varepsilon=0,\\  \varepsilon(1-c_{0})s+\varepsilon c_{3}-c_{1}=0.\end{cases}
+`)]
 
-当 $c_0\n e q1$ 时，第二个方程给出
 
-$ s=(\v a r e p s i l o n c_1-c_3)/(1-c_0) $
+这组方程连同根的实性条件，给出了轨迹的充要条件. 第一因式必须有两个不同的实根 #mi(`u`)，#mi(`v`)，即 #mi(`s^{2}-4\varepsilon>0`). 第二因式若没有实根，则不会产生新的交点；若有实根，则这些实根必须与 #mi(`u`)，#mi(`v`) 重合，否则直线还会与曲线交于题设以外的点. 因此条件可写为
 
-代入第一个方程，得到不含辅助参数 $s$ 的轨迹方程
-$(\v a r e p s i l o n c_1-c_3)^2+c_3(\v a r e p s i l o n c_1-c_3)(1-c_0)+(c_2-\v a r e p s i l o n c_0-\v a r e p s i l o n)(1-c_0)^2=0$，$\v a r e p s i l o n= +- 1$.
-当 $c_0=1$ 时，不能除以 $1-c_0$，此时必须保留条件组
+#mi(`s^{2}-4\varepsilon>0`)，（#mi(`(c_{3}+s)^{2}-4\varepsilon c_{0}<0\quad\text{\text{或}}\quad q_{2}(t)\mid q_{1}(t)^{2}`)）.
 
-$ \b e g i n{c a s e s} s^2+c_(3) s+c_2-2\v a r e p s i l o n=0,\\ \v a r e p s i l o n c_3-c_1=0, \e n d{c a s e s} $
+其中 #mi(`\varepsilon=1`) 表示 #mi(`P`) 在 #mi(`A`)，#mi(`B`) 的同侧，#mi(`\varepsilon=-1`) 表示 #mi(`P`) 在 #mi(`A`)，#mi(`B`) 之间. 这里的整段条件中的“或”只针对第二个因式：它的判别式为负，或它整除 #mi(`q_{1}(t)^{2}`). 后一种情形包含了两个交点处的切触等边界情形. 反过来，满足这些条件的 #mi(`x`)，#mi(`y`) 由上述因式分解得到恰有两个不同的交点，并且 #mi(`\left|PA\right|\left|PB\right|=2\left|uv\right|=2`)，所以这些条件也是充分的.
 
-并同时满足上面的根的实性条件，其中允许 $q_2(t) | q_1(t)^2$ 的边界情形.
+当 #mi(`c_{0}\neq1`) 时，第二个方程给出
 
-因此，点 $P$ 的轨迹是上述 $\v a r e p s i l o n=1$ 与 $\v a r e p s i l o n=-1$ 两个十二次代数曲线中满足根的实性条件的实分支，并包括 $q_2(t) | q_1(t)^2$ 所表示的交点重合边界情形；这些条件共同限定了题设所说的直线恰有交点 $A$，$B$. 所以轨迹不是圆、椭圆、抛物线或双曲线等二次曲线，而是由这两条高次代数曲线的相应实弧及其边界点组成.
+
+#align(center)[#mitex(`
+s=\frac{\varepsilon c_{1}-c_{3}}{1-c_{0}}
+`)]
+
+
+代入第一个方程，得到不含辅助参数 #mi(`s`) 的轨迹方程
+
+#mi(`\left(\varepsilon c_{1}-c_{3}\right)^{2}+c_{3}\left(\varepsilon c_{1}-c_{3}\right)\left(1-c_{0}\right)+\left(c_{2}-\varepsilon c_{0}-\varepsilon\right)\left(1-c_{0}\right)^{2}=0`)，#mi(`\varepsilon=\pm1`).
+
+当 #mi(`c_{0}=1`) 时，不能除以 #mi(`1-c_{0}`)，此时必须保留条件组
+
+
+#align(center)[#mitex(`
+\begin{cases}s^{2}+c_{3}s+c_{2}-2\varepsilon=0,\\  \varepsilon c_{3}-c_{1}=0,\end{cases}
+`)]
+
+
+并同时满足上面的根的实性条件，其中允许 #mi(`q_{2}(t)\mid q_{1}(t)^{2}`) 的边界情形.
+
+因此，点 #mi(`P`) 的轨迹是上述 #mi(`\varepsilon=1`) 与 #mi(`\varepsilon=-1`) 两个十二次代数曲线中满足根的实性条件的实分支，并包括 #mi(`q_{2}(t)\mid q_{1}(t)^{2}`) 所表示的交点重合边界情形；这些条件共同限定了题设所说的直线恰有交点 #mi(`A`)，#mi(`B`). 所以轨迹不是圆、椭圆、抛物线或双曲线等二次曲线，而是由这两条高次代数曲线的相应实弧及其边界点组成.
 ]
 

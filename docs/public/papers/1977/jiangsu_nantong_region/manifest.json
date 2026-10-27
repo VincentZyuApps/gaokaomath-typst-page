@@ -1,167 +1,83 @@
 {
+  "title": "1977年普通高等学校招生全国统一考试",
+  "subtitle": "1977年江苏南通地区初试卷",
   "year": "1977",
   "slug": "jiangsu_nantong_region",
-  "title": "1977年江苏南通地区初试卷",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "解答题",
       "problems": [
         {
           "num": 1,
-          "body": "(1) 当 $a$ 为何值时，$2a>a$；当 $a$ 为何值时，$2a=a$；当 $a$ 为何值时，$2a<a$.\n\n(2) 当 $x$ 为何值时，$|x|=x$.",
-          "choices": [],
+          "body": "<ol class=\"enumerate\"><li><p>当 $a$ 为何值时，$2a>a$；当 $a$ 为何值时，$2a=a$；当 $a$ 为何值时，$2a&#x3C;a$.</p></li><li><p>当 $x$ 为何值时，$|x|=x$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 对不等式 $2a>a$ 两边同减 $a$，得 $a>0$；对等式 $2a=a$ 两边同减 $a$，得 $a=0$；对不等式 $2a<a$ 两边同减 $a$，得 $a<0$.\n\n(2) 当 $x\\geqslant0$ 时，由绝对值的定义知 $|x|=x$. 当 $x<0$ 时，$|x|=-x$，若 $|x|=x$，则 $-x=x$，从而 $x=0$，这与 $x<0$ 矛盾. 因此满足条件的取值范围是 $x\\geqslant0$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>对不等式 $2a>a$ 两边同减 $a$，得 $a>0$；对等式 $2a=a$ 两边同减 $a$，得 $a=0$；对不等式 $2a&#x3C;a$ 两边同减 $a$，得 $a&#x3C;0$.</p></li><li><p>当 $x\\geqslant0$ 时，由绝对值的定义知 $|x|=x$. 当 $x&#x3C;0$ 时，$|x|=-x$，若 $|x|=x$，则 $-x=x$，从而 $x=0$，这与 $x&#x3C;0$ 矛盾. 因此满足条件的取值范围是 $x\\geqslant0$.</p></li></ol>"
         },
         {
           "num": 2,
-          "body": "写出下列函数的自变量 $x$ 的取值范围（在实数范围内）：\r\n\r\n\n(1) $y=\\dfrac{1}{2-x}$.\n\n(2) $y=\\sqrt{2x-1}$.",
-          "choices": [],
+          "body": "<p>写出下列函数的自变量 $x$ 的取值范围（在实数范围内）：</p><ol class=\"enumerate\"><li><p>$y=\\dfrac{1}{2-x}$.</p></li><li><p>$y=\\sqrt{2x-1}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 分式有意义的条件是分母不为零，即 $2-x\\neq0$，所以 $x\\neq2$. 因此自变量的取值范围是 $x\\in\\mathbb{R}$ 且 $x\\neq2$.\n\n(2) 根式在实数范围内有意义的条件是被开方数不小于零，即 $2x-1\\geqslant0$，解得 $x\\ge\\dfrac12$. 因此自变量的取值范围是 $x\\ge\\dfrac12$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>分式有意义的条件是分母不为零，即 $2-x\\neq0$，所以 $x\\neq2$. 因此自变量的取值范围是 $x\\in\\mathbb{R}$ 且 $x\\neq2$.</p></li><li><p>根式在实数范围内有意义的条件是被开方数不小于零，即 $2x-1\\geqslant0$，解得 $x\\ge\\dfrac{1}{2}$. 因此自变量的取值范围是 $x\\ge\\dfrac{1}{2}$.</p></li></ol>"
         },
         {
           "num": 3,
-          "body": "计算：$\\left(\\dfrac{2}{3}\\right)^2+\\left(-5.8\\right)^0-\\left(\\dfrac{8}{27}\\right)^{-\\frac23}+\\left(\\dfrac12\\right)^{-2}$.",
-          "choices": [],
+          "body": "计算：$\\left(\\dfrac{2}{3}\\right)^{2}+\\left(-5.8\\right)^{0}-\\left(\\dfrac{8}{27}\\right)^{-\\frac{2}{3}}+\\left(\\dfrac{1}{2}\\right)^{-2}$.",
+          "choices": null,
           "answer": "",
-          "solution": "因为 $(-5.8)\\neq0$，所以 $(-5.8)^0=1$. 又因为 $\\dfrac{8}{27}=\\left(\\dfrac23\\right)^3$，所以 $\\left(\\dfrac{8}{27}\\right)^{-\\frac23}=\\left(\\dfrac23\\right)^{-2}=\\left(\\dfrac32\\right)^2=\\dfrac94$，并且 $\\left(\\dfrac12\\right)^{-2}=2^2=4$. 因此原式等于 $\\dfrac49+1-\\dfrac94+4=\\dfrac{115}{36}=3\\dfrac7{36}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "因为 $(-5.8)\\neq0$，所以 $(-5.8)^{0}=1$. 又因为 $\\dfrac{8}{27}=\\left(\\dfrac{2}{3}\\right)^{3}$，所以 $\\left(\\dfrac{8}{27}\\right)^{-\\frac{2}{3}}=\\left(\\dfrac{2}{3}\\right)^{-2}=\\left(\\dfrac{3}{2}\\right)^{2}=\\dfrac{9}{4}$，并且 $\\left(\\dfrac{1}{2}\\right)^{-2}=2^{2}=4$. 因此原式等于 $\\dfrac{4}{9}+1-\\dfrac{9}{4}+4=\\dfrac{115}{36}=3\\dfrac7{36}$."
         },
         {
           "num": 4,
-          "body": "$k$ 为何值时，方程 $x^2-2kx+4=0$ 有两个相等的实数根？并求出这方程的根.",
-          "choices": [],
+          "body": "$k$ 为何值时，方程 $x^{2}-2kx+4=0$ 有两个相等的实数根？并求出这方程的根.",
+          "choices": null,
           "answer": "",
-          "solution": "设方程的三个系数分别为 $1$、$-2k$、$4$，则判别式为 $\\Delta=(-2k)^2-4\\cdot1\\cdot4=4k^2-16$. 方程有两个相等的实数根的充要条件是 $\\Delta=0$，所以 $4k^2-16=0$，解得 $k=2$ 或 $k=-2$.\r\n\r\n当 $k=2$ 时，原方程为 $x^2-4x+4=0$，即 $(x-2)^2=0$，所以 $x_1=x_2=2$. 当 $k=-2$ 时，原方程为 $x^2+4x+4=0$，即 $(x+2)^2=0$，所以 $x_1=x_2=-2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设方程的三个系数分别为 $1$、$-2k$、$4$，则判别式为 $\\Delta=(-2k)^{2}-4\\cdot1\\cdot4=4k^{2}-16$. 方程有两个相等的实数根的充要条件是 $\\Delta=0$，所以 $4k^{2}-16=0$，解得 $k=2$ 或 $k=-2$.</p><p>当 $k=2$ 时，原方程为 $x^{2}-4x+4=0$，即 $(x-2)^{2}=0$，所以 $x_{1}=x_{2}=2$. 当 $k=-2$ 时，原方程为 $x^{2}+4x+4=0$，即 $(x+2)^{2}=0$，所以 $x_{1}=x_{2}=-2$.</p>"
         },
         {
           "num": 5,
-          "body": "已知 $\\sin\\alpha=\\dfrac35$（$90^\\circ<\\alpha<180^\\circ$），求 $\\cos\\alpha$，$\\tan\\alpha$，$\\cot\\alpha$ 的值.",
-          "choices": [],
+          "body": "已知 $\\sin\\alpha=\\dfrac{3}{5}$（$90^{\\circ}&#x3C;\\alpha&#x3C;180^{\\circ}$），求 $\\cos\\alpha$，$\\tan\\alpha$，$\\cot\\alpha$ 的值.",
+          "choices": null,
           "answer": "",
-          "solution": "因为 $90^\\circ<\\alpha<180^\\circ$，所以 $\\alpha$ 在第二象限，$\\cos\\alpha<0$. 由同角三角函数基本关系得 $\\cos^2\\alpha=1-\\sin^2\\alpha=1-\\left(\\dfrac35\\right)^2=\\dfrac{16}{25}$，故 $\\cos\\alpha=-\\dfrac45$. 于是 $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{\\frac{3}{5}}{-\\frac{4}{5}}=-\\dfrac34$，$\\cot\\alpha=\\dfrac{\\cos\\alpha}{\\sin\\alpha}=\\dfrac{-\\frac{4}{5}}{\\frac{3}{5}}=-\\dfrac43$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "因为 $90^{\\circ}&#x3C;\\alpha&#x3C;180^{\\circ}$，所以 $\\alpha$ 在第二象限，$\\cos\\alpha&#x3C;0$. 由同角三角函数基本关系得 $\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\left(\\dfrac{3}{5}\\right)^{2}=\\dfrac{16}{25}$，故 $\\cos\\alpha=-\\dfrac{4}{5}$. 于是 $\\tan\\alpha=\\dfrac{\\sin\\alpha}{\\cos\\alpha}=\\dfrac{\\frac{3}{5}}{-\\frac{4}{5}}=-\\dfrac{3}{4}$，$\\cot\\alpha=\\dfrac{\\cos\\alpha}{\\sin\\alpha}=\\dfrac{-\\frac{4}{5}}{\\frac{3}{5}}=-\\dfrac{4}{3}$."
         },
         {
           "num": 6,
-          "body": "试写出抛物线 $y=1+4x-2x^2$ 的顶点坐标，对称轴方程和函数 $y$ 的极值.",
-          "choices": [],
+          "body": "试写出抛物线 $y=1+4x-2x^{2}$ 的顶点坐标，对称轴方程和函数 $y$ 的极值.",
+          "choices": null,
           "answer": "",
-          "solution": "将函数配方，得 $y=1+4x-2x^2=-2(x^2-2x)+1=-2\\left((x-1)^2-1\\right)+1=-2(x-1)^2+3$. 因为 $(x-1)^2\\geqslant0$，所以 $y\\leqslant3$，且当 $x=1$ 时等号成立. 因此抛物线的顶点坐标为 $(1,3)$，对称轴方程为 $x=1$，函数的极大值为 $3$. 当 $|x-1|$ 无限增大时，$y$ 可以任意小，所以函数没有极小值.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "将函数配方，得 $y=1+4x-2x^{2}=-2(x^{2}-2x)+1=-2\\left((x-1)^{2}-1\\right)+1=-2(x-1)^{2}+3$. 因为 $(x-1)^{2}\\geqslant0$，所以 $y\\leqslant3$，且当 $x=1$ 时等号成立. 因此抛物线的顶点坐标为 $(1,3)$，对称轴方程为 $x=1$，函数的极大值为 $3$. 当 $|x-1|$ 无限增大时，$y$ 可以任意小，所以函数没有极小值."
         },
         {
           "num": 7,
           "body": "解方程：$\\dfrac{\\lg(2x)}{\\lg(x-4)}=2$.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "原方程有意义必须满足 $2x>0$、$x-4>0$，且分母 $\\lg(x-4)\\neq0$. 因而定义域条件为 $x>4$ 且 $x\\neq5$. 在此条件下，原方程等价于\r\n$\\lg(2x)=2\\lg(x-4)=\\lg\\left((x-4)^2\\right)$，所以 $2x=(x-4)^2$. 整理得 $x^2-10x+16=0$，即 $(x-2)(x-8)=0$，故候选值为 $x=2$ 或 $x=8$. 由定义域条件舍去 $x=2$，代入原方程检验 $\\dfrac{\\lg16}{\\lg4}=2$，所以原方程的解为 $x=8$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>原方程有意义必须满足 $2x>0$、$x-4>0$，且分母 $\\lg(x-4)\\neq0$. 因而定义域条件为 $x>4$ 且 $x\\neq5$. 在此条件下，原方程等价于</p><p>$\\lg(2x)=2\\lg(x-4)=\\lg\\left((x-4)^{2}\\right)$，所以 $2x=(x-4)^{2}$. 整理得 $x^{2}-10x+16=0$，即 $(x-2)(x-8)=0$，故候选值为 $x=2$ 或 $x=8$. 由定义域条件舍去 $x=2$，代入原方程检验 $\\dfrac{\\lg16}{\\lg4}=2$，所以原方程的解为 $x=8$.</p>"
         },
         {
           "num": 8,
           "body": "求 $200$ 以内的能被 $6$ 整除的所有自然数的和.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "能被 $6$ 整除且不超过 $200$ 的正自然数可写成 $6n$，其中 $n$ 为正整数，且 $6n\\leqslant200$. 因为 $33\\le\\dfrac{200}{6}<34$，所以 $n=1$，$2$，$\\ldots$，$33$. 所求和为\r\n$6+12+\\cdots+6\\times33=6(1+2+\\cdots+33)=6\\times\\dfrac{33\\times34}{2}=3366$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>能被 $6$ 整除且不超过 $200$ 的正自然数可写成 $6n$，其中 $n$ 为正整数，且 $6n\\leqslant200$. 因为 $33\\le\\dfrac{200}{6}&#x3C;34$，所以 $n=1$，$2$，$\\ldots$，$33$. 所求和为</p><p>$6+12+\\cdots+6\\times33=6(1+2+\\cdots+33)=6\\times\\dfrac{33\\times34}{2}=3366$.</p>"
         },
         {
           "num": 9,
-          "body": "已知正四棱锥底面边长为 $12\\mathrm{~cm}$，高为 $2\\sqrt7\\mathrm{~cm}$，求它的侧棱.",
-          "choices": [],
+          "body": "已知正四棱锥底面边长为 $12\\mathrm{~cm}$，高为 $2\\sqrt{7}\\mathrm{~cm}$，求它的侧棱.",
+          "choices": null,
           "answer": "",
-          "solution": "设正四棱锥顶点为 $P$，底面为正方形 $ABCD$，底面中心为 $O$. 由正四棱锥的性质，$PO$ 是高，且 $O$ 是正方形的中心. 底面边长为 $12\\mathrm{~cm}$，所以底面对角线 $AC=\\sqrt{12^2+12^2}=12\\sqrt2\\mathrm{~cm}$，从而 $AO=\\dfrac{AC}{2}=6\\sqrt2\\mathrm{~cm}$. 在直角三角形 $POA$ 中，$PA$ 是侧棱，故\r\n$PA^2=PO^2+AO^2=(2\\sqrt7)^2+(6\\sqrt2)^2=28+72=100$，因此 $PA=10\\mathrm{~cm}$. 所以它的侧棱为 $10\\mathrm{~cm}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设正四棱锥顶点为 $P$，底面为正方形 $ABCD$，底面中心为 $O$. 由正四棱锥的性质，$PO$ 是高，且 $O$ 是正方形的中心. 底面边长为 $12\\mathrm{~cm}$，所以底面对角线 $AC=\\sqrt{12^{2}+12^{2}}=12\\sqrt{2}\\mathrm{~cm}$，从而 $AO=\\dfrac{AC}{2}=6\\sqrt{2}\\mathrm{~cm}$. 在直角三角形 $POA$ 中，$PA$ 是侧棱，故</p><p>$PA^{2}=PO^{2}+AO^{2}=(2\\sqrt{7})^{2}+(6\\sqrt{2})^{2}=28+72=100$，因此 $PA=10\\mathrm{~cm}$. 所以它的侧棱为 $10\\mathrm{~cm}$.</p>"
         },
         {
           "num": 10,
-          "body": "两根钢绳悬吊货物时，两条钢绳与铅垂线的夹角分别为 $\\alpha$ 和 $\\beta$，货物的重量为 $p$，试用表达式分别写出钢绳所承受的拉力 $F_1$ 和 $F_2$.",
-          "choices": [],
+          "body": "两根钢绳悬吊货物时，两条钢绳与铅垂线的夹角分别为 $\\alpha$ 和 $\\beta$，货物的重量为 $p$，试用表达式分别写出钢绳所承受的拉力 $F_{1}$ 和 $F_{2}$.",
+          "choices": null,
           "answer": "",
-          "solution": "设与铅垂线夹角为 $\\alpha$ 的钢绳拉力为 $F_1$，与铅垂线夹角为 $\\beta$ 的钢绳拉力为 $F_2$. 货物处于平衡状态，水平方向的合力为零，竖直方向的合力等于货物重量. 因此有\r\n$F_1\\sin\\alpha=F_2\\sin\\beta$，$F_1\\cos\\alpha+F_2\\cos\\beta=p$.\r\n\r\n将第一个等式两边乘以 $\\cos\\beta$，将第二个等式两边乘以 $\\sin\\beta$，相加得 $F_1\\left(\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\\right)=p\\sin\\beta$. 由正弦和角公式，$\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta=\\sin\\left(\\alpha+\\beta\\right)$，故 $F_1=\\dfrac{p\\sin\\beta}{\\sin\\left(\\alpha+\\beta\\right)}$.\r\n\r\n将第二个等式两边乘以 $\\sin\\alpha$，将第一个等式两边乘以 $\\cos\\alpha$，用前式减去后式，得 $F_2\\left(\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\\right)=p\\sin\\alpha$. 因而 $F_2=\\dfrac{p\\sin\\alpha}{\\sin\\left(\\alpha+\\beta\\right)}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设与铅垂线夹角为 $\\alpha$ 的钢绳拉力为 $F_{1}$，与铅垂线夹角为 $\\beta$ 的钢绳拉力为 $F_{2}$. 货物处于平衡状态，水平方向的合力为零，竖直方向的合力等于货物重量. 因此有</p><p>$F_{1}\\sin\\alpha=F_{2}\\sin\\beta$，$F_{1}\\cos\\alpha+F_{2}\\cos\\beta=p$.</p><p>将第一个等式两边乘以 $\\cos\\beta$，将第二个等式两边乘以 $\\sin\\beta$，相加得 $F_{1}\\left(\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\\right)=p\\sin\\beta$. 由正弦和角公式，$\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta=\\sin\\left(\\alpha+\\beta\\right)$，故 $F_{1}=\\dfrac{p\\sin\\beta}{\\sin\\left(\\alpha+\\beta\\right)}$.</p><p>将第二个等式两边乘以 $\\sin\\alpha$，将第一个等式两边乘以 $\\cos\\alpha$，用前式减去后式，得 $F_{2}\\left(\\sin\\alpha\\cos\\beta+\\cos\\alpha\\sin\\beta\\right)=p\\sin\\alpha$. 因而 $F_{2}=\\dfrac{p\\sin\\alpha}{\\sin\\left(\\alpha+\\beta\\right)}$.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

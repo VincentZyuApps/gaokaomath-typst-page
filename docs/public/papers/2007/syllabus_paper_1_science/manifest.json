@@ -1,150 +1,15 @@
 {
+  "title": "2007年普通高等学校招生全国统一考试",
+  "subtitle": "2007年大纲I卷（理）",
   "year": "2007",
   "slug": "syllabus_paper_1_science",
-  "title": "2007年大纲I卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "$\\alpha$ 是第四象限角，$\\tan \\alpha = -\\frac{5}{12}$，则 $\\sin \\alpha =$（ ）",
+          "body": "$\\alpha$ 是第四象限角，$\\tan \\alpha = -\\frac{5}{12}$，则 $\\sin \\alpha =$（ ）",
           "choices": [
             "$\\frac{1}{5}$",
             "$-\\frac{1}{5}$",
@@ -152,13 +17,11 @@
             "$-\\frac{5}{13}$"
           ],
           "answer": "D",
-          "solution": "由 $\\tan\\alpha=-\\frac{5}{12}$，且 $\\alpha$ 是第四象限角，知 $\\sin\\alpha<0$，$\\cos\\alpha>0$. 由 $1+\\tan^2\\alpha=\\frac{1}{\\cos^2\\alpha}$ 得 $\\cos\\alpha=\\frac{12}{13}$，所以 $\\sin\\alpha=\\tan\\alpha\\cos\\alpha=-\\frac{5}{13}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $\\tan\\alpha=-\\frac{5}{12}$，且 $\\alpha$ 是第四象限角，知 $\\sin\\alpha&#x3C;0$，$\\cos\\alpha>0$. 由 $1+\\tan^{2}\\alpha=\\frac{1}{\\cos^{2}\\alpha}$ 得 $\\cos\\alpha=\\frac{12}{13}$，所以 $\\sin\\alpha=\\tan\\alpha\\cos\\alpha=-\\frac{5}{13}$，故选 D."
         },
         {
           "num": 2,
-          "body": "设 $a$ 是实数，且 $\\frac{a}{1+\\mathrm{i}} + \\frac{1+\\mathrm{i}}{2}$ 是实数，则 $a =$（ ）",
+          "body": "设 $a$ 是实数，且 $\\frac{a}{1+\\mathrm{i}}+ \\frac{1+\\mathrm{i}}{2}$ 是实数，则 $a =$（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$1$",
@@ -166,13 +29,11 @@
             "$2$"
           ],
           "answer": "B",
-          "solution": "因为 $a$ 为实数，所以\r\n\n$$\n\\frac{a}{1+\\mathrm{i}}+\\frac{1+\\mathrm{i}}{2}=\\frac{a(1-\\mathrm{i})}{2}+\\frac{1+\\mathrm{i}}{2}=\\frac{a+1}{2}+\\frac{1-a}{2}\\mathrm{i}\n$$\n\r\n该数为实数，当且仅当虚部为零，即 $\\frac{1-a}{2}=0$，所以 $a=1$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $a$ 为实数，所以</p>\n$$\n\\frac{a}{1+\\mathrm{i}}+\\frac{1+\\mathrm{i}}{2}=\\frac{a(1-\\mathrm{i})}{2}+\\frac{1+\\mathrm{i}}{2}=\\frac{a+1}{2}+\\frac{1-a}{2}\\mathrm{i}\n$$\n<p>该数为实数，当且仅当虚部为零，即 $\\frac{1-a}{2}=0$，所以 $a=1$，故选 B.</p>"
         },
         {
           "num": 3,
-          "body": "已知向量 $\\mathbf{a} = (-5, 6)$，$\\mathbf{b} = (6, 5)$，则 $\\mathbf{a}$ 与 $\\mathbf{b}$（ ）",
+          "body": "已知向量 $\\mathbf{a}= (-5, 6)$，$\\mathbf{b}= (6, 5)$，则 $\\mathbf{a}$ 与 $\\mathbf{b}$（ ）",
           "choices": [
             "垂直",
             "不垂直也不平行",
@@ -180,13 +41,11 @@
             "平行且反向"
           ],
           "answer": "A",
-          "solution": "$\\mathbf{a}\\cdot\\mathbf{b}=(-5)\\times6+6\\times5=0$，且两个向量都不是零向量，所以 $\\mathbf{a}\\perp\\mathbf{b}$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "$\\mathbf{a}\\cdot\\mathbf{b}=(-5)\\times6+6\\times5=0$，且两个向量都不是零向量，所以 $\\mathbf{a}\\perp\\mathbf{b}$，故选 A."
         },
         {
           "num": 4,
-          "body": "已知双曲线的离心率为 $2$，焦点是 $(-4,0)$，$(4,0)$，则双曲线方程为（ ）",
+          "body": "已知双曲线的离心率为 $2$，焦点是 $(-4,0)$，$(4,0)$，则双曲线方程为（ ）",
           "choices": [
             "$\\frac{x^{2}}{4}-\\frac{y^{2}}{12}=1$",
             "$\\frac{x^{2}}{12}-\\frac{y^{2}}{4}=1$",
@@ -194,13 +53,11 @@
             "$\\frac{x^{2}}{6}-\\frac{y^{2}}{10}=1$"
           ],
           "answer": "A",
-          "solution": "双曲线的焦点在 $x$ 轴上，故设其方程为 $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$，其中 $c=4$. 由离心率 $e=\\frac{c}{a}=2$，得 $a=2$，再由 $c^2=a^2+b^2$ 得 $b^2=16-4=12$. 因此双曲线方程为 $\\frac{x^2}{4}-\\frac{y^2}{12}=1$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "双曲线的焦点在 $x$ 轴上，故设其方程为 $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$，其中 $c=4$. 由离心率 $e=\\frac{c}{a}=2$，得 $a=2$，再由 $c^{2}=a^{2}+b^{2}$ 得 $b^{2}=16-4=12$. 因此双曲线方程为 $\\frac{x^{2}}{4}-\\frac{y^{2}}{12}=1$，故选 A."
         },
         {
           "num": 5,
-          "body": "设 $a$，$b \\in \\mathbb{R}$，集合 $\\{1, a + b, a\\} = \\left\\{0, \\frac{b}{a}, b\\right\\}$，则 $b - a =$（ ）",
+          "body": "设 $a$，$b \\in \\mathbb{R}$，集合 $\\{1, a + b, a\\} = \\left\\{0, \\frac{b}{a}, b\\right\\}$，则 $b - a =$（ ）",
           "choices": [
             "$1$",
             "$-1$",
@@ -208,13 +65,11 @@
             "$-2$"
           ],
           "answer": "C",
-          "solution": "因为式中出现 $\\frac{b}{a}$，所以 $a\\ne0$. 右边集合含有 $0$，而左边的 $1$ 不可能为零，故必须有 $a+b=0$，即 $b=-a$. 此时\r\n$\\{1,a+b,a\\}=\\{1,0,a\\}$，$\\left\\{0,\\frac ba,b\\right\\}=\\{0,-1,-a\\}$.\r\n左边含有 $1$，所以右边只能由 $-a=1$ 取得，从而 $a=-1$，$b=1$. 因此 $b-a=2$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为式中出现 $\\frac{b}{a}$，所以 $a\\ne0$. 右边集合含有 $0$，而左边的 $1$ 不可能为零，故必须有 $a+b=0$，即 $b=-a$. 此时</p><p>$\\{1,a+b,a\\}=\\{1,0,a\\}$，$\\left\\{0,\\frac{b}{a},b\\right\\}=\\{0,-1,-a\\}$.</p><p>左边含有 $1$，所以右边只能由 $-a=1$ 取得，从而 $a=-1$，$b=1$. 因此 $b-a=2$，故选 C.</p>"
         },
         {
           "num": 6,
-          "body": "下面给出的四个点中，到直线 $x - y + 1 = 0$ 的距离为 $\\frac{\\sqrt{2}}{2}$，且位于 $\\begin{cases}\r\nx + y - 1 < 0,\\\\\r\nx - y + 1 > 0\r\n\\end{cases}$ 表示的平面区域内的点是（ ）",
+          "body": "下面给出的四个点中，到直线 $x - y + 1 = 0$ 的距离为 $\\frac{\\sqrt{2}}{2}$，且位于 $\\begin{cases}x + y - 1 &#x3C; 0,\\\\\n\nx - y + 1 > 0\\end{cases}$ 表示的平面区域内的点是（ ）",
           "choices": [
             "$(1,1)$",
             "$(-1,1)$",
@@ -222,13 +77,11 @@
             "$(1,-1)$"
           ],
           "answer": "C",
-          "solution": "点 $(x,y)$ 到直线 $x-y+1=0$ 的距离为 $\\frac{|x-y+1|}{\\sqrt{2}}$. 由题设距离条件及区域条件 $x-y+1>0$，得 $x-y+1=1$. 对四个点分别检验：$(1,1)$ 满足等式但 $x+y-1=1>0$；$(-1,1)$ 有 $x-y+1=-1$；$(-1,-1)$ 满足等式且 $x+y-1=-3<0$；$(1,-1)$ 有 $x-y+1=3$. 所以符合条件的点为 $(-1,-1)$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "点 $(x,y)$ 到直线 $x-y+1=0$ 的距离为 $\\frac{|x-y+1|}{\\sqrt{2}}$. 由题设距离条件及区域条件 $x-y+1>0$，得 $x-y+1=1$. 对四个点分别检验：$(1,1)$ 满足等式但 $x+y-1=1>0$；$(-1,1)$ 有 $x-y+1=-1$；$(-1,-1)$ 满足等式且 $x+y-1=-3&#x3C;0$；$(1,-1)$ 有 $x-y+1=3$. 所以符合条件的点为 $(-1,-1)$，故选 C."
         },
         {
           "num": 7,
-          "body": "如图，正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1} = 2AB$，则异面直线 $A_{1}B$ 与 $AD_{1}$ 所成角的余弦值为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/syllabus_paper_1_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，正四棱柱 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1}= 2AB$，则异面直线 $A_{1}B$ 与 $AD_{1}$ 所成角的余弦值为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_1_science/q7_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{1}{5}$",
             "$\\frac{2}{5}$",
@@ -236,13 +89,11 @@
             "$\\frac{4}{5}$"
           ],
           "answer": "D",
-          "solution": "设正方形底面边长为 $s$，建立直角坐标系，取 $A=(0,0,0)$，$B=(s,0,0)$，$D=(0,s,0)$，$A_{1}=(0,0,2s)$，$D_{1}=(0,s,2s)$. 取两条异面直线的方向向量 $\\overrightarrow{A_{1}B}=(s,0,-2s)$，$\\overrightarrow{AD_{1}}=(0,s,2s)$，则\r\n$\\left|\\overrightarrow{A_{1}B}\\cdot\\overrightarrow{AD_{1}}\\right|=4s^2$，$|\\overrightarrow{A_{1}B}|=|\\overrightarrow{AD_{1}}|=\\sqrt{5}s$.\r\n异面直线所成角取锐角，故其余弦值为 $\\frac{4s^2}{5s^2}=\\frac45$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正方形底面边长为 $s$，建立直角坐标系，取 $A=(0,0,0)$，$B=(s,0,0)$，$D=(0,s,0)$，$A_{1}=(0,0,2s)$，$D_{1}=(0,s,2s)$. 取两条异面直线的方向向量 $\\overrightarrow{A_{1}B}=(s,0,-2s)$，$\\overrightarrow{AD_{1}}=(0,s,2s)$，则</p><p>$\\left|\\overrightarrow{A_{1}B}\\cdot\\overrightarrow{AD_{1}}\\right|=4s^{2}$，$|\\overrightarrow{A_{1}B}|=|\\overrightarrow{AD_{1}}|=\\sqrt{5}s$.</p><p>异面直线所成角取锐角，故其余弦值为 $\\frac{4s^{2}}{5s^{2}}=\\frac{4}{5}$，故选 D.</p>"
         },
         {
           "num": 8,
-          "body": "设 $a > 1$，函数 $f(x) = \\log_a x$ 在区间 $[a, 2a]$ 上的最大值与最小值之差为 $\\frac{1}{2}$，则 $a =$（ ）",
+          "body": "设 $a > 1$，函数 $f(x) = \\log_{a} x$ 在区间 $[a, 2a]$ 上的最大值与最小值之差为 $\\frac{1}{2}$，则 $a =$（ ）",
           "choices": [
             "$\\sqrt{2}$",
             "$2$",
@@ -250,13 +101,11 @@
             "$4$"
           ],
           "answer": "D",
-          "solution": "因为 $a>1$，所以 $f(x)=\\log_a x$ 在 $[a,2a]$ 上单调递增，故最大值与最小值之差为\r\n\n$$\n\\log_a(2a)-\\log_a a=\\log_a2\n$$\n\r\n由题设 $\\log_a2=\\frac12$，得 $a^{\\frac{1}{2}}=2$，所以 $a=4$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $a>1$，所以 $f(x)=\\log_{a} x$ 在 $[a,2a]$ 上单调递增，故最大值与最小值之差为</p>\n$$\n\\log_{a}(2a)-\\log_{a} a=\\log_{a}2\n$$\n<p>由题设 $\\log_{a}2=\\frac{1}{2}$，得 $a^{\\frac{1}{2}}=2$，所以 $a=4$，故选 D.</p>"
         },
         {
           "num": 9,
-          "body": "$f(x)$，$g(x)$ 是定义在 $\\mathbb{R}$ 上的函数，$h(x) = f(x) + g(x)$，则“$f(x)$，$g(x)$ 均为偶函数”是“$h(x)$ 为偶函数”的（ ）",
+          "body": "$f(x)$，$g(x)$ 是定义在 $\\mathbb{R}$ 上的函数，$h(x) = f(x) + g(x)$，则“$f(x)$，$g(x)$ 均为偶函数”是“$h(x)$ 为偶函数”的（ ）",
           "choices": [
             "充要条件",
             "充分而不必要的条件",
@@ -264,13 +113,11 @@
             "既不充分也不必要的条件"
           ],
           "answer": "B",
-          "solution": "若 $f(x)$，$g(x)$ 均为偶函数，则对任意 $x\\in\\mathbb{R}$，有 $f(-x)=f(x)$，$g(-x)=g(x)$，从而 $h(-x)=f(-x)+g(-x)=f(x)+g(x)=h(x)$，所以 $h(x)$ 为偶函数. 反之不成立，例如取 $f(x)=x$，$g(x)=-x$，则 $h(x)=0$ 为偶函数，但 $f(x)$，$g(x)$ 都不是偶函数. 因此该条件是充分而不必要的，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若 $f(x)$，$g(x)$ 均为偶函数，则对任意 $x\\in\\mathbb{R}$，有 $f(-x)=f(x)$，$g(-x)=g(x)$，从而 $h(-x)=f(-x)+g(-x)=f(x)+g(x)=h(x)$，所以 $h(x)$ 为偶函数. 反之不成立，例如取 $f(x)=x$，$g(x)=-x$，则 $h(x)=0$ 为偶函数，但 $f(x)$，$g(x)$ 都不是偶函数. 因此该条件是充分而不必要的，故选 B."
         },
         {
           "num": 10,
-          "body": "$\\left(x^{2} - \\frac{1}{x}\\right)^n$ 的展开式中，常数项为 $15$，则 $n =$（ ）",
+          "body": "$\\left(x^{2}- \\frac{1}{x}\\right)^{n}$ 的展开式中，常数项为 $15$，则 $n =$（ ）",
           "choices": [
             "$3$",
             "$4$",
@@ -278,13 +125,11 @@
             "$6$"
           ],
           "answer": "D",
-          "solution": "展开式的通项中，若从 $-\\frac1x$ 中取 $k$ 项，则该项为\r\n\n$$\n\\mathrm C_n^k(x^2)^{n-k}\\left(-\\frac1x\\right)^k=(-1)^k\\mathrm C_n^k x^{2n-3k}\n$$\n\r\n常数项要求 $2n-3k=0$，即 $k=\\frac{2n}{3}$ 为整数. 当 $n=3$ 时 $k=2$，常数项系数为 $\\mathrm C_3^2=3$；当 $n=4$，$5$ 时 $k$ 不是整数，不存在常数项；当 $n=6$ 时 $k=4$，常数项系数为 $(-1)^4\\mathrm C_6^4=15$. 所以 $n=6$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>展开式的通项中，若从 $-\\frac{1}{x}$ 中取 $k$ 项，则该项为</p>\n$$\n\\mathrm{C}_{n}^{k}(x^{2})^{n-k}\\left(-\\frac{1}{x}\\right)^{k}=(-1)^{k}\\mathrm{C}_{n}^{k} x^{2n-3k}\n$$\n<p>常数项要求 $2n-3k=0$，即 $k=\\frac{2n}{3}$ 为整数. 当 $n=3$ 时 $k=2$，常数项系数为 $\\mathrm{C}_{3}^{2}=3$；当 $n=4$，$5$ 时 $k$ 不是整数，不存在常数项；当 $n=6$ 时 $k=4$，常数项系数为 $(-1)^{4}\\mathrm{C}_{6}^{4}=15$. 所以 $n=6$，故选 D.</p>"
         },
         {
           "num": 11,
-          "body": "抛物线 $y^{2}=4x$ 的焦点为 $F$，准线为 $l$，经过 $F$ 且斜率为 $\\sqrt{3}$ 的直线与抛物线在 $x$ 轴上方的部分相交于点 $A$，$AK \\perp l$，垂足为 $K$，且 $\\triangle AKF$ 的面积是（ ）",
+          "body": "抛物线 $y^{2}=4x$ 的焦点为 $F$，准线为 $l$，经过 $F$ 且斜率为 $\\sqrt{3}$ 的直线与抛物线在 $x$ 轴上方的部分相交于点 $A$，$AK \\perp l$，垂足为 $K$，且 $\\triangle AKF$ 的面积是（ ）",
           "choices": [
             "$4$",
             "$3\\sqrt{3}$",
@@ -292,13 +137,11 @@
             "$8$"
           ],
           "answer": "C",
-          "solution": "由 $y^2=4x$ 知焦点 $F=(1,0)$，准线 $l:x=-1$. 过 $F$ 的直线方程为 $y=\\sqrt3(x-1)$. 联立抛物线方程得\r\n$3(x-1)^2=4x$，$3x^2-10x+3=0$，\r\n所以交点的横坐标为 $x=3$ 或 $x=\\frac13$. 位于 $x$ 轴上方的交点为 $A=(3,2\\sqrt3)$. 因为 $AK\\perp l$，而 $l$ 为竖直直线，所以 $K=(-1,2\\sqrt3)$. 于是 $AK=4$，点 $F$ 到直线 $AK$ 的距离为 $2\\sqrt3$，故\r\n\n$$\nS_{\\triangle AKF}=\\frac12\\times4\\times2\\sqrt3=4\\sqrt3\n$$\n\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $y^{2}=4x$ 知焦点 $F=(1,0)$，准线 $l:x=-1$. 过 $F$ 的直线方程为 $y=\\sqrt{3}(x-1)$. 联立抛物线方程得</p><p>$3(x-1)^{2}=4x$，$3x^{2}-10x+3=0$，</p><p>所以交点的横坐标为 $x=3$ 或 $x=\\frac{1}{3}$. 位于 $x$ 轴上方的交点为 $A=(3,2\\sqrt{3})$. 因为 $AK\\perp l$，而 $l$ 为竖直直线，所以 $K=(-1,2\\sqrt{3})$. 于是 $AK=4$，点 $F$ 到直线 $AK$ 的距离为 $2\\sqrt{3}$，故</p>\n$$\nS_{\\triangle AKF}=\\frac{1}{2}\\times4\\times2\\sqrt{3}=4\\sqrt{3}\n$$\n<p>故选 C.</p>"
         },
         {
           "num": 12,
-          "body": "函数 $f(x) = \\cos^{2} x - 2\\cos^{2} \\frac{x}{2}$ 的一个单调增区间是（ ）",
+          "body": "函数 $f(x) = \\cos^{2}x - 2\\cos^{2}\\frac{x}{2}$ 的一个单调增区间是（ ）",
           "choices": [
             "$\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$",
             "$\\left(\\frac{\\pi}{6},\\frac{\\pi}{2}\\right)$",
@@ -306,9 +149,7 @@
             "$\\left(-\\frac{\\pi}{6},\\frac{\\pi}{6}\\right)$"
           ],
           "answer": "A",
-          "solution": "由 $2\\cos^2\\frac{x}{2}=1+\\cos x$，得 $f(x)=\\cos^2x-1-\\cos x$，所以\r\n\n$$\nf'(x)=-\\sin2x+\\sin x=\\sin x(1-2\\cos x)\n$$\n\r\n在 $\\left(\\frac\\pi3,\\frac{2\\pi}3\\right)$ 内，$\\sin x>0$，且 $\\cos x<\\frac12$，故 $f'(x)>0$. 因而该区间是函数的一个单调增区间，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $2\\cos^{2}\\frac{x}{2}=1+\\cos x$，得 $f(x)=\\cos^{2}x-1-\\cos x$，所以</p>\n$$\nf'(x)=-\\sin2x+\\sin x=\\sin x(1-2\\cos x)\n$$\n<p>在 $\\left(\\frac{\\pi}{3},\\frac{2\\pi}{3}\\right)$ 内，$\\sin x>0$，且 $\\cos x&#x3C;\\frac{1}{2}$，故 $f'(x)>0$. 因而该区间是函数的一个单调增区间，故选 A.</p>"
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "从班委会 $5$ 名成员中选出 $3$ 名，分别担任班级学习委员、文娱委员与体育委员，其中甲、乙二人不能担任文娱委员，则不同的选法共有 _______ {}种.",
-          "choices": [],
+          "body": "从班委会 $5$ 名成员中选出 $3$ 名，分别担任班级学习委员、文娱委员与体育委员，其中甲、乙二人不能担任文娱委员，则不同的选法共有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>种.",
+          "choices": null,
           "answer": "36",
-          "solution": "文娱委员只能从其余三人中选出，有 $3$ 种选法. 文娱委员确定后，学习委员和体育委员从剩余四人中有序选取，选法数为 $4\\times3$. 因此不同的选法共有 $3\\times4\\times3=36$ 种.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "文娱委员只能从其余三人中选出，有 $3$ 种选法. 文娱委员确定后，学习委员和体育委员从剩余四人中有序选取，选法数为 $4\\times3$. 因此不同的选法共有 $3\\times4\\times3=36$ 种."
         },
         {
           "num": 14,
-          "body": "函数 $y = f(x)$ 的图象与函数 $y = \\log_3 x$（$x > 0$）的图象关于直线 $y = x$ 对称，则 $f(x) =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(3^x\\)",
-          "solution": "关于直线 $y=x$ 对称的两个函数图象互为反函数. 设 $y=\\log_3x$，交换 $x$，$y$ 得 $x=\\log_3y$，从而 $y=3^x$. 因此 $f(x)=3^x$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $y = f(x)$ 的图象与函数 $y = \\log_{3} x$（$x > 0$）的图象关于直线 $y = x$ 对称，则 $f(x) =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$3^{x}$",
+          "solution": "关于直线 $y=x$ 对称的两个函数图象互为反函数. 设 $y=\\log_{3}x$，交换 $x$，$y$ 得 $x=\\log_{3}y$，从而 $y=3^{x}$. 因此 $f(x)=3^{x}$."
         },
         {
           "num": 15,
-          "body": "等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}$，已知 $S_{1}$，$2S_{2}$，$3S_{3}$ 成等差数列，则 $\\{a_{n}\\}$ 的公比为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{1}{3}\\)",
-          "solution": "设等比数列的首项为 $a_1$，公比为 $q$. 则 $S_1=a_1$，$S_2=a_1(1+q)$，$S_3=a_1(1+q+q^2)$. 由三项成等差数列，得\r\n\n$$\nS_1+3S_3=4S_2\n$$\n\r\n代入并约去非零的 $a_1$，得 $1+3(1+q+q^2)=4(1+q)$，即 $q(3q-1)=0$. 等比数列的公比必须使各项比值有定义，故 $q\\ne0$，所以 $q=\\frac13$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "等比数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}$，已知 $S_{1}$，$2S_{2}$，$3S_{3}$ 成等差数列，则 $\\{a_{n}\\}$ 的公比为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{1}{3}$",
+          "solution": "<p>设等比数列的首项为 $a_{1}$，公比为 $q$. 则 $S_{1}=a_{1}$，$S_{2}=a_{1}(1+q)$，$S_{3}=a_{1}(1+q+q^{2})$. 由三项成等差数列，得</p>\n$$\nS_{1}+3S_{3}=4S_{2}\n$$\n<p>代入并约去非零的 $a_{1}$，得 $1+3(1+q+q^{2})=4(1+q)$，即 $q(3q-1)=0$. 等比数列的公比必须使各项比值有定义，故 $q\\ne0$，所以 $q=\\frac{1}{3}$.</p>"
         },
         {
           "num": 16,
-          "body": "一个等腰直角三角形的三个顶点分别在正三棱柱的三条侧棱上. 已知正三棱柱的底面边长为 $2$，则该三角形的斜边长为 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\sqrt{3}\\)",
-          "solution": "设三棱柱三条侧棱上三个顶点的高度分别为 $h_1$，$h_2$，$h_3$. 任意两点在底面上的投影是正三角形的两个顶点，故对应边长的平方分别为 $4+(h_i-h_j)^2$. 设直角顶点对应的高度为 $h_1$，则两条直角边相等给出 $|h_2-h_1|=|h_3-h_1|$. 若 $h_2=h_3$，则边 $2$ 不可能是两条等边的直角三角形的斜边，故 $h_2-h_1$ 与 $h_3-h_1$ 符号相反，记为 $d$ 和 $-d$，于是斜边对应的高度差为 $2d$. 因而由勾股定理得\r\n$4+4d^2=2(4+d^2)$，$d^2=2$.\r\n所以斜边长的平方为 $4+4d^2=4+4\\times2=12$，斜边长为 $2\\sqrt3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "一个等腰直角三角形的三个顶点分别在正三棱柱的三条侧棱上. 已知正三棱柱的底面边长为 $2$，则该三角形的斜边长为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2\\sqrt{3}$",
+          "solution": "<p>设三棱柱三条侧棱上三个顶点的高度分别为 $h_{1}$，$h_{2}$，$h_{3}$. 任意两点在底面上的投影是正三角形的两个顶点，故对应边长的平方分别为 $4+(h_{i}-h_{j})^{2}$. 设直角顶点对应的高度为 $h_{1}$，则两条直角边相等给出 $|h_{2}-h_{1}|=|h_{3}-h_{1}|$. 若 $h_{2}=h_{3}$，则边 $2$ 不可能是两条等边的直角三角形的斜边，故 $h_{2}-h_{1}$ 与 $h_{3}-h_{1}$ 符号相反，记为 $d$ 和 $-d$，于是斜边对应的高度差为 $2d$. 因而由勾股定理得</p><p>$4+4d^{2}=2(4+d^{2})$，$d^{2}=2$.</p><p>所以斜边长的平方为 $4+4d^{2}=4+4\\times2=12$，斜边长为 $2\\sqrt{3}$.</p>"
         }
       ]
     },
@@ -358,60 +191,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "设锐角三角形 $ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，$a = 2b\\sin A$.\r\n\r\n\n(1) 求 $B$ 的大小；\n\n(2) 求 $\\cos A + \\sin C$ 的取值范围.",
-          "choices": [],
+          "body": "<p>设锐角三角形 $ABC$ 的内角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$，$a = 2b\\sin A$.</p><ol class=\"enumerate\"><li><p>求 $B$ 的大小；</p></li><li><p>求 $\\cos A + \\sin C$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$. 结合 $a=2b\\sin A$，得 $\\frac{1}{\\sin B}=2$，所以 $\\sin B=\\frac12$. 因为三角形 $ABC$ 为锐角三角形，故 $B=\\frac\\pi6$.\r\n\r\n又因为 $A+B+C=\\pi$，所以 $C=\\frac{5\\pi}{6}-A$. 锐角条件给出 $0<A<\\frac\\pi2$ 且 $0<C<\\frac\\pi2$，从而 $\\frac\\pi3<A<\\frac\\pi2$. 于是\r\n\n$$\n\\cos A+\\sin C=\\cos A+\\sin\\left(\\frac{5\\pi}{6}-A\\right)=\\frac32\\cos A+\\frac{\\sqrt3}{2}\\sin A=\\sqrt3\\cos\\left(A-\\frac\\pi6\\right)\n$$\n\r\n当 $\\frac\\pi3<A<\\frac\\pi2$ 时，$\\frac\\pi6<A-\\frac\\pi6<\\frac\\pi3$，故\r\n\n$$\n\\frac{\\sqrt3}{2}<\\sqrt3\\cos\\left(A-\\frac\\pi6\\right)<\\frac32\n$$\n\r\n所以 $\\cos A+\\sin C$ 的取值范围为 $\\left(\\frac{\\sqrt3}{2},\\frac32\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由正弦定理，$\\frac{a}{\\sin A}=\\frac{b}{\\sin B}$. 结合 $a=2b\\sin A$，得 $\\frac{1}{\\sin B}=2$，所以 $\\sin B=\\frac{1}{2}$. 因为三角形 $ABC$ 为锐角三角形，故 $B=\\frac{\\pi}{6}$.</p><p>又因为 $A+B+C=\\pi$，所以 $C=\\frac{5\\pi}{6}-A$. 锐角条件给出 $0&#x3C;A&#x3C;\\frac{\\pi}{2}$ 且 $0&#x3C;C&#x3C;\\frac{\\pi}{2}$，从而 $\\frac{\\pi}{3}&#x3C;A&#x3C;\\frac{\\pi}{2}$. 于是</p>\n$$\n\\cos A+\\sin C=\\cos A+\\sin\\left(\\frac{5\\pi}{6}-A\\right)=\\frac{3}{2}\\cos A+\\frac{\\sqrt{3}}{2}\\sin A=\\sqrt{3}\\cos\\left(A-\\frac{\\pi}{6}\\right)\n$$\n<p>当 $\\frac{\\pi}{3}&#x3C;A&#x3C;\\frac{\\pi}{2}$ 时，$\\frac{\\pi}{6}&#x3C;A-\\frac{\\pi}{6}&#x3C;\\frac{\\pi}{3}$，故</p>\n$$\n\\frac{\\sqrt{3}}{2}&#x3C;\\sqrt{3}\\cos\\left(A-\\frac{\\pi}{6}\\right)&#x3C;\\frac{3}{2}\n$$\n<p>所以 $\\cos A+\\sin C$ 的取值范围为 $\\left(\\frac{\\sqrt{3}}{2},\\frac{3}{2}\\right)$.</p>"
         },
         {
           "num": 18,
-          "body": "某商场经销某商品，根据以往资料统计，顾客采用的付款期为 $\\xi$ 的分布列为\r\n\r\n\\begin{center}\r\n\\small\r\n\\begin{tabular}{|c|c|c|c|c|c|}\r\n\\hline\r\n$\\xi$ & $1$ & $2$ & $3$ & $4$ & $5$ \\\\\r\n\\hline\r\n$P$ & $0.4$ & $0.2$ & $0.2$ & $0.1$ & $0.1$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n商场经销一件该商品，采用 $1$ 期付款，其利润为 $200$ 元；分 $2$ 期或 $3$ 期付款，其利润为 $250$ 元；分 $4$ 期或 $5$ 期付款，其利润为 $300$ 元. $\\eta$ 表示经销一件该商品的利润.\r\n\r\n\n(1) 求事件 $A$：“购买该商品的 $3$ 位顾客中，至少有 $1$ 位采用 $1$ 期付款”的概率 $P(A)$；\n\n(2) 求 $\\eta$ 的分布列及期望 $E(\\eta)$.",
-          "choices": [],
+          "body": "<p>某商场经销某商品，根据以往资料统计，顾客采用的付款期为 $\\xi$ 的分布列为</p><center class=\"center\"><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$\\xi$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $5$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.1$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>商场经销一件该商品，采用 $1$ 期付款，其利润为 $200$ 元；分 $2$ 期或 $3$ 期付款，其利润为 $250$ 元；分 $4$ 期或 $5$ 期付款，其利润为 $300$ 元. $\\eta$ 表示经销一件该商品的利润.</p><ol class=\"enumerate\"><li><p>求事件 $A$：“购买该商品的 $3$ 位顾客中，至少有 $1$ 位采用 $1$ 期付款”的概率 $P(A)$；</p></li><li><p>求 $\\eta$ 的分布列及期望 $E(\\eta)$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "假设三位顾客的付款方式相互独立. 每位顾客采用 $1$ 期付款的概率为 $0.4$，因此事件 $A$ 的对立事件是三位顾客都不采用 $1$ 期付款，故\r\n\n$$\nP(A)=1-(1-0.4)^3=1-0.6^3=0.784\n$$\n\r\n\r\n利润 $\\eta$ 的取值为 $200$，$250$，$300$. 其中 $\\eta=200$ 的概率为 $0.4$，$\\eta=250$ 的概率为 $0.2+0.2=0.4$，$\\eta=300$ 的概率为 $0.1+0.1=0.2$，所以其分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n$\\eta$ & $200$ & $250$ & $300$ \\\\\r\n\\hline\r\n$P$ & $0.4$ & $0.4$ & $0.2$\r\n\\end{tabular}\r\n\\end{center}\r\n从而\r\n\n$$\nE(\\eta)=200\\times0.4+250\\times0.4+300\\times0.2=240\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>假设三位顾客的付款方式相互独立. 每位顾客采用 $1$ 期付款的概率为 $0.4$，因此事件 $A$ 的对立事件是三位顾客都不采用 $1$ 期付款，故</p>\n$$\nP(A)=1-(1-0.4)^{3}=1-0.6^{3}=0.784\n$$\n<p>利润 $\\eta$ 的取值为 $200$，$250$，$300$. 其中 $\\eta=200$ 的概率为 $0.4$，$\\eta=250$ 的概率为 $0.2+0.2=0.4$，$\\eta=300$ 的概率为 $0.1+0.1=0.2$，所以其分布列为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\eta$ </td><td style=\"text-align: center\"> $200$ </td><td style=\"text-align: center\"> $250$ </td><td style=\"text-align: center\"> $300$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $0.4$ </td><td style=\"text-align: center\"> $0.4$ </td><td style=\"text-align: center\"> $0.2$</td></tr></tbody></table></center><p>从而</p>\n$$\nE(\\eta)=200\\times0.4+250\\times0.4+300\\times0.2=240\n$$"
         },
         {
           "num": 19,
-          "body": "四棱锥 $S-ABCD$ 中，底面 $ABCD$ 为平行四边形，侧面 $SBC \\perp$ 底面 $ABCD$. 已知 $\\angle ABC = 45^{\\circ}$，$AB = 2$，$BC = 2\\sqrt{2}$，$SA = SB = \\sqrt{3}$.\r\n\r\n\n(1) 证明：$SA \\perp BC$；\n\n(2) 求直线 $SD$ 与平面 $SAB$ 所成角的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2007/img/syllabus_paper_1_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>四棱锥 $S-ABCD$ 中，底面 $ABCD$ 为平行四边形，侧面 $SBC \\perp$ 底面 $ABCD$. 已知 $\\angle ABC = 45^{\\circ}$，$AB = 2$，$BC = 2\\sqrt{2}$，$SA = SB = \\sqrt{3}$.</p><ol class=\"enumerate\"><li><p>证明：$SA \\perp BC$；</p></li><li><p>求直线 $SD$ 与平面 $SAB$ 所成角的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/syllabus_paper_1_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "建立直角坐标系，使底面 $ABCD$ 在 $xOy$ 平面内，取\r\n$B=(0,0,0)$，$C=(2\\sqrt2,0,0)$，$A=(\\sqrt2,\\sqrt2,0)$，$D=(3\\sqrt2,\\sqrt2,0)$.\r\n因为平面 $SBC$ 垂直于底面，且两平面的交线为 $BC$，点 $S$ 在过 $BC$ 的垂直平面内，故可设 $S=(s,0,t)$. 由 $SA=SB$，得\r\n\n$$\n(s-\\sqrt2)^2+2+t^2=s^2+t^2\n$$\n\r\n所以 $s=\\sqrt2$. 再由 $SB=\\sqrt3$，得 $2+t^2=3$，故 $t^2=1$. 取 $t=1$，则 $S=(\\sqrt2,0,1)$，取 $t=-1$ 时以下夹角计算相同.\r\n\r\n此时 $\\overrightarrow{SA}=(0,\\sqrt2,-1)$，$\\overrightarrow{BC}=(2\\sqrt2,0,0)$，故 $\\overrightarrow{SA}\\cdot\\overrightarrow{BC}=0$，从而 $SA\\perp BC$.\r\n\r\n取平面 $SAB$ 的一个法向量\r\n\n$$\n\\mathbf{n}=\\overrightarrow{SA}\\times\\overrightarrow{SB}=(-\\sqrt2,\\sqrt2,2)\n$$\n\r\n其中 $\\overrightarrow{SB}=(-\\sqrt2,0,-1)$. 又 $\\overrightarrow{SD}=(2\\sqrt2,\\sqrt2,-1)$，所以\r\n$|\\mathbf{n}|=2\\sqrt2$，$|\\overrightarrow{SD}|=\\sqrt{11}$，$\\left|\\overrightarrow{SD}\\cdot\\mathbf{n}\\right|=4$.\r\n设直线 $SD$ 与平面 $SAB$ 所成的角为 $\\theta$，则\r\n\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{SD}\\cdot\\mathbf{n}|}{|\\overrightarrow{SD}|\\,|\\mathbf{n}|}=\\frac{2}{\\sqrt{22}}\n$$\n\r\n因此 $\\theta=\\arcsin\\frac{2}{\\sqrt{22}}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>建立直角坐标系，使底面 $ABCD$ 在 $xOy$ 平面内，取</p><p>$B=(0,0,0)$，$C=(2\\sqrt{2},0,0)$，$A=(\\sqrt{2},\\sqrt{2},0)$，$D=(3\\sqrt{2},\\sqrt{2},0)$.</p><p>因为平面 $SBC$ 垂直于底面，且两平面的交线为 $BC$，点 $S$ 在过 $BC$ 的垂直平面内，故可设 $S=(s,0,t)$. 由 $SA=SB$，得</p>\n$$\n(s-\\sqrt{2})^{2}+2+t^{2}=s^{2}+t^{2}\n$$\n<p>所以 $s=\\sqrt{2}$. 再由 $SB=\\sqrt{3}$，得 $2+t^{2}=3$，故 $t^{2}=1$. 取 $t=1$，则 $S=(\\sqrt{2},0,1)$，取 $t=-1$ 时以下夹角计算相同.</p><p>此时 $\\overrightarrow{SA}=(0,\\sqrt{2},-1)$，$\\overrightarrow{BC}=(2\\sqrt{2},0,0)$，故 $\\overrightarrow{SA}\\cdot\\overrightarrow{BC}=0$，从而 $SA\\perp BC$.</p><p>取平面 $SAB$ 的一个法向量</p>\n$$\n\\mathbf{n}=\\overrightarrow{SA}\\times\\overrightarrow{SB}=(-\\sqrt{2},\\sqrt{2},2)\n$$\n<p>其中 $\\overrightarrow{SB}=(-\\sqrt{2},0,-1)$. 又 $\\overrightarrow{SD}=(2\\sqrt{2},\\sqrt{2},-1)$，所以</p><p>$|\\mathbf{n}|=2\\sqrt{2}$，$|\\overrightarrow{SD}|=\\sqrt{11}$，$\\left|\\overrightarrow{SD}\\cdot\\mathbf{n}\\right|=4$.</p><p>设直线 $SD$ 与平面 $SAB$ 所成的角为 $\\theta$，则</p>\n$$\n\\sin\\theta=\\frac{|\\overrightarrow{SD}\\cdot\\mathbf{n}|}{|\\overrightarrow{SD}|\\,|\\mathbf{n}|}=\\frac{2}{\\sqrt{22}}\n$$\n<p>因此 $\\theta=\\arcsin\\frac{2}{\\sqrt{22}}$.</p>"
         },
         {
           "num": 20,
-          "body": "设函数 $f(x) = \\mathrm{e}^{x} - \\mathrm{e}^{-x}$.\r\n\r\n\n(1) 证明：$f(x)$ 的导数 $f'(x) \\ge 2$；\n\n(2) 若对所有 $x \\ge 0$ 都有 $f(x) \\ge ax$，求 $a$ 的取值范围.",
-          "choices": [],
+          "body": "<p>设函数 $f(x) = \\mathrm{e}^{x}- \\mathrm{e}^{-x}$.</p><ol class=\"enumerate\"><li><p>证明：$f(x)$ 的导数 $f'(x) \\ge 2$；</p></li><li><p>若对所有 $x \\ge 0$ 都有 $f(x) \\ge ax$，求 $a$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "$f'(x)=\\mathrm{e}^x+\\mathrm{e}^{-x}$. 由平方恒非负，\r\n\n$$\n\\mathrm{e}^x+\\mathrm{e}^{-x}-2=\\left(\\mathrm{e}^{\\frac{x}{2}}-\\mathrm{e}^{-\\frac{x}{2}}\\right)^2\\geqslant0\n$$\n\r\n故 $f'(x)\\geqslant2$.\r\n\r\n对任意 $x>0$，题设不等式等价于 $a\\le\\frac{f(x)}x$. 令 $g(x)=f(x)-2x$，则 $g'(x)=f'(x)-2\\geqslant0$，且 $g(0)=0$，故当 $x\\geqslant0$ 时 $g(x)\\geqslant0$，即 $f(x)\\geqslant2x$. 所以当 $a\\leqslant2$ 时，$f(x)\\geqslant2x\\ge ax$，题设不等式成立. 另一方面，若题设不等式对所有 $x>0$ 成立，则\r\n\n$$\na\\le\\frac{\\mathrm{e}^x-\\mathrm{e}^{-x}}x\n$$\n\r\n令 $x\\to0^+$，右端极限为 $f'(0)=2$，故必有 $a\\leqslant2$. 因此 $a$ 的取值范围为 $(-\\infty,2]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>$f'(x)=\\mathrm{e}^{x}+\\mathrm{e}^{-x}$. 由平方恒非负，</p>\n$$\n\\mathrm{e}^{x}+\\mathrm{e}^{-x}-2=\\left(\\mathrm{e}^{\\frac{x}{2}}-\\mathrm{e}^{-\\frac{x}{2}}\\right)^{2}\\geqslant0\n$$\n<p>故 $f'(x)\\geqslant2$.</p><p>对任意 $x>0$，题设不等式等价于 $a\\le\\frac{f(x)}{x}$. 令 $g(x)=f(x)-2x$，则 $g'(x)=f'(x)-2\\geqslant0$，且 $g(0)=0$，故当 $x\\geqslant0$ 时 $g(x)\\geqslant0$，即 $f(x)\\geqslant2x$. 所以当 $a\\leqslant2$ 时，$f(x)\\geqslant2x\\ge ax$，题设不等式成立. 另一方面，若题设不等式对所有 $x>0$ 成立，则</p>\n$$\na\\le\\frac{\\mathrm{e}^{x}-\\mathrm{e}^{-x}}{x}\n$$\n<p>令 $x\\to0^{+}$，右端极限为 $f'(0)=2$，故必有 $a\\leqslant2$. 因此 $a$ 的取值范围为 $(-\\infty,2]$.</p>"
         },
         {
           "num": 21,
-          "body": "已知椭圆 $\\frac{x^{2}}{3} + \\frac{y^{2}}{2} = 1$ 的左，右焦点分别为 $F_1$，$F_2$. 过 $F_1$ 的直线交椭圆于 $B$，$D$ 两点，过 $F_2$ 的直线交椭圆于 $A$，$C$ 两点，且 $AC \\perp BD$，垂足为 $P$.\r\n\r\n\n(1) 设 $P$ 点的坐标为 $(x_0, y_0)$，证明：$\\frac{x_0^{2}}{3} + \\frac{y_0^{2}}{2} < 1$；\n\n(2) 求四边形 $ABCD$ 的面积的最小值.",
-          "choices": [],
+          "body": "<p>已知椭圆 $\\frac{x^{2}}{3}+ \\frac{y^{2}}{2}= 1$ 的左，右焦点分别为 $F_{1}$，$F_{2}$. 过 $F_{1}$ 的直线交椭圆于 $B$，$D$ 两点，过 $F_{2}$ 的直线交椭圆于 $A$，$C$ 两点，且 $AC \\perp BD$，垂足为 $P$.</p><ol class=\"enumerate\"><li><p>设 $P$ 点的坐标为 $(x_{0}, y_{0})$，证明：$\\frac{x_{0}^{2}}{3}+ \\frac{y_{0}^{2}}{2}&#x3C; 1$；</p></li><li><p>求四边形 $ABCD$ 的面积的最小值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "由椭圆方程知两个焦点为 $F_1=(-1,0)$，$F_2=(1,0)$. 设直线 $AC$ 的单位方向向量为 $\\mathbf{u}=(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $\\mathbf{v}=(-\\sin\\theta,\\cos\\theta)$. 设 $P=(x_0,y_0)$，因为 $P$ 同时在两条直线上，可写成\r\n\n$$\nP=F_2+t\\mathbf{u}=F_1+s\\mathbf{v}\n$$\n\r\n又因 $F_2-F_1=(2,0)$，对上式分别与 $\\mathbf{u}$ 和 $\\mathbf{v}$ 做内积，得 $t=-2\\cos\\theta$、$s=-2\\sin\\theta$. 从而\r\n\n$$\nP=(1,0)-2\\cos\\theta(\\cos\\theta,\\sin\\theta)\r\n  =(1-2\\cos^2\\theta,-2\\sin\\theta\\cos\\theta)\n$$\n\r\n因此\r\n\n$$\nx_0^2+y_0^2=(1-2\\cos^2\\theta)^2+4\\sin^2\\theta\\cos^2\\theta=1\n$$\n\r\n于是\r\n\n$$\n\\frac{x_0^2}{3}+\\frac{y_0^2}{2}=1-\\frac{2x_0^2}{3}-\\frac{y_0^2}{2}<1\n$$\n\r\n从而 $P$ 在椭圆内部.\r\n\r\n设直线 $AC$ 的单位方向向量为 $(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $(-\\sin\\theta,\\cos\\theta)$. 先求 $AC$ 的长度. 过 $F_2=(1,0)$ 的直线可参数表示为\r\n\n$$\n(x,y)=(1+t\\cos\\theta,t\\sin\\theta)\n$$\n\r\n代入椭圆方程，得关于 $t$ 的方程\r\n\n$$\n\\frac{3-\\cos^2\\theta}{6}t^2+\\frac{2\\cos\\theta}{3}t-\\frac23=0\n$$\n\r\n其判别式为 $\\frac43$，故两根之差的绝对值为 $\\frac{4\\sqrt3}{3-\\cos^2\\theta}$. 因为方向向量是单位向量，所以\r\n\n$$\nAC=\\frac{4\\sqrt3}{3-\\cos^2\\theta}\n$$\n\r\n对过 $F_1$ 且方向为 $(-\\sin\\theta,\\cos\\theta)$ 的直线作同样计算，得\r\n\n$$\nBD=\\frac{4\\sqrt3}{3-\\sin^2\\theta}=\\frac{4\\sqrt3}{2+\\cos^2\\theta}\n$$\n\r\n四边形的两条对角线 $AC$，$BD$ 垂直，因此\r\n\n$$\nS_{ABCD}=\\frac12AC\\cdot BD=\\frac{24}{(3-\\cos^2\\theta)(2+\\cos^2\\theta)}\n$$\n\r\n令 $u=\\cos^2\\theta\\in[0,1]$，则\r\n\n$$\n(3-u)(2+u)=6+u-u^2=\\frac{25}{4}-\\left(u-\\frac12\\right)^2\\le\\frac{25}{4}\n$$\n\r\n所以 $S_{ABCD}\\ge\\frac{96}{25}$，当且仅当 $u=\\frac12$ 时取等号. 四边形 $ABCD$ 的面积最小值为 $\\frac{96}{25}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由椭圆方程知两个焦点为 $F_{1}=(-1,0)$，$F_{2}=(1,0)$. 设直线 $AC$ 的单位方向向量为 $\\mathbf{u}=(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $\\mathbf{v}=(-\\sin\\theta,\\cos\\theta)$. 设 $P=(x_{0},y_{0})$，因为 $P$ 同时在两条直线上，可写成</p>\n$$\nP=F_{2}+t\\mathbf{u}=F_{1}+s\\mathbf{v}\n$$\n<p>又因 $F_{2}-F_{1}=(2,0)$，对上式分别与 $\\mathbf{u}$ 和 $\\mathbf{v}$ 做内积，得 $t=-2\\cos\\theta$、$s=-2\\sin\\theta$. 从而</p>\n$$\nP=(1,0)-2\\cos\\theta(\\cos\\theta,\\sin\\theta)  =(1-2\\cos^{2}\\theta,-2\\sin\\theta\\cos\\theta)\n$$\n<p>因此</p>\n$$\nx_{0}^{2}+y_{0}^{2}=(1-2\\cos^{2}\\theta)^{2}+4\\sin^{2}\\theta\\cos^{2}\\theta=1\n$$\n<p>于是</p>\n$$\n\\frac{x_{0}^{2}}{3}+\\frac{y_{0}^{2}}{2}=1-\\frac{2x_{0}^{2}}{3}-\\frac{y_{0}^{2}}{2}&#x3C;1\n$$\n<p>从而 $P$ 在椭圆内部.</p><p>设直线 $AC$ 的单位方向向量为 $(\\cos\\theta,\\sin\\theta)$，则直线 $BD$ 的单位方向向量可取为 $(-\\sin\\theta,\\cos\\theta)$. 先求 $AC$ 的长度. 过 $F_{2}=(1,0)$ 的直线可参数表示为</p>\n$$\n(x,y)=(1+t\\cos\\theta,t\\sin\\theta)\n$$\n<p>代入椭圆方程，得关于 $t$ 的方程</p>\n$$\n\\frac{3-\\cos^{2}\\theta}{6}t^{2}+\\frac{2\\cos\\theta}{3}t-\\frac{2}{3}=0\n$$\n<p>其判别式为 $\\frac{4}{3}$，故两根之差的绝对值为 $\\frac{4\\sqrt{3}}{3-\\cos^{2}\\theta}$. 因为方向向量是单位向量，所以</p>\n$$\nAC=\\frac{4\\sqrt{3}}{3-\\cos^{2}\\theta}\n$$\n<p>对过 $F_{1}$ 且方向为 $(-\\sin\\theta,\\cos\\theta)$ 的直线作同样计算，得</p>\n$$\nBD=\\frac{4\\sqrt{3}}{3-\\sin^{2}\\theta}=\\frac{4\\sqrt{3}}{2+\\cos^{2}\\theta}\n$$\n<p>四边形的两条对角线 $AC$，$BD$ 垂直，因此</p>\n$$\nS_{ABCD}=\\frac{1}{2}AC\\cdot BD=\\frac{24}{(3-\\cos^{2}\\theta)(2+\\cos^{2}\\theta)}\n$$\n<p>令 $u=\\cos^{2}\\theta\\in[0,1]$，则</p>\n$$\n(3-u)(2+u)=6+u-u^{2}=\\frac{25}{4}-\\left(u-\\frac{1}{2}\\right)^{2}\\le\\frac{25}{4}\n$$\n<p>所以 $S_{ABCD}\\ge\\frac{96}{25}$，当且仅当 $u=\\frac{1}{2}$ 时取等号. 四边形 $ABCD$ 的面积最小值为 $\\frac{96}{25}$.</p>"
         },
         {
           "num": 22,
-          "body": "已知数列 $\\{a_{n}\\}$ 中 $a_{1} = 2$，$a_{n+1} = (\\sqrt{2} - 1)(a_{n} + 2)$，$n = 1$，$2$，$3$，$\\cdots$.\r\n\r\n\n(1) 求 $\\{a_{n}\\}$ 的通项公式；\n\n(2) 若数列 $\\{b_n\\}$ 中 $b_1 = 2$，$b_{n+1} = \\frac{3b_n + 4}{2b_n + 3}$，$n = 1$，$2$，$3$，$\\cdots$，证明：$\\sqrt{2} < b_n \\le a_{4n-3}$，$n = 1$，$2$，$3$，$\\cdots$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 中 $a_{1}= 2$，$a_{n+1}= (\\sqrt{2}- 1)(a_{n}+ 2)$，$n = 1$，$2$，$3$，$\\cdots$.</p><ol class=\"enumerate\"><li><p>求 $\\{a_{n}\\}$ 的通项公式；</p></li><li><p>若数列 $\\{b_{n}\\}$ 中 $b_{1} = 2$，$b_{n+1}= \\frac{3b_{n} + 4}{2b_{n} + 3}$，$n = 1$，$2$，$3$，$\\cdots$，证明：$\\sqrt{2}&#x3C; b_{n} \\le a_{4n-3}$，$n = 1$，$2$，$3$，$\\cdots$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "令 $r=\\sqrt2-1$，则 $0<r<1$，且 $r(\\sqrt2+2)=\\sqrt2$. 因此\r\n\n$$\na_{n+1}-\\sqrt2=r(a_n+2)-\\sqrt2=r(a_n-\\sqrt2)\n$$\n\r\n又 $a_1-\\sqrt2=2-\\sqrt2=\\sqrt2r$，所以\r\n$a_n-\\sqrt2=\\sqrt2r^n$，$a_n=\\sqrt2(1+r^n)$.\r\n\r\n记 $\\varphi(x)=\\frac{3x+4}{2x+3}$. 先证下界. 直接计算得\r\n\n$$\n\\varphi(x)-\\sqrt2=\\frac{(3-2\\sqrt2)(x-\\sqrt2)}{2x+3}=\\frac{r^2(x-\\sqrt2)}{2x+3}\n$$\n\r\n由于 $b_1=2>\\sqrt2$，归纳可得 $b_n>\\sqrt2$ 对所有正整数 $n$ 成立.\r\n\r\n又 $\\varphi'(x)=\\frac{1}{(2x+3)^2}>0$，所以 $\\varphi$ 在 $(\\sqrt2,+\\infty)$ 上单调递增. 对任意正整数 $k$，由 $a_k=\\sqrt2(1+r^k)$ 得\r\n\n$$\n\\varphi(a_k)-\\sqrt2=\\frac{\\sqrt2r^{k+2}}{3+2\\sqrt2(1+r^k)}\n$$\n\r\n因为 $3+2\\sqrt2=r^{-2}$，故\r\n$3+2\\sqrt2(1+r^k)\\ge r^{-2}$，$\\varphi(a_k)-\\sqrt2\\le\\sqrt2r^{k+4}=a_{k+4}-\\sqrt2$.\r\n即 $\\varphi(a_k)\\le a_{k+4}$.\r\n\r\n当 $n=1$ 时，$b_1=2=a_1$. 若 $b_n\\le a_{4n-3}$，则由 $\\varphi$ 的单调性及上面的结论，$b_{n+1}=\\varphi(b_n)\\le\\varphi(a_{4n-3})\\le a_{4n+1}=a_{4(n+1)-3}$. 归纳得 $b_n\\le a_{4n-3}$. 结合下界，结论为 $\\sqrt2<b_n\\le a_{4n-3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>令 $r=\\sqrt{2}-1$，则 $0&#x3C;r&#x3C;1$，且 $r(\\sqrt{2}+2)=\\sqrt{2}$. 因此</p>\n$$\na_{n+1}-\\sqrt{2}=r(a_{n}+2)-\\sqrt{2}=r(a_{n}-\\sqrt{2})\n$$\n<p>又 $a_{1}-\\sqrt{2}=2-\\sqrt{2}=\\sqrt{2}r$，所以</p><p>$a_{n}-\\sqrt{2}=\\sqrt{2}r^{n}$，$a_{n}=\\sqrt{2}(1+r^{n})$.</p><p>记 $\\varphi(x)=\\frac{3x+4}{2x+3}$. 先证下界. 直接计算得</p>\n$$\n\\varphi(x)-\\sqrt{2}=\\frac{(3-2\\sqrt{2})(x-\\sqrt{2})}{2x+3}=\\frac{r^{2}(x-\\sqrt{2})}{2x+3}\n$$\n<p>由于 $b_{1}=2>\\sqrt{2}$，归纳可得 $b_{n}>\\sqrt{2}$ 对所有正整数 $n$ 成立.</p><p>又 $\\varphi'(x)=\\frac{1}{(2x+3)^{2}}>0$，所以 $\\varphi$ 在 $(\\sqrt{2},+\\infty)$ 上单调递增. 对任意正整数 $k$，由 $a_{k}=\\sqrt{2}(1+r^{k})$ 得</p>\n$$\n\\varphi(a_{k})-\\sqrt{2}=\\frac{\\sqrt{2}r^{k+2}}{3+2\\sqrt{2}(1+r^{k})}\n$$\n<p>因为 $3+2\\sqrt{2}=r^{-2}$，故</p><p>$3+2\\sqrt{2}(1+r^{k})\\ge r^{-2}$，$\\varphi(a_{k})-\\sqrt{2}\\le\\sqrt{2}r^{k+4}=a_{k+4}-\\sqrt{2}$.</p><p>即 $\\varphi(a_{k})\\le a_{k+4}$.</p><p>当 $n=1$ 时，$b_{1}=2=a_{1}$. 若 $b_{n}\\le a_{4n-3}$，则由 $\\varphi$ 的单调性及上面的结论，$b_{n+1}=\\varphi(b_{n})\\le\\varphi(a_{4n-3})\\le a_{4n+1}=a_{4(n+1)-3}$. 归纳得 $b_{n}\\le a_{4n-3}$. 结合下界，结论为 $\\sqrt{2}&#x3C;b_{n}\\le a_{4n-3}$.</p>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

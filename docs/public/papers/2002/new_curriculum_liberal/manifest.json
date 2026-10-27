@@ -1,156 +1,15 @@
 {
+  "title": "2002年普通高等学校招生全国统一考试",
+  "subtitle": "2002年新课标卷（文）",
   "year": "2002",
   "slug": "new_curriculum_liberal",
-  "title": "2002年新课标卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "选做题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "选做题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "直线 $(1 + a)x + y + 1 = 0$ 与圆 $x^{2} + y^{2} - 2x = 0$ 相切，则 $a$ 的值为（ ）",
+          "body": "直线 $(1 + a)x + y + 1 = 0$ 与圆 $x^{2}+ y^{2}- 2x = 0$ 相切，则 $a$ 的值为（ ）",
           "choices": [
             "$\\pm 1$",
             "$\\pm 2$",
@@ -158,13 +17,11 @@
             "$-1$"
           ],
           "answer": "D",
-          "solution": "圆的方程可化为 $(x-1)^2+y^2=1$，所以圆心为 $C(1,0)$，半径为 $1$. 直线到圆心的距离为\r\n\n$$\n\\frac{|(1+a)\\cdot1+0+1|}{\\sqrt{(1+a)^2+1}}=\\frac{|a+2|}{\\sqrt{(1+a)^2+1}}\n$$\n\r\n相切时该距离等于半径，故 $(a+2)^2=(a+1)^2+1$，即 $2a+2=0$，得 $a=-1$. 因此选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>圆的方程可化为 $(x-1)^{2}+y^{2}=1$，所以圆心为 $C(1,0)$，半径为 $1$. 直线到圆心的距离为</p>\n$$\n\\frac{|(1+a)\\cdot1+0+1|}{\\sqrt{(1+a)^{2}+1}}=\\frac{|a+2|}{\\sqrt{(1+a)^{2}+1}}\n$$\n<p>相切时该距离等于半径，故 $(a+2)^{2}=(a+1)^{2}+1$，即 $2a+2=0$，得 $a=-1$. 因此选 D.</p>"
         },
         {
           "num": 2,
-          "body": "已知 $m$，$n$ 为异面直线，$m \\subset$ 平面 $\\alpha$，$n \\subset$ 平面 $\\beta$，$\\alpha \\cap \\beta = l$，则 $l$（ ）",
+          "body": "已知 $m$，$n$ 为异面直线，$m \\subset$ 平面 $\\alpha$，$n \\subset$ 平面 $\\beta$，$\\alpha \\cap \\beta = l$，则 $l$（ ）",
           "choices": [
             "与 $m$，$n$ 都相交",
             "与 $m$，$n$ 中至少一条相交",
@@ -172,13 +29,11 @@
             "至多与 $m$，$n$ 中的一条相交"
           ],
           "answer": "B",
-          "solution": "若交线 $l$ 不与直线 $m$ 相交，由于 $l$ 与 $m$ 同在平面 $\\alpha$ 内，只能有 $l\\parallel m$；同理，若 $l$ 不与直线 $n$ 相交，则 $l\\parallel n$. 若 $l$ 同时不与 $m$，$n$ 相交，就有 $m\\parallel l\\parallel n$，这与 $m$，$n$ 为异面直线矛盾. 所以 $l$ 至少与 $m$，$n$ 中的一条相交，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "若交线 $l$ 不与直线 $m$ 相交，由于 $l$ 与 $m$ 同在平面 $\\alpha$ 内，只能有 $l\\parallel m$；同理，若 $l$ 不与直线 $n$ 相交，则 $l\\parallel n$. 若 $l$ 同时不与 $m$，$n$ 相交，就有 $m\\parallel l\\parallel n$，这与 $m$，$n$ 为异面直线矛盾. 所以 $l$ 至少与 $m$，$n$ 中的一条相交，选 B."
         },
         {
           "num": 3,
-          "body": "函数 $y = a^x$ 在 $[0,1]$ 上的最大值与最小值之和为 $3$，则 $a =$（ ）",
+          "body": "函数 $y = a^{x}$ 在 $[0,1]$ 上的最大值与最小值之和为 $3$，则 $a =$（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "$2$",
@@ -186,27 +41,23 @@
             "$\\frac{1}{4}$"
           ],
           "answer": "B",
-          "solution": "当 $a>1$ 时，函数 $y=a^x$ 在 $[0,1]$ 上递增，最小值为 $1$，最大值为 $a$，所以 $1+a=3$，得 $a=2$. 当 $0<a<1$ 时，函数递减，最大值为 $1$，最小值为 $a$，仍需 $1+a=3$，这与 $0<a<1$ 矛盾；当 $a=1$ 时最大值与最小值之和为 $2$. 因此 $a=2$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "当 $a>1$ 时，函数 $y=a^{x}$ 在 $[0,1]$ 上递增，最小值为 $1$，最大值为 $a$，所以 $1+a=3$，得 $a=2$. 当 $0&#x3C;a&#x3C;1$ 时，函数递减，最大值为 $1$，最小值为 $a$，仍需 $1+a=3$，这与 $0&#x3C;a&#x3C;1$ 矛盾；当 $a=1$ 时最大值与最小值之和为 $2$. 因此 $a=2$，选 B."
         },
         {
           "num": 4,
-          "body": "不等式 $(1 + x)(1 - |x|) > 0$ 的解集是（ ）",
+          "body": "不等式 $(1 + x)(1 - |x|) > 0$ 的解集是（ ）",
           "choices": [
-            "$\\{x\\mid 0\\le x < 1\\}$",
-            "$\\{x\\mid x < 0 \\text{ 且 } x\\neq -1\\}$",
-            "$\\{x\\mid -1 < x < 1\\}$",
-            "$\\{x\\mid x < 1 \\text{ 且 } x\\neq -1\\}$"
+            "$\\{x\\mid 0\\le x &#x3C; 1\\}$",
+            "$\\{x\\mid x &#x3C; 0 \\text{ 且 }x\\neq -1\\}$",
+            "$\\{x\\mid -1 &#x3C; x &#x3C; 1\\}$",
+            "$\\{x\\mid x &#x3C; 1 \\text{ 且 }x\\neq -1\\}$"
           ],
           "answer": "D",
-          "solution": "当 $x<0$ 时，$|x|=-x$，原不等式化为 $(1+x)^2>0$，所以解为 $x<0$ 且 $x\\neq-1$. 当 $x\\geqslant0$ 时，原不等式化为 $(1+x)(1-x)>0$；因 $1+x>0$，所以 $0\\le x<1$. 合并两种情况，解集为 $\\{x\\mid x<1\\text{ 且 }x\\neq-1\\}$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "当 $x&#x3C;0$ 时，$|x|=-x$，原不等式化为 $(1+x)^{2}>0$，所以解为 $x&#x3C;0$ 且 $x\\neq-1$. 当 $x\\geqslant0$ 时，原不等式化为 $(1+x)(1-x)>0$；因 $1+x>0$，所以 $0\\le x&#x3C;1$. 合并两种情况，解集为 $\\{x\\mid x&#x3C;1\\text{ 且 }x\\neq-1\\}$，选 D."
         },
         {
           "num": 5,
-          "body": "在 $(0,2\\pi)$ 内，使 $\\sin x > \\cos x$ 成立的 $x$ 的取值范围是（ ）",
+          "body": "在 $(0,2\\pi)$ 内，使 $\\sin x > \\cos x$ 成立的 $x$ 的取值范围是（ ）",
           "choices": [
             "$\\left(\\frac{\\pi}{4},\\frac{\\pi}{2}\\right)\\cup \\left(\\pi ,\\frac{5\\pi}{4}\\right)$",
             "$\\left(\\frac{\\pi}{4},\\pi\\right)$",
@@ -214,13 +65,11 @@
             "$\\left(\\frac{\\pi}{4},\\pi\\right)\\cup \\left(\\frac{5\\pi}{4},\\frac{3\\pi}{2}\\right)$"
           ],
           "answer": "C",
-          "solution": "由 $\\sin x>\\cos x$ 得 $\\sin x-\\cos x>0$，即 $\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 在 $0<x<2\\pi$ 内，正弦值为正的部分满足 $0<x-\\frac{\\pi}{4}<\\pi$，从而 $\\frac{\\pi}{4}<x<\\frac{5\\pi}{4}$. 因此选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $\\sin x>\\cos x$ 得 $\\sin x-\\cos x>0$，即 $\\sqrt{2}\\sin\\left(x-\\frac{\\pi}{4}\\right)>0$. 在 $0&#x3C;x&#x3C;2\\pi$ 内，正弦值为正的部分满足 $0&#x3C;x-\\frac{\\pi}{4}&#x3C;\\pi$，从而 $\\frac{\\pi}{4}&#x3C;x&#x3C;\\frac{5\\pi}{4}$. 因此选 C."
         },
         {
           "num": 6,
-          "body": "设集合 $M = \\left\\{x \\mid x = \\frac{k}{2} + \\frac{1}{4}, k \\in \\mathbb{Z}\\right\\}$，$N = \\left\\{x \\mid x = \\frac{k}{4} + \\frac{1}{2}, k \\in \\mathbb{Z}\\right\\}$，则（ ）",
+          "body": "设集合 $M = \\left\\{x \\mid x = \\frac{k}{2}+ \\frac{1}{4}, k \\in \\mathbb{Z}\\right\\}$，$N = \\left\\{x \\mid x = \\frac{k}{4}+ \\frac{1}{2}, k \\in \\mathbb{Z}\\right\\}$，则（ ）",
           "choices": [
             "$M = N$",
             "$M \\subseteq N$",
@@ -228,13 +77,11 @@
             "$M \\cap N = \\varnothing$"
           ],
           "answer": "B",
-          "solution": "集合 $M$ 中的任意元素可写为 $x=\\frac{2k+1}{4}$. 取整数 $j=2k-1$，则 $x=\\frac{j}{4}+\\frac{1}{2}$，所以 $M\\subseteq N$. 又 $\\frac{1}{2}\\in N$，而 $\\frac{1}{2}\\notin M$，故 $M\\subseteq N$ 且 $M\\neq N$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "集合 $M$ 中的任意元素可写为 $x=\\frac{2k+1}{4}$. 取整数 $j=2k-1$，则 $x=\\frac{j}{4}+\\frac{1}{2}$，所以 $M\\subseteq N$. 又 $\\frac{1}{2}\\in N$，而 $\\frac{1}{2}\\notin M$，故 $M\\subseteq N$ 且 $M\\neq N$，选 B."
         },
         {
           "num": 7,
-          "body": "椭圆 $5x^{2} + ky^{2} = 5$ 的一个焦点是 $(0,2)$，那么 $k =$（ ）",
+          "body": "椭圆 $5x^{2}+ ky^{2}= 5$ 的一个焦点是 $(0,2)$，那么 $k =$（ ）",
           "choices": [
             "$-1$",
             "$1$",
@@ -242,13 +89,11 @@
             "$-\\sqrt{5}$"
           ],
           "answer": "B",
-          "solution": "将椭圆方程除以 $5$，得 $x^2+\\frac{k}{5}y^2=1$. 由于焦点在 $y$ 轴上，椭圆的长半轴沿 $y$ 轴，横向半轴为 $1$，纵向半轴的平方为 $\\frac{5}{k}$. 设焦距的一半为 $c$，则 $c=2$，由椭圆关系 $c^2=b^2-1$ 得 $b^2=5$. 因而 $\\frac{5}{k}=5$，所以 $k=1$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "将椭圆方程除以 $5$，得 $x^{2}+\\frac{k}{5}y^{2}=1$. 由于焦点在 $y$ 轴上，椭圆的长半轴沿 $y$ 轴，横向半轴为 $1$，纵向半轴的平方为 $\\frac{5}{k}$. 设焦距的一半为 $c$，则 $c=2$，由椭圆关系 $c^{2}=b^{2}-1$ 得 $b^{2}=5$. 因而 $\\frac{5}{k}=5$，所以 $k=1$，选 B."
         },
         {
           "num": 8,
-          "body": "正六棱柱 $ABCDEF - A_{1}B_{1}C_{1}D_{1}E_{1}F_{1}$ 的底面边长为 $1$，侧棱长为 $\\sqrt{2}$，则这个棱柱侧面对角线 $E_{1}D$ 与 $BC_{1}$ 所成的角是（ ）",
+          "body": "正六棱柱 $ABCDEF - A_{1}B_{1}C_{1}D_{1}E_{1}F_{1}$ 的底面边长为 $1$，侧棱长为 $\\sqrt{2}$，则这个棱柱侧面对角线 $E_{1}D$ 与 $BC_{1}$ 所成的角是（ ）",
           "choices": [
             "$90^{\\circ}$",
             "$60^{\\circ}$",
@@ -256,41 +101,35 @@
             "$30^{\\circ}$"
           ],
           "answer": "B",
-          "solution": "在底面内取坐标 $A(1,0,0)$、$B\\left(\\frac12,\\frac{\\sqrt3}{2},0\\right)$、$C\\left(-\\frac12,\\frac{\\sqrt3}{2},0\\right)$、$D(-1,0,0)$、$E\\left(-\\frac12,-\\frac{\\sqrt3}{2},0\\right)$，并令上底面各点的 $z$ 坐标为 $\\sqrt2$. 则\r\n$\\overrightarrow{DE_1}=\\left(\\frac12,-\\frac{\\sqrt3}{2},\\sqrt2\\right)$，$\\overrightarrow{BC_1}=(-1,0,\\sqrt2)$. 因此\r\n$\\overrightarrow{DE_1}\\cdot\\overrightarrow{BC_1}=\\frac32$，且 $|DE_1|=|BC_1|=\\sqrt3$.\r\n设两直线所成的锐角为 $\\theta$，则 $\\cos\\theta=\\frac{\\frac{3}{2}}{\\sqrt3\\cdot\\sqrt3}=\\frac12$，所以 $\\theta=60^{\\circ}$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在底面内取坐标 $A(1,0,0)$、$B\\left(\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$、$C\\left(-\\frac{1}{2},\\frac{\\sqrt{3}}{2},0\\right)$、$D(-1,0,0)$、$E\\left(-\\frac{1}{2},-\\frac{\\sqrt{3}}{2},0\\right)$，并令上底面各点的 $z$ 坐标为 $\\sqrt{2}$. 则</p><p>$\\overrightarrow{DE_1}=\\left(\\frac{1}{2},-\\frac{\\sqrt{3}}{2},\\sqrt{2}\\right)$，$\\overrightarrow{BC_1}=(-1,0,\\sqrt{2})$. 因此</p><p>$\\overrightarrow{DE_1}\\cdot\\overrightarrow{BC_1}=\\frac{3}{2}$，且 $|DE_{1}|=|BC_{1}|=\\sqrt{3}$.</p><p>设两直线所成的锐角为 $\\theta$，则 $\\cos\\theta=\\frac{\\frac{3}{2}}{\\sqrt{3}\\cdot\\sqrt{3}}=\\frac{1}{2}$，所以 $\\theta=60^{\\circ}$，选 B.</p>"
         },
         {
           "num": 9,
-          "body": "函数 $y = x^{2} + bx + c$（$x \\in [0, +\\infty)$）是单调函数的充要条件是（ ）",
+          "body": "函数 $y = x^{2}+ bx + c$（$x \\in [0, +\\infty)$）是单调函数的充要条件是（ ）",
           "choices": [
             "$b \\ge 0$",
             "$b \\le 0$",
             "$b > 0$",
-            "$b < 0$"
+            "$b &#x3C; 0$"
           ],
           "answer": "A",
-          "solution": "任取 $0\\le x<y$，有\r\n$f(y)-f(x)=(y-x)(x+y+b)$.\r\n若 $b\\geqslant0$，则 $x+y+b>0$，所以 $f(y)>f(x)$，函数在 $[0,+\\infty)$ 上单调递增. 若 $b<0$，取 $x=0$，$y=-\\frac b2$，则 $f(y)-f(0)<0$；又取 $x=-b$，$y=-b+1$，则 $f(y)-f(x)>0$. 此时函数既不单调递增也不单调递减. 所以充要条件是 $b\\geqslant0$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>任取 $0\\le x&#x3C;y$，有</p><p>$f(y)-f(x)=(y-x)(x+y+b)$.</p><p>若 $b\\geqslant0$，则 $x+y+b>0$，所以 $f(y)>f(x)$，函数在 $[0,+\\infty)$ 上单调递增. 若 $b&#x3C;0$，取 $x=0$，$y=-\\frac{b}{2}$，则 $f(y)-f(0)&#x3C;0$；又取 $x=-b$，$y=-b+1$，则 $f(y)-f(x)>0$. 此时函数既不单调递增也不单调递减. 所以充要条件是 $b\\geqslant0$，选 A.</p>"
         },
         {
           "num": 10,
-          "body": "已知 $0 < x < y < a < 1$，则有（ ）",
+          "body": "已知 $0 &#x3C; x &#x3C; y &#x3C; a &#x3C; 1$，则有（ ）",
           "choices": [
-            "$\\log_a(xy) < 0$",
-            "$0 < \\log_a(xy) < 1$",
-            "$1 < \\log_a(xy) < 2$",
-            "$\\log_a(xy) > 2$"
+            "$\\log_{a}(xy) &#x3C; 0$",
+            "$0 &#x3C; \\log_{a}(xy) &#x3C; 1$",
+            "$1 &#x3C; \\log_{a}(xy) &#x3C; 2$",
+            "$\\log_{a}(xy) > 2$"
           ],
           "answer": "D",
-          "solution": "由 $0<x<a$，$0<y<a$，得 $0<xy<a^2$. 因为 $0<a<1$，函数 $\\log_a t$ 在正数范围内递减，所以\r\n$\\log_a(xy)>\\log_a(a^2)=2$.\r\n因此选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $0&#x3C;x&#x3C;a$，$0&#x3C;y&#x3C;a$，得 $0&#x3C;xy&#x3C;a^{2}$. 因为 $0&#x3C;a&#x3C;1$，函数 $\\log_{a} t$ 在正数范围内递减，所以</p><p>$\\log_{a}(xy)>\\log_{a}(a^{2})=2$.</p><p>因此选 D.</p>"
         },
         {
           "num": 11,
-          "body": "从正方体的 $6$ 个面中选取 $3$ 个面，其中有 $2$ 个面不相邻的选法共有（ ）",
+          "body": "从正方体的 $6$ 个面中选取 $3$ 个面，其中有 $2$ 个面不相邻的选法共有（ ）",
           "choices": [
             "$8$ 种",
             "$12$ 种",
@@ -298,23 +137,19 @@
             "$20$ 种"
           ],
           "answer": "B",
-          "solution": "正方体的面可分成 $3$ 对相对的面. 若所选的 $3$ 个面中有一对不相邻的面，它们必须是一对相对面；先选这对面有 $3$ 种选法，再从剩下的 $4$ 个面中选第 $3$ 个面. 三个面中不可能同时出现两对相对面，所以选法总数为 $3\\times4=12$. 因此选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "正方体的面可分成 $3$ 对相对的面. 若所选的 $3$ 个面中有一对不相邻的面，它们必须是一对相对面；先选这对面有 $3$ 种选法，再从剩下的 $4$ 个面中选第 $3$ 个面. 三个面中不可能同时出现两对相对面，所以选法总数为 $3\\times4=12$. 因此选 B."
         },
         {
           "num": 12,
-          "body": "平面直角坐标系中，$O$ 为坐标原点，已知两点 $A(3,1)$，$B(-1,3)$，若点 $C$ 满足 $\\overrightarrow{OC} = \\alpha \\overrightarrow{OA} + \\beta \\overrightarrow{OB}$，其中 $\\alpha$，$\\beta \\in \\mathbb{R}$，且 $\\alpha + \\beta = 1$，则点 $C$ 的轨迹方程为（ ）",
+          "body": "平面直角坐标系中，$O$ 为坐标原点，已知两点 $A(3,1)$，$B(-1,3)$，若点 $C$ 满足 $\\overrightarrow{OC}= \\alpha \\overrightarrow{OA}+ \\beta \\overrightarrow{OB}$，其中 $\\alpha$，$\\beta \\in \\mathbb{R}$，且 $\\alpha + \\beta = 1$，则点 $C$ 的轨迹方程为（ ）",
           "choices": [
             "$3x + 2y - 11 = 0$",
-            "$(x - 1)^{2} + (y - 2)^{2} = 5$",
+            "$(x - 1)^{2}+ (y - 2)^{2}= 5$",
             "$2x - y = 0$",
             "$x + 2y - 5 = 0$"
           ],
           "answer": "D",
-          "solution": "由 $\\alpha+\\beta=1$，有\r\n\n$$\n\\overrightarrow{OC}=\\alpha\\overrightarrow{OA}+(1-\\alpha)\\overrightarrow{OB}\n$$\n\r\n所以 $C$ 在线段 $AB$ 所在直线上. 直线 $AB$ 的斜率为 $\\frac{3-1}{-1-3}=-\\frac12$，故其方程为\r\n$y-1=-\\frac12(x-3)$，\r\n即 $x+2y-5=0$. 反过来，直线上的任意点都可写成 $\\alpha A+(1-\\alpha)B$ 的形式，因此轨迹方程为 $x+2y-5=0$，选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $\\alpha+\\beta=1$，有</p>\n$$\n\\overrightarrow{OC}=\\alpha\\overrightarrow{OA}+(1-\\alpha)\\overrightarrow{OB}\n$$\n<p>所以 $C$ 在线段 $AB$ 所在直线上. 直线 $AB$ 的斜率为 $\\frac{3-1}{-1-3}=-\\frac{1}{2}$，故其方程为</p><p>$y-1=-\\frac{1}{2}(x-3)$，</p><p>即 $x+2y-5=0$. 反过来，直线上的任意点都可写成 $\\alpha A+(1-\\alpha)B$ 的形式，因此轨迹方程为 $x+2y-5=0$，选 D.</p>"
         }
       ]
     },
@@ -323,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "据新华社 2002 年 3 月 12 日电，1985 年到 2000 年间，我国农村人均居住面积如图所示，\r\n\r\n其中，从 _______ {}年 _______ {}年的五年间增长最快.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2002/img/new_curriculum_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(1995\\)，\\(2000\\)",
-          "solution": "从图中读得农村人均居住面积依次为 $14.7$、$17.8$、$21.0$、$24.8$. 相邻五年间的增长量分别为 $17.8-14.7=3.1$、$21.0-17.8=3.2$、$24.8-21.0=3.8$. 最大增长量是 $3.8$，对应从 1995 年到 2000 年，所以填 $1995$，$2000$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>据新华社 2002 年 3 月 12 日电，1985 年到 2000 年间，我国农村人均居住面积如图所示，</p><p>其中，从<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>年<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>年的五年间增长最快.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$1995$，$2000$",
+          "solution": "从图中读得农村人均居住面积依次为 $14.7$、$17.8$、$21.0$、$24.8$. 相邻五年间的增长量分别为 $17.8-14.7=3.1$、$21.0-17.8=3.2$、$24.8-21.0=3.8$. 最大增长量是 $3.8$，对应从 1995 年到 2000 年，所以填 $1995$，$2000$."
         },
         {
           "num": 14,
-          "body": "已知 $\\sin 2\\alpha = -\\sin \\alpha$（$\\alpha \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$），则 $\\cot \\alpha =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-\\frac{\\sqrt{3}}{3}\\)",
-          "solution": "由 $\\alpha \\in \\left(\\frac{\\pi}{2},\\pi\\right)$ 可知 $\\sin\\alpha>0$. 由二倍角公式，原条件化为\r\n$2\\sin\\alpha\\cos\\alpha=-\\sin\\alpha$.\r\n两边同除以 $\\sin\\alpha$，得 $2\\cos\\alpha=-1$，所以 $\\cos\\alpha=-\\frac{1}{2}$. 又因为 $\\alpha$ 在第二象限，$\\sin\\alpha=\\frac{\\sqrt{3}}{2}$，从而\r\n$\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}=-\\frac{1}{\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\sin 2\\alpha = -\\sin \\alpha$（$\\alpha \\in \\left(\\frac{\\pi}{2}, \\pi\\right)$），则 $\\cot \\alpha =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-\\frac{\\sqrt{3}}{3}$",
+          "solution": "<p>由 $\\alpha \\in \\left(\\frac{\\pi}{2},\\pi\\right)$ 可知 $\\sin\\alpha>0$. 由二倍角公式，原条件化为</p><p>$2\\sin\\alpha\\cos\\alpha=-\\sin\\alpha$.</p><p>两边同除以 $\\sin\\alpha$，得 $2\\cos\\alpha=-1$，所以 $\\cos\\alpha=-\\frac{1}{2}$. 又因为 $\\alpha$ 在第二象限，$\\sin\\alpha=\\frac{\\sqrt{3}}{2}$，从而</p><p>$\\cot\\alpha=\\frac{\\cos\\alpha}{\\sin\\alpha}=-\\frac{1}{\\sqrt{3}}=-\\frac{\\sqrt{3}}{3}$.</p>"
         },
         {
           "num": 15,
-          "body": "甲，乙两种冬小麦试验品种连续 $5$ 年的平均单位面积产量如下（单位：$\\mathrm{t}/\\mathrm{km}^2$）：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{|c|c|c|c|c|c|}\r\n\\hline\r\n品种 & 第$1$年 & 第$2$年 & 第$3$年 & 第$4$年 & 第$5$年 \\\\\r\n\\hline\r\n甲 & $9.8$ & $9.9$ & $10.1$ & $10$ & $10.2$ \\\\\r\n\\hline\r\n乙 & $9.4$ & $10.3$ & $10.8$ & $9.7$ & $9.8$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n其中产量比较稳定的小麦品种是 _______ {}.",
-          "choices": [],
+          "body": "<p>甲，乙两种冬小麦试验品种连续 $5$ 年的平均单位面积产量如下（单位：$\\mathrm{t}/\\mathrm{km}^{2}$）：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>品种 </td><td style=\"text-align: center; border-right: 1px solid\"> 第$1$年 </td><td style=\"text-align: center; border-right: 1px solid\"> 第$2$年 </td><td style=\"text-align: center; border-right: 1px solid\"> 第$3$年 </td><td style=\"text-align: center; border-right: 1px solid\"> 第$4$年 </td><td style=\"text-align: center; border-right: 1px solid\"> 第$5$年 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>甲 </td><td style=\"text-align: center; border-right: 1px solid\"> $9.8$ </td><td style=\"text-align: center; border-right: 1px solid\"> $9.9$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10.1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10.2$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>乙 </td><td style=\"text-align: center; border-right: 1px solid\"> $9.4$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10.3$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10.8$ </td><td style=\"text-align: center; border-right: 1px solid\"> $9.7$ </td><td style=\"text-align: center; border-right: 1px solid\"> $9.8$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>其中产量比较稳定的小麦品种是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p>",
+          "choices": null,
           "answer": "甲",
-          "solution": "两品种五年的平均产量均为 $10$. 以平均数为基准，甲的偏差为 $-0.2$、$-0.1$、$0.1$、$0$、$0.2$，偏差平方和为 $0.10$，方差为 $\\frac{0.10}{5}=0.02$. 乙的偏差为 $-0.6$、$0.3$、$0.8$、$-0.3$、$-0.2$，偏差平方和为 $1.22$，方差为 $\\frac{1.22}{5}=0.244$. 甲的方差和标准差都较小，故甲的产量比较稳定.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "两品种五年的平均产量均为 $10$. 以平均数为基准，甲的偏差为 $-0.2$、$-0.1$、$0.1$、$0$、$0.2$，偏差平方和为 $0.10$，方差为 $\\frac{0.10}{5}=0.02$. 乙的偏差为 $-0.6$、$0.3$、$0.8$、$-0.3$、$-0.2$，偏差平方和为 $1.22$，方差为 $\\frac{1.22}{5}=0.244$. 甲的方差和标准差都较小，故甲的产量比较稳定."
         },
         {
           "num": 16,
-          "body": "设函数 $f(x)$ 在 $(-\\infty, +\\infty)$ 内有定义，下列函数\r\n\r\n\\begin{circlelist}\r\n\\item $y = -|f(x)|$；\r\n\\item $y = x f(x^{2})$；\r\n\\item $y = -f(-x)$；\r\n\\item $y = f(x) - f(-x)$.\r\n\\end{circlelist}\r\n其中必为奇函数的有 _______ {}.（要求填写正确答案的序号）",
-          "choices": [],
-          "answer": "\\(\\circled{2}\\)，\\(\\circled{4}\\)",
-          "solution": "对第（1）个函数，取恒正函数 $f(x)=1$，则 $-|f(x)|=-1$ 不是奇函数，所以第（1）个函数不一定为奇函数. 对第（2）个函数，令 $g(x)=xf(x^2)$，则 $g(-x)=-xf((-x)^2)=-xf(x^2)=-g(x)$，所以它必为奇函数. 对第（3）个函数，仍取 $f(x)=1$，则 $-f(-x)=-1$ 不是奇函数，所以它不一定为奇函数. 对第（4）个函数，令 $h(x)=f(x)-f(-x)$，则 $h(-x)=f(-x)-f(x)=-h(x)$，所以它必为奇函数. 因此应填 $\\circled{2}$，$\\circled{4}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>设函数 $f(x)$ 在 $(-\\infty, +\\infty)$ 内有定义，下列函数</p><ol class=\"enumerate\"><li><p>$y = -|f(x)|$；</p></li><li><p>$y = x f(x^{2})$；</p></li><li><p>$y = -f(-x)$；</p></li><li><p>$y = f(x) - f(-x)$.</p></li></ol><p>其中必为奇函数的有<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（要求填写正确答案的序号）</p>",
+          "choices": null,
+          "answer": "$②$，$④$",
+          "solution": "对第（1）个函数，取恒正函数 $f(x)=1$，则 $-|f(x)|=-1$ 不是奇函数，所以第（1）个函数不一定为奇函数. 对第（2）个函数，令 $g(x)=xf(x^{2})$，则 $g(-x)=-xf((-x)^{2})=-xf(x^{2})=-g(x)$，所以它必为奇函数. 对第（3）个函数，仍取 $f(x)=1$，则 $-f(-x)=-1$ 不是奇函数，所以它不一定为奇函数. 对第（4）个函数，令 $h(x)=f(x)-f(-x)$，则 $h(-x)=f(-x)-f(x)=-h(x)$，所以它必为奇函数. 因此应填 $②$，$④$."
         }
       ]
     },
@@ -364,21 +191,17 @@
       "problems": [
         {
           "num": 17,
-          "body": "在等比数列 $\\{a_{n}\\}$ 中，已知 $a_6 - a_4 = 24$，$a_3a_5 = 64$，求 $\\{a_{n}\\}$ 前 $8$ 项的和 $S_{8}$.",
-          "choices": [],
+          "body": "在等比数列 $\\{a_{n}\\}$ 中，已知 $a_{6} - a_{4} = 24$，$a_{3}a_{5} = 64$，求 $\\{a_{n}\\}$ 前 $8$ 项的和 $S_{8}$.",
+          "choices": null,
           "answer": "",
-          "solution": "设等比数列的公比为 $q$. 因为 $a_3a_5=a_4^2$，所以 $a_4^2=64$，即 $a_4=8$ 或 $a_4=-8$. 又由等比数列的性质，$a_6=a_4q^2$，因此\r\n$a_4(q^2-1)=24$.\r\n当 $a_4=8$ 时，$q^2-1=3$，得 $q=2$ 或 $q=-2$；当 $a_4=-8$ 时，$q^2-1=-3$，这不可能，因为 $q^2\\geqslant0$.\r\n\r\n当 $q=2$ 时，$a_1=\\frac{a_4}{q^3}=1$，故前八项为 $1$，$2$，$4$，$8$，$16$，$32$，$64$，$128$，从而 $S_8=255$. 当 $q=-2$ 时，$a_1=\\frac{a_4}{q^3}=-1$，从而\r\n$S_8=a_1\\frac{1-q^8}{1-q}=-1\\cdot\\frac{1-256}{3}=85$.\r\n所以 $S_8=255$ 或 $S_8=85$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设等比数列的公比为 $q$. 因为 $a_{3}a_{5}=a_{4}^{2}$，所以 $a_{4}^{2}=64$，即 $a_{4}=8$ 或 $a_{4}=-8$. 又由等比数列的性质，$a_{6}=a_{4}q^{2}$，因此</p><p>$a_{4}(q^{2}-1)=24$.</p><p>当 $a_{4}=8$ 时，$q^{2}-1=3$，得 $q=2$ 或 $q=-2$；当 $a_{4}=-8$ 时，$q^{2}-1=-3$，这不可能，因为 $q^{2}\\geqslant0$.</p><p>当 $q=2$ 时，$a_{1}=\\frac{a_{4}}{q^{3}}=1$，故前八项为 $1$，$2$，$4$，$8$，$16$，$32$，$64$，$128$，从而 $S_{8}=255$. 当 $q=-2$ 时，$a_{1}=\\frac{a_{4}}{q^{3}}=-1$，从而</p><p>$S_{8}=a_{1}\\frac{1-q^{8}}{1-q}=-1\\cdot\\frac{1-256}{3}=85$.</p><p>所以 $S_{8}=255$ 或 $S_{8}=85$.</p>"
         },
         {
           "num": 18,
-          "body": "已知 $\\sin^2 2\\alpha + \\sin 2\\alpha \\cos \\alpha - \\cos 2\\alpha = 1$（$\\alpha \\in \\left(0, \\frac{\\pi}{2}\\right)$），求 $\\sin \\alpha$，$\\tan \\alpha$ 的值.",
-          "choices": [],
+          "body": "已知 $\\sin^{2} 2\\alpha + \\sin 2\\alpha \\cos \\alpha - \\cos 2\\alpha = 1$（$\\alpha \\in \\left(0, \\frac{\\pi}{2}\\right)$），求 $\\sin \\alpha$，$\\tan \\alpha$ 的值.",
+          "choices": null,
           "answer": "",
-          "solution": "令 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 由 $0<\\alpha<\\frac{\\pi}{2}$ 知 $0<s<1$，且 $c^2=1-s^2$. 把 $\\sin2\\alpha=2sc$、$\\cos2\\alpha=c^2-s^2$ 代入原式，得\r\n\n$$\n4s^2c^2+2sc^2-(c^2-s^2)=1\n$$\n\r\n再代入 $c^2=1-s^2$，并移项化简，得到\r\n\n$$\n2s^4+s^3-3s^2-s+1=0\n$$\n\r\n因式分解得\r\n\n$$\n(2s-1)(s-1)(s+1)^2=0\n$$\n\r\n由于 $0<s<1$，只能取 $s=\\frac{1}{2}$，于是 $c=\\frac{\\sqrt{3}}{2}$. 因此 $\\sin\\alpha=\\frac{1}{2}$，$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{\\sqrt{3}}{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>令 $s=\\sin\\alpha$，$c=\\cos\\alpha$. 由 $0&#x3C;\\alpha&#x3C;\\frac{\\pi}{2}$ 知 $0&#x3C;s&#x3C;1$，且 $c^{2}=1-s^{2}$. 把 $\\sin2\\alpha=2sc$、$\\cos2\\alpha=c^{2}-s^{2}$ 代入原式，得</p>\n$$\n4s^{2}c^{2}+2sc^{2}-(c^{2}-s^{2})=1\n$$\n<p>再代入 $c^{2}=1-s^{2}$，并移项化简，得到</p>\n$$\n2s^{4}+s^{3}-3s^{2}-s+1=0\n$$\n<p>因式分解得</p>\n$$\n(2s-1)(s-1)(s+1)^{2}=0\n$$\n<p>由于 $0&#x3C;s&#x3C;1$，只能取 $s=\\frac{1}{2}$，于是 $c=\\frac{\\sqrt{3}}{2}$. 因此 $\\sin\\alpha=\\frac{1}{2}$，$\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}=\\frac{\\sqrt{3}}{3}$.</p>"
         }
       ]
     },
@@ -387,21 +210,17 @@
       "problems": [
         {
           "num": 19,
-          "body": "如图，正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 的底面边长为 $a$，侧棱长为 $\\sqrt{2}a$.\r\n\r\n\n(1) 建立适当的坐标系，并写出点 $A$，$B$，$A_{1}$，$C_{1}$ 的坐标；\n\n(2) 求 $AC_{1}$ 与侧面 $ABB_{1}A_{1}$ 所成的角.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2002/img/new_curriculum_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，正三棱柱 $ABC - A_{1}B_{1}C_{1}$ 的底面边长为 $a$，侧棱长为 $\\sqrt{2}a$.</p><ol class=\"enumerate\"><li><p>建立适当的坐标系，并写出点 $A$，$B$，$A_{1}$，$C_{1}$ 的坐标；</p></li><li><p>求 $AC_{1}$ 与侧面 $ABB_{1}A_{1}$ 所成的角.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 取 $A$ 为原点，$AB$ 所在方向为 $y$ 轴正向，$AA_1$ 所在方向为 $z$ 轴正向，并取 $x$ 轴垂直于侧面 $ABB_1A_1$. 于是可设 $A(0,0,0)$，$B(0,a,0)$，$A_1(0,0,\\sqrt{2}a)$，$C_1\\left(-\\frac{\\sqrt{3}}{2}a,\\frac{a}{2},\\sqrt{2}a\\right)$.\n\n(2) 侧面 $ABB_1A_1$ 的方程为 $x=0$，而\r\n$\\overrightarrow{AC_1}=\\left(-\\frac{\\sqrt{3}}{2}a,\\frac{a}{2},\\sqrt{2}a\\right)$，且 $|AC_1|=\\sqrt{3}a$.\r\n设直线 $AC_1$ 与平面 $ABB_1A_1$ 所成的角为 $\\varphi$. 直线方向向量在该平面法向方向上的分量的绝对值为 $\\frac{\\sqrt{3}}{2}a$，所以\r\n$\\sin\\varphi=\\frac{\\frac{\\sqrt{3}}{2}a}{\\sqrt{3}a}=\\frac{1}{2}$.\r\n由于所成角取锐角，得 $\\varphi=30^{\\circ}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>取 $A$ 为原点，$AB$ 所在方向为 $y$ 轴正向，$AA_{1}$ 所在方向为 $z$ 轴正向，并取 $x$ 轴垂直于侧面 $ABB_{1}A_{1}$. 于是可设 $A(0,0,0)$，$B(0,a,0)$，$A_{1}(0,0,\\sqrt{2}a)$，$C_{1}\\left(-\\frac{\\sqrt{3}}{2}a,\\frac{a}{2},\\sqrt{2}a\\right)$.</p></li><li><p>侧面 $ABB_{1}A_{1}$ 的方程为 $x=0$，而</p><p>$\\overrightarrow{AC_1}=\\left(-\\frac{\\sqrt{3}}{2}a,\\frac{a}{2},\\sqrt{2}a\\right)$，且 $|AC_{1}|=\\sqrt{3}a$.</p><p>设直线 $AC_{1}$ 与平面 $ABB_{1}A_{1}$ 所成的角为 $\\varphi$. 直线方向向量在该平面法向方向上的分量的绝对值为 $\\frac{\\sqrt{3}}{2}a$，所以</p><p>$\\sin\\varphi=\\frac{\\frac{\\sqrt{3}}{2}a}{\\sqrt{3}a}=\\frac{1}{2}$.</p><p>由于所成角取锐角，得 $\\varphi=30^{\\circ}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "如图，正方形 $ABCD$，$ABEF$ 的边长都是 $1$，而且平面 $ABCD$，$ABEF$ 互相垂直. 点 $M$ 在 $AC$ 上移动，点 $N$ 在 $BF$ 上移动，若 $CM = BN = a$（$0 < a < \\sqrt{2}$）.\r\n\r\n\n(1) 求 $MN$ 的长；\n\n(2) $a$ 为何值时，$MN$ 的长最小；\n\n(3) 当 $MN$ 的长最小时，求面 $MNA$ 与面 $MNB$ 所成二面角 $\\alpha$ 的大小.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2002/img/new_curriculum_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，正方形 $ABCD$，$ABEF$ 的边长都是 $1$，而且平面 $ABCD$，$ABEF$ 互相垂直. 点 $M$ 在 $AC$ 上移动，点 $N$ 在 $BF$ 上移动，若 $CM = BN = a$（$0 &#x3C; a &#x3C; \\sqrt{2}$）.</p><ol class=\"enumerate\"><li><p>求 $MN$ 的长；</p></li><li><p>$a$ 为何值时，$MN$ 的长最小；</p></li><li><p>当 $MN$ 的长最小时，求面 $MNA$ 与面 $MNB$ 所成二面角 $\\alpha$ 的大小.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/new_curriculum_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 建立直角坐标系，取 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$E(1,0,1)$，$F(0,0,1)$.\r\n此时平面 $ABCD$ 为 $z=0$，平面 $ABEF$ 为 $y=0$，二者互相垂直. 因为 $|AC|=|BF|=\\sqrt{2}$，且 $CM=BN=a$，所以\r\n\n$$\nM=C+\\frac{a}{\\sqrt{2}}\\overrightarrow{CA}=\\left(1-\\frac{a}{\\sqrt{2}},1-\\frac{a}{\\sqrt{2}},0\\right)\n$$\n\r\n\n$$\nN=B+\\frac{a}{\\sqrt{2}}\\overrightarrow{BF}=\\left(1-\\frac{a}{\\sqrt{2}},0,\\frac{a}{\\sqrt{2}}\\right)\n$$\n\r\n因此\r\n\n$$\nMN^2=\\left(1-\\frac{a}{\\sqrt{2}}\\right)^2+\\left(\\frac{a}{\\sqrt{2}}\\right)^2=\\left(a-\\frac{\\sqrt{2}}{2}\\right)^2+\\frac{1}{2}\n$$\n\r\n故 $MN=\\sqrt{\\left(a-\\frac{\\sqrt{2}}{2}\\right)^2+\\frac{1}{2}}$.\n\n(2) 由上式可知，当 $a=\\frac{\\sqrt{2}}{2}$ 时，$MN$ 取得最小值 $\\frac{\\sqrt{2}}{2}$.\n\n(3) 当 $a=\\frac{\\sqrt{2}}{2}$ 时，$M\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$，$N\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$. 取 $MN$ 的中点 $H$. 由中点公式得 $H\\left(\\frac{1}{2},\\frac{1}{4},\\frac{1}{4}\\right)$，并且\r\n$\\overrightarrow{HA}=\\left(-\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4}\\right)$，\r\n$\\overrightarrow{HB}=\\left(\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4}\\right)$.\r\n由前述坐标可得 $AM=AN=MN=BM=BN=\\frac{\\sqrt{2}}{2}$，所以 $\\triangle AMN$ 与 $\\triangle BMN$ 都是正三角形，从而 $HA\\perp MN$，$HB\\perp MN$. 因此 $\\angle AHB$ 是所求二面角的平面角. 于是\r\n\n$$\n\\cos\\alpha=\\frac{\\overrightarrow{HA}\\cdot\\overrightarrow{HB}}{|HA||HB|}\r\n=\\frac{-\\frac{1}{8}}{\\frac{3}{8}}=-\\frac{1}{3}\n$$\n\r\n所以 $\\alpha=\\arccos\\left(-\\frac{1}{3}\\right)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>建立直角坐标系，取 $A(0,0,0)$，$B(1,0,0)$，$C(1,1,0)$，$D(0,1,0)$，$E(1,0,1)$，$F(0,0,1)$.</p><p>此时平面 $ABCD$ 为 $z=0$，平面 $ABEF$ 为 $y=0$，二者互相垂直. 因为 $|AC|=|BF|=\\sqrt{2}$，且 $CM=BN=a$，所以</p>\n$$\nM=C+\\frac{a}{\\sqrt{2}}\\overrightarrow{CA}=\\left(1-\\frac{a}{\\sqrt{2}},1-\\frac{a}{\\sqrt{2}},0\\right)\n$$\n\n$$\nN=B+\\frac{a}{\\sqrt{2}}\\overrightarrow{BF}=\\left(1-\\frac{a}{\\sqrt{2}},0,\\frac{a}{\\sqrt{2}}\\right)\n$$\n<p>因此</p>\n$$\nMN^{2}=\\left(1-\\frac{a}{\\sqrt{2}}\\right)^{2}+\\left(\\frac{a}{\\sqrt{2}}\\right)^{2}=\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}\n$$\n<p>故 $MN=\\sqrt{\\left(a-\\frac{\\sqrt{2}}{2}\\right)^{2}+\\frac{1}{2}}$.</p></li><li><p>由上式可知，当 $a=\\frac{\\sqrt{2}}{2}$ 时，$MN$ 取得最小值 $\\frac{\\sqrt{2}}{2}$.</p></li><li><p>当 $a=\\frac{\\sqrt{2}}{2}$ 时，$M\\left(\\frac{1}{2},\\frac{1}{2},0\\right)$，$N\\left(\\frac{1}{2},0,\\frac{1}{2}\\right)$. 取 $MN$ 的中点 $H$. 由中点公式得 $H\\left(\\frac{1}{2},\\frac{1}{4},\\frac{1}{4}\\right)$，并且</p><p>$\\overrightarrow{HA}=\\left(-\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4}\\right)$，</p><p>$\\overrightarrow{HB}=\\left(\\frac{1}{2},-\\frac{1}{4},-\\frac{1}{4}\\right)$.</p><p>由前述坐标可得 $AM=AN=MN=BM=BN=\\frac{\\sqrt{2}}{2}$，所以 $\\triangle AMN$ 与 $\\triangle BMN$ 都是正三角形，从而 $HA\\perp MN$，$HB\\perp MN$. 因此 $\\angle AHB$ 是所求二面角的平面角. 于是</p>\n$$\n\\cos\\alpha=\\frac{\\overrightarrow{HA}\\cdot\\overrightarrow{HB}}{|HA||HB|}=\\frac{-\\frac{1}{8}}{\\frac{3}{8}}=-\\frac{1}{3}\n$$\n<p>所以 $\\alpha=\\arccos\\left(-\\frac{1}{3}\\right)$.</p></li></ol>"
         }
       ]
     },
@@ -410,33 +229,26 @@
       "problems": [
         {
           "num": 21,
-          "body": "某单位 $6$ 个员工借助互联网开展工作，每个员工上网的概率都是 $0.5$（相互独立）.\r\n\r\n\n(1) 求至少 $3$ 人同时上网的概率；\n\n(2) 至少几人同时上网的概率小于 $0.3$？",
-          "choices": [],
+          "body": "<p>某单位 $6$ 个员工借助互联网开展工作，每个员工上网的概率都是 $0.5$（相互独立）.</p><ol class=\"enumerate\"><li><p>求至少 $3$ 人同时上网的概率；</p></li><li><p>至少几人同时上网的概率小于 $0.3$？</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设同时上网的员工人数为随机变量 $X$. 由于每个员工上网与否相互独立，且上网概率均为 $0.5$，所以恰有 $k$ 人同时上网的概率为 $\\frac{\\mathrm C_6^k}{2^6}$.\r\n\n(1) 至少 $3$ 人同时上网的概率为\r\n\n$$\nP(X\\geqslant3)=\\frac{\\mathrm C_6^3+\\mathrm C_6^4+\\mathrm C_6^5+\\mathrm C_6^6}{2^6}=1-\\frac{\\mathrm C_6^0+\\mathrm C_6^1+\\mathrm C_6^2}{2^6}=1-\\frac{1+6+15}{64}=\\frac{21}{32}\n$$\n\n(2) 至少 $4$ 人同时上网的概率为\r\n\n$$\nP(X\\geqslant4)=\\frac{\\mathrm C_6^4+\\mathrm C_6^5+\\mathrm C_6^6}{64}=\\frac{15+6+1}{64}=\\frac{22}{64}>0.3\n$$\n\r\n而至少 $5$ 人同时上网的概率为\r\n\n$$\nP(X\\geqslant5)=\\frac{\\mathrm C_6^5+\\mathrm C_6^6}{64}=\\frac{6+1}{64}=\\frac{7}{64}<0.3\n$$\n\r\n因此，至少 $5$ 人同时上网时，该概率小于 $0.3$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设同时上网的员工人数为随机变量 $X$. 由于每个员工上网与否相互独立，且上网概率均为 $0.5$，所以恰有 $k$ 人同时上网的概率为 $\\frac{\\mathrm{C}_{6}^{k}}{2^{6}}$.</p><ol class=\"enumerate\"><li><p>至少 $3$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant3)=\\frac{\\mathrm{C}_{6}^{3}+\\mathrm{C}_{6}^{4}+\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{2^{6}}=1-\\frac{\\mathrm{C}_{6}^{0}+\\mathrm{C}_{6}^{1}+\\mathrm{C}_{6}^{2}}{2^{6}}=1-\\frac{1+6+15}{64}=\\frac{21}{32}\n$$\n</li><li><p>至少 $4$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant4)=\\frac{\\mathrm{C}_{6}^{4}+\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{64}=\\frac{15+6+1}{64}=\\frac{22}{64}>0.3\n$$\n<p>而至少 $5$ 人同时上网的概率为</p>\n$$\nP(X\\geqslant5)=\\frac{\\mathrm{C}_{6}^{5}+\\mathrm{C}_{6}^{6}}{64}=\\frac{6+1}{64}=\\frac{7}{64}&#x3C;0.3\n$$\n<p>因此，至少 $5$ 人同时上网时，该概率小于 $0.3$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "已知 $a > 0$，函数 $f(x) = x^3 - a$（$x \\in (0, +\\infty)$）. 设 $x_1 > 0$，记曲线 $y = f(x)$ 在点 $(x_1, f(x_1))$ 处的切线为 $l$.\r\n\r\n\n(1) 求 $l$ 的方程；\n\n(2) 设 $l$ 与 $x$ 轴交点为 $(x_{2}, 0)$. 证明：\r\n\\begin{enumerate}\n\n(3) $x_{2} \\ge a^{\\frac{1}{3}}$；\n\n(4) 若 $x_{2} > a^{\\frac{1}{3}}$，则 $a^{\\frac{1}{3}} < x_{2} < x_{1}$.\n\r\n\\end{enumerate}",
-          "choices": [],
+          "body": "<p>已知 $a > 0$，函数 $f(x) = x^{3} - a$（$x \\in (0, +\\infty)$）. 设 $x_{1} > 0$，记曲线 $y = f(x)$ 在点 $(x_{1}, f(x_{1}))$ 处的切线为 $l$.</p><ol class=\"enumerate\"><li><p>求 $l$ 的方程；</p></li><li><p>设 $l$ 与 $x$ 轴交点为 $(x_{2}, 0)$. 证明：</p><p></p><ol class=\"enumerate\"><li><p>$x_{2}\\ge a^{\\frac{1}{3}}$；</p></li><li><p>若 $x_{2}> a^{\\frac{1}{3}}$，则 $a^{\\frac{1}{3}}&#x3C; x_{2}&#x3C; x_{1}$.</p></li></ol><p></p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $f'(x)=3x^2$，所以曲线在 $(x_1,f(x_1))$ 处的切线斜率为 $3x_1^2$. 由点斜式，切线方程为\r\n\n$$\ny-(x_1^3-a)=3x_1^2(x-x_1)\n$$\n\r\n即 $l$ 的方程为 $y=3x_1^2x-2x_1^3-a$.\n\n(2) 令 $y=0$，得切线与 $x$ 轴交点的横坐标\r\n\n$$\nx_2=\\frac{2x_1^3+a}{3x_1^2}\n$$\n\r\n\\begin{enumerate}\n\n(3) 令 $t=a^{\\frac{1}{3}}>0$，则\r\n\n$$\nx_2-t=\\frac{2x_1^3+t^3-3tx_1^2}{3x_1^2}=\\frac{(x_1-t)^2(2x_1+t)}{3x_1^2}\\geqslant0\n$$\n\r\n所以 $x_2\\ge a^{\\frac{1}{3}}$，等号成立当且仅当 $x_1=t$.\n\n(4) 原题给出的条件 $x_2>a^{\\frac{1}{3}}$ 只能说明 $x_1\\neq a^{\\frac{1}{3}}$，并不能推出 $x_2<x_1$. 事实上\r\n\n$$\nx_1-x_2=\\frac{x_1^3-a}{3x_1^2}=\\frac{(x_1-t)(x_1^2+tx_1+t^2)}{3x_1^2}\n$$\n\r\n因为 $x_1^2+tx_1+t^2>0$，所以 $x_1-x_2$ 与 $x_1-t$ 同号. 结合第（i）问，全部情形为：当 $0<x_1<t$ 时，$0<x_1<t<x_2$；当 $x_1=t$ 时，$x_1=x_2=t$；当 $x_1>t$ 时，$t<x_2<x_1$. 因此，原条件 $x_2>t$ 同时允许第一、第三种情形，第（2）（ii）问是错误命题. 例如取 $a=1$，$x_1=\\frac{1}{2}$，此时切线为 $y=\\frac{3}{4}x-\\frac{5}{4}$，故 $x_2=\\frac{5}{3}>1=t$，却有 $x_2>x_1$，反例满足原题全部条件. 原题字面下的完整结论是上述三种情形；在 $x_2>t$ 的条件下，$t<x_2<x_1$ 成立当且仅当 $x_1>t$，不能由原条件单独推出.\n\r\n\\end{enumerate}",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $f'(x)=3x^{2}$，所以曲线在 $(x_{1},f(x_{1}))$ 处的切线斜率为 $3x_{1}^{2}$. 由点斜式，切线方程为</p>\n$$\ny-(x_{1}^{3}-a)=3x_{1}^{2}(x-x_{1})\n$$\n<p>即 $l$ 的方程为 $y=3x_{1}^{2}x-2x_{1}^{3}-a$.</p></li><li><p>令 $y=0$，得切线与 $x$ 轴交点的横坐标</p>\n$$\nx_{2}=\\frac{2x_{1}^{3}+a}{3x_{1}^{2}}\n$$\n<p></p><ol class=\"enumerate\"><li><p>令 $t=a^{\\frac{1}{3}}>0$，则</p>\n$$\nx_{2}-t=\\frac{2x_{1}^{3}+t^{3}-3tx_{1}^{2}}{3x_{1}^{2}}=\\frac{(x_{1}-t)^{2}(2x_{1}+t)}{3x_{1}^{2}}\\geqslant0\n$$\n<p>所以 $x_{2}\\ge a^{\\frac{1}{3}}$，等号成立当且仅当 $x_{1}=t$.</p></li><li><p>原题给出的条件 $x_{2}>a^{\\frac{1}{3}}$ 只能说明 $x_{1}\\neq a^{\\frac{1}{3}}$，并不能推出 $x_{2}&#x3C;x_{1}$. 事实上</p>\n$$\nx_{1}-x_{2}=\\frac{x_{1}^{3}-a}{3x_{1}^{2}}=\\frac{(x_{1}-t)(x_{1}^{2}+tx_{1}+t^{2})}{3x_{1}^{2}}\n$$\n<p>因为 $x_{1}^{2}+tx_{1}+t^{2}>0$，所以 $x_{1}-x_{2}$ 与 $x_{1}-t$ 同号. 结合第（i）问，全部情形为：当 $0&#x3C;x_{1}&#x3C;t$ 时，$0&#x3C;x_{1}&#x3C;t&#x3C;x_{2}$；当 $x_{1}=t$ 时，$x_{1}=x_{2}=t$；当 $x_{1}>t$ 时，$t&#x3C;x_{2}&#x3C;x_{1}$. 因此，原条件 $x_{2}>t$ 同时允许第一、第三种情形，第（2）（ii）问是错误命题. 例如取 $a=1$，$x_{1}=\\frac{1}{2}$，此时切线为 $y=\\frac{3}{4}x-\\frac{5}{4}$，故 $x_{2}=\\frac{5}{3}>1=t$，却有 $x_{2}>x_{1}$，反例满足原题全部条件. 原题字面下的完整结论是上述三种情形；在 $x_{2}>t$ 的条件下，$t&#x3C;x_{2}&#x3C;x_{1}$ 成立当且仅当 $x_{1}>t$，不能由原条件单独推出.</p></li></ol><p></p></li></ol>"
         },
         {
           "num": 23,
-          "body": "已知两点 $M(-1,0)$，$N(1,0)$，且点 $P$ 使 $\\overrightarrow{MP} \\cdot \\overrightarrow{MN}$，$\\overrightarrow{PM} \\cdot \\overrightarrow{PN}$，$\\overrightarrow{NM} \\cdot \\overrightarrow{NP}$ 成公差小于零的等差数列.\r\n\r\n\n(1) 点 $P$ 的轨迹是什么曲线？\n\n(2) 若点 $P$ 坐标为 $(x_0, y_0)$，记 $\\theta$ 为 $\\overrightarrow{PM}$ 与 $\\overrightarrow{PN}$ 的夹角，求 $\\tan \\theta$.",
-          "choices": [],
+          "body": "<p>已知两点 $M(-1,0)$，$N(1,0)$，且点 $P$ 使 $\\overrightarrow{MP}\\cdot \\overrightarrow{MN}$，$\\overrightarrow{PM}\\cdot \\overrightarrow{PN}$，$\\overrightarrow{NM}\\cdot \\overrightarrow{NP}$ 成公差小于零的等差数列.</p><ol class=\"enumerate\"><li><p>点 $P$ 的轨迹是什么曲线？</p></li><li><p>若点 $P$ 坐标为 $(x_{0}, y_{0})$，记 $\\theta$ 为 $\\overrightarrow{PM}$ 与 $\\overrightarrow{PN}$ 的夹角，求 $\\tan \\theta$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设 $P(x,y)$. 则\r\n$\\overrightarrow{MP}\\cdot\\overrightarrow{MN}=2(x+1)$，\r\n$\\overrightarrow{PM}\\cdot\\overrightarrow{PN}=x^2+y^2-1$，\r\n$\\overrightarrow{NM}\\cdot\\overrightarrow{NP}=2(1-x)$.\r\n由于这三个数按所列顺序成等差数列，故中间项是首、末两项的平均数，即\r\n$2(x^2+y^2-1)=2(x+1)+2(1-x)=4$，\r\n从而 $x^2+y^2=3$. 等差数列的公差为\r\n$(x^2+y^2-1)-2(x+1)=-2x$.\r\n题设公差小于零，所以 $x>0$.\r\n\n(1) 点 $P$ 的轨迹是圆 $x^2+y^2=3$ 的右半圆，即 $x^2+y^2=3$，$x>0$.\n\n(2) 在轨迹上，\r\n$\\overrightarrow{PM}\\cdot\\overrightarrow{PN}=2$，\r\n且 $|PM|^2=(x+1)^2+y^2=4+2x$，$|PN|^2=(x-1)^2+y^2=4-2x$.\r\n由于 $\\overrightarrow{PM}\\cdot\\overrightarrow{PN}=2>0$，所以 $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right)$. 由两向量夹角的正切公式，\r\n\n$$\n\\tan\\theta=\\frac{\\left|(-x-1)(-y)-(-y)(1-x)\\right|}{\\overrightarrow{PM}\\cdot\\overrightarrow{PN}}=\\frac{2|y|}{2}=|y|\n$$\n\r\n若 $P=(x_0,y_0)$，则\r\n$\\tan\\theta=|y_0|=\\sqrt{3-x_0^2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $P(x,y)$. 则</p><p>$\\overrightarrow{MP}\\cdot\\overrightarrow{MN}=2(x+1)$，</p><p>$\\overrightarrow{PM}\\cdot\\overrightarrow{PN}=x^{2}+y^{2}-1$，</p><p>$\\overrightarrow{NM}\\cdot\\overrightarrow{NP}=2(1-x)$.</p><p>由于这三个数按所列顺序成等差数列，故中间项是首、末两项的平均数，即</p><p>$2(x^{2}+y^{2}-1)=2(x+1)+2(1-x)=4$，</p><p>从而 $x^{2}+y^{2}=3$. 等差数列的公差为</p><p>$(x^{2}+y^{2}-1)-2(x+1)=-2x$.</p><p>题设公差小于零，所以 $x>0$.</p><ol class=\"enumerate\"><li><p>点 $P$ 的轨迹是圆 $x^{2}+y^{2}=3$ 的右半圆，即 $x^{2}+y^{2}=3$，$x>0$.</p></li><li><p>在轨迹上，</p><p>$\\overrightarrow{PM}\\cdot\\overrightarrow{PN}=2$，</p><p>且 $|PM|^{2}=(x+1)^{2}+y^{2}=4+2x$，$|PN|^{2}=(x-1)^{2}+y^{2}=4-2x$.</p><p>由于 $\\overrightarrow{PM}\\cdot\\overrightarrow{PN}=2>0$，所以 $\\theta\\in\\left[0,\\frac{\\pi}{2}\\right)$. 由两向量夹角的正切公式，</p>\n$$\n\\tan\\theta=\\frac{\\left|(-x-1)(-y)-(-y)(1-x)\\right|}{\\overrightarrow{PM}\\cdot\\overrightarrow{PN}}=\\frac{2|y|}{2}=|y|\n$$\n<p>若 $P=(x_{0},y_{0})$，则</p><p>$\\tan\\theta=|y_{0}|=\\sqrt{3-x_{0}^{2}}$.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

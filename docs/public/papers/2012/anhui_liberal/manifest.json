@@ -1,144 +1,15 @@
 {
+  "title": "2012年普通高等学校招生全国统一考试",
+  "subtitle": "2012年安徽卷（文）",
   "year": "2012",
   "slug": "anhui_liberal",
-  "title": "2012年安徽卷（文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "复数 $z$ 满足 $(z - \\mathrm{i})\\mathrm{i} = 2 + \\mathrm{i}$，则 $z =$（ ）",
+          "body": "复数 $z$ 满足 $(z - \\mathrm{i})\\mathrm{i}= 2 + \\mathrm{i}$，则 $z =$（ ）",
           "choices": [
             "$-1 - \\mathrm{i}$",
             "$1 - \\mathrm{i}$",
@@ -146,13 +17,11 @@
             "$1 - 2\\mathrm{i}$"
           ],
           "answer": "B",
-          "solution": "由 $(z-\\mathrm{i})\\mathrm{i}=2+\\mathrm{i}$，两边同除以 $\\mathrm{i}$，得 $z-\\mathrm{i}=\\frac{2+\\mathrm{i}}{\\mathrm{i}}=1-2\\mathrm{i}$，所以 $z=1-\\mathrm{i}$. 故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $(z-\\mathrm{i})\\mathrm{i}=2+\\mathrm{i}$，两边同除以 $\\mathrm{i}$，得 $z-\\mathrm{i}=\\frac{2+\\mathrm{i}}{\\mathrm{i}}=1-2\\mathrm{i}$，所以 $z=1-\\mathrm{i}$. 故选 B."
         },
         {
           "num": 2,
-          "body": "设集合 $A = \\{x \\mid -3 \\le 2x - 1 \\le 3\\}$，集合 $B$ 为函数 $y = \\lg (x - 1)$ 的定义域，则 $A \\cap B =$（ ）",
+          "body": "设集合 $A = \\{x \\mid -3 \\le 2x - 1 \\le 3\\}$，集合 $B$ 为函数 $y = \\lg (x - 1)$ 的定义域，则 $A \\cap B =$（ ）",
           "choices": [
             "$(1, 2)$",
             "$[1, 2]$",
@@ -160,13 +29,11 @@
             "$(1,2]$"
           ],
           "answer": "D",
-          "solution": "由 $-3\\le 2x-1\\le 3$，得 $-1\\le x\\le 2$，所以 $A=[-1,2]$. 函数 $y=\\lg(x-1)$ 要求 $x-1>0$，故 $B=(1,+\\infty)$. 因此 $A\\cap B=(1,2]$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由 $-3\\le 2x-1\\le 3$，得 $-1\\le x\\le 2$，所以 $A=[-1,2]$. 函数 $y=\\lg(x-1)$ 要求 $x-1>0$，故 $B=(1,+\\infty)$. 因此 $A\\cap B=(1,2]$，故选 D."
         },
         {
           "num": 3,
-          "body": "$\\log_29\\cdot \\log_34 =$ （ ）",
+          "body": "$\\log_{2}9\\cdot \\log_{3}4 =$ （ ）",
           "choices": [
             "$\\frac{1}{4}$",
             "$\\frac{1}{2}$",
@@ -174,13 +41,11 @@
             "4"
           ],
           "answer": "D",
-          "solution": "利用换底公式，$\\log_2 9=2\\log_2 3$，$\\log_3 4=2\\log_3 2$. 又 $\\log_2 3\\cdot\\log_3 2=1$，所以 $\\log_2 9\\cdot\\log_3 4=4$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "利用换底公式，$\\log_{2} 9=2\\log_{2} 3$，$\\log_{3} 4=2\\log_{3} 2$. 又 $\\log_{2} 3\\cdot\\log_{3} 2=1$，所以 $\\log_{2} 9\\cdot\\log_{3} 4=4$，故选 D."
         },
         {
           "num": 4,
-          "body": "命题“存在实数 $x$，使 $x > 1$”的否定是（ ）",
+          "body": "命题“存在实数 $x$，使 $x > 1$”的否定是（ ）",
           "choices": [
             "对任意实数 $x$，都有 $x > 1$",
             "不存在实数 $x$，使 $x \\le 1$",
@@ -188,13 +53,11 @@
             "存在实数 $x$，使 $x \\le 1$"
           ],
           "answer": "C",
-          "solution": "原命题是“存在 $x\\in\\mathbb{R}$，使 $x>1$”. 否定存在命题要改为对任意实数，并将不等式取否定，$x>1$ 的否定为 $x\\le 1$. 因此否定为“对任意实数 $x$，都有 $x\\le 1$”，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "原命题是“存在 $x\\in\\mathbb{R}$，使 $x>1$”. 否定存在命题要改为对任意实数，并将不等式取否定，$x>1$ 的否定为 $x\\le 1$. 因此否定为“对任意实数 $x$，都有 $x\\le 1$”，故选 C."
         },
         {
           "num": 5,
-          "body": "公比为 2 的等比数列 $\\{a_{n}\\}$ 的各项都是正数，且 $a_{3}a_{11} = 16$，则 $a_{5} =$（ ）",
+          "body": "公比为 2 的等比数列 $\\{a_{n}\\}$ 的各项都是正数，且 $a_{3}a_{11}= 16$，则 $a_{5}=$（ ）",
           "choices": [
             "1",
             "2",
@@ -202,13 +65,11 @@
             "8"
           ],
           "answer": "A",
-          "solution": "设等比数列公比为 $q=2$. 由等比数列性质，$a_3a_{11}=a_7^2=16$. 因各项为正数，故 $a_7=4$. 又 $a_7=a_5q^2=4a_5$，所以 $a_5=1$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "设等比数列公比为 $q=2$. 由等比数列性质，$a_{3}a_{11}=a_{7}^{2}=16$. 因各项为正数，故 $a_{7}=4$. 又 $a_{7}=a_{5}q^{2}=4a_{5}$，所以 $a_{5}=1$，故选 A."
         },
         {
           "num": 6,
-          "body": "如图所示，程序框图 （算法流程图） 的输出结果是（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
+          "body": "<p>如图所示，程序框图 （算法流程图） 的输出结果是（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
           "choices": [
             "3",
             "4",
@@ -216,13 +77,11 @@
             "8"
           ],
           "answer": "B",
-          "solution": "程序开始时 $x=1$，$y=1$. 每次判断若 $x\\le 4$，就执行 $x=2x$，$y=y+1$. 依次得到 $(x,y)=(2,2)$、$(4,3)$、$(8,4)$. 当 $x=8>4$ 时停止循环，输出 $y=4$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "程序开始时 $x=1$，$y=1$. 每次判断若 $x\\le 4$，就执行 $x=2x$，$y=y+1$. 依次得到 $(x,y)=(2,2)$、$(4,3)$、$(8,4)$. 当 $x=8>4$ 时停止循环，输出 $y=4$，故选 B."
         },
         {
           "num": 7,
-          "body": "要得到函数 $y = \\cos (2x + 1)$ 的图象，只要将函数 $y = \\cos 2x$ 的图象（ ）",
+          "body": "要得到函数 $y = \\cos (2x + 1)$ 的图象，只要将函数 $y = \\cos 2x$ 的图象（ ）",
           "choices": [
             "向左平移 1 个单位",
             "向右平移 1 个单位",
@@ -230,13 +89,11 @@
             "向右平移 $\\frac{1}{2}$ 个单位"
           ],
           "answer": "C",
-          "solution": "令 $g(x)=\\cos 2x$，则 $g\\left(x+\\frac{1}{2}\\right)=\\cos(2x+1)$. 因此把 $y=\\cos 2x$ 的图象向左平移 $\\frac{1}{2}$ 个单位即可得到 $y=\\cos(2x+1)$ 的图象，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "令 $g(x)=\\cos 2x$，则 $g\\left(x+\\frac{1}{2}\\right)=\\cos(2x+1)$. 因此把 $y=\\cos 2x$ 的图象向左平移 $\\frac{1}{2}$ 个单位即可得到 $y=\\cos(2x+1)$ 的图象，故选 C."
         },
         {
           "num": 8,
-          "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}\r\nx \\ge 0,\\\\\r\nx + 2y \\ge 3,\\\\\r\n2x + y \\le 3,\r\n\\end{cases}$ 则 $z = x - y$ 的最小值是（ ）",
+          "body": "若 $x$，$y$ 满足约束条件 $\\begin{cases}x \\ge 0,\\\\  x + 2y \\ge 3,\\\\  2x + y \\le 3,\\end{cases}$ 则 $z = x - y$ 的最小值是（ ）",
           "choices": [
             "$-3$",
             "0",
@@ -244,13 +101,11 @@
             "3"
           ],
           "answer": "A",
-          "solution": "可行域由 $x\\geqslant0$、$x+2y\\geqslant3$、$2x+y\\leqslant3$ 围成. 三条边界的相关交点为 $(0,\\frac{3}{2})$、$(0,3)$、$(1,1)$：其中后一个由\r\n$\\begin{cases}\r\nx+2y=3,\\\\\r\n2x+y=3\r\n\\end{cases}$ 解得. 在这三个顶点处，$z=x-y$ 的值分别为 $-\\frac{3}{2}$、$-3$、$0$. 线性目标函数在三角形可行域的顶点处取得最值，所以最小值为 $-3$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>可行域由 $x\\geqslant0$、$x+2y\\geqslant3$、$2x+y\\leqslant3$ 围成. 三条边界的相关交点为 $(0,\\frac{3}{2})$、$(0,3)$、$(1,1)$：其中后一个由</p><p>$\\begin{cases}x+2y=3,\\\\  2x+y=3\\end{cases}$ 解得. 在这三个顶点处，$z=x-y$ 的值分别为 $-\\frac{3}{2}$、$-3$、$0$. 线性目标函数在三角形可行域的顶点处取得最值，所以最小值为 $-3$，故选 A.</p>"
         },
         {
           "num": 9,
-          "body": "若直线 $x - y + 1 = 0$ 与圆 $(x - a)^2 + y^2 = 2$ 有公共点，则实数 $a$ 的取值范围是（ ）",
+          "body": "若直线 $x - y + 1 = 0$ 与圆 $(x - a)^{2} + y^{2} = 2$ 有公共点，则实数 $a$ 的取值范围是（ ）",
           "choices": [
             "$[-3, - 1]$",
             "$[-1, 3]$",
@@ -258,13 +113,11 @@
             "$(- \\infty, -3] \\cup [1, +\\infty)$"
           ],
           "answer": "C",
-          "solution": "圆心为 $(a,0)$，半径为 $\\sqrt{2}$. 直线写成 $x-y+1=0$，圆心到直线的距离为 $\\frac{|a+1|}{\\sqrt{2}}$. 直线与圆有公共点当且仅当该距离不大于半径，因此 $\\frac{|a+1|}{\\sqrt{2}}\\le\\sqrt{2}$，即 $|a+1|\\leqslant2$. 解得 $-3\\le a\\leqslant1$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "圆心为 $(a,0)$，半径为 $\\sqrt{2}$. 直线写成 $x-y+1=0$，圆心到直线的距离为 $\\frac{|a+1|}{\\sqrt{2}}$. 直线与圆有公共点当且仅当该距离不大于半径，因此 $\\frac{|a+1|}{\\sqrt{2}}\\le\\sqrt{2}$，即 $|a+1|\\leqslant2$. 解得 $-3\\le a\\leqslant1$，故选 C."
         },
         {
           "num": 10,
-          "body": "袋中共有 6 个除了颜色外完全相同的球，其中有 1 个红球，2 个白球和 3 个黑球. 从袋中任取两球，两球颜色为一白一黑的概率等于（ ）",
+          "body": "袋中共有 6 个除了颜色外完全相同的球，其中有 1 个红球，2 个白球和 3 个黑球. 从袋中任取两球，两球颜色为一白一黑的概率等于（ ）",
           "choices": [
             "$\\frac{1}{5}$",
             "$\\frac{2}{5}$",
@@ -272,9 +125,7 @@
             "$\\frac{4}{5}$"
           ],
           "answer": "B",
-          "solution": "从 $6$ 个球中任取两球的总数为 $\\mathrm C_6^2=15$. 取到一白一黑时，先从两个白球中取一个，再从三个黑球中取一个，共有 $\\mathrm C_2^1\\mathrm C_3^1=6$ 种. 所求概率为 $\\frac{6}{15}=\\frac{2}{5}$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "从 $6$ 个球中任取两球的总数为 $\\mathrm{C}_{6}^{2}=15$. 取到一白一黑时，先从两个白球中取一个，再从三个黑球中取一个，共有 $\\mathrm{C}_{2}^{1}\\mathrm{C}_{3}^{1}=6$ 种. 所求概率为 $\\frac{6}{15}=\\frac{2}{5}$，故选 B."
         }
       ]
     },
@@ -283,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "设向量 $\\mathbf{a} = (1, 2m)$，$\\mathbf{b} = (m + 1, 1)$，$\\mathbf{c} = (2, m)$，若 $(\\mathbf{a} + \\mathbf{c}) \\perp \\mathbf{b}$，则 $|\\mathbf{a}| =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\sqrt{2}\\)",
-          "solution": "由垂直关系，$(\\mathbf{a}+\\mathbf{c})\\cdot\\mathbf{b}=0$. 因为 $\\mathbf{a}+\\mathbf{c}=(3,3m)$，$\\mathbf{b}=(m+1,1)$，所以 $3(m+1)+3m=0$，解得 $m=-\\frac{1}{2}$. 此时 $\\mathbf{a}=(1,-1)$，故 $|\\mathbf{a}|=\\sqrt{1^2+(-1)^2}=\\sqrt{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设向量 $\\mathbf{a}= (1, 2m)$，$\\mathbf{b}= (m + 1, 1)$，$\\mathbf{c}= (2, m)$，若 $(\\mathbf{a}+ \\mathbf{c}) \\perp \\mathbf{b}$，则 $|\\mathbf{a}| =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\sqrt{2}$",
+          "solution": "由垂直关系，$(\\mathbf{a}+\\mathbf{c})\\cdot\\mathbf{b}=0$. 因为 $\\mathbf{a}+\\mathbf{c}=(3,3m)$，$\\mathbf{b}=(m+1,1)$，所以 $3(m+1)+3m=0$，解得 $m=-\\frac{1}{2}$. 此时 $\\mathbf{a}=(1,-1)$，故 $|\\mathbf{a}|=\\sqrt{1^{2}+(-1)^{2}}=\\sqrt{2}$."
         },
         {
           "num": 12,
-          "body": "某几何体的三视图如图所示，该几何体的体积是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>某几何体的三视图如图所示，该几何体的体积是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q12_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "56",
-          "solution": "由三视图可知，该几何体的底面是上、下底分别为 $5$、$2$，高为 $4$ 的梯形，几何体的高为 $4$. 因而底面积为 $\\frac{5+2}{2}\\times4=14$，体积为 $14\\times4=56$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "由三视图可知，该几何体的底面是上、下底分别为 $5$、$2$，高为 $4$ 的梯形，几何体的高为 $4$. 因而底面积为 $\\frac{5+2}{2}\\times4=14$，体积为 $14\\times4=56$."
         },
         {
           "num": 13,
-          "body": "若函数 $f(x) = |2x + a|$ 的单调递增区间是 $[3, +\\infty)$，则 $a =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(-6\\)",
-          "solution": "函数 $f(x)=|2x+a|$ 的折点满足 $2x+a=0$，即 $x=-\\frac{a}{2}$. 因为系数 $2>0$，函数在 $\\left[-\\frac{a}{2},+\\infty\\right)$ 上单调递增. 由题意 $-\\frac{a}{2}=3$，所以 $a=-6$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "若函数 $f(x) = |2x + a|$ 的单调递增区间是 $[3, +\\infty)$，则 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-6$",
+          "solution": "函数 $f(x)=|2x+a|$ 的折点满足 $2x+a=0$，即 $x=-\\frac{a}{2}$. 因为系数 $2>0$，函数在 $\\left[-\\frac{a}{2},+\\infty\\right)$ 上单调递增. 由题意 $-\\frac{a}{2}=3$，所以 $a=-6$."
         },
         {
           "num": 14,
-          "body": "过抛物线 $y^{2}=4x$ 的焦点 $F$ 的直线交该抛物线于 $A$，$B$ 两点，若 $|AF|=3$，则 $|BF|=$ _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{3}{2}\\)",
-          "solution": "将抛物线 $y^2=4x$ 参数化为 $P(t)=(t^2,2t)$，设 $A=P(t_1)$，$B=P(t_2)$. 若 $t_1+t_2=0$，则直线 $AB$ 为竖直直线 $x=t_1^2$. 因为它过焦点 $F=(1,0)$，所以 $t_1^2=1$，从而 $|AF|=t_1^2+1=2$，与题设矛盾，故 $t_1+t_2\\ne0$. 于是过这两点的直线斜率为\r\n$\\frac{2t_2-2t_1}{t_2^2-t_1^2}=\\frac{2}{t_1+t_2}$，所以直线方程为\r\n$y-2t_1=\\frac{2}{t_1+t_2}(x-t_1^2)$，整理得\r\n$2x-(t_1+t_2)y+2t_1t_2=0$. 抛物线焦点为 $F=(1,0)$，代入直线方程得 $t_1t_2=-1$.\r\n\r\n点 $P(t)$ 到焦点的距离为 $FP(t)=\\sqrt{(t^2-1)^2+(2t)^2}=t^2+1$. 由 $|AF|=3$ 得 $t_1^2=2$，从而 $t_2^2=\\frac{1}{2}$. 因此 $|BF|=t_2^2+1=\\frac{3}{2}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "过抛物线 $y^{2}=4x$ 的焦点 $F$ 的直线交该抛物线于 $A$，$B$ 两点，若 $|AF|=3$，则 $|BF|=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{3}{2}$",
+          "solution": "<p>将抛物线 $y^{2}=4x$ 参数化为 $P(t)=(t^{2},2t)$，设 $A=P(t_{1})$，$B=P(t_{2})$. 若 $t_{1}+t_{2}=0$，则直线 $AB$ 为竖直直线 $x=t_{1}^{2}$. 因为它过焦点 $F=(1,0)$，所以 $t_{1}^{2}=1$，从而 $|AF|=t_{1}^{2}+1=2$，与题设矛盾，故 $t_{1}+t_{2}\\ne0$. 于是过这两点的直线斜率为</p><p>$\\frac{2t_{2}-2t_{1}}{t_{2}^{2}-t_{1}^{2}}=\\frac{2}{t_{1}+t_{2}}$，所以直线方程为</p><p>$y-2t_{1}=\\frac{2}{t_{1}+t_{2}}(x-t_{1}^{2})$，整理得</p><p>$2x-(t_{1}+t_{2})y+2t_{1}t_{2}=0$. 抛物线焦点为 $F=(1,0)$，代入直线方程得 $t_{1}t_{2}=-1$.</p><p>点 $P(t)$ 到焦点的距离为 $FP(t)=\\sqrt{(t^{2}-1)^{2}+(2t)^{2}}=t^{2}+1$. 由 $|AF|=3$ 得 $t_{1}^{2}=2$，从而 $t_{2}^{2}=\\frac{1}{2}$. 因此 $|BF|=t_{2}^{2}+1=\\frac{3}{2}$.</p>"
         },
         {
           "num": 15,
-          "body": "若四面体 $ABCD$ 的三组对棱分别相等，即 $AB = CD$，$AC = BD$，$AD = BC$，则 _______ {}.（写出所有正确结论编号）\r\n\r\n\\begin{circlelist}\r\n\\item 四面体 $ABCD$ 每组对棱相互垂直；\r\n\\item 四面体 $ABCD$ 每个面的面积相等；\r\n\\item 从四面体 $ABCD$ 每个顶点出发的三条棱两两夹角之和大于 $90^{\\circ}$ 而小于 $180^{\\circ}$；\r\n\\item 连接四面体 $ABCD$ 每组对棱中点的线段相互垂直平分；\r\n\\item 从四面体 $ABCD$ 每个顶点出发的三条棱的长可作为一个三角形的三边长.\r\n\\end{circlelist}",
-          "choices": [],
-          "answer": "\\(\\circled{2}\\circled{4}\\circled{5}\\)",
-          "solution": "设 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AC}$，$\\mathbf{w}=\\overrightarrow{AD}$，并记 $p=|\\mathbf{u}|$、$q=|\\mathbf{v}|$、$r=|\\mathbf{w}|$. 由三组对棱相等，有 $|\\mathbf{w}-\\mathbf{v}|=p$、$|\\mathbf{w}-\\mathbf{u}|=q$、$|\\mathbf{v}-\\mathbf{u}|=r$. 展开平方后得到 $\\mathbf{u}\\cdot\\mathbf{v}=\\frac{p^2+q^2-r^2}{2}$、$\\mathbf{u}\\cdot\\mathbf{w}=\\frac{p^2+r^2-q^2}{2}$、$\\mathbf{v}\\cdot\\mathbf{w}=\\frac{q^2+r^2-p^2}{2}$.\r\n\r\n四面体的四个面的边长都分别为 $p$，$q$，$r$：例如面 $ABC$ 的三边为 $p$，$q$，$r$，其余三个面也只是这三个长度的排列，所以四个面按边边边全等，面积相等，第 $2$ 项结论正确.\r\n\r\n设 $AB$、$CD$ 的中点分别为 $M_1$、$N_1$，$AC$、$BD$ 的中点分别为 $M_2$、$N_2$，$AD$、$BC$ 的中点分别为 $M_3$、$N_3$. 以 $A$ 为原点，则三条中点连线的方向向量可分别取为\r\n$\\mathbf{r}_1=\\mathbf{v}+\\mathbf{w}-\\mathbf{u}$、$\\mathbf{r}_2=\\mathbf{u}+\\mathbf{w}-\\mathbf{v}$、$\\mathbf{r}_3=\\mathbf{u}+\\mathbf{v}-\\mathbf{w}$. 利用上面的数量积关系逐一计算：\r\n$\\mathbf{r}_1\\cdot\\mathbf{r}_2=2\\mathbf{u}\\cdot\\mathbf{v}+r^2-p^2-q^2=0$，\r\n$\\mathbf{r}_1\\cdot\\mathbf{r}_3=2\\mathbf{u}\\cdot\\mathbf{w}+q^2-p^2-r^2=0$，\r\n$\\mathbf{r}_2\\cdot\\mathbf{r}_3=2\\mathbf{v}\\cdot\\mathbf{w}+p^2-q^2-r^2=0$，所以这三个向量两两垂直. 同时，$M_1N_1$、$M_2N_2$、$M_3N_3$ 的中点都对应于向量 $\\frac{\\mathbf{u}+\\mathbf{v}+\\mathbf{w}}{4}$，所以三条中点连线相互垂直平分，第 $4$ 项结论正确.\r\n\r\n第 $1$ 项结论不一定成立. 例如取 $A=(1,2,1)$、$B=(1,-2,-1)$、$C=(-1,2,-1)$、$D=(-1,-2,1)$，则\r\n$AB^2=CD^2=20$、$AC^2=BD^2=8$、$AD^2=BC^2=20$，三组对棱分别相等；但\r\n$\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=(0,-4,-2)\\cdot(0,-4,2)=12\\ne0$，所以对棱不一定垂直.\r\n\r\n第 $3$ 项结论不一定成立. 正四面体满足三组对棱分别相等，而每个顶点处的三个两两夹角均为 $60^{\\circ}$，其和等于 $180^{\\circ}$，不满足“小于 $180^{\\circ}$”.\r\n\r\n在每个顶点处，三条棱的长度都是 $p$，$q$，$r$ 的排列. 由于它们是同一面的三边，例如面 $ABC$ 给出 $p<q+r$、$q<p+r$、$r<p+q$，所以三条棱长可作为三角形的三边，第 $5$ 项结论正确. 因此所有正确结论的编号为 $\\circled{2}\\circled{4}\\circled{5}$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>若四面体 $ABCD$ 的三组对棱分别相等，即 $AB = CD$，$AC = BD$，$AD = BC$，则<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有正确结论编号）</p><ol class=\"enumerate\"><li><p>四面体 $ABCD$ 每组对棱相互垂直；</p></li><li><p>四面体 $ABCD$ 每个面的面积相等；</p></li><li><p>从四面体 $ABCD$ 每个顶点出发的三条棱两两夹角之和大于 $90^{\\circ}$ 而小于 $180^{\\circ}$；</p></li><li><p>连接四面体 $ABCD$ 每组对棱中点的线段相互垂直平分；</p></li><li><p>从四面体 $ABCD$ 每个顶点出发的三条棱的长可作为一个三角形的三边长.</p></li></ol>",
+          "choices": null,
+          "answer": "$②④⑤$",
+          "solution": "<p>设 $\\mathbf{u}=\\overrightarrow{AB}$，$\\mathbf{v}=\\overrightarrow{AC}$，$\\mathbf{w}=\\overrightarrow{AD}$，并记 $p=|\\mathbf{u}|$、$q=|\\mathbf{v}|$、$r=|\\mathbf{w}|$. 由三组对棱相等，有 $|\\mathbf{w}-\\mathbf{v}|=p$、$|\\mathbf{w}-\\mathbf{u}|=q$、$|\\mathbf{v}-\\mathbf{u}|=r$. 展开平方后得到 $\\mathbf{u}\\cdot\\mathbf{v}=\\frac{p^{2}+q^{2}-r^{2}}{2}$、$\\mathbf{u}\\cdot\\mathbf{w}=\\frac{p^{2}+r^{2}-q^{2}}{2}$、$\\mathbf{v}\\cdot\\mathbf{w}=\\frac{q^{2}+r^{2}-p^{2}}{2}$.</p><p>四面体的四个面的边长都分别为 $p$，$q$，$r$：例如面 $ABC$ 的三边为 $p$，$q$，$r$，其余三个面也只是这三个长度的排列，所以四个面按边边边全等，面积相等，第 $2$ 项结论正确.</p><p>设 $AB$、$CD$ 的中点分别为 $M_{1}$、$N_{1}$，$AC$、$BD$ 的中点分别为 $M_{2}$、$N_{2}$，$AD$、$BC$ 的中点分别为 $M_{3}$、$N_{3}$. 以 $A$ 为原点，则三条中点连线的方向向量可分别取为</p><p>$\\mathbf{r}_{1}=\\mathbf{v}+\\mathbf{w}-\\mathbf{u}$、$\\mathbf{r}_{2}=\\mathbf{u}+\\mathbf{w}-\\mathbf{v}$、$\\mathbf{r}_{3}=\\mathbf{u}+\\mathbf{v}-\\mathbf{w}$. 利用上面的数量积关系逐一计算：</p><p>$\\mathbf{r}_{1}\\cdot\\mathbf{r}_{2}=2\\mathbf{u}\\cdot\\mathbf{v}+r^{2}-p^{2}-q^{2}=0$，</p><p>$\\mathbf{r}_{1}\\cdot\\mathbf{r}_{3}=2\\mathbf{u}\\cdot\\mathbf{w}+q^{2}-p^{2}-r^{2}=0$，</p><p>$\\mathbf{r}_{2}\\cdot\\mathbf{r}_{3}=2\\mathbf{v}\\cdot\\mathbf{w}+p^{2}-q^{2}-r^{2}=0$，所以这三个向量两两垂直. 同时，$M_{1}N_{1}$、$M_{2}N_{2}$、$M_{3}N_{3}$ 的中点都对应于向量 $\\frac{\\mathbf{u}+\\mathbf{v}+\\mathbf{w}}{4}$，所以三条中点连线相互垂直平分，第 $4$ 项结论正确.</p><p>第 $1$ 项结论不一定成立. 例如取 $A=(1,2,1)$、$B=(1,-2,-1)$、$C=(-1,2,-1)$、$D=(-1,-2,1)$，则</p><p>$AB^{2}=CD^{2}=20$、$AC^{2}=BD^{2}=8$、$AD^{2}=BC^{2}=20$，三组对棱分别相等；但</p><p>$\\overrightarrow{AB}\\cdot\\overrightarrow{CD}=(0,-4,-2)\\cdot(0,-4,2)=12\\ne0$，所以对棱不一定垂直.</p><p>第 $3$ 项结论不一定成立. 正四面体满足三组对棱分别相等，而每个顶点处的三个两两夹角均为 $60^{\\circ}$，其和等于 $180^{\\circ}$，不满足“小于 $180^{\\circ}$”.</p><p>在每个顶点处，三条棱的长度都是 $p$，$q$，$r$ 的排列. 由于它们是同一面的三边，例如面 $ABC$ 给出 $p&#x3C;q+r$、$q&#x3C;p+r$、$r&#x3C;p+q$，所以三条棱长可作为三角形的三边，第 $5$ 项结论正确. 因此所有正确结论的编号为 $②④⑤$.</p>"
         }
       ]
     },
@@ -333,60 +174,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对的边为 $a$，$b$，$c$，且有 $2\\sin B\\cos A = \\sin A\\cos C + \\cos A\\sin C$.\r\n\r\n\n(1) 求角 $A$ 的大小；\n\n(2) 若 $b = 2$，$c = 1$，$D$ 为 $BC$ 的中点，求 $AD$ 的长.",
-          "choices": [],
+          "body": "<p>设 $\\triangle ABC$ 的内角 $A$，$B$，$C$ 所对的边为 $a$，$b$，$c$，且有 $2\\sin B\\cos A = \\sin A\\cos C + \\cos A\\sin C$.</p><ol class=\"enumerate\"><li><p>求角 $A$ 的大小；</p></li><li><p>若 $b = 2$，$c = 1$，$D$ 为 $BC$ 的中点，求 $AD$ 的长.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由三角形内角和 $A+B+C=\\pi$，得 $A+C=\\pi-B$. 因此题设等式右边为\r\n$\\sin A\\cos C+\\cos A\\sin C=\\sin(A+C)=\\sin(\\pi-B)=\\sin B$. 从而 $2\\sin B\\cos A=\\sin B$. 因为 $0<B<\\pi$，所以 $\\sin B>0$，可约去 $\\sin B$，得 $2\\cos A=1$. 又 $0<A<\\pi$，故 $A=\\frac{\\pi}{3}$.\n\n(2) 由余弦定理，$a^2=b^2+c^2-2bc\\cos A=2^2+1^2-2\\times2\\times1\\times\\frac{1}{2}=3$. 因为 $D$ 是 $BC$ 的中点，利用中线长公式得 $AD^2=\\frac{2b^2+2c^2-a^2}{4}=\\frac{2\\times2^2+2\\times1^2-3}{4}=\\frac{7}{4}$. 所以 $AD=\\frac{\\sqrt{7}}{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由三角形内角和 $A+B+C=\\pi$，得 $A+C=\\pi-B$. 因此题设等式右边为</p><p>$\\sin A\\cos C+\\cos A\\sin C=\\sin(A+C)=\\sin(\\pi-B)=\\sin B$. 从而 $2\\sin B\\cos A=\\sin B$. 因为 $0&#x3C;B&#x3C;\\pi$，所以 $\\sin B>0$，可约去 $\\sin B$，得 $2\\cos A=1$. 又 $0&#x3C;A&#x3C;\\pi$，故 $A=\\frac{\\pi}{3}$.</p></li><li><p>由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=2^{2}+1^{2}-2\\times2\\times1\\times\\frac{1}{2}=3$. 因为 $D$ 是 $BC$ 的中点，利用中线长公式得 $AD^{2}=\\frac{2b^{2}+2c^{2}-a^{2}}{4}=\\frac{2\\times2^{2}+2\\times1^{2}-3}{4}=\\frac{7}{4}$. 所以 $AD=\\frac{\\sqrt{7}}{2}$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "设 $f(x) = ax + \\frac{1}{ax} + b$ （$a > 0$） 定义在 $(0, +\\infty)$ 上.\r\n\r\n\n(1) 求 $f(x)$ 的最小值；\n\n(2) 若曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y = \\frac{3}{2}x$，求 $a$，$b$ 的值.",
-          "choices": [],
+          "body": "<p>设 $f(x) = ax + \\frac{1}{ax}+ b$ （$a > 0$） 定义在 $(0, +\\infty)$ 上.</p><ol class=\"enumerate\"><li><p>求 $f(x)$ 的最小值；</p></li><li><p>若曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y = \\frac{3}{2}x$，求 $a$，$b$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $a>0$ 且 $x>0$，令 $t=ax$，则 $t>0$，并且 $f(x)=t+\\frac{1}{t}+b$. 由基本不等式，$t+\\frac{1}{t}\\geqslant2$，等号当且仅当 $t=1$，即 $x=\\frac{1}{a}$. 所以 $f(x)$ 的最小值为 $2+b$.\n\n(2) $f(x)=ax+\\frac{1}{ax}+b$ 的导数为 $f'(x)=a-\\frac{1}{ax^2}$. 切线斜率为 $\\frac{3}{2}$，故在 $x=1$ 处有 $a-\\frac{1}{a}=\\frac{3}{2}$. 整理得 $2a^2-3a-2=0$，即 $(2a+1)(a-2)=0$. 因为 $a>0$，所以 $a=2$.\r\n\r\n切线方程为 $y=\\frac{3}{2}x$，点 $(1,f(1))$ 在切线上，故 $f(1)=\\frac{3}{2}$. 代入 $a=2$，得 $2+\\frac{1}{2}+b=\\frac{3}{2}$，所以 $b=-1$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $a>0$ 且 $x>0$，令 $t=ax$，则 $t>0$，并且 $f(x)=t+\\frac{1}{t}+b$. 由基本不等式，$t+\\frac{1}{t}\\geqslant2$，等号当且仅当 $t=1$，即 $x=\\frac{1}{a}$. 所以 $f(x)$ 的最小值为 $2+b$.</p></li><li><p>$f(x)=ax+\\frac{1}{ax}+b$ 的导数为 $f'(x)=a-\\frac{1}{ax^{2}}$. 切线斜率为 $\\frac{3}{2}$，故在 $x=1$ 处有 $a-\\frac{1}{a}=\\frac{3}{2}$. 整理得 $2a^{2}-3a-2=0$，即 $(2a+1)(a-2)=0$. 因为 $a>0$，所以 $a=2$.</p><p>切线方程为 $y=\\frac{3}{2}x$，点 $(1,f(1))$ 在切线上，故 $f(1)=\\frac{3}{2}$. 代入 $a=2$，得 $2+\\frac{1}{2}+b=\\frac{3}{2}$，所以 $b=-1$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "若某产品的直径长与标准值的差的绝对值不超过 $1\\mathrm{~mm}$ 时，则视为合格品，否则视为不合格品. 在近期一次产品抽样检查中，从某厂生产的此种产品中随机抽取 5000 件进行检测，结果发现有 50 件不合格品. 计算这 50 件不合格品的直径长与标准值的差（单位：mm），将所得数据分组，得到如下频率分布表：\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|c|c}\r\n\\hline\r\n分组 & 频数 & 频率 \\\\\r\n\\hline\r\n$[-3,-2)$ & _______ {} & 0.10 \\\\\r\n$[-2,-1)$ & 8 & _______ {} \\\\\r\n$(1,2]$ & _______ {} & 0.50 \\\\\r\n$(2,3]$ & 10 & _______ {} \\\\\r\n$(3,4]$ & _______ {} & _______ {} \\\\\r\n\\hline\r\n合计 & 50 & 1.00 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n\n(1) 将上面表格中缺少的数据补充完整；\n\n(2) 估计该厂生产的这种产品中，不合格品的直径长与标准值的差落在区间 $(1,3]$ 内的概率；\n\n(3) 现对该厂这种产品的某个批次进行检查，结果发现有 20 件不合格品，据此估算这批产品中的合格品的件数.",
-          "choices": [],
+          "body": "<p>若某产品的直径长与标准值的差的绝对值不超过 $1\\mathrm{~mm}$ 时，则视为合格品，否则视为不合格品. 在近期一次产品抽样检查中，从某厂生产的此种产品中随机抽取 5000 件进行检测，结果发现有 50 件不合格品. 计算这 50 件不合格品的直径长与标准值的差（单位：mm），将所得数据分组，得到如下频率分布表：</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>分组 </td><td style=\"text-align: center; border-right: 1px solid\"> 频数 </td><td style=\"text-align: center\"> 频率 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[-3,-2)$ </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td><td style=\"text-align: center\"> 0.10 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[-2,-1)$ </td><td style=\"text-align: center; border-right: 1px solid\"> 8 </td><td style=\"text-align: center\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$(1,2]$ </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td><td style=\"text-align: center\"> 0.50 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$(2,3]$ </td><td style=\"text-align: center; border-right: 1px solid\"> 10 </td><td style=\"text-align: center\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$(3,4]$ </td><td style=\"text-align: center; border-right: 1px solid\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td><td style=\"text-align: center\"><u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>合计 </td><td style=\"text-align: center; border-right: 1px solid\"> 50 </td><td style=\"text-align: center\"> 1.00 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><ol class=\"enumerate\"><li><p>将上面表格中缺少的数据补充完整；</p></li><li><p>估计该厂生产的这种产品中，不合格品的直径长与标准值的差落在区间 $(1,3]$ 内的概率；</p></li><li><p>现对该厂这种产品的某个批次进行检查，结果发现有 20 件不合格品，据此估算这批产品中的合格品的件数.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 频率等于频数除以总频数，因此第一组频数为 $50\\times0.10=5$，第二组频率为 $\\frac{8}{50}=0.16$，第三组频数为 $50\\times0.50=25$，第四组频率为 $\\frac{10}{50}=0.20$. 前四组频率之和为 $0.10+0.16+0.50+0.20=0.96$，所以第五组频率为 $1-0.96=0.04$，第五组频数为 $50\\times0.04=2$. 缺少的数据依次为 $5$，$0.16$，$25$，$0.20$，$2$，$0.04$.\n\n(2) 差落在 $(1,3]$ 内的样本包括分组 $(1,2]$ 和 $(2,3]$，共有 $25+10=35$ 件. 因此估计所求概率为 $\\frac{35}{50}=0.70$.\n\n(3) 抽样中不合格品率为 $\\frac{50}{5000}=0.01$. 该批次有 $20$ 件不合格品，估计该批产品总数为 $\\frac{20}{0.01}=2000$ 件，所以合格品约为 $2000-20=1980$ 件.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>频率等于频数除以总频数，因此第一组频数为 $50\\times0.10=5$，第二组频率为 $\\frac{8}{50}=0.16$，第三组频数为 $50\\times0.50=25$，第四组频率为 $\\frac{10}{50}=0.20$. 前四组频率之和为 $0.10+0.16+0.50+0.20=0.96$，所以第五组频率为 $1-0.96=0.04$，第五组频数为 $50\\times0.04=2$. 缺少的数据依次为 $5$，$0.16$，$25$，$0.20$，$2$，$0.04$.</p></li><li><p>差落在 $(1,3]$ 内的样本包括分组 $(1,2]$ 和 $(2,3]$，共有 $25+10=35$ 件. 因此估计所求概率为 $\\frac{35}{50}=0.70$.</p></li><li><p>抽样中不合格品率为 $\\frac{50}{5000}=0.01$. 该批次有 $20$ 件不合格品，估计该批产品总数为 $\\frac{20}{0.01}=2000$ 件，所以合格品约为 $2000-20=1980$ 件.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，底面 $A_{1}B_{1}C_{1}D_{1}$ 是正方形，$O$ 是 $BD$ 的中点，$E$ 是棱 $AA_{1}$ 上任意一点.\r\n\r\n\n(1) 证明： $BD \\perp EC_{1}$；\n\n(2) 如果 $AB = 2$，$AE = \\sqrt{2}$，$OE \\perp EC_1$，求 $AA_1$ 的长.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，长方体 $ABCD - A_{1}B_{1}C_{1}D_{1}$ 中，底面 $A_{1}B_{1}C_{1}D_{1}$ 是正方形，$O$ 是 $BD$ 的中点，$E$ 是棱 $AA_{1}$ 上任意一点.</p><ol class=\"enumerate\"><li><p>证明： $BD \\perp EC_{1}$；</p></li><li><p>如果 $AB = 2$，$AE = \\sqrt{2}$，$OE \\perp EC_{1}$，求 $AA_{1}$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设正方形底面边长为 $s$，长方体高为 $h$. 建立直角坐标系，取 $A_1=(0,0,0)$、$B_1=(s,0,0)$、$D_1=(0,s,0)$、$C_1=(s,s,0)$，并令 $A=(0,0,h)$、$B=(s,0,h)$、$D=(0,s,h)$. 由于 $O$ 是 $BD$ 的中点，$O=(\\frac{s}{2},\\frac{s}{2},h)$. 设 $E=(0,0,t)$，则 $\\overrightarrow{BD}=(-s,s,0)$，$\\overrightarrow{EC_1}=(s,s,-t)$，从而 $\\overrightarrow{BD}\\cdot\\overrightarrow{EC_1}=-s^2+s^2=0$. 所以 $BD\\perp EC_1$.\n\n(2) 由 $AB=2$，得 $s=2$. 又 $AE=\\sqrt{2}$，故 $E=(0,0,h-\\sqrt{2})$. 于是 $\\overrightarrow{OE}=(-1,-1,-\\sqrt{2})$，$\\overrightarrow{EC_1}=(2,2,-h+\\sqrt{2})$. 条件 $OE\\perp EC_1$ 给出\r\n$\\overrightarrow{OE}\\cdot\\overrightarrow{EC_1}=-2-2+\\sqrt{2}(h-\\sqrt{2})=0$.\r\n因此 $\\sqrt{2}h-6=0$，解得 $AA_1=h=3\\sqrt{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设正方形底面边长为 $s$，长方体高为 $h$. 建立直角坐标系，取 $A_{1}=(0,0,0)$、$B_{1}=(s,0,0)$、$D_{1}=(0,s,0)$、$C_{1}=(s,s,0)$，并令 $A=(0,0,h)$、$B=(s,0,h)$、$D=(0,s,h)$. 由于 $O$ 是 $BD$ 的中点，$O=(\\frac{s}{2},\\frac{s}{2},h)$. 设 $E=(0,0,t)$，则 $\\overrightarrow{BD}=(-s,s,0)$，$\\overrightarrow{EC_1}=(s,s,-t)$，从而 $\\overrightarrow{BD}\\cdot\\overrightarrow{EC_1}=-s^{2}+s^{2}=0$. 所以 $BD\\perp EC_{1}$.</p></li><li><p>由 $AB=2$，得 $s=2$. 又 $AE=\\sqrt{2}$，故 $E=(0,0,h-\\sqrt{2})$. 于是 $\\overrightarrow{OE}=(-1,-1,-\\sqrt{2})$，$\\overrightarrow{EC_1}=(2,2,-h+\\sqrt{2})$. 条件 $OE\\perp EC_{1}$ 给出</p><p>$\\overrightarrow{OE}\\cdot\\overrightarrow{EC_1}=-2-2+\\sqrt{2}(h-\\sqrt{2})=0$.</p><p>因此 $\\sqrt{2}h-6=0$，解得 $AA_{1}=h=3\\sqrt{2}$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "如图，$F_{1}$，$F_{2}$ 分别是椭圆 $C: \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1$ （$a > b > 0$）的左，右焦点，$A$ 是椭圆 $C$ 的顶点；$B$ 是直线 $AF_{2}$ 与椭圆 $C$ 的另一个交点，$\\angle F_{1}AF_{2} = 60^{\\circ}$.\r\n\r\n\n(1) 求椭圆 $C$ 的离心率；\n\n(2) 已知 $\\triangle AF_{1}B$ 面积为 $40\\sqrt{3}$，求 $a$，$b$ 的值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/anhui_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\FloatBarrier",
-          "choices": [],
+          "body": "<p>如图，$F_{1}$，$F_{2}$ 分别是椭圆 $C: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$ （$a > b > 0$）的左，右焦点，$A$ 是椭圆 $C$ 的顶点；$B$ 是直线 $AF_{2}$ 与椭圆 $C$ 的另一个交点，$\\angle F_{1}AF_{2}= 60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $C$ 的离心率；</p></li><li><p>已知 $\\triangle AF_{1}B$ 面积为 $40\\sqrt{3}$，求 $a$，$b$ 的值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p><p><span class=\"macro macro-FloatBarrier\"></span></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设椭圆焦距的一半为 $c$，则 $F_1=(-c,0)$、$F_2=(c,0)$，顶点 $A=(0,b)$. 由 $a^2=b^2+c^2$，有 $AF_1=AF_2=a$. 在等腰三角形 $AF_1F_2$ 中，$\\angle F_1AF_2=60^{\\circ}$，由余弦定理得\r\n$(2c)^2=a^2+a^2-2a^2\\cos60^{\\circ}=a^2$.\r\n所以 $c=\\frac{a}{2}$，椭圆离心率为 $e=\\frac{c}{a}=\\frac{1}{2}$.\n\n(2) 直线 $AF_2$ 的方程为 $y=b-\\frac{b}{c}x$. 将其代入椭圆方程，得\r\n$\\frac{x^2}{a^2}+\\left(1-\\frac{x}{c}\\right)^2=1$，即\r\n$x\\left[\\left(\\frac{1}{a^2}+\\frac{1}{c^2}\\right)x-\\frac{2}{c}\\right]=0$.\r\n其中 $x=0$ 对应交点 $A$，另一个交点 $B$ 的横坐标为\r\n$x_B=\\frac{\\frac{2}{c}}{\\frac{1}{a^2}+\\frac{1}{c^2}}=\\frac{2a^2c}{a^2+c^2}$. 代入 $c=\\frac{a}{2}$，得 $x_B=\\frac{4a}{5}$，进而 $y_B=b\\left(1-\\frac{x_B}{c}\\right)=-\\frac{3b}{5}$. 因此 $A=(0,b)$、$F_1=(-\\frac{a}{2},0)$、$B=(\\frac{4a}{5},-\\frac{3b}{5})$.\r\n\r\n三角形 $AF_1B$ 的面积为\r\n$\\frac{1}{2}\\left|\\det\\begin{pmatrix}-\\frac{a}{2}&-b\\\\ \\frac{4a}{5}&-\\frac{8b}{5}\\end{pmatrix}\\right|=\\frac{4ab}{5}$.\r\n由面积条件得 $ab=50\\sqrt{3}$. 又 $b^2=a^2-c^2=a^2-\\frac{a^2}{4}=\\frac{3a^2}{4}$，且 $b>0$，所以 $b=\\frac{\\sqrt{3}}{2}a$. 于是 $\\frac{\\sqrt{3}}{2}a^2=50\\sqrt{3}$，得 $a=10$，$b=5\\sqrt{3}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆焦距的一半为 $c$，则 $F_{1}=(-c,0)$、$F_{2}=(c,0)$，顶点 $A=(0,b)$. 由 $a^{2}=b^{2}+c^{2}$，有 $AF_{1}=AF_{2}=a$. 在等腰三角形 $AF_{1}F_{2}$ 中，$\\angle F_{1}AF_{2}=60^{\\circ}$，由余弦定理得</p><p>$(2c)^{2}=a^{2}+a^{2}-2a^{2}\\cos60^{\\circ}=a^{2}$.</p><p>所以 $c=\\frac{a}{2}$，椭圆离心率为 $e=\\frac{c}{a}=\\frac{1}{2}$.</p></li><li><p>直线 $AF_{2}$ 的方程为 $y=b-\\frac{b}{c}x$. 将其代入椭圆方程，得</p><p>$\\frac{x^{2}}{a^{2}}+\\left(1-\\frac{x}{c}\\right)^{2}=1$，即</p><p>$x\\left[\\left(\\frac{1}{a^{2}}+\\frac{1}{c^{2}}\\right)x-\\frac{2}{c}\\right]=0$.</p><p>其中 $x=0$ 对应交点 $A$，另一个交点 $B$ 的横坐标为</p><p>$x_{B}=\\frac{\\frac{2}{c}}{\\frac{1}{a^{2}}+\\frac{1}{c^{2}}}=\\frac{2a^{2}c}{a^{2}+c^{2}}$. 代入 $c=\\frac{a}{2}$，得 $x_{B}=\\frac{4a}{5}$，进而 $y_{B}=b\\left(1-\\frac{x_{B}}{c}\\right)=-\\frac{3b}{5}$. 因此 $A=(0,b)$、$F_{1}=(-\\frac{a}{2},0)$、$B=(\\frac{4a}{5},-\\frac{3b}{5})$.</p><p>三角形 $AF_{1}B$ 的面积为</p><p>$\\frac{1}{2}\\left|\\det\\begin{pmatrix}-\\frac{a}{2}&#x26;-b\\\\ \\frac{4a}{5}&#x26;-\\frac{8b}{5}\\end{pmatrix}\\right|=\\frac{4ab}{5}$.</p><p>由面积条件得 $ab=50\\sqrt{3}$. 又 $b^{2}=a^{2}-c^{2}=a^{2}-\\frac{a^{2}}{4}=\\frac{3a^{2}}{4}$，且 $b>0$，所以 $b=\\frac{\\sqrt{3}}{2}a$. 于是 $\\frac{\\sqrt{3}}{2}a^{2}=50\\sqrt{3}$，得 $a=10$，$b=5\\sqrt{3}$.</p></li></ol>"
         },
         {
           "num": 21,
-          "body": "设 $f(x) = \\frac{x}{2} + \\sin x$ 的所有正的极小值点从小到大排成的数列为 $\\{x_n\\}$.\r\n\r\n\n(1) 求数列 $\\{x_n\\}$ 的通项公式；\n\n(2) 设 $\\{x_n\\}$ 的前 $n$ 项和为 $S_n$，求 $\\sin S_n$.",
-          "choices": [],
+          "body": "<p>设 $f(x) = \\frac{x}{2}+ \\sin x$ 的所有正的极小值点从小到大排成的数列为 $\\{x_{n}\\}$.</p><ol class=\"enumerate\"><li><p>求数列 $\\{x_{n}\\}$ 的通项公式；</p></li><li><p>设 $\\{x_{n}\\}$ 的前 $n$ 项和为 $S_{n}$，求 $\\sin S_{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $f'(x)=\\frac{1}{2}+\\cos x$. 临界点满足 $\\cos x=-\\frac{1}{2}$，所以 $x=\\frac{2\\pi}{3}+2k\\pi$ 或 $x=\\frac{4\\pi}{3}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 又 $f''(x)=-\\sin x$，在 $x=\\frac{2\\pi}{3}+2k\\pi$ 处 $f''(x)=-\\frac{\\sqrt{3}}{2}<0$，为极大值点；在 $x=\\frac{4\\pi}{3}+2k\\pi$ 处 $f''(x)=\\frac{\\sqrt{3}}{2}>0$，为极小值点. 正的极小值点从小到大为 $\\frac{4\\pi}{3}$，$\\frac{10\\pi}{3}$，$\\frac{16\\pi}{3}$，$\\ldots$，故\r\n$x_n=\\frac{4\\pi}{3}+2(n-1)\\pi=-\\frac{2\\pi}{3}+2n\\pi$，其中 $n\\in\\mathbb N_{+}$.\n\n(2) $S_n=\\sum_{k=1}^n\\left(-\\frac{2\\pi}{3}+2k\\pi\\right)=-\\frac{2n\\pi}{3}+\\pi n(n+1)$. 因为 $n(n+1)$ 为偶数，$\\pi n(n+1)$ 是 $2\\pi$ 的整数倍，所以 $\\sin S_n=\\sin\\left(-\\frac{2n\\pi}{3}\\right)$. 进一步按 $n$ 除以 $3$ 的余数分类，$\\sin S_n=0$（$3\\mid n$），$\\sin S_n=-\\frac{\\sqrt{3}}{2}$（$n=3k+1$），$\\sin S_n=\\frac{\\sqrt{3}}{2}$（$n=3k+2$）.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\frac{1}{2}+\\cos x$. 临界点满足 $\\cos x=-\\frac{1}{2}$，所以 $x=\\frac{2\\pi}{3}+2k\\pi$ 或 $x=\\frac{4\\pi}{3}+2k\\pi$，其中 $k\\in\\mathbb{Z}$. 又 $f''(x)=-\\sin x$，在 $x=\\frac{2\\pi}{3}+2k\\pi$ 处 $f''(x)=-\\frac{\\sqrt{3}}{2}&#x3C;0$，为极大值点；在 $x=\\frac{4\\pi}{3}+2k\\pi$ 处 $f''(x)=\\frac{\\sqrt{3}}{2}>0$，为极小值点. 正的极小值点从小到大为 $\\frac{4\\pi}{3}$，$\\frac{10\\pi}{3}$，$\\frac{16\\pi}{3}$，$\\ldots$，故</p><p>$x_{n}=\\frac{4\\pi}{3}+2(n-1)\\pi=-\\frac{2\\pi}{3}+2n\\pi$，其中 $n\\in\\mathbb{N}_{+}$.</p></li><li><p>$S_{n}=\\sum_{k=1}^{n}\\left(-\\frac{2\\pi}{3}+2k\\pi\\right)=-\\frac{2n\\pi}{3}+\\pi n(n+1)$. 因为 $n(n+1)$ 为偶数，$\\pi n(n+1)$ 是 $2\\pi$ 的整数倍，所以 $\\sin S_{n}=\\sin\\left(-\\frac{2n\\pi}{3}\\right)$. 进一步按 $n$ 除以 $3$ 的余数分类，$\\sin S_{n}=0$（$3\\mid n$），$\\sin S_{n}=-\\frac{\\sqrt{3}}{2}$（$n=3k+1$），$\\sin S_{n}=\\frac{\\sqrt{3}}{2}$（$n=3k+2$）.</p></li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

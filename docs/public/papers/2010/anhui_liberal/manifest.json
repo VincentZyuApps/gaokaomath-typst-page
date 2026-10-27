@@ -1,144 +1,15 @@
 {
+  "title": "2010年普通高等学校招生全国统一考试",
+  "subtitle": "2010年安徽卷（秋文）",
   "year": "2010",
   "slug": "anhui_liberal",
-  "title": "2010年安徽卷（秋文）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若 $A = \\{x \\mid x + 1 > 0\\}$，$B = \\{x \\mid x - 3 < 0\\}$，则 $A \\cap B =$（ ）",
+          "body": "若 $A = \\{x \\mid x + 1 > 0\\}$，$B = \\{x \\mid x - 3 &#x3C; 0\\}$，则 $A \\cap B =$（ ）",
           "choices": [
             "$(-1, +\\infty)$",
             "$(- \\infty, 3)$",
@@ -146,41 +17,35 @@
             "$(1,3)$"
           ],
           "answer": "C",
-          "solution": "由 $x+1>0$，得 $x>-1$，所以 $A=(-1,+\\infty)$；由 $x-3<0$，得 $x<3$，所以 $B=(-\\infty,3)$. 因而\r\n$A\\cap B=(-1,3)$，\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $x+1>0$，得 $x>-1$，所以 $A=(-1,+\\infty)$；由 $x-3&#x3C;0$，得 $x&#x3C;3$，所以 $B=(-\\infty,3)$. 因而</p><p>$A\\cap B=(-1,3)$，</p><p>故选 C.</p>"
         },
         {
           "num": 2,
-          "body": "已知 $\\mathrm{i}^2 = -1$，则 $\\mathrm{i}(1 - \\sqrt{3}\\mathrm{i}) =$（ ）",
+          "body": "已知 $\\mathrm{i}^{2} = -1$，则 $\\mathrm{i}(1 - \\sqrt{3}\\mathrm{i}) =$（ ）",
           "choices": [
-            "$\\sqrt{3} - \\mathrm{i}$",
-            "$\\sqrt{3} + \\mathrm{i}$",
-            "$-\\sqrt{3} - \\mathrm{i}$",
-            "$-\\sqrt{3} + \\mathrm{i}$"
+            "$\\sqrt{3}- \\mathrm{i}$",
+            "$\\sqrt{3}+ \\mathrm{i}$",
+            "$-\\sqrt{3}- \\mathrm{i}$",
+            "$-\\sqrt{3}+ \\mathrm{i}$"
           ],
           "answer": "B",
-          "solution": "利用 $\\mathrm{i}^2=-1$，直接展开得\r\n$\\mathrm{i}(1-\\sqrt3\\mathrm{i})=\\mathrm{i}-\\sqrt3\\mathrm{i}^2=\\mathrm{i}+\\sqrt3=\\sqrt3+\\mathrm{i}$，\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>利用 $\\mathrm{i}^{2}=-1$，直接展开得</p><p>$\\mathrm{i}(1-\\sqrt{3}\\mathrm{i})=\\mathrm{i}-\\sqrt{3}\\mathrm{i}^{2}=\\mathrm{i}+\\sqrt{3}=\\sqrt{3}+\\mathrm{i}$，</p><p>故选 B.</p>"
         },
         {
           "num": 3,
-          "body": "设向量 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=\\left(\\frac{1}{2},\\frac{1}{2}\\right)$，则下列结论中正确的是（ ）",
+          "body": "设向量 $\\mathbf{a}=(1,0)$，$\\mathbf{b}=\\left(\\frac{1}{2},\\frac{1}{2}\\right)$，则下列结论中正确的是（ ）",
           "choices": [
             "$|\\mathbf{a}| = |\\mathbf{b}|$",
-            "$\\mathbf{a}\\cdot \\mathbf{b} = \\frac{\\sqrt{2}}{2}$",
-            "$\\mathbf{a} \\parallel \\mathbf{b}$",
-            "$\\mathbf{a} - \\mathbf{b}$ 与 $\\mathbf{b}$ 垂直"
+            "$\\mathbf{a}\\cdot \\mathbf{b}= \\frac{\\sqrt{2}}{2}$",
+            "$\\mathbf{a}\\parallel \\mathbf{b}$",
+            "$\\mathbf{a}- \\mathbf{b}$ 与 $\\mathbf{b}$ 垂直"
           ],
           "answer": "D",
-          "solution": "先计算\r\n $|\\mathbf{a}|=1$，$|\\mathbf{b}|=\\sqrt{\\left(\\frac12\\right)^2+\\left(\\frac12\\right)^2}=\\frac{\\sqrt2}{2}$.\r\n所以选项 A 错误；又\r\n$\\mathbf{a}\\cdot\\mathbf{b}=1\\cdot\\frac12+0\\cdot\\frac12=\\frac12\\ne\\frac{\\sqrt2}{2}$，\r\n故选项 B 错误. 两向量的坐标不成比例，选项 C 错误. 最后\r\n$(\\mathbf{a}-\\mathbf{b})\\cdot\\mathbf{b}=\\left(\\frac12,-\\frac12\\right)\\cdot\\left(\\frac12,\\frac12\\right)=\\frac14-\\frac14=0$，\r\n所以 $\\mathbf{a}-\\mathbf{b}$ 与 $\\mathbf{b}$ 垂直，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>先计算</p><p>$|\\mathbf{a}|=1$，$|\\mathbf{b}|=\\sqrt{\\left(\\frac{1}{2}\\right)^{2}+\\left(\\frac{1}{2}\\right)^{2}}=\\frac{\\sqrt{2}}{2}$.</p><p>所以选项 A 错误；又</p><p>$\\mathbf{a}\\cdot\\mathbf{b}=1\\cdot\\frac{1}{2}+0\\cdot\\frac{1}{2}=\\frac{1}{2}\\ne\\frac{\\sqrt{2}}{2}$，</p><p>故选项 B 错误. 两向量的坐标不成比例，选项 C 错误. 最后</p><p>$(\\mathbf{a}-\\mathbf{b})\\cdot\\mathbf{b}=\\left(\\frac{1}{2},-\\frac{1}{2}\\right)\\cdot\\left(\\frac{1}{2},\\frac{1}{2}\\right)=\\frac{1}{4}-\\frac{1}{4}=0$，</p><p>所以 $\\mathbf{a}-\\mathbf{b}$ 与 $\\mathbf{b}$ 垂直，故选 D.</p>"
         },
         {
           "num": 4,
-          "body": "过点 $(1,0)$ 且与直线 $x - 2y - 2 = 0$ 平行的直线方程是（ ）",
+          "body": "过点 $(1,0)$ 且与直线 $x - 2y - 2 = 0$ 平行的直线方程是（ ）",
           "choices": [
             "$x - 2y - 1 = 0$",
             "$x - 2y + 1 = 0$",
@@ -188,13 +53,11 @@
             "$x + 2y - 1 = 0$"
           ],
           "answer": "A",
-          "solution": "与直线 $x-2y-2=0$ 平行的直线可设为\r\n$x-2y+k=0$. 将点 $(1,0)$ 代入，得 $1+k=0$，即 $k=-1$. 因此所求直线为 $x-2y-1=0$，\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>与直线 $x-2y-2=0$ 平行的直线可设为</p><p>$x-2y+k=0$. 将点 $(1,0)$ 代入，得 $1+k=0$，即 $k=-1$. 因此所求直线为 $x-2y-1=0$，</p><p>故选 A.</p>"
         },
         {
           "num": 5,
-          "body": "设数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n} = n^{2}$，则 $a_{8}$ 的值为（ ）",
+          "body": "设数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}= n^{2}$，则 $a_{8}$ 的值为（ ）",
           "choices": [
             "$15$",
             "$16$",
@@ -202,27 +65,23 @@
             "$64$"
           ],
           "answer": "A",
-          "solution": "由前 $n$ 项和与通项的关系，\r\n$a_8=S_8-S_7=8^2-7^2=64-49=15$，\r\n故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由前 $n$ 项和与通项的关系，</p><p>$a_{8}=S_{8}-S_{7}=8^{2}-7^{2}=64-49=15$，</p><p>故选 A.</p>"
         },
         {
           "num": 6,
-          "body": "设 $abc > 0$，二次函数 $f(x) = ax^2 + bx + c$ 的图象可能是（ ）",
+          "body": "设 $abc > 0$，二次函数 $f(x) = ax^{2} + bx + c$ 的图象可能是（ ）",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q6_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q6_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q6_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q6_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/anhui_liberal/q6_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/anhui_liberal/q6_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/anhui_liberal/q6_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/anhui_liberal/q6_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "D",
-          "solution": "二次函数图象的开口方向由 $a$ 的符号决定，纵轴截距为 $c$，对称轴为\r\n$x=-\\frac{b}{2a}$.\r\n逐图判断：图 A 开口向下，故 $a<0$；对称轴在 $y$ 轴左侧，故 $-\\frac{b}{(2a)}<0$，从而 $b<0$；又图象在 $y$ 轴处于 $x$ 轴下方，故 $c<0$，所以 $abc<0$. 图 B 开口向下，故 $a<0$；对称轴在 $y$ 轴右侧，故 $b>0$；且 $c>0$，所以 $abc<0$. 图 C 开口向上，故 $a>0$；对称轴在 $y$ 轴左侧，故 $b>0$；且 $c<0$，所以 $abc<0$. 图 D 开口向上，所以 $a>0$；对称轴在 $y$ 轴右侧，所以 $-\\frac{b}{(2a)}>0$，从而 $b<0$；且 $c<0$，于是 $abc>0$. 因此只有图 D 可能，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>二次函数图象的开口方向由 $a$ 的符号决定，纵轴截距为 $c$，对称轴为</p><p>$x=-\\frac{b}{2a}$.</p><p>逐图判断：图 A 开口向下，故 $a&#x3C;0$；对称轴在 $y$ 轴左侧，故 $-\\frac{b}{(2a)}&#x3C;0$，从而 $b&#x3C;0$；又图象在 $y$ 轴处于 $x$ 轴下方，故 $c&#x3C;0$，所以 $abc&#x3C;0$. 图 B 开口向下，故 $a&#x3C;0$；对称轴在 $y$ 轴右侧，故 $b>0$；且 $c>0$，所以 $abc&#x3C;0$. 图 C 开口向上，故 $a>0$；对称轴在 $y$ 轴左侧，故 $b>0$；且 $c&#x3C;0$，所以 $abc&#x3C;0$. 图 D 开口向上，所以 $a>0$；对称轴在 $y$ 轴右侧，所以 $-\\frac{b}{(2a)}>0$，从而 $b&#x3C;0$；且 $c&#x3C;0$，于是 $abc>0$. 因此只有图 D 可能，故选 D.</p>"
         },
         {
           "num": 7,
-          "body": "设 $a = \\left(\\frac{3}{5}\\right)^{\\frac{2}{5}}$，$b = \\left(\\frac{2}{5}\\right)^{\\frac{3}{5}}$，$c = \\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}$，则 $a$，$b$，$c$ 的大小关系是（ ）",
+          "body": "设 $a = \\left(\\frac{3}{5}\\right)^{\\frac{2}{5}}$，$b = \\left(\\frac{2}{5}\\right)^{\\frac{3}{5}}$，$c = \\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}$，则 $a$，$b$，$c$ 的大小关系是（ ）",
           "choices": [
             "$a > c > b$",
             "$a > b > c$",
@@ -230,13 +89,11 @@
             "$b > c > a$"
           ],
           "answer": "A",
-          "solution": "因为 $0<\\frac25<1$，幂函数 $x\\mapsto(\\frac25)^x$ 随指数增大而减小，而\r\n$\\frac35>\\frac25$，所以\r\n$b=\\left(\\frac25\\right)^{\\frac{3}{5}}<\\left(\\frac25\\right)^{\\frac{2}{5}}=c$.\r\n又因为 $\\frac35>\\frac25>0$，在正指数 $\\frac{2}{5}$ 下底数越大幂越大，故\r\n$a=\\left(\\frac35\\right)^{\\frac{2}{5}}>\\left(\\frac25\\right)^{\\frac{2}{5}}=c$.\r\n因此 $a>c>b$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $0&#x3C;\\frac{2}{5}&#x3C;1$，幂函数 $x\\mapsto(\\frac{2}{5})^{x}$ 随指数增大而减小，而</p><p>$\\frac{3}{5}>\\frac{2}{5}$，所以</p><p>$b=\\left(\\frac{2}{5}\\right)^{\\frac{3}{5}}&#x3C;\\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}=c$.</p><p>又因为 $\\frac{3}{5}>\\frac{2}{5}>0$，在正指数 $\\frac{2}{5}$ 下底数越大幂越大，故</p><p>$a=\\left(\\frac{3}{5}\\right)^{\\frac{2}{5}}>\\left(\\frac{2}{5}\\right)^{\\frac{2}{5}}=c$.</p><p>因此 $a>c>b$，故选 A.</p>"
         },
         {
           "num": 8,
-          "body": "设 $x$，$y$ 满足约束条件 $\\begin{cases}\r\n2x + y - 6 \\ge 0,\\\\\r\nx + 2y - 6 \\le 0,\\\\\r\ny \\ge 0,\r\n\\end{cases}$，则目标函数 $z = x + y$ 的最大值是（ ）",
+          "body": "设 $x$，$y$ 满足约束条件 $\\begin{cases}2x + y - 6 \\ge 0,\\\\  x + 2y - 6 \\le 0,\\\\  y \\ge 0,\\end{cases}$，则目标函数 $z = x + y$ 的最大值是（ ）",
           "choices": [
             "$3$",
             "$4$",
@@ -244,13 +101,11 @@
             "$8$"
           ],
           "answer": "C",
-          "solution": "三条边界直线为 $2x+y=6$、$x+2y=6$ 和 $y=0$. 两条斜边界联立得 $(x,y)=(2,2)$；与 $y=0$ 分别联立，得到 $(3,0)$ 和 $(6,0)$. 这三个点都满足原不等式，且不等式组所表示的可行域是以它们为顶点的三角形，因此线性目标函数的最值只需在这三个顶点比较. 逐点代入 $z=x+y$，得 $z(3,0)=3$、$z(2,2)=4$、$z(6,0)=6$. 所以 $z$ 的最大值为 $6$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "三条边界直线为 $2x+y=6$、$x+2y=6$ 和 $y=0$. 两条斜边界联立得 $(x,y)=(2,2)$；与 $y=0$ 分别联立，得到 $(3,0)$ 和 $(6,0)$. 这三个点都满足原不等式，且不等式组所表示的可行域是以它们为顶点的三角形，因此线性目标函数的最值只需在这三个顶点比较. 逐点代入 $z=x+y$，得 $z(3,0)=3$、$z(2,2)=4$、$z(6,0)=6$. 所以 $z$ 的最大值为 $6$，故选 C."
         },
         {
           "num": 9,
-          "body": "一个几何体的三视图如图，该几何体的表面积为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>一个几何体的三视图如图，该几何体的表面积为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q9_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$372$",
             "$360$",
@@ -258,13 +113,11 @@
             "$280$"
           ],
           "answer": "B",
-          "solution": "由三视图可知，该几何体由一个长方体底座和其上的长方体组成. 底座的长、宽、高分别为 $8$，$10$，$2$，上部长方体的长、宽、高分别为 $6$，$2$，$8$，两者的接触面为长 $6$、宽 $2$ 的矩形.\r\n\r\n底座和上部长方体的表面积之和为\r\n\n$$\n2(8\\cdot10+8\\cdot2+10\\cdot2)+2(6\\cdot2+6\\cdot8+2\\cdot8)=232+152=384\n$$\n\r\n接触面在两部分的表面积中各计算了一次，需减去两倍接触面积\r\n\n$$\n2\\cdot(6\\cdot2)=24\n$$\n\r\n所以该几何体的表面积为 $384-24=360$，故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由三视图可知，该几何体由一个长方体底座和其上的长方体组成. 底座的长、宽、高分别为 $8$，$10$，$2$，上部长方体的长、宽、高分别为 $6$，$2$，$8$，两者的接触面为长 $6$、宽 $2$ 的矩形.</p><p>底座和上部长方体的表面积之和为</p>\n$$\n2(8\\cdot10+8\\cdot2+10\\cdot2)+2(6\\cdot2+6\\cdot8+2\\cdot8)=232+152=384\n$$\n<p>接触面在两部分的表面积中各计算了一次，需减去两倍接触面积</p>\n$$\n2\\cdot(6\\cdot2)=24\n$$\n<p>所以该几何体的表面积为 $384-24=360$，故选 B.</p>"
         },
         {
           "num": 10,
-          "body": "甲从正方形四个顶点中任意选择两个顶点连成直线，乙也从该正方形四个顶点中任意选择两个顶点连成直线，则所得的两条直线相互垂直的概率是（ ）",
+          "body": "甲从正方形四个顶点中任意选择两个顶点连成直线，乙也从该正方形四个顶点中任意选择两个顶点连成直线，则所得的两条直线相互垂直的概率是（ ）",
           "choices": [
             "$\\frac{3}{18}$",
             "$\\frac{3}{18}$",
@@ -272,9 +125,7 @@
             "$\\frac{6}{18}$"
           ],
           "answer": "C",
-          "solution": "正方形四个顶点两两连线共有 $\\mathrm C_4^2=6$ 条，其中有 $4$ 条边和 $2$ 条对角线. 甲、乙分别独立选择一条直线，基本事件总数为 $6\\times6=36$.\r\n\r\n每条边都分别与两条相邻的边垂直，因此有 $4\\times2=8$ 个有序选择；两条对角线互相垂直，又产生 $2$ 个有序选择. 有利事件数为 $8+2=10$，所求概率为\r\n$\\frac{10}{36}=\\frac5{18}$，\r\n故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>正方形四个顶点两两连线共有 $\\mathrm{C}_{4}^{2}=6$ 条，其中有 $4$ 条边和 $2$ 条对角线. 甲、乙分别独立选择一条直线，基本事件总数为 $6\\times6=36$.</p><p>每条边都分别与两条相邻的边垂直，因此有 $4\\times2=8$ 个有序选择；两条对角线互相垂直，又产生 $2$ 个有序选择. 有利事件数为 $8+2=10$，所求概率为</p><p>$\\frac{10}{36}=\\frac{5}{18}$，</p><p>故选 C.</p>"
         }
       ]
     },
@@ -283,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "命题“存在 $x \\in \\mathbb{R}$，使得 $x^2 + 2x + 5 = 0$”的否定是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\forall x \\in \\mathbb{R}\\)，\\(\\ x^2 + 2x + 5 \\neq 0\\)",
-          "solution": "将命题中的“存在”改为全称量词“任意”，并将“等于零”改为“不等于零”，所以其否定为\r\n对任意 $x\\in\\mathbb{R}$，都有 $x^2+2x+5\\ne0$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "命题“存在 $x \\in \\mathbb{R}$，使得 $x^{2} + 2x + 5 = 0$”的否定是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\forall x \\in \\mathbb{R}$，$\\ x^{2} + 2x + 5 \\neq 0$",
+          "solution": "<p>将命题中的“存在”改为全称量词“任意”，并将“等于零”改为“不等于零”，所以其否定为</p><p>对任意 $x\\in\\mathbb{R}$，都有 $x^{2}+2x+5\\ne0$.</p>"
         },
         {
           "num": 12,
-          "body": "抛物线 $y^{2}=4x$ 的焦点坐标是 _______ {}.",
-          "choices": [],
-          "answer": "\\((1,0)\\)",
-          "solution": "抛物线标准方程为 $y^2=2px$，与 $y^2=4x$ 比较得 $2p=4$，所以 $p=2$. 因而焦点坐标为\r\n$\\left(\\frac p2,0\\right)=(1,0)$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "抛物线 $y^{2}=4x$ 的焦点坐标是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$(1,0)$",
+          "solution": "<p>抛物线标准方程为 $y^{2}=2px$，与 $y^{2}=4x$ 比较得 $2p=4$，所以 $p=2$. 因而焦点坐标为</p><p>$\\left(\\frac{p}{2},0\\right)=(1,0)$.</p>"
         },
         {
           "num": 13,
-          "body": "如图所示，程序框图（算法流程图）的输出值 $x =$ _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
-          "answer": "\\(12\\)",
-          "solution": "初始值为 $x=1$. 按流程图逐步运行：$1$ 为奇数，执行 $x=x+1$ 得 $x=2$；$2$ 为偶数，执行 $x=x+2$ 得 $x=4$，且 $4\\leqslant8$，执行 $x=x+1$ 得 $x=5$；$5$ 为奇数，执行 $x=x+1$ 得 $x=6$；$6$ 为偶数，执行 $x=x+2$ 得 $x=8$，且 $8\\leqslant8$，执行 $x=x+1$ 得 $x=9$；$9$ 为奇数，执行 $x=x+1$ 得 $x=10$；$10$ 为偶数，执行 $x=x+2$ 得 $x=12$. 此时 $12>8$，流程输出 $12$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>如图所示，程序框图（算法流程图）的输出值 $x =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q13_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
+          "answer": "$12$",
+          "solution": "初始值为 $x=1$. 按流程图逐步运行：$1$ 为奇数，执行 $x=x+1$ 得 $x=2$；$2$ 为偶数，执行 $x=x+2$ 得 $x=4$，且 $4\\leqslant8$，执行 $x=x+1$ 得 $x=5$；$5$ 为奇数，执行 $x=x+1$ 得 $x=6$；$6$ 为偶数，执行 $x=x+2$ 得 $x=8$，且 $8\\leqslant8$，执行 $x=x+1$ 得 $x=9$；$9$ 为奇数，执行 $x=x+1$ 得 $x=10$；$10$ 为偶数，执行 $x=x+2$ 得 $x=12$. 此时 $12>8$，流程输出 $12$."
         },
         {
           "num": 14,
-          "body": "某地有居民 $100000\\text{ 户}$，其中普通家庭 $99000\\text{ 户}$，高收入家庭 $1000\\text{ 户}$. 从普通家庭中以简单随机抽样方式抽取 $990\\text{ 户}$，从高收入家庭中以简单随机抽样方式抽取 $100\\text{ 户}$ 进行调查，发现共有 $120\\text{ 户}$ 家庭拥有 $3\\text{ 套}$ 或 $3\\text{ 套}$ 以上住房，其中普通家庭 $50\\text{ 户}$，高收入家庭 $70\\text{ 户}$. 依据这些数据并结合所掌握的统计知识，你认为该地拥有 $3\\text{ 套}$ 或 $3\\text{ 套}$ 以上住房的家庭所占比例的合理估计是 _______ {}.",
-          "choices": [],
-          "answer": "\\(5.7\\%\\)",
-          "solution": "分层抽样后，应先分别估计两类家庭中的比例，再按两类家庭在总体中的比例加权. 普通家庭中的样本比例为\r\n$\\frac{50}{990}$，\r\n高收入家庭中的样本比例为\r\n$\\frac{70}{100}$.\r\n因此总体比例的合理估计为\r\n$\\frac{99000}{100000}\\cdot\\frac{50}{990}+\\frac{1000}{100000}\\cdot\\frac{70}{100}=0.05+0.007=0.057=5.7\\%$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "某地有居民 $100000\\text{ 户}$，其中普通家庭 $99000\\text{ 户}$，高收入家庭 $1000\\text{ 户}$. 从普通家庭中以简单随机抽样方式抽取 $990\\text{ 户}$，从高收入家庭中以简单随机抽样方式抽取 $100\\text{ 户}$ 进行调查，发现共有 $120\\text{ 户}$ 家庭拥有 $3\\text{ 套}$ 或 $3\\text{ 套}$ 以上住房，其中普通家庭 $50\\text{ 户}$，高收入家庭 $70\\text{ 户}$. 依据这些数据并结合所掌握的统计知识，你认为该地拥有 $3\\text{ 套}$ 或 $3\\text{ 套}$ 以上住房的家庭所占比例的合理估计是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$5.7\\%$",
+          "solution": "<p>分层抽样后，应先分别估计两类家庭中的比例，再按两类家庭在总体中的比例加权. 普通家庭中的样本比例为</p><p>$\\frac{50}{990}$，</p><p>高收入家庭中的样本比例为</p><p>$\\frac{70}{100}$.</p><p>因此总体比例的合理估计为</p><p>$\\frac{99000}{100000}\\cdot\\frac{50}{990}+\\frac{1000}{100000}\\cdot\\frac{70}{100}=0.05+0.007=0.057=5.7\\%$.</p>"
         },
         {
           "num": 15,
-          "body": "若 $a > 0$，$b > 0$，$a + b = 2$，则下列不等式对一切满足条件的 $a$，$b$ 恒成立的是 _______ {}.（写出所有正确命题的编号）\r\n\r\n\\begin{circlelist}\r\n\\item $ab \\le 1$；\r\n\\item $\\sqrt{a} + \\sqrt{b} \\le \\sqrt{2}$；\r\n\\item $a^2 + b^2 \\ge 2$；\r\n\\item $a^3 + b^3 \\ge 3$；\r\n\\item $\\frac{1}{a} + \\frac{1}{b} \\ge 2$.\r\n\\end{circlelist}",
-          "choices": [],
-          "answer": "\\(1\\)，\\(3\\)，\\(5\\)",
-          "solution": "由 $(a-b)^2\\geqslant0$ 且 $a+b=2$，得\r\n$ab\\le\\frac{(a+b)^2}{4}=1$，\r\n故命题 $1$ 恒成立. 又\r\n$a^2+b^2=(a+b)^2-2ab=4-2ab\\geqslant2$，\r\n故命题 $3$ 恒成立. 因为 $a$，$b>0$，由 $ab\\leqslant1$ 得\r\n$\\frac1a+\\frac1b=\\frac{a+b}{ab}=\\frac2{ab}\\geqslant2$，\r\n故命题 $5$ 恒成立.\r\n\r\n命题 $2$ 在 $a=b=1$ 时变为 $2\\le\\sqrt2$，不成立；命题 $4$ 在 $a=b=1$ 时变为 $2\\geqslant3$，也不成立. 因此正确命题的编号为 $1$，$3$，$5$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>若 $a > 0$，$b > 0$，$a + b = 2$，则下列不等式对一切满足条件的 $a$，$b$ 恒成立的是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.（写出所有正确命题的编号）</p><ol class=\"enumerate\"><li><p>$ab \\le 1$；</p></li><li><p>$\\sqrt{a}+ \\sqrt{b}\\le \\sqrt{2}$；</p></li><li><p>$a^{2} + b^{2} \\ge 2$；</p></li><li><p>$a^{3} + b^{3} \\ge 3$；</p></li><li><p>$\\frac{1}{a}+ \\frac{1}{b}\\ge 2$.</p></li></ol>",
+          "choices": null,
+          "answer": "$1$，$3$，$5$",
+          "solution": "<p>由 $(a-b)^{2}\\geqslant0$ 且 $a+b=2$，得</p><p>$ab\\le\\frac{(a+b)^{2}}{4}=1$，</p><p>故命题 $1$ 恒成立. 又</p><p>$a^{2}+b^{2}=(a+b)^{2}-2ab=4-2ab\\geqslant2$，</p><p>故命题 $3$ 恒成立. 因为 $a$，$b>0$，由 $ab\\leqslant1$ 得</p><p>$\\frac{1}{a}+\\frac{1}{b}=\\frac{a+b}{ab}=\\frac{2}{ab}\\geqslant2$，</p><p>故命题 $5$ 恒成立.</p><p>命题 $2$ 在 $a=b=1$ 时变为 $2\\le\\sqrt{2}$，不成立；命题 $4$ 在 $a=b=1$ 时变为 $2\\geqslant3$，也不成立. 因此正确命题的编号为 $1$，$3$，$5$.</p>"
         }
       ]
     },
@@ -333,60 +174,47 @@
       "problems": [
         {
           "num": 16,
-          "body": "$\\triangle ABC$ 的面积是 30，内角 $A$，$B$，$C$ 所对边长分别为 $a$，$b$，$c$，$\\cos A = \\frac{12}{13}$.\r\n\r\n\n(1) 求 $\\overrightarrow{AB} \\cdot \\overrightarrow{AC}$；\n\n(2) 若 $c - b = 1$，求 $a$ 的值.",
-          "choices": [],
+          "body": "<p>$\\triangle ABC$ 的面积是 30，内角 $A$，$B$，$C$ 所对边长分别为 $a$，$b$，$c$，$\\cos A = \\frac{12}{13}$.</p><ol class=\"enumerate\"><li><p>求 $\\overrightarrow{AB}\\cdot \\overrightarrow{AC}$；</p></li><li><p>若 $c - b = 1$，求 $a$ 的值.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由 $0<A<\\pi$ 及 $\\cos A=\\frac{12}{13}$，得 $\\sin A=\\sqrt{1-\\cos^2 A}=\\frac{5}{13}$. 由三角形面积公式，$30=\\frac12bc\\sin A=\\frac12bc\\cdot\\frac5{13}$，所以 $bc=156$. 因而 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|AB||AC|\\cos A=bc\\cos A=156\\cdot\\frac{12}{13}=144$.\n\n(2) 由 $c-b=1$，得 $c=b+1$. 结合 $bc=156$，有 $b(b+1)=156$，即 $b^2+b-156=0$，所以 $(b+13)(b-12)=0$. 因为 $b>0$，故 $b=12$，从而 $c=13$. 由余弦定理，$a^2=b^2+c^2-2bc\\cos A=12^2+13^2-2\\cdot156\\cdot\\frac{12}{13}=25$. 因为 $a>0$，所以 $a=5$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由 $0&#x3C;A&#x3C;\\pi$ 及 $\\cos A=\\frac{12}{13}$，得 $\\sin A=\\sqrt{1-\\cos^{2} A}=\\frac{5}{13}$. 由三角形面积公式，$30=\\frac{1}{2}bc\\sin A=\\frac{1}{2}bc\\cdot\\frac{5}{13}$，所以 $bc=156$. 因而 $\\overrightarrow{AB}\\cdot\\overrightarrow{AC}=|AB||AC|\\cos A=bc\\cos A=156\\cdot\\frac{12}{13}=144$.</p></li><li><p>由 $c-b=1$，得 $c=b+1$. 结合 $bc=156$，有 $b(b+1)=156$，即 $b^{2}+b-156=0$，所以 $(b+13)(b-12)=0$. 因为 $b>0$，故 $b=12$，从而 $c=13$. 由余弦定理，$a^{2}=b^{2}+c^{2}-2bc\\cos A=12^{2}+13^{2}-2\\cdot156\\cdot\\frac{12}{13}=25$. 因为 $a>0$，所以 $a=5$.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "椭圆 $E$ 经过点 $A(2,3)$，对称轴为坐标轴，焦点 $F_{1}$，$F_{2}$ 在 $x$ 轴上，离心率 $e = \\frac{1}{2}$.\r\n\r\n\n(1) 求椭圆 $E$ 的方程；\n\n(2) 求 $\\angle F_{1}AF_{2}$ 的角平分线所在直线的方程.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>椭圆 $E$ 经过点 $A(2,3)$，对称轴为坐标轴，焦点 $F_{1}$，$F_{2}$ 在 $x$ 轴上，离心率 $e = \\frac{1}{2}$.</p><ol class=\"enumerate\"><li><p>求椭圆 $E$ 的方程；</p></li><li><p>求 $\\angle F_{1}AF_{2}$ 的角平分线所在直线的方程.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q17_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设椭圆 $E$ 的焦距为 $2c$，长半轴为 $a$，短半轴为 $b$. 由于焦点在 $x$ 轴上，椭圆方程可设为 $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$，且 $a^2-b^2=c^2$. 由离心率 $e=\\frac ca=\\frac12$，得 $c=\\frac a2$，从而 $b^2=a^2-c^2=\\frac34a^2$. 将点 $A(2,3)$ 代入椭圆方程，得 $\\frac4{a^2}+\\frac9{3\\frac{a^2}{4}}=1$，即 $\\frac{16}{a^2}=1$，所以 $a^2=16$，$b^2=12$. 因此 $E$ 的方程为 $\\frac{x^2}{16}+\\frac{y^2}{12}=1$.\n\n(2) 由 $c=2$，得 $F_1(-2,0)$，$F_2(2,0)$. 在三角形 $F_1AF_2$ 中，$AF_1=\\sqrt{(2+2)^2+3^2}=5$，$AF_2=\\sqrt{(2-2)^2+3^2}=3$. 设 $\\angle F_1AF_2$ 的角平分线交 $F_1F_2$ 于 $D(x_D,0)$，由角平分线定理，$\\frac{x_D+2}{2-x_D}=\\frac{AF_1}{AF_2}=\\frac53$，解得 $x_D=\\frac12$. 角平分线经过 $A(2,3)$ 和 $D\\left(\\frac12,0\\right)$，其斜率为 $\\frac{3-0}{2-\\frac12}=2$，所以方程为 $y-3=2(x-2)$，即 $2x-y-1=0$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆 $E$ 的焦距为 $2c$，长半轴为 $a$，短半轴为 $b$. 由于焦点在 $x$ 轴上，椭圆方程可设为 $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$，且 $a^{2}-b^{2}=c^{2}$. 由离心率 $e=\\frac{c}{a}=\\frac{1}{2}$，得 $c=\\frac{a}{2}$，从而 $b^{2}=a^{2}-c^{2}=\\frac{3}{4}a^{2}$. 将点 $A(2,3)$ 代入椭圆方程，得 $\\frac{4}{a^{2}}+\\frac{9}{3\\frac{a^{2}}{4}}=1$，即 $\\frac{16}{a^{2}}=1$，所以 $a^{2}=16$，$b^{2}=12$. 因此 $E$ 的方程为 $\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1$.</p></li><li><p>由 $c=2$，得 $F_{1}(-2,0)$，$F_{2}(2,0)$. 在三角形 $F_{1}AF_{2}$ 中，$AF_{1}=\\sqrt{(2+2)^{2}+3^{2}}=5$，$AF_{2}=\\sqrt{(2-2)^{2}+3^{2}}=3$. 设 $\\angle F_{1}AF_{2}$ 的角平分线交 $F_{1}F_{2}$ 于 $D(x_{D},0)$，由角平分线定理，$\\frac{x_{D}+2}{2-x_{D}}=\\frac{AF_{1}}{AF_{2}}=\\frac{5}{3}$，解得 $x_{D}=\\frac{1}{2}$. 角平分线经过 $A(2,3)$ 和 $D\\left(\\frac{1}{2},0\\right)$，其斜率为 $\\frac{3-0}{2-\\frac{1}{2}}=2$，所以方程为 $y-3=2(x-2)$，即 $2x-y-1=0$.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "某市 $2010$ 年 $4$ 月 $1$ 日—$4$ 月 $30$ 日对空气污染指数的监测数据如下（主要污染物为可吸入颗粒物）： $61$， $76$， $70$， $56$， $81$， $91$， $92$， $91$， $75$， $81$， $88$， $67$， $101$， $103$， $95$， $91$， $77$， $86$， $81$， $83$， $82$， $82$， $64$， $79$， $86$， $85$， $75$， $71$， $49$， $45$.\r\n\r\n\n(1) 完成频率分布表；\n\n(2) 作出频率分布直方图；\n\n(3) 根据国家标准，污染指数在 $0\\sim 50$ 之间时，空气质量为优. 在 $51\\sim 100$ 之间时，为良；在 $101\\sim 150$ 之间时，为轻微污染. 在 $151\\sim 200$ 之间时，为轻度污染. 请你依据所给数据和上述标准，对该市的空气质量给出一个简短评价.",
-          "choices": [],
+          "body": "<p>某市 $2010$ 年 $4$ 月 $1$ 日—$4$ 月 $30$ 日对空气污染指数的监测数据如下（主要污染物为可吸入颗粒物）： $61$， $76$， $70$， $56$， $81$， $91$， $92$， $91$， $75$， $81$， $88$， $67$， $101$， $103$， $95$， $91$， $77$， $86$， $81$， $83$， $82$， $82$， $64$， $79$， $86$， $85$， $75$， $71$， $49$， $45$.</p><ol class=\"enumerate\"><li><p>完成频率分布表；</p></li><li><p>作出频率分布直方图；</p></li><li><p>根据国家标准，污染指数在 $0\\sim 50$ 之间时，空气质量为优. 在 $51\\sim 100$ 之间时，为良；在 $101\\sim 150$ 之间时，为轻微污染. 在 $151\\sim 200$ 之间时，为轻度污染. 请你依据所给数据和上述标准，对该市的空气质量给出一个简短评价.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 将 $30$ 个数据按组距为 $10$ 分成 $[40,50)$，$[50,60)$，$[60,70)$，$[70,80)$，$[80,90)$，$[90,100)$，$[100,110)$ 七组，统计各组频数并除以 $30$，得\r\n\\begin{center}\r\n\\begin{tabular}{c|c|c}\r\n\\hline\r\n\\text{分组} & \\text{频数} & \\text{频率}\\\\\r\n\\hline\r\n$[40,50)$ & $2$ & $\\frac1{15}$\\\\\r\n$[50,60)$ & $1$ & $\\frac1{30}$\\\\\r\n$[60,70)$ & $3$ & $\\frac1{10}$\\\\\r\n$[70,80)$ & $7$ & $\\frac7{30}$\\\\\r\n$[80,90)$ & $10$ & $\\frac13$\\\\\r\n$[90,100)$ & $5$ & $\\frac16$\\\\\r\n$[100,110)$ & $2$ & $\\frac1{15}$\\\\\r\n\\hline\r\n\\text{合计} & $30$ & $1$\\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\n\n(2) 以各组区间为横轴、以“频率/组距”为纵轴作频率分布直方图. 各组组距均为 $10$，所以七个矩形的高依次为 $\\frac1{150}$，$\\frac1{300}$，$\\frac1{100}$，$\\frac7{300}$，$\\frac1{30}$，$\\frac1{60}$，$\\frac1{150}$. 直方图如下：\r\n\\begin{center}\r\n\\begingroup\r\n\\renewcommand{\\examstatxlabel}[2][]{%\r\n    \\node[exam statistical xlabel,#1] at (current axis.right of origin) {#2}%\r\n}\r\n\\renewcommand{\\examstatylabel}[2][]{%\r\n    \\node[exam statistical ylabel,#1] at (current axis.above origin) {#2}%\r\n}\r\n\\texfigure[max width=0.72\\linewidth]{img_repaint/2010/anhui_liberal/q18_fig1.tex}\r\n\\endgroup\r\n\\end{center}\n\n(3) 在 $0\\sim50$ 内的数据有 $45$，$49$，共 $2$ 天，所占比例为 $\\frac2{30}=\\frac1{15}$；在 $51\\sim100$ 内的数据有 $26$ 天，所占比例为 $\\frac{26}{30}=\\frac{13}{15}$；在 $101\\sim150$ 内的数据有 $2$ 天，所占比例为 $\\frac2{30}=\\frac1{15}$；没有数据落在 $151\\sim200$ 内. 因此该市空气质量以“良”为主，整体基本良好，但仍有少数天达到轻微污染水平.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>将 $30$ 个数据按组距为 $10$ 分成 $[40,50)$，$[50,60)$，$[60,70)$，$[70,80)$，$[80,90)$，$[90,100)$，$[100,110)$ 七组，统计各组频数并除以 $30$，得</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">分组</span></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">频数</span></span> </td><td style=\"text-align: center\"> <span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">频率</span></span></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[40,50)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center\"> $\\frac{1}{15}$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[50,60)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1$ </td><td style=\"text-align: center\"> $\\frac{1}{30}$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[60,70)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $3$ </td><td style=\"text-align: center\"> $\\frac{1}{10}$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[70,80)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $7$ </td><td style=\"text-align: center\"> $\\frac{7}{30}$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[80,90)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $10$ </td><td style=\"text-align: center\"> $\\frac{1}{3}$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[90,100)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $5$ </td><td style=\"text-align: center\"> $\\frac{1}{6}$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$[100,110)$ </td><td style=\"text-align: center; border-right: 1px solid\"> $2$ </td><td style=\"text-align: center\"> $\\frac{1}{15}$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">合计</span></span> </td><td style=\"text-align: center; border-right: 1px solid\"> $30$ </td><td style=\"text-align: center\"> $1$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p></li><li><p>以各组区间为横轴、以“频率/组距”为纵轴作频率分布直方图. 各组组距均为 $10$，所以七个矩形的高依次为 $\\frac{1}{150}$，$\\frac{1}{300}$，$\\frac{1}{100}$，$\\frac{7}{300}$，$\\frac{1}{30}$，$\\frac{1}{60}$，$\\frac{1}{150}$. 直方图如下：</p><p></p><center class=\"center\"><span class=\"macro macro-begingroup\"></span><br><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\examstatxlabel</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">2</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\n\n\\node[exam statistical xlabel,#1] at (current axis.right of origin) {#2}\n\n</span></span><br><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\examstatylabel</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\">2</span><span class=\"argument\" data-open-mark=\"[\" data-close-mark=\"]\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\n\n\\node[exam statistical ylabel,#1] at (current axis.above origin) {#2}\n\n</span></span><br><span class=\"macro macro-texfigure\"></span>[max width=0.72<span class=\"macro macro-linewidth\"></span>]img_repaint/2010/anhui_liberal/q18_fig1.tex<br><span class=\"macro macro-endgroup\"></span></center><p></p></li><li><p>在 $0\\sim50$ 内的数据有 $45$，$49$，共 $2$ 天，所占比例为 $\\frac{2}{30}=\\frac{1}{15}$；在 $51\\sim100$ 内的数据有 $26$ 天，所占比例为 $\\frac{26}{30}=\\frac{13}{15}$；在 $101\\sim150$ 内的数据有 $2$ 天，所占比例为 $\\frac{2}{30}=\\frac{1}{15}$；没有数据落在 $151\\sim200$ 内. 因此该市空气质量以“良”为主，整体基本良好，但仍有少数天达到轻微污染水平.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，在多面体 $ABCDEF$ 中，四边形 $ABCD$ 是正方形，$EF \\parallel AB$，$EF \\perp FB$，$AB = 2EF$，$\\angle BFC = 90^\\circ$，$BF = FC$，$H$ 为 $BC$ 的中点.\r\n\r\n\n(1) 求证： $FH \\parallel$ 平面 $EDB$；\n\n(2) 求证： $AC \\perp$ 平面 $EDB$；\n\n(3) 求四面体 $B - DEF$ 的体积.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在多面体 $ABCDEF$ 中，四边形 $ABCD$ 是正方形，$EF \\parallel AB$，$EF \\perp FB$，$AB = 2EF$，$\\angle BFC = 90^{\\circ}$，$BF = FC$，$H$ 为 $BC$ 的中点.</p><ol class=\"enumerate\"><li><p>求证： $FH \\parallel$ 平面 $EDB$；</p></li><li><p>求证： $AC \\perp$ 平面 $EDB$；</p></li><li><p>求四面体 $B - DEF$ 的体积.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "取 $EF=t>0$，则 $AB=2t$. 建立直角坐标系，使\r\n$A(0,0,0)$，$B(2t,0,0)$，$C(2t,2t,0)$，$D(0,2t,0)$，于是 $H(2t,t,0)$. 由 $BF=FC$ 及 $\\angle BFC=90^\\circ$，三角形 $BFC$ 是以 $BC$ 为斜边的等腰直角三角形，因此 $FH=BH=t$. 若设 $F=(u,v,w)$，由 $BF=FC$ 得 $(u-2t)^2+v^2+w^2=(u-2t)^2+(v-2t)^2+w^2$，所以 $v=t$，可设 $F=(u,t,w)$. 按图中顶点顺序取 $\\overrightarrow{EF}$ 与 $\\overrightarrow{AB}$ 同向，结合 $EF=t$，得 $\\overrightarrow{EF}=(t,0,0)$，即 $E=(u-t,t,w)$. 又 $EF\\perp FB$，所以 $(t,0,0)\\cdot(2t-u,-t,-w)=0$，得 $u=2t$. 再由 $FH=t$，得 $w^2=t^2$. 取图示方向 $w=t$，于是 $F(2t,t,t)$，$E(t,t,t)$.\r\n\r\n\n(1) 在平面 $EDB$ 内，$\\overrightarrow{DB}=B-D=(2t,-2t,0)$，$\\overrightarrow{DE}=E-D=(t,-t,t)$. 而 $\\overrightarrow{HF}=F-H=(0,0,t)$，并且 $\\overrightarrow{DE}-\\frac12\\overrightarrow{DB}=(0,0,t)=\\overrightarrow{HF}$. 因此 $HF$ 的方向向量是平面 $EDB$ 内两个相交方向向量的线性组合. 另外，$\\overrightarrow{DH}=H-D=(2t,-t,0)$ 不能表示为 $\\alpha\\overrightarrow{DB}+\\beta\\overrightarrow{DE}$，因为其第三个坐标为 $0$ 会使 $\\beta=0$；此时由第二个坐标只能得 $\\alpha=\\frac12$，但第一个坐标应为 $t\\ne2t$，所以 $H\\notin$ 平面 $EDB$. 故 $FH\\parallel$ 平面 $EDB$.\n\n(2) 设 $G$ 为 $AC$ 的中点. 由于 $ABCD$ 是正方形，$G$ 也是 $DB$ 的中点，所以 $G\\in DB\\subset$ 平面 $EDB$，从而直线 $AC$ 与平面 $EDB$ 相交于 $G$. 又 $\\overrightarrow{AC}=(2t,2t,0)$，且\r\n\n$$\n\\overrightarrow{DB}\\times\\overrightarrow{DE}=(-2t^2,-2t^2,0)=-t\\overrightarrow{AC}\n$$\n\r\n因此 $AC$ 的方向向量是平面 $EDB$ 的法向量，故 $AC\\perp$ 平面 $EDB$.\n\n(3) 取 $\\overrightarrow{BD}=D-B=(-2t,2t,0)$，$\\overrightarrow{BE}=E-B=(-t,t,t)$，$\\overrightarrow{BF}=F-B=(0,t,t)$. 计算得 $\\overrightarrow{BE}\\times\\overrightarrow{BF}=(0,t^2,-t^2)$，从而\r\n\n$$\nV_{B-DEF}=\\frac16\\left|\\overrightarrow{BD}\\cdot\\left(\\overrightarrow{BE}\\times\\overrightarrow{BF}\\right)\\right|=\\frac16\\left|(-2t,2t,0)\\cdot(0,t^2,-t^2)\\right|=\\frac{t^3}{3}=\\frac{(EF)^3}{3}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>取 $EF=t>0$，则 $AB=2t$. 建立直角坐标系，使</p><p>$A(0,0,0)$，$B(2t,0,0)$，$C(2t,2t,0)$，$D(0,2t,0)$，于是 $H(2t,t,0)$. 由 $BF=FC$ 及 $\\angle BFC=90^{\\circ}$，三角形 $BFC$ 是以 $BC$ 为斜边的等腰直角三角形，因此 $FH=BH=t$. 若设 $F=(u,v,w)$，由 $BF=FC$ 得 $(u-2t)^{2}+v^{2}+w^{2}=(u-2t)^{2}+(v-2t)^{2}+w^{2}$，所以 $v=t$，可设 $F=(u,t,w)$. 按图中顶点顺序取 $\\overrightarrow{EF}$ 与 $\\overrightarrow{AB}$ 同向，结合 $EF=t$，得 $\\overrightarrow{EF}=(t,0,0)$，即 $E=(u-t,t,w)$. 又 $EF\\perp FB$，所以 $(t,0,0)\\cdot(2t-u,-t,-w)=0$，得 $u=2t$. 再由 $FH=t$，得 $w^{2}=t^{2}$. 取图示方向 $w=t$，于是 $F(2t,t,t)$，$E(t,t,t)$.</p><ol class=\"enumerate\"><li><p>在平面 $EDB$ 内，$\\overrightarrow{DB}=B-D=(2t,-2t,0)$，$\\overrightarrow{DE}=E-D=(t,-t,t)$. 而 $\\overrightarrow{HF}=F-H=(0,0,t)$，并且 $\\overrightarrow{DE}-\\frac{1}{2}\\overrightarrow{DB}=(0,0,t)=\\overrightarrow{HF}$. 因此 $HF$ 的方向向量是平面 $EDB$ 内两个相交方向向量的线性组合. 另外，$\\overrightarrow{DH}=H-D=(2t,-t,0)$ 不能表示为 $\\alpha\\overrightarrow{DB}+\\beta\\overrightarrow{DE}$，因为其第三个坐标为 $0$ 会使 $\\beta=0$；此时由第二个坐标只能得 $\\alpha=\\frac{1}{2}$，但第一个坐标应为 $t\\ne2t$，所以 $H\\notin$ 平面 $EDB$. 故 $FH\\parallel$ 平面 $EDB$.</p></li><li><p>设 $G$ 为 $AC$ 的中点. 由于 $ABCD$ 是正方形，$G$ 也是 $DB$ 的中点，所以 $G\\in DB\\subset$ 平面 $EDB$，从而直线 $AC$ 与平面 $EDB$ 相交于 $G$. 又 $\\overrightarrow{AC}=(2t,2t,0)$，且</p>\n$$\n\\overrightarrow{DB}\\times\\overrightarrow{DE}=(-2t^{2},-2t^{2},0)=-t\\overrightarrow{AC}\n$$\n<p>因此 $AC$ 的方向向量是平面 $EDB$ 的法向量，故 $AC\\perp$ 平面 $EDB$.</p></li><li><p>取 $\\overrightarrow{BD}=D-B=(-2t,2t,0)$，$\\overrightarrow{BE}=E-B=(-t,t,t)$，$\\overrightarrow{BF}=F-B=(0,t,t)$. 计算得 $\\overrightarrow{BE}\\times\\overrightarrow{BF}=(0,t^{2},-t^{2})$，从而</p>\n$$\nV_{B-DEF}=\\frac{1}{6}\\left|\\overrightarrow{BD}\\cdot\\left(\\overrightarrow{BE}\\times\\overrightarrow{BF}\\right)\\right|=\\frac{1}{6}\\left|(-2t,2t,0)\\cdot(0,t^{2},-t^{2})\\right|=\\frac{t^{3}}{3}=\\frac{(EF)^{3}}{3}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "设函数 $f(x) = \\sin x - \\cos x + x + 1$，$0 < x < 2\\pi$，求函数 $f(x)$ 的单调区间与极值.",
-          "choices": [],
+          "body": "设函数 $f(x) = \\sin x - \\cos x + x + 1$，$0 &#x3C; x &#x3C; 2\\pi$，求函数 $f(x)$ 的单调区间与极值.",
+          "choices": null,
           "answer": "",
-          "solution": "$$\nf'(x)=\\cos x+\\sin x+1=2\\cos\\frac{x}{2}\\left(\\sin\\frac{x}{2}+\\cos\\frac{x}{2}\\right)\n$$\n\r\n在 $0<x<2\\pi$ 内，$f'(x)=0$ 等价于 $\\sin x+\\cos x=-1$，故临界点为 $x=\\pi$ 和 $x=\\frac{3\\pi}{2}$. 当 $0<x<\\pi$ 时，$\\cos\\frac{x}{2}>0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)>0$；当 $\\pi<x<\\frac{3\\pi}{2}$ 时，$\\cos\\frac{x}{2}<0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)<0$；当 $\\frac{3\\pi}{2}<x<2\\pi$ 时，两个因式均为负，故 $f'(x)>0$. 因此函数在 $(0,\\pi)$ 和 $\\left(\\frac{3\\pi}{2},2\\pi\\right)$ 上单调递增，在 $\\left(\\pi,\\frac{3\\pi}{2}\\right)$ 上单调递减. 又 $f(\\pi)=\\pi+2$，$f\\left(\\frac{3\\pi}{2}\\right)=\\frac{3\\pi}{2}$，所以极大值为 $\\pi+2$，极小值为 $\\frac{3\\pi}{2}$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "$$\nf'(x)=\\cos x+\\sin x+1=2\\cos\\frac{x}{2}\\left(\\sin\\frac{x}{2}+\\cos\\frac{x}{2}\\right)\n$$\n<p>在 $0&#x3C;x&#x3C;2\\pi$ 内，$f'(x)=0$ 等价于 $\\sin x+\\cos x=-1$，故临界点为 $x=\\pi$ 和 $x=\\frac{3\\pi}{2}$. 当 $0&#x3C;x&#x3C;\\pi$ 时，$\\cos\\frac{x}{2}>0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)>0$；当 $\\pi&#x3C;x&#x3C;\\frac{3\\pi}{2}$ 时，$\\cos\\frac{x}{2}&#x3C;0$，$\\sin\\frac{x}{2}+\\cos\\frac{x}{2}>0$，所以 $f'(x)&#x3C;0$；当 $\\frac{3\\pi}{2}&#x3C;x&#x3C;2\\pi$ 时，两个因式均为负，故 $f'(x)>0$. 因此函数在 $(0,\\pi)$ 和 $\\left(\\frac{3\\pi}{2},2\\pi\\right)$ 上单调递增，在 $\\left(\\pi,\\frac{3\\pi}{2}\\right)$ 上单调递减. 又 $f(\\pi)=\\pi+2$，$f\\left(\\frac{3\\pi}{2}\\right)=\\frac{3\\pi}{2}$，所以极大值为 $\\pi+2$，极小值为 $\\frac{3\\pi}{2}$.</p>"
         },
         {
           "num": 21,
-          "body": "设 $C_{1}$，$C_{2}$，$\\cdots$，$C_{n}$，$\\cdots$ 是坐标平面上的一列圆，它们的圆心都在 $x$ 轴的正半轴上，且都与直线 $y = \\frac{\\sqrt{3}}{3}x$ 相切，对每一个正整数 $n$，圆 $C_{n}$ 都与圆 $C_{n+1}$ 相互外切，以 $r_{n}$ 表示 $C_{n}$ 的半径. 已知 $\\{r_{n}\\}$ 为递增数列.\r\n\r\n\n(1) 证明： $\\{r_{n}\\}$ 为等比数列；\n\n(2) 设 $r_1 = 1$，求数列 $\\left\\{\\frac{n}{r_n}\\right\\}$ 的前 $n$ 项和.\n\r\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2010/img/anhui_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>设 $C_{1}$，$C_{2}$，$\\cdots$，$C_{n}$，$\\cdots$ 是坐标平面上的一列圆，它们的圆心都在 $x$ 轴的正半轴上，且都与直线 $y = \\frac{\\sqrt{3}}{3}x$ 相切，对每一个正整数 $n$，圆 $C_{n}$ 都与圆 $C_{n+1}$ 相互外切，以 $r_{n}$ 表示 $C_{n}$ 的半径. 已知 $\\{r_{n}\\}$ 为递增数列.</p><ol class=\"enumerate\"><li><p>证明： $\\{r_{n}\\}$ 为等比数列；</p></li><li><p>设 $r_{1} = 1$，求数列 $\\left\\{\\frac{n}{r_{n}}\\right\\}$ 的前 $n$ 项和.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/anhui_liberal/q21_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设圆 $C_n$ 的圆心为 $P_n(x_n,0)$. 圆心到直线 $y=\\frac{\\sqrt3}{3}x$，即 $\\frac{\\sqrt3}{3}x-y=0$，的距离等于半径，因此\r\n\n$$\nr_n=\\frac{\\frac{\\sqrt3}{3}x_n}{\\sqrt{\\frac13+1}}=\\frac{x_n}{2}\n$$\n\r\n从而 $x_n=2r_n$. 因为 $\\{r_n\\}$ 递增，相邻圆心在 $x$ 轴上的顺序与下标一致；又 $C_n$ 与 $C_{n+1}$ 外切，所以 $x_{n+1}-x_n=r_n+r_{n+1}$. 代入 $x_n=2r_n$，得 $2r_{n+1}-2r_n=r_n+r_{n+1}$，即 $r_{n+1}=3r_n$. 故 $\\{r_n\\}$ 是公比为 $3$ 的等比数列.\n\n(2) 由 $r_1=1$，得 $r_n=3^{n-1}$. 设所求前 $n$ 项和为 $S_n$，则 $S_n=\\sum_{k=1}^{n}\\frac{k}{3^{k-1}}$. 对有限等比和 $\\sum_{k=1}^{n}r^k=\\frac{r-r^{n+1}}{1-r}$ 求导，得 $\\sum_{k=1}^{n}kr^{k-1}=\\frac{1-(n+1)r^n+nr^{n+1}}{(1-r)^2}$. 令 $r=\\frac13$，于是\r\n\n$$\nS_n=\\frac{1-\\frac{n+1}{3^n}+\\frac{n}{3^{n+1}}}{(1-\\frac13)^2}=\\frac{9-(2n+3)3^{1-n}}{4}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设圆 $C_{n}$ 的圆心为 $P_{n}(x_{n},0)$. 圆心到直线 $y=\\frac{\\sqrt{3}}{3}x$，即 $\\frac{\\sqrt{3}}{3}x-y=0$，的距离等于半径，因此</p>\n$$\nr_{n}=\\frac{\\frac{\\sqrt{3}}{3}x_{n}}{\\sqrt{\\frac{1}{3}+1}}=\\frac{x_{n}}{2}\n$$\n<p>从而 $x_{n}=2r_{n}$. 因为 $\\{r_{n}\\}$ 递增，相邻圆心在 $x$ 轴上的顺序与下标一致；又 $C_{n}$ 与 $C_{n+1}$ 外切，所以 $x_{n+1}-x_{n}=r_{n}+r_{n+1}$. 代入 $x_{n}=2r_{n}$，得 $2r_{n+1}-2r_{n}=r_{n}+r_{n+1}$，即 $r_{n+1}=3r_{n}$. 故 $\\{r_{n}\\}$ 是公比为 $3$ 的等比数列.</p></li><li><p>由 $r_{1}=1$，得 $r_{n}=3^{n-1}$. 设所求前 $n$ 项和为 $S_{n}$，则 $S_{n}=\\sum_{k=1}^{n}\\frac{k}{3^{k-1}}$. 对有限等比和 $\\sum_{k=1}^{n}r^{k}=\\frac{r-r^{n+1}}{1-r}$ 求导，得 $\\sum_{k=1}^{n}kr^{k-1}=\\frac{1-(n+1)r^{n}+nr^{n+1}}{(1-r)^{2}}$. 令 $r=\\frac{1}{3}$，于是</p>\n$$\nS_{n}=\\frac{1-\\frac{n+1}{3^{n}}+\\frac{n}{3^{n+1}}}{(1-\\frac{1}{3})^{2}}=\\frac{9-(2n+3)3^{1-n}}{4}\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -83,7 +84,7 @@ $ arrow(C D)=arrow(C A)+arrow(A D)=arrow(C A)+(2)/(3)(-arrow(C A)+arrow(C B)) =(
 #solution[
 分式有意义的条件为 $x != -2$，$2$. 分子、分母的零点依次为 $1$ 和 $-2,2$. 按 $-2<1<2$ 分段：在 $(- oo ,-2)$ 和 $(1,2)$ 内，分子、分母异号，分式为负；在 $(-2,1)$ 和 $(2,+ oo )$ 内，分子、分母同号，分式为正. 因而
 
-$ (x-1)/(x^2-4)>0 <=> -2<x<1\ "或"\ x>2 $
+$ (x-1)/(x^2-4)>0 <=> -2<x<1\ ""或""\ x>2 $
 
 严格不等式不取 $x=1$，分母零点也不能取，所以解集为 $(-2,1) union (2,+ oo )$，选 C.
 ]
@@ -338,7 +339,7 @@ $ arrow(E F)=(-a,0,(h)/(2)) $
 
 而平面 $S A D$ 的方程为 $y=0$. 直线 $E F$ 的方向向量的第二个分量为 $0$，且 $E F$ 不在平面 $S A D$ 内，因此 $E F parallel$ 平面 $S A D$.
 + (2) 由 $S D=2 C D$，得 $h=2 a$，从而
-$E=(a,\t f r a c a2,0)$，$F=(0,\t f r a c a2,a)$.
+$E=(a,\t f r a c a 2,0)$，$F=(0,\t f r a c a 2,a)$.
 由 $arrow(E A)=(0,-(a)/(2),0)$，$arrow(E F)=(-a,0,a)$，得 $arrow(E A)\t i m e s a r r o w(E F)$ 与 $(1,0,1)$ 平行；由 $arrow(D E)=(a,(a)/(2),0)$，$arrow(D F)=(0,(a)/(2),a)$，得 $arrow(D E)\t i m e s a r r o w(D F)$ 与 $(1,-2,1)$ 平行. 因而平面 $A E F$ 和 $D E F$ 的法向量分别可取
 $bold(n)_1=(1,0,1)$，$bold(n)_2=(1,-2,1)$，
 故二面角 $A-E F-D$ 的平面角记为 $theta$，则

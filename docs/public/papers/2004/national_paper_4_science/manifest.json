@@ -1,143 +1,8 @@
 {
+  "title": "2004年普通高等学校招生全国统一考试",
+  "subtitle": "2004年全国IV卷（理）",
   "year": "2004",
   "slug": "national_paper_4_science",
-  "title": "2004年全国IV卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
@@ -152,9 +17,7 @@
             "$\\{0,2\\}$"
           ],
           "answer": "D",
-          "solution": "由 $a\\in M=\\{0,1,2\\}$，逐一代入 $x=2a$，得\r\n\n$$\nN=\\{2\\times0,2\\times1,2\\times2\\}=\\{0,2,4\\}\n$$\n\r\n与 $M=\\{0,1,2\\}$ 比较，公共元素为 $0$ 和 $2$，所以 $M\\cap N=\\{0,2\\}$，故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $a\\in M=\\{0,1,2\\}$，逐一代入 $x=2a$，得</p>\n$$\nN=\\{2\\times0,2\\times1,2\\times2\\}=\\{0,2,4\\}\n$$\n<p>与 $M=\\{0,1,2\\}$ 比较，公共元素为 $0$ 和 $2$，所以 $M\\cap N=\\{0,2\\}$，故选 D.</p>"
         },
         {
           "num": 2,
@@ -166,9 +29,7 @@
             "$y = \\frac{1}{2}\\ln\\left(2x\\right)$（$x > 0$）"
           ],
           "answer": "C",
-          "solution": "原函数的值域为 $y>0$. 由 $y=\\mathrm{e}^{2x}$ 两边取自然对数，得 $\\ln y=2x$，从而 $x=\\frac12\\ln y$. 交换自变量与因变量后，反函数为\r\n$y=\\frac12\\ln x$，$x>0$.\r\n这与第三个选项一致，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>原函数的值域为 $y>0$. 由 $y=\\mathrm{e}^{2x}$ 两边取自然对数，得 $\\ln y=2x$，从而 $x=\\frac{1}{2}\\ln y$. 交换自变量与因变量后，反函数为</p><p>$y=\\frac{1}{2}\\ln x$，$x>0$.</p><p>这与第三个选项一致，故选 C.</p>"
         },
         {
           "num": 3,
@@ -180,41 +41,35 @@
             "$x - 2y + 7 = 0$"
           ],
           "answer": "A",
-          "solution": "原直线可化为 $y=\\frac12x+\\frac32$，斜率为 $\\frac12$. 垂直直线的斜率为 $-2$，所以过 $(-1,3)$ 的所求直线为\r\n\n$$\ny-3=-2\\bigl(x-(-1)\\bigr)=-2(x+1)\n$$\n\r\n整理得 $2x+y-1=0$，故选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>原直线可化为 $y=\\frac{1}{2}x+\\frac{3}{2}$，斜率为 $\\frac{1}{2}$. 垂直直线的斜率为 $-2$，所以过 $(-1,3)$ 的所求直线为</p>\n$$\ny-3=-2\\bigl(x-(-1)\\bigr)=-2(x+1)\n$$\n<p>整理得 $2x+y-1=0$，故选 A.</p>"
         },
         {
           "num": 4,
-          "body": "$\\left(\\frac{1 - \\sqrt{3}\\mathrm{i}}{1 + \\mathrm{i}}\\right)^2 =$（$ $）",
+          "body": "$\\left(\\frac{1 - \\sqrt{3}\\mathrm{i}}{1 + \\mathrm{i}}\\right)^{2} =$（$ $）",
           "choices": [
-            "$\\sqrt{3} + \\mathrm{i}$",
-            "$-\\sqrt{3} - \\mathrm{i}$",
-            "$\\sqrt{3} - \\mathrm{i}$",
-            "$-\\sqrt{3} + \\mathrm{i}$"
+            "$\\sqrt{3}+ \\mathrm{i}$",
+            "$-\\sqrt{3}- \\mathrm{i}$",
+            "$\\sqrt{3}- \\mathrm{i}$",
+            "$-\\sqrt{3}+ \\mathrm{i}$"
           ],
           "answer": "D",
-          "solution": "由 $\\mathrm{i}^2=-1$，有\r\n\n$$\n(1-\\sqrt3\\mathrm{i})^2=1-2\\sqrt3\\mathrm{i}+3\\mathrm{i}^2=-2-2\\sqrt3\\mathrm{i}\n$$\n\r\n并且\r\n\n$$\n(1+\\mathrm{i})^2=1+2\\mathrm{i}+\\mathrm{i}^2=2\\mathrm{i}\n$$\n\r\n因此\r\n\n$$\n\\left(\\frac{1-\\sqrt{3}\\mathrm{i}}{1+\\mathrm{i}}\\right)^2\r\n=\\frac{(1-\\sqrt{3}\\mathrm{i})^2}{(1+\\mathrm{i})^2}\r\n=\\frac{-2-2\\sqrt{3}\\mathrm{i}}{2\\mathrm{i}}\r\n=-\\sqrt{3}+\\mathrm{i}\n$$\n\r\n故选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $\\mathrm{i}^{2}=-1$，有</p>\n$$\n(1-\\sqrt{3}\\mathrm{i})^{2}=1-2\\sqrt{3}\\mathrm{i}+3\\mathrm{i}^{2}=-2-2\\sqrt{3}\\mathrm{i}\n$$\n<p>并且</p>\n$$\n(1+\\mathrm{i})^{2}=1+2\\mathrm{i}+\\mathrm{i}^{2}=2\\mathrm{i}\n$$\n<p>因此</p>\n$$\n\\left(\\frac{1-\\sqrt{3}\\mathrm{i}}{1+\\mathrm{i}}\\right)^{2}  =\\frac{(1-\\sqrt{3}\\mathrm{i})^{2}}{(1+\\mathrm{i})^{2}}=\\frac{-2-2\\sqrt{3}\\mathrm{i}}{2\\mathrm{i}}=-\\sqrt{3}+\\mathrm{i}\n$$\n<p>故选 D.</p>"
         },
         {
           "num": 5,
-          "body": "不等式 $\\frac{x\\left(x + 2\\right)}{x - 3} < 0$ 的解集为（$ $）",
+          "body": "不等式 $\\frac{x\\left(x + 2\\right)}{x - 3}&#x3C; 0$ 的解集为（$ $）",
           "choices": [
-            "$\\{x \\mid x < -2 \\text{或} 0 < x < 3\\}$",
-            "$\\{x \\mid -2 < x < 2 \\text{或} x > 3\\}$",
-            "$\\{x \\mid x < -2 \\text{或} x > 0\\}$",
-            "$\\{x \\mid x < 0 \\text{或} x < 3\\}$"
+            "$\\{x \\mid x &#x3C; -2 \\text{或}0 &#x3C; x &#x3C; 3\\}$",
+            "$\\{x \\mid -2 &#x3C; x &#x3C; 2 \\text{或}x > 3\\}$",
+            "$\\{x \\mid x &#x3C; -2 \\text{或}x > 0\\}$",
+            "$\\{x \\mid x &#x3C; 0 \\text{或}x &#x3C; 3\\}$"
           ],
           "answer": "A",
-          "solution": "临界点来自分子零点 $x=-2$，$0$ 和分母零点 $x=3$. 在四个区间分别取测试值：取 $x=-3$ 时分式为负，取 $x=-1$ 时为正，取 $x=1$ 时为负，取 $x=4$ 时为正. 因而分式符号依次为负、正、负、正. 由于原不等式为严格不等式，$x=-2$，$0$ 不取，且 $x=3$ 不在定义域内，所以解集为 $\\{x\\mid x<-2\\text{或}0<x<3\\}$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "临界点来自分子零点 $x=-2$，$0$ 和分母零点 $x=3$. 在四个区间分别取测试值：取 $x=-3$ 时分式为负，取 $x=-1$ 时为正，取 $x=1$ 时为负，取 $x=4$ 时为正. 因而分式符号依次为负、正、负、正. 由于原不等式为严格不等式，$x=-2$，$0$ 不取，且 $x=3$ 不在定义域内，所以解集为 $\\{x\\mid x&#x3C;-2\\text{或}0&#x3C;x&#x3C;3\\}$，选 A."
         },
         {
           "num": 6,
-          "body": "等差数列 $\\{a_{n}\\}$ 中，$a_{1} + a_{2} + a_{3} = -24$，$a_{18} + a_{19} + a_{20} = 78$，则此数列前 $20$ 项和等于（$ $）",
+          "body": "等差数列 $\\{a_{n}\\}$ 中，$a_{1}+ a_{2}+ a_{3}= -24$，$a_{18}+ a_{19}+ a_{20}= 78$，则此数列前 $20$ 项和等于（$ $）",
           "choices": [
             "$160$",
             "$180$",
@@ -222,9 +77,7 @@
             "$220$"
           ],
           "answer": "B",
-          "solution": "设公差为 $d$. 由等差数列的对称性，三个连续项的和等于中间项的三倍，因此\r\n\n$$\n3a_2=a_1+a_2+a_3=-24\n$$\n\r\n以及\r\n\n$$\n3a_{19}=a_{18}+a_{19}+a_{20}=78\n$$\n\r\n所以 $a_2=-8$，$a_{19}=26$，进而\r\n$d=\\frac{a_{19}-a_2}{19-2}=\\frac{26-(-8)}{17}=2$，$a_1=a_2-d=-10$，$a_{20}=a_1+19d=28$.\r\n上式还给出 $a_1=a_2-d=-10$ 和 $a_{20}=a_1+19d=28$.\r\n所以\r\n\n$$\nS_{20}=\\frac{20(a_{1}+a_{20})}{2}=10\\times18=180\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设公差为 $d$. 由等差数列的对称性，三个连续项的和等于中间项的三倍，因此</p>\n$$\n3a_{2}=a_{1}+a_{2}+a_{3}=-24\n$$\n<p>以及</p>\n$$\n3a_{19}=a_{18}+a_{19}+a_{20}=78\n$$\n<p>所以 $a_{2}=-8$，$a_{19}=26$，进而</p><p>$d=\\frac{a_{19}-a_{2}}{19-2}=\\frac{26-(-8)}{17}=2$，$a_{1}=a_{2}-d=-10$，$a_{20}=a_{1}+19d=28$.</p><p>上式还给出 $a_{1}=a_{2}-d=-10$ 和 $a_{20}=a_{1}+19d=28$.</p><p>所以</p>\n$$\nS_{20}=\\frac{20(a_{1}+a_{20})}{2}=10\\times18=180\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 7,
@@ -236,23 +89,19 @@
             "如果 $m \\parallel \\alpha$，$n \\parallel \\alpha$，$m$，$n$ 共面，那么 $m \\parallel n$"
           ],
           "answer": "C",
-          "solution": "选项 C 正确. 因为 $m\\subset\\alpha$，且 $n\\parallel\\alpha$，所以 $n$ 与 $\\alpha$ 没有公共点. 又因为 $m$，$n$ 共面，若它们不平行，则必相交；但交点将同时属于 $n$ 和 $\\alpha$，这与 $n\\parallel\\alpha$ 矛盾. 因而 $m\\parallel n$.\r\n\r\n选项 A 不正确. 取 $\\alpha:z=0$，$m:y=z=0$，再取 $n:x=0$，$\\ y=1$. 此时 $n$ 与 $\\alpha$ 相交于 $(0,1,0)$，该点不在 $m$ 上；并且 $m$ 的方向向量、$n$ 的方向向量以及两直线间的连接向量线性无关，所以 $m$，$n$ 异面. 因而 $n$ 不平行于 $\\alpha$，A 不成立.\r\n\r\n选项 B 不正确. 仍取 $\\alpha:z=0$，$m:y=z=0$，但取 $n:x=0$，$\\ z=1$. 此时 $n\\parallel\\alpha$，且 $n$ 与 $m$ 异面，所以 $n$ 不与 $\\alpha$ 相交，B 不成立.\r\n\r\n选项 D 也不正确. 取平面 $z=1$ 内的两条相交直线 $m:y=0$，$\\ z=1$ 和 $n:x=0$，$\\ z=1$，它们都平行于平面 $z=0$，但相交于 $(0,0,1)$. 故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>选项 C 正确. 因为 $m\\subset\\alpha$，且 $n\\parallel\\alpha$，所以 $n$ 与 $\\alpha$ 没有公共点. 又因为 $m$，$n$ 共面，若它们不平行，则必相交；但交点将同时属于 $n$ 和 $\\alpha$，这与 $n\\parallel\\alpha$ 矛盾. 因而 $m\\parallel n$.</p><p>选项 A 不正确. 取 $\\alpha:z=0$，$m:y=z=0$，再取 $n:x=0$，$\\ y=1$. 此时 $n$ 与 $\\alpha$ 相交于 $(0,1,0)$，该点不在 $m$ 上；并且 $m$ 的方向向量、$n$ 的方向向量以及两直线间的连接向量线性无关，所以 $m$，$n$ 异面. 因而 $n$ 不平行于 $\\alpha$，A 不成立.</p><p>选项 B 不正确. 仍取 $\\alpha:z=0$，$m:y=z=0$，但取 $n:x=0$，$\\ z=1$. 此时 $n\\parallel\\alpha$，且 $n$ 与 $m$ 异面，所以 $n$ 不与 $\\alpha$ 相交，B 不成立.</p><p>选项 D 也不正确. 取平面 $z=1$ 内的两条相交直线 $m:y=0$，$\\ z=1$ 和 $n:x=0$，$\\ z=1$，它们都平行于平面 $z=0$，但相交于 $(0,0,1)$. 故选 C.</p>"
         },
         {
           "num": 8,
-          "body": "已知椭圆的中心在原点，离心率 $e = \\frac{1}{2}$，且它的一个焦点与抛物线 $y^{2} = -4x$ 的焦点重合，则此椭圆方程为（$ $）",
+          "body": "已知椭圆的中心在原点，离心率 $e = \\frac{1}{2}$，且它的一个焦点与抛物线 $y^{2}= -4x$ 的焦点重合，则此椭圆方程为（$ $）",
           "choices": [
-            "$\\frac{x^2}{4} +\\frac{y^2}{3} = 1$",
-            "$\\frac{x^2}{8} +\\frac{y^2}{6} = 1$",
-            "$\\frac{x^2}{2} + y^2 = 1$",
-            "$\\frac{x^2}{4} + y^2 = 1$"
+            "$\\frac{x^{2}}{4}+\\frac{y^{2}}{3}= 1$",
+            "$\\frac{x^{2}}{8}+\\frac{y^{2}}{6}= 1$",
+            "$\\frac{x^{2}}{2}+ y^{2} = 1$",
+            "$\\frac{x^{2}}{4}+ y^{2} = 1$"
           ],
           "answer": "A",
-          "solution": "抛物线 $y^2=-4x$ 的焦点为 $(-1,0)$，所以椭圆的焦距参数满足 $c=1$. 由离心率 $e=\\frac ca=\\frac12$，得 $a=2$. 再由 $b^2=a^2-c^2$，得 $b^2=4-1=3$，故椭圆方程为 $\\frac{x^2}{4}+\\frac{y^2}{3}=1$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "抛物线 $y^{2}=-4x$ 的焦点为 $(-1,0)$，所以椭圆的焦距参数满足 $c=1$. 由离心率 $e=\\frac{c}{a}=\\frac{1}{2}$，得 $a=2$. 再由 $b^{2}=a^{2}-c^{2}$，得 $b^{2}=4-1=3$，故椭圆方程为 $\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1$，选 A."
         },
         {
           "num": 9,
@@ -264,9 +113,7 @@
             "$840$ 种"
           ],
           "answer": "B",
-          "solution": "分两种情况计数. 若选出 $2$ 位男教师和 $1$ 位女教师，先选人再分配到班级，方案数为 $\\mathrm C_{5}^{2}\\mathrm C_{4}^{1}\\mathrm A_{3}^{3}$. 若选出 $1$ 位男教师和 $2$ 位女教师，方案数为 $\\mathrm C_{5}^{1}\\mathrm C_{4}^{2}\\mathrm A_{3}^{3}$. 因而总方案数为\r\n\n$$\n\\mathrm C_{5}^{2}\\mathrm C_{4}^{1}\\mathrm A_{3}^{3}+\\mathrm C_{5}^{1}\\mathrm C_{4}^{2}\\mathrm A_{3}^{3}\r\n=10\\times4\\times6+5\\times6\\times6=420\n$$\n\r\n故选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>分两种情况计数. 若选出 $2$ 位男教师和 $1$ 位女教师，先选人再分配到班级，方案数为 $\\mathrm{C}_{5}^{2}\\mathrm{C}_{4}^{1}\\mathrm{A}_{3}^{3}$. 若选出 $1$ 位男教师和 $2$ 位女教师，方案数为 $\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{2}\\mathrm{A}_{3}^{3}$. 因而总方案数为</p>\n$$\n\\mathrm{C}_{5}^{2}\\mathrm{C}_{4}^{1}\\mathrm{A}_{3}^{3}+\\mathrm{C}_{5}^{1}\\mathrm{C}_{4}^{2}\\mathrm{A}_{3}^{3}=10\\times4\\times6+5\\times6\\times6=420\n$$\n<p>故选 B.</p>"
         },
         {
           "num": 10,
@@ -278,9 +125,7 @@
             "$2$"
           ],
           "answer": "A",
-          "solution": "设球半径为 $R$，由 $4\\pi R^2=20\\pi$，得 $R=\\sqrt5$. 设三角形 $ABC$ 外接圆半径为 $r$. 由 $AB=AC=2$，$BC=2\\sqrt3$，可知从 $A$ 向 $BC$ 作高，其高为 $\\sqrt{2^2-(\\sqrt3)^2}=1$，所以三角形面积为 $\\sqrt3$. 因此\r\n\n$$\nr=\\frac{AB\\cdot AC\\cdot BC}{4[\\triangle ABC]}=\\frac{2\\times2\\times2\\sqrt3}{4\\sqrt3}=2\n$$\n\r\n球心到平面 $ABC$ 的垂线、球半径和该平面内的外接圆半径构成直角三角形. 设球心到平面的距离为 $h$，则 $R^2=h^2+r^2$，从而 $h^2=5-4=1$，即 $h=1$，选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设球半径为 $R$，由 $4\\pi R^{2}=20\\pi$，得 $R=\\sqrt{5}$. 设三角形 $ABC$ 外接圆半径为 $r$. 由 $AB=AC=2$，$BC=2\\sqrt{3}$，可知从 $A$ 向 $BC$ 作高，其高为 $\\sqrt{2^{2}-(\\sqrt{3})^{2}}=1$，所以三角形面积为 $\\sqrt{3}$. 因此</p>\n$$\nr=\\frac{AB\\cdot AC\\cdot BC}{4[\\triangle ABC]}=\\frac{2\\times2\\times2\\sqrt{3}}{4\\sqrt{3}}=2\n$$\n<p>球心到平面 $ABC$ 的垂线、球半径和该平面内的外接圆半径构成直角三角形. 设球心到平面的距离为 $h$，则 $R^{2}=h^{2}+r^{2}$，从而 $h^{2}=5-4=1$，即 $h=1$，选 A.</p>"
         },
         {
           "num": 11,
@@ -292,9 +137,7 @@
             "$2 + \\sqrt{3}$"
           ],
           "answer": "B",
-          "solution": "因为 $a$，$b$，$c$ 成等差数列，所以 $a+c=2b$. 由面积公式\r\n\n$$\n\\frac12ac\\sin B=\\frac32\n$$\n\r\n及 $\\sin30^{\\circ}=\\frac12$，得 $ac=6$. 再由余弦定理，\r\n\n$$\nb^2=a^2+c^2-2ac\\cos30^{\\circ}\r\n=(a+c)^2-(2+\\sqrt3)ac\r\n=4b^2-6(2+\\sqrt3)\n$$\n\r\n所以 $b^2=2(2+\\sqrt3)=4+2\\sqrt3=(1+\\sqrt3)^2$. 因为边长为正，故 $b=1+\\sqrt3$，选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>因为 $a$，$b$，$c$ 成等差数列，所以 $a+c=2b$. 由面积公式</p>\n$$\n\\frac{1}{2}ac\\sin B=\\frac{3}{2}\n$$\n<p>及 $\\sin30^{\\circ}=\\frac{1}{2}$，得 $ac=6$. 再由余弦定理，</p>\n$$\nb^{2}=a^{2}+c^{2}-2ac\\cos30^{\\circ}=(a+c)^{2}-(2+\\sqrt{3})ac  =4b^{2}-6(2+\\sqrt{3})\n$$\n<p>所以 $b^{2}=2(2+\\sqrt{3})=4+2\\sqrt{3}=(1+\\sqrt{3})^{2}$. 因为边长为正，故 $b=1+\\sqrt{3}$，选 B.</p>"
         },
         {
           "num": 12,
@@ -306,9 +149,7 @@
             "$5$"
           ],
           "answer": "C",
-          "solution": "因 $f$ 为奇函数，$f(0)=0$，且在题设关系中令 $x=-1$，得 $f(1)=f(-1)+f(2)=-f(1)+f(2)$. 因而 $f(2)=2f(1)=1$. 再由递推关系，$f(3)=f(1)+f(2)=\\frac32$，$f(5)=f(3)+f(2)=\\frac52$，故选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因 $f$ 为奇函数，$f(0)=0$，且在题设关系中令 $x=-1$，得 $f(1)=f(-1)+f(2)=-f(1)+f(2)$. 因而 $f(2)=2f(1)=1$. 再由递推关系，$f(3)=f(1)+f(2)=\\frac{3}{2}$，$f(5)=f(3)+f(2)=\\frac{5}{2}$，故选 C."
         }
       ]
     },
@@ -317,39 +158,31 @@
       "problems": [
         {
           "num": 13,
-          "body": "$\\left(x - \\frac{1}{\\sqrt{x}}\\right)^8$ 展开式中 $x^5$ 的系数为 _______ {}.",
-          "choices": [],
-          "answer": "\\(28\\)",
-          "solution": "展开式的通项为\r\n\n$$\n\\mathrm C_{8}^{k}x^{8-k}\\left(-\\frac1{\\sqrt{x}}\\right)^k\r\n=(-1)^k\\mathrm C_{8}^{k}x^{8-\\frac32k}\n$$\n\r\n令指数满足 $8-\\frac32k=5$，得 $k=2$. 因此所求系数为 $(-1)^2\\mathrm C_{8}^{2}=28$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$\\left(x - \\frac{1}{\\sqrt{x}}\\right)^{8}$ 展开式中 $x^{5}$ 的系数为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$28$",
+          "solution": "<p>展开式的通项为</p>\n$$\n\\mathrm{C}_{8}^{k}x^{8-k}\\left(-\\frac{1}{\\sqrt{x}}\\right)^{k}  =(-1)^{k}\\mathrm{C}_{8}^{k}x^{8-\\frac{3}{2}k}\n$$\n<p>令指数满足 $8-\\frac{3}{2}k=5$，得 $k=2$. 因此所求系数为 $(-1)^{2}\\mathrm{C}_{8}^{2}=28$.</p>"
         },
         {
           "num": 14,
-          "body": "向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\left(\\mathbf{a} - \\mathbf{b}\\right) \\cdot \\left(2\\mathbf{a} + \\mathbf{b}\\right) = -4$，且 $|\\mathbf{a}| = 2$，$|\\mathbf{b}| = 4$，则 $\\mathbf{a}$ 与 $\\mathbf{b}$ 夹角的余弦值等于 _______ {}.",
-          "choices": [],
-          "answer": "\\(-\\frac12\\)",
-          "solution": "展开数量积，得\r\n\n$$\n(\\mathbf{a}-\\mathbf{b})\\cdot(2\\mathbf{a}+\\mathbf{b})\r\n=2|\\mathbf{a}|^2-\\mathbf{a}\\cdot\\mathbf{b}-|\\mathbf{b}|^2=-4\n$$\n\r\n代入 $|\\mathbf{a}|=2$，$|\\mathbf{b}|=4$，得到 $8-\\mathbf{a}\\cdot\\mathbf{b}-16=-4$，所以 $\\mathbf{a}\\cdot\\mathbf{b}=-4$. 设夹角为 $\\theta$，则\r\n\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}|\\,|\\mathbf{b}|}=\\frac{-4}{2\\times4}=-\\frac12\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "向量 $\\mathbf{a}$，$\\mathbf{b}$ 满足 $\\left(\\mathbf{a}- \\mathbf{b}\\right) \\cdot \\left(2\\mathbf{a}+ \\mathbf{b}\\right) = -4$，且 $|\\mathbf{a}| = 2$，$|\\mathbf{b}| = 4$，则 $\\mathbf{a}$ 与 $\\mathbf{b}$ 夹角的余弦值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-\\frac{1}{2}$",
+          "solution": "<p>展开数量积，得</p>\n$$\n(\\mathbf{a}-\\mathbf{b})\\cdot(2\\mathbf{a}+\\mathbf{b})  =2|\\mathbf{a}|^{2}-\\mathbf{a}\\cdot\\mathbf{b}-|\\mathbf{b}|^{2}=-4\n$$\n<p>代入 $|\\mathbf{a}|=2$，$|\\mathbf{b}|=4$，得到 $8-\\mathbf{a}\\cdot\\mathbf{b}-16=-4$，所以 $\\mathbf{a}\\cdot\\mathbf{b}=-4$. 设夹角为 $\\theta$，则</p>\n$$\n\\cos\\theta=\\frac{\\mathbf{a}\\cdot\\mathbf{b}}{|\\mathbf{a}|\\,|\\mathbf{b}|}=\\frac{-4}{2\\times4}=-\\frac{1}{2}\n$$"
         },
         {
           "num": 15,
-          "body": "函数 $f(x) = \\cos x - \\frac{1}{2}\\cos 2x$（$x \\in \\mathbb{R}$）的最大值等于 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac34\\)",
-          "solution": "令 $t=\\cos x$，则 $-1\\le t\\leqslant1$，且 $\\cos2x=2t^2-1$. 所以\r\n\n$$\nf(x)=t-\\frac12(2t^2-1)=\\frac34-\\left(t-\\frac12\\right)^2\\le\\frac34\n$$\n\r\n取 $x=\\frac{\\pi}{3}$ 时 $t=\\cos x=\\frac12$，等号确实可以取得，故最大值为 $\\frac34$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "函数 $f(x) = \\cos x - \\frac{1}{2}\\cos 2x$（$x \\in \\mathbb{R}$）的最大值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{3}{4}$",
+          "solution": "<p>令 $t=\\cos x$，则 $-1\\le t\\leqslant1$，且 $\\cos2x=2t^{2}-1$. 所以</p>\n$$\nf(x)=t-\\frac{1}{2}(2t^{2}-1)=\\frac{3}{4}-\\left(t-\\frac{1}{2}\\right)^{2}\\le\\frac{3}{4}\n$$\n<p>取 $x=\\frac{\\pi}{3}$ 时 $t=\\cos x=\\frac{1}{2}$，等号确实可以取得，故最大值为 $\\frac{3}{4}$.</p>"
         },
         {
           "num": 16,
-          "body": "设 $x$，$y$ 满足约束条件：$\\begin{cases}\r\nx + y \\le 1,\\\\\r\ny \\le x,\\\\\r\ny \\ge 0.\r\n\\end{cases}$ 则 $z = 2x + y$ 的最大值是 _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "可行域由直线 $x+y=1$，$y=x$ 和 $y=0$ 围成，三个顶点分别为 $(0,0)$，$(1,0)$ 和 $\\left(\\frac12,\\frac12\\right)$. 在这些顶点处，$z=2x+y$ 的值分别为 $0$，$2$ 和 $\\frac32$. 因此 $z$ 的最大值为 $2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "设 $x$，$y$ 满足约束条件：$\\begin{cases}x + y \\le 1,\\\\  y \\le x,\\\\  y \\ge 0.\\end{cases}$ 则 $z = 2x + y$ 的最大值是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "可行域由直线 $x+y=1$，$y=x$ 和 $y=0$ 围成，三个顶点分别为 $(0,0)$，$(1,0)$ 和 $\\left(\\frac{1}{2},\\frac{1}{2}\\right)$. 在这些顶点处，$z=2x+y$ 的值分别为 $0$，$2$ 和 $\\frac{3}{2}$. 因此 $z$ 的最大值为 $2$."
         }
       ]
     },
@@ -359,59 +192,46 @@
         {
           "num": 17,
           "body": "已知 $\\alpha$ 为第二象限角，且 $\\sin \\alpha = \\frac{\\sqrt{15}}{4}$，求 $\\frac{\\sin\\left(\\alpha + \\frac{\\pi}{4}\\right)}{\\sin 2\\alpha + \\cos 2\\alpha + 1}$ 的值.",
-          "choices": [],
+          "choices": null,
           "answer": "",
-          "solution": "由 $\\alpha$ 为第二象限角，知 $\\cos\\alpha<0$. 又由\r\n\n$$\n\\cos^2\\alpha=1-\\sin^2\\alpha=1-\\frac{15}{16}=\\frac1{16}\n$$\n\r\n所以 $\\cos\\alpha=-\\frac14$. 从而\r\n\n$$\n\\sin\\left(\\alpha+\\frac\\pi4\\right)=\\frac{\\sin\\alpha+\\cos\\alpha}{\\sqrt2}=\\frac{\\sqrt{15}-1}{4\\sqrt2}\n$$\n\r\n并且 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=-\\frac{\\sqrt{15}}8$，$\\cos2\\alpha=\\cos^2\\alpha-\\sin^2\\alpha=-\\frac78$. 因此\r\n\n$$\n\\sin2\\alpha+\\cos2\\alpha+1=\\frac{1-\\sqrt{15}}8\n$$\n\r\n所求值为\r\n\n$$\n\\frac{\\dfrac{\\sqrt{15}-1}{4\\sqrt2}}{\\dfrac{1-\\sqrt{15}}8}=-\\sqrt2\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>由 $\\alpha$ 为第二象限角，知 $\\cos\\alpha&#x3C;0$. 又由</p>\n$$\n\\cos^{2}\\alpha=1-\\sin^{2}\\alpha=1-\\frac{15}{16}=\\frac{1}{16}\n$$\n<p>所以 $\\cos\\alpha=-\\frac{1}{4}$. 从而</p>\n$$\n\\sin\\left(\\alpha+\\frac{\\pi}{4}\\right)=\\frac{\\sin\\alpha+\\cos\\alpha}{\\sqrt{2}}=\\frac{\\sqrt{15}-1}{4\\sqrt{2}}\n$$\n<p>并且 $\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha=-\\frac{\\sqrt{15}}{8}$，$\\cos2\\alpha=\\cos^{2}\\alpha-\\sin^{2}\\alpha=-\\frac{7}{8}$. 因此</p>\n$$\n\\sin2\\alpha+\\cos2\\alpha+1=\\frac{1-\\sqrt{15}}{8}\n$$\n<p>所求值为</p>\n$$\n\\frac{\\dfrac{\\sqrt{15}-1}{4\\sqrt{2}}}{\\dfrac{1-\\sqrt{15}}8}=-\\sqrt{2}\n$$"
         },
         {
           "num": 18,
-          "body": "求函数 $f(x) = \\ln\\left(1 + x\\right) - \\frac{1}{4} x^2$ 在 $[0,2]$ 上的最大值和最小值.",
-          "choices": [],
+          "body": "求函数 $f(x) = \\ln\\left(1 + x\\right) - \\frac{1}{4}x^{2}$ 在 $[0,2]$ 上的最大值和最小值.",
+          "choices": null,
           "answer": "",
-          "solution": "函数定义域包含 $[0,2]$，并在该区间上可导. 求导得\r\n\n$$\nf'(x)=\\frac1{1+x}-\\frac{x}{2}=\\frac{2-x-x^2}{2(1+x)}=-\\frac{(x+2)(x-1)}{2(x+1)}\n$$\n\r\n由于 $x+1>0$，且 $x+2>0$，所以 $f'(x)>0$ 在 $[0,1)$ 上成立，$f'(1)=0$，$f'(x)<0$ 在 $(1,2]$ 上成立. 因此函数先增后减，在 $x=1$ 处取得最大值\r\n\n$$\nf(1)=\\ln2-\\frac14\n$$\n\r\n再比较端点值，$f(0)=0$，$f(2)=\\ln3-1>0$. 这里 $\\ln3>1$（因为 $3>\\mathrm{e}$），所以最小值为 $0$. 故最大值为 $\\ln2-\\frac14$，最小值为 $0$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>函数定义域包含 $[0,2]$，并在该区间上可导. 求导得</p>\n$$\nf'(x)=\\frac{1}{1+x}-\\frac{x}{2}=\\frac{2-x-x^{2}}{2(1+x)}=-\\frac{(x+2)(x-1)}{2(x+1)}\n$$\n<p>由于 $x+1>0$，且 $x+2>0$，所以 $f'(x)>0$ 在 $[0,1)$ 上成立，$f'(1)=0$，$f'(x)&#x3C;0$ 在 $(1,2]$ 上成立. 因此函数先增后减，在 $x=1$ 处取得最大值</p>\n$$\nf(1)=\\ln2-\\frac{1}{4}\n$$\n<p>再比较端点值，$f(0)=0$，$f(2)=\\ln3-1>0$. 这里 $\\ln3>1$（因为 $3>\\mathrm{e}$），所以最小值为 $0$. 故最大值为 $\\ln2-\\frac{1}{4}$，最小值为 $0$.</p>"
         },
         {
           "num": 19,
-          "body": "某同学参加科普知识竞赛，需回答 $3$ 个问题. 竞赛规则规定：每题回答正确得 $100$ 分，回答不正确得 $-100$ 分. 假设这名同学每题回答正确的概率均为 $0.8$，且各题回答正确与否相互之间没有影响.\r\n\r\n\n(1) 求这名同学回答这三个问题的总得分 $\\xi$ 的概率分布和数学期望；\n\n(2) 求这名同学总得分不为负分（即 $\\xi \\ge 0$）的概率.",
-          "choices": [],
+          "body": "<p>某同学参加科普知识竞赛，需回答 $3$ 个问题. 竞赛规则规定：每题回答正确得 $100$ 分，回答不正确得 $-100$ 分. 假设这名同学每题回答正确的概率均为 $0.8$，且各题回答正确与否相互之间没有影响.</p><ol class=\"enumerate\"><li><p>求这名同学回答这三个问题的总得分 $\\xi$ 的概率分布和数学期望；</p></li><li><p>求这名同学总得分不为负分（即 $\\xi \\ge 0$）的概率.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "设答对题数为 $K$. 由于每题答对的概率为 $\\frac45$，且各题相互独立，故 $K$ 的可能取值为 $0$，$1$，$2$，$3$，并且\r\n$P(K=k)=\\mathrm C_{3}^{k}\\left(\\frac45\\right)^k\\left(\\frac15\\right)^{3-k}$，（$k=0,1,2,3$）.\r\n总得分为\r\n\n$$\n\\xi=100K-100(3-K)=200K-300\n$$\n\r\n当 $K=0$，$1$，$2$，$3$ 时，分别有 $\\xi=-300$，$-100$，$100$，$300$. 逐项计算得\r\n\\begin{center}\r\n\\begin{tabular}{c|cccc}\r\n$\\xi$ & $-300$ & $-100$ & $100$ & $300$ \\\\ \\hline\r\n$P$ & $\\dfrac1{125}$ & $\\dfrac{12}{125}$ & $\\dfrac{48}{125}$ & $\\dfrac{64}{125}$\r\n\\end{tabular}\r\n\\end{center}\r\n具体地，$P(\\xi=-300)=P(K=0)=\\left(\\frac15\\right)^3=\\frac1{125}$，$P(\\xi=-100)=P(K=1)=\\mathrm C_3^1\\frac45\\left(\\frac15\\right)^2=\\frac{12}{125}$，$P(\\xi=100)=P(K=2)=\\mathrm C_3^2\\left(\\frac45\\right)^2\\frac15=\\frac{48}{125}$，$P(\\xi=300)=P(K=3)=\\left(\\frac45\\right)^3=\\frac{64}{125}$. 因此数学期望为\r\n\n$$\nE(\\xi)=(-300)\\frac1{125}+(-100)\\frac{12}{125}+100\\frac{48}{125}+300\\frac{64}{125}=180\n$$\n\r\n也可由单题得分的期望核对：每题得分的期望为 $100\\times\\frac45-100\\times\\frac15=60$，三题总期望为 $3\\times60=180$. 当 $\\xi\\geqslant0$ 时，因 $\\xi=200K-300$，必须且只需 $K\\geqslant2$，故\r\n\n$$\nP(\\xi\\geqslant0)=P(K=2)+P(K=3)=\\frac{48+64}{125}=\\frac{112}{125}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设答对题数为 $K$. 由于每题答对的概率为 $\\frac{4}{5}$，且各题相互独立，故 $K$ 的可能取值为 $0$，$1$，$2$，$3$，并且</p><p>$P(K=k)=\\mathrm{C}_{3}^{k}\\left(\\frac{4}{5}\\right)^{k}\\left(\\frac{1}{5}\\right)^{3-k}$，（$k=0,1,2,3$）.</p><p>总得分为</p>\n$$\n\\xi=100K-100(3-K)=200K-300\n$$\n<p>当 $K=0$，$1$，$2$，$3$ 时，分别有 $\\xi=-300$，$-100$，$100$，$300$. 逐项计算得</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$\\xi$ </td><td style=\"text-align: center\"> $-300$ </td><td style=\"text-align: center\"> $-100$ </td><td style=\"text-align: center\"> $100$ </td><td style=\"text-align: center\"> $300$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac1{125}$ </td><td style=\"text-align: center\"> $\\dfrac{12}{125}$ </td><td style=\"text-align: center\"> $\\dfrac{48}{125}$ </td><td style=\"text-align: center\"> $\\dfrac{64}{125}$</td></tr></tbody></table></center><p>具体地，$P(\\xi=-300)=P(K=0)=\\left(\\frac{1}{5}\\right)^{3}=\\frac{1}{125}$，$P(\\xi=-100)=P(K=1)=\\mathrm{C}_{3}^{1}\\frac{4}{5}\\left(\\frac{1}{5}\\right)^{2}=\\frac{12}{125}$，$P(\\xi=100)=P(K=2)=\\mathrm{C}_{3}^{2}\\left(\\frac{4}{5}\\right)^{2}\\frac{1}{5}=\\frac{48}{125}$，$P(\\xi=300)=P(K=3)=\\left(\\frac{4}{5}\\right)^{3}=\\frac{64}{125}$. 因此数学期望为</p>\n$$\nE(\\xi)=(-300)\\frac{1}{125}+(-100)\\frac{12}{125}+100\\frac{48}{125}+300\\frac{64}{125}=180\n$$\n<p>也可由单题得分的期望核对：每题得分的期望为 $100\\times\\frac{4}{5}-100\\times\\frac{1}{5}=60$，三题总期望为 $3\\times60=180$. 当 $\\xi\\geqslant0$ 时，因 $\\xi=200K-300$，必须且只需 $K\\geqslant2$，故</p>\n$$\nP(\\xi\\geqslant0)=P(K=2)+P(K=3)=\\frac{48+64}{125}=\\frac{112}{125}\n$$"
         },
         {
           "num": 20,
-          "body": "如图，四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，$AB = 8$，$AD = 4\\sqrt{3}$，侧面 $PAD$ 为等边三角形，并且与底面所成二面角为 $60^{\\circ}$.\r\n\r\n\n(1) 求四棱锥 $P - ABCD$ 的体积；\n\n(2) 证明：$PA \\perp BD$.\n\r\n\r\n\\begin{center}\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2004/img/national_paper_4_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\end{center}",
-          "choices": [],
+          "body": "<p>如图，四棱锥 $P - ABCD$ 中，底面 $ABCD$ 为矩形，$AB = 8$，$AD = 4\\sqrt{3}$，侧面 $PAD$ 为等边三角形，并且与底面所成二面角为 $60^{\\circ}$.</p><ol class=\"enumerate\"><li><p>求四棱锥 $P - ABCD$ 的体积；</p></li><li><p>证明：$PA \\perp BD$.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/national_paper_4_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": null,
           "answer": "",
-          "solution": "设 $M$ 为 $AD$ 的中点. 因为 $\\triangle PAD$ 是边长为 $4\\sqrt3$ 的等边三角形，所以 $PM\\perp AD$，且\r\n\n$$\nPM=\\sqrt{\\left(4\\sqrt3\\right)^2-\\left(2\\sqrt3\\right)^2}=6\n$$\n\r\n设 $H$ 为 $P$ 在底面的射影，并连接 $MH$. 因为 $PH\\perp$ 底面，$PM\\perp AD$，且 $PH\\perp AD$，所以截面 $PMH$ 垂直于棱 $AD$. 因此 $\\angle PMH$ 就是侧面 $PAD$ 与底面所成的二面角，故 $\\angle PMH=60^{\\circ}$. 记 $h=PH$，于是\r\n\n$$\nh=PH=PM\\sin60^{\\circ}=6\\times\\frac{\\sqrt3}{2}=3\\sqrt3\n$$\n\r\n同时 $MH=PM\\cos60^{\\circ}=3$. 按原图所示的四棱锥构型，$H$ 位于从 $M$ 向 $B$ 的方向上，所以 $H$ 在底面内沿 $AB$ 方向距 $M$ 为 $3$ 的位置.\r\n底面面积为 $8\\times4\\sqrt3=32\\sqrt3$，所以四棱锥体积为\r\n\n$$\nV=\\frac13\\times32\\sqrt3\\times3\\sqrt3=96\n$$\n\r\n\r\n建立空间直角坐标系，使 $A=(0,0,0)$，$B=(8,0,0)$，$D=(0,4\\sqrt3,0)$，且 $z$ 轴垂直于底面. 由 $M=(0,2\\sqrt3,0)$ 及 $MH=3$，得\r\n\n$$\nH=(3,2\\sqrt3,0)\n$$\n\r\n又 $PH=3\\sqrt3$，所以\r\n\n$$\nP=(3,2\\sqrt3,3\\sqrt3)\n$$\n\r\n所以\r\n\n$$\n\\overrightarrow{AP}=(3,2\\sqrt3,3\\sqrt3)\n$$\n\r\n并且\r\n\n$$\n\\overrightarrow{BD}=(-8,4\\sqrt3,0)\n$$\n\r\n从而\r\n\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{BD}=3\\times(-8)+2\\sqrt3\\times4\\sqrt3=0\n$$\n\r\n因此 $AP\\perp BD$，即 $PA\\perp BD$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>设 $M$ 为 $AD$ 的中点. 因为 $\\triangle PAD$ 是边长为 $4\\sqrt{3}$ 的等边三角形，所以 $PM\\perp AD$，且</p>\n$$\nPM=\\sqrt{\\left(4\\sqrt{3}\\right)^{2}-\\left(2\\sqrt{3}\\right)^{2}}=6\n$$\n<p>设 $H$ 为 $P$ 在底面的射影，并连接 $MH$. 因为 $PH\\perp$ 底面，$PM\\perp AD$，且 $PH\\perp AD$，所以截面 $PMH$ 垂直于棱 $AD$. 因此 $\\angle PMH$ 就是侧面 $PAD$ 与底面所成的二面角，故 $\\angle PMH=60^{\\circ}$. 记 $h=PH$，于是</p>\n$$\nh=PH=PM\\sin60^{\\circ}=6\\times\\frac{\\sqrt{3}}{2}=3\\sqrt{3}\n$$\n<p>同时 $MH=PM\\cos60^{\\circ}=3$. 按原图所示的四棱锥构型，$H$ 位于从 $M$ 向 $B$ 的方向上，所以 $H$ 在底面内沿 $AB$ 方向距 $M$ 为 $3$ 的位置.</p><p>底面面积为 $8\\times4\\sqrt{3}=32\\sqrt{3}$，所以四棱锥体积为</p>\n$$\nV=\\frac{1}{3}\\times32\\sqrt{3}\\times3\\sqrt{3}=96\n$$\n<p>建立空间直角坐标系，使 $A=(0,0,0)$，$B=(8,0,0)$，$D=(0,4\\sqrt{3},0)$，且 $z$ 轴垂直于底面. 由 $M=(0,2\\sqrt{3},0)$ 及 $MH=3$，得</p>\n$$\nH=(3,2\\sqrt{3},0)\n$$\n<p>又 $PH=3\\sqrt{3}$，所以</p>\n$$\nP=(3,2\\sqrt{3},3\\sqrt{3})\n$$\n<p>所以</p>\n$$\n\\overrightarrow{AP}=(3,2\\sqrt{3},3\\sqrt{3})\n$$\n<p>并且</p>\n$$\n\\overrightarrow{BD}=(-8,4\\sqrt{3},0)\n$$\n<p>从而</p>\n$$\n\\overrightarrow{AP}\\cdot\\overrightarrow{BD}=3\\times(-8)+2\\sqrt{3}\\times4\\sqrt{3}=0\n$$\n<p>因此 $AP\\perp BD$，即 $PA\\perp BD$.</p>"
         },
         {
           "num": 21,
-          "body": "双曲线 $\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1$（$a > 1$，$b > 0$）的焦点距为 $2c$，直线 $l$ 过点 $(a,0)$ 和 $(0,b)$，且点 $(1,0)$ 到直线 $l$ 的距离与点 $(-1,0)$ 到直线 $l$ 的距离之和 $s \\ge \\frac{4}{5} c$. 求双曲线的离心率 $e$ 的取值范围.",
-          "choices": [],
+          "body": "双曲线 $\\frac{x^{2}}{a^{2}}- \\frac{y^{2}}{b^{2}}= 1$（$a > 1$，$b > 0$）的焦点距为 $2c$，直线 $l$ 过点 $(a,0)$ 和 $(0,b)$，且点 $(1,0)$ 到直线 $l$ 的距离与点 $(-1,0)$ 到直线 $l$ 的距离之和 $s \\ge \\frac{4}{5}c$. 求双曲线的离心率 $e$ 的取值范围.",
+          "choices": null,
           "answer": "",
-          "solution": "直线 $l$ 过 $(a,0)$ 和 $(0,b)$，所以\r\n\n$$\n\\frac{x}{a}+\\frac{y}{b}=1\n$$\n\r\n即 $bx+ay-ab=0$. 双曲线的焦点距为 $2c$，故\r\n\n$$\nc^2=a^2+b^2\n$$\n\r\n由点到直线的距离公式，且 $a>1$，有\r\n\n$$\ns=\\frac{|b-ab|}{\\sqrt{a^2+b^2}}+\\frac{|-b-ab|}{\\sqrt{a^2+b^2}}\r\n =\\frac{b(a-1)+b(a+1)}{c}=\\frac{2ab}{c}\n$$\n\r\n其中双曲线满足 $c^2=a^2+b^2$. 代入题设不等式，得\r\n\n$$\n\\frac{2ab}{c}\\ge\\frac45c\r\n\\Longleftrightarrow 5ab\\geqslant2(a^2+b^2)\n$$\n\r\n令 $t=\\frac ba>0$. 因为 $a>0$，约去 $a^2$ 后得到\r\n\n$$\n2t^2-5t+2\\leqslant0\r\n\\Longleftrightarrow (2t-1)(t-2)\\leqslant0\n$$\n\r\n所以 $\\frac12\\le t\\leqslant2$. 双曲线离心率为\r\n\n$$\ne=\\frac ca=\\sqrt{1+\\frac{b^2}{a^2}}=\\sqrt{1+t^2}\n$$\n\r\n由于 $t>0$，该函数在所给区间上递增，故\r\n\n$$\n\\frac{\\sqrt5}{2}=\\sqrt{1+\\frac14}\\le e\\le\\sqrt5\n$$\n\r\n由于 $a$ 只要求大于 $1$，取任意 $a>1$ 并令 $b=\\frac12a$ 或 $b=2a$，均能达到 $t=\\frac12$ 或 $t=2$，且满足原不等式的等号条件. 故端点均可取，离心率的取值范围为 $\\left[\\frac{\\sqrt5}{2},\\sqrt5\\right]$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<p>直线 $l$ 过 $(a,0)$ 和 $(0,b)$，所以</p>\n$$\n\\frac{x}{a}+\\frac{y}{b}=1\n$$\n<p>即 $bx+ay-ab=0$. 双曲线的焦点距为 $2c$，故</p>\n$$\nc^{2}=a^{2}+b^{2}\n$$\n<p>由点到直线的距离公式，且 $a>1$，有</p>\n$$\ns=\\frac{|b-ab|}{\\sqrt{a^{2}+b^{2}}}+\\frac{|-b-ab|}{\\sqrt{a^{2}+b^{2}}}=\\frac{b(a-1)+b(a+1)}{c}=\\frac{2ab}{c}\n$$\n<p>其中双曲线满足 $c^{2}=a^{2}+b^{2}$. 代入题设不等式，得</p>\n$$\n\\frac{2ab}{c}\\ge\\frac{4}{5}c  \\Longleftrightarrow 5ab\\geqslant2(a^{2}+b^{2})\n$$\n<p>令 $t=\\frac{b}{a}>0$. 因为 $a>0$，约去 $a^{2}$ 后得到</p>\n$$\n2t^{2}-5t+2\\leqslant0  \\Longleftrightarrow (2t-1)(t-2)\\leqslant0\n$$\n<p>所以 $\\frac{1}{2}\\le t\\leqslant2$. 双曲线离心率为</p>\n$$\ne=\\frac{c}{a}=\\sqrt{1+\\frac{b^{2}}{a^{2}}}=\\sqrt{1+t^{2}}\n$$\n<p>由于 $t>0$，该函数在所给区间上递增，故</p>\n$$\n\\frac{\\sqrt{5}}{2}=\\sqrt{1+\\frac{1}{4}}\\le e\\le\\sqrt{5}\n$$\n<p>由于 $a$ 只要求大于 $1$，取任意 $a>1$ 并令 $b=\\frac{1}{2}a$ 或 $b=2a$，均能达到 $t=\\frac{1}{2}$ 或 $t=2$，且满足原不等式的等号条件. 故端点均可取，离心率的取值范围为 $\\left[\\frac{\\sqrt{5}}{2},\\sqrt{5}\\right]$.</p>"
         },
         {
           "num": 22,
-          "body": "已知函数 $f(x) = \\mathrm{e}^{-x}\\left(\\cos x + \\sin x\\right)$. 将满足 $f'(x) = 0$ 的所有正数 $x$ 从小到大排成数列 $\\{x_n\\}$.\r\n\r\n\n(1) 证明数列 $\\{f(x_n)\\}$ 为等比数列；\n\n(2) 记 $S_{n}$ 是数列 $\\{x_n f(x_n)\\}$ 的前 $n$ 项和，求 $\\displaystyle\\lim_{n\\to \\infty}\\frac{S_1 + S_2 + \\cdots + S_n}{n}$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\mathrm{e}^{-x}\\left(\\cos x + \\sin x\\right)$. 将满足 $f'(x) = 0$ 的所有正数 $x$ 从小到大排成数列 $\\{x_{n}\\}$.</p><ol class=\"enumerate\"><li><p>证明数列 $\\{f(x_{n})\\}$ 为等比数列；</p></li><li><p>记 $S_{n}$ 是数列 $\\{x_{n} f(x_{n})\\}$ 的前 $n$ 项和，求 $\\displaystyle\\lim_{n\\to \\infty}\\frac{S_{1} + S_{2} + \\cdots + S_{n}}{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 对函数求导，得\r\n\n$$\nf'(x)=-\\mathrm{e}^{-x}(\\cos x+\\sin x)+\\mathrm{e}^{-x}(-\\sin x+\\cos x)=-2\\mathrm{e}^{-x}\\sin x\n$$\n\r\n因为 $\\mathrm{e}^{-x}>0$，所以正数零点满足且只满足 $\\sin x=0$. 正数解依次为 $x_n=n\\pi$（$n=1$，$2$，$\\ldots$）. 因此\r\n\n$$\nf(x_n)=\\mathrm{e}^{-n\\pi}\\cos(n\\pi)=(-1)^n\\mathrm{e}^{-n\\pi}\n$$\n\r\n且\r\n\n$$\n\\frac{f(x_{n+1})}{f(x_n)}=\\frac{(-1)^{n+1}\\mathrm{e}^{-(n+1)\\pi}}{(-1)^n\\mathrm{e}^{-n\\pi}}=-\\mathrm{e}^{-\\pi}\n$$\n\r\n与 $n$ 无关，所以 $\\{f(x_n)\\}$ 是等比数列，首项和公比均为 $-\\mathrm{e}^{-\\pi}$.\n\n(2) 由 $x_n=n\\pi$，有\r\n\n$$\nS_n=\\sum_{k=1}^{n}x_kf(x_k)=\\pi\\sum_{k=1}^{n}kq^k\n$$\n\r\n其中 $q=-\\mathrm{e}^{-\\pi}$.\r\n因为 $|q|=\\mathrm{e}^{-\\pi}<1$，级数 $\\sum_{k=1}^{\\infty}kq^k$ 绝对收敛. 对 $|q|<1$，由等比级数求导可得\r\n\n$$\n\\sum_{k=1}^{\\infty}kq^k=\\frac{q}{(1-q)^2}\n$$\n\r\n故 $S_n$ 收敛，且\r\n\n$$\n\\lim_{n\\to\\infty}S_n\r\n=\\pi\\sum_{k=1}^{\\infty}k(-\\mathrm{e}^{-\\pi})^k\r\n=\\pi\\frac{-\\mathrm{e}^{-\\pi}}{\\left(1+\\mathrm{e}^{-\\pi}\\right)^2}\n$$\n\r\n若 $S_n\\to L$，则其算术平均数也趋于 $L$. 这里取 $L=-\\dfrac{\\pi\\mathrm{e}^{-\\pi}}{(1+\\mathrm{e}^{-\\pi})^2}$，所以\r\n\n$$\n\\lim_{n\\to\\infty}\\frac{S_1+S_2+\\cdots+S_n}{n}\r\n=-\\frac{\\pi\\mathrm{e}^{-\\pi}}{\\left(1+\\mathrm{e}^{-\\pi}\\right)^2}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>对函数求导，得</p>\n$$\nf'(x)=-\\mathrm{e}^{-x}(\\cos x+\\sin x)+\\mathrm{e}^{-x}(-\\sin x+\\cos x)=-2\\mathrm{e}^{-x}\\sin x\n$$\n<p>因为 $\\mathrm{e}^{-x}>0$，所以正数零点满足且只满足 $\\sin x=0$. 正数解依次为 $x_{n}=n\\pi$（$n=1$，$2$，$\\ldots$）. 因此</p>\n$$\nf(x_{n})=\\mathrm{e}^{-n\\pi}\\cos(n\\pi)=(-1)^{n}\\mathrm{e}^{-n\\pi}\n$$\n<p>且</p>\n$$\n\\frac{f(x_{n+1})}{f(x_{n})}=\\frac{(-1)^{n+1}\\mathrm{e}^{-(n+1)\\pi}}{(-1)^{n}\\mathrm{e}^{-n\\pi}}=-\\mathrm{e}^{-\\pi}\n$$\n<p>与 $n$ 无关，所以 $\\{f(x_{n})\\}$ 是等比数列，首项和公比均为 $-\\mathrm{e}^{-\\pi}$.</p></li><li><p>由 $x_{n}=n\\pi$，有</p>\n$$\nS_{n}=\\sum_{k=1}^{n}x_{k}f(x_{k})=\\pi\\sum_{k=1}^{n}kq^{k}\n$$\n<p>其中 $q=-\\mathrm{e}^{-\\pi}$.</p><p>因为 $|q|=\\mathrm{e}^{-\\pi}&#x3C;1$，级数 $\\sum_{k=1}^{\\infty}kq^{k}$ 绝对收敛. 对 $|q|&#x3C;1$，由等比级数求导可得</p>\n$$\n\\sum_{k=1}^{\\infty}kq^{k}=\\frac{q}{(1-q)^{2}}\n$$\n<p>故 $S_{n}$ 收敛，且</p>\n$$\n\\lim_{n\\to\\infty}S_{n}  =\\pi\\sum_{k=1}^{\\infty}k(-\\mathrm{e}^{-\\pi})^{k}  =\\pi\\frac{-\\mathrm{e}^{-\\pi}}{\\left(1+\\mathrm{e}^{-\\pi}\\right)^{2}}\n$$\n<p>若 $S_{n}\\to L$，则其算术平均数也趋于 $L$. 这里取 $L=-\\dfrac{\\pi\\mathrm{e}^{-\\pi}}{(1+\\mathrm{e}^{-\\pi})^2}$，所以</p>\n$$\n\\lim_{n\\to\\infty}\\frac{S_{1}+S_{2}+\\cdots+S_{n}}{n}=-\\frac{\\pi\\mathrm{e}^{-\\pi}}{\\left(1+\\mathrm{e}^{-\\pi}\\right)^{2}}\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }

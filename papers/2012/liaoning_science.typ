@@ -1,3 +1,4 @@
+#import "@preview/mitex:0.2.5": *
 // 历年全国高考数学真题 - Typst 高清排版
 #import "/templates/exam.typ": *
 
@@ -158,7 +159,7 @@ $ 2 x+3 y=2 u+y <= 2 times 20 +15=55 $
 $S\l e f t a r r o w(2)/(2-S)$，$i\l e f t a r r o w i+1$.
 连续计算得到
 
-$ 4\l o n g m a p s t o-1\l o n g m a p s t o(2)/(3)\l o n g m a p s t o(3)/(2)\l o n g m a p s t o4 $
+$ 4\l o n g m a p s t o-1\l o n g m a p s t o(2)/(3)\l o n g m a p s t o(3)/(2)\l o n g m a p s t o 4 $
 
 这四步构成一个循环. 由于从 $i=1$ 到 $i=8$ 共执行 $8$ 次，恰好完成两个循环，随后 $i=9$ 不满足 $i<9$，输出 $S=4$. 故选 D.
 ]
@@ -258,7 +259,7 @@ $ 2(a_n+a_(n+2))=5 a_(n+1) $
 
 得 $2 q^2-5 q+2=0$，所以 $q=2$ 或 $q=(1)/(2)$.
 
-由 $a_5^2=a_(10)=a_(5) q^5$ 可知 $a_5\n e q0$，从而 $a_5=q^5>0$. 若 $q=(1)/(2)$，则 $a_6=a_(5) q<a_5$，与数列递增矛盾，故 $q=2$. 于是
+由 $a_5^2=a_(10)=a_(5) q^5$ 可知 $a_5\n e q 0$，从而 $a_5=q^5>0$. 若 $q=(1)/(2)$，则 $a_6=a_(5) q<a_5$，与数列递增矛盾，故 $q=2$. 于是
 
 $ a_5=q^5=32=2^5 $
 

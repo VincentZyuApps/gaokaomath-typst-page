@@ -1,150 +1,15 @@
 {
+  "title": "2012年普通高等学校招生全国统一考试",
+  "subtitle": "2012年江西卷（理）",
   "year": "2012",
   "slug": "jiangxi_science",
-  "title": "2012年江西卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "选做题：填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "选做题：填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若集合 $A = \\{-1, 1\\}$，$B = \\{0, 2\\}$，则集合 $\\{z \\mid z = x + y, x \\in A, y \\in B\\}$ 中的元素个数为（ ）",
+          "body": "若集合 $A = \\{-1, 1\\}$，$B = \\{0, 2\\}$，则集合 $\\{z \\mid z = x + y, x \\in A, y \\in B\\}$ 中的元素个数为（ ）",
           "choices": [
             "$5$",
             "$4$",
@@ -152,13 +17,11 @@
             "$2$"
           ],
           "answer": "C",
-          "solution": "由 $x\\in A$、$y\\in B$，可得\r\n$x+y\\in\\{-1+0,-1+2,1+0,1+2\\}=\\{-1,1,3\\}$.\r\n集合中的不同元素只有 $3$ 个，所以应选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>由 $x\\in A$、$y\\in B$，可得</p><p>$x+y\\in\\{-1+0,-1+2,1+0,1+2\\}=\\{-1,1,3\\}$.</p><p>集合中的不同元素只有 $3$ 个，所以应选 C.</p>"
         },
         {
           "num": 2,
-          "body": "下列函数中，与函数 $y = \\frac{1}{\\sqrt[3]{x}}$ 定义域相同的函数为（ ）",
+          "body": "下列函数中，与函数 $y = \\frac{1}{\\sqrt[3]{x}}$ 定义域相同的函数为（ ）",
           "choices": [
             "$y = \\frac{1}{\\sin x}$",
             "$y = \\frac{\\ln x}{x}$",
@@ -166,13 +29,11 @@
             "$y = \\frac{\\sin x}{x}$"
           ],
           "answer": "D",
-          "solution": "函数 $y=\\dfrac{1}{\\sqrt[3]{x}}$ 的分母不能为零，故其定义域为\r\n$\\{x\\mid x\\neq0\\}$.\r\n选项 A 的定义域要求 $\\sin x\\neq0$，选项 B 要求 $x>0$，选项 C 的定义域为 $\\mathbb{R}$，而选项 D 的定义域为 $\\{x\\mid x\\neq0\\}$. 因此应选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>函数 $y=\\dfrac{1}{\\sqrt[3]{x}}$ 的分母不能为零，故其定义域为</p><p>$\\{x\\mid x\\neq0\\}$.</p><p>选项 A 的定义域要求 $\\sin x\\neq0$，选项 B 要求 $x>0$，选项 C 的定义域为 $\\mathbb{R}$，而选项 D 的定义域为 $\\{x\\mid x\\neq0\\}$. 因此应选 D.</p>"
         },
         {
           "num": 3,
-          "body": "若函数 $f(x) = \\begin{cases}\r\nx^2 + 1, & x \\le 1,\\\\\r\n\\lg x, & x > 1,\r\n\\end{cases}$ 则 $f(f(10)) =$（ ）",
+          "body": "若函数 $f(x) = \\begin{cases}x^{2} + 1,&#x26;x \\le 1,\\\\  \\lg x,&#x26;x > 1,\\end{cases}$ 则 $f(f(10)) =$（ ）",
           "choices": [
             "$\\lg 101$",
             "$2$",
@@ -180,13 +41,11 @@
             "$0$"
           ],
           "answer": "B",
-          "solution": "因为 $10>1$，所以 $f(10)=\\lg10=1$. 又因为 $1\\leqslant1$，代入第一段解析式得 $f(1)=1^2+1=2$. 因而 $f(f(10))=2$，应选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "因为 $10>1$，所以 $f(10)=\\lg10=1$. 又因为 $1\\leqslant1$，代入第一段解析式得 $f(1)=1^{2}+1=2$. 因而 $f(f(10))=2$，应选 B."
         },
         {
           "num": 4,
-          "body": "若 $\\tan \\theta + \\frac{1}{\\tan \\theta} = 4$，则 $\\sin 2\\theta =$（ ）",
+          "body": "若 $\\tan \\theta + \\frac{1}{\\tan \\theta}= 4$，则 $\\sin 2\\theta =$（ ）",
           "choices": [
             "$\\frac{1}{8}$",
             "$\\frac{1}{4}$",
@@ -194,27 +53,23 @@
             "$\\frac{1}{2}$"
           ],
           "answer": "D",
-          "solution": "令 $t=\\tan\\theta$. 由题意 $t\\neq0$，且\r\n$t+\\dfrac1t=4$，从而 $t^2+1=4t$. 因此\r\n$\\sin2\\theta=\\dfrac{2\\tan\\theta}{1+\\tan^2\\theta}=\\dfrac{2t}{4t}=\\dfrac12$，应选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $t=\\tan\\theta$. 由题意 $t\\neq0$，且</p><p>$t+\\dfrac{1}{t}=4$，从而 $t^{2}+1=4t$. 因此</p><p>$\\sin2\\theta=\\dfrac{2\\tan\\theta}{1+\\tan^2\\theta}=\\dfrac{2t}{4t}=\\dfrac{1}{2}$，应选 D.</p>"
         },
         {
           "num": 5,
-          "body": "下列命题中，假命题为（ ）",
+          "body": "下列命题中，假命题为（ ）",
           "choices": [
             "存在四边相等的四边形不是正方形",
             "$z_{1}$、$z_{2}\\in\\mathbf{C}$，$z_{1}+z_{2}$ 为实数的充分必要条件是 $z_{1}$、$z_{2}$ 互为共轭复数",
             "若 $x$、$y\\in\\mathbb{R}$，且 $x+y>2$，则 $x$、$y$ 至少有一个大于 $1$",
-            "对于任意 $n\\in\\mathbf{N}_{+}$，$\\mathrm C_{n}^{0}+\\mathrm C_{n}^{1}+\\cdots+\\mathrm C_{n}^{n}$ 都是偶数"
+            "对于任意 $n\\in\\mathbf{N}_{+}$，$\\mathrm{C}_{n}^{0}+\\mathrm{C}_{n}^{1}+\\cdots+\\mathrm{C}_{n}^{n}$ 都是偶数"
           ],
           "answer": "B",
-          "solution": "选项 A 正确，例如菱形只要不是正方形，就存在四边相等而不是正方形的四边形.\r\n\r\n选项 B 不正确. 取 $z_1=1$、$z_2=2$，则 $z_1+z_2=3$ 是实数，但 $z_1$、$z_2$ 不互为共轭复数，所以所述充分必要条件不成立.\r\n\r\n选项 C 正确. 若 $x\\leqslant1$ 且 $y\\leqslant1$，则 $x+y\\leqslant2$，与 $x+y>2$ 矛盾，故 $x$、$y$ 至少有一个大于 $1$.\r\n\r\n选项 D 正确，因为二项式系数满足\r\n$\\mathrm C_n^0+\\mathrm C_n^1+\\cdots+\\mathrm C_n^n=2^n$，而 $n\\in\\N_+$ 时 $2^n$ 为偶数. 所以假命题为 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>选项 A 正确，例如菱形只要不是正方形，就存在四边相等而不是正方形的四边形.</p><p>选项 B 不正确. 取 $z_{1}=1$、$z_{2}=2$，则 $z_{1}+z_{2}=3$ 是实数，但 $z_{1}$、$z_{2}$ 不互为共轭复数，所以所述充分必要条件不成立.</p><p>选项 C 正确. 若 $x\\leqslant1$ 且 $y\\leqslant1$，则 $x+y\\leqslant2$，与 $x+y>2$ 矛盾，故 $x$、$y$ 至少有一个大于 $1$.</p><p>选项 D 正确，因为二项式系数满足</p><p>$\\mathrm{C}_{n}^{0}+\\mathrm{C}_{n}^{1}+\\cdots+\\mathrm{C}_{n}^{n}=2^{n}$，而 $n\\in\\N_{+}$ 时 $2^{n}$ 为偶数. 所以假命题为 B.</p>"
         },
         {
           "num": 6,
-          "body": "观察下列各式： $a + b = 1$，$a^2 + b^2 = 3$，$a^3 + b^3 = 4$，$a^4 + b^4 = 7$，$a^5 + b^5 = 11$，$\\cdots$，则 $a^{10} + b^{10} =$ （ ）",
+          "body": "观察下列各式： $a + b = 1$，$a^{2} + b^{2} = 3$，$a^{3} + b^{3} = 4$，$a^{4} + b^{4} = 7$，$a^{5} + b^{5} = 11$，$\\cdots$，则 $a^{10}+ b^{10}=$ （ ）",
           "choices": [
             "$28$",
             "$76$",
@@ -222,13 +77,11 @@
             "$199$"
           ],
           "answer": "C",
-          "solution": "记 $s_n=a^n+b^n$，并令 $s_0=2$. 由 $a+b=1$ 和 $a^2+b^2=3$，有\r\n$1=(a+b)^2=a^2+2ab+b^2=3+2ab$，故 $ab=-1$.\r\n\r\n于是对 $n\\geqslant2$，\r\n$s_n=(a+b)s_{n-1}-ab s_{n-2}=s_{n-1}+s_{n-2}$.\r\n由 $s_1=1$、$s_2=3$ 递推得\r\n$s_3=4$、$s_4=7$、$s_5=11$、$s_6=18$、$s_7=29$、$s_8=47$、$s_9=76$、$s_{10}=123$.\r\n所以 $a^{10}+b^{10}=123$，应选 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>记 $s_{n}=a^{n}+b^{n}$，并令 $s_{0}=2$. 由 $a+b=1$ 和 $a^{2}+b^{2}=3$，有</p><p>$1=(a+b)^{2}=a^{2}+2ab+b^{2}=3+2ab$，故 $ab=-1$.</p><p>于是对 $n\\geqslant2$，</p><p>$s_{n}=(a+b)s_{n-1}-ab s_{n-2}=s_{n-1}+s_{n-2}$.</p><p>由 $s_{1}=1$、$s_{2}=3$ 递推得</p><p>$s_{3}=4$、$s_{4}=7$、$s_{5}=11$、$s_{6}=18$、$s_{7}=29$、$s_{8}=47$、$s_{9}=76$、$s_{10}=123$.</p><p>所以 $a^{10}+b^{10}=123$，应选 C.</p>"
         },
         {
           "num": 7,
-          "body": "在直角三角形 $ABC$ 中，点 $D$ 是斜边 $AB$ 的中点，点 $P$ 为线段 $CD$ 的中点，则 $\\frac{|PA|^2 + |PB|^2}{|PC|^2} =$（ ）",
+          "body": "在直角三角形 $ABC$ 中，点 $D$ 是斜边 $AB$ 的中点，点 $P$ 为线段 $CD$ 的中点，则 $\\frac{|PA|^{2} + |PB|^{2}}{|PC|^{2}}=$（ ）",
           "choices": [
             "$2$",
             "$4$",
@@ -236,13 +89,11 @@
             "$10$"
           ],
           "answer": "D",
-          "solution": "不妨在直角坐标系中取 $C=(0,0)$、$A=(u,0)$、$B=(0,v)$，其中 $u$，$v>0$. 则\r\n$D=\\left(\\dfrac u2,\\dfrac v2\\right)$、$P=\\left(\\dfrac u4,\\dfrac v4\\right)$.\r\n\r\n因此\r\n$\\lvert PA\\rvert^2=\\dfrac{9u^2+v^2}{16}$、$\\lvert PB\\rvert^2=\\dfrac{u^2+9v^2}{16}$，而\r\n$\\lvert PC\\rvert^2=\\dfrac{u^2+v^2}{16}$. 从而\r\n\n$$\n\\frac{\\lvert PA\\rvert^2+\\lvert PB\\rvert^2}{\\lvert PC\\rvert^2}\r\n=\\frac{10\\frac{(u^2+v^2)}{16}}{\\frac{(u^2+v^2)}{16}}=10\n$$\n\r\n故应选 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>不妨在直角坐标系中取 $C=(0,0)$、$A=(u,0)$、$B=(0,v)$，其中 $u$，$v>0$. 则</p><p>$D=\\left(\\dfrac{u}{2},\\dfrac{v}{2}\\right)$、$P=\\left(\\dfrac{u}{4},\\dfrac{v}{4}\\right)$.</p><p>因此</p><p>$\\lvert PA\\rvert^{2}=\\dfrac{9u^2+v^2}{16}$、$\\lvert PB\\rvert^{2}=\\dfrac{u^2+9v^2}{16}$，而</p><p>$\\lvert PC\\rvert^{2}=\\dfrac{u^2+v^2}{16}$. 从而</p>\n$$\n\\frac{\\lvert PA\\rvert^{2}+\\lvert PB\\rvert^{2}}{\\lvert PC\\rvert^{2}}=\\frac{10\\frac{(u^2+v^2)}{16}}{\\frac{(u^{2}+v^{2})}{16}}=10\n$$\n<p>故应选 D.</p>"
         },
         {
           "num": 8,
-          "body": "某农户计划种植黄瓜和韭菜，种植面积不超过 $50\\text{ 亩}$，投入资金不超过 $54\\text{ 万元}$，假设种植黄瓜和韭菜的产量、成本和售价如下表\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|c|c|c}\r\n\\hline\r\n & 年产量/亩 & 年种植成本/亩 & 每吨售价 \\\\\r\n\\hline\r\n黄瓜 & $4\\text{ 吨}$ & $1.2\\text{ 万元}$ & $0.55\\text{ 万元}$ \\\\\r\n\\hline\r\n韭菜 & $6\\text{ 吨}$ & $0.9\\text{ 万元}$ & $0.3\\text{ 万元}$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n为使一年的种植总利润（$\\text{总利润} = \\text{总销售收入} - \\text{总种植成本}$）最大，那么黄瓜和韭菜的种植面积（单位：亩）分别为（ ）",
+          "body": "<p>某农户计划种植黄瓜和韭菜，种植面积不超过 $50\\text{ 亩}$，投入资金不超过 $54\\text{ 万元}$，假设种植黄瓜和韭菜的产量、成本和售价如下表</p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td><td style=\"text-align: center; border-right: 1px solid\"> 年产量/亩 </td><td style=\"text-align: center; border-right: 1px solid\"> 年种植成本/亩 </td><td style=\"text-align: center\"> 每吨售价 </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>黄瓜 </td><td style=\"text-align: center; border-right: 1px solid\"> $4\\text{ 吨}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1.2\\text{ 万元}$ </td><td style=\"text-align: center\"> $0.55\\text{ 万元}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>韭菜 </td><td style=\"text-align: center; border-right: 1px solid\"> $6\\text{ 吨}$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0.9\\text{ 万元}$ </td><td style=\"text-align: center\"> $0.3\\text{ 万元}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>为使一年的种植总利润（$\\text{总利润}= \\text{总销售收入}- \\text{总种植成本}$）最大，那么黄瓜和韭菜的种植面积（单位：亩）分别为（ ）</p>",
           "choices": [
             "$50,0$",
             "$30,20$",
@@ -250,37 +101,31 @@
             "$0,50$"
           ],
           "answer": "B",
-          "solution": "设黄瓜和韭菜的种植面积分别为 $x$、$y$ 亩，则\r\n$x\\geqslant0$、$y\\geqslant0$、$x+y\\leqslant50$，且 $1.2x+0.9y\\leqslant54$.\r\n\r\n每亩黄瓜的利润为 $4\\times0.55-1.2=1$ 万元，每亩韭菜的利润为 $6\\times0.3-0.9=0.9$ 万元，故总利润为 $z=x+0.9y$. 可行域的有关顶点为\r\n$(0,0)$、$(45,0)$、$(30,20)$、$(0,50)$.\r\n\r\n在这些顶点处，$z$ 依次为 $0$、$45$、$48$、$45$. 最大值在 $(30,20)$ 处取得，所以黄瓜和韭菜的种植面积分别为 $30$ 亩和 $20$ 亩，应选 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设黄瓜和韭菜的种植面积分别为 $x$、$y$ 亩，则</p><p>$x\\geqslant0$、$y\\geqslant0$、$x+y\\leqslant50$，且 $1.2x+0.9y\\leqslant54$.</p><p>每亩黄瓜的利润为 $4\\times0.55-1.2=1$ 万元，每亩韭菜的利润为 $6\\times0.3-0.9=0.9$ 万元，故总利润为 $z=x+0.9y$. 可行域的有关顶点为</p><p>$(0,0)$、$(45,0)$、$(30,20)$、$(0,50)$.</p><p>在这些顶点处，$z$ 依次为 $0$、$45$、$48$、$45$. 最大值在 $(30,20)$ 处取得，所以黄瓜和韭菜的种植面积分别为 $30$ 亩和 $20$ 亩，应选 B.</p>"
         },
         {
           "num": 9,
-          "body": "样本 $(x_{1}, x_{2}, \\cdots, x_{n})$ 的平均数为 $\\overline{x}$，样本 $(y_{1}, y_{2}, \\cdots, y_{m})$ 的平均数为 $\\overline{y}$ （记 $\\overline{x} \\neq \\overline{y}$）. 若样本 $(x_{1}, x_{2}, \\cdots, x_{n}, y_{1}, y_{2}, \\cdots, y_{m})$ 的平均数 $\\overline{z} = \\alpha \\overline{x} + (1 - \\alpha)\\overline{y}$，其中 $0 < \\alpha < \\frac{1}{2}$，则 $n$，$m$ 的大小关系为（ ）",
+          "body": "样本 $(x_{1}, x_{2}, \\cdots, x_{n})$ 的平均数为 $\\overline{x}$，样本 $(y_{1}, y_{2}, \\cdots, y_{m})$ 的平均数为 $\\overline{y}$ （记 $\\overline{x}\\neq \\overline{y}$）. 若样本 $(x_{1}, x_{2}, \\cdots, x_{n}, y_{1}, y_{2}, \\cdots, y_{m})$ 的平均数 $\\overline{z}= \\alpha \\overline{x}+ (1 - \\alpha)\\overline{y}$，其中 $0 &#x3C; \\alpha &#x3C; \\frac{1}{2}$，则 $n$，$m$ 的大小关系为（ ）",
           "choices": [
-            "$n < m$",
+            "$n &#x3C; m$",
             "$n > m$",
             "$n = m$",
             "不能确定"
           ],
           "answer": "A",
-          "solution": "合并样本的平均数满足\r\n$\\overline z=\\dfrac{n\\overline x+m\\overline y}{n+m}$.\r\n又因 $\\overline x\\neq\\overline y$，题设等式中两种平均数的系数必须分别相等，因此\r\n$\\dfrac n{n+m}=\\alpha$.\r\n由 $0<\\alpha<\\dfrac12$ 得 $n<m$，所以应选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>合并样本的平均数满足</p><p>$\\overline z=\\dfrac{n\\overline x+m\\overline y}{n+m}$.</p><p>又因 $\\overline x\\neq\\overline y$，题设等式中两种平均数的系数必须分别相等，因此</p><p>$\\dfrac n{n+m}=\\alpha$.</p><p>由 $0&#x3C;\\alpha&#x3C;\\dfrac{1}{2}$ 得 $n&#x3C;m$，所以应选 A.</p>"
         },
         {
           "num": 10,
-          "body": "如图，已知正四棱锥 $S - ABCD$ 所有棱长都为 1，点 $E$ 是侧棱 $SC$ 上一动点，过点 $E$ 垂直于 $SC$ 的截面将正四棱锥分成上、下两部分. 记 $SE = x$ （$0 < x < 1$），截面下面部分的体积为 $V(x)$，则函数 $y = V(x)$ 的图象大致为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q10_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图，已知正四棱锥 $S - ABCD$ 所有棱长都为 1，点 $E$ 是侧棱 $SC$ 上一动点，过点 $E$ 垂直于 $SC$ 的截面将正四棱锥分成上、下两部分. 记 $SE = x$ （$0 &#x3C; x &#x3C; 1$），截面下面部分的体积为 $V(x)$，则函数 $y = V(x)$ 的图象大致为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q10_fig2.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q10_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q10_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q10_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
-            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optA.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optB.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optC.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>",
+            "<div align=\"center\"><img class=\"problem-choice-image\" src=\"./img/jiangxi_science/q10_optD.png\" style=\"max-height:100px; max-width:130px; object-fit:contain; display:block; margin:6px auto;\" /></div>"
           ],
           "answer": "A",
-          "solution": "设正四棱锥的底面为边长 $1$ 的正方形，高为 $h$. 由顶点到底面中心的距离为 $\\dfrac{1}{\\sqrt2}$，且侧棱长为 $1$，得 $h=\\dfrac1{\\sqrt2}$，故整个棱锥体积为 $\\dfrac{\\sqrt2}{6}$.\r\n\r\n取底面中心为原点，令 $C=\\left(\\dfrac12,\\dfrac12,0\\right)$、$S=\\left(0,0,\\dfrac1{\\sqrt2}\\right)$，并令 $E=S+x(C-S)$. 截面平面方程为\r\n\n$$\n\\frac12(X+Y+1-2x)-\\frac{Z}{\\sqrt2}=0\n$$\n\r\n将截面上的 $Z$ 写成 $Z=\\frac{(X+Y+1-2x)}{\\sqrt2}$. 正四棱锥的侧面在底面投影 $(X,Y)$ 上满足\r\n$-\\frac12\\le X$，$Y\\le\\frac12$，$0\\le X+Y+1-2x\\leqslant1-2|X|$，$0\\le X+Y+1-2x\\leqslant1-2|Y|$.\r\n记 $u=X+Y$、$v=X-Y$. 因为 $X=\\frac{(u+v)}{2}$、$Y=\\frac{(u-v)}{2}$，所以\r\n$\\max\\{|X|,|Y|\\}=\\frac{|u|+|v|}{2}$，$\\mathrm dX\\,\\mathrm dY=\\frac12\\mathrm du\\,\\mathrm dv$.\r\n\r\n正四棱锥在底面投影上的上表面高度为 $\\frac{(1-2\\max\\{|X|,|Y|\\})}{\\sqrt2}$. 因而截面投影区域满足\r\n$u+1-2x\\geqslant0$，$u+|u|+|v|\\leqslant2x$，$|u|+|v|\\leqslant1$.\r\n\r\n当 $0\\le x\\le\\dfrac12$ 时，若 $2x-1\\le u\\leqslant0$，则 $1+u\\geqslant2x$，所以 $|v|\\leqslant2x$；若 $0\\le u\\le x$，则 $2(x-u)\\leqslant1-u$，所以 $|v|\\leqslant2(x-u)$. 因此投影面积为\r\n\n$$\nA_0(x)=\\frac12\\left(\\int_{2x-1}^{0}4x\\,\\mathrm du+\\int_{0}^{x}4(x-u)\\,\\mathrm du\\right)=x(2-3x)\n$$\n\r\n\r\n当 $\\dfrac12\\le x\\leqslant1$ 时，$2x-1\\le u\\le x$，且 $2(x-u)\\leqslant1-u$，故 $|v|\\leqslant2(x-u)$，从而\r\n\n$$\nA_0(x)=\\frac12\\int_{2x-1}^{x}4(x-u)\\,\\mathrm du=(1-x)^2\n$$\n\r\n\r\n截面面积为 $\\sqrt2 A_0(x)$，且 $V'(x)$ 等于截面面积的相反数. 由 $V(0)=\\dfrac{\\sqrt2}{6}$ 积分得\r\n\n$$\nV(x)=\\begin{cases}\r\n\\sqrt2\\left(\\dfrac16-x^2+x^3\\right),&0\\le x\\le\\dfrac12,\\\\\r\n\\dfrac{\\sqrt2}{3}(1-x)^3,&\\dfrac12\\le x\\leqslant1.\r\n\\end{cases}\n$$\n\r\n该函数从 $\\dfrac{\\sqrt2}{6}$ 单调下降到 $0$. 在 $0<x<\\dfrac13$ 时 $V''(x)<0$，在 $\\dfrac13<x<1$ 时 $V''(x)>0$，且 $x=\\dfrac12$ 处函数及其一、二阶导数连续，图象与选项 A 相符，所以应选 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设正四棱锥的底面为边长 $1$ 的正方形，高为 $h$. 由顶点到底面中心的距离为 $\\dfrac{1}{\\sqrt{2}}$，且侧棱长为 $1$，得 $h=\\dfrac1{\\sqrt{2}}$，故整个棱锥体积为 $\\dfrac{\\sqrt{2}}{6}$.</p><p>取底面中心为原点，令 $C=\\left(\\dfrac{1}{2},\\dfrac{1}{2},0\\right)$、$S=\\left(0,0,\\dfrac1{\\sqrt{2}}\\right)$，并令 $E=S+x(C-S)$. 截面平面方程为</p>\n$$\n\\frac{1}{2}(X+Y+1-2x)-\\frac{Z}{\\sqrt{2}}=0\n$$\n<p>将截面上的 $Z$ 写成 $Z=\\frac{(X+Y+1-2x)}{\\sqrt{2}}$. 正四棱锥的侧面在底面投影 $(X,Y)$ 上满足</p><p>$-\\frac{1}{2}\\le X$，$Y\\le\\frac{1}{2}$，$0\\le X+Y+1-2x\\leqslant1-2|X|$，$0\\le X+Y+1-2x\\leqslant1-2|Y|$.</p><p>记 $u=X+Y$、$v=X-Y$. 因为 $X=\\frac{(u+v)}{2}$、$Y=\\frac{(u-v)}{2}$，所以</p><p>$\\max\\{|X|,|Y|\\}=\\frac{|u|+|v|}{2}$，$\\mathrm{d}X\\,\\mathrm{d}Y=\\frac{1}{2}\\mathrm{d}u\\,\\mathrm{d}v$.</p><p>正四棱锥在底面投影上的上表面高度为 $\\frac{(1-2\\max\\{|X|,|Y|\\})}{\\sqrt{2}}$. 因而截面投影区域满足</p><p>$u+1-2x\\geqslant0$，$u+|u|+|v|\\leqslant2x$，$|u|+|v|\\leqslant1$.</p><p>当 $0\\le x\\le\\dfrac{1}{2}$ 时，若 $2x-1\\le u\\leqslant0$，则 $1+u\\geqslant2x$，所以 $|v|\\leqslant2x$；若 $0\\le u\\le x$，则 $2(x-u)\\leqslant1-u$，所以 $|v|\\leqslant2(x-u)$. 因此投影面积为</p>\n$$\nA_{0}(x)=\\frac{1}{2}\\left(\\int_{2x-1}^{0}4x\\,\\mathrm{d}u+\\int_{0}^{x}4(x-u)\\,\\mathrm{d}u\\right)=x(2-3x)\n$$\n<p>当 $\\dfrac{1}{2}\\le x\\leqslant1$ 时，$2x-1\\le u\\le x$，且 $2(x-u)\\leqslant1-u$，故 $|v|\\leqslant2(x-u)$，从而</p>\n$$\nA_{0}(x)=\\frac{1}{2}\\int_{2x-1}^{x}4(x-u)\\,\\mathrm{d}u=(1-x)^{2}\n$$\n<p>截面面积为 $\\sqrt{2}A_{0}(x)$，且 $V'(x)$ 等于截面面积的相反数. 由 $V(0)=\\dfrac{\\sqrt{2}}{6}$ 积分得</p>\n$$\nV(x)=\\begin{cases}\\sqrt{2}\\left(\\dfrac{1}{6}-x^{2}+x^{3}\\right),&#x26;0\\le x\\le\\dfrac{1}{2},\\\\  \\dfrac{\\sqrt{2}}{3}(1-x)^{3},&#x26;\\dfrac{1}{2}\\le x\\leqslant1.\\end{cases}\n$$\n<p>该函数从 $\\dfrac{\\sqrt{2}}{6}$ 单调下降到 $0$. 在 $0&#x3C;x&#x3C;\\dfrac{1}{3}$ 时 $V''(x)&#x3C;0$，在 $\\dfrac{1}{3}&#x3C;x&#x3C;1$ 时 $V''(x)>0$，且 $x=\\dfrac{1}{2}$ 处函数及其一、二阶导数连续，图象与选项 A 相符，所以应选 A.</p>"
         }
       ]
     },
@@ -289,39 +134,31 @@
       "problems": [
         {
           "num": 11,
-          "body": "计算定积分 $\\int_{-1}^{1}\\left(x^{2} + \\sin x\\right)\\mathrm{d}x = _______ {}$.",
-          "choices": [],
-          "answer": "\\(\\frac{2}{3}\\)",
-          "solution": "在区间 $[-1,1]$ 上，$x^2$ 是偶函数，$\\sin x$ 是奇函数，因此\r\n\n$$\n\\int_{-1}^{1}\\left(x^2+\\sin x\\right)\\mathrm{d}x\r\n=2\\int_0^1x^2\\mathrm{d}x+\\int_{-1}^{1}\\sin x\\,\\mathrm{d}x\r\n=2\\left[\\frac{x^3}{3}\\right]_0^1+0\r\n=\\frac23\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "计算定积分 $\\int_{-1}^{1}\\left(x^{2}+ \\sin x\\right)\\mathrm{d}x =\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
+          "answer": "$\\frac{2}{3}$",
+          "solution": "<p>在区间 $[-1,1]$ 上，$x^{2}$ 是偶函数，$\\sin x$ 是奇函数，因此</p>\n$$\n\\int_{-1}^{1}\\left(x^{2}+\\sin x\\right)\\mathrm{d}x  =2\\int_{0}^{1}x^{2}\\mathrm{d}x+\\int_{-1}^{1}\\sin x\\,\\mathrm{d}x  =2\\left[\\frac{x^{3}}{3}\\right]_{0}^{1}+0  =\\frac{2}{3}\n$$"
         },
         {
           "num": 12,
-          "body": "设数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$ 都是等差数列，若 $a_{1} + b_{1} = 7$，$a_{3} + b_{3} = 21$，则 $a_{5} + b_{5} = _______ {}$.",
-          "choices": [],
+          "body": "设数列 $\\{a_{n}\\}$，$\\{b_{n}\\}$ 都是等差数列，若 $a_{1}+ b_{1}= 7$，$a_{3}+ b_{3}= 21$，则 $a_{5}+ b_{5}=\\underline{\\hspace{2.5em}}{}$.",
+          "choices": null,
           "answer": "35",
-          "solution": "令 $c_n=a_n+b_n$. 两个等差数列对应项相加仍为等差数列，设其公差为 $d$. 由\r\n$c_1=7$，$c_3=21$\r\n得 $2d=c_3-c_1=14$，所以 $d=7$. 因而\r\n\n$$\nc_5=c_1+4d=7+4\\times7=35\n$$\n\r\n所以 $a_5+b_5=35$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>令 $c_{n}=a_{n}+b_{n}$. 两个等差数列对应项相加仍为等差数列，设其公差为 $d$. 由</p><p>$c_{1}=7$，$c_{3}=21$</p><p>得 $2d=c_{3}-c_{1}=14$，所以 $d=7$. 因而</p>\n$$\nc_{5}=c_{1}+4d=7+4\\times7=35\n$$\n<p>所以 $a_{5}+b_{5}=35$.</p>"
         },
         {
           "num": 13,
-          "body": "椭圆 $\\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1$（$a > b > 0$）的左、右顶点分别是 $A$，$B$，左、右焦点分别是 $F_1$，$F_2$. 若 $|AF_1|$，$|F_1F_2|$，$|F_1B|$ 成等比数列，则此椭圆的离心率为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\frac{\\sqrt{5}}{5}\\)",
-          "solution": "设椭圆的半焦距为 $c$，则\r\n$A=(-a,0)$，$B=(a,0)$，$F_1=(-c,0)$，$F_2=(c,0)$，\r\n且 $b^2=a^2-c^2$. 因此\r\n$|AF_1|=a-c$，$|F_1F_2|=2c$，$|F_1B|=a+c$.\r\n三项成等比数列，故中间项的平方等于两端项的乘积：\r\n\n$$\n(2c)^2=(a-c)(a+c)=a^2-c^2=b^2\n$$\n\r\n所以 $a^2=5c^2$，离心率\r\n\n$$\ne=\\frac ca=\\frac1{\\sqrt5}=\\frac{\\sqrt5}{5}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "椭圆 $\\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的左、右顶点分别是 $A$，$B$，左、右焦点分别是 $F_{1}$，$F_{2}$. 若 $|AF_{1}|$，$|F_{1}F_{2}|$，$|F_{1}B|$ 成等比数列，则此椭圆的离心率为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\frac{\\sqrt{5}}{5}$",
+          "solution": "<p>设椭圆的半焦距为 $c$，则</p><p>$A=(-a,0)$，$B=(a,0)$，$F_{1}=(-c,0)$，$F_{2}=(c,0)$，</p><p>且 $b^{2}=a^{2}-c^{2}$. 因此</p><p>$|AF_{1}|=a-c$，$|F_{1}F_{2}|=2c$，$|F_{1}B|=a+c$.</p><p>三项成等比数列，故中间项的平方等于两端项的乘积：</p>\n$$\n(2c)^{2}=(a-c)(a+c)=a^{2}-c^{2}=b^{2}\n$$\n<p>所以 $a^{2}=5c^{2}$，离心率</p>\n$$\ne=\\frac{c}{a}=\\frac{1}{\\sqrt{5}}=\\frac{\\sqrt{5}}{5}\n$$"
         },
         {
           "num": 14,
-          "body": "如图为某算法的程序框图，则程序运行后输出的结果是 _______ {}.\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q14_flowchart.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图为某算法的程序框图，则程序运行后输出的结果是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q14_flowchart.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "3",
-          "solution": "按程序框图逐次计算. 初始令 $T=0$，$k=1$，每次将\r\n$\\sin\\dfrac{k\\pi}{2}-\\sin\\dfrac{(k-1)\\pi}{2}$ 加到 $T$ 中，并在 $k=5$ 后结束循环.\r\n\r\n当 $k=1$，$2$，$3$，$4$，$5$ 时，所比较的两项分别为\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n$k$ & $1$ & $2$ & $3$ & $4$ & $5$ \\\\\r\n\\hline\r\n$\\sin\\dfrac{k\\pi}{2}$ & $1$ & $0$ & $-1$ & $0$ & $1$ \\\\\r\n$\\sin\\dfrac{(k-1)\\pi}{2}$ & $0$ & $1$ & $0$ & $-1$ & $0$\r\n\\end{tabular}\r\n\\end{center}\r\n因此不等式\r\n$\\sin\\dfrac{k\\pi}{2}>\\sin\\dfrac{(k-1)\\pi}{2}$\r\n在 $k=1$，$4$，$5$ 时成立，在 $k=2$，$3$ 时不成立. 满足条件的次数为 $3$，故程序输出 $3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>按程序框图逐次计算. 初始令 $T=0$，$k=1$，每次将</p><p>$\\sin\\dfrac{k\\pi}{2}-\\sin\\dfrac{(k-1)\\pi}{2}$ 加到 $T$ 中，并在 $k=5$ 后结束循环.</p><p>当 $k=1$，$2$，$3$，$4$，$5$ 时，所比较的两项分别为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$k$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td><td style=\"text-align: center\"> $4$ </td><td style=\"text-align: center\"> $5$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$\\sin\\dfrac{k\\pi}{2}$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $-1$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$\\sin\\dfrac{(k-1)\\pi}{2}$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $-1$ </td><td style=\"text-align: center\"> $0$</td></tr></tbody></table></center><p>因此不等式</p><p>$\\sin\\dfrac{k\\pi}{2}>\\sin\\dfrac{(k-1)\\pi}{2}$</p><p>在 $k=1$，$4$，$5$ 时成立，在 $k=2$，$3$ 时不成立. 满足条件的次数为 $3$，故程序输出 $3$.</p>"
         }
       ]
     },
@@ -330,21 +167,17 @@
       "problems": [
         {
           "num": 15,
-          "body": "曲线 $C$ 的直角坐标方程为 $x^{2} + y^{2} - 2x = 0$，以原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，则曲线 $C$ 的极坐标方程为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\rho = 2\\cos\\theta\\)",
-          "solution": "由极坐标与直角坐标的关系\r\n$x=\\rho\\cos\\theta$，$x^2+y^2=\\rho^2$\r\n将其代入 $x^2+y^2-2x=0$，得\r\n\n$$\n\\rho^2-2\\rho\\cos\\theta=0\n$$\n\r\n即 $\\rho(\\rho-2\\cos\\theta)=0$. 原点本身在曲线 $C$ 上，而极坐标方程 $\\rho=2\\cos\\theta$ 在 $\\cos\\theta=0$ 时也包含原点，所以曲线的极坐标方程为\r\n\n$$\n\\rho=2\\cos\\theta\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "曲线 $C$ 的直角坐标方程为 $x^{2}+ y^{2}- 2x = 0$，以原点为极点，$x$ 轴的正半轴为极轴建立极坐标系，则曲线 $C$ 的极坐标方程为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\rho = 2\\cos\\theta$",
+          "solution": "<p>由极坐标与直角坐标的关系</p><p>$x=\\rho\\cos\\theta$，$x^{2}+y^{2}=\\rho^{2}$</p><p>将其代入 $x^{2}+y^{2}-2x=0$，得</p>\n$$\n\\rho^{2}-2\\rho\\cos\\theta=0\n$$\n<p>即 $\\rho(\\rho-2\\cos\\theta)=0$. 原点本身在曲线 $C$ 上，而极坐标方程 $\\rho=2\\cos\\theta$ 在 $\\cos\\theta=0$ 时也包含原点，所以曲线的极坐标方程为</p>\n$$\n\\rho=2\\cos\\theta\n$$"
         },
         {
           "num": 16,
-          "body": "在实数范围内，不等式 $|2x - 1| + |2x + 1| \\le 6$ 的解集为 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left[-\\frac{3}{2}, \\frac{3}{2}\\right]\\)",
-          "solution": "绝对值内的两个一次式分别在 $x=\\pm\\dfrac12$ 处变号，分三段讨论.\r\n\r\n当 $x\\le-\\dfrac12$ 时，\r\n\n$$\n|2x-1|+|2x+1|=(1-2x)+(-2x-1)=-4x\n$$\n\r\n不等式化为 $-4x\\leqslant6$，即 $x\\ge-\\dfrac32$，与本段合并得\r\n$\\left[-\\dfrac32,-\\dfrac12\\right]$.\r\n\r\n当 $-\\dfrac12\\le x\\le\\dfrac12$ 时，\r\n\n$$\n|2x-1|+|2x+1|=(1-2x)+(2x+1)=2\\leqslant6\n$$\n\r\n本段所有 $x$ 都满足.\r\n\r\n当 $x\\ge\\dfrac12$ 时，\r\n\n$$\n|2x-1|+|2x+1|=(2x-1)+(2x+1)=4x\n$$\n\r\n不等式化为 $4x\\leqslant6$，即 $x\\le\\dfrac32$，与本段合并得\r\n$\\left[\\dfrac12,\\dfrac32\\right]$.\r\n\r\n合并三段解集，得到\r\n\n$$\n\\left[-\\frac32,\\frac32\\right]\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "在实数范围内，不等式 $|2x - 1| + |2x + 1| \\le 6$ 的解集为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left[-\\frac{3}{2}, \\frac{3}{2}\\right]$",
+          "solution": "<p>绝对值内的两个一次式分别在 $x=\\pm\\dfrac{1}{2}$ 处变号，分三段讨论.</p><p>当 $x\\le-\\dfrac{1}{2}$ 时，</p>\n$$\n|2x-1|+|2x+1|=(1-2x)+(-2x-1)=-4x\n$$\n<p>不等式化为 $-4x\\leqslant6$，即 $x\\ge-\\dfrac{3}{2}$，与本段合并得</p><p>$\\left[-\\dfrac{3}{2},-\\dfrac{1}{2}\\right]$.</p><p>当 $-\\dfrac{1}{2}\\le x\\le\\dfrac{1}{2}$ 时，</p>\n$$\n|2x-1|+|2x+1|=(1-2x)+(2x+1)=2\\leqslant6\n$$\n<p>本段所有 $x$ 都满足.</p><p>当 $x\\ge\\dfrac{1}{2}$ 时，</p>\n$$\n|2x-1|+|2x+1|=(2x-1)+(2x+1)=4x\n$$\n<p>不等式化为 $4x\\leqslant6$，即 $x\\le\\dfrac{3}{2}$，与本段合并得</p><p>$\\left[\\dfrac{1}{2},\\dfrac{3}{2}\\right]$.</p><p>合并三段解集，得到</p>\n$$\n\\left[-\\frac{3}{2},\\frac{3}{2}\\right]\n$$"
         }
       ]
     },
@@ -353,60 +186,47 @@
       "problems": [
         {
           "num": 17,
-          "body": "已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n} = -\\frac{1}{2}n^{2} + kn$ （其中 $k \\in \\N_{+}$ ），且 $S_{n}$ 的最大值为 8.\r\n\n(1) 确定常数 $k$，并求 $a_{n}$；\n\n(2) 求数列 $\\left\\{\\frac{9-2a_{n}}{2^{n}}\\right\\}$ 的前 $n$ 项和 $T_{n}$.",
-          "choices": [],
+          "body": "<p>已知数列 $\\{a_{n}\\}$ 的前 $n$ 项和 $S_{n}= -\\frac{1}{2}n^{2}+ kn$ （其中 $k \\in \\N_{+}$ ），且 $S_{n}$ 的最大值为 8.</p><ol class=\"enumerate\"><li><p>确定常数 $k$，并求 $a_{n}$；</p></li><li><p>求数列 $\\left\\{\\frac{9-2a_{n}}{2^{n}}\\right\\}$ 的前 $n$ 项和 $T_{n}$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 将 $S_n$ 配方，得\r\n\n$$\nS_n=-\\frac12(n-k)^2+\\frac{k^2}{2}\n$$\n\r\n由于 $n\\in\\mathbf N_+$，且 $k\\in\\mathbf N_+$，当 $n=k$ 时取得最大值. 因此\r\n$\\frac{k^2}{2}=8$，$k=4$.\r\n由前 $n$ 项和与通项的关系，\r\n\n$$\na_1=S_1=-\\frac12+4=\\frac72\n$$\n\r\n当 $n\\geqslant2$ 时，\r\n\n$$\na_n=S_n-S_{n-1}\r\n=\\left(-\\frac12n^2+4n\\right)\r\n-\\left[-\\frac12(n-1)^2+4(n-1)\\right]\r\n=\\frac92-n\n$$\n\n(2) 记\r\n\n$$\nb_n=\\frac{9-2a_n}{2^n}\n$$\n\r\n由 $a_1=\\frac72$ 得 $b_1=1$；当 $n\\geqslant2$ 时，由 $a_n=\\frac92-n$ 得\r\n\n$$\nb_n=\\frac{9-2\\left(\\frac92-n\\right)}{2^n}\r\n=\\frac{n}{2^{n-1}}\n$$\n\r\n故 $b_n=\\dfrac{n}{2^{n-1}}$ 对 $n=1$ 也成立，从而\r\n\n$$\nT_n=\\sum_{i=1}^n\\frac{i}{2^{i-1}}\n$$\n\r\n由有限等比数列求和公式\r\n\n$$\n\\sum_{i=1}^n i r^{i-1}\r\n=\\left(\\sum_{i=1}^n r^i\\right)'\r\n=\\left(\\frac{r-r^{n+1}}{1-r}\\right)'\r\n=\\frac{1-(n+1)r^n+nr^{n+1}}{(1-r)^2}\n$$\n\r\n令 $r=\\frac12$，可得\r\n\n$$\nT_n\r\n=4\\left(1-\\frac{n+1}{2^n}+\\frac{n}{2^{n+1}}\\right)\r\n=4-\\frac{n+2}{2^{n-1}}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>将 $S_{n}$ 配方，得</p>\n$$\nS_{n}=-\\frac{1}{2}(n-k)^{2}+\\frac{k^{2}}{2}\n$$\n<p>由于 $n\\in\\mathbf{N}_{+}$，且 $k\\in\\mathbf{N}_{+}$，当 $n=k$ 时取得最大值. 因此</p><p>$\\frac{k^{2}}{2}=8$，$k=4$.</p><p>由前 $n$ 项和与通项的关系，</p>\n$$\na_{1}=S_{1}=-\\frac{1}{2}+4=\\frac{7}{2}\n$$\n<p>当 $n\\geqslant2$ 时，</p>\n$$\na_{n}=S_{n}-S_{n-1}=\\left(-\\frac{1}{2}n^{2}+4n\\right)  -\\left[-\\frac{1}{2}(n-1)^{2}+4(n-1)\\right]  =\\frac{9}{2}-n\n$$\n</li><li><p>记</p>\n$$\nb_{n}=\\frac{9-2a_{n}}{2^{n}}\n$$\n<p>由 $a_{1}=\\frac{7}{2}$ 得 $b_{1}=1$；当 $n\\geqslant2$ 时，由 $a_{n}=\\frac{9}{2}-n$ 得</p>\n$$\nb_{n}=\\frac{9-2\\left(\\frac{9}{2}-n\\right)}{2^{n}}=\\frac{n}{2^{n-1}}\n$$\n<p>故 $b_{n}=\\dfrac{n}{2^{n-1}}$ 对 $n=1$ 也成立，从而</p>\n$$\nT_{n}=\\sum_{i=1}^{n}\\frac{i}{2^{i-1}}\n$$\n<p>由有限等比数列求和公式</p>\n$$\n\\sum_{i=1}^{n} i r^{i-1}=\\left(\\sum_{i=1}^{n} r^{i}\\right)'  =\\left(\\frac{r-r^{n+1}}{1-r}\\right)'  =\\frac{1-(n+1)r^{n}+nr^{n+1}}{(1-r)^{2}}\n$$\n<p>令 $r=\\frac{1}{2}$，可得</p>\n$$\nT_{n}  =4\\left(1-\\frac{n+1}{2^{n}}+\\frac{n}{2^{n+1}}\\right)  =4-\\frac{n+2}{2^{n-1}}\n$$\n</li></ol>"
         },
         {
           "num": 18,
-          "body": "在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $A = \\frac{\\pi}{4}$，$b \\sin \\left(\\frac{\\pi}{4} + C\\right) - c \\sin \\left(\\frac{\\pi}{4} + B\\right) = a$.\r\n\n(1) 求证： $B - C = \\frac{\\pi}{2}$；\n\n(2) 若 $a = \\sqrt{2}$，求 $\\triangle ABC$ 的面积.",
-          "choices": [],
+          "body": "<p>在 $\\triangle ABC$ 中，角 $A$，$B$，$C$ 的对边分别为 $a$，$b$，$c$. 已知 $A = \\frac{\\pi}{4}$，$b \\sin \\left(\\frac{\\pi}{4}+ C\\right) - c \\sin \\left(\\frac{\\pi}{4}+ B\\right) = a$.</p><ol class=\"enumerate\"><li><p>求证： $B - C = \\frac{\\pi}{2}$；</p></li><li><p>若 $a = \\sqrt{2}$，求 $\\triangle ABC$ 的面积.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设外接圆半径为 $R$. 由正弦定理，\r\n$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$.\r\n因 $A=\\dfrac\\pi4$，题设左端为\r\n\n$$\nb\\sin\\left(\\frac\\pi4+C\\right)\r\n-c\\sin\\left(\\frac\\pi4+B\\right)\r\n=\\frac1{\\sqrt2}\\bigl[b(\\cos C+\\sin C)-c(\\cos B+\\sin B)\\bigr]\n$$\n\r\n代入正弦定理，并利用\r\n$\\sin B\\cos C-\\sin C\\cos B=\\sin(B-C)$，上式化为\r\n\n$$\n\\sqrt2R\\bigl(\\sin B\\cos C-\\sin C\\cos B\\bigr)\r\n=\\sqrt2R\\sin(B-C)\n$$\n\r\n而 $a=2R\\sin\\dfrac\\pi4=\\sqrt2R$，所以题设等式给出\r\n\n$$\n\\sin(B-C)=1\n$$\n\r\n三角形内角满足 $B>0$、$C>0$、$B+C=\\dfrac{3\\pi}{4}$，故\r\n\n$$\n-\\frac{3\\pi}{4}<B-C<\\frac{3\\pi}{4}\n$$\n\r\n在此范围内 $\\sin(B-C)=1$ 只能有\r\n\n$$\nB-C=\\frac\\pi2\n$$\n\n(2) 由 $B+C=\\dfrac{3\\pi}{4}$ 与 $B-C=\\dfrac\\pi2$，解得\r\n$B=\\frac{5\\pi}{8}$，$C=\\frac\\pi8$.\r\n又 $a=\\sqrt2$，由正弦定理\r\n\n$$\n2R=\\frac{a}{\\sin A}=\\frac{\\sqrt2}{\\frac{\\sqrt2}{2}}=2\n$$\n\r\n所以 $R=1$. 于是\r\n$b=2\\sin\\frac{5\\pi}{8}$，$c=2\\sin\\frac\\pi8$.\r\n三角形面积为\r\n\n$$\n\\frac12bc\\sin A\r\n=\\frac12\\cdot4\\sin\\frac{5\\pi}{8}\\sin\\frac\\pi8\\cdot\\frac{\\sqrt2}{2}\n$$\n\r\n由于 $\\sin\\dfrac{5\\pi}{8}=\\sin\\dfrac{3\\pi}{8}$，且\r\n\n$$\n\\sin\\frac{3\\pi}{8}\\sin\\frac\\pi8\r\n=\\frac{\\cos\\frac\\pi4-\\cos\\frac\\pi2}{2}\r\n=\\frac{\\sqrt2}{4}\n$$\n\r\n故面积为\r\n\n$$\n\\frac12\\cdot4\\cdot\\frac{\\sqrt2}{4}\\cdot\\frac{\\sqrt2}{2}\r\n=\\frac12\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设外接圆半径为 $R$. 由正弦定理，</p><p>$a=2R\\sin A$，$b=2R\\sin B$，$c=2R\\sin C$.</p><p>因 $A=\\dfrac\\pi4$，题设左端为</p>\n$$\nb\\sin\\left(\\frac{\\pi}{4}+C\\right)  -c\\sin\\left(\\frac{\\pi}{4}+B\\right)  =\\frac{1}{\\sqrt{2}}\\bigl[b(\\cos C+\\sin C)-c(\\cos B+\\sin B)\\bigr]\n$$\n<p>代入正弦定理，并利用</p><p>$\\sin B\\cos C-\\sin C\\cos B=\\sin(B-C)$，上式化为</p>\n$$\n\\sqrt{2}R\\bigl(\\sin B\\cos C-\\sin C\\cos B\\bigr)  =\\sqrt{2}R\\sin(B-C)\n$$\n<p>而 $a=2R\\sin\\dfrac\\pi4=\\sqrt{2}R$，所以题设等式给出</p>\n$$\n\\sin(B-C)=1\n$$\n<p>三角形内角满足 $B>0$、$C>0$、$B+C=\\dfrac{3\\pi}{4}$，故</p>\n$$\n-\\frac{3\\pi}{4}&#x3C;B-C&#x3C;\\frac{3\\pi}{4}\n$$\n<p>在此范围内 $\\sin(B-C)=1$ 只能有</p>\n$$\nB-C=\\frac{\\pi}{2}\n$$\n</li><li><p>由 $B+C=\\dfrac{3\\pi}{4}$ 与 $B-C=\\dfrac\\pi2$，解得</p><p>$B=\\frac{5\\pi}{8}$，$C=\\frac{\\pi}{8}$.</p><p>又 $a=\\sqrt{2}$，由正弦定理</p>\n$$\n2R=\\frac{a}{\\sin A}=\\frac{\\sqrt{2}}{\\frac{\\sqrt{2}}{2}}=2\n$$\n<p>所以 $R=1$. 于是</p><p>$b=2\\sin\\frac{5\\pi}{8}$，$c=2\\sin\\frac{\\pi}{8}$.</p><p>三角形面积为</p>\n$$\n\\frac{1}{2}bc\\sin A  =\\frac{1}{2}\\cdot4\\sin\\frac{5\\pi}{8}\\sin\\frac{\\pi}{8}\\cdot\\frac{\\sqrt{2}}{2}\n$$\n<p>由于 $\\sin\\dfrac{5\\pi}{8}=\\sin\\dfrac{3\\pi}{8}$，且</p>\n$$\n\\sin\\frac{3\\pi}{8}\\sin\\frac{\\pi}{8}  =\\frac{\\cos\\frac{\\pi}{4}-\\cos\\frac{\\pi}{2}}{2}=\\frac{\\sqrt{2}}{4}\n$$\n<p>故面积为</p>\n$$\n\\frac{1}{2}\\cdot4\\cdot\\frac{\\sqrt{2}}{4}\\cdot\\frac{\\sqrt{2}}{2}=\\frac{1}{2}\n$$\n</li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，从 $A_{1}(1,0,0)$，$A_{2}(2,0,0)$，$B_{1}(0,1,0)$，$B_{2}(0,2,0)$，$C_{1}(0,0,1)$，$C_{2}(0,0,2)$ 这6个点中随机选取3个点，将这3个点及原点 $O$ 两两相连构成一个“立体”，记该“立体”的体积为随机变量 $V$ （如果选取的3个点与原点在同一个平面内，此时“立体”的体积 $V = 0$）.\r\n\n(1) 求 $V = 0$ 的概率；\n\n(2) 求 $V$ 的分布列及数学期望 $E(V)$.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，从 $A_{1}(1,0,0)$，$A_{2}(2,0,0)$，$B_{1}(0,1,0)$，$B_{2}(0,2,0)$，$C_{1}(0,0,1)$，$C_{2}(0,0,2)$ 这6个点中随机选取3个点，将这3个点及原点 $O$ 两两相连构成一个“立体”，记该“立体”的体积为随机变量 $V$ （如果选取的3个点与原点在同一个平面内，此时“立体”的体积 $V = 0$）.</p><ol class=\"enumerate\"><li><p>求 $V = 0$ 的概率；</p></li><li><p>求 $V$ 的分布列及数学期望 $E(V)$.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 从 $6$ 个点中任选 $3$ 个点，共有\r\n\n$$\n\\mathrm C_6^3=20\n$$\n\r\n种等可能的选法. 若 $V\\neq0$，三个所选点必须分别位于 $x$、$y$、$z$ 轴上；每条轴上有 $2$ 个点，故这样的选法有\r\n\n$$\n2\\times2\\times2=8\n$$\n\r\n种. 因此\r\n\n$$\nP(V=0)=1-\\frac8{20}=\\frac35\n$$\n\n(2) 当三个点分别在三条坐标轴上时，设它们到原点的距离分别为 $u$，$v$，$w$，其中 $u$，$v$，$w\\in\\{1,2\\}$. 由棱锥体积公式，\r\n\n$$\nV=\\frac16uvw\n$$\n\r\n在 $8$ 种等可能的轴上取点方式中，$(u,v,w)$ 的乘积依次按\r\n$1$，$\\ 2$，$\\ 2$，$\\ 2$，$\\ 4$，$\\ 4$，$\\ 4$，$\\ 8$\r\n出现，所以分布列为\r\n\r\n\\begin{center}\r\n\\begin{tabular}{c|ccccc}\r\n$V$ & $0$ & $\\frac{1}{6}$ & $\\frac{1}{3}$ & $\\frac{2}{3}$ & $\\frac{4}{3}$ \\\\\r\n\\hline\r\n$P$ & $\\frac{3}{5}$ & $\\frac{1}{20}$ & $\\frac{3}{20}$ & $\\frac{3}{20}$ & $\\frac{1}{20}$\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n并且\r\n\n$$\nE(V)=0\\cdot\\frac35+\\frac16\\cdot\\frac1{20}\r\n+\\frac13\\cdot\\frac3{20}\r\n+\\frac23\\cdot\\frac3{20}\r\n+\\frac43\\cdot\\frac1{20}\r\n=\\frac1{120}+\\frac1{20}+\\frac1{10}+\\frac1{15}\r\n=\\frac9{40}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>从 $6$ 个点中任选 $3$ 个点，共有</p>\n$$\n\\mathrm{C}_{6}^{3}=20\n$$\n<p>种等可能的选法. 若 $V\\neq0$，三个所选点必须分别位于 $x$、$y$、$z$ 轴上；每条轴上有 $2$ 个点，故这样的选法有</p>\n$$\n2\\times2\\times2=8\n$$\n<p>种. 因此</p>\n$$\nP(V=0)=1-\\frac{8}{20}=\\frac{3}{5}\n$$\n</li><li><p>当三个点分别在三条坐标轴上时，设它们到原点的距离分别为 $u$，$v$，$w$，其中 $u$，$v$，$w\\in\\{1,2\\}$. 由棱锥体积公式，</p>\n$$\nV=\\frac{1}{6}uvw\n$$\n<p>在 $8$ 种等可能的轴上取点方式中，$(u,v,w)$ 的乘积依次按</p><p>$1$，$\\ 2$，$\\ 2$，$\\ 2$，$\\ 4$，$\\ 4$，$\\ 4$，$\\ 8$</p><p>出现，所以分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\">$V$ </td><td style=\"text-align: center\"> $0$ </td><td style=\"text-align: center\"> $\\frac{1}{6}$ </td><td style=\"text-align: center\"> $\\frac{1}{3}$ </td><td style=\"text-align: center\"> $\\frac{2}{3}$ </td><td style=\"text-align: center\"> $\\frac{4}{3}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\frac{3}{5}$ </td><td style=\"text-align: center\"> $\\frac{1}{20}$ </td><td style=\"text-align: center\"> $\\frac{3}{20}$ </td><td style=\"text-align: center\"> $\\frac{3}{20}$ </td><td style=\"text-align: center\"> $\\frac{1}{20}$</td></tr></tbody></table></center><p></p><p>并且</p>\n$$\nE(V)=0\\cdot\\frac{3}{5}+\\frac{1}{6}\\cdot\\frac{1}{20}+\\frac{1}{3}\\cdot\\frac{3}{20}+\\frac{2}{3}\\cdot\\frac{3}{20}+\\frac{4}{3}\\cdot\\frac{1}{20}=\\frac{1}{120}+\\frac{1}{20}+\\frac{1}{10}+\\frac{1}{15}=\\frac{9}{40}\n$$\n</li></ol>"
         },
         {
           "num": 20,
-          "body": "在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，已知 $AB = AC = AA_{1} = \\sqrt{5}$，$BC = 4$，点 $A_{1}$ 在底面 $ABC$ 的射影是线段 $BC$ 的中点 $O$.\r\n\n(1) 证明：在侧棱 $AA_{1}$ 上存在一点 $E$，使得 $OE \\perp$ 平面 $BB_{1}C_{1}C$，并求出 $AE$ 的长；\n\n(2) 求平面 $A_{1}B_{1}C$ 与平面 $BB_{1}C_{1}C$ 夹角的余弦值.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/jiangxi_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>在三棱柱 $ABC - A_{1}B_{1}C_{1}$ 中，已知 $AB = AC = AA_{1}= \\sqrt{5}$，$BC = 4$，点 $A_{1}$ 在底面 $ABC$ 的射影是线段 $BC$ 的中点 $O$.</p><ol class=\"enumerate\"><li><p>证明：在侧棱 $AA_{1}$ 上存在一点 $E$，使得 $OE \\perp$ 平面 $BB_{1}C_{1}C$，并求出 $AE$ 的长；</p></li><li><p>求平面 $A_{1}B_{1}C$ 与平面 $BB_{1}C_{1}C$ 夹角的余弦值.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/jiangxi_science/q20_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 因为 $O$ 是 $BC$ 的中点，所以 $BO=CO=2$. 又 $AB=AC$，故 $AO\\perp BC$，从而\r\n\n$$\nAO=\\sqrt{AB^2-BO^2}=\\sqrt{5-4}=1\n$$\n\r\n建立空间直角坐标系，取\r\n$O=(0,0,0)$，$B=(-2,0,0)$，$C=(2,0,0)$，$A=(0,1,0)$.\r\n由 $A_1$ 在底面上的射影为 $O$，设 $A_1=(0,0,h)$. 由 $AA_1=\\sqrt5$ 得\r\n$1+h^2=5$，$h=2$.\r\n棱柱的侧棱向量为\r\n\n$$\n\\overrightarrow{AA_1}=(0,-1,2)\n$$\n\r\n所以\r\n$B_1=(-2,-1,2)$，$C_1=(2,-1,2)$.\r\n平面 $BB_1C_1C$ 内有两个不共线方向向量\r\n$\\overrightarrow{BC}=(4,0,0)$，$\\overrightarrow{BB_1}=(0,-1,2)$.\r\n设 $E$ 将 $AA_1$ 按比例 $s$ 内分，即\r\n$E=A+s\\overrightarrow{AA_1}=(0,1-s,2s)$，$0\\le s\\leqslant1$.\r\n因为 $\\overrightarrow{OE}\\cdot\\overrightarrow{BC}=0$ 恒成立，要使 $OE$ 垂直于该平面，还需\r\n\n$$\n\\overrightarrow{OE}\\cdot\\overrightarrow{BB_1}\r\n=(0,1-s,2s)\\cdot(0,-1,2)\r\n=-(1-s)+4s=0\n$$\n\r\n解得 $s=\\dfrac15$，确实属于 $[0,1]$，所以这样的点存在，且\r\n\n$$\nAE=s\\cdot AA_1=\\frac15\\sqrt5=\\frac{\\sqrt5}{5}\n$$\n\n(2) 取平面 $A_1B_1C$ 内的两个方向向量\r\n$\\overrightarrow{A_1B_1}=(-2,-1,0)$，$\\overrightarrow{A_1C}=(2,0,-2)$.\r\n其法向量可取\r\n\n$$\n\\mathbf{n}_1=\\overrightarrow{A_1B_1}\\times\\overrightarrow{A_1C}\r\n=(2,-4,2)\\sim(1,-2,1)\n$$\n\r\n平面 $BB_1C_1C$ 的法向量由\r\n$\\overrightarrow{BC}=(4,0,0)$，$\\overrightarrow{BB_1}=(0,-1,2)$\r\n给出，可取\r\n\n$$\n\\mathbf{n}_2=\\overrightarrow{BC}\\times\\overrightarrow{BB_1}\r\n=(0,-8,-4)\\sim(0,2,1)\n$$\n\r\n两平面夹角取锐角，故其余弦为\r\n\n$$\n\\cos\\varphi\r\n=\\frac{|\\mathbf{n}_1\\cdot\\mathbf{n}_2|}\r\n{|\\mathbf{n}_1|\\,|\\mathbf{n}_2|}\r\n=\\frac{|1\\cdot0+(-2)\\cdot2+1\\cdot1|}\r\n{\\sqrt6\\sqrt5}\r\n=\\frac3{\\sqrt{30}}\r\n=\\frac{\\sqrt{30}}{10}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>因为 $O$ 是 $BC$ 的中点，所以 $BO=CO=2$. 又 $AB=AC$，故 $AO\\perp BC$，从而</p>\n$$\nAO=\\sqrt{AB^{2}-BO^{2}}=\\sqrt{5-4}=1\n$$\n<p>建立空间直角坐标系，取</p><p>$O=(0,0,0)$，$B=(-2,0,0)$，$C=(2,0,0)$，$A=(0,1,0)$.</p><p>由 $A_{1}$ 在底面上的射影为 $O$，设 $A_{1}=(0,0,h)$. 由 $AA_{1}=\\sqrt{5}$ 得</p><p>$1+h^{2}=5$，$h=2$.</p><p>棱柱的侧棱向量为</p>\n$$\n\\overrightarrow{AA_1}=(0,-1,2)\n$$\n<p>所以</p><p>$B_{1}=(-2,-1,2)$，$C_{1}=(2,-1,2)$.</p><p>平面 $BB_{1}C_{1}C$ 内有两个不共线方向向量</p><p>$\\overrightarrow{BC}=(4,0,0)$，$\\overrightarrow{BB_1}=(0,-1,2)$.</p><p>设 $E$ 将 $AA_{1}$ 按比例 $s$ 内分，即</p><p>$E=A+s\\overrightarrow{AA_1}=(0,1-s,2s)$，$0\\le s\\leqslant1$.</p><p>因为 $\\overrightarrow{OE}\\cdot\\overrightarrow{BC}=0$ 恒成立，要使 $OE$ 垂直于该平面，还需</p>\n$$\n\\overrightarrow{OE}\\cdot\\overrightarrow{BB_1}=(0,1-s,2s)\\cdot(0,-1,2)  =-(1-s)+4s=0\n$$\n<p>解得 $s=\\dfrac{1}{5}$，确实属于 $[0,1]$，所以这样的点存在，且</p>\n$$\nAE=s\\cdot AA_{1}=\\frac{1}{5}\\sqrt{5}=\\frac{\\sqrt{5}}{5}\n$$\n</li><li><p>取平面 $A_{1}B_{1}C$ 内的两个方向向量</p><p>$\\overrightarrow{A_1B_1}=(-2,-1,0)$，$\\overrightarrow{A_1C}=(2,0,-2)$.</p><p>其法向量可取</p>\n$$\n\\mathbf{n}_{1}=\\overrightarrow{A_1B_1}\\times\\overrightarrow{A_1C}=(2,-4,2)\\sim(1,-2,1)\n$$\n<p>平面 $BB_{1}C_{1}C$ 的法向量由</p><p>$\\overrightarrow{BC}=(4,0,0)$，$\\overrightarrow{BB_1}=(0,-1,2)$</p><p>给出，可取</p>\n$$\n\\mathbf{n}_{2}=\\overrightarrow{BC}\\times\\overrightarrow{BB_1}=(0,-8,-4)\\sim(0,2,1)\n$$\n<p>两平面夹角取锐角，故其余弦为</p>\n$$\n\\cos\\varphi  =\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{|1\\cdot0+(-2)\\cdot2+1\\cdot1|}{\\sqrt{6}\\sqrt{5}}=\\frac{3}{\\sqrt{30}}=\\frac{\\sqrt{30}}{10}\n$$\n</li></ol>"
         },
         {
           "num": 21,
-          "body": "已知三点 $O(0,0)$，$A(-2,1)$，$B(2,1)$，曲线 $C$ 上任意一点 $M(x,y)$ 满足 $\\left|\\overrightarrow{MA} + \\overrightarrow{MB}\\right| = \\overrightarrow{OM} \\cdot \\left(\\overrightarrow{OA} + \\overrightarrow{OB}\\right) + 2$.\r\n\n(1) 求曲线 $C$ 的方程；\n\n(2) 动点 $Q(x_0, y_0)$ （$-2 < x_0 < 2$）在曲线 $C$ 上，曲线 $C$ 在点 $Q$ 处的切线为 $l$. 问：是否存在定点 $P(0, t)$ （$t < 0$），使得 $l$ 与 $PA$，$PB$ 都相交，交点分别为 $D$，$E$，且 $\\triangle QAB$ 与 $\\triangle PDE$ 的面积之比是常数？若存在，求 $t$ 的值；若不存在，请说明理由.",
-          "choices": [],
+          "body": "<p>已知三点 $O(0,0)$，$A(-2,1)$，$B(2,1)$，曲线 $C$ 上任意一点 $M(x,y)$ 满足 $\\left|\\overrightarrow{MA}+ \\overrightarrow{MB}\\right| = \\overrightarrow{OM}\\cdot \\left(\\overrightarrow{OA}+ \\overrightarrow{OB}\\right) + 2$.</p><ol class=\"enumerate\"><li><p>求曲线 $C$ 的方程；</p></li><li><p>动点 $Q(x_{0}, y_{0})$ （$-2 &#x3C; x_{0} &#x3C; 2$）在曲线 $C$ 上，曲线 $C$ 在点 $Q$ 处的切线为 $l$. 问：是否存在定点 $P(0, t)$ （$t &#x3C; 0$），使得 $l$ 与 $PA$，$PB$ 都相交，交点分别为 $D$，$E$，且 $\\triangle QAB$ 与 $\\triangle PDE$ 的面积之比是常数？若存在，求 $t$ 的值；若不存在，请说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 由\r\n$\\overrightarrow{MA}=(-2-x,1-y)$，$\\overrightarrow{MB}=(2-x,1-y)$\r\n得\r\n\n$$\n\\left|\\overrightarrow{MA}+\\overrightarrow{MB}\\right|\r\n=\\sqrt{(-2x)^2+(2-2y)^2}\r\n=2\\sqrt{x^2+(1-y)^2}\n$$\n\r\n又\r\n$\\overrightarrow{OA}+\\overrightarrow{OB}=(0,2)$，$\\overrightarrow{OM}\\cdot(\\overrightarrow{OA}+\\overrightarrow{OB})=2y$.\r\n所以题设方程为\r\n\n$$\n2\\sqrt{x^2+(1-y)^2}=2y+2\n$$\n\r\n等式左边非负，故等式成立时 $y+1\\geqslant0$，可以平方，得\r\n\n$$\nx^2+(1-y)^2=(y+1)^2\n$$\n\r\n即\r\n\n$$\nx^2=4y\n$$\n\r\n反之，若 $x^2=4y$，则 $y\\geqslant0$，代回上式两边均为\r\n$2(y+1)$，故曲线方程为 $x^2=4y$.\n\n(2) 设 $Q=(q,\\frac{q^2}{4})$，其中 $-2<q<2$，并记\r\n$u=\\frac{q^2}{4}\\in[0,1)$，$P=(0,t)=(0,-w)$，$w>0$.\r\n抛物线在 $Q$ 处的切线为\r\n$l$：$y=\\frac q2x-\\frac{q^2}{4}=\\frac q2x-u$.\r\n用参数表示 $D$，$E$：\r\n$D=P+s(A-P)$，$E=P+r(B-P)$.\r\n由于 $A=(-2,1)$、$B=(2,1)$，有\r\n$D=(-2s,-w+s(1+w))$，$E=(2r,-w+r(1+w))$.\r\n将 $D$、$E$ 分别代入切线方程，得到\r\n$s=\\frac{w-u}{1+w+q}$，$r=\\frac{w-u}{1+w-q}$.\r\n取 $q$ 足够接近 $0$，可使 $w-u>0$ 且两个分母均为正；若面积之比对所有动点 $Q$ 为常数，则在这段 $q$ 上也必须为常数，此时 $s$，$r>0$.\r\n三角形 $QAB$ 和 $PAB$ 的底边都是 $AB=4$，故\r\n$[QAB]=2(1-u)$，$[PAB]=2(1+w)$.\r\n又 $D$、$E$ 分别是从 $P$ 指向 $A$、$B$ 的有向比例为 $s$，$r$ 的点，所以\r\n\n$$\n[PDE]=sr[PAB]=2sr(1+w)\n$$\n\r\n因此面积之比为\r\n\n$$\nR(u)=\\frac{[QAB]}{[PDE]}\r\n=\\frac{(1-u)\\bigl((1+w)^2-4u\\bigr)}\r\n{(1+w)(w-u)^2}\n$$\n\r\n若该比值与动点 $Q$ 无关，则上式关于 $u$ 的分子、分母必须成比例. 比较 $u^2$、$u$ 和常数项的系数，分别得到\r\n$(1+w)R=4$，$(1+w)^2=4w^2$，$(1+w)^2+4=8w$.\r\n因 $w>0$，第二个等式给出 $1+w=2w$，故 $w=1$，从而\r\n\n$$\nt=-w=-1\n$$\n\r\n此时\r\n$s=\\frac{1-u}{2+q}=\\frac{2-q}{4}$，$r=\\frac{1-u}{2-q}=\\frac{2+q}{4}$，\r\n且 $-2<q<2$ 保证 $0<s$，$r<1$，所以 $l$ 确实分别与线段 $PA$、$PB$ 相交. 代入面积比得\r\n\n$$\nR(u)=\\frac{(1-u)\\,4(1-u)}{2(1-u)^2}=2\n$$\n\r\n因此存在定点 $P(0,-1)$，且面积之比为 $2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>由</p><p>$\\overrightarrow{MA}=(-2-x,1-y)$，$\\overrightarrow{MB}=(2-x,1-y)$</p><p>得</p>\n$$\n\\left|\\overrightarrow{MA}+\\overrightarrow{MB}\\right|  =\\sqrt{(-2x)^{2}+(2-2y)^{2}}=2\\sqrt{x^{2}+(1-y)^{2}}\n$$\n<p>又</p><p>$\\overrightarrow{OA}+\\overrightarrow{OB}=(0,2)$，$\\overrightarrow{OM}\\cdot(\\overrightarrow{OA}+\\overrightarrow{OB})=2y$.</p><p>所以题设方程为</p>\n$$\n2\\sqrt{x^{2}+(1-y)^{2}}=2y+2\n$$\n<p>等式左边非负，故等式成立时 $y+1\\geqslant0$，可以平方，得</p>\n$$\nx^{2}+(1-y)^{2}=(y+1)^{2}\n$$\n<p>即</p>\n$$\nx^{2}=4y\n$$\n<p>反之，若 $x^{2}=4y$，则 $y\\geqslant0$，代回上式两边均为</p><p>$2(y+1)$，故曲线方程为 $x^{2}=4y$.</p></li><li><p>设 $Q=(q,\\frac{q^{2}}{4})$，其中 $-2&#x3C;q&#x3C;2$，并记</p><p>$u=\\frac{q^{2}}{4}\\in[0,1)$，$P=(0,t)=(0,-w)$，$w>0$.</p><p>抛物线在 $Q$ 处的切线为</p><p>$l$：$y=\\frac{q}{2}x-\\frac{q^{2}}{4}=\\frac{q}{2}x-u$.</p><p>用参数表示 $D$，$E$：</p><p>$D=P+s(A-P)$，$E=P+r(B-P)$.</p><p>由于 $A=(-2,1)$、$B=(2,1)$，有</p><p>$D=(-2s,-w+s(1+w))$，$E=(2r,-w+r(1+w))$.</p><p>将 $D$、$E$ 分别代入切线方程，得到</p><p>$s=\\frac{w-u}{1+w+q}$，$r=\\frac{w-u}{1+w-q}$.</p><p>取 $q$ 足够接近 $0$，可使 $w-u>0$ 且两个分母均为正；若面积之比对所有动点 $Q$ 为常数，则在这段 $q$ 上也必须为常数，此时 $s$，$r>0$.</p><p>三角形 $QAB$ 和 $PAB$ 的底边都是 $AB=4$，故</p><p>$[QAB]=2(1-u)$，$[PAB]=2(1+w)$.</p><p>又 $D$、$E$ 分别是从 $P$ 指向 $A$、$B$ 的有向比例为 $s$，$r$ 的点，所以</p>\n$$\n[PDE]=sr[PAB]=2sr(1+w)\n$$\n<p>因此面积之比为</p>\n$$\nR(u)=\\frac{[QAB]}{[PDE]}=\\frac{(1-u)\\bigl((1+w)^{2}-4u\\bigr)}{(1+w)(w-u)^{2}}\n$$\n<p>若该比值与动点 $Q$ 无关，则上式关于 $u$ 的分子、分母必须成比例. 比较 $u^{2}$、$u$ 和常数项的系数，分别得到</p><p>$(1+w)R=4$，$(1+w)^{2}=4w^{2}$，$(1+w)^{2}+4=8w$.</p><p>因 $w>0$，第二个等式给出 $1+w=2w$，故 $w=1$，从而</p>\n$$\nt=-w=-1\n$$\n<p>此时</p><p>$s=\\frac{1-u}{2+q}=\\frac{2-q}{4}$，$r=\\frac{1-u}{2-q}=\\frac{2+q}{4}$，</p><p>且 $-2&#x3C;q&#x3C;2$ 保证 $0&#x3C;s$，$r&#x3C;1$，所以 $l$ 确实分别与线段 $PA$、$PB$ 相交. 代入面积比得</p>\n$$\nR(u)=\\frac{(1-u)\\,4(1-u)}{2(1-u)^{2}}=2\n$$\n<p>因此存在定点 $P(0,-1)$，且面积之比为 $2$.</p></li></ol>"
         },
         {
           "num": 22,
-          "body": "若函数 $h(x)$ 满足\r\n\\begin{circlelist}\r\n\\item $h(0)=1$，$h(1)=0$；\r\n\\item 对任意 $a \\in [0,1]$，有 $h(h(a)) = a$；\r\n\\item 在 $(0,1)$ 上单调递减.\r\n\\end{circlelist}\r\n则称 $h(x)$ 为补函数. 已知函数 $h(x) = \\left(\\frac{1 - x^{p}}{1 + \\lambda x^{p}}\\right)^{\\frac{1}{p}}$（$\\lambda > -1$，$p > 0$）.\r\n\n(1) 判断函数 $h(x)$ 是否为补函数，并证明你的结论；\n\n(2) 若存在 $m \\in [0,1]$，使得 $h(m) = m$，称 $m$ 是函数 $h(x)$ 的中介元. 记 $p = \\frac{1}{n}$ （$n \\in \\mathbf{N}_+$）时 $h(x)$ 的中介元为 $x_n$. 且 $S_n = \\sum_{i=1}^{n} x_i$，若对任意的 $n \\in \\mathbf{N}_+$，都有 $S_n < \\frac{1}{2}$，求 $\\lambda$ 的取值范围；\n\n(3) 当 $\\lambda = 0$，$x \\in (0,1)$ 时，函数 $y = h(x)$ 的图象总在直线 $y = 1 - x$ 的上方，求 $p$ 的取值范围.",
-          "choices": [],
+          "body": "<p>若函数 $h(x)$ 满足</p><ol class=\"enumerate\"><li><p>$h(0)=1$，$h(1)=0$；</p></li><li><p>对任意 $a \\in [0,1]$，有 $h(h(a)) = a$；</p></li><li><p>在 $(0,1)$ 上单调递减.</p></li></ol><p>则称 $h(x)$ 为补函数. 已知函数 $h(x) = \\left(\\frac{1 - x^{p}}{1 + \\lambda x^{p}}\\right)^{\\frac{1}{p}}$（$\\lambda > -1$，$p > 0$）.</p><ol class=\"enumerate\"><li><p>判断函数 $h(x)$ 是否为补函数，并证明你的结论；</p></li><li><p>若存在 $m \\in [0,1]$，使得 $h(m) = m$，称 $m$ 是函数 $h(x)$ 的中介元. 记 $p = \\frac{1}{n}$ （$n \\in \\mathbf{N}_{+}$）时 $h(x)$ 的中介元为 $x_{n}$. 且 $S_{n} = \\sum_{i=1}^{n}x_{i}$，若对任意的 $n \\in \\mathbf{N}_{+}$，都有 $S_{n} &#x3C; \\frac{1}{2}$，求 $\\lambda$ 的取值范围；</p></li><li><p>当 $\\lambda = 0$，$x \\in (0,1)$ 时，函数 $y = h(x)$ 的图象总在直线 $y = 1 - x$ 的上方，求 $p$ 的取值范围.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 对 $x\\in[0,1]$，有 $1+\\lambda x^p>0$，且\r\n\n$$\n0\\le\\frac{1-x^p}{1+\\lambda x^p}\\leqslant1\n$$\n\r\n其中右侧不等式等价于\r\n$-(1+\\lambda)x^p\\leqslant0$. 因此 $h(x)$ 在 $[0,1]$ 上有定义，且值域包含于 $[0,1]$. 直接代入得\r\n$h(0)=1$，$h(1)=0$.\r\n令\r\n\n$$\ng(x)=h(x)^p=\\frac{1-x^p}{1+\\lambda x^p}\n$$\n\r\n在 $0<x<1$ 上，\r\n\n$$\ng'(x)\r\n=-\\frac{p(1+\\lambda)x^{p-1}}{(1+\\lambda x^p)^2}<0\n$$\n\r\n由于 $p$ 次方根函数递增，$h(x)$ 在 $(0,1)$ 上单调递减.\r\n\r\n再令 $y=h(x)$，则\r\n\n$$\ny^p=\\frac{1-x^p}{1+\\lambda x^p}\n$$\n\r\n于是\r\n$1-y^p=\\frac{(1+\\lambda)x^p}{1+\\lambda x^p}$，$1+\\lambda y^p=\\frac{1+\\lambda}{1+\\lambda x^p}$，\r\n从而\r\n\n$$\n\\frac{1-y^p}{1+\\lambda y^p}=x^p\n$$\n\r\n两边取正的 $p$ 次方根，得 $h(y)=x$，即\r\n\n$$\nh(h(x))=x\n$$\n\r\n所以 $h(x)$ 是补函数.\n\n(2) 设 $h(m)=m$，令 $u=m^p$. 由定义有\r\n\n$$\nu=\\frac{1-u}{1+\\lambda u}\n$$\n\r\n即\r\n\n$$\n\\lambda u^2+2u-1=0\n$$\n\r\n在 $0\\le u\\leqslant1$ 内的唯一解为\r\n\n$$\nu=\\frac1{1+\\sqrt{1+\\lambda}}\n$$\n\r\n记\r\n\n$$\nr=\\frac1{1+\\sqrt{1+\\lambda}}\n$$\n\r\n则当 $p=\\dfrac1n$ 时，中介元满足\r\n\n$$\nx_n=r^n\n$$\n\r\n从而\r\n\n$$\nS_n=\\sum_{i=1}^nr^i\n$$\n\r\n由于 $0<r<1$，$S_n$ 随 $n$ 增大，且\r\n\n$$\n\\lim_{n\\to\\infty}S_n=\\frac r{1-r}\n$$\n\r\n所有正整数 $n$ 均满足 $S_n<\\dfrac12$，当且仅当\r\n\n$$\n\\frac r{1-r}\\le\\frac12\n$$\n\r\n其中等号时每个有限项仍严格小于极限. 于是 $r\\le\\dfrac13$，即\r\n\n$$\n\\frac1{1+\\sqrt{1+\\lambda}}\\le\\frac13\r\n\\Longleftrightarrow \\sqrt{1+\\lambda}\\geqslant2\r\n\\Longleftrightarrow \\lambda\\geqslant3\n$$\n\r\n故 $\\lambda\\in[3,+\\infty)$.\n\n(3) 当 $\\lambda=0$ 时，\r\n\n$$\nh(x)=(1-x^p)^{\\frac{1}{p}}\n$$\n\r\n因为 $p$ 次方根函数递增，$h(x)>1-x$ 等价于\r\n\n$$\n1-x^p>(1-x)^p\n$$\n\r\n即\r\n\n$$\nx^p+(1-x)^p<1\n$$\n\r\n当 $p>1$ 且 $0<x<1$ 时，$x^p<x$、$(1-x)^p<1-x$，所以该不等式成立；当 $0<p<1$ 时两项不等式方向相反，左侧大于 $1$；当 $p=1$ 时左侧等于 $1$. 因此所求范围为\r\n\n$$\np\\in(1,+\\infty)\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>对 $x\\in[0,1]$，有 $1+\\lambda x^{p}>0$，且</p>\n$$\n0\\le\\frac{1-x^{p}}{1+\\lambda x^{p}}\\leqslant1\n$$\n<p>其中右侧不等式等价于</p><p>$-(1+\\lambda)x^{p}\\leqslant0$. 因此 $h(x)$ 在 $[0,1]$ 上有定义，且值域包含于 $[0,1]$. 直接代入得</p><p>$h(0)=1$，$h(1)=0$.</p><p>令</p>\n$$\ng(x)=h(x)^{p}=\\frac{1-x^{p}}{1+\\lambda x^{p}}\n$$\n<p>在 $0&#x3C;x&#x3C;1$ 上，</p>\n$$\ng'(x)  =-\\frac{p(1+\\lambda)x^{p-1}}{(1+\\lambda x^{p})^{2}}&#x3C;0\n$$\n<p>由于 $p$ 次方根函数递增，$h(x)$ 在 $(0,1)$ 上单调递减.</p><p>再令 $y=h(x)$，则</p>\n$$\ny^{p}=\\frac{1-x^{p}}{1+\\lambda x^{p}}\n$$\n<p>于是</p><p>$1-y^{p}=\\frac{(1+\\lambda)x^{p}}{1+\\lambda x^{p}}$，$1+\\lambda y^{p}=\\frac{1+\\lambda}{1+\\lambda x^{p}}$，</p><p>从而</p>\n$$\n\\frac{1-y^{p}}{1+\\lambda y^{p}}=x^{p}\n$$\n<p>两边取正的 $p$ 次方根，得 $h(y)=x$，即</p>\n$$\nh(h(x))=x\n$$\n<p>所以 $h(x)$ 是补函数.</p></li><li><p>设 $h(m)=m$，令 $u=m^{p}$. 由定义有</p>\n$$\nu=\\frac{1-u}{1+\\lambda u}\n$$\n<p>即</p>\n$$\n\\lambda u^{2}+2u-1=0\n$$\n<p>在 $0\\le u\\leqslant1$ 内的唯一解为</p>\n$$\nu=\\frac{1}{1+\\sqrt{1+\\lambda}}\n$$\n<p>记</p>\n$$\nr=\\frac{1}{1+\\sqrt{1+\\lambda}}\n$$\n<p>则当 $p=\\dfrac{1}{n}$ 时，中介元满足</p>\n$$\nx_{n}=r^{n}\n$$\n<p>从而</p>\n$$\nS_{n}=\\sum_{i=1}^{n}r^{i}\n$$\n<p>由于 $0&#x3C;r&#x3C;1$，$S_{n}$ 随 $n$ 增大，且</p>\n$$\n\\lim_{n\\to\\infty}S_{n}=\\frac{r}{1-r}\n$$\n<p>所有正整数 $n$ 均满足 $S_{n}&#x3C;\\dfrac{1}{2}$，当且仅当</p>\n$$\n\\frac{r}{1-r}\\le\\frac{1}{2}\n$$\n<p>其中等号时每个有限项仍严格小于极限. 于是 $r\\le\\dfrac{1}{3}$，即</p>\n$$\n\\frac{1}{1+\\sqrt{1+\\lambda}}\\le\\frac{1}{3}\\Longleftrightarrow \\sqrt{1+\\lambda}\\geqslant2  \\Longleftrightarrow \\lambda\\geqslant3\n$$\n<p>故 $\\lambda\\in[3,+\\infty)$.</p></li><li><p>当 $\\lambda=0$ 时，</p>\n$$\nh(x)=(1-x^{p})^{\\frac{1}{p}}\n$$\n<p>因为 $p$ 次方根函数递增，$h(x)>1-x$ 等价于</p>\n$$\n1-x^{p}>(1-x)^{p}\n$$\n<p>即</p>\n$$\nx^{p}+(1-x)^{p}&#x3C;1\n$$\n<p>当 $p>1$ 且 $0&#x3C;x&#x3C;1$ 时，$x^{p}&#x3C;x$、$(1-x)^{p}&#x3C;1-x$，所以该不等式成立；当 $0&#x3C;p&#x3C;1$ 时两项不等式方向相反，左侧大于 $1$；当 $p=1$ 时左侧等于 $1$. 因此所求范围为</p>\n$$\np\\in(1,+\\infty)\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": false
+  ]
 }

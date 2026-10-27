@@ -1,156 +1,15 @@
 {
+  "title": "2012年普通高等学校招生全国统一考试",
+  "subtitle": "2012年福建卷（理）",
   "year": "2012",
   "slug": "fujian_science",
-  "title": "2012年福建卷（理）",
-  "pageCount": 0,
-  "hasVectorSvg": false,
-  "questions": [
-    {
-      "num": 1,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 2,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 3,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 4,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 5,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 6,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 7,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 8,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 9,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 10,
-      "type": "单选题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 11,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 12,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 13,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 14,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 15,
-      "type": "填空题",
-      "hasAnswer": true,
-      "hasSolution": true
-    },
-    {
-      "num": 16,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 17,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 18,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 19,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 20,
-      "type": "解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 21,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 22,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    },
-    {
-      "num": 23,
-      "type": "选考题：解答题",
-      "hasAnswer": false,
-      "hasSolution": true
-    }
-  ],
   "sections": [
     {
       "name": "单选题",
       "problems": [
         {
           "num": 1,
-          "body": "若复数 $z$ 满足 $z\\mathrm{i} = 1 - \\mathrm{i}$，则 $z$ 等于（ ）",
+          "body": "若复数 $z$ 满足 $z\\mathrm{i}= 1 - \\mathrm{i}$，则 $z$ 等于（ ）",
           "choices": [
             "$-1 - \\mathrm{i}$",
             "$1 - \\mathrm{i}$",
@@ -158,13 +17,11 @@
             "$1 + \\mathrm{i}$"
           ],
           "answer": "A",
-          "solution": "设 $z=a+b\\mathrm{i}$，其中 $a$，$b\\in\\mathbb{R}$. 则\r\n\n$$\nz\\mathrm{i}=(a+b\\mathrm{i})\\mathrm{i}=-b+a\\mathrm{i}=1-\\mathrm{i}\n$$\n\r\n比较实部与虚部，得 $-b=1$，$a=-1$，所以\r\n\n$$\nz=-1-\\mathrm{i}\n$$\n\r\n故选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设 $z=a+b\\mathrm{i}$，其中 $a$，$b\\in\\mathbb{R}$. 则</p>\n$$\nz\\mathrm{i}=(a+b\\mathrm{i})\\mathrm{i}=-b+a\\mathrm{i}=1-\\mathrm{i}\n$$\n<p>比较实部与虚部，得 $-b=1$，$a=-1$，所以</p>\n$$\nz=-1-\\mathrm{i}\n$$\n<p>故选择 A.</p>"
         },
         {
           "num": 2,
-          "body": "等差数列 $\\{a_{n}\\}$ 中，$a_{1} + a_{5} = 10$，$a_{4} = 7$，则数列 $\\{a_{n}\\}$ 的公差为（ ）",
+          "body": "等差数列 $\\{a_{n}\\}$ 中，$a_{1}+ a_{5}= 10$，$a_{4}= 7$，则数列 $\\{a_{n}\\}$ 的公差为（ ）",
           "choices": [
             "$1$",
             "$2$",
@@ -172,27 +29,23 @@
             "$4$"
           ],
           "answer": "B",
-          "solution": "设等差数列的公差为 $d$. 由等差数列的性质，\r\n\n$$\na_{1}+a_{5}=2a_{3}=10\n$$\n\r\n所以 $a_{3}=5$. 又 $a_{4}=a_{3}+d=7$，故\r\n\n$$\nd=7-5=2\n$$\n\r\n因此选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>设等差数列的公差为 $d$. 由等差数列的性质，</p>\n$$\na_{1}+a_{5}=2a_{3}=10\n$$\n<p>所以 $a_{3}=5$. 又 $a_{4}=a_{3}+d=7$，故</p>\n$$\nd=7-5=2\n$$\n<p>因此选择 B.</p>"
         },
         {
           "num": 3,
-          "body": "下列命题中，真命题是（ ）\r\n\r\n\\begin{circlelist}\r\n\\item $\\exists x_{0} \\in \\mathbb{R}$，$\\mathrm{e}^{x_{0}} \\le 0$；\r\n\\item $\\forall x \\in \\mathbb{R}$，$2^{x} > x^{2}$；\r\n\\item $a + b = 0$ 的充要条件是 $\\frac{a}{b} = -1$；\r\n\\item $a > 1$，$b > 1$ 是 $ab > 1$ 的充分条件.\r\n\\end{circlelist}",
+          "body": "<p>下列命题中，真命题是（ ）</p><ol class=\"enumerate\"><li><p>$\\exists x_{0}\\in \\mathbb{R}$，$\\mathrm{e}^{x_{0}}\\le 0$；</p></li><li><p>$\\forall x \\in \\mathbb{R}$，$2^{x}> x^{2}$；</p></li><li><p>$a + b = 0$ 的充要条件是 $\\frac{a}{b}= -1$；</p></li><li><p>$a > 1$，$b > 1$ 是 $ab > 1$ 的充分条件.</p></li></ol>",
           "choices": [
-            "$\\circled{1}\\circled{2}$",
-            "$\\circled{1}\\circled{3}$",
-            "$\\circled{2}\\circled{4}$",
-            "$\\circled{3}\\circled{4}$"
+            "$①②$",
+            "$①③$",
+            "$②④$",
+            "$③④$"
           ],
           "answer": "D",
-          "solution": "逐项判断. 因为对任意 $x\\in\\mathbb{R}$ 都有 $\\mathrm{e}^{x}>0$，命题 $\\circled{1}$ 错误. 取 $x=2$，有 $2^{x}=x^{2}=4$，不满足严格不等式，故命题 $\\circled{2}$ 错误. 命题 $\\circled{3}$ 需要先保证 $b\\neq0$；当 $a=b=0$ 时 $a+b=0$ 成立，但 $\\frac{a}{b}$ 无意义，故命题 $\\circled{3}$ 错误. 若 $a>1$，$b>1$，则 $ab>a>1$，所以命题 $\\circled{4}$ 正确.\r\n\r\n因此真命题只有 $\\circled{4}$，选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>逐项判断. 因为对任意 $x\\in\\mathbb{R}$ 都有 $\\mathrm{e}^{x}>0$，命题 $①$ 错误. 取 $x=2$，有 $2^{x}=x^{2}=4$，不满足严格不等式，故命题 $②$ 错误. 命题 $③$ 需要先保证 $b\\neq0$；当 $a=b=0$ 时 $a+b=0$ 成立，但 $\\frac{a}{b}$ 无意义，故命题 $③$ 错误. 若 $a>1$，$b>1$，则 $ab>a>1$，所以命题 $④$ 正确.</p><p>因此真命题只有 $④$，选择 D.</p>"
         },
         {
           "num": 4,
-          "body": "一个几何体的三视图形状都相同，大小均相等，那么这个几何体不可以是（ ）",
+          "body": "一个几何体的三视图形状都相同，大小均相等，那么这个几何体不可以是（ ）",
           "choices": [
             "球",
             "三棱锥",
@@ -200,27 +53,23 @@
             "圆柱"
           ],
           "answer": "D",
-          "solution": "球的三个投影都是圆，正方体的三个投影都是全等正方形. 对于正四面体，可将其四个顶点置于\r\n$(1,1,1)$、$(1,-1,-1)$、$(-1,1,-1)$、$(-1,-1,1)$. 此时分别向三个坐标平面作正投影，三个投影的顶点集合都为 $(\\pm1,\\pm1)$，因而都是全等正方形. 圆柱的俯视图是圆，而正视图、侧视图是矩形，圆与矩形不可能形状相同且大小相等. 因此圆柱不符合条件，选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>球的三个投影都是圆，正方体的三个投影都是全等正方形. 对于正四面体，可将其四个顶点置于</p><p>$(1,1,1)$、$(1,-1,-1)$、$(-1,1,-1)$、$(-1,-1,1)$. 此时分别向三个坐标平面作正投影，三个投影的顶点集合都为 $(\\pm1,\\pm1)$，因而都是全等正方形. 圆柱的俯视图是圆，而正视图、侧视图是矩形，圆与矩形不可能形状相同且大小相等. 因此圆柱不符合条件，选择 D.</p>"
         },
         {
           "num": 5,
-          "body": "下列不等式一定成立的是（ ）",
+          "body": "下列不等式一定成立的是（ ）",
           "choices": [
             "$\\lg\\left(x^{2}+\\frac{1}{4}\\right) > \\lg x$（$x > 0$）",
-            "$\\sin x + \\frac{1}{\\sin x} \\ge 2$（$x \\neq k\\pi$，$k \\in \\mathbb{Z}$）",
-            "$x^{2} + 1 \\ge 2|x|$（$x \\in \\mathbb{R}$）",
-            "$\\frac{1}{x^{2} + 1} > 1$（$x \\in \\mathbb{R}$）"
+            "$\\sin x + \\frac{1}{\\sin x}\\ge 2$（$x \\neq k\\pi$，$k \\in \\mathbb{Z}$）",
+            "$x^{2}+ 1 \\ge 2|x|$（$x \\in \\mathbb{R}$）",
+            "$\\frac{1}{x^{2}+ 1}> 1$（$x \\in \\mathbb{R}$）"
           ],
           "answer": "C",
-          "solution": "选项 A 中，由对数函数的单调性，需有\r\n$x^{2}+\\frac14>x$，（$x>0$）\r\n但 $x^{2}-x+\\frac14=(x-\\frac12)^{2}$，当 $x=\\frac12$ 时等号成立，所以 A 不一定成立.\r\n\r\n选项 B 中，取 $x=\\frac{3\\pi}{2}$，则 $\\sin x=-1$，从而\r\n\n$$\n\\sin x+\\frac{1}{\\sin x}=-2<2\n$$\n\r\n故 B 错误.\r\n\r\n选项 C 中，\r\n\n$$\nx^{2}+1-2|x|=(|x|-1)^{2}\\geqslant0\n$$\n\r\n所以 C 对任意 $x\\in\\mathbb{R}$ 都成立. 选项 D 在 $x=0$ 时变为 $1>1$，错误.\r\n\r\n因此选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>选项 A 中，由对数函数的单调性，需有</p><p>$x^{2}+\\frac{1}{4}>x$，（$x>0$）</p><p>但 $x^{2}-x+\\frac{1}{4}=(x-\\frac{1}{2})^{2}$，当 $x=\\frac{1}{2}$ 时等号成立，所以 A 不一定成立.</p><p>选项 B 中，取 $x=\\frac{3\\pi}{2}$，则 $\\sin x=-1$，从而</p>\n$$\n\\sin x+\\frac{1}{\\sin x}=-2&#x3C;2\n$$\n<p>故 B 错误.</p><p>选项 C 中，</p>\n$$\nx^{2}+1-2|x|=(|x|-1)^{2}\\geqslant0\n$$\n<p>所以 C 对任意 $x\\in\\mathbb{R}$ 都成立. 选项 D 在 $x=0$ 时变为 $1>1$，错误.</p><p>因此选择 C.</p>"
         },
         {
           "num": 6,
-          "body": "如图所示，在边长为 $1$ 的正方形 $OABC$ 中任取一点 $P$，则点 $P$ 恰好取自阴影部分的概率为（ ）\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
+          "body": "<p>如图所示，在边长为 $1$ 的正方形 $OABC$ 中任取一点 $P$，则点 $P$ 恰好取自阴影部分的概率为（ ）</p><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q6_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
           "choices": [
             "$\\frac{1}{4}$",
             "$\\frac{1}{5}$",
@@ -228,13 +77,11 @@
             "$\\frac{1}{7}$"
           ],
           "answer": "C",
-          "solution": "正方形面积为 $1$. 由图，阴影部分是曲线 $y=\\sqrt{x}$ 与直线 $y=x$ 在 $0\\le x\\leqslant1$ 之间的区域，因此其面积为\r\n\n$$\nS=\\int_{0}^{1}(\\sqrt{x}-x)\\,\\mathrm{d}x\r\n=\\left.\\frac23x^{\\frac{3}{2}}-\\frac12x^{2}\\right|_{0}^{1}\r\n=\\frac23-\\frac12=\\frac16\n$$\n\r\n点在正方形内均匀取值，所求概率等于面积之比，故\r\n\n$$\nP=\\frac{S}{1}=\\frac16\n$$\n\r\n因此选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>正方形面积为 $1$. 由图，阴影部分是曲线 $y=\\sqrt{x}$ 与直线 $y=x$ 在 $0\\le x\\leqslant1$ 之间的区域，因此其面积为</p>\n$$\nS=\\int_{0}^{1}(\\sqrt{x}-x)\\,\\mathrm{d}x  =\\left.\\frac{2}{3}x^{\\frac{3}{2}}-\\frac{1}{2}x^{2}\\right|_{0}^{1}=\\frac{2}{3}-\\frac{1}{2}=\\frac{1}{6}\n$$\n<p>点在正方形内均匀取值，所求概率等于面积之比，故</p>\n$$\nP=\\frac{S}{1}=\\frac{1}{6}\n$$\n<p>因此选择 C.</p>"
         },
         {
           "num": 7,
-          "body": "设函数 $D(x) = \\begin{cases}\r\n1, & x\\text{ 为有理数},\\\\\r\n0, & x\\text{ 为无理数},\r\n\\end{cases}$ 则下列结论错误的是（ ）",
+          "body": "设函数 $D(x) = \\begin{cases}1, &#x26; x\\text{ 为有理数},\\\\\n\n0, &#x26; x\\text{ 为无理数},\\end{cases}$ 则下列结论错误的是（ ）",
           "choices": [
             "$D(x)$ 的值域为 $\\{0,1\\}$",
             "$D(x)$ 是偶函数",
@@ -242,13 +89,11 @@
             "$D(x)$ 不是单调函数"
           ],
           "answer": "C",
-          "solution": "有理数的相反数仍为有理数，无理数的相反数仍为无理数，所以 $D(-x)=D(x)$，命题 $\\circled{2}$ 正确. 取有理数和无理数分别作为自变量，函数值分别为 $1$ 和 $0$，故值域为 $\\{0,1\\}$，命题 $\\circled{1}$ 正确.\r\n\r\n对任意 $x\\in\\mathbb{R}$，$x$ 与 $x+1$ 同时为有理数或同时为无理数，所以 $D(x+1)=D(x)$，即 $1$ 是其一个周期，命题 $\\circled{3}$ “不是周期函数”错误. 为说明它不是单调函数，取\r\n$\\frac12<\\sqrt2$，有 $D(\\frac12)=1>D(\\sqrt2)=0$，故它不是单调递增函数；又取 $\\sqrt2<\\frac32$，有 $D(\\sqrt2)=0<D(\\frac32)=1$，故它不是单调递减函数. 因此命题 $\\circled{4}$ 正确.\r\n\r\n因此错误的结论是 $\\circled{3}$，选择 C.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>有理数的相反数仍为有理数，无理数的相反数仍为无理数，所以 $D(-x)=D(x)$，命题 $②$ 正确. 取有理数和无理数分别作为自变量，函数值分别为 $1$ 和 $0$，故值域为 $\\{0,1\\}$，命题 $①$ 正确.</p><p>对任意 $x\\in\\mathbb{R}$，$x$ 与 $x+1$ 同时为有理数或同时为无理数，所以 $D(x+1)=D(x)$，即 $1$ 是其一个周期，命题 $③$ “不是周期函数”错误. 为说明它不是单调函数，取</p><p>$\\frac{1}{2}&#x3C;\\sqrt{2}$，有 $D(\\frac{1}{2})=1>D(\\sqrt{2})=0$，故它不是单调递增函数；又取 $\\sqrt{2}&#x3C;\\frac{3}{2}$，有 $D(\\sqrt{2})=0&#x3C;D(\\frac{3}{2})=1$，故它不是单调递减函数. 因此命题 $④$ 正确.</p><p>因此错误的结论是 $③$，选择 C.</p>"
         },
         {
           "num": 8,
-          "body": "已知双曲线 $\\frac{x^{2}}{4} - \\frac{y^{2}}{b^{2}} = 1$ 的右焦点与抛物线 $y^{2} = 12x$ 的焦点重合，则该双曲线的焦点到其渐近线的距离等于（ ）",
+          "body": "已知双曲线 $\\frac{x^{2}}{4}- \\frac{y^{2}}{b^{2}}= 1$ 的右焦点与抛物线 $y^{2}= 12x$ 的焦点重合，则该双曲线的焦点到其渐近线的距离等于（ ）",
           "choices": [
             "$\\sqrt{5}$",
             "$4\\sqrt{2}$",
@@ -256,13 +101,11 @@
             "5"
           ],
           "answer": "A",
-          "solution": "抛物线 $y^{2}=12x$ 可写为 $y^{2}=4px$，故 $p=3$，其焦点为 $(3,0)$. 双曲线的实半轴为 $a=2$，右焦点为 $(c,0)$，由焦点重合得 $c=3$. 于是\r\n\n$$\nb^{2}=c^{2}-a^{2}=9-4=5\n$$\n\r\n双曲线的渐近线为\r\n\n$$\ny=\\pm\\frac{b}{a}x=\\pm\\frac{\\sqrt5}{2}x\n$$\n\r\n取焦点 $F(3,0)$，它到任一渐近线的距离为\r\n\n$$\nd=\\frac{\\frac{3\\sqrt5}{2}}{\\sqrt{1+\\frac54}}=\\sqrt5\n$$\n\r\n故选择 A.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>抛物线 $y^{2}=12x$ 可写为 $y^{2}=4px$，故 $p=3$，其焦点为 $(3,0)$. 双曲线的实半轴为 $a=2$，右焦点为 $(c,0)$，由焦点重合得 $c=3$. 于是</p>\n$$\nb^{2}=c^{2}-a^{2}=9-4=5\n$$\n<p>双曲线的渐近线为</p>\n$$\ny=\\pm\\frac{b}{a}x=\\pm\\frac{\\sqrt{5}}{2}x\n$$\n<p>取焦点 $F(3,0)$，它到任一渐近线的距离为</p>\n$$\nd=\\frac{\\frac{3\\sqrt{5}}{2}}{\\sqrt{1+\\frac{5}{4}}}=\\sqrt{5}\n$$\n<p>故选择 A.</p>"
         },
         {
           "num": 9,
-          "body": "若函数 $y = 2^{x}$ 图象上存在点 $(x,y)$ 满足约束条件 $\\begin{cases}\r\nx + y - 3 \\le 0,\\\\\r\nx - 2y - 3 \\le 0,\\\\\r\nx \\ge m,\r\n\\end{cases}$ 则实数 $m$ 的最大值为（ ）",
+          "body": "若函数 $y = 2^{x}$ 图象上存在点 $(x,y)$ 满足约束条件 $\\begin{cases}x + y - 3 \\le 0,\\\\  x - 2y - 3 \\le 0,\\\\  x \\ge m,\\end{cases}$ 则实数 $m$ 的最大值为（ ）",
           "choices": [
             "$\\frac{1}{2}$",
             "1",
@@ -270,23 +113,19 @@
             "2"
           ],
           "answer": "B",
-          "solution": "在函数图象上有 $y=2^{x}$. 第一个约束变为\r\n\n$$\ng(x)=x+2^{x}-3\\leqslant0\n$$\n\r\n因为 $g'(x)=1+2^{x}\\ln2>0$，所以 $g(x)$ 在 $\\mathbb{R}$ 上递增；又 $g(1)=1+2-3=0$，故第一个约束等价于 $x\\leqslant1$. 对于这样的 $x$，第二个约束满足\r\n\n$$\nx-2y-3=x-2^{x+1}-3<x-3\\le-2<0\n$$\n\r\n因而自动成立.\r\n\r\n所以满足前两个约束的点对应的 $x$ 的取值范围为 $(-\\infty,1]$. 再结合 $x\\ge m$，存在满足条件的点当且仅当 $m\\leqslant1$，故 $m$ 的最大值为 $1$，选择 B.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>在函数图象上有 $y=2^{x}$. 第一个约束变为</p>\n$$\ng(x)=x+2^{x}-3\\leqslant0\n$$\n<p>因为 $g'(x)=1+2^{x}\\ln2>0$，所以 $g(x)$ 在 $\\mathbb{R}$ 上递增；又 $g(1)=1+2-3=0$，故第一个约束等价于 $x\\leqslant1$. 对于这样的 $x$，第二个约束满足</p>\n$$\nx-2y-3=x-2^{x+1}-3&#x3C;x-3\\le-2&#x3C;0\n$$\n<p>因而自动成立.</p><p>所以满足前两个约束的点对应的 $x$ 的取值范围为 $(-\\infty,1]$. 再结合 $x\\ge m$，存在满足条件的点当且仅当 $m\\leqslant1$，故 $m$ 的最大值为 $1$，选择 B.</p>"
         },
         {
           "num": 10,
-          "body": "函数 $f(x)$ 在 $[a,b]$ 上有定义，若对任意 $x_{1}$，$x_{2} \\in [a,b]$，有 $f\\left(\\frac{x_{1} + x_{2}}{2}\\right) \\le \\frac{1}{2}[f(x_{1}) + f(x_{2})]$，则称 $f(x)$ 在 $[a,b]$ 上具有性质 $P$. 设 $f(x)$ 在 $[1,3]$ 上具有性质 $P$，现给出如下命题：\r\n\r\n\\begin{circlelist}\r\n\\item $f(x)$ 在 $[1,3]$ 上的图象是连续不断的；\r\n\\item $f(x^{2})$ 在 $[1,\\sqrt{3}]$ 上具有性质 $P$；\r\n\\item 若 $f(x)$ 在 $x = 2$ 处取得最大值 $1$，则 $f(x) = 1$，$x \\in [1,3]$；\r\n\\item 对任意 $x_{1}$，$x_{2}$，$x_{3}$，$x_{4} \\in [1,3]$，有 $f\\left(\\frac{x_{1} + x_{2} + x_{3} + x_{4}}{4}\\right) \\le \\frac{1}{4}[f(x_{1}) + f(x_{2}) + f(x_{3}) + f(x_{4})]$.\r\n\\end{circlelist}\r\n\r\n其中真命题的序号是（ ）",
+          "body": "<p>函数 $f(x)$ 在 $[a,b]$ 上有定义，若对任意 $x_{1}$，$x_{2}\\in [a,b]$，有 $f\\left(\\frac{x_{1}+ x_{2}}{2}\\right) \\le \\frac{1}{2}[f(x_{1}) + f(x_{2})]$，则称 $f(x)$ 在 $[a,b]$ 上具有性质 $P$. 设 $f(x)$ 在 $[1,3]$ 上具有性质 $P$，现给出如下命题：</p><ol class=\"enumerate\"><li><p>$f(x)$ 在 $[1,3]$ 上的图象是连续不断的；</p></li><li><p>$f(x^{2})$ 在 $[1,\\sqrt{3}]$ 上具有性质 $P$；</p></li><li><p>若 $f(x)$ 在 $x = 2$ 处取得最大值 $1$，则 $f(x) = 1$，$x \\in [1,3]$；</p></li><li><p>对任意 $x_{1}$，$x_{2}$，$x_{3}$，$x_{4}\\in [1,3]$，有 $f\\left(\\frac{x_{1}+ x_{2}+ x_{3}+ x_{4}}{4}\\right) \\le \\frac{1}{4}[f(x_{1}) + f(x_{2}) + f(x_{3}) + f(x_{4})]$.</p></li></ol><p>其中真命题的序号是（ ）</p>",
           "choices": [
-            "$\\circled{1}\\circled{2}$",
-            "$\\circled{1}\\circled{3}$",
-            "$\\circled{2}\\circled{4}$",
-            "$\\circled{3}\\circled{4}$"
+            "$①②$",
+            "$①③$",
+            "$②④$",
+            "$③④$"
           ],
           "answer": "D",
-          "solution": "命题 $\\circled{1}$ 不成立. 例如在 $[1,3]$ 上定义\r\n\n$$\nf(x)=\\begin{cases}\r\n1,&x=1,\\\\\r\n0,&1<x\\leqslant3\r\n\\end{cases}\n$$\n\r\n当两个自变量都为 $1$ 时性质 $P$ 显然成立；当至少一个自变量大于 $1$ 时，中点大于 $1$，左端为 $0$，右端非负，因此性质 $P$ 仍成立. 但该函数在 $x=1$ 处不连续，所以 $\\circled{1}$ 错误.\r\n\r\n命题 $\\circled{2}$ 不成立. 取 $f(x)=-x$，它在 $[1,3]$ 上满足性质 $P$，因为两端平均值等于中点函数值. 此时 $g(x)=f(x^{2})=-x^{2}$. 取 $x_{1}=1$，$x_{2}=\\sqrt3$，则\r\n\n$$\ng\\left(\\frac{x_{1}+x_{2}}{2}\\right)=-1-\\frac{\\sqrt3}{2}>-2=\\frac{g(x_{1})+g(x_{2})}{2}\n$$\n\r\n不满足性质 $P$，所以 $\\circled{2}$ 错误.\r\n\r\n对于命题 $\\circled{3}$，任取 $x\\in[1,3]$，令 $y=4-x$，则 $y\\in[1,3]$，且 $\\frac{(x+y)}{2}=2$. 由性质 $P$ 及 $f(2)=1$ 为最大值，\r\n\n$$\n1=f(2)\\le\\frac{f(x)+f(4-x)}{2}\\leqslant1\n$$\n\r\n两边只能处处取等号，故 $f(x)=f(4-x)=1$，命题 $\\circled{3}$ 正确.\r\n\r\n对于命题 $\\circled{4}$，先对 $x_{1}$，$x_{2}$ 及 $x_{3}$，$x_{4}$ 使用性质 $P$，再对两个中点使用一次性质 $P$，得\r\n\n$$\nf\\left(\\frac{x_{1}+x_{2}+x_{3}+x_{4}}{4}\\right)\r\n\\le\\frac12\\left[f\\left(\\frac{x_{1}+x_{2}}2\\right)+f\\left(\\frac{x_{3}+x_{4}}2\\right)\\right]\r\n\\le\\frac14\\left[f(x_{1})+f(x_{2})+f(x_{3})+f(x_{4})\\right]\n$$\n\r\n所以 $\\circled{4}$ 正确. 真命题为 $\\circled{3}$、$\\circled{4}$，选择 D.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "solution": "<p>命题 $①$ 不成立. 例如在 $[1,3]$ 上定义</p>\n$$\nf(x)=\\begin{cases}1,&#x26;x=1,\\\\\n\n0,&#x26;1&#x3C;x\\leqslant3\\end{cases}\n$$\n<p>当两个自变量都为 $1$ 时性质 $P$ 显然成立；当至少一个自变量大于 $1$ 时，中点大于 $1$，左端为 $0$，右端非负，因此性质 $P$ 仍成立. 但该函数在 $x=1$ 处不连续，所以 $①$ 错误.</p><p>命题 $②$ 不成立. 取 $f(x)=-x$，它在 $[1,3]$ 上满足性质 $P$，因为两端平均值等于中点函数值. 此时 $g(x)=f(x^{2})=-x^{2}$. 取 $x_{1}=1$，$x_{2}=\\sqrt{3}$，则</p>\n$$\ng\\left(\\frac{x_{1}+x_{2}}{2}\\right)=-1-\\frac{\\sqrt{3}}{2}>-2=\\frac{g(x_{1})+g(x_{2})}{2}\n$$\n<p>不满足性质 $P$，所以 $②$ 错误.</p><p>对于命题 $③$，任取 $x\\in[1,3]$，令 $y=4-x$，则 $y\\in[1,3]$，且 $\\frac{(x+y)}{2}=2$. 由性质 $P$ 及 $f(2)=1$ 为最大值，</p>\n$$\n1=f(2)\\le\\frac{f(x)+f(4-x)}{2}\\leqslant1\n$$\n<p>两边只能处处取等号，故 $f(x)=f(4-x)=1$，命题 $③$ 正确.</p><p>对于命题 $④$，先对 $x_{1}$，$x_{2}$ 及 $x_{3}$，$x_{4}$ 使用性质 $P$，再对两个中点使用一次性质 $P$，得</p>\n$$\nf\\left(\\frac{x_{1}+x_{2}+x_{3}+x_{4}}{4}\\right)  \\le\\frac{1}{2}\\left[f\\left(\\frac{x_{1}+x_{2}}{2}\\right)+f\\left(\\frac{x_{3}+x_{4}}{2}\\right)\\right]  \\le\\frac{1}{4}\\left[f(x_{1})+f(x_{2})+f(x_{3})+f(x_{4})\\right]\n$$\n<p>所以 $④$ 正确. 真命题为 $③$、$④$，选择 D.</p>"
         }
       ]
     },
@@ -295,48 +134,38 @@
       "problems": [
         {
           "num": 11,
-          "body": "$(a + x)^{4}$ 的展开式中 $x^{3}$ 的系数等于 $8$，则实数 $a =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(2\\)",
-          "solution": "由二项式定理，$(a+x)^{4}$ 中含 $x^{3}$ 的项为\r\n\n$$\n\\mathrm C_4^3a x^{3}=4a x^{3}\n$$\n\r\n题设给出 $4a=8$，所以 $a=2$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "$(a + x)^{4}$ 的展开式中 $x^{3}$ 的系数等于 $8$，则实数 $a =$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$2$",
+          "solution": "<p>由二项式定理，$(a+x)^{4}$ 中含 $x^{3}$ 的项为</p>\n$$\n\\mathrm{C}_{4}^{3}a x^{3}=4a x^{3}\n$$\n<p>题设给出 $4a=8$，所以 $a=2$.</p>"
         },
         {
           "num": 12,
-          "body": "阅读如图所示的程序框图，运行相应的程序，输出的 $s$ 值等于 _______ {}.\r\n\r\n\\begin{center}\r\n\\texfigure[float=inline,max width=0.44\\linewidth]{img_repaint/2012/fujian_science/q12_fig1.tex}\r\n\\end{center}",
-          "choices": [],
-          "answer": "\\(-3\\)",
-          "solution": "流程图先判断 $k<4$，判断为“是”后依次执行 $s=2s-k$ 和 $k=k+1$. 初始值为 $k=1$，$s=1$. 各次循环为\r\n\\begin{center}\r\n\\begin{tabular}{c|c|c|c}\r\n\\text{循环前 }$k$&\\text{循环前 }$s$&\\text{更新后 }$s=2s-k$&\\text{更新后 }$k=k+1$\\\\ \\hline\r\n1&1&1&2\\\\\r\n2&1&0&3\\\\\r\n3&0&$-3$&4\r\n\\end{tabular}\r\n\\end{center}\r\n此时 $k=4$，判断 $k<4$ 为“否”，程序输出 $s=-3$.",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "<p>阅读如图所示的程序框图，运行相应的程序，输出的 $s$ 值等于<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.</p><center class=\"center\"><span class=\"macro macro-texfigure\"></span>[float=inline,max width=0.44<span class=\"macro macro-linewidth\"></span>]img_repaint/2012/fujian_science/q12_fig1.tex</center>",
+          "choices": null,
+          "answer": "$-3$",
+          "solution": "<p>流程图先判断 $k&#x3C;4$，判断为“是”后依次执行 $s=2s-k$ 和 $k=k+1$. 初始值为 $k=1$，$s=1$. 各次循环为</p><center class=\"center\"><table class=\"tabular\"><tbody><tr><td style=\"text-align: center; border-right: 1px solid\"><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">循环前 </span></span>$k$</td><td style=\"text-align: center; border-right: 1px solid\"><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">循环前 </span></span>$s$</td><td style=\"text-align: center; border-right: 1px solid\"><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">更新后 </span></span>$s=2s-k$</td><td style=\"text-align: center\"><span class=\"macro macro-text\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">更新后 </span></span>$k=k+1$</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"> </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>1</td><td style=\"text-align: center; border-right: 1px solid\">1</td><td style=\"text-align: center; border-right: 1px solid\">1</td><td style=\"text-align: center\">2</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>2</td><td style=\"text-align: center; border-right: 1px solid\">1</td><td style=\"text-align: center; border-right: 1px solid\">0</td><td style=\"text-align: center\">3</td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>3</td><td style=\"text-align: center; border-right: 1px solid\">0</td><td style=\"text-align: center; border-right: 1px solid\">$-3$</td><td style=\"text-align: center\">4</td></tr></tbody></table></center><p>此时 $k=4$，判断 $k&#x3C;4$ 为“否”，程序输出 $s=-3$.</p>"
         },
         {
           "num": 13,
-          "body": "已知 $\\triangle ABC$ 的三边长成公比为 $\\sqrt{2}$ 的等比数列，则其最大角的余弦值为 _______ {}.",
-          "choices": [],
-          "answer": "\\(-\\frac{\\sqrt{2}}{4}\\)",
-          "solution": "设等比数列的三项依次为 $t$，$t\\sqrt2$，$2t$，其中 $t>0$. 最大边为 $2t$，设其所对的最大角为 $C$. 由余弦定理，\r\n\n$$\n\\cos C=\\frac{t^{2}+(t\\sqrt2)^{2}-(2t)^{2}}{2\\cdot t\\cdot t\\sqrt2}\r\n=\\frac{t^{2}+2t^{2}-4t^{2}}{2\\sqrt2 t^{2}}\r\n=-\\frac{1}{2\\sqrt2}=-\\frac{\\sqrt2}{4}\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "已知 $\\triangle ABC$ 的三边长成公比为 $\\sqrt{2}$ 的等比数列，则其最大角的余弦值为<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$-\\frac{\\sqrt{2}}{4}$",
+          "solution": "<p>设等比数列的三项依次为 $t$，$t\\sqrt{2}$，$2t$，其中 $t>0$. 最大边为 $2t$，设其所对的最大角为 $C$. 由余弦定理，</p>\n$$\n\\cos C=\\frac{t^{2}+(t\\sqrt{2})^{2}-(2t)^{2}}{2\\cdot t\\cdot t\\sqrt{2}}=\\frac{t^{2}+2t^{2}-4t^{2}}{2\\sqrt{2}t^{2}}=-\\frac{1}{2\\sqrt{2}}=-\\frac{\\sqrt{2}}{4}\n$$"
         },
         {
           "num": 14,
-          "body": "数列 $\\{a_{n}\\}$ 的通项公式 $a_{n} = n\\cos\\frac{n\\pi}{2} + 1$，前 $n$ 项和为 $S_{n}$，则 $S_{2012} =$ _______ {}.",
-          "choices": [],
-          "answer": "\\(3018\\)",
-          "solution": "因为\r\n$\\cos\\frac{n\\pi}{2}=0$，$-1$，$0$，$1$\r\n按 $n$ 模 $4$ 循环，故每四项中\r\n\n$$\n\\begin{gathered}\r\n(4k-3)\\cos\\frac{(4k-3)\\pi}{2}+(4k-2)\\cos\\frac{(4k-2)\\pi}{2}\\\\\r\n+(4k-1)\\cos\\frac{(4k-1)\\pi}{2}+4k\\cos(2k\\pi)=-(4k-2)+4k=2\r\n\\end{gathered}\n$$\n\r\n每四项的常数项 $1$ 又贡献 $4$，所以每四项的和为 $6$. 由于 $2012=4\\times503$，\r\n\n$$\nS_{2012}=503\\times6=3018\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "数列 $\\{a_{n}\\}$ 的通项公式 $a_{n}= n\\cos\\frac{n\\pi}{2}+ 1$，前 $n$ 项和为 $S_{n}$，则 $S_{2012}=$<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$3018$",
+          "solution": "<p>因为</p><p>$\\cos\\frac{n\\pi}{2}=0$，$-1$，$0$，$1$</p><p>按 $n$ 模 $4$ 循环，故每四项中</p>\n$$\n\\begin{gathered}(4k-3)\\cos\\frac{(4k-3)\\pi}{2}+(4k-2)\\cos\\frac{(4k-2)\\pi}{2}\\\\\n\n+(4k-1)\\cos\\frac{(4k-1)\\pi}{2}+4k\\cos(2k\\pi)=-(4k-2)+4k=2\\end{gathered}\n$$\n<p>每四项的常数项 $1$ 又贡献 $4$，所以每四项的和为 $6$. 由于 $2012=4\\times503$，</p>\n$$\nS_{2012}=503\\times6=3018\n$$"
         },
         {
           "num": 15,
-          "body": "对于实数 $a$ 和 $b$，定义运算“$\\ast$”：$a \\ast b = \\begin{cases}\r\na^{2} - ab, & a \\le b,\\\\\r\nb^{2} - ab, & a > b.\r\n\\end{cases}$ 设 $f(x) = (2x - 1) \\ast (x - 1)$，且关于 $x$ 的方程 $f(x) = m$ （$m \\in \\mathbb{R}$）恰有三个互不相等的实数根 $x_{1}$，$x_{2}$，$x_{3}$，则 $x_{1}x_{2}x_{3}$ 的取值范围是 _______ {}.",
-          "choices": [],
-          "answer": "\\(\\left(\\frac{1-\\sqrt{3}}{16},0\\right)\\)",
-          "solution": "比较运算中两个数的大小：\r\n\n$$\n2x-1\\le x-1\\Longleftrightarrow x\\leqslant0\n$$\n\r\n因此\r\n\n$$\nf(x)=\\begin{cases}\r\n2x^{2}-x,&x\\leqslant0,\\\\\r\n-x^{2}+x,&x>0\r\n\\end{cases}\n$$\n\r\n当 $x\\leqslant0$ 时，$f(x)$ 从 $+\\infty$ 单调下降到 $0$，值域为 $[0,+\\infty)$；当 $x>0$ 时，$f(x)=\\frac14-(x-\\frac12)^{2}$，最大值为 $\\frac14$.\r\n\r\n当 $m<0$ 时，左支无根，右支只有一个正根；当 $m=0$ 时，根为 $0,1$，共有两个；当 $0<m<\\frac14$ 时，左支有一个负根，右支有两个正根；当 $m=\\frac14$ 时，右支只有一个根 $x=\\frac12$，左支有一个负根；当 $m>\\frac14$ 时，只有左支的一个负根. 因此方程 $f(x)=m$ 有三个互不相等的实根，当且仅当\r\n\n$$\n0<m<\\frac14\n$$\n\r\n此时左支有一个负根，右支有两个正根. 设左支根为 $x_{1}$，右支两根为 $x_{2}$，$x_{3}$，则\r\n$2x_{1}^{2}-x_{1}-m=0$，$x^{2}-x+m=0$，\r\n故\r\n$x_{1}=\\frac{1-\\sqrt{1+8m}}{4}$，$x_{2}x_{3}=m$，\r\n从而\r\n\n$$\nx_{1}x_{2}x_{3}=\\frac{m(1-\\sqrt{1+8m})}{4}=:p(m)\n$$\n\r\n对 $0<m<\\frac14$，\r\n\n$$\np'(m)=\\frac14\\left(1-\\frac{1+12m}{\\sqrt{1+8m}}\\right)<0\n$$\n\r\n其中不等号由 $(1+12m)^{2}-(1+8m)=16m+144m^{2}>0$ 得到. 因此 $p(m)$ 严格递减，且\r\n$\\lim_{m\\to0^{+}}p(m)=0$，$\\lim_{m\\to(\\frac{1}{4})^{-}}p(m)=\\frac{1-\\sqrt3}{16}$\r\n端点均不取，故\r\n\n$$\nx_{1}x_{2}x_{3}\\in\\left(\\frac{1-\\sqrt3}{16},0\\right)\n$$",
-          "hasAnswer": true,
-          "hasSolution": true
+          "body": "对于实数 $a$ 和 $b$，定义运算“$\\ast$”：$a \\ast b = \\begin{cases}a^{2}- ab,&#x26;a \\le b,\\\\  b^{2}- ab,&#x26;a > b.\\end{cases}$ 设 $f(x) = (2x - 1) \\ast (x - 1)$，且关于 $x$ 的方程 $f(x) = m$ （$m \\in \\mathbb{R}$）恰有三个互不相等的实数根 $x_{1}$，$x_{2}$，$x_{3}$，则 $x_{1}x_{2}x_{3}$ 的取值范围是<u class=\"underline\"><span class=\"vspace\" data-amount=\"2.5em\"></span></u>.",
+          "choices": null,
+          "answer": "$\\left(\\frac{1-\\sqrt{3}}{16},0\\right)$",
+          "solution": "<p>比较运算中两个数的大小：</p>\n$$\n2x-1\\le x-1\\Longleftrightarrow x\\leqslant0\n$$\n<p>因此</p>\n$$\nf(x)=\\begin{cases}2x^{2}-x,&#x26;x\\leqslant0,\\\\  -x^{2}+x,&#x26;x>0\\end{cases}\n$$\n<p>当 $x\\leqslant0$ 时，$f(x)$ 从 $+\\infty$ 单调下降到 $0$，值域为 $[0,+\\infty)$；当 $x>0$ 时，$f(x)=\\frac{1}{4}-(x-\\frac{1}{2})^{2}$，最大值为 $\\frac{1}{4}$.</p><p>当 $m&#x3C;0$ 时，左支无根，右支只有一个正根；当 $m=0$ 时，根为 $0,1$，共有两个；当 $0&#x3C;m&#x3C;\\frac{1}{4}$ 时，左支有一个负根，右支有两个正根；当 $m=\\frac{1}{4}$ 时，右支只有一个根 $x=\\frac{1}{2}$，左支有一个负根；当 $m>\\frac{1}{4}$ 时，只有左支的一个负根. 因此方程 $f(x)=m$ 有三个互不相等的实根，当且仅当</p>\n$$\n0&#x3C;m&#x3C;\\frac{1}{4}\n$$\n<p>此时左支有一个负根，右支有两个正根. 设左支根为 $x_{1}$，右支两根为 $x_{2}$，$x_{3}$，则</p><p>$2x_{1}^{2}-x_{1}-m=0$，$x^{2}-x+m=0$，</p><p>故</p><p>$x_{1}=\\frac{1-\\sqrt{1+8m}}{4}$，$x_{2}x_{3}=m$，</p><p>从而</p>\n$$\nx_{1}x_{2}x_{3}=\\frac{m(1-\\sqrt{1+8m})}{4}=:p(m)\n$$\n<p>对 $0&#x3C;m&#x3C;\\frac{1}{4}$，</p>\n$$\np'(m)=\\frac{1}{4}\\left(1-\\frac{1+12m}{\\sqrt{1+8m}}\\right)&#x3C;0\n$$\n<p>其中不等号由 $(1+12m)^{2}-(1+8m)=16m+144m^{2}>0$ 得到. 因此 $p(m)$ 严格递减，且</p><p>$\\lim_{m\\to0^{+}}p(m)=0$，$\\lim_{m\\to(\\frac{1}{4})^{-}}p(m)=\\frac{1-\\sqrt{3}}{16}$</p><p>端点均不取，故</p>\n$$\nx_{1}x_{2}x_{3}\\in\\left(\\frac{1-\\sqrt{3}}{16},0\\right)\n$$"
         }
       ]
     },
@@ -345,48 +174,38 @@
       "problems": [
         {
           "num": 16,
-          "body": "受轿车在保修期内维修费等因素的影响，企业生产每辆轿车的利润与该轿车首次出现故障的时间有关. 某轿车制造厂生产甲，乙两种品牌轿车，保修期均为 $2$ 年. 现从该厂已售出的两种品牌轿车中各随机抽取 $50$ 辆，统计数据如下：\r\n\r\n\\begin{center}\r\n\\renewcommand{\\arraystretch}{1.2}\r\n\\begin{tabular}{|c|c|c|c|c|c|}\r\n\\hline\r\n品牌 & \\multicolumn{3}{c|}{甲} & \\multicolumn{2}{c|}{乙} \\\\\r\n\\hline\r\n首次出现故障的时间 $x$（$\\text{年}$） & $0 < x \\le 1$ & $1 < x \\le 2$ & $x > 2$ & $0 < x \\le 2$ & $x > 2$ \\\\\r\n\\hline\r\n轿车数量（$\\text{辆}$） & 2 & 3 & 45 & 5 & 45 \\\\\r\n\\hline\r\n每辆利润（$\\text{万元}$） & 1 & 2 & 3 & 1.8 & 2.9 \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n将频率视为概率，解答下列问题：\r\n\r\n\n(1) 从该厂生产的甲品牌轿车中随机抽取一辆，求其首次出现故障发生在保修期内的概率；\n\n(2) 若该厂生产的轿车均能售出，记生产一辆甲品牌轿车的利润为 $X_{1}$，生产一辆乙品牌轿车的利润为 $X_{2}$，分别求 $X_{1}$，$X_{2}$ 的分布列；\n\n(3) 该厂预计今后这两种品牌轿车销量相当，由于资金限制，只能生产其中一种品牌的新车. 若从经济效益的角度考虑，你认为应生产哪种品牌的轿车？请说明理由.",
-          "choices": [],
+          "body": "<p>受轿车在保修期内维修费等因素的影响，企业生产每辆轿车的利润与该轿车首次出现故障的时间有关. 某轿车制造厂生产甲，乙两种品牌轿车，保修期均为 $2$ 年. 现从该厂已售出的两种品牌轿车中各随机抽取 $50$ 辆，统计数据如下：</p><center class=\"center\"><span class=\"macro macro-renewcommand\"><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">\\arraystretch</span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"\" data-close-mark=\"\"></span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">1.2</span></span><br><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>品牌 </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">3</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c|</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">甲</span></span> </td><td style=\"text-align: center; border-right: 1px solid\"> <span class=\"macro macro-multicolumn\"><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">2</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">c|</span><span class=\"argument\" data-open-mark=\"{\" data-close-mark=\"}\">乙</span></span> </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>首次出现故障的时间 $x$（$\\text{年}$） </td><td style=\"text-align: center; border-right: 1px solid\"> $0 &#x3C; x \\le 1$ </td><td style=\"text-align: center; border-right: 1px solid\"> $1 &#x3C; x \\le 2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $x > 2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $0 &#x3C; x \\le 2$ </td><td style=\"text-align: center; border-right: 1px solid\"> $x > 2$ </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>轿车数量（$\\text{辆}$） </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 45 </td><td style=\"text-align: center; border-right: 1px solid\"> 5 </td><td style=\"text-align: center; border-right: 1px solid\"> 45 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br>每辆利润（$\\text{万元}$） </td><td style=\"text-align: center; border-right: 1px solid\"> 1 </td><td style=\"text-align: center; border-right: 1px solid\"> 2 </td><td style=\"text-align: center; border-right: 1px solid\"> 3 </td><td style=\"text-align: center; border-right: 1px solid\"> 1.8 </td><td style=\"text-align: center; border-right: 1px solid\"> 2.9 </td></tr><tr><td style=\"text-align: center; border-left: 1px solid; border-right: 1px solid\"><br></td></tr></tbody></table></center><p>将频率视为概率，解答下列问题：</p><ol class=\"enumerate\"><li><p>从该厂生产的甲品牌轿车中随机抽取一辆，求其首次出现故障发生在保修期内的概率；</p></li><li><p>若该厂生产的轿车均能售出，记生产一辆甲品牌轿车的利润为 $X_{1}$，生产一辆乙品牌轿车的利润为 $X_{2}$，分别求 $X_{1}$，$X_{2}$ 的分布列；</p></li><li><p>该厂预计今后这两种品牌轿车销量相当，由于资金限制，只能生产其中一种品牌的新车. 若从经济效益的角度考虑，你认为应生产哪种品牌的轿车？请说明理由.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 甲品牌轿车首次出现故障发生在保修期内的数量为 $2+3=5$ 辆，因此所求概率为\r\n\n$$\n\\frac{5}{50}=\\frac{1}{10}\n$$\n\n(2) 由频率估计概率，$X_{1}$ 的分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|ccc}\r\n\\hline\r\n$X_{1}$ & $1$ & $2$ & $3$ \\\\\r\n\\hline\r\n$P$ & $\\dfrac{1}{25}$ & $\\dfrac{3}{50}$ & $\\dfrac{9}{10}$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\r\n\r\n$X_{2}$ 的分布列为\r\n\\begin{center}\r\n\\begin{tabular}{c|cc}\r\n\\hline\r\n$X_{2}$ & $1.8$ & $2.9$ \\\\\r\n\\hline\r\n$P$ & $\\dfrac{1}{10}$ & $\\dfrac{9}{10}$ \\\\\r\n\\hline\r\n\\end{tabular}\r\n\\end{center}\n\n(3) 两种品牌轿车的平均利润分别为\r\n\n$$\nE(X_{1})=1\\times\\frac{1}{25}+2\\times\\frac{3}{50}+3\\times\\frac{9}{10}\r\n=\\frac{143}{50}=2.86\\text{（万元）}\n$$\n\r\n\n$$\nE(X_{2})=1.8\\times\\frac{1}{10}+2.9\\times\\frac{9}{10}\r\n=\\frac{279}{100}=2.79\\text{（万元）}\n$$\n\r\n\r\n因为 $E(X_{1})>E(X_{2})$，所以从经济效益角度应生产甲品牌轿车.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>甲品牌轿车首次出现故障发生在保修期内的数量为 $2+3=5$ 辆，因此所求概率为</p>\n$$\n\\frac{5}{50}=\\frac{1}{10}\n$$\n</li><li><p>由频率估计概率，$X_{1}$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$X_{1}$ </td><td style=\"text-align: center\"> $1$ </td><td style=\"text-align: center\"> $2$ </td><td style=\"text-align: center\"> $3$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac{1}{25}$ </td><td style=\"text-align: center\"> $\\dfrac{3}{50}$ </td><td style=\"text-align: center\"> $\\dfrac{9}{10}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p><p>$X_{2}$ 的分布列为</p><p></p><center class=\"center\"><table class=\"tabular\"><tbody><tr></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$X_{2}$ </td><td style=\"text-align: center\"> $1.8$ </td><td style=\"text-align: center\"> $2.9$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br>$P$ </td><td style=\"text-align: center\"> $\\dfrac{1}{10}$ </td><td style=\"text-align: center\"> $\\dfrac{9}{10}$ </td></tr><tr><td style=\"text-align: center; border-right: 1px solid\"><br></td></tr></tbody></table></center><p></p></li><li><p>两种品牌轿车的平均利润分别为</p>\n$$\nE(X_{1})=1\\times\\frac{1}{25}+2\\times\\frac{3}{50}+3\\times\\frac{9}{10}=\\frac{143}{50}=2.86\\text{（万元）}\n$$\n\n$$\nE(X_{2})=1.8\\times\\frac{1}{10}+2.9\\times\\frac{9}{10}=\\frac{279}{100}=2.79\\text{（万元）}\n$$\n<p>因为 $E(X_{1})>E(X_{2})$，所以从经济效益角度应生产甲品牌轿车.</p></li></ol>"
         },
         {
           "num": 17,
-          "body": "某同学在一次研究性学习中发现，以下五个式子的值都等于同一个常数：\r\n\r\n\\begin{circlelist}\r\n\\item $\\sin^{2}13^{\\circ} + \\cos^{2}17^{\\circ} - \\sin13^{\\circ}\\cos17^{\\circ}$；\r\n\\item $\\sin^{2}15^{\\circ} + \\cos^{2}15^{\\circ} - \\sin15^{\\circ}\\cos15^{\\circ}$；\r\n\\item $\\sin^{2}18^{\\circ} + \\cos^{2}12^{\\circ} - \\sin18^{\\circ}\\cos12^{\\circ}$；\r\n\\item $\\sin^{2}(-18^{\\circ}) + \\cos^{2}48^{\\circ} - \\sin(-18^{\\circ})\\cos48^{\\circ}$；\r\n\\item $\\sin^{2}(-25^{\\circ}) + \\cos^{2}55^{\\circ} - \\sin(-25^{\\circ})\\cos55^{\\circ}$.\r\n\\end{circlelist}\r\n\r\n\n(1) 试从上述五个式子中选择一个，求出这个常数；\n\n(2) 根据（1）的计算结果，将该同学的发现推广为三角恒等式，并证明你的结论.",
-          "choices": [],
+          "body": "<p>某同学在一次研究性学习中发现，以下五个式子的值都等于同一个常数：</p><ol class=\"enumerate\"><li><p>$\\sin^{2}13^{\\circ}+ \\cos^{2}17^{\\circ}- \\sin13^{\\circ}\\cos17^{\\circ}$；</p></li><li><p>$\\sin^{2}15^{\\circ}+ \\cos^{2}15^{\\circ}- \\sin15^{\\circ}\\cos15^{\\circ}$；</p></li><li><p>$\\sin^{2}18^{\\circ}+ \\cos^{2}12^{\\circ}- \\sin18^{\\circ}\\cos12^{\\circ}$；</p></li><li><p>$\\sin^{2}(-18^{\\circ}) + \\cos^{2}48^{\\circ}- \\sin(-18^{\\circ})\\cos48^{\\circ}$；</p></li><li><p>$\\sin^{2}(-25^{\\circ}) + \\cos^{2}55^{\\circ}- \\sin(-25^{\\circ})\\cos55^{\\circ}$.</p></li></ol><ol class=\"enumerate\"><li><p>试从上述五个式子中选择一个，求出这个常数；</p></li><li><p>根据（1）的计算结果，将该同学的发现推广为三角恒等式，并证明你的结论.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 选择第二个式子. 因为\r\n\n$$\n\\sin^{2}15^{\\circ}+\\cos^{2}15^{\\circ}-\\sin15^{\\circ}\\cos15^{\\circ}\r\n=1-\\frac{1}{2}\\sin30^{\\circ}\r\n=1-\\frac{1}{4}\r\n=\\frac{3}{4}\n$$\n\r\n所以这五个式子的公共值为 $\\dfrac{3}{4}$.\n\n(2) 当 $\\alpha+\\beta=30^{\\circ}$ 时，有三角恒等式\r\n\n$$\n\\sin^{2}\\alpha+\\cos^{2}\\beta-\\sin\\alpha\\cos\\beta=\\frac{3}{4}\n$$\n\r\n\r\n事实上，由 $\\beta=30^{\\circ}-\\alpha$ 及和角公式，\r\n\n$$\n\\cos\\beta=\\cos\\left(30^{\\circ}-\\alpha\\right)\r\n=\\frac{\\sqrt{3}}{2}\\cos\\alpha+\\frac{1}{2}\\sin\\alpha\n$$\n\r\n因此\r\n\n$$\n\\sin^{2}\\alpha+\\cos^{2}\\beta-\\sin\\alpha\\cos\\beta\r\n=\\sin^{2}\\alpha+\\left(\\frac{\\sqrt{3}}{2}\\cos\\alpha+\\frac{1}{2}\\sin\\alpha\\right)^{2}\r\n-\\sin\\alpha\\left(\\frac{\\sqrt{3}}{2}\\cos\\alpha+\\frac{1}{2}\\sin\\alpha\\right)\n$$\n\r\n展开并合并同类项，得\r\n\n$$\n\\sin^{2}\\alpha+\\frac{3}{4}\\cos^{2}\\alpha+\\frac{\\sqrt{3}}{2}\\sin\\alpha\\cos\\alpha+\\frac{1}{4}\\sin^{2}\\alpha\r\n-\\frac{\\sqrt{3}}{2}\\sin\\alpha\\cos\\alpha-\\frac{1}{2}\\sin^{2}\\alpha\r\n=\\frac{3}{4}\\sin^{2}\\alpha+\\frac{3}{4}\\cos^{2}\\alpha\n$$\n\r\n所以\r\n\n$$\n\\sin^{2}\\alpha+\\cos^{2}\\beta-\\sin\\alpha\\cos\\beta\r\n=\\frac{3}{4}\\left(\\sin^{2}\\alpha+\\cos^{2}\\alpha\\right)\r\n=\\frac{3}{4}\n$$\n\r\n题中五组角度均满足 $\\alpha+\\beta=30^{\\circ}$，故五个式子的值确实相同.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>选择第二个式子. 因为</p>\n$$\n\\sin^{2}15^{\\circ}+\\cos^{2}15^{\\circ}-\\sin15^{\\circ}\\cos15^{\\circ}=1-\\frac{1}{2}\\sin30^{\\circ}=1-\\frac{1}{4}=\\frac{3}{4}\n$$\n<p>所以这五个式子的公共值为 $\\dfrac{3}{4}$.</p></li><li><p>当 $\\alpha+\\beta=30^{\\circ}$ 时，有三角恒等式</p>\n$$\n\\sin^{2}\\alpha+\\cos^{2}\\beta-\\sin\\alpha\\cos\\beta=\\frac{3}{4}\n$$\n<p>事实上，由 $\\beta=30^{\\circ}-\\alpha$ 及和角公式，</p>\n$$\n\\cos\\beta=\\cos\\left(30^{\\circ}-\\alpha\\right)  =\\frac{\\sqrt{3}}{2}\\cos\\alpha+\\frac{1}{2}\\sin\\alpha\n$$\n<p>因此</p>\n$$\n\\sin^{2}\\alpha+\\cos^{2}\\beta-\\sin\\alpha\\cos\\beta  =\\sin^{2}\\alpha+\\left(\\frac{\\sqrt{3}}{2}\\cos\\alpha+\\frac{1}{2}\\sin\\alpha\\right)^{2}-\\sin\\alpha\\left(\\frac{\\sqrt{3}}{2}\\cos\\alpha+\\frac{1}{2}\\sin\\alpha\\right)\n$$\n<p>展开并合并同类项，得</p>\n$$\n\\sin^{2}\\alpha+\\frac{3}{4}\\cos^{2}\\alpha+\\frac{\\sqrt{3}}{2}\\sin\\alpha\\cos\\alpha+\\frac{1}{4}\\sin^{2}\\alpha  -\\frac{\\sqrt{3}}{2}\\sin\\alpha\\cos\\alpha-\\frac{1}{2}\\sin^{2}\\alpha  =\\frac{3}{4}\\sin^{2}\\alpha+\\frac{3}{4}\\cos^{2}\\alpha\n$$\n<p>所以</p>\n$$\n\\sin^{2}\\alpha+\\cos^{2}\\beta-\\sin\\alpha\\cos\\beta  =\\frac{3}{4}\\left(\\sin^{2}\\alpha+\\cos^{2}\\alpha\\right)  =\\frac{3}{4}\n$$\n<p>题中五组角度均满足 $\\alpha+\\beta=30^{\\circ}$，故五个式子的值确实相同.</p></li></ol>"
         },
         {
           "num": 18,
-          "body": "如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1} = AD = 1$，$E$ 为 $CD$ 的中点.\r\n\r\n\n(1) 求证：$B_{1}E \\perp AD_{1}$；\n\n(2) 在棱 $AA_{1}$ 上是否存在一点 $P$，使得 $DP \\parallel$ 平面 $B_{1}AE$？若存在，求 $AP$ 的长；若不存在，请说明理由；\n\n(3) 若二面角 $A-B_{1}E-A_{1}$ 的大小为 $30^{\\circ}$，求 $AB$ 的长.\n\r\n\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/fujian_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>",
-          "choices": [],
+          "body": "<p>如图，在长方体 $ABCD-A_{1}B_{1}C_{1}D_{1}$ 中，$AA_{1}= AD = 1$，$E$ 为 $CD$ 的中点.</p><ol class=\"enumerate\"><li><p>求证：$B_{1}E \\perp AD_{1}$；</p></li><li><p>在棱 $AA_{1}$ 上是否存在一点 $P$，使得 $DP \\parallel$ 平面 $B_{1}AE$？若存在，求 $AP$ 的长；若不存在，请说明理由；</p></li><li><p>若二面角 $A-B_{1}E-A_{1}$ 的大小为 $30^{\\circ}$，求 $AB$ 的长.</p></li></ol><p><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q18_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></p>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设 $AB=b$，其中 $b>0$. 以 $A$ 为原点，分别以 $\\overrightarrow{AB}$，$\\overrightarrow{AD}$，$\\overrightarrow{AA_{1}}$ 的方向为 $x$ 轴、$y$ 轴、$z$ 轴的正方向建立空间直角坐标系，则 $A(0,0,0)$，$B(b,0,0)$，$D(0,1,0)$，$A_{1}(0,0,1)$.\r\n从而\r\n$B_{1}(b,0,1)$，$D_{1}(0,1,1)$，$E\\left(\\frac{b}{2},1,0\\right)$.\r\n于是 $\\overrightarrow{AD_{1}}=(0,1,1)$，$\\overrightarrow{B_{1}E}=\\left(-\\frac{b}{2},1,-1\\right)$.\r\n\n$$\n\\overrightarrow{AD_{1}}\\cdot\\overrightarrow{B_{1}E}\r\n=0\\times\\left(-\\frac{b}{2}\\right)+1\\times1+1\\times(-1)=0\n$$\n\r\n所以 $B_{1}E\\perp AD_{1}$.\n\n(2) 设 $P(0,0,t)$，其中 $0\\le t\\leqslant1$. 有 $\\overrightarrow{AB_{1}}=(b,0,1)$，$\\overrightarrow{AE}=\\left(\\frac{b}{2},1,0\\right)$.\r\n取平面 $B_{1}AE$ 的一个法向量 $\\mathbf{n}=\\left(-1,\\frac{b}{2},b\\right)$，因为 $\\mathbf{n}\\cdot\\overrightarrow{AB_{1}}=-b+b=0$，$\\mathbf{n}\\cdot\\overrightarrow{AE}=-\\frac{b}{2}+\\frac{b}{2}=0$.\r\n又 $\\overrightarrow{DP}=(0,-1,t)$.\r\n所以\r\n\n$$\n\\mathbf{n}\\cdot\\overrightarrow{DP}\r\n=-\\frac{b}{2}+bt=b\\left(t-\\frac{1}{2}\\right)\n$$\n\r\n要使 $DP\\parallel$ 平面 $B_{1}AE$，应有 $\\mathbf{n}\\cdot\\overrightarrow{DP}=0$，故 $t=\\dfrac{1}{2}$. 因此存在这样的点 $P$，且\r\n\n$$\nAP=t=\\frac{1}{2}\n$$\n\n(3) 平面 $A_{1}B_{1}E$ 的一个法向量为 $\\mathbf{n}_{2}=(0,1,1)$，平面 $B_{1}AE$ 的法向量为 $\\mathbf{n}_{1}=\\left(-1,\\frac{b}{2},b\\right)$. 因此两平面夹角 $\\theta$ 满足\r\n\n$$\n\\cos\\theta\r\n=\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}\r\n=\\frac{\\frac{3b}{2}}{\\sqrt{1+\\frac{5b^{2}}{4}}\\sqrt{2}}\n$$\n\r\n由 $\\theta=30^{\\circ}$，得\r\n\n$$\n\\frac{9b^{2}}{8+10b^{2}}=\\frac{3}{4}\n$$\n\r\n解得 $b^{2}=4$. 因为 $b>0$，所以 $AB=b=2$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设 $AB=b$，其中 $b>0$. 以 $A$ 为原点，分别以 $\\overrightarrow{AB}$，$\\overrightarrow{AD}$，$\\overrightarrow{AA_{1}}$ 的方向为 $x$ 轴、$y$ 轴、$z$ 轴的正方向建立空间直角坐标系，则 $A(0,0,0)$，$B(b,0,0)$，$D(0,1,0)$，$A_{1}(0,0,1)$.</p><p>从而</p><p>$B_{1}(b,0,1)$，$D_{1}(0,1,1)$，$E\\left(\\frac{b}{2},1,0\\right)$.</p><p>于是 $\\overrightarrow{AD_{1}}=(0,1,1)$，$\\overrightarrow{B_{1}E}=\\left(-\\frac{b}{2},1,-1\\right)$.</p>\n$$\n\\overrightarrow{AD_{1}}\\cdot\\overrightarrow{B_{1}E}=0\\times\\left(-\\frac{b}{2}\\right)+1\\times1+1\\times(-1)=0\n$$\n<p>所以 $B_{1}E\\perp AD_{1}$.</p></li><li><p>设 $P(0,0,t)$，其中 $0\\le t\\leqslant1$. 有 $\\overrightarrow{AB_{1}}=(b,0,1)$，$\\overrightarrow{AE}=\\left(\\frac{b}{2},1,0\\right)$.</p><p>取平面 $B_{1}AE$ 的一个法向量 $\\mathbf{n}=\\left(-1,\\frac{b}{2},b\\right)$，因为 $\\mathbf{n}\\cdot\\overrightarrow{AB_{1}}=-b+b=0$，$\\mathbf{n}\\cdot\\overrightarrow{AE}=-\\frac{b}{2}+\\frac{b}{2}=0$.</p><p>又 $\\overrightarrow{DP}=(0,-1,t)$.</p><p>所以</p>\n$$\n\\mathbf{n}\\cdot\\overrightarrow{DP}=-\\frac{b}{2}+bt=b\\left(t-\\frac{1}{2}\\right)\n$$\n<p>要使 $DP\\parallel$ 平面 $B_{1}AE$，应有 $\\mathbf{n}\\cdot\\overrightarrow{DP}=0$，故 $t=\\dfrac{1}{2}$. 因此存在这样的点 $P$，且</p>\n$$\nAP=t=\\frac{1}{2}\n$$\n</li><li><p>平面 $A_{1}B_{1}E$ 的一个法向量为 $\\mathbf{n}_{2}=(0,1,1)$，平面 $B_{1}AE$ 的法向量为 $\\mathbf{n}_{1}=\\left(-1,\\frac{b}{2},b\\right)$. 因此两平面夹角 $\\theta$ 满足</p>\n$$\n\\cos\\theta  =\\frac{|\\mathbf{n}_{1}\\cdot\\mathbf{n}_{2}|}{|\\mathbf{n}_{1}|\\,|\\mathbf{n}_{2}|}=\\frac{\\frac{3b}{2}}{\\sqrt{1+\\frac{5b^{2}}{4}}\\sqrt{2}}\n$$\n<p>由 $\\theta=30^{\\circ}$，得</p>\n$$\n\\frac{9b^{2}}{8+10b^{2}}=\\frac{3}{4}\n$$\n<p>解得 $b^{2}=4$. 因为 $b>0$，所以 $AB=b=2$.</p></li></ol>"
         },
         {
           "num": 19,
-          "body": "如图，椭圆 $E: \\frac{x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1$（$a > b > 0$）的左焦点为 $F_{1}$，右焦点为 $F_{2}$，离心率 $\\varepsilon = \\frac{1}{2}$，过 $F_{1}$ 的直线交椭圆于 $A$，$B$ 两点，且 $\\triangle ABF_{2}$ 的周长为 $8$.\r\n\r\n\n(1) 求椭圆 $E$ 的方程；\n\n(2) 设动直线 $l: y = kx + m$ 与椭圆 $E$ 有且只有一个公共点 $P$，且与直线 $x = 4$ 相交于点 $Q$. 试探究：在坐标平面内是否存在定点 $M$，使得以 $PQ$ 为直径的圆恒过点 $M$？若存在，求出点 $M$ 的坐标；若不存在，请说明理由.\n\r\n\r\n\r\n\\begin{center}\r\n\n\n<div align=\"center\"><img class=\"problem-image\" src=\"/gaokaomath-typst-page/papers/2012/img/fujian_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div>\n\n\r\n\\end{center}",
-          "choices": [],
+          "body": "<p>如图，椭圆 $E: \\frac{x^{2}}{a^{2}}+ \\frac{y^{2}}{b^{2}}= 1$（$a > b > 0$）的左焦点为 $F_{1}$，右焦点为 $F_{2}$，离心率 $\\varepsilon = \\frac{1}{2}$，过 $F_{1}$ 的直线交椭圆于 $A$，$B$ 两点，且 $\\triangle ABF_{2}$ 的周长为 $8$.</p><ol class=\"enumerate\"><li><p>求椭圆 $E$ 的方程；</p></li><li><p>设动直线 $l: y = kx + m$ 与椭圆 $E$ 有且只有一个公共点 $P$，且与直线 $x = 4$ 相交于点 $Q$. 试探究：在坐标平面内是否存在定点 $M$，使得以 $PQ$ 为直径的圆恒过点 $M$？若存在，求出点 $M$ 的坐标；若不存在，请说明理由.</p></li></ol><center class=\"center\"><div align=\"center\"><img class=\"problem-image\" src=\"./img/fujian_science/q19_fig1.png\" style=\"max-width:240px; max-height:200px; object-fit:contain; display:block; margin:8px auto;\" /></div></center>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设椭圆的半焦距为 $c$. 由于 $F_{1}$ 在椭圆内部且直线 $AB$ 经过 $F_{1}$，所以 $F_{1}$ 在线段 $AB$ 上，从而\r\n\n$$\n8=AB+AF_{2}+BF_{2}\r\n=(AF_{1}+BF_{1})+AF_{2}+BF_{2}\r\n=(AF_{1}+AF_{2})+(BF_{1}+BF_{2})\r\n=4a\n$$\n\r\n故 $a=2$. 又由离心率\r\n\n$$\n\\varepsilon=\\frac{c}{a}=\\frac{1}{2}\n$$\n\r\n得 $c=1$，于是\r\n\n$$\nb^{2}=a^{2}-c^{2}=4-1=3\n$$\n\r\n因此椭圆 $E$ 的方程为\r\n\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n\n(2) 设切点 $P=(x_{0},y_{0})$，并设 $Q=(4,q)$. 若 $y_{0}=0$，椭圆在 $P$ 处的切线为 $x=2$ 或 $x=-2$，均与直线 $x=4$ 平行，故题设中的切线必有 $y_{0}\\neq0$.\r\n\r\n椭圆在 $P$ 处的切线方程为\r\n\n$$\n\\frac{x_{0}x}{4}+\\frac{y_{0}y}{3}=1\n$$\n\r\n将 $Q=(4,q)$ 代入，得\r\n\n$$\nx_{0}+\\frac{y_{0}q}{3}=1\n$$\n\r\n即\r\n\n$$\ny_{0}q=3(1-x_{0})\n$$\n\r\n取定点 $M=(1,0)$，则\r\n$\\overrightarrow{PM}=(1-x_{0},-y_{0})$，$\\overrightarrow{QM}=(-3,-q)$，\r\n于是\r\n\n$$\n\\overrightarrow{PM}\\cdot\\overrightarrow{QM}\r\n=-3(1-x_{0})+y_{0}q=0\n$$\n\r\n所以 $PM\\perp QM$，从而 $\\angle PMQ=90^{\\circ}$. 由圆的直径所对的圆周角为直角，点 $M$ 在以 $PQ$ 为直径的圆上. 因此存在定点 $M(1,0)$.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设椭圆的半焦距为 $c$. 由于 $F_{1}$ 在椭圆内部且直线 $AB$ 经过 $F_{1}$，所以 $F_{1}$ 在线段 $AB$ 上，从而</p>\n$$\n8=AB+AF_{2}+BF_{2}=(AF_{1}+BF_{1})+AF_{2}+BF_{2}=(AF_{1}+AF_{2})+(BF_{1}+BF_{2})  =4a\n$$\n<p>故 $a=2$. 又由离心率</p>\n$$\n\\varepsilon=\\frac{c}{a}=\\frac{1}{2}\n$$\n<p>得 $c=1$，于是</p>\n$$\nb^{2}=a^{2}-c^{2}=4-1=3\n$$\n<p>因此椭圆 $E$ 的方程为</p>\n$$\n\\frac{x^{2}}{4}+\\frac{y^{2}}{3}=1\n$$\n</li><li><p>设切点 $P=(x_{0},y_{0})$，并设 $Q=(4,q)$. 若 $y_{0}=0$，椭圆在 $P$ 处的切线为 $x=2$ 或 $x=-2$，均与直线 $x=4$ 平行，故题设中的切线必有 $y_{0}\\neq0$.</p><p>椭圆在 $P$ 处的切线方程为</p>\n$$\n\\frac{x_{0}x}{4}+\\frac{y_{0}y}{3}=1\n$$\n<p>将 $Q=(4,q)$ 代入，得</p>\n$$\nx_{0}+\\frac{y_{0}q}{3}=1\n$$\n<p>即</p>\n$$\ny_{0}q=3(1-x_{0})\n$$\n<p>取定点 $M=(1,0)$，则</p><p>$\\overrightarrow{PM}=(1-x_{0},-y_{0})$，$\\overrightarrow{QM}=(-3,-q)$，</p><p>于是</p>\n$$\n\\overrightarrow{PM}\\cdot\\overrightarrow{QM}=-3(1-x_{0})+y_{0}q=0\n$$\n<p>所以 $PM\\perp QM$，从而 $\\angle PMQ=90^{\\circ}$. 由圆的直径所对的圆周角为直角，点 $M$ 在以 $PQ$ 为直径的圆上. 因此存在定点 $M(1,0)$.</p></li></ol>"
         },
         {
           "num": 20,
-          "body": "已知函数 $f(x) = \\mathrm{e}^{x} + ax^{2} - \\mathrm{e} x$，$a \\in \\mathbb{R}$.\r\n\r\n\n(1) 若曲线 $y = f(x)$ 在点 $(1,f(1))$ 处的切线平行于 $x$ 轴，求函数 $f(x)$ 的单调区间；\n\n(2) 试确定 $a$ 的取值范围，使得曲线 $y = f(x)$ 上存在唯一的点 $P$，曲线在该点处的切线与曲线只有一个公共点 $P$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = \\mathrm{e}^{x}+ ax^{2}- \\mathrm{e}x$，$a \\in \\mathbb{R}$.</p><ol class=\"enumerate\"><li><p>若曲线 $y = f(x)$ 在点 $(1,f(1))$ 处的切线平行于 $x$ 轴，求函数 $f(x)$ 的单调区间；</p></li><li><p>试确定 $a$ 的取值范围，使得曲线 $y = f(x)$ 上存在唯一的点 $P$，曲线在该点处的切线与曲线只有一个公共点 $P$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $f'(x)=\\mathrm{e}^{x}+2ax-\\mathrm{e}$. 由题意，曲线在 $x=1$ 处的切线平行于 $x$ 轴，所以\r\n\n$$\nf'(1)=\\mathrm{e}+2a-\\mathrm{e}=2a=0\n$$\n\r\n解得 $a=0$. 此时\r\n\n$$\nf'(x)=\\mathrm{e}^{x}-\\mathrm{e}\n$$\n\r\n当 $x<1$ 时，$\\mathrm{e}^{x}<\\mathrm{e}$，故 $f'(x)<0$；当 $x>1$ 时，$\\mathrm{e}^{x}>\\mathrm{e}$，故 $f'(x)>0$. 因此 $f(x)$ 的单调递减区间为 $(-\\infty,1)$，单调递增区间为 $(1,+\\infty)$.\n\n(2) 设 $P=(t,f(t))$. 曲线在 $P$ 处的切线方程为\r\n\n$$\ny=f'(t)(x-t)+f(t)\n$$\n\r\n记曲线与该切线的纵坐标之差为\r\n\n$$\nG_{t}(x)=f(x)-f'(t)(x-t)-f(t)\n$$\n\r\n令 $x=t+h$，则\r\n\n$$\nG_{t}(t+h)=\\mathrm{e}^{t}\\left(\\mathrm{e}^{h}-1-h\\right)+ah^{2}\r\n=h^{2}\\left(a+\\mathrm{e}^{t}\\frac{\\mathrm{e}^{h}-1-h}{h^{2}}\\right)\n$$\n\r\n当 $h=0$ 时，$G_{t}(t)=0$. 对 $h\\neq0$，记\r\n\n$$\nr(h)=\\frac{\\mathrm{e}^{h}-1-h}{h^{2}}\n$$\n\r\n由 $\\mathrm{e}^{h}>1+h$（$h\\neq0$），知 $r(h)>0$. 再令\r\n\n$$\n\\phi(h)=\\mathrm{e}^{h}-1-h-\\frac{h^{2}}{2}\n$$\n\r\n由于 $\\phi(0)=\\phi'(0)=0$，且\r\n\n$$\n\\phi''(h)=\\mathrm{e}^{h}-1\n$$\n\r\n当 $h>0$ 时，$\\phi''(h)>0$，故 $\\phi'$ 在 $(0,+\\infty)$ 上递增，从而 $\\phi'(h)>\\phi'(0)=0$，进而 $\\phi(h)>\\phi(0)=0$；当 $h<0$ 时，$\\phi''(h)<0$，故 $\\phi'$ 在 $(-\\infty,0)$ 上递减，所以 $\\phi'(h)>\\phi'(0)=0$，进而 $\\phi(h)<\\phi(0)=0$. 因此\r\n$\\phi(h)<0$，（$h<0$），$\\phi(h)>0$，（$h>0$），\r\n于是\r\n$0<r(h)<\\frac{1}{2}$，（$h<0$），$r(h)>\\frac{1}{2}$，（$h>0$）\r\n此外，$r(h)$ 在 $h\\neq0$ 时连续，且\r\n$\\lim_{h\\to-\\infty}r(h)=0$，$\\lim_{h\\to0}r(h)=\\frac{1}{2}$，$\\lim_{h\\to+\\infty}r(h)=+\\infty$\r\n\r\n若 $a\\geqslant0$，则对任意 $t$ 及 $h\\neq0$，\r\n\n$$\nG_{t}(t+h)=h^{2}\\left(a+\\mathrm{e}^{t}r(h)\\right)>0\n$$\n\r\n此时每个点处的切线都只与曲线交于该点，不满足“存在唯一的点 $P$”.\r\n\r\n若 $a<0$，令\r\n\n$$\nt_{0}=\\ln(-2a)\n$$\n\r\n则 $\\mathrm{e}^{t_{0}}=-2a$. 当 $t=t_{0}$ 时，\r\n\n$$\nG_{t_{0}}(t_{0}+h)\r\n=\\mathrm{e}^{t_{0}}h^{2}\\left(r(h)-\\frac{1}{2}\\right)\n$$\n\r\n由 $r(h)<\\dfrac{1}{2}$（$h<0$）及 $r(h)>\\dfrac{1}{2}$（$h>0$），知 $G_{t_{0}}(t_{0}+h)\\neq0$（$h\\neq0$）. 因此在 $P=(t_{0},f(t_{0}))$ 处，切线与曲线只有一个公共点.\r\n\r\n当 $t\\neq t_{0}$ 时，$c=-a\\mathrm{e}^{-t}>0$ 且 $c\\neq\\dfrac{1}{2}$. 由 $r(h)$ 在负半轴上的取值覆盖 $(0,\\dfrac{1}{2})$，在正半轴上的取值覆盖 $(\\dfrac{1}{2},+\\infty)$，可取 $h\\neq0$ 使 $r(h)=c$. 于是 $G_{t}(t+h)=0$，该切线还与曲线有另一个公共点. 所以只有 $t=t_{0}$ 对应的点具有题设性质，参数范围为\r\n\n$$\na<0\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>$f'(x)=\\mathrm{e}^{x}+2ax-\\mathrm{e}$. 由题意，曲线在 $x=1$ 处的切线平行于 $x$ 轴，所以</p>\n$$\nf'(1)=\\mathrm{e}+2a-\\mathrm{e}=2a=0\n$$\n<p>解得 $a=0$. 此时</p>\n$$\nf'(x)=\\mathrm{e}^{x}-\\mathrm{e}\n$$\n<p>当 $x&#x3C;1$ 时，$\\mathrm{e}^{x}&#x3C;\\mathrm{e}$，故 $f'(x)&#x3C;0$；当 $x>1$ 时，$\\mathrm{e}^{x}>\\mathrm{e}$，故 $f'(x)>0$. 因此 $f(x)$ 的单调递减区间为 $(-\\infty,1)$，单调递增区间为 $(1,+\\infty)$.</p></li><li><p>设 $P=(t,f(t))$. 曲线在 $P$ 处的切线方程为</p>\n$$\ny=f'(t)(x-t)+f(t)\n$$\n<p>记曲线与该切线的纵坐标之差为</p>\n$$\nG_{t}(x)=f(x)-f'(t)(x-t)-f(t)\n$$\n<p>令 $x=t+h$，则</p>\n$$\nG_{t}(t+h)=\\mathrm{e}^{t}\\left(\\mathrm{e}^{h}-1-h\\right)+ah^{2}=h^{2}\\left(a+\\mathrm{e}^{t}\\frac{\\mathrm{e}^{h}-1-h}{h^{2}}\\right)\n$$\n<p>当 $h=0$ 时，$G_{t}(t)=0$. 对 $h\\neq0$，记</p>\n$$\nr(h)=\\frac{\\mathrm{e}^{h}-1-h}{h^{2}}\n$$\n<p>由 $\\mathrm{e}^{h}>1+h$（$h\\neq0$），知 $r(h)>0$. 再令</p>\n$$\n\\phi(h)=\\mathrm{e}^{h}-1-h-\\frac{h^{2}}{2}\n$$\n<p>由于 $\\phi(0)=\\phi'(0)=0$，且</p>\n$$\n\\phi''(h)=\\mathrm{e}^{h}-1\n$$\n<p>当 $h>0$ 时，$\\phi''(h)>0$，故 $\\phi'$ 在 $(0,+\\infty)$ 上递增，从而 $\\phi'(h)>\\phi'(0)=0$，进而 $\\phi(h)>\\phi(0)=0$；当 $h&#x3C;0$ 时，$\\phi''(h)&#x3C;0$，故 $\\phi'$ 在 $(-\\infty,0)$ 上递减，所以 $\\phi'(h)>\\phi'(0)=0$，进而 $\\phi(h)&#x3C;\\phi(0)=0$. 因此</p><p>$\\phi(h)&#x3C;0$，（$h&#x3C;0$），$\\phi(h)>0$，（$h>0$），</p><p>于是</p><p>$0&#x3C;r(h)&#x3C;\\frac{1}{2}$，（$h&#x3C;0$），$r(h)>\\frac{1}{2}$，（$h>0$）</p><p>此外，$r(h)$ 在 $h\\neq0$ 时连续，且</p><p>$\\lim_{h\\to-\\infty}r(h)=0$，$\\lim_{h\\to0}r(h)=\\frac{1}{2}$，$\\lim_{h\\to+\\infty}r(h)=+\\infty$</p><p>若 $a\\geqslant0$，则对任意 $t$ 及 $h\\neq0$，</p>\n$$\nG_{t}(t+h)=h^{2}\\left(a+\\mathrm{e}^{t}r(h)\\right)>0\n$$\n<p>此时每个点处的切线都只与曲线交于该点，不满足“存在唯一的点 $P$”.</p><p>若 $a&#x3C;0$，令</p>\n$$\nt_{0}=\\ln(-2a)\n$$\n<p>则 $\\mathrm{e}^{t_{0}}=-2a$. 当 $t=t_{0}$ 时，</p>\n$$\nG_{t_{0}}(t_{0}+h)  =\\mathrm{e}^{t_{0}}h^{2}\\left(r(h)-\\frac{1}{2}\\right)\n$$\n<p>由 $r(h)&#x3C;\\dfrac{1}{2}$（$h&#x3C;0$）及 $r(h)>\\dfrac{1}{2}$（$h>0$），知 $G_{t_{0}}(t_{0}+h)\\neq0$（$h\\neq0$）. 因此在 $P=(t_{0},f(t_{0}))$ 处，切线与曲线只有一个公共点.</p><p>当 $t\\neq t_{0}$ 时，$c=-a\\mathrm{e}^{-t}>0$ 且 $c\\neq\\dfrac{1}{2}$. 由 $r(h)$ 在负半轴上的取值覆盖 $(0,\\dfrac{1}{2})$，在正半轴上的取值覆盖 $(\\dfrac{1}{2},+\\infty)$，可取 $h\\neq0$ 使 $r(h)=c$. 于是 $G_{t}(t+h)=0$，该切线还与曲线有另一个公共点. 所以只有 $t=t_{0}$ 对应的点具有题设性质，参数范围为</p>\n$$\na&#x3C;0\n$$\n</li></ol>"
         }
       ]
     },
@@ -395,33 +214,26 @@
       "problems": [
         {
           "num": 21,
-          "body": "设曲线 $2x^{2} + 2xy + y^{2} = 1$ 在矩阵 $\\mathbf{A} = \\begin{pmatrix} a & 0 \\\\ b & 1 \\end{pmatrix}$ （$a > 0$）对应的变换作用下得到的曲线为 $x^{2} + y^{2} = 1$.\r\n\r\n\n(1) 求实数 $a$，$b$ 的值；\n\n(2) 求 $A^{2}$ 的逆矩阵.",
-          "choices": [],
+          "body": "<p>设曲线 $2x^{2}+ 2xy + y^{2}= 1$ 在矩阵 $\\mathbf{A}= \\begin{pmatrix}a &#x26; 0 \\\\ b &#x26; 1\\end{pmatrix}$ （$a > 0$）对应的变换作用下得到的曲线为 $x^{2}+ y^{2}= 1$.</p><ol class=\"enumerate\"><li><p>求实数 $a$，$b$ 的值；</p></li><li><p>求 $A^{2}$ 的逆矩阵.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 设原曲线上任意一点 $P(x,y)$ 在矩阵 $\\mathbf{A}$ 对应的变换下的像为 $P'(x',y')$，则\r\n\n$$\n\\begin{pmatrix}x'\\\\y'\\end{pmatrix}\r\n=\\begin{pmatrix}a&0\\\\b&1\\end{pmatrix}\r\n\\begin{pmatrix}x\\\\y\\end{pmatrix}\n$$\n\r\n所以\r\n$x'=ax$，$y'=bx+y$\r\n像曲线为 $x'^{2}+y'^{2}=1$，故原曲线上的点满足\r\n\n$$\na^{2}x^{2}+(bx+y)^{2}=1\n$$\n\r\n展开得\r\n\n$$\n(a^{2}+b^{2})x^{2}+2bxy+y^{2}=1\n$$\n\r\n与原曲线方程 $2x^{2}+2xy+y^{2}=1$ 比较系数，得到\r\n$a^{2}+b^{2}=2$，$2b=2$，\r\n因此 $b=1$，$a^{2}=1$. 由 $a>0$，得\r\n$a=1$，$b=1$\n\n(2) 由（1）得\r\n\n$$\n\\mathbf{A}=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix},\\qquad\r\n\\mathbf{A}^{2}\r\n=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}\r\n\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix}\r\n=\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix}\n$$\n\r\n因为\r\n\n$$\n\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix}\r\n\\begin{pmatrix}1&0\\\\-2&1\\end{pmatrix}\r\n=\\begin{pmatrix}1&0\\\\0&1\\end{pmatrix}\n$$\n\r\n所以\r\n\n$$\n(\\mathbf{A}^{2})^{-1}=\\begin{pmatrix}1&0\\\\-2&1\\end{pmatrix}\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>设原曲线上任意一点 $P(x,y)$ 在矩阵 $\\mathbf{A}$ 对应的变换下的像为 $P'(x',y')$，则</p>\n$$\n\\begin{pmatrix}x'\\\\y'\\end{pmatrix}  =\\begin{pmatrix}a&#x26;0\\\\b&#x26;1\\end{pmatrix}  \\begin{pmatrix}x\\\\y\\end{pmatrix}\n$$\n<p>所以</p><p>$x'=ax$，$y'=bx+y$</p><p>像曲线为 $x'^{2}+y'^{2}=1$，故原曲线上的点满足</p>\n$$\na^{2}x^{2}+(bx+y)^{2}=1\n$$\n<p>展开得</p>\n$$\n(a^{2}+b^{2})x^{2}+2bxy+y^{2}=1\n$$\n<p>与原曲线方程 $2x^{2}+2xy+y^{2}=1$ 比较系数，得到</p><p>$a^{2}+b^{2}=2$，$2b=2$，</p><p>因此 $b=1$，$a^{2}=1$. 由 $a>0$，得</p><p>$a=1$，$b=1$</p></li><li><p>由（1）得</p>\n$$\n\\mathbf{A}=\\begin{pmatrix}1&#x26;0\\\\1&#x26;1\\end{pmatrix},\\qquad  \\mathbf{A}^{2}=\\begin{pmatrix}1&#x26;0\\\\1&#x26;1\\end{pmatrix}  \\begin{pmatrix}1&#x26;0\\\\1&#x26;1\\end{pmatrix}  =\\begin{pmatrix}1&#x26;0\\\\2&#x26;1\\end{pmatrix}\n$$\n<p>因为</p>\n$$\n\\begin{pmatrix}1&#x26;0\\\\2&#x26;1\\end{pmatrix}  \\begin{pmatrix}1&#x26;0\\\\-2&#x26;1\\end{pmatrix}  =\\begin{pmatrix}1&#x26;0\\\\0&#x26;1\\end{pmatrix}\n$$\n<p>所以</p>\n$$\n(\\mathbf{A}^{2})^{-1}=\\begin{pmatrix}1&#x26;0\\\\-2&#x26;1\\end{pmatrix}\n$$\n</li></ol>"
         },
         {
           "num": 22,
-          "body": "在平面直角坐标系中，以坐标原点 $O$ 为极点，$x$ 轴的正半轴为极轴建立极坐标系. 已知直线 $l$ 上两点 $M$，$N$ 的极坐标分别为 $(2,0)$，$\\left(\\frac{2\\sqrt{3}}{3},\\frac{\\pi}{2}\\right)$，圆 $C$ 的参数方程为 $\\begin{cases}\r\nx = 2 + 2\\cos\\theta,\\\\\r\ny = -\\sqrt{3} + 2\\sin\\theta,\r\n\\end{cases}$（$\\theta$ 为参数）.\r\n\r\n\n(1) 设 $P$ 为线段 $MN$ 的中点，求直线 $OP$ 的平面直角坐标方程；\n\n(2) 判断直线 $l$ 与圆 $C$ 的位置关系.",
-          "choices": [],
+          "body": "<p>在平面直角坐标系中，以坐标原点 $O$ 为极点，$x$ 轴的正半轴为极轴建立极坐标系. 已知直线 $l$ 上两点 $M$，$N$ 的极坐标分别为 $(2,0)$，$\\left(\\frac{2\\sqrt{3}}{3},\\frac{\\pi}{2}\\right)$，圆 $C$ 的参数方程为 $\\begin{cases}x = 2 + 2\\cos\\theta,\\\\\n\ny = -\\sqrt{3} + 2\\sin\\theta,\\end{cases}$（$\\theta$ 为参数）.</p><ol class=\"enumerate\"><li><p>设 $P$ 为线段 $MN$ 的中点，求直线 $OP$ 的平面直角坐标方程；</p></li><li><p>判断直线 $l$ 与圆 $C$ 的位置关系.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) 极坐标与平面直角坐标的转换关系为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 因此\r\n$M=(2,0)$，$N=\\left(0,\\frac{2\\sqrt{3}}{3}\\right)$\r\n线段 $MN$ 的中点为\r\n\n$$\nP=\\left(1,\\frac{\\sqrt{3}}{3}\\right)\n$$\n\r\n直线 $OP$ 经过原点，斜率为 $\\dfrac{\\sqrt{3}}{3}$，所以其方程为\r\n\n$$\ny=\\frac{\\sqrt{3}}{3}x\n$$\n\r\n即\r\n\n$$\nx-\\sqrt{3}y=0\n$$\n\n(2) 直线 $l$ 经过 $M$ 和 $N$，故\r\n\n$$\nl:\\ x+\\sqrt{3}y=2\n$$\n\r\n由圆 $C$ 的参数方程可知，圆心为 $C_{0}=(2,-\\sqrt{3})$，半径为 $2$. 圆心到直线 $l$ 的距离为\r\n\n$$\nd=\\frac{|2+\\sqrt{3}(-\\sqrt{3})-2|}{\\sqrt{1+3}}\r\n=\\frac{3}{2}<2\n$$\n\r\n所以直线 $l$ 与圆 $C$ 相交.",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li><p>极坐标与平面直角坐标的转换关系为 $x=\\rho\\cos\\theta$，$y=\\rho\\sin\\theta$. 因此</p><p>$M=(2,0)$，$N=\\left(0,\\frac{2\\sqrt{3}}{3}\\right)$</p><p>线段 $MN$ 的中点为</p>\n$$\nP=\\left(1,\\frac{\\sqrt{3}}{3}\\right)\n$$\n<p>直线 $OP$ 经过原点，斜率为 $\\dfrac{\\sqrt{3}}{3}$，所以其方程为</p>\n$$\ny=\\frac{\\sqrt{3}}{3}x\n$$\n<p>即</p>\n$$\nx-\\sqrt{3}y=0\n$$\n</li><li><p>直线 $l$ 经过 $M$ 和 $N$，故</p>\n$$\nl:\\ x+\\sqrt{3}y=2\n$$\n<p>由圆 $C$ 的参数方程可知，圆心为 $C_{0}=(2,-\\sqrt{3})$，半径为 $2$. 圆心到直线 $l$ 的距离为</p>\n$$\nd=\\frac{|2+\\sqrt{3}(-\\sqrt{3})-2|}{\\sqrt{1+3}}=\\frac{3}{2}&#x3C;2\n$$\n<p>所以直线 $l$ 与圆 $C$ 相交.</p></li></ol>"
         },
         {
           "num": 23,
-          "body": "已知函数 $f(x) = m - |x - 2|$，$m \\in \\mathbb{R}$. 且 $f(x + 2) \\ge 0$ 的解集为 $[-1,1]$.\r\n\r\n\n(1) 求 $m$ 的值；\n\n(2) 若 $a$，$b$，$c \\in \\mathbb{R}^{+}$，且 $\\frac{1}{a} + \\frac{1}{2b} + \\frac{1}{3c} = m$，求证：$a + 2b + 3c \\ge 9$.",
-          "choices": [],
+          "body": "<p>已知函数 $f(x) = m - |x - 2|$，$m \\in \\mathbb{R}$. 且 $f(x + 2) \\ge 0$ 的解集为 $[-1,1]$.</p><ol class=\"enumerate\"><li><p>求 $m$ 的值；</p></li><li><p>若 $a$，$b$，$c \\in \\mathbb{R}^{+}$，且 $\\frac{1}{a}+ \\frac{1}{2b}+ \\frac{1}{3c}= m$，求证：$a + 2b + 3c \\ge 9$.</p></li></ol>",
+          "choices": null,
           "answer": "",
-          "solution": "(1) $$\nf(x+2)=m-|x|\n$$\n\r\n所以不等式 $f(x+2)\\geqslant0$ 等价于\r\n\n$$\n|x|\\le m\n$$\n\r\n要使解集为非空的区间 $[-1,1]$，必须有 $m\\geqslant0$，且此时 $|x|\\le m$ 的解集为 $[-m,m]$. 因此\r\n\n$$\nm=1\n$$\n\n(2) 由（1）知\r\n\n$$\n\\frac{1}{a}+\\frac{1}{2b}+\\frac{1}{3c}=1\n$$\n\r\n因为 $a$，$b$，$c>0$，由柯西不等式\r\n\n$$\n\\left(a+2b+3c\\right)\\left(\\frac{1}{a}+\\frac{1}{2b}+\\frac{1}{3c}\\right)\r\n\\ge\r\n\\left(\\sqrt{a}\\cdot\\frac{1}{\\sqrt{a}}\r\n+\\sqrt{2b}\\cdot\\frac{1}{\\sqrt{2b}}\r\n+\\sqrt{3c}\\cdot\\frac{1}{\\sqrt{3c}}\\right)^{2}\r\n=9\n$$\n\r\n代入 $\\dfrac{1}{a}+\\dfrac{1}{2b}+\\dfrac{1}{3c}=1$，得\r\n\n$$\na+2b+3c\\geqslant9\n$$",
-          "hasAnswer": false,
-          "hasSolution": true
+          "solution": "<ol class=\"enumerate\"><li>\n$$\nf(x+2)=m-|x|\n$$\n<p>所以不等式 $f(x+2)\\geqslant0$ 等价于</p>\n$$\n|x|\\le m\n$$\n<p>要使解集为非空的区间 $[-1,1]$，必须有 $m\\geqslant0$，且此时 $|x|\\le m$ 的解集为 $[-m,m]$. 因此</p>\n$$\nm=1\n$$\n</li><li><p>由（1）知</p>\n$$\n\\frac{1}{a}+\\frac{1}{2b}+\\frac{1}{3c}=1\n$$\n<p>因为 $a$，$b$，$c>0$，由柯西不等式</p>\n$$\n\\left(a+2b+3c\\right)\\left(\\frac{1}{a}+\\frac{1}{2b}+\\frac{1}{3c}\\right)  \\ge  \\left(\\sqrt{a}\\cdot\\frac{1}{\\sqrt{a}}+\\sqrt{2b}\\cdot\\frac{1}{\\sqrt{2b}}+\\sqrt{3c}\\cdot\\frac{1}{\\sqrt{3c}}\\right)^{2}=9\n$$\n<p>代入 $\\dfrac{1}{a}+\\dfrac{1}{2b}+\\dfrac{1}{3c}=1$，得</p>\n$$\na+2b+3c\\geqslant9\n$$\n</li></ol>"
         }
       ]
     }
-  ],
-  "hasPdf": true
+  ]
 }
