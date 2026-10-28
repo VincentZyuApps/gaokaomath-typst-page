@@ -24,13 +24,16 @@
     "@types/katex": "^0.16.8",
     "@types/node": "^26.6.5",
     "markdown-it-mathjax3": "^4.3.2",
+    "mermaid": "^11.17.2",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2",
-    "vitepress": "^1.6.4"
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
   },
   "dependencies": {
     "@myriaddreamin/typst-ts-renderer": "^0.7.0",
     "@myriaddreamin/typst.ts": "^0.7.0",
+    "@panzoom/panzoom": "^4.6.2",
     "@unified-latex/unified-latex-to-hast": "^1.8.4",
     "@unified-latex/unified-latex-util-parse": "^1.8.4",
     "@unified-latex/unified-latex-util-print-raw": "^1.8.4",

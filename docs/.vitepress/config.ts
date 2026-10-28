@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { withMermaid } from 'vitepress-plugin-mermaid';
 import mathjax3 from 'markdown-it-mathjax3';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -24,7 +25,10 @@ function getSidebarConfig() {
     periodNavGroup
   ];
 
-  const commonBottomItem = { text: "📖 关于项目与致敬", link: "/about" };
+  const commonBottomItems = [
+    { text: "🛠️ 架构设计与转换原理", link: "/architecture" },
+    { text: "📖 关于项目与致敬", link: "/about" }
+  ];
 
   const registryPath = path.resolve(__dirname, '../public/papers/registry.json');
   if (fs.existsSync(registryPath)) {
@@ -45,30 +49,35 @@ function getSidebarConfig() {
             link: `/papers/${yr}/${p.slug}`
           }))
         },
-        commonBottomItem
+        ...commonBottomItems
       ];
     }
   }
 
   sidebar['/papers/'] = [
     ...commonTopItems,
-    commonBottomItem
+    ...commonBottomItems
   ];
 
   sidebar['/periods/'] = [
     ...commonTopItems,
-    commonBottomItem
+    ...commonBottomItems
+  ];
+
+  sidebar['/architecture'] = [
+    ...commonTopItems,
+    ...commonBottomItems
   ];
 
   sidebar['/about'] = [
     ...commonTopItems,
-    commonBottomItem
+    ...commonBottomItems
   ];
 
   return sidebar;
 }
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: "高考数学沉浸式题库",
   description: "基于 Typst 与 VitePress 的历年全国高考数学真题现代排版与沉浸式在线题库",
   lang: "zh-CN",
@@ -84,6 +93,22 @@ export default defineConfig({
     server: {
       port: 61952,
       host: true
+    },
+    optimizeDeps: {
+      include: [
+        'mermaid',
+        'fastdom',
+        'fastdom/extensions/fastdom-promised.js',
+        '@panzoom/panzoom'
+      ]
+    }
+  },
+
+  vue: {
+    template: {
+      compilerOptions: {
+        isCustomElement: (tag) => tag.startsWith('mjx-')
+      }
     }
   },
 
@@ -124,6 +149,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "🏛️ 历年真题大厅 (777套)", link: "/papers/" },
+      { text: "🛠️ 架构原理", link: "/architecture" },
       { text: "关于与鸣谢", link: "/about" },
       {
         text: "上游项目",
@@ -154,4 +180,4 @@ export default defineConfig({
     lightModeSwitchTitle: "切换至日间浅色模式",
     darkModeSwitchTitle: "切换至夜间深色模式"
   }
-});
+}));

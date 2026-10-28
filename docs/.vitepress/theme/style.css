@@ -368,3 +368,306 @@ html:not(.dark) .lightbox-image {
 }
 
 
+
+
+/* ==============================================================================
+   超宽屏 / 2K / 4K / 带鱼屏 沉浸式全局响应式自适应系统
+   释放 VitePress 默认 1440px 束缚，让左右两翼靠边，中间内容大幅拓宽
+   ============================================================================== */
+
+/* 1. 基础全局放宽：桌面端（>= 1440px） */
+@media (min-width: 1440px) {
+  :root {
+    --vp-layout-max-width: 100vw;
+  }
+
+  /* 侧边栏与导航顶栏贴边优化，提供清爽呼吸感 */
+  .VPSidebar {
+    padding-left: 32px !important;
+  }
+  
+  .VPNavBar .wrapper {
+    padding: 0 32px !important;
+  }
+
+  /* 释放中央正文容器宽度（突破 688px 原生极窄限制） */
+  .VPDoc.has-aside .content-container {
+    max-width: 960px !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .container {
+    max-width: 1320px !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: 1120px !important;
+  }
+}
+
+/* 2. 进阶放宽：2K 屏 / 宽屏显示器（>= 1920px） */
+@media (min-width: 1920px) {
+  .VPDoc.has-aside .content-container {
+    max-width: 1220px !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .container {
+    max-width: 1680px !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: 1440px !important;
+  }
+
+  /* 试卷刷题卡片与 SVG 适度舒展 */
+  .single-card-panel {
+    max-width: 1120px !important;
+  }
+
+  .question-card-svg {
+    max-width: 960px !important;
+  }
+
+  /* 表格在宽屏下彻底展开，杜绝多列挤压折行 */
+  .vp-doc table {
+    display: table !important;
+    width: 100% !important;
+  }
+}
+
+/* 3. 终极放宽：21:9 超宽带鱼屏 / 4K 巨屏（>= 2560px） */
+@media (min-width: 2560px) {
+  /* 左右两翼留出自然边距，左侧导航与右侧大纲自然靠拢屏幕边缘 */
+  .VPSidebar {
+    padding-left: 48px !important;
+  }
+
+  .VPDocAside {
+    padding-right: 48px !important;
+  }
+
+  .VPNavBar .wrapper {
+    padding: 0 48px !important;
+  }
+
+  /* 正文内容区突破至 1520px，宏大排版尽收眼底 */
+  .VPDoc.has-aside .content-container {
+    max-width: 1520px !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .container {
+    max-width: 2160px !important;
+  }
+
+  .VPDoc:not(.has-sidebar) .content {
+    max-width: 1880px !important;
+  }
+
+  /* 试题与解析面板沉浸式大屏排布 */
+  .single-card-panel {
+    max-width: 1320px !important;
+  }
+
+  .question-card-svg {
+    max-width: 1120px !important;
+  }
+
+
+}
+
+/* ==============================================================================
+   Mermaid 架构流程图通用精致卡片化渲染
+   避免超宽屏下被无限等比放大导致巨屏压迫，收敛于黄金视觉尺寸并优雅居中
+   ============================================================================== */
+.mermaid {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 2.2rem auto !important;
+  padding: 1.8rem 2.2rem !important;
+  background: var(--vp-c-bg-soft) !important;
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 12px !important;
+  max-width: 1120px !important;
+  box-shadow: var(--vp-shadow-1) !important;
+  overflow-x: auto !important;
+  box-sizing: border-box !important;
+}
+
+.mermaid svg {
+  max-width: 1060px !important;
+  max-height: 580px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+@media (max-width: 768px) {
+  .mermaid {
+    padding: 1rem 0.5rem !important;
+    max-width: 100% !important;
+  }
+  .mermaid svg {
+    max-width: 100% !important;
+  }
+}
+
+
+/* ==============================================================================
+   GitHub 级 Mermaid Pan & Zoom 交互画板与全屏漫游视口系统
+   ============================================================================== */
+.mermaid-interactive-canvas {
+  position: relative !important;
+  overflow: hidden !important;
+  user-select: none;
+  cursor: grab;
+  touch-action: none;
+}
+
+.mermaid-interactive-canvas:active {
+  cursor: grabbing;
+}
+
+/* 悬浮毛玻璃工具栏 */
+.mermaid-toolbar {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 6px;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  box-shadow: var(--vp-shadow-2);
+  z-index: 10;
+  opacity: 0.8;
+  backdrop-filter: blur(8px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.mermaid-interactive-canvas:hover .mermaid-toolbar {
+  opacity: 1;
+}
+
+.mermaid-toolbar .m-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  color: var(--vp-c-text-2);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.mermaid-toolbar .m-btn:hover {
+  color: var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+}
+
+.mermaid-toolbar .m-btn:active {
+  transform: scale(0.92);
+}
+
+/* 底部操作微提示条 */
+.mermaid-hint {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  pointer-events: none;
+  font-size: 0.72rem;
+  color: var(--vp-c-text-3);
+  background: var(--vp-c-bg-soft);
+  padding: 2px 10px;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+  opacity: 0.65;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+}
+
+.mermaid-interactive-canvas:hover .mermaid-hint {
+  opacity: 0.95;
+}
+
+/* 全屏沉浸式漫游遮罩层 */
+.mermaid-fullscreen-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  background: rgba(15, 17, 23, 0.88);
+  backdrop-filter: blur(14px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  touch-action: none;
+  animation: vp-fade-in 0.2s cubic-bezier(0, 0, 0.2, 1);
+}
+
+html:not(.dark) .mermaid-fullscreen-overlay {
+  background: rgba(245, 247, 250, 0.92);
+}
+
+.mermaid-fullscreen-viewport {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+}
+
+.mermaid-fullscreen-viewport:active {
+  cursor: grabbing;
+}
+
+.mermaid-fs-closebar {
+  position: fixed;
+  top: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 18px;
+  background: var(--vp-c-bg-elv);
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 30px;
+  box-shadow: var(--vp-shadow-3);
+  z-index: 100000;
+}
+
+.mermaid-fs-closebar .fs-tip {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--vp-c-text-1);
+}
+
+.mermaid-fs-closebar .fs-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.mermaid-fs-closebar .fs-close-btn:hover {
+  background: #ef4444;
+  color: #fff;
+}
+
+@keyframes vp-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
